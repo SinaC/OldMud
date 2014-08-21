@@ -1,0 +1,424 @@
+AreaState 'Drow City' {
+  Room 5120 {
+    Repop = 28;
+    Mobile 5112 {
+      Ptr = 181564560;
+      Desc = '';
+      DamType = 'slash';
+      HMVP = (  ( 5008 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 5120;
+    }
+  }
+  Room 5121 {
+    Repop = 28;
+  }
+  Room 5122 {
+    Repop = 28;
+    Mobile 5100 {
+      Ptr = 181563976;
+      DamType = 'slash';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 5122;
+    }
+  }
+  Room 5123 {
+    Repop = 28;
+  }
+  Room 5124 {
+    Repop = 28;
+    Mobile 5104 {
+      Ptr = 181570408;
+      DamType = 'pound';
+      HMVP = (  ( 276 ),  ( 173 ),  ( 100 ),  ( 0 ) );
+      Silver = 159;
+      Room = 5124;
+      Obj 5103 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5103 {
+      Ptr = 181570992;
+      DamType = 'pierce';
+      HMVP = (  ( 204 ),  ( 180 ),  ( 100 ),  ( 0 ) );
+      Silver = 118;
+      Room = 5124;
+      Obj 5102 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5102 {
+      Ptr = 181563392;
+      DamType = 'slash';
+      HMVP = (  ( 197 ),  ( 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 67;
+      Room = 5124;
+      Obj 5101 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5125 {
+    Repop = 28;
+    Mobile 5107 {
+      Ptr = 181569824;
+      DamType = 'slash';
+      HMVP = (  ( 522 ),  ( 163 ),  ( 100 ),  ( 0 ) );
+      Gold = 20;
+      Silver = 64;
+      Room = 5125;
+      Obj 5104 {
+        WearLoc = 'wielded';
+      }
+      Obj 5114 {
+      }
+    }
+  }
+  Room 5126 {
+    Repop = 28;
+  }
+  Room 5127 {
+    Repop = 28;
+  }
+  Room 5128 {
+    Repop = 28;
+  }
+  Room 5129 {
+    Repop = 28;
+  }
+  Room 5130 {
+    Repop = 28;
+  }
+  Room 5131 {
+    Repop = 28;
+  }
+  Room 5132 {
+    Repop = 28;
+  }
+  Room 5133 {
+    Repop = 28;
+    Mobile 5101 {
+      Ptr = 181569240;
+      DamType = 'pierce';
+      HMVP = (  ( 125 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 20;
+      Room = 5133;
+      Obj 5100 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5134 {
+    Repop = 28;
+  }
+  Room 5135 {
+    Repop = 28;
+  }
+  Room 5136 {
+    Repop = 28;
+  }
+  Room 5137 {
+    Repop = 28;
+  }
+  Room 5138 {
+    Repop = 28;
+  }
+  Room 5139 {
+    Repop = 28;
+  }
+  Room 5140 {
+    Repop = 28;
+  }
+  Room 5141 {
+    Repop = 28;
+  }
+  Room 5142 {
+    Repop = 28;
+  }
+  Room 5143 {
+    Repop = 28;
+  }
+  Room 5144 {
+    Repop = 28;
+  }
+  Room 5145 {
+    Repop = 28;
+  }
+  Room 5146 {
+    Repop = 28;
+  }
+  Room 5147 {
+    Repop = 28;
+  }
+  Room 5148 {
+    Repop = 28;
+    Mobile 5109 {
+      Ptr = 181568656;
+      DamType = 'pound';
+      HMVP = (  ( 1357 ),  ( 187 ),  ( 100 ),  ( 0 ) );
+      Gold = 11;
+      Silver = 1079;
+      Room = 5148;
+      Affect = ( 'sanctuary', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5113 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5149 {
+    Repop = 28;
+  }
+  Room 5150 {
+    Repop = 28;
+    Mobile 5106 {
+      Ptr = 181568072;
+      DamType = 'slash';
+      HMVP = (  ( 464 ),  ( 157 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 40;
+      Room = 5150;
+      Obj 5105 {
+        WearLoc = 'wielded';
+      }
+      Obj 5109 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 5151 {
+    Repop = 28;
+    Mobile 5105 {
+      Ptr = 181567488;
+      DamType = 'pound';
+      HMVP = (  ( 382 ),  ( 161 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 3;
+      Room = 5151;
+    }
+  }
+  Room 5100 {
+    Repop = 28;
+  }
+  Room 5101 {
+    Repop = 28;
+    Mobile 5106 {
+      Ptr = 181552856;
+      DamType = 'slash';
+      HMVP = (  ( 483 ),  ( 152 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 31;
+      Room = 5101;
+      Obj 5105 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5102 {
+    Repop = 28;
+  }
+  Room 5103 {
+    Repop = 28;
+  }
+  Room 5104 {
+    Repop = 28;
+    Mobile 5104 {
+      Ptr = 181551104;
+      DamType = 'pound';
+      HMVP = (  ( 281 ),  ( 180 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 96;
+      Room = 5104;
+      Obj 5103 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5103 {
+      Ptr = 181551688;
+      DamType = 'pound';
+      HMVP = (  ( 197 ),  ( 177 ),  ( 100 ),  ( 0 ) );
+      Silver = 84;
+      Room = 5104;
+      Obj 5102 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5102 {
+      Ptr = 181552272;
+      DamType = 'pierce';
+      HMVP = (  ( 201 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 62;
+      Room = 5104;
+      Obj 5101 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5105 {
+    Repop = 28;
+    Mobile 5107 {
+      Ptr = 181562800;
+      DamType = 'slash';
+      HMVP = (  ( 520 ),  ( 166 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 47;
+      Room = 5105;
+      Obj 5104 {
+        WearLoc = 'wielded';
+      }
+      Obj 5111 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 5106 {
+    Repop = 28;
+  }
+  Room 5107 {
+    Repop = 28;
+  }
+  Room 5108 {
+    Repop = 28;
+    Mobile 5104 {
+      Ptr = 181561048;
+      DamType = 'pound';
+      HMVP = (  ( 267 ),  ( 197 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 34;
+      Room = 5108;
+      Obj 5103 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5103 {
+      Ptr = 181561632;
+      DamType = 'slash';
+      HMVP = (  ( 201 ),  ( 183 ),  ( 100 ),  ( 0 ) );
+      Silver = 96;
+      Room = 5108;
+      Obj 5102 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5102 {
+      Ptr = 181562216;
+      DamType = 'pierce';
+      HMVP = (  ( 203 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Silver = 31;
+      Room = 5108;
+      Obj 5101 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5109 {
+    Repop = 28;
+    Mobile 5107 {
+      Ptr = 181560464;
+      DamType = 'pound';
+      HMVP = (  ( 510 ),  ( 156 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 238;
+      Room = 5109;
+      Obj 5104 {
+        WearLoc = 'wielded';
+      }
+      Obj 5108 {
+        WearLoc = 'arms';
+      }
+    }
+  }
+  Room 5110 {
+    Repop = 28;
+  }
+  Room 5111 {
+    Repop = 28;
+    Mobile 5104 {
+      Ptr = 181566896;
+      DamType = 'slash';
+      HMVP = (  ( 275 ),  ( 206 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 95;
+      Room = 5111;
+      Obj 5103 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5103 {
+      Ptr = 181559296;
+      DamType = 'slash';
+      HMVP = (  ( 200 ),  ( 174 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 48;
+      Room = 5111;
+      Obj 5102 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5102 {
+      Ptr = 181559880;
+      DamType = 'slash';
+      HMVP = (  ( 202 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 5111;
+      Obj 5101 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5112 {
+    Repop = 28;
+  }
+  Room 5113 {
+    Repop = 28;
+    Mobile 5108 {
+      Ptr = 181566312;
+      DamType = 'slash';
+      HMVP = (  ( 648, 623 ),  ( 242 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 541;
+      Room = 5113;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5104 {
+        WearLoc = 'wielded';
+      }
+      Obj 5112 {
+        WearLoc = 'lfinger';
+      }
+    }
+    Obj 5115 {
+    }
+  }
+  Room 5114 {
+    Repop = 28;
+  }
+  Room 5115 {
+    Repop = 28;
+  }
+  Room 5116 {
+    Repop = 28;
+    Mobile 5113 {
+      Ptr = 181565728;
+      Desc = '';
+      DamType = 'slash';
+      HMVP = (  ( 5001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 5116;
+    }
+  }
+  Room 5117 {
+    Repop = 28;
+  }
+  Room 5118 {
+    Repop = 28;
+    Mobile 5116 {
+      Ptr = 181565144;
+      Desc = '';
+      DamType = 'slash';
+      HMVP = (  ( 8006 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 5118;
+    }
+  }
+  Room 5119 {
+    Repop = 28;
+  }
+}

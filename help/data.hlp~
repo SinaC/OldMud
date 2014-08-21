@@ -1,0 +1,307 @@
+#HELPS
+
+102 DATA DEDIT DLIST DSHOW~
+Syntax: 
+  DEDIT ABILITY     [create/delete] <name> - Ability Creation and Editing.
+  DEDIT RACE        [create/delete] <name> - Race Creation and Editing.
+  DEDIT PCRACE      [create/delete] <name> - PC Race Creation and Editing.
+  DEDIT COMMAND     <name>                 - Command Editing.
+  DEDIT PCCLASS     [create/delete] <name> - PC Class Creation and Editing.
+  DEDIT GOD         [create/delete] <name> - God Creation and Editing.
+  DEDIT LIQUID      [create/delete] <name> - Liquid Creation and Editing.
+  DEDIT MATERIAL    [create/delete] <name> - Material Creation and Editing.
+  DEDIT BREW        [create/delete] <name> - Brew Formula Creation and Editing.
+  DEDIT GROUP       [create/delete] <name> - Group/Sphere Creation and Editing.
+  DEDIT FACTION     [create/delete] <name> - Faction Creation and Editing.
+  DEDIT MAGICSCHOOL [create/delete] <name> - School Create and Editing.
+
+  DEDIT LIST        <data type name>       - List available data of data type.
+  DLIST             <data type name>
+
+Syntax:
+  DSHOW            <data type name> <name> - Show data without editing it
+
+Syntax: 
+  DSAVE            <data type name> 	   - Save Datas to Disk.
+
+Definition: [optional]  <required>
+
+     The above commands are used to expand the game world datas.  The original
+code is based on was written by Surreality and installed in The Isles by Locke.
+It was then converted to work with Envy by Jason Dinkel, and ported to ROM
+2.3 by Hans Birkeland (Hugin). Port to Rom 2.4 by Ivan Toledo (ver 1.5a).
+OLC adapted to save/edit game datas in Mystery by SinaC.
+
+     Inside an editor, typing COMMANDS lists working commands and ? gives
+help. Most commands with no arguments display syntax.
+See also help: ABILITYEDIT, RACEEDIT, PCRACEEDIT, COMMANDEDIT, PCCLASSEDIT,
+               GODEDIT, LIQUIDEDIT, MATERIALEDIT, BREWEDIT, GROUPEDIT,
+               FACTIONEDIT, MAGICSCHOOLEDIT, DSAVE, DATATYPE
+~
+
+102 ABILITYEDIT~
+Syntax: abilityedit <ability name>         - Enters ability editor
+
+The following commands are available from within the ABILITYEDITOR:
+
+commands             - prints a list of possible commands
+slot <slot number>   - changes ability slot, not for skills or special ability
+rating <class> <val> - set number of trains ability will cost for a class
+level <class> <lvl>  - set level which player of a class will get ability
+target <target>      - modify ability target (off, def, self, ...)
+position <min pos>   - changes ability minimum position (stand, sit, ...)
+cost <min cost>      - set minimal cost (mana:spell, psp:power)
+beats <value>        - set number of beats to wait after use of ability
+mobuse <value>       - specify if mob may use this ability
+damage <string>      - message send to target when ability does damage
+charwearoff <string> - message send to char when ability wears off
+objwearoff <string>  - message send to room when ability wears off from an item
+roomwearoff <string> - message send to room when ability wears off from a room
+dispellable <yes/no> - specify if ability may be dispelled with cancellation,
+                        dispel magic, ...
+dispelmsg <string>   - message send to target when ability is dispelled
+wait <value>         - number of ticks (minutes) to wait before being able to
+                        use this ability again
+craftable <yes/no>   - specify if ability may be crafted in wands/staffs/...
+school <school name> - add/remove ability from a school
+
+name <string>        - changes ability name (only for script ability)
+
+addprereqs <lvl1> <name> <lvl2>
+                     - add ability 'name' casting level 'lvl2' as prerequisites
+                        of currently edited ability casting level 'lvl1'
+delprereqs <lvl> <name|all>
+                     - remove ability 'name' from prerequisites of currently
+                        edited ability casting level 'lvl1'
+setprereqs <lvl> cost <#trains>
+                     - set number of trains needed to get casting level 'lvl'
+                        default is: lvl1=1  lvl2=5  lvl3=10  lvl4=15  lvl5=20
+           <lvl> level <needed level>
+                     - set min. needed level to get casting level 'lvl'
+                        default is the same as to gain ability
+           <lvl> classes <class|any>
+                     - set classes allowed to get casting level 'lvl'
+                        default is classes with 0 < rate < 100
+~
+
+102 RACEEDIT~
+Syntax: raceedit <race name>         - Enters race editor
+
+The following commands are available from within the RACEEDITOR:
+
+commands               - prints a list of possible commands
+act <act>              - toggle act flags, type ? ACT for a list
+affect <affects>       - toggle affect flags, type ? AFFECT for a list
+affect2 <affects>      - toggle affect flags 2, type ? AFFECT2 for a list
+offensive <off>        - toggle offensive flags, type ? OFF for a list
+immunities <imm>       - toggle immunities flags, type ? IMM for a list
+resistances <res>      - toggle resistances flags, type ? RES for a list
+vulnerabilities <vuln> - toggle vulnerabilities flags, type ? VULN for a list
+form <form>            - toggle form flags, type ? FORM for a list
+parts <parts>          - toggle forms flags, type ? PART for a list
+~
+
+102 PCRACEEDIT~
+Syntax: pcraceedit <pc race name>         - Enters PC race editor
+
+The following commands are available from within the PCRACEEDITOR:
+
+commands             - prints a list of possible commands
+whoname <string>     - set who name (max 5 char.)
+experience <value>   - set min. experience per level
+type <value>         - set pc race, type ? RACETYPE for a list
+size <value>         - set race's size, type ? SIZE for a list
+attributes <attr> <base value> <max value>
+                     - set race attributes (strength/...) base and max value
+language <value>     - set race language, type ? LANGUAGE for a list
+abilities <name>     - add/remove racial abilities
+alignment <etho> <align>
+                     - add/remove allowed alignment
+classes <name>       - add/remove allowed class
+remort <name>        - add/remove allowed remort
+minremort <value>    - set minimum number of remort before this race is allowed
+rebirth <name>       - add/remove allowed rebirth
+~
+
+102 COMMANDEDIT~
+Syntax: commandedit <command name>         - Enters command editor
+
+The following commands are available from within the COMMANDEDITOR:
+
+commands             - prints a list of possible commands
+position <position>  - minimum position to use command, type ? POSITION
+level <value>        - minimum level to use command
+log <value>          - log status, type ? LOG for a list
+show <yes/no>        - command is shown when typing COMMANDS
+~
+
+102 PCCLASSEDIT~
+Syntax: pcclassedit <class name>         - Enters PC class editor
+
+The following commands are available from within the PCCLASSEDITOR:
+
+commands             - prints a list of possible commands
+wwhoname <string>     - set who name (max 5 char.)
+attribute <name>     - set prime attributes
+weapon <vnum>        - vnum of outfit weapon
+adept <perc>         - max percentage reachable when practicing an ability
+thac0_00 <value>     - set thac0 0
+thac0_32 <value>     - set thac0 32
+hpmin <value>        - min hp gain when gaining a level
+hpmax <value>        - max hp gain when gaining a level
+type <value>         - toggle class type, type ? CLASSTYPE for a list
+                        magic, combat or mental must be selected
+basegroup <name>     - basic group gained while creating a new player
+defaultgroup <name>  - group given by default when no customize
+parent <class name>  - add/remove class parent
+choosable <value>    - set class validity, type ? CLASSCHOOSABLE for a list
+                        class with a parent should be set as NOTCREATION
+alignment <etho> <align>
+                     - add/remove allowed alignment
+castingrule <type> <highest> <other>
+                     - set casting rule for ability type 'type', ? abilitytype
+                        example: casting rule spell 5 3
+                         means one spell to casting level 5 other to level 3
+                                 casting rule skill 4 -1
+                         means every spell to casting level 4
+obj <obj vnum>       - add/remove item given to newly created character (outfit)
+create <class name>  - create a new PC class
+delete <class name>  - delete a PC class
+~
+
+102 GODEDIT~
+Syntax: godedit <god name>         - Enters god editor
+
+The following commands are available from within the GODEDITOR:
+
+commands             - prints a list of possible commands
+title <string>       - set god title
+minor <sphere>       - set minor sphere given to priests during creation
+major <sphere>       - add/remove major sphere accessible to priests
+classes <class name> - add/remove allowed classes
+priests <class name> - add/remove priest classes
+races <race name>    - add/remove allowed races
+story                - edit god's story, enter SEDITOR
+alignment <etho> <align>
+                     - add/remove allowed alignments
+create <god name>    - create a new god
+delete <god name>    - delete a god
+~
+
+102 LIQUIDEDIT~
+Syntax: liquidedit <liquid name>         - Enters liquid editor
+
+The following commands are available from within the LIQUIDEDITOR:
+
+commands             - prints a list of possible commands
+color <string>       - set liquid color
+drunk <value>        - set liquid drunk value
+full <value>         - set liquid full value
+thirst <value>       - set liquid thirst value
+food <value>         - set liquid food value
+ssize <value>        - set liquid ssize value
+create <liquid name> - create a new liquid
+delete <liquid name> - delete a new liquid
+~
+
+102 MATERIALEDIT~
+Syntax: materialedit <material name>         - Enters material editor
+
+The following commands are available from within the MATERIALEDITOR:
+
+commands              - prints a list of possible commands
+color <string>        - set liquid color
+immunities <imm>      - set immunities, type ? IMM for a list
+resistances <res>     - set resistances, type ? RES for a list
+vulnerabilities <vul> - set vulnerabilities, type ? VULN for a list
+metallic <yes/no>     - specify if material is metallic (used by heat metal)
+create <name>         - create a new material
+delete <name>         - delete a material
+~
+
+102 BREWEDIT~
+Syntax: brewedit <brew formula name>         - Enters brew editor
+
+The following commands are available from within the BREWEDITOR:
+
+commands              - prints a list of possible commands
+name <string>         - set formula name
+level <value>         - set formula effect level
+cost <value>          - set formula money cost
+effects <ability>     - add/remove effects
+add <component>       - add a component, type ? COMPONENTS for a list
+rem <component>       - remove a component, type ? COMPONENTS for a list
+create <name>         - create a new formula
+delete <name>         - delete a formula
+~
+
+102 GROUPEDIT~
+Syntax: groupedit <group name>         - Enters group editor
+
+The following commands are available from within the GROUPEDITOR:
+
+commands              - prints a list of possible commands
+contains <name>       - add/remove an ability/group from group
+rating <class> <val>  - set number of trains needed for class to buy group
+sphere <yes/no>       - specify if the group is a sphere
+godrating <god> <val> - set number of trains needed for priest to buy group
+create <name>         - create a new group
+delete <name>         - delete a group
+~
+
+102 FACTIONEDIT~
+Syntax: factionedit <faction name>         - Enters faction editor
+
+The following commands are available from within the FACTIONEDITOR:
+
+commands              - prints a list of possible commands
+race <name>           - add/remove race
+friendliness <faction> <value>
+                      - set faction friendliness with faction 'faction'
+~
+
+102 MAGICSCHOOLEDIT~
+Syntax: magicschooledit <school name>         - Enters magic school editor
+
+The following commands are available from within the MAGICSCHOOLEDITOR:
+
+commands              - prints a list of possible commands
+name <string>         - set school name
+list <ability>        - add/remove an ability from school
+create <name>         - create a new magic school
+delete <name>         - delete a magic school
+~
+
+102 DSAVE~
+Syntax: dsave <data type name>
+
+This command saves datas that can be dynamically modified such as Ability,
+Races, Factions, ...
+
+See also help: DATATYPE, DEDIT, DLIST, DSHOW
+~
+
+102 DATATYPE~
+Data types are the different datas that can be dynamically modified with dedit
+This is a list of these datas:
+  ability
+  race
+  pcrace
+  command
+  pcclass
+  god
+  liquid
+  material
+  brew
+  group
+  faction
+  magicschool
+  components
+Those types are use in commands: dshow, dlist and dsave
+See also help: DEDIT, DLIST, DSHOW, DSAVE
+~
+
+0 $~
+
+
+#$

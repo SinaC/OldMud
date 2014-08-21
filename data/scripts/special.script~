@@ -1,0 +1,254 @@
+class specPoison extends Mob {
+  onPulseMobile() {
+    if ( this.isAwake()
+         && this.fighting() != NULL
+         && random(100) <= this.level() ) {
+      var victim = this.fighting();
+      this.actRoom("$n bite$v $n!",[[this,this,victim]]);
+      // FIXME: should be `cast 'poison' `victim`
+      this.cast( victim, "poison", this.level(), range( 1, this.level()/20, 4 ) );
+    }
+  }
+}
+
+
+class specCastAdept extends Mob {
+  onPulseMobile() {
+    if ( this.isAwake() ) {
+      var victim = any[[ x <- this.room().people(),
+                         !x.isNPC()
+                         && this.canSee(x)
+                         && chance(50)
+                         && x.level() <= 10 ]];
+      if ( victim != NULL )
+        automaticCastSpell( victim );
+    }
+  }
+  automaticCastSpell( victim ) {
+     var i = random(this.chance);
+     if ( i < this.automaticSpell.size() ) {
+       var sk = this.getAbility(this.automaticSpell[i]);
+       if ( sk == 0 )
+         log("specCastAdept::castSpell: unknown spell: "+this.automaticSpell[i]);
+       else {
+         `cast '`this.automaticSpell[i]`' `victim` 1
+         this.addMana(50);
+       }
+     }
+  }
+  onCreate() {
+    // spell
+    objvar this:automaticSpell =   [[ "armor",      "bless",       "cure blindness", 
+                                      "cure light", "cure poison", "refresh",
+                                      "cure disease" ]];
+    objvar this:chance = this.automaticSpell.size() + 8;
+    // +8 to be sure he/she will not cast a spell each tick
+    // 7 chance on (7+8) to cast a spell
+  }
+}
+
+class specExecutioner extends Mob {
+  onPulseMobile() {
+    if ( this.isAwake() 
+         && this.fighting() == NULL ) {
+      var victim = any[[ x <- this.room().people(),
+		         !x.isNPC() && this.canSee(x)
+			 && ( x.checkAct("killer") || x.checkAct("thief" ) ) ]];
+      if ( victim != NULL ) {
+        var crime = "";
+        if ( victim.checkAct("killer"))      crime = "KILLER";
+        else if ( victim.checkAct("thief") ) crime = "THIEF";
+        `yell `victim.name()` is a `crime`!  PROTECT THE INNOCENT!  MORE BLOOOOD!!!
+        `murder `victim`
+      }
+    }
+  }
+}
+
+class specThief extends Mob {
+  onPulseMobile() {
+    if ( this.position() == "standing" ) {
+      var victim = any[[ x <- this.room().people(),
+                         !x.isNPC()
+                         && chance(20)
+                         && this.canSee(x)
+                         && !this.isSafe(x) ]];
+      if ( victim != NULL )
+        `use steal coins `victim`
+    }
+  }
+}
+
+class specGuard extends specExecutioner {
+  onPulseMobile() {
+    specExecutioner::onPulseMobile(); // First, we search "killer" or "thief"
+    if ( this.isAwake()               // Second, we search most evil fighter
+         && this.fighting() == NULL ) {
+
+      var maxEvil = 300;
+      var victim = [[ maxEvil = x.alignment()
+                      | x <- this.room().people(),
+                      !x.isNPC()
+                      && x.fighting() != NULL
+                      && x.fighting() != this
+                      && x.alignment() < maxEvil
+                      && this.canSee(x) ]].random();
+      if ( victim != NULL ) {
+        `emote screams 'PROTECT THE INNOCENT!!  BANZAI!!
+        `murder `victim`
+      }
+    }
+  }
+}
+
+class specJanitor extends Mob {
+  onPulseMobile (  ) {
+    if ( this.isAwake()
+         && this.fighting() == NULL )
+      [[ getItem(x)
+         | x <- this.room().contents(),
+         this.canLoot(x)
+         && x.checkWearFlags("take")
+         && this.canSee(x)
+         && ( x.itemType() == "drinkcontainer"
+              || x.itemType() == "trash"
+              || x.cost() < 10 ) ]];
+  }
+  getItem( item ) {
+    `emote picks up some trash.
+    `get `item`
+  }
+}
+
+class specFido extends Mob {
+  onPulseMobile() {
+    if ( this.isAwake() ) {
+      var room = this.room();
+      var corpse = any[[ x <- room.contents(), x.itemType() == "npccorpse" ]];
+      if ( corpse != NULL ) { // destroy a random corpse and put corpse's inventory in the room
+        `emote savagely devours a corpse.
+        [[ room.transfer(x) | x <- corpse.contains() ]];
+        corpse.destroy();
+      }
+    }
+  }
+}
+
+class specNasty extends Mob {
+  onPulseMobile() {
+    if ( this.isAwake() ) {
+      if ( this.fighting() == NULL ) {
+        if ( !this.checkAffect("sneak") )
+          `use sneak
+        if ( !this.checkAffect("hide") )
+          `use hide
+        var victim = any[[ x <- this.room().people(), 
+                           !x.isNPC() && this.canSee(x) && 
+                           x.level() > this.level() && x.level() < this.level()+10 ]];
+        if ( victim != NULL ) {
+          `use backstab `victim`
+          if ( this.fighting() == NULL ) // backstab missed
+            `murder `victim`
+        }
+      }
+      else {
+        var victim = this.fighting();
+	var c = random(100);
+        if ( c<25 && victim.gold() > 0 ) {
+          this.actRoom("$n slash$v apart $' coin purse and gather$v $s gold.",
+                    [[ this,    this,   victim,               this, victim ]] );
+          var gold = victim.gold()/10;
+          this.addGold(gold);
+          victim.addGold(-gold);
+        }
+        else if ( c<50 )
+          `flee
+      }
+    }
+  }
+}
+
+//************* Gang members
+
+class specTrollMember extends specMember {
+  onCreate() {
+    objvar this:enemyGroup = 2101;     //ogres are enemy of trolls
+    objvar this:enemyName  = "Ogre";
+    objvar this:patrolVnum = 297;
+  }
+}
+
+class specOgreMember extends specMember {
+  onCreate() {
+    objvar this:enemyGroup = 2100;     //trolls are enemy of ogres
+    objvar this:enemyName  = "Troll";
+    objvar this:patrolVnum = 294;
+  }
+}
+
+class specMember extends Mob {
+  onCreate() {
+    objvar this:enemyGroup = 0;
+    objvar this:enemyName  = "enemy";
+    objvar this:patrolVnum = -1;
+  }
+  onPulseMobile() {
+    if ( this.isAwake()
+         && this.fighting() == NULL
+         && !this.checkAffect("calm")
+         && !this.checkAffect("charm") ) {
+      var roomates = this.room().people();
+      if ( first[[ x <- this.room().people(), x.vnum() == this.patrolVnum ]] == NULL ) {
+        var vict = any[[ x <- roomates,
+                         x.isNPC() && x != this
+                         && x.group() == this.enemyGroup
+                         && this.level() > x.level() - 2
+                         && x.fighting() == NULL
+                         && this.canSee(x)
+                         && !this.isSafe(x) ]];
+        if ( vict != NULL ) {
+          var chance = random(6);
+          if ( chance == 0 )      `yell I've been looking for you, punk!
+	  else if ( chance == 1 ) `say What's slimy `this.enemyName` trash like you doing around here?
+  	  else if ( chance == 2 ) `emote cracks his knuckles and says 'Do ya feel lucky?'
+	  else if ( chance == 3 ) `say There's no cops to save you this time!
+	  else if ( chance == 4 ) `say Time to join your brother, spud.
+	  else if ( chance == 5 ) `say Let's rock.
+          force vict `yell Help! I am being attacked by `this.shortDescr()`
+          this.multiHit(vict);
+        }
+      }
+    }
+  }
+}
+
+class specPatrolMan extends Mob {
+  onPulseMobile() {
+    if ( this.isAwake()
+         && this.fighting() == NULL
+         && !this.checkAffect("calm")
+         && !this.checkAffect("charm") ) {
+      var vict = any[[ x <- this.room().people(),
+                       x != this && x.fighting() != NULL
+                       && !( x %= this ) && !( x.fighting() %= this ) ]];
+      if ( vict != NULL
+           && vict.level() <= vict.fighting().level() )
+        vict = vict.fighting();
+      if ( vict != NULL ) {
+        if ( this.isWearing("whistle") )
+          `emote blows on whistle, **WHEEEEEEEEEEEET***
+        var chance = random(7);
+        if ( chance == 0 )      `yell All roit! All roit! break it up!
+	else if ( chance == 1 ) `say Society's to blame, but what's a bloke to do?
+	else if ( chance == 2 ) `emote mumbles 'bloody kids will be the death os us all.'
+	else if ( chance == 3 ) `yell Stop that! Stop that!
+	else if ( chance == 4 ) `emote pulls out his billy and goes to work.
+	else if ( chance == 5 ) `emote sighs in resignation and proceeds to break up the fight.
+	else if ( chance == 6 ) `say Settle down, you hooligans!
+
+        force vict `yell Help! I am being attacked by `this.shortDescr()`
+        this.multiHit(vict);
+      }
+    }
+  }
+}

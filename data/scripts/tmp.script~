@@ -1,0 +1,427 @@
+class error extends Player {
+  onInformation( parm ) {
+    -dfsdfx;
+  }
+}
+
+class window extends Obj {
+  showContents( act, contents ) {
+    var i = 0;
+    while ( i < contents.size() ) {
+      var obj = contents[i];
+      if ( act.canSee( obj ) )
+        act.sendTo( "     "+obj.description() );
+      i = i + 1;
+    }
+  }
+
+  showPeople( act, people ) {
+    var i = 0;
+    while ( i < people.size() ) {
+      var ch = people[i];
+      if ( act.canSee( ch ) ) {
+        var descr;
+
+        // if a mob in default pos with a long desc
+        // or if a player standing
+        if ( ( ( ch.isNPC() && ch.position() == ch.defaultPosition() )
+               || ( !ch.isNPC() && ch.position() == "standing" ) )
+             && ch.longDescr() != "" ) {
+          if ( ch.isNPC() )
+            descr = ch.longDescr();
+          else
+            descr = ch.name() + ch.longDescr() + ".";
+        } // else: a mob not in default position or a player in another position than standing
+        else {
+          var pos = ch.position();
+          var posStr;
+
+          if ( pos == "dead" )                   posStr = " is DEAD!!!";
+          else if ( pos == "mortal" )            posStr = " is mortally wounded.";
+          else if ( pos == "incap" )             posStr = " incapacitated.";
+          else if ( pos == "stunned" )           posStr = " is lying stunned.";
+          else if ( pos == "sleeping" )          posStr = " is sleeping.";
+          else if ( pos == "resting" )           posStr = " is resting.";
+          else if ( pos == "sitting" )           posStr = " is sitting.";
+          else if ( pos == "standing" )          posStr = " is standing.";
+          else if ( pos == "fighting" )
+            if ( ch.fighting() == NULL )         posStr = " is fighting thin air??";
+            else if ( ch.fighting() == act )     posStr = " is fighting YOU!";
+            else                                 posStr = " is fighting " + ch.fighting().shortDescr() + ".";
+          else                                   posStr = ".";
+
+          descr = ch.shortDescr() + posStr;
+        }
+        act.sendTo( descr );
+      }
+      i = i + 1;
+    }
+  }
+
+  onLooking( act ) {
+    var room = getRoom( 3001 );
+    if ( room != NULL ) {
+      act.sendTo( "Looking through the window you can see "+room.name() );
+      showContents( act, room.contents() );
+      showPeople( act, room.people() );
+      result = 1;
+    }
+    else
+     result = 0;
+  }
+}
+
+class testRoom extends Room {
+  onLooking( act ) {
+    act.sendTo("name: "+this.name()+" vnum: "+this.vnum());
+    this.echo("The grass is green.");
+    result = 1; // we don't show room description, but show people and contents
+  }
+  onExiting( act, toDir ) {
+    act.sendTo("-->leaving to "+toDir);
+  }
+  onExited( act, toDir ) {
+    log("onExited");
+    act.sendTo("==>left to "+toDir);
+  }
+}
+
+class clanAmulet extends Obj {
+  onCreate() {
+    // when adding a clan, don't forget to add the amulet vnum to this list
+    objvar this:clanAmuletVnum = [[ 1296, 18000, 18011, 18020, 18030, 18050 ]];
+    objvar this:clanName = [["McLeod", "Hunters", "Troll", "TheKlan", "Cthulhu", "Satanis"]];
+
+    // change wear_loc if clan amulet are on another wear location
+    objvar this:wear_loc = "hold";
+
+    // check if we didn't make any errors when filling lists
+    if ( clanAmuletVnum.size() != clanName.size() )
+      log("BUG: clanAmuletVnum's size ("+clanAmuletVnum.size()+") not the same as clanName"+clanName.size()+".");
+  }
+
+  // return if an object is a clan amulet
+  isClanAmulet( obj ) {
+    result = 0;
+    if ( obj != NULL )
+      result = obj.vnum() in clanAmuletVnum;
+  }
+
+  // `this` is a clan amulet of act's clan
+  isOwnClanAmulet( act ) {
+    var clan = act.clan();
+    // search clan  in  clanName
+    //var size = clanName.size();
+    //var i = 0;
+    //while( i < size && clanName[i] != clan )
+    //  i = i + 1;
+    var i = clanName.index( clan );
+
+    result = 0;
+    //if ( i != size ) { // found in list
+    if ( i != -1 ) { // found in list
+      if ( clanAmuletVnum[i] == this.vnum() ) // same vnum, so amulet is act's clan amulet
+        result = 1;
+    }  
+    else
+      log("BUG: clan "+clan+" missing in clanAmulet");
+  }
+
+  // returned value:
+  // 0: not in a clan
+  // 1: already wearing a clan amulet
+  // 2: `this` is from another clan
+  // 3: `this` is from act's clan
+  checkAmulet( act ) {
+    if ( act.clan() != "" ) {// player is in a clan
+      if ( !isClanAmulet( act.carryLocation(wear_loc) ) ) { // not wearing a clan amulet
+        if ( isOwnClanAmulet( act ) ) // own clan amulet
+          result = 3;
+        else
+          result = 2;
+      }
+      else
+        result = 1;
+    }
+    else
+      result = 0;
+    //log("checkAmulet: act: "+act+" result: "+result);
+  }
+
+  // if we got a clan amulet and not wearing our clan amulet, we wear it
+  onGot( act ) {
+    var i = checkAmulet( act );
+    if ( i == 3 ) { // act's clan amulet
+      this.echo("You have to wear your clan amulet.");
+      force act `wear `this`
+    }
+  }
+
+  // each tick, we check if the amulet is on a player, in this case we force the player
+  //  to wear the amulet if he doesn't already wear a clan amulet
+  onPulseTick() {
+    var ch = this.carriedBy();
+    if ( ch != NULL ) { // object worn by a player
+      var i = checkAmulet( ch );
+      if ( i == 3 ) { // ch's clan amulet
+        this.echo("You have to wear your clan amulet.");
+        force ch `wear `this`
+      }
+    }
+  }
+
+  // cannot drop/give/put own clan amulet unless we're already wearing a clan amulet
+  mustKeep( act, which ) {
+    result = 0;
+    if ( act.clan() != "" ) {// player is in a clan
+      if ( isOwnClanAmulet( act ) ) { // own clan amulet
+        if ( !isClanAmulet( act.carryLocation(wear_loc) ) ) { // not wearing a clan amulet
+          this.echo("You can't "+which+" unless you are wearing one.");
+          result = 1;
+        }
+      }
+    }
+  }
+
+  // we cannot drop our clan amulet unless we're already wearing a clan amulet
+  onDropping( act ) {
+    result = mustKeep( act, "drop a clan amulet" );
+  }
+
+  // we cannot give our clan amulet unless we're already wearing a clan amulet
+  // same as onDropping( act ) 
+  onGiving( act, victim ) {
+    result = mustKeep( act, "give a clan amulet" );
+  }
+
+  // we cannot put our clan amulet in a container unless we're already wearing a clan
+  //  amulet
+  // same as onDropping
+  onPutting( act, container ) {
+    result = mustKeep( act, "put a clan amulet into container" );
+  }
+
+  // we have been given to another player, if we are his/her clan amulet and he/she
+  //  is not already wearing a clan amulet, we force him/her to wear it
+//  onGiven( act, victim ) {
+//    var i = checkAmulet( victim );
+//    if ( i == 3 ) { // victim's clan amulet
+//      this.echo("You have to wear your clan amulet.");
+//      force victim `wear `this`
+//    }
+//  }
+
+  // an amulet has been given to a player, if we (the amulet) are his/her clan amulet 
+  //  and he/she is not already wearing a clan amulet, we force him/her to wear it
+  onGiven( act, victim ) {
+    onGot( victim ); // same case as victim has got his/her clan amulet
+  }
+
+}
+
+class crystalBall extends Obj {
+  onCreate() {
+    objvar this:ballList = [[ 90, 91, 92, 93, 94, 95, 96 ]];
+  }
+  countCrystal() { // count how many crystal balls the carrier has
+    var i = 0;
+    if ( this.carriedBy() != NULL ) {
+      var objList = this.carriedBy().inventory();
+      result = 0;
+      while ( i < objList.size() ) {
+        var item = objList[i];
+        if ( item.vnum() in this.ballList )
+          result = result + 1;
+        i = i + 1;
+      }
+    }
+  }
+  onLooking( act ) {
+    this.say("count: "+countCrystal());
+  }
+  onGot( act ) {
+    var count = countCrystal();
+
+    if ( count <= 0 || count > 7 )
+      log("BUG: crystalBall (vnum:"+this.vnum()+") count="+count);      
+    else if ( count == 1 )
+      this.echo("The crystal ball glows briefly.");
+    else if ( count >= 2 && count <= 4 )
+      this.echo("The crystal ball glows seriously.");
+    else if ( count >= 5 && count <= 6 )
+      this.echo("The crystal ball glows hardly.");
+    else if ( count == 7 )
+      gotEmAll( act );
+  }
+
+  gotEmAll( act ) {
+    this.echo("The crystal ball glows divinely.");
+    this.echo("{RYOU HAVE FOUND THE 7 CRYSTAL BALLS{x");
+    log("CRYSTAL BALL: "+this.carriedBy()+" has found the 7 crystal balls.");
+    this.echo("Contact an immortal and show Him/Her you have a crystal reward token.");
+    this.echo("And He/She will grant you a favor.");
+    act.oLoad(89);
+    this.echo("The Crystal Balls rise in the sky and spread all over the world.");
+    spreadBalls( act );
+  }
+
+  spreadBalls( act ) {
+    // Create balls list
+    var ballObjList = [[ x | x <- act.inventory(), x.vnum() in this.ballList ]];
+    // Spread them all over the world
+    var roomList = getRoomList();
+    var i = 0;
+    while ( i < ballObjList.size() ) {
+      var room = roomList.random();
+      if ( room.linked() ) {
+        room.transfer(ballObjList[i]);         // Transfer ball to room
+        i = i+1;
+      }
+    }
+  }
+}
+
+class mobTest extends Mob {
+  onCreate() {
+    objvar this:y = 7;
+    objvar this:test3 = [[ 5, 6, y, 8 ]];
+    var x = 5;
+    objvar this:test2 = [[ 4, x, 6 ]];
+    objvar this:test = [[ [[10, 9, 8]], "tsekwa", [["joel", "loraine"]], [[ [[ 1, 2 ]], 3, [[ 4, 5 ]] ]], this ]];
+  }
+
+  onFight( act ) {
+    if ( chance(10) )
+      `say You will die, Motto!
+    if ( chance(20) )
+      `use kick
+    if ( chance(15) )
+      `cast 'colour spray'
+    if ( chance(30) && !this.isAffected("warcry") )
+      `use warcry
+    if ( chance(90) && !victim.isAffected("faerie fire") )
+      `cast 'faerie fire'
+  }
+
+  onKilled( act ) {
+    if ( chance(20) ) {
+      this.oLoad(296);
+    }
+  }
+
+  onPulseMobile() {
+    if ( this.fighting() == NULL ) {
+      var n = random(100);
+      if ( n == 0 )
+        `say Bah ...
+      else if ( n >= 1 && n <= 10 )
+        `smile
+      else
+        `mutter
+    }
+  }
+
+  onLooking( act ) {
+
+//    test3[2] = test3[2] + 4;
+//    test2[1] = test2[1] + 7;
+//    test2[0] = test2[0] + 5;
+
+//    act.actTo("$n grip$v $s weapon."); 
+//    act.actTo("$n grip$v $s weapon.", this ); 
+//    act.actAll("$n grip$v $s weapon.");
+//    act.actAll("$n grip$v $s weapon.",this);
+
+//    act("$n grip$v $s weapon.", [[act, act, act ]], "TO_RELATED" );
+//    act(">$n grip$v $s weapon.", [[this, this, this ]], "TO_ALL" );
+//    act(">>$n grip$v $s weapon.", [[act, act, act ]], "TO_OTHER" );
+//    act(">>>$n grip$v $s weapon.", [[act, act, act ]], act );
+//    act(">>>>$n grip$v $s weapon.", [[act, act, act ]], [[act,this]] );
+
+//    act("$' mind is flooded with images of carnage.", [[ act, act ]], "TO_ALL");
+//    act.aggrDamage2( this, 100, "energy"  );
+
+//      act.aggrDamage( this, 100, "energy" , "$' mind is flooded with images of carnage." );
+
+//     act.sendTo("Before, hp: "+act.hit());
+//     act.sendTo("First:");
+//     act.aggrDamage3( this, 100, "energy"  );
+//     act.sendTo("hp: "+act.hit());
+//     act.sendTo("Second:");
+//     act.aggrDamage3( this, 100, "energy" , "$' mind is flooded with images of carnage." );
+//     act.sendTo("hp: "+act.hit());
+//     act.sendTo("Third:");
+//     act.aggrDamage3( this, 100, "fire" , "{rA gout of flame from $' head strike$v $n.{x",[[this,this,act]]);
+//     act.sendTo("hp: "+act.hit());
+
+    this.room().actAll("$n draws seven cards.",this);
+    this.actRoom(">$n draws seven cards."); // $n is this
+    act.actAll(">>$n draws seven cards."); // $n is act
+    act.actAll(">>>$n draws seven cards.",this); // $n is this
+    act.actAll(">>>>$n draws seven cards.",[[this]]); // $n is this
+
+    `smile `act`
+
+    var i = 0;
+    var l2 = [[]];
+    while ( i < 5 ) {
+      var k = random(100);
+      l2 = l2 + [[ k ]];
+      i = i + 1;
+    }
+  }
+}
+
+class objTest extends Lever {
+  // no onCreate because we want a 2 positions lever and default
+  //  levers are 2 positions lever
+
+  // overload pulled, we want to perform special action when pulling this lever
+  pulled( act ) {
+    if ( this.position == 0 ) // switch back to initial position, pulled down
+      this.echo("{Ylever pulled {GDOWN{x");
+    else if ( this.position == 1 ) {                           // pulled up
+      this.echo("{Ylever pulled {GUP{x");
+      var hassan = this.mLoad(3011);
+      if ( hassan != NULL ) {
+        force hassan `say Muhahahaha
+        force hassan `murder `act`
+      }
+      else
+        log("BUG: objTest: can't found hassan (vnum 3011)");
+    }
+  }
+ 
+  // overload onLooking, we want to do special things when looking at this lever
+  onLooking( act ) {
+    if ( !act.isAffected( "armor" ) ) 
+      this.cast( act, "armor", 50, 3 );
+    if ( !act.isAffected( "bless" ) ) 
+      this.cast( act, "bless", 50, 1 );
+    this.cast( act, "fireball", 50, 2 );
+    this.cast( act, "curse", 50, 2 );
+    if ( !act.isAffected( "pass door" ) ) 
+      this.cast( act, "pass door", 50, 2 );
+
+    if ( this.position == 0 ) {                       // pulled down
+      act.sendTo("The iron lever is pulled down.");
+      this.setWearFlags("take arms");
+    }
+    else if ( this.position == 1 ) {                  // pulled up
+      act.sendTo("The iron lever is pulled up.");
+      this.setWearFlags("none"); // FIXME, can't set a flag value to none
+    }	
+    result = 1;
+  }
+
+  onDropped( act ) {
+    this.setWearFlags("none"); // FIXME, can't set a flag value to none
+    this.setTimer(10);
+
+    crystalBall::onCreate();
+  }
+ 
+  onSpeech( act, msg ) {
+    Lever::onLooking( act );
+  }
+}

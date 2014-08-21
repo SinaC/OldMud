@@ -1,0 +1,15 @@
+Sphere 'universal' {
+  Cost = 8;
+  Contains = (( 'holy symbol', 1, 1 ), 
+             ( 'last rites', 5, 1 ), 
+             ( 'hovering sphere', 6, 1 ), 
+             ( 'infravision', 7, 1 ), 
+             ( 'invisibility', 8, 1 ), 
+             ( 'cloud of revelation', 9, 1 ), 
+             ( 'final prayer', 10, 1 ), 
+             ( 'recharge', 15, 1 ), 
+             ( 'cancellation', 20, 1 ), 
+             ( 'dispel magic', 25, 1 )
+             );
+}
+

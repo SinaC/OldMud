@@ -1,0 +1,114 @@
+Player 'Toto' {
+  Id = 1058280885;
+  Version = 10;
+  LogO = 1058284645;
+  Race = 'human';
+  Sex = 'male';
+  Size = 'medium';
+  DamType = 'punch';
+  Immunities = ('none');
+  Resistances = ('none');
+  Vulnerabilities = ('none');
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+  AfBy = ('none');
+  AfBy2 = ('none');
+  Classes = ('mage', 'warrior', 'paladin', 'elementalist', 'wizard', 'enchanter');
+  Level = 100;
+  Experience = 100000;
+  Act = ('autoexit', 'autotitle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine');
+  Position = 'standing';
+  Attr = ( 10, 20, 10, 10, 10 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = ( ( 267, 717 ), ( 42, 1210 ), ( 700, 700 ), ( 239, 300 ) );
+  Alignment = 750;
+  Etho = 'lawful';
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Room = 3050;
+  Played = 2186;
+  Scroll = 24;
+  Prac = 307;
+  Train = 240;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'common';
+  Beacons = ( 0, 0, 0 );
+  God = 'Aislara';
+  NameAccepted = false;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = '   the Master Mage';
+  Condition = ( 0, 0, 19, 19 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Pnts = 5;
+  Ability = ( 40, 0, 0, 'dagger' );
+  Ability = ( 1, 1, 1, 'bash' );
+  Ability = ( 90, 1, 1, 'enhanced damage' );
+  Ability = ( 1, 0, 0, 'scrolls' );
+  Ability = ( 1, 0, 0, 'staves' );
+  Ability = ( 1, 0, 0, 'wands' );
+  Ability = ( 50, 0, 0, 'recall' );
+  Ability = ( 1, 0, 0, 'cancellation' );
+  Ability = ( 1, 0, 0, 'chill touch' );
+  Ability = ( 1, 2, 0, 'colour spray' );
+  Ability = ( 1, 0, 0, 'dispel evil' );
+  Ability = ( 1, 0, 0, 'dispel magic' );
+  Ability = ( 90, 4, 4, 'faerie fire' );
+  Ability = ( 1, 4, 4, 'fireball' );
+  Ability = ( 1, 0, 0, 'gate' );
+  Ability = ( 1, 0, 0, 'know alignment' );
+  Ability = ( 1, 0, 0, 'magic missile' );
+  Ability = ( 90, 0, 0, 'magic mirror' );
+  Ability = ( 1, 1, 1, 'choke' );
+  Group = 'rom basics';
+  Group = 'mage basics';
+  Gset = 1;
+  Security = 0;
+  Affect = ( 'magic mirror',   0, 'affects2',   1,          8,  10, 100,   0 );
+  ExField = ( 'questpoints', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3701 {
+    WearLoc = 'wielded';
+  }
+  Obj 3704 {
+    WearLoc = 'shield';
+  }
+  Obj 3162 {
+    WearLoc = 'none';
+  }
+  Obj 296 {
+    WearLoc = 'floating';
+  }
+}

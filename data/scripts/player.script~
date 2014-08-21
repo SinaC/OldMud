@@ -1,0 +1,513 @@
+class wanderingPlayer extends player {
+  // Needed extra fields
+  wanderingFields() {
+    objvar this:wanderState = 0;
+    objvar this:fightingTimer = 0;
+    objvar this:stackFrom = [[]];
+    objvar this:stackTo = [[]];
+    objvar this:stackDir = [[]];
+    objvar this:mark = [[]];
+    objvar this:teleportFound = [[]];
+    objvar this:fightMode = 1;
+    objvar this:stayArea = 1;
+  }
+  clear() {
+    wanderState = 0;
+    fightingTimer = 0;
+    stackDir = [[]];
+    stackFrom = [[]];
+    stackTo = [[]];
+    mark = [[]];
+  }
+
+  onLoad() {
+    player::onLoad();
+    clear();
+  }
+
+  onKill( victim ) {
+    player::onKill(victim);
+    wanderingFields();
+  }
+
+  showInfo() {
+    var i = 0;
+    this.sendTo(" From   To    Dir  ["+stackFrom.size().asStr()+"]");
+    if ( stackFrom.size() > 15 ) { this.sendTo("..."); i = stackFrom.size()-15; }
+    else                    i = 0;
+    while ( i < stackFrom.size() ) {
+      this.sendTo(">"+stackFrom[i]+"  "+stackTo[i]+"  "+stackDir[i]);
+      i = i+1;
+    }
+    var markStr = "Mark ["+mark.size()+"] : ";
+    if ( mark.size() > 30 ) { markStr = markStr + "... "; i = mark.size()-30; }
+    else                    i = 0;
+    while ( i < mark.size() ) {
+      markStr = markStr + mark[i].asStr() + ", ";
+      i = i+1;
+    }
+    this.sendTo(markStr);
+    var teleportStr = "Teleport ["+teleportFound.size()+"] : ";
+    if ( teleportFound.size() > 15 ) { teleportStr = teleportStr + "... "; i = teleportFound.size()-15; }
+    else                    i = 0;
+    while ( i < teleportFound.size() ) {
+      teleportStr = teleportStr + teleportFound[i].asStr() + ", ";
+      i = i+1;
+    }
+    this.sendTo(teleportStr);
+  }
+  dumpInfo() {
+    log("......... DUMPING");
+    dump("AREA: "+this.room().areaName());
+    dump("Mark ["+mark.size()+"] : ");
+    var i = 0;
+    while ( i < mark.size() ) {
+      dump(">  "+mark[i].asStr());
+      i = i+1;
+    }
+    if ( teleportFound.size() == 0 ) dump("No teleport found.");
+    else {
+      dump("Teleport: ");
+      i = 0;
+      while ( i < teleportFound.size() ) {
+        dump("--> "+teleportFound[i] );
+        i = i+1;
+      }
+    }
+    dump("-----------------------");
+  }
+  start() {
+    clear();
+    wanderState = 1;
+    log(">>>>>>>>>>>>"+this.shortDescr()+" STARTS TO EXPLORE.");
+    stackFrom = push(stackFrom,this.room().vnum());
+    stackDir = push(stackDir,"noDir");
+    stackTo = push(stackTo,this.room().vnum());
+    mark(this.room().vnum());
+  }
+  stop() {
+    wanderState = 0;
+    log(this.shortDescr()+" STOPS EXPLORING <<<<<<<<<<<<");
+  }
+  onInformation( parm ) {
+    player::onInformation( parm );
+    wanderingFields();
+    if ( parm = "start" ) start();
+    else if ( parm = "stop" ) stop();
+    else if ( parm = "clear") clear();
+    else if ( parm = "dump" ) dumpInfo();
+    else if ( parm = "fight" ) {
+      fightMode = 1 - fightMode;
+      if ( fightMode == 1 ) this.sendTo("{yFight mode {Genabled{y.{x");
+      else if ( fightMode == 0 ) this.sendTo("{yFight mode {Rdisabled{y.{x");
+    }
+    else if ( parm = "area" ) {
+      stayArea = 1 - stayArea;
+      if ( stayArea == 1 ) this.sendTo("{yStay area {Genabled{y.{x");
+      else if ( stayArea == 0 ) this.sendTo("{yStay area {Rdisabled{y.{x");
+    }
+    else
+      showInfo();
+  }
+
+  beforeMoving() {
+    `get all
+    lookList( this.inventory() );
+    [[ pull(x) | x <- this.inventory() ]];
+    destroyInventory();
+  }
+  move() { // get first room in stack and go to this room
+    if ( !empty(stackTo) ) {
+      var to = top(stackTo);
+      var from = top(stackFrom); 
+      var dir = top(stackDir);
+      if ( dir == "noDir" ) // dummy element pushed when starting
+        this.transfer(to);
+      else {
+        this.transfer(from); // transfer in from room, then move in to room
+        ``dir`
+      }
+      result = 1;
+    }
+    else {
+      log("********** STACK EMPTY....");
+      dumpInfo();
+      stop();
+      result = 0;
+    }
+  }
+  afterMoving() {
+    lookList( this.room().contents() );
+    lookList( [[ x | x <- this.room().people(), x.isNPC() ]] );
+    `say yes no release fire please give book eclavdra cresslix wish aid t'kemp vampire day robed strangers
+    var wasRoom = this.room();
+    [[ pull(x) | x <- this.room().contents() ]];
+
+    var room = this.room();
+    if ( room != wasRoom ) { // a lever has transfered us
+      if ( isMarked( room.vnum() ) ) { // if has already been transfered there, don't go
+        log("**** transfered to "+room.vnum()+"  but already visited.");
+        this.transfer(wasRoom.vnum());
+      }
+      else {
+        log("**** transfered to "+room.vnum());
+        stackFrom = push(stackFrom,room().vnum());
+        stackDir = push(stackDir,"noDir");
+        stackTo = push(stackTo,room().vnum());
+        mark(room().vnum());
+        teleportFound = teleportFound + [[ room.vnum() ]];
+      }
+    }
+  }
+  nextPosition() { // push new rooms if not already visited
+      var to = top(stackTo);     stackTo = pop(stackTo);   // pop first elem
+      var from = top(stackFrom); stackFrom = pop(stackFrom);  // pop first elem
+      var dir = top(stackDir);   stackDir = pop(stackDir);  // pop first elem
+      var room = this.room();
+      if ( room.vnum() != to )
+        log("BUG in stack: should be in room "+to+"  but in room: "+room.vnum());
+      [[ addNode( room.vnum(), room.roomDir(x).vnum(), x ) | 
+         x <- room.exits(), 
+         !isMarked(room.roomDir(x).vnum()) 
+         && ( !stayArea || room.areaName() == room.roomDir(x).areaName() ) ]];
+  }
+  onPulseMobile() {
+    wanderingFields();
+    if ( wanderState == 1 )
+      if ( this.fighting() == NULL ) {
+        // Find someone to fight
+        var found = killRandomTarget();
+        if ( !found ) { // move if no target has been found
+          beforeMoving();
+          var res = move();
+          afterMoving();
+          if ( res )
+            nextPosition(); //update stack after cos' lever can create new exits
+        }
+      }
+      else {
+        if ( this.hit() <= this.getAttr("hp") )
+          this.addHit(1000);
+        var victim = this.fighting();
+        fightingTimer = fightingTimer + 1; // avoid too long fight (no more than 15(5*3) seconds)
+        if ( victim.hit() >= victim.getAttr("hp") 
+             || fightingTimer > 5 ) {
+          victim.suddenDeath("");
+          this.fightingTimer = 0;
+        }
+      }
+  }
+
+  // Action to do when entering/leaving a room
+  look( entity ) {
+    `look `entity`
+  }
+  lookList( list ) {
+    [[ look(x) | x <- list ]];
+  }
+  pull( obj ) {
+    `pull `obj`
+  }
+  killRandomTarget() {
+    result = 0;
+    if ( fightMode ) { 
+      var target = any[[ x <- this.room().people(), x.isNPC() && x.fighting() == NULL ]];
+      if ( target != NULL ) {
+        log("--- KILLING "+target.shortDescr());
+        `kill `target`
+        result = 1;
+      }
+    }
+  }
+  destroyInventory() {
+    [[ x.destroy() | x <- this.inventory() ]];
+  }
+
+  // Hamiltonian circuit
+  addNode( from, to, dir ) { // add a room to the stacks
+    stackFrom = push( stackFrom, from );
+    stackTo = push( stackTo, to );
+    stackDir = push( stackDir, dir );
+    mark(to);
+  }
+  // Marked node management
+  mark( vnum ) {
+    mark = mark + [[ vnum ]];
+  }
+  isMarked( vnum ) {
+    var idx = mark.index(vnum);
+    if ( idx == -1 ) result = 0;
+    else             result = 1;
+  }
+
+  // Stack management
+  empty( stack ) {
+    if ( stack.size() == 0 ) result = 1;
+    else                     result = 0;
+  }
+  push( stack, info ) {
+    result = stack + [[ info ]];
+  }
+  pop( stack ) {
+    var last = stack.size()-2;
+    if ( last <= 0 ) result = [[]];
+    else             result = stack[..last];
+  }
+  top( stack ) {
+    var last = stack.size()-1;
+    if ( last < 0 ) result = -1;
+    else            result = stack[last];
+  }
+}
+
+class player extends Mob {
+// --------------------------- Create
+  onCreate() {
+    questField();
+    shopField();
+  }
+// --------------------------- Load:  specific to players, after pFile has been loaded
+  onLoad() {
+    questField();
+    shopField();
+    // Recreate quest obj
+    // questobj always exist because we have just called questField
+    var ok = 0;
+    if ( this.questobjloc > 0 && this.questobj > 0 ) {
+      var room = getRoom(this.questobjloc);
+      if ( room != NULL ) {
+        var obj = room.oLoad(this.questobj); // create object
+        if ( obj != NULL ) {
+          this.questobj = obj; // reassign questobj
+          obj.setTimer(this.countdown+5);
+          log("Questobj recreated.");
+          ok = 1;
+        }
+      }
+    }
+    else if ( this.questmob != NULL ) {
+      log("Questmob restarted.");
+      ok = 1;
+    }
+    // we reset quest extra fields only if we didn't managed to get back
+    //  quest informations, or if not quest was running when leaving
+    if ( ok == 0 )
+      questClear();
+  }
+// --------------------------- Tick
+  onPulseTick() { // every minutes
+    questUpdate();
+    shopUpdate();
+  }
+  questUpdate() {// Update quest information: update timer and send message if needed
+    //log("quest update "+this.name());    
+
+    if ( this.nextquest > 0 ) {
+      this.nextquest = this.nextquest - 1;
+      if ( this.nextquest == 0 )
+	this.sendTo("{rQUEST: You may now quest again.{x");
+    }
+    else if ( this.onquest ) {
+      this.countdown = this.countdown - 1;
+      if ( this.countdown <= 0 ) {
+        this.nextquest = 30;
+        this.sendTo("{rQUEST: You have run out of time for your quest!{x");
+        this.sendTo("{RYou may quest again in "+this.nextquest+" minutes.{x");
+        if ( ch.questobj != NULL )
+          ch.questobj.destroy(); // destroy object
+        this.questClear();
+      }
+      if ( this.countdown > 0 && this.countdown < 6 )
+        this.sendTo("{RQUEST: Better hurry, you're almost out of time for your quest!{x");
+    }
+  }
+  shopUpdate() {// Update banned shop: update timer and remove NULL shop
+    // remove null and timer wearoff shop
+    this.bannedShop = [[ x | x <- this.bannedShop, x[0] != NULL && x[1]-1 > 0 ]];
+    // update the rest, decrease timer
+    var newBannedShop = [[]];
+    var i = 0;
+    while ( i < this.bannedShop.size() ) {
+      newBannedShop = newBannedShop + [[ [[ this.bannedShop[i][0], this.bannedShop[i][1]-1 ]] ]];
+      i = i+1;
+    }
+    this.bannedShop = newBannedShop;
+  }
+// --------------------------- Information command
+  onInformation( parm ) {
+    var w = parm.words();
+    if ( w.size() > 0 )
+      if ( w[0] == "quest" || w[0] == "questing" || w[0] == "questinfo" )
+        questInfo();
+      else if ( w[0] == "faction" ) {
+        if ( w.size() >= 2 )
+          factionInfo(w[1]);
+        else
+          factionInfo("all");
+      }
+      else if ( w[0] == "shop" )
+        shopInfo();
+    delvar this:questgiver;
+    lifetimevar this:nextquest = 50;
+  }
+  factionInfo( whichOne ) { // Faction Info
+    if ( whichOne == "all" ) {
+      var factionList = this.getFaction("all");
+      var i = 0;
+      while ( i < factionList.size() ) {
+        this.sendTo("Faction name: "+factionList[i][0].pad(20)+"  =  "+factionList[i][1].pad(5));
+        i = i+1;
+      }
+    }
+    else
+      this.sendTo("Faction with "+whichOne+" : "+this.getFaction(whichOne));
+  }
+  questInfo() { // Quest Info
+    if ( this.onquest )
+        if ( this.questcomplete == 1 )    this.sendTo("Your quest is ALMOST complete!");
+        else if ( this.questobj != NULL ) this.actTo("You are on a quest to recover the fabled $n.",this.questobj);
+        else if ( this.questmob != NULL ) this.actTo("You are on a quest to slay the dreaded $n.",this.questmob);
+        else                              this.sendTo("You aren't currently on a quest.");
+     else {
+        this.sendTo("You aren't currently on a quest.");
+        if ( this.nextquest > 1 )       this.sendTo("There are "+this.nextquest+" minutes remaining until you can go on another quest.");
+        else if ( this.nextquest == 1 ) this.sendTo("There is less than a minute remaining until you can go on another quest.");
+      }
+      if ( this.questpoints == 0 )  this.sendTo("You don't have any quest points.");
+      else                          this.sendTo("You have "+this.questpoints+" quest points.");
+  }
+  shopInfo() { // Shop info
+    var i = 0;
+    while ( i < this.bannedShop.size() ) {
+      if ( this.bannedShop[i][0] != NULL )
+        this.sendTo("Shop: "+this.bannedShop[i][0].name()+"  time: "+this.bannedShop[i][1]);
+      i = i+1;
+    }
+    if ( i == 0 )
+      this.sendTo("No banned shops.");
+  }
+// --------------------------- Quit:  specific to players, before pFile is written
+  onQuitting() {
+    questForgetMob();
+    questForgetObj();
+  }
+// --------------------------- When a player moves, we inform him/her if his/her target is in the room
+  onMoved() {
+    //log("onMoved "+this.name());
+
+    // if we are in a mob quest, search in roomates if the target is among them
+    if ( this.onquest && this.questmob != NULL ) {
+      //log("onMoved  1st if");
+      var roomates = this.room().people();
+      var i = 0;
+      var stop = 0;
+      while ( i < roomates.size() && stop == 0 ) {
+        //log("onMoved  while  roomates[i]: "+roomates[i]+"   questmob: "+this.questmob);
+        if ( roomates[i] == this.questmob )
+          stop = 1;
+        i = i+1;
+      }
+      //log("onMoved  stop: "+stop);
+      if ( stop == 1 ) {
+        this.sendTo("{rQUEST: Your target is in this room!{x");
+      }
+    }
+  }
+// ------------------------- When someone enters the same room as player, we inform him/her if it's quest's target
+  onGreet( act, fromDir ) {
+    //log("onGreet "+this.name()+"  act: "+act.shortDescr() );
+    if ( this.onquest && act == this.questmob ) {
+      this.sendTo("{rQUEST: Your target has just entered in the room!{x");
+    }
+  }
+// -------------------------- Script Spell: use charSpell class
+  onCast( spellName, level, target, casting, targetName ) {
+    result = charSpell::onCast( spellName, level, target, casting, targetName );
+  }
+// -------------------------- When a player kill his/her quest target, we inform him/her
+  onKill( victim ) {
+    //log("onKill "+this.name()+" > "+victim.shortDescr() );    
+
+   // we have killed the quest mob for the 1st time
+    if ( this.onquest && this.questcomplete == 0 && victim == this.questmob ) {
+      this.sendTo("{rQUEST: You have almost completed your QUEST!{x");
+      this.sendTo("{rReturn to the questmaster before your time runs out!{x");
+      this.questcomplete = 1;
+    }
+  }
+// --------------------------- Quest
+  questField() {
+    objvar this:questgiver = NULL;
+    objvar this:questpoints = 0;
+    objvar this:nextquest = 0;
+    objvar this:countdown = 0;
+    objvar this:questobj = NULL;
+    objvar this:questmob = NULL;
+    objvar this:questobjloc = 0;
+    objvar this:onquest = 0;
+    objvar this:questcomplete = 0;
+  }
+  questForgetObj() {
+    // this is a little trick to save obj vnum instead of ptr to object
+    //  because we are not sure that the item will still be there when coming back
+    // onLoad knows what to do with this information
+    if ( questobj != NULL ) {
+      var vnum = questobj.vnum();
+      questobj.destroy();
+      questobj = vnum;
+    }
+  }
+  questClear() { // clear quest info, called when quest completed or given up
+    //log("quest clear "+this.name());    
+
+    questForgetMob();
+
+    this.onquest = 0;
+    this.questgiver = NULL;
+    this.countdown = 0;
+    this.questmob = NULL;
+    this.questobj = NULL; 
+    this.questobjloc = 0; 
+    this.questcomplete = 0;
+  }
+  questForgetMob() {
+    // quest mobs always have reserved act flag set
+    if ( questmob != NULL && questmob.checkAct("reserved") )
+      questmob.toggleAct("reserved");
+  }
+// --------------------------- Shop
+  shopField() {
+    objvar this:bannedShop = [[]]; // this a list of couple (shopkeeper, timer)
+  }
+}
+
+class autoQuest extends player {
+  onPulseMobile() {
+    if ( this.nextquest == 0 ) {
+      `goto questor
+      `dirsay questor request
+      if ( this.questmob != NULL ) { // mob quest
+        this.questmob.room().transfer(this);
+	`look
+	`slay `this.questmob`
+        this.questgiver.room().transfer(this);
+        `look
+	`dirsay questor complete
+      }
+      else if ( this.questobj != NULL ) { // obj quest
+        this.questobj.room().transfer(this);
+	`look
+	`get `this.questobj`
+        this.questgiver.room().transfer(this);
+        `look
+	`dirsay questor complete
+      }
+      else { // no quest available
+        `sniff
+        `resetarea
+      }
+    }
+    this.nextquest = 0;
+  }
+}
+

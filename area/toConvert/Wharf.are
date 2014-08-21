@@ -1,0 +1,1456 @@
+#Style Circle
+#AREADATA
+Name Wharf~
+Builders Kaan~
+VNUMs 31700 31799
+Credits {{None}  CAW    Wharf~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#31700
+mayor mcgintey cove~
+the Mayor of McGintey Cove~
+The Mayor of McGintey Cove parades by you.
+~
+   He looks quited decadent, draped in sheer, golden silk and satin teal
+sashes.  He turns his head suddenly to catch a glimpse of a young noblewoman
+and you see a small teal ornament hanging loosely from his right ear.  The
+trinket looks quite valuable.    
+~
+dghp 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+BareHandAttack: 5
+E
+#31701
+Maree~
+Maree~
+Maree is here serving drinks.
+~
+   She is one of those women who could be twenty-five or could be forty.  She
+has that timeless look about her that lends a quiet, dignified beauty.    
+~
+bdnopr 0 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31702
+noble~
+an upperclass citizen~
+A town noble stands nearby, disgusted by your mere presence.
+~
+   He is dressed in the finest clothes money can buy, and as he dusts of his
+shirt and tidies his hair he turns his head from you, not acknowledging your
+presence there.    
+~
+dgh 0 0 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+BareHandAttack: 13
+E
+#31703
+proprieter man~
+the proprieter~
+The proprieter of the Inn is here, making sure everything is perfect.
+~
+   He hurries here and there and everywhere, always fussing or whining that
+something is wrong or out of place.    
+~
+bdo 0 200 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31704
+waiter~
+a waiter~
+A waiter is here scurrying from table to table.
+~
+   He keeps glancing up at the proprieter, as if he were a stray dog expecting
+to beat at any moment.  Poor fella, he probably gets at least one good tongue
+lashing a day.    
+~
+bdh 0 800 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#31705
+wife mayor~
+the Mayor's wife~
+The Mayor's wife stalks silently by.
+~
+   Yes, her clothes are of the finest make but you can tell she does not
+belong.  Her features are long and sad looking, as if she had no desire to be
+the mayor's wife.  She moves away quickly, trying to remain unseen.    
+~
+dghor 0 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 2
+BareHandAttack: 3
+E
+#31706
+attendant roulette~
+the roulette attendant~
+A strikingly beautiful woman stands at the wheel, taking bets.
+~
+   She gives you a very big, very seductive smile and urges you to place a bet.
+  
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31707
+dealer Baagh~
+Baagh~
+Baagh is here, dealing the next the grueling round of war.
+~
+   Baagh does not look all that smart.  Seems that this card game is just his
+speed.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31708
+dealer blank faced~
+the blank-faced dealer~
+A blank-faced dealer is here, getting ready to take your money.
+~
+   This guy is the poster child for poker faces.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31709
+noble noblewoman~
+a noblewoman~
+A noble's wife is standing here.
+~
+   She has the same contempt of you as a nobleman has, full of disgust.  She
+tries to be as far away from you as she can.    
+~
+dgh 0 0 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 2
+E
+#31710
+sam dealer blackjack~
+Sam the blackjack dealer~
+Sam the blackjack dealer is here flipping cards to players.
+~
+   Sam looks almost bored as he turns over one card afetr another.  You can
+barely hear him mumble, 'push, we got a winner, oh too bad, and every now and
+then an almost audible blackjack!  '
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31711
+stealthy burglar~
+a stealthy burglar~
+A stealthy burglar is attempting to hide himself in the shadows.
+~
+   Crouched back in a corner, head low, this man thinks that you are unable to
+see him.    
+~
+bdh 0 -500 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31712
+ranger park~
+the park ranger~
+The Park Ranger is here, tending to the park.
+~
+   She is dressed all in brown and green, with rake in hand.  She looks like
+she knows her way around both forest and city.    
+~
+bdhl 0 600 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#31713
+kid little boy~
+a little boy~
+A little boy plays tag with a little girl, laughing and giggling as he runs.
+~
+   With lunch stains all over his shirt and grass stains all on his knees, he
+looks like he couldn't be any happier than he is now.    
+~
+dg 0 400 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#31714
+kid little girl~
+the little girl~
+A little girl laughs as a boy tries in vain to catch her by the ponytails.
+~
+   With her bright red hair up in ponytails, she kind of looks like Pippy
+Longstocking.    
+~
+dg 0 500 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#31715
+matre de~
+the matre de~
+The matre de looks disdainfully at you.
+~
+   This man may have to get a bit snooty, better watch it.    
+~
+bd 0 -100 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+#31716
+waiter~
+the waiter~
+A well dressed waiter is moving gracefully through the room, serving customers.
+~
+   Resplendant inhis black tuxedo and shined shoes, this man would be graceful
+falling down.    
+~
+bd 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31717
+waitress~
+the waitress~
+A waitress moves through the room serving drinks.
+~
+   This woman could only be described as elegant the way she sways and moves
+through the clientele dining here.    
+~
+bdnopr 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 2
+E
+#31718
+receptionist~
+the receptionist~
+A receptionist sits behind an ornate mahoganey desk, taking reservations for the night.
+~
+   She looks almost bored with her job as she efficiently writes dates, names,
+and times in ledger.    
+~
+bdo 0 100 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+6 6 2
+E
+#31719
+gardener woman~
+the woman~
+A woman is planting flowers here, pulling weeds here and there.
+~
+   She looks in her element here, digging in the dirt, like she couldn't be
+happier anywhere else.    
+~
+bd 0 1000 E
+17 18 0 3d3+170 2d2+2
+170 28900
+6 6 2
+E
+#31720
+server man~
+the server~
+A man is here serving all the diners quietly, efficiently.
+~
+   A very somber seeming man, you cannot see a glint of a smile or any kind of
+emotion on his face.  His work seems to be his passion.    
+~
+bdnopr 0 -100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31721
+grave digger man~
+the grave digger~
+A grave digger is resting under the shade of a tree, shovel on the ground next to him.
+~
+   He wipes the sweat from his brow, smiles, and asks if you might like to join
+him for a bit of a rest...?    
+~
+bd 0 800 E
+15 18 1 3d3+150 2d2+2
+150 22500
+6 6 1
+E
+#31722
+manager hotel~
+the hotel manager~
+The hotel manager stands behind a large desk, ready to sell you a room.
+~
+   He smiles and asks how he can help you today.    
+~
+bd 0 100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31723
+woman receptionist~
+the receptionist~
+She stands smiling at you, waiting for you to take a room.
+~
+   Hmmmm....  Wonder if she is part of the price, too...    
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#0
+
+#OBJECTS
+
+#31700
+waiters tray~
+a waiters tray~
+A tray that was once used by an underpaid waiter lies here.~
+~
+15 0 ao 0
+400 0 -1 0
+1 1000 0 0
+#31701
+sash~
+a satin teal sash~
+A expensive silk sash lies here waiting for you.~
+~
+9 bkq al 0
+2 0 0 0
+4 1000 0 18
+A
+19 2
+A
+3 -2
+#31702
+shirt protection stained~
+a stained shirt of protection~
+A stained shirt lies here folded nicely.~
+~
+9 0 ad 0
+4 0 0 0
+3 500 0 10
+A
+12 5
+A
+4 2
+#31703
+ring topaz~
+a topaz ring~
+A shiny topaz ring was left here.~
+~
+11 0 abo 0
+0 0 0 0
+1 500 0 12
+A
+12 10
+A
+3 1
+#31704
+shoes shiny pair black~
+a pair of shiny black shoes~
+A pair of shiny black shoes are on the ground.~
+These shoes are perfectly spotless, meticulously kept clean by someone with a
+fetish for cleaning stuff.    
+~
+9 0 ag 0
+5 0 0 0
+5 12 0 11
+#31705
+shovel~
+a shovel~
+A dirty old shovel lies against the wall.~
+~
+5 0 an 0
+0 1 1 6
+7 9 0 1
+#31706
+dusty lantern~
+a dusty lantern~
+A dusty lantern lies tipped over on the ground.~
+~
+1 0 ao 0
+0 0 -1 0
+6 10 0 17
+A
+2 1
+A
+14 -5
+#31707
+golden sandals~
+some golden sandals~
+A pair of gold sandals are buried under some dirt.~
+~
+11 0 ag 0
+0 0 0 0
+2 10 0 10
+A
+14 15
+A
+18 -1
+A
+19 -1
+#31708
+sachel~
+a sachel~
+A plain looking sachel hangs here.~
+~
+15 0 ao 0
+25 1 -1 0
+12 10 0 1
+#31709
+whisky flask silver whisky~
+an engraved silver flask~
+A small flask has been left here.~
+The engraving on the side reads CTW, whatever that means..
+~
+17 0 ao 0
+5 5 5 0
+10 10 0 1
+#31710
+locket golden~
+a golden locket~
+A small piece of jewelry is on the ground.~
+You try and try to prise this thing open, but it will not budge.
+~
+11 0 ac 0
+0 0 0 0
+5 100 0 13
+A
+3 2
+A
+4 1
+A
+1 -2
+#31711
+sash~
+an embroidered sash~
+A pile of cloth is on the ground.~
+Woven from the finest silk, this was obviously made for a woman of stature.  
+~
+11 0 al 0
+0 0 0 0
+5 200 0 11
+A
+17 -2
+A
+6 2
+#31712
+cloak obscurity~
+a Cloak of Obscurity~
+A dark pile of cloth is crumpled in the corner.~
+~
+9 f ak 0
+6 0 0 0
+5 10 0 15
+A
+2 2
+A
+13 20
+A
+19 -1
+#31713
+stiletto black~
+a black stiletto~
+A deadly stiletto stands upright between two stones.~
+~
+5 0 an 0
+3 5 3 11
+1 50 0 20
+A
+1 1
+A
+19 2
+#31714
+cape blending~
+the Cape of Blending~
+It looks as if the floor has wrinkles.~
+~
+9 bf ak 0
+7 0 0 0
+10 1 0 15
+E
+cape blending~
+   This wonderful cape can camouflage you in almost any setting.  
+~
+A
+5 2
+A
+14 25
+#31715
+rake~
+a simple rake~
+A rake has been dropped on the ground.~
+Metal pronged teeth and a wooden handle.  Looks a lot like a rake.
+~
+12 0 ao 0
+0 0 0 0
+7 10 0 1
+#31716
+peel banana~
+a banana peel~
+Someone left their banana peel here... tsk, tsk, someone could fall!~
+No banana stuff inside, sorry, just the peel.
+~
+12 0 ao 0
+0 0 0 0
+1 1 0 1
+#31717
+gloves gardening~
+some gardening gloves~
+A pair of gardening gloves have been left here.~
+They have a bit of dirt smudged on the fingertips, but other than that, they
+look perfectly usable.    
+~
+9 0 ah 0
+4 0 0 0
+3 10 0 1
+#31718
+shovel gardening~
+a small gardening shovel~
+A small gardening shovel is laying in the ground.~
+Looks like it could dig a mean hole or two...
+~
+12 0 ao 0
+0 0 0 0
+3 1 0 1
+#31719
+shovel~
+a shovel~
+A shovel is propped up against a tree.~
+Kind of makes you queasy to know that this shovel is used only for burying
+people...    
+~
+12 0 ao 0
+0 0 0 0
+9 1 0 1
+#31720
+sign rules~
+the rules of the game~
+A sign is hung on the wall just inside the door.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+sign~
+   -House Rules-
+
+-To place a wager simply type GAMBLE (amnt) and the dealer will deal
+you one card and a card for himself.  The player with the highest
+card wins the wager.   
+
+In the event of a tie, there will be a War! and this will continue
+until there is a winner.
+~
+#31721
+beer goblet sparkling beer~
+a sparkling goblet~
+A sparkling goblet full of beer has been left here.~
+~
+17 0 ao 0
+3 3 1 0
+5 19 0 0
+#31722
+wine decanter crystal wine~
+a crystal decanter~
+A crystal decanter filled with expensive wine has been left here.~
+~
+17 0 ao 0
+7 7 2 0
+9 38 0 0
+#31723
+meat plate sizzling~
+a sizzling plate of rare szgina meat~
+Someone left a REALLY tasty looking plate of food here.~
+~
+19 0 ao 0
+4 0 0 0
+6 40 0 0
+#31724
+tray vegetable steaming~
+a steaming vegetable tray~
+A steaming vegetable is here, steaming.~
+~
+19 0 ao 0
+1 0 0 0
+4 20 0 0
+#31725
+leg yantha beast~
+leg of Yantha Beast~
+Someone left their leg of Yantha Beast here - what a waste of a delicacy!~
+~
+19 0 ao 0
+3 0 0 0
+5 66 0 0
+#31726
+ribs ilzaak pomegranete sauce~
+some Ilzaak ribs in pomegranete sauce~
+There is a plate of Ilzaak ribs here steaming in pomegranete sauce.~
+~
+19 0 ao 0
+5 0 0 0
+6 85 0 0
+#31727
+banana red~
+a red banana~
+A red banana has been dropped here.~
+~
+19 0 ao 0
+1 0 0 0
+2 25 0 0
+#31728
+chupacabre rotisseri~
+some rotiserrie chupacabre~
+A warm, steaming rotiserri chupacabre has been left here.~
+~
+19 0 ao 0
+10 0 0 0
+10 100 0 0
+#31729
+wine glass green wine~
+a beveled green glass~
+A beautifully beveled green glass has been left here.~
+~
+17 0 ao 0
+3 3 2 0
+3 30 0 0
+#0
+
+#ROOMS
+
+#31700
+North Street~
+   The gradual slope that was just west of here has turned into a steep hill
+which climbs it's way up into the Wharf.  Seems the great people who make their
+homes in the Wharf like to be able to look down upon those less fortunate and
+watch them scurry about their daily lives.  The road heads east, uphill into the
+Wharf, or west into the main business district of the Cove.  
+~
+317 0 0
+D1
+~
+~
+0 0 31701
+D3
+~
+~
+0 0 31515
+E
+credits info~
+Kaan
+Zone 317 is linked to the following zones:
+315 McGintey Business District     at 31700 (west ) ---> 31515
+~
+S
+#31701
+North Street~
+   The road continues east, still heading in a steep uphill direction.  To the
+west you can see most of the main business section of town, which is actually
+quite a ways beneath you.  
+~
+317 0 0
+D1
+~
+~
+0 0 31702
+D3
+~
+~
+0 0 31700
+S
+#31702
+North Street~
+   You are at the crest of North Street's hill leading into the Wharf, the
+upscale section of town.  The road heads east into more of the Wharf or west,
+downhill, into the main business section of town.  North of you is a small
+cobbled path, very well kept and brightly lit.  South is a glamorous looking
+hotel which looks to cater to wealthier people in town.  
+~
+317 0 0
+D0
+~
+~
+0 0 31704
+D1
+~
+~
+0 0 31711
+D2
+~
+~
+0 0 31703
+D3
+~
+~
+0 0 31701
+S
+#31703
+Wharfside Inn~
+   This huge, gaudily decorated hotel caters to the needs of the most
+influential businessmen and notables in McGintey Cove.  To the north is the exit
+out onto North Street, east is the bar, and south is a private dining/meeting
+room
+~
+317 d 0
+D0
+~
+~
+0 0 31702
+D1
+~
+~
+0 0 31734
+D2
+~
+~
+0 0 31733
+D4
+~
+~
+0 0 31737
+S
+#31704
+Gambler's Alley~
+   Although not truly an alley, this well kept cobblestone path leads the way
+into the gambling section of the Wharf.  To the east and west are casinos which
+specialize in specific games, and to the north the path continues into a small
+court with casinos on all sides as well.  The way south heads back onto North
+Street.  
+~
+317 0 0
+D0
+~
+~
+0 0 31705
+D1
+~
+~
+0 0 31707
+D2
+~
+~
+0 0 31702
+D3
+~
+~
+0 0 31710
+S
+#31705
+Gambler's Alley~
+   This marks the end of Gambler's Alley, but not the end of the fun.  To the
+north, east and west are casinos, each of which specialize in a particular
+gambler's game.  South the path leads past more casinos and out onto North
+Street.  
+~
+317 0 0
+D0
+~
+~
+0 0 31708
+D1
+~
+~
+0 0 31706
+D2
+~
+~
+0 0 31704
+D3
+~
+~
+0 0 31709
+S
+#31706
+The Art of War~
+   This huge sprawling hall has dedicated it's entire space to the game of War.
+Although most of the tables are filled, there are a few empty chairs here and
+there.  There is a sign on the wall explaining the rules of the game.  
+~
+317 e 0
+D3
+~
+~
+0 0 31705
+S
+#31707
+Slots~
+   Lined against every wall of this building and in neat rows in the center are
+slot machines, slot machines, and more slot machines.  The noise of this place
+is almost deafening, the people's cursing quite the same.  The exit lies west or
+you may try you luck with any one of these one armed bandits!  
+~
+317 d 0
+D3
+~
+~
+0 0 31704
+S
+#31708
+Blackjack~
+   Dealers sit at tables spaced evenly throughout this plush room, all wearing
+the same expressionless face as they deal the cards to the players.  
+~
+317 d 0
+D2
+~
+~
+0 0 31705
+S
+#31709
+Poker~
+   The men and women who sit at the tables spaced throughout this room try their
+best to keep their faces blank, however every now and again a small smirk
+escapes or an eyebrow gets raised.  The exit from this room is to the east
+~
+317 0 0
+D1
+~
+~
+0 0 31705
+S
+#31710
+Roulette~
+   This building, by far the smallest of all the casinos in Gambler's Alley,
+houses one giant wheel and an attendant who seems to speak nonstop, trying to
+get all who walk into the room to place a wager on the next spin.  
+~
+317 d 0
+D1
+~
+~
+0 0 31704
+S
+#31711
+North Street~
+   North Street heads east toward a huge building, apparently a home of some
+sort.  Just before the home, it looks as if the road makes some sort of turn or
+merges into another street which heads south.  Just south of your current locale
+is a short brick wall which encloses a large park that from the looks of it, is
+maintained quite regularly.  The road also heads west past a small cobbled
+street and heads out of sight downhill toward McGintey's main business district.
+
+~
+317 d 0
+D1
+~
+~
+0 0 31712
+D3
+~
+~
+0 0 31702
+S
+#31712
+North Street~
+   North Street ends here before a huge mansion of some sort which lies just
+east from here.  Wharf Street runs south from here thru a great number of hotels
+and high class restaurants.  You may head west along North Street as well.  
+~
+317 d 0
+D1
+~
+~
+0 0 31713
+D2
+~
+~
+0 0 31714
+D3
+~
+~
+0 0 31711
+S
+#31713
+The Mayor's House~
+   This lush mansion holds all manner of eccentricies, from plush luxuriant
+divines to wide carpets and rugs from overseas.  A wide hallway leads into what
+appears to be a ballroom and a double wide set of stairs lead to the upper wing
+of the mansion.  You may exit to the west.  
+~
+317 d 0
+D1
+~
+~
+0 0 31735
+D3
+~
+~
+0 0 31712
+D4
+~
+~
+0 0 31736
+S
+#31714
+Wharf Street~
+   This street, completely done in white marble stone, heads north and south
+from here.  To the west is the entrance to a large park, completely enclosed in
+by a low brick wall.  North of here is another street, one which heads to the
+west.  
+~
+317 0 0
+D0
+~
+~
+0 0 31712
+D2
+~
+~
+0 0 31717
+D3
+~
+~
+0 0 31715
+S
+#31715
+McGintey Park~
+   This park, kept up by the city commission, boasts a wide open expanse of
+beautifully trimmed green grass complete with a fountain and playground
+equipment for the kids.  It looks as if many a family has come here for Sunday
+picnics from the way the people here simply saunter through the park without
+fear of phsycial harm or theft.  To the south is more of this beautiful park,
+east is Wharf Street.  
+~
+317 0 0
+D1
+~
+~
+0 0 31714
+D2
+~
+~
+0 0 31716
+S
+#31716
+McGintey Park~
+   This beautiful, well tended patch of earth hosts McGintey Cove's most
+comforting, spacious and luxurious pieces of land in the whole city.  Children
+run around your feet as you saunter through the park, enjoying the fresh air and
+the tangy smell of the sea as the breeze wafts it your way every now and then.
+The park continues north form here and Wharf Street lies just east.  
+~
+317 0 0
+D0
+~
+0~
+0 0 31715
+D1
+~
+~
+0 0 31717
+S
+#31717
+Wharf Street~
+   Wharf Street continues north and south from here, white marble stone chips
+the entire distance.  A very large, very beautiful park lies just west of here
+looking extremely inviting.  To the east is a glitzy looking restaurant called
+the Blind Pig.  
+~
+317 0 0
+D0
+~
+~
+0 0 31714
+D1
+~
+~
+0 0 31718
+D2
+~
+~
+0 0 31719
+D3
+~
+~
+0 0 31716
+S
+#31718
+The Blind Pig~
+   Upon entering this establishment (it could only be called an establishment
+from the way it looks) you immediately feel as if you may be a bit underdressed.
+All the clientele at this establishment seem to be dressed in their Sunday
+finest, the waiters and waitresses all decked out in tuxedos and beautiful
+serving gowns.  The matre de gives a bit of a sniff at your appearance, but
+quickly regains his composier as he asked if he can show you to a table.  
+~
+317 0 0
+D3
+~
+~
+0 0 31717
+S
+#31719
+Wharf Street~
+   The glamour never ends as you strut your way through this upper class section
+of town.  A huge churich, looking as if it must have thousands of rch
+parishoners who attend weekly stands to your east.  To the west is a large
+hotel, the Royale.  The street runs north and south from here.  
+~
+317 0 0
+D0
+~
+~
+0 0 31717
+D2
+~
+~
+0 0 31723
+D3
+~
+~
+0 0 31721
+S
+#31721
+The Royale~
+   The glittering copper and gold that adorns most everything in this hotel
+gives testament to the fact that it has been aptly named.  It seems that only
+the creme de la creme of McGintey Cove would be able to afford to stay in this
+palacial place.  A small door leads south into a beautiful garden.  
+~
+317 d 0
+D1
+~
+~
+0 0 31719
+D2
+~
+~
+0 0 31722
+S
+#31722
+The Wharf Garden~
+   The flowers and trees all around give such an overwhelming aroma, such a
+delightful mixture of fragrances it's easy to forget that you are standing in
+the middle of a huge city.  
+~
+317 e 0
+D0
+~
+~
+0 0 31721
+D1
+~
+~
+0 0 31723
+S
+#31723
+Wharf Street~
+   The street runs north to south past a small garden on the west side.  To the
+northeast is a large church or temple which sits against the wall of the city.
+Northwest is large hotel and southeast is a restaurant of some sort.  
+~
+317 0 0
+D0
+~
+~
+0 0 31719
+D2
+~
+~
+0 0 31724
+D3
+~
+~
+0 0 31722
+S
+#31724
+Wharf Street~
+   This broad street runs north to south, all covered in beautiful white marble
+stone chips.  Just east of you is a restaurant - the Vista View - and to the
+south the road runs into South Street, which heads off to the west.  
+~
+317 0 0
+D0
+~
+~
+0 0 31723
+D1
+~
+~
+0 0 31725
+D2
+~
+~
+0 0 31726
+S
+#31725
+The Vista View~
+   This opulent restaurant serves what is claimed by many to be the finest
+dining in all of McGintey Cove, possibly in all of Dibrova.  To enjoy any of the
+fine meals offered here, all one has to do is cough up the coin to pay for this
+exquisite fare.  
+~
+317 d 0
+D3
+~
+~
+0 0 31724
+S
+#31726
+South Street~
+   South Street ends here, however Wharf picks up where the other leaves off and
+heads north into the Wharf.  From here you can see many a fine establishment to
+the north, the rich promise of the 'good life'.  West the street runs past a
+well-kept cemetary and a hotel and begins it's downward slant toward the main
+business dictrict of the Cove.  
+~
+317 0 0
+D0
+~
+~
+0 0 31724
+D3
+~
+~
+0 0 31727
+S
+#31727
+South Street~
+   This shady lane heads east to west through this cheery, beautiful section of
+town.  Just east of you, South Street comes to an end and Wharf Street picks up
+heading north.  The road heads west past a cemetary and a hotel, then begins
+it's downhill descent toward the business district.  
+~
+317 0 0
+D1
+~
+~
+0 0 31726
+D3
+~
+~
+0 0 31729
+S
+#31728
+The Oakland~
+   This huge hotel, perched on the outskirts of the Wharf, caters to a higher
+class of citizen, but not the highest class.  Prices here are still higher than
+those of the inns and taverns you will find in the business district, but not so
+outrageous as to turn your stomach.  The exit lies to the north.  
+~
+317 d 0
+D0
+~
+~
+0 0 31729
+S
+#31729
+South Street~
+   You stand at the crest of South Street Hill, the large steep hill that runs
+up into the Wharf, the high class section of McGintey Cove.  To your south is a
+very nice hotel, to the north is finely tended cemetary.  The road runs east
+into the Wharf or south, down into the business district.  
+~
+317 0 0
+D0
+~
+~
+0 0 31730
+D1
+~
+~
+0 0 31727
+D2
+~
+~
+0 0 31728
+D3
+~
+~
+0 0 31732
+S
+#31730
+Cemetary Entrance~
+   This small path leading into this cemetary is lined with pretty flowers, all
+landscaped just right.  Most cemetaries give a feeling of foreboding, of
+impending doom, but for some reason this cemetary inspires a serene, Almost
+peaceful feeling and you can' t help but feel drawn into it.  
+~
+317 0 0
+D0
+~
+~
+0 0 31731
+D2
+~
+~
+0 0 31729
+S
+#31731
+Cemetary~
+   All around you, birds chirp and chipmunks play.  This is definately not a bad
+place, not in the traditional way a cemetary is thought to be anyway.  Many
+epitaphs are inscribed on tombstones which surround you, some interesting, some
+just simple statements of fact.  The exit from this place lies south across a
+cheery path.  
+~
+317 0 0
+D2
+~
+~
+0 0 31730
+S
+#31732
+South Street~
+   The road heads east at an extremely steep incline toward the crest, which is
+just to the east.  At the top of the hill begins the Wharf, the upscale, high
+class section of McGintey Cove where only the richest folk can afford to live
+and abide.  To the south the street heads downhill into the main business
+district.  
+~
+317 0 0
+D1
+~
+~
+0 0 31729
+D3
+~
+~
+0 0 -1
+S
+#31733
+Private Dining Room~
+   Thsi room has hosted some of the most powerful men in all the land's meetings
+and private affairs.  The owner of the inn, always discreet, always willing to
+go the extra mile has created quite a reputation for himself and his
+establishment as being THE place to meet when in McGintey Cove.  The exit from
+this room is north, or you may relax at the large table here.  
+~
+317 d 0
+D0
+~
+~
+0 0 31703
+S
+#31734
+Wharfside Inn Bar~
+   This quiet, dimly lit bar provides a formal yet comfortable atmosphere where
+the man and women who frequent the place go to escape from their daily hectic
+lives.  Soft music is played by a harpist in the back west corner of the room, a
+fireplace crackles quietly and Maree serves drinks with quiet and dignified
+effeciency.  
+~
+317 cdeh 0
+D3
+~
+~
+0 0 31703
+S
+#31735
+Mayor's Ballroom~
+   Your footsteps echo loudly on the polished wooden floor as you enter this
+room.  It seems no one is planning any types of parties in the near future - all
+the tables are folded neatly against the walls, the chairs the same way.  The
+bandstand stands empty, with no hint of any use forthcoming in the near future.
+The exit from this room lies west from here.  
+~
+317 d 0
+D3
+~
+~
+0 0 31713
+S
+#31736
+Hallway~
+   Every door leading from this hallway is shut and locked tight.  It seems that
+the mayor takes no chances with his personal affects, keeping them under lock
+and key at all times.  The only obvious exit from where you stand is back down
+the stairs.  
+~
+317 d 0
+D5
+~
+~
+0 0 31713
+S
+#31737
+Reception at the Wharfside~
+   A scantily dressed woman is waiting to show you to your room.  
+~
+317 d 0
+D5
+~
+~
+0 0 31703
+S
+#0
+
+#RESETS
+M 0 31720 1 31725 	(the server)
+G 1 31729 500 -1 	(a beveled green glass)
+G 1 31728 500 -1 	(some rotiserrie chupacabre)
+G 1 31727 500 -1 	(a red banana)
+G 1 31726 500 -1 	(some Ilzaak ribs in pomegranete sauce)
+G 1 31725 500 -1 	(leg of Yantha Beast)
+M 0 31715 1 31718 	(the matre de)
+M 0 31716 1 31718 	(the waiter)
+M 0 31717 1 31718 	(the waitress)
+G 1 31724 500 -1 	(a steaming vegetable tray)
+G 1 31723 500 -1 	(a sizzling plate of rare szgina meat)
+G 1 31722 500 -1 	(a crystal decanter)
+G 1 31721 500 -1 	(a sparkling goblet)
+M 0 31701 1 31734 	(Maree)
+G 1 3001 500 -1 	(a bottle)
+M 0 31707 1 31706 	(Baagh)
+O 0 31720 1 31706 	(the rules of the game)
+M 0 31712 1 31715 	(the park ranger)
+E 1 31714 1 12 	(the Cape of Blending)
+E 1 31715 1 17 	(a simple rake)
+M 0 31719 1 31722 	(the woman)
+E 1 31717 1 9 	(some gardening gloves)
+E 1 31718 1 17 	(a small gardening shovel)
+M 0 31713 1 31716 	(a little boy)
+G 1 31716 1 -1 	(a banana peel)
+M 0 31714 1 31716 	(the little girl)
+M 0 31711 1 31736 	(a stealthy burglar)
+E 1 31712 1 12 	(a Cloak of Obscurity)
+E 1 31713 1 16 	(a black stiletto)
+M 0 31700 1 31712 	(the Mayor of McGintey Cove)
+E 1 31701 99 13 	(a satin teal sash)
+E 1 31703 1 17 	(a topaz ring)
+E 1 31702 1 5 	(a stained shirt of protection)
+M 0 31709 3 31712 	(a noblewoman)
+E 1 31707 3 8 	(some golden sandals)
+E 1 31708 3 17 	(a sachel)
+M 0 31709 3 31732 	(a noblewoman)
+E 1 31707 3 8 	(some golden sandals)
+E 1 31708 3 17 	(a sachel)
+M 0 31721 1 31731 	(the grave digger)
+E 1 31705 1 17 	(a shovel)
+E 1 31706 1 0 	(a dusty lantern)
+M 0 31705 1 31710 	(the Mayor's wife)
+E 1 31709 1 17 	(an engraved silver flask)
+E 1 31710 1 3 	(a golden locket)
+E 1 31711 1 12 	(an embroidered sash)
+M 0 31704 1 31703 	(a waiter)
+E 1 31700 99 17 	(a waiters tray)
+M 0 31723 1 31737 	(the receptionist)
+M 0 31722 1 31728 	(the hotel manager)
+M 0 31718 1 31721 	(the receptionist)
+M 0 31709 3 31705 	(a noblewoman)
+M 0 31710 1 31708 	(Sam the blackjack dealer)
+M 0 31708 1 31709 	(the blank-faced dealer)
+M 0 31706 1 31710 	(the roulette attendant)
+M 0 31703 1 31733 	(the proprieter)
+M 0 31702 3 31724 	(an upperclass citizen)
+M 0 31702 3 31717 	(an upperclass citizen)
+M 0 31702 3 31711 	(an upperclass citizen)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#31700~
+3001
+6763
+-1
+1.28
+0.98
+12
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+31701
+0
+31734
+-1
+0
+28
+0
+0
+#31701~
+31721
+31722
+31723
+31724
+-1
+1.80
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31717
+0
+31718
+-1
+0
+28
+0
+0
+#31702~
+31725
+31726
+31727
+31728
+31729
+-1
+1.67
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31720
+0
+31725
+-1
+0
+28
+0
+0
+0
+
+
+#$

@@ -1,0 +1,973 @@
+AreaState 'NewTown' {
+  Room 17800 {
+    Repop = 28;
+    Mobile 17814 {
+      Ptr = 184748904;
+      HMVP = (  ( 131 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17800;
+    }
+    Obj 17833 {
+    }
+  }
+  Room 17801 {
+    Repop = 28;
+    Mobile 17808 {
+      Ptr = 184748320;
+      HMVP = (  ( 12 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17801;
+      Obj 17809 {
+        WearLoc = 'body';
+      }
+      Obj 17836 {
+        WearLoc = 'legs';
+      }
+      Obj 17808 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 17802 {
+    Repop = 28;
+    Obj 17834 {
+    }
+  }
+  Room 17803 {
+    Repop = 28;
+    Mobile 17813 {
+      Ptr = 184747736;
+      HMVP = (  ( 10 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 17803;
+      Obj 17838 {
+        WearLoc = 'wielded';
+      }
+      Obj 17837 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 17804 {
+    Repop = 28;
+    Mobile 17812 {
+      Ptr = 184747152;
+      HMVP = (  ( 10 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17804;
+    }
+  }
+  Room 17805 {
+    Repop = 28;
+    Mobile 17809 {
+      Ptr = 184746568;
+      HMVP = (  ( 15 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17805;
+      Obj 17809 {
+        WearLoc = 'body';
+      }
+      Obj 17807 {
+        WearLoc = 'legs';
+      }
+    }
+  }
+  Room 17806 {
+    Repop = 28;
+    Obj 17834 {
+    }
+  }
+  Room 17807 {
+    Repop = 28;
+  }
+  Room 17808 {
+    Repop = 28;
+    Mobile 17814 {
+      Ptr = 184745984;
+      HMVP = (  ( 130 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17808;
+    }
+  }
+  Room 17809 {
+    Repop = 28;
+  }
+  Room 17810 {
+    Repop = 28;
+    Mobile 17811 {
+      Ptr = 184757680;
+      HMVP = (  ( 17 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17810;
+    }
+  }
+  Room 17811 {
+    Repop = 28;
+  }
+  Room 17812 {
+    Repop = 28;
+    Obj 17834 {
+    }
+  }
+  Room 17813 {
+    Repop = 28;
+  }
+  Room 17814 {
+    Repop = 28;
+  }
+  Room 17815 {
+    Repop = 28;
+  }
+  Room 17816 {
+    Repop = 28;
+    Obj 17834 {
+    }
+  }
+  Room 17817 {
+    Repop = 28;
+    Mobile 17810 {
+      Ptr = 184757096;
+      HMVP = (  ( 44 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 17817;
+      Obj 17809 {
+        WearLoc = 'body';
+      }
+      Obj 17807 {
+        WearLoc = 'legs';
+      }
+      Obj 17813 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 17818 {
+    Repop = 28;
+    Mobile 17814 {
+      Ptr = 184756512;
+      HMVP = (  ( 132 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17818;
+    }
+  }
+  Room 17819 {
+    Repop = 28;
+  }
+  Room 17820 {
+    Repop = 28;
+  }
+  Room 17821 {
+    Repop = 28;
+  }
+  Room 17822 {
+    Repop = 28;
+  }
+  Room 17823 {
+    Repop = 28;
+    Obj 17834 {
+    }
+  }
+  Room 17824 {
+    Repop = 28;
+  }
+  Room 17825 {
+    Repop = 28;
+  }
+  Room 17826 {
+    Repop = 28;
+  }
+  Room 17827 {
+    Repop = 28;
+  }
+  Room 17828 {
+    Repop = 28;
+  }
+  Room 17829 {
+    Repop = 28;
+  }
+  Room 17830 {
+    Repop = 28;
+  }
+  Room 17831 {
+    Repop = 28;
+  }
+  Room 17832 {
+    Repop = 28;
+    Mobile 17814 {
+      Ptr = 184755928;
+      HMVP = (  ( 133 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17832;
+    }
+    Obj 17834 {
+    }
+  }
+  Room 17833 {
+    Repop = 28;
+  }
+  Room 17834 {
+    Repop = 28;
+  }
+  Room 17835 {
+    Repop = 28;
+  }
+  Room 17836 {
+    Repop = 28;
+  }
+  Room 17837 {
+    Repop = 28;
+    Obj 17834 {
+    }
+  }
+  Room 17838 {
+    Repop = 28;
+  }
+  Room 17839 {
+    Repop = 28;
+  }
+  Room 17840 {
+    Repop = 28;
+  }
+  Room 17841 {
+    Repop = 28;
+  }
+  Room 17842 {
+    Repop = 28;
+    Mobile 17831 {
+      Ptr = 184755344;
+      HMVP = (  ( 12 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17842;
+      Obj 17846 {
+      }
+    }
+  }
+  Room 17843 {
+    Repop = 28;
+  }
+  Room 17844 {
+    Repop = 28;
+  }
+  Room 17845 {
+    Repop = 28;
+  }
+  Room 17846 {
+    Repop = 28;
+  }
+  Room 17847 {
+    Repop = 28;
+  }
+  Room 17848 {
+    Repop = 28;
+    Mobile 17819 {
+      Ptr = 184754760;
+      HMVP = (  ( 57 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17848;
+      Obj 17811 {
+        WearLoc = 'legs';
+      }
+      Obj 17812 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 17849 {
+    Repop = 28;
+  }
+  Room 17850 {
+    Repop = 28;
+    Mobile 17820 {
+      Ptr = 184754176;
+      HMVP = (  ( 43 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17850;
+      Obj 17809 {
+      }
+      Obj 17836 {
+        WearLoc = 'legs';
+      }
+      Obj 17839 {
+      }
+    }
+  }
+  Room 17851 {
+    Repop = 28;
+    Mobile 17821 {
+      Ptr = 184765872;
+      HMVP = (  ( 94 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17851;
+      Obj 17840 {
+      }
+      Obj 17841 {
+      }
+    }
+  }
+  Room 17852 {
+    Repop = 28;
+    Mobile 17815 {
+      Ptr = 184765288;
+      HMVP = (  ( 21 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17852;
+      Obj 17819 {
+      }
+    }
+  }
+  Room 17853 {
+    Repop = 28;
+    Mobile 17815 {
+      Ptr = 184764704;
+      HMVP = (  ( 21 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17853;
+      Obj 17819 {
+      }
+    }
+  }
+  Room 17854 {
+    Repop = 28;
+    Mobile 17817 {
+      Ptr = 184763536;
+      HMVP = (  ( 12 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17854;
+      Obj 17819 {
+        WearLoc = 'waist';
+      }
+    }
+    Mobile 17816 {
+      Ptr = 184764120;
+      HMVP = (  ( 16 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17854;
+      Obj 17819 {
+      }
+    }
+  }
+  Room 17855 {
+    Repop = 28;
+  }
+  Room 17856 {
+    Repop = 28;
+    Mobile 17817 {
+      Ptr = 184762952;
+      HMVP = (  ( 12 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17856;
+      Obj 17819 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 17857 {
+    Repop = 28;
+    Mobile 17816 {
+      Ptr = 184762368;
+      HMVP = (  ( 14 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17857;
+    }
+  }
+  Room 17858 {
+    Repop = 28;
+    Mobile 17817 {
+      Ptr = 184768800;
+      HMVP = (  ( 8 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17858;
+    }
+    Mobile 17816 {
+      Ptr = 184769384;
+      HMVP = (  ( 12 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17858;
+    }
+    Mobile 17815 {
+      Ptr = 184769968;
+      HMVP = (  ( 18 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17858;
+      Obj 17819 {
+      }
+    }
+  }
+  Room 17859 {
+    Repop = 28;
+  }
+  Room 17860 {
+    Repop = 28;
+  }
+  Room 17861 {
+    Repop = 28;
+    Mobile 17817 {
+      Ptr = 184767632;
+      HMVP = (  ( 10 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17861;
+    }
+    Mobile 17815 {
+      Ptr = 184768216;
+      HMVP = (  ( 21 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17861;
+      Obj 17819 {
+      }
+    }
+  }
+  Room 17862 {
+    Repop = 28;
+    Mobile 17818 {
+      Ptr = 184767048;
+      HMVP = (  ( 19 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 17862;
+      Obj 17808 {
+        WearLoc = 'feet';
+      }
+      Obj 17819 {
+      }
+    }
+  }
+  Room 17863 {
+    Repop = 28;
+    Mobile 17816 {
+      Ptr = 184766464;
+      HMVP = (  ( 18 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17863;
+      Obj 17819 {
+      }
+    }
+  }
+  Room 17864 {
+    Repop = 28;
+    Mobile 17807 {
+      Ptr = 184774064;
+      HMVP = (  ( 130 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 20;
+      Room = 17864;
+    }
+  }
+  Room 17865 {
+    Repop = 28;
+    Mobile 17804 {
+      Ptr = 184773480;
+      HMVP = (  ( 111 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 23;
+      Room = 17865;
+      Obj 17809 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17807 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'legs';
+      }
+      Obj 17808 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'feet';
+      }
+      Obj 17825 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17826 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17827 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 17866 {
+    Repop = 28;
+    Mobile 17802 {
+      Ptr = 184772896;
+      HMVP = (  ( 0 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 122;
+      Room = 17866;
+      Obj 17814 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'lfinger';
+      }
+      Obj 17814 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'rfinger';
+      }
+      Obj 17819 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17813 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17814 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17815 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17816 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17817 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17818 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 17867 {
+    Repop = 28;
+    Mobile 17803 {
+      Ptr = 184772312;
+      HMVP = (  ( 169 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17867;
+      Obj 17809 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17811 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'legs';
+      }
+      Obj 17813 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'feet';
+      }
+      Obj 17820 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17821 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17822 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17823 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17824 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 17868 {
+    Repop = 28;
+    Mobile 17806 {
+      Ptr = 184771728;
+      HMVP = (  ( 345 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17868;
+    }
+    Obj 17835 {
+    }
+  }
+  Room 17869 {
+    Repop = 28;
+  }
+  Room 17870 {
+    Repop = 28;
+    Mobile 17830 {
+      Ptr = 184771144;
+      HMVP = (  ( 79 ),  ( 0 ),  ( 150, 100 ),  ( 0 ) );
+      Silver = 48;
+      Room = 17870;
+      Obj 17844 {
+        WearLoc = 'feet';
+      }
+      Obj 17845 {
+        WearLoc = 'wielded';
+      }
+      Obj 17843 {
+      }
+    }
+  }
+  Room 17871 {
+    Repop = 28;
+    Mobile 17801 {
+      Ptr = 184770560;
+      HMVP = (  ( 3123 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17871;
+      Obj 17811 {
+        WearLoc = 'legs';
+      }
+      Obj 17812 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 17872 {
+    Repop = 28;
+    Mobile 17805 {
+      Ptr = 184786352;
+      HMVP = (  ( 9263 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17872;
+      Obj 17814 {
+        WearLoc = 'lfinger';
+      }
+      Obj 17815 {
+      }
+      Obj 17816 {
+      }
+      Obj 17807 {
+        WearLoc = 'legs';
+      }
+      Obj 17812 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 17873 {
+    Repop = 28;
+  }
+  Room 17874 {
+    Repop = 28;
+    Mobile 17822 {
+      Ptr = 184784600;
+      HMVP = (  ( 70 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17874;
+    }
+    Mobile 17822 {
+      Ptr = 184785184;
+      HMVP = (  ( 63 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17874;
+    }
+    Mobile 17822 {
+      Ptr = 184785768;
+      HMVP = (  ( 66 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17874;
+      Obj 17842 {
+      }
+    }
+  }
+  Room 17875 {
+    Repop = 28;
+  }
+  Room 17876 {
+    Repop = 28;
+    Mobile 17823 {
+      Ptr = 184784016;
+      HMVP = (  ( 13 ),  ( 3 ),  ( 100 ),  ( 0 ) );
+      Room = 17876;
+    }
+  }
+  Room 17877 {
+    Repop = 28;
+  }
+  Room 17878 {
+    Repop = 28;
+  }
+  Room 17879 {
+    Repop = 28;
+    Mobile 17829 {
+      Ptr = 184783432;
+      HMVP = (  ( 15 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17879;
+    }
+  }
+  Room 17880 {
+    Repop = 28;
+    Mobile 17824 {
+      Ptr = 184782848;
+      HMVP = (  ( 20 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17880;
+    }
+  }
+  Room 17881 {
+    Repop = 28;
+  }
+  Room 17882 {
+    Repop = 28;
+  }
+  Room 17883 {
+    Repop = 28;
+    Mobile 17825 {
+      Ptr = 184790448;
+      HMVP = (  ( 12 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17883;
+    }
+  }
+  Room 17884 {
+    Repop = 28;
+  }
+  Room 17885 {
+    Repop = 28;
+  }
+  Room 17886 {
+    Repop = 28;
+    Mobile 17826 {
+      Ptr = 184789864;
+      HMVP = (  ( 18 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17886;
+    }
+  }
+  Room 17887 {
+    Repop = 28;
+    Mobile 17827 {
+      Ptr = 184789280;
+      HMVP = (  ( 68 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17887;
+    }
+  }
+  Room 17888 {
+    Repop = 28;
+    Mobile 17828 {
+      Ptr = 184788696;
+      HMVP = (  ( 10 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17888;
+      Obj 17836 {
+        WearLoc = 'legs';
+      }
+      Obj 17849 {
+      }
+      Obj 17847 {
+        WearLoc = 'feet';
+      }
+      Obj 17848 {
+        WearLoc = 'rwrist';
+      }
+    }
+  }
+  Room 17889 {
+    Repop = 28;
+  }
+  Room 17890 {
+    Repop = 28;
+    Mobile 17832 {
+      Ptr = 184788112;
+      HMVP = (  ( 17 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17890;
+    }
+  }
+  Room 17891 {
+    Repop = 28;
+    Mobile 17833 {
+      Ptr = 184787528;
+      HMVP = (  ( 14 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17891;
+    }
+  }
+  Room 17892 {
+    Repop = 28;
+    Mobile 17834 {
+      Ptr = 184786944;
+      HMVP = (  ( 14 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17892;
+    }
+  }
+  Room 17893 {
+    Repop = 28;
+    Mobile 17835 {
+      Ptr = 184794544;
+      HMVP = (  ( 20 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17893;
+    }
+  }
+  Room 17894 {
+    Repop = 28;
+    Mobile 17836 {
+      Ptr = 184793960;
+      HMVP = (  ( 13 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17894;
+    }
+  }
+  Room 17895 {
+    Repop = 28;
+    Mobile 17837 {
+      Ptr = 184793376;
+      HMVP = (  ( 8 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17895;
+    }
+  }
+  Room 17896 {
+    Repop = 28;
+    Mobile 17838 {
+      Ptr = 184792792;
+      HMVP = (  ( 11 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17896;
+    }
+  }
+  Room 17897 {
+    Repop = 28;
+    Mobile 17839 {
+      Ptr = 184792208;
+      HMVP = (  ( 18 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17897;
+    }
+  }
+  Room 17898 {
+    Repop = 28;
+    Mobile 17840 {
+      Ptr = 184791624;
+      HMVP = (  ( 8 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 17898;
+    }
+  }
+  Room 17899 {
+    Repop = 28;
+    Mobile 17800 {
+      Ptr = 184791040;
+      HMVP = (  ( 225 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 2;
+      Room = 17899;
+      Obj 17809 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17807 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'legs';
+      }
+      Obj 17808 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'feet';
+      }
+      Obj 17810 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17801 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17802 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17803 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17804 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17805 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17806 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17809 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17807 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17808 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17810 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17828 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17829 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17830 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17831 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 17832 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 17900 {
+    Repop = 28;
+    Mobile 17842 {
+      Ptr = 184806832;
+      HMVP = (  ( 221 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 327;
+      Room = 17900;
+      Obj 3601 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 17901 {
+    Repop = 28;
+    Mobile 17841 {
+      Ptr = 184806248;
+      HMVP = (  ( 226 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 4;
+      Room = 17901;
+      Obj 3600 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3611 {
+        ExtraFlags = ('inventory', 'nolocate');
+      }
+      Obj 3612 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3613 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 17902 {
+    Repop = 28;
+    Mobile 17843 {
+      Ptr = 184805664;
+      HMVP = (  ( 219 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 196;
+      Room = 17902;
+    }
+  }
+  Room 17903 {
+    Repop = 28;
+  }
+  Room 17904 {
+    Repop = 28;
+    Mobile 17846 {
+      Ptr = 184805080;
+      HMVP = (  ( 155 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 22;
+      Room = 17904;
+    }
+  }
+  Room 17905 {
+    Repop = 28;
+  }
+  Room 17906 {
+    Repop = 28;
+    Mobile 17845 {
+      Ptr = 184804496;
+      HMVP = (  ( 223 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 184;
+      Room = 17906;
+    }
+  }
+  Room 17907 {
+    Repop = 28;
+    Mobile 17844 {
+      Ptr = 184803912;
+      Act = ('npc', 'aware', 'pet');
+      HMVP = (  ( 58 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 17907;
+    }
+  }
+  Room 17908 {
+    Repop = 28;
+  }
+  Room 17909 {
+    Repop = 28;
+    Mobile 17846 {
+      Ptr = 184803328;
+      HMVP = (  ( 154 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 54;
+      Room = 17909;
+    }
+  }
+  Room 17910 {
+    Repop = 28;
+  }
+  Room 17911 {
+    Repop = 28;
+  }
+  Room 17912 {
+    Repop = 28;
+    Obj 17850 {
+    }
+  }
+  Room 17913 {
+    Repop = 28;
+  }
+  Room 17914 {
+    Repop = 28;
+    Mobile 17846 {
+      Ptr = 184810928;
+      HMVP = (  ( 130 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 43;
+      Room = 17914;
+    }
+  }
+  Room 17915 {
+    Repop = 28;
+  }
+}

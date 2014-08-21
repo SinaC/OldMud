@@ -1,0 +1,23 @@
+// Good Mouserider
+class mob5600 extends Mob {
+  hasKey( act ) {
+    result = first[[ x <- act.inventory(), x.vnum() == 5625 ]] != NULL;
+  }
+  onGreet( act, from ) {
+    if ( !act.isNPC() )
+      if ( !hasKey( act ) )
+        `say Are you the adventurers who will help me ?
+      else
+        `say Did you destroy the evil orb ?5603
+  }
+  onSpeech( act, msg ) {
+    if ( !act.isNPC() && !hasKey( act ) ) {
+      var w = msg.words();
+      if ( "help" in w || "yes" in w ) {
+        `say Thanks a lot, this is the key for entering into the {BBlue Temple{x
+        var key = this.oLoad(5625);
+        `give `key` `act`
+      }
+    }
+  }
+}

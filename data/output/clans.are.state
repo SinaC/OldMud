@@ -1,0 +1,113 @@
+AreaState 'Clan Area' {
+  Room 100 {
+    Repop = 28;
+    Mobile 100 {
+      Ptr = 183070128;
+      HMVP = (  ( 5620 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 100;
+      Affect = ( 'sanctuary', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 110 {
+    Repop = 28;
+    Obj 110 {
+    }
+  }
+  Room 120 {
+    Repop = 28;
+    Mobile 120 {
+      Ptr = 183069544;
+      DamType = 'pierce';
+      HMVP = (  ( 2 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 120;
+      Obj 122 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+      Obj 123 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+      Obj 124 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+    }
+  }
+  Room 121 {
+    Repop = 28;
+    Obj 121 {
+    }
+  }
+  Room 130 {
+    Repop = 28;
+    Obj 133 {
+    }
+    Obj 134 {
+    }
+  }
+  Room 131 {
+    Repop = 28;
+  }
+  Room 132 {
+    Repop = 28;
+    Obj 132 {
+    }
+  }
+  Room 133 {
+    Repop = 28;
+    Obj 135 {
+    }
+    Obj 136 {
+    }
+  }
+  Room 140 {
+    Repop = 28;
+    Obj 142 {
+    }
+  }
+  Room 141 {
+    Repop = 28;
+    Obj 140 {
+    }
+  }
+  Room 142 {
+    Repop = 28;
+  }
+  Room 150 {
+    Repop = 28;
+  }
+  Room 160 {
+    Repop = 28;
+  }
+  Room 161 {
+    Repop = 28;
+    Mobile 160 {
+      Ptr = 183068960;
+      Desc = '';
+      DamType = 'pound';
+      HMVP = (  ( 0 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 161;
+    }
+  }
+  Room 162 {
+    Repop = 28;
+  }
+  Room 163 {
+    Repop = 28;
+    Obj 164 {
+    }
+    Obj 163 {
+    }
+    Obj 162 {
+    }
+    Obj 161 {
+    }
+    Obj 160 {
+    }
+  }
+  Room 164 {
+    Repop = 28;
+  }
+  Room 170 {
+    Repop = 28;
+  }
+}

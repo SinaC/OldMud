@@ -1,0 +1,10 @@
+
+class mob16300 extends Mob {
+  onGreet( act, from ) {
+    if ( !act.isNPC() && act.level() > this.level()+2 && this.fighting() == NULL ) {
+      this.actRoom("{DThe sentry catches $n moving through the area!{x",act);
+      this.actRoom("{DThe sentry does not even bother to ask $n questions.{x",act);
+      this.multiHit(act);
+    }
+  }
+}

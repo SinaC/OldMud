@@ -1,0 +1,182 @@
+Player 'Bibiu' {
+  Id = 1081961780;
+  Version = 11;
+  LogO = 1081963843;
+  Race = 'fire-giant';
+  Sex = 'male';
+  Size = 'large';
+  DamType = 'punch';
+  Immunities = ('fire');
+  Resistances = ('bash');
+  Vulnerabilities = ('cold');
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye', 'body');
+  AfBy = ('none');
+  AfBy2 = ('none');
+  Classes = ('cleric');
+  isWildMagic = false;
+  Level = 15;
+  Experience = 22500;
+  Act = ('autoexit', 'autoloot', 'autogold', 'autotitle', 'autohaggle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine', 'nohints');
+  Position = 'standing';
+  Attr = ( 15, 18, 20, 9, 20 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = (  ( 183 ),  ( 221, 325 ),  ( 184 ),  ( 142 ) );
+  Alignment = -762;
+  Etho = 'lawful';
+  Silver = 127;
+  Timer = 12;
+  Room = 3044;
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Played = 2063;
+  Scroll = 24;
+  Prac = 12;
+  Train = 2;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'giantish';
+  Beacons = ( 0, 0, 0 );
+  God = 'Dulac';
+  NameAccepted = true;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = 'the Healer';
+  Condition = ( 0, 0, 21, 14 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 4 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 4 );
+  Faction = ( 'Common', -18 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Faction = ( 'Hatred', 0 );
+  Faction = ( 'notYetClassed', 0 );
+  Pnts = 40;
+  Ability = ( 100, 0, 0, 'mace' );
+  Ability = ( 100, 0, 0, 'dodge' );
+  Ability = ( 100, 0, 0, 'fast healing' );
+  Ability = ( 100, 0, 0, 'scrolls' );
+  Ability = ( 100, 0, 0, 'staves' );
+  Ability = ( 100, 0, 0, 'recall' );
+  Ability = ( 100, 1, 0, 'shield' );
+  Ability = ( 100, 1, 0, 'armor' );
+  Ability = ( 100, 0, 0, 'calm' );
+  Ability = ( 100, 0, 0, 'cancellation' );
+  Ability = ( 100, 0, 0, 'detect evil' );
+  Ability = ( 100, 0, 0, 'detect good' );
+  Ability = ( 100, 0, 0, 'detect hidden' );
+  Ability = ( 100, 0, 0, 'detect invis' );
+  Ability = ( 100, 0, 0, 'detect magic' );
+  Ability = ( 100, 0, 0, 'detect poison' );
+  Ability = ( 100, 0, 0, 'dispel magic' );
+  Ability = ( 100, 0, 0, 'fireproof' );
+  Ability = ( 100, 0, 0, 'frenzy' );
+  Ability = ( 100, 0, 0, 'giant strength' );
+  Ability = ( 100, 1, 0, 'haste' );
+  Ability = ( 100, 0, 0, 'identify' );
+  Ability = ( 100, 0, 0, 'infravision' );
+  Ability = ( 100, 0, 0, 'invisibility' );
+  Ability = ( 100, 0, 0, 'know alignment' );
+  Ability = ( 100, 0, 0, 'locate object' );
+  Ability = ( 100, 0, 0, 'protection evil' );
+  Ability = ( 100, 0, 0, 'protection good' );
+  Ability = ( 100, 0, 0, 'recharge' );
+  Ability = ( 100, 0, 0, 'sanctuary' );
+  Ability = ( 100, 0, 0, 'stone skin' );
+  Ability = ( 100, 0, 0, 'resist fire' );
+  Ability = ( 100, 0, 0, 'shroud' );
+  Ability = ( 100, 0, 0, 'holy symbol' );
+  Ability = ( 100, 0, 0, 'last rites' );
+  Ability = ( 100, 0, 0, 'hovering sphere' );
+  Ability = ( 100, 0, 0, 'cloud of revelation' );
+  Ability = ( 100, 0, 0, 'final prayer' );
+  Ability = ( 100, 0, 0, 'resist poison' );
+  Ability = ( 100, 0, 0, 'prismatic armor' );
+  Ability = ( 100, 0, 0, 'combat will' );
+  Ability = ( 100, 0, 0, 'frozen blast' );
+  Ability = ( 100, 0, 0, 'fire blast' );
+  Ability = ( 100, 0, 0, 'final strike' );
+  Ability = ( 100, 0, 0, 'slumber' );
+  Ability = ( 100, 0, 0, 'darkvision' );
+  Ability = ( 100, 0, 0, 'cloud of darkness' );
+  Ability = ( 100, 0, 0, 'anti-magic field' );
+  Ability = ( 100, 0, 0, 'detect lycanthropy' );
+  Ability = ( 100, 0, 0, 'faerie aura' );
+  Group = 'rom basics';
+  Group = 'cleric basics';
+  Group = 'universal';
+  Group = 'divination';
+  Group = 'protection';
+  Group = 'combat';
+  Group = 'darkness';
+  Gset = 1;
+  Security = 0;
+  Affect = ( 'haste', 3, 106, 5, ('ability', 'valid'),
+            ( 'char', 'dexterity', 0, 4 ),
+            ( 'char', 'affects', 1, ('haste') ) );
+  Affect = ( 'armor', 107, 106, 1, ('ability', 'valid'),
+            ( 'char', 'AC', 0, -80 ) );
+  ExField = ( 'bannedShop', 'list', -1, () );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'questmob', 'entity', -1, '<NULL>' );
+  ExField = ( 'questobj', 'entity', -1, '<NULL>' );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'questpoints', 'int', -1, 0 );
+  ExField = ( 'questgiver', 'entity', -1, '<NULL>' );
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3700 {
+    WearLoc = 'wielded';
+  }
+  Obj 3704 {
+    WearLoc = 'shield';
+  }
+  Obj 3162 {
+  }
+  Obj 3709 {
+    WearLoc = 'hands';
+  }
+  Obj 3710 {
+    WearLoc = 'arms';
+  }
+  Obj 3713 {
+    WearLoc = 'lwrist';
+  }
+  Obj 3715 {
+    WearLoc = 'hold';
+  }
+  Obj 3723 {
+    WearLoc = 'floating';
+  }
+  Obj 3021 {
+  }
+  Obj 3066 {
+  }
+  Obj 3052 {
+    Condition = 89;
+    WearLoc = 'rwrist';
+  }
+}

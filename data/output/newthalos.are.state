@@ -1,0 +1,3147 @@
+AreaState 'New Thalos' {
+  Room 9500 {
+    Mobile 9561 {
+      Ptr = 182169600;
+      DamType = 'pierce';
+      HMVP = (  ( 138 ),  ( 112, 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 37;
+      Room = 9500;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9561 {
+      Ptr = 188105288;
+      DamType = 'pound';
+      HMVP = (  ( 142 ),  ( 115, 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 41;
+      Room = 9500;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 9501 {
+    Mobile 9504 {
+      Ptr = 182150288;
+      DamType = 'pound';
+      HMVP = (  ( 344 ),  ( 141 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 311;
+      Room = 9501;
+    }
+  }
+  Room 9502 {
+    Mobile 9506 {
+      Ptr = 182149120;
+      DamType = 'pierce';
+      HMVP = (  ( 292 ),  ( 147 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 192;
+      Room = 9502;
+    }
+    Mobile 9505 {
+      Ptr = 182149704;
+      DamType = 'pierce';
+      HMVP = (  ( 477 ),  ( 142 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 93;
+      Room = 9502;
+      Obj 9569 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9568 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9567 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9503 {
+    Mobile 9509 {
+      Ptr = 193090120;
+      DamType = 'slash';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9503;
+    }
+    Mobile 9542 {
+      Ptr = 182159064;
+      DamType = 'slash';
+      HMVP = (  ( 93 ),  ( 139 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 9503;
+    }
+    Mobile 9509 {
+      Ptr = 192801056;
+      DamType = 'slash';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9503;
+    }
+    Mobile 9507 {
+      Ptr = 182156720;
+      DamType = 'pound';
+      HMVP = (  ( 32 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9503;
+    }
+  }
+  Room 9504 {
+    Mobile 9533 {
+      Ptr = 188959592;
+      DamType = 'slash';
+      HMVP = (  ( 127 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 32;
+      Room = 9504;
+    }
+    Mobile 9582 {
+      Ptr = 182153800;
+      DamType = 'slash';
+      HMVP = (  ( 1046 ),  ( 171 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 307;
+      Room = 9504;
+    }
+    Mobile 9508 {
+      Ptr = 182156136;
+      DamType = 'pound';
+      HMVP = (  ( 44 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9504;
+    }
+  }
+  Room 9505 {
+    Mobile 9582 {
+      Ptr = 188968368;
+      DamType = 'pound';
+      HMVP = (  ( 1060 ),  ( 182 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 595;
+      Room = 9505;
+    }
+    Mobile 9533 {
+      Ptr = 187458704;
+      DamType = 'pierce';
+      HMVP = (  ( 125 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 47;
+      Room = 9505;
+    }
+    Mobile 9568 {
+      Ptr = 192798720;
+      DamType = 'pound';
+      HMVP = (  ( 55 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9505;
+    }
+  }
+  Room 9506 {
+    Mobile 9538 {
+      Ptr = 182161408;
+      DamType = 'slash';
+      HMVP = (  ( 518 ),  ( 151 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 64;
+      Room = 9506;
+    }
+    Mobile 9568 {
+      Ptr = 194358120;
+      DamType = 'pierce';
+      HMVP = (  ( 53 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9506;
+    }
+    Obj 9601 {
+    }
+  }
+  Room 9507 {
+    Mobile 9582 {
+      Ptr = 188967784;
+      DamType = 'pierce';
+      HMVP = (  ( 1056 ),  ( 155 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 149;
+      Room = 9507;
+    }
+    Mobile 9582 {
+      Ptr = 182162576;
+      DamType = 'pierce';
+      HMVP = (  ( 1043 ),  ( 181 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 227;
+      Room = 9507;
+    }
+    Mobile 9592 {
+      Ptr = 182171936;
+      DamType = 'slash';
+      HMVP = (  ( 146 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 9507;
+    }
+  }
+  Room 9508 {
+    Mobile 9542 {
+      Ptr = 188118744;
+      DamType = 'slash';
+      HMVP = (  ( 91 ),  ( 141 ),  ( 100 ),  ( 0 ) );
+      Silver = 14;
+      Room = 9508;
+    }
+  }
+  Room 9509 {
+    Mobile 9533 {
+      Ptr = 182171352;
+      DamType = 'pound';
+      HMVP = (  ( 128 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 25;
+      Room = 9509;
+    }
+  }
+  Room 9510 {
+    Mobile 9542 {
+      Ptr = 188107624;
+      DamType = 'pound';
+      HMVP = (  ( 91 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 9510;
+    }
+    Mobile 9509 {
+      Ptr = 193543016;
+      DamType = 'pound';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9510;
+    }
+    Mobile 9509 {
+      Ptr = 198886544;
+      DamType = 'pound';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9510;
+    }
+    Mobile 9509 {
+      Ptr = 185458096;
+      DamType = 'pierce';
+      HMVP = (  ( 15 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9510;
+    }
+    Mobile 9561 {
+      Ptr = 188957840;
+      DamType = 'pound';
+      HMVP = (  ( 148 ),  ( 108, 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 44;
+      Room = 9510;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9509 {
+      Ptr = 190300744;
+      DamType = 'pound';
+      HMVP = (  ( 16 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9510;
+    }
+    Mobile 9561 {
+      Ptr = 182164328;
+      DamType = 'pierce';
+      HMVP = (  ( 146 ),  ( 115, 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 41;
+      Room = 9510;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9509 {
+      Ptr = 192964896;
+      DamType = 'pound';
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9510;
+    }
+    Mobile 9536 {
+      Ptr = 188109384;
+      DamType = 'pierce';
+      HMVP = (  ( 166 ),  ( 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 9510;
+    }
+  }
+  Room 9511 {
+    Mobile 9548 {
+      Ptr = 182164912;
+      DamType = 'pound';
+      HMVP = (  ( 92 ),  ( 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 26;
+      Room = 9511;
+    }
+    Mobile 9549 {
+      Ptr = 182157312;
+      DamType = 'pound';
+      HMVP = (  ( 120 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 41;
+      Room = 9511;
+    }
+    Mobile 9547 {
+      Ptr = 182157896;
+      DamType = 'pierce';
+      HMVP = (  ( 18 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9511;
+    }
+  }
+  Room 9512 {
+    Mobile 9542 {
+      Ptr = 188959008;
+      DamType = 'pierce';
+      HMVP = (  ( 96 ),  ( 133 ),  ( 100 ),  ( 0 ) );
+      Silver = 11;
+      Room = 9512;
+    }
+    Mobile 9509 {
+      Ptr = 188107040;
+      DamType = 'pierce';
+      HMVP = (  ( 16 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9512;
+    }
+  }
+  Room 9513 {
+    Mobile 9509 {
+      Ptr = 194369824;
+      DamType = 'pierce';
+      HMVP = (  ( 14 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9513;
+    }
+    Mobile 9509 {
+      Ptr = 185438208;
+      DamType = 'pound';
+      HMVP = (  ( 19 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9513;
+    }
+    Mobile 9509 {
+      Ptr = 187457536;
+      DamType = 'slash';
+      HMVP = (  ( 18 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9513;
+    }
+    Mobile 9562 {
+      Ptr = 188106456;
+      DamType = 'pierce';
+      HMVP = (  ( 147 ),  ( 114, 124 ),  ( 100 ),  ( 0 ) );
+      Silver = 46;
+      Room = 9513;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188956672;
+      DamType = 'slash';
+      HMVP = (  ( 141 ),  ( 109, 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 28;
+      Room = 9513;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188957256;
+      DamType = 'pierce';
+      HMVP = (  ( 140 ),  ( 109, 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 42;
+      Room = 9513;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182163160;
+      DamType = 'pierce';
+      HMVP = (  ( 144 ),  ( 111, 121 ),  ( 100 ),  ( 0 ) );
+      Silver = 38;
+      Room = 9513;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182163744;
+      DamType = 'slash';
+      HMVP = (  ( 138 ),  ( 112, 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 28;
+      Room = 9513;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 9514 {
+    Mobile 9543 {
+      Ptr = 182218160;
+      DamType = 'pierce';
+      HMVP = (  ( 26 ),  ( 103 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9514;
+    }
+    Mobile 9568 {
+      Ptr = 188968960;
+      DamType = 'pierce';
+      HMVP = (  ( 56 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9514;
+    }
+    Mobile 9537 {
+      Ptr = 182154968;
+      DamType = 'slash';
+      HMVP = (  ( 70 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9514;
+      Obj 9500 {
+      }
+    }
+  }
+  Room 9516 {
+    Mobile 9541 {
+      Ptr = 182161992;
+      DamType = 'slash';
+      HMVP = (  ( 569 ),  ( 256 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 234;
+      Room = 9516;
+    }
+    Mobile 9533 {
+      Ptr = 182159648;
+      DamType = 'pierce';
+      HMVP = (  ( 125 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 47;
+      Room = 9516;
+    }
+    Mobile 9568 {
+      Ptr = 188110552;
+      DamType = 'pierce';
+      HMVP = (  ( 54 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9516;
+    }
+  }
+  Room 9517 {
+    Mobile 9568 {
+      Ptr = 187462216;
+      DamType = 'pierce';
+      HMVP = (  ( 58 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9517;
+    }
+    Mobile 9544 {
+      Ptr = 182224600;
+      DamType = 'pound';
+      Act = ('npc', 'stay_area', 'wimpy', 'pet');
+      HMVP = (  ( 33 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Room = 9517;
+    }
+    Mobile 9592 {
+      Ptr = 182160816;
+      DamType = 'slash';
+      HMVP = (  ( 141 ),  ( 115 ),  ( 100 ),  ( 0 ) );
+      Silver = 22;
+      Room = 9517;
+    }
+  }
+  Room 9518 {
+    Mobile 9561 {
+      Ptr = 182170184;
+      DamType = 'slash';
+      HMVP = (  ( 144 ),  ( 113, 123 ),  ( 100 ),  ( 0 ) );
+      Silver = 28;
+      Room = 9518;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9582 {
+      Ptr = 182153216;
+      DamType = 'pierce';
+      HMVP = (  ( 1069 ),  ( 177 ),  ( 100 ),  ( 0 ) );
+      Gold = 12;
+      Silver = 357;
+      Room = 9518;
+    }
+  }
+  Room 9520 {
+    Mobile 9561 {
+      Ptr = 192800472;
+      DamType = 'slash';
+      HMVP = (  ( 139 ),  ( 118, 128 ),  ( 100 ),  ( 0 ) );
+      Silver = 50;
+      Room = 9520;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9561 {
+      Ptr = 188966032;
+      DamType = 'pound';
+      HMVP = (  ( 142 ),  ( 104, 114 ),  ( 100 ),  ( 0 ) );
+      Silver = 60;
+      Room = 9520;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9561 {
+      Ptr = 188965448;
+      DamType = 'slash';
+      HMVP = (  ( 143 ),  ( 108, 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 66;
+      Room = 9520;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9561 {
+      Ptr = 192799888;
+      DamType = 'pierce';
+      HMVP = (  ( 141 ),  ( 118, 128 ),  ( 100 ),  ( 0 ) );
+      Silver = 38;
+      Room = 9520;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9561 {
+      Ptr = 188964864;
+      DamType = 'pound';
+      HMVP = (  ( 146 ),  ( 105, 115 ),  ( 100 ),  ( 0 ) );
+      Silver = 65;
+      Room = 9520;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 9522 {
+    Mobile 9562 {
+      Ptr = 188104704;
+      DamType = 'slash';
+      HMVP = (  ( 141 ),  ( 127, 137 ),  ( 100 ),  ( 0 ) );
+      Silver = 46;
+      Room = 9522;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188971880;
+      DamType = 'pound';
+      HMVP = (  ( 146 ),  ( 108, 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 25;
+      Room = 9522;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188972464;
+      DamType = 'pierce';
+      HMVP = (  ( 139 ),  ( 112, 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 24;
+      Room = 9522;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182176616;
+      DamType = 'pound';
+      HMVP = (  ( 148 ),  ( 125, 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 42;
+      Room = 9522;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182177200;
+      DamType = 'pound';
+      HMVP = (  ( 145 ),  ( 117, 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 66;
+      Room = 9522;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 9523 {
+    Mobile 9542 {
+      Ptr = 182211728;
+      DamType = 'slash';
+      HMVP = (  ( 96 ),  ( 138 ),  ( 100 ),  ( 0 ) );
+      Silver = 16;
+      Room = 9523;
+    }
+    Mobile 9542 {
+      Ptr = 188111720;
+      DamType = 'pound';
+      HMVP = (  ( 91 ),  ( 137 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 9523;
+    }
+    Mobile 9533 {
+      Ptr = 185441712;
+      DamType = 'pierce';
+      HMVP = (  ( 130 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 23;
+      Room = 9523;
+    }
+    Mobile 9543 {
+      Ptr = 182265560;
+      DamType = 'pound';
+      HMVP = (  ( 27 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9523;
+    }
+    Mobile 9562 {
+      Ptr = 188112304;
+      DamType = 'pierce';
+      HMVP = (  ( 141 ),  ( 113, 123 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 9523;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188970712;
+      DamType = 'slash';
+      HMVP = (  ( 140 ),  ( 113, 123 ),  ( 100 ),  ( 0 ) );
+      Silver = 62;
+      Room = 9523;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188971296;
+      DamType = 'pierce';
+      HMVP = (  ( 146 ),  ( 125, 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 9523;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182175448;
+      DamType = 'pierce';
+      HMVP = (  ( 142 ),  ( 114, 124 ),  ( 100 ),  ( 0 ) );
+      Silver = 47;
+      Room = 9523;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182176032;
+      DamType = 'pound';
+      HMVP = (  ( 143 ),  ( 112, 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 62;
+      Room = 9523;
+      Obj 9513 {
+        WearLoc = 'wielded';
+      }
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 9524 {
+    Mobile 9542 {
+      Ptr = 182174864;
+      DamType = 'pierce';
+      HMVP = (  ( 95 ),  ( 136 ),  ( 100 ),  ( 0 ) );
+      Silver = 10;
+      Room = 9524;
+    }
+  }
+  Room 9525 {
+    Mobile 9543 {
+      Ptr = 182204120;
+      DamType = 'slash';
+      HMVP = (  ( 31 ),  ( 103 ),  ( 100 ),  ( 0 ) );
+      Room = 9525;
+    }
+    Mobile 9542 {
+      Ptr = 182210560;
+      DamType = 'pound';
+      HMVP = (  ( 92 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 9525;
+    }
+    Mobile 9519 {
+      Ptr = 182185392;
+      DamType = 'pierce';
+      HMVP = (  ( 225 ),  ( 137 ),  ( 100 ),  ( 0 ) );
+      Silver = 122;
+      Room = 9525;
+      Obj 9585 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 9520 {
+      Ptr = 182173696;
+      DamType = 'pierce';
+      HMVP = (  ( 132 ),  ( 136 ),  ( 100 ),  ( 0 ) );
+      Silver = 45;
+      Room = 9525;
+      Obj 9586 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 9520 {
+      Ptr = 182174280;
+      DamType = 'pound';
+      HMVP = (  ( 133 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 9525;
+      Obj 9586 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 9526 {
+    Mobile 9542 {
+      Ptr = 188989440;
+      DamType = 'pierce';
+      HMVP = (  ( 91 ),  ( 136 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 9526;
+    }
+    Mobile 9543 {
+      Ptr = 188985344;
+      DamType = 'pierce';
+      HMVP = (  ( 24 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9526;
+    }
+  }
+  Room 9527 {
+    Mobile 9568 {
+      Ptr = 182184808;
+      DamType = 'slash';
+      HMVP = (  ( 55 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9527;
+    }
+    Mobile 9533 {
+      Ptr = 187463384;
+      DamType = 'pierce';
+      HMVP = (  ( 133 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 57;
+      Room = 9527;
+    }
+    Mobile 9568 {
+      Ptr = 188111136;
+      DamType = 'pierce';
+      HMVP = (  ( 58 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9527;
+    }
+  }
+  Room 9528 {
+    Mobile 9568 {
+      Ptr = 194797568;
+      DamType = 'pierce';
+      HMVP = (  ( 49 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9528;
+    }
+    Mobile 9568 {
+      Ptr = 194357536;
+      DamType = 'pound';
+      HMVP = (  ( 49 ),  ( 114 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9528;
+    }
+    Mobile 9592 {
+      Ptr = 188967200;
+      DamType = 'pound';
+      HMVP = (  ( 142 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 35;
+      Room = 9528;
+    }
+    Mobile 9568 {
+      Ptr = 194369240;
+      DamType = 'pound';
+      HMVP = (  ( 52 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9528;
+    }
+    Mobile 9568 {
+      Ptr = 187462800;
+      DamType = 'pierce';
+      HMVP = (  ( 54 ),  ( 103 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9528;
+    }
+    Mobile 9568 {
+      Ptr = 188448176;
+      DamType = 'pound';
+      HMVP = (  ( 53 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9528;
+    }
+  }
+  Room 9529 {
+    Mobile 9532 {
+      Ptr = 182200608;
+      DamType = 'pierce';
+      HMVP = (  ( 181 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Silver = 82;
+      Room = 9529;
+    }
+  }
+  Room 9530 {
+    Mobile 9544 {
+      Ptr = 188994120;
+      DamType = 'pierce';
+      HMVP = (  ( 32 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Room = 9530;
+    }
+    Mobile 9592 {
+      Ptr = 182266144;
+      DamType = 'pound';
+      HMVP = (  ( 137 ),  ( 133 ),  ( 100 ),  ( 0 ) );
+      Silver = 65;
+      Room = 9530;
+    }
+  }
+  Room 9531 {
+    Mobile 9544 {
+      Ptr = 182234544;
+      DamType = 'pierce';
+      HMVP = (  ( 27 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Room = 9531;
+    }
+    Mobile 9544 {
+      Ptr = 182182472;
+      DamType = 'slash';
+      HMVP = (  ( 29 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Room = 9531;
+    }
+    Mobile 9562 {
+      Ptr = 188109968;
+      DamType = 'slash';
+      HMVP = (  ( 141 ),  ( 112, 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 63;
+      Room = 9531;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188979488;
+      DamType = 'pierce';
+      HMVP = (  ( 148 ),  ( 122, 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 63;
+      Room = 9531;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 188980072;
+      DamType = 'slash';
+      HMVP = (  ( 145 ),  ( 122, 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 35;
+      Room = 9531;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182189488;
+      DamType = 'pound';
+      HMVP = (  ( 145 ),  ( 102, 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 26;
+      Room = 9531;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9562 {
+      Ptr = 182181888;
+      DamType = 'pierce';
+      HMVP = (  ( 142 ),  ( 114, 124 ),  ( 100 ),  ( 0 ) );
+      Silver = 35;
+      Room = 9531;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 9532 {
+    Mobile 9518 {
+      Ptr = 182188904;
+      DamType = 'slash';
+      HMVP = (  ( 476 ),  ( 168 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 341;
+      Room = 9532;
+      Obj 9564 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9565 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9534 {
+    Mobile 9536 {
+      Ptr = 182187736;
+      DamType = 'slash';
+      HMVP = (  ( 170 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Silver = 38;
+      Room = 9534;
+    }
+    Mobile 9536 {
+      Ptr = 182187152;
+      DamType = 'pound';
+      HMVP = (  ( 162 ),  ( 146 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 9534;
+    }
+    Mobile 9536 {
+      Ptr = 182186568;
+      DamType = 'pierce';
+      HMVP = (  ( 157 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Silver = 40;
+      Room = 9534;
+    }
+    Mobile 9536 {
+      Ptr = 188977152;
+      DamType = 'pierce';
+      HMVP = (  ( 159 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Silver = 73;
+      Room = 9534;
+    }
+  }
+  Room 9535 {
+    Mobile 9536 {
+      Ptr = 188983584;
+      DamType = 'slash';
+      HMVP = (  ( 158 ),  ( 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 81;
+      Room = 9535;
+    }
+  }
+  Room 9536 {
+    Mobile 9509 {
+      Ptr = 194372168;
+      DamType = 'slash';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9536;
+    }
+    Mobile 9509 {
+      Ptr = 188958424;
+      DamType = 'slash';
+      HMVP = (  ( 15 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9536;
+    }
+    Mobile 9509 {
+      Ptr = 194358704;
+      DamType = 'pound';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9536;
+    }
+    Mobile 9509 {
+      Ptr = 180954840;
+      DamType = 'slash';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9536;
+    }
+    Mobile 9536 {
+      Ptr = 182185984;
+      DamType = 'pierce';
+      HMVP = (  ( 165 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 51;
+      Room = 9536;
+    }
+    Mobile 9509 {
+      Ptr = 192977768;
+      DamType = 'pierce';
+      HMVP = (  ( 18 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9536;
+    }
+  }
+  Room 9537 {
+    Mobile 9536 {
+      Ptr = 188116400;
+      DamType = 'pound';
+      HMVP = (  ( 168 ),  ( 138 ),  ( 100 ),  ( 0 ) );
+      Silver = 36;
+      Room = 9537;
+    }
+    Mobile 9509 {
+      Ptr = 194366312;
+      DamType = 'pound';
+      HMVP = (  ( 18 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9537;
+    }
+    Mobile 9509 {
+      Ptr = 185322928;
+      DamType = 'pierce';
+      HMVP = (  ( 12 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9537;
+    }
+  }
+  Room 9539 {
+    Mobile 9509 {
+      Ptr = 194798152;
+      DamType = 'pound';
+      HMVP = (  ( 14 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9539;
+    }
+    Mobile 9544 {
+      Ptr = 182255616;
+      DamType = 'pierce';
+      HMVP = (  ( 27 ),  ( 101 ),  ( 100 ),  ( 0 ) );
+      Room = 9539;
+    }
+  }
+  Room 9540 {
+    Mobile 9567 {
+      Ptr = 182258536;
+      DamType = 'slash';
+      HMVP = (  ( 52 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9540;
+    }
+    Mobile 9535 {
+      Ptr = 182205872;
+      DamType = 'slash';
+      HMVP = (  ( 80 ),  ( 114 ),  ( 100 ),  ( 0 ) );
+      Silver = 12;
+      Room = 9540;
+    }
+  }
+  Room 9542 {
+    Mobile 9567 {
+      Ptr = 182257952;
+      DamType = 'pound';
+      HMVP = (  ( 53 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9542;
+    }
+  }
+  Room 9543 {
+    Mobile 9536 {
+      Ptr = 192966064;
+      DamType = 'pierce';
+      HMVP = (  ( 157 ),  ( 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 44;
+      Room = 9543;
+    }
+    Mobile 9536 {
+      Ptr = 188984752;
+      DamType = 'pierce';
+      HMVP = (  ( 163 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 89;
+      Room = 9543;
+    }
+  }
+  Room 9544 {
+    Mobile 9561 {
+      Ptr = 188988848;
+      DamType = 'pound';
+      HMVP = (  ( 140 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Silver = 31;
+      Room = 9544;
+    }
+  }
+  Room 9545 {
+    Mobile 9582 {
+      Ptr = 188981832;
+      DamType = 'pound';
+      HMVP = (  ( 1051 ),  ( 181 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 547;
+      Room = 9545;
+    }
+    Mobile 9589 {
+      Ptr = 182262632;
+      DamType = 'pierce';
+      HMVP = (  ( 352 ),  ( 151 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 85;
+      Room = 9545;
+      Obj 9501 {
+      }
+    }
+    Mobile 9582 {
+      Ptr = 182191248;
+      DamType = 'pound';
+      HMVP = (  ( 1064 ),  ( 167 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 313;
+      Room = 9545;
+    }
+  }
+  Room 9546 {
+    Mobile 9561 {
+      Ptr = 182190080;
+      DamType = 'pound';
+      HMVP = (  ( 147 ),  ( 130 ),  ( 100 ),  ( 0 ) );
+      Silver = 35;
+      Room = 9546;
+    }
+    Mobile 9561 {
+      Ptr = 182190664;
+      DamType = 'pierce';
+      HMVP = (  ( 149 ),  ( 124 ),  ( 100 ),  ( 0 ) );
+      Silver = 50;
+      Room = 9546;
+    }
+  }
+  Room 9547 {
+    Mobile 9561 {
+      Ptr = 188988264;
+      DamType = 'pierce';
+      HMVP = (  ( 137 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 52;
+      Room = 9547;
+    }
+    Mobile 9561 {
+      Ptr = 188115816;
+      DamType = 'slash';
+      HMVP = (  ( 144 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 48;
+      Room = 9547;
+    }
+  }
+  Room 9548 {
+    Mobile 9582 {
+      Ptr = 188983000;
+      DamType = 'slash';
+      HMVP = (  ( 1059 ),  ( 151 ),  ( 100 ),  ( 0 ) );
+      Gold = 14;
+      Silver = 390;
+      Room = 9548;
+    }
+    Mobile 9561 {
+      Ptr = 192965480;
+      DamType = 'slash';
+      HMVP = (  ( 148 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Silver = 67;
+      Room = 9548;
+    }
+  }
+  Room 9549 {
+    Mobile 9582 {
+      Ptr = 188987680;
+      DamType = 'slash';
+      HMVP = (  ( 1056 ),  ( 185 ),  ( 100 ),  ( 0 ) );
+      Gold = 18;
+      Silver = 63;
+      Room = 9549;
+    }
+  }
+  Room 9551 {
+    Mobile 9582 {
+      Ptr = 182196512;
+      DamType = 'pierce';
+      HMVP = (  ( 1055 ),  ( 184 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 210;
+      Room = 9551;
+    }
+    Mobile 9544 {
+      Ptr = 188986512;
+      DamType = 'slash';
+      HMVP = (  ( 34 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Room = 9551;
+    }
+    Mobile 9582 {
+      Ptr = 182197096;
+      DamType = 'slash';
+      HMVP = (  ( 1046 ),  ( 185 ),  ( 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 312;
+      Room = 9551;
+    }
+  }
+  Room 9552 {
+    Mobile 9582 {
+      Ptr = 188987096;
+      DamType = 'pierce';
+      HMVP = (  ( 1055 ),  ( 165 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 541;
+      Room = 9552;
+    }
+  }
+  Room 9554 {
+    Mobile 9545 {
+      Ptr = 182194760;
+      DamType = 'slash';
+      HMVP = (  ( 50 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9554;
+      Obj 9590 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 9556 {
+    Mobile 9545 {
+      Ptr = 182195344;
+      DamType = 'pound';
+      HMVP = (  ( 56 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9556;
+      Obj 9590 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 9559 {
+    Mobile 9561 {
+      Ptr = 182197680;
+      DamType = 'pierce';
+      HMVP = (  ( 140 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 59;
+      Room = 9559;
+    }
+  }
+  Room 9560 {
+    Mobile 9544 {
+      Ptr = 182262048;
+      DamType = 'slash';
+      HMVP = (  ( 30 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 9560;
+    }
+  }
+  Room 9561 {
+    Mobile 9544 {
+      Ptr = 188992944;
+      DamType = 'slash';
+      HMVP = (  ( 33 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Room = 9561;
+    }
+    Mobile 9544 {
+      Ptr = 182209384;
+      DamType = 'pound';
+      HMVP = (  ( 29 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Room = 9561;
+    }
+    Mobile 9544 {
+      Ptr = 182194176;
+      DamType = 'slash';
+      HMVP = (  ( 31 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Room = 9561;
+    }
+  }
+  Room 9565 {
+    Mobile 9568 {
+      Ptr = 194368656;
+      DamType = 'pound';
+      HMVP = (  ( 57 ),  ( 114 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9565;
+    }
+  }
+  Room 9566 {
+    Mobile 9529 {
+      Ptr = 182199440;
+      DamType = 'pierce';
+      HMVP = (  ( 127 ),  ( 154 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 9566;
+    }
+  }
+  Room 9567 {
+    Mobile 9543 {
+      Ptr = 182198856;
+      DamType = 'pierce';
+      HMVP = (  ( 28 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9567;
+    }
+    Mobile 9543 {
+      Ptr = 182201776;
+      DamType = 'slash';
+      HMVP = (  ( 32 ),  ( 103 ),  ( 100 ),  ( 0 ) );
+      Room = 9567;
+    }
+  }
+  Room 9568 {
+    Mobile 9535 {
+      Ptr = 182198272;
+      DamType = 'pound';
+      HMVP = (  ( 76 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Silver = 8;
+      Room = 9568;
+    }
+  }
+  Room 9569 {
+    Mobile 9543 {
+      Ptr = 188115232;
+      DamType = 'pierce';
+      HMVP = (  ( 26 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9569;
+    }
+    Mobile 9543 {
+      Ptr = 188985928;
+      DamType = 'pound';
+      HMVP = (  ( 23 ),  ( 103 ),  ( 100 ),  ( 0 ) );
+      Room = 9569;
+    }
+  }
+  Room 9570 {
+    Mobile 9543 {
+      Ptr = 182204704;
+      DamType = 'pound';
+      HMVP = (  ( 35 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Room = 9570;
+    }
+  }
+  Room 9571 {
+    Mobile 9542 {
+      Ptr = 188120496;
+      DamType = 'pierce';
+      HMVP = (  ( 92 ),  ( 139 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 9571;
+    }
+  }
+  Room 9572 {
+    Mobile 9543 {
+      Ptr = 188114648;
+      DamType = 'pierce';
+      HMVP = (  ( 34 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9572;
+    }
+  }
+  Room 9599 {
+    Mobile 9569 {
+      Ptr = 182203536;
+      DamType = 'pound';
+      HMVP = (  ( 896 ),  ( 166 ),  ( 100 ),  ( 0 ) );
+      Gold = 12;
+      Silver = 198;
+      Room = 9599;
+    }
+  }
+  Room 9603 {
+    Mobile 9501 {
+      Ptr = 182202952;
+      HMVP = (  ( 30001 ),  ( 500 ),  ( 100 ),  ( 0 ) );
+      Gold = 79;
+      Silver = 2643;
+      Room = 9603;
+      Affect = ( 'sanctuary', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9604 {
+    Mobile 9542 {
+      Ptr = 188991776;
+      DamType = 'pierce';
+      HMVP = (  ( 87 ),  ( 149 ),  ( 100 ),  ( 0 ) );
+      Silver = 10;
+      Room = 9604;
+    }
+    Mobile 9533 {
+      Ptr = 182212896;
+      DamType = 'slash';
+      HMVP = (  ( 125 ),  ( 123 ),  ( 100 ),  ( 0 ) );
+      Silver = 49;
+      Room = 9604;
+    }
+    Mobile 9542 {
+      Ptr = 182208800;
+      DamType = 'pound';
+      HMVP = (  ( 92 ),  ( 138 ),  ( 100 ),  ( 0 ) );
+      Silver = 11;
+      Room = 9604;
+    }
+    Mobile 9533 {
+      Ptr = 188991192;
+      DamType = 'slash';
+      HMVP = (  ( 128 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 53;
+      Room = 9604;
+    }
+    Mobile 9581 {
+      Ptr = 182202368;
+      DamType = 'pierce';
+      HMVP = (  ( 883 ),  ( 185 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 9;
+      Room = 9604;
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9605 {
+    Mobile 9593 {
+      Ptr = 189718528;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Gold = 18;
+      Silver = 884;
+      Room = 9605;
+      Affect = ( 'sanctuary', -1, 111, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 13 {
+      ShD = 'the heart of the healer';
+      Desc = 'The torn-out heart of the healer is lying here.';
+      Timer = 3;
+    }
+    Obj 10 {
+      ShD = 'the corpse of the healer';
+      Desc = 'The corpse of the healer is lying here.';
+      Level = 111;
+      Values = ( 9593, 2101377, 133111, 1, 8 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '2758 silver coins and 37 gold coins';
+        Weight = 71;
+        Cost = 6458;
+        Values = ( 2758, 37, 0, 0, 0 );
+      }
+    }
+    Obj 10 {
+      ShD = 'the corpse of the healer';
+      Desc = 'The corpse of the healer is lying here.';
+      Level = 111;
+      Values = ( 9593, 2101377, 133119, 1, 0 );
+      Timer = 4;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '1914 silver coins and 32 gold coins';
+        Weight = 50;
+        Cost = 5114;
+        Values = ( 1914, 32, 0, 0, 0 );
+      }
+    }
+  }
+  Room 9610 {
+    Mobile 9542 {
+      Ptr = 188992360;
+      DamType = 'pound';
+      HMVP = (  ( 87 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 9610;
+    }
+    Mobile 9542 {
+      Ptr = 188990608;
+      DamType = 'pound';
+      HMVP = (  ( 93 ),  ( 124 ),  ( 100 ),  ( 0 ) );
+      Silver = 8;
+      Room = 9610;
+    }
+  }
+  Room 9611 {
+    Mobile 9526 {
+      Ptr = 182213480;
+      DamType = 'pound';
+      HMVP = (  ( 967 ),  ( 255 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 255;
+      Room = 9611;
+    }
+    Mobile 9521 {
+      Ptr = 182214064;
+      Desc = '';
+      DamType = 'pound';
+      HMVP = (  ( 1351 ),  ( 266 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 242;
+      Room = 9611;
+    }
+    Mobile 9528 {
+      Ptr = 182206464;
+      DamType = 'pierce';
+      HMVP = (  ( 1368 ),  ( 269 ),  ( 100 ),  ( 0 ) );
+      Gold = 19;
+      Silver = 1556;
+      Room = 9611;
+    }
+    Mobile 9524 {
+      Ptr = 182207048;
+      DamType = 'pierce';
+      HMVP = (  ( 954 ),  ( 271 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 360;
+      Room = 9611;
+    }
+  }
+  Room 9612 {
+    Mobile 9533 {
+      Ptr = 188112896;
+      DamType = 'pound';
+      HMVP = (  ( 131 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Silver = 47;
+      Room = 9612;
+    }
+    Mobile 9557 {
+      Ptr = 182212312;
+      DamType = 'slash';
+      HMVP = (  ( 388 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 182;
+      Room = 9612;
+    }
+  }
+  Room 9613 {
+    Mobile 9542 {
+      Ptr = 192799304;
+      DamType = 'pierce';
+      HMVP = (  ( 95 ),  ( 139 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 9613;
+    }
+    Mobile 9542 {
+      Ptr = 182208216;
+      DamType = 'pierce';
+      HMVP = (  ( 94 ),  ( 139 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 9613;
+    }
+    Mobile 9592 {
+      Ptr = 188990024;
+      DamType = 'pierce';
+      HMVP = (  ( 139 ),  ( 136 ),  ( 100 ),  ( 0 ) );
+      Silver = 28;
+      Room = 9613;
+    }
+    Mobile 9542 {
+      Ptr = 188119912;
+      DamType = 'pound';
+      HMVP = (  ( 96 ),  ( 142 ),  ( 100 ),  ( 0 ) );
+      Silver = 16;
+      Room = 9613;
+    }
+    Mobile 9592 {
+      Ptr = 182211144;
+      DamType = 'pierce';
+      HMVP = (  ( 140 ),  ( 115 ),  ( 100 ),  ( 0 ) );
+      Silver = 45;
+      Room = 9613;
+    }
+  }
+  Room 9614 {
+    Mobile 9592 {
+      Ptr = 188960176;
+      DamType = 'slash';
+      HMVP = (  ( 144 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 43;
+      Room = 9614;
+    }
+    Mobile 9592 {
+      Ptr = 182160232;
+      DamType = 'pound';
+      HMVP = (  ( 145 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 25;
+      Room = 9614;
+    }
+    Mobile 9561 {
+      Ptr = 182170768;
+      DamType = 'slash';
+      HMVP = (  ( 141 ),  ( 119, 129 ),  ( 100 ),  ( 0 ) );
+      Silver = 43;
+      Room = 9614;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 9543 {
+      Ptr = 188119328;
+      DamType = 'slash';
+      HMVP = (  ( 24 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9614;
+    }
+    Mobile 9542 {
+      Ptr = 188996456;
+      DamType = 'pierce';
+      HMVP = (  ( 91 ),  ( 133 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 9614;
+    }
+    Mobile 9543 {
+      Ptr = 188997040;
+      DamType = 'pound';
+      HMVP = (  ( 30 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Room = 9614;
+    }
+    Mobile 9513 {
+      Ptr = 182216992;
+      DamType = 'slash';
+      HMVP = (  ( 482 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 93;
+      Room = 9614;
+      Obj 9583 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'wielded';
+      }
+      Obj 9555 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9554 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9553 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9552 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9551 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9550 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9549 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9548 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9547 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9546 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9615 {
+    Mobile 9592 {
+      Ptr = 188966616;
+      DamType = 'slash';
+      HMVP = (  ( 143 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 48;
+      Room = 9615;
+    }
+    Mobile 9568 {
+      Ptr = 188969544;
+      DamType = 'pound';
+      HMVP = (  ( 57 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9615;
+    }
+    Mobile 9582 {
+      Ptr = 182173104;
+      DamType = 'pound';
+      HMVP = (  ( 1047 ),  ( 169 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 406;
+      Room = 9615;
+    }
+    Mobile 9514 {
+      Ptr = 182215824;
+      DamType = 'slash';
+      HMVP = (  ( 483 ),  ( 159 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 105;
+      Room = 9615;
+      Obj 9560 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9559 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9558 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9557 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9556 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 9592 {
+      Ptr = 182216408;
+      DamType = 'pierce';
+      HMVP = (  ( 145 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Silver = 63;
+      Room = 9615;
+    }
+  }
+  Room 9616 {
+    Mobile 9592 {
+      Ptr = 182207632;
+      DamType = 'pound';
+      HMVP = (  ( 150 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 51;
+      Room = 9616;
+    }
+    Mobile 9525 {
+      Ptr = 182225768;
+      DamType = 'pound';
+      HMVP = (  ( 967 ),  ( 254 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 554;
+      Room = 9616;
+    }
+    Mobile 9527 {
+      Ptr = 182226352;
+      DamType = 'pierce';
+      HMVP = (  ( 1259 ),  ( 278 ),  ( 100 ),  ( 0 ) );
+      Gold = 22;
+      Silver = 682;
+      Room = 9616;
+    }
+    Mobile 9522 {
+      Ptr = 182214656;
+      DamType = 'pound';
+      HMVP = (  ( 960 ),  ( 273 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 25;
+      Room = 9616;
+    }
+    Mobile 9523 {
+      Ptr = 182215240;
+      DamType = 'pound';
+      HMVP = (  ( 971 ),  ( 241 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 251;
+      Room = 9616;
+    }
+  }
+  Room 9620 {
+    Mobile 9542 {
+      Ptr = 192964312;
+      DamType = 'pierce';
+      HMVP = (  ( 87 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 9620;
+    }
+    Mobile 9543 {
+      Ptr = 188999968;
+      DamType = 'pierce';
+      HMVP = (  ( 24 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9620;
+    }
+  }
+  Room 9621 {
+    Mobile 9540 {
+      Ptr = 182154384;
+      DamType = 'pierce';
+      HMVP = (  ( 534 ),  ( 210 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 314;
+      Room = 9621;
+    }
+    Mobile 9533 {
+      Ptr = 188108208;
+      DamType = 'slash';
+      HMVP = (  ( 130 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 31;
+      Room = 9621;
+    }
+    Mobile 9537 {
+      Ptr = 184173128;
+      DamType = 'pierce';
+      HMVP = (  ( 66 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9621;
+      Obj 9500 {
+      }
+    }
+    Mobile 9512 {
+      Ptr = 182225184;
+      DamType = 'pierce';
+      HMVP = (  ( 486 ),  ( 135 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 156;
+      Room = 9621;
+    }
+  }
+  Room 9622 {
+    Mobile 9592 {
+      Ptr = 188995872;
+      DamType = 'pierce';
+      HMVP = (  ( 139 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 48;
+      Room = 9622;
+    }
+    Mobile 9592 {
+      Ptr = 182172520;
+      DamType = 'pierce';
+      HMVP = (  ( 140 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 26;
+      Room = 9622;
+    }
+    Mobile 9544 {
+      Ptr = 188995288;
+      DamType = 'pound';
+      Act = ('npc', 'stay_area', 'wimpy', 'pet');
+      HMVP = (  ( 32 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 9622;
+    }
+    Mobile 9515 {
+      Ptr = 182224016;
+      DamType = 'pierce';
+      Act = ('npc', 'sentinel', 'pet', 'warrior', 'nopurge', 'indoors', 'created');
+      HMVP = (  ( 471 ),  ( 153 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 165;
+      Room = 9622;
+      Obj 9584 {
+        ExtraFlags = ('antievil', 'antineutral', 'inventory');
+        WearLoc = 'wielded';
+      }
+      Obj 9563 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9562 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9561 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9623 {
+    Mobile 9568 {
+      Ptr = 182183640;
+      DamType = 'slash';
+      HMVP = (  ( 56 ),  ( 116 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9623;
+    }
+    Mobile 9579 {
+      Ptr = 182222848;
+      DamType = 'pound';
+      HMVP = (  ( 881 ),  ( 170 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 20;
+      Room = 9623;
+      Obj 9574 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 9573 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 9572 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 9571 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 9570 {
+        ExtraFlags = ('glow', 'magic', 'inventory');
+      }
+    }
+  }
+  Room 9624 {
+    Mobile 9580 {
+      Ptr = 182233376;
+      DamType = 'slash';
+      HMVP = (  ( 899 ),  ( 160 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 298;
+      Room = 9624;
+      Obj 9582 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 9581 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 9579 {
+        ExtraFlags = ('glow', 'magic', 'inventory');
+      }
+      Obj 9578 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+    }
+  }
+  Room 9625 {
+    Mobile 9544 {
+      Ptr = 188980656;
+      DamType = 'pound';
+      HMVP = (  ( 31 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 9625;
+    }
+    Mobile 9556 {
+      Ptr = 182232792;
+      DamType = 'slash';
+      HMVP = (  ( 382 ),  ( 141 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 119;
+      Room = 9625;
+    }
+  }
+  Room 9626 {
+    Mobile 9533 {
+      Ptr = 182232208;
+      DamType = 'pound';
+      HMVP = (  ( 124 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 22;
+      Room = 9626;
+    }
+    Mobile 9558 {
+      Ptr = 182231624;
+      DamType = 'slash';
+      HMVP = (  ( 386 ),  ( 154 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 230;
+      Room = 9626;
+    }
+  }
+  Room 9627 {
+    Mobile 9542 {
+      Ptr = 188113480;
+      DamType = 'pound';
+      HMVP = (  ( 88 ),  ( 138 ),  ( 100 ),  ( 0 ) );
+      Silver = 15;
+      Room = 9627;
+    }
+  }
+  Room 9628 {
+    Mobile 9533 {
+      Ptr = 192801640;
+      DamType = 'slash';
+      HMVP = (  ( 127 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 49;
+      Room = 9628;
+    }
+    Mobile 9511 {
+      Ptr = 182231040;
+      DamType = 'pierce';
+      HMVP = (  ( 475 ),  ( 156 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 64;
+      Room = 9628;
+      Obj 9538 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9539 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9537 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9536 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9535 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9534 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9629 {
+    Mobile 9582 {
+      Ptr = 184172544;
+      DamType = 'pierce';
+      HMVP = (  ( 1047 ),  ( 181 ),  ( 100 ),  ( 0 ) );
+      Gold = 12;
+      Silver = 554;
+      Room = 9629;
+    }
+    Mobile 9516 {
+      Ptr = 182238640;
+      DamType = 'pierce';
+      HMVP = (  ( 468 ),  ( 145 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 183;
+      Room = 9629;
+      Obj 9521 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9520 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9519 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9518 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9517 {
+        ExtraFlags = ('invis', 'magic', 'bless', 'antievil', 'antineutral', 'inventory');
+      }
+      Obj 9516 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9515 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9630 {
+    Mobile 9592 {
+      Ptr = 182233960;
+      DamType = 'pierce';
+      HMVP = (  ( 144 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Silver = 41;
+      Room = 9630;
+    }
+    Mobile 9544 {
+      Ptr = 182223432;
+      DamType = 'pierce';
+      HMVP = (  ( 33 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Room = 9630;
+    }
+    Mobile 9544 {
+      Ptr = 182183056;
+      DamType = 'pound';
+      HMVP = (  ( 32 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Room = 9630;
+    }
+    Mobile 9544 {
+      Ptr = 188994704;
+      DamType = 'pound';
+      HMVP = (  ( 27 ),  ( 101 ),  ( 100 ),  ( 0 ) );
+      Room = 9630;
+    }
+  }
+  Room 9631 {
+    Mobile 9564 {
+      Ptr = 182238056;
+      DamType = 'pound';
+      HMVP = (  ( 78 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9631;
+    }
+  }
+  Room 9632 {
+    Mobile 9544 {
+      Ptr = 182237472;
+      DamType = 'pound';
+      HMVP = (  ( 25 ),  ( 101 ),  ( 100 ),  ( 0 ) );
+      Room = 9632;
+    }
+    Mobile 9544 {
+      Ptr = 189001136;
+      DamType = 'slash';
+      HMVP = (  ( 33 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Room = 9632;
+    }
+    Mobile 9559 {
+      Ptr = 182236888;
+      DamType = 'slash';
+      HMVP = (  ( 375 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 27;
+      Room = 9632;
+    }
+  }
+  Room 9633 {
+    Mobile 9542 {
+      Ptr = 188970128;
+      DamType = 'pierce';
+      HMVP = (  ( 91 ),  ( 139 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 9633;
+    }
+    Mobile 9533 {
+      Ptr = 188118160;
+      DamType = 'pierce';
+      HMVP = (  ( 135 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 59;
+      Room = 9633;
+    }
+    Mobile 9533 {
+      Ptr = 188993536;
+      DamType = 'pound';
+      HMVP = (  ( 126 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 62;
+      Room = 9633;
+    }
+  }
+  Room 9634 {
+    Mobile 9502 {
+      Ptr = 182236304;
+      HMVP = (  ( 30001 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 85;
+      Silver = 2358;
+      Room = 9634;
+    }
+  }
+  Room 9635 {
+    Mobile 9542 {
+      Ptr = 182217576;
+      DamType = 'pound';
+      HMVP = (  ( 94 ),  ( 143 ),  ( 100 ),  ( 0 ) );
+      Silver = 8;
+      Room = 9635;
+    }
+    Mobile 9582 {
+      Ptr = 171778048;
+      DamType = 'pound';
+      HMVP = (  ( 1056 ),  ( 168 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 56;
+      Room = 9635;
+    }
+    Mobile 9510 {
+      Ptr = 182235720;
+      DamType = 'slash';
+      HMVP = (  ( 480 ),  ( 139 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 426;
+      Room = 9635;
+      Obj 9545 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9543 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9542 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9541 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9540 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9636 {
+    Mobile 9539 {
+      Ptr = 182155552;
+      DamType = 'pierce';
+      HMVP = (  ( 634 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 229;
+      Room = 9636;
+      Obj 9515 {
+        WearLoc = 'body';
+      }
+      Obj 9600 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 9533 {
+      Ptr = 189000552;
+      DamType = 'slash';
+      HMVP = (  ( 128 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 46;
+      Room = 9636;
+    }
+    Mobile 9517 {
+      Ptr = 182246832;
+      DamType = 'pierce';
+      HMVP = (  ( 480 ),  ( 146 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 223;
+      Room = 9636;
+      Obj 9591 {
+        ExtraFlags = ('inventory');
+        WearLoc = 'hold';
+      }
+      Obj 9514 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9513 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9512 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9511 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9510 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9509 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9508 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9507 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9506 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9505 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9504 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9503 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 9533 {
+      Ptr = 182235136;
+      DamType = 'pound';
+      HMVP = (  ( 127 ),  ( 128 ),  ( 100 ),  ( 0 ) );
+      Silver = 45;
+      Room = 9636;
+    }
+  }
+  Room 9637 {
+    Mobile 9531 {
+      Ptr = 182200024;
+      DamType = 'slash';
+      HMVP = (  ( 99 ),  ( 146 ),  ( 100 ),  ( 0 ) );
+      Silver = 29;
+      Room = 9637;
+    }
+    Mobile 9530 {
+      Ptr = 182201192;
+      DamType = 'pound';
+      HMVP = (  ( 77 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 15;
+      Room = 9637;
+    }
+    Mobile 9534 {
+      Ptr = 182184224;
+      DamType = 'pierce';
+      HMVP = (  ( 167 ),  ( 128 ),  ( 100 ),  ( 0 ) );
+      Silver = 60;
+      Room = 9637;
+    }
+    Mobile 9535 {
+      Ptr = 182205288;
+      DamType = 'pound';
+      HMVP = (  ( 75 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Silver = 12;
+      Room = 9637;
+    }
+    Mobile 9584 {
+      Ptr = 182246248;
+      DamType = 'slash';
+      HMVP = (  ( 348 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 162;
+      Room = 9637;
+      Obj 9533 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9532 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9531 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9530 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9529 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9528 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9527 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9526 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9525 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9524 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9523 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9522 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9638 {
+    Mobile 9583 {
+      Ptr = 182245664;
+      DamType = 'pound';
+      HMVP = (  ( 353 ),  ( 152 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 98;
+      Room = 9638;
+      Obj 9577 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9576 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9575 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9640 {
+    Mobile 9536 {
+      Ptr = 188978320;
+      DamType = 'pierce';
+      HMVP = (  ( 163 ),  ( 124 ),  ( 100 ),  ( 0 ) );
+      Silver = 62;
+      Room = 9640;
+    }
+    Mobile 9536 {
+      Ptr = 182188320;
+      DamType = 'pound';
+      HMVP = (  ( 159 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 82;
+      Room = 9640;
+    }
+    Mobile 9536 {
+      Ptr = 188978904;
+      DamType = 'slash';
+      HMVP = (  ( 155 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Silver = 33;
+      Room = 9640;
+    }
+  }
+  Room 9641 {
+    Mobile 9536 {
+      Ptr = 188984168;
+      DamType = 'pierce';
+      HMVP = (  ( 163 ),  ( 143 ),  ( 100 ),  ( 0 ) );
+      Silver = 71;
+      Room = 9641;
+    }
+    Mobile 9536 {
+      Ptr = 188977736;
+      DamType = 'pierce';
+      HMVP = (  ( 168 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 83;
+      Room = 9641;
+    }
+    Mobile 9509 {
+      Ptr = 182158480;
+      DamType = 'pierce';
+      HMVP = (  ( 14 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9641;
+    }
+    Mobile 9536 {
+      Ptr = 188108800;
+      DamType = 'slash';
+      HMVP = (  ( 154 ),  ( 130 ),  ( 100 ),  ( 0 ) );
+      Silver = 31;
+      Room = 9641;
+    }
+    Mobile 9536 {
+      Ptr = 182193584;
+      DamType = 'pound';
+      HMVP = (  ( 161 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 48;
+      Room = 9641;
+    }
+  }
+  Room 9642 {
+    Mobile 9536 {
+      Ptr = 182193000;
+      DamType = 'pound';
+      HMVP = (  ( 165 ),  ( 129 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 9642;
+    }
+    Mobile 9565 {
+      Ptr = 182245080;
+      DamType = 'pierce';
+      HMVP = (  ( 891 ),  ( 170 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 556;
+      Room = 9642;
+      Obj 3061 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3060 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 9644 {
+    Mobile 9566 {
+      Ptr = 182244496;
+      DamType = 'slash';
+      HMVP = (  ( 901 ),  ( 175 ),  ( 100 ),  ( 0 ) );
+      Gold = 11;
+      Silver = 101;
+      Room = 9644;
+      Obj 9589 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9588 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 9587 {
+        ExtraFlags = ('hum', 'magic', 'inventory');
+      }
+    }
+  }
+  Room 9645 {
+    Mobile 9567 {
+      Ptr = 182259120;
+      DamType = 'pierce';
+      HMVP = (  ( 54 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9645;
+    }
+    Mobile 9567 {
+      Ptr = 182243328;
+      DamType = 'pierce';
+      HMVP = (  ( 55 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9645;
+    }
+  }
+  Room 9646 {
+    Mobile 9503 {
+      Ptr = 182256784;
+      HMVP = (  ( 30001 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 261;
+      Silver = 11102;
+      Room = 9646;
+    }
+  }
+  Room 9648 {
+    Mobile 9500 {
+      Ptr = 182256200;
+      HMVP = (  ( 30001 ),  ( 500 ),  ( 100 ),  ( 0 ) );
+      Gold = 199;
+      Silver = 1100;
+      Room = 9648;
+    }
+  }
+  Room 9649 {
+    Mobile 9567 {
+      Ptr = 182257368;
+      DamType = 'slash';
+      HMVP = (  ( 52 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9649;
+    }
+    Mobile 9567 {
+      Ptr = 182243912;
+      DamType = 'slash';
+      HMVP = (  ( 56 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9649;
+    }
+  }
+  Room 9651 {
+    Mobile 9546 {
+      Ptr = 182263216;
+      DamType = 'pierce';
+      HMVP = (  ( 346 ),  ( 168 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 131;
+      Room = 9651;
+    }
+  }
+  Room 9653 {
+    Mobile 9582 {
+      Ptr = 182192416;
+      DamType = 'pound';
+      HMVP = (  ( 1054 ),  ( 179 ),  ( 100 ),  ( 0 ) );
+      Gold = 11;
+      Silver = 465;
+      Room = 9653;
+    }
+  }
+  Room 9654 {
+    Mobile 9561 {
+      Ptr = 182191832;
+      DamType = 'slash';
+      HMVP = (  ( 145 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 36;
+      Room = 9654;
+    }
+    Mobile 9561 {
+      Ptr = 188982416;
+      DamType = 'pierce';
+      HMVP = (  ( 146 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 37;
+      Room = 9654;
+    }
+    Mobile 9561 {
+      Ptr = 188981248;
+      DamType = 'slash';
+      HMVP = (  ( 141 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 32;
+      Room = 9654;
+    }
+  }
+  Room 9658 {
+    Mobile 9561 {
+      Ptr = 188105872;
+      DamType = 'pierce';
+      HMVP = (  ( 145 ),  ( 122, 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 23;
+      Room = 9658;
+      Obj 9519 {
+        WearLoc = 'body';
+      }
+      Obj 9521 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 9661 {
+    Mobile 9560 {
+      Ptr = 182261464;
+      DamType = 'pound';
+      HMVP = (  ( 24 ),  ( 101 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9661;
+    }
+    Mobile 9561 {
+      Ptr = 182264976;
+      DamType = 'slash';
+      HMVP = (  ( 147 ),  ( 116 ),  ( 100 ),  ( 0 ) );
+      Silver = 40;
+      Room = 9661;
+    }
+    Mobile 9560 {
+      Ptr = 182260880;
+      DamType = 'slash';
+      HMVP = (  ( 30 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9661;
+    }
+    Mobile 9590 {
+      Ptr = 182260296;
+      DamType = 'pierce';
+      HMVP = (  ( 349 ),  ( 146 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 303;
+      Room = 9661;
+    }
+  }
+  Room 9662 {
+    Mobile 9544 {
+      Ptr = 182195928;
+      DamType = 'pound';
+      HMVP = (  ( 25 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Room = 9662;
+    }
+  }
+  Room 9663 {
+    Mobile 9533 {
+      Ptr = 188117576;
+      DamType = 'pierce';
+      HMVP = (  ( 128 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 9663;
+    }
+    Mobile 9533 {
+      Ptr = 182264392;
+      DamType = 'slash';
+      HMVP = (  ( 127 ),  ( 123 ),  ( 100 ),  ( 0 ) );
+      Silver = 56;
+      Room = 9663;
+    }
+  }
+  Room 9666 {
+    Mobile 9555 {
+      Ptr = 182259712;
+      DamType = 'slash';
+      HMVP = (  ( 1062 ),  ( 264 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 192;
+      Room = 9666;
+      Affect = ( 'sanctuary', -1, 32, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9670 {
+    Mobile 9544 {
+      Ptr = 182266728;
+      DamType = 'slash';
+      HMVP = (  ( 28 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Room = 9670;
+    }
+  }
+  Room 9671 {
+    Mobile 9533 {
+      Ptr = 185441128;
+      DamType = 'slash';
+      HMVP = (  ( 130 ),  ( 129 ),  ( 100 ),  ( 0 ) );
+      Silver = 38;
+      Room = 9671;
+    }
+  }
+  Room 9673 {
+    Mobile 9563 {
+      Ptr = 182263808;
+      DamType = 'pierce';
+      HMVP = (  ( 347 ),  ( 158 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 151;
+      Room = 9673;
+    }
+  }
+  Room 9676 {
+    Mobile 9561 {
+      Ptr = 182269656;
+      DamType = 'pound';
+      HMVP = (  ( 144 ),  ( 116 ),  ( 100 ),  ( 0 ) );
+      Silver = 46;
+      Room = 9676;
+    }
+  }
+  Room 9677 {
+    Mobile 9533 {
+      Ptr = 188999384;
+      DamType = 'slash';
+      HMVP = (  ( 129 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 44;
+      Room = 9677;
+    }
+  }
+  Room 9678 {
+    Mobile 9585 {
+      Ptr = 182271408;
+      DamType = 'pound';
+      HMVP = (  ( 343 ),  ( 156 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 192;
+      Room = 9678;
+    }
+  }
+  Room 9680 {
+    Mobile 9588 {
+      Ptr = 182270824;
+      DamType = 'slash';
+      HMVP = (  ( 130 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 22;
+      Room = 9680;
+    }
+  }
+  Room 9681 {
+    Mobile 9561 {
+      Ptr = 188998800;
+      DamType = 'pound';
+      HMVP = (  ( 145 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 22;
+      Room = 9681;
+    }
+    Mobile 9561 {
+      Ptr = 182270240;
+      DamType = 'pound';
+      HMVP = (  ( 138 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 58;
+      Room = 9681;
+    }
+    Mobile 9561 {
+      Ptr = 188998216;
+      DamType = 'slash';
+      HMVP = (  ( 137 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Silver = 49;
+      Room = 9681;
+    }
+    Mobile 9561 {
+      Ptr = 188116992;
+      DamType = 'slash';
+      HMVP = (  ( 140 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 29;
+      Room = 9681;
+    }
+  }
+  Room 9683 {
+    Mobile 9578 {
+      Ptr = 182268488;
+      DamType = 'slash';
+      HMVP = (  ( 124 ),  ( 128 ),  ( 100 ),  ( 0 ) );
+      Silver = 40;
+      Room = 9683;
+    }
+    Mobile 9586 {
+      Ptr = 182269072;
+      DamType = 'pound';
+      HMVP = (  ( 166 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 90;
+      Room = 9683;
+    }
+  }
+  Room 9687 {
+    Mobile 9561 {
+      Ptr = 188997632;
+      DamType = 'slash';
+      HMVP = (  ( 147 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Silver = 48;
+      Room = 9687;
+    }
+    Mobile 9561 {
+      Ptr = 188444080;
+      DamType = 'pierce';
+      HMVP = (  ( 144 ),  ( 135 ),  ( 100 ),  ( 0 ) );
+      Silver = 44;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182277264;
+      DamType = 'pierce';
+      HMVP = (  ( 46 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182277848;
+      DamType = 'pound';
+      HMVP = (  ( 40 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182278432;
+      DamType = 'pierce';
+      HMVP = (  ( 46 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182279016;
+      DamType = 'slash';
+      HMVP = (  ( 46 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182279600;
+      DamType = 'slash';
+      HMVP = (  ( 46 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182272000;
+      DamType = 'pierce';
+      HMVP = (  ( 42 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182272584;
+      DamType = 'slash';
+      HMVP = (  ( 37 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 9687;
+    }
+    Mobile 9551 {
+      Ptr = 182273168;
+      DamType = 'pierce';
+      HMVP = (  ( 43 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 9687;
+    }
+    Mobile 9554 {
+      Ptr = 182273752;
+      DamType = 'pound';
+      HMVP = (  ( 346 ),  ( 146 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 81;
+      Room = 9687;
+    }
+    Mobile 9553 {
+      Ptr = 182274336;
+      DamType = 'pound';
+      HMVP = (  ( 228 ),  ( 145 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 40;
+      Room = 9687;
+    }
+    Mobile 9553 {
+      Ptr = 182274920;
+      DamType = 'pierce';
+      HMVP = (  ( 226 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 68;
+      Room = 9687;
+    }
+    Mobile 9553 {
+      Ptr = 182275504;
+      DamType = 'slash';
+      HMVP = (  ( 223 ),  ( 129 ),  ( 100 ),  ( 0 ) );
+      Silver = 141;
+      Room = 9687;
+    }
+    Mobile 9553 {
+      Ptr = 182267904;
+      DamType = 'pierce';
+      HMVP = (  ( 227 ),  ( 136 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 52;
+      Room = 9687;
+    }
+  }
+  Room 9688 {
+    Mobile 9561 {
+      Ptr = 182276680;
+      DamType = 'pound';
+      HMVP = (  ( 147 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 41;
+      Room = 9688;
+    }
+    Mobile 9561 {
+      Ptr = 188443496;
+      DamType = 'pound';
+      HMVP = (  ( 145 ),  ( 130 ),  ( 100 ),  ( 0 ) );
+      Silver = 26;
+      Room = 9688;
+    }
+  }
+  Room 9689 {
+    Mobile 9550 {
+      Ptr = 182276096;
+      DamType = 'pierce';
+      HMVP = (  ( 1353 ),  ( 188 ),  ( 100 ),  ( 0 ) );
+      Gold = 15;
+      Silver = 1017;
+      Room = 9689;
+      Obj 9799 {
+      }
+    }
+  }
+  Room 9690 {
+    Obj 9798 {
+    }
+  }
+  Room 9691 {
+    Mobile 9552 {
+      Ptr = 182283696;
+      DamType = 'pierce';
+      HMVP = (  ( 291 ),  ( 155 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 96;
+      Room = 9691;
+      Obj 9593 {
+      }
+    }
+  }
+  Room 9696 {
+    Mobile 9587 {
+      Ptr = 182283112;
+      DamType = 'slash';
+      HMVP = (  ( 155 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 9696;
+      Obj 9599 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 9697 {
+    Mobile 9575 {
+      Ptr = 182282528;
+      DamType = 'pierce';
+      HMVP = (  ( 120 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 18;
+      Room = 9697;
+    }
+  }
+  Room 9698 {
+    Mobile 9574 {
+      Ptr = 182281944;
+      DamType = 'pound';
+      HMVP = (  ( 153 ),  ( 123 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 9698;
+    }
+  }
+  Room 9699 {
+    Mobile 9572 {
+      Ptr = 182287208;
+      DamType = 'slash';
+      HMVP = (  ( 105 ),  ( 115 ),  ( 100 ),  ( 0 ) );
+      Silver = 15;
+      Room = 9699;
+    }
+    Mobile 9572 {
+      Ptr = 182287792;
+      DamType = 'slash';
+      HMVP = (  ( 110 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 9699;
+    }
+    Mobile 9572 {
+      Ptr = 182280192;
+      DamType = 'pound';
+      HMVP = (  ( 109 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Silver = 24;
+      Room = 9699;
+    }
+    Mobile 9572 {
+      Ptr = 182280776;
+      DamType = 'pound';
+      HMVP = (  ( 106 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 26;
+      Room = 9699;
+    }
+    Mobile 9572 {
+      Ptr = 182281360;
+      DamType = 'pierce';
+      HMVP = (  ( 104 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 16;
+      Room = 9699;
+    }
+  }
+  Room 9700 {
+    Mobile 9570 {
+      Ptr = 182286624;
+      DamType = 'pierce';
+      HMVP = (  ( 107 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Silver = 14;
+      Room = 9700;
+    }
+  }
+  Room 9701 {
+    Mobile 9577 {
+      Ptr = 182286040;
+      AfBy = ('flying');
+      HMVP = (  ( 68 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 9701;
+      Affect = ( 'haste', -1, 5, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 1 ) );
+    }
+  }
+  Room 9702 {
+    Mobile 9576 {
+      Ptr = 182285456;
+      DamType = 'pierce';
+      HMVP = (  ( 229 ),  ( 146 ),  ( 100 ),  ( 0 ) );
+      Silver = 140;
+      Room = 9702;
+    }
+  }
+  Room 9703 {
+    Mobile 9573 {
+      Ptr = 182284872;
+      DamType = 'pound';
+      HMVP = (  ( 103 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 9703;
+    }
+  }
+  Room 9704 {
+    Mobile 9571 {
+      Ptr = 182284288;
+      DamType = 'pound';
+      HMVP = (  ( 101 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 9704;
+    }
+  }
+  Room 9706 {
+    Mobile 3095 {
+      Ptr = 182290720;
+      Sex = 'female';
+      HMVP = (  ( 160 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9706;
+    }
+    Mobile 3096 {
+      Ptr = 182291304;
+      Sex = 'female';
+      HMVP = (  ( 226 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9706;
+    }
+    Mobile 3097 {
+      Ptr = 182291888;
+      Sex = 'female';
+      HMVP = (  ( 354 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9706;
+    }
+  }
+  Room 9750 {
+    Obj 9598 {
+    }
+  }
+  Room 9781 {
+    Mobile 9544 {
+      Ptr = 182267312;
+      DamType = 'pierce';
+      HMVP = (  ( 29 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 9781;
+    }
+  }
+  Room 9799 {
+    Mobile 9591 {
+      Ptr = 182290136;
+      DamType = 'slash';
+      HMVP = (  ( 891 ),  ( 188 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 587;
+      Room = 9799;
+      Obj 9602 {
+      }
+    }
+  }
+}

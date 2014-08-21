@@ -1,0 +1,20 @@
+#include "../gc_helper.h"
+#include <stdlib.h>
+#include <string.h>
+#include "struct_skel.hh"
+
+extern char token_image[4096];
+//extern int scan();
+extern NonTerminal* parse();
+extern NonTerminal** listAsArray(ListNonTerminal* list, int & out_count);
+extern char* shift(int i);
+extern int numline;
+extern const int grammar_initialState;
+extern const int data_initialState;
+
+
+void init_grammar_parsing();
+void init_data_parsing();
+
+NonTerminal *parse_one_class( const char *s );
+NonTerminal *parse_one_method( const char *s );

@@ -1,0 +1,104 @@
+abstract class charSpell extends Mob {
+  // earthquake
+  spellTsouin( spellName, level, target, castingLevel, targetName ) {
+     var thisRoom = this.room();
+     if ( thisRoom.checkAttr( "sector", "air" )
+          || thisRoom.checkAttr( "sector", "swim" )
+	  || thisRoom.checkAttr( "sector", "noswim" )
+	  || thisRoom.checkAttr( "sector", "underwater" ) )
+       this.sendTo("There is no earth around!");
+     else {
+       this.actAll("$n make$v the earth tremble and shiver."); 
+       var charList = getCharList();
+       var i = 0;
+       while ( i < charList.size() ) {
+         var vch = charList[i];
+         var vchRoom = vch.room();
+         if ( vchRoom != NULL && vch != this )
+           if ( vchRoom == thisRoom && !this.isSafeSpell(vch,1) ) {
+               var dam = level * max( castingLevel, 1 ) + dice( 2, 8 );
+             if ( vch.savesSpell( level, "bash" ) )
+               dam = dam/2;
+             if ( this.checkAffect("flying" ) ) {
+               if ( castingLevel >= 3
+                    && ( vch.isAffected("levitation")
+                         || vch.isAffected("fly")
+                         || vch.isAffected("flight")
+                         || vch.isAffected("flight_bird") )
+                    && !vch.savesSpell( level, "bash" ) ) {
+                 vch.actAll("$n $b thrown wildly to the ground by the earthquake!");
+                 // FIXME
+                 vch.affectStrip("fly");
+                 vch.affectStrip("flight");
+                 vch.affectStrip("levitation");
+                 vch.affectStrip("flight_bird");
+               }
+               else
+                 vch.abilityDamage( this, 0, "bash", 1, 1, spellName );
+             }
+             else
+               vch.abilityDamage( this, dam, "bash", 1, 1, spellName );
+           }
+           else if ( vchRoom.areaName() == thisRoom.areaName() )
+             vch.sendTo("The earth trembles and shivers.");
+         i = i + 1;
+       }
+     }
+     result = 1;
+  }
+  // List of script spells
+
+  // armor
+  spellTagada( spellName, level, target, castingLevel, targetName ) {
+    if ( target.isAffected( spellName ) )
+      this.actTo( "$n $b already armored.", target );
+    else {
+      var duration = level + 5 * max( castingLevel, 1 );
+      var modifier = -20 * max( castingLevel, 1 );
+      if ( castingLevel == 5 )
+        modifier = modifier * 2;
+      target.addAffect( "char", "AC", "add", modifier, duration, level, spellName, castingLevel );
+      this.actTo( "$n $b protected by $s magic.", [[ target, target, this ]] );
+    }
+    result = 1; // spell found
+  }
+  // weaken
+  spellTadaa( spellName, level, target, castingLevel, targetName ) {
+    if ( target.isAffected( spellName )
+         || ( target.savesSpell( level, "weaken" )
+              && castingLevel < 3 ) )
+      this.sendTo("Spell failed.");
+    else {
+      var dur = level/2;
+      var mod = -level/5;
+      target.addAffect( "char", "strength", "add", mod, dur, level, spellName, castingLevel );
+      target.addAffect( "char", "affects", "or", "weaken", dur, level, spellName, castingLevel );
+      if ( castingLevel >= 2 )
+        target.addAffect( "char", "dexterity", "add", mod, dur, level, spellName, castingLevel );
+      if ( castingLevel >= 3 )
+        target.addAffect( "char", "constitution", "add", mod, dur, level, spellName, castingLevel );
+      if ( castingLevel >= 4 ) {
+        target.addAffect( "char", "intelligence", "add", mod, dur, level, spellName, castingLevel );
+        target.addAffect( "char", "wisdom", "add", mod, dur, level, spellName, castingLevel );
+      }
+      target.actAll( "$n feel$v $s strength slip away." );
+      if ( castingLevel >= 5 ) {
+        target.addDaze( 9 );
+        target.setStunned( 5 );
+        target.actAll("{g$n $b stunned, and have trouble getting back up!{x");
+      }
+    }
+    result = 1;
+  }
+  // Call the right script spell
+  onCast( spellName, level, target, casting, targetName ) {
+    result = 0; // spell not found
+    if ( spellName == "tagada" ) 
+      result = charSpell::spellTagada( spellName, level, target, casting, targetName );
+    else if ( spellName == "tsouin" )
+      result = charSpell::spellTsouin( spellName, level, target, casting, targetName );
+    else if ( spellName == "tadaa" )
+      result = charSpell::spellTadaa( spellName, level, target, casting, targetName );
+  }
+}
+

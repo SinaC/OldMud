@@ -1,0 +1,37 @@
+#!/bin/bash
+
+cd ../area
+
+if [ -e "shutdown.txt" ]
+then
+  rm "shutdown.txt"
+fi
+
+index=1000
+logidx=../log/curidx
+logcmd=../log/lastcmds.txt
+logsep=../log/sep.txt
+
+while [ ! -e "shutdown.txt" ]
+do
+  if [ -e $logidx ]
+  then
+    index=$(cat $logidx)
+  fi
+  logfile=../log/$index
+
+  while [ -e $logfile ]
+  do
+    let index=index+1 
+    logfile=../log/$index
+  done
+  
+  echo "$index" >$logidx
+#../src/rom $1 2>$logfile | awk -f ../log/endof.awk | tr -s "\n" >$logcmd
+  ../src/rom $1 2>$logfile | tail -n1000 | tr -s "\n" >$logcmd
+  cat $logfile $logsep $logcmd > tmp
+  rm $logfile
+  mv tmp $logfile
+  sleep 15
+
+done

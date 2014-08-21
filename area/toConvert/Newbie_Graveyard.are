@@ -1,0 +1,1721 @@
+#Style Circle
+#AREADATA
+Name Newbie Graveyard~
+Builders Jojen~
+VNUMs 7400 7499
+Credits {{None}  CAW    Newbie Graveyard~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#7400
+grey dove~
+a grey dove~
+A grey dove coos softly from the branches of the willow tree.
+~
+   Peaceful and content, this dove sways slightly as it sings a soft, trilling
+song for any to hear.  Now and again it appears to lean and breathe deeply the
+scents of the nearby blossoms.  
+~
+bcdnopr 0 1000 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+BareHandAttack: 1
+E
+#7401
+disheveled boy~
+the disheveled boy~
+A disheveled boy is here, digging in the dirt.
+~
+   About six summers old, the young boy is covered to his elbows in dirt.  His
+reddish hair stands about unkempt and his clothing is streaked with dirt.  As
+you look on, he wanders around, digging holes in the carefully maintained lawn.
+
+~
+bcdho 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 13
+Str: 8
+Dex: 15
+Int: 9
+Wis: 5
+E
+T 7401
+#7402
+scrawny little girl~
+the scrawny little girl~
+A scrawny little girl skips around, uprooting the flowers.
+~
+   Long of limb and tooth, the thin and gangly little girl looks to be caught
+firmly in the awkward age.  Her homespun dress is simple and fairly clean.  As
+you watch, she trots around the path, uprooting flowers violently from the
+ground.  
+~
+bcdo 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+BareHandAttack: 4
+E
+T 7402
+#7403
+squat groundskeeper~
+a squat groundskeeper~
+A squat groundskeeper is busy polishing the fence here.
+~
+   Clad in woolen homespun clothing and sturdy leather boots, the groundskeeper
+is dressed for heavy work.  He is rather short and more than a bit overweight,
+but intent on his job nonetheless.  His russet hair is in a bit of a disarray
+and his fingers are stained with iron polish.  
+~
+bcdo 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 7
+E
+T 7403
+#7404
+twisted dwarf graverobber~
+the graverobber~
+A twisted dwarf wrestles with a monstrous shovel, attempting to dig a hole here.
+~
+   One arm twisted by a birth defect, this ugly little dwarf has made a career
+of relieving the dead of their valuables.  His face and clothes are streaked
+with gravedirt and sweat, testimony to the amount of work required to avoid
+honest labor.  
+~
+bcdho s 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 13
+Str: 15
+Dex: 8
+Int: 10
+Wis: 10
+E
+T 7404
+#7405
+angry young man~
+the angry young man~
+An angry young man stands screaming at a redstone grave marker.
+~
+   His face flushed with anger, the young man seems to be scolding a large
+redstone grave marker.  His arms flail about wildly as he screams and shouts at
+the unhearing tomb.  
+~
+bdo u 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+T 7405
+#7406
+mourner distressed mother~
+the distressed mother~
+A distressed mother mourns her child's death.
+~
+   Clad in black, the woman mourns her child's death.  Her face is lined with
+stress and sadness.  Tears slide slowly down her cheeks as she cries selflessly
+for the loss of her poor, sweet child.  
+~
+bdo 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+T 7406
+#7407
+groundskeeper busy~
+a busy groundskeeper~
+A groundskeeper is here, keeping busy.
+~
+   Clad in homespun cottons, the groundskeeper takes turns either pulling weeds
+or polishing marble statues.  His face is set and he keeps his attention to his
+duties, ignoring the passing mourners.  
+~
+cdg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 13
+E
+#7408
+old woman~
+an old woman~
+An old woman is here, considering the purchase of a new plot.
+~
+   Her face is a mapwork of wrinkles and her hair is spidersilk thin.  The old
+woman looks briefly over at a couple empty plots and sinks deep into thought.  
+In time, she turns and moves on in search of another plot.  
+~
+dgho 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+BareHandAttack: 8
+E
+T 7408
+#7409
+stern man groundskeeper head~
+the head groundskeeper~
+A stern man is here attempting to keep people off the empty plots.
+~
+   A large and brutish man, the head groundskeeper enforces his policy on
+cleanliness with a stern hand.  The beauty and order of the cemetery is a
+responsibility he takes very seriously.  With a loud bark, he scares a young man
+off the soft grass.  
+~
+bcdo df 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 7
+E
+T 7409
+#7410
+tawny owl~
+a tawny owl~
+A tawny owl is perched in the lower branches of the tree.
+~
+   Colored a creamy tan with dark fletchings on its wing and tail feathers, this
+owl is fairly sedate and unconcerned with its surroundings.  A thin leather
+thong is wrapped around one leg, apparently for carrying messages.  
+~
+bdoq p 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+5 5 0
+BareHandAttack: 8
+E
+#7411
+ancient groundskeeper wizened old woman~
+the ancient groundskeeper~
+A wizened old woman uses a tall staff to prod pigeons from the crypt roof.
+~
+   Her face is worn and wrinkled and her hair is white and sparse.  The old
+woman looks to be nearly as old as some of the pitted and weathered statues
+nearby.  While you look on, she pokes at the pigeons roosting on the crypt here
+with a long, ashwood staff.  
+~
+bdo 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+T 7411
+#7412
+tall thin man pickpocket~
+the pickpocket~
+A tall, thin man lurks about the edge of the clearing.
+~
+   Narrow of face and long of nose, the man is tall, nearly seven feet or so.  
+His clothing is the drab black most often worn by mourners, yet he hardly seems
+to be here to grieve a friend or family member.  His eyes dart back and forth as
+he lurks here, watching everyone.  
+~
+bcd st -250 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+Str: 12
+Dex: 17
+Int: 12
+Wis: 12
+E
+T 7412
+#7413
+burned corpse zombie~
+the badly burned zombie~
+A badly burned corpse haunts the place it was accidentally burned alive.
+~
+   The corpse is of indeterminate gender or race.  Most noticeable is that it is
+moving about as no corpse was meant to do and it is covered in huge, weeping
+wounds and crisp, blackened skin.  Even its armour is seared and burned.  
+~
+bdnopr ju 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+BareHandAttack: 8
+Str: 18
+Dex: 6
+Int: 3
+Wis: 3
+E
+#7414
+shade ghendry alchemist~
+the alchemist's shade~
+The shade of the alchemist, Ghendry, glares at nothing in particular.
+~
+   Clearly long dead, the shade is merely a wisp of something physical, barely
+discernible among the shadows.  In life, it was a man of great stature in
+society and much loved by the people of the realm.  Now, however, the shade
+seems more a forgotten past than legend made to live again.  
+~
+bdeoq j 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#7415
+bones lord mycea skeleton~
+Lord Mycea's skeleton~
+The bones of Lord Mycea reanimate in the center of the room.
+~
+   Bones yellowed with age have reanimated themselves inside the molded burial
+rags of the great Lord Mycea.  Rather than eyes, twin orbs of glowing greenish
+light rest inside the sockets of his skull.  
+~
+bdnopr j 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#7416
+frightening apparition ghost fennywen~
+Fennywen's ghost~
+A frightening apparition floats about, examining the huge locked chests here.
+~
+   Given the bashed head leaking who knows what all over, this would seem to be
+the ghost of the great hlafling hero, Fennywen.  A bit translucent and
+thoroughly dead, the ghost is having some time adjusting to its new
+circumstances.  
+~
+bdinopq m 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+BareHandAttack: 4
+E
+#7417
+mourner black~
+a mourner~
+A mourner, dressed all in black, wanders around consumed by grief.
+~
+   Upset by a loved one's death and in no mood for socializing, the mourner
+turns away before you can get a really good look.  
+~
+cdgh 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+T 7417
+#0
+
+#OBJECTS
+
+#7400
+codex stone massive~
+the stone codex~
+A massive stone codex rests in the center of the room.~
+~
+16 d 0 0
+0 0 0 0
+0 0 0 0
+E
+codex stone massive~
+   This massive codex was placed here by the Halfling God, Jojen.  A thin,
+spiralling script covers its surface, telling the tale of the Graveyard above.
+The Graveyard is a place where newbie characters are able to become used to the
+commands of the mud as well as gather a few pieces of equipment that will help
+them survive the harsh reality of the world.  The mobiles in the Graveyard are
+of both evil and good virtues, so the player may decide which to kill in the
+case of alignment- driven roleplaying.  The zone itself is to look realistic
+within the fantasy realms and will not include any t-shirts, beastly fidos, nor
+a Ring of Newbie Helping.  With luck and work, the Graveyard will be enjoyable
+to play and beneficial to the new player as well without the use of cadets,
+training dummies, or janitors.    
+~
+#7401
+large wooden sign~
+a large, wooden sign~
+A large wooden sign is mounted on a painted post near the path.~
+~
+16 0 0 0
+0 0 0 0
+0 0 0 0
+E
+large wooden sign~
+   The scrolling painted letters are written in common: Adventurers might find
+it interesting to know that the use of all capital letters often means there is
+help to be had with that particular word.  Please do not pick the flowers.  
+~
+#7402
+hole~
+a hole in the ground~
+A hole has been dug in the ground here.~
+~
+15 d 0 0
+20 0 -1 0
+0 0 0 0
+#7403
+handful edible roots~
+a handful of edible roots~
+A handful of edible roots juts up from the dirt.~
+~
+19 0 a 0
+4 0 0 0
+2 25 5 0
+E
+handful edible roots~
+   These roots are small and colored a tasty russet.  Aside from the dirt and
+bugs, they look quite edible.    
+~
+#7404
+bunch hyacinths white~
+a bunch of white hyacinths~
+Petals scattered, a bunch of hyacinths has been tossed to the ground here.~
+~
+13 0 a 0
+0 0 0 0
+1 15 5 0
+E
+bunch hyacinths white flowers~
+   Pure white and refreshing, the blossoms on these flowers drip gracefully
+from the long healthy stems.  Some roots still cling to the flowers, apparently
+a reminder of the violent upheaval required to pull them from the ground.    
+~
+A
+6 1
+#7405
+boots sturdy~
+a pair of sturdy leather boots~
+Someone has left a pair of boots lying around.~
+~
+9 o ag 0
+2 0 0 0
+10 100 10 0
+E
+pair leather boots sturdy~
+   Worked of good, sensible leather, these boots are well-made and should last
+a long time.  They are a bit muddy from the previous owner and a spot of blood
+seems to have stained one heel.    
+~
+A
+14 10
+#7406
+shovel iron battered~
+an iron shovel~
+A battered iron shovel has been discarded here.~
+~
+5 jm an k
+0 3 2 7
+5 250 25 0
+E
+shovel iron battered~
+   A little dented around the iron spade, the handle still seems to be in good
+condition.  It's pointed end is still clumped with gravedirt.    
+~
+#7407
+small marble tombstone~
+a small, marble tombstone~
+A small, marble tombstone lies here, marking an unknown grave.~
+~
+9 jm aj n
+3 0 0 0
+10 50 5 0
+E
+small round tombstone marble~
+   Small and round, this thin marble tombstone has a thick brass strap attached
+to one side, apparently to hold flowers at the gravesite.  It almost looks as
+if it could be worn as a shield
+~
+#7408
+patchwork cloak heap cloth~
+a patchwork cloak~
+A heap of cloth collects dust as it lies here.~
+~
+9 gp ak 0
+1 0 0 0
+2 2 0 0
+E
+patchwork cloak heap cloth~
+   This cloak is patched together from various unmatched bits of fabric of all
+types.  Silk and wool are knit together to create this garish, but warm cloak.
+  
+~
+A
+12 15
+#7409
+simple earthenware jug water~
+a simple earthenware jug~
+An earthenware jug lies on its side on the ground.~
+~
+17 0 ao 0
+10 5 15 0
+5 75 7 0
+E
+simple earthenware jug~
+   Red clay and completely unadorned, this jug looks functional and watertight.
+  
+~
+#7410
+black pile silk gloves~
+a pair of fine, black silk gloves~
+A small pile of black silk lies crumpled on the ground.~
+~
+11 0 ah 0
+0 0 0 0
+1 1 1 0
+E
+black silk gloves~
+   Dainty enough for a woman, but large enough for a man, these fine silk
+gloves are well-made and traced with a delicate black lace.    
+~
+A
+24 2
+#7411
+long black silk veil~
+a long, black silk veil~
+A silk veil is tossed around in the breeze.~
+~
+11 dgh ae 0
+0 0 0 0
+2 2 0 0
+E
+long black silk veil~
+   A length of fine black silk, thie veil appears to be the sort used by
+mourners.    
+~
+A
+6 -1
+#7412
+heavy canvas bag~
+a heavy canvas bag~
+A heavy canvas bag has been tossed aside here.~
+~
+15 0 ad 0
+200 0 -1 0
+2 10 1 0
+E
+heavy canvas bag~
+   Constructed of heavy canvas, this bag is fairly large and comes with a
+large, overshoulder strap for easy carrying.  Unfortunately, wearing it would
+require giving up any body armour.    
+~
+#7413
+bright copper oil lamp~
+a bright, copper oil lamp~
+A bright, copper oil lamp lies here, burning merrily.~
+~
+1 k a d
+0 0 10 0
+3 60 6 0
+E
+bright copper oil lamp~
+   Made of a shoddy burnished copper, this lamp is functional, but
+unremarkable.  A small hoop handle allows easy carrying.  Somehow, despite its
+poor quality, the lamp allows you to see far more than you would have thought
+possible.    
+~
+A
+18 -1
+#7414
+wide ivory bracelet~
+a wide ivory bracelet~
+A wide, ivory bracelet is here, collecting dust.~
+~
+9 b am 0
+1 0 0 0
+2 50 5 0
+E
+wide ivory bracelet~
+   This wide bracelet is formed of delicately carved ivory and has yellowed
+considerably with age.  An image carved in the ivory depicts a thorny pattern
+of roses.    
+~
+A
+19 1
+#7415
+key shiny copper~
+a shiny copper key~
+Something shiny has been left lying here.~
+~
+18 c alm 0
+0 0 0 0
+1 20 2 0
+E
+shiny copper key~
+   This key is small and made of soft copper.  Not widely used for tools as
+important as keys and such, copper is delicate and should be handled carefully
+or it might bend or even break.    
+~
+#7416
+pouch belt hide worn beltpouch~
+a worn hide beltpouch~
+Someone's beltpouch was left here.~
+~
+15 0 al 0
+13 0 -1 0
+3 25 1 0
+E
+worn wide beltpouch belt pouch hide~
+   Animal hide of some sort has been tanned and sewn together with thick strips
+of sinew to form this beltpouch.  The small pouches hanging from the belt are
+trimmed with a coarse, black fur.  It is hardly a market piece, but seems
+serviceable enough.    
+~
+A
+24 2
+#7417
+square stone key~
+a square stone key~
+An odd shaped stone is lying here.~
+~
+18 c ag 0
+0 0 0 0
+2 10 1 0
+E
+square stone key~
+   This key is a very intricate piece of stonework.  A chip of granite has been
+chipped away to shape a squat stone key.  Smoothed by age and use, this key is
+really quite extraordinary.    
+~
+#7418
+long knobby ashwood staff~
+a long ashwood staff~
+A long, knobby staff lies here.~
+~
+5 p an 0
+4 2 2 7
+5 100 10 0
+E
+long knobby ashwood staff~
+   This is a simple staff, roughly six feet in length and shaped of smooth
+ashwood.    
+~
+A
+12 10
+#7419
+platinum circlet ring small~
+a small platinum circlet~
+Nearly unnoticeable, a small ring glints in the dust.~
+~
+11 gk ab f
+0 0 0 0
+1 300 30 0
+E
+platinum circlet ring small~
+   This small circlet of platinum is plain and unadorned, but made of a very
+rare metal.  The value alone makes this item a treasure, but there is something
+more.  Just touching this ring, you can feel your senses soar and heighten.  
+~
+A
+4 1
+#7420
+slender steel key~
+a slender, steel key~
+A slender bit of steel has been discarded here.~
+~
+18 c a 0
+0 0 0 0
+1 75 7 0
+E
+slender steel key~
+   Hardly unusual, this is a simple steel key.  It is worn from use, but it
+otherwise quite unremarkable.    
+~
+#7421
+sweeping black cape pile cloth~
+a sweeping black cape~
+A pile of black cloth lies in the dirt.~
+~
+9 j ak 0
+2 0 0 0
+3 100 10 0
+E
+sweeping black cape~
+   A cape of heavy cloth, this simple bit of finery is dyed a deep, shadowy
+black.  A rather unusual bit of clothing in that it is without colourful thread
+or embroidery of any sort.    
+~
+A
+2 1
+#7422
+sinuous leather whip~
+a sinuous leather whip~
+There is a leather whip lying here, unclaimed.~
+~
+5 bj an 0
+7 1 5 10
+5 150 15 0
+E
+sinuous leather whip~
+   Not unlike the whip a horse driver would use, this is little more than a
+long, snaking leather whip set in a bone handle.  It's length is an astounding
+eight feet from handle to tongue that would require much skill to master.    
+~
+A
+18 1
+#7423
+charred suit mail~
+a charred suit of mail~
+A charred mail suit was thrown aside here.~
+~
+9 jmo ad 0
+3 0 0 0
+20 400 40 0
+E
+charred suit mail~
+   Seared by fire and blackened with ash, this suit of mail hardly seems
+useable.  It stinks of charred flesh and soot, but is actually still in a
+single piece and can be pulled over the head if careful.    
+~
+#7424
+pair chain blackened sleeves~
+a pair of blackened chain sleeves~
+Someone's chain sleeves lie here, badly burned.~
+~
+9 0 ai 0
+2 0 0 0
+10 250 25 0
+E
+pair chain blackened sleeves~
+   This pair of chainmail sleeves has suffered grievous damage in a fire.  The
+links are scorched black and, in places, melded together by the heat that
+burned them.    
+~
+A
+13 5
+A
+12 -5
+#7425
+pair blackened chain leggings~
+a pair of blackened chain leggings~
+A pair of blackened leggings lies here, smouldering.~
+~
+9 0 af 0
+2 0 0 0
+10 275 27 0
+E
+pair blackened chain leggings~
+   Chain links woven together to make these sleeves have been damaged in a
+fire.  Black streaks cover the armour and the smell of charred flesh is heavily
+soaked into the blackened linen lining.    
+~
+A
+14 -5
+A
+13 5
+#7426
+glowing length chain ~
+a glowing length of chain ~
+A glowing length of chain was cast aside here.~
+~
+9 a al 0
+1 0 0 0
+8 350 35 0
+E
+glowing length chain~
+   About two feet in length, this thick iron chain glows vibrantly with an
+eerie greenish glow.  Adjustable clasps on either end make this chain easy to
+wear on almost any part of the body.    
+~
+A
+3 1
+#7427
+bottle fizzing green liquid potion~
+a fizzing green potion~
+A bottle of fizzing green liquid has been set here carefully.~
+~
+10 cg a 0
+12 -1 -1 -1
+2 400 40 0
+E
+bottle fizzing green liquid potion~
+   A rotund glass bottle with a tall, narrow neck contains a substance of
+extremely dubious origins.  A brilliant green, the fluid inside the bottle
+bubbles fiercely and without stop despite the stoppered bottle top.    
+~
+#7428
+stone vial oil potion~
+a stone vial~
+A stone vial filled with a foul-smelling oil is here.~
+~
+10 cg a 0
+12 1 -1 -1
+5 500 50 0
+E
+stone vial oil potion~
+   This squat, stone vial is filled with an awful smelling liquid that brings
+tears to the eyes.  The vial is fairly original in design, there being few
+stone bottles used these days.    
+~
+#7429
+fine bluesteel steel breastplate~
+a fine bluesteel breastplate ~
+A breastplate of blue steel lies here, glowing softly.~
+~
+9 n ad 0
+5 0 0 0
+10 400 40 0
+E
+fine bluesteel steel blue breastplate~
+   This breastplate is a gorgeous piece of work.  Crafted of fine bluesteel, an
+ore from deep in the mountains, the armour is both functional and beautiful.  
+Age may have caused some breakdown in the metal, but it seems strong.    
+~
+#7430
+steel bluesteel warhammer hammer~
+Lord Mycea's bluesteel warhammer~
+A wicked-looking warhammer has been left here.~
+~
+5 g an 0
+2 3 2 6
+15 900 100 0
+E
+blue steel bluesteel warhammer hammer~
+   A historic weapon, Lord Mycea's warhammer has a bluesteel head strapped to a
+three foot handle.  The metal shines as it must have the day it was forged and
+a low hum emanates from the fabulous weapon.    
+~
+#7431
+ancient band copper~
+an ancient band of copper~
+A band of copper lies here.~
+~
+12 gk am 0
+0 0 0 0
+5 100 10 0
+E
+ancient band copper~
+   This copper band has deteriorated somewhat with age and is showing signs of
+mineral build up.  The band is unadorned and undecorated, nothing more than a
+simple piece of jewelry worn on the wrist.    
+~
+#7432
+tiny horned half helm little~
+a tiny, horned half-helm~
+Someone left their little helm here.~
+~
+9 a ae 0
+2 0 0 0
+8 300 30 0
+E
+tiny little horned half helm~
+   This helm is truly more of a metal hat.  Built like a bascinet, it lacks the
+neck plate or nose guard of a true helm.  Still, the small, curved horns could
+do well to protect against heavy, downward swings.    
+~
+A
+5 1
+#7433
+six massive locked chests~
+six massive locked chests~
+Six massive locked chests are scattered about here.~
+~
+15 cd 0 0
+500 0 -1 0
+0 0 0 0
+E
+six massive locked chests~
+   These massive chests hold the various pieces of the halfling hero's original
+body.  Knowing that the parts would simply reform again, the townsfolk locked
+them into these monstrous chests and sealed them beneath locks both magical and
+mundane.  It would be wise not to tamper with them.    
+~
+#7435
+lace handkerchief black~
+a black lace handkerchief~
+A lace handkerchief blows around on the breeze.~
+~
+2 g a 0
+12 35 -1 -1
+1 250 30 0
+E
+lace black handkerchief~
+   A square of lace about twelve inches across, this handkerchief is dyed black
+in respect for the dead.  It is salty and stained with the tears of a mournful
+friend or family member to the deceased.    
+~
+#0
+
+#ROOMS
+
+#7400
+The Graveyard~
+   This room is surrounded by seemless walls with no apparent entrance or exit.
+It is strangely comfortable, neither too warm nor to cold and lit by a sort of
+eerie phosphorescent light that emanates from the walls themselves.  The
+surface of floor, walls, and ceiling hum vibrantly, resounding with the sounds
+of deep earth.    
+Builder      : Jojen
+Zone         : 74 Graveyard
+Began        : 5/30/01
+Player Level : 3-5
+Rooms        : 33
+Mobs         : 18
+Objects      : 35
+Shops        : 0
+Triggers     : 12
+Theme        : Newbie Training Zone
+Plot         : A giant ant hill.
+Notes        : LOOK CODEX, LOOK ZEDIT
+Links        : 01nwsud
+~
+74 dj 0
+E
+ZEDIT~
+    Zone 74 by Jojen
+0 - Remove the stone codex [7400] from room.
+1 -  then Load the stone codex [7400], Max : 1
+7401
+0 - Load a large, wooden sign [7401], Max : 1
+7403
+0 - Load a grey dove [7400], Max : 1
+7404
+0 - Load a hole in the ground [7402], Max : 1
+1 -  then Put a handful of edible roots [7403] in a hole in the ground [7402], Max : 50
+2 - Load the disheveled boy [7401], Max : 1
+3 - Load the scrawny little girl [7402], Max : 1
+4 -  then Equip with a bunch of white hyacinths [7404], Held, Max : 25
+7406
+
+0 - Load a squat groundskeeper [7403], Max : 1
+1 -  then Equip with a pair of sturdy leather boots [7405], Worn on feet, Max : 75
+7408
+0 - Load the graverobber [7404], Max : 1
+1 -  then Equip with an iron shovel [7406], Wielded, Max : 15
+7409
+0 - Remove a small, marble tombstone [7407] from room.
+1 - Load a small, marble tombstone [7407], Max : 20
+7410
+0 - Load the angry young man [7405], Max : 1
+1 -  then Equip with a patchwork cloak [7408], Worn about body, Max : 100
+7412
+0 - Load the distressed mother [7406], Max : 1
+1 -  then Equip with a pair of fine, black silk gloves [7410], Worn on hands, Max : 25
+2 -  then Equip with a long, black silk veil [7411], Worn on head, Max : 70
+7414
+0 - Load a busy groundskeeper [7407], Max : 3
+1 -  then Give it a heavy canvas bag [7412], Max : 100
+2 -  then Equip with a bright, copper oil lamp [7413], Used as light, Max : 100
+7416
+0 - Load an old woman [7408], Max : 1
+1 -  then Equip with a wide ivory bracelet [7414], Worn around left wrist, Max : 100
+7417
+0 - Load the head groundskeeper [7409], Max : 1
+1 -  then Equip with a shiny copper key [7415], Worn around right wrist, Max : 1
+2 -  then Equip with a worn hide beltpouch [7416], Worn around waist, Max : 45
+3 -  then Give it a simple earthenware jug [7409], Max : 100
+7420
+0 - Load a tawny owl [7410], Max : 1
+1 -  then Equip with a square stone key [7417], Worn on feet, Max : 1
+7421
+0 - Load a mourner [7417], Max : 4
+1 -  then Equip with a black lace handkerchief [7435], Held, Max : 100
+7423
+0 - Load the pickpocket [7412], Max : 1
+1 -  then Give it a slender, steel key [7420], Max : 1
+2 -  then Equip with a sweeping black cape [7421], First worn around Neck, Max : 25
+3 -  then Equip with a sinuous leather whip [7422], Wielded, Max : 50
+7424
+0 - Set door east as closed.
+1 -  then Set door east as locked.
+7425
+0 - Set door east as closed.
+1 -  then Set door east as locked.
+7426
+0 - Set door east as closed.
+1 -  then Set door east as locked.
+2 - Load the ancient groundskeeper [7411], Max : 1
+3 -  then Equip with a long ashwood staff [7418], Wielded, Max : 50
+4 -  then Equip with a small platinum circlet [7419], Worn on right finger, Max : 100
+7427
+0 - Set door west as closed.
+1 -  then Set door west as locked.
+2 - Load the alchemist's shade [7414], Max : 1
+3 -  then Give it a fizzing green potion [7427], Max : 25
+4 -  then Equip with a glowing length of chain  [7426], First worn around Neck, Max : 100
+5 -  then Give it a stone vial [7428], Max : 25
+7428
+0 - Set door west as closed.
+1 -  then Set door west as locked.
+2 -  then Load Lord Mycea's skeleton [7415], Max : 1
+3 -  then Equip with a fine bluesteel breastplate  [7429], Worn on body, Max : 100
+4 -  then Equip with Lord Mycea's bluesteel warhammer [7430], Wielded, Max : 1
+7429
+0 - Set door west as closed.
+1 -  then Set door west as locked.
+2 -  then Load Fennywen's ghost [7416], Max : 1
+3 -  then Equip with an ancient band of copper [7431], Worn around left wrist, Max : 100
+4 -  then Equip with a tiny, horned half-helm [7432], Worn on head, Max : 100
+5 - Load six massive locked chests [7433], Max : 1
+7431
+0 - Load the badly burned zombie [7413], Max : 1
+1 -  then Equip with a pair of blackened chain sleeves [7424], Worn on arms, Max : 100
+2 -  then Equip with a pair of blackened chain leggings [7425], Worn on legs, Max : 100
+3 -  then Equip with a charred suit of mail [7423], Worn on body, Max : 100
+~
+S
+#7401
+The Mourners Path~
+   This path is meticulously maintained and decorated tastefully with thick
+clusters of drooping white hyacinths.  Soft white cobbles have been trod into
+the ground to create this functional and beautiful pathway.  This appears to be
+the beginning or end of the path.    
+~
+74 c 2
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 7402
+E
+clusters cluster white hyacinths hyacinth~
+   Beautiful and fully in bloom, these flowers are said to sweeten the path to
+the other realm.  They are grouped in bunches of six or seven large blossoms
+and spaced about a foot or so apart along the path.    
+~
+S
+#7402
+The Mourners Path~
+   This path is meticulously maintained and decorated tastefully with thick
+clusters of drooping white hyacinths.  Soft white cobbles have been trod into
+the ground to create this functional and beautiful pathway.  The path ends to
+the east at the entrance to the cemetery.  The noises of the city have faded
+away.    
+~
+74 0 2
+D1
+~
+~
+0 0 7401
+D3
+~
+~
+0 0 7403
+S
+#7403
+A Bend in the Path~
+   The white cobbled path bends gracefully here, leading either north or east.
+A large willow tree grows just off the path, dripping slender limbs and soft
+white blossoms on to the grass.  Yet another large bed of hyacinths grows
+around the base of the willow, lending its scent to the sweetness of the willow
+blossoms.  The very air is charged with energy and serenity.    
+~
+74 0 0
+D0
+~
+~
+0 0 7404
+D1
+~
+~
+0 0 7402
+E
+large willow tree~
+   In mature years, this great willow rises up from the earth with a majestic
+grace.  Despite current weather conditions or season, this tree always appears
+as if in the height of spring, alight with blossoms.  It is said that the tree
+was planted atop the grave of a great and powerful druid and stands here as
+sentinel to her memory.    
+~
+S
+T 7400
+#7404
+The Mourners Path~
+   This path is as pointedly cared for as any other in the city, and includes
+clusters of drooping white hyacinths.  Soft white cobbles have been trod into
+the ground to create this functional and beautiful pathway.  A large clump of
+flowers has been uprooted violently, leaving a shallow hole in the dirt near
+the path.  A few dismembered hyacinth petals litter the ground near the hole.
+A hole has been dug in the ground here.    
+~
+74 0 2
+D0
+~
+~
+0 0 7405
+D2
+~
+~
+0 0 7403
+E
+shallow hole~
+   Nearly a handspan deep, this hole was once home to a cluster of hyacinths.
+Now, it is half-full of severed roots and worms.  Surely the groundskeepers
+will be very upset.    
+~
+S
+#7405
+The Mourners Path~
+   This path is meticulously maintained and decorated tastefully with thick
+clusters of drooping white hyacinths.  Soft white cobbles have been trod into
+the ground to create this functional and beautiful pathway.  The path ends at a
+large iron-worked gate to the north.    
+~
+74 0 0
+D0
+~
+~
+0 0 7406
+D2
+~
+~
+0 0 7404
+S
+#7406
+At the Gates of the Cemetary~
+   A tall set of iron-worked gates stand here, open to the populace.  
+Intricate in design and strong of structure, this gate looks adequate enough at
+keeping people out when closed and locked.  The round, cobbled path ends here,
+leaving visitors to tread on the lawn while visiting the cemetary.    
+~
+74 0 2
+D0
+~
+~
+0 0 7407
+D2
+~
+~
+0 0 7405
+E
+tall gate gates iron iron-worked worked~
+   This magnificent gate was built by an artificer on great talent years ago.
+The iron bars are worked carefully to depict tall black mourners in procession
+and the lock mechanism is cleverly disguised as a clump of iron flowers.    
+~
+S
+#7407
+Within the Graveyard~
+   The graveyard is well-maintained and clean of litter with an immaculate
+expanse of grass punctuated by tombstones and intricate marble sculptures.  
+The graveyard seems to be separated into lanes where mourners and
+groundskeepers can easily access all the plots without disturbing the graves
+themselves.  Far to the east, you can just make out the roof of a large, marble
+mausoleum.    
+~
+74 0 2
+D0
+~
+~
+0 0 7408
+D2
+~
+~
+0 0 7406
+S
+#7408
+Citizens Plots~
+   These plots are the final resting places to working men and women buried
+alone.  The tombstones are mostly standard marble or granite squares with no
+more than a name carved into it.  These look to be rather new in comparison to
+some of the larger and more elaborate grave markers to the north.  One grave
+lies open and waiting to be filled, its tombstone unmarked as of yet.    
+~
+74 0 2
+D0
+~
+~
+0 0 7409
+D2
+~
+~
+0 0 7407
+E
+grave~
+   Little more than a deep squared hole in the ground, rich black soil is
+exposed to the elements while waiting to house the body of the recently
+departed.    
+~
+S
+#7409
+Citizens Plots~
+   These plots are the final resting places to working men and women buried
+alone.  The tombstones are mostly standard marble or granite squares with no
+more than a name carved into it.  The gravemarkers here are a bit more
+weathered than those to the south.    
+~
+74 0 2
+D0
+~
+~
+0 0 7410
+D2
+~
+~
+0 0 7408
+E
+grave~
+   Little more than a deep squared hole in the ground, rich black soil is
+exposed to the elements while waiting to house the body of the recently
+departed.    
+~
+S
+#7410
+Citizens Plots~
+   These plots are the final resting places to working men and women buried
+alone.  The tombstones are mostly standard marble or granite squares with no
+more than a name carved into it.  The gravemarkers here are a bit more
+elaborate and older by generations.    
+~
+74 0 2
+D0
+~
+~
+0 0 7411
+D2
+~
+~
+0 0 7409
+E
+grave~
+   Little more than a deep squared hole in the ground, rich black soil is
+exposed to the elements while waiting to house the body of the recently
+departed.    
+~
+S
+#7411
+Children's Plots~
+   Small gravesites speckle this end of the graveyard.  Tiny statues and grave
+markers draw the eye to the dainty-sized graves where children who have passed
+are laid to rest.  Enormous bouquets of flowers decorate each melancholy grave,
+a tribute to the tiny lives snuffed out before their time.    
+~
+74 0 2
+D1
+~
+~
+0 0 7412
+D2
+~
+~
+0 0 7410
+E
+bouquet bouquets flower flowers~
+   Beautiful clusters of wildflowers are arranged here daily by the staff of
+the cemetary.  The sweet scent of so many flowers is strong, but pleasant.    
+~
+E
+statue statues marker gravemarker markers gravemarkers~
+   Most of the gravemarkers here are carved statues of children and marble
+renditions of mournful mothers.  Each gravesite is smaller than an adult grave
+by nearly half.    
+~
+S
+#7412
+Children's Plots~
+   Small gravesites speckle this end of the graveyard.  Tiny statues and grave
+markers draw the eye to the dainty-sized graves where children who have passed
+are laid to rest.  Enormous bouquets of flowers decorate each melancholy grave,
+a tribute to the tiny lives snuffed out before their time.    
+~
+74 0 2
+D1
+~
+~
+0 0 7421
+D2
+~
+~
+0 0 7413
+D3
+~
+~
+0 0 7411
+S
+#7413
+Family Plots~
+   These plots are grouped together in family areas.  Each plot houses at least
+two or three grave markers, but some support as many as a dozen.  In general,
+the tombstones here are less expensive, granite blocks with very few elaborate
+statues or sculptures.    
+~
+74 0 2
+D0
+~
+~
+0 0 7412
+D2
+~
+~
+0 0 7414
+S
+#7414
+Family Plots~
+   These plots are grouped together in family areas.  Each plot houses at least
+two or three grave markers, but some support as many as a dozen.  In general,
+the tombstones here are less expensive, granite blocks with very few elaborate
+statues or sculptures.    
+~
+74 0 4
+D0
+~
+~
+0 0 7413
+D2
+~
+~
+0 0 7415
+S
+#7415
+Family Plots~
+   These plots are grouped together in family areas.  Each plot houses at least
+two or three grave markers, but some support as many as a dozen.  In general,
+the tombstones here are less expensive, granite blocks with very few elaborate
+statues or sculptures.    
+~
+74 0 4
+D0
+~
+~
+0 0 7414
+D2
+~
+~
+0 0 7416
+S
+#7416
+Empty Plots~
+   This area of the graveyard has been roped off as space for new plots.  The
+grass is, as of yet, a blanket of untouched greenery.  Here and there a stake
+has been driven in the ground to mark future sites.    
+~
+74 0 2
+D0
+~
+~
+0 0 7415
+D1
+~
+~
+0 0 7417
+S
+#7417
+Empty Plots~
+   This area of the graveyard has been roped off as space for new plots.  The
+grass is, as of yet, a blanket of untouched greenery.  Here and there a stake
+has been driven in the ground to mark future sites.    
+~
+74 0 0
+D0
+~
+~
+0 0 7418
+D1
+~
+~
+0 0 7426
+D3
+~
+~
+0 0 7416
+S
+#7418
+Wealthy Plots~
+   The plots here are predominantly fine marble and imported stone.  Likewise,
+no simple headstones adorn the gravesites here.  Instead, huge statues portray
+the deceased in classic art.  Here and there a monument stands among the
+majestic statues.  If possible, it appears as if the grass is even more
+meticulously maintained here.    
+~
+74 0 2
+D0
+~
+~
+0 0 7419
+D2
+~
+~
+0 0 7417
+S
+#7419
+Wealthy Plots~
+   The plots here are predominantly fine marble and imported stone.  Likewise,
+no simple headstones adorn the gravesites here.  Instead, huge statues portray
+the deceased in classic art.  Here and there a monument stands among the
+majestic statues.  If possible, it appears as if the grass is even more
+meticulously maintained here.    
+~
+74 0 0
+D0
+~
+~
+0 0 7420
+D2
+~
+~
+0 0 7418
+S
+#7420
+Wealthy Plots~
+   The plots here are predominantly fine marble and imported stone.  Likewise,
+no simple headstones adorn the gravesites here.  Instead, huge statues portray
+the deceased in classic art.  Here and there a monument stands among the
+majestic statues.  If possible, it appears as if the grass is even more
+meticulously maintained here.  A tall elm tree shadows this corner of the
+cemetery..    
+~
+74 0 2
+D0
+~
+~
+0 0 7421
+D2
+~
+~
+0 0 7419
+E
+tall elm tree~
+   This tree grows purposely in the center of a shady patch of gravesites.  A
+wide circle of hyacinths grows around the tree, lending their sweet scent to
+the beauty of the landscape.    
+~
+S
+#7421
+Children's Plots~
+   Small gravesites speckle this end of the graveyard.  Tiny statues and grave
+markers draw the eye to the dainty-sized graves where children who have passed
+are laid to rest.  Enormous bouquets of flowers decorate each melancholy grave,
+a tribute to the tiny lives snuffed out before their time.    
+~
+74 0 0
+D2
+~
+~
+0 0 7420
+D3
+~
+~
+0 0 7412
+S
+#7422
+The Northern Reaches of the Graveyard~
+   Less visited and often not remembered gravesites speckle the grass here.  
+These are the graves of folk long forgotten or never known.  The grass, still
+maintained daily, is free of footprints and the gravesites are clear of
+flowers.  It is eerily quiet here.  To the east you see a large circle of
+burned grass.    
+~
+74 0 2
+D1
+~
+~
+0 0 7431
+D2
+~
+~
+0 0 7423
+S
+#7423
+A Clearing in the Graveyard~
+   A wide space is cleared here for funerals and services.  During a burial
+service tables and chairs would be set up here, along with a podium for the
+head cleric.  A low white chain circles the area, marking it off from the rest
+of the graveyard.    
+~
+74 0 2
+D0
+~
+~
+0 0 7422
+D1
+~
+~
+0 0 7430
+D2
+~
+~
+0 0 7424
+S
+#7424
+The Heroes' Rest~
+   A line of crypts runs parallel to the mausoleum wall to the east.  Each of
+the crypts houses the remains of a great hero and is rumored to be packed to
+the moldings with treasure and artifacts.  Along with the usual fine lawn care,
+the cemetery staff has included strong steel doors with heavy iron locks to
+keep graverobbers from disturbing these great heroes.  Each crypt is a work of
+art in marble or stone unrivaled by any other architecture in the graveyard.  
+A copper-walled crypt, highly polished and gleaming, is to the east.
+~
+74 0 2
+D0
+~
+~
+0 0 7423
+D1
+   A sturdy steel door blocks the way into and out of this crypt.    
+~
+door of sturdy steel~
+2 7415 7429
+D2
+~
+~
+0 0 7425
+E
+copper copper-walled crypt~
+   This crypt is made of tall sheets of highly polished copper.  An artistic
+piece, it seems functional as well with sturdy copper bindings and copper
+rivets to hold the whole thing together.  Only the strong steel door breaks the
+continuous field of shining copper.    
+~
+E
+strong steel door~
+   Sturdy and unbreachable, this door is a massive slab of steel with a small
+copper lock near the lower half of the door.    
+~
+S
+#7425
+The Heroes' Rest~
+   A line of crypts runs parallel to the mausoleum wall to the east.  Each of
+the crypts houses the remains of a great hero and is rumored to be packed to
+the moldings with treasure and artifacts.  Along with the usual fine lawn care,
+the cemetery staff has included strong steel doors with heavy iron locks to
+keep graverobbers from disturbing these great heroes.  Each crypt is a work of
+art in marble or stone unrivaled by any other architecture in the graveyard.  
+A round crypt with flag-bearing pinnacles is to the east.
+~
+74 0 2
+D0
+~
+~
+0 0 7424
+D1
+   This door is solid and secure.  It was placed here to keep intruders out and
+appears to do a very good job of it.    
+~
+door of heavy steel~
+2 7420 7428
+D2
+~
+~
+0 0 7426
+E
+round crypt pinnacles flag~
+   Built much like a short tower, this crypt bears massive waving flags atop
+it's tall pinnacles.  It is formed of solid stone and the only entrance is a
+massive steel door with a narrow steel lock.  Above the entrance is a crest
+depicting a crown and a dragon.    
+~
+E
+steel door~
+   Heavy steel and reinforced with iron bindings, this door does not look
+breachable.  Even the narrow steel lock appears pickproof.    
+~
+S
+#7426
+The Heroes' Rest~
+   A line of crypts runs parallel to the mausoleum wall to the east.  Each of
+the crypts houses the remains of a great hero and is rumored to be packed to
+the moldings with treasure and artifacts.  Along with the usual fine lawn care,
+the cemetery staff has included strong steel doors with heavy iron locks to
+keep graverobbers from disturbing these great heroes.  Each crypt is a work of
+art in marble or stone unrivaled by any other architecture in the graveyard.  
+A low crypt crowned with gargoyles sits to the east.
+~
+74 0 2
+D0
+~
+~
+0 0 7425
+D1
+   Formed of massive slabs of steel, this door is locked with a great iron
+lock.  The head of a monstrous stone gargoyle is placed just atop the lock.  
+
+~
+door of heavy steel~
+2 7417 7427
+D3
+~
+~
+0 0 7417
+E
+door strong steel heavy iron lock~
+   This door is thick and made of solid steel.  Iron rivets and great steel
+bands reinforce the door and a heavy stone lock is situated directly in the
+center of the door.    
+~
+E
+low crypt gargoyles~
+   The crypt is a squat building crowned with massive stone gargoyles.  Two
+windows have been placed on the front of the crypt, but were since covered with
+thick iron bars.  A large stone plaque above the door depicts two vials crossed
+on a field of black.    
+~
+S
+#7427
+The Alchemist's Crypt~
+   A monstrous gargoyle dominates the small innerchamber of the crypt, dwarfing
+the array of tubes and vials stacked along the walls.  The odor of decomposed
+organics fills the tiny room like a palpable fog, soaking into clothing, hair,
+and skin.  Nothing could enter here without smelling of the place for some time
+to come.    
+~
+74 adf 0
+D3
+   The heavy steel door is just as menacing from the inside.  Almost as if it
+was made to keep something IN instead of OUT!    
+~
+door of heavy steel~
+2 7417 7426
+S
+#7428
+The Lord's Crypt~
+   Decorated heavily with gaudy tapestries and cloth-of-gold curtains, this
+crypt seems as much a bordeaux as the resting place for one of the realm's
+finest heroes.  Lord Mycea was a courageous swordsman who supposedly slew more
+than a hundred dragons in his time.  The massive gilded dragon statue near the
+casket itself might lend some credibility to that story.    
+~
+74 a 0
+D3
+   As menacing from this side as the outside, this door seems insurmountable.
+  
+~
+door of heavy steel~
+2 7420 7425
+S
+#7429
+The Halfling Cleric's Crypt~
+   Legend tells of a powerful and peaceful halfling cleric that saved the realm
+from a rampaging wolfwere, only to succumb to the lycanthropy herself.  When
+she transformed amid her victory feast, the townsfolk quickly smashed her skull
+and boxed her body into six separate chests.  Still, no expense was spared on
+her tomb.  Gems and gold line the walls and columns here.    
+~
+74 a 0
+D3
+   Quite a door, really.    
+~
+door of sturdy steel~
+2 7415 7424
+S
+#7430
+At the Mausoleum Doors~
+   Great marble doors lead into the mausoleum here.  Flanking the tremendous
+doors are two matched statues of the snake-headed god of death in the primitive
+cultures.  The doors are left unlocked so that families may view the deceased
+before the ceremonies that put them in the ground permanently.    
+~
+74 0 2
+D1
+~
+~
+0 0 7432
+D3
+~
+~
+0 0 7423
+S
+#7431
+The Pyre~
+   Not every culture considers burial proper treatment of a loved one's
+remains.  Here is where bodies are stacked on a pyre of pine or cedar and
+burned to ash.  Supposedly, burning the body allows easy transition for the
+spirit, releasing it from the body.  The grass here is burned to black ash, but
+the area immediately surrounding it is carpetted with lush greenery and clumps
+of sweet-smelling flowers.    
+~
+74 0 2
+D3
+~
+~
+0 0 7422
+S
+#7432
+Within the Mausoleum~
+   It is strangely comfortable, neither too warm nor to cold and lit by a sort
+of eerie phosphorescent light that emanates from the walls themselves.  The
+surface of floor, walls, and ceiling hum vibrantly, resounding with the sounds
+of deep earth.    
+~
+74 0 0
+D3
+~
+~
+0 0 7430
+S
+#0
+
+#RESETS
+R 0 7400 7400 -1 	(the stone codex)
+O 1 7400 1 7400 	(the stone codex)
+D 0 7427 3 1 	(The Alchemist's Crypt)
+D 1 7427 3 2 	(The Alchemist's Crypt)
+M 0 7414 1 7427 	(the alchemist's shade)
+G 1 7427 25 -1 	(a fizzing green potion)
+E 1 7426 100 3 	(a glowing length of chain )
+G 1 7428 25 -1 	(a stone vial)
+M 0 7409 1 7417 	(the head groundskeeper)
+E 1 7415 1 14 	(a shiny copper key)
+E 1 7416 45 13 	(a worn hide beltpouch)
+G 1 7409 100 -1 	(a simple earthenware jug)
+M 0 7417 4 7421 	(a mourner)
+E 1 7435 100 17 	(a black lace handkerchief)
+D 0 7429 3 1 	(The Halfling Cleric's Crypt)
+D 1 7429 3 2 	(The Halfling Cleric's Crypt)
+M 1 7416 1 7429 	(Fennywen's ghost)
+E 1 7431 100 15 	(an ancient band of copper)
+E 1 7432 100 6 	(a tiny, horned half-helm)
+O 0 7433 1 7429 	(six massive locked chests)
+D 0 7424 1 1 	(The Heroes' Rest)
+D 1 7424 1 2 	(The Heroes' Rest)
+D 0 7428 3 1 	(The Lord's Crypt)
+D 1 7428 3 2 	(The Lord's Crypt)
+M 1 7415 1 7428 	(Lord Mycea's skeleton)
+E 1 7429 100 5 	(a fine bluesteel breastplate )
+E 1 7430 1 16 	(Lord Mycea's bluesteel warhammer)
+D 0 7425 1 1 	(The Heroes' Rest)
+D 1 7425 1 2 	(The Heroes' Rest)
+D 0 7426 1 1 	(The Heroes' Rest)
+D 1 7426 1 2 	(The Heroes' Rest)
+M 0 7411 1 7426 	(the ancient groundskeeper)
+E 1 7418 50 16 	(a long ashwood staff)
+E 1 7419 100 1 	(a small platinum circlet)
+M 0 7413 1 7431 	(the badly burned zombie)
+E 1 7424 100 10 	(a pair of blackened chain sleeves)
+E 1 7425 100 7 	(a pair of blackened chain leggings)
+E 1 7423 100 5 	(a charred suit of mail)
+M 0 7412 1 7423 	(the pickpocket)
+G 1 7420 1 -1 	(a slender, steel key)
+E 1 7421 25 3 	(a sweeping black cape)
+E 1 7422 50 16 	(a sinuous leather whip)
+M 0 7410 1 7420 	(a tawny owl)
+E 1 7417 1 8 	(a square stone key)
+M 0 7406 1 7412 	(the distressed mother)
+E 1 7410 25 9 	(a pair of fine, black silk gloves)
+E 1 7411 70 6 	(a long, black silk veil)
+R 0 7409 7407 -1 	(a small, marble tombstone)
+O 0 7407 20 7409 	(a small, marble tombstone)
+M 0 7408 1 7416 	(an old woman)
+E 1 7414 100 15 	(a wide ivory bracelet)
+M 0 7407 3 7414 	(a busy groundskeeper)
+G 1 7412 100 -1 	(a heavy canvas bag)
+E 1 7413 100 0 	(a bright, copper oil lamp)
+M 0 7405 1 7410 	(the angry young man)
+E 1 7408 100 12 	(a patchwork cloak)
+M 0 7404 1 7408 	(the graverobber)
+E 1 7406 15 16 	(an iron shovel)
+M 0 7403 1 7406 	(a squat groundskeeper)
+E 1 7405 75 8 	(a pair of sturdy leather boots)
+O 0 7402 1 7404 	(a hole in the ground)
+P 1 7403 50 7402 	(a handful of edible roots)
+M 0 7401 1 7404 	(the disheveled boy)
+M 0 7402 1 7404 	(the scrawny little girl)
+E 1 7404 25 17 	(a bunch of white hyacinths)
+M 0 7400 1 7403 	(a grey dove)
+O 0 7401 1 7401 	(a large, wooden sign)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+0
+
+
+#$

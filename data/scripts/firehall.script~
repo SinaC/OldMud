@@ -1,0 +1,2528 @@
+// ***** MOB
+
+class mob32000 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `yell Intruders at the Gate!
+      this.echo("The giant hurriedly winds a long bronze horn.");
+      var msg = "The sound of a horn being winded echoes through the hall.";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `grunt
+      if ( chance(33) )
+        act.aggrDamage( this, 33, "bash", "The giant swings a fist the size of a small steer at $n." );
+    }
+    else if ( chance(25) )
+      `wield greatsword
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `wield greatsword
+      `peer
+    }
+  }
+}
+
+class mob32001 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      this.echo("The ettin carefully scans the passages that enter the throne room.");
+  }
+  onKilled( act ) {
+    this.echo("The ettin's heads continue to snarl and gibber as it perishes.");
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `snarl
+      `yell Intruders in the grand hall! Send reinforcements!
+      act.sendTo("The ettin advances to face you.");
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      `wield morningstar
+      `grunt
+    }
+  }
+}
+
+class mob32002 extends GeneralGiantMob {
+  onFight( act ) {
+    if ( chance(45) ) {
+      if ( chance(20) )                                 // restore
+        this.addHit(100);
+      else if ( chance(33) ) {                          // hit a random target
+        `snarl
+        `use gouge
+        `use disarm
+        var target = any[[ x <- this.room().people(), 
+                          this.canSee(x)
+                          && x != act
+                          && ( !x.isNPC() || x.master() != NULL ) ]];
+        if ( target != NULL )
+          target.aggrDamage( this, 200, "bash", "Snurre lunges at $n, catching $m off guard!" );
+      }
+      else if ( chance(45) ) { // FIXME: blitz skill or social?    hit target
+        this.echo("{rSnurre's eyes glow red with rage, and he bellows loudly!{x");
+        `blitz
+        act.aggrDamage( this, 500, "bash" );
+      }
+      else if ( chance(33) ) {                          // hit random target
+        var target = any[[ x <- this.room().people(), 
+                           this.canSee(x) && ( !x.isNPC() || x.master() != NULL ) ]];
+        if ( target != NULL )
+          target.aggrDamage( this, 400, "bash" ,"Snurre grabs ahold of $n and dashes $n against the wall!");
+      }
+      else
+        `use gouge
+    }
+    else if ( chance(66) ) {
+      `wield two-handed
+      if ( act.master() != NULL ) {                     // hit charmies
+        this.echo("King Snurre charges at the ensorcelled creature, breaking its trance!");
+        force act `scream
+        var done = act.aggrDamage( this, 2000, "bash"  );
+        if (done == 1 ) { // 1 means non-lethal damage
+          force act `say We're doomed!
+          force act `flee
+        }
+      }
+      if ( chance(25) ) {                               // whistle hound to aid
+        this.echo("{bSnurre calls for his hounds; one comes bounding towards the throne!{x");
+        var hound = this.mLoad(32003);
+        force hound `murder `act`
+      }
+      else if ( chance(33) )                           // hit act
+        act.aggrDamage( this, 400, "bash" ,"Snurre bashes his mailed fist into $n!");
+      else if ( chance(25) ) {                          // flames from weapon hit someone in the room
+        var target = any[[ x <- this.room().people(), 
+                           this.canSee(x) && ( !x.isNPC() || x.master() != NULL ) ]];
+        if ( target != NULL ) {
+          this.echo("{RFlames dance along the blade of Snurre's sword as he swings it!{x");
+          `cast 'fire breath' `target`
+        }
+      }
+      else
+        this.addHit(100);
+    }
+  }
+  onGreet( act, from ) {
+    if ( !act.isNPC() )
+      if ( isDwarf( act ) ) {
+        `scream
+        `say Cursed dwarf, mortal enemy of my people! You would trespass here?
+        `snarl
+        act.sendTo("You grin as you prepare to battle an ancient foe.");
+      }
+      else {
+        this.echo("King Snurre rises to his full height and regards you.");
+        `say Stranger, you have erred to trespass 'pon my throne room.
+        this.echo("{rBrushing his cloak aside, he draws a flaming sword!{x");
+        `say Prepare to face the wrath of a fire giant chieftain!
+        `snarl
+      }
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL && chance(66) ) {
+      `wield two-handed
+      this.addHit(50);
+      var wasRoom = this.room(); // FIXME: can't figure why transfer him in another room, no spell room ?
+      this.transfer(32199);
+      `cast 'cure blindness'
+      wasRoom.transfer(this);
+    }
+  }
+}
+
+class mob32003 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      this.echo("The hound sniffs at the air, alert for intruders.");
+  }
+}
+
+class mob32004 extends GeneralGiantMob {
+  onFight( act ) {
+    if ( chance(25) )
+      if ( isDwarf( act ) ) {
+        `say Dwarven peon, you will perish at my hands!
+        this.echo("{rThe giant is infused with strength tinged with fear as he battles.{x");
+        `bash
+      }
+      else
+        `use bash
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() && this.fighting() == NULL ) {
+      `yell Intruders have breached the throne room, majesty!
+      this.echo("The guard moves to block your passage.");
+    }
+  }
+}
+
+class mob32005 extends Mob {
+  onKilled( act ) {
+    this.echo("{yGold pours from the carving as the hydra perishes!{x");
+    if ( chance(25) ) {
+      this.echo("{WAs the hydra perishes, a glowing ring can be seen beneath it.{x");
+      this.oLoad(32007);
+    }
+    else {
+      var target = any[[ x <- this.room().people(), x != this ]]; // 'this' is supposed to be dead
+      if ( target != NULL )
+        target.aggrDamage(this,200,"none" ,"A small explosion occurs as the hydra's thrashing bulk crushes an item, hitting $n.");
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      var target= any[[ x <- this.room().people(),
+                        this.canSee(x) && ( !x.isNPC() || x.master() != NULL ) ]];
+      if ( target != NULL ) {
+        var done = target.aggrDamage(this, 400, "fire" ,"{rA gout of flame from one of the heads strikes $n!{x");
+        if ( done == 1 )  // 1 means non-lethal damage
+          `cast 'fire breath' `target`
+      }
+    }
+    else if ( chance(25) ) {
+      var target = any[[ x <- this.room().people(), 
+                         this.canSee(x) && x != act && ( !x.isNPC() || x.master() != NULL ) ]];
+      if ( target != NULL ) {
+        this.echo("{rWith a roar, the hydra turns many of its heads to a new target.{x");
+        `cast 'fire breath' `target`
+      }
+    }
+  }
+}
+
+class mob32006 extends Mob {
+  onGreet( act, from ) {
+    if ( chance(33) ) {
+      `tsk
+      `say What riff raff. And so near the Queen, too.
+      `shake
+    }
+    else
+      this.echo("The maid concentrates on her duties.");
+  }
+  onFight( act ) {
+    if ( chance(18) )
+      `scream
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL && chance(2) ) {
+      var target = any[[ x <- this.room().people(), this.canSee(x) && !x.isNPC() ]];
+      if ( target != NULL )
+        `frown `target`
+    }
+  }
+}
+
+class mob32007 extends Mob {
+  findWeasels() { // this findXXXX returns a list instead of the first
+    var room = this.room();
+    result = [[ x | x <- room.people(), 
+                x.vnum() == 32008 && x.fighting() == NULL ]];
+  }
+  forceMurder( x, act ) {
+    force x `murder `act`
+  }
+  onFight( act ) {
+    if ( chance(66) ) {
+      `wield sceptre
+      if ( act.vnum() == 32006 ) {
+        `say You would attack your own Queen? Perish!
+          act.aggrDamage(this,500,"bash" ,"Frupy smashes her sceptre into the $' face!");
+      }
+      else 
+        if ( chance(33) ) {
+          `use gouge
+          `use disarm
+          `use snicker
+          var target = any[[ x <- this.room().people(), 
+                             x.fighting() == this && this.canSee(x) ]];
+          if ( target != NULL )
+	    target.aggrDamage(this,125,"none" );
+        }
+        else if ( chance(45) ) {
+          var target = any[[ x <- this.room().people(), 
+                             x.fighting() == this && this.canSee(x) ]];
+          if ( target != NULL ) {
+            this.echo("{bFrupy proves herself a master of arcane lore...{x");
+            `cast 'faerie fire' `target`
+            `cast blindness `target`
+            `cast weaken `target`
+            `cast 'energy drain' `target`
+          }
+        }
+        else if ( chance(33) )
+          `cast fireball 
+        else
+          this.addHit(100);
+    }
+    else
+      [[ forceMurder( x, act ) | x <- findWeasels() ]]; // force weasels to attack act
+  }
+  onGreetLeader( act, from ) {
+    if ( this.fighting() == NULL )
+      if ( act.vnum() == 32006 ) { // servant
+        `sniff
+        `say I have no need of your services... leave.
+        force act `eye
+        `say LEAVE!
+        force act `eep
+        force act `south
+        `roll
+      }
+     else if ( !act.isNPC() ) {
+       `eye `act`
+       `say Adventurer, you come at a most inconvenient time...
+       `frown
+       `say But bow before me in respect, and I shall deal with your requests...
+       `snicker
+     }
+  }
+  onSocial( act, socialName ) {
+    if ( socialName %= "bow" ) {
+      `snicker
+      this.actRoom("While $n $b foolishly grovelling, $e raises her sceptre...",[[act,act,this]]);
+      this.actRoom("{RWith a swift motion, $e brings it down on $' head!",[[act,this]]);
+      this.sendTo("{RYou feel a sudden pain as a heavy metal object strikes your head!{x");
+      act.suddenDeath();
+      `chuckle
+    }
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL )
+      if ( chance(66) ) {
+        `wield sceptre
+        var wasRoom = this.room(); // FIXME: can't figure why transfer her in another room
+        this.transfer(32199);
+        `cast 'cure blindness'
+        wasRoom.transfer(this);
+      }
+      else if ( chance(3) ) {
+        var weasels = findWeasels();
+        if ( weasels.size() > 0 ) {
+          this.echo("The Queen's weasels flatten their ears as she attempts to sing.");
+          force weasels[0] `moan
+          var msg = "An indescribably awful wailing assaults your ears!";
+          [[ x.echo(msg) | x <- this.room().around() ]];
+        }
+      }
+  }
+}
+
+class mob32009 extends GeneralGiantMob {
+  onFight( act ) {
+    if ( chance(20) ) {
+      `grunt
+      var done = act.aggrDamage(this,200,"fire" ,"{RThe matron hurls a pan of boiling oil into $' face!{x");
+      if ( done == 1 ) // 1 means non-lethal damage
+        force act `scream
+      `cackle
+    }
+    else if ( chance(15) ) {
+      var done = act.aggrDamage(this,400,"fire" ,"The matron grabs ahold of $n, and hurls $m into the fire pit!");
+      `muhaha
+      if ( done == 1 ) { // 1 means non-lethal damage
+        force act `scream
+	act.actAll("{r$n stagger$v out, $s clothes aflame!{x");
+      }
+      if ( chance(25) ) {
+        `say Here... cool off!
+        var done = act.aggrDamage(this,400,"fire" ,"{rThe matron douses $n with a bucket of cooking oil!{x");
+        if ( done == 1 ) // 1 means non-lethal damage
+          act.sendTo("{rThe flames double in size!{x");
+        `say Wrong bucket...
+        `wink `act`
+      }
+      else {
+        var target = any[[ x <- this.room().people(), 
+                           this.canSee(x) && x != act && ( !x.isNPC() || x.master() != NULL ) ]];
+        if ( target != NULL ) {
+          this.actRoom("$n whirls to face another target while $n is aflame.", [[ this, act ]] );
+          this.stopFighting();
+          `murder `target`
+        }
+      }
+    }
+    else if ( chance(22) ) {
+      act.aggrDamage(this,200,"bash" ,"The matron grabs a cooking pot and slams it into $' face!{x");
+      `roar
+    }
+    else if ( chance(45) )
+      `use disarm
+  }
+  onGreet( act, from ) {
+    if ( act.isNPC() )
+      `eye `act`
+    else
+      if ( isDwarf( act ) ) {
+        this.actRoom( "$' eyes narrow and she begins to growl.", [[ this ]] );
+        `say Dwarf... Dwarf!... DWARF!!!
+        `cackle
+        act.sendTo("You feel rough hands grab you, and you are dragged to the chopping block.");
+	act.actRoom("Several servants grab $n and drag $m to the chopping block." );
+        act.actAll("{R$n draws a long knife, and slits $n open! Guts pour out...{x", [[this, act]] );
+        act.suddenDeath("has been killed by a giant matron.");
+        `grin
+        `say Right, truss 'em up and we'll feast!
+        `lick
+      }
+      else {
+        `eye `act`
+        `say What do you want, mercenary? Dinner isn't on yet!
+        `mutter
+        `roll
+      }
+  }
+  onDisarmed( act, weapon ) { // weapon: carving
+    `get `weapon`
+    `wield `weapon`
+    `wink `act`
+    `say You want my knife... have it!
+    act.aggrDamage(this,666,"pierce" ,"A matron buries the lethal weapon in $' guts!");
+    `grin
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL )
+      if ( chance(2) ) {
+        `mutter
+        `say Get on with it, louts!
+        `emote kicks a servant in the seat of the pants. He goes screaming down the chute!
+        `grin
+    }
+    else if ( chance(2) ) {
+      `say I've told you for the last time, peon!
+      `scream
+      `say THE POTS GO ON THE BOTTOM SHELVES!
+      `thwap thrall
+      `mutter
+    }
+  }
+}
+
+class mob32010 extends GeneralGiantMob {
+  onKilled( act ) {
+    if ( chance(10) ) {
+      this.echo("{rAs the dwarf perishes, a ring slips from his grasp...{x");
+      var obj = this.room().oLoad(32021);
+      if ( obj == NULL )
+        log(this.name()+"::onKilled obj 32021 cannot be found.");
+      else
+        obj.setLevel(45);
+    }
+  }
+  onGreetLeader( act, from ) {
+    `gasp
+    if ( !act.isNPC() ) {
+      `say Adventurer, you have come in the nick of time!
+      `emote leaps up from the desk and prostrates himself.
+      `say I am a slave of Snurre, and have been held here for decades.
+      `say Today he had decided to execute me, but now I am free!
+      `smile
+      if ( isDwarf( act ) ) {
+        act.sendTo("You sense something duplicitous about this renegade dwarf...");
+        act.sendTo("Suddenly you remember!");
+        force act `say Obmi! Treacherous blackheart, you are no prisoner!
+        force act `snarl
+        force act `say Obmi is a traitor to my people! He must perish!
+        `cringe
+      }
+      else
+        act.sendTo("You sense something odd about the dwarf's claims...");
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      `wield axe
+      `wield hammer
+      act.aggrDamage(this,222,"none" );
+    }
+    else if ( chance(18) && isDwarf(act) ) {
+      `snarl
+      `say Ye'll not have me, dwarfling! I shall escape, or perish!
+    }
+  }
+}
+
+class mob32011 extends GeneralGiantMob {
+  onFight( act ) {
+    if ( chance(18) && isDwarf(act) ) {
+      `say Dwarven scum! Perish at my hands for my glory!
+      `use punch
+      `use punch
+      `use punch
+    }
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL )
+      if ( chance(2) )
+        `sigh
+      else if ( chance(5) ) {
+        this.echo("The guard's eyes slowly close and he nods off.");
+        `snore
+      }
+  }
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() ) {
+      `say Leave us be!
+      force act `south
+    }
+  }
+  onGreet( act, from ) {
+    if ( isDwarf( act) ) {
+      `grin
+      `say Look, chums, some sport! Let's play!
+      var done = act.aggrDamage(this,50,"bash" ,"The giant grabs $n and hurls $m at the wall!");
+      if ( done == 1 ) // 1 means non-lethal damage
+        force act `groan
+    }
+  }
+}
+
+class mob32013 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `purr
+      this.addHit(100);
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) { //FIXME: those spells doesn't exist in this mud
+      if ( chance(25) )      `cast 'magnetic thrust' `act`
+      else if ( chance(30) ) `cast 'sonic resonance' `act`
+      else                   `cast 'caustic fount' `act`
+    }
+  }
+  onFleing( act ) {
+    this.addHit(125);
+  }
+}
+
+class mob32014 extends GeneralGiantMob {
+  onFight( act ) {
+    if ( chance(20) && isDwarf( act ) ) {
+      `snarl
+      `say Foolish little runt! I'll squash ye like a bug!
+      `roar
+    }
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL && chance(2) ) {
+      if ( chance(33) ) {
+        `say So then I goes.. well maybe Hjaller will like 'em!
+        `emote roars with laughter.
+      }
+      else if ( chance(45) ) {
+        `emote grins as he polishes his sword to a sheen.
+        `grin
+        `say Could shave with dat, 'ere.
+        `nod
+      }
+      else if ( chance(33) ) {
+        `mutter
+        `say Bloody captain has us out EVERY day... no damn good...
+        `shake
+        `mutter
+      }
+      else {
+        `roll
+        `say Bleedin' guard duty for me again...
+      }
+    }
+  }
+}
+
+class mob32015 extends Mob {
+  onKilled( act ) {
+    if ( chance(66) ) {
+      this.echo("{rAs the beast perishes, it coughs, twice, and belches up a book!{x");
+      // FIXME, should be a random PC
+      //mpforce $r eye
+      this.room().oLoad(32030);
+    }
+  }
+  onGreetLeader( act, from ) {
+    act.sendTo("{yThe chimera bounds towards you, death on its mind...{x");
+    `roar
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `roar
+      var msg = "An earth shattering roar shakes the foundations!";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      var done = act.aggrDamage(this,100,"pierce" ,"{gThe Chimera's serpentine tail whips round and bites $n!{x");
+      if ( done == 1 ) // 1 means non-lethal damage
+        `cast poison `act`
+    }
+    else if ( chance(15) ) {
+      this.echo("{rA gout of fire surges forth from the Chimera's draconian head!{x");
+      `cast 'fire breath' `act`
+    }
+    else if ( chance(20) ) {
+      this.echo("{yThe chimera lowers its goat head and charges!{x");
+      `use bash
+      `use stun
+    }
+  }
+}
+
+class mob32016 extends Mob {
+  onFight( act ) {
+    if ( chance(18) )
+      act.aggrDamage(this,100,"bash" ,"The giant picks up a large boulder and hurls it at $n!");
+  }
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() ) 
+      if ( "chimera" in act.name().words() ) {
+        `gasp
+        `yell The chimera is loose!
+        `kill `act`
+      }
+      else
+        `frown
+    else {
+      `say Ho, you're not supposed to be in here stripling!
+      `poke `act`
+    }
+  }
+  onPulseMobile() {
+    if ( chance(3) ) {
+      `peer
+      `mutter
+    }
+  }
+  // FIXME, based on onPulseMobile for mob 32015 (chimera)
+//> act_prog p An earth shattering roar shakes the foundations!~
+//wince
+//~
+}
+
+class mob32017 extends Mob {
+  onGreet( act, from ) {
+    if ( chance(33) && !act.isNPC() && this.fighting() == NULL ) {
+      `say Here... catch!
+      act.sendTo("The giant hurls a boulder at you, barely missing your head!");
+      `grin
+    }
+  }
+  onFight( act ) {
+    if ( chance(18) )
+      act.aggrDamage(this,100,"bash","The giant grabs a boulder and hurls it at $n!");
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      this.echo("The giant grimaces and hurls the boulder to a comrade!");
+  }
+}
+
+class mob32018 extends Mob {
+  onFight( act ) {
+    if ( chance(33) )
+      `snarm
+    else if ( chance(18) ) {
+      `roar
+      `say What impudence! Perish, adventurer!
+    }
+  }
+  onDisarmed( act, weapon ) {
+    `get axe
+    `get axe
+    `wield axe
+    `second axe
+    `waggle `act`
+    `use headbutt
+  }
+}
+
+class mob32019 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      `peer
+  }
+  onFight( act ) {
+    if ( chance(18) ) {
+      `yell Intruders! Near the children! Send help!
+      this.echo("The giant bangs a long iron cylinder several times.");
+      var msg = "The sound of metal against metal echoes down the hall.";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+}
+
+class mob32023 extends Mob {
+  onPulseMobile() {
+    if ( chance(30) ) {
+      `get whip
+      `wield whip
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) && this.carryLocation("wield") != NULL ) // has a weapon, should test a whip
+      act.aggrDamage(this,200,"none","The keeper snakes his whip around $' neck with remarkable skill!");
+    else if ( chance(33) ) {
+      var done = act.aggrDamage(this,66,"pierce","The Keeper strikes $n in the eye with his barbed whip!");
+      if ( done == 1 ) // 1 means non-lethal damage
+        `use gouge
+      if ( done != 2 && chance(30) ) { // 2 means lethal damage
+        this.echo("The keeper whistles for his hounds!");
+        `open tapestry
+        this.echo("A hound comes bounding in.");
+        var hound = this.mLoad(32022);
+        force hound `murder `act`
+      }
+    }
+    else if ( chance(25) && this.carryLocation("wield") != NULL
+              && act.carryLocation("wield") != NULL ) {
+      act.sendTo("The keeper curls his whip round your weapon and yanks!");
+      `use disarm
+      `use disarm
+    }
+    else if ( chance(75) ) {
+      `get whip
+      `wield whip
+      `close tapestry
+    }
+  }
+}
+
+class mob32024 extends Mob {
+  onKilled( act ) {
+    var weapon = this.carryLocation("wield"); // FIXME: maybe we could check in inventory
+    if ( weapon != NULL ) {
+      if ( chance(25) ) {
+        this.echo("As the giant dies, he hurls the mace with his last ounce of strength.");
+        this.echo("{rIt lands in the lava pit and is consumed in seconds!{x");
+        `grin
+        weapon.destroy();
+      }
+      else {
+        this.echo("As the giant dies, his magical weapon slips from his grasp.");
+        this.room().transfer(weapon); // I prefer this to    `drop `weapon`
+      }
+    }
+  }
+  onDisarmed( act, weapon ) {
+    this.echo("The weapon springs back to the smith's hand!");
+    `get `weapon`
+    `wield `weapon`
+  }
+  onGreet( act, from ) {
+    if ( !act.isNPC() && this.fighting() == NULL ) {
+      `frown
+      act.sendTo("The fire giant glares at you, but chooses not to speak.");
+    }
+  }
+  onPulseMobile() {
+    if ( chance(3) && this.fighting() == NULL ) {
+      this.echo("The giant hammers carefully at the heavy weapon.");
+      var msg = "The ringing of metal being hammered against metal echoes from nearby.";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+}
+
+// FIXME: room32067 should be a underwater room -> drowning
+//  and up exit cannot be accessed without magic help -> fly
+abstract class wellFall extends Mob {
+  fall( act, fail ) {
+    this.actAll("$n grabs $n and attempts to hurl $m down the well!", [[ this, act, act ]]);
+    if ( chance(fail) )
+      act.sendTo("You manage to wriggle free of his grasp.");
+    else {
+      act.actAll("$n cry$v out as $e go$v hurtling down the well!");
+      act.transfer(32067);
+      act.sendTo("You hit the water at the bottom... HARD.");
+      act.actRoom("$n comes hurtling in from above!"); // $n is act
+      act.damage( 400, "bash", "has fallen in a well.");
+      `cackle
+    }
+  }
+}
+
+class mob32025 extends wellFall {
+  onFight( act ) {
+    if ( chance(18) ) {
+      act.actAll("The torturer grabs $n and attempts to hurl $m in the iron maiden!");
+      if ( chance(66) )
+        act.sendTo("You manage to slip out of his grasp.");
+      else {
+        var done = act.aggrDamage(this,500,"pierce",
+                                  "{r$n land$v in the spiked coffin, and $n slams it shut!{x",
+                                  [[act,act,this]]);
+        if ( done != 2 ) { // 2 means lethal damage
+          force act `scream
+          `laugh
+          act.actAll("$n manage$v to leave the iron maiden.");
+        }
+      }
+    }
+    else if ( chance(10) )
+      fall( act, 50 );
+  }
+  findHeadsman() {
+    result = NULL;
+    var room = this.room();
+    var headsmen = [[ x | x <- room.people(),
+                      x.vnum() == 32026 && x.fighting() == NULL ]];
+    if ( headsmen.size() > 0 )
+      result = headsmen[0]; // pick the first one
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL ) {
+      var headsman = findHeadsman();
+      if ( headsman != NULL ) {
+        this.actRoom("$n suddenly throws $s hands up in disgust. Dice fly everywhere!");
+        force headsman `chuckle
+        headsman.actRoom("$n sweeps all the gold on the table into $s pouch.");
+      }
+    }
+  }
+}
+
+class mob32026 extends wellFall {
+  onFight( act ) {
+    if ( chance(10) ) {
+      act.actTo("{rVisions of horror cloud your mind as $' axe approaches!{x",this);
+      act.aggrDamage(this,400,"slash","$n's axe cuts deeply into $n!",[[this,act]]);
+    }
+    else if ( chance(18) )
+      fall( act, 66 );
+    else if ( chance(33) ) {
+      `wield headsman
+      `grin
+    }
+  }
+}
+
+class mob32027 extends Mob {
+  onGreetLeader( act, from ) {
+    act.actTo("$n look$v up, disinterest evident on $s face.",this);
+    `say Well, what do you want?
+  }
+  onPulseMobile() {
+    if ( chance(2) )
+      `sigh
+  }
+  onBribe( act, amount, isSilver ) {
+    if ( !isSilver ) amount = amount * 100;
+    if ( amount >= 1000 ) {
+      `say That's a tidy sum, `act`...
+      `say In return, I'll tell you a little about our 'king'...
+      `emote snorts in derision.
+      if ( chance(20) ) {
+        `say Snurre isn't behind these raids, the dark ones are.
+        `nod
+        `say They are swathed in black, and speak only to him.
+        `say I don't trust 'em...
+      }
+      else if ( chance(33) ) {
+        `say I hear the chimera ate the dragon book that Snurre was after.
+        `snicker
+        `say Pity, I hear that wyrm has inestimable wealth...
+      }
+      else if ( chance(60) ) {
+        `say I'd watch out for that temple, whoever goes in doesn't come out.
+        `nod
+      }
+      else {
+        `say The giants are the least of yer worries, `act`. When the blackclad
+        `say fellas find you, then you'll be in trouble. Even magic can't do
+        `say much to em...
+      }
+    }
+  }
+  onFight( act ) {
+    if ( chance(25) ) {
+      this.actRoom("$n fight$v ferociously, despite being chained to the wall!");
+      act.aggrDamage(this,300,"none");
+      `snarl
+    }
+  }
+}
+ 
+class mob32028 extends Mob {
+  onFight( act ) {
+    if ( chance(75) ) {
+      `wield tentacle
+      if ( chance(25) )                      //                 Heal
+        this.addHit(66);
+      if ( chance(20) ) { // FIXME: some spells don't exist     Tentacle hits
+        var done = act.aggrDamage(this,600,"pierce", 
+                                  "{GThe teeth of $' tentacle rod sink into $' flesh!{x",
+                                  [[this,act]]);
+        if ( done == 1 ) { // 1 means non-lethal damage
+          `cast weaken `act`
+          `cast lethargy `act`
+          `cast poison `act`
+        }
+      }
+      else if ( chance(45) ) {              //                  Change target
+        var target = any[[ x <- this.room().people(), 
+                           this.canSee(x) && x != act && ( !x.isNPC() || x.master() != NULL ) ]];
+        if ( target != NULL ) {
+          this.actRoom("{G$n disappear$v in a cloud of greenish smoke...{x");
+          this.stopFighting();
+          target.actAll("{GShe rematerializes behind $n!{x");
+          `grin `target`
+          `cast 'rotting touch' `target`
+          `cackle
+        }
+      }
+      else if ( chance(33) ) {              //                  Firebolt
+        var done = act.aggrDamage(this,800,"fire",
+                                  "{rTwin bolts of flame surge from $' fingertips, striking $n!",
+                                  [[this,act]]);
+        if ( done == 1 ) // 1 means non-lethal damage
+          force act `scream        
+      }
+      else {
+        var target = any[[ x <- this.room().people(), !x.isNPC() ]];
+        if ( target != NULL )
+          `cast 'unravel' `target`
+      }
+    }
+    else if ( chance(33) ) {               //                   Damage someone
+      var target = any[[ x <- this.room().people(), !x.isNPC() ]];
+      if ( target != NULL ) {
+        var done = target.aggrDamage(this,400,"none");
+        if ( done == 1 ) { // 1 means non-lethal damage
+          `cast 'faerie fire' `target`
+          `cast blindness `target`
+          `cast curse `target`
+         }
+       }
+    }
+    if ( this.hit() <= this.getAttr("hp")/10 ) { // 10% hp left
+      var vnum = this.room().vnum();
+      if ( vnum == 32077 ) {
+        this.actRoom("{y$n steps back from the fray and snarls.{x");
+        `say Cursed fools, you think you've won? This is but the beginning!
+        `cackle
+        `say Much as I'd love to see how this plays out, I have urgent business
+        `say to attend to in Erelhei Cinlu... 
+        this.echo("{gA greenish mist suddenly surrounds the Ehp'ss...{x");
+        this.transfer(32196);
+        this.echo("{yWhen it clears she is gone!{x");
+        // FIXME: act should be a random person
+        force act `curse
+        `say Prepare, the enemy approaches!
+      }
+      else if ( vnum == 32196 ) {
+        `snarl
+        `say I shall not perish easily, `act`!
+        `vom
+        `use gouge
+        `cast 'rotting touch' `act`
+      }
+    }
+  }
+
+  onPulseMobile() {
+    this.addHit(200);
+  }
+  onFlee( act, to ) {
+    `snicker
+    this.actRoom("{MTwin bolts of purplish energy surge after $n!{x");
+    act.aggrDamage(this,600,"energy","{MTwin bolts of purplish energy strike $n!{x");
+  }
+  onGreetLeader( act, from ) {
+    var vnum = this.room().vnum();
+    if ( vnum == 32077 ) {
+      this.echo("The Ehp'ss smiles and rises to her feet, running a hand over her clothes.");
+      `say So... you have stumbled onto me, `act`. You certainly took your time!
+      `chuckle
+      `hrm
+      `say Tell me, `act`, before I destroy you... what did you hope to achieve?
+      `say The events that have been put in motion cannot be stopped now...
+      `say The blessings of The Eye are 'pon us.. we are unstoppable!
+      `cackle
+      `lick
+      this.actRoom("{r$n calls upon her mistress to aid her in battle!{x");
+    }
+    else if ( vnum == 32196 ) {
+      `snarl
+      `say Still you hound me! When will you learn it is hopeless??
+      `say Guards! Finish them off!
+    }
+    else {
+      this.actRoom("$n looks confused at $s surroundings. Without a word, $e vanishes!");
+      this.transfer(32077);
+    }
+  }
+  onKilled( act ) {
+    if ( chance(5) ) { // FIXME: first echo should be in Orange    Lolth doesn't exist in this mud
+      this.echo("{YA strange hue suffuses Eclavdra as she perishes.{x");
+      this.actRoom("$' features twist into a grimace of horror as Lolth punishes her.");
+      this.echo("{gLolth says '{GYou strayed from the flock, errant one...{g'{x");
+      this.echo("{gLolth says '{GGo then, to the Eye, I shun thee!{g'{x");
+      this.echo("{BLolth's voice echoes through the chamber, drifting into laughter.{x");
+      this.actRoom("$' equipment falls from her as her form shrivels and withers.");
+      [[ x.destroy() | x <- this.equipment() ]]; // nuke equipement
+      [[ x.destroy() | x <- this.inventory() ]]; // nuke inventory
+      obj = this.room().oLoad(32090);
+      if ( obj == NULL )
+        log(this.name()+"::onKilled  obj 32090 cannot be found");
+      else
+        obj.setLevel(50);
+    }
+  }
+}
+
+class mob32029 extends Mob {
+  onFight( act ) {  // FIXME: some spells don't exist
+    if ( chance(10) )      `cast 'faerie fire' `act`
+    else if ( chance(12) ) {
+      `cast 'deplete strength' `act`
+      `cast 'energy drain' `act`
+    }
+    else if ( chance(15) ) `cast 'lethargy' `act`
+    else if ( chance(18) ) `cast 'ill fortune' `act`
+    else if ( chance(22) ) `cast 'weaken' `act`
+  }
+}
+
+class mob32030 extends Mob {
+  onRepop( real ) {
+    var room = getRoom(32075);
+    if ( room != NULL && room.roomDir("s") != NULL )
+      room.deleteOneWayDoor("s");
+  }
+  onFight( act ) {
+    if ( chance(33) )
+      `cast 'gas breath' `act`
+    else if ( chance(45) ) {
+      act.sendTo("{GA tentacle strikes you in the face!{x");
+      `use gouge
+      `use disarm
+    }
+  }
+  onKilled( act ) {
+    act.echo("{GAs the wall dissolves in a pile of greenish gas, a passage opens...{x");
+      var room = getRoom(32075);
+      if ( room != NULL )
+        room.createOneWayDoor( 32076, "s" );
+  }
+  onPulseMobile() {
+    if ( chance(20) )
+      this.addHit(200);
+  }
+  onGreet( act, from ) {
+    if ( !act.isNPC() && this.fighting() == NULL )
+      act.sendTo("{yThe wall explodes into life as you approach!{x");
+      `cast 'gas breath' `act`
+  }
+}
+
+class mob32031 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `cringe
+    else if ( chance(2) && this.fighting() == NULL )
+      `emote cowers away as the Matron glares at him.
+  }
+}
+
+class mob32032 extends Mob {
+  onFight( act ) {
+    if ( chance(20) ) {
+      this.echo("The giant bangs loudly on the door, and cries for help!");
+      var msg = "The sound of someone hammering on a door comes from nearby.";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+      this.echo("Disinterested grunts are his only reply.");
+      `mutter
+      `say Fine, I'll take the alone!
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL ) {
+      `peer
+      `nod
+    }
+    else if ( chance(75) )
+      `close east
+  }
+}
+
+class mob32033 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() && this.fighting() == NULL )
+      if ( chance(33) ) {
+        `cackle
+        `say Fresh meat!
+        `lick
+      }
+      else if ( chance(45) ) {
+        `drool
+        `say Dinner time!
+      }
+      else if ( chance(20) ) {
+        `grin
+        `say Come to your death, mortling!
+      }
+      else
+        `muhaha
+  }
+  getThrall( roomVnum ) {
+    result = NULL;
+    var room = getRoom( roomVnum );
+    if ( room != NULL ) {
+      var thralls = [[ x | x <- room.people(), 
+                       ( x.vnum() == 32031 || x.vnum() == 32034 ) 
+                       && x.fighting() == NULL ]];
+      if ( thralls.size() > 0 )
+        result = thralls[0]; // pick the first one
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      this.echo("The troll cries out for assistance from the slaves it guards!");
+      if ( chance(20) ) {
+        var thrall = getThrall(32090);
+        if ( thrall != NULL )
+          force thrall `south
+      }
+      else if ( chance(20) ) {
+        var thrall = getThrall(32089);
+        if ( thrall != NULL )
+          force thrall `north
+      }
+      else
+        `cast poison `act`
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      `drool
+  }
+  //FIXME
+//> act_prog p pound misses you.~
+//mea $n Your weapon glances harmlessly off its rubbery hide!
+//~
+//> act_prog p crush misses you.~
+//mea $n Your weapon glances harmlessly off its rubbery hide!
+//~
+}
+
+class mob32035 extends Mob {
+  isUndead( act ) {
+    result = 0;
+    // following test is equivalent to   "undead" in act.act()
+    if ( ( act.isNPC() && act.checkAct("undead") )
+	// following test is equivalent to   "undead" in act.getAttr()
+         || act.checkAttr( "form", "undead") )
+      result = 1;
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `use stun
+      act.aggrDamage(this,500,"none");
+    }
+    else if ( chance(33) && !isUndead( act ) ) {
+      // Following line is equivalent to
+      // act("$' rotting touch strikes $' exposed flesh!",[[this,act]],"TO_ALL");
+      // var done = act.aggrDamage(this,333,"negative");
+      var done = act.aggrDamage(this,333,"negative","$' rotting touch strikes $' exposed flesh!",[[this,act]]);
+      if ( done == 1 ) // 1 means non-lethal damage
+        force act `moan
+    }
+    else if ( chance(66) ) {
+      `use disarm
+      `get all
+      `muhaha
+    }
+  }
+  onFlee( act, to ) {
+    `nod
+    `say Yes, flee and begone, `act`! But your companions will suffer!
+    `cackle
+    `cast 'gas breath'
+  }
+  onPulseMobile() {
+    `close east
+    this.addHit(20);
+  }
+  onGreetLeader( act, from ) {
+    act.sendTo("{yA ghastly figure rises from the sacrophagus and turns to face you.{x");
+    `scream
+    `say Can I not be left in peace?
+    if ( act.isNPC() || !act.isImmortal() )
+      `murder `act`
+  }
+  onKilled( act ) {
+    this.actRoom("{y$n is suddenly abandoned by the spirits of $s ancestors!{x");
+    this.actRoom("{yTheir influence seeps from $m, coalescing near $s still form.{x");
+    this.room().oLoad(32054);
+  }
+}
+
+class mob32038 extends Mob {
+  onPulseMobile() {
+    if ( this.fighting() == NULL )
+      if ( chance(2) ) {
+        `hrm
+        `ponder
+      }
+      else if ( chance(2) ) {
+        `nod
+        `say Ah yes, that's it...
+        `emote makes some notes on a clay tablet.
+      }
+  }
+  onGreetLeader( act, from ) {
+    if ( this.fighting() == NULL )
+      if ( act.vnum() == 32037 ) {
+        `pat `act`
+        `smile
+      }
+      else if ( act.isNPC() )
+        `bow `act`
+      else {
+        `smile
+        `say Hello there. Enjoying your stay?
+        `nod
+      }
+  }
+}
+
+class mob32039 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() && this.fighting() == NULL ) {
+      `say H-h-hey... yyyou shhhouldn't b-be h-here!
+      `burp
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL ) {
+      this.echo("The ettin tears a chunk of flesh from a human thigh and devours it!");
+      `mmm
+      `burp
+    }
+    else if ( chance(3) )
+      `puke
+  }
+}
+
+class mob32040 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() ) {
+      `say I'm rather busy right now...
+      force act `nod
+      force act `south
+      `close south
+      `roll
+    }
+    else if ( !act.isNPC() ) {
+      `eye `act`
+      if ( act.getAttr("sex") == "female" )
+        `say Can I help you, m'lady?
+      else
+        `say Can I help you, sir?
+    }
+  }
+}
+
+class mob32043 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `say Protect the children!
+      `snarl
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `say Protect the children!
+      `snarl
+      `use stun
+    }
+  }
+}
+
+class mob32044 extends Mob {
+  onPulseMobile() {
+    if ( this.fighting() == NULL && chance(2) )
+      `sing
+  }
+}
+
+class mob32045 extends Mob {
+  onPulseMobile() {
+    if ( this.fighting() == NULL )
+      if ( chance(2) )      `giggle
+      else if ( chance(2) ) `laugh
+  }
+}
+
+class mob32046 extends Mob {
+  onPulseMobile() {
+    if ( this.fighting() == NULL )
+      if ( chance(2) ) 
+        `mutter
+      else if ( chance(2) ) {
+        `say RELEASE ME!
+        var msg = "Sounds of displeasure can be heard from behind a cell door.";
+        [[ x.echo(msg) | x <- this.room().around() ]];
+        `growl
+      }
+  }
+  onGreetLeader( act, from ) {
+    if ( chance(33) )
+      if ( act.isNPC() )
+        `roll
+      else
+        `say Who the hell are you?
+  }
+}
+
+class mob32047 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `growl
+    else if ( chance(33) && this.hit() != this.getAttr("hp") ) {
+      this.echo("The troll's wounds close spontaneously!");
+      this.addHit(50);
+    }
+  }
+  onFight( act ) {
+   if ( chance(20) && this.hit() != this.getAttr("hp") ) {
+      this.echo("The troll's wounds close spontaneously!");
+      this.addHit(50);
+      `grin
+    }
+  }
+}
+
+class mob32050 extends Mob {
+  onFight( act ) {
+    if ( chance(33) ) {
+      `wield spear
+      `second greatsword
+    }
+  }
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      this.echo("The guard bids the new arrival to join them.");
+    else {
+      this.echo("The giant hurls his mug of ale down and draws his weapons!");
+      `snarl
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL ) {
+      `laugh
+      var target = any[[ x <- this.room().people(),
+ 			 "wererat" in x.name().words() && x.fighting() == NULL ]];
+      if ( target != NULL ) {
+        this.echo("The giant slaps one of his companions on the back.");
+        force target `growl
+      }
+      `hmm
+    }
+  }
+}
+
+class mob32051 extends Mob {
+  onFight( act ) {
+    if ( chance(20) )
+      act.sendTo("{yThe wereat becomes more bestial as the fight progresses!{x");
+  }
+  onPulseMobile() {
+    if ( chance(33) )
+      `wield drow
+  }
+}
+
+class mob32052 extends Mob {
+  onPulseMobile() {
+    if ( chance(33) && this.fighting() == NULL ) {
+      `wield drow
+      `close wall
+      `use sneak
+      `use hide
+    }
+  }
+  onFight( act ) {       // FIXME: not logic to close the door and then try to flee
+    if ( this.hit() <= this.getAttr("hp")/10 ) {
+      this.echo("{yThe wererat attempts to dash downstairs to summon help!{x");
+      `close wall
+      `flee
+    }
+  }
+}
+
+class mob32053 extends Mob {
+//> act_prog circle~                FIXME
+//mea $n The titan whirls to face your cowardly attack!
+//mea $n Raising a fist, he smashes it into you!
+//mpdamage $n 200
+//~
+  onPulseMobile() {
+    if ( chance(2) )
+      this.addHit(1000);
+    else
+      `close north
+  }
+  onFlee( act, to ) {
+    `shake
+    `yell Come back `act`, I'm not done with you yet!
+    `cackle
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      `roar
+      this.echo("{WBlinding white energy floods the chamber!{x");
+      [[ x.aggrDamage( this, 400, "energy" ) | x <- this.room().people(),
+           x != this && ( !x.isNPC() || x.master() != NULL ) ]];
+    }
+    else if ( chance(15) ) {
+      `snarl
+      if ( act.alignment() <= -350 ) {
+        `say Perish in the fires of hell, evil one!
+        act.actAll("{rThe titan points a finger at $n, and $e $b engulfed in flame!{x");
+        `cast 'fire breath' `act`
+      }
+      else {
+        `use stun
+        `use bash
+        `use disarm
+      }
+    }
+    else if ( chance(45) ) {
+      `cast earthquake
+      if ( chance(33) ) {
+        this.echo("{WThe titan's wounds are bathed in holy light.{x");
+        this.addHit( 50 );
+      }
+    }
+    else if ( chance(66) ) {
+      `use disarm
+      `get all
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL )
+        target.aggrDamage( this, 500, "bash", "{yThe titan grabs $n and hurls $m against the wall!{x");
+    }
+    else
+      `close north
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() )
+      if ( act.isImmortal() )
+        `say Please free me `act`
+      else
+        if ( act.alignment() <= -350 ) {
+          act.sendTo("Your arrival stirs the titan from his stupor!");
+          `say Spawn of evil! Do not seek to torment me! Perish!
+          `murder `act`
+        }
+        else
+          this.echo("The titan remains quiet, reluctant to converse with mortals.");
+  }
+}
+
+class mob32054 extends Mob {
+  onBribe( act, amount, isSilver ) {
+    if ( !isSilver ) amount = amount * 100;
+    if ( amount >= 1000 ) {
+      `smile
+      `say Why thank you... One favor deserves another...
+      `say I was seeking the king's treasure room, and gleaned the 
+      `say following information-
+      `say The entrance is behind the king's throne, and the room itself
+      `say is guarded by a fearsome beast, beyond my ability to best.
+    }
+  }
+  onFight( act ) {
+    if ( chance(18) ) {
+      `use disarm
+      `use gouge
+      `wink
+    }
+    else if ( chance(33) ) {
+      act.sendTo("The thief manages to dodge many of your blows!");
+      `wink
+      var target = any[[ x <- this.room().people(), 
+                         this.canSee(x) && x != act && ( !x.isNPC() || x.master() != NULL ) ]];
+      if ( target != NULL ) {
+        this.stopFighting();
+        this.multiHit( target );
+        `murder `target`
+        `snicker
+      }
+    }
+  }
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() ) {
+      `roll
+      `say Here we go
+    }
+    else {
+      `wink `act`
+      if ( act.getAttr("sex") == "female" )
+        `say Hello dear... care to help me escape this place?
+      else
+        `say Hello handsome... care to help me escape this place?
+      act.sendTo("The thief stares enticingly at you.");
+    }
+  }
+}
+
+class mob32056 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      this.echo("The troll labors, endeavouring to stay well clear of the fires.");
+  }
+  onGreet( act, from ) {
+    if ( this.fighting() == NULL )
+      act.sendTo("The troll looks at you but says nothing.");
+  }
+}
+
+class mob32057 extends Mob {
+  onGreet( act, from ) {
+    if ( chance(45) && !act.isNPC() && !act.isImmortal() && this.carryLocation("hold") != NULL ) {
+      this.echo("{yThe guard raises his crossbow and fires!{x");
+      `zap `act`
+    }
+  }
+  onPulseMobile() {
+    if ( chance(33) && this.fighting() == NULL ) {
+      `use sneak
+      `use hide
+    }
+  }
+  onFight( act ) {
+    if ( chance(10) )      `cast 'faerie fire' `act`
+    else if ( chance(33) ) `wield shortsword
+    else if ( chance(10) && this.carryLocation("hold") != NULL ) {//FIXME: crossbow should be a ranged weapon
+      this.echo("The guard raises his crossbow and fires!");
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL )
+        `zap `target`
+    }
+  }
+}
+
+class mob32058 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() && this.carryLocation("wield") != NULL )
+      `emote grips his weapon and prepares to do battle!
+  }
+  onFight( act ) {
+    if ( chance(15) )
+      `snarl
+  }
+}
+
+class mob32059 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      this.actRoom("$n waves $n on by.", [[ this, act ]] );
+    else if ( !act.isImmortal() ) {
+      `say Soldiers assemble! Kill the intruders, in the name of the Eye!
+      `cast 'ice shield'
+      `cast 'blindness' `act`
+    }
+  }
+  onFight( act ) {
+    if ( chance(10) && this.carryLocation("hold") != NULL ) { // FIXME
+      `cast 'faerie fire' `act`
+      `zap `act`
+    }
+    else if ( chance(33) ) {
+      `snarl
+      `cast 'lightning bolt' `act`
+    }
+    else if ( chance(20) )
+      `cast 'dispel magic' `act`
+  }
+}
+
+class mob32061 extends Mob {
+  onFight( act ) {
+    if ( chance(10) )
+      this.echo("{yThe hound yelps loudly as it battles!{x");
+  }
+}
+
+class mob32062 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( chance(25) && !act.isNPC() && !act.isImmortal() && this.carryLocation("hold") != NULL ) {
+      this.echo("{yThe drow raises his crossbow and fires!{x");
+      `zap `act`
+    }
+  }
+  onFight( act ) {
+    if ( chance(10) && this.carryLocation("hold") != NULL ) { // FIXME: check if crossbow is wield or hold
+      this.echo("{yThe drow raises his crossbow and fires!{x");
+      `zap `act`
+    }
+    else if ( chance(10) )
+      `cast 'faerie fire' `act`
+  }
+  onPulseMobile() {
+    if ( chance(33) && this.fighting() == NULL ) {
+      `use sneak
+      `use hide
+    }
+    else if ( chance(2) )
+      `peer
+  }
+}
+
+class mob32063 extends GeneralGiantMob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `peer
+  }
+  onFight( act ) {
+    if ( chance(20) && isDwarf(act) ) {
+      if ( chance(33) ) {
+        `say Cop this, you little runt!
+        `snarl
+        `use bash
+      }
+      else {
+        `say You will perish at my hands, ancient foe!
+        `grin
+        `use gouge
+      }
+    }
+    else if ( chance(13) )
+      act.aggrDamage(this,50,"bash","The giant fetches a boulder and hurls it at $n!");
+    if ( this.hit() <= this.getAttr("hp")/20 ) { // less than 5% hp left
+      `yell Help me, I am dying!
+      `moan
+    }
+  }
+}
+
+class mob32064 extends Mob {
+  onFight( act ) {
+    if ( chance(60) ) {
+      if ( chance(40) ) {
+        var done = act.aggrDamage(this,50,"bash","The roper bashes $n with a tentacle!");
+        if ( done != 2 ) { // 2 means lethal-damage
+          if ( chance(10) ) `use bash
+          if ( chance(45) ) `use disarm
+          if ( chance(20) ) `use gouge
+        }
+      }
+      if ( chance(25) ) {
+        var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+        if ( target != NULL )
+          if ( target.getAttr("dexterity") < 16 ) {
+            var done = target.aggrDamage(this,200,"bash","The roper manages to curl a tentacle around $n and drag $m closer!");
+            if ( done == 1 )  // 1 means non-lethal damage
+              force target `scream
+          }
+          else
+            target.sendTo("You manage to avoid the roper's groping tentacles.");
+      }
+      if ( chance(12) ) {
+        this.echo("The roper's rubbery hide begins to heal!");
+        this.addHit(50);
+      }
+    }
+  }
+}
+
+class mob32065 extends Mob {
+  afraidRace( act ) {
+    var race = act.getAttr("race");
+    result = 0;
+    if ( race == "troll" )
+      result = 1;
+  }
+  onFight( act ) {
+    if ( chance(18) ) {
+      `gouge
+      `roar
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL ) {
+        `cast 'fire breath' `target`
+        if ( chance(20) ) {
+          this.echo("The fire lizard swings its barbed tail in a long, wide arc.");
+           target.aggrDamage( this, 200, "pierce" );
+        }
+      }
+    }
+    else if ( chance(33) )
+        act.aggrDamage(this,100,"pierce","The fire lizard snaps its jaws at $n!");
+  }
+  onGreetLeader( act, from ) {
+    if ( this.fighting() == NULL ) {
+      if ( act.isNPC() ) {
+        act.actAll("The lizard snaps up $n in one swift movement, crushing $m!");
+        act.suddenDeath("has been slain by "+this.shortDescr()+"!");
+        `lick
+        `burp
+      }
+      else if ( act.isImmortal() )
+        `cringe `act`
+      else if ( afraidRace(act) )
+        act.actAll("The fire lizard cringes away from $n, as if it fears $m!");
+      else {
+        `snarl
+        this.echo("The lizard leaps forward with lighting speed and ferocity!");
+        this.echo("{rOpening its jaws, it releases a gout of blistering flame!{x");
+        `cast 'fire breath' `act`
+      }
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL ) {
+      `grunt
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL )
+        if ( !target.isImmortal() )
+          if ( afraidRace(target) )
+            `cringe `target`
+          else {
+            target.sendTo("{rThe fire lizard sees you, and acts accordingly!{x");
+            `cast 'fire breath' `target`
+          }
+    }
+  }
+  onKilled( act ) {
+    if ( chance(25) )
+      this.echo("As the lizard perishes, it rolls over, crushing its eggs!");
+    else {
+      this.echo("As the lizard perishes, it rolls over, revealing a cluster of eggs.");
+      this.echo("One has survived the melee!");
+      this.room().oLoad(32098);
+    }
+  }
+}
+
+class mob32066 extends Mob {
+  onKilled( act ) {
+    this.echo("{rThe beetle's gland is torn from it as it is dispatched!{x");
+    this.room().oLoad(32097); // should be load as a object lvl 1
+  }
+}
+
+class mob32067 extends Mob {
+  onFight( act ) {
+    if ( chance(33) ) {
+      var done = act.aggrDamage(this,200,"mental","{WThe Illithid snares $n with its tentacles, and probes $s skull!{x");
+      if ( done == 1 ) { // 1 means non-lethal damage
+        force act `drool
+        `cast weaken `act`
+        `cast 'energy drain' `act`
+        `cast blindness `act`
+      }
+    }
+    else if ( chance(22) ) {
+      this.echo("{BThe illithid releases a powerful psionic assault!{x");
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL ) {
+        var done = target.aggrDamage(this,200,"mental");
+        if ( done == 1 ) {  // 1 means non-lethal damage
+          force target `scream
+          force target `moan
+        }
+      }
+    }
+  }
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() ) { // FIXME: 'quantum spike' doesn't exist
+      `lick
+      force act `cringe
+      `cast 'quantum spike' `act`
+    }
+    else if ( act.isImmortal() )
+      `bow `act`
+    else {
+      `snarl
+      `vom `act`
+    }
+  }
+}
+
+class mob32068 extends Mob {
+  onFight( act ) {
+    if ( chance(10) )
+      `cast 'faerie fire' `act`
+  }
+}
+
+class mob32069 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      this.actRoom("$n ignores the brutish intrusion.");
+    else {
+      `eye `act`
+      `say Well, I see we aren't the only intruders in this cesspit of giants.
+      `snicker
+      `say What business brings you to this hellhole, then?
+    }
+  }
+  onSpeech( act, msg ) {
+    if ( "eclavdra" in msg.words() ) {
+      act.actTo("$' suddenly peers intently at you.", this );
+      `say So, you know her do you?
+      `hrm
+      `say She is a sworn enemy of mine, and I seek to destroy her...
+      `say I can give you information that will assist you, for a price.
+      `wink `act`
+    }
+  }
+  onBribe( act, amount, isSilver ) {
+    if ( !isSilver ) {
+      this.addGold(-amount);   // destroy money
+      amount = amount * 100;
+    }
+    else
+      this.addSilver(-amount); // destroy money
+    if ( amount >= 50000 ) {
+      `say That will suffice.
+      `say Seek not to target her in her temple, for Ehp'ss can escape.
+      `say Attack instead in her council chambers, north of here.
+      `say Follow the path, avoid the illithids if you can...
+      `hmm
+      `say She will be well guarded, but unprepared for an assault.
+      `say There you should strike if you wish to end her evil plans...
+      `nod
+    }
+    else
+      `say Give me more
+  }
+  onFight( act ) {
+    if ( chance(10) ) {
+      `cast 'faerie fire' `act`
+      `use disarm `act`
+    }
+    else if ( chance(18) ) {
+      `say You do ill to tempt the wrath of a demon priestess!
+      `snarl
+      act.actAll("{y$n utter$v a few words, and point$v $s staff at $n!{x", [[this,this,this,this,act]]);
+      act.sendTo("{yUntold horrors fill your mind!{x");
+      var done = act.aggrDamage(this,600,"negative");
+      if ( done == 1 )  // 1 means non-lethal damage
+        force act `flee
+    }
+    else if ( chance(40) ) { // FIXME: replacing by existing spells
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL )
+        if ( chance(25) )      `cast unravel `target`
+        else if ( chance(33) ) `cast 'deplete strength' `target`
+        else if ( chance(45) ) `cast 'ill fortune' `target`
+        else if ( chance(60) ) `cast lethargy `target`
+        else                   `cast blindness `target`
+    }
+    else if ( chance(66) )   // FIXME: spell was 'necromantic touch'
+      `cast 'rotting touch' `act`
+  }
+  onDisarmed( act, weapon ) {    // FIXME: this staff is a weapon or a magic staff??
+    this.actRoom("{yThe staff flies back to $' hand!{x");
+    //`get `weapon`
+    //`wear `weapon`
+    this.giveObj( weapon );
+    `wear `weapon`
+    `scream
+    this.echo("{rWaves of red heat emanate from the staff!{x");
+    [[ x.aggrDamage(this,200,"fire" ) |
+       x <- this.room().people(),
+       ( !x.isNPC() || x.master() != NULL ) && x != this ]];
+  }
+  onKilled( act ) {
+    `scream
+    var staff = this.carryLocation("hold");
+    if (  staff != NULL ) {
+      this.actRoom("{rThe staff in $' hands begins to glow with a hellish light!{x");
+      this.actRoom("{rWith a horrid ripping sound, a clawed hand tears through $n!{x");
+      this.actRoom("{r$s chest cavity explodes, showering you with gore.{x");
+      this.echo("{rFrom the wound emerges a slavering demon, intent on slaughter!.{x");
+      var demon = this.mLoad(32078);
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL ) {
+        force target `scream
+        force demon `lick
+        force demon `murder `target`
+      }
+      this.actRoom("{r$' mangled corpse collapses to the ground.");
+      if ( chance(33) )
+        this.room().transfer(staff);
+      else {
+        this.echo("{rThe demon staff explodes, the ritual completed.{x");
+        staff.destroy();
+      }
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL ) {
+      `mutter
+      `say We must tarry awhile longer, T'chesa.
+      `say The Ehp'ss may make a move...
+      this.echo("A drow guard shakes her head.");
+    }
+  }
+}
+
+class mob32070 extends Mob {
+  onSpeech( act, msg ) {
+    if ( msg %= "Prepare, the enemy approaches" ) { // some mobs will say that when fleeing combat
+      `nod
+      `cast sanctuary
+      this.addHit(600);
+    }
+  }
+  onGreetLeader( act, from ) {
+    if ( chance(33) )
+      if ( act.isNPC() )
+        `eye `act`
+      else if ( !act.isImmortal() && this.carryLocation("hold") != NULL ) {
+        `say Defend the Ehp'ss!
+        `zap `act`
+      }
+  }
+  onFight( act ) {
+    if ( chance(10) )
+      `cast 'faerie fire' `act`
+    else if ( chance(18) && this.carryLocation("hold") != NULL ) {
+      this.echo("{yThe drow raises her hand crossbow and fires!{x");
+      `zap `act`
+    }
+  }
+}
+
+class mob32071 extends Mob {
+  isElf( act ) {
+     result = 0;
+     var race = act.getAttr("race");
+     if ( "elf" in race.tokenize("-") || race == "avariel" || race == "drow" )
+       result = 1;
+  }
+  onGreet( act, from ) {
+    if ( ( act.isNPC() || !act.isImmortal() ) && !isElf( act ) )
+      `cast fireball `act`
+  }
+}
+
+class mob32072 extends Mob {
+  onGreet( act, from ) {
+    if ( act.getAttr("race") == "drow" )
+      act.actAll("Sensing $n as drow, the lurker refrains from action.");
+    else
+      if ( act.isNPC() ) {
+        act.actAll("The lurker drops from the ceiling and engulfs $n, suffocating $m!");
+        act.suddenDeath("has been killed by a lurker");
+      }
+      else
+        act.sendTo("The lurker drops from the ceiling, attempting to engulf you!");
+  }
+  onFight( act ) {
+    if ( chance(15) ) {
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL )
+        target.aggrDamage(this,200,"bash","The lurker manages to wrap itself about $n!");
+    }
+  }
+}
+
+class mob32073 extends Mob {
+  onGreetLeader( act, from ) {
+    `snarl
+    if ( !act.isNPC() ) {
+      act.sendTo("Drow! Here? The presence of this powerful race bodes ill...");
+      `say Stand down, intruders, and I shall slay thee quickly!
+      `cackle
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) )
+      `peer
+  }
+}
+
+class mob32074 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `lick
+  }
+  onFight( act ) {
+    if ( chance(15) )
+      this.echo("The wererat grows more bestial as the fight progresses!");
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `snarl
+      `say We shall have your guts for garters, swine!
+      `lick
+    }
+  }
+}
+
+class mob32075 extends Mob {
+  onPulseMobile() {
+    if ( chance(25) ) {
+      `close west
+      this.addHit(66);
+    }
+    else if ( chance(2) && this.fighting() == NULL ) {
+      var target = any[[ x <- this.room().people(), !x.isNPC() && this.canSee( x ) ]];
+      if ( target != NULL ) {
+        `poke `target`
+        `say Talk, fight or go. Your choice.
+      }
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      `wield giant
+      this.addHit(66);
+    }
+  }
+}
+
+class mob32076 extends GeneralGiantMob {
+  onGreet( act, from ) {
+    if ( chance(50) )
+      if ( isDwarf(act) ) {
+        `say Blood enemy of my people, perish!
+        `snarl
+      }
+      else
+        `say Prepare to die for this intrusion, fool!
+  }
+  onFight( act ) {
+    if ( chance(25) ) {
+      var target = any[[ x <- this.room().people(), !x.isNPC() ]];// no need to be a visible char
+      if ( target != NULL ) {
+        this.echo("{yThe giant hurls a boulder into the melee!{x");
+        target.aggrDamage(this,66,"bash","The boulder hits $n!");
+      }
+    }
+  }
+}
+
+class mob32198 extends Mob {
+  onGreet( act, from ) {
+    if ( act.isNPC() ) {
+      this.actRoom("{rA searing blast of $' breath reduces $n to charred bone!{x",[[this,act]]);
+      act.suddenDeath("has been killed by Brazzemal.");
+    }
+    else if ( act.clan() == "dragonslayer" ) {  // FIXME: this clan doesn't exist in this mud
+      `chuckle
+      `say Famed wyrmsbane, you have finally met your match... For I am `this.shortDescr()`,
+      `say Hellfire incarnate, and I am your death!
+      `cackle
+    }
+    else {
+      `glare 
+      `say Intruders in my prison, seeking to humilate me!
+      `lick
+      `say You shall prove to be the source of my release, swine!
+    }
+  }
+  onPulseMobile() {
+    if ( chance(33) )
+      this.addHit(100);
+  }
+  onFlee( act, to ) {
+    `yell Flee, flee, cowardly `act`! And do not return!
+    this.actRoom("{Y$n appears to gain in strength from this display of cowardice.{x");
+    this.addHit(500);
+  }
+  onFight( act ) {
+    if ( chance(18) ) {                                            // dragonslayer ? FIXME
+      var target = any[[ x <- this.room().people(),
+                         this.canSee(x) && x != act && ( !x.isNPC() || x.master() != NULL ) ]];
+      if ( target != NULL )
+        if ( target.clan() == "dragonslayer" ) {
+          `yell Watch, `target` Dragonsbane, as I sear the flesh from your bones!
+          var done = target.aggrDamage(this,100,"fire",
+                                       "{r$n is scorched by a searing blast of $' breath!{x",
+                                       [[act,this]]);
+          if ( done == 1 ) {  // 1 means non-lethal damage
+            `cast 'fire breath' `target`
+          }
+          `cackle
+        }
+        else {
+          `say `target`, you are not worth my time...
+          target.actAll("$n flick$v $n with $s tail, sending $n flying!", [[this,this,target,this,target]]);
+          target.transfer(32197);
+          target.sendTo("You land in a heap outside the chasm.");
+          target.actRoom("$n comes sailing in from the northeast!");
+          target.damage(600, "bash", "has been killed by Brazzemal.");
+        }
+    }
+    else if ( chance(33) ) {                                      // Hit hard
+      `snarl
+      `use disarm
+      `use disarm
+      if ( chance(66) )
+        act.aggrDamage(this,500,"pierce", "$n attacks $n with claw, talon and tail.",[[this,act]]);
+      else
+        `cast 'fire breath' `act`
+    }
+    else if ( chance(20) ) {                                      // Change target
+      var target = any[[ x <- this.room().people(), 
+                         this.canSee(x) && x != act && ( !x.isNPC() || x.master() != NULL ) ]];
+      if ( target != NULL ) {
+        this.actRoom("$n soars into the air, and dives back down..");
+        this.stopFighting();
+        this.multiHit( target );
+        `murder `target`
+        `scream
+      }
+    }
+    else if ( chance(75) ) {                                      // Attack a cleric
+      var target = any[[ x <- this.room().people(), 
+                         "cleric" in x.classes() && !x.isNPC() && this.canSee(x) ]];
+      if ( target != NULL ) {
+        `say Priest, you are the coward, healing your comrades, but refusing
+        `say to dirty your hands by battling! For that you shall pay!
+        `roar
+	target.aggrDamage(this,1000,"none");
+      }
+    }
+  }
+  onKilled( act ) {
+    this.echo("{rBrazzemal shrieks in pain and rage as he is comsumed in his own fire!{x");
+    `say No horror is greater to thy soul...
+    if ( chance(33) ) {
+      this.echo("{rAs he perishes, a flaming blade shimmers into view by his side...{x");
+      this.oLoad(32197);
+    }
+    else if ( chance(5) ) {
+      this.echo("{WA beam of pure energy smites the dying wyrm, and he screams in agony!{x");
+      this.actRoom("{WA ghostly voice whispers 'Return what you have taken, $n...'");
+      this.actRoom("{yA shining blade emerges from $' twitching corpse!");
+      this.oLoad(32198);
+      force act `gasp
+      force act `say 'Tis Dragonslayer itself!
+    }
+  }
+}
+
+//****** OBJ
+
+class obj32003 extends Obj {
+  rightSize( act ) {
+    var size = act.getAttr("size");
+    result = 0;
+    if ( size != "large" && size != "huge" && size != "giant" )
+      result = 1;
+  }
+  onWearing( act ) { // FIXME: really weird, size restriction only applied if evil ...
+    if ( act.alignment() <= -350 )
+      if ( rightSize( act ) )
+        result = 0;
+      else {
+        act.sendTo("The armor is far too large for you.");
+        result = 1;
+      }
+  }
+}
+
+class obj32005 extends Obj {
+  onWorn( act ) {
+    if ( act.alignment() <= -350 )
+      act.actAll("The crown magically adjusts to fit $' head.");
+  }
+  onDamage( amount ) {
+    var carrier = this.carriedBy();
+    if ( carrier != NULL )
+      carrier.actAll("{WGems set in $' crown shatter as blows rain down upon it.{x");
+  }
+}
+
+class obj32006 extends Obj {
+  rightSize( act ) {
+    var size = act.getAttr("size");
+    result = 0;
+    if ( size != "tiny" && size != "small" )
+      result = 1;
+  }
+  onWearing( act ) { // FIXME: really weird, size restriction only applied if evil ...
+    if ( act.alignment() <= -350 )
+      if ( rightSize( act ) ) {
+        act.actAll("$n adjust$v the hide to fit $mself properly.");
+        result = 0;
+      }
+      else {
+        act.sendTo("This hide is just too big for you to move properly in.");
+        result = 1;
+      }
+  }
+}
+
+class obj32007 extends Obj {
+  onWorn( act ) {
+    if ( act.alignment() <= -350 || act.alignment() >= 350 ) // not neutral
+      act.actAll("{WA confident aura surrounds $n as $e dons the ring.{x");
+  }
+  onRemoved( act ) {
+    if ( act.alignment() <= -350 || act.alignment() >= 350 ) // not neutral
+      act.actAll("{WThe aura surrounding $n disappears as $e removes the ring.{x");
+  }
+}
+
+class obj32018 extends GeneralGiantObj {
+  onWearing( act ) {
+    if ( isDwarf( act ) ) {
+      act.sendTo("The hammer fits snugly into your grasp.");
+      result = 0;
+    }
+    else {
+      act.sendTo("You cannot use this weapon effectively.");
+      result = 1;
+    }
+  }
+}
+
+class obj32020 extends GeneralGiantObj {
+  onWearing( act ) {
+    result = 0;
+    if ( !isDwarf( act ) ) {
+      act.sendTo("You cannot gain any benefit from these items.");
+      result = 1;
+    }
+  }
+}
+
+class obj32021 extends Obj {
+  onWorn( act ) {
+    if ( act.alignment() < 350 ) { // FIXME: casted spells doesn't exist
+      act.sendTo("{RThe influence of the fire giants flows through you...{x");
+      if ( chance(10) )      this.cast( act, "kin", 50, 1 );
+      else if ( chance(33) ) this.cast( act, "trollish", 50, 1 );
+      else if ( chance(25) ) this.cast( act, "valiance", 50, 1 );
+      else                   this.cast( act, "slink", 50, 1 );
+    }
+  }
+}
+
+class obj32029 extends Obj {
+  onUse( act ) { // FIXME: onUse doesn't exist for the moment
+    this.echo("{DDark shadows cloud your vision...{x");
+  }
+}
+
+class obj32032 extends Obj {
+  onDropped( act ) {
+    act.sendTo("The book dissolves as it hits the ground.");
+    this.destroy();
+  }
+}
+
+class obj32033 extends Obj {
+  onDropped( act ) {
+    this.echo("The spear hits the ground with a loud clang!");
+    var msg = "A loud clanging sound can be heard from nearby.";
+    var room = this.room();
+    if ( room != NULL )
+      [[ x.echo(msg) | x <- room.around() ]];
+  }
+}
+
+class obj32048 extends Obj {
+  onGot( act ) {
+    act.sendTo("You fetch the cask, knowing full well you take your life into your hands");
+    act.sendTo("Only the most foolish would drink this potent brew.{x");
+  }
+}
+
+class obj32049 extends Obj {
+  onLooking( act ) {
+    act.sendTo("The scroll is a letter, addressed to King Snurre, instructing him to");
+    act.sendTo("gather as many giants as he can to lay siege to Darkhaven! The missive");
+    act.sendTo("promises aid from the Drow, and is signed Eclavdra... So the drow have");
+    act.sendTo("been manipulating the giants into these raids! The mystery deepens.");
+    act.sendTo("{rThe scroll catches fire and burns to nothing as you read it!{x");
+    this.destroy();
+    result = 1;
+  }
+}
+
+class obj32054 extends Obj {
+  onDamage( amount ) {
+    if ( chance(33) ) {
+      var carrier = this.carriedBy();
+      if ( carrier != NULL )
+        carrier.sendTo("{yAs the influence is torn from you, it reforms!{x");
+      this.setCondition(100);
+    }
+    else {
+      var carrier = this.carriedBy();
+      if ( carrier != NULL )
+        carrier.sendTo("{yThe influence of the ancient kings is torn from you!{x");
+    }
+  }
+}
+
+class obj32058 extends Obj {
+  onWorn( act ) {
+    if ( act.alignment() < 350 )
+      act.sendTo("{rYour mind is flooded with images of carnage.{x");
+  }
+}
+
+class obj32059 extends Obj {
+  onPull( act ) {
+    act.sendTo("{GYour vision shimmers as your surroundings change.{x");
+    act.transfer(32145);
+  }
+}
+
+class obj32060 extends Obj {
+  isElf( act ) {
+     result = 0;
+     var race = act.getAttr("race");
+     if ( "elf" in race.tokenize("-") || race == "avariel" || race == "drow" )
+       result = 1;
+  }
+  onWearing( act ) {
+    result = 0;
+    if ( !isElf(act) ) {
+      act.sendTo("You cannot fit into this garment properly.");
+      result = 1;
+    }
+  }
+}
+
+class obj32061 extends obj32060 { // same as mob32060
+}
+
+class obj32079 extends Obj {
+  onUse( act ) { // FIXME: onUse doesn't exist for the moment
+    this.echo("{yA gout of acid inundates the room!{x");
+  }
+}
+
+class obj32080 extends Obj {
+  onWorn( act ) {
+    if ( act.alignment() <= -350 ) {
+      act.actAll("{yPower courses through $m veins as $n grips the staff!{x");
+      force act `cackle
+    }
+  }
+  onGot( act ) {
+    act.sendTo("{yVile images fill your mind as you grab the staff.{x");
+    act.actRoom("{y$n reels suddenly, confused.{x");
+  }
+  onDamage( amount ) {
+    var carrier = this.carriedBy();
+    if ( carrier != NULL ) {
+      carrier.actAll("{y$' staff shrieks as it is damaged!{x");
+    }
+  }
+}
+
+class obj32088 extends Obj {
+  onPull( act ) {
+    this.echo("{MThe altar begins to fade in color, becoming translucent.{x");
+    this.echo("{MA writhing mass coalesces in the altar's center...{x");
+    this.echo("{yA glowing golden eye swims into view from the center!{x");
+    var eye = this.mLoad(32077);
+    this.echo("{yThe eye turns to balefully regard those who disturb it.{x");
+    this.echo("{MSwollen veins of purple throb within the altar!{x");
+    // damage every PC or NPC with master in the room
+    [[ x.damage( 200, "none", "has been killed by A Glowing Golden Eye!" ) |
+       x <- act.room().people(),
+       ( !x.isNPC() || x.master() != NULL ) && x != act ]];
+    force eye `peer
+    act.suddenDeath("has been killed by A Glowing Golden Eye");
+    this.echo("{WSatisfied with the sacrifice, the eye withdraws.{x");
+    eye.destroy();         //mpforce eye mpgoto 32199
+  }
+  onLooking( act ) {
+    act.sendTo("{yAs you regard the void, so does the void regards you.{x");
+    act.actRoom("{y$n is struck by some invisible force!{x");
+    act.damage( 400, "none", "has been killed by an invisible force!");
+  }
+}
+
+class obj32090 extends Obj {
+  isElf( act ) {
+     result = 0;
+     var race = act.getAttr("race");
+     if ( "elf" in race.tokenize("-") || race == "avariel" || race == "drow" )
+       result = 1;
+  }
+  onWearing( act ) { //FIXME, lolth is not a deity in this mud, no deity is opposed to elf
+    result = 0;
+    if ( isElf( act ) ) {
+      act.sendTo("{rYou shriek as you behold the nature of your enemy's deity!{x");
+      act.actRoom("{r$n shrieks as $e beholds the nature of $s enemy's deity!{x");
+      var done = act.damage( 200, "negative", "has been killed by the blessing of Lolth!{x");
+      if ( done == 1 ) // 1 means non-lethal damage
+        force act `scream
+      result = 1;
+    }
+  }
+}
+
+class obj32198 extends Obj {
+  onWearing( act ) {
+    if ( act.clan() == "dragonslayer" ) { // FIXME: this clan doesn't exist in this mud
+      act.actAll("{WTears stream down $' face as $e grasp$v Dragonslayer!{x");
+      result = 0;
+    }
+    else {
+      act.sendTo("{rYou are not worthy!{x");
+      result = 1;
+    }
+  }
+  onGot( act ) {
+    if ( act.clan() == "dragonslayer" ) // FIXME: this clan doesn't exist in this mud
+      act.actAll("{W$n hold$v the sword aloft in triumph!{x");
+  }
+}
+
+//*****  ROOM
+
+class room32005 extends Room {
+  onPulseTick() {
+    if ( chance(33) ) {
+      this.echo("{rA gout of flame bursts from a gap in the wall!{x");
+      var target = any[[ x <- this.people(), !x.isNPC() ]];
+      if ( target != NULL ) {
+        target.actAll("The flame licks at $n!");
+        target.damage( 50, "fire", "has been killed by a gout of flame bursts");
+      }
+    }
+  }
+}
+
+class room32006 extends GeneralGiantRoom {
+  onEntered( act, from ) {
+    if ( isDwarf( act ) ) {
+      act.sendTo("You are enraged by this insulting depiction of your proud race.");
+      var msg;
+      if ( act.carryLocation("wielded") == NULL )
+        act.actRoom("$n glares grimly at the statues.");
+      else
+        act.actRoom("$n grips $s weapon firmly and glares grimly at the statues.");
+    }
+  }
+}
+
+class room32007 extends room32005 { // same as 32005
+}
+
+class room32011 extends Room {
+  onSpeech( act, msg ) {
+    if ( msg %= "I seek in wyrm" ) {
+      act.sendTo("{rVisions of hellfire cloud your vision...{x");
+      act.transfer(32197);
+    }
+  }
+  onPulseTick() {
+    this.echo("{DThe carving seems to shift ever so slightly...{x");
+  }
+}
+
+class room32022 extends Room {
+  rightRace( act ) {
+    result = 0;
+    if ( act.getAttr("race") == "troll" ) // FIXME: other races ?
+      result = 1;
+  }
+  onEntered( act, from ) {
+    if ( rightRace( act ) ) {
+      act.sendTo("The roasting meat appears oddly appetizing to your bestial side.");
+      force act `lick
+      force act `grin
+    }
+  }
+}
+
+class room32056 extends Room {
+  onPulseTick() {
+    this.echo("{rA gas jet erupts from the wall!{x");
+    var target = any[[ x <- this.people(), !x.isNPC() ]];
+    if ( target != NULL ) {
+      target.actAll("The gas jet touches $n.");
+      target.damage( 50, "poison", "has been killed by a gas jet.");
+    }
+  }
+}
+
+class room32077 extends Room {
+  // FIXME
+//> act_prog p has entered the game.~
+//mea $n _pur A massive purple tentacle yanks you from the room!
+//mptrans $n 32075
+//~
+  onPulseTick() { // DUMMY
+  }
+}
+
+class room32082 extends Room {
+  onEntered( act, from ) {
+    if ( act.getAttr("race") == "troll" )
+      act.sendTo("The stink of dark trolls, your subterranean cousins, is strong.");
+  }
+}
+
+class room32108 extends Room {
+  onEntered( act, from ) {
+    act.sendTo("{MYour mind is filled with visions of ghastly horrors!{x");
+    act.damage( 50, "mental", "has been killed by visions of ghastly horrors!");
+  }
+}
+
+class room32112 extends Room {
+  // FIXME: onUse( act, bash )?
+//> act_prog p bashes against the portal, but it holds strong.~
+//mea $n _red Twin bolts of fire lance from the door, striking you!
+//mer $n _red Twin bolts of fire lance from the door, striking $n!
+//mpdamage $n 400
+//mea $n _red The heat from the door dehydrates and scorches you!
+//mer $n _red The heat from the door dehydrates and scorches $n!
+//mpdamage $n 200
+//mpforce $n moan
+  onPulseTick() { // DUMMY
+  }
+}
+
+class room32116 extends Room {
+  onEntered( act, from ) {
+    if ( chance(25) ) {
+      act.actAll("{yA large piercer drops from the ceiling, impaling $n!{x");
+      force act `scream
+      act.suddenDeath("has been impaled.");
+    }
+    else
+      act.actAll("{yA large piercer drops from the ceiling, barely missing $n!{x");
+  }
+}
+
+class room32140 extends Room {
+  onEnteredLeader( act, from ) {
+    act.sendTo("{yAs you enter you trip an alarm!{x");
+    this.echo("{WA loud clattering noise is heard as dozens of iron balls roll by.{x");
+    this.echo("{bA voice says 'We have guests!'{x");
+  }
+}
+
+class room32197 extends Room {
+  // FIXME
+//> act_prog p has entered the game.~
+//mea $n _red Magical forces hurl you through the portal!
+//mptrans $n 32112
+//~
+  onPulseTick() { // DUMMY
+  }
+}
+
+class room32198 extends Room {
+  // FIXME
+//> act_prog p has entered the game.~
+//mea $n You hurtle downwards into the chasm, plummeting to your death!
+//mpslay $n
+//~
+  onPulseTick() { // DUMMY
+  }
+}

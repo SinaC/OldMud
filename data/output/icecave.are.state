@@ -1,0 +1,365 @@
+AreaState 'Ice Caverns' {
+  Room 16202 {
+    Mobile 16200 {
+      Ptr = 183332272;
+      HMVP = (  ( 13720 ),  ( 621 ),  ( 100 ),  ( 583 ) );
+      Gold = 32;
+      Silver = 1720;
+      Room = 16202;
+      Obj 16200 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+    }
+  }
+  Room 16204 {
+    Mobile 16201 {
+      Ptr = 183331688;
+      HMVP = (  ( 12186 ),  ( 602 ),  ( 100 ),  ( 564 ) );
+      Room = 16204;
+      Obj 16203 {
+      }
+    }
+    Obj 16201 {
+    }
+    Obj 16202 {
+    }
+  }
+  Room 16205 {
+    Mobile 16202 {
+      Ptr = 183331104;
+      HMVP = (  ( 13166 ),  ( 603 ),  ( 100 ),  ( 574 ) );
+      Gold = 18;
+      Silver = 14;
+      Room = 16205;
+      Obj 16205 {
+      }
+      Obj 16206 {
+        WearLoc = 'wielded';
+      }
+      Obj 16207 {
+        WearLoc = 'arms';
+      }
+    }
+  }
+  Room 16206 {
+    Mobile 16203 {
+      Ptr = 183330520;
+      HMVP = (  ( 13208, 13168 ),  ( 594 ),  ( 50, 100 ),  ( 620 ) );
+      Gold = 4;
+      Silver = 539;
+      Room = 16206;
+      Obj 16204 {
+      }
+      Obj 16208 {
+        WearLoc = 'wielded';
+      }
+      Obj 16209 {
+        WearLoc = 'shield';
+      }
+      Obj 16210 {
+        WearLoc = 'legs';
+      }
+    }
+  }
+  Room 16214 {
+    Mobile 16208 {
+      Ptr = 183328768;
+      HMVP = (  ( 16731 ),  ( 706 ),  ( 100 ),  ( 727 ) );
+      Gold = 15;
+      Silver = 678;
+      Room = 16214;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 16217 {
+        WearLoc = 'wielded';
+      }
+      Obj 16220 {
+      }
+    }
+    Mobile 16213 {
+      Ptr = 183329352;
+      HMVP = (  ( 14894 ),  ( 653 ),  ( 100 ),  ( 690 ) );
+      Room = 16214;
+    }
+    Mobile 16213 {
+      Ptr = 183329936;
+      HMVP = (  ( 14869 ),  ( 701 ),  ( 100 ),  ( 656 ) );
+      Room = 16214;
+    }
+    Obj 16218 {
+    }
+    Obj 16219 {
+    }
+  }
+  Room 16216 {
+    Obj 16211 {
+    }
+  }
+  Room 16217 {
+    Mobile 16210 {
+      Ptr = 183335200;
+      HMVP = (  ( 13727, 13687 ),  ( 626 ),  ( 50, 100 ),  ( 641 ) );
+      Gold = 112;
+      Silver = 6951;
+      Room = 16217;
+      Obj 16214 {
+        WearLoc = 'wielded';
+      }
+      Obj 16209 {
+        WearLoc = 'shield';
+      }
+      Obj 16207 {
+        WearLoc = 'arms';
+      }
+      Obj 16210 {
+        WearLoc = 'legs';
+      }
+    }
+    Mobile 16210 {
+      Ptr = 183335784;
+      HMVP = (  ( 13690, 13650 ),  ( 626 ),  ( 50, 100 ),  ( 614 ) );
+      Gold = 154;
+      Silver = 1599;
+      Room = 16217;
+      Obj 16209 {
+        WearLoc = 'shield';
+      }
+      Obj 16207 {
+        WearLoc = 'arms';
+      }
+      Obj 16210 {
+        WearLoc = 'legs';
+      }
+      Obj 16214 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 16211 {
+      Ptr = 183336368;
+      HMVP = (  ( 16751, 16691 ),  ( 714, 724 ),  ( 50, 100 ),  ( 712 ) );
+      Gold = 243;
+      Silver = 15194;
+      Room = 16217;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 16210 {
+        WearLoc = 'legs';
+      }
+      Obj 16207 {
+        WearLoc = 'arms';
+      }
+      Obj 16209 {
+        WearLoc = 'shield';
+      }
+      Obj 16215 {
+        WearLoc = 'floating';
+      }
+      Obj 16213 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 16218 {
+    Mobile 16209 {
+      Ptr = 183334616;
+      HMVP = (  ( 13708, 13688 ),  ( 635 ),  ( 100 ),  ( 676 ) );
+      Room = 16218;
+      Obj 16212 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 16220 {
+    Obj 16216 {
+    }
+  }
+  Room 16222 {
+    Mobile 16212 {
+      Ptr = 183334032;
+      Sex = 'female';
+      HMVP = (  ( 9603 ),  ( 404 ),  ( 100 ),  ( 472 ) );
+      Silver = 141;
+      Room = 16222;
+    }
+  }
+  Room 16224 {
+    Mobile 16212 {
+      Ptr = 183333448;
+      Sex = 'male';
+      HMVP = (  ( 9563 ),  ( 441 ),  ( 100 ),  ( 466 ) );
+      Gold = 1;
+      Silver = 252;
+      Room = 16224;
+    }
+  }
+  Room 16225 {
+    Mobile 16212 {
+      Ptr = 183332864;
+      Sex = 'male';
+      HMVP = (  ( 9540 ),  ( 453 ),  ( 100 ),  ( 480 ) );
+      Silver = 174;
+      Room = 16225;
+    }
+  }
+  Room 16226 {
+    Mobile 16212 {
+      Ptr = 183344560;
+      Sex = 'male';
+      HMVP = (  ( 9569 ),  ( 431 ),  ( 100 ),  ( 454 ) );
+      Silver = 138;
+      Room = 16226;
+    }
+  }
+  Room 16227 {
+    Mobile 16212 {
+      Ptr = 183343976;
+      Sex = 'male';
+      HMVP = (  ( 9576 ),  ( 435 ),  ( 100 ),  ( 429 ) );
+      Gold = 2;
+      Silver = 14;
+      Room = 16227;
+    }
+  }
+  Room 16244 {
+    Mobile 16216 {
+      Ptr = 183343392;
+      HMVP = (  ( 16791, 16731 ),  ( 722, 682 ),  ( 100 ),  ( 720 ) );
+      Gold = 113;
+      Silver = 394;
+      Room = 16244;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 16221 {
+        WearLoc = 'lfinger';
+      }
+    }
+  }
+  Room 16251 {
+    Mobile 16218 {
+      Ptr = 190303664;
+      AfBy = ('sanctuary', 'regeneration');
+      HMVP = (  ( 18908 ),  ( 754 ),  ( 100 ),  ( 731 ) );
+      Gold = 141;
+      Silver = 5480;
+      Room = 16251;
+      Affect = ( 'protection good', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 16226 {
+        WearLoc = 'floating';
+      }
+      Obj 16225 {
+        WearLoc = 'neck1';
+      }
+    }
+    Mobile 16217 {
+      Ptr = 183342224;
+      AfBy = ('sanctuary', 'regeneration');
+      HMVP = (  ( 17544 ),  ( 721 ),  ( 100 ),  ( 746 ) );
+      Gold = 102;
+      Silver = 140;
+      Room = 16251;
+      Affect = ( 'haste', -1, 102, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 102, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 16222 {
+        WearLoc = 'wielded';
+      }
+      Obj 16223 {
+        WearLoc = 'wield2';
+      }
+      Obj 16224 {
+        WearLoc = 'body';
+      }
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 16226 {
+      WearFlags = ('none');
+    }
+    Obj 10 {
+      ShD = 'the corpse of {BC{br{Bu{bi{Bs{bc{Bi{bu{Bs {Dthe D{We{Dm{Wo{Dn L{Wo{Dr{Wd {Dof {CF{cr{Co{cs{Ct{x';
+      Desc = 'The corpse of {BC{br{Bu{bi{Bs{bc{Bi{bu{Bs {Dthe D{We{Dm{Wo{Dn L{Wo{Dr{Wd {Dof {CF{cr{Co{cs{Ct{x is lying here.';
+      Level = 105;
+      Values = ( 16218, 2101377, 133119, 1, 0 );
+      Timer = 5;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '3749 silver coins and 130 gold coins';
+        Weight = 106;
+        Cost = 16749;
+        Values = ( 3749, 130, 0, 0, 0 );
+      }
+      Obj 16225 {
+      }
+    }
+  }
+  Room 16252 {
+    Obj 16227 {
+    }
+    Obj 16228 {
+    }
+  }
+  Room 16253 {
+    Obj 16230 {
+    }
+  }
+  Room 16254 {
+    Obj 16229 {
+    }
+  }
+}

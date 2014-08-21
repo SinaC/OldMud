@@ -1,0 +1,237 @@
+//Hermit
+//------
+//onGreet
+// if evil
+//   `say Bah! more followers for Cruiscius
+// if good
+//   `say Greetings, My Child
+// if neutral
+//   `say Greeting
+//
+//onTick
+//`say Cruiscius is marshalling a horde of Elementals, those virtuous of heart might find an ally in Sir Michael
+//75% `mutter
+//`say the Beasties in this Frigid place use cold as a weapon, one would be advised to ward themselves from such.
+//`say I would hold in my hand any keys I find, it would be helpful...
+//`emotechuckle
+//`say If you ask me for this book I might give it to you.
+//`say Cruiscius is marshalling a horde of Elementals, those virtuous of heart might find an ally in Sir Michael
+//`says 'Aristobulus is a fiendish foe indeed, if only he could be seperated from his invisible allies.. Hrrrrmmm?'
+//
+//
+//onSpeech
+// if msg = please give book
+//   A Hermit says 'Let me check and see if I have an extra copy'
+//   The Hermit is surrounded by a Light and disappears
+//   There is a blinding flash of Light and the hermit returns
+//   A Hermit drops Tome of El'Khabar the Mad.
+//   A Hermit says 'Wonder of wonders I had a spare copy, don't sit there looking funny, take it'
+class mob16200 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.alignment() <= -350 ) // evil
+      `say Bah! more followers for Cruiscius
+    else if ( act.alignment() >= 350 ) // good
+      `say Greetings, My child
+    else // neutral
+      `say Greeting
+  }
+
+  onPulseTick() {
+    if ( this.fighting() == NULL ) {
+      `say Cruiscius is marshalling a horde of Elementals, those virtuous of heart might find an ally in Sir Michael
+      if ( chance(75) )
+        `mutter
+      `say the Beasties in this Frigid place use cold as a weapon, one would be advised to ward themselves from such.
+      `say I would hold in my hand any keys I find, it would be helpful...
+      `chuckle
+      `say If you ask me for this book I might give it to you.
+      `say Cruiscius is marshalling a horde of Elementals, those virtuous of heart might find an ally in Sir Michael
+      `say 'Aristobulus is a fiendish foe indeed, if only he could be seperated from his invisible allies.. Hrrrrmmm?'
+    }
+  }
+  
+  onSpeech( act, msg ) {
+    if ( msg.words().includes([["please","give","book"]]) ) {
+      `say Let me check and see if I have an extra copy
+      this.echo("{WThe Hermit is surrounded by a Light and disappears{x");
+      var book = this.oLoad( 16200 );
+      this.echo("{YThere is a blinding flash of Light and the hermit returns{x");
+      `drop `book`
+      `say Wonder of wonders I had a spare copy, don't sit there looking funny, take it
+    }
+  }
+}
+   
+//Frost-giant guard  le premier
+//-----------------
+//onGreet
+// `emote clutches his axe and backs up against the north wall
+// `says 'Your not gettin' through here'
+// 
+class mob16202 extends Mob {
+  onGreetLeader( act, from ) {
+    `emote clutches his axe and backs up against the north wall
+    `says Your not gettin' through here
+  }
+}
+
+//Frost-giant guard  le deuxieme
+//-----------------
+//onGreet
+// `emote gasps in shock, a confused look spreads like wildfire
+// `say 'How did you guys get in here?'
+class mob16203 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( from == "s" ) {
+      `emote gasps in shock, a confused look spreads like wildfire
+      `say 'How did you guys get in here?'
+    }
+  }
+}
+ 
+//King
+//----
+// onGreet
+//  `smirk
+//  `say 'Welcome to my Hall, Mercenaries report to cookie'
+class mob16211 extends Mob {
+  onGreetLeader( act, from ) {
+    `smirk
+    `say Welcome to my Hall, Mercenaries report to cookie
+  }
+}
+
+//Aristobulus
+//-----------
+// onGreet
+//   `growl
+//   `say 'You are not the sacrifice, leave now you are interupting an important ritual'     
+// 
+// onPulseMobile
+//   parfois aggro qqun ds la room
+// 
+class mob16208 extends Mob {
+  onGreetLeader( act, from ) {
+    `growl
+    `say You are not the sacrifice, leave now you are interrupting an important ritual
+  }
+
+  onPulseMobile() {
+    if ( this.isAwake() && this.fighting() == NULL ) {
+      //var roomates = this.room().people();
+      //var victim = NULL;
+      //var i = 0;
+      //while ( i < roomates.size() && victim == NULL ) {
+      //  var vict = roomates[i];
+      //  if ( !vict.isNPC()
+      //       && this.canSee(vict)
+      //       && chance(25) )
+      //    victim = vict;
+      //  i=i+1;
+      //}
+      //if ( victim != NULL ) {
+      //  `murder `victim`
+      //}
+
+      var victim = any[[ x <- this.room().people(), !x.isNPC() && this.canSee(x) && chance(25) ]];
+      if ( victim != NULL )
+        `murder `victim`
+    }
+  }
+}
+
+//Shimmering Orb
+//--------------
+//  supprimer les flags take et wearfloat
+//
+class obj16226 extends Obj {
+  onDropped( act ) {
+    this.setWearFlags( "none" );
+  }
+}
+
+//Canteen
+//-------
+// onGot
+//   act.sendTo("The Canteen {CFreezes{x you");
+// 
+class obj16216 extends Obj {
+  onGot( act ) {
+    this.echo("The Canteen {CFreezes{x you.");
+  }
+}
+
+//Axe Frostbite
+//-------------
+//  onWear  ou   onWorn 
+//    act.sendTo("{RKill! Kill! Kill! for me, and power shall be yours{x");
+class obj16213 extends Obj {
+  onWorn( act ) {
+    this.echo("{RKill! Kill! Kill! for me, and power shall be yours.{x");
+  }
+}
+
+//FangThane
+//---------
+//   onWear
+//     act.sendTo("{RYou are mine{x");
+//   
+class obj16217 extends Obj {
+  onWorn( act ) {
+    this.echo("{RYou are mine.{x");
+  }
+}
+
+//Longsword of justice
+//--------------------
+//  onWear
+//   act.sendTo("{YWield me with mercy in your heart.{x");
+//
+class obj16222 extends Obj {
+  onWorn( act ) {
+    this.echo("{YWield me with mercy in your heart.{x");
+  }
+}
+
+//Souldrinker
+//-----------
+//  onWear
+//    act.sendTo("{ROnly death shall release you now... your death shall feed me{x");
+//
+class obj16230 extends Obj {
+  onWorn( act ) {
+    this.echo("{ROnly death shall release you now... your death shall feed me.{x");
+  }
+}
+
+//Retribution
+//-----------
+// onWear
+//   act.sendTo("{GWield me with Justice, and Vanquish the evildoer{x");
+//
+class obj16223 extends Obj {
+  onWorn( act ) {
+    this.echo("{GWield me with Justice, and Vanquish the evildoer.{x");
+  }
+}
+
+//Obsidian amulet
+//---------------
+// onWear
+//   act.sendTo("{GYour skin tingles as the magic flows through you{x");
+//
+class obj16225 extends Obj {
+  onWorn( act ) {
+    this.echo("{GYour skin tingles as the magic flows through you.{x");
+  }
+}
+
+//soulblade
+//---------
+// onWear
+//  act.sendTo("{YUse this blade only with Honour, Mercy, and a Pure Heart{x");
+class obj16229 extends Obj {
+  onWorn( act ) {
+    this.echo("{YUse this blade only with Honour, Mercy, and a Pure Heart.{x");
+  }
+}

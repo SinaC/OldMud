@@ -1,0 +1,2345 @@
+#Style Circle
+#AREADATA
+Name McGintey Bay~
+Builders Kaan~
+VNUMs 32200 32299
+Credits {{None}  CAW    McGintey Bay~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#32200
+worker dock strong~
+a strong dock worker~
+A strong dock worker loads and unloads heavy crates.
+~
+   He bulges from the tight short sleeves of his shirt, a tattoo peeking out
+from beneath.    
+~
+dgl 0 300 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#32201
+hauler cargo man~
+a cargo hauler~
+A man who's sole job it is to lug crates lugs a crate past you.
+~
+   The crate does appear to be at all light in weight, however this guy carries
+it along with both arms as if it were nothing more than a trifle.    
+~
+dgl 0 100 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#32202
+representative travel woman~
+the travel representative~
+A woman in a tight fitting body suit helps passengers on board their boats.
+~
+   She gives you a quick look and decides that you are not one of her clients.
+She sniffs quietly and turns away.    
+~
+dgh 0 200 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#32203
+sailor~
+a sailor~
+A sailor pushes past you, intent on finding the nearest brothel.
+~
+   The man still walks with that rolling gait that most sailors affect.  He
+will probably continue to do so, unless he finds another profession,.    
+~
+dgl 0 0 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#32204
+boatman man~
+a boatman~
+A boatman tips his hat to you as he passes.
+~
+   He appears to be a resident of these docks, as he is intent on making sure
+that his ship in good condition.    
+~
+dg 0 800 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+#32205
+passenger~
+a passenger~
+A passenger waits to board their ship.
+~
+   They tap their feet impatiently, frequently glancing at the sky.    
+~
+dg 0 300 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#32206
+fisherman man~
+a fisherman~
+A fisherman floats lazily in a small boat, trying to catch some dinner.
+~
+   He stares glazy-eyed at the water, as if it has transfixed him.  He raises
+up his pole, bringing the line and casting out again without blinking or
+looking up.  In the same motion, he raises a bottle of whiskey to his lips with
+his free hand.  The whiskey is also swagged without blinking.    
+~
+bdg 0 100 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 1
+E
+#32207
+dolphin~
+a dolphin~
+A dolphin playfully splashes you with its tail.
+~
+   It makes little squeak noises, twisting its body back and forth in its
+excitement in seeing you.    
+~
+dgnq 0 900 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 0
+BareHandAttack: 10
+E
+#32208
+seagull gull~
+a seagull~
+A seagull squawks past overhead, searching the water for dinner.
+~
+   Best to watch above from now on, you never know when one of those pests
+might have to let a load go.    
+~
+dgqr 0 100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 0
+E
+#32209
+ship owner wealthy~
+a wealthy ship owner~
+A wealthy ship owner walks past, regarding you with disdain.
+~
+   He must realize that you are not a part of the elite crowd that owns the
+vessels which dock here.    
+~
+cdg 0 100 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#32210
+service representative customer~
+a customer service representative~
+A customer service representative stands ready to attend to any passenger's needs.
+~
+   He opens his mouth as if to say 'Can I help you?  ' and sees that you have
+no ticket or luggage.  Assuming you are yet another vagrant from the dock area,
+he turns away in disgust.    
+~
+dgh 0 100 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#32200
+crate~
+a crate~
+A wooden crate has been dropped here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32201
+rope thick~
+a length of thick rope~
+A length of thick rope hangs down from the docks.~
+~
+12 0 ao 0
+0 0 0 0
+9 10 0 0
+#32202
+hawser~
+a hawser~
+A long hawser keeps a boat tied here securely.~
+~
+12 0 ao 0
+0 0 0 0
+9 10 0 0
+#32203
+suit body tight~
+a tight fitting body suit~
+Someone left a suit of clothing here.~
+~
+9 0 ad 0
+5 0 0 0
+6 10 0 1
+#32204
+suitcase case~
+a large suitcase~
+A large suitcase has been left here.~
+~
+15 0 a 0
+250 1 -1 0
+4 10 0 1
+#32205
+ring thumb opal~
+a bright opal thumb ring~
+Someone dropped some jewelry here.~
+~
+11 0 ab 0
+0 0 0 0
+4 100 0 15
+#32206
+crate~
+a large wooden crate~
+A large wooden crate lies on the dock, waiting to be loaded.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32207
+sea algae~
+a clump of sea algae~
+A formless clump of sea algae floats on the water's surface.~
+~
+19 0 ao 0
+2 0 0 0
+3 1 0 0
+#32208
+buoy~
+a bouy~
+A red and white bouy floats here, anchored to the bottom by a chain.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32209
+boat fishing~
+a small fishing boat~
+A small fishing boat has been left here.~
+~
+22 0 ao 0
+0 0 0 0
+22 500 0 1
+#32210
+flotsam~
+a lump of flotsam~
+A lump of flotsam bobs on the surface of the water.~
+~
+12 0 ao 0
+0 0 0 0
+7 1 0 1
+#32211
+jetsam~
+a floating clump of jetsam~
+A clump of formless jetsam floats by.~
+~
+12 0 ao 0
+0 0 0 0
+8 1 0 1
+#32212
+pole fishing~
+a fishing pole~
+A fishing pole has been carelessly left here.~
+~
+12 0 ao 0
+0 0 0 0
+6 10 0 1
+#32213
+tattoo~
+a tough-looking tattoo~
+There is a tough-looking tattoo is lying on the ground here.~
+~
+11 0 acfi 0
+0 0 0 0
+1 100 0 20
+A
+1 2
+A
+19 2
+#32214
+hat wide straw~
+a wide straw hat~
+A wide straw hat has been left here.~
+~
+9 0 ae 0
+6 0 0 0
+4 10 0 1
+#32215
+boots thick sailor~
+a pair of thick sailor's boots~
+A pair of thick sailor's boots lie in a grungy heap.~
+~
+9 0 ae 0
+6 0 0 0
+8 10 0 1
+#32216
+shirt tight sleeveless~
+a tight, sleeveless workman's shirt~
+A small black shirt without sleeves has been left here.~
+~
+9 0 ad 0
+4 0 0 0
+3 10 0 1
+#32217
+shirt blue~
+a blue shirt~
+A blue shirt has been left here.~
+~
+9 0 ad 0
+4 0 0 0
+3 10 0 1
+#32218
+slacks pair white~
+a pair of white slacks~
+A pair of white slacks have been left here.~
+Nothing.
+~
+9 0 af 0
+4 0 0 0
+5 10 0 1
+#32219
+undergarments garments~
+a pair of clean undergarments~
+A pair of clean undergarments have been left here.~
+~
+9 0 afo 0
+2 0 0 0
+2 10 0 1
+#32220
+socks pair~
+a pair of green socks~
+A pair of cool green socks have been left here.~
+~
+9 0 ag 0
+2 0 0 0
+1 10 0 1
+#32221
+whisky whiskey pint whisky~
+a pint of whiskey~
+A pint of whiskey has been left here.~
+~
+17 0 a 0
+6 6 5 0
+11 10 0 1
+#32222
+rigging~
+a rigging line~
+A rigging line hangs down from the docks into the water.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#0
+
+#ROOMS
+
+#32200
+Breakwaters of McGintey Bay~
+   The water of the bay and the water from the Yllythad meet each other in
+protesting currents, making the water here a constant roil of unpredictable
+motion.  Sailors that move past this area do so in a hurried manner, making sure
+that their ships are not dashed against the cliff face the encloses the bay.  
+~
+322 0 0
+D0
+~
+~
+0 0 32207
+D1
+~
+~
+0 0 32201
+D2
+~
+~
+0 0 31903
+E
+credits info~
+Kaan
+Zone 322 is linked to the following zones:
+319 Yllythad Sea                   at 32200 (south) ---> 31903
+319 Yllythad Sea                   at 32201 (south) ---> 31904
+319 Yllythad Sea                   at 32202 (south) ---> 31905
+319 Yllythad Sea                   at 32203 (south) ---> 31926
+319 Yllythad Sea                   at 32204 (south) ---> 31931
+318 Dock Area                      at 32265 (north) ---> 31849
+318 Dock Area                      at 32267 (north) ---> 31848
+318 Dock Area                      at 32269 (north) ---> 31847
+
+318 Dock Area                      at 32271 (north) ---> 31846
+318 Dock Area                      at 32273 (north) ---> 31842
+318 Dock Area                      at 32275 (north) ---> 31843
+318 Dock Area                      at 32277 (north) ---> 31844
+~
+S
+#32201
+Breakwaters of McGintey Bay~
+   The water of the bay and the water from the Yllythad meet each other in
+protesting currents, making the water here a constant roil of unpredictable
+motion.  Sailors that move past this area do so in a hurried manner, making sure
+that their ships are not dashed against the cliff face the encloses the bay.  
+~
+322 0 0
+D0
+~
+~
+0 0 32208
+D1
+~
+~
+0 0 32202
+D2
+~
+~
+0 0 31904
+D3
+~
+~
+0 0 32200
+S
+#32202
+Breakwaters of McGintey Bay~
+   The water of the bay and the water from the Yllythad meet each other in
+protesting currents, making the water here a constant roil of unpredictable
+motion.  Sailors that move past this area do so in a hurried manner, making sure
+that their ships are not dashed against the cliff face the encloses the bay.  
+~
+322 0 0
+D0
+~
+~
+0 0 32209
+D1
+~
+~
+0 0 32203
+D2
+~
+~
+0 0 31905
+D3
+~
+~
+0 0 32201
+S
+#32203
+Breakwaters of McGintey Bay~
+   The water of the bay and the water from the Yllythad meet each other in
+protesting currents, making the water here a constant roil of unpredictable
+motion.  Sailors that move past this area do so in a hurried manner, making sure
+that their ships are not dashed against the cliff face the encloses the bay.  
+~
+322 0 0
+D0
+~
+~
+0 0 32210
+D1
+~
+~
+0 0 32204
+D2
+~
+~
+0 0 31926
+D3
+~
+~
+0 0 32202
+S
+#32204
+Breakwaters of McGintey Bay~
+   The water of the bay and the water from the Yllythad meet each other in
+protesting currents, making the water here a constant roil of unpredictable
+motion.  Sailors that move past this area do so in a hurried manner, making sure
+that their ships are not dashed against the cliff face the encloses the bay.  
+~
+322 0 0
+D0
+~
+~
+0 0 32211
+D2
+~
+~
+0 0 31931
+D3
+~
+~
+0 0 32203
+S
+#32205
+Near the Breakwaters~
+   The cove walls come to a last curve before opening up into the waters of the
+Yllythad.  McGintey Cove lies to the north, its walls high above the sea on
+McGintey Rock, the dock area at sea level, allowing sailors to load and unload
+their cargo.  
+~
+322 0 0
+D0
+~
+~
+0 0 32217
+D1
+~
+~
+0 0 32206
+S
+#32206
+Near the Breakwaters~
+   The southern border of McGintey lies just south from here, the waters roiling
+and churning as they meet the strong current of the ocean.  The seaport city of
+McGintey Cove lies just to the north, its immense size encompassing the entire
+field of vision in that direction.  
+~
+322 0 0
+D0
+~
+~
+0 0 32218
+D1
+~
+~
+0 0 32207
+D3
+~
+~
+0 0 32205
+S
+#32207
+Near the Breakwaters~
+   The southern border of McGintey lies just south from here, the waters roiling
+and churning as they meet the strong current of the ocean.  The seaport city of
+McGintey Cove lies just to the north, its immense size encompassing the entire
+field of vision in that direction.  
+~
+322 0 0
+D0
+~
+~
+0 0 32219
+D1
+~
+~
+0 0 32208
+D2
+~
+~
+0 0 32200
+D3
+~
+~
+0 0 32206
+S
+#32208
+Near the Breakwaters~
+   The southern border of McGintey lies just south from here, the waters roiling
+and churning as they meet the strong current of the ocean.  The seaport city of
+McGintey Cove lies just to the north, its immense size encompassing the entire
+field of vision in that direction.  
+~
+322 0 0
+D0
+~
+~
+0 0 32220
+D1
+~
+~
+0 0 32209
+D2
+~
+~
+0 0 32201
+D3
+~
+~
+0 0 32207
+S
+#32209
+Near the Breakwaters~
+   The southern border of McGintey lies just south from here, the waters roiling
+and churning as they meet the strong current of the ocean.  The seaport city of
+McGintey Cove lies just to the north, its immense size encompassing the entire
+field of vision in that direction.  
+~
+322 0 0
+D0
+~
+~
+0 0 32221
+D1
+~
+~
+0 0 32210
+D2
+~
+~
+0 0 32202
+D3
+~
+~
+0 0 32208
+S
+#32210
+Near the Breakwaters~
+   The southern border of McGintey lies just south from here, the waters roiling
+and churning as they meet the strong current of the ocean.  The seaport city of
+McGintey Cove lies just to the north, its immense size encompassing the entire
+field of vision in that direction.  
+~
+322 0 0
+D0
+~
+~
+0 0 32222
+D1
+~
+~
+0 0 32211
+D2
+~
+~
+0 0 32203
+D3
+~
+~
+0 0 32209
+S
+#32211
+Near the Breakwaters~
+   The southern border of McGintey lies just south from here, the waters roiling
+and churning as they meet the strong current of the ocean.  The seaport city of
+McGintey Cove lies just to the north, its immense size encompassing the entire
+field of vision in that direction.  
+~
+322 0 0
+D0
+~
+~
+0 0 32223
+D1
+~
+~
+0 0 32212
+D2
+~
+~
+0 0 32204
+D3
+~
+~
+0 0 32210
+S
+#32212
+Near the Breakwaters~
+   The walls of the cliff face which encloses the Bay makes one final curve
+before allowing access out into the Yllythad.  McGintey Cove lies to the north,
+proudly seated upon McGintey Rock.  
+~
+322 0 0
+D0
+~
+~
+0 0 32224
+D1
+~
+~
+0 0 32213
+D3
+~
+~
+0 0 32211
+S
+#32213
+Near the Breakwaters~
+   The walls of the cliff face which encloses the Bay makes one final curve
+before allowing access out into the Yllythad.  McGintey Cove lies to the north,
+proudly seated upon McGintey Rock.  
+~
+322 0 0
+D0
+~
+~
+0 0 32225
+D3
+~
+~
+0 0 32212
+S
+#32214
+McGintey Bay~
+   The open waters of the bay roll steadily along, carrying with them the scent
+of the open sea and adventures untold.  To the north is the great seaport city
+of McGintey Cove, raised high above the sea on its huge stone pedestal, McGintey
+Rock.  
+~
+322 0 0
+D0
+~
+~
+0 0 32231
+D1
+~
+~
+0 0 32215
+S
+#32215
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32232
+D1
+~
+~
+0 0 32216
+D3
+~
+~
+0 0 32214
+S
+#32216
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32233
+D1
+~
+~
+0 0 32217
+D3
+~
+~
+0 0 32215
+S
+#32217
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32234
+D1
+~
+~
+0 0 32218
+D2
+~
+~
+0 0 32205
+D3
+~
+~
+0 0 32216
+S
+#32218
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32235
+D1
+~
+~
+0 0 32219
+D2
+~
+~
+0 0 32206
+D3
+~
+~
+0 0 32217
+S
+#32219
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32236
+D1
+~
+~
+0 0 32220
+D2
+~
+~
+0 0 32207
+D3
+~
+~
+0 0 32218
+S
+#32220
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32237
+D1
+~
+~
+0 0 32221
+D2
+~
+~
+0 0 32208
+D3
+~
+~
+0 0 32219
+S
+#32221
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32238
+D1
+~
+~
+0 0 32222
+D2
+~
+~
+0 0 32209
+D3
+~
+~
+0 0 32220
+S
+#32222
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32239
+D1
+~
+~
+0 0 32223
+D2
+~
+~
+0 0 32210
+D3
+~
+~
+0 0 32221
+S
+#32223
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32240
+D1
+~
+~
+0 0 32224
+D2
+~
+~
+0 0 32211
+D3
+~
+~
+0 0 32222
+S
+#32224
+McGintey Bay~
+   The beautiful waters of the Bay surround on all sides, the water moving along
+with the current that the Sea gives it.  McGintey Cove's dock area is due north,
+the Yllythad Sea to the south.  
+~
+322 0 0
+D0
+~
+~
+0 0 32241
+D1
+~
+~
+0 0 32225
+D2
+~
+~
+0 0 32212
+D3
+~
+~
+0 0 32223
+S
+#32225
+McGintey Bay~
+   The scenic beauty of McGintey's majestic size and majesty dominates the
+northern view as it looms ever closer.  Perched high upon the rock which it is
+named for, the city boasts what is most probably the most impressive look for a
+city in Dibrova.  
+~
+322 0 0
+D0
+~
+~
+0 0 32242
+D1
+~
+~
+0 0 32226
+D2
+~
+~
+0 0 32213
+D3
+~
+~
+0 0 32224
+S
+#32226
+McGintey Bay~
+   The scenic beauty of McGintey's majestic size and majesty dominates the
+northern view as it looms ever closer.  Perched high upon the rock which it is
+named for, the city boasts what is most probably the most impressive look for a
+city in Dibrova.  
+~
+322 0 0
+D0
+~
+~
+0 0 32243
+D1
+~
+~
+0 0 32227
+D3
+~
+~
+0 0 32225
+S
+#32227
+McGintey Bay~
+   The waters of the bay move along at a steady pace, carrying the sea traffic
+to and from the city in a fast paced flow.  The city itself lies just north from
+here, perched upon the great rock that gives the city its name.  
+~
+322 0 0
+D0
+~
+~
+0 0 32244
+D1
+~
+~
+0 0 32228
+D3
+~
+~
+0 0 32226
+S
+#32228
+McGintey Bay~
+   The waters of the bay move along at a steady pace, carrying the sea traffic
+to and from the city in a fast paced flow.  The city itself lies just north from
+here, perched upon the great rock that gives the city its name.  
+~
+322 0 0
+D0
+~
+~
+0 0 32245
+D1
+~
+~
+0 0 32229
+D3
+~
+~
+0 0 32227
+S
+#32229
+McGintey Bay~
+   The Bay follows along the curve of the rocky face of the cliff that forms the
+bay's shape, curving out into the sea.  To the north lies the dock area for
+McGintey Cove, large and extremely busy.  
+~
+322 0 0
+D0
+~
+~
+0 0 32246
+D3
+~
+~
+0 0 32228
+S
+#32230
+Nearing the Docks of McGintey~
+   The dock area lies to the north, ships moving in and out constantly.  The sea
+has lost its influence over the waters here, the only waves from that of passing
+ships.  The rocky face of McGintey hems in on the west and south sides, forming
+the natural walls of the bay.  
+~
+322 0 0
+D0
+~
+~
+0 0 32247
+D1
+~
+~
+0 0 32231
+S
+#32231
+Nearing the Docks of McGintey~
+   The dock area lies to the north, ships moving in and out constantly.  The sea
+has lost its influence over the waters here, the only waves from that of passing
+ships.  
+~
+322 0 0
+D0
+~
+~
+0 0 32248
+D1
+~
+~
+0 0 32232
+D2
+~
+~
+0 0 32214
+D3
+~
+~
+0 0 32230
+S
+#32232
+Nearing the Docks of McGintey~
+   The western end of McGintey's docks lie just north from here, a great
+commotion of movement visible upon the docks as workers haul and grunt the loads
+off of the ships carrying it into port.  The wide open expanse of McGintey Bay
+lies to the north, opening up into the immense Yllythad Sea and beyond.  
+~
+322 c 0
+D0
+~
+~
+0 0 32249
+D1
+~
+~
+0 0 32233
+D2
+~
+~
+0 0 32215
+D3
+~
+~
+0 0 32231
+S
+#32233
+Nearing the Docks of McGintey~
+   The docking area lies just north from here, constant motion and tumult in the
+sea as ships push their way past each other in attempts to unload passenger or
+cargo first.  The water only swells now from passing ships, the roll of the high
+waves almost completely gone so close to shore.  
+~
+322 0 0
+D0
+~
+~
+0 0 32250
+D1
+~
+~
+0 0 32234
+D2
+~
+~
+0 0 32216
+D3
+~
+~
+0 0 32232
+S
+#32234
+Nearing the Docks of McGintey~
+   The dock area of McGintey lies just north of here, ships running in and out
+of docking in constant motion.  The immensity of the docking area alone is
+enough to stagger any sailor, besides the fact that it represents only a tiny
+fraction of the size of McGintey Cove.  
+~
+322 c 0
+D0
+~
+~
+0 0 32251
+D1
+~
+~
+0 0 32235
+D2
+~
+~
+0 0 32217
+D3
+~
+~
+0 0 32233
+S
+#32235
+Nearing the Docks of McGintey~
+   The docking area lies just north from here, constant motion and tumult in the
+sea as ships push their way past each other in attempts to unload passenger or
+cargo first.  The occassional ship that passes by hosts a deck of cheering
+sailors as they end what is assumed to be a long journey over the seas to a
+place where they might rest their sea legs for a day or two before once again
+heading out toward a foreign port.  
+~
+322 0 0
+D0
+~
+~
+0 0 32252
+D1
+~
+~
+0 0 32236
+D2
+~
+~
+0 0 32218
+D3
+~
+~
+0 0 32234
+S
+#32236
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The docks lie just north of here, the waves gently lapping against their
+wood planking.  
+~
+322 c 0
+D0
+~
+~
+0 0 32253
+D1
+~
+~
+0 0 32237
+D2
+~
+~
+0 0 32219
+D3
+~
+~
+0 0 32235
+S
+#32237
+Nearing the Docks of McGintey~
+   The water here is much more calm, the current finally giving in the curve of
+the land beneath and rolling away to the south.  Only the occassional swell from
+a passing ship disrupts the calm smooth of the water's surface.  
+~
+322 0 0
+D0
+~
+~
+0 0 32254
+D1
+~
+~
+0 0 32238
+D2
+~
+~
+0 0 32220
+D3
+~
+~
+0 0 32236
+S
+#32238
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The docks lie just north of here, the waves gently lapping against their
+wood planking.  
+~
+322 c 0
+D0
+~
+~
+0 0 32255
+D1
+~
+~
+0 0 32239
+D2
+~
+~
+0 0 32221
+D3
+~
+~
+0 0 32237
+S
+#32239
+Nearing the Docks of McGintey~
+   The water here is much more calm, the current finally giving in the curve of
+the land beneath and rolling away to the south.  Only the occassional swell from
+a passing ship disrupts the calm smooth of the water's surface.  
+~
+322 0 0
+D0
+~
+~
+0 0 32256
+D1
+~
+~
+0 0 32240
+D2
+~
+~
+0 0 32222
+D3
+~
+~
+0 0 32238
+S
+#32240
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The docks lie just north of here, the waves gently lapping against their
+wood planking.  
+~
+322 c 0
+D0
+~
+~
+0 0 32257
+D1
+~
+~
+0 0 32241
+D2
+~
+~
+0 0 32223
+D3
+~
+~
+0 0 32239
+S
+#32241
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The waters are much less in the grip of the sea's current here, no pull
+or tug can be felt from the waters.  Only the occassional swell from a passing
+ship.  
+~
+322 0 0
+D0
+~
+~
+0 0 32258
+D1
+~
+~
+0 0 32242
+D2
+~
+~
+0 0 32224
+D3
+~
+~
+0 0 32240
+S
+#32242
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The waters are much less in the grip of the sea's current here, no pull
+or tug can be felt from the waters.  Only the occassional swell from a passing
+ship.  
+~
+322 c 0
+D0
+~
+~
+0 0 32259
+D1
+~
+~
+0 0 32243
+D2
+~
+~
+0 0 32225
+D3
+~
+~
+0 0 32241
+S
+#32243
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The waters are much less in the grip of the sea's current here, no pull
+or tug can be felt from the waters.  Only the occassional swell from a passing
+ship.  
+~
+322 0 0
+D0
+~
+~
+0 0 32260
+D1
+~
+~
+0 0 32244
+D2
+~
+~
+0 0 32226
+D3
+~
+~
+0 0 32242
+S
+#32244
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The water here is much more calm than that to the south which is closer
+to the open sea.  The current here does not pull and tug quite so much.  
+~
+322 c 0
+D0
+~
+~
+0 0 32261
+D1
+~
+~
+0 0 32245
+D2
+~
+~
+0 0 32227
+D3
+~
+~
+0 0 32243
+S
+#32245
+Nearing the Docks of McGintey~
+   The docks of McGintey lie just north of here, a bustle of sea travel all
+around as ships nudge their way in past each other in an attempt to get to dock
+first.  The water here is much more calm than that to the south which is closer
+to the open sea.  The current here does not pull and tug quite so much.  
+~
+322 0 0
+D0
+~
+~
+0 0 32262
+D1
+~
+~
+0 0 32246
+D2
+~
+~
+0 0 32228
+D3
+~
+~
+0 0 32244
+S
+#32246
+Nearing the Docks of McGintey~
+   The water here is still deep, but much more calm as it reaches closer to the
+docks of the city.  The steep rock walls of McGintey Rock rises on the east
+side, the Rock being the foundation which McGintey Cove rests upon.  
+~
+322 0 0
+D0
+~
+~
+0 0 32263
+D2
+~
+~
+0 0 32229
+D3
+~
+~
+0 0 32245
+S
+#32247
+Dock Area~
+   The water is quite calm here, as it laps gently against the rock face of
+McGintey Rock, the rock which the seaport city of McGintey rests upon.  The
+docks of the city lie to the east, full of ships and people.  
+~
+322 0 0
+D1
+~
+~
+0 0 32248
+D2
+~
+~
+0 0 32230
+S
+#32248
+Dock Area~
+   The calm, still waters of the Bay are only broken when a ship comes or goes
+from the docks to the east.  Most of the ships docked along this area appear to
+be cargo haulers, the type to carry large amounts of goods over long distances.
+
+~
+322 c 0
+D0
+~
+~
+0 0 32264
+D1
+~
+~
+0 0 32249
+D2
+~
+~
+0 0 32231
+D3
+~
+~
+0 0 32247
+S
+#32249
+The End of Dock 1~
+   If it is possible, the hustle and bustle of this dock seems even more
+pronounced here at the end.  The workers seem almost frantic to unload the ships
+which seem to come and go in nonstop motion from the Bay.  
+~
+322 0 0
+D0
+~
+~
+0 0 32265
+D1
+~
+~
+0 0 32250
+D2
+~
+~
+0 0 32232
+D3
+~
+~
+0 0 32248
+S
+#32250
+Dock Area~
+   The water is constantly being churned about by rowers and ships' rudders as
+they negotiate their way into the docks on either side.  Off to the south,
+beyond the dock area is the Bay and beyond that the huge expanse of the Yllythad
+Sea, its broad borders some say might never be charted by man.  
+~
+322 c 0
+D0
+~
+~
+0 0 32266
+D1
+~
+~
+0 0 32251
+D2
+~
+~
+0 0 32233
+D3
+~
+~
+0 0 32249
+S
+#32251
+The End of Dock 2~
+   Ships move their way in and out of docking unceasingly, shipping passengers
+and cargo alike on and off their decks.  Crewmembers of ships shout out orders,
+captains curse and dockmen grunt and sweat their way through just another day on
+the docks.  
+~
+322 0 0
+D0
+~
+~
+0 0 32267
+D1
+~
+~
+0 0 32252
+D2
+~
+~
+0 0 32234
+D3
+~
+~
+0 0 32250
+S
+#32252
+Dock Area~
+   The water is constantly being churned about by rowers and ships' rudders as
+they negotiate their way into the docks on either side.  Off to the south,
+beyond the dock area is the Bay and beyond that the huge expanse of the Yllythad
+Sea, its broad borders some say might never be charted by man.  
+~
+322 c 0
+D0
+~
+~
+0 0 32268
+D1
+~
+~
+0 0 32253
+D2
+~
+~
+0 0 32235
+D3
+~
+~
+0 0 32251
+S
+#32253
+The End of Dock 3~
+   The folk at the end of the dock who are not workers for one of the many
+travel agencies recline lazily in brightly painted benches or tap their feet
+impatiently while waiting for their ship to arrive.  It seems the travel
+industry booms mightily in McGintey!  
+~
+322 0 0
+D0
+~
+~
+0 0 32269
+D1
+~
+~
+0 0 32254
+D2
+~
+~
+0 0 32236
+D3
+~
+~
+0 0 32252
+S
+#32254
+Dock Area~
+   The water splashes against the wood slats of the docks, muffled by the
+enclosure of the docks themselves and the shops which are parked here.  
+Seagulls swoop and dive at the dead fish that might have been caught on a ship's
+rudder or keel.  
+~
+322 c 0
+D0
+~
+~
+0 0 32270
+D1
+~
+~
+0 0 32255
+D2
+~
+~
+0 0 32237
+D3
+~
+~
+0 0 32253
+S
+#32255
+The End of Dock 4~
+   The folk at the end of the dock who are not workers for one of the many
+travel agencies recline lazily in brightly painted benches or tap their feet
+impatiently while waiting for their ship to arrive.  It seems the travel
+industry booms mightily in McGintey!  
+~
+322 0 0
+D0
+~
+~
+0 0 32271
+D1
+~
+~
+0 0 32256
+D2
+~
+~
+0 0 32238
+D3
+~
+~
+0 0 32254
+S
+#32256
+Dock Area~
+   The water splashes against the wood slats of the docks, muffled by the
+enclosure of the docks themselves and the shops which are parked here.  
+Seagulls swoop and dive at the dead fish that might have been caught on a ship's
+rudder or keel.  
+~
+322 c 0
+D0
+~
+~
+0 0 32272
+D1
+~
+~
+0 0 32257
+D2
+~
+~
+0 0 32239
+D3
+~
+~
+0 0 32255
+S
+#32257
+The End of Dock 5~
+   The folk at the end of the dock who are not workers for one of the many
+travel agencies recline lazily in brightly painted benches or tap their feet
+impatiently while waiting for their ship to arrive.  It seems the travel
+industry booms mightily in McGintey!  
+~
+322 0 0
+D0
+~
+~
+0 0 32273
+D1
+~
+~
+0 0 32258
+D2
+~
+~
+0 0 32240
+D3
+~
+~
+0 0 32256
+S
+#32258
+Dock Area~
+   This section of the dock area is relatively quiet, as quiet as an dock area
+can be, anyway.  The boats here are not near as large as the ones docked off to
+the east, most of the ones here belonging to individual owners who pay a rent to
+keep their boats here.  
+~
+322 c 0
+D0
+~
+~
+0 0 32274
+D1
+~
+~
+0 0 32259
+D2
+~
+~
+0 0 32241
+D3
+~
+~
+0 0 32257
+S
+#32259
+The End of Dock 6~
+   The quiet rocking of the boats docked here and the occassional bump of a
+ships side against the padded sides of the docks are all that can be heard from
+this dock.  The men and women who walk along it share a mutual respect for the
+others who use it, as most are private owners of sea craft that get docked here
+by paying a rental fee.  Loud raucous noise can be heard almost in a quiet roar
+from the west where the commercial boating companies ply their trade.  
+~
+322 0 0
+D0
+~
+~
+0 0 32275
+D1
+~
+~
+0 0 32260
+D2
+~
+~
+0 0 32242
+D3
+~
+~
+0 0 32258
+S
+#32260
+Dock Area~
+   The boats that are docked here are more permanent fixtures than those to the
+west that ride in and out of port usually within a day or less.  As such, the
+water here much more calm and much more clean, the smell almost tolerable.  
+~
+322 c 0
+D0
+~
+~
+0 0 32276
+D1
+~
+~
+0 0 32261
+D2
+~
+~
+0 0 32243
+D3
+~
+~
+0 0 32259
+S
+#32261
+The End of Dock 7~
+   The quiet rocking of the boats docked here and the occassional bump of a
+ships side against the padded sides of the docks are all that can be heard from
+this dock.  The men and women who walk along it share a mutual respect for the
+others who use it, as most are private owners of sea craft that get docked here
+by paying a rental fee.  Loud raucous noise can be heard almost in a quiet roar
+from the west where the commercial boating companies ply their trade.  
+~
+322 0 0
+D0
+~
+~
+0 0 32277
+D1
+~
+~
+0 0 32262
+D2
+~
+~
+0 0 32244
+D3
+~
+~
+0 0 32260
+S
+#32262
+Dock Area~
+   The boats that are docked here are more permanent fixtures than those to the
+west that ride in and out of port usually within a day or less.  As such, the
+water here much more calm and much more clean, the smell almost tolerable.  
+~
+322 c 0
+D0
+~
+~
+0 0 32278
+D1
+~
+~
+0 0 32263
+D2
+~
+~
+0 0 32245
+D3
+~
+~
+0 0 32261
+S
+#32263
+Dock Area~
+   The boats that are docked here are more permanent fixtures than those to the
+west that ride in and out of port usually within a day or less.  As such, the
+water here much more calm and much more clean, the smell almost tolerable.  
+~
+322 0 0
+D2
+~
+~
+0 0 32246
+D3
+~
+~
+0 0 32262
+S
+#32264
+Dock Area~
+   The main docks to McGintey Cove lie east of here, the machinery used for
+unloading the cargo of the commercial business crafts hanging over the sides of
+the dock and the street itself.  There are many ladders which climb the docks,
+all spaced at even intervals.  
+~
+322 c 0
+D1
+~
+~
+0 0 32265
+D2
+~
+~
+0 0 32248
+S
+#32265
+Dock 1~
+   With all the hustle and bustle of this dock, it is hard to see how any sort
+of order is kept at all.  Workermen bump and muscle their way past you in
+attempts to get cargo unloaded and ships on their way.  
+~
+322 0 0
+D0
+~
+~
+0 0 31849
+D1
+~
+~
+0 0 32266
+D2
+~
+~
+0 0 32249
+D3
+~
+~
+0 0 32264
+S
+#32266
+Dock Area~
+   The commercial docks of McGintey loom above, the business docks to the west
+and the commercial travel docks to the east.  There are small ladders built
+against the framework of the docks allowing access to the top of the docks.  
+The smell here is something beyond awful, the layers of goo and grime in the
+water so close to the city almost untolerable.  
+~
+322 c 0
+D1
+~
+~
+0 0 32267
+D2
+~
+~
+0 0 32250
+D3
+~
+~
+0 0 32265
+S
+#32267
+Dock 2~
+   This dock is almost as confused as the people who walk upon it.  The west
+side, used for the loading and unloading of precious cargos from around the
+world, is a bustle of frantic activity and motion.  The east side, used to dock
+the commercial sea crafts of the travel agencies in McGintey, is a serene,
+comfortable area where travelers stroll along nonchalantly, boarding their craft
+leisurely as most of them are on vacation.  
+~
+322 0 0
+D0
+~
+~
+0 0 31848
+D1
+~
+~
+0 0 32268
+D2
+~
+~
+0 0 32251
+D3
+~
+~
+0 0 32266
+S
+#32268
+Dock Area~
+   The docks above are bustling with activity, ropes hanging down from the sides
+of the docks and ships alike.  The yellig and cursing and general movement can
+be heard all about as sea craft move in and out of the port.  
+~
+322 c 0
+D1
+~
+~
+0 0 32269
+D2
+~
+~
+0 0 32252
+D3
+~
+~
+0 0 32267
+S
+#32269
+Dock 3~
+   This dock is dedicated solely to the commercial travel business of McGintey
+and as such is clean and opulent.  The nasty sea smell that is so frequent at
+large city's docks is gone, replaced by a pine scented clean smell that is
+applied hourly.  The docks themselves are painted with and green to compliment
+the color of the sea.  
+~
+322 0 0
+D0
+~
+~
+0 0 31847
+D1
+~
+~
+0 0 32270
+D2
+~
+~
+0 0 32253
+D3
+~
+~
+0 0 32268
+S
+#32270
+Dock Area~
+   The sounds of midshipsmen calling out departure times and the tromp of feet
+on the docks to either side assail the senses.  McGintey's commercial travel
+docks lie to the east and west.  
+~
+322 c 0
+D1
+~
+~
+0 0 32271
+D2
+~
+~
+0 0 32254
+D3
+~
+~
+0 0 32269
+S
+#32271
+Dock 4~
+   This is a commercial travel dock for the various travel agencies which
+operate out of McGintey.  Ships are docked all along the length of the dock,
+their bright streamers and colorful banners riding high above their decks.  
+~
+322 0 0
+D0
+~
+~
+0 0 31846
+D1
+~
+~
+0 0 32272
+D2
+~
+~
+0 0 32255
+D3
+~
+~
+0 0 32270
+S
+#32272
+Dock Area~
+   The greasy smell of water tainted by city folk and their dumping of garbage
+is the smell that fills the air.  The water here has a slight sheen to it,
+almost an oily tint that is layer on top of the water itself.  
+~
+322 c 0
+D1
+~
+~
+0 0 32273
+D2
+~
+~
+0 0 32256
+D3
+~
+~
+0 0 32271
+S
+#32273
+Dock 5~
+   This dock is the last, or first - depending on the way one is traveling, in a
+row of docks devoted solely to the moving of commercial travel ships in and out
+of the Bay.  The wood of the dock is painted with fresh bright paint, the men
+and women who work along it all dressed in finery and ready to tend to any
+customer's whim.  
+~
+322 0 0
+D0
+~
+~
+0 0 31842
+D1
+~
+~
+0 0 32274
+D2
+~
+~
+0 0 32257
+D3
+~
+~
+0 0 32272
+S
+#32274
+Dock Area~
+   The greasy smell of water tainted by city folk and their dumping of garbage
+is the smell that fills the air.  The water here has a slight sheen to it,
+almost an oily tint that is layer on top of the water itself.  
+~
+322 c 0
+D1
+~
+~
+0 0 32275
+D2
+~
+~
+0 0 32258
+D3
+~
+~
+0 0 32273
+S
+#32275
+Dock 6~
+   These are the private docks of the wealthy citizens of McGintey.  Space on
+these docks can be rented for a nominal fee in order that a resident of McGintey
+might keep their craft close by and in good order.  Indeed, many of the owners
+of the craft docked here live aboard them as well.  
+~
+322 0 0
+D0
+~
+~
+0 0 31843
+D1
+~
+~
+0 0 32276
+D2
+~
+~
+0 0 32259
+D3
+~
+~
+0 0 32274
+S
+#32276
+Dock Area~
+   The greasy smell of water tainted by city folk and their dumping of garbage
+is the smell that fills the air.  The water here has a slight sheen to it,
+almost an oily tint that is layer on top of the water itself.  
+~
+322 c 0
+D1
+~
+~
+0 0 32277
+D2
+~
+~
+0 0 32260
+D3
+~
+~
+0 0 32275
+S
+#32277
+Dock 7~
+   These are the private docks of the wealthy citizens of McGintey.  Space on
+these docks can be rented for a nominal fee in order that a resident of McGintey
+might keep their craft close by and in good order.  Indeed, many of the owners
+of the craft docked here live aboard them as well.  
+~
+322 0 0
+D0
+~
+~
+0 0 31844
+D1
+~
+~
+0 0 32278
+D2
+~
+~
+0 0 32261
+D3
+~
+~
+0 0 32276
+S
+#32278
+Dock Area~
+   The greasy smell of water tainted by city folk and their dumping of garbage
+is the smell that fills the air.  The water here has a slight sheen to it,
+almost an oily tint that is layer on top of the water itself.  
+~
+322 c 0
+D2
+~
+~
+0 0 32262
+D3
+~
+~
+0 0 32277
+S
+#0
+
+#RESETS
+R 0 32200 32211 -1 	(a floating clump of jetsam)
+O 0 32211 2 32200 	(a floating clump of jetsam)
+M 0 32207 9 32200 	(a dolphin)
+R 0 32210 32210 -1 	(a lump of flotsam)
+O 0 32210 2 32210 	(a lump of flotsam)
+R 0 32203 32211 -1 	(a floating clump of jetsam)
+O 0 32211 2 32203 	(a floating clump of jetsam)
+M 0 32207 9 32203 	(a dolphin)
+R 0 32201 32210 -1 	(a lump of flotsam)
+O 0 32210 2 32201 	(a lump of flotsam)
+R 0 32220 32207 -1 	(a clump of sea algae)
+O 0 32207 3 32220 	(a clump of sea algae)
+R 0 32223 32207 -1 	(a clump of sea algae)
+O 0 32207 3 32223 	(a clump of sea algae)
+R 0 32213 32207 -1 	(a clump of sea algae)
+O 0 32207 3 32213 	(a clump of sea algae)
+M 0 32208 9 32213 	(a seagull)
+R 0 32245 32208 -1 	(a bouy)
+O 0 32208 8 32245 	(a bouy)
+R 0 32243 32208 -1 	(a bouy)
+O 0 32208 8 32243 	(a bouy)
+R 0 32241 32208 -1 	(a bouy)
+O 0 32208 8 32241 	(a bouy)
+M 0 32208 9 32241 	(a seagull)
+R 0 32239 32208 -1 	(a bouy)
+O 0 32208 8 32239 	(a bouy)
+M 0 32206 4 32239 	(a fisherman)
+G 1 32209 100 -1 	(a small fishing boat)
+G 1 32212 100 -1 	(a fishing pole)
+R 0 32237 32208 -1 	(a bouy)
+O 0 32208 8 32237 	(a bouy)
+M 0 32207 9 32237 	(a dolphin)
+R 0 32235 32208 -1 	(a bouy)
+O 0 32208 8 32235 	(a bouy)
+R 0 32233 32208 -1 	(a bouy)
+O 0 32208 8 32233 	(a bouy)
+R 0 32231 32208 -1 	(a bouy)
+O 0 32208 8 32231 	(a bouy)
+M 0 32208 9 32231 	(a seagull)
+M 0 32203 3 32265 	(a sailor)
+E 1 32215 100 8 	(a pair of thick sailor's boots)
+M 0 32200 3 32265 	(a strong dock worker)
+E 1 32213 100 10 	(a tough-looking tattoo)
+E 1 32216 100 5 	(a tight, sleeveless workman's shirt)
+M 0 32210 2 32267 	(a customer service representative)
+M 0 32200 3 32267 	(a strong dock worker)
+E 1 32213 100 10 	(a tough-looking tattoo)
+E 1 32216 100 5 	(a tight, sleeveless workman's shirt)
+O 0 32206 3 32267 	(a large wooden crate)
+M 0 32203 3 32249 	(a sailor)
+E 1 32215 100 8 	(a pair of thick sailor's boots)
+M 0 32201 3 32249 	(a cargo hauler)
+G 1 32200 100 -1 	(a crate)
+O 0 32206 3 32249 	(a large wooden crate)
+M 0 32204 2 32275 	(a boatman)
+E 1 32214 100 6 	(a wide straw hat)
+M 0 32204 2 32261 	(a boatman)
+E 1 32214 100 6 	(a wide straw hat)
+M 0 32206 4 32212 	(a fisherman)
+G 1 32209 100 -1 	(a small fishing boat)
+G 1 32212 100 -1 	(a fishing pole)
+M 0 32208 9 32227 	(a seagull)
+M 0 32206 4 32227 	(a fisherman)
+G 1 32209 100 -1 	(a small fishing boat)
+G 1 32212 100 -1 	(a fishing pole)
+M 0 32206 4 32229 	(a fisherman)
+G 1 32209 100 -1 	(a small fishing boat)
+G 1 32212 100 -1 	(a fishing pole)
+M 0 32209 2 32277 	(a wealthy ship owner)
+E 1 32205 100 1 	(a bright opal thumb ring)
+M 0 32209 2 32259 	(a wealthy ship owner)
+E 1 32205 100 1 	(a bright opal thumb ring)
+M 0 32205 5 32257 	(a passenger)
+G 1 32204 100 -1 	(a large suitcase)
+P 1 32217 100 32204 	(a blue shirt)
+P 1 32218 100 32204 	(a pair of white slacks)
+P 1 32219 100 32204 	(a pair of clean undergarments)
+P 1 32220 100 32204 	(a pair of green socks)
+P 1 32221 100 32204 	(a pint of whiskey)
+M 0 32205 5 32255 	(a passenger)
+G 1 32204 100 -1 	(a large suitcase)
+P 1 32217 100 32204 	(a blue shirt)
+P 1 32218 100 32204 	(a pair of white slacks)
+P 1 32219 100 32204 	(a pair of clean undergarments)
+P 1 32220 100 32204 	(a pair of green socks)
+P 1 32221 100 32204 	(a pint of whiskey)
+M 0 32205 5 32253 	(a passenger)
+G 1 32204 100 -1 	(a large suitcase)
+P 1 32217 100 32204 	(a blue shirt)
+P 1 32218 100 32204 	(a pair of white slacks)
+P 1 32219 100 32204 	(a pair of clean undergarments)
+P 1 32220 100 32204 	(a pair of green socks)
+P 1 32221 100 32204 	(a pint of whiskey)
+M 0 32201 3 32251 	(a cargo hauler)
+G 1 32200 100 -1 	(a crate)
+M 0 32205 5 32251 	(a passenger)
+G 1 32204 100 -1 	(a large suitcase)
+P 1 32217 100 32204 	(a blue shirt)
+P 1 32218 100 32204 	(a pair of white slacks)
+P 1 32219 100 32204 	(a pair of clean undergarments)
+P 1 32220 100 32204 	(a pair of green socks)
+P 1 32221 100 32204 	(a pint of whiskey)
+M 0 32202 3 32273 	(the travel representative)
+E 1 32203 100 5 	(a tight fitting body suit)
+M 0 32202 3 32269 	(the travel representative)
+E 1 32203 100 5 	(a tight fitting body suit)
+R 0 32248 32202 -1 	(a hawser)
+O 0 32202 6 32248 	(a hawser)
+R 0 32250 32202 -1 	(a hawser)
+O 0 32202 6 32250 	(a hawser)
+R 0 32252 32201 -1 	(a length of thick rope)
+O 0 32201 6 32252 	(a length of thick rope)
+R 0 32268 32222 -1 	(a rigging line)
+O 0 32222 6 32268 	(a rigging line)
+R 0 32254 32201 -1 	(a length of thick rope)
+O 0 32201 6 32254 	(a length of thick rope)
+R 0 32270 32202 -1 	(a hawser)
+O 0 32202 6 32270 	(a hawser)
+R 0 32272 32222 -1 	(a rigging line)
+O 0 32222 6 32272 	(a rigging line)
+R 0 32258 32222 -1 	(a rigging line)
+O 0 32222 6 32258 	(a rigging line)
+R 0 32274 32201 -1 	(a length of thick rope)
+O 0 32201 6 32274 	(a length of thick rope)
+R 0 32260 32202 -1 	(a hawser)
+O 0 32202 5 32260 	(a hawser)
+R 0 32276 32201 -1 	(a length of thick rope)
+O 0 32201 6 32276 	(a length of thick rope)
+R 0 32278 32222 -1 	(a rigging line)
+O 0 32222 6 32278 	(a rigging line)
+M 0 32208 9 32221 	(a seagull)
+M 0 32208 9 32219 	(a seagull)
+M 0 32208 9 32206 	(a seagull)
+M 0 32207 9 32224 	(a dolphin)
+M 0 32207 9 32217 	(a dolphin)
+M 0 32207 9 32211 	(a dolphin)
+M 0 32207 9 32207 	(a dolphin)
+M 0 32210 2 32271 	(a customer service representative)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

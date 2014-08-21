@@ -1,0 +1,994 @@
+#Style Circle
+#AREADATA
+Name Windmill~
+Builders Kaan~
+VNUMs 25300 25399
+Credits {{None}  CAW    Windmill~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#25300
+guard~
+an MoS Guard~
+An MoS Guard stands here, blocking your passage down the steps.
+~
+   Such strict attention stands he, looks as if maybe he were made of steel
+himself.  
+~
+bd 0 -200 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+BareHandAttack: 10
+E
+T 25300
+T 25301
+T 25302
+T 25305
+#25301
+charley checkpoint~
+Checkpoint Charley~
+Checkpoint Charley stands here, clipboard in hand, making sure no elves get in.
+~
+   Poor guy, must have been a geek in high school, now he has this semi-official
+position and he takes it WAY too seriously.  
+~
+bd 0 -100 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+T 25306
+T 25307
+T 25308
+#25302
+soldier mos~
+an MoS soldier~
+An MoS soldier is here, looking at you in some confusion.
+~
+   He turns away, begins to walk away, then stops.  He turns back.  Looks.  
+"Um, hey," he says, "are you supposed to be here?  "
+~
+dgh 0 -200 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+T 25309
+#25303
+master arms~
+the Master at Arms~
+The Master at Arms is here, working out with some steel weights.
+~
+   This dude looks like he could crush you in one sweep of his massive
+tree-trunk arms.  
+~
+bd 0 0 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+BareHandAttack: 7
+E
+#25304
+captain MoS~
+the MoS Captain~
+The MoS Captain stands here, hating elves.
+~
+   This guy is as brainwashed as they come.  If he was wearing an "I hate elves"
+patch on his arm, it couldn't be more obvious.  You check his arm.  He isn't
+wearing one.  
+~
+bd 0 -300 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#25305
+lieutenant MoS~
+the MoS Lieutenant~
+The MoS Lieutenant is here, reading a book on racial purity.
+~
+   He looks a bit confused as to why you are even in his room.  After a brief
+moment of silence he says, "Hey.  Why are you in my room?  "
+~
+bd 0 -300 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#25306
+sergeant MoS~
+the MoS Sergeant~
+The MoS Sergeant stands here, nothing to do.
+~
+   Pity this man seems like he might make a good stableman...  
+~
+bd 0 -300 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#25307
+general MoS~
+the MoS General~
+The MoS General is here, practicing his hate speeches.
+~
+   This guy seems just maybe a couple cards short of a full deck.  
+~
+bd 0 -300 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#25308
+grand knight~
+the Grand Knight~
+The Grand Knight stands here.
+~
+   Maybe you should consider running the other way...  
+~
+bd 0 -400 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#25309
+Bob MoS guard~
+Bob, the MoS guard~
+A guard in MoS uniform with the name 'Bob' stenciled across his chest waits here.
+~
+   He has just the slightest grin on his face, one that suggests he may not be
+"all there".  
+~
+bd 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+T 25303
+T 25304
+#25310
+soldier mos partII~
+an MoS soldier~
+An MoS soldier is here, looking at you in some confusion.
+~
+   He turns away, begins to walk away, then stops.  He turns back.  Looks.  Um,
+hey," he says, "are you sposed to be here?  
+~
+dgh 0 -200 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+T 25310
+#0
+
+#OBJECTS
+
+#25300
+armor suit steel~
+a suit of steel MoS armor~
+A steel suit of MoS is laying here on the ground.~
+~
+9 0 ad 0
+8 0 0 0
+11 450 0 30
+E
+armor suit steal~
+   Polished to a high sheen, this suit of steel completely encases the upper
+torso.  Looks as if it has never seen battle.  
+~
+A
+19 2
+A
+13 -40
+A
+12 20
+#25301
+sword steel~
+a steel sword~
+A steel sword with a blade-breaker guard sits on the ground.~
+~
+5 a an 0
+4 3 4 14
+5 1000 0 0
+E
+sword steel~
+   This finely crafted weapon still shines when the light hits it right, it
+looks as if it has never been to battle.  
+~
+#25302
+shield steel~
+an MoS shield~
+An MoS shield has been left here.~
+~
+9 0 aj 0
+8 0 0 0
+5 12 0 30
+E
+shield steel~
+   This shield bears the sigil of the Militant Order of the Sword two swords,
+point down, crossing each other.  
+~
+#25303
+clipboard board~
+a clipboard~
+A clipboard has been left here.~
+~
+12 0 ao 0
+0 0 0 0
+3 1 0 0
+E
+clipboard board~
+   Brown wood surface, steel clip affixed to the wood - yep, it's a clipboard.
+
+~
+A
+1 2
+A
+2 -2
+A
+18 3
+#25304
+bands wrist steel~
+a steel wrist band~
+A steel wrist band have been left here.~
+~
+9 a am 0
+7 0 0 0
+5 46 0 0
+E
+bands wrist steel~
+   Quite simply, you wear it on your wrist and it is steel.  
+~
+A
+1 1
+A
+19 2
+A
+13 -5
+#25305
+banner~
+a gray piece of cloth~
+A gray piece of cloth lies thrown in a  corner.~
+~
+12 b ao 0
+0 0 0 0
+5 100 0 0
+E
+banner~
+   This cloth tapestry depicts the Elven Lore of the Ancients, from the
+beginning of time to present day.  All the history and magic that is the Elven
+Society is depicted on this tapestry.  
+~
+A
+4 2
+#0
+
+#ROOMS
+
+#25300
+Main Room - Windmill~
+   This small, dirty room looks like no one has been in it for quite some time.
+A broken chair lies mostly in pieces in one corner, and a table with three legs
+lays at an angle in the middle of the floor.  Stairs lead up to the upper
+reaches where the wheel must have been maintained when this was in working
+order.  
+~
+253 cd 0
+D3
+~
+door~
+2 0 25302
+D4
+~
+~
+0 0 25301
+E
+credits~
+   *Windmill
+*Written by Kaan for Dibrova
+This is a windmill set in the middle of a grasslands area, also available for
+download, which has a underground area which house the Militant Order of the
+Sword (the MoS), a militant organization dedicated to the eradication of
+the Elven race.
+There is a small quest built into this zone in conjunction with the Elven
+zone.  The MoS stole the Lore Tapestry from the elves which depicts their
+race's history and magic from the beginning of time.  When this Tapestry
+is given to Reklan, an elf in the Elven zone, a player is rewarded.  The
+Elven zone is not available for download on this page, however it can be
+downloaded on the CircleMud site, without Reklan - he was added by Dibrova
+after the download. If you would like a copy of the zone as we use it, please
+contact Kaan via mudmail or email and request it. 
+* note: This zone is intended to be a low level zone, tailored for players
+         who are just into their 10's. The mobs here don't assist and aside
+         from a script on two of the mobs that only runs 10% of the time
+         they don't aggro.
+         This was made with the express intention of using it as an exp zone.
+~
+S
+#25301
+Upstairs - Windmill~
+   This small room, more aptly called a platform because of it size (or lack
+thereof) has absolutely nothing of interest.  Unless you are a dust collector.
+Or some kid bringing his best girl out here.  
+~
+253 d 0
+D5
+~
+~
+0 0 25300
+S
+#25302
+Guard Room~
+   There is absolutely nothing in this room, not even dirt, except for the two
+well equipped men who stand waiting for innocent folk just like yourself to
+blunder into this room.  A metal-made flight of stairs lead down into
+who-knows-where.  
+~
+253 c 0
+D1
+~
+door~
+2 0 25300
+D5
+~
+~
+0 0 25303
+S
+#25303
+Steel Clad Flight of Stairs~
+   This flight of stairs lead down for quite a ways, with what appears to be a
+door waiting at the end.  It could be something else, however, seeing as you are
+quite a ways from it.  The walls around you, as well as the flooring you walk
+upon, are all completely made of steel.  The effort and cost involved in the
+construction of a passage such as this is beyond your comprehension.  What kind
+of person or people decorate their walls in steel?  
+~
+253 di 0
+D4
+~
+~
+0 0 25302
+D5
+~
+~
+0 0 25304
+S
+#25304
+Steel Clad Flight of Stairs~
+   The stairs continue down toward what is definately a door at the bottom.  
+The metal which covered the walls up from here continues along these same walls.
+The door ahead appears to be made of steel as well.  
+~
+253 0 0
+D4
+~
+~
+0 0 25303
+D5
+~
+~
+0 0 25305
+S
+#25305
+Steel Clad Flight of Stairs~
+   The stairs ends here at a metal door.  Beyond is most probably the person or
+persons responsible for the construction of this passage.  You may leave this
+whole strange place, back up the stairs to a more stable world, or open the
+door.  
+~
+253 0 0
+D0
+~
+door metal~
+1 0 25306
+D4
+~
+~
+0 0 25304
+S
+#25306
+Checkpoint~
+   The guards which stand at strict attention, the war banners on the metal
+walls, the spotless uniforms which the guards wear all give you the clues you
+need to put it together that this is a military installation of some sort.  You
+see the letters 'MoS' emblazoned on the left breast of every guard's hauberk,
+but you have no clue what they signify, nor do you have much time ti think about
+as the guards attack.  
+~
+253 0 0
+D0
+~
+door~
+1 0 25307
+D2
+~
+door metal~
+1 0 25305
+S
+#25307
+Steel Clad Passage~
+   The metal walls do not stop with the Checkpoint, they continue all the way
+down this passage, and because you can't see the end of the passage you must
+assume it's quite large.  
+~
+253 d 0
+D0
+~
+~
+0 0 25308
+D2
+~
+door~
+1 0 25306
+S
+#25308
+Steel Clad Passage~
+   The passage continues north.  There is a door on the east wall with the
+symbol of two swords crossed, points down on it.  The letters 'MoS' are engraved
+under the swords.  
+~
+253 d 0
+D0
+~
+~
+0 0 25309
+D1
+~
+door~
+1 -1 25322
+D2
+~
+~
+0 0 25307
+S
+#25309
+Steel Clad Passage~
+   The passage runs north and south of you.  There is a door on the east wall
+which has the symbol of the two swords crossed, point down and the 'MoS'
+engraved underneath.  
+~
+253 d 0
+D0
+~
+~
+0 -1 25310
+D1
+~
+door~
+1 -1 25323
+D2
+~
+~
+0 0 25308
+S
+#25310
+Steel Clad Passage~
+   The passage north and south from you.  A door leads east from here with the
+sword sigil and the MoS under it.  
+~
+253 d 0
+D0
+~
+~
+0 -1 25311
+D1
+~
+door~
+1 0 25324
+D2
+~
+~
+0 -1 25309
+S
+#25311
+Steel Clad Passage~
+   The passage runs north and south from here, steel walls and ceiling still
+gleaming as far as your eyes can see.  Doors lead east and west from here, and
+just to the north a passage branches east.  
+~
+253 d 0
+D0
+~
+~
+0 -1 25312
+D1
+~
+door~
+1 0 25325
+D2
+~
+~
+0 -1 25310
+D3
+~
+~
+0 0 25326
+S
+#25312
+Steel Clad Passage~
+   The passage runs north and south from here.  A smaller passage runs east from
+here, also clad in steel.  
+~
+253 d 0
+D0
+~
+~
+0 -1 25313
+D1
+~
+~
+0 -1 25318
+D2
+~
+~
+0 -1 25311
+S
+#25313
+Steel Clad Passage~
+   The passage still runs north to south here, no turns or bends visible for
+quite a ways.  There is a door on the west wall here.  
+~
+253 0 0
+D0
+~
+~
+0 -1 25314
+D2
+~
+~
+0 -1 25312
+D3
+~
+~
+0 0 25327
+S
+#25314
+Steel Clad Passage~
+   The passage runs north and south.  You think that you may see the end of the
+hall to your north.  
+~
+253 0 0
+D0
+~
+~
+0 -1 25315
+D2
+~
+~
+0 -1 25313
+S
+#25315
+Steel Clad Passage~
+   The passage runs north and south, with doors on either side of you.  The end
+of the corridor, in the form of a steel door, lies a ways north from here.  
+~
+253 0 0
+D0
+~
+~
+0 -1 25316
+D1
+~
+~
+0 0 25329
+D2
+~
+~
+0 -1 25314
+D3
+~
+~
+0 0 25328
+S
+#25316
+Steel Clad Passage~
+   The end of this long hallway lies just north of here.  To the south, the
+hallway runs for a very long ways.  
+~
+253 0 0
+D0
+~
+~
+0 -1 25317
+D2
+~
+~
+0 -1 25315
+S
+#25317
+Northern End of a Steel Clad Passage~
+   A door lies north of you, while a steel-walled passage runs south as far as
+your eyes can see.  
+~
+253 0 0
+D2
+~
+~
+0 -1 25316
+S
+#25318
+Steel Clad Passage~
+   This passage, although smaller than the main passage, still is walled in
+steel.  It ends to the east, a ways from where you stand, at a door.  A door
+stands to your north, and to your immediate west, the main passage runs north
+and south.  
+~
+253 d 0
+D1
+~
+~
+0 -1 25319
+D3
+~
+~
+0 -1 25312
+S
+#25319
+Steel Clad Passage~
+   The passage continues east toward a set of doors, or you may go back west to
+the main passage.  
+~
+253 d 0
+D1
+~
+~
+0 -1 25320
+D3
+~
+~
+0 -1 25318
+S
+#25320
+Steel Clad Passage~
+   The passage ends just east of you at a door.  Doors lie north and south of
+your present locale, while the passage runs west back to the main passage.  
+~
+253 0 0
+D0
+~
+door~
+1 0 25330
+D1
+~
+door~
+1 -1 25321
+D2
+~
+door~
+1 0 25332
+D3
+~
+~
+0 -1 25319
+S
+#25321
+Eastern End of a Steel Clad Passage~
+   The passage ends here at a triple set of doors.  West of you, the passage
+runs back toward the main area.  North, south, and east of you are steel doors,
+all with the double sword insignia and the letters MoS.  
+~
+253 0 0
+D0
+~
+door~
+1 0 25331
+D1
+~
+door~
+1 0 25334
+D2
+~
+door~
+1 0 25333
+D3
+~
+~
+0 -1 25320
+S
+#25322
+Weapons Cache~
+   The floor is covered in crates and boxes, all with the stamp of the crossed
+swords.  The etching underneath reveals the meaning of the letters you saw on
+the door.  The etching reads; Militant Order of the Sword.  So this is a
+military compound held by the Militant Order of the Sword, but who are they, and
+what is their purpose?  
+~
+253 d 0
+D3
+~
+door~
+1 -1 25308
+S
+#25323
+Food Stores~
+   All manner of dried goods lie on shelving which runs along most of the walls
+of this room.  A door leads north from here, or you may exit into the passage
+through the west door.  
+~
+253 d 0
+D0
+~
+~
+1 0 25324
+D3
+~
+door~
+1 -1 25309
+S
+#25324
+Kitchen~
+   This extremely basic kitchen houses a fireplace and a tub full of water.  
+There are only a few utensils lying on the one table, all utensils lined up
+perfectly.  The one thing you can say positively about this kitchen is that it
+is immaculately clean.  
+~
+253 d 0
+D0
+~
+~
+0 0 25325
+D2
+~
+~
+1 0 25323
+D3
+~
+door~
+1 0 25310
+S
+#25325
+Mess Hall~
+   The long steel table that runs the length of this room shines in the light of
+the steel-handled torches hung on the wall.  It looks as if a great number of
+soldiers must live in this compound, judging by the immense size of this table.
+A door leads south into the kitchen or you may head west out into the hallway.
+
+~
+253 d 0
+D2
+~
+~
+0 0 25324
+D3
+~
+door~
+1 0 25311
+S
+#25326
+The Head~
+   This room, although used for the men of the Order to relieve, is nonetheless
+a clean, no spotless affair with a polished steel floor.  Even the seats are
+polished steel which even you would feel comfortable sitting on.  
+~
+253 d 0
+D1
+~
+~
+0 0 25311
+S
+#25327
+Training Room~
+   The entire floor of this room is covered in a thin practice mat, which allows
+for a bit of a more comfortable fall when practicing the art of fighting.  A few
+targets are lined against the west wall, obviously for archery.  Some weapon
+racks hang on the north wall, but currently there are no weapons in those racks.
+
+~
+253 0 0
+D1
+~
+~
+0 0 25313
+S
+#25328
+Bunk Room~
+   You stand in a large, open room with nothing but lines of cots running along
+the north and south walls.  Every bed is made perfectly, all the sheets and
+blankets on those beds are spotlessly clean.  
+~
+253 0 0
+D1
+~
+~
+0 0 25315
+S
+#25329
+Bunk Room~
+   You stand in a large, open room with nothing but lines of cots running along
+the north and south walls.  Every bed is made perfectly, all the sheets and
+blankets on those beds are spotlessly clean.  
+~
+253 0 0
+D3
+~
+~
+0 0 25315
+S
+#25330
+Captain's Room~
+   This sparse room holds only a steel desk and a single bed, which incidentally
+looks very uncomfortable.  It looks as if the only real advantage to having your
+own room is privacy.  
+~
+253 0 0
+D2
+~
+door~
+1 0 25320
+S
+#25331
+Lieutenant's Room~
+   This room holds only a bed and a foot locker.  No pictures adorn the walls,
+of course there are no windows.  How do these people live like this?  
+~
+253 0 0
+D2
+~
+door~
+1 0 25321
+S
+#25332
+Sergeant's Room~
+   The only thing of interest in this room is the portrait on the wall of a
+scene in town circle.  There is a gallows platform with townfolk all surrounding
+it cheering.  The platform itself holds sixteen swinging bodies, all of them
+elven.  The caption underneath reads "A Day of Reckoning will come".  
+~
+253 0 0
+D0
+~
+door~
+1 0 25320
+S
+#25333
+General's Room~
+   This sparsely decorated room has an etching into the steel wall.  The double
+sword insignia stands out most prominently, the MoS underneath, but there is an
+added touch.  The caption underneath the symbol reads When Armageddon comes, the
+Human race will be the one to triumph and rule over all other races.  How
+quaint.  
+~
+253 0 0
+D0
+~
+door~
+1 0 25321
+S
+#25334
+The Grand Knight's Room~
+   The Grand Knight looks as if he may have it just a bit easier than the rest
+of his fellow brothers.  Although this is 'Anti-Elf Deco', it still holds some
+wood furnishings, as well as a huge four posted feather bed.  This guy must be
+old and tired...  
+~
+253 0 0
+D3
+~
+door~
+1 0 25321
+S
+#0
+
+#RESETS
+M 0 25310 10 25312 	(an MoS soldier)
+M 0 25302 10 25312 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25310 10 25311 	(an MoS soldier)
+M 0 25302 10 25311 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+D 0 25311 1 1 	(Steel Clad Passage)
+M 0 25310 10 25310 	(an MoS soldier)
+D 0 25310 1 1 	(Steel Clad Passage)
+M 0 25310 10 25309 	(an MoS soldier)
+M 0 25302 10 25309 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+D 0 25309 1 1 	(Steel Clad Passage)
+M 0 25310 10 25308 	(an MoS soldier)
+D 0 25308 1 1 	(Steel Clad Passage)
+M 0 25310 10 25307 	(an MoS soldier)
+M 0 25302 10 25307 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+D 0 25307 2 1 	(Steel Clad Passage)
+D 0 25324 2 1 	(Kitchen)
+D 0 25324 3 1 	(Kitchen)
+D 0 25323 0 1 	(Food Stores)
+D 0 25323 3 1 	(Food Stores)
+M 0 25309 1 25302 	(Bob, the MoS guard)
+M 0 25300 1 25302 	(an MoS Guard)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+D 0 25302 1 1 	(Guard Room)
+D 0 25300 3 1 	(Main Room - Windmill)
+M 0 25302 10 25317 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25308 1 25334 	(the Grand Knight)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+E 1 25305 1 17 	(a gray piece of cloth)
+D 0 25334 3 1 	(The Grand Knight's Room)
+M 0 25303 1 25327 	(the Master at Arms)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+E 1 25304 2 14 	(a steel wrist band)
+E 1 25304 2 15 	(a steel wrist band)
+M 0 25301 1 25306 	(Checkpoint Charley)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+E 1 25303 1 17 	(a clipboard)
+D 0 25306 0 1 	(Checkpoint)
+M 0 25307 1 25333 	(the MoS General)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25306 1 25332 	(the MoS Sergeant)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25305 1 25331 	(the MoS Lieutenant)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25304 1 25330 	(the MoS Captain)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25302 10 25325 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25302 10 25329 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25302 10 25321 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25302 10 25319 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+M 0 25302 10 25314 	(an MoS soldier)
+E 1 25300 20 5 	(a suit of steel MoS armor)
+E 1 25301 20 16 	(a steel sword)
+E 1 25302 20 11 	(an MoS shield)
+D 0 25322 3 1 	(Weapons Cache)
+D 0 25325 3 1 	(Mess Hall)
+D 0 25320 0 1 	(Steel Clad Passage)
+D 0 25330 2 1 	(Captain's Room)
+D 0 25320 2 1 	(Steel Clad Passage)
+D 0 25332 0 1 	(Sergeant's Room)
+D 0 25321 0 1 	(Eastern End of a Steel Clad Passage)
+D 0 25331 2 1 	(Lieutenant's Room)
+D 0 25321 2 1 	(Eastern End of a Steel Clad Passage)
+D 0 25333 0 1 	(General's Room)
+D 0 25321 1 1 	(Eastern End of a Steel Clad Passage)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

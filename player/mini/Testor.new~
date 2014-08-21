@@ -1,0 +1,156 @@
+Player 'Testor' {
+  Id = 1065518679;
+  Version = 11;
+  LogO = 1065608554;
+  Race = 'naga';
+  Sex = 'male';
+  Size = 'large';
+  DamType = 'punch';
+  Immunities = ('poison', 'negative');
+  Resistances = ('weapon', 'disease');
+  Vulnerabilities = ('cold', 'holy');
+  Forms = ('edible', 'sentient', 'biped', 'mammal', 'four_arms');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+  AfBy = ('haste');
+  AfBy2 = ('none');
+  Classes = ('necromancer');
+  Level = 50;
+  Experience = 65003;
+  Act = ('autoexit', 'autotitle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine', 'nohints');
+  Position = 'standing';
+  Attr = ( 16, 22, 18, 22, 17 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = (  ( 503 ),  ( 1146 ),  ( 407 ),  ( 281 ) );
+  Alignment = -12;
+  Etho = 'chaotic';
+  Silver = 59;
+  Timer = 7;
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Room = 3352;
+  Played = 3420;
+  Scroll = 48;
+  Prac = 741;
+  Train = 129;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'common';
+  Beacons = ( 0, 0, 0 );
+  God = 'Kardis';
+  NameAccepted = true;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = 'the Man';
+  Condition = ( 0, 12, 33, 26 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Faction = ( 'notYetClassed', 0 );
+  Pnts = 40;
+  Ability = ( 91, 0, 0, 'dagger' );
+  Ability = ( 90, 0, 0, 'dodge' );
+  Ability = ( 90, 1, 0, 'meditation' );
+  Ability = ( 90, 0, 0, 'scrolls' );
+  Ability = ( 90, 0, 0, 'staves' );
+  Ability = ( 90, 0, 0, 'wands' );
+  Ability = ( 90, 0, 0, 'recall' );
+  Ability = ( 90, 1, 0, 'riding' );
+  Ability = ( 90, 0, 0, 'study' );
+  Ability = ( 90, 0, 0, 'cancellation' );
+  Ability = ( 90, 1, 0, 'chill touch' );
+  Ability = ( 90, 0, 0, 'continual light' );
+  Ability = ( 90, 0, 0, 'create water' );
+  Ability = ( 90, 0, 1, 'curse' );
+  Ability = ( 90, 0, 0, 'detect evil' );
+  Ability = ( 90, 0, 0, 'detect good' );
+  Ability = ( 90, 0, 0, 'detect hidden' );
+  Ability = ( 90, 0, 0, 'detect invis' );
+  Ability = ( 90, 0, 0, 'detect magic' );
+  Ability = ( 90, 0, 0, 'detect poison' );
+  Ability = ( 90, 1, 0, 'faerie fire' );
+  Ability = ( 90, 1, 0, 'faerie fog' );
+  Ability = ( 90, 1, 0, 'floating disc' );
+  Ability = ( 90, 0, 0, 'giant strength' );
+  Ability = ( 90, 0, 0, 'identify' );
+  Ability = ( 90, 0, 0, 'infravision' );
+  Ability = ( 90, 0, 0, 'invisibility' );
+  Ability = ( 90, 0, 0, 'know alignment' );
+  Ability = ( 90, 1, 0, 'magic missile' );
+  Ability = ( 90, 0, 0, 'portal' );
+  Ability = ( 90, 1, 0, 'energy drain' );
+  Ability = ( 90, 1, 0, 'animate dead' );
+  Ability = ( 90, 1, 0, 'spectral hand' );
+  Ability = ( 90, 3, 0, 'death spell' );
+  Ability = ( 90, 3, 0, 'finger of death' );
+  Ability = ( 90, 5, 0, 'black plague' );
+  Group = 'rom basics';
+  Group = 'mage basics';
+  Group = 'mage default';
+  Gset = 1;
+  Security = 0;
+  Affect = ( 'bless', 74, 100, 0, ('ability'),
+            ( 'char', 'saving throw', 0, -13 ),
+            ( 'char', 'hitroll', 0, 13 ) );
+  ExField = ( 'questgiver', 'entity', -1, '<NULL>' );
+  ExField = ( 'questpoints', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'questobj', 'entity', -1, '<NULL>' );
+  ExField = ( 'questmob', 'entity', -1, '<NULL>' );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  Pet 1 {
+    LogO = 1065608554;
+    ShD = 'the zombie of the waiter';
+    LnD = 'A zombie of the waiter is standing here.
+
+';
+    AfBy = ('infrared', 'charm');
+    Level = 42;
+    Act = ('npc', 'pet', 'undead', 'warrior');
+    Attr = ( 25, 21, 22, 22, 24 );
+    HMVP = (  ( 1173 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+    Dnumber = 7;
+    Dtype = 14;
+  }
+  Obj 3723 {
+    WearLoc = 'floating';
+  }
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3701 {
+    WearLoc = 'wielded';
+  }
+  Obj 3704 {
+    WearLoc = 'shield';
+  }
+  Obj 3162 {
+  }
+  Obj 3715 {
+    WearLoc = 'hold';
+  }
+}

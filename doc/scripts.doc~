@@ -1,0 +1,2978 @@
+Mud Script Language has been coded by JyP aka Oxtal and SinaC (sinac_be@yahoo.fr)
+This document has been written by SinaC
+
+MSL (Mud Script Language)
+
+MSL is a script language used to replaced commonly used mob programs. It's organized
+ into different classes (basics like Mob/Obj/Room and customs), each classes have
+ their own methods and fields, they also have parents methods and parents fields.
+ It's looking like C++, the major difference is variable typing: variable doesn't 
+ have formal type, variable's type is defined when a value is assigned to.
+
+Language:
+=========
+
+Features:
+---------
+ functions, variables, loops, recursivity, multiple-inheritance, overloading, list
+
+Class hierarchy:
+----------------
+                        Entity
+                        /  |  \
+                      /    |   \   
+                    Mob    Obj  Room
+                    / \      \      \
+                  /    \      \      \
+             Player   New      New    New
+                    Classes  Classes  Classes
+
+Basics:
+-------
+Scripts are case-sensitive
+Each instructions must be followed by a semi-colon ';'
+A line starting with // is considered as commented
+Objects can perform mud commands using `  . Commands will be interpreted via 
+ interpret function in interp.C . Only mob/player can use `  if an object
+ or a room try to use `  , the command will not be executed and a warning
+ will be displayed in the logfile.
+Variables between backquotes `` are replaced with the string-equivalent of their content
+
+Functions:
+----------
+Functions are local to classes and cannot be called from mud code
+Functions can be used by child classes (public member)
+Function can be overloaded (redefined in a child class)
+A value can be returned by using predefined variable 'result'
+
+Syntax:
+ fctName( [param1[,param2[,...]]] ) {
+   ...
+   [result = ...;]
+   ...
+ }
+
+
+Triggers:
+---------
+Triggers are special functions that are called from mud when a special event occurs
+Triggers can be used by child classes (public member)
+Triggers can be overloaded (redefined in a child class)
+Triggers can return value using 'result'
+
+Syntax:
+ triggerName( [param1[,param2[,...]]] ) {
+   ...
+   [result = ...;]
+   ...
+ }
+
+
+Loop:
+-----
+Only one kind of loop: while
+'For' can be simulated by declaring a variable (increment) and increment
+ it each loop
+
+Syntax:
+ while ( ...test... ) {
+   ...
+ }
+
+'For' example:
+  var i = 0;
+  while ( i < 10 ) {
+    ...
+    i = i+1;
+  }
+
+
+Statement:
+----------
+Syntax:
+ if ( ...test... ) {
+   ...
+ }
+ [ 
+ else if ( ... test ... ) {
+   ... 
+ }
+ ]
+
+
+Variables:
+----------
+Variables don't have formal type, type is defined when assigning a value to
+ the variable
+Variables are declared with keyword 'var'
+Variables are available only in current scope, they are local
+
+Syntax:
+ var VarName [= InitValue];
+
+
+Dynamic fields:
+---------------
+Dynamic fields are special variable staying on the object even when leaving
+ current function.
+Dynamic fields are declared with keyword 'objvar'
+Dynamic fields are static variable, they are initialized/created only once.
+When Dynamic fields are assigned to a player, they are saved in his/her pFile and are
+ loaded back when the player log on.
+
+Syntax:
+ objvar ObjectName:ObjVarName [= InitValue];
+
+
+Basic classes (also referred as root class):
+-------------
+Classes are the base mechanism of these scripts, they represent the program (script) that will be
+ assigned to a mob/player/obj/room. Each Mob/Obj/Room/Player will have a base program with some 
+ methods already defined (see triggers/functions below). But new classes can be created by 
+ derivating from an existing class (a base class or even your own class)
+
+Mob: mobile (monster)
+Obj: object
+Room: room
+Player: player shouldn't be derivated, neither modified (they can be modified and derivated but
+ it's a bad idea unless you really REALLY know what you are doing)
+
+
+New classes (own/custom classes):
+-----------
+Classes are declared with keyword 'class'
+Classes must be derivated with keyword 'extends'
+There is 3 root classes: Mob, Obj and Room
+Every new mob class must be derivated from root class Mob or a class having root class Mob
+Every new obj class must be derivated from root class Obj or a class having root class Obj
+Every new room class must be derivated from root class Room or a class having root class Room
+
+Syntax:
+ class ClassName [extends Mob/Obj/Room/CustomClassName] {
+  ...
+ }
+
+
+Basic type (different from class):
+----------
+'this' is a predefined variable referring to current entity (same as C++)
+
+entity: char, obj or room
+ no methods on entity
+
+char: mobile or player (entity subtype)
+ see below methods (predefined functions) on char
+
+obj: object (entity subtype)
+ see below methods (predefined functions) on obj
+
+room: object (entity subtype)
+ see below methods (predefined functions) on room
+
+int: -2^16 .. 2^16 (boolean are considered as integer)
+ operator: 	+, -, *, / 		: arithmetic operator
+		<, >, <=, >=, == 	: comparaison
+		||			: boolean OR
+		&&			: boolean AND
+		!			: boolean NOT
+ method:	asStr()			: convert into string
+		pad(n)			: convert into string and add space to fit n characters
+
+string: character vector
+ operator: 	+			: string concatenation
+		==			: test if two strings are the same
+		""			: string constructor
+ method:	size()			: return string's size
+		words()			: tokenize a string using space as delimiter
+					  (split into words)
+		asInt()			: convert into integer if possible
+		startsWith(string2)	: test if string starts with string2
+		pad(n) 			: add space to fit n characters
+                tokenize(delimiter)     : tokenize a string with a user-defined delimiter
+
+list: vector of n basic type (list of int, list of string, list of char, list of obj, 
+       list of mixed type, list of list...), first index is 0
+ operator: 	+			: concat two lists
+		[[]]			: list constructor, create a new list
+		[n]			: get Nth element
+ method:	size()			: return list's size
+		includes(list2)		: test if list includes list2
+		get(n)			: get Nth element, same as [n]
+		unique()		: return a list containing no duplicate(integer,string)
+		uniqueEquiv()		: return a list containing no duplicate(char,obj,room)
+                index(item)             : return index (position) of item in list, -1 if not in list
+                random()                : return a random element, if list's size is 0 then NULL is returned
+ methods like includes, unique, uniqueEquiv and index supposes a list with only one type of elements, not
+ mixed typed list (only integer, only string, only char, ...)
+
+special operator:
+                %=                      : check equivalence between 2 entities
+                                          insensitive compare between 2 strings
+
+Special list construction
+-------------------------
+Create a list, taking elements from 'list', testing with g(x) and applying function f(x)
+
+Syntax:
+  var newList = [[ f(x) | x <- list, g(x) ]]
+
+Examples:
+  var intList = [[ 2, 100, 50, 3, 6, 29 ]],
+  var bigInt = [[ x | x <- intList, x > 20 ]]; // will return [[ 100, 50, 29 ]];
+  var mapList = [[ x+5 | x <- intList ]]; // will return [[ 7, 105, 55, 8, 11, 34 ]];
+  var newList = [[ x*2 | x <- [[ y-10 | y <- intList, y < 80  ]], x <= 40 && x > 0 ]];
+    // will return [[ 80, 38 ]];
+More interesting examples can be done easily:
+  // get list of NPC not fighting in the same room as this
+  var people = [[ x |
+                  x <- this.room().people(), 
+                  x.isNPC() && x.fighting() == NULL ]];
+  // send msg to every PC in the same room as this, except this, same as  act(msg,this,,TO_ROOM);
+  var tmp = [[ x.sendTo(msg) |
+               x <- this.room().people(),
+               !x.isNPC() && x != this ]];
+  // echo a msg to room around this's room
+  var tmp = [[ x.echo(msg) | x <- this.room().around() ]];
+
+Other list construction
+-----------------------
+Create a list getting elements from another, from lower bound to upper bound
+
+Syntax:
+  var newList = list[ lower .. upper ]; // from lower to upper
+  var newList = list[ .. upper ]; // from first(0) to upper
+  var newList = list[ lower .. ]; // from lower to last(list.size()-1)
+
+Special list method
+-------------------
+Get a random element from a list matching the condition g(x), the advantage is the list is
+  not constructed (avoid memory allocation)
+If no element matches, NULL is return
+
+Syntax:
+  var element = any[[ x <- list, g(x) ]];
+ equivalent to
+  var element = [[ x | x <- list, g(x) ]].random();
+
+Examples:
+  // get a random cleric player and hits him
+  var target = [[ x <- this.room().people(), !x.isNPC() && "cleric" in x.classes() ]];
+  if ( target != NULL ) {
+    `say Priest, you are the coward, healing your comrades, but refusing
+    `say to dirty your hands by battling! For that you shall pay!
+    `roar
+    target.aggrDamage(this,1000,"none");
+  }
+
+Get the first element from a list matching the condition g(x), if no element matches, NULL is return
+Syntax:
+  var element = first[[ x <- list, g(x) ]];
+
+Examples:
+  // if 'this' doesn't have an item (key) with vnum 3396 in its inventory, we load it
+  if ( first[[ x <- this.inventory(), x.vnum() == 3396 ]] == NULL ) {
+    log("Filthy doesn't have the key to open secret pathway");
+    this.oLoad(3396);
+  }
+
+Special function
+----------------
+A mob/obj/room can force a mob/player to do something using keyword 'force'
+the command will be interpreted via interpret command in interp.C, it will have
+the same result as if `char` had typed `command`
+
+`command` is a normal command a player can type from mud, variable must be written into backquote ``
+so they will be replaced with their contents before calling interpret( char, command )
+
+Syntax:
+ force char `command
+
+Access other classes's methods
+------------------------------
+You may have access to methods defined in other classes by using ::
+It will call method using this's class, beware if dynamic fields are defined somewhere
+ in called method's class, they may not be available in this
+
+Syntax:
+  className::methodName( params );
+
+
+Notes about act's functions format
+----------------------------------
+When using act's functions from inside scripts, you should take care about the number 
+ of related entities. If your format contains 3 $, your related entities list size should be 3
+ if no related entities are specified, this will be used as related entities
+ if only one related entity is specified, it will be used for every $ check
+
+every format's tag ($) return a value depending on related entity, check examples
+
+$' :  "your" or entity's name/short_description followed by a '
+$b :  "are" or "is"
+$h :  "have" or "has"
+$n :  "you" or entity's name/short_description
+$v :  conjugates the preceding verb according to related entity
+$s :  "your", "his", "her", "its"
+$m :  "you", "him", "her", "it"
+$e :  "you", "he", "she", "it"
+
+act( "$n grip$v $s weapon while $e $b looking at $n.", [[ ch, ch, ch, ch, ch, mob ]], "TO_ALL" );
+  ch receives: You grip your weapon while you are looking at the orc.
+  mob receives: Sinac grips his weapon while he is looking at you.
+  other receives: Sinac grips his weapon while he is looking at the orc.
+
+Predefined functions and triggers:
+==================================
+
+Triggers:
+---------
+//basic class:
+//  triggerName( param1, param2, ... ) available for class X, class Y, ...
+//    description:
+//      X: ...
+//      Y: ...
+//      ...
+//    params: 
+//      name param1: type: description
+//      name param2: type: description
+//      ...
+//    return value: [not used]
+//      0: ...
+//      1: ...
+//      ...
+//    usefulness: ...
+//                 ...
+//    remarques: ...
+//               ...
+
+Player:
+  onLoad() available for player
+    description:
+      player: `this` 's pFile has been loaded
+    params: no params
+    return value: not used
+    usefulness: fix items/pFile bug
+                 add 'on the fly' new extra fields
+                 quest: reassign quest mob, recreate quest obj
+
+  onQuitting() available for player
+    description:
+      player: `this` 's pFile will be saved and will leave the mud
+    params: no params
+    return value: not used
+    usefulness: update mob's know list
+                 quest: destroy quest obj, ...
+
+  onInformation( param ) available for player
+    description:
+      player: `this` has typed showinfo
+    params: any type but will mostly be a string
+    return value: not used
+    usefulness: show quest info and other additionals information
+
+Mob:
+  onSocial( act, name ) available for mob
+    description:
+      mob: 'act' has used social `name` in the same room as `this`
+    params:
+      act: char: player/mob using social `name`
+      name: string: social used by `act`
+    return value: not used
+    usefulness: catching people bowing, sniffing, ...
+
+  onWhisper( act, msg )  available for mob
+    description:
+      mob: `act` has whispered `msg` (using whisper channel) to `this`
+     params: 
+      act: char: player/mob whispering ´msg´
+      msg: string: sentence `act` whispered
+    return value: not used
+    usefulness: saying a secret sentence to a mob to open a secret doorway
+
+  onBribe( act, silver, gold ) available for mob
+    description:
+      mob: `act` has given `silver` silver coins and `gold` gold coins to `this`
+    params:
+      act: char: player/mob who has given coins to `this`
+      silver: int: amount of silver coins given to `this` by `act`
+      gold: int amount of gold coins given to `this` by `act`
+    return value: not used
+    usefulness: give money to a doorman, a banker, a moneychanger
+
+  onKnock( act, fromDir ) available for mob
+    description:
+      mob: `act` has knocked on the `fromDir` door
+    params
+      act: char: player/mob knocking on the door
+      fromDir: string: n, w, s, e, u, d
+    return value: not used
+    usefulness: doorman
+                 secret door with no available key (ex: assassin's guild)
+
+  onKilled( act ) available for mob
+    description:
+      mob: `this` has been killed by `act`
+    params:
+      act: char: player/mob who killed `this`
+    return value:
+      0: nothing special
+      bit 0 set: don't call death_cry
+      bit 1 set: don't call make_corpse
+    usefulness: replace basic death cry (with return value bit 0 set --> 1)
+                 don't create a corpse for some reasons (with return value bit 1 set --> 2)
+                 special death cry and no corpse (with return value bit 0 and 1 set --> 3)
+                 loading an item only visible when mob die (replace vis_death flag)
+                 create random looting
+
+  onKill( victim ) available for mob and player
+    description:
+      player: `this` has killed victim (mob or player) (extract_char not already called)
+      mob: `this` has killed victim (mob or player) (extract_char not already called)
+    params: 
+      victim: char: mob/player which has been killed by `this`
+    return value: not used
+    usefulness: quest: quest mob has been killed
+                 special treatment when a certain mob/player is killed: reward, ...
+
+  onPulseMobile() available for mob and player
+    description:
+      mob: `this` has been updated, called every 4 seconds even if there is no PC in the area
+      player: `this` has been updated, called every 4 seconds
+    params: no params
+    return value: not used
+    usefulness: mob wandering around
+                 hunting mob
+                 mob babbling, ...
+
+  onFight( act ) available for mob
+    description:
+      mob: `this` is fighting `act`, called every 3 seconds
+    params:
+      act: char: player/mob `this` is fighting
+    return value: not used
+    usefulness: special combat procedure: spells, skills, message, ...
+
+  onFleeing( act ) available for mob
+    description:
+      mob: `act` is fighting `this` and try to flee
+    params:
+      act: char: player/mob trying to flee
+    return value: int
+      0: `act` manages to flee
+      1: `act` failed to flee
+    usefulness: mob preventing from fleeing
+
+  onFlee( act, to ) available for mob
+    description:
+      mob: `act` has flee to `to`
+    params:
+      act: char: player/mob who just flee
+      to: string: short direction name where `act` just flee
+    return value: not used
+    usefulness: get back a player who just flee
+
+  onSit( act ) available for mob
+    description:
+      mob: `act` has just sit down
+    params:
+      act: char: player/mob who just sit down
+    return value: not used
+    usefulness:
+
+  onRest( act ) available for mob
+    description:
+      mob: `act` has just rest
+    params:
+      act: char: player/mob who just rest
+    return value: not used
+    usefulness:
+
+  onSleep( act ) available for mob
+    description:
+      mob: `act` has just sleep
+    params:
+      act: char: player/mob who just sleep
+    return value: not used
+    usefulness:
+
+  onStand( act ) available for mob
+    description:
+      mob: `act` has just stand
+    params:
+      act: char: player/mob who just stand
+    return value: not used
+    usefulness:
+  
+  onDisarmed( act, weapon ) available for mob
+    description:
+      mob: `act` has just disarmed `this` who was wielding `weapon`
+    params:
+      act: char: player/mob who just disarmed `this`
+      weapon: obj: weapon which `this` was wielding
+    return value: not used
+    usefulness: trigger when a mob is disarmed
+
+Obj:
+// replaced with onMoved, available for Mob/Obj/Player
+//  onCarrierMoves( act, fromDir )  available for obj
+//    description:
+//      obj: `act` is entering a room from `fromDir`, `this` is carried by `act`
+//    params: 
+//      act: char: player/mob carrying `this`, can also be obtained with predefined
+//                  obj function carriedBy()
+//      fromDir: string: n, w, s, e, u, d
+//    return value: not used
+//    usefulness: doing actions each time carrier is moving: saying someting, force him/her/it
+//                  to attack a mob in the room, ...
+
+  onTell( act, msg ) available for obj
+    description:
+      obj: `act` tells `msg` to `this`, `this` is `act` equipement or inventory
+    params:
+      act: char: player/mob carrying `this`
+      msg: string: msg told to `this`
+    return value: not used
+    usefulness: create item's behaviour: talking sword, ...
+
+  onWearing( act ) available for obj
+    description:
+      obj: `act` is wearing `this`, `this` is not yet worn
+    params:
+      act: char: player/mob wearing `this`
+    return value: int
+      0: nothing special, `act` wear `this`
+      1: `act` don't wear `this`
+    usefulness: prevent wearing an item
+
+  onWorn( act ) available for obj
+    description:
+      obj: `act` has worn `this`, `this` is in `act` 's equipement
+    params:
+      act: char: player/mob who has worn `this`
+    return value: not used
+    usefulness: flavor text when item is worn
+                 magic/talking item wanting to greet its carrier
+                 special treatment when holding an item (cast a spell, healing, ...)
+
+  onRemoving( act ) available for obj
+    description:
+      obj: `act` is removing `this`, `this` is not yet removed
+    params:
+      act: char: player/mob removing `this`
+    return value: int
+      0: nothing special, `act` remove `this`
+      1: `act` don't remove `this`
+    usefulness: prevent removing an item
+       
+  onRemoved( act ) available for obj
+    description:
+      obj: `act` has removed `this`, `this` is in `act` 's inventory
+    params:
+      act: char: player/mob who has removed `this`
+    return value: not used
+    usefulness: flavor text when item is removed
+                 magic/talking item which is not happy to be removed (say something,
+	          punish carrier, ...)
+  
+  onPutting( act, container ) available for obj
+    description:
+      obj: `act` is putting `this` in `container`, `this` is not yet in `container`
+    params:
+      act: char: player/mob putting `this` in `container`
+      container: obj: container withing `act` is putting `this`
+    return value: int
+      0: nothing special, `act` put `this` in `container`
+      1: `act` don't put `this` in `container`
+    usefulness: prevent putting an item in a container
+       
+  onPut( act, container ) available for obj
+    description:
+      obj: `act` has put `this` in `container`, `this` is in `container`
+    params:
+      act: char: player/mob who has dropped `this`
+    return value: not used
+    usefulness: ??? can't send msg because item is in inventory, better used onPutting to do
+                  flavor text
+
+  onPull( act ) available for obj
+    description:
+      obj: `act` has pulled `this`, can be used on any item type
+    params:
+      act: char: player/mob pulling `this`
+    return value: not used
+    usefulness: create lever: opening door, create mob, a system of levers to open a secret door
+
+  onDamage( amount ) available for obj
+    description:
+      obj: `this` has been damaged in combat by `act`
+    params:
+      amount: int: amount of damage obj has suffered
+    return value: not used
+    usefulness: auto-repair item
+                 item transforming itself when broken
+
+Room:
+  onEntering( act, from ) available for room
+    description:
+      room: `act` will enter in room `this` coming from `from` direction
+    params:
+      act: char: `act` will enter in the room
+      from: string: direction where `act` is coming from
+    return value: 
+      0: nothing special, `act` has entered
+      1: `act` cannot enter
+    usefulness: avoid certain people to enter in a room
+
+  onEnteringLeader( act, from ) available for room
+    description:
+      room: `act` will enter in room `this` coming from `from` direction
+    params:
+      act: char: `act` will enter in the room
+      from: string: direction where `act` is coming from
+    return value: 
+      0: nothing special, `act` has entered
+      1: `act` cannot enter
+    usefulness: avoid certain people to enter in a room
+    remarques: only the leader of a PC group will trigger this, or if `act` is the only
+               PC is his/her group
+
+  onEntered( act, from ) available for room
+    description:
+      room: `act` has entered in room `this` coming from `from` direction
+    params:
+      act: char: `act` has entered in the room
+      from: string: direction where `act` is coming from
+    return value: not used
+    usefulness: greeting people entering the room
+
+  onEnteredLeader( act, from ) available for room
+    description:
+      room: `act` has entered in room `this` coming from `from` direction
+    params:
+      act: char: `act` has entered in the room
+      from: string: direction where `act` is coming from
+    return value: not used
+    usefulness: greeting people entering the room
+    remarques: only the leader of a PC group will trigger this, or if `act` is the only
+               PC is his/her group
+              leader's followers will have entered the room before this trigger
+
+Mob and Obj:
+  onGreet( act, fromDir )  available for mob and obj
+    description:
+      mob: `act` enters in the same room as `this` from `fromDir`
+      obj : `act` enters in the same room as `this` 's carrier from `fromDir`
+    params: 
+      act: char: player/mob entering the room
+      fromDir: string: n, w, s, e, u, d, ...
+    return value: not used
+    usefulness: greet a char when he/she/it is entering the room
+                 close a door a char has opened to enter the room
+                 give advices/explanations to a char 
+
+  onGreetLeader( act, fromDir )   available for mob and obj
+    description:
+      mob: `act` enters in the same room as `this` from `fromDir`
+      obj : `act` enters in the same room as `this` 's carrier from `fromDir`
+    params: 
+      act: char: player/mob entering the room
+      fromDir: string: n, w, s, e, u, d, ...
+    return value: not used
+    usefulness: greet a char when he/she/it is entering the room
+                 close a door a char has opened to enter the room
+                 give advices/explanations to a char
+                 used mainly for shopkeeper
+    remarques: only the leader of a PC group will trigger this, or if `act` is the only
+               PC is his/her group
+              leader's followers will have entered the room before this trigger
+
+  onDirsay( act, msg )  available for mob and obj
+    same as onSpeech with dirsay channel
+
+  onGiving( param1, param2 ) available for mob and obj
+    description:
+      mob: `param1` is giving `param2` to `this`, `param2` is not yet in `this` 's inventory
+      obj: `param1` is giving `this` to `param2`, `this` is not yet in `param2` 's inventory
+    params:
+      mob:
+        param1: char: player/mob who is giving `param2` to `this`
+        param2: obj: item which `param1` is giving to `this`
+      obj
+        param1: char: player/mob who is giving `this` to `param2`
+        param2: char: player/mob who is receiving `this` from `param1`
+    return value: int
+      0: nothing special, item is given
+      1: item is not given
+    usefulness: prevent giving an item
+    
+  onGiven( param1, param2 ) available for mob and obj
+    description:
+      mob: `param1` has given `param2` to `this`, `param2` is in `this` 's inventory
+      obj: `param1` has given `this` to `param2`, `this` is in `param2` 's inventory
+    params:
+      mob:
+        param1: char: player/mob who has given `param2` to `this`
+        param2: obj: item which `param1` has given to `this`
+      obj
+        param1: char: player/mob who has given `this` to `param2`
+        param2: char: player/mob who has received `this` from `param1`
+    return value: not used
+    usefulness: flavor text when item is given
+                 magic/talking item wanting to greet its new owner
+                 special treatment when giving the item (cast spell, bonus, ...)
+
+  onSpellTarget( act, spellName, castingLevel ) available for mob and obj
+    description:
+      mob: `act` has casted spell `spellName` casting level `castingLevel` on `this`
+      obj: `act` has casted spell `spellName` casting level `castingLevel` on `this`
+    params:
+      act: player/mob who casted the spell
+      spellName: name of the casted spell
+      castingLevel: casting level of the casted spell
+    return value: not used
+    usefullnes: flavor text when target of a spell
+
+  onCreate() available for mob and obj
+    description:
+      mob: `this` has just been created, not yet in a room
+      obj: `this` has just been created, not yet in a room or on a char
+    params: no params
+    return value: not used
+    usefulness: important trigger for shopkeeper (type of item bought, sell percentage, ...)
+                 useful for any mob/obj who needs extra value to work (see example)
+                 called when a pFile is loaded with obj having a onCreate trigger, works
+                   with pets
+
+  onRepop( real ) available for mob and obj
+    description:
+      mob: `this` has been created and loaded in a room (real=1)
+             or script has been modified (real=0)
+      obj: `this` has been created and loaded in a room or on a mob (real=1)
+             or script has been modified (real=0)
+    params: real: int: 1 if it's a real repop: called in reset_room
+                       0 if the script has been modified: called in reload_scripts and update_entities
+    return value: not used
+    usefulness: flavor text when mob/obj repop
+                 not called when a pFile is loaded with obj having a onRepop trigger, 
+                   neither when a pet with onRepop is loaded
+                 called only if obj/mob is in a room reset, not called when using clone, 
+                   spell summon lesser golem, etc...
+                 main use: shopkeeper flag their items in inventory with "inventory" only if it's a real repop
+
+  onMoved() available for mob, player and obj
+    description:
+      mob: `this` has moved in another room
+      obj: `this` 's carrier has moved in another room
+    params: no params
+    return value: not used
+    usefulness: quest: tell the player, the mob is searching is in the room he just entered
+                 replace onCarrierMoves for obj
+
+Mob and Room:
+  onExiting( act, toDir )  available for mob and room
+    description:
+      mob: `act` will leave the room where `this` is, to `toDir`. `act` is still in the room
+      room: `act` will leave `this` to `toDir` room. `act` is still in `this`
+    params: 
+      act: char: player/mob exiting the room/`this`
+      toDir: string: n, w, s, e, u, d
+    return value: int
+      0: nothing special, `act` leaves the room/`this`
+      1: `act` don't leave the room/`this`
+    usefulness: say goodbye to a char leaving the room
+                 prevent a player from leaving a room
+
+  onExitingLeader( act, toDir )  available for mob and room
+    description:
+      mob: `act` will leave the room where `this` is, to `toDir`. `act` is still in the room
+      room: `act` will leave `this` to `toDir` room. `act` is still in `this`
+    params: 
+      act: char: player/mob exiting the room/`this`
+      toDir: string: n, w, s, e, u, d
+    return value: int
+      0: nothing special, `act` leaves the room/`this`
+      1: `act` don't leave the room/`this`
+    usefulness: say goodbye to a char leaving the room
+                 prevent a player from leaving a room
+    remarques: only the leader of a PC group will trigger this, or if `act` is the only
+               PC is his/her group
+
+  onExited( act, toDir )  available for mob and room
+    description:
+      mob: `act` has left the room where `this` is, to `toDir`, `act` is not anymore in the room
+      room: `act` has left `this` to `toDir` room, `act` is not anymore in `this`
+    params: 
+      act: char: player/mob who has left the room/`this`
+      toDir: string: n, w, s, e, u, d
+    return value: not used
+    usefulness: close a door a char has opened to leave the room
+
+  onExitedLeader( act, toDir )  available for mob and room
+    description:
+      mob: `act` has left the room where `this` is, to `toDir`, `act` is not anymore in the room
+      room: `act` has left `this` to `toDir` room, `act` is not anymore in `this`
+    params: 
+      act: char: player/mob who has left the room/`this`
+      toDir: string: n, w, s, e, u, d
+    return value: not used
+    usefulness: close a door a char has opened to leave the room
+   remarques: only the leader of a PC group will trigger this, or if `act` is the only
+               PC is his/her group
+              leader's followers will have exited the room before this trigger
+
+Obj and Room:
+  onGetting( act ) available for obj and room
+    description:
+      obj: `act` will get `this`, `this` is not yet in `act` inventory
+      room: `act` will get an item in room `this`, item is not yet in `act` inventory
+    params: 
+      obj: act: char: player/mob getting `this`
+      room: act: char: player/mob getting an item from room `this`
+    return value: int
+      0: nothing special, `act` gets `this`
+      1: `act` didn't get `this`
+    usefulness: prevent getting item (with return value 1)
+
+  onGot( act ) available for obj and room
+    description:
+      obj: `act` has got `this` from ground and put in his/her/its inventory
+      room: `act` has got an item from room `this`, item is in `act` inventory
+    params:
+      obj: act: char: player/mob who has got `this`
+      room: act: char: player/mob who got an item from room `this`
+    return value: not used
+    usefulness: force a char to wear an item he/she/it just got
+                 flavor text when item is got
+                 magic/talking item wanting to greet its carrier
+
+  onDropping( act ) available for obj and room
+    description:
+      obj: `act` is dropping `this`, `this` is not yet dropped
+      room: `act` is dropping `this`, `this` is not yet dropped
+    params:
+      act: char: player/mob dropping `this`
+    return value: int
+      0: nothing special, `act` drop `this`
+      1: `act` don't drop `this`
+    usefulness: prevent dropping an item
+       
+  onDropped( act ) available for obj and room
+    description:
+      obj: `act` has dropped `this`, `this` is in the same room as `act`
+      room: `act` has dropped `this`, `this` is in the same room as `act`
+    params:
+      act: char: player/mob who has dropped `this`
+    return value: not used
+    usefulness: flavor text when item is dropped
+                 magic/talking item which is not happy to be dropped (saying something, punishing
+                  carrier, ...)
+
+Mob, Obj and Room:
+  onLooking( act )  available for mob and obj and room
+    description:
+      mob: `act` is looking at `this` (mob)
+      obj: `act` is looking at `this` (obj)
+      room: `act` is looking at `this` (room)
+    params: 
+      act: char: player/mob looking `this`
+    return value: int
+      0: nothing special, display char/obj/room description
+      1: don't display char/obj (for room see below)
+     special value for room:
+      bit 0 set: not the room description
+      bit 1 set: not the room exits
+      bit 2 set: not the chars in room
+      bit 3 set: not the items in room
+     values:
+      1: not the room description
+      2: not the room exits
+      3: not the room description, not the room exits
+      4: not the chars in room
+      5: not the room description, not the chars in room
+      6: not the room exits, not the chars in room
+      ...
+      15: no room description, not the exits, not the chars or items in the room
+    usefulness: additional description
+                 replace the original description (with return value 1->15)
+
+  onPulseTick() available for mob, obj and room
+    description:
+      mob: `this` has been updated, called every minute
+      obj: `this` has been updated, called every minute
+      room: `this` has been updated, called every minute
+    params: no params
+    return value: not used
+    usefulness: same as onPulseMobile
+
+  onCast( spellName, level, target, castingLevel, targetName ) available for mob, obj, room
+    description:
+      `this` casts a scriptAbility: a spell which has no C code but a script code
+    params:
+      spellName: string: name the spell to cast
+      level: int: level of the spell
+      target: entity: depends on spell's target
+      castingLevel: int: casting level of the spell
+      targetName: string: additional target
+
+  onPsi( powerName, level, target, castingLevel, targetName ) available for mob, obj, room
+    description:
+      `this` psi a scriptAbility: a power which has no C code but a script code
+    params:
+      powerName: string: name the power to psi
+      level: int: level of the power
+      target: entity: depends on power's target
+      castingLevel: int: casting level of the power
+      targetName: string: additional target
+
+  onSong( songName, level, target, castingLevel, targetName ) available for mob, obj, room
+    description:
+      `this` sing a scriptAbility: a song which has no C code but a script code
+    params:
+      songName: string: name the song to sing
+      level: int: level of the song
+      target: entity: depends on song's target
+      castingLevel: int: casting level of the song
+      targetName: string: additional target
+
+  onSkill( skillName, level, target, castingLevel, targetName ) available for mob, obj, room
+    description:
+      `this` uses a scriptAbility: a skill which has no C code but a script code
+    params:
+      skillName: string: name the skill to use
+      level: int: level of the skill
+      target: entity: depends on skill's target
+      castingLevel: int: casting level of the skill
+      targetName: string: additional target
+
+  onReset() available for obj, mob, room
+    description: 
+      obj: `this` is in a room who have just been reset (from reset_room)
+            or `this` was on a char/in a room concerned by a world state
+      char: `this` was in room concerned by a world state
+      room: `this` is a room concerned by a world state
+    params: no params
+    return value: not used
+    usefulness: resetting dynamic fields, delete door, ...
+
+  onSpeech( act, msg )  available for mob, obj and room
+    description:
+      mob: `act` has said `msg` (using say channel) in the same room as `this`
+      obj: `act` has said `msg` (using say channel) in the same room as `this` (item on the floor)
+      room: `act` has said `msg` (using say channel) in room `this`
+    params: 
+      act: char: player/mob saying ´msg´
+      msg: string: sentence `act` said
+    return value: not used
+    usefulness: ideal for mob (shopkeeper/questmaster/...) to communicate with a player
+                asking a path, asking help,... certainly the most useful trigger
+                talk to a magical-talkative item (better to use onTell)
+                room triggering when secret words are said
+
+Predefined functions
+--------------------
+  char, obj and room fields can be considered as private class member, 
+    they can only be accessed with methods
+
+//Format:
+//  functionName( param1, param2, ... )
+//    description: ...
+//    params: param1: type: description
+//            param2: type: description
+//            ...
+//    return type: [no return value] [int] [string] [char] [obj] [list of ...] [not defined]
+
+ [] represents the variable the function is applied on
+
+Char/Obj/Room:
+  addAffect( where, location, operator, modifier, duration, level, type, castingLevel )
+    description: add an affect to [] using newafsetup and affect_to_char/obj/room
+    params: where: string: char, object, objval, weapon
+            location: not defined: depends on where
+            operator: string: or, add, <-, nor
+            modifier: not defined: depends on location
+            duration: int: how many time the affect will stay -1: permanent dispellable
+                                                             -99: permanent non dispellable
+            level: int: affect's level
+            type: string: ability name, if no ability "none"
+            castingLevel: int: affect's casting level
+    return: no return value
+    remarques: if where is AFTO_CHAR: location must be an attribute (check appendix)
+                                      modifier an available value for this attribute
+               if where is AFTO_OBJECT: location is not revelant (set to NA)
+                                        perator must be OR or NOR
+                                        modifier available extra flags
+               if where is AFTO_OBJVAL: location is an integer (from 0 to 4: obj->value[])
+                                        modifier is an integer (TO BE CHANGED)
+               if where is AFTO_WEAPON: location is not revelant (set to 4)
+                                        operator must be OR or NOR
+                                        modifier must be an available weapon flags
+  
+  savesSpell( level, damClass )
+    description: will [] get a saves spell ?
+    params:
+      level: int: damage level
+      damClass: string: damage class  (fire, cold, ...)
+    return type: int (success or fail)
+
+  affectStrip( abilityName )
+    description: remove every [] 's affects with type == abilityName
+    params:
+       abilityName: string: name of ability
+    return type: no return value
+
+Char: 
+  isNPC()
+    description: return if [] is a mob
+    params: no params
+    return type: int
+
+  name()
+    description: return []'s name
+    params: no params
+    return type: string
+
+  level()
+    description: return []'s level
+    params: no params
+    return type: int
+
+  hit()
+    description: return []'s current hit points
+    params: no params
+    return type: int
+
+  silver()
+    description: return []'s silver coins carried
+    params: no params
+    return type: int
+
+  gold()
+    description: return []'s gold coins carried
+    params: no params
+    return type: int
+
+  sex()
+    description: return []'s sex
+    params: no params
+    return type: string (check appendix to see different values)
+
+  classes()
+    description: return []'s classes  
+    params: no params
+    return type: list of string (check appendix to see different values)
+   
+  addSilver( amount )
+    description: add `amount` silver coins to []
+    params: amount: int: silver amount to add
+    return type: no return value
+
+  addGold( amount )
+    description: same as addSilver but gold coins
+
+  //roomates()  doesn't exist anymore use  .room().people()  instead
+  //  description: return other char in the same room as []
+  //  params: no params
+  //  return type: list of char
+
+  getObjCarried( name )
+    description: return the first obj in inventory with name `name`
+    params: name: string: item name
+    return type: obj
+
+  addHit( amount )
+    description: add `amount` hit points to [] 's current hit points
+    params: amount: int: number of hit points to give
+    return type: no return value
+
+  addMana( amount )
+    description: add `mana` mana points to []'s current mana
+    params: amount: int: number of mana points to give
+    return type: no return value
+
+  addPsp( amount )
+    description: same as giveMana but add psp points
+
+  inventory()
+    description: returns []'s inventory
+    params: no params
+    return type: list of obj
+
+  vnum()
+    description: return []'s vnum (-1) if [] is a player
+    params: no params
+    return type: int
+
+  carryNumber()
+    description: return current number items [] is carrying
+    params: no params
+    return type: int
+
+  carryWeight()
+    description: return current weight [] is carrying
+    params: no params
+    return type: int
+
+  canCarryN()
+    description: return how many items [] can carry
+    params: no params
+    return type: int
+
+  canCarryW()
+    description: return how many weight [] can carry
+    params: no params
+    return type:
+
+  oLoad( vnum )
+    description: load and return item with vnum `vnum` and put it in []'s inventory 
+                  or on the ground (if can't be carried:fountain,...)
+    params: vnum: int: item's vnum
+    return type: obj
+
+  mLoad( vnum )
+    description: load and return a mob with vnum `vnum` in the same room as []
+    params: vnum: int: mob's vnum to load
+    return type: char
+
+  canSee( entity )
+    description: return if [] can see `entity`
+    params: entity: char or obj: char/obj to test
+    return type: int
+
+  getAbility( name )
+    description: return % [] has in ability `name`
+    params: name: string: ability to test
+    return type: int
+
+  checkImprove( name, success, multiplier )
+    description: check if [] becomes better in skill/spell/power `name`
+    params: name: string: skill/spell/power name
+            success: int: 0 (not successfull), 1 (successfull)
+            multiplier: a higher multiplier means harder to improve skill/spell/power
+    return type: no return value
+
+  isAwake()
+    description: return if [] is awake
+    params: no params
+    return type: int
+
+  fighting()
+    description: return char/mob [] is fighting (NULL if not in a fight)
+    params: no params
+    return type: char
+
+  sendTo( msg )
+    description: send `msg` to [], only [] receive the msg, direct send_to_char
+    params: message to send
+    return type: no return value
+
+  isEquiv( mob )
+    description: return if `mob` is the same as [], compare pIndexData
+    params: mob: char: mob to compare
+    return type: int
+
+  canLoot( item )
+    description: return if [] can loot `item`
+    params: item: obj: item to test
+    return type: int
+
+  alignment()
+    description: return []'s current alignment
+    params: no params
+    return type: int
+
+  etho()
+    description: return []'s current etho
+    params: no params
+    return type: string (check appendix to see different values)
+
+  group()
+    description: return []'s group number
+    params: no params
+    return type: int
+
+  isSafe( act )
+    description: return if [] is safe from `act` (cannot be killed, stolen, ...)
+    params: act: char: char to test
+    return type: int
+
+  isWearing( item )
+    description: return if [] is wearing `item`, in equipement
+    params: item: obj: item to test
+    return type: int
+
+  multiHit( victim )
+    description: starts a fight between [] and victim, [] is the aggressor
+    params: victim: char: char to attack
+    return type: no return value
+
+  shortDescr()
+    description: return []'s short description (same as name if [] is a player)
+    params: no params
+    return type: string
+
+  damage( dam, damType, dieMsg )
+    description: does non aggressive damage on []
+    params: dam: int: damage amount
+            damType: string: damage type (pierce, fire, ...)
+            dieMsg: string: message send to everyone through INFO channel when [] die
+                             because of these damages
+    return type: integer: 0: damage not done
+                          1: damage done and not deadly
+                          2: damage done and deadly
+
+  echo( msg )
+    description: send `msg` to everyone in the room
+    params: msg: string: message to send
+    return type: no return value
+
+  isAffected( name )
+    description: return if [] is affected by spell/skill/power `name`
+    params: name: string: skill/spell/power name
+    return type: int
+
+  addPractice( amount )
+    description: give `amount` practice to []
+    params: amount: int: number of practice to give
+    return type: no return value
+
+  destroy()
+    description: call extract_char, to destroy [] (cannot be used on a player)
+                  don't use any methods on [] after a call to destroy: can have strange behavior
+    params: no params
+    return type: no return value
+
+  getPet()
+    description: return []'s pet
+    params: no params
+    return type: char
+
+  setPet( mob )
+    description: set `mob` as a pet for [] (`mob` cannot be a player)
+    params: mob: char: mob to set as pet
+    return type: no return value
+
+  setName( name )
+    description: set []'s name to `name`
+    params: name: string: new []'s name
+    return type: no return value
+
+  clan()
+    description: return []'s clan name ("" is not in a clan, "" is a null string)
+    params: no params
+    return type: string
+
+  carryLocation( locName )
+    description: return obj [] is wearing at location `locName`
+    params: locName: string: location name (check appendix to see different values)
+    return type: obj
+
+  room()
+    description: return []'s in_room
+    params: no params
+    return type: room
+
+  longDescr()
+    description: return char's long description only if [] is a mob
+	         return stance for a player, if no stance return title
+    params: no params
+    return type: string
+
+  position()
+    description: return []'s position
+    params: no params
+    return type: string
+
+  defaultPosition()
+    description: return []'s default position if [] is a mob ( "" is returned otherwise )              
+    params: no params
+    return type: string
+
+  equipement()
+    description: returns []'s equipement
+    params: no params
+    return type: list of obj
+
+  suddenDeath( deathMsg )
+    description: [] is killed in one hit by a special sending `deathMsg` via INFO channel
+    params: deathMsg: string: message sent via INFO channel
+    return type: no return value
+
+  stopFighting()
+    description: stop []'s fight
+    params: no params
+    return type: no return value
+
+  god()
+    description: return []'s god name
+    params: no params
+    return type: string
+
+  master()
+    description: return []'s master (useful to find charmies among mobs)
+    params: no params
+    return type: char
+
+  actTo( format, relatedEntityList )
+    description: send formatted message to []
+    params: format: string: act's like string format
+            relatedEntityList: entity/list of entity: related entity (check act's format explanation)
+    return value: none
+
+  actRoom( format [, relatedEntityList ] )
+    description: send formatted message to everyone in the room except `this`
+    params: format: string: act's like string format
+            OPTIONAL relatedEntityList: entity/list of entity: related entity
+    return value: none
+    remarques: if there is no relatedEntityList, `this` is used as related entity for all $
+
+  actAll( format [, relatedEntityList ] )
+    description: send formatted message to everyone in the room
+    params: format: string: act's like string format
+            OPTIONAL relatedEntityList: entity/list of entity: related entity
+    return value: none
+    remarques: if there is no relatedEntityList, `this` is used as related entity for all $
+  
+  getAttr( attrName )
+    description: return current value of attributes `attrName`
+    params: attrName: string: attribute name (check appendix to see different values)
+    return type: depends on attrName, can be string, int, list of string
+
+  getBaseAttr( attrName )
+    description: same as getAttr but with base attributes
+
+  checkAttr( attrName, valueToCheck )
+    description: check []'s `attrName` has `valueToCheck`
+    params: attrName: string: attribute name (check appendix to see different values)
+            valueToCheck: not defined: value to check (type depends on attribute)
+    return type: boolean
+
+  getBaseAffect()
+    description: return []'s base affect 
+                 same as getBaseAttr("affects")+getBaseAttr("affects2")
+    params: no params
+    return type: list of string (check appendix to see different values)
+
+  getAffect()
+    description: same as baseAffect but returns current affect
+
+  checkAffect( valueToCheck )
+    description: check if [] is affected by `valueToCheck`
+    params: valueToCheck: string/list of string: value to check
+    return type: boolean
+
+  getAct()
+    description: return []'s act flags (act_flags if NPC, plr_flags if PC)
+    params: no params
+    return type: list of string (check appendix to see different values)
+
+  setAct( newAct )
+    description: set []'s act flags to `newAct`
+    params: newAct: new []'s act flags
+    return type: no return value
+
+  toggleAct( actValue )
+    description: toggle []'s act flags `actValue`
+    params: actValue: act flags to toggle
+    return type: no return value
+
+  checkAct( actValueToCheck )
+    description: check if []'s act flags has `actValueToCheck`
+    params: actValueToCheck: act flags to check
+    return type: boolean
+
+  aggrDamage( aggressor, dam, damType [, format [, relatedEntityList ]] )
+    description: aggressor does `dam` aggressive damage type `damType` on `this`
+    params: aggressor: char: character doing the damage
+            dam: int: damage amount
+            damType: string: damage type (pierce, fire, ...)
+	    OPTIONAL format: string: act like string format
+            OPTIONAL relatedEntityList: entity/list of entity: related entity
+    return type: integer: 0: damage not done
+                          1: damage done and not deadly
+                          2: damage done and deadly
+    remarques: if no `format` is specified, no message is sent (silent damage)
+               if no `relatedEntityList` is specified, `this` is the related entity
+
+  getFaction( factionName/all )
+    description: return `this` 's faction with `factionName`
+    params: factionName: string: name of the faction to test
+                                 all: return a list of couple ( faction name, value ) only for PC
+    return type: integer
+
+  setFaction( factionName/newFaction[, newValue] )
+    description: set faction `factionName` value to `newValue`
+    params: factionName: string: name of the faction (column)  only for PC
+            or newFaction: string: name of the faction to set  only for NPC
+            optional: newValue: integer: new faction value     only PC
+    return type: no return value
+
+  sayTo( target, msg )
+    description: send `msg` to `target` via silent dirsay channel
+    params: target: char: msg listener
+            msg: string: msg to send
+    return type: no return value
+
+  toggleFollower( target )
+    description: toggle `target` is following `this`
+    params: target: char: `target` will start/stop following `this`
+    return type: char: `target` 's master
+
+  isSafeSpell( act, area )
+    description: return if [] is safe from `act` 's spell (cannot be killed, stolen, ...)
+    params: act: char: char to test
+            area: int:  check is_safe_spell in fight.C
+    return type: int: safe or not
+
+  abilityDamage( aggressor, dam, damType, show, old, abilityName [, format [, relatedEntityList ]] )
+    description: aggressor does `dam` aggressive damage type `damType` on `this`
+    params: aggressor: char: character doing the damage
+            dam: int: damage amount
+            damType: string: damage type (pierce, fire, ...)
+            show: int: show damage
+            old: int: spell damage
+            abilityName: string: ability doing the damage
+	    OPTIONAL format: string: act like string format
+            OPTIONAL relatedEntityList: entity/list of entity: related entity
+    return type: integer: 0: damage not done
+                          1: damage done and not deadly
+                          2: damage done and deadly
+    remarques: if no `format` is specified, no message is sent (silent damage)
+               if no `relatedEntityList` is specified, `this` is the related entity
+
+  addDaze( amount )
+    description: same as DAZE_STATE( this, amount )
+    params: amount: int: how many ticks (in seconds)
+    return type: no return value
+
+  setStunned( amount )
+    description: set []'s stunned value
+    params: amount: int: how many combat round
+    return type: no return value
+
+  getStunned()
+    description: return []' stunned value
+    params: no params
+    return type: int: []' stunned value
+
+  getAttrINT( attrName )
+    description: return current value of attributes `attrName`
+    params: attrName: string: attribute name (check appendix to see different values)
+    return type: integer: same as getAttr but return the integer value, doesn't care about bitvector/int/...
+
+  hasShop()
+    description: return if a mob has shop data
+    params: no params
+    return type: integer: 0 if no shop, shop address else
+
+  cast( target, name, level, casting )
+    description: [] casts spell `name` level `level` with casting level `casting` on `target`
+    params: target: entity: player/mob/obj/room which the spell is cast on
+            name: string: spell name
+            level: int: spell level
+            casting: int: casting level
+    return type: no return value
+
+  findPath( victim, depth, in_zone )
+    description: return direction number from [] to `victim`
+    params: victim: entity: char which we want to find the path to
+            depth: int: if positive: don't pass thru closed doors
+                        if negative: pass thru closed doors
+                        value: max number of rooms between [] and `victim`
+            in_zone: int: 0: don't stay in the area, find path outside []'s current area
+                          1: stay in area
+    return type: int: direction from [] to `victim`
+
+  isImmortal()
+    description: return if [] is an immortal (only for player)
+    params: no params
+    return type: bool: [] is immortal?
+
+  description()
+    description: return []'s description
+    params: no params
+    return type: string: []'s description
+
+  setDescription( newDesc )
+    description: set []'s description to `newDesc`
+    params: newDesc: string: new []'s description
+    return type: no return value
+
+  giveObj( item )
+    description: `obj` is put in []'s inventory
+    params: item: obj: obj to give to []
+    return type: no return value
+
+  transfer( vnum )
+    description: transfer [] to room vnum `vnum`
+    params: vnum: int: vnum of room where [] will be transfered
+    return type: no return value
+
+Obj:
+  name()
+    description: return []'s name
+    params: no params
+    return type: string
+
+  level()
+    description: return []'s level
+    params: no params
+    return type: int
+
+  shortDescr()
+    description: return []'s short description
+    params: no params
+    return type: string
+
+  getCondition()
+    description: return []'s condition (between 0 (broken) and 100 (perfect))
+    params: no params
+    return type: int
+
+  setCondition( value )
+    description: set []'s condition to `value`
+    params: value: int: new []'s condition value (0[broken]..100[perfect])
+    return type: no return value
+
+  cost()
+    description: return []'s cost
+    params: no params
+    return type: int
+
+  carriedBy()
+    description: return char carrying [], (NULL if not carried)
+    params: no params
+    return type: char
+
+  say( msg )
+    description: send `msg` through say channel to everyone in the same room as []
+                  or []'s carrier room of [] is carried
+    params: msg: string: message to send
+    return type: no return value
+
+  tell( victim, msg )
+    description: send `msg` through tell channel to `victim`
+    params: victim: char: player/mob who will receive the message
+            msg: string: message to send to `victim`
+    return type: no return value
+
+  vnum()
+    description: return []'s vnum (-1 if [] is a player)
+    params: no params
+    return type: int
+
+  material()
+    description: return []'s material
+    params: no params
+    return type: string (check appendix to see different values)
+
+  itemType()
+    description: return []'s item type
+    params: no params
+    return type: string (check appendix to see different values)
+
+  destroy()
+    description: call extract_obj, to destroy []
+                  don't call any methods on [] after a destroy, can have strange behaviour
+    params: no params
+    return type: no return value
+
+  getNumber()
+    description:  return number of objects which [] counts as
+                   container may contain many items
+    params: no params
+    return type: int
+
+  getWeight()
+    description: return []'s weight, recursive if [] is a container
+    params: no params
+    return type: item
+
+  isEquiv( item )
+    description: return if [] is equivalent to `item`, compare pIndexData and short description
+    params: item: obj: item to compare
+    return type: int
+
+  wearFlags()
+    description: return []'s wear flags
+    params: no params
+    return type: list of string (check appendix to see different values)
+ 
+  cast( victim, name, level, casting ) NOT FINISHED
+    description: [] casts spell `name` level `level` with casting level `casting` on `victim`
+    params: victim: char: player/mob which the spell is cast on
+            name: string: spell name
+            level: int: spell level
+            casting: int: casting level
+    return type: no return value
+
+  echo( msg )
+    description: if [] is in a room, `msg` is sent to everyone in the same room
+                 if [] is carried by a char, `msg` is sent to carrier
+    params: msg: string: message to send
+    return type: no return value
+
+  oLoad( vnum )
+    description: load and return item vnum `vnum` in [] carrier's inventory 
+                  or in the same room if [] is not carried or item `vnum` cannot be carried
+    params: vnum: int: item vnum to load
+    return type: obj
+
+  mLoad( vnum )
+    description: load and return mob vnum `vnum` in same room as []'s carrier 
+                  or same room if not carried
+    params: vnum: int: mob vnum to load
+    return type: char
+
+  room()
+    description: return room where [] is in or room where []'s carrier is in
+    params: no params
+    return type: room
+
+  description()
+    description: return obj's description only if [] has one, return short description othewise
+    params: no params
+    return type: string
+
+  getTimer()
+    description: return []'s timer if [] has one of course
+    params: no params
+    return type: int
+
+  setTimer( timer )
+    description: set []'s timer
+    params: timer: int: new obj timer
+    return type: no return value
+
+  size()
+    description: return []'s size  (size is not anymore a restriction but an obj stat)
+    params: no params
+    return type: string
+
+  contains()
+    description: return a list of item contained in []
+    params: no params
+    return type: list of obj
+
+  getValue( valueId )
+    description: return value[`valueId`]
+    params: valueId: integer: value id (0-->4)
+    return type: integer
+
+  setValue( valueId, value )
+    description: set obj's  value[`valueId`] to `value`
+    params: valueId: int: which value we want to modify, between 0 and 4
+            value: int: new value     <-- FIXME: should depend of value and item type
+    return type: no return value
+
+  toggleValue( valueId, value )
+    description: toggle obj's  value[`valueId`] to `value`
+    params: valueId: int: which value we want to modify, between 0 and 4
+            value: int: value to toggle     <-- FIXME: should depend of value and item type
+    return type: no return value
+
+  checkValue( valueId, valueToCheck )
+    description: check if value['valueId'] is equal to `valueToCheck`
+    params: valueId: int: which value we want to modify, between 0 and 4
+            valueToCheck: int: value to check     <-- FIXME: should depend of value and item type
+    return type: boolean
+
+  getExtraFlags()
+    description: return []'s extra flags
+    params: no params
+    return type: list of string (check appendix to see different values)
+
+  setExtraFlags( flags )
+    description: set new extra flags for []
+    params: flags: list of string: new []'s extra flags (check appendix to see different values)
+    return type: no return value
+
+  toggleExtraFlags( flags )
+    description: toggle extra flags for []
+    params: flags: list of string: []'s extra flags to toggle (check appendix to see different values)
+    return type: no return value
+
+  checkExtraFlags( flagToCheck )
+    description: check if []'s extra flags contains `flagToCheck`
+    params: flagToCheck: list of string: []'s extra flags to check (check appendix to see different values)
+    return type: boolean
+
+  getWearFlags()
+    description: return []'s wear flags
+    params: no params
+    return type: list of string (check appendix to see different values)
+
+  setWearFlags( flags )
+    description: set new wear flags for []
+    params: flags: list of string: new []'s wear flags (check appendix to see different values)
+    return type: no return value
+
+  toggleWearFlags( flags )
+    description: toggle wear flags for []
+    params: flags: list of string: []'s wear flags to toggle (check appendix to see different values)
+    return type: no return value
+
+  checkWearFlags( flagToCheck )
+    description: check if []'s wear flags contains `flagToCheck`
+    params: flagToCheck: list of string: []'s wear flags to check (check appendix to see different values)
+    return type: boolean
+
+  actAll( format, relatedEntityList )
+    description: send formatted message to everyone in the obj.room()
+    params: format: string: act's format string
+            relatedEntityList: list of entity/entity: related entity(entities)
+    return type: no return value
+
+  setName( newName )
+    description: set []'s name
+    params: newName: string: new []'s name
+    return type: no return value
+
+  setShortDescr( newShD )
+    description: set []'s short description
+    params: newShD: string: new []'s short description
+    return type: no return value
+
+  setDescription( newDesc )
+    description: set []'s description
+    params: newDesc: string: new []'s description
+    return type: no return value
+
+  setLevel( newLevel )
+    description: set []'s level
+    params: newLevel: int: new []'s level
+    return type: no return value
+
+Room:
+  name()
+    description: return []'s name
+    params: no params
+    return type: string
+
+  vnum()
+    description: return []'s vnum
+    params: no params
+    return type: int
+
+  echo( msg )
+    description: send `msg` to everyone in the room
+    params: msg: string: msg to send
+    return type: no return value
+
+  description()
+    description: return []'s description
+    params: no params
+    return type: string
+
+  getBaseAttr( roomAttrName )
+    description: return base value of []'s `roomAttrName`   (check appendix to see different values)
+    params: roomAttrName: sting: name of the room attributes
+    return type: depends on roomAttrName
+
+  getAttr( roomAttrName )
+    same as getBaseAttr but return current value instead of base value
+
+  people()
+    description: return a list with every char in []
+    params: no params
+    return type: list of char
+
+  contents()
+    description: return a list with every item in []
+    params: no params
+    return type: list of obj
+
+  owner()
+    description: return []'s owner
+    params: no params
+    return type: string
+
+  guild()
+    description: return []'s guild (class which can enter in the room)
+    params: no params
+    return type: string
+
+  clan()
+    description: return []'s clan name
+    params: no params
+    return type: string
+
+  exits()
+    description: return a list with every exits in []
+    params: no params
+    return type: list of string ( "n", "e", "u", ...)
+
+  roomDir( dirName )
+    description: return room `dirName` from [], if it exists, NULL otherwise
+    params: no params
+    return type: room
+
+  mLoad( vnum )
+    description: load and return mob vnum `vnum` in []
+    params: vnum: int: mob vnum to load
+    return type: char
+
+  oLoad( vnum )
+    description: load and return obj vnum `vnum` in []
+    params: vnum: int: obj vnum to load
+    return type: obj
+
+  linked()
+    description: return true if [] is in a linked area: AREA_NOTELEPORT flag not set
+    params: no params
+    return type: int
+
+  areaName()
+    description: return []'s area name
+    params: no params
+    return type: string
+
+  transfer( entity )
+    description: put entity in room []
+    params: entity: char/obj: char or obj to put in the room
+    return type: no return value
+
+  createDoor( toRoomVnum, dirName )
+    description: create a passage from [] to `toRoomVnum` with direction `dirName`
+    params: toRoomVnum: int: room vnum
+            dirName: string: short direction name
+    return type: no return value
+
+  deleteDoor( dirName )
+    description: delete a passage from [] with direction `dirName`
+    params: dirName: string: short direction name
+    return type: no return value
+
+  createOneWayDoor( toRoomVnum, dirName )
+    description: create a one-way passage from [] to `toRoomVnum` with direction `dirName`
+    params: toRoomVnum: int: room vnum
+            dirName: string: short direction name
+    return type: no return value
+
+  deleteOneWayDoor( dirName )
+    description: delete a one-way passage from [] with direction `dirName`
+    params: dirName: string: short direction name
+    return type: no return value
+
+  around()
+    description: create a list with room around [], equivalent to [[ this.roomDir(x) | x <- this.exits() ]];
+    params: no params
+    return type: list of room
+
+  getExitFlags( dirName )
+    description: return exit flag of  exit `dirName` from `this`
+    params: dirName: string: short direction name
+    return type: list of string (check appendix to see different values)
+
+  setExitFlags( dirName, newFlags )
+    description: set exit flags for exit `dirName` from `this`
+    params: dirName: string: short direction name
+            newFlags: list of string/string: new exit flags
+    return type: list of string: new exit flags (check appendix to see different values)
+
+  toggleExitFlags( dirName, flagsToToggle )
+    description: toggle exit flags for exit `dirName` from `this`
+    params: dirName: string: short direction name
+            flagsToToggle: list of string/string: exit flags to toggle
+    return type: list of string: new exit flags (check appendix to see different values)
+
+  actAll( format, relatedEntityList )
+    description: send formatted message to everyone in the room
+    params: format: string: act's format string
+            relatedEntityList: list of entity/entity: related entity(entities)
+    return type: no return value
+ 
+  checkAttr( attrName, valueToCheck )
+    description: check if room's `attrName` has `valueToCheck`
+    params: attrName: string: room attribute name
+            valueToCheck: not defined: value to check (type depends on checked attribute)
+    return type: boolean
+
+  cast( victim, spellName, level, castingLevel )
+    description: cast a non aggressive spell `spellName` on `victim` with level `level` 
+                  and casting `castingLevel`
+    params: victim: char: spell's victim
+            spellName: string: name of the spell to cast
+            level: integer: spell's level
+            castingLevel: integer: spell's casting level
+
+Global: (no entity needed)
+  chance( value )
+    description: return if a random number between 0 and 100 is smaller than `value`
+    params: value: int: the higher `value` is, the most chance you have than function returns 1
+    return type: int
+
+  log( msg )
+    description: send `msg` in log file
+    params: msg: string: message to send to log file
+    return type: no return value
+
+  random( value )
+    description: return a random number between 0 and `value`
+    params: value: int: upper bound of random seed generator
+    return type: no return value
+
+  max( value1, value2 )
+    description: return maximum value between `value1` and `value2`
+    params: value1: int: 1st value to test
+            value2: int: 2nd value to test
+    return type: int
+
+  min( value1, value2 )
+    description: same as max( value1, value2 ) but return minimum value
+
+  range( value, min, max )
+    description: return `min` if value is smaller than `min`
+                 return `max` if value is greater than `max`
+                 return value in other case
+    params: value: int: value to test
+            min: int: lower bound
+            max: int: upper bound
+    return type: int
+
+  timeHour()
+    description: return current hour in mud
+    params: no params
+    return type: int
+
+  timeDay()
+    description: return current day in mud
+    params: no params
+    return type: int
+
+  timeMonth()
+    description: return current month in mud
+    params: no params
+    return type: int
+
+  timeYear()
+    description: return current Year in mud
+    params: no params
+    return type: int
+
+  dice( numberDice, valueDice )
+    description: return sum of `numberDice` roll of `valueDice`-sided dice
+    params: numberDice: int: number of dice to roll
+            valueDice: int: number of side of the dices
+    return type: int
+
+  getRoom( vnum )
+    description: return the room with vnum `vnum` if it exists, NULL otherwise
+    params: vnum: int: room vnum
+    return type: room
+
+  getCharList()
+    description: return a list containing every char in the mud, mobile and player
+                 dump char_list from mud to script
+    params: no params
+    return type: list of char
+
+  getObjList()
+    description: return a list containing every obj in the mud
+                 dump obj_list from mud to script
+    params: no params
+    return type: list of obj
+
+  getRoomList()
+    description: return a list containing every mud's room
+    params: no params
+    return type: list of room
+
+  dump( msg )
+    description: dump msg in the script dump file 'Rom/data/scripts.dump'
+    params: msg: string
+    return type: not return value
+
+  act( format, relatedEntityList, whoToSend )
+    description: same use as act() from mud's code, check notes upward
+    params: format: string: 
+            relatedEntityList: list of entity/entity: related entity(entities)
+            whoToSend: string: TO_ALL: send the msg to everyone in <room>
+                               TO_OTHER: send the msg to everyone in <room> except related entities
+                               TO_RELATED: send the msg to related entities
+                       list: list of entities to send the message to
+                       entity: entity to send the msg to
+   return type: no return value
+   remarques: <room> depends on calling entity: room: this
+                                                char: this.room()
+                                                obj: this.room() or this.carriedBy().room()
+
+Examples:
+=========
+// This class is an example showing basic functions
+// The parrot will repeat everything he hears
+//  and he will be happy if we give him a peanut
+class Parrot extends Mob {
+
+  // 'act' (type Char) says 'msg' (type String) via say channel
+  onSpeech(act, msg) {
+    if (!act.isNPC())     // if the talker is a player, not a mob
+      `say `msg`          //   the parrot repeats
+  }
+
+  // 'act' (type Char) has given 'obj' (type Obj) to 'this'
+  onGiven(act, obj) {
+    if ("peanut" in obj.name().words()) {    // if peanut is in the name of the given item
+      `emote seems happy.		     //   the parrot emotes "seems happy"
+      `eat peanut			     //   then eat the peanut
+      `say Bwaak!			     //   and finally say "Bwaak!"
+    } 
+  }
+}
+
+// A more difficult example: the shifting parrot
+// This parrot will repeat the previous sentence he heard 
+// When someone enter in the room, he'll ask for a peanut if we have one
+// And if we give him a peanut he'll eat it, otherwise he'll be upset
+class ShiftParrot extends Mob {
+  
+  // 'act' (type Char) says 'msg' (type String) via say channel
+  onSpeech(act, msg) {
+    if (!act.isNPC()) {		  // if the talker is not a mob
+      objvar this:prec = "Hello"; // field attached to the parrot -- not saved on reboot
+  				  // "hello" will be the first sentence the parrot will say
+				  // prec will then contain the last heard sentence, but we init it
+				  //  to "Hello"
+      `say `this.prec`            // the parrot say the last sentence he heard
+				  // don't have to use this.prec
+				  // `say `prec`       is correct too
+      this.prec = msg;		  // prec now contains the sentence `act` has just said
+    }
+  }
+
+  // 'act' (type Char) has entered the room from 'fromDir' (type String) direction
+  onGreet(act, fromDir) {
+    if (act.getObjCarried("peanut"))	// if 'act' has a peanut in his inventory
+      `say Please! Gime yourr peanut!	//   parrot asks for the peanut
+  }
+
+  // 'act' (type Mob) has given 'obj' (type Obj) to 
+  onGiven(act, obj) {
+    if ( "peanut" in obj.name().words()) // if 'act' gave a peanut
+      `eat peanut			 //   parrot eats it
+    else 				 // else
+      `say Crrrrr!			 //   parrot is not happy :))
+  }
+}
+
+
+// Filthy is the 'guardian' of assassin's guild he will only authorize
+//  assassins' players to enter the guild and will open them the door to leave
+//  the guild only if they knock on the door
+// He will eventually tell the secret sentence to guild member
+// The secret sentence can be changed by only modifying variable  this:secret
+// He is also a barman, so he extends shopkeeper
+class Filthy extends Shopkeeper {
+  onCreate() { // called when Filthy is created
+    objvar this:secret = "who watches the watchmen"; // secret sentence to be allowed in the guild
+
+    Shopkeeper::onCreate(); // we call parent (Shopkeeper) onCreate function, 
+                            // so we have dynamic fields needed to be a shopkeeper
+
+    profit_buy = 100; // modify base shopkeeper value
+    profit_sell = 250;
+    buy_type = [[ "drinkcontainer" ]];
+
+    if ( !this.checkAffect("detect_exits") ) // the door leading to the guild is hidden
+      log("Filthy is not affected by detect exits!!!");
+  }
+
+  onReset() { // onRepop would be correct to, even onPulseMobile would be great
+    // check if secret door has the right flags
+    //  change south exit flags
+    this.room().setExitFlags("s","door closed locked pickproof nopass hidden");
+    //  change south room, north exit flags
+    this.room().roomDir("s").setExitFlags("n","door closed locked pickproof nopass hidden");
+    // check if filthy has the key to open the door
+    if ( [[ x | x <- this.inventory(), x.vnum() == 3396 ]].size() == 0 ) {
+      log("Filthy doesn't have the key to open secret pathway");
+      this.oLoad(3396);
+    }
+  }
+
+  onGreet(act, from) { // When someone enters in the room from elsewhere than south
+    if ( act.canSee(this) // only if act sees filthy
+         && this.canSee(act) // and filthy sees act
+         && timeHour() >= this.open_hour && timeHour() <= this.close_hour  // shop open?
+         && !act.isNPC() // only for PC
+         && from != "s" ) // not from south
+      `say Welcome in my Inn, dear adventurer.
+  }
+
+  onExiting(act,to) { // When someone leaves the room to elsewhere than south
+    if ( act.canSee(this) // same test than onGreet
+         && this.canSee(act) // and filthy sees act
+         && timeHour() >= this.open_hour && timeHour() <= this.close_hour
+         && !act.isNPC()
+         && to != "s" )
+      `say I hope to see you soon in my shop.
+  }
+
+  randomMsg() {
+    if ( chance(50) )
+      `say What do you want ?
+    else
+      `say What do you need ?
+  }
+
+  secretTrigger(act, msg) {
+    if ( act.canSee(this) && !act.isNPC() && this.in_trade == 0 )
+      if ( "assassin" in act.classes() ) {
+        var w = msg.words();
+        if ( msg == this.secret ) {
+          `say Ok, `act.name()` you are allowed to go in the secret pathway.
+          `unlock south
+          `open south
+          force act `south
+          `close south
+          `lock south
+        }
+        else if ( w.includes("please password".words())
+                  || w.includes([["please","secret"]])) {
+          `whisper `act` The password is '`this.secret`' but don't tell it to anyone.
+          `chuckle
+        }
+        else
+          //randomMsg();
+          Shopkeeper::onSpeech( act, msg ); // we call parent (Shopkeeper) onSpeech trigger
+                                            //  so people are able to buy drinks
+      }
+      else
+        //randomMsg();
+        Shopkeeper::onSpeech( act, msg ); // we call parent (Shopkeeper) onSpeech trigger
+                                          //  so people are able to buy drinks
+  }
+
+  onWhisper(act, msg) {
+    secretTrigger(act, msg);
+  }
+
+  onSpeech(act, msg) {
+    secretTrigger(act, msg);
+  }
+
+  onKnock(act, from) { 
+    if ( from == "s" ) {
+      `unlock south
+      `open south
+
+      var room = act.room();
+      room.toggleExitFlags("n","nopass"); // remove nopass flag
+
+      // knocker leaves first
+      force act `north
+
+      // next the followers leave
+      var followers = [[ x | x <- room.people(), x.master() == act ]];
+      var i = 0;
+      while ( i < followers.size() ) {
+        force followers[i] `north
+        i = i+1;
+      }
+
+      room.toggleExitFlags("n","nopass"); // set nopass flag
+
+      `close south
+      `lock south
+    }
+  }
+}
+
+
+// clanAmulet are portal allowing to go in the clan hall
+// For special reasons we want to force player to wear their own clan amulet unless
+//  they are wearing an amulet of another clan
+// Players can't drop/put in a container/give their clan amulet unless
+//  they are already wearing one
+class clanAmulet extends Obj {
+  onCreate() {
+    // when adding a clan, don't forget to add the amulet vnum to this list
+    objvar this:clanAmuletVnum = [[ 1296, 18000, 18011, 18020, 18030, 18050 ]];
+    objvar this:clanName = [["McLeod", "Hunters", "Troll", "TheKlan", "Cthulhu", "Satanis"]];
+
+    // change wear_loc if clan amulet are worn on another wear location
+    objvar this:wear_loc = "hold";
+
+    // check if we didn't make any errors when filling lists
+    if ( clanAmuletVnum.size() != clanName.size() )
+      log("BUG: clanAmuletVnum's size ("+clanAmuletVnum.size()+") not the same as clanName"+clanName.size()+".");
+  }
+
+  // return if an item is a clan amulet
+  isClanAmulet( obj ) {
+    result = 0;
+    if ( obj != NULL )
+      // in  : list method testing if an element is contained in a list
+      result = obj.vnum() in clanAmuletVnum; // so this tests if obj vnum is in clan amulet vnum list
+  }
+
+  // Is `this` a clan amulet of act's clan
+  // We could use  
+  //   var i = clanName.index(act.clan)  instead of the  while
+  isOwnClanAmulet( act ) {
+    var clan = act.clan();
+    // search clan  in  clanName
+    var size = clanName.size();
+    var i = 0;
+    while( i < size && clanName[i] != clan )
+      i = i + 1;
+
+    result = 0;
+    if ( i != size ) { // found in list
+      if ( clanAmuletVnum[i] == this.vnum() ) // same vnum, so amulet is act's clan amulet
+        result = 1;
+    }  
+    else
+      log("BUG: clan "+clan+" missing in clanAmulet");
+  }
+
+  // check different case with amulet and act
+  // returned value:
+  // 0: act is not in a clan
+  // 1: act is already wearing a clan amulet
+  // 2: `this` is from another clan then act's clan
+  // 3: `this` is from act's clan
+  checkAmulet( act ) {
+    if ( act.clan() != "" ) { // player is in a clan
+      if ( !isClanAmulet( act.carryLocation(wear_loc) ) ) { // not wearing a clan amulet
+        if ( isOwnClanAmulet( act ) ) // own clan amulet
+          result = 3;
+        else
+          result = 2;
+      }
+      else
+        result = 1;
+    }
+    else
+      result = 0;
+  }
+
+  // if we got a clan amulet and not wearing a clan amulet, we wear it
+  onGot( act ) {
+    var i = checkAmulet( act );
+    if ( i == 3 ) { // we got act's clan amulet
+      this.echo("You have to wear your clan amulet.");
+      force act `wear `this`
+    }
+  }
+
+  // each tick, we check if the amulet is on a player, if yes: we force the player
+  //  to wear the amulet if he doesn't already wear a clan amulet
+  onPulseTick() {
+    var ch = this.carriedBy(); // amulet is worn ?
+    if ( ch != NULL ) { // object worn by a player
+      var i = checkAmulet( ch );
+      if ( i == 3 ) { // ch's clan amulet
+        this.echo("You have to wear your clan amulet.");
+        force ch `wear `this`
+      }
+    }
+  }
+
+  // cannot drop/give/put own clan amulet unless we're already wearing a clan amulet
+  mustKeep( act, which ) {
+    result = 0;
+    if ( act.clan() != "" ) { // player is in a clan
+      if ( isOwnClanAmulet( act ) ) { // own clan amulet
+        if ( !isClanAmulet( act.carryLocation(wear_loc) ) ) { // not wearing a clan amulet
+          this.echo("You can't "+which+" unless you are wearing one.");
+          result = 1;
+        }
+      }
+    }
+  }
+
+  // we cannot drop our clan amulet unless we're already wearing a clan amulet
+  onDropping( act ) {
+    result = mustKeep( act, "drop a clan amulet" );
+  }
+
+  // we cannot give our clan amulet unless we're already wearing a clan amulet
+  // same as onDropping( act ) 
+  onGiving( act, victim ) {
+    result = mustKeep( act, "give a clan amulet" );
+  }
+
+  // we cannot put our clan amulet in a container unless we're already wearing a clan
+  //  amulet
+  // same as onDropping
+  onPutting( act, container ) {
+    result = mustKeep( act, "put a clan amulet into container" );
+  }
+
+  // an amulet has been given to a player, if we (the amulet) are his/her clan amulet 
+  //  and he/she is not already wearing a clan amulet, we force him/her to wear it
+  onGiven( act, victim ) {
+    onGot( victim ); // equivalent to victim has got his/her clan amulet
+  }
+}
+
+
+Appendix:
+=========
+Flag values are the same as tables found in table.C
+The following values may have been modified, check in tables.C to be sure
+ available values are the same.
+
+  Attributes: used by getBaseAttr( attrName ) and getAttr( attrName )
+   attr name		attr type/available values
+   ---------		--------------------------
+   strength		integer
+   intelligence		integer
+   wisdom		integer
+   dexterity		integer
+   constitution		integer
+   hp			integer
+   mana			integer
+   moves		integer
+   psp			integer
+   saving throw		integer
+   hitroll		integer
+   damroll		integer
+   ac pierce		integer
+   ac bash		integer
+   ac slash		integer
+   ac magic		integer
+   dice number		integer
+   dice type		integer
+   dice bonus		integer
+   alignment		integer
+   sex			string: "male", "female", "none", "either"
+   classes		list of string : [["warrior"]], [["cleric", "neuromancer"]], ...
+   race			string: "sea-elf", "sprite", "human", ...
+   immunities	        lsit of string: [["fire"]], [["cold", "mental", "light"]], ...
+   resistances		list of string: [["fire"]], [["cold", "mental", "light"]], ...
+   vulnerabilities	list of string: [["fire"]], [["cold", "mental", "light"]], ...
+   affects		list of string: [["blind"]], [["sneak", "slow", "calm", "pass_door"]], ...
+   affects2		list of string: [["detect_exits"]], [["faerie_fog", "no_equipment"]], ...
+   parts		list of string: [["head"]], [["head", "heart", "eyes"]], ...
+   form			list of string: [["edible"]], [["poison", "cold_blood", "biped", "undead"]], ...
+   size			string:	"tiny", "small", "medium", "large", "huge", "giant"
+   etho			string: "chaotic", "neutral", "lawful"
+   disease		list of string: "lycanthropy", "plague", ... <-- NOT YET USED
+
+  Sex: used by sex()  string
+   male, female, none, either
+
+  Position: used by position()  string
+   dead, mortally wounded, incapacitated, stunned, 
+   sleeping, resting, sitting, fighting, standing
+  
+  Affects: used by baseAffect and currentAffect  string
+    blind, invisible, detect_evil, detect_invis, detect_magic, detect_hidden, detect_good
+    sanctuary, faerie_fire, infrared, curse, poison, protect_evil, protect_good
+    sneak, hide, sleep, charm, flying, pass_door, haste, calm, plague, weaken
+    dark_vision, berserk, swim, regeneration, slow, silence, rooted, walk_on_water
+    water_breath, detect_exits, magic_mirror, faerie_fog, no_equipment
+
+  Classes: used by classes()
+    see data/classes/pc/class.txt
+
+  Act: used by act()  string
+    act_flags for NPC
+      npc, sentinel, scavenger, aggressive, stay_area, wimpy, pet, train, practice
+      freewander, practice, undead, cleric, mage, thief, warrior, noalign, nopurge
+      outdoors, indoors, healer, gain, update_always, changer, is_safe
+    plr_flags for PC
+      npc, autoassist, autoexit, autoloot, autosac, autogold, autosplit, holylight,
+      can_loot, nosummon, nofollow, colour, permit, log, deny, freeze, thief,
+      killer, gambling, mortal
+
+  Etho: used by etho()  string
+   chaotic, neutral, lawful
+  
+  Wear Location: used by carryLocation( locName )  string
+    light, lfinger, rfinger, neck1, neck2, body, head, legs, feet, hands
+    arms, shield, about, waist, lwrist, rwrist, wielded, hold, lear, rear
+    eyes, floating, wield2, brand
+  
+  Extra Flags: used by extraFlags() and setExtraFlags( flags )  list of string
+    glow, hum, dark, staydeath, evil, invis, magic, nodrop, bless, antigood
+    antievil, antineutral, noremove, inventory, nopurge, rotdeath, visdeath
+    unique, meltdrop, hadtimer, sellextract, nosac, burnproof, nouncurse
+    donated, nolocate, noident, nocond
+
+  Material: used by material()
+    see data/material.txt
+
+  Item Type: used by itemType() string
+    light, scroll, wand, staff, weapon, treasure, armor, potion, furniture
+    trash, container, drinkcontainer, key, food, money, boat, npccorpse
+    pccorpse, fountain, pill, throwing, map, portal, warpstone, component
+    gem, jewelry, jukebox, instrument, clothing, grenade, window, skeleton
+    lever
+
+  Wear Flags: used by wearFlags() and setWearFlags( flags )  list of string
+    take, finger, neck, body, head, legs, feet, hands, arms, shield, about
+    waist, wrist, wield, hold, ear, eyes, wearfloat, brand
+
+  Room Attributes: used by getBaseAttr() and getAttr() with room
+   attr name		attr type/available values
+   ---------		--------------------------
+   flags                list of string: [["dark"]], [["safe", "imp_only" ]], ...
+   light                integer <-- better to not use that
+   sector               string: "inside", "city", "field", "forest", "hills", "mountain",
+                                "swim", "noswim", "burning", "air", "desert", "underwater"
+   healrate             integer: hp recovering rate
+   manarate             integer: mana recovering rate
+   psprate              integer: psp recovering rate
+   maxsize              string:	"tiny", "small", "medium", "large", "huge", "giant"
+
+  Exit Flags: used by get/set/toggleExitFlags(...)  list of string
+    door, closed, locked, pickproof, nopass, easy, hard, infuriating,
+    noclose, nolock, hidden, bashed, nosaving
+  
+
+
+// CONVERT FROM CLASSIC MUD PROGRAM TO OWN
+
+MOB-PROGRAMS COMMANDS
+
+MPECHO         MPE
+Syntax: MPECHO <colour> {phrase}
+Displays a phrase to the entire room.
+
+  --> x.echo(phrase);
+  --> x.actRoom(phrase,[[related entities]]);
+  --> x.actAll(phrase,[[related entities]]);
+ 
+
+MPECHOAT       MEA
+Syntax: MPECHOAT (name) <colour> {phrase}
+Displays a phrase to only the victim.
+
+  --> victim.sendTo(phrase);
+  --> victim.actTo(phrase,[[related entities]]);
+
+
+MPECHOAROUND   MER
+Syntax: MPECHOAROUND (name) <colour> {phrase}
+Displays a phrase to all in the room except victim.
+
+  --> [[ x.sendTo(phrase) | 
+         x <- this.room().people(), 
+         victim != x ]];
+  --> victim.actRoom(phrase,[[related entities]]);
+
+MPASOUND
+Syntax: MPASOUND <colour> {phrase}
+Displays a phrase to all surrounding rooms that connected to the room in which the program triggers, but not the triggering room itself.
+
+  --> [[ x.echo(phrase) |
+         x <- this.room().around() ]];
+  --> [[ x.actAll(phrase,[[related entities]]) |
+	 x <- this.room().around() ]];
+
+MPECHOZONE
+Syntax: MPECHOZONE <color> {phrase}
+The MPECHOZONE mpcommand works much like the ECHO and RECHO comands do except the specified string is only displayed within the area.
+  --> can't be done for the moment 
+
+ 
+MPMLOAD   MPOLOAD
+Syntax : MPMLOAD (vnum) {level}
+Syntax : MPOLOAD (vnum) {level} {timer}
+Loads a mob or object. In the case of objects, the level must be set, or supermob will end up setting the level. Timer is optional, and is the decay timer for objects.
+
+  --> var mob = this.mLoad(vnum);     //level can't be changed
+
+  --> var obj = this.oLoad(vnum);     //level can't be changed
+      obj.setTimer(timer);
+
+MPOSET
+Syntax: MPOSET (vnum) {field} [value]
+Functions much the same as OSET does.
+
+  --> obj.setValue( vIndex, value );
+  or  obj.setExtraFlags( newFlags ); // current extra flags can be got with obj.extraFlags();
+  or  obj.setCondition( newCondition ); // current condition can be obtained with obj.condition();
+  or  obj.setWearFlags( newFlags ); // current wear flags can be got with obj.wearFlags();
+  or  obj.setTimer( newTimer ); // current timer can be obtained with obj.timer();
+
+MPMSET
+Syntax: MPMSET (vnum) {field} [value]
+Functions much the same as MSET does.
+
+  --> check scripts.doc
+
+MPJUNK
+Syntax: MPJUNK (item)  Destroy a single item 
+Syntax: MPJUNK all.(item)  Destroy all of one item (Note the period) 
+Syntax: MPJUNK all  Destroy everything in inventory 
+Destroys an object in inventory/being worn. Displays no message to room.
+
+  --> obj.destroy(); // destroy one item
+  --> [[ x.destroy() | x <- act.inventory(), "item" in x.name() ]]; // destroy every items in act's inventory with "item" in the name
+  --> [[ x.destroy() | x <- act.inventory() ]]; // destroy every items in act's inventory
+      // same can be done with act.equipment() or room.contains() or obj.contains() or every commands returning a list of objects
+ 
+MPPURGE
+Syntax : MPPURGE (object/mobile)
+Example:      mppurge [Purges the contents of the entire room.] 
+     mppurge key [Purges the first key found in the room.] 
+    mppurge dog [Purges the first mob named "dog" in the room.] 
+Purges the room, or a specified object/mobile.
+
+  --> [[ x.destroy() | x <- room.people(), x.isNPC() ]]; // destroy every mobiles in the room
+      [[ x.destroy() | x <- room.contains() ]]; // destroy every objects in the room
+ 
+MPTRANSFER
+Syntax : MPTRANSFER (name/all) {location}
+Example: mptransfer $n 1000 [Transfer triggerer to room 1000] 
+  mptransfer $n joe [Transfer triggerer to mob named "joe"] 
+  mptransfer all 1000 [Transfer all in trigger room to room 1000] 
+Transfers one or all in the room to a specified location.
+
+  --> getRoom(1000).transfer(act);
+  --> var joe = [[ x, x <- getMobList(), "joe" in x.name() ]] [0]; // get the first mob named joe
+      if ( joe != NULL )
+        joe.room().transfer(act);
+      else
+        log("BUG: joe not found");
+  --> var room = getRoom(1000);
+      [[ room.transfer(x), x <- room.people() ]]; // transfer everyone in the room to room 1000
+
+MPSCATTER
+Syntax: MPSCATTER <victim> (vnum) (vnum)
+Functions much like teleport does, except that a vnumber range can be specified.
+
+  --> I suppose that a random room between the 2 vnum is used
+      var vnum = minVnum + random(maxVnum-minVnum); // same as number_range( minVnum, maxVnum )
+      var room = getRoom( vnum );
+      if ( room == NULL )
+        log("BUG: room "+vnum+" not found");
+      else
+        room.transfer(victim);
+
+MPFORCE
+Syntax: MPFORCE (name/all) {command/action}
+Forces a player/mob to do a command or action (non-functional on immortals, all will only force all in room).
+
+  --> force act `command
+ 
+MPSLAY
+Syntax: MPSLAY (victim)
+Slays the victim in cold blood (instant death); the victim gets no saving throw.
+
+  --> victim.suddenDeath(msg); // slay victim and send 'msg' through info channel if victim was a player
+
+MPDAMAGE
+Syntax : MPDAMAGE {victim} (amount) {damtype}
+Example: mpdamage 0.$n 100 [Do 100 hps damage to player $n] 
+This command inflicts a specified amount of damage on the victim. This damage will be affected by sanctuary, but is not affected by protect, saving throws or resists. Resistance/susceptibility will only be factored in if a damtype is specified.
+Note: A mob should _never_ mpdamage itself, at risk of crashing.
+Damtypes include: None, fire, cold, electricity, energy, acid, poison, and drain. 
+
+
+  --> act.damage( amount, damType, msgDeath );
+      // inflict amount damage to act, non aggressive damage (no aggressor)
+      // msgDeath is sent through info channel if act died and was a player
+
+MPDREAM
+Syntax: MPDREAM (target) {phrase}
+Sends a message to a sleeping character, same as "dream" spell.
+
+  --> target.sendTo(phrase); // no difference between a sleeping and awaken character 
+
+MPFLAG   MPRMFLAG
+Syntax: MPFLAG <victim> <flag> <value>
+Syntax: MPRMFLAG <victim> <flag> <value>
+Using these commands you can assign variables based on 128 "bits". These bits work like "On/Off" switches and may be assigned by any mob. A typical mpflag will look like :
+testing:3=[1]
+"testing" is the name of the flag, "3" is the vnum of the mob that assigned the flag, and the "[1]" is the bit that is enabled. When more than one bit is enabled, it will look more like:
+testing:3=[1 0 0 0 0 0 0 0 0 0 1]
+In this case, bits 1 and 11 are enabled, 2-10 are disabled. To make use of these flags, use the "isflagged" ifchecks. Mpflags will be assigned to a player for a mobs "level X intelligence". The flag will save when the character saves and will continue to exist for this amount of time "mudtime". You can also set the timer for a tag using the commands "noexpire" or "timer".
+Example: mpflag noexpire $n <flag> [value]
+Example: mpflag timer <#> $n <flag> [value]
+If no timer is designated, the timer is set based on the mobs intelligence multiplied by the mobs level.
+
+  --> check objvar section (dynamic field)
+
+MPTAG  MPRMTAG
+Syntax: MPTAG <victim> <tag> [value]
+Syntax: MPRMTAG <victim> <tag>
+Using these commands, you can assign a "tag", or "variable" to a character, either just the tag, or the tag and a value associated with it.
+The "tag" can be both a "string variable" (a group of characters, or words) or an "integer" variable, a number. If using a number you can use the ifcheck "istagged" to compare how big or little the number is using <>= operators.
+The tag assigned to a character will last on the character based on the mob's intelligence and level that assigned it. (eg: INT x LEVEL ) So a level 10 mob with an intelligence of 13 will tag for a length of 130 ticks. These tags will save to a characters pfile and will last over logging out and logging in. You can also set the timer for a tag using the commands "noexpire" or "timer".
+Example: mptag noexpire $n <tag> [value] 
+  mptag timer <#> $n <tag> [value] 
+You can additionally specify a vnum to be associated with a particular tag. Tagging a mob with the 0 vnum allows all mobs to see/modify that tag.
+Example: mptag $n <tag>:<vnum> [value] 
+  mptag $n <tag>:0 [value] 
+Mprmtag can also be used to clear all bits of a particular mpflag. See MPFLAG for more information.
+
+  --> check objvar section (dynamic field)
+ 
+MPRESTORE
+Syntax : MPRESTORE (victim) [amount]
+Example: mprestore self 200 [Triggerer restores self with 200 Hps] 
+This command restores a specified number of hitpoints to the victim. 
+
+  --> victim.addHit( amount );
+
+MPOPENPASSAGE   MPCLOSEPASSAGE
+Syntax : MPOPENPASSAGE (origin) (destination) {direction}
+Example: mpopenpassage 1000 1002 n 
+  [Open a passage north from room 1000 to room 1002] 
+Opens a passage to a room (does not affect pre-existing doors)
+Syntax : MPCLOSEPASSAGE (room) {direction}
+Example: mpclosepassage 1000 n 
+  [Close the north passage in room 1000] 
+Closes a passage to a room (does not affect pre-existing doors that were not created with mpopenpassage)
+
+  --> var room = getRoom( origin );
+      room.createOneWayDir( destination, direction ); // direction must be double-quoted: "n", "ne", ...
+  --> var room.getRoom( origin );
+      room.deleteOneWayDir( direction ); // direction must be double-quoted: "n", "ne", ...
+ 
+MPFILLIN
+Syntax: MPFILLIN <exit>
+New mpfillin, this simply sets a closed door bit, so can be used for several things, quietly closing a door, closing an exit that was dug, etc...
+
+  --> var flags = room.getExitFlags(flags);
+      if (!( "closed" in flags ))
+        room.toggleExitFlags("closed"); // toggle closed bit
+
+MPFAVOR
+Syntax: MPFAVOR <target> -(amount)
+Syntax: MPFAVOR <target> +(amount)
+Syntax: MPFAVOR <target> (amount)
+The MPFAVOR mpcommand is used to take, give, or set a PCs favor by/to the specified amount.
+Example: mpfavor 0.$n -10 [Decrease $n's favor by 10] 
+  mpfavor 0.$n +10 [Increase $n's favor by 10] 
+  mpfavor 0.$n 10 [Set $n's favor to 10] 
+Note: The current high/low settings for favor can not be exceeded: 2500 and -2500
+
+  --> doesn't exist in Rom ==> faction almost done: good replacement
+ 
+MPPRACTICE 
+Syntax: MPPRACTICE (victim) [skill/spell/language] {amount}
+This command will set the victim's percentage of proficiency in the specified skill/spell/language to the specified amount
+It cannot train a character in a skill/spell/language the character does not have as a part of its class and that it does not already have as a result of its level. In other words, it canot train a warrior in fireball, or a level 1 thief in gouge.
+
+  --> can't be done for moment
+ 
+MPADVANCE
+Syntax: MPADVANCE (name) [level]
+Advances the level of a player. (Not functional in prototype programs.)
+Note: This should only be used in very special circumstances.
+
+  --> can't be done and will probably never exists
+ 
+MPINVIS
+Syntax: MPINVIS
+Syntax: MPINVIS (level)
+This command controls a mob's ability to use a modified form of wizinvis. Use 'mpinvis' alone to toggle the invisibility. Use "mpinvis (level)" to set the level at which the mob will be invis.
+Mortals under the mobinvis level of the mob will be unable to see the mob when it goes mobinvis; they cannot see it with any spell, it will be completely invisible to them.
+Be warned, however, that its programs will still function as normal, the mortal will simply see a "Someone" if it performs an action or an echo that they see, just as if a wizinvis immortal performed the action.
+Also be warned that at the present time, area attacks _will_ hit a mobinvis creature even if it is invisible.
+
+  --> not really useful 
+
+MPSLEEP
+Syntax: MPSLEEP <delay>
+This command can be used to set a delay on a program's operation. The delay is measured in "beats". I believe there are currently 9 beats per second on RoD.
+Note: This command may be RoD specific.
+
+  --> timer can be created with objvar and be tested with onPulseMobile/onPulseTick
+ 
+MPKILL
+Syntax: MPKILL {name/variable}
+Attacks a player without using murder.
+
+  --> act.multiHit(victim);
+
+MPGOTO
+Syntax: MPGOTO (vnum)
+Goes to any room which is not private.
+
+  --> objvar previousLocation = act.room().vnum(); // store previous location vnum
+      act.transfer(vnum);  // getRoom(vnum).toRoom(act);  // produce the same result
+ 
+MPREGOTO
+Syntax: MPREGOTO
+This command will place a mob at the last location they were at before their last MPGOTO.
+
+  --> act.transfer(previousLocation);
+
+MPAT
+Syntax : MPAT (vnum) {command}
+Lets the mob
+Example: mpat 1000 drop all [Mob drops its inventory at room 1000] 
+ile perform a command at another location.
+
+  --> var previousLocation = act.room().vnum();
+      act.transfer(vnum);
+      `command
+      act.transfer(previousLocation);
+
+MPDEPOSIT   MPWITHDRAW
+Syntax: MPDEPOSIT <amount>
+Syntax: MPWITHDRAW <amount>
+This command orders the mobile to deposit or withdraw a specified number of gold coins from an area. These can be used in conjunction with mpat to tell the mob which area to withdraw/deposit money in.
+Example: mpat 21000 mpwithdraw 5000000  
+This would cause the mob to withdraw 5 million coins from the new Darkhaven area, as that is the area vnum 21000 is in.
+If mpat is note used, the mob will withdraw or deposit the gold from the area in which it is located at the time.
+
+  --> depend on bank system
+ 
+MPPLACE
+Syntax: MPPLACE <object name>
+Syntax: MPPLACE <object name> [area name]
+Syntax: MPPLACE <object name> [vnum range]
+This command allows the mob to drop an item in a random location either in the entire mud, inside a certain area, or inside a vnum range. It will not drop items in a room there is a player in, and it will not drop items in death traps.
+Note: Be sure the mob executing the command can see in the rooms he is dropping in.
+
+      // get a list with every room in the mud where there is any PC and have at least one exit
+  --> var roomList = [[ x | x <- getRoomList(), 
+                        x.exits().size() > 0
+			&& [[ y | y <- x.people(), !y.isNPC() ]].size() == 0 ]];
+      var room = roomList[ random( roomList.size() ) ]; // get a random room from above list
+      room.toRoom( obj );
+  --> var roomList = [[ x | x <- getRoomList(), x.areaName() == "area name" ]]; // get every room in an area
+      var room = roomList[ random( roomList.size() ) ]; // get a random room
+      room.toRoom( obj );
+  --> var roomVnum = minVnum + random( maxVnum-minVnum ); // get a number between minVnum and MaxVnum
+      var room = getRoom( roomVnum );
+      if ( room != NULL )
+        room.toRoom( obj );
+
+  --> // if you want to get a room without any player, on example 2:
+      var roomList = [[ x | 
+                        x <- getRoomList(), 
+                        x.areaName() == "area name" &&
+                        [[ y | y <- x.people(), !y.isNPC() ]].size() == 0 ]]; //check if there is a player in room x
+ 
+--------------------------------------------------------------------------------
+MPRETRANS
+Syntax: MPRETRANS <victim>
+This command will retransfer whoever or whatever the mob transferred to the last location it was at before it was MPTRANS'ed.
+
+  --> just have to store previous location before transfering 
+
+
+
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+
+MOB PROGRAM TRIGGERS
+
+
+    >act_prog  keyword(s)~ 
+    >act_prog  p  keyphrase~ 
+    This is the most general trigger. It responds to "act messages" received by 
+    the mob if and only if the message matches what you specify in the argument. 
+    There are two ways to specify this argument: 
+      As a list of (one or more) keywords. The act_prog will trigger if all of 
+      the keywords you specify is contained in the message the mob receives. 
+      As a letter 'p', followed by a space and a complete keyphrase. The 
+      act_prog will trigger only if the message it receives contains the exact 
+      sequence of words you specify, in the given order and with the given 
+      spacing. Punctuation characters are taken to be part of the words of the 
+      message, and once again, there is no partial matching. Thus, the correct 
+      act_prog phrase trigger for a poke in the ribs would be: 
+      >act_prog p pokes you in the ribs.~
+      Note the period. It's part of the "word", 'ribs.' . It's required for an 
+      exact match of the keyphrase.
+    In both cases, the action, i.e. the commands you code under the trigger 
+    line, happen if the words or phrase match. It's that simple. 
+
+    >all_greet_prog   probability 
+    This mobprog is triggered when any character enters the room the mob is in, 
+    unless the mob is fighting. The 'all' signifies that it means all 
+    characters, including ones the mob cannot see. The 'greet' part signifies a 
+    typical use: You could have your mob greet people arriving. However, you 
+    don't want to use THIS trigger as it would expose invisible people. There is 
+    a greet_prog further down which would be better suited. THIS trigger is more 
+    useful for high-tech tricks like teleporting players around. Or maybe 
+    completely impassable guardians. 
+    The probability specifies how likely it is that this trigger will actually 
+    activate even if its condition is met. In this case, if (for example) you 
+    specified "bow" as a command and "50" as a probability, the mob would 
+    randomly bow to about half the people entering the room. 
+
+    >bribe_prog   silver-amount 
+    Triggered by money given to the mob. The silver-amount argument is the 
+    minimum number of silver coins (or the gold equivalent) for which the 
+    trigger will activate. If you want your mob to respond to any donation, code 
+    a 1. It's hard to give less than 1 silver and still give, right? See also 
+    give_prog. 
+
+    >buy_prog   probability 
+    Triggered if someone buys something from the mob. This seems to be local to 
+    Dizzy as it's not mentioned in the 'other' documentation on MobProgs. 
+    Unfortunately, the mob is only aware that something has been bought, not 
+    what or for how much. So there's not much room for individual reactions. 
+
+    >death_prog  probability 
+    This happens at the same time that, without this trigger, the mob would do 
+    its death scream: After it was killed but before the body is turned into a 
+    corpse. The probability arg determines how likely it is that this trigger 
+    will activate instead of the death cry. The mob is put back in a STANDING 
+    position before your commands are executed, so you can code any commands 
+    without having to worry about the mob being too dead to perform them. Note, 
+    however, that nothing you can code can actually prevent the mob's death. 
+    Even if the mob were to fully restore itself, it would die after executing 
+    your commands. Still, some amazing sleight of hand can be accomplished with 
+    this trigger. The bunnies in the temple of Tao, which get right back up 
+    after being killed, are a cute example. They load a (fresh and unhurt) clone 
+    of themselves into their location, issue a message about getting up again, 
+    then (silently) go into another room to die. 
+
+    >entry_prog  probability 
+    This is done when the mob, wandering around, enters a new room. It will be 
+    done whether the room is inhabited or not (I think) so visibility of people 
+    in the room is not a problem as with (all_)greet_prog. Typical things to do 
+    are to peer around or to wave hello. 
+    
+    >fight_prog  probability 
+    This trigger is checked once every PULSE_VIOLENCE during a fight. On Dizzy, 
+    PULSE_VIOLENCE translates to once every 3 seconds. The probability is 
+    checked on each occasion, so if you code less than 100 here whatever it is 
+    will not happen EVERY 3 seconds, but randomly. 
+    This is often used to have the mob throw insults at his opponent. If/when 
+    MPCAST is implemented, it could be used to throw spells instead. Failing 
+    that, perhaps the mob could scream for help? 
+
+    >give_prog  object-name 
+    This is triggered when someone GIVEs an object (not money) to the mob. There 
+    is no probability, it always triggers. The argument specifies, though, which 
+    object will trigger the mobprog. The object-name argument must exactly match 
+    the keywords field of the object. ID and LORE show the list of keywords in 
+    single quotes just after the first word of the output, Object:. In order to 
+    match, you must specify the entire keyword list, exactly. You do not need to 
+    specify single quotes around object-name, though. 
+    You can have your mob respond to ANY object given to it by specifying all as 
+    the argument. 
+
+    >greet_prog  probability 
+    Like all_greet_prog, but will not trigger if the mob cannot see the 
+    character entering the room. Like all_greet_prog, it will also not activate 
+    if the mob is busy fighting. 
+    Some uses include shopkeepers who greet customers and picky thieves mobs who 
+    check players' wealth before attacking. Yeah, an attack can be a form of 
+    greeting too. 
+
+    >hitprcnt_prog  hp-percent 
+    If your mob is fighting, then the MUD checks very PULSE_VIOLENCE (see 
+    fight_prog) whether the mob's hit points are below hp-percent of his maximum 
+    hp. If so, this trigger will be activated. Although hp-percent is a 
+    percentage, please code only a number between 0 and 100, no percent sign! 
+    This is one of those triggers of which you can code multiple and of which 
+    only the first successful one is executed. I'll explain this in more detail 
+    below. For now, remember that you can have your mob do something different 
+    for various levels of hurt-ness by coding several mobprogs with percentages 
+    in ascending order, say 33, 66, 100 for three different stages of defeat. 
+    The first two will not trigger as long as the mob has better than 66% of his 
+    hp; after that the second one will trigger, etc. 
+
+    >in_file_prog  file-name 
+    This is not really a trigger, but a way to include a set of mobprogs from a 
+    different file at the place where this line is coded. It's part of the hard 
+    way to link MobProgs to mobs, so I will explain it later. 
+
+    >rand_prog  probability 
+    The only condition for this trigger is that there is at least one player in 
+    the same area as the mob. It happens randomly, with the frequency controlled 
+    by the probability you specify. It is checked by a timer running at 
+    PULSE_MOBILE, which is (in Dizzy, currently) every 4 seconds. If you code 
+    100 as the probability, your mob will do this every 4 seconds and probably 
+    annoy the heck out of people. If you code 7 for the probability, it will 
+    happen, on the average, every (4 * 100) / 7 seconds, or about every minute. 
+    This is almost tolerable. You may want to cut this down to 3 percent for a 
+    little less than once every 2 minutes, average. 
+
+    >speech_prog  keyword(s) 
+    speech_prog  p  keyphrase 
+    This trigger is similar to act_prog, except that the triggering word(s) or 
+    phrase must be said (using SAY) by a character in the same room as the mob, 
+    and not ACTed. A simple example for this useage is the Acolyte of Isa in the 
+    Mud School, which gives cake to newbies polite enough to answer 'yes' to her 
+    question. You probably don't want to code this TOO specifically, because 
+    player utterances can vary wildly. Consider yourself lucky if you get 
+    reasonable matches on a single word! 
+
+  Some more conditions governing the firing of triggers
+  There are a number of triggers which may appear a number of times for one mob. 
+  hitprcnt_prog was one example. For these triggers, you do not want to see the 
+  mob performing more than one at any one time. Happily, the MUD program checks 
+  to make sure that, from each of the following trigger types, only the first 
+  successful trigger is executed: 
+    bribe_prog 
+    death_prog 
+    entry_prog 
+    fight_prog 
+    give_prog 
+    rand_prog 
+  This is hard to picture without an example. Say you have 3 entry_progs for a 
+  mob, doing "peer", "grumble" and "scan", each with a 33% chance. Upon entering 
+  a room, chances are 33% that the mob will peer. If it does, it will not 
+  grumble or scan because it's already done one entry_prog and will do no more 
+  of the same kind. If it fails to peer, there is again a 33% chance that it 
+  will grumble. Failing that, there is yet a 33% chance that it will scan. 
+  Meanwhile, the occurrence of any other triggers is not affected at all; the 
+  mob could conceivably do a rand_prog the very same second, for example. 
+  If you're any good with math and probabilities, you will notice that the 
+  probabilities of the events in the example are not as simple as they look. 
+  There is really truly a 33% chance of the mob doing the first action. But the 
+  second one only happens in 33% of the 67% left over from the first case, which 
+  is only 22% chance. The chance of either of the first two events happening is 
+  33+22 = 55%. That leaves us only a 100-55 = 45% chance to check the third 
+  event. That comes to 33% of 45%, or less than 15%. The events 'further down' 
+  sort of 'live in the shadow' of the preceding events. And yes: 33+22+15 do not 
+  add up to 100 by a long shot, thus there is a 31% chance that none of the 3 
+  events will take place, although it looked like a 99% sure thing that one of 
+  them would. 
+  What's to be learned from all this? Never mind the math. Just remember that 
+  triggers of the same kind further down the line have less of a chance of 
+  happening than you would think. Also, if you're despairing of ever getting the 
+  probabilities just right, take hope from the fact that there are IFs and 
+  probability checks coming up soon which may help you code exactly what you 
+  mean. 
+  Something entirely different to be aware of: NONE of these triggers work if 
+  the mob is charmed! This keeps people from abusing mobprog behavior for their 
+  own evil plans. 
+
+
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+
+
+MOB-PROGRAM VARIABLES
+
+ $n: the first of the names of the Actor, who performed the action that set off the trigger.
+ $N: the name and title of the Actor. (rarely used)
+ $e: he / she / it based on sex of Actor.
+ $m: him / her / it based on sex of Actor.
+ $s: his / hers / its based on sex of Actor.
+
+ $o: the first of the keywordss of the direct object (The object NActor does something to). 
+ $O: the short description of the direct object
+ $a: a / an based on first letter of direct object
+
+ $p: the first of the keywords of the indirect object
+ $P: the short description of the indirect object
+ $A: a / an based on first letter of indirect object
+
+ $t: the first of the  names of a secondary character target, the one Actor does something to.
+ $T: for mobs:the short descriptionof the target character for players:the name and title
+ $E: he / she / it based on sex of Victim.
+ $M: him / her / it based on sex of Victim.
+ $S: his / hers / its based on sex of Victim.
+
+ $i: the first of the names of your mob (generally prefer $I)
+ $I: the short description of your mob.
+ $j: he / she / it based on sex of your mob.
+ $k: him / her / it based on sex of your mob.
+ $l: his / hers / its based on sex of your mob.
+
+ $r: the first of the names of a  random char in the room with the mobile  (never the same as your mob itself)
+ $R: for mobs:the short descriptionof the random char
+     for players:the name and title
+ $J: he / she / it based on sex of the random char.
+ $K: him / her / it based on sex of the random char.
+ $L: his / hers / its based on sex of the random char.

@@ -1,0 +1,399 @@
+AreaState 'Test area' {
+  Room 31000 {
+    Repop = 6;
+    Mobile 3060 {
+      Ptr = 173665128;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 306 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 337;
+      Room = 31000;
+    }
+    Mobile 3713 {
+      Ptr = 173665712;
+      isWildMagic = false;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 31000;
+    }
+    Mobile 3060 {
+      Ptr = 173834240;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 271 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 10;
+      Room = 31000;
+    }
+    Mobile 3713 {
+      Ptr = 173834824;
+      isWildMagic = false;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 31000;
+    }
+  }
+  Room 31001 {
+    Repop = 6;
+    Mobile 3713 {
+      Ptr = 173707264;
+      isWildMagic = false;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 31001;
+    }
+    Mobile 31000 {
+      Ptr = 173663960;
+      Desc = '';
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 7908, 7959 ),  ( 391 ),  ( 100 ),  ( 404 ) );
+      Room = 31001;
+      Affect = ( 'poison', 19, 41, 1, ('ability'),
+            ( 'char', 'strength', 0, -2 ),
+            ( 'char', 'affects', 1, ('poison') ) );
+      ExField = ( 'switchWeaponChance', 'int', -1, 85 );
+      ExField = ( 'shotChance', 'int', -1, 20 );
+      ExField = ( 'pointBlankChance', 'int', -1, 30 );
+      ExField = ( 'sharpenChance', 'int', -1, 33 );
+      ExField = ( 'envenomChance', 'int', -1, 33 );
+      ExField = ( 'igniteChance', 'int', -1, 33 );
+      ExField = ( 'bowyerChance', 'int', -1, 90 );
+      ExField = ( 'randomTimer', 'int', -1, 5 );
+      ExField = ( 'baseTimer', 'int', -1, 3 );
+      ExField = ( 'minArrow', 'int', -1, 15 );
+      ExField = ( 'fletcherChance', 'int', -1, 90 );
+      ExField = ( 'weapon', 'entity', -1, ( '<obj>', 31004, ( '<char>', 31000, 31001 ) ) );
+      ExField = ( 'bow', 'entity', -1, ( '<obj>', 31003, ( '<char>', 31000, 31001 ) ) );
+      Obj 31004 {
+      }
+      Obj 31003 {
+        WearLoc = 'wielded';
+      }
+      Obj 78 {
+        Condition = 40;
+        Level = 62;
+        Values = ( 10, 2, 4, 11, 0 );
+        Timer = 1;
+        Affect = ( 'ignite arrow', 0, 29, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 3, 3, 11, 0 );
+        Timer = 3;
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 2, 4, 11, 0 );
+        Timer = 3;
+        Affect = ( 'envenom', 25, 59, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('poison') ) );
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 3, 6, 11, 0 );
+        Timer = 4;
+        Affect = ( 'envenom', 12, 30, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('poison') ) );
+      }
+      Obj 78 {
+        Condition = 70;
+        Level = 63;
+        Values = ( 10, 3, 3, 11, 0 );
+        Timer = 4;
+        Affect = ( 'ignite arrow', 7, 31, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Level = 62;
+        Values = ( 10, 4, 3, 11, 0 );
+        Timer = 4;
+      }
+      Obj 78 {
+        Condition = 70;
+        Level = 63;
+        Values = ( 10, 2, 3, 11, 0 );
+        Timer = 3;
+        Affect = ( 'ignite arrow', 2, 32, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Level = 64;
+        Values = ( 10, 2, 3, 11, 8 );
+        Timer = 2;
+      }
+      Obj 78 {
+        Level = 64;
+        Values = ( 10, 2, 4, 11, 8 );
+        Timer = 3;
+      }
+      Obj 78 {
+        Level = 65;
+        Values = ( 10, 4, 5, 11, 8 );
+        Timer = 6;
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 4, 6, 11, 0 );
+        Timer = 7;
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 2, 4, 11, 8 );
+        Timer = 4;
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 3, 6, 11, 0 );
+        Timer = 3;
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 4, 4, 11, 0 );
+        Timer = 6;
+        Affect = ( 'ignite arrow', 9, 32, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Level = 62;
+        Values = ( 10, 3, 5, 11, 0 );
+        Timer = 5;
+        Affect = ( 'envenom', 31, 63, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('poison') ) );
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 4, 5, 11, 0 );
+        Timer = 7;
+        Affect = ( 'ignite arrow', 8, 32, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+    }
+    Mobile 3062 {
+      Ptr = 173664544;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 5 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 31001;
+    }
+    Obj 4 {
+      ShD = '90 silver coins';
+      Weight = 2;
+      Cost = 90;
+      Values = ( 90, 0, 0, 0, 0 );
+    }
+    Obj 4 {
+      ShD = '91 silver coins';
+      Weight = 2;
+      Cost = 91;
+      Values = ( 91, 0, 0, 0, 0 );
+    }
+    Obj 4 {
+      ShD = '80 silver coins';
+      Weight = 2;
+      Cost = 80;
+      Values = ( 80, 0, 0, 0, 0 );
+    }
+  }
+  Room 31002 {
+    Repop = 6;
+    Mobile 3060 {
+      Ptr = 173662792;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 231, 272 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 601;
+      Room = 31002;
+      Obj 78 {
+        Condition = 90;
+        Level = 63;
+        Values = ( 10, 4, 3, 11, 0 );
+        Timer = 2;
+      }
+      Obj 78 {
+        Condition = 60;
+        Level = 63;
+        Values = ( 10, 3, 5, 11, 0 );
+        Timer = 1;
+        Affect = ( 'ignite arrow', 5, 31, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Condition = 40;
+        Level = 63;
+        Values = ( 10, 2, 3, 11, 0 );
+        Timer = 2;
+        Affect = ( 'ignite arrow', 2, 32, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Condition = 50;
+        Level = 63;
+        Values = ( 10, 4, 6, 11, 0 );
+        Timer = 2;
+        Affect = ( 'ignite arrow', 1, 32, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Condition = 60;
+        Level = 62;
+        Values = ( 10, 4, 4, 11, 0 );
+        Timer = 2;
+        Affect = ( 'ignite arrow', 4, 31, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 2, 4, 11, 0 );
+        Timer = 2;
+        Affect = ( 'envenom', 9, 26, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('poison') ) );
+      }
+    }
+    Obj 5 {
+      ShD = '206 silver coins and 3 gold coins';
+      Weight = 5;
+      Cost = 506;
+      Values = ( 206, 3, 0, 0, 0 );
+    }
+    Obj 10 {
+      ShD = 'the corpse of the beastly fido';
+      Desc = 'The corpse of the beastly fido is lying here.';
+      Level = 1;
+      Values = ( 3062, 2097219, 2164413, 1, 0 );
+      Timer = 5;
+      ExField = ( 'killer_name', 'string', -1, 'a mobile test' );
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 3, 3, 11, 8 );
+        Timer = 6;
+      }
+    }
+  }
+  Room 31003 {
+    Repop = 6;
+    Mobile 3060 {
+      Ptr = 173710768;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 244, 284 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 134;
+      Room = 31003;
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 4, 3, 11, 0 );
+        Timer = 1;
+        Affect = ( 'envenom', 7, 26, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('poison') ) );
+      }
+      Obj 78 {
+        Condition = 90;
+        Level = 65;
+        Values = ( 10, 2, 6, 11, 8 );
+        Timer = 3;
+      }
+      Obj 78 {
+        Level = 64;
+        Values = ( 10, 3, 5, 11, 8 );
+        Timer = 1;
+      }
+    }
+  }
+  Room 31004 {
+    Repop = 6;
+    Mobile 3062 {
+      Ptr = 173710184;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 7 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 31004;
+    }
+  }
+  Room 31005 {
+    Repop = 6;
+    Mobile 3062 {
+      Ptr = 173709016;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 9 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 31005;
+    }
+    Mobile 3060 {
+      Ptr = 173709600;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 297 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 172;
+      Room = 31005;
+    }
+  }
+  Room 31006 {
+    Repop = 4;
+    Mobile 3060 {
+      Ptr = 173663376;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 318 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 114;
+      Room = 31006;
+    }
+    Mobile 3060 {
+      Ptr = 173708432;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 251, 276 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 78;
+      Room = 31006;
+      Obj 78 {
+        Condition = 60;
+        Level = 63;
+        Values = ( 10, 2, 4, 11, 0 );
+        Timer = 2;
+        Affect = ( 'ignite arrow', 4, 32, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 2, 6, 11, 0 );
+        Timer = 3;
+        Affect = ( 'envenom', 17, 42, 0, ('nondispellable', 'ability'),
+            ( 'weapon', 'weapon', 1, ('poison') ) );
+      }
+    }
+    Obj 10 {
+      ShD = 'the corpse of the snail';
+      Desc = 'The corpse of the snail is lying here.';
+      Level = 1;
+      Values = ( 3713, 268501057, 4257, 1, 0 );
+      Timer = 5;
+      ExField = ( 'killer_name', 'string', -1, 'a mobile test' );
+      Obj 78 {
+        Level = 65;
+        Values = ( 10, 2, 3, 11, 8 );
+        Timer = 2;
+      }
+    }
+  }
+  Room 31007 {
+    Repop = 6;
+    ExField = ( 'openPath', 'list', -1, ('1','w','2','w','n','n','w','3','w','w','n','n','n','4','e','e','e','5','n','5','e','e','e','6','w','w','w','w','w','w','6','s','s','4','s','s','s','e','e','s','s','e','s','e','e','e','2','e','7') );
+    ExField = ( 'closePath', 'list', -1, ('1','w','2','w','n','n','w','3','w','w','n','n','n','4','e','e','e','5','n','5','e','e','e','8','w','w','w','w','w','w','8','s','s','4','s','s','s','e','e','s','s','e','s','e','e','e','2','e','7') );
+    ExField = ( 'curPath', 'int', -1, 0 );
+    ExField = ( 'curPos', 'int', -1, 0 );
+    Mobile 3060 {
+      Ptr = 173707848;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 294 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 82;
+      Room = 31007;
+    }
+  }
+  Room 31008 {
+    Repop = 3;
+  }
+}

@@ -1,0 +1,54 @@
+Faction 'Elf' {
+  Races = ( 'sylvan-elf', 'grey-elf', 'high-elf', 'half-elf', 'sea-elf', 'avariel', 'fire-elf', 'desert-elf');
+  Friendliness = (( 'Elf', 1000 ), ( 'Under', -800 ), ( 'Dwarf', -800 ), ( 'Gnome', 0 ), ( 'Giant', 0 ), ( 'Goblin', -250 ), ( 'Undead', -1000 ), ( 'Common', 0 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Under' {
+  Races = ( 'drow', 'duergar', 'svirfneblin' );
+  Friendliness = (( 'Elf', -1000 ), ( 'Under', 1000 ), ( 'Dwarf', -1000 ), ( 'Gnome', -1000 ), ( 'Giant', -1000 ), ( 'Goblin', -1000 ), ( 'Undead', -1000 ), ( 'Common', -1000 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Dwarf' {
+  Races = ( 'mountain-dwarf', 'hill-dwarf', 'half-dwarf' );
+  Friendliness = (( 'Elf', -1000 ), ( 'Under', -1000 ), ( 'Dwarf', 1000 ), ( 'Gnome', 0 ), ( 'Giant', -1000 ), ( 'Goblin', 0 ), ( 'Undead', -500 ), ( 'Common', 0 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Gnome' {
+  Races = ( 'forest-gnome', 'rock-gnome', 'half-gnome' );
+  Friendliness = (( 'Elf', 0 ), ( 'Under', -1000 ), ( 'Dwarf', 0 ), ( 'Gnome', 1000 ), ( 'Giant', -1000 ), ( 'Goblin', 0 ), ( 'Undead', -500 ), ( 'Common', 0 ), ( 'Dragon', 0 ), ( 'Animal', 0 ));
+}
+
+Faction 'Giant' {
+  Races = ( 'storm-giant', 'cloud-giant', 'fire-giant', 'frost-giant', 'hill-giant', 'half-giant', 'troll' );
+  Friendliness = (( 'Elf', 0 ), ( 'Under', -1000 ), ( 'Dwarf', -1000 ), ( 'Gnome', -1000 ), ( 'Giant', 1000 ), ( 'Goblin', -500 ), ( 'Undead', 0 ), ( 'Common', 0 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Goblin' {
+  Races = ( 'goblin', 'hobgoblin', 'orc', 'half-orc', 'half-ogre', 'ogre', 'uruk-hai', 'gnoll' );
+  Friendliness = (( 'Elf', -500 ), ( 'Under', -1000 ), ( 'Dwarf', 0 ), ( 'Gnome', 0 ), ( 'Giant', -500 ), ( 'Goblin', 1000 ), ( 'Undead', -1000 ), ( 'Common', 0 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Undead' {
+  Races = ( 'shade', 'mummy', 'ghost', 'spectre', 'wight', 'death-knight', 'ghoul', 'banshee', 'vampire', 'lich', 'zombie', 'skeleton' );
+  Friendliness = (( 'Elf', -1000 ), ( 'Under', -1000 ), ( 'Dwarf', -500 ), ( 'Gnome', -500 ), ( 'Giant', 0 ), ( 'Goblin', -1000 ), ( 'Undead', 1000 ), ( 'Common', -1000 ), ( 'Dragon', 0 ), ( 'Animal', -600 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Common' {
+  Races = ( 'human', 'nekojin', 'lizardman', 'minotaur', 'halfling', 'mongrelman', 'ratling', 'wolven' ,'lupine');
+  Friendliness = (( 'Elf', 0 ), ( 'Under', -250 ), ( 'Dwarf', 0 ), ( 'Gnome', 0 ), ( 'Giant', 0 ), ( 'Goblin', 0 ), ( 'Undead', -250 ), ( 'Common', 1000 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Dragon' {
+  Races = ( 'draconian', 'holy-dragon', 'faerie-dragon', 'black-dragon', 'crystal-dragon', 'silver-dragon', 'dragon' );
+  Friendliness = (( 'Elf', -300 ), ( 'Under', -300 ), ( 'Dwarf', -300 ), ( 'Gnome', -300 ), ( 'Giant', -300 ), ( 'Goblin', -300 ), ( 'Undead', -300 ), ( 'Common', -300 ), ( 'Dragon', 0 ), ( 'Animal', -1000 ), ('notYetClassed', 0 ));
+}
+
+Faction 'Animal' {
+  Races = ( 'bat', 'bear', 'cat', 'centipede', 'dog', 'fido', 'fox', 'fish', 'horse', 'lizard', 'pig', 'rabbit', 'snake', 'song bird', 'water fowl', 'wolf', 'rat', 'bee', 'griffon', 'wyvern', 'school monster' );
+  Friendliness = (( 'Elf', 0 ), ( 'Under', 0 ), ( 'Dwarf', 0 ), ( 'Gnome', 0 ), ( 'Giant', 0 ), ( 'Goblin', 0 ), ( 'Undead', 0 ), ( 'Common', 0 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}
+
+Faction 'notYetClassed' {
+  Races = ( 'centaur', 'quickling', 'sprite', 'merfolk', 'diva', 'eldar', 'dryad', 'kenku', 'avian', 'satyr', 'seraphim', 'succubus', 'dracolich', 'doppleganger', 'gargoyle', 'titan', 'werewolf', 'doll', 'kobold', 'modron', 'pixie', 'cyclops', 'pit-fiend', 'naga', 'archangel' );
+  Friendliness = (( 'Elf', 0 ), ( 'Under', 0 ), ( 'Dwarf', 0 ), ( 'Gnome', 0 ), ( 'Giant', 0 ), ( 'Goblin', 0 ), ( 'Undead', 0 ), ( 'Common', 0 ), ( 'Dragon', 0 ), ( 'Animal', 0 ), ('notYetClassed', 0 ));
+}

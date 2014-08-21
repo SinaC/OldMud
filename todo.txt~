@@ -1,0 +1,292 @@
+!! ABILITIES NOT CODED summon angel, summon demon, flare, disguise, summon ghost
+
+!! flag_stat_table_init will be removed, only update_flag_stat_table will be used
+    -> redo bit.C
+
+!!!! saving extra fields in save_world_state can be really annoying if we have modified
+      the value of some fields in onCreate, those value will never be used
+      because they will be not be overwritten in onCreate due to the static idea of objvar
+     SOLUTION: always check  act  has  <extra field>  before using objvar
+                and use objvar this:<extra field>=<default value> only if <extra field> doesn't exist
+                otherwise, 1) create the extra field  2) assign a value
+
+!!! MUD was cycling after a copyover and a fight , dunno why!!!!
+
+!!! wanderingPlayer script crashes sometimes in function [top]
+
+!! check gsn_charm and add test on other spells giving AFF_CHARM
+   check calm, frenzy, berserk everywhere to see if we didn't forget to add some tests
+
+!! Check every spell with damage: test on damage done before doing extra affect, ... ?
+
+!! Confusion affected mob will continue fighting even if no player are in the room:
+    a player could enter a room full of mob, casts confusion on a mob, flees and wait until they
+    have killed the mob
+
+!! mud was cycling in copyover_recover in the loop  for(;;)  reading pFile,  the -1 was missing at 
+    end of file, this happens when save_world_state failed because file couldn't be opened -> WEIRD
+
+!! Restriction on faction
+
+!! Copyover file should store ARENA/AUCTION... information
+
+!!-----------> New list construction [a..b\c..d]  copy from a to b omitting from c to d
+                                     [a..b\c]       "                 "     c
+                                     [\c]         copy while list omitting c
+
+!! Important note: if a mob should have an ability but can't use it: check MobUse in <abilityType>.ini
+
+!! in ranged_damage, dam_message should show thrower only if in the same room
+
+!! Mandatory trigger argument: probability  onCreate( 50 )   onGreet( 20, act, from )
+    trigger is called only if chance(probability) -> allow us to precious CPU time
+
+!! in copyover file, save link: player following a mob
+
+!! If we modify a race (parts, aff, ...) already existing player will not get these modifications!!
+
+!! move_char: only leader trigger scripts?... test on Dracon II <====
+
+!! a prompt for each class: warrior     %h/%HHp %v/%VMv %xNxt %b
+                            mage        %h/%HHp %m/%MMn %v/%VMv %xNxt %b
+                            neuromancer %h/%HHp %p/%PPsp %v/%VMv %xNxt %b
+                            multiclass -> prompt all
+    defined by class.type
+
+!! onReset should have an additional argument??? real  same as onRepop
+
+!! When a player logs but failed password, his/her/its pet is also loaded and in_room is set
+    but in nuke_pets, we do an extract_char (called char_from_room) but the pet is not really
+    in the room -> bug message
+
+!! Set ability train cost for each class, get Dracon values
+
+!! remove unneeded include "XXX.h", last file done: flags.C
+
+!! instead of updating condition of item on mob, in reset_area we should update condition of item
+   which are resetted on mob
+
+!! create compute_spell_damage_soft/normal/hard( const int level, const int casting_level )
+    which will be used in every spells  STARTED (in damage.C)
+
+!! add colors in editor (oedit, aedit, redit, medit, dedit, pedit) and listing commands (dlist, program)
+   + more colors during creation
+
+!! after 2 consecutive copyover: no more players can connect (unless player which were connected before copyover leaves), and when a second connection try is done -> crash after select in game_loop_unix
+   it's probably a missing fclose or a memory overload
+   (/home/tmp/Rom/ doesn't have this problem  version from february 2003)
+
+!! redo paging while creating (in comm.C:nanny)  example: comm.C:2347
+
+!! mud is cycling when a rebirth char rebirth again
+
+!! problem with lycanthropy: if the char has already its race modified by an affect
+     its current race will be that race instead of werewolf -> avoiding lycanthropy nasty effect
+    solution: .add a priority on affect and do an sorted insertion
+              .remove every affects modifying race before setting lycanthropy as active
+
+.slumber is an offensive spell so if we don't fail and put target sleeping, we'll automatically
+  attack it -> quite useless spell
+
+verifier tous les ooc channels et utiliser NAME et act_new(...,POS_DEAD)
+ooc: utiliser NAME au lieu de PERS       idem pour tous les channels
+creer un vecteur de 10-15 skills/spells/powers off et def pour chaque mob_index_data
+remove all: remove each piece of equipment
+is_same_group: check les mob's groups
+ !!!!!!!!!!!!!!!!! descendre les degats de tous les spells !!!!!!!!!!!!!!!!!!!!!!!!
+augmenter les degats du fist_of_fury
+board icnote(rp)
+valid_update_target: leader/master ==> dupliquer
+supprimer le damage reduction seulement pour les joueurs (au debut de bool damage(...))
+slay lvl 105 pour mobiles et lvl 109 pour mortals
+reply: supprimer PERS et le act_new
+niveau pour mortal  (lol plus de 4000 match lors d'un grep level *.C)
+soul blade, ice knife, flame blade, holy blade, unholy blade: ajouter affect pour eviter d'en creer une toutes les 2 minutes
+afficher le clan avant le nom
+ne pas logger les drownings des NPC
+bright ansi a la connection: pour savoir si on a des couleurs bright ou pas
+tell: act_new(....POS_DEAD) au lieu de act     a la fin
+comm.C: ligne 3300  write_to_char: tester desc->character avant de tester la couleur
+xp dependant des spells sur le mob: sanc/haste/...
+clans edit: pkoi c'est une minuscule pour le whoname
+do_cast: base sur wisdom ou intelligence a fixer dans le fichier data
+
+BUG
+.Arena: if the arena has started and everyone in the arena is transfered
+  it looks like nobody has entered it :((
+.No dryad, doppleganger, vampire help.
+.If the copyover failed, people are not reconnected in the game->should close connections
+
+OTHER
+.Autogold could get the maximum gold/silver in the corpse and let the rest in
+  the corpse.
+.Taunt: force every mobs attacking members of the group to attack us.
+.Divert: opposite skill of rescue, divert <mob> will redirect the <mob> to
+  another member of the group.
+.Sharpen needs a sharpening stone (component).
+.Aggressive skills that can initiate a PK must send a yell message.
+.Every mobiles able to wear a weapon should use a weapon instead of damage
+  and damtype they are using, so when they are disarm they don't hit as hard as
+  they still have a weapon.
+.Vampirism (vampire race already created).
+.Haunting and unkillable mobs.
+.Bleeding wounds: when wounded a player loses hp each tick.
+.Bonus/Malus choosed during creation.
+.Arms, legs, ... can be cut during fight ==> must go to a special healer.
+.Set a timer when pkilled to avoid being kill every 5 sec.
+.bell curve for check_improve (en cloche).
+
+
+*remove_obj: on peut remover les no_remove si immortels
+*gain help: mettre 10 practices au lieu de 20
+*omatch, mmatch:   le nom de l'area est pas bien formatter  %40s pour le obj/mob name
+*si on relit 2 fois la meme class: warning
+*quand une nvelle est postee, avertir les gens
+*heal psp
+*socket merde un peu    {x
+*Sock.sinadd : remove gethostbyname
+*dans redit_sector, redit_room_flags, ...  appeler recompute_room
+*limiter le nbre moyen de degats des armes a 500
+*drowning: peut pas si on est undead
+*umax a remplacer par inline
+*propre attaques en vert, groupe attaques en jaune, monstre attaques en rouge
+* egalement parry, dodge, ... !!! pas evident !!!   
+* TO_CHAR en vert, TO_VICT en rouge et TO_NOTVICT en jaune  dans dam_message et
+* chaque skill de combat.
+*do_help: i < MAX_PCRACE  au lieu  de MAX_RACE
+*racehelp: remettre la condition du debut
+*ds do_exits: quand une porte est fermee, ne pas mettre la description de la piece
+*supprimer: gamble, uncover
+*supprimer la commande  story, worth
+*shroud: fait des slow
+*heal mana: fait un heal psp
+*check_spirit: ne plus hunter ou bien ne plus mettre aggressive
+*creer commande config: pour supprimer autoloot, autosac, ...
+*power_awe: msg si rate
+*specJanitor: ne ramasse pas que les trash et drink
+*spec_janitor: can_see_obj  avant de le ramasser
+*olc: mettre automatiquement WEAR_TAKE quand on cree un object
+*use: tester la position minimale
+*traiter 4th, 5th, 6th et 7th attaques ds mob_hit
+*skillstat/spellstat/powerstat sur les mobs sans classes
+*changer les check_blindfighting pour les mobs, c'est trop baleze
+*afstring: ne pas tenir compte du level si c'est un skill/spell d'identification
+*pas gagner d'xp ds battle
+*afficher les trains dans le mstat
+*commande pour compter le nbre de mobs/objets dans une area
+*checker si on fait bien un return apres un 'spell failed'
+*pray: tout le monde suivant le dieu entend + tous les dieux.
+*coder: easy, hard et normal  basé sur les tables de hitdice, damdice, manadice, hitroll, armor
+*automatic brand item giving.
+*fixer bug repairshop: load obj 24014 ... -35 silver et 15 gold
+*rajouter un flag special sur les mobs disant qu'ils peuvent quitter leur area
+ sans etre extracter
+*rajouter flag sur les spells pour voir si il est dispellable ==> dispel magic et cancel
+ plus facile a coder
+*redit_delete, medit_delete, oedit_delete: checker la security
+*n'envoyer 'A new note has been posted' qu'aux personnes concernees
+*shield block: player capable de shield blocker avec 0%
+*IS_SWITCHED: verifier si  ch->desc existe  ds olc.h
+*potion et pill diminue hungry et thirsty
+*spell_animate_dead   spell_mummify: control = 6  et control = 12  au lieu de 4
+*command area: additional argument: level  affiche les areas dont le range comprend ce level
+*mettre [LINKDEAD] devant un player linkdead quand on fait un look dans la piece
+*medit_race: faire un |=  au lieu d'un =
+*burning sector: fire_effect
+*quand on change la race d'un joueur, change sa size
+*afficher les flags si on a holylight  invis sur les objets
+*wail et lycanthropy: tester le get_skill
+*pkoi il faut etre lvl 105 pour voir le board immortal
+*mem.C: free_room_index a l'air de planter lors de la suppression des resets
+*note: chercher strr...  et faire la modif  letter[0] = '\0' si strr... est null ou
+ si taille <=2
+*hidden exit: ne sont hidden que si c'est des doors fermees
+*noscan, nospell seulement si pas immortel
+*{CHoly{x au lieu de {c
+*rajouter des {x dans show_resets
+*do_tell: NAME(ch) a lieu de PERS(ch,victim)  et  send_to_char(buf,victim) au lieu de act()
+*material: malachite
+*race: frost giant
+*prendre couleurs de dracon
+ room name: {c
+ exits auto: {x
+ mobs lors d'un look : {x
+*le counter des mob doit mieux marcher et celui des joueurs moins bien marcher
+-dans change_race: changer les damtypes/size
+-spell_death_breath: klevel = UMAX( level-7,1);
+-yell en vert: {Gyou yell ...{x
+-handler.C: supprimer log_stringf("affect_enchant");
+-skills.C: supprimer log_stringf("==>"); dans do_gain
+-special.C: supprimer log_stringf("cast");
+-db.C: supprimer le msg envoye a tout le monde lors d'un reset
+-quote: {y
+-animate dead, skel, ...: control > 36 au lieu de >=
+-chain_lightning: au debut du while: if ( ch->in_room == null ) break;
+-ne pas afficher hungry/thirsty dans le score si undead
+-spectre: retirer berserk des affects  et  le rajouter dans la race
+-instead of -1/0/1 dans les etho des spell_animate_XXX
+  mettre ETHO_LAWFUL, ETHO_NEUTRAL, ETHO_CHAOTIC
+-material: alabaster
+-checker res/imm poison dans poisonned drink/food
+-flesh golem: limit count on MOB_VNUM_FLESHGOLEM instead of MOB_VNUM_LGOLEM
+-immtalk: {BIMMTALK: {C%s(name){x phrase
+-apres confirmation du nom: 
+  Setting new character flag.
+  New character flag will be removed upon acceptance of you name.
+-dirt kick reussi, en blanc
+-frost-giant not accepted by any god
+-interp.C: quand on remove AFK quand une commande a ete tapee, tester que la commande
+  n'etait pas AFK
+-envenom standard dagger   <@@@> <-- BUG  quand on rate
+-alist: pourcentage: 2 chiffres apres la virgule
+-reset_room partie 'O' : supprimer cost = 0
+-checker quand on cree un nouveau charac si il y en a deja un appeler comme ca
+  dans la "creation list", pour eviter la creation de 2 perso avec le meme nom
+-color changed:
+  ({YGlowing{x)
+  ({yHumming{x)
+  ({DVampiric{x)  ({DVile{x)
+  ({YSparking{x)
+  ({CFrost{x)     ({CMisting{x)
+  ({GEnvenomed{x)   ({GPoisonned{x) ({GVenomed{x)
+  ({RFlaming{x)
+  ({CHoly{x)
+  ({yHeavy{x)
+  ({BSharp{x) ({BVicous{x)
+-apres avoir ecrit une note, envoyer un msg pour dire si on a recu des msgs pdt ce tps la
+-{cYou affected by the following spells{x  et supprimer le ---------------
+-ds un sort de degats, si la personne meurt avant les additionals affects, ne pas les faire
+-dans l'editeur de description: 
+- .l <line number>   supprimer une certaine ligne
+- .i <line number> <text>   insertion d'une ligne
+- .s    affiche les numeros de ligne
+-specialize <weapon type>: permet a un warrior de se specialiser dans un
+- type d'arme qu'il a deja a 100%
+- -> plus de chance de toucher, de faire de degats et d'avoir des attaques supplementaires
+- lvl 35 pour les warriors
+-Extra exits (nw,ne,sw,se).
+-colour spray: si le spell_blindness rate, on recoit 'spell failed' mais les degats du colour
+- se font quand meme --> il ne faut pas appeler un sort a partir d'un autre sort
+-supprimer transfer_obj_stay_death  checker ca dans make_corpse
+-death_cry: seulement si sentient, ne pas creer des parts que le mob n'a pas
+-creer une liste des noms interdit et la checker dans check_parse_name
+-ice knife: 2 fois des hitrolls au lieu de hitroll et damroll
+-les resets sur les shopkeepers ne sont pas forcement inventory
+-rajouter des regles a propos des immtitle, ne pas mettre de nom de joueur, de fausse infos.
+-ordre de l'equipment avec la commande equipement devrait partir de la tete au pied
+-quand on linke une piece vers une autre area: mettre l'autre area changed
+-RESET_HARD doit etre mis lors du boot
+-fvlist mob/room utiliser la meme mise en page que pour les objs
+-authorizer d'acheter des skills/spells/powers plus haut lvl que l'actuel
+-soul blade: donne des hps et le dam msg est random
+-changer la race des golems/zombies/mummies/...
+-sauver chgt de classes des pets?
+-create spell school: divination, elemental fire, alteration,...
+-lycanthropy
+-create race family: elf, gnome, giant,... -> super race
+-During creation, if we have sword as basic and add weaponmaster, then remove 
+-  weaponmaster, we lose sword. -> fixed
+-bug quand un joueur meurt dans une piece avec des mobs aggressifs, il se refait aggro
+ juste apres la phrase 'Tlik has been killed by...'  mais recoit la phrase
+ 'Not in this room. Don't even think about it'
+-clan new: le skill est mis a (null) plutot qu'a NULL

@@ -1,0 +1,1331 @@
+// Creation
+// --------
+PCRace 'human' {
+  WhoName = 'Human';
+  Experience = 1000;
+  Type = 'creation';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'common';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'ranger', 'monk', 'neuromancer', 'necromancer', 'paladin', 'blackguard', 'barbarian', 'assassin', 'druid', 'bard', 'elementalist', 'wizard', 'transmuter', 'enchanter', 'fire-elementalist', 'water-elementalist', 'air-elementalist', 'earth-elementalist','archer');
+  Remort = ('Nekojin', 'Lupine', 'Lizardman', 'Minotaur', 'Hobgoblin', 'Half-Dwarf', 'Half-Elf', 'Half-Gnome', 'Half-Giant', 'Mongrelman');
+  Rebirth = ( ('Ghost',25), ('Zombie',34), ('Skeleton',34), ('Spectre',5), ('Death-Knight',2) );
+}
+
+PCRace 'sylvan-elf' {
+  WhoName = 'SyElf';
+  Experience = 1600;
+  Type = 'creation';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 14, 22 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'elfish';
+  Abilities = ('hunt');
+  Alignment = ('Neutral Good', 'Chaotic Good', 'True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'assassin', 'ranger', 'monk', 'druid', 'elementalist','transmuter','enchanter','wizard','water-elementalist','fire-elementalist','air-elementalist','earth-elementalist','bard','archer');
+  Remort = ('High-Elf', 'Grey-Elf', 'Drow', 'Sea-Elf', 'Fire-Elf', 'Desert-Elf', 'Avariel', 'Half-Elf', 'Mongrelman' );
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'grey-elf' {
+  WhoName = 'GrElf';
+  Experience = 1550;
+  Type = 'creation';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 14, 22 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 8, 16 )
+                );
+  Language = 'elfish';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Lawful Neutral', 'True Neutral');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'assassin', 'neuromancer', 'ranger', 'monk', 'druid', 'bard', 'elementalist','fire-elementalist','air-elementalist','water-elementalist','earth-elementalist','transmuter','enchanter','wizard');
+  Remort = ('High-Elf', 'Sylvan-Elf', 'Drow', 'Sea-Elf', 'Fire-Elf', 'Desert-Elf', 'Avariel', 'Half-Elf', 'Mongrelman' );
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'high-elf' {
+  WhoName = 'HiElf';
+  Experience = 1600;
+  Type = 'creation';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 13, 21 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 14, 22 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'elfish';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'assassin', 'neuromancer', 'ranger', 'monk', 'druid', 'bard', 'elementalist','wizard','enchanter','transmuter','water-elementalist','fire-elementalist','air-elementalist','earth-elementalist','archer');
+  Remort = ('High-Elf', 'Sylvan-Elf', 'Grey-Elf', 'Drow', 'Mongrelman' );
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'half-elf' {
+  WhoName = 'HfElf';
+  Experience = 1400;
+  Type = 'creation';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'elfish';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'barbarian', 'assassin', 'blackguard', 'neuromancer', 'ranger', 'monk', 'druid', 'bard', 'elementalist','archer','water-elementalist','air-elementalist','fire-elementalist','earth-elementalist','archer');
+  Remort = ('Human', 'nekojin', 'High-Elf', 'Half-Dwarf', 'Half-Gnome', 'Half-Giant', 'Hobgoblin', 'Mongrelman' );
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'sea-elf' {
+  WhoName = 'SeElf';
+  Experience = 1650;
+  Type = 'creation';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 14, 22 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'elfish';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'assassin', 'neuromancer', 'ranger', 'druid', 'bard', 'elementalist','enchanter','wizard','transmuter','water-elementalist');
+  Remort = ('Sylvan-Elf', 'Grey-Elf', 'Fire-Elf', 'Desert-Elf', 'Avariel', 'Half-Elf', 'Mongrelman');
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'fire-elf' {
+  WhoName = 'FiElf';
+  Experience = 1500;
+  Type = 'creation';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'elfish';
+  Abilities = ('fireball');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'monk', 'bard', 'wizard', 'transmuter', 'enchanter','fire-elementalist');
+  Remort = ('Sylvan-Elf', 'Grey-Elf', 'Sea-Elf', 'Desert-Elf', 'Avariel', 'Half-Elf', 'Mongrelman');
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'desert-elf' {
+  WhoName = 'DeElf';
+  Experience = 1550;
+  Type = 'creation';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'elfish';
+  Abilities = ('create spring');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'druid', 'ranger', 'monk', 'bard', 'wizard', 'transmuter', 'enchanter', 'fire-elementalist', 'air-elementalist', 'water-elementalist', 'earth-elementalist');
+ Remort = ('Sylvan-Elf', 'Grey-Elf', 'Sea-Elf', 'Fire-Elf', 'Avariel', 'Half-Elf', 'Mongrelman');
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'avariel' {
+  WhoName = 'Avar';
+  Experience = 1450;
+  Type = 'creation';
+  Attributes = (( 'strength', 8, 16 ), 
+                ( 'intelligence', 13, 21 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'elfish';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'warrior', 'neuromancer', 'monk', 'elementalist','transmuter','wizard','enchanter','water-elementalist','earth-elementalist','air-elementalist');
+  Remort = ('Sylvan-Elf', 'Grey-Elf', 'Sea-Elf', 'Fire-Elf', 'Desert-Elf', 'Half-Elf', 'Mongrelman');
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'drow' {
+  WhoName = 'Drow';
+  Experience = 1650;
+  Type = 'creation';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 14, 22 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 15, 23 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'underdish';
+  Abilities = ('sneak', 'dodge');
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'monk', 'necromancer', 'assassin', 'elementalist','water-elementalist','air-elementalist','earth-elementalist','transmuter','wizard','enchanter');
+  Remort = ('High-Elf', 'Sylvan-Elf', 'Grey-Elf', 'Duergar', 'Svirfneblin', 'Half-Elf', 'Mongrelman');
+  Rebirth = ( ('Ghost',40), ('Banshee', 30), ('Spectre',20), ('Zombie',10) );
+}
+
+PCRace 'mountain-dwarf' {
+  WhoName = 'MDwrf';
+  Experience = 1400;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 7, 15 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'dwarfish';
+  Abilities = ('resize', 'forge','repair');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian');
+  Remort = ('Hill-Dwarf', 'Duergar', 'Half-Dwarf', 'Mongrelman');
+}
+
+PCRace 'hill-dwarf' {
+  WhoName = 'HDwrf';
+  Experience = 1400;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 7, 15 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'dwarfish';
+  Abilities = ('resize', 'sharpen', 'repair');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian');
+  Remort = ('Mountain-Dwarf', 'Duergar', 'Half-Dwarf', 'Mongrelman');
+}
+
+PCRace 'duergar' {
+  WhoName = 'Duer';
+  Experience = 1450;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 7, 15 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'underdish';
+  Abilities = ('resize', 'vorpalize', 'envenom', 'repair');
+  Alignment = ('Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian', 'thief', 'assassin');
+  Remort = ('Mountain-Dwarf', 'Hill-Dwarf', 'Half-Dwarf', 'Drow', 'Svirfneblin', 'Mongrelman' );
+}
+
+PCRace 'half-dwarf' {
+  WhoName = 'HDwrf';
+  Experience = 1300;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'dwarfish';
+  Abilities = ('resize');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'warrior', 'barbarian', 'wizard');
+  Remort = ('Human', 'Hill-Dwarf', 'Half-Elf', 'Half-Gnome', 'Half-Giant', 'Hobgoblin', 'Mongrelman');
+}
+
+PCRace 'storm-giant' {
+  WhoName = 'SGnt';
+  Experience = 1500;
+  Type = 'creation';
+  Attributes = (( 'strength', 16, 24 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 7, 15 ), 
+                ( 'constitution', 15, 23 )
+                );
+  Language = 'giantish';
+  Abilities = ('bash', 'lightning bolt');
+  Alignment = ('Lawful Good', 'Neutral Good', 'chaotic good','Lawful Neutral', 'True Neutral','chaotic neutral','lawful evil','neutral evil','chaotic evil');
+  Classes = ('mage', 'cleric', 'warrior', 'barbarian', 'elementalist','transmuter','wizard','water-elementalist','air-elementalist','fire-elementalist','earth-elementalist');
+  Remort = ('Hill-Giant', 'Cloud-Giant', 'Fire-Giant', 'Frost-Giant', 'Half-Giant', 'Mongrelman');
+}
+
+PCRace 'cloud-giant' {
+  WhoName = 'CGnt';
+  Experience = 1450;
+  Type = 'creation';
+  Attributes = (( 'strength', 15, 23 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 8, 16 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'giantish';
+  Abilities = ('flight', 'tornado');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good','Lawful neutral','true neutral','chaotic neutral');
+  Classes = ('mage', 'cleric', 'warrior', 'barbarian', 'neuromancer', 'elementalist','transmuter','wizard','water-elementalist','air-elementalist','fire-elementalist','earth-elementalist');
+  Remort = ('Hill-Giant', 'Storm-Giant', 'Fire-Giant', 'Frost-Giant', 'Half-Giant', 'Mongrelman');
+}
+
+PCRace 'fire-giant' {
+  WhoName = 'FiGnt';
+  Experience = 1500;
+  Type = 'creation';
+  Attributes = (( 'strength', 15, 23 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'giantish';
+  Abilities = ('fireball', 'burning hands');
+  Alignment = ('Lawful Good', 'Neutral Good', 'chaotic good','Lawful Neutral', 'True Neutral','chaotic neutral','lawful evil','neutral evil','chaotic evil');
+  Classes = ('mage', 'cleric', 'warrior', 'barbarian', 'elementalist','wizard','fire-elementalist');
+  Remort = ('Storm-Giant', 'Cloud-Giant', 'Frost-Giant', 'Half-Giant', 'Mongrelman');
+}
+
+PCRace 'frost-giant' {
+  WhoName = 'FoGnt';
+  Experience = 1500;
+  Type = 'creation';
+  Attributes = (( 'strength', 15, 23 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'giantish';
+  Abilities = ('chill touch', 'ice blast');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'warrior', 'barbarian', 'elementalist','wizard','water-elementalist');
+  Remort = ('Storm-Giant', 'Cloud-Giant', 'Fire-Giant', 'Half-Giant', 'Mongrelman');
+}
+
+PCRace 'hill-giant' {
+  WhoName = 'HllGt';
+  Experience = 1050;
+  Type = 'creation';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 7, 15 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 6, 14 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'giantish';
+  Abilities = ('mace', 'crush', 'berserk');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian');
+  Remort = ('Half-Giant', 'Storm-Giant', 'Cloud-Giant', 'Mongrelman');
+}
+
+PCRace 'half-giant' {
+  WhoName = 'HlfGt';
+  Experience = 1350;
+  Type = 'creation';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 9, 17 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'giantish';
+  Abilities = ('sword', 'crush');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian','druid','ranger','mage','wizard');
+  Remort = ('Human', 'Hill-Giant', 'Half-Dwarf', 'Half-Elf', 'Half-Gnome', 'Hobgoblin', 'Mongrelman');
+}
+
+PCRace 'troll' {
+  WhoName = 'Troll';
+  Experience = 1350;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 9, 17 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'giantish';
+  Abilities = ('bash');
+  Alignment = ('Lawful Evil', 'True Neutral', 'Neutral Evil', 'Chaotic Good', 'Chaotic Neutral', 'Chaotic Evil');
+  Classes = ('warrior', 'barbarian','cleric','thief');
+  Remort = ('Orc', 'Ogre', 'Uruk-Hai', 'Hobgoblin', 'Mongrelman');
+}
+
+PCRace 'nekojin' {
+  WhoName = 'Nkjin';
+  Experience = 1450;
+  Type = 'creation';
+  Attributes = (( 'strength', 11, 19 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 14, 22 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'common';
+  Abilities = ('sneak', 'climbing');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'ranger', 'monk', 'neuromancer', 'barbarian', 'assassin', 'druid', 'bard', 'elementalist','transmuter','enchanter','wizard','fire-elementalist','water-elementalist', 'air-elementalist','earth-elementalist');
+  Remort = ('Human','Lupine','Lizardman','high-elf','minotaur','mongrelman');
+}
+
+PCRace 'lupine' {
+  WhoName = 'Lupin';
+  Experience = 1450;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'common';
+  Abilities = ('berserk');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'ranger', 'monk', 'neuromancer', 'barbarian', 'assassin', 'druid', 'bard', 'elementalist','transmuter','enchanter','wizard','fire-elementalist','water-elementalist', 'air-elementalist','earth-elementalist');
+  Remort = ('Human', 'Nekojin', 'Lizardman', 'Minotaur', 'Hobgoblin', 'Mongrelman');
+}
+
+PCRace 'forest-gnome' {
+  WhoName = 'FGnom';
+  Experience = 1000;
+  Type = 'creation';
+  Attributes = (( 'strength', 7, 15 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'gnomish';
+  Abilities = ('dodge');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'thief', 'warrior', 'ranger', 'assassin', 'druid','monk','bard');
+  Remort=('Rock-Gnome', 'Svirfneblin', 'Half-Gnome', 'Mongrelman');
+}
+
+PCRace 'rock-gnome' {
+  WhoName = 'RGnom';
+  Experience = 1000;
+  Type = 'creation';
+  Attributes = (( 'strength', 7, 15 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'gnomish';
+  Abilities = ('dirt kicking');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'thief', 'warrior', 'ranger', 'assassin', 'druid','monk','bard','mage','wizard');
+  Remort=('Forest-Gnome', 'Half-Gnome', 'Svirfneblin', 'Mongrelman');
+}
+
+PCRace 'svirfneblin' {
+  WhoName = 'Svirf';
+  Experience = 1050;
+  Type = 'creation';
+  Attributes = (( 'strength', 8, 15 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'underdish';
+  Abilities = ('sneak', 'hide');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'thief', 'warrior', 'assassin','mage','wizard');
+  Remort = ('Forest-Gnome', 'Rock-Gnome', 'Drow', 'Duergar', 'Half-Gnome','Mongrelman');
+}
+
+PCRace 'half-gnome' {
+  WhoName = 'FGnom';
+  Experience = 1000;
+  Type = 'creation';
+  Attributes = (( 'strength', 8, 16 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 11, 19 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'gnomish';
+  Abilities = ('dodge');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'druid', 'bard', 'wizard');
+  Remort = ('Human', 'Rock-Gnome', 'Half-Dwarf', 'Half-Elf', 'Half-Giant', 'Hobgoblin', 'Mongrelman');
+}
+
+PCRace 'goblin' {
+  WhoName = 'Gobl';
+  Experience = 1250;
+  Type = 'creation';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 9, 17 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'goblinish';
+  Abilities = ('resize');
+  Alignment = ('Neutral Good','Chaotic Good','True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'barbarian', 'assassin','wizard');
+  Remort=('Hobgoblin', 'Orc', 'Ogre', 'Mongrelman');
+}
+
+PCRace 'hobgoblin' {
+  WhoName = 'Hobg';
+  Experience = 1300;
+  Type = 'creation';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'goblinish';
+  Abilities = ('sword');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'barbarian', 'assassin','wizard');
+  Remort=('Human', 'Goblin', 'Half-Dwarf', 'Half-Elf', 'Half-Gnome', 'Half-Giant', 'Mongrelman');
+}
+
+PCRace 'orc' {
+  WhoName = 'Orc';
+  Experience = 1350;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 8, 16 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 15, 23 )
+                );
+  Language = 'goblinish';
+  Abilities = ('sharpen');
+  Alignment = ('Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'thief', 'warrior', 'barbarian', 'assassin');
+  Remort=('Goblin', 'Hobgoblin', 'Ogre', 'Troll', 'Uruk-Hai', 'Mongrelman');
+}
+
+PCRace 'half-orc' {
+  WhoName = 'HfOrc';
+  Experience = 1100;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 9, 17 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'goblinish';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'warrior', 'barbarian', 'thief', 'barbarian');
+}
+
+PCRace 'half-ogre' {
+  WhoName = 'HfOgr';
+  Experience = 1100;
+  Type = 'creation';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 7, 15 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'goblinish';
+  Abilities = ('flail', 'dirt kicking');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian', 'thief');
+}
+
+PCRace 'ogre' {
+  WhoName = 'Ogre';
+  Experience = 1000;
+  Type = 'creation';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 6, 14 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 7, 15 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'goblinish';
+  Abilities = ('crush', 'berserk');
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian');
+  Remort=('Goblin', 'Orc', 'Hobgoblin', 'Troll', 'Mongrelman');
+}
+
+PCRace 'lizardman' {
+  WhoName = 'Lzard';
+  Experience = 1150;
+  Type = 'creation';
+  Attributes = (( 'strength', 11, 19 ), 
+                ( 'intelligence', 9, 17 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'lizardish';
+  Abilities = ('tailsweep');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'thief', 'warrior', 'barbarian','druid');
+  Remort = ('human','Nekojin','Lupine','Minotaur','Draconian','Mongrelman');
+}
+
+PCRace 'minotaur' {
+  WhoName = 'Mino';
+  Experience = 1300;
+  Type = 'creation';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 8, 16 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'common';
+  Abilities = ('berserk', 'disarm', 'axe');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian','mage','wizard');
+  Remort = ('Human', 'Nekojin', 'Lupine', 'Lizardman', 'Mongrelman');
+}
+
+PCRace 'centaur' {
+  WhoName = 'Cent';
+  Experience = 1450;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 8, 16 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'common';
+  Abilities = ('bash', 'dodge', 'rearkick');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'ranger');
+}
+
+PCRace 'halfling' {
+  WhoName = 'Halfl';
+  Experience = 1200;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 11, 18 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'dwarfish';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian', 'thief');
+}
+
+PCRace 'ratling' {
+  WhoName = 'Ratl';
+  Experience = 1200;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 11, 19 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 8, 16 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('forage', 'cure poison');
+  Alignment = ('Neutral Good', 'Chaotic Good', 'True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian', 'thief');
+}
+
+PCRace 'shade' {
+  WhoName = 'Shade';
+  Experience = 1350;
+  Type = 'creation';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 15, 23 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('fade');
+  Alignment = ('Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'thief', 'bard', 'neuromancer', 'warrior', 'assassin', 'necromancer', 'elementalist');
+}
+
+PCRace 'mummy' {
+  WhoName = 'Mummy';
+  Experience = 1450;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('curse', 'animate dead');
+  Alignment = ('Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'warrior', 'necromancer');
+}
+
+PCRace 'uruk-hai' {
+  WhoName = 'Uruk';
+  Experience = 1700;
+  Type = 'creation';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 16, 24 )
+                );
+  Language = 'goblinish';
+  Abilities = ('sword', 'second attack');
+  Alignment = ('Lawful Neutral', 'Lawful Evil', 'Neutral Evil');
+  Classes = ('cleric', 'warrior', 'barbarian', 'assassin');
+  Remort=('Troll', 'Hobgoblin', 'Orc', 'Mongrelman');
+}
+
+PCRace 'quickling' {
+  WhoName = 'Quick';
+  Experience = 1500;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 8, 16 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 15, 23 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'faerish';
+  Abilities = ('hide', 'speedup');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'thief', 'assassin', 'cleric', 'bard');
+}
+
+PCRace 'sprite' {
+  WhoName = 'Sprit';
+  Experience = 1300;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 7, 15 ), 
+                ( 'intelligence', 14, 22 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 7, 15 )
+                );
+  Language = 'faerish';
+  Abilities = ('hide', 'invisible');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'bard');
+}
+
+PCRace 'merfolk' {
+  WhoName = 'Merfl';
+  Experience = 1200;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 7, 15 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'common';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'warrior', 'barbarian', 'thief');
+}
+
+PCRace 'wolven' {
+  WhoName = 'Wolvn';
+  Experience = 1400;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 11, 19 ), 
+                ( 'intelligence', 8, 16 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 15, 23 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('sneak', 'hunt');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'warrior', 'barbarian', 'thief', 'ranger', 'assassin');
+}
+
+PCRace 'diva' {
+  WhoName = 'Diva';
+  Experience = 1500;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 9, 17 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 17, 25 )
+                );
+  Language = 'common';
+  Abilities = ('find familiar');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Lawful Neutral', 'True Neutral');
+  Classes = ('cleric', 'warrior', 'barbarian', 'ranger');
+}
+
+PCRace 'eldar' {
+  WhoName = 'Eldar';
+  Experience = 1500;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 8, 16 ), 
+                ( 'intelligence', 15, 23 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 8, 16 )
+                );
+  Language = 'common';
+  Abilities = ('lore', 'meditation');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Lawful Neutral', 'True Neutral');
+  Classes = ('mage', 'cleric', 'bard', 'elementalist');
+}
+
+PCRace 'dryad' {
+  WhoName = 'Dryad';
+  Experience = 1500;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 11, 19 ), 
+                ( 'constitution', 8, 16 )
+                );
+  Language = 'common';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Lawful Neutral', 'True Neutral');
+  Classes = ('ranger', 'warrior', 'thief', 'druid');
+}
+
+PCRace 'kenku' {
+  WhoName = 'Kenku';
+  Experience = 1300;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 8, 16 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 8, 16 )
+                );
+  Language = 'common';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('ranger', 'cleric', 'thief');
+}
+
+PCRace 'gnoll' {
+  WhoName = 'Gnoll';
+  Experience = 1250;
+  Type = 'creation';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 8, 16 ), 
+                ( 'wisdom', 7, 15 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'goblinish';
+  Abilities = ();
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'cleric', 'barbarian');
+}
+
+PCRace 'avian' {
+  WhoName = 'Avian';
+  Experience = 1200;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 8, 16 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'common';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral');
+  Classes = ('ranger', 'cleric', 'druid');
+}
+
+PCRace 'satyr' {
+  WhoName = 'Satyr';
+  Experience = 1300;
+  Type = 'notavailable';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 8, 16 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('dodge');
+  Alignment = ('Neutral Good', 'Chaotic Good', 'True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('ranger', 'cleric', 'druid', 'warrior', 'barbarian', 'thief');
+}
+
+PCRace 'draconian' {
+  WhoName = 'Draco';
+  Experience = 2050;
+  Type = 'creation';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 13, 21 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'common';
+  Abilities = ('flight', 'tailsweep', 'fire breath');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'ranger', 'monk', 'neuromancer', 'necromancer', 'paladin', 'blackguard', 'barbarian', 'assassin', 'druid', 'bard', 'elementalist', 'wizard', 'transmuter', 'enchanter', 'fire-elementalist', 'water-elementalist', 'air-elementalist', 'earth-elementalist','enchanter','transmuter','wizard');
+  Remort = ( 'Human', 'Lizardman', 'Mongrelman' );
+}
+
+// Rebirth
+// -------
+PCRace 'ghost' {
+  WhoName = 'Ghost';
+  Experience = 1300;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 8, 16 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 14, 22 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'common';
+  Abilities = ();
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'thief', 'bard', 'necromancer', 'elementalist');
+}
+
+PCRace 'spectre' {
+  WhoName = 'Spec';
+  Experience = 1300;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('deathgrip', 'berserk');
+  Alignment = ('Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'blackguard', 'barbarian', 'assassin');
+}
+
+PCRace 'wight' {
+  WhoName = 'Wight';
+  Experience = 1700;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 11, 19 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'common';
+  Abilities = ('soul blade', 'berserk');
+  Alignment = ('Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'blackguard');
+}
+
+PCRace 'death-knight' {
+  WhoName = 'DKni';
+  Experience = 1850;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'common';
+  Abilities = ('fireball', 'deathgrip');
+  Alignment = ('Chaotic Evil');
+  Classes = ('warrior', 'blackguard', 'assassin');
+  Remort = ('Human', 'Goblin', 'Hill-Dwarf', 'High-Elf', 'Rock-Gnome', 'Hill-Giant', 'Nekojin', 'Mongrelman');
+}
+
+PCRace 'ghoul' {
+  WhoName = 'Ghoul';
+  Experience = 1400;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 9, 17 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'common';
+  Abilities = ('cause light','plague');
+  Alignment = ('Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage','necromancer','wizard','warrior','cleric');
+  Remort = ('Human', 'Goblin', 'Hill-Dwarf', 'High-Elf', 'Rock-Gnome', 'Hill-Giant', 'Nekojin', 'Mongrelman');
+}
+
+PCRace 'banshee' {
+  WhoName = 'Bansh';
+  Experience = 1500;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 14, 22 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 9, 17 )
+                );
+  Language = 'common';
+  Abilities = ('wail');
+  Alignment = ('Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'assassin', 'thief', 'mage', 'necromancer', 'elementalist');
+}
+
+PCRace 'zombie' {
+  WhoName = 'Zombi';
+  Experience = 1200;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 11, 19 )
+                );
+  Language = 'common';
+  Abilities = ('curse');
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'mage', 'wizard' );
+  Remort=('Human', 'Goblin', 'Hill-Dwarf', 'High-Elf', 'Rock-Gnome', 'Hill-Giant', 'Nekojin', 'Mongrelman');
+}
+
+PCRace 'skeleton' {
+  WhoName = 'Skele';
+  Experience = 1150;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 9, 17 ), 
+                ( 'wisdom', 9, 17 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('dodge', 'berserk' );
+  Alignment = ('Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior');
+  Remort = ('Human', 'Goblin', 'Hill-Dwarf', 'High-Elf', 'Rock-Gnome', 'Hill-Giant', 'Nekojin', 'Mongrelman');
+}
+
+PCRace 'lich' {
+  WhoName = 'Lich';
+  Experience = 2150;
+  Type = 'rebirth';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 15, 23 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'common';
+  Abilities = ('animate dead');
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('necromancer', 'mage', 'elementalist', 'air-elementalist', 'earth-elementalist', 'transmuter', 'enchanter', 'warrior', 'wizard' );
+  Remort = ('Human', 'Goblin', 'Hill-Dwarf', 'High-Elf', 'Rock-Gnome', 'Hill-Giant', 'Nekojin', 'Mongrelman');
+}
+
+// Remort
+// ------
+PCRace 'mongrelman' {
+  WhoName = 'Mongr';
+  Experience = 1100;
+  Type = 'remort';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 7, 15 ), 
+                ( 'wisdom', 8, 16 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('pick lock', 'sneak');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'thief', 'warrior', 'barbarian', 'assassin');
+  Remort = ('Human', 'Goblin', 'Hill-Dwarf', 'High-Elf', 'Rock-Gnome', 'Hill-Giant', 'Nekojin');
+}
+
+PCRace 'seraphim' {
+  WhoName = 'Serap';
+  Experience = 2500;
+  Type = 'remort';
+  Attributes = (( 'strength', 11, 19 ), 
+                ( 'intelligence', 14, 22 ), 
+                ( 'wisdom', 15, 23 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'common';
+  Abilities = ('flight', 'dual wield', 'dispel evil');
+  Alignment = ('Lawful Good','neutral good', 'chaotic good', 'lawful neutral', 'true neutral');
+  Classes = ('warrior', 'paladin', 'mage', 'cleric','bard','ranger','monk','enchanter','transmuter','wizard', 'water-elementalist','fire-elementalist','air-elementalist','earth-elementalist','elementalist');
+  Remort = ('Human', 'Naga', 'Archangel' );
+  MinNumRemort = 2;
+}
+
+PCRace 'archangel' {
+  WhoName = 'Arch';
+  Experience = 3500;
+  Type = 'remort';
+  Attributes = (( 'strength', 15, 23 ), 
+                ( 'intelligence', 15, 23 ), 
+                ( 'wisdom', 15, 23 ), 
+                ( 'dexterity', 15, 23 ), 
+                ( 'constitution', 15, 23 )
+                );
+  Language = 'common';
+  Abilities = ('flight', 'dual wield', 'ice blast');
+  Alignment = ( 'Lawful Good', 'Neutral Good', 'Chaotic Good');
+  Classes = ('warrior', 'cleric', 'paladin', 'mage', 'elementalist', 'transmuter', 'enchanter', 'wizard', 'fire-elementalist', 'water-elementalist', 'earth-elementalist', 'air-elementalist' );
+  Remort = ('Human', 'Seraphim' );
+  MinNumRemort = 5;
+}
+
+PCRace 'naga' {
+  WhoName = 'Naga';
+  Experience = 2500;
+  Type = 'remort';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 15, 23 ), 
+                ( 'constitution', 15, 23 )
+                );
+  Language = 'common';
+  Abilities = ('dual wield', 'deathgrip', 'envenom', 'third wield', 'fourth wield' );
+  Alignment = ( 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'barbarian', 'cleric', 'thief', 'assassin', 'bard', 'mage', 'elementalist', 'transmuter', 'enchanter', 'necromancer', 'wizard', 'earth-elementalist' );
+  Remort = ('Human', 'Seraphim', 'Pit-Fiend' );
+  MinNumRemort = 2;
+}
+
+PCRace 'pit-fiend' {
+  WhoName = 'Pitf';
+  Experience = 3500;
+  Type = 'remort';
+  Attributes = (( 'strength', 15, 23 ), 
+                ( 'intelligence', 15, 23 ), 
+                ( 'wisdom', 15, 23 ), 
+                ( 'dexterity', 15, 23 ), 
+                ( 'constitution', 15, 23 )
+                );
+  Language = 'common';
+  Abilities = ( 'Flight', 'Dual Wield', 'Fireball' );
+  Alignment = ('Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'cleric', 'mage', 'elementalist', 'transmuter', 'enchanter', 'necromancer', 'wizard', 'blackguard', 'fire-elementalist', 'earth-elementalist' );
+  Remort = ('Human', 'Naga' );
+  MinNumRemort = 5;
+}
+
+PCRace 'succubus' {
+  WhoName = 'Succu';
+  Experience = 2100;
+  Type = 'remort';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 14, 22 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 13, 21 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('charm person');
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'mage', 'necromancer', 'assassin');
+}
+
+PCRace 'dracolich' {
+  WhoName = 'DLich';
+  Experience = 2250;
+  Type = 'remort';
+  Attributes = (( 'strength', 15, 23 ), 
+                ( 'intelligence', 13, 21 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'dragonish';
+  Abilities = ('energy drain', 'death breath', 'tailsweep');
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('necromancer', 'mage', 'warrior');
+}
+
+PCRace 'holy-dragon' {
+  WhoName = 'HDrag';
+  Experience = 2000;
+  Type = 'remort';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 14, 22 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'dragonish';
+  Abilities = ('ray of truth', 'protection good', 'tailsweep');
+  Alignment = ('Lawful Good', 'Neutral Good');
+  Classes = ('cleric', 'mage', 'warrior', 'wizard');
+}
+
+PCRace 'faerie-dragon' {
+  WhoName = 'FDrag';
+  Experience = 1800;
+  Type = 'remort';
+  Attributes = (( 'strength', 9, 17 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 12, 20 ), 
+                ( 'dexterity', 12, 20 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'dragonish';
+  Abilities = ('magic missile', 'colour spray', 'tailsweep');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'mage', 'warrior', 'wizard' );
+}
+
+PCRace 'black-dragon' {
+  WhoName = 'BDrag';
+  Experience = 2000;
+  Type = 'remort';
+  Attributes = (( 'strength', 13, 21 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 13, 21 ), 
+                ( 'dexterity', 11, 19 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'dragonish';
+  Abilities = ('protection evil', 'acid breath', 'tailsweep');
+  Alignment = ('Neutral Evil', 'Chaotic Evil');
+  Classes = ('necromancer', 'mage', 'warrior', 'wizard');
+}
+
+PCRace 'doppleganger' {
+  WhoName = 'Doppl';
+  Experience = 2000;
+  Type = 'remort';
+  Attributes = (( 'strength', 10, 18 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 10, 18 )
+                );
+  Language = 'common';
+  Abilities = ('morph');
+  Alignment = ('Chaotic Good', 'Chaotic Neutral', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'neuromancer', 'necromancer', 'elementalist', 'wizard', 'transmuter', 'enchanter', 'fire-elementalist', 'water-elementalist', 'air-elementalist', 'earth-elementalist');
+}
+
+PCRace 'gargoyle' {
+  WhoName = 'Gargl';
+  Experience = 1950;
+  Type = 'remort';
+  Attributes = (( 'strength', 12, 20 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 7, 15 ), 
+                ( 'constitution', 12, 20 )
+                );
+  Language = 'common';
+  Abilities = ('stone skin', 'polearm', 'stone fist', 'stone shield', 'flight' );
+  Alignment = ('Neutral Good', 'Chaotic Good', 'True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('cleric', 'elementalist', 'warrior', 'mage', 'earth-elementalist', 'wizard' );
+}
+
+PCRace 'crystal-dragon' {
+  WhoName = 'CDrag';
+  Experience = 2000;
+  Type = 'remort';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 11, 19 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 14, 22 )
+                );
+  Language = 'dragonish';
+  Abilities = ('cause critical', 'tailsweep');
+  Alignment = ('Chaotic Evil', 'Neutral Evil');
+  Classes = ('cleric', 'mage', 'warrior', 'wizard' );
+}
+
+PCRace 'silver-dragon' {
+  WhoName = 'SDrag';
+  Experience = 2000;
+  Type = 'remort';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 10, 18 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'dragonish';
+  Abilities = ('heal', 'tailsweep');
+  Alignment = ('Lawful Good', 'Neutral Good');
+  Classes = ('cleric', 'mage', 'warrior', 'wizard' );
+}
+
+PCRace 'titan' {
+  WhoName = 'Titan';
+  Experience = 1650;
+  Type = 'remort';
+  Attributes = (( 'strength', 15, 23 ), 
+                ( 'intelligence', 10, 18 ), 
+                ( 'wisdom', 10, 18 ), 
+                ( 'dexterity', 8, 16 ), 
+                ( 'constitution', 15, 23 )
+                );
+  Language = 'common';
+  Abilities = ('fast healing', 'berserk');
+  Alignment = ('Lawful Good', 'Neutral Good', 'Chaotic Good', 'Lawful Neutral', 'True Neutral', 'Chaotic Neutral', 'Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'barbarian', 'ranger', 'cleric');
+}
+
+// Cursed
+// ------
+PCRace 'werewolf' {
+  WhoName = 'Werew';
+  Experience = 1800;
+  Type = 'cursed';
+  Attributes = (( 'strength', 15, 25 ), 
+                ( 'intelligence', 6, 14 ), 
+                ( 'wisdom', 6, 14 ), 
+                ( 'dexterity', 15, 25 ), 
+                ( 'constitution', 15, 25 )
+                );
+  Language = 'common';
+  Abilities = ('hand to hand','bite');
+  Alignment = ('True Neutral', 'Chaotic Neutral', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('warrior', 'barbarian');
+}
+
+PCRace 'vampire' {
+  WhoName = 'Vamp';
+  Experience = 1800;
+  Type = 'cursed';
+  Attributes = (( 'strength', 14, 22 ), 
+                ( 'intelligence', 12, 20 ), 
+                ( 'wisdom', 11, 19 ), 
+                ( 'dexterity', 14, 22 ), 
+                ( 'constitution', 13, 21 )
+                );
+  Language = 'common';
+  Abilities = ('feed', 'mistform', 'flight');
+  Alignment = ('Lawful Evil', 'Neutral Evil', 'Chaotic Evil');
+  Classes = ('mage', 'cleric', 'thief', 'warrior', 'assassin', 'necromancer', 'blackguard', 'elementalist', 'neuromancer');
+}
+

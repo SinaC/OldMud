@@ -1,0 +1,55 @@
+class mount extends Mob {
+  moveDir( dir ) {
+    if ( dir == 0 )      `north
+    else if ( dir == 1 ) `east
+    else if ( dir == 2 ) `south
+    else if ( dir == 3 ) `west
+    else if ( dir == 4 ) `up
+    else if ( dir == 5 ) `down
+    else if ( dir == 6 ) `northeast
+    else if ( dir == 7 ) `northwest
+    else if ( dir == 8 ) `southeast
+    else if ( dir == 9 ) `southwest
+    else if ( dir == 10 ) `dive
+    else
+      log("Mount::onPulseMobile  invalid dir ["+dir+"] for ["+this.shortDescr()+" | "+this.vnum()+"]");
+  }
+  onPulseMobile() {
+    var master = this.master();
+    if ( master == NULL ) {
+      log("Mount::onPulseMobile  no master for ["+this.shortDescr()+" | "+this.vnum()+"]");
+    }
+    else if ( master.room() != this.room()   // not in same room
+              && this.checkAct("mounted")    // and mounted
+              && ( this.isAffected( "bond" ) // and affected by bond
+    	           || chance(50) ) ) {       //  or lucky
+//      log("Mount::onPulseMobile  trying to find master for ["+this.shortDescr()+" | "+this.vnum()+"]");
+      var dir = -1;
+      if ( this.isAffected("pass door") )
+        dir = this.findPath(master, -40000, 0 ); // thru doors (-40000) and thru different area (0)
+      else
+        dir = this.findPath(master, 40000, 0 ); // NOT thru doors (40000) and thru different area (0)
+//      if ( dir == -1 ) {
+//        log("Mount::onPulseMobile no path to master ["+master+"]  for ["+this.shortDescr()+" | "+this.vnum()+"]");
+//      }
+//      else {
+      if ( dir != -1 ) {
+        var before = this.room();
+        // move to dir
+        moveDir( dir );
+//        log("Mount::onPulseMobile  moving to direction ["+dir+"]  for ["+this.shortDescr()+" | "+this.vnum()+"]");
+        var after = this.room();
+        if ( before == after ) { // not moved
+          log("Mount::onPulseMobile  can't move from ["+before.vnum()+"] to direction ["+dir+"] for ["+this.shortDescr()+" | "+this.vnum()+"]");
+        }
+        else if ( first[[ x <- after.people(), x == master ]] != NULL ) {
+//          log("Mount::onPulseMobile  found master back for ["+this.shortDescr()+" | "+this.vnum()+"]");
+          master.actTo("$n found you back.",this);
+          act("$n found back $s master $n.",[[this,this,master]],"TO_OTHER");
+          //FIXME: better: act("$n found back $s master",this,[[this.room().people()\master]]);
+        }
+        // next tick, we'll move closer to our master
+      }
+    }
+  }
+}

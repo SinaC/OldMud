@@ -1,0 +1,348 @@
+// FIXME, if taxidermist (mob 808) is replaced with this, player_name, short_descr and long_descr are linked
+//  if we try to edit long description, short descr and name will be modified
+// description is linked too
+//#808
+// changed~
+//changed~
+//A taxidermist is here waiting to do some job.
+//~
+//~
+//human~
+//0
+//Ae 0 0 0 0 0
+//50 50 50d10+4500 50d10+100 50d10+100 5d8+19 none
+//-20 -20 -20 -13
+//0 0 0 0
+//stand stand none 0
+//AHMV ABCDEFGHIJK medium unknown
+//M
+//taxidermist
+
+
+class ShiftParrot extends Mob {
+  onSpeech(act, msg) {
+    if (!act.isNPC()) {
+      // field attached to the parrot -- not saved on reboot
+      objvar this:prec = "Hello";  
+  
+      `say `prec`
+      prec = msg;
+    }
+  }
+
+  onGreetLeader(act, from) {
+    if ( act.getObjCarried("peanut") != NULL )
+      `say Please! Gime yourr peanut!
+  }
+
+  onGiven(act, obj) {
+    if ( "peanut" in obj.name().words())
+      `eat peanut
+    else 
+      `say Crrrrr!
+  }
+}
+
+class Parrot extends Mob {
+  onSpeech(act, msg) {
+    if (!act.isNPC())
+      `say `msg`
+  }
+
+  onGiven(act, obj) {
+    if ("peanut" in obj.name().words()) {
+      `emote seems happy.
+      `eat peanut
+      `say Bwaak!
+    } 
+  }
+}
+
+
+class Groom extends Mob {
+  onBribe(act, amount, isSilver ) {
+    if (!isSilver)
+      amount = amount * 100;
+    if (amount < 10)
+      `emote seems disappointed.
+    else {
+      `thank `act.name()`
+      if (amount > 100)
+        `bow `act.name()`
+    }
+  }
+
+  onGreetLeader(act, from) {
+    if (!act.isNPC()) {
+      `bow `act.name()`
+      if (from == "s") {
+        if (act.getAttr("sex") == "female" )
+          `say Good day, milady.
+        else
+          `say Hello, good master.
+        `say Welcome in the museum.
+        `close south
+      }
+    }
+  }  
+
+  onExitingLeader(act, to) {
+    if (!act.isNPC() && to == "s") {
+      `say Goodbye, and remember this museum is under construction.
+      `say Feel free to come back as soon as you want.
+    }
+  }
+
+  onExitedLeader(act, to) {
+    if (to == "s") 
+      `close south
+  }
+
+  onKnock(act, from) {
+    if (from == "s" && !act.isNPC()) {
+      `open south
+      `yell Come inside.
+    }
+  }
+
+  onSpeech(act,msg) {
+    if (msg.words().includes("give peanut".words())
+	|| msg.words().includes("give peanuts".words())) {
+      this.oLoad(800);
+      `give peanut `act`
+      `smile `act`
+    }
+  }
+}
+
+// obj program
+class ultimateWeapon extends Obj {
+   onCreate() {
+     objvar this:energy = 250;
+     objvar this:tick = 0;
+   }
+
+   onLooking(act) {
+     if ( this.carriedBy() == act )
+       this.say("What do you want great master?");
+     else
+       this.say("Get me and you'll be rewarded...");
+     result = 1;
+   }
+
+   onPulseTick() {
+     // every ten ticks (every 10 minutes), weapon get its energy back
+     if ( this.tick < 10 )
+       this.tick = this.tick+1;
+     else if ( this.energy < 250 ) {
+       this.tell( this.carriedBy(), "{MMy energy has returned.{x");
+       this.energy = 250;
+       this.tick = 0;
+     }
+   }
+
+   onGot( act ) {
+     this.tell( act, "Greetings master." );
+   }
+
+   onTell( act, msg ) {
+     if ( this.carriedBy() == act ) {
+       var w = msg.words();
+       if ( "repair" in w ) 
+         if ( this.energy < 20 ) 
+           this.tell( act, "Sorry, I'm out of energy for the moment.");
+         else if ( this.getCondition() == 100 )
+           this.tell( act, "I don't need to be repaired!");
+	 else {
+           this.tell( act, "I feel better now.");
+           this.setCondition(100);
+           this.energy = this.energy - 20;
+         }
+       else if ( "heal" in w )
+         if ( this.energy < 50 )
+           this.tell( act, "Sorry, I'm out of energy for the moment.");
+         else {
+  	   this.tell( act, "Your wishes come true." );
+	   act.addHit(100+random(250));
+           this.energy = this.energy - 50;
+         }
+       else 
+	this.tell( act, "What do you want beloved master ?");
+     }
+   }
+
+   // Force carrier to attack mobs entering the room
+   onGreet( act, from ) {
+     if ( act.isNPC() && act.position() == "standing" ) {
+       this.say("Muhahahahaha");
+       force this.carriedBy() `kill `act`
+     }
+   }
+
+   // When carrier moves, weapon force him/her to attack random mob in the room
+   onMoved() {
+     var act = this.carriedBy();
+     if ( act != NULL ) { // act WILL NEVER BE NULL, unless a onEntering/onLeaving script
+                          //  force a player/mob to drop his/her equipement
+       // Create the list of available target in the room
+       var victim = any[[ x <- act.room().people(), !x.isSafe(act) && x.isNPC() ]];
+       if ( victim != NULL ) {
+         this.say("Muhahahahaha");
+         force act `kill `victim`
+       }
+     }
+   }
+
+   // Cannnot be removed neither disarmed
+   onRemoving( act ) { // if remover is carrier: normal remove
+     if ( act == this.carriedBy() ) 
+       this.tell( act, "{yYou are my Master, why should I leave you?{x" );
+     else              // if remover is not carrier: disarm
+       this.tell( act, "{RMy master and I are together till end of time. Don't try again to separate us.{x" );
+     result = 1; // cannot be removed
+   }
+
+   // Cannot be dropped
+   onDropping( act ) {
+     this.tell( act, "{rNo Master! We will never be separated!{x" );
+     result = 1; // cannot be dropped
+   }
+
+   // Cannot be put into a container
+   onPutting( act, container ) {
+     //this.tell( act, "{rWhy do you want to hide me into "+container.shortDescr()+"{x" );
+     act.actTo("{g$n tells you '{rWhy do you want to hide me into $n.{g'{x",[[this,container]]);
+     result = 1; // cannot be put into a container
+   }
+}
+
+class MuseumPetShopKeeper extends basePetShopKeeper {
+  onCreate() {
+    basePetShopKeeper::onCreate();
+    //log("basePetShopKeeper::onCreate  this: "+this.name()+" (vnum "+this.vnum()+")");
+
+    // list of pet (vnum) to sale
+    vnum_list =  [[  1109,  6004,  3097,  5929 ]];
+    // list of pet price
+    price_list = [[  4000,  2000, 20000, 10000 ]];
+    //this formula should be used to calculate pet's cost 10 * pet->level * pet->level
+
+    if ( vnum_list.size() != price_list.size() )
+      log("BUG: vnum_list ("+vnum_list.size()+") and price_list ("+price_list.size()+") don't have the same size" );
+  }
+}
+
+class MuseumShopKeeper extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 90;
+    profit_sell = 120;
+
+    open_hour = 6;
+    close_hour = 22;
+
+    buy_type = [[ "weapon", "armor", "food", "staff" ]];
+  }
+}
+
+// IF lever1(806) and lever3(808) are Down AND lever2(807) is Up THEN the door opens
+class museumLeverSystem extends leverSystem {
+  onLooking( act ) {
+    if ( this.position == 0 )      act.sendTo("The lever is pulled up.");
+    else if ( this.position == 1 ) act.sendTo("The lever is pulled down.");
+    else log("BUG: invalid lever position "+this.position+" vnum:"+this.vnum());
+    result = 1;
+  }
+  pulled( act ) {
+    if ( this.position == 0 )      act.sendTo("The lever is pulled up.");
+    else if ( this.position == 1 ) act.sendTo("The lever is pulled down.");
+    else log("BUG: invalid lever position "+this.position+" vnum:"+this.vnum());
+
+    if ( checkPosition() )         actionSuccess( act );
+    else                           actionFail( act );
+  }
+  initLeverVnum() {
+    objvar this:leverVnum = [[ 806, 807, 808 ]];
+  }
+  checkPosition() {
+    var i = 0;
+    var ok = 1;
+    while ( i < this.leverList.size() && ok ) {
+      var lev = this.leverList[i];
+      ok = 0;
+      if ( lev.vnum() == 806 ) { if ( lev.position == 1 ) ok = 1; } // lever 0(806), position 1 (UP)
+      if ( lev.vnum() == 807 ) { if ( lev.position == 0 ) ok = 1; } // lever 1(807), position 0 (DOWN)
+      if ( lev.vnum() == 808 ) { if ( lev.position == 1 ) ok = 1; } // lever 2(808), position 1 (UP)
+      i = i+1;
+    }
+    result = ok;
+  }
+  actionSuccess( act ) {
+    act.sendTo("WOW ... You resolve the problem...");
+  }
+  actionFail( act ) {
+    act.sendTo("Nothing happen...");
+  }
+}
+
+
+class testMob extends InventoryShopkeeper, Questor {
+  onCreate() {
+    InventoryShopkeeper::onCreate();
+    Questor::onCreate();
+  }
+
+  thisHelp( ch ) {
+    `qdirsay `ch` I'm a shopkeeper and questor
+    `qdirsay `ch` If you want to get the help about shopkeeper, type say shop help
+    `qdirsay `ch` If you want to get the help about questor, type say quest help
+  }
+
+  questHelp( ch ) {
+    `qdirsay `ch` I'm a questmaster, use one of the following commands:
+    `qdirsay `ch` say quest list      list of quest items
+    `qdirsay `ch` say quest time      remaining time until end of quest
+    `qdirsay `ch` {x                     or until next quest
+    `qdirsay `ch` say quest info      informations about your actual quest
+    `qdirsay `ch` say quest giveup    give up your actual quest
+    `qdirsay `ch` say quest complete  to tell me your quest is completed
+    `qdirsay `ch` say quest request   request a new quest
+    `qdirsay `ch` say quest points    quest points
+    `qdirsay `ch` You can have some quest info at any time using: showinfo quest"
+  }
+
+  help( ch ) {
+    `qdirsay `ch` Show which various items are in the store.
+    `qdirsay `ch` {x  Use: say shop list
+    `qdirsay `ch` Buy an item.
+    `qdirsay `ch` {x  Use: say shop buy <item name>
+    `qdirsay `ch` How much I will pay for your item (free of charge).
+    `qdirsay `ch` {x  Use: say shop value <item name>
+    `qdirsay `ch` Sell an item.
+    `qdirsay `ch` {x  Use: give <item name> <shopkeeper name>
+    `qdirsay `ch` {x       or  say shop sell <item name>
+  }
+
+  onSpeech( act, msg ) {
+    if ( this.in_trade == 0 ) {
+      var w = msg.words();
+      var msg2 = ""; // construct the new message without the first word
+      var i = 1;
+      while ( i < w.size() ) {
+        msg2 = msg2+" "+w[i];
+        i = i+1;
+      }
+
+      if ( w[0] %= "help" )
+        thisHelp( act );
+      else if ( w[0] %= "quest" )
+        Questor::onSpeech( act, msg2 );
+      else if ( w[0] %= "shop" )
+        InventoryShopkeeper::onSpeech( act, msg2 );
+      else {
+        `qdirsay `act` What do you want ?
+        `qdirsay `act` Ask me for the help if you want to see the different possibilities!
+      }
+    }
+  }
+}

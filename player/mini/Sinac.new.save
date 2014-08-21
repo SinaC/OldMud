@@ -1,0 +1,486 @@
+Player 'Sinac' {
+  Id = 958317927;
+  Version = 11;
+  LogO = 1065767408;
+  Race = 'doppleganger';
+  Sex = 'male';
+  Size = 'medium';
+  DamType = 'punch';
+  Immunities = ('none');
+  Resistances = ('none');
+  Vulnerabilities = ('none');
+  Forms = ('magical', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'hands', 'feet', 'fingers', 'ear', 'eye');
+  AfBy = ('none');
+  AfBy2 = ('none');
+  Classes = ('cleric', 'thief', 'warrior');
+  Level = 110;
+  Experience = 501420;
+  Act = ('autoexit', 'holylight', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine', 'snoop_proof', 'nohints');
+  Position = 'standing';
+  Attr = ( 20, 25, 23, 22, 23 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = (  ( 2421 ),  ( 2212 ),  ( 824 ),  ( 2587 ) );
+  Alignment = 500;
+  Etho = 'neutral';
+  Gold = 4367;
+  Silver = 211;
+  Prompt = '{c<%hHp %mMn %b%o%O>{x ';
+  Clan = 'McLeod';
+  ClanStatus = 'junior';
+  Room = 3011;
+  Played = 3297996;
+  Scroll = 38;
+  Wiznet = 'ACUXYa';
+  Prac = 653;
+  Train = 4;
+  LastLevel = 64;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 1;
+  Language = 'common';
+  Beacons = ( 810, 25097, 9236 );
+  God = 'Aislara';
+  NameAccepted = true;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = '{WThe {YHappy {WGod{x';
+  Condition = ( 0, 0, 0, 0 );
+  Alias = ( 'oa', 'order all' );
+  Alias = ( 't', 'use steal coins heimdall' );
+  Alias = ( 'bs', 'use backstab ' );
+  Alias = ( 'qc', 'goto hassan; slay hassan; goto questor; say complete' );
+  Alias = ( 'qr', 'goto questor; osay request' );
+  Alias = ( 'qb', 'osay buy cloak' );
+  Alias = ( 'caf', 'cast \'animal friendship\'' );
+  Alias = ( 'ew', 'cast \'enchant weapon\' ' );
+  Alias = ( 'test', 'cast \'summon elemental\'' );
+  Alias = ( 'ss', 'set skill sinac ' );
+  Alias = ( 'start', 'showinfo start' );
+  Alias = ( 'stop', 'showinfo stop' );
+  Alias = ( 'inf', 'showinfo' );
+  Alias = ( 'fire', 'use \'archery\' ' );
+  Alias = ( 'shar', 'use \'sharpen arrow\' arrow; drop arrow' );
+  Alias = ( 'tm', 'say request; say giveup' );
+  Alias = ( 'du', 'dataconfig dump_mob_msg 1' );
+  Alias = ( 'brew', 'use brew' );
+  Alias = ( 'tb', 'use brew web amber 2.amber mithril' );
+  Alias = ( 'tb1', 'use brew mi web 2.web amb 2.amb' );
+  Trivia = 5002;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Faction = ( 'notYetClassed', 0 );
+  Pnts = 40;
+  Ability = ( 1, 0, 0, 'axe' );
+  Ability = ( 1, 0, 0, 'dagger' );
+  Ability = ( 1, 0, 0, 'flail' );
+  Ability = ( 1, 0, 0, 'mace' );
+  Ability = ( 1, 0, 0, 'polearm' );
+  Ability = ( 1, 0, 0, 'spear' );
+  Ability = ( 100, 0, 0, 'sword' );
+  Ability = ( 1, 0, 0, 'whip' );
+  Ability = ( 1, 0, 0, 'disarm' );
+  Ability = ( 100, 0, 0, 'dodge' );
+  Ability = ( 5, 1, 0, 'enhanced damage' );
+  Ability = ( 100, 5, 0, 'hand to hand' );
+  Ability = ( 100, 0, 0, 'parry' );
+  Ability = ( 100, 0, 0, 'rescue' );
+  Ability = ( 100, 0, 0, 'second attack' );
+  Ability = ( 100, 0, 0, 'third attack' );
+  Ability = ( 100, 0, 0, 'fourth attack' );
+  Ability = ( 100, 0, 0, 'fifth attack' );
+  Ability = ( 100, 0, 0, 'sixth attack' );
+  Ability = ( 100, 0, 0, 'seventh attack' );
+  Ability = ( 100, 2, 0, 'dual wield' );
+  Ability = ( 100, 0, 0, 'fade' );
+  Ability = ( 100, 0, 0, 'sing' );
+  Ability = ( 1, 1, 0, 'meditation' );
+  Ability = ( 100, 0, 0, 'peek' );
+  Ability = ( 1, 0, 0, 'scrolls' );
+  Ability = ( 1, 0, 0, 'staves' );
+  Ability = ( 91, 0, 0, 'wands' );
+  Ability = ( 50, 0, 0, 'recall' );
+  Ability = ( 100, 0, 0, 'morph' );
+  Ability = ( 100, 0, 0, 'evasion' );
+  Ability = ( 100, 2, 0, 'riding' );
+  Ability = ( 1, 0, 0, 'study' );
+  Ability = ( 100, 0, 0, 'counterfeit' );
+  Ability = ( 100, 3, 0, 'shapechange' );
+  Ability = ( 100, 0, 0, 'brew' );
+  Ability = ( 100, 4, 0, 'archery' );
+  Ability = ( 100, 0, 0, 'tumble' );
+  Ability = ( 100, 0, 0, 'block' );
+  Ability = ( 100, 0, 0, 'deflect' );
+  Ability = ( 100, 0, 0, 'hands of multitude' );
+  Ability = ( 100, 0, 0, 'ignite arrow' );
+  Ability = ( 100, 0, 0, 'sharpen arrow' );
+  Ability = ( 100, 0, 0, 'fletcher' );
+  Ability = ( 100, 0, 0, 'bowyer' );
+  Ability = ( 100, 0, 0, 'strength shot' );
+  Ability = ( 100, 0, 0, 'long range shot' );
+  Ability = ( 100, 0, 0, 'critical shot' );
+  Ability = ( 100, 0, 0, 'point blank shot' );
+  Ability = ( 1, 0, 0, 'shield block' );
+  Ability = ( 100, 1, 0, 'acid blast' );
+  Ability = ( 100, 4, 0, 'armor' );
+  Ability = ( 1, 0, 0, 'cancellation' );
+  Ability = ( 100, 0, 0, 'charm person' );
+  Ability = ( 1, 1, 0, 'chill touch' );
+  Ability = ( 1, 0, 0, 'continual light' );
+  Ability = ( 1, 0, 0, 'create water' );
+  Ability = ( 100, 0, 0, 'curse' );
+  Ability = ( 1, 0, 0, 'detect evil' );
+  Ability = ( 1, 0, 0, 'detect good' );
+  Ability = ( 1, 0, 0, 'detect hidden' );
+  Ability = ( 1, 0, 0, 'detect invis' );
+  Ability = ( 1, 0, 0, 'detect magic' );
+  Ability = ( 1, 0, 0, 'detect poison' );
+  Ability = ( 100, 1, 0, 'earthquake' );
+  Ability = ( 100, 3, 0, 'enchant armor' );
+  Ability = ( 100, 1, 0, 'faerie fire' );
+  Ability = ( 1, 1, 0, 'faerie fog' );
+  Ability = ( 1, 1, 0, 'fireball' );
+  Ability = ( 1, 1, 0, 'floating disc' );
+  Ability = ( 2, 0, 0, 'giant strength' );
+  Ability = ( 100, 5, 0, 'haste' );
+  Ability = ( 2, 0, 0, 'identify' );
+  Ability = ( 1, 0, 0, 'infravision' );
+  Ability = ( 1, 0, 0, 'invisibility' );
+  Ability = ( 1, 0, 0, 'know alignment' );
+  Ability = ( 1, 5, 0, 'magic missile' );
+  Ability = ( 1, 0, 0, 'portal' );
+  Ability = ( 100, 0, 0, 'sanctuary' );
+  Ability = ( 100, 5, 0, 'sleep' );
+  Ability = ( 100, 0, 0, 'decay corpse' );
+  Ability = ( 100, 0, 0, 'mummify' );
+  Ability = ( 100, 0, 0, 'animate skeleton' );
+  Ability = ( 100, 5, 0, 'animate dead' );
+  Ability = ( 100, 0, 0, 'magic mirror' );
+  Ability = ( 100, 1, 0, 'temporal stasis' );
+  Ability = ( 75, 5, 0, 'cone of cold' );
+  Ability = ( 100, 1, 0, 'meteor shower' );
+  Ability = ( 100, 0, 0, 'enlarge' );
+  Ability = ( 100, 0, 0, 'reduce' );
+  Ability = ( 100, 0, 0, 'detect lycanthropy' );
+  Ability = ( 100, 0, 0, 'conjure mount' );
+  Ability = ( 100, 0, 0, 'word of recall' );
+  Ability = ( 100, 0, 0, 'protection lycanthropy' );
+  Ability = ( 100, 0, 0, 'confusion' );
+  Ability = ( 100, 0, 0, 'chaotic blast' );
+  Ability = ( 100, 0, 0, 'create vines' );
+  Ability = ( 100, 1, 0, 'animal follower' );
+  Ability = ( 100, 0, 0, 'spellfire' );
+  Ability = ( 100, 0, 0, 'summon elemental' );
+  Ability = ( 100, 5, 0, 'necrofire' );
+  Ability = ( 100, 4, 0, 'tagada' );
+  Ability = ( 100, 4, 0, 'tsouin' );
+  Ability = ( 100, 5, 0, 'tadaa' );
+  Ability = ( 100, 0, 0, 'adrenaline control' );
+  Ability = ( 100, 0, 0, 'energy fist' );
+  Ability = ( 100, 0, 0, 'burning fist' );
+  Ability = ( 100, 0, 0, 'icy fist' );
+  Ability = ( 100, 0, 0, 'acid fist' );
+  Ability = ( 100, 0, 0, 'draining fist' );
+  Ability = ( 100, 0, 0, 'song of huma' );
+  Group = 'rom basics';
+  Gset = 1;
+  Security = 9;
+  Bin = '{cA guy with a big smile on his face appears, it\'s {CSinac{c.{x';
+  Bout = '{CSinac {cdisappears laughing hysterically.{x';
+  Immtitle = '{x   {g---`-,{{{R@{x   ';
+  ExField = ( 'questmob', 'entity', -1, '<NULL>' );
+  ExField = ( 'questgiver', 'entity', -1, '<NULL>' );
+  ExField = ( 'stayArea', 'int', -1, 1 );
+  ExField = ( 'wanderState', 'int', -1, 0 );
+  ExField = ( 'bankgold', 'int', -1, 15970 );
+  ExField = ( 'banksilver', 'int', -1, 32032972 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'questpoints', 'int', -1, 547655 );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  ExField = ( 'specialized_weapon', 'int', -1, 4 );
+  ExField = ( 'fightingTimer', 'int', -1, 0 );
+  ExField = ( 'fightMode', 'int', -1, 0 );
+  ExField = ( 'questobj', 'entity', -1, '<NULL>' );
+  Pet 1 {
+    LogO = 1065767408;
+    ShD = 'the zombie of the boar';
+    LnD = 'A zombie of the boar is standing here.
+
+';
+    Forms = ('magical', 'instant_decay', 'animal', 'sentient', 'undead', 'biped', 'mammal');
+    Parts = ('head', 'legs', 'feet', 'ear', 'eye');
+    AfBy = ('infrared', 'charm');
+    Level = 7;
+    Act = ('npc', 'pet', 'undead', 'warrior', 'created');
+    Attr = ( 25, 21, 22, 22, 24 );
+    HMVP = (  ( 426 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+    Dnumber = 8;
+    Dtype = 3;
+  }
+  Obj 3045 {
+    Enchanted = true;
+    ExtraFlags = ('magic');
+    Level = 6;
+  }
+  Obj 78 {
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 3365 {
+    Values = ( 0, 0, -1, 0, 0 );
+  }
+  Obj 78 {
+    Name = 'testarrow';
+    ShD = 'a test arrow';
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 3046 {
+    Enchanted = true;
+    ExtraFlags = ('glow', 'magic');
+    Level = 17;
+    Affect = ( 'enchant armor', -2, 110, 3, ('nondispellable', 'ability', 'permanent') );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 78 {
+    Condition = 90;
+    Level = 2;
+    Values = ( 10, 5, 5, 11, 8 );
+  }
+  Obj 30 {
+    Name = 'saddle';
+    ShD = 'a saddle';
+    Desc = 'a saddle lies here.';
+    WearFlags = ('take');
+  }
+  Obj 3034 {
+  }
+  Obj 3349 {
+    Values = ( 1, 4, 6, 18, 0 );
+  }
+  Obj 3005 {
+  }
+  Obj 3005 {
+  }
+  Obj 3349 {
+    Weight = 1;
+    Values = ( 1, 4, 6, 37, 0 );
+  }
+  Obj 10 {
+    ShD = 'the corpse of the boar';
+    Desc = 'The corpse of the boar is lying here.';
+    Level = 3;
+    Values = ( 3711, 2097217, 1725, 1, 0 );
+    ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+  }
+  Obj 3716 {
+    Cost = 0;
+  }
+  Obj 3349 {
+  }
+  Obj 3349 {
+    Weight = 1;
+    Values = ( 1, 4, 6, 8, 0 );
+  }
+  Obj 3047 {
+  }
+  Obj 62 {
+  }
+  Obj 62 {
+  }
+  Obj 66 {
+  }
+  Obj 66 {
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 62 {
+  }
+  Obj 66 {
+  }
+  Obj 66 {
+  }
+  Obj 66 {
+  }
+  Obj 66 {
+  }
+  Obj 66 {
+  }
+  Obj 66 {
+  }
+  Obj 66 {
+  }
+  Obj 62 {
+  }
+  Obj 62 {
+  }
+  Obj 62 {
+  }
+  Obj 77 {
+    Name = 'potion form1';
+    ShD = 'A potion of form1';
+    Level = 100;
+    Values = ( 33, 129, 163, -1, -1 );
+  }
+  Obj 77 {
+    Name = 'potion form3';
+    ShD = 'A potion of form3';
+    Level = 100;
+    Cost = 1500;
+    Values = ( 68, 216, 327, 458, -1 );
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 3036 {
+  }
+  Obj 62 {
+  }
+  Obj 62 {
+  }
+  Obj 62 {
+  }
+  Obj 62 {
+  }
+  Obj 66 {
+  }
+  Obj 3005 {
+  }
+  Obj 3005 {
+  }
+  Obj 3005 {
+    Cost = 14029;
+    ExField = ( 'counterfeit_value', 'int', -1, 5600 );
+  }
+}

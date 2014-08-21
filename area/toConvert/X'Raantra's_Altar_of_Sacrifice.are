@@ -1,0 +1,2675 @@
+#Style Circle
+#AREADATA
+Name X'Raantra's Altar of Sacrifice~
+Builders Kaan~
+VNUMs 31400 31499
+Credits {{None}  CAW    X'Raantra's Altar of Sacrifice~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#31400
+x'raantra man kneel~
+X'Raantra~
+X'Raantra kneels with his knees deep in the blood-filled floor, his arms held high.
+~
+   His eyes are tightly clenched closed, his right fist holding fast to a
+curved dagger held high to his God.  He sporatically mumbles words, garbled
+phrases or prayers which may or may not have meaning.    
+~
+bdm 0 -200 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#31401
+believer follower~
+a Believer~
+A Believer kneels proudly beside his saviour.
+~
+   His eyes are a bit glazed over, blood spattered over the front of his grubby
+jerkin.  He never seems to lose sight of the blade which is raised high by
+X'Raantra in anticipation of the next kill.    
+~
+bd 0 -500 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#31402
+man gibbering slobbering grubby~
+a gibbering man~
+A man is slouched against the wall, badly bleeding and broken.
+~
+   He almost does not notice you from the pain that he is in, but then he
+obviously must have as he is trying to speak to you.    
+~
+bd 0 200 E
+17 18 0 3d3+170 2d2+2
+170 28900
+1 1 1
+E
+#31403
+elf retching~
+a retching elf~
+An elf is curled up at the founatin's base, retching and vomiting terribly.
+~
+   He looks up at you with terror-stricken eyes and pleads without words for
+you to help him, somehow help him.    
+~
+bd 0 500 E
+15 18 1 3d3+150 2d2+2
+150 22500
+6 6 1
+E
+#31404
+woman~
+a woman~
+A woman walks with a very deliberate gait across the courtyard.
+~
+   She holds her tattered clothing tight against her as if she were cold or
+afraid of prying eyes.  It is certainly a gesture of fear or discomfort.    
+~
+dgl 0 -200 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 2
+E
+#31405
+squatter man~
+a squatter~
+A man lies on the floor, stretched out on a raggedy blanket.
+~
+   He has a wealth of nasty stubble and the smell - it might be better not to
+talk about the smell.    
+~
+bd 0 -200 E
+19 17 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+E
+#31406
+child terrified~
+a terrified child~
+A terrified child lies huddled in a corner, squinting against your light.
+~
+   The child is wearing no clothes whatsoever and is covered in welts and
+bruises.  He couldn't be much more than ten or eleven years old.    
+~
+bdg 0 400 E
+12 18 2 2d2+120 2d2+2
+120 14400
+6 6 1
+E
+#31407
+man weeping~
+a weeping man~
+A man sits curled up in ball, weeping uncontrollably.
+~
+   He alternates between rage and sadness - touching the mangled remains of his
+son's body, stroking the blood matted hair back from the cold, lifeless ears.
+  
+~
+bd 0 100 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+E
+#31408
+rat scurrying~
+a scurrying rat~
+A rat scurries past, its feet clicking on the stone floor.
+~
+   It looks very much like your every day typical disgusting rat.    
+~
+dg 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 0
+E
+#31409
+gunter~
+Gunter~
+Gunter wanders the compound, spreading the word of the Chosen.
+~
+   Gunter is a small, pale man who looks as if he may be a bit ill.  His main
+task which has raised him in the ranks of X'Raantra's Chosen, is to go out and
+Select the next of the Chosen.  It is quite an honor.    
+~
+deg 0 -700 E
+31 15 -8 6d6+310 5d5+5
+310 96100
+8 8 1
+E
+#31410
+guard man toturer~
+a torturer~
+A man stands near the doorway, a hideous sneer on his face.
+~
+   A horrid scar runs down the left side of his face, he looks you up and down
+and uncrosses his arms, readying his whip.    
+~
+bdf 0 -900 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 1
+E
+#31411
+man grubby~
+a grubby man~
+A grubby man stands before the fire barrel, warming his hands.
+~
+   He looks pitifully poverty-stricken, enough so that it is obvious at first
+glance.  He is covered in dirt and grime and has a few pussing welts on his
+face and hands.    
+~
+bd 0 100 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#31412
+man seeker hooded~
+a Seeker~
+A man in a hooded cloak walks slowly by mumbling to himself.
+~
+   The mumblings are not coherent, they are words spoken in garbled phrases,
+words that mean nothing.  They are the words of one who is delusioned beyond
+regainment of full mental faculties.    
+~
+dg 0 -300 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#31413
+believer hidden~
+a hidden Believer~
+One of X'Raantra's Believers hides in the shadows.
+~
+   The Believer notes your look with a look of her own, giving you a curt nod.
+  
+~
+bd 0 -500 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 2
+E
+#31414
+bat brown~
+a brown bat~
+A bat dive bombs you, coming inches from your head!
+~
+   It is hard to get a good look at the little fella, but that really doesn't
+matter, just aim for the blackish-brown blur.    
+~
+dfg 0 0 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 0
+BareHandAttack: 4
+E
+#31415
+spider dirty hairy~
+a hairy spider~
+A small, hairy spider moves across the ground before you.
+~
+   It is not an aggressive type of spider, nor is it large by any means - but
+it is a spider, nonetheless, and is digusting and wrong.    
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+BareHandAttack: 4
+E
+#31416
+deathknight knight dazed~
+a dazed DeathKnight~
+A DeathKnight wanders about, staggering in a daze.
+~
+   He holds his weapon as if he had never used it before, a slight line of
+drool running from the left corner of his mouth.  His eyes hold a faraway,
+dazed look in them.    
+~
+dg 0 -600 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+#31417
+fellow adventurer~
+a fellow adventurer~
+A man in warrior's traveling garb lies upon the floor, looking very surprised to see you.
+~
+   Looks like he was catching a nap where he thought he might be safe.    
+~
+bcd 0 400 E
+32 15 -9 6d6+320 5d5+5
+320 102400
+8 8 1
+E
+#31418
+wight blood scavenger humanoid~
+a blood wight~
+A humanoid is hunched over the corpse, hands and face dripping with blood.
+~
+   This awful scavenger looks up at you with a snarl and spits some blood on
+you.  It goes back to its feast without another glance.    
+~
+bd 0 -800 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 0
+BareHandAttack: 8
+E
+#31419
+believer unrobed slobbering~
+the unrobed believer~
+A Believer stands menacingly over the boy, a look of glee on his face.
+~
+   The Believer looks as if this sort of sport were his passion, his only
+reason for living.  Indeed, it may be from the look of the boy's back.    
+~
+bd 0 -900 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31420
+boy screaming crying~
+a screeching boy~
+A screeching boy is thrown face down over a desk, his shirt torn off, blood everywhere.
+~
+   It appears that this man has been at this boy for some time.  The slashes
+across the boy's back are many and deep.    
+~
+bd 0 100 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#31400
+fountain old stone~
+the old cracked fountain~
+An old cracked fountain sits stagnant in the center of the court.~
+~
+23 g 0 0
+80 50 9 1
+0 0 0 1
+E
+statue~
+   The man appears very proud, very noble and very learned.  His stained head is
+held high, his unseeing eyes fixed onto brighter futures and promise of great
+things.  
+~
+#31401
+glass pieces~
+some broken pieces of glass~
+Some broken pieces of glass lie scattered about on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+2 10 0 1
+#31402
+tattered cloth piece~
+a rotted piece of cloth~
+A rotted piece of cloth has gotten caught on a tall weed and flutters in the breeze.~
+~
+12 0 ao 0
+0 0 0 0
+2 1 0 1
+#31403
+blood still pool floor gazebo~
+the dark blood~
+The floor of this gazebo is covered in a thick layer of blood.~
+~
+23 0 0 0
+2000 2000 13 1
+2005 0 0 1
+#31404
+altar dark stained~
+a dark, blood-stained altar~
+A dark, blood-stained altar is set in the center of the floor, awaiting its next victim.~
+~
+12 a 0 0
+0 0 0 0
+0 0 0 1
+E
+altar~
+   It appears that the altar is nothing more than a loose piece of stone from
+the courtyard floor or maybe one of the nearby buildings.  However, with the
+black cloth that is draped over top of it and the layers of blood stains upon
+it, it appears ghastly and otherwordly.  
+~
+#31405
+bookshelf shelf old~
+an old bookshelf~
+An old bookshelf clings precariously to the wall, nearly falling from the crumbling ruin.~
+~
+15 0 0 0
+1000 0 -1 0
+0 0 0 1
+#31406
+book blood stained~
+a blood-stained book~
+A blood-stained book rests comfortably here.~
+~
+2 bg ao 0
+25 33 4 17
+11 10 0 1
+#31407
+body dead child~
+a child's dead body~
+A small child's body lies against the north wall, its chest a gaping empty hole.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 1
+#31408
+barrel burning~
+a burning barrel~
+A barrel holds assorted trash within, all ablaze in fire.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 1
+#31409
+fresh cadaver~
+a fresh corpse~
+A fresh cadaver lies steaming in the cortyard.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 1
+E
+corpse~
+   It looks as if it might have been alive just minutes ago.  The blood which
+wells over its chest is still warm, still flowing - undried.  Its chest is torn
+open, split in two.  From the amount blood and innards splayed over the corpse's
+chest, it appears the heart was taken.  
+~
+#31410
+decayed carcass~
+a decayed corpse~
+A mostly decayed carcass is hanging from the wall, its chest a large gaping hole.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 1
+#31411
+blade shining curved~
+a shining curved blade~
+An evil-looking dagger with a curved blade has been left here.~
+~
+5 a an 0
+2 6 6 11
+9 300 0 42
+A
+6 2
+A
+19 3
+#31412
+robe soiled~
+a soiled and bloodstained robe~
+A soiled and bloodstained robe has been dicarded.~
+~
+9 0 0 0
+6 0 0 0
+0 0 0 1
+#31413
+ring enchantment~
+the Ring of Enchantment~
+A dark colored ring has been dropped here.~
+Nothing.
+~
+9 0 ab 0
+3 0 0 0
+4 100 0 36
+A
+6 1
+A
+12 30
+#31414
+jerkin grubby~
+a grubby jerkin~
+A grubby jerkin has been tossed aside.~
+~
+9 0 ad 0
+4 0 0 0
+4 10 0 1
+#31415
+blood innocent~
+the blood of an innocent~
+A smear of blood is on the ground.~
+~
+11 0 ad 0
+0 0 0 0
+1 1 0 24
+A
+1 1
+A
+18 3
+#31416
+shredded leather armor~
+some badly shredded leather armor~
+Some shreds of leather armor has been left here.~
+~
+9 0 ad 0
+2 0 0 0
+9 1 0 1
+#31417
+coating vomit~
+a coating of vomit~
+A small pile of what looks to be vomit is lying on the ground.~
+~
+11 0 ad 0
+0 0 0 0
+2 1 0 1
+A
+6 -3
+#31418
+soiled tattered dress~
+a soiled tattered dress~
+A very dirty piece of clothing has been discarded here.~
+~
+9 0 ad 0
+3 0 0 0
+4 1 0 1
+#31419
+raggedy blanket~
+a raggedy blanket~
+A raggedy blanket is strecthed out on the floor.~
+~
+12 0 ao 0
+0 0 0 0
+5 1 0 15
+A
+19 3
+#31420
+welts bruises smattering~
+a smattering of welts and bruises~
+Someone's pain and misery has been left here for the taking.~
+~
+11 0 a 0
+0 0 0 0
+1 1 0 1
+A
+13 -30
+#31421
+horrid scar~
+a horrid scar~
+A horrid scar has been left here.~
+~
+11 0 am 0
+0 0 0 0
+2 1 0 21
+A
+13 10
+A
+18 2
+#31422
+black leather whip~
+a black leather whip~
+A black leather whip has been left here.~
+~
+5 0 an 0
+2 5 4 2
+6 100 0 23
+A
+19 1
+A
+1 1
+#31423
+word God~
+the Word of God~
+A crumpled note has been thrown down on the ground.~
+~
+16 0 ao 0
+0 0 0 0
+2 10 0 30
+E
+word~
+   This note, originally given to Gunter by X'Raantra reads but one word.  That
+word is: Sacrifice
+~
+A
+3 2
+A
+4 3
+#31424
+inlaid black sword~
+an inlaid black sword~
+An inlaid black sword lies here forgotten.~
+~
+5 0 an 0
+2 5 3 3
+9 10 0 19
+A
+2 2
+#31425
+helm black~
+a blackened helm~
+A blackened helm has been left here.~
+~
+9 0 ae 0
+6 0 0 0
+10 10 0 17
+A
+4 1
+#31426
+black cape~
+a black cape~
+A black cape has been left here.~
+~
+9 0 ak 0
+5 0 0 0
+6 10 0 18
+A
+19 3
+#31427
+vial blood~
+a vial of blood~
+A vial of blood has been left here.~
+~
+10 a ao 0
+10 7 39 22
+1 10 0 1
+#31428
+dark red blood ring~
+a dark red blood ring~
+A dark red blood ring has been left here.~
+~
+9 0 ab 0
+3 0 0 0
+5 100 0 23
+A
+18 2
+#31429
+traveler's pack~
+a traveler's pack~
+A traveler's pack has been left here.~
+~
+15 0 ao 0
+0 0 0 0
+12 16 0 30
+#0
+
+#ROOMS
+
+#31400
+Entrance to the Asylum Grounds~
+   The pitted black gate lies just to the north, the crumbling stone wall
+running off east and west from the gate.  It is a wonder the gate is still
+functional, so old and decrepid it seems.  South is what used to be the main
+entryway to a large compound of some sort, one that seems almost scholastic in
+appearance, but more somber - more militaristic.  In any case, it is certainly
+no longer in use, and has not been for some time.  
+~
+314 0 0
+D0
+~
+gate~
+1 0 -1
+D2
+~
+~
+0 0 31401
+E
+credits~
+*X'Raantra's Altar of Sacrifice
+*Written by Kaan for Dibrova
+Level: 15 - 45
+100 rooms
+21 mobs
+30 objs
+Connector Zones: The Plains of Blood
+This is set in the grounds of an old insane asylum which X'Raantra
+took for his own use. X'Raantra hears a voice in his head -he is a
+nutball- this voices he hears, he takes to be the Lord Almighty. The
+voice tells him that only through human sacrifice will he ascend
+through the gates of Heaven. X'Raantra, though obviously crazy, is
+extremely enigmatic and has been able to gather a good number of people
+to join in his cult which is centered in the ruins of this old asylum.
+There are a few spec_procs I added to a couple of mobs - just for
+effect, really. The zone probably will not lack without these procs.
+~
+S
+#31401
+At the Old Fountain~
+   A fountain, dry and cracked and blackened by grime and dirt, stands in the
+center of this small court.  The fountain boasts the figure of a man standing
+proudly in the center, a thick tome tucked under his one arm and the other hand
+holding onto his lapels.  There is still some sort of liquid at the bottom of
+the fountain, but it does not appear to be safe for consumation.  
+~
+314 0 0
+D0
+~
+~
+0 0 31400
+D1
+~
+~
+0 0 31403
+D2
+~
+~
+0 0 31402
+D3
+~
+~
+0 0 31405
+S
+#31402
+The Asylum Grounds~
+   Large buildings surround every side, paths which once must have been well
+tended are now choked with weeds and run between these buildings and around
+them.  Two very squarish looking buildings lie to the east and the west, a
+smaller and taller building lying to the south.  To the north is, of course, the
+exit from this place.  The door to the southern-most building lies directly
+south from here.  
+~
+314 a 0
+D0
+~
+~
+0 0 31401
+D1
+~
+~
+0 0 31404
+D2
+~
+door~
+1 0 31431
+D3
+~
+~
+0 0 31406
+S
+#31403
+The Asylum Grounds~
+   The tall weeds cover most of the masonry that used to cover the ground here,
+only small patches of stonework still visible through the tangle.  Once upon a
+time, this place must have been some sort of well-funded institution.  What
+could have happened to cause it to be left in this state, one can only imagine.
+
+~
+314 a 0
+D2
+~
+~
+0 0 31404
+D3
+~
+~
+0 0 31401
+S
+#31404
+The Asylum Grounds~
+   The ground beneath was very obviously once cobbled entirely in this small
+court, the stones still prohibiting growth in many small spots throughout.  A
+long two story building lies to the east, its main doors just east from here,
+one of them swinging on its hinge at a crazy angle.  Looking closely at the
+door, there can be seen a smear of blood near the handle and on the framework
+around the handle.  A jumbled path leads south between the buildings.  
+~
+314 a 0
+D0
+~
+~
+0 0 31403
+D1
+~
+door~
+1 0 31407
+D2
+~
+~
+0 0 31434
+D3
+~
+~
+0 0 31402
+S
+#31405
+The Asylum Grounds~
+   Close by to the west is the door to a long two story building made of carved
+stone.  The court around you must once have been quite a sight with the fountain
+in the center and the surrounding buildings, however someone or something caused
+all of this to be abandoned and left to rot into its current state.  Perhaps
+funding ran out, perhaps a disease.  One can only surmise.  
+~
+314 a 0
+D1
+~
+~
+0 0 31401
+D2
+~
+~
+0 0 31406
+D3
+~
+door~
+1 0 31420
+S
+#31406
+The Asylum Grounds~
+   A long two story building runs along north and south, forming the western
+boundary of this court.  To the south is a path leading around the buildings of
+the court heading farther back into the asylum's area.  At this angle, south
+along the path and somewhat behind the southern building a light of some sort
+flickers.  
+~
+314 a 0
+D0
+~
+~
+0 0 31405
+D1
+~
+~
+0 0 31402
+D2
+~
+~
+0 0 31435
+S
+#31407
+Inner Hall of the Academy~
+   The floor of this building is made from some of concrete that was once white
+concrete.  It is now stained black from the years of disuse and neglect, the
+elements getting a solid hold on its degredation.  A door lies on the east wall,
+a small hole cut in upper center area where it appears there might once have
+been glass placed.  The hallway runs north from here, a thin trail of old blood
+running along the length of the floor.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31408
+D1
+~
+door~
+1 0 31412
+D3
+~
+door~
+1 0 31404
+S
+#31408
+Inner Hall of the Academy~
+   The hall here looks much the same as the hall to the south, the grime making
+everything blend together dirtily.  Another door leads off to the east, the same
+opening in its top center where it appears a window might once have been.  The
+trail of blood continues north to the end of the hall and leads into yet another
+door there.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31409
+D1
+~
+door~
+1 0 31411
+D2
+~
+~
+0 0 31407
+S
+#31409
+Inner Hall of the Academy~
+   The hallway comes to an end, a final door to the east leading into a
+classroom.  The blood trail, mostly dried, runs into the room where it is too
+dark to see what may be inside.  The hall runs south into the darkness, back
+toward the exit.  A set of concrete stairs lead up into the darkness, their
+steps covered in litter and rubble.  
+~
+314 ad 0
+D1
+~
+door~
+1 0 31410
+D2
+~
+~
+0 0 31408
+D4
+~
+~
+0 0 31413
+S
+#31410
+Classing Room~
+   This small twenty foot by twenty foot room was once used as a room for
+teaching some sort of education to the pupils which resided at this asylum.  
+There is an old blackboard, broken at one corner, still attached to the south
+wall and the desks and chairs which used to seat the pupils are still nailed
+solidly to the floor.  Obviously, if the chairs and desks had to be nailed to
+the floor there was a need for forced discipline.  
+~
+314 ad 0
+D3
+~
+door~
+1 0 31409
+S
+#31411
+Classing Room~
+   This small room holds three rows of chairs and desks, all of them five desks
+wide.  The chairs face south to a large blackboard and an open area before it
+that must have been where a teacher's desk would have been placed.  There is no
+such desk now.  The chairs and desks remain only because they were bolted into
+the floor of the room, made so as to enforce discipline the old fashioned way.
+
+~
+314 ad 0
+D3
+~
+door~
+1 0 31408
+S
+#31412
+Classing Room~
+   This small room holds three rows of chairs and desks, all placed exact in
+distance from each other and the walls.  The walls were once of white plaster,
+however the plaster has cracked time and time again, leaving gaping holes where
+once smooth clean walls stood.  Lewd scrawlings adorn the walls where they still
+hold any sort of flat surface, sure evidence that this place may not completely
+be deserted.  
+~
+314 ad 0
+D3
+~
+door~
+1 0 31407
+E
+scrawlings~
+   You try and make out as much of the words as you can but most of them have
+faded into smudges.  Words such as /cwmother/c0 and /cwwhore/c0 are generally
+repeated as well as some short poetry.  One reads /cwHere I sit all broken
+hearted, tried to shit but only/c0, and then it too becomes too faded to tell
+what follows.  Must have been quite important - possibly runes of some sort.  
+~
+S
+#31413
+Upper Hall~
+   Strange that there are no windows in this entire building, it would seem that
+a building of this size made entirely of brick and mortar would get extremely
+warm without ventilation.  There is a door on the east wall, the hall itself
+runs south for a short distance and terminates.  
+~
+314 ad 0
+D1
+~
+door~
+1 0 31418
+D2
+~
+~
+0 0 31414
+D5
+~
+~
+0 0 31409
+S
+#31414
+Upper Hall~
+   The hallway is so completely littered with debris and rubble from the walls
+and ceiling that it makes it difficult to traverse the hallway.  The walls are
+cracked and scorched from old fires, blood smattered in places.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31413
+D1
+~
+door~
+1 0 31417
+D2
+~
+~
+0 0 31415
+S
+#31415
+Upper Hall~
+   Here at the end of the hallway, the floor is covered in chunks of plaster and
+mortar scattered throughout with bricks.  There is a door on the east wall,
+stuck open from all the collected trash on the floor.  Possibly a quick jump
+over the junk would allow a landing to the east...  
+~
+314 ad 0
+D0
+~
+~
+0 0 31414
+D1
+~
+door~
+1 0 31416
+S
+#31416
+Classing Room~
+   Jumbled garbage and rubble lies all over the floor of this small room.  The
+remains of old desks and chairs lie broken and scattered all over the floor, on
+one wall, there is even a small hole through to the next room.  
+~
+314 ad 0
+D3
+~
+door~
+1 0 31415
+E
+hole~
+   You can see a small bit of the next room over - it appears to be much in the
+same condition as this one.  
+~
+S
+#31417
+Classing Room~
+   The litter that was all over the floor of the hallway has spilled over into
+this room - or is it vice versa?  - coating the floor in filth.  Broken
+splinters of wood from desks and chairs lie scattered about, pieces of forged
+metal interspersed throughout.  
+~
+314 ad 0
+D3
+~
+door~
+1 0 31414
+S
+#31418
+Classing Room~
+   The room is smeared in shades of blood, all at various stages of aging.  It
+is obvious that some of the smears are older than others, some seem even
+relatively fresh.  There is a ton of rubble from the building's collapsing walls
+and ceiling, and the stink is horrific.  
+~
+314 ad 0
+D3
+~
+door~
+1 0 31413
+S
+#31419
+Hall's End~
+   The hall ends with a door to the west.  The door stands open, propped by the
+floor as it hangs by only one hinge.  The rubble strewn about on the floor from
+the building's decay makes movement through this area quite difficult.  The
+blood soaked into the plastered walls and rubble strewn floors does not do much
+to bolster the ego, either.  
+~
+314 ad 0
+D2
+~
+~
+0 0 31420
+D3
+~
+door~
+1 0 31422
+S
+#31420
+Inner Hall~
+   This hall can almost no longer be called such as it is so desolated, so
+ruined by the ravages of time and looters that the walls no longer appear to
+hold any sort of form.  There are holes in the walls, gaping things which give a
+clear view into the rooms of this broken down building.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31419
+D1
+~
+door~
+1 0 31405
+D3
+~
+~
+0 0 31423
+S
+#31421
+An Old Office~
+   This appears to have been some sort of office or place of administration at
+one time.  Who knows, possibly long ago it may have been the registration or
+maybe the room where the dean of the asylum had his private audiences with the
+more problematic children.  Who can say?  
+~
+314 ad 0
+D3
+~
+~
+0 0 31424
+S
+#31422
+Adminsitrative Office~
+   This is what appears to have been an office of some sort back when the asylum
+was still up and functional.  Scraps of wood and metal lie broken on the floor
+of the room, most likely the remains of office furniture.  
+~
+314 ad 0
+D1
+~
+door~
+1 0 31419
+S
+#31423
+Inner Hall~
+   The hall continues its decayed way into the depths of the building, the holes
+in the walls still showing into the other rooms of the building.  Tinges of red
+- what appears to be bloodstains - are very apparent as the way into this
+terrible place gets farther and farther.  It might be a good idea not to stray
+too far from the door.  
+~
+314 ad 0
+D1
+~
+~
+0 0 31420
+D2
+~
+~
+0 0 31424
+S
+#31424
+Base of a Crumbling Stairway~
+   A set of stairs lead upward, half of the stone and mortar that once made them
+crumbled and fallen to the ground beneath.  It would take a great deal of skill
+and foolhearty bravery to get up those steps.  There is a door to the east.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31423
+D1
+~
+~
+0 0 31421
+D4
+~
+~
+0 0 31425
+S
+#31425
+At the Top of a Crumbled Stair~
+   The stairway lies just below, its broken mortar and gaping holes staring out
+at any soul foolish enough to attempt a descent.  A door lies to the north, a
+hallway runs east.  
+~
+314 ad 0
+D0
+~
+door~
+1 0 31427
+D1
+~
+~
+0 0 31426
+D5
+~
+~
+0 0 31424
+S
+#31426
+A Darkened Hall~
+   The hall turns at a right angle to the north, heading into darkness.  The
+rubble is just as bad on this upper level as it is in the lower levels.  There
+are no doors or windows in sight, but there is plenty of blood - ever present.
+
+~
+314 ad 0
+D0
+~
+~
+0 0 31428
+D3
+~
+~
+0 0 31425
+S
+#31427
+An Old Office~
+   This appears to have been a very small, very private office.  There are
+stacks of old pieces of paneling, rotted and long since made worthless from time
+and decay, which give every indication that this once was a place of comfort for
+some high ranking administrator.  
+~
+314 ad 0
+D2
+~
+door~
+1 0 31425
+S
+#31428
+Rubble-Strewn Hallway~
+   The hallway runs north to south with no doors on either side and no windows
+on either side.  It almost seems that the entire building may have been
+sprinkled in droplets of blood, as the red stains persist even here in this
+upper level.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31430
+D2
+~
+~
+0 0 31426
+S
+#31429
+Office~
+   This was once obviously some higher up's office as it appears that it was
+made just for the purpose of enteraining guests and other faculty.  The floor is
+still covered in some small areas by chunks of ratty carpet that was once plush
+and lavish, the walls covered with the same.  
+~
+314 ad 0
+D1
+~
+door~
+1 0 31430
+S
+#31430
+End of a Hallway~
+   The hallways ends here with a door on the west wall.  Piles of rubble climb
+the other walls making footing in any direction very treacherous.  There are
+still the blood stains everywhere, making the whole place seem as if it were
+seen through a red tint.  
+~
+314 ad 0
+D2
+~
+~
+0 0 31428
+D3
+~
+door~
+1 0 31429
+S
+#31431
+Receiving Chamber~
+   This was the dean of the asylum resided back when the asylum was functional -
+as an asylum anyway.  The blood which seems to cover most of the grounds of the
+asylum seems especially thick here, the walls sticky to the touch and the floor
+tacky when stepped upon.  There is a small door in the east wall.  
+~
+314 ad 0
+D0
+~
+door~
+1 0 31402
+D1
+~
+door~
+1 0 31432
+S
+#31432
+Living Area~
+   This was the dean and his family's main room for gathering together and
+eating meals or sharing time.  The remains of an old table are here, one leg all
+that is left of the original four, propping the table up at an absurd angle.  
+~
+314 ad 0
+D2
+~
+~
+0 0 31433
+D3
+~
+door~
+1 0 31431
+S
+#31433
+Bedchamber~
+   This ramshackle room is all that is left of what was once a very comfortable
+bedchamber to the dean and his wife.  The sheets and pillows have long since
+been torn to shreds and carried off by rats for bedding and nests, now all that
+is left is a pile of timber from the bed and furniture and a lot of plaster
+chunks which have fallen from the walls.  All of which is - of course - soaked
+in blood.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31432
+S
+#31434
+Jumbled Path~
+   Mostly covered in weeds and brownish plant life, this trail is strewn with a
+litter of rock and mortar from the buildings around it all of which is covered
+with a deep red hue, the color of blood.  It appears that the way may have been
+cleared quite recently as although there is a great deal of rubble strewn about,
+the way through it all is not in any way prohibitive, as if a path had been
+cleared.  To the south a flickering light of some sort can be seen.  To the east
+is the entryway into a small, low building made of stone.  
+~
+314 a 0
+D0
+~
+~
+0 0 31404
+D1
+~
+~
+0 0 31438
+D2
+~
+~
+0 0 31436
+S
+#31435
+A Flickering Path~
+   The path heads south toward the source of the light.  In the dim flickers,
+wet red stains can be seen splashed all over the ground, the old stones soaked
+and in some cases already dried by the splash of blood.  A terrible feeling
+accompanies this place, almost as if an anticipation of death were in the near
+future.  A crude stone foundation with no roof lies just to the west.  
+~
+314 a 0
+D0
+~
+~
+0 0 31406
+D2
+~
+~
+0 0 31437
+D3
+~
+~
+0 0 31440
+S
+#31436
+Jumbled Path Near the Courtyard~
+   The source of the flickering light is now in sight.  It comes from a large
+crumbling stone gazebo set in the middle of a huge courtyard.  The courtyard is
+surrounded by darkened buildings, all of which show signs of decay.  There are
+humanoid shaped moving all about the courtyard, some appear as if they might be
+dancing, others appear to be going about specified tasks.  In the gazebo there
+are a number of people as well, all of which swaying in unison to some as yet
+unheard sound.  In looking down on the floor of the courtyard and even on this
+path, blood can be seen spilled in huge quantities all over the stone.  It
+almost appears as if it were poured on the stone in an attempt to saturate the
+entire area.  
+~
+314 ac 0
+D0
+~
+~
+0 0 31434
+D2
+~
+~
+0 0 31445
+S
+#31437
+Just North of the Courtyard~
+   The path enters into the northwest corner of a large stone courtyard,
+complete with a huge stone gazebo in the center.  It turns out the gazebo is the
+source of the flickering light, as some sort of fire is lit upon it, humans
+moving about around that fire.  All along in the courtyard are also people who
+seem to be about some sort of business, whether swaying in some ritual of some
+sort of going about a task of some sort, they are many.  
+~
+314 ac 0
+D0
+~
+~
+0 0 31435
+D2
+~
+~
+0 0 31442
+S
+#31438
+The Guards' Quarters~
+   It must be that the inmates of this institution were at least slightly
+harmful to themselves and others if a guard had to be kept on the grounds at all
+times.  This building is much like any of the others around, decripid and
+falling apart, blood stains everywhere.  
+~
+314 ad 0
+D1
+~
+~
+0 0 31439
+D3
+~
+~
+0 0 31434
+S
+#31439
+The Guards' Quarters~
+   The building is in a shambles in every area.  Nothing is left of any value,
+only broken bits of furniture and the like.  This asylum must have been
+abandoned and left to rot quite some time ago.  
+~
+314 ad 0
+D3
+~
+~
+0 0 31438
+S
+#31440
+The Old Stables~
+   At one time this must have been where the residents, faculty and visitors of
+the asylum kept their mounts while they stayed on the grounds.  The floor shows
+no sign of ever having been stoned, the walls are all of a crude stone which
+does not look to have been made for the purpose of warmth at all.  
+~
+314 a 0
+D1
+~
+~
+0 0 31435
+D2
+~
+~
+0 0 31441
+S
+#31441
+The Old Stables~
+   The blood is just as prevelant here as it is everywhere else in this asylum,
+spatters of red decorating every inch of the place.  What sort of hideous crime
+was perpatrated at this place to cover the entire place in blood?  What sort of
+hideous creature could do such a thing to such a mass of warm blooded creatures?
+
+~
+314 a 0
+D0
+~
+~
+0 0 31440
+S
+#31442
+Asylum Courtyard~
+   The courtyard here is enormous, dominated in the center by a large gazebo
+which holds within a flickering flame of some sort.  The stones underfoot are
+tacky, sticking to the soles of boots and shoes, making progress at the very
+least discouraged.  
+~
+314 0 0
+D0
+~
+~
+0 0 31437
+D1
+~
+~
+0 0 31443
+D2
+~
+~
+0 0 31448
+S
+#31443
+Asylum Courtyard~
+   This is the main courtyard for the entire asylum.  A huge stone gazebo
+dominates the center of the courtyard, stone steps leading up to its main floor
+from every direction.  The ground underfoot is tacky to the touch, making feet
+stick it.  
+~
+314 a 0
+D1
+~
+~
+0 0 31444
+D2
+~
+~
+0 0 31446
+D3
+~
+~
+0 0 31442
+S
+#31444
+Asylum Courtyard~
+   This courtyard was once very obviously the center of traffic for the asylum
+back in the day.  A large stone gazebo lies directly south from here, a set of
+wide steps leading up into it.  The stone of the courtyard is even more soaked
+with blood than the rest of the previous areas, the thick stains making travel
+almost difficult as the thick, dried blood attempts to stick to the bottoms of
+shoes and boots.  
+~
+314 a 0
+D1
+~
+~
+0 0 31445
+D2
+~
+~
+0 0 31447
+D3
+~
+~
+0 0 31443
+S
+#31445
+Asylum Courtyard~
+   This courtyard was once very obviously the center of traffic for the asylum
+back in the day.  A large stone gazebo lies in the center of the courtyard, a
+set of wide steps leading up into it.  The stone of the courtyard is even more
+soaked with blood than the rest of the previous areas, the thick stains making
+travel almost difficult as the thick, dried blood attempts to stick to the
+bottoms of shoes and boots.  
+~
+314 a 0
+D0
+~
+~
+0 0 31436
+D1
+~
+~
+0 0 31458
+D2
+~
+~
+0 0 31455
+D3
+~
+~
+0 0 31444
+S
+#31446
+Asylum Courtyard~
+   This area of the courtyard is a small spot of cobbled ground which lies
+wedged in between two sets of the stairs which run up to the gazebo.  The scent
+of fresh blood wafts heavily in the air, the stone all around testament to the
+fact that people must die in this courtyard daily.  
+~
+314 a 0
+D0
+~
+~
+0 0 31443
+D1
+~
+~
+0 0 31447
+D2
+~
+~
+0 0 31449
+D3
+~
+~
+0 0 31448
+S
+#31447
+The Gazebo Steps~
+   Now the source of the light in the gazebo is plain to see - a flickering
+torch is thrust into a stone holder, a makeshift altar next to it.  A man
+dressed in dark blood-soaked robes kneels before the altar, arms upraised in
+prayer - a curved dagger clenched tightly in one upraised fist.  
+~
+314 ac 0
+D0
+~
+~
+0 0 31444
+D1
+~
+~
+0 0 31455
+D2
+~
+~
+0 0 31451
+D3
+~
+~
+0 0 31446
+S
+#31448
+Asylum Courtyard~
+   The courtyard ends at its westernmost boundary, a long low building marking
+that boundary.  The entrance to the building lies just south, a set of tall
+steps leading up into its dark interior.  Just behind the building a tall water
+tower can be seen rising up into the night sky.  
+~
+314 a 0
+D0
+~
+~
+0 0 31442
+D1
+~
+~
+0 0 31446
+D2
+~
+~
+0 0 31450
+S
+#31449
+The Gazebo Steps~
+   Now the source of the light in the gazebo is plain to see - a flickering
+torch is thrust into a stone holder, a makeshift altar next to it.  A man
+dressed in dark blood-soaked robes kneels before the altar, arms upraised in
+prayer - a curved dagger clenched tightly in one upraised fist.  
+~
+314 ac 0
+D0
+~
+~
+0 0 31446
+D1
+~
+~
+0 0 31451
+D2
+~
+~
+0 0 31453
+D3
+~
+~
+0 0 31450
+S
+#31450
+Entrance to a Building~
+   A very official looking building, at least it would look official had it not
+red blood stains covering the outer walls, lies to the west.  A set of double
+doors lie open at crazy angles, the interior dark and mysterious.  Straight to
+the east is a set of steps leading up to a stone gazebo.  
+~
+314 a 0
+D0
+~
+~
+0 0 31448
+D1
+~
+~
+0 0 31449
+D2
+~
+~
+0 0 31452
+D3
+~
+~
+0 0 31474
+S
+#31451
+X'Raantra's Altar~
+   The floor of the gazebo is stone, like the rest of the edifices which make up
+this asylum, and is sunk in roughly a foot from the edges.  This sunken area
+forms a sort of a pool, which was probably not the original intent of the
+builders, which is filled to the rim with thick, dark blood.  Torches are thrust
+into holders on the supports of the gazebo's ceiling, four of them in number
+lighting this terrible place all too well.  
+~
+314 a 0
+D0
+~
+~
+0 0 31447
+D1
+~
+~
+0 0 31456
+D2
+~
+~
+0 0 31454
+D3
+~
+~
+0 0 31449
+S
+#31452
+Asylum Courtyard~
+   The courtyard butts up against the outer wall of a single story building to
+the west.  The entrance to this building lies just north, through a set of open
+double doors.  
+~
+314 a 0
+D0
+~
+~
+0 0 31450
+D1
+~
+~
+0 0 31453
+D2
+~
+~
+0 0 31462
+S
+#31453
+Asylum Courtyard~
+   This area of the courtyard is a small spot of cobbled ground which lies
+wedged in between two sets of the stairs which run up to the gazebo.  The scent
+of fresh blood wafts heavily in the air, the stone all around testament to the
+fact that people must die in this courtyard daily.  
+~
+314 a 0
+D0
+~
+~
+0 0 31449
+D1
+~
+~
+0 0 31454
+D2
+~
+~
+0 0 31463
+D3
+~
+~
+0 0 31452
+S
+#31454
+The Gazebo Steps~
+   Now the source of the light in the gazebo is plain to see - a flickering
+torch is thrust into a stone holder, a makeshift altar next to it.  A man
+dressed in dark blood-soaked robes kneels before the altar, arms upraised in
+prayer - a curved dagger clenched tightly in one upraised fist.  
+~
+314 ac 0
+D0
+~
+~
+0 0 31451
+D1
+~
+~
+0 0 31457
+D2
+~
+~
+0 0 31464
+D3
+~
+~
+0 0 31453
+S
+#31455
+Asylum Courtyard~
+   This area of the courtyard is a small spot of cobbled ground which lies
+wedged in between two sets of the stairs which run up to the gazebo.  The scent
+of fresh blood wafts heavily in the air, the stone all around testament to the
+fact that people must die in this courtyard daily.  
+~
+314 a 0
+D0
+~
+~
+0 0 31445
+D1
+~
+~
+0 0 31459
+D2
+~
+~
+0 0 31456
+D3
+~
+~
+0 0 31447
+S
+#31456
+The Gazebo Steps~
+   Now the source of the light in the gazebo is plain to see - a flickering
+torch is thrust into a stone holder, a makeshift altar next to it.  A man
+dressed in dark blood-soaked robes kneels before the altar, arms upraised in
+prayer - a curved dagger clenched tightly in one upraised fist.  
+~
+314 ac 0
+D0
+~
+~
+0 0 31455
+D1
+~
+~
+0 0 31460
+D2
+~
+~
+0 0 31457
+D3
+~
+~
+0 0 31451
+S
+#31457
+Asylum Courtyard~
+   This area of the courtyard is a small spot of cobbled ground which lies
+wedged in between two sets of the stairs which run up to the gazebo.  The scent
+of fresh blood wafts heavily in the air, the stone all around testament to the
+fact that people must die in this courtyard daily.  
+~
+314 a 0
+D0
+~
+~
+0 0 31456
+D1
+~
+~
+0 0 31461
+D2
+~
+~
+0 0 31465
+D3
+~
+~
+0 0 31454
+S
+#31458
+Asylum Courtyard~
+   This is the far northeast end of the courtyard.  An old decrepid chapel lies
+to the east, the entrance south from here.  From this angle, a tall bell tower
+can be seen rising high above the chapel, the bell still hanging inside.  A
+large stone gazebo lies in the center of the courtyard, a flickering light
+burninng strong inside.  
+~
+314 a 0
+D2
+~
+~
+0 0 31459
+D3
+~
+~
+0 0 31445
+S
+#31459
+Asylum Courtyard~
+   The entrance to a chapel lies just south from here, a wide set of stone steps
+leading up east to the main door.  To the southwest, in the center of the
+courtyard, is a large stone gazebo with a ceremony of some sort in progress.  
+People of some race or another can be seen shuffling about in the courtyard
+going about some sort of business.  
+~
+314 a 0
+D0
+~
+~
+0 0 31458
+D2
+~
+~
+0 0 31460
+D3
+~
+~
+0 0 31455
+S
+#31460
+Entrance to the Chapel~
+   These steps lead straight up to the door of the chapel, a carved wooden door
+which has withstood the ravages of time and looters.  The wood must once have
+been very beautiful with its carved cherubs and angels floating about on its
+surface, but now those angels are smeared in blood, their faces ghastly and
+horrific in the flickering light.  The steps up to the gazebo in the center of
+the courtyard lie just west.  
+~
+314 a 0
+D0
+~
+~
+0 0 31459
+D1
+~
+door~
+1 0 31467
+D2
+~
+~
+0 0 31461
+D3
+~
+~
+0 0 31456
+S
+#31461
+Asylum Courtyard~
+   This is the eastern end of the courtyard, the outer wall of the chapel just
+to the east.  The entrance to the chapel lies just north, up a set of steps.  
+~
+314 a 0
+D0
+~
+~
+0 0 31460
+D2
+~
+~
+0 0 31466
+D3
+~
+~
+0 0 31457
+S
+#31462
+Asylum Courtyard~
+   This is the southwestern corner of the courtyard.  A small path leads west
+around a large building which lies just south from here.  The ceremony continues
+in the gazebo to the northeast.  
+~
+314 a 0
+D0
+~
+~
+0 0 31452
+D1
+~
+~
+0 0 31463
+D3
+~
+~
+0 0 31493
+S
+#31463
+Asylum Courtyard~
+   This is the south end of the couryard, bound by a long building who's
+entrance lies to the south, one of two entrances.  The gazebo lies to the
+northeast, in the center of the courtyard.  
+~
+314 a 0
+D0
+~
+~
+0 0 31453
+D1
+~
+~
+0 0 31464
+D2
+~
+~
+0 0 31476
+D3
+~
+~
+0 0 31462
+S
+#31464
+Asylum Courtyard~
+   The gazebo lies just north from here, at the end of a flight of steps.  To
+the south is the wall of a stone building.  The blood on the ground seems never
+ending.  
+~
+314 a 0
+D0
+~
+~
+0 0 31454
+D1
+~
+~
+0 0 31465
+D3
+~
+~
+0 0 31463
+S
+#31465
+Asylum Courtyard~
+   This is the southern end of the courtyard where it butts up against the wall
+of a long stone building.  A door to that building lies to the south, the gazebo
+standing in the center of the courtyard - almost seeming to beckon entry.  
+~
+314 a 0
+D0
+~
+~
+0 0 31457
+D1
+~
+~
+0 0 31466
+D2
+~
+~
+0 0 31478
+D3
+~
+~
+0 0 31464
+S
+#31466
+Asylum Courtyard~
+   This is the southeastern corner of the courtyard.  A trail leads east between
+the buildings which form the boundaries of the courtyard.  To the far northwest
+is a large gazebo, a fire flickering within.  
+~
+314 a 0
+D0
+~
+~
+0 0 31461
+D1
+~
+~
+0 0 31483
+D3
+~
+~
+0 0 31465
+S
+#31467
+Chapel Entryway~
+   What a grand place this must once have been.  The walls all were at one time
+of worked stone, carvings of all sorts of angelic murals and poses.  To the
+north is a door, to the south is the main worship area.  East is a small room,
+the function of which unfathomable from this room.  
+~
+314 ad 0
+D0
+~
+door~
+1 0 31468
+D1
+~
+~
+0 0 31469
+D2
+~
+~
+0 0 31470
+D3
+~
+door~
+1 0 31460
+S
+#31468
+Cloaking Room~
+   The stone hooks still jut from the walls where the clergy must once have hung
+or donned their robes of office before or after a service.  There are, of
+course, no robes hanging from those hooks any longer.  This room, like most of
+the other rooms in the buildings of this asylum, has succumbed to the demand of
+time and decay, the walls crumbling and the floors broken and cracked.  All of
+this is, of course covered in a sheen of red.  
+~
+314 ad 0
+D2
+~
+door~
+1 0 31467
+S
+#31469
+Shaft~
+   This is nothing more than a small five by five room with no ceiling.  A look
+upward reveals that this tall shaft leads directly up into the bell tower, as
+the bell is visible even from here on the ground level.  A set of ropes hang
+down, their frayed ends high out of reach.  They must once have connected to
+something here, but whatever that was, it is long since rotted or taken.  
+~
+314 ad 0
+D3
+~
+~
+0 0 31467
+D4
+~
+~
+0 0 31471
+S
+#31470
+Chapel Worship Room~
+   There are spots where rows of pews once lined before a carved stone altar,
+however all that is left of the majesty of the place are two pews and the
+remains of the altar, tipped to the side and split asunder.  It would only
+appear the work of vandals or looters if not for the immense amounts of blood
+soaked into the stonework of the place.  This was a calculated ruination of a
+place of worship.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31467
+S
+#31471
+In the Shaft~
+   Unbelievably, the sides of the shaft's interior walls are scalable!  Only a
+bit further and the bell can be reached, where a platform of stone surrounds the
+inside of the shaft.  
+~
+314 ad 0
+D4
+~
+~
+0 0 31472
+D5
+~
+~
+0 0 31469
+S
+#31472
+Bell Tower~
+   It turns out that the shaft leading up from the interior of the chapel is
+actually the bell tower itself.  A bird's eye view of the asylum is given here,
+especially of the courtyard where it is now painfully obvious that there are
+many more people moving about this place.  On the north wall is a window which
+leads out just above the roof of the chapel.  It does not appear that the tower
+would be accessable again once exited from and onto the chapel roof.  
+~
+314 ad 0
+D0
+~
+window~
+0 0 31473
+D5
+~
+~
+0 0 31471
+S
+#31473
+Chapel Roof~
+   There is not much of interest on this roof save for the fact that it is the
+only place thus far that is not soaked in blood, nor is it full of the rubble
+and trash that is littered about the ground and in the buildings.  It must be
+too much effort for the vandals of this area to climb out here and trash this
+part as well.  It appears that the only way from this rooftop is down, jumping
+from the roof to the courtyard below.  
+~
+314 a 0
+D5
+~
+roof~
+0 0 31459
+S
+#31474
+Library Entry~
+   This is a small antechamber where at one time check-out secretary or
+librarian once sat and made sure that all books within were accounted for.  
+There is no desk, no secretary or librarian, only a set four crumbling walls,
+the plaster or mortar fallen and in decay.  
+~
+314 acd 0
+D1
+~
+~
+0 0 31450
+D2
+~
+~
+0 0 31475
+S
+#31475
+Library~
+   Most of the shelves that used to line the walls, molded into the stone that
+made up the walls, are now broken and lying in dust on the cracked floors.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31474
+S
+#31476
+Faculty Rooms~
+   The faculty of the asylum kept their rest cots and break tables in this room,
+not to mention a guard was always on station as further in this building lies
+the dorm rooms of all 'students' for the place.  There is still a remnant of
+what the room must have been, some old steel frames - probably cots - line one
+wall, all rusted into uselessness.  Like every other section of this asylum, the
+walls are soaked in blood as are the floors.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31463
+D2
+~
+~
+0 0 31477
+S
+#31477
+Dormatory~
+   This is where the students - or mental loonies - were bunked at night.  
+There are no longer any sorts of furniture items left in the room, only hunks of
+broken plaster and mortar.  A doorway opens wide into a basement stairway.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31476
+D1
+~
+~
+0 0 31479
+D5
+~
+~
+0 0 31481
+S
+#31478
+Faculty Rooms~
+   The faculty of the asylum kept their rest cots and break tables in this room,
+not to mention a guard was always on station as further in this building lies
+the dorm rooms of all 'students' for the place.  There is still a remnant of
+what the room must have been, some old steel frames - probably cots - line one
+wall, all rusted into uselessness.  Like every other section of this asylum, the
+walls are soaked in blood as are the floors.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31465
+D2
+~
+~
+0 0 31480
+S
+#31479
+Dormatory~
+   This is where the students - or mental loonies - were bunked at night.  
+There are no longer any sorts of furniture items left in the room, only hunks of
+broken plaster and mortar.  
+~
+314 ad 0
+D1
+~
+~
+0 0 31480
+D3
+~
+~
+0 0 31477
+S
+#31480
+Dormatory~
+   This is where the students - or mental loonies - were bunked at night.  
+There are no longer any sorts of furniture items left in the room, only hunks of
+broken plaster and mortar.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31478
+D3
+~
+~
+0 0 31479
+S
+#31481
+Storage and Detainment Area~
+   This room has a wall of lockers, all broken and wide open with no contents in
+them whatsoever.  On the south wall is a small wooden door, still securely
+fastened on its hinges.  
+~
+314 ad 0
+D2
+~
+door~
+1 0 31482
+D4
+~
+~
+0 0 31477
+S
+#31482
+The Cooling Room~
+   This was the asylum staff's ultimate weapon against any of the students who
+became unruly or out of hand.  The temperature in this little cubicle dips down
+well below freezing in the nights, being dirt floored and in the basement.  Any
+students who had a problem with obedience ending up cooling their heels in the
+Cooling Room.  
+~
+314 ad 0
+D0
+~
+door~
+1 0 31481
+S
+#31483
+Old Cobbled Trail~
+   This was once a sedate cobbled walkway, the cobbles now missing or broken and
+soaked in blood.  The trail turns south and curves out of sight to the east
+again toward a tall, squarish stone building.  
+~
+314 ac 0
+D2
+~
+~
+0 0 31484
+D3
+~
+~
+0 0 31466
+S
+#31484
+Old Cobbled Trail~
+   This was once a sedate cobbled walkway, the cobbles now missing or broken and
+soaked in blood.  The trail heads north back toward the courtyard or turns east
+again, headed toward the entrance of a tall, stone building.  
+~
+314 a 0
+D0
+~
+~
+0 0 31483
+D1
+~
+~
+0 0 31485
+S
+#31485
+Old Cobbled Trail~
+   This was once a sedate cobbled walkway, the cobbles now missing or broken and
+soaked in blood.  The building, which now lies just south of you, can be entered
+through a doorway just east from here.  
+~
+314 a 0
+D1
+~
+~
+0 0 31486
+D3
+~
+~
+0 0 31484
+S
+#31486
+Entrance to the Auditorium~
+   The interior of the building can be seen through the flickering lights
+within.  Squatters can be seen inside the building, hunched over fires or
+sleeping in wretched balls on floor.  The trail heads west away from here back
+toward the courtyard.  
+~
+314 a 0
+D2
+~
+~
+0 0 31487
+D3
+~
+~
+0 0 31485
+S
+#31487
+Auditorium Floor~
+   The place has an immense main floor, a large stage dominating the north end
+of the main floor.  Grubby, wretched people huddle near small fires or lie
+curled upon the floor sleeping what little amounts that they might before the
+next Choosing.  A set of stone stadium seats lead up to the roof on the south
+end of the place.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31486
+D2
+~
+~
+0 0 31489
+D3
+~
+~
+0 0 31488
+S
+#31488
+Auditorium Floor~
+   The place has an immense main floor, a large stage dominating the north end
+of the main floor.  Grubby, wretched people huddle near small fires or lie
+curled upon the floor sleeping what little amounts that they might before the
+next Choosing.  A set of stone stadium seats lead up to the roof on the south
+end of the place.  
+~
+314 ad 0
+D1
+~
+~
+0 0 31487
+D2
+~
+~
+0 0 31490
+S
+#31489
+Auditorium Floor~
+   The place has an immense main floor, a large stage dominating the north end
+of the main floor.  Grubby, wretched people huddle near small fires or lie
+curled upon the floor sleeping what little amounts that they might before the
+next Choosing.  A set of stone stadium seats lead up to the roof on the south
+end of the place.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31487
+D3
+~
+~
+0 0 31490
+D4
+~
+~
+0 0 31492
+S
+#31490
+Auditorium Floor~
+   The place has an immense main floor, a large stage dominating the north end
+of the main floor.  Grubby, wretched people huddle near small fires or lie
+curled upon the floor sleeping what little amounts that they might before the
+next Choosing.  A set of stone stadium seats lead up to the roof on the south
+end of the place.  
+~
+314 ad 0
+D0
+~
+~
+0 0 31488
+D1
+~
+~
+0 0 31489
+D4
+~
+~
+0 0 31491
+S
+#31491
+Auditorium Seating~
+   Rows and rows of stone seats line the sloping floor, east to west up to the
+south wall where the seats actually reach the ceiling.  More squatters lie
+wedged between seats, snug in their hopes that they will not be the next Chosen.
+
+~
+314 ad 0
+D1
+~
+~
+0 0 31492
+D5
+~
+~
+0 0 31490
+S
+#31492
+Auditorium Seating~
+   Rows and rows of stone seats line the sloping floor, east to west up to the
+south wall where the seats actually reach the ceiling.  More squatters lie
+wedged between seats, snug in their hopes that they will not be the next Chosen.
+
+~
+314 ad 0
+D3
+~
+~
+0 0 31491
+D5
+~
+~
+0 0 31489
+S
+#31493
+Cracked Path~
+   The path used to be a small street of cobbled stone, leading toward the
+asylum's main water source, the water tower.  The tower rises high into the dark
+sky to the west.  
+~
+314 ac 0
+D1
+~
+~
+0 0 31462
+D3
+~
+~
+0 0 31494
+S
+#31494
+Cracked Path~
+   The path splits to south and also allows entrance into the water tower to the
+west.  There is some sort of short, thin structure rising about twenty feet into
+the air to the south but from here it is too dark and too far to be seen
+clearly.  
+~
+314 a 0
+D1
+~
+~
+0 0 31493
+D2
+~
+~
+0 0 31497
+D3
+~
+~
+0 0 31495
+S
+#31495
+In the Base of the Water Tower~
+   This is an oddly wood tiled sphere which held water when the asylum was
+functional.  It now has too many holes and leaks to hold any water all, but a
+spiral staircase still leads around the inside up to the top, probably installed
+so that repairs could be made when their were leaks.  
+~
+314 a 0
+D1
+~
+~
+0 0 31494
+D4
+~
+~
+0 0 31496
+S
+#31496
+At the Top of the Water Tower~
+   There is no roof over the top of this thing, the asylum must have relied
+heavily on rain water to help replentish their supplies of water whenever nature
+was kind.  This small platform runs around near the utmost top of tower, a wire
+mesh affair that feels none-too-sturdy.  
+~
+314 a 0
+D5
+~
+~
+0 0 31495
+S
+#31497
+Cracked Path~
+   The path leads into a burnt out ruin of a building, one which was obviously
+not made of stone like the rest of this place.  All that remains, or so it
+appears, of the place is the chimney which still stands tall with a fireplace at
+the base.  
+~
+314 a 0
+D0
+~
+~
+0 0 31494
+D2
+~
+~
+0 0 31498
+S
+#31498
+Ruins of a Building~
+   The ground is covered in charred pieces of wood and debris.  No growth at all
+grows here, as the burning stunted that growth for many years yet to come.  A
+tall stone fireplace rises to the west.  
+~
+314 a 0
+D0
+~
+~
+0 0 31497
+D3
+~
+~
+0 0 31499
+S
+#31499
+Ruins of a Building~
+   The ground is covered in charred pieces of wood and debris.  No growth at all
+grows here, as the burning stunted that growth for many years yet to come.  A
+stone chimney with a fireplace at the base is all that is left of whatever sort
+of building might once have stood here long ago.  
+~
+314 a 0
+D1
+~
+~
+0 0 31498
+S
+#0
+
+#RESETS
+M 0 31402 1 31400 	(a gibbering man)
+E 1 31416 100 5 	(some badly shredded leather armor)
+D 0 31400 0 1 	(Entrance to the Asylum Grounds)
+M 0 31417 1 31422 	(a fellow adventurer)
+G 1 31429 100 -1 	(a traveler's pack)
+D 0 31422 1 1 	(Adminsitrative Office)
+D 0 31427 2 1 	(An Old Office)
+M 0 31413 1 31427 	(a hidden Believer)
+G 1 31427 100 -1 	(a vial of blood)
+E 1 31428 100 1 	(a dark red blood ring)
+M 0 31416 1 31406 	(a dazed DeathKnight)
+E 1 31426 100 12 	(a black cape)
+E 1 31425 100 6 	(a blackened helm)
+E 1 31424 100 16 	(an inlaid black sword)
+R 0 31406 31402 -1 	(a rotted piece of cloth)
+O 0 31402 1 31406 	(a rotted piece of cloth)
+R 0 31457 31409 -1 	(a fresh corpse)
+O 0 31409 2 31457 	(a fresh corpse)
+M 0 31418 3 31457 	(a blood wight)
+M 0 31409 1 31457 	(Gunter)
+E 1 31423 100 17 	(the Word of God)
+M 0 31410 1 31481 	(a torturer)
+E 1 31422 100 16 	(a black leather whip)
+E 1 31421 100 8 	(a horrid scar)
+D 0 31481 2 1 	(Storage and Detainment Area)
+M 0 31406 1 31482 	(a terrified child)
+E 1 31420 100 12 	(a smattering of welts and bruises)
+D 0 31482 0 1 	(The Cooling Room)
+M 0 31405 2 31488 	(a squatter)
+G 1 31419 100 -1 	(a raggedy blanket)
+M 0 31405 2 31489 	(a squatter)
+G 1 31419 100 -1 	(a raggedy blanket)
+M 0 31408 4 31445 	(a scurrying rat)
+M 0 31404 3 31445 	(a woman)
+E 1 31418 100 5 	(a soiled tattered dress)
+M 0 31404 3 31446 	(a woman)
+E 1 31418 100 5 	(a soiled tattered dress)
+M 0 31418 3 31463 	(a blood wight)
+M 0 31418 3 31463 	(a blood wight)
+R 0 31463 31409 -1 	(a fresh corpse)
+O 0 31409 2 31463 	(a fresh corpse)
+M 0 31404 3 31463 	(a woman)
+E 1 31418 100 5 	(a soiled tattered dress)
+R 0 31401 31400 -1 	(the old cracked fountain)
+O 0 31400 1 31401 	(the old cracked fountain)
+M 0 31403 1 31401 	(a retching elf)
+E 1 31417 100 12 	(a coating of vomit)
+R 0 31451 31403 -1 	(the dark blood)
+O 0 31403 1 31451 	(the dark blood)
+R 0 31451 31404 -1 	(a dark, blood-stained altar)
+O 0 31404 1 31451 	(a dark, blood-stained altar)
+M 0 31400 1 31451 	(X'Raantra)
+E 1 31413 100 1 	(the Ring of Enchantment)
+E 1 31412 100 12 	(a soiled and bloodstained robe)
+E 1 31411 100 16 	(a shining curved blade)
+M 0 31401 2 31451 	(a Believer)
+E 1 31414 100 5 	(a grubby jerkin)
+E 1 31415 100 8 	(the blood of an innocent)
+M 0 31401 2 31451 	(a Believer)
+E 1 31414 100 5 	(a grubby jerkin)
+E 1 31415 100 8 	(the blood of an innocent)
+O 0 31410 1 31421 	(a decayed corpse)
+D 0 31411 3 1 	(Classing Room)
+M 0 31419 1 31411 	(the unrobed believer)
+M 0 31420 1 31411 	(a screeching boy)
+M 0 31408 4 31419 	(a scurrying rat)
+D 0 31419 3 1 	(Hall's End)
+M 0 31415 5 31499 	(a hairy spider)
+M 0 31415 5 31447 	(a hairy spider)
+M 0 31415 5 31412 	(a hairy spider)
+D 0 31412 3 1 	(Classing Room)
+M 0 31415 5 31404 	(a hairy spider)
+D 0 31404 1 1 	(The Asylum Grounds)
+R 0 31404 31401 -1 	(some broken pieces of glass)
+O 0 31401 1 31404 	(some broken pieces of glass)
+M 0 31415 5 31424 	(a hairy spider)
+M 0 31414 4 31480 	(a brown bat)
+M 0 31414 4 31492 	(a brown bat)
+M 0 31414 4 31439 	(a brown bat)
+M 0 31414 4 31429 	(a brown bat)
+D 0 31429 1 1 	(Office)
+M 0 31412 3 31462 	(a Seeker)
+M 0 31412 3 31448 	(a Seeker)
+M 0 31412 3 31455 	(a Seeker)
+O 0 31408 1 31490 	(a burning barrel)
+M 0 31411 2 31490 	(a grubby man)
+M 0 31408 4 31470 	(a scurrying rat)
+M 0 31408 4 31402 	(a scurrying rat)
+D 0 31402 2 1 	(The Asylum Grounds)
+M 0 31407 1 31410 	(a weeping man)
+D 0 31410 3 1 	(Classing Room)
+O 0 31407 1 31410 	(a child's dead body)
+O 0 31405 1 31475 	(an old bookshelf)
+P 1 31406 100 31405 	(a blood-stained book)
+D 0 31467 0 1 	(Chapel Entryway)
+D 0 31467 3 1 	(Chapel Entryway)
+D 0 31468 2 1 	(Cloaking Room)
+D 0 31460 1 1 	(Entrance to the Chapel)
+D 0 31431 0 1 	(Receiving Chamber)
+D 0 31431 1 1 	(Receiving Chamber)
+D 0 31432 3 1 	(Living Area)
+D 0 31430 3 1 	(End of a Hallway)
+D 0 31425 0 1 	(At the Top of a Crumbled Stair)
+D 0 31405 3 1 	(The Asylum Grounds)
+D 0 31420 1 1 	(Inner Hall)
+D 0 31413 1 1 	(Upper Hall)
+D 0 31418 3 1 	(Classing Room)
+D 0 31414 1 1 	(Upper Hall)
+D 0 31417 3 1 	(Classing Room)
+D 0 31416 3 0 	(Classing Room)
+D 0 31415 1 0 	(Upper Hall)
+D 0 31407 1 1 	(Inner Hall of the Academy)
+D 0 31407 3 1 	(Inner Hall of the Academy)
+D 0 31408 1 1 	(Inner Hall of the Academy)
+D 0 31409 1 1 	(Inner Hall of the Academy)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

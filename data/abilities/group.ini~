@@ -1,0 +1,992 @@
+Group 'rom basics' {
+  Contains = (( 'Ability', 'recall' ));
+}
+
+Group 'monk basics' {
+  Contains = (( 'Ability', 'hand to hand' ), 
+              ( 'Ability', 'kick' ));
+}
+
+Group 'monk default' {
+  Contains = (( 'Ability', 'Block' ),
+              ( 'Ability', 'Dirt Kicking' ),
+              ( 'Ability', 'Fast Healing' ),
+              ( 'Ability', 'Fleetfooted' ),
+              ( 'Ability', 'Hide' ),
+              ( 'Ability', 'Kick' ),
+              ( 'Ability', 'Riding' ),
+              ( 'Ability', 'Spear' ),
+              ( 'Ability', 'Stun' ),
+              ( 'Ability', 'Trip' ),
+              ( 'Ability', 'Tumble' ) );
+}
+
+Group 'neuromancer basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'scrolls' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              );
+}
+
+Group 'neuromancer default' {
+  Contains = (( 'Group', 'neuro attack' )
+              , ( 'Group', 'neuro defensive' )
+              , ( 'Group', 'neuro misc' )
+              , ( 'Ability', 'concentration' )
+              );
+}
+
+Group 'assassin basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'dodge' )
+              , ( 'Ability', 'freeflee' )
+              );
+}
+
+Group 'assassin default' {
+  Contains = (( 'Ability', 'enhanced damage' )
+              , ( 'Ability', 'hand to hand' )
+              , ( 'Ability', 'envenom' )
+              , ( 'Ability', 'hide' )
+              , ( 'Ability', 'sneak' )
+              , ( 'Ability', 'fast healing' )
+              , ( 'Ability', 'second attack' )
+              , ( 'Ability', 'third attack' )
+              , ( 'Ability', 'circle' )
+              , ( 'Ability', 'backstab' )
+              );
+}
+
+Group 'weaponsmaster' {
+  Contains = (( 'Ability', 'axe' )
+              , ( 'Ability', 'dagger' )
+              , ( 'Ability', 'flail' )
+              , ( 'Ability', 'mace' )
+              , ( 'Ability', 'polearm' )
+              , ( 'Ability', 'spear' )
+              , ( 'Ability', 'sword' )
+              , ( 'Ability', 'whip' )
+              );
+}
+
+Group 'monk enhancement' {
+  Contains = (( 'Ability', 'giant strength' )
+              , ( 'Ability', 'bless' )
+              , ( 'Ability', 'haste' )
+              , ( 'Ability', 'infravision' )
+             );
+}
+
+Group 'monk protective' {
+  Contains = (( 'Ability', 'armor' )
+              , ( 'Ability', 'shield' )
+              , ( 'Ability', 'protection good' )
+              , ( 'Ability', 'protection evil' )
+              , ( 'Ability', 'sanctuary' )
+             );
+}
+
+Group 'monk creation' {
+  Contains = (( 'Ability', 'create food' )
+              , ( 'Ability', 'create water' )
+              , ( 'Ability', 'create spring' )
+              , ( 'Ability', 'continual light' )
+             );
+}
+
+Group 'monk detection' {
+  Contains = (( 'Ability', 'detect evil' )
+              , ( 'Ability', 'detect magic' )
+              , ( 'Ability', 'detect good' )
+              , ( 'Ability', 'detect hidden' )
+              , ( 'Ability', 'detect poison' )
+              , ( 'Ability', 'detect invis' )
+             );
+}
+
+Group 'neuro attack' {
+  Contains = (( 'Ability', 'agitation' )
+              , ( 'Ability', 'ballistic attack' )
+              , ( 'Ability', 'control flames' )
+              , ( 'Ability', 'detonate' )
+              , ( 'Ability', 'disintegrate' )
+              , ( 'Ability', 'ego whip' )
+              , ( 'Ability', 'inflict pain' )
+              , ( 'Ability', 'mind thrust' )
+              , ( 'Ability', 'project force' )
+              , ( 'Ability', 'neuro blast' )
+              , ( 'Ability', 'neuro crush' )
+              , ( 'Ability', 'neuro drain' )
+              , ( 'Ability', 'ultrablast' )
+              , ( 'Ability', 'raw flesh' )
+              , ( 'Ability', 'minor pain' )
+              , ( 'Ability', 'major pain' )
+              , ( 'Ability', 'psychic impact' )
+             );
+}
+
+Group 'neuro defensive' {
+  Contains = (( 'Ability', 'thought shield' )
+              , ( 'Ability', 'biofeedback' )
+              , ( 'Ability', 'combat mind' )
+              , ( 'Ability', 'displacement' )
+              , ( 'Ability', 'energy containment' )
+              , ( 'Ability', 'flesh armor' )
+              , ( 'Ability', 'intellect fortress' )
+              , ( 'Ability', 'mental barrier' )
+             );
+}
+
+Group 'neuro enhancement' {
+  Contains = (( 'Ability', 'adrenaline control' )
+              , ( 'Ability', 'complete healing' )
+              , ( 'Ability', 'enhanced strength' )
+              , ( 'Ability', 'neuro healing' )
+              , ( 'Ability', 'share strength' )
+             );
+}
+
+Group 'neuro misc' {
+  Contains = (( 'Ability', 'create sound' )
+              , ( 'Ability', 'cell adjustment' )
+              , ( 'Ability', 'lend health' )
+              , ( 'Ability', 'levitation' )
+              , ( 'Ability', 'aura sight' )
+              , ( 'Ability', 'awe' )
+              , ( 'Ability', 'telepathic gate' )
+              , ( 'Ability', 'mindfear' )
+              , ( 'Ability', 'ectoplasmic form' )
+              , ( 'Ability', 'domination' )
+             );
+}
+
+Group 'barbarian basics' {
+  Contains = (( 'Ability', 'Axe' )
+              , ( 'Ability', 'Berserk' )
+             );
+}
+
+Group 'barbarian default' {
+  Contains = (( 'Ability', 'Bash' )
+              , ( 'Ability', 'Cleave' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Second Attack' )
+              , ( 'Ability', 'Third Attack' )
+              , ( 'Ability', 'Fast Healing' )
+              , ( 'Ability', 'Enhanced Damage' )
+              , ( 'Ability', 'Dirt Kicking' )
+              , ( 'Ability', 'Hand to Hand' )
+              , ( 'Ability', 'Kick' )
+              , ( 'Ability', 'Mace' )
+             );
+}
+
+Group 'warrior basics' {
+  Contains = (( 'Ability', 'Sword' )
+              , ( 'Ability', 'Second Attack' )
+             );
+}
+
+Group 'warrior default' {
+  Contains = (( 'Group', 'weaponsmaster' )
+              , ( 'Ability', 'enhanced damage' )
+              , ( 'Ability', 'shield block' )
+              , ( 'Ability', 'parry' )
+              , ( 'Ability', 'third attack' )
+              , ( 'Ability', 'disarm' )
+             );
+}
+
+Group 'thief basics' {
+  Contains = (( 'Ability', 'Dagger' )
+              , ( 'Ability', 'Haggle' )
+              , ( 'Ability', 'Hide' )
+             );
+}
+
+Group 'thief default' {
+  Contains = (( 'Ability', 'Appraisal' )
+              , ( 'Ability', 'Backstab' )
+              , ( 'Ability', 'Climbing' )
+              , ( 'Ability', 'Dirt Kicking' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Envenom' )
+              , ( 'Ability', 'Peek' )
+              , ( 'Ability', 'Pick Lock' )
+              , ( 'Ability', 'Signal' )
+              , ( 'Ability', 'Sneak' )
+              , ( 'Ability', 'Staff(weapon)' )
+              , ( 'Ability', 'Steal' )
+              , ( 'Ability', 'Sword' )
+             );
+}
+
+Group 'ranger basics' {
+  Contains = (( 'Ability', 'Sword' )
+              , ( 'Ability', 'Dual Wield' )
+              , ( 'Ability', 'Riding' )
+             );
+}
+
+Group 'ranger default' {
+  Contains = (( 'Group', 'Ranger1' )
+              , ( 'Ability', 'Hunt' )
+              , ( 'Ability', 'Improved Exotic' )
+              , ( 'Ability', 'Rescue' )
+              , ( 'Ability', 'Favored Enemy' )
+              , ( 'Ability', 'Fast Healing' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Parry' )
+              , ( 'Ability', 'staff(weapon)' )
+             );
+}
+
+Group 'ranger1' {
+  Contains = (( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Cure Light' )
+              , ( 'Ability', 'Create Food' )
+              , ( 'Ability', 'Refresh' )
+              , ( 'Ability', 'Cure Disease' )
+              , ( 'Ability', 'Cure Poison' )
+              , ( 'Ability', 'Breath of the Fish' )
+              , ( 'Ability', 'Cure Blindness' )
+              , ( 'Ability', 'Protection Lycanthropy' )
+             );
+}
+
+Group 'ranger2' {
+  Contains = (( 'Ability', 'Create Shelter' )
+              , ( 'Ability', 'Free Movement' )
+              , ( 'Ability', 'Strength of the Bear' )
+              , ( 'Ability', 'Protection Evil' )
+              , ( 'Ability', 'Animal Follower' )
+             );
+}
+
+Group 'ranger3' {
+  Contains = (( 'Ability', 'Eyes of the Wolf' )
+              , ( 'Ability', 'Walk on Water' )
+              , ( 'Ability', 'Barkskin' )
+              , ( 'Ability', 'Pass Door' )
+              , ( 'Ability', 'Rooted Feet' )
+             );
+}
+
+Group 'ranger4' {
+  Contains = (( 'Ability', 'Cure Serious' )
+              , ( 'Ability', 'Calm Animal' )
+              , ( 'Ability', 'Hibernation' )
+              , ( 'Ability', 'Nature Blessing' )
+             );
+}
+
+Group 'paladin basics' {
+  Contains = (( 'Ability', 'Sword' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Shield Block' )
+             );
+}
+
+Group 'paladin default' {
+  Contains = (( 'Group', 'Paladin1' )
+              , ( 'Ability', 'Armslore' )
+              , ( 'Ability', 'Disarm' )
+              , ( 'Ability', 'Enhanced Damage' )
+              , ( 'Ability', 'Parry' )
+              , ( 'Ability', 'Polearm' )
+              , ( 'Ability', 'Rescue' )
+              , ( 'Ability', 'Second Attack' )
+              , ( 'Ability', 'Staff(weapon)' )
+             );
+}
+
+Group 'paladin1' {
+  Contains = (( 'Ability', 'Holy Symbol' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Create Rose' )
+              , ( 'Ability', 'Conjure Mount' )
+              , ( 'Ability', 'Cure Light' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Cure Disease' )
+              , ( 'Ability', 'Bless' )
+              , ( 'Ability', 'Create Food' )
+              , ( 'Ability', 'Protection Evil' )
+             );
+}
+
+Group 'paladin2' {
+  Contains = (( 'Ability', 'Divine Intervention' )
+              , ( 'Ability', 'Angelic Strength' )
+              , ( 'Ability', 'Holy Sword' )
+              , ( 'Ability', 'Angelic Light' )
+              , ( 'Ability', 'Cure Serious' )
+             );
+}
+
+Group 'paladin3' {
+  Contains = (( 'Ability', 'Dispel Evil' )
+              , ( 'Ability', 'Holy Armor' )
+              , ( 'Ability', 'Inspiration' )
+              , ( 'Ability', 'Holy Word' )
+              , ( 'Ability', 'Turn Undead' )
+             );
+}
+
+Group 'paladin4' {
+  Contains = (( 'Ability', 'Judgment Bolt' )
+              , ( 'Ability', 'Holy Aura' )
+              , ( 'Ability', 'Flare' )
+              , ( 'Ability', 'Ray of Truth' )
+              , ( 'Ability', 'Justice' )
+             );
+}
+
+Group 'blackguard basics' {
+  Contains = (( 'Ability', 'Sword' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Shield Block' )
+             );
+}
+
+Group 'blackguard default' {
+  Contains = (( 'Group', 'blackguard1' )
+              , ( 'Ability', 'Armslore' )
+              , ( 'Ability', 'Axe' )
+              , ( 'Ability', 'Disarm' )
+              , ( 'Ability', 'Enhanced Damage' )
+              , ( 'Ability', 'Envenom' )
+              , ( 'Ability', 'Parry' )
+              , ( 'Ability', 'Second Attack' )
+              , ( 'Ability', 'Trip' )
+             );
+}
+
+Group 'blackguard1' {
+  Contains = (( 'Ability', 'Holy Symbol' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Create Rose' )
+              , ( 'Ability', 'Conjure Mount' )
+              , ( 'Ability', 'Cause Light' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Plague' )
+              , ( 'Ability', 'Charms of the Daemon' )
+              , ( 'Ability', 'Create Food' )
+              , ( 'Ability', 'Protection Good' )
+             );
+}
+
+Group 'blackguard2' {
+  Contains = (( 'Ability', 'Daemonic aid' )
+              , ( 'Ability', 'Daemonic potency' )
+              , ( 'Ability', 'Unholy Blade' )
+              , ( 'Ability', 'Repulsion' )
+              , ( 'Ability', 'Cause Serious' )
+             );
+}
+
+Group 'blackguard3' {
+  Contains = (( 'Ability', 'Dispel Good' )
+              , ( 'Ability', 'Daemonic Carapace' )
+              , ( 'Ability', 'Terror' )
+              , ( 'Ability', 'Unholy Word' )
+              , ( 'Ability', 'Command Undead' )
+             );
+}
+
+Group 'blackguard4' {
+  Contains = (( 'Ability', 'Chaos Bolt' )
+              , ( 'Ability', 'Unholy Aura' )
+              , ( 'Ability', 'Flare' )
+              , ( 'Ability', 'Ray of Deception' )
+              , ( 'Ability', 'Corruption' )
+             );
+}
+
+Group 'cleric basics' {
+  Contains = (( 'Ability', 'Mace' )
+              , ( 'Ability', 'Scrolls' )
+              , ( 'Ability', 'Staves' )
+             );
+}
+
+Group 'cleric default' {
+  Contains = (( 'Ability', 'Flail' )
+              , ( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Shield Block' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Fast Healing' )
+              , ( 'Group', 'Universal' )
+             );
+}
+
+Group 'druid basics' {
+  Contains = (( 'Ability', 'staff(weapon)' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'riding' )
+             );
+}
+
+Group 'druid default' {
+  Contains = (( 'Ability', 'Blend' )
+              , ( 'Ability', 'Brew' )
+              , ( 'Ability', 'Hide' )
+              , ( 'Ability', 'Lore' )
+              , ( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Spear' )
+              , ( 'Ability', 'Shapechange' )
+              , ( 'Group', 'Druidic' )
+             );
+}
+
+Group 'druidic' {
+  Contains = (( 'Ability', 'Create Rose' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Create Food' )
+              , ( 'Ability', 'Detect Lycanthropy' )
+              , ( 'Ability', 'Create Spring' )
+              , ( 'Ability', 'Pass Door' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Nature Shield' )
+              , ( 'Ability', 'Create Shelter' )
+              , ( 'Ability', 'Dispel Magic' )
+             );
+}
+
+Group 'animal' {
+  Contains = (( 'Ability', 'Flight of the Bird' )
+              , ( 'Ability', 'Eyes of the Wolf' )
+              , ( 'Ability', 'Protection Lycanthropy' )
+              , ( 'Ability', 'Strength of the Bear' )
+              , ( 'Ability', 'Polar Adaptation' )
+              , ( 'Ability', 'Desert Adaptation' )
+              , ( 'Ability', 'Breath of the Fish' )
+              , ( 'Ability', 'Speed of the Cheetah' )
+              , ( 'Ability', 'Insect Swarm' )
+              , ( 'Ability', 'Animal Friendship' )
+             );
+}
+
+Group 'plant' {
+  Contains = (( 'Ability', 'Create Vines' )
+              , ( 'Ability', 'Gift of Nature' )
+              , ( 'Ability', 'Barkskin' )
+              , ( 'Ability', 'Rooted Feet' )
+              , ( 'Ability', 'Anti-Venom Spores' )
+              , ( 'Ability', 'Flower of Health' )
+              , ( 'Ability', 'Thorn Blast' )
+              , ( 'Ability', 'Growth Shrooms' )
+              , ( 'Ability', 'Shrinking Shrooms' )
+              , ( 'Ability', 'Plant Door' )
+             );
+}
+
+Group 'bard basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'hide' )
+              , ( 'Ability', 'sing' )
+             );
+}
+
+Group 'bard default' {
+  Contains = (( 'Ability', 'dodge' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'dual wield' )
+              , ( 'Ability', 'backstab' )
+              , ( 'Ability', 'second attack' )
+              , ( 'Ability', 'peek' )
+              , ( 'Ability', 'song' )
+              , ( 'Group', 'bard1' )
+             );
+}
+
+Group 'bard1' {
+  Contains = (( 'Ability', 'song of huma' )
+              , ( 'Ability', 'ballad of spring' )
+              , ( 'Ability', 'chill winter of vingaard' )
+              , ( 'Ability', 'crysanias song' )
+              , ( 'Ability', 'dragons come' )
+              , ( 'Ability', 'hymn for the ancestors' )
+              , ( 'Ability', 'journeymans hymne' )
+              , ( 'Ability', 'palistan song' )
+              , ( 'Ability', 'shallow grave' )
+             );
+}
+
+Group 'bard2' {
+  Contains = (( 'Ability', 'knights ride forth' )
+              , ( 'Ability', 'looking in the mirror' )
+              , ( 'Ability', 'mishakals song' )
+              , ( 'Ability', 'neverending pain' )
+              , ( 'Ability', 'rest of dragons' )
+              , ( 'Ability', 'ride of glory' )
+              , ( 'Ability', 'shadowborn' )
+              , ( 'Ability', 'shield of words' )
+              , ( 'Ability', 'wail of banshees' )
+              , ( 'Ability', 'when the sun goes down' )
+             );
+}
+
+Group 'bard3' {
+  Contains = (( 'Ability', 'continual light' ),
+	      ( 'Ability', 'create rose' ),
+	      ( 'Ability', 'colour spray' ),
+	      ( 'Ability', 'detect magic' ),
+	      ( 'Ability', 'know alignment' ),
+	      ( 'Ability', 'armor' ),
+	      ( 'Ability', 'faerie fire' )
+              );
+}
+
+Group 'mage basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'scrolls' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+             );
+}
+
+Group 'mage default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'necromancer basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'necromancer default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'elementalist default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'transmuter basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'transmuter default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'enchanter basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'enchanter default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'wizard basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'wizard default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'fire-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'fire-elementalist default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'water-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'water-elementalist default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'air-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'air-elementalist default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+Group 'earth-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' )
+             );
+}
+
+Group 'earth-elementalist default' {
+  Contains = (( 'Ability', 'Meditation' )
+              , ( 'Ability', 'Dodge' )
+              , ( 'Ability', 'Riding' )
+              , ( 'Ability', 'Study' )
+              , ( 'Ability', 'Floating Disc' )
+              , ( 'Ability', 'Magic Missile' )
+              , ( 'Ability', 'Detect Magic' )
+              , ( 'Ability', 'Faerie Fire' )
+              , ( 'Ability', 'Continual Light' )
+              , ( 'Ability', 'Infravision' )
+              , ( 'Ability', 'Know Alignment' )
+              , ( 'Ability', 'Create Water' )
+              , ( 'Ability', 'Detect Poison' )
+              , ( 'Ability', 'Detect Hidden' )
+              , ( 'Ability', 'Detect Invis' )
+              , ( 'Ability', 'Giant Strength' )
+              , ( 'Ability', 'Chill Touch' )
+              , ( 'Ability', 'Faerie Fog' )
+              , ( 'Ability', 'Detect Evil' )
+              , ( 'Ability', 'Detect Good' )
+              , ( 'Ability', 'Invisibility' )
+              , ( 'Ability', 'Cancellation' )
+              , ( 'Ability', 'Identify' )
+              , ( 'Ability', 'Portal' )
+             );
+}
+
+
+Group 'archer basics' {
+  Contains = (( 'Ability', 'Dagger' ), 
+              ( 'Ability', 'Archery' ));
+}
+
+Group 'archer default' {
+  Contains = (('Ability', 'Blend'),
+              ('Ability', 'Bowyer'),
+              ('Ability', 'Climbing'),
+              ('Ability', 'Dirt Kicking'),
+              ('Ability', 'Disarming Shot'),
+              ('Ability', 'Dodge'),
+              ('Ability', 'Fleetfooted'),
+              ('Ability', 'Fletcher'),
+              ('Ability', 'Haggle'),
+              ('Ability', 'Mace'),
+              ('Ability', 'Riding'));
+}
+
+Group 'wild mage basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'scrolls' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}
+
+Group 'wild elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}
+
+Group 'wild transmuter basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}
+
+Group 'wild wizard basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}
+
+Group 'wild fire-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}
+
+Group 'wild water-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}
+
+Group 'wild air-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}
+
+Group 'wild earth-elementalist basics' {
+  Contains = (( 'Ability', 'dagger' )
+              , ( 'Ability', 'staves' )
+              , ( 'Ability', 'wands' )
+              , ( 'Ability', 'scrolls' ),
+              ( 'ability', 'reckless dweomer' )
+             );
+}

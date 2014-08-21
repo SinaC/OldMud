@@ -1,0 +1,943 @@
+#HELPS
+
+102 PEDIT~
+Syntax: pedit <program>	- Enters the editor for the selected program.
+
+The follow commands are available from within the PEDITOR:
+
+commands                - prints a list of possible commands
+create <name> [parent]  - create a brand new program, you may specify a parent
+      A parent must be specified if an obj/room program want to be created
+      To create an obj program: create <name> obj
+      To create a room program: create <name> room
+delete <name>           - delete a program, every entities referencing the
+                          deleted program will new reference the correspondant
+                          root program
+done                    - exits the program editor and returns to normal play
+copy <name>             - copy a program **
+copymethod <prg name> <method name> 
+                        - copy a method from a program
+addmethod <name> [<pos>]- add a method/trigger, enters in SEDITOR
+                          <name> is used only if it's a trigger name
+                           -> automatically create function's header
+                          if <pos> is specified, method will be inserted
+                           before the method/trigger named <pos>, if not
+                           specified, insert as last method/trigger
+                          an update is automatically tried after leaving SEDITOR
+editmethod <name>       - edit method/trigger current string using SEDITOR
+delmethod <name>        - remove a method/trigger
+name <name>             - change the program name **
+file <filename>         - change the file name for the area **
+abstract                - toggle abstract (an abstract program can't be assigned
+                           directly to an entity and so, must be extended first)
+parents <name>          - add/remove parent program (inheritance, extends)
+update <name | all>     - parse a method/trigger, create the code with current
+                           string
+revert <name | all>     - replace method/trigger current string by saved string
+definitive <name | all> - replace method/trigger saved string by current string
+finalize                - update and definitive on every modified/no_code method
+                           MUST be done before exiting editor. If a method
+                           is incorrect a message will appeared and finalize
+                           will be stopped
+showrevert <name>       - show saved string of specified method/trigger <name>
+show                    - hitting return, or 'show' shows the program stats
+
+** be careful: 2 classes in the same file, can't have the same name
+
+Related help: triggers, psave, program, entities, mobprog, objprog, roomprog
+~
+
+102 PSAVE~
+Syntax: psave all       - save every programs (and so every program files)
+        psave changed   - save all modified programs (save every files including
+                           modified programs)
+
+Related help: pedit, triggers, program, entities, mobprog, objprog, roomprog
+~
+
+
+102 MOBPROG OBJPROG ROOMPROG MOBPROGRAM OBJPROGRAM ROOMPROGRAM~
+
+Related help: pedit, psave, triggers, program, entities
+~
+
+102 PROGRAM~
+Syntax: 
+   program info                     - display some memory informations
+   program list                     - display list of available program file
+   program list <file name>         - display every programs in a file
+   program dump <prg name>          - dump information about one program
+   program dump <prg name> <method name> 
+                                    - dump information about a method of one
+                                       program
+   program find <prg name>          - dump every entity which use this program
+
+
+Related help: pedit, psave, triggers, entities, mobprog, objprog, roomprog
+~
+
+102 ENTITY ENTITIES~
+An entity is a term used in the programs to describe a mob or an obj or a room
+It can be anything of those 3 types.
+When we use the term of Mob in program, we understand mobile and player.
+
+Related help: pedit, psave, program, triggers, mobprog, objprog, roomprog
+~
+
+102 TRIGGERS~
+Triggers are special script function called periodically or when special events
+occurred.  This is the list of available triggers (See 'help triggerName' for
+more explanation):
+  onGreetLeader      available for mob and obj
+  onExitingLeader    available for mob and obj
+  onExitedLeader     available for mob and obj
+  onEnteringLeader   available for room
+  onEnteredLeader    available for room
+
+  onGreet            available for mob and obj
+  onExiting          available for mob and obj
+  onExited           available for mob and obj
+  onEntering         available for room
+  onEntered          available for room
+  onMoved            available for mob and obj
+  onKnock            available for mob
+
+  onSpeech           available for mob
+  onWhisper          available for mob
+  onTell             available for mob and obj (using otell)
+  onSocial           available for mob
+  onBribe            available for mob
+
+  onReset            available for mob, obj and room
+  onRepop            available for mob, obj and room
+  onCreate           available for mob, obj and room
+  onPulseMobile      available for mob
+  onPulseTick        available for mob, obj and room
+
+  onFight            available for mob
+
+  onLooking          available for mob, obj and room
+
+  onGetting          available for obj and room
+  onGot              available for obj and room
+  onDamage           available for obj
+  onPull             available for obj
+  onWearing          available for obj
+  onWorn             available for obj
+  onRemoving         available for obj
+  onRemoved          available for obj
+  onDropping         available for obj and room
+  onDropped          available for obj and room
+  onPutting          available for obj
+  onPut              available for obj
+  onGiving           available for mob and obj
+  onGiven            available for mob and obj
+
+  onSpellTarget      available for mob and obj
+
+  onFleeing          available for mob
+  onFlee             available for mob
+  onSit              available for mob
+  onRest             available for mob
+  onSleep            available for mob
+  onStand            available for mob
+  onDisarmed         available for mob and obj
+
+  onKilled           available for mob
+
+  onCast             available for mob, obj and room
+  onPsi              available for mob, obj and room
+  onSong             available for mob, obj and room
+  onSkill            available for mob, obj and room
+
+  onKill             available for mob
+
+  onLoad             available for player
+  onQuitting         available for player
+  onInformation      available for player
+
+Related help: pedit, psave, program, entities, mobprog, objprog, roomprog
+              triggeroutline
+~
+
+102 TRIGGEROUTLINE~
+Trigger explanation ouline:
+
+{WTrigger: {ytriggerName( param1, param2, ... ){x
+{WMinimal position: {y<position>{x
+Available for class X, class Y, ...
+Description:
+    X: ...  explanation when using trigger with class X
+    Y: ...  explanation when using trigger with class Y
+    ...
+Params:
+    [X :  specific use of parameters when using trigger with class X]
+      name param1: type: description of paramters 1
+      name param2: type: description of paramters 2
+    ...
+Return value: not used  (if return value is not used)
+    0: ...
+    1: ...
+    ...
+Usefulness: ...
+            ...
+Remarques: ...
+           ...
+
+Triggers available for mob are also available for player unless if it's
+specified, but some triggers use parameters differently or called on
+different events if it's on a player.
+~
+
+102 'TRIGGER_ONGREETLEADER'~
+Available for mob and obj
+Description:
+    mob: `act` enters in the same room as `this` from `fromDir`
+    obj: `act` enters in the same room as `this` 's carrier from `fromDir`
+Params: 
+    act: char: player/mob entering the room
+    fromDir: string: n, w, s, e, u, d, ...
+Return value: not used
+Usefulness: greet a char when he/she/it is entering the room
+            close a door a char has opened to enter the room
+            give advices/explanations to a char
+            used mainly for shopkeeper
+Remarques: only the leader of a PC group will trigger this, or if `act` is the
+            only PC is his/her group
+           leader's followers will have entered the room before this trigger
+~
+
+102 'TRIGGER_ONEXITINGLEADER'~
+Available for mob and room
+Description:
+    mob: `act` will leave the room where `this` is, to `toDir`. `act` is still
+           in the room
+    room: `act` will leave `this` to `toDir` room. `act` is still in `this`
+Params: 
+    act: char: player/mob exiting the room/`this`
+    toDir: string: n, w, s, e, u, d
+Return value: int
+    0: nothing special, `act` leaves the room/`this`
+    1: `act` don't leave the room/`this`
+Usefulness: say goodbye to a char leaving the room
+            prevent a player from leaving a room
+Remarques: only the leader of a PC group will trigger this, or if `act` is the
+            only PC is his/her group
+~
+
+102 'TRIGGER_ONEXITEDLEADER'~
+Available for mob and room
+Description:
+    mob: `act` has left the room where `this` is, to `toDir`, `act` is not
+           anymore in the room
+    room: `act` has left `this` to `toDir` room, `act` is not anymore in `this`
+Params: 
+    act: char: player/mob who has left the room/`this`
+    toDir: string: n, w, s, e, u, d
+Return value: not used
+Usefulness: close a door a char has opened to leave the room
+Remarques: only the leader of a PC group will trigger this, or if `act` is the
+            only PC is his/her group
+           leader's followers have exited the room before this trigger
+~
+
+102 'TRIGGER_ONENTERINGLEADER'~
+Available for room
+Description:
+    room: `act` will enter in room `this` coming from `from` direction
+Params:
+    act: char: `act` will enter in the room
+    from: string: direction where `act` is coming from
+Return value: 
+    0: nothing special, `act` has entered
+    1: `act` cannot enter
+Usefulness: avoid certain people to enter in a room
+Remarques: only the leader of a PC group will trigger this, or if `act` is the
+            only PC is his/her group
+~
+
+102 'TRIGGER_ONENTEREDLEADER'~
+Available for room
+Description:
+    room: `act` has entered in room `this` coming from `from` direction
+Params:
+    act: char: `act` has entered in the room
+    from: string: direction where `act` is coming from
+Return value: not used
+Usefulness: greeting people entering the room
+Remarques: only the leader of a PC group will trigger this, or if `act` is the
+            only PC is his/her group
+           leader's followers have entered the room before this trigger
+~
+
+102 'TRIGGER_ONGREET'~
+Available for mob and obj
+Description:
+    mob: `act` enters in the same room as `this` from `fromDir`
+    obj : `act` enters in the same room as `this` 's carrier from `fromDir`
+Params: 
+    act: char: player/mob entering the room
+    fromDir: string: n, w, s, e, u, d, ...
+Return value: not used
+Usefulness: greet a char when he/she/it is entering the room
+            close a door a char has opened to enter the room
+            give advices/explanations to a char 
+~
+
+102 'TRIGGER_ONEXITING'~
+Available for mob and room
+Description:
+    mob: `act` will leave the room where `this` is, to `toDir`. `act` is still
+           in the room
+    room: `act` will leave `this` to `toDir` room. `act` is still in `this`
+Params: 
+    act: char: player/mob exiting the room/`this`
+    toDir: string: n, w, s, e, u, d
+Return value: int
+    0: nothing special, `act` leaves the room/`this`
+    1: `act` don't leave the room/`this`
+Usefulness: say goodbye to a char leaving the room
+            prevent a player from leaving a room
+~
+
+102 'TRIGGER_ONEXITED'~
+Available for mob and room
+Description:
+    mob: `act` has left the room where `this` is, to `toDir`, `act` is not
+           anymore in the room
+    room: `act` has left `this` to `toDir` room, `act` is not anymore in `this`
+Params: 
+    act: char: player/mob who has left the room/`this`
+    toDir: string: n, w, s, e, u, d
+Return value: not used
+Usefulness: close a door a char has opened to leave the room
+~
+
+102 'TRIGGER_ONENTERING'~
+Available for room
+Description:
+    room: `act` will enter in room `this` coming from `from` direction
+Params:
+    act: char: `act` will enter in the room
+    from: string: direction where `act` is coming from
+Return value: 
+    0: nothing special, `act` has entered
+    1: `act` cannot enter
+Usefulness: avoid certain people to enter in a room
+~
+
+102 'TRIGGER_ONENTERED'~
+Available for room
+Description:
+    room: `act` has entered in room `this` coming from `from` direction
+Params:
+    act: char: `act` has entered in the room
+    from: string: direction where `act` is coming from
+Return value: not used
+Usefulness: greeting people entering the room
+~
+
+102 'TRIGGER_ONMOVED'~
+Available for mob and obj
+Description:
+    mob: `this` has moved in another room
+    obj: `this` 's carrier has moved in another room
+Params: no params
+Return value: not used
+Usefulness: quest: tell the player, the mob is searching is in the room he just
+             entered
+            replace onCarrierMoves for obj
+~
+
+102 'TRIGGER_ONKNOCK'~
+Available for mob and obj
+Description:
+    mob: `act` has knocked on the `fromDir` door
+Params
+    act: char: player/mob knocking on the door
+    fromDir: string: n, w, s, e, u, d
+Return value: not used
+Usefulness: doorman
+            secret door with no available key (ex: assassin's guild with filthy)
+~
+
+102 'TRIGGER_ONSPEECH'~
+Available for mob and obj
+Description:
+    mob: `act` said `msg` (using say/osay channel) in the same room as `this`
+    obj: `act` said `msg` (using say/osay channel) in the same room as `this`
+           (item on the floor or in act's inventory)
+Params: 
+    act: char: player/mob saying ´msg´
+    msg: string: sentence `act` said
+Return value: not used
+Usefulness: ideal for mob (shopkeeper/questmaster/...) to talk with a player
+            asking a path, asking help,... certainly the most useful trigger
+            talk to a magical talkative-item(better to use onTell)
+~
+
+102 'TRIGGER_ONWHISPER'~
+Available for mob
+Description:
+    mob: `act` has whispered `msg` (using whisper channel) to `this`
+Params: 
+    act: char: player/mob whispering ´msg´
+    msg: string: sentence `act` whispered
+Return value: not used
+Usefulness: saying a secret sentence to a mob to open a secret doorway
+~
+
+102 'TRIGGER_ONTELL'~
+Available for obj
+Description:
+    obj: `act` tells `msg` to `this`, `this` is in `act` equipement or inventory
+Params:
+   act: char: player/mob carrying `this`
+   msg: string: msg told to `this`
+Return value: not used
+Usefulness: create item's behaviour: talking sword, ...
+~
+
+102 'TRIGGER_ONSOCIAL'~
+Available for mob and obj
+Description:
+    mob: 'act' has used social `name` in the same room as `this`
+Params:
+    act: char: player/mob using social `name`
+    name: string: social used by `act`
+Return value: not used
+Usefulness: catching people bowing, sniffing, ...
+~
+
+102 'TRIGGER_ONBRIBE'~
+Available for mob
+Description:
+    mob: `act` has given `silver` silver coins and `gold` gold coins to `this`
+Params:
+    act: char: player/mob who has given coins to `this`
+    silver: int: amount of silver coins given to `this` by `act`
+    gold: int amount of gold coins given to `this` by `act`
+Return value: not used
+Usefulness: give money to a doorman, a banker, a moneychanger
+~
+
+102 'TRIGGER_ONRESET'~
+Available for mob, obj and room
+Description: 
+    obj: `this` is in a room who have just been reset (from reset_room)
+          or `this` was on a char/in a room concerned by a world state
+    char: `this` was in room concerned by a world state
+    room: `this` is a room concerned by a world state
+Params: no params
+Return value: not used
+Usefulness: resetting dynamic fields, delete -dynamically created- door, ...
+~
+
+102 'TRIGGER_ONREPOP'~
+Available for mob and obj
+Description:
+    mob: `this` has been created and loaded in a room (real=1)
+           or script has been modified (real=0)
+    obj: `this` has been created and loaded in a room or on a mob (real=1)
+           or script has been modified (real=0)
+Params: real: int: 1 if it's a real repop: called in reset_room
+                   0 if the script has been modified: called in reload_scripts
+                      and update_entities
+Return value: not used
+Usefulness: flavor text when mob/obj repop
+            not called when a pFile is loaded with obj having a onRepop trigger,
+             neither when a pet with onRepop is loaded
+            called only if obj/mob is in a room reset, not called when using
+             clone, spell summon lesser golem, etc...
+            main use: shopkeeper flag their items in inventory with "inventory"
+             only if it's a real repop
+~
+
+102 'TRIGGER_ONCREATE'~
+Available for mob and obj
+Description:
+    mob: `this` has just been created, not yet in a room
+    obj: `this` has just been created, not yet in a room or on a char
+Params: no params
+Return value: not used
+Usefulness: important trigger for shopkeeper (create type of item bought, sell
+             percentage, ...)
+            useful for any mob/obj who needs extra value to work (see example)
+            called when a pFile is loaded with obj having a onCreate trigger,
+             works with pets
+~
+
+102 'TRIGGER_ONPULSEMOBILE'~
+Available for mob and player
+Description:
+      mob: `this` has been updated, called every 4 seconds even if there is no
+           PC in the area
+      player: `this` has been updated, called every 4 seconds
+Params: no params
+Return value: not used
+Usefulness: mob wandering around
+            hunting mob
+            babling mob, ...
+~
+
+102 'TRIGGER_ONPULSETICK'~
+Available for mob, obj and room
+Description:
+    mob: `this` has been updated, called every minute
+    obj: `this` has been updated, called every minute
+    room: `this` has been updated, called every minute
+Params: no params
+Return value: not used
+Usefulness: same as onPulseMobile, just called less often
+~
+
+102 'TRIGGER_ONFIGHT'~
+Available for mob
+Description:
+    mob: `this` is fighting `act`, called every 3 seconds
+Params:
+    act: char: player/mob `this` is fighting
+Return value: not used
+Usefulness: special combat procedure: spells, skills, message, ...
+~
+
+102 'TRIGGER_ONLOOKING'~
+Available for mob, obj and room
+Description:
+    mob: `act` is looking at `this` (mob)
+    obj: `act` is looking at `this` (obj)
+    room: `act` is looking at `this` (room)
+Params:
+    act: char: player/mob looking `this`
+Return value: int
+    0: nothing special, display normal char/obj/room description
+    1: don't display normal char/obj description (for room see values below)
+   special value for room:
+    bit 0 set: not the room description
+    bit 1 set: not the room exits
+    bit 2 set: not the chars in room
+    bit 3 set: not the items in room
+   values:
+    1: not the room description
+    2: not the room exits
+    3: not the room description, not the room exits
+    4: not the chars in room
+    5: not the room description, not the chars in room
+    6: not the room exits, not the chars in room
+    ...
+    15: no room description, not the exits, not the chars or items in the room
+Usefulness: additional description
+            replace the original description (with return value 1->15)
+~
+
+102 'TRIGGER_ONGETTING'~
+Available for obj and room
+Description:
+    obj: `act` will get `this`, `this` is not yet in `act` inventory
+    room: `act` will get an item in room `this`, item is not yet in `act`
+           inventory
+Params: 
+    obj:
+      act: char: player/mob getting `this`
+    room:
+      act: char: player/mob getting an item from room `this`
+Return value: int
+    0: nothing special, `act` gets `this`
+    1: `act` didn't get `this`
+Usefulness: prevent getting item (with return value 1)
+~
+
+102 'TRIGGER_ONGOT'~
+Available for obj and room
+Description:
+    obj: `act` has got `this` from ground and put in his/her/its inventory
+    room: `act` has got an item from room `this`, item is in `act` inventory
+Params:
+    obj:
+      act: char: player/mob who has got `this`
+    room:
+      act: char: player/mob who got an item from room `this`
+Return value: not used
+Usefulness: force a char to wear an item he/she/it just got
+            flavor text when item is got
+            magic/talking item wanting to greet its carrier
+~
+
+102 'TRIGGER_ONDAMAGE'~
+Available for obj
+Description:
+    obj: `this` has been damaged in combat by `act`
+Params:
+    amount: int: amount of damage obj has suffered
+Return value: not used
+Usefulness: auto-repair item
+            item transforming itself when broken
+~
+
+102 'TRIGGER_ONPULL'~
+Available for obj and room
+Description:
+    obj: `act` has pulled `this`, can be used on any item type
+Params:
+    act: char: player/mob pulling `this`
+Return value: not used
+Usefulness: create lever: opening door, create mob, a system of levers to open
+             a secret door
+~
+
+102 'TRIGGER_ONWEARING'~
+Available for obj
+Description:
+    obj: `act` is wearing `this`, `this` is not yet worn
+Params:
+    act: char: player/mob wearing `this`
+Return value: int
+    0: nothing special, `act` wear `this`
+    1: `act` don't wear `this`
+Usefulness: prevent wearing an item
+~
+
+102 'TRIGGER_ONWORN'~
+Available for obj
+Description:
+    obj: `act` has worn `this`, `this` is in `act` 's equipement
+Params:
+    act: char: player/mob who has worn `this`
+Return value: not used
+Usefulness: flavor text when item is worn
+            magic/talking item wanting to greet its carrier
+            special treatment when holding an item (cast a spell, healing, ...)
+~
+
+102 'TRIGGER_ONREMOVING'~
+Available for obj
+Description:
+    obj: `act` is removing `this`, `this` is not yet removed
+Params:
+    act: char: player/mob removing `this`
+Return value: int
+    0: nothing special, `act` remove `this`
+    1: `act` don't remove `this`
+Usefulness: prevent removing an item
+~
+
+102 'TRIGGER_ONREMOVED'~
+Available for obj
+Description:
+    obj: `act` has removed `this`, `this` is in `act` 's inventory
+Params:
+    act: char: player/mob who has removed `this`
+Return value: not used
+Usefulness: flavor text when item is removed
+            magic/talking item which is not happy to be removed (say something,
+             punish carrier, ...)
+~
+
+102 'TRIGGER_ONDROPPING'~
+Available for obj and room
+Description:
+    obj: `act` is dropping `this`, `this` is not yet dropped
+    room: `act` is dropping an item in room `this`, `this` is not yet dropped
+Params:
+    obj:
+      act: char: player/mob dropping `this`
+    room:
+      act: char: player/mob dropping an item in room `this`
+Return value: int
+    0: nothing special, `act` drop `this`
+    1: `act` don't drop `this`
+Usefulness: prevent dropping an item
+~
+
+102 'TRIGGER_ONDROPPED'~
+Available for obj and room
+Description:
+    obj: `act` has dropped `this`, `this` is in the same room as `act`
+    room: `act` has dropped an item in room `this`, `this` is in the same room
+          as `act`
+Params:
+    obj:
+      act: char: player/mob who has dropped `this`
+    room:
+      act: char: player/mob who has dropped an item in room `this`
+Return value: not used
+Usefulness: flavor text when item is dropped
+            magic/talking item which is not happy to be dropped (saying
+             something, punishing carrier, ...)
+~
+
+102 'TRIGGER_ONPUTTING'~
+Available for obj
+Description:
+    obj: `act` is putting `this` in `container`,`this` is not yet in `container`
+Params:
+    act: char: player/mob putting `this` in `container`
+    container: obj: container withing `act` is putting `this`
+Return value: int
+    0: nothing special, `act` put `this` in `container`
+    1: `act` don't put `this` in `container`
+Usefulness: prevent putting an item in a container
+~
+
+102 'TRIGGER_ONPUT'~
+Available for obj
+Description:
+    obj: `act` has put `this` in `container`, `this` is in `container`
+Params:
+    act: char: player/mob who has dropped `this`
+Return value: not used
+Usefulness: ??? can't send msg because item is in inventory, better used
+             onPutting to send flavor text
+~
+
+102 'TRIGGER_ONGIVING'~
+Available for obj and mob
+Description:
+    mob: `param1` is giving `param2` to `this`, `param2` is not yet in `this`
+           inventory
+    obj: `param1` is giving `this` to `param2`, `this` is not yet in `param2`
+           inventory
+Params:
+    mob:
+      param1: char: player/mob who is giving `param2` to `this`
+      param2: obj: item which `param1` is giving to `this`
+    obj
+      param1: char: player/mob who is giving `this` to `param2`
+      param2: char: player/mob who is receiving `this` from `param1`
+Return value: int
+    0: nothing special, item is given
+    1: item is not given
+Usefulness: prevent giving an item
+~
+
+102 'TRIGGER_ONGIVEN'~
+Available for obj and mob
+Description:
+    mob: `param1` has given `param2` to `this`, `param2` is in `this`
+           inventory
+    obj: `param1` has given `this` to `param2`, `this` is in `param2`
+           inventory
+Params:
+    mob:
+      param1: char: player/mob who has given `param2` to `this`
+      param2: obj: item which `param1` has given to `this`
+    obj
+      param1: char: player/mob who has given `this` to `param2`
+      param2: char: player/mob who has received `this` from `param1`
+Return value: not used
+Usefulness: flavor text when item is given
+            magic/talking item wanting to greet its new owner
+            special treatment when giving the item (cast spell, bonus, ...)
+~
+
+102 'TRIGGER_ONSPELLTARGET'~
+Available for obj and mob
+Description:
+    mob: `act` has casted spell `spellName` casting level `castingLevel` on
+          `this`
+    obj: `act` has casted spell `spellName` casting level `castingLevel` on
+          `this`
+Params:
+    act: player/mob who casted the spell
+    spellName: name of the casted spell
+    castingLevel: casting level of the casted spell
+Return value: not used
+Usefullnes: flavor text when target of a spell
+~
+
+102 'TRIGGER_ONFLEEING'~
+Available for mob
+Description:
+    mob: `act` is fighting `this` and try to flee
+Params:
+    act: char: player/mob trying to flee
+Return value: int
+    0: `act` manages to flee
+    1: `act` failed to flee
+Usefulness: mob preventing from fleeing
+~
+
+102 'TRIGGER_ONFLEE'~
+Available for mob
+Description:
+    mob: `act` has flee to `to`
+Params:
+    act: char: player/mob who just flee
+    to: string: short direction name where `act` just flee
+Return value: not used
+Usefulness: get back a player who just flee
+~
+
+102 'TRIGGER_ONSIT'~
+Available for mob
+Description:
+    mob: `act` has just sit down
+Params:
+    act: char: player/mob who just sit down
+Return value: not used
+Usefulness:
+~
+
+102 'TRIGGER_ONREST'~
+Available for mob
+Description:
+    mob: `act` has just rest
+Params:
+    act: char: player/mob who just rest
+Return value: not used
+Usefulness:
+~
+
+102 'TRIGGER_ONSLEEP'~
+Available for mob
+Description:
+    mob: `act` has just sleep
+Params:
+    act: char: player/mob who just sleep
+Return value: not used
+Usefulness:
+~
+
+102 'TRIGGER_ONSTAND'~
+Available for mob
+Description:
+    mob: `act` has just stand
+Params:
+    act: char: player/mob who just stand
+Return value: not used
+Usefulness:
+~
+
+102 'TRIGGER_ONDISARMED'~
+Available for mob
+Description:
+    mob: `act` has just disarmed `this` who was wielding `weapon`
+Params:
+    act: char: player/mob who just disarmed `this`
+    weapon: obj: weapon which `this` was wielding
+Return value: not used
+Usefulness: trigger when a mob is disarmed
+~
+
+102 'TRIGGER_ONKILLED'~
+Available for mob
+Description:
+    mob: `this` has been killed by `act`
+Params:
+    act: char: player/mob who killed `this`
+Return value:
+    0: nothing special
+    bit 0 set: don't call death_cry
+    bit 1 set: don't call make_corpse
+Usefulness: replace basic death cry (return value bit 0 set--> 1)
+            don't create a corpse for some reasons (return value bit 1 set--> 2)
+            special death cry and no corpse (return value bit 0 and 1 set--> 3)
+            loading an item only visible when mob die (replace vis_death flag)
+            create random looting
+~
+
+102 'TRIGGER_ONCAST'~
+Available for mob, obj and room
+Description:
+    `this` casts a scriptAbility: a spell which has no C code but a script code
+Params:
+    spellName: string: name the spell to cast
+    level: int: level of the spell
+    target: entity: depends on spell's target
+    castingLevel: int: casting level of the spell
+    targetName: string: additional target
+Return value: not used
+Usefulness: create spells without any C code but a script code
+~
+
+102 'TRIGGER_ONPSI'~
+Available for mob, obj and room
+Description:
+    `this` psi a scriptAbility: a power which has no C code but a script code
+Params:
+    powerName: string: name the power to psi
+    level: int: level of the power
+    target: entity: depends on power's target
+    castingLevel: int: casting level of the power
+    targetName: string: additional target
+Return value: not used
+Usefulness: create powers without any C code but a script code
+~
+
+102 'TRIGGER_ONSONG'~
+Available for mob, obj and room
+Description:
+    `this` sing a scriptAbility: a song which has no C code but a script code
+Params:
+    songName: string: name the song to sing
+    level: int: level of the song
+    target: entity: depends on song's target
+    castingLevel: int: casting level of the song
+    targetName: string: additional target
+Return value: not used
+Usefulness: create songs without any C code but a script code
+~
+
+102 'TRIGGER_ONSKILL'~
+Available for mob, obj and room
+Description:
+    `this` uses a scriptAbility: a skill which has no C code but a script code
+Params:
+    skillName: string: name the skill to use
+    level: int: level of the skill
+    target: entity: depends on skill's target
+    castingLevel: int: casting level of the skill
+    targetName: string: additional target
+Return value: not used
+Usefulness: create skills without any C code but a script code
+~
+
+102 'TRIGGER_ONKILL'~
+Available for mob
+Description:
+    player: `this` has killed victim (mob or player) (extract_char not already
+             called)
+    mob: `this` has killed victim (mob or player) (extract_char not already
+             called)
+Params: 
+    victim: char: mob/player which has been killed by `this`
+Return value: not used
+Usefulness: quest: quest mob has been killed
+            special treatment when a certain mob/player is killed: reward, ...
+~
+
+102 'TRIGGER_ONLOAD'~
+Available for player only
+Description:
+    player: `this` 's pFile has been loaded
+Params: no params
+Return value: not used
+Usefulness: fix items/pFile bug
+            add 'on the fly' new extra fields
+            quest: reassign quest mob, recreate quest obj
+~
+
+102 'TRIGGER_ONQUITTING'~
+Available for player only
+Description:
+    player: `this` 's pFile will be saved and will leave the mud
+Params: no params
+Return value: not used
+Usefulness: update mob's know list
+            quest: destroy quest obj, ...
+~
+
+102 'TRIGGER_ONINFORMATION'~
+Available for player only
+Description:
+    player: `this` has typed showinfo
+Params: any type but will mostly be a string
+Return value: not used
+Usefulness: show quest info and other additionals information
+~
+
+
+0 $~
+
+
+#$

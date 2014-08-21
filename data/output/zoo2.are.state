@@ -1,0 +1,212 @@
+AreaState 'Zoo of Midgaard' {
+  Room 8200 {
+    Repop = 28;
+  }
+  Room 8201 {
+    Repop = 28;
+    Obj 8203 {
+    }
+  }
+  Room 8203 {
+    Repop = 28;
+    Mobile 8202 {
+      Ptr = 182803888;
+      HMVP = (  ( 43 ),  ( 30 ),  ( 100 ),  ( 0 ) );
+      Room = 8203;
+    }
+  }
+  Room 8204 {
+    Repop = 28;
+  }
+  Room 8205 {
+    Repop = 28;
+    Mobile 8200 {
+      Ptr = 182803304;
+      HMVP = (  ( 351 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Silver = 146;
+      Room = 8205;
+      Obj 8201 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 8202 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 8204 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 8205 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 8206 {
+    Repop = 28;
+    Mobile 8201 {
+      Ptr = 182802720;
+      HMVP = (  ( 134 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 138;
+      Room = 8206;
+      Obj 8200 {
+      }
+    }
+  }
+  Room 8207 {
+    Repop = 28;
+  }
+  Room 8208 {
+    Repop = 28;
+  }
+  Room 8209 {
+    Repop = 28;
+  }
+  Room 8210 {
+    Repop = 28;
+  }
+  Room 8211 {
+    Repop = 28;
+    Mobile 8210 {
+      Ptr = 182802136;
+      HMVP = (  ( 222 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Room = 8211;
+    }
+  }
+  Room 8212 {
+    Repop = 28;
+    Mobile 8207 {
+      Ptr = 182801552;
+      HMVP = (  ( 183 ),  ( 130 ),  ( 100 ),  ( 0 ) );
+      Room = 8212;
+    }
+  }
+  Room 8213 {
+    Repop = 28;
+  }
+  Room 8214 {
+    Repop = 28;
+    Mobile 8203 {
+      Ptr = 182800968;
+      HMVP = (  ( 269 ),  ( 170 ),  ( 100 ),  ( 0 ) );
+      Room = 8214;
+    }
+  }
+  Room 8215 {
+    Repop = 28;
+    Mobile 8209 {
+      Ptr = 182800384;
+      HMVP = (  ( 205 ),  ( 140 ),  ( 100 ),  ( 0 ) );
+      Room = 8215;
+    }
+  }
+  Room 8216 {
+    Repop = 28;
+    Mobile 8206 {
+      Ptr = 182807984;
+      HMVP = (  ( 177 ),  ( 130 ),  ( 100 ),  ( 0 ) );
+      Room = 8216;
+    }
+  }
+  Room 8217 {
+    Repop = 28;
+    Mobile 8204 {
+      Ptr = 182807400;
+      HMVP = (  ( 133 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 8217;
+    }
+  }
+  Room 8218 {
+    Repop = 28;
+  }
+  Room 8219 {
+    Repop = 28;
+    Mobile 8211 {
+      Ptr = 182806816;
+      HMVP = (  ( 131 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 8219;
+      Obj 8205 {
+      }
+    }
+  }
+  Room 8220 {
+    Repop = 28;
+    Mobile 8208 {
+      Ptr = 182806232;
+      HMVP = (  ( 325 ),  ( 190 ),  ( 100 ),  ( 0 ) );
+      Room = 8220;
+    }
+  }
+  Room 8221 {
+    Repop = 28;
+    Mobile 8205 {
+      Ptr = 182805648;
+      HMVP = (  ( 229 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Room = 8221;
+    }
+  }
+  Room 8230 {
+    Repop = 28;
+  }
+  Room 8231 {
+    Repop = 28;
+  }
+  Room 8232 {
+    Repop = 28;
+    Mobile 8232 {
+      Ptr = 182812080;
+      HMVP = (  ( 34 ),  ( 20 ),  ( 100 ),  ( 0 ) );
+      Room = 8232;
+    }
+    Mobile 8233 {
+      Ptr = 182804480;
+      HMVP = (  ( 41 ),  ( 30 ),  ( 100 ),  ( 0 ) );
+      Room = 8232;
+    }
+    Mobile 8234 {
+      Ptr = 182805064;
+      HMVP = (  ( 55 ),  ( 40 ),  ( 100 ),  ( 0 ) );
+      Room = 8232;
+    }
+  }
+  Room 8233 {
+    Repop = 28;
+    Mobile 8230 {
+      Ptr = 182811496;
+      HMVP = (  ( 43 ),  ( 30 ),  ( 100 ),  ( 0 ) );
+      Room = 8233;
+    }
+  }
+  Room 8234 {
+    Repop = 28;
+  }
+  Room 8235 {
+    Repop = 28;
+    Mobile 8235 {
+      Ptr = 182810912;
+      HMVP = (  ( 63 ),  ( 50 ),  ( 100 ),  ( 0 ) );
+      Room = 8235;
+    }
+  }
+  Room 8236 {
+    Repop = 28;
+    Mobile 8231 {
+      Ptr = 182810328;
+      HMVP = (  ( 22 ),  ( 10 ),  ( 100 ),  ( 0 ) );
+      Room = 8236;
+    }
+  }
+  Room 8237 {
+    Repop = 28;
+  }
+  Room 8238 {
+    Repop = 28;
+    Mobile 8237 {
+      Ptr = 182809160;
+      HMVP = (  ( 104 ),  ( 80 ),  ( 100 ),  ( 0 ) );
+      Room = 8238;
+    }
+    Mobile 8231 {
+      Ptr = 182809744;
+      HMVP = (  ( 20 ),  ( 10 ),  ( 100 ),  ( 0 ) );
+      Room = 8238;
+    }
+  }
+}

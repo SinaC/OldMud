@@ -1,0 +1,19 @@
+////script for AREA Realms of Iuel
+//
+//#10700
+//Vault throw~
+//2 c 100
+//enter~
+//   if ("%arg%" == "vault")
+//wsend %actor% As you attempt to enter the vault an unseen spirit throws you from the room.
+//wsend %actor% You are damaged by the fall.
+//wechoaround %actor.name% %actor.name% tries to enter the vault and is instead thrown out of the room, by some unseen force.
+//wteleport %actor% 10719
+//%damage% %actor% 20
+//wforce %actor% look
+//wechoaround %actor% %actor.name% is thrown into the room.
+//end
+//if ("%arg%" != "vault")
+//wsend %actor% Enter what?!
+//end
+//~

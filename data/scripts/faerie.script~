@@ -1,0 +1,148 @@
+// These 2 scripts are used for a internal area quest
+//  you have to kill the wyvern who gives you the statue arm
+//  you give the arm to the statue, it gives you a disk
+//  you give the disk to the mage who gives you back the disk but upgraded :)
+// The statue will accept only one arm per day, after a reboot the quest can be
+//  done after 2 hours
+
+
+// This script can crash the mud if the player leaves the mud between the 2 steps
+// To avoid that problem, we remember the player name and not the CHAR_DATA*
+class mob20300 extends Mob {
+  onCreate() {
+    objvar this:running = 0;
+    objvar this:delay = 0;
+    objvar this:stonedisk_giver = "";
+  }
+  onGiven( act, obj ) {
+    if ( obj.vnum() == 20372 ) { // the stone disk
+      `say A disk? From that statue?
+      `say I guess ye got 'is arm from dat wyvern, eh?
+      `chuckle
+      `say Gimme a minute, eh?
+      `say I might be a while, make yerself comfortable.
+      this.echo("The mage vanishes in a flash of light!");
+      this.transfer(2); // go in a room where we are sure a player can't go
+      obj.destroy();
+      //objvar this:stonedisk_giver = act; // to remember who gives the disk
+      this.stonedisk_giver = act.name(); // to remember who gives the disk
+      this.delay = 60 / 4; // 1 minutes
+      this.running = 1; // step 1 completed
+    }
+  }
+  
+  // check if a player (with player name) is in the room and
+  //  returns the CHAR_DATA
+  playerInRoom( ch ) {
+    //var roomates = this.roomates();
+    var roomates = this.room().people();
+    var i = 0;
+    result = NULL;
+    while ( i < roomates.size() && result == NULL ) {
+      if ( roomates[i].name() == ch )
+        result = roomates[i];
+      i = i+1;
+    }
+  }
+
+  // close the door when some leave the room, i.e.: when we force the player to leave
+  onExitedLeader( act, to ) {
+    `close north
+  }
+
+  // every 4 seconds
+  onPulseMobile() {
+    if ( running ) { // step 1 already done ?
+      if ( this.delay <= 0 ) { // delay is over ?
+        this.transfer(20342); // go back in the room
+        this.echo("The mage appears in a large cloud of smoke!");
+        // player is still in the room ?
+        var act = playerInRoom(this.stonedisk_giver);
+        if ( act == NULL ) {
+          `say Foolish...
+          `say What can we do with such moron...
+          this.running = 0;
+        }
+        else {
+          `say Okay, okay, I got it ...
+           var newDisk = this.oLoad(20371); // load the thindisk, really valuable item
+          `say I enchanted it back at muh lab.
+          `say Hope it's some use to ye ...
+          //`give thindisk `this.stonedisk_giver`
+          `give `newDisk`thindisk `this.stonedisk_giver`
+          `smile
+          `say Off ye go now!
+          //act.transfer(20343); // kick off the player from the room
+          force act `north
+          this.running = 0;    // okay, script is over
+        }
+      }
+      else
+        this.delay = this.delay-1;
+    }
+  }
+}
+
+class mob20308 extends Mob {
+  onCreate() {
+    // when timed out, players are allowed to give him his arm again
+    objvar this:delay = 2 * 60 * 60 / 4; // 2 hours, called every 4 seconds
+  }
+
+  onPulseMobile() {
+    if ( this.delay > 0 )
+      this.delay = this.delay - 1;
+  }
+
+  // when the timer is not timed out, someone has already give him his arm
+  //  so the description is modified
+  onLooking( act ) {
+    if ( this.delay > 0 ) {
+      result = 1;
+      act.sendTo("Magically enchanted, this statue is a guardian placed by some wizard to keep watch over the area. Why it is watching, only the wizard could say. The statue can not speak. Its left arm looks different than its right one.");
+    }
+    else
+      result = 0;
+  }
+
+  onGiven( act, obj ) {
+    if ( obj.vnum() == 20360 ) // the stone arm
+      if ( this.delay == 0 ) { // okay, the timer is over
+        `emote slowly nods its head slowly.
+        `emote attaches the detached arm back to where it belongs.
+        this.echo("{BWith a flash of blue light{x, the arm is fused to the statue's body.");
+        `emote {gmutters something that sounds like '{xGive this to the mage.{g'{x
+        this.oLoad(20372); // load the stone disk
+        `give stonedisk `act`
+        `emote goes back to silently watching the forest.
+        obj.destroy();
+        this.delay = 24 * 60 * 60 / 4; // one day
+      }
+      else                     // must wait ==> arm is destroyed
+        obj.destroy();
+  }
+}
+
+//class mob20310 {
+//  onExiting( act, to ) {
+//    if ( act.level() >= 35 ) {
+//      `say Hail to you, hero. Cleanse the forest, so that we elves may make it our home again.
+//      //mob gtransfer $n 2100           no room 2100 in my mud
+//    }
+//    else if ( act.level() >= 30 ) {
+//      `say Go forth into Silvanesti, if you wish. Be on your guard, for it seeks living blood.
+//      //mob gtransfer $n 2100
+//    }
+//    else if ( act.level() >= 25 ) {
+//      `say You may be able to survive in the Abyss-bent forest I guard. Be careful.
+//       //mob gtransfer $n 2100
+//    }
+//    else if ( act.level() <= 10 ) {
+//      `say Turn back, young one. The forest to the north will kill you before you take a breath.
+//    }
+//    else if ( act.level() <= 20 ) {
+//      `say The forest ahead will be too much for your abilities at this time.
+//    }
+//  }
+//}
+

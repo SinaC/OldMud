@@ -1,0 +1,338 @@
+//Ban.txt
+//
+//Ban <STRING Banned Host> {
+//  Level = <INTEGER Level>;
+//  Flags = <STRING flags (area flag format)>;
+//}
+//
+//
+//Brewformula.txt
+//
+//BrewFormula <STRING Formula Name> {
+//  Component = <LIST OF INTEGER> ( <INTEGER Component Vnum>, <INTEGER Component Vnum>, ... );
+//  Level = <INTEGER Level>;
+//  Cost = <INTEGER Cost>;
+//  Effects = <LIST OF STRING> ( <STRING Effect1>, <STRING Effect2>, ... );
+//}
+//
+//
+//Commands.txt
+//
+//Command <STRING Command Name> {
+//  Position = <STRING Position Name>;
+//  Level = <INTEGER Level>;
+//  Log = <STRING Log Value (Always,Never,Normal)>
+//  Show = <BOOLEAN Show (True/False)>
+//}
+//
+//
+//Disable.txt
+//
+//Disable <STRING Command Name> {
+//  Level = <INTEGER Level>;
+//  Player = <STRING Immortal who has disabled the command>;
+//}
+//
+//
+//Factions.txt
+//
+//Faction <STRING Faction Name> {
+//  Friendliness = <LIST OF LIST> ( ( <STRING Faction Name>, <INTEGER Value> ), ...);
+//}
+//
+//
+//Gods.txt
+//
+//God <STRING God Name> {
+//  Title = <STRING Title>;
+//  Story = <STRING Story>;
+//  Minor = <STRING Minor Sphere>;
+//  Major = <LIST OF STRING> ( <STRING Sphere1>, <STRING Sphere2>, ... );
+//  Priest = <LIST OF STRING> ( <STRING Class1>, <STRING Class2>, ... );
+//  Alignment = <LIST OF STRING> ( <STRING Align1>, <STRING Align2>, ... );
+//  Races = <LIST OF STRING> ( <STRING Race1>, <STRING Race2>, ... );
+//  Classes = <LIST OF STRING> ( <STRING Class1>, <STRING Class2>, ... );
+//}
+//
+//
+//Liquid.txt
+//
+//Liquid <STRING Liquid Name> {
+//  Color = <STRING Color>;
+//  Drunk = <INTEGER Drunk>;
+//  Full = <INTEGER Full>;
+//  Thirst = <INTEGER Thirst>;
+//  Food = <INTEGER Food>;
+//  Ssize = <INTEGER Ssize>;
+//}
+//
+//
+//Material.txt
+//
+//Material <STRING Material Name> {
+//  Color = <STRING Color>;
+//  Immunities = <LIST OF STRING> ( <STRING Immunities1>, <STRING Immunities2>, ... );
+//  Resistances = <LIST OF STRING> ( <STRING Resistances1>, <STRING Resistances2>, ... );
+//  Vulnerabilities = <LIST OF STRING> ( <STRING Vulnerabilities1>, <STRING Vulnerabilities2>, ... );
+//  Metal = <BOOLEAN IsMetal (True/False)>;
+//}
+//
+//
+//Unique.txt 
+//
+//Unique <INTEGER Object Vnum> {
+//  Room = <INTEGER Room Vnum>;
+//}
+//
+//
+//
+//Abilities/Group.txt 
+//
+//Group <STRING Group Name> {
+//  Contains = <LIST OF LIST> ( ( <STRING Type (Ability/Group)>, <STRING Ability/Group Name>), ... );
+//}
+//
+//
+//Abilities/Spells.txt  -->  DONE
+//Abilities/Songs.txt  -->  DONE
+//Abilities/Skills.txt  -->  DONE
+//Abilities/Powers.txt  -->  DONE
+//
+//Ability <STRING Ability Name> {
+//  Type = <STRING Ability type (Spell/Skill/Power/Song)>;
+//  Target = <STRING Target>;
+//  Position = <STRING Position>;
+//  Slot = <INTEGER Slot>;
+//  Cost = <INTEGER Ressource Cost (in Mana or Psp)>;
+//  Beats = <INTEGER Beats>;
+//  NounDamage = <STRING Damage Noun>;
+//  MsgOff = <STRING Affect wear off message on char>;
+//  MsgObj = <STRING Affect wear off message on obj>;
+//  MsgRoom = <STRING Affect wear off message on room>;
+//  MobUse = <INTEGER Mob Use>;
+//  Dispel = <BOOLEAN Is affect dispellable (True/False)>;
+//  MsgDispel = <STRING Affect dispelled message>;
+//  Wait = <INTEGER Wait time between 2 ability use>;
+//  Craftable = <BOOLEAN Can ability be crafted in item <True/False>;
+//}
+//
+//
+//Abilities/Prereqs.txt
+//
+//Prereq <STRING Ability Name> {
+//  NumberCasting = <INTEGER Number of ability casting level>;
+//  Casting <INTEGER Casting level> {
+//    Level = <INTEGER Player level to get that casting level>;
+//    Cost = <INTEGER Train cost>;
+//    List = <LIST OF LIST> ( ( <STRING Ability Name>, <INTEGER Casting level> ), ... );
+//  }
+//}
+//
+//
+//Ability/Spheres.txt
+//
+//Sphere <STRING Sphere Name> {
+//  Cost = <INTEGER Train cost>;
+//  Contains = <LIST OF LIST> ( ( <STRING Ability Name>, <INTEGER Level>, <INTEGER Cost>), ... );
+//}
+//
+//
+//Clans/Clans.txt
+//
+//Clan <STRING Clan Name> {
+//  Id = <INTEGER Clan Id>;
+//  WhoName = <STRING Who/Whois name>;
+//  Hall = <INTEGER Clan hall vnum>;
+//  Recall = <INTEGER Clan recall vnum>;
+//  Independent = <BOOLEAN Is clan independent (True/False)>;
+//  Ability = <STRING Ability Name>;
+//  Member <STRING Member Name> {
+//    Races = <STRING Race name>;
+//    Classes = <INTEGER Classes>; // should maybe be a list of string
+//    Level = <INTEGER Level>;
+//    Status = <INTEGER Clan status>; // should maybe be a string
+//  }
+//}
+//
+//
+//Classes/Pc/Class.txt + className
+//
+//Class <STRING Class Name> {
+//  WhoName = <STRING Who/Whois name>;
+//  Attribute = <STRING Primary attribute (Strength, Intelligence, ...)>;
+//  Weapon = <INTEGER Outfit weapon vnum>;
+//  Adept = <INTEGER Practice percentage (75 or 90)>;
+//  Thac0_00 = <INTEGER Thac0_00 value>;
+//  Thac0_32 = <INTEGER Thac0_32 value>;
+//  HpMin = <INTEGER Min hp bonus while gaining a level>;
+//  HpMax = <INTEGER Max hp bonus while gaining a level>;
+//  Type = <STRING Class type (Magic, Mental, Combat)>;
+//  CastingRule = <INTEGER Casting rule>;
+//  BaseGroup = <STRING Basic group name>;
+//  DefaultGroup = <STRING Default group name>;
+//  Parent = <STRING Parent class name>;
+//  Choosable = <INTEGER Can class be picked at creation/specialization/... (0-->2)>;
+//
+//  Abilities = <LIST OF LIST> ( ( <INTEGER Level>, <INTEGER Cost>, <STRING Ability name>), ...);
+//  Groups = <LIST OF LIST> ( ( <INTEGER Cost>, <STRING Group name>), ...);
+//  Title = <LIST OF LIST> ( ( <INTEGER Level>, <STRING Male title>, <STRING Female title>), ...);
+//  Pose = <LIST OF LIST> ( ( <INTEGER Id>, <STRING User msg> <STRING Other msg>), ...);
+//  Alignment = <LIST OF STRING> ( <STRING Align1>, <STRING Align2>, ...);
+//}
+//
+//
+//Races/Pcrace.txt
+//
+//PCRace <STRING PC Race Name> {
+//  WhoName = <STRING Who/Whois name>;
+//  Experience = <INTEGER Base experience per level>;
+//  Type = <INTEGER Is race a create/rebirth/remort/special race>;
+//  Size = <STRING Race size (small, medium, ...)>;
+//  Attributes = <LIST OF LIST> ( ( <STRING Attribute Name>, <INTEGER Start value>, <INTEGER Max value> ) );
+//  Language = <STRING Race language>;
+//  Abilities = <LIST OF STRING> ( <STRING Ability name>, ...);
+//  Alignment = <LIST OF STRING> ( <STRING Align1>, <STRING Align2>, ...);
+//  Classes = <LIST OF STRING> ( <STRING Class1>, <STRING Class2>, ...);
+//}
+//
+//
+//Races/Race.txt
+//
+//Race <STRING Race name> {
+//  Act = <LIST OF STRING> ( <STRING Act>, ...);
+//  Affect = <LIST OF STRING> ( <STRING Affect>, ...);
+//  Affect2 = <LIST OF STRING> ( <STRING Affect2>, ...);
+//  Offensive = <LIST OF STRING> ( <STRING Offensive>, ...);
+//  Immunities = <LIST OF STRING> ( <STRING Immunities1>, <STRING Immunities2>, ... );
+//  Resistances = <LIST OF STRING> ( <STRING Resistances1>, <STRING Resistances2>, ... );
+//  Vulnerabilities = <LIST OF STRING> ( <STRING Vulnerabilities1>, <STRING Vulnerabilities2>, ... );
+//  Forms = <LIST OF STRING> ( <STRING Form1>, <STRING Form2>, ...);
+//  Parts = <LIST OF STRING> ( <STRING Part1>, <STRING Part2>, ...);
+//}
+//
+//
+//Player   pFile
+//
+//Player/Pet <Player Name/Pet Vnum> {
+//  Act = <LIST OF STRING>;
+//  AfBy = <LIST OF STRING> ( <STRING aff>, ...);
+//  AfBy2 = <LIST OF STRING> ( <STRING aff2>, ...);
+//  Address = <STRING>;
+//  Alignment = <INTEGER>;
+//  Alias = ( <STRING alias name>, <STRING alias substitution> );
+//  ACs = ( <INTEGER>, <INTEGER>, <INTEGER>, <INTEGER> ); // pierce, bash, slash, magic
+//  Affect = ( <STRING name>, <INTEGER where>, <STRING location>, <INTEGER operation>,
+//              <INTEGER modifier>, <INTEGER duration>, <INTEGER level>, <INTEGER casting level> );
+//  Attr = ( <INTEGER Str>, <INTEGER Int>, <INTEGER Wis>, <INTEGER Dex>, <INTEGER Con>);
+//  Bin = <STRING>;
+//  Bout = <STRING>;
+//  Beacons = ( <INTEGER>, ... ); // MAX_BEACONS
+//  Boards = ( ( <STRING>, <INTEGER> ), ...);
+//  Classes = <INTEGER>; // classes is the right value
+//  Clan = <STRING>;
+//  ClanStatus = <INTEGER>;
+//  Condition = ( <INTEGER>, <INTEGER>, <INTEGER> ); // pcdata->condition[0] [1] [2]
+//  Comm = <LIST OF STRING>;
+//  Damroll = <INTEGER>;
+//  Dnumber = <INTEGER>; // mob only
+//  Dtype = <INTEGER>; // mob only
+//  DamType = <STRING>;
+//  Desc = <STRING>;
+//  DisabledCmd = ( <STRING cmd name>, <STRING disabler name> );
+//  Exfield = ( <STRING name>, <STRING type> <INTEGER lifetime>, <STRING/INTEGER value> );
+//  Experience = <INTEGER>;
+//  Etho = <STRING>;
+//  Forms = <LIST OF STRING>;
+//  Faction = ( <STRING faction name>, <INTEGER value> );
+//  Gold = <INTEGER>;
+//  God = <STRING>;
+//  Gset = <INTEGER>;
+//  Group = <STRING>;
+//  Hitroll = <INTEGER>;
+//  Hometown = <STRING>;
+//  HMVP = ( ( <INTEGER hp>, <INTEGER max hp> ), ... mana, move, psp );
+//  Id = <INTEGER>;
+//  Immunities = <LIST OF STRING>;
+//  Invis = <INTEGER>;
+//  Inco = <INTEGER>;
+//  Immtitle = <STRING>;
+//  LastLevel = <INTEGER>;
+//  Level = <INTEGER>;
+//  LogO = <INTEGER>;
+//  LnD = <STRING>;
+//  Language = <INTEGER>;
+//  LineMode = <INTEGER>;
+//  Name = <STRING>;
+//  NameAccepted = <BOOLEAN>;
+//  Parts = <LIST OF STRING>;
+//  Password = <STRING>;
+//  Petition = <STRING>;
+//  Played = <INTEGER>;
+//  Pnts = <INTEGER>;
+//  Position = <INTEGER>;
+//  Prac = <INTEGER>;
+//  Prompt = <STRING>;
+//  QuestPnts = <INTEGER>;
+//  QuestNext = <INTEGER>;
+//  QuestCount = <INTEGER>;
+//  QuestObj = <INTEGER>;
+//  QuestObjLoc = <INTEGER>;
+//  QuestMob = <INTEGER>;
+//  QuestGiver = <INTEGER>;
+//  Race = <STRING>;
+//  Resististances = <LIST OF STRING>;
+//  Room = <INTEGER>;
+//  SavingThrow = <INTEGER>;
+//  Scroll = <INTEGER>;
+//  Sex = <INTEGER>;
+//  ShD = <STRING>;
+//  Security = <INTEGER>;
+//  Silver = <INTEGER>;
+//  Size = <STRING>;
+//  Stance = <STRING>;
+//  Ability = ( <INTEGER learned>, <INTEGER casting_level>, <INTEGER level>, <STRING name> );
+//  Train = <INTEGER>;
+//  Trust = <INTEGER>;
+//  Trivia = <INTEGER>;
+//  Title = <STRING>;
+//  Version = <INTEGER>;
+//  Vulnerabilities = <LIST OF STRING>;
+//  Wimpy = <INTEGER>;
+//  Wiznet = <STRING>;
+//  Pet <Pet vnum> {
+//   ...
+//  }
+//  Obj <Obj name> {
+//   ...
+//  }
+//
+//Object
+//
+//Obj <INTEGER Object Vnum> {
+//  Affect = <See Player/Pet>;
+//  Cond = <INTEGER>;
+//  Cost = <INTEGER>;
+//  Desc = <STRING>;
+//  ExField = <See Player/Pet>
+//  Enchanted = <BOOLEAN>; // not necessary if False
+//  ExtraFlags = <INTEGER>;
+//  ExtraDescr = ( <STRING keyword>, <STRING description> );
+//  ItemType = <INTEGER>;
+//  Level = <INTEGER>;
+//  Name = <STRING>;
+//  Owner = <STRING>;
+//  Oldstyle = <BOOLEAN>; // not necessary if False
+//  Restriction = ( <INTEGER kind>, <STRING type/ability name>, <INTEGER value>, <INTEGER not_r???> );
+//  ShD = <STRING>;
+//  Size = <INTEGER>;
+//  Spell = ( <INTEGER iValue 0-->4 >, <STRING ability name> );
+//  Timer = <INTEGER>;
+//  Values = ( <INTEGER v0>, ...<INTEGER v4> );
+//  Vnum = <INTEGER>;
+//  WearFlags = <INTEGER>;
+//  WearLoc = <INTEGER>;
+//  Weight = <INTEGER>;
+//  Obj <INTEGER Obj Vnum> {
+//  ...
+//  }
+//}

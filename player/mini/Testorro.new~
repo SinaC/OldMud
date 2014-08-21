@@ -1,0 +1,203 @@
+Player 'Testorro' {
+  Id = 1066827559;
+  Version = 11;
+  LogO = 1066831546;
+  Race = 'human';
+  Sex = 'male';
+  Size = 'medium';
+  DamType = 'punch';
+  Immunities = ('none');
+  Resistances = ('none');
+  Vulnerabilities = ('none');
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye', 'body');
+  AfBy = ('none');
+  AfBy2 = ('higher_attributes');
+  Classes = ('mage');
+  Level = 95;
+  Experience = 95000;
+  Act = ('autoassist', 'autoexit', 'autoloot', 'autogold', 'autotitle', 'autohaggle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine');
+  Position = 'standing';
+  Attr = ( 18, 20, 18, 18, 18 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = (  ( 335, 973 ),  ( 802, 2099 ),  ( 620, 670 ),  ( 323, 409 ) );
+  Alignment = -1000;
+  Etho = 'chaotic';
+  Gold = 128;
+  Silver = 6253;
+  Room = 3001;
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Played = 2999;
+  Scroll = 24;
+  Prac = 751;
+  Train = 452;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'common';
+  Beacons = ( 0, 0, 0 );
+  God = 'Kardis';
+  NameAccepted = false;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = 'the Master Mage';
+  Condition = ( 0, 0, 0, 0 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Faction = ( 'notYetClassed', 0 );
+  Pnts = 40;
+  Ability = ( 90, 0, 0, 'dagger' );
+  Ability = ( 90, 0, 0, 'dodge' );
+  Ability = ( 91, 1, 0, 'meditation' );
+  Ability = ( 90, 0, 0, 'scrolls' );
+  Ability = ( 90, 0, 0, 'staves' );
+  Ability = ( 90, 0, 0, 'wands' );
+  Ability = ( 90, 0, 0, 'recall' );
+  Ability = ( 90, 0, 0, 'scribe' );
+  Ability = ( 90, 1, 0, 'riding' );
+  Ability = ( 90, 0, 0, 'study' );
+  Ability = ( 90, 0, 0, 'cancellation' );
+  Ability = ( 90, 4, 0, 'chill touch' );
+  Ability = ( 90, 0, 0, 'continual light' );
+  Ability = ( 90, 0, 0, 'create water' );
+  Ability = ( 90, 0, 0, 'detect evil' );
+  Ability = ( 90, 0, 0, 'detect good' );
+  Ability = ( 90, 0, 0, 'detect hidden' );
+  Ability = ( 90, 0, 0, 'detect invis' );
+  Ability = ( 90, 0, 0, 'detect magic' );
+  Ability = ( 90, 0, 0, 'detect poison' );
+  Ability = ( 90, 3, 0, 'faerie fire' );
+  Ability = ( 90, 3, 0, 'faerie fog' );
+  Ability = ( 90, 4, 0, 'floating disc' );
+  Ability = ( 90, 0, 0, 'giant strength' );
+  Ability = ( 90, 0, 0, 'identify' );
+  Ability = ( 90, 0, 0, 'infravision' );
+  Ability = ( 90, 0, 0, 'invisibility' );
+  Ability = ( 90, 0, 0, 'know alignment' );
+  Ability = ( 90, 4, 0, 'magic missile' );
+  Ability = ( 90, 0, 0, 'portal' );
+  Ability = ( 75, 0, 75, 'wraithform' );
+  Group = 'rom basics';
+  Group = 'mage basics';
+  Group = 'mage default';
+  Gset = 1;
+  Security = 0;
+  Affect = ( 'wraithform', 4, 72, 0, ('ability'),
+            ( 'char', 'affects', 1, 128 ),
+            ( 'char', 'AC', 0, -10 ) );
+  Affect = ( 'armor', 99, 104, 1, ('ability'),
+            ( 'char', 'AC', 0, -80 ) );
+  Affect = ( 'detect invis', 6, 25, 0, ('ability'),
+            ( 'char', 'affects', 1, 8 ) );
+  ExField = ( 'bannedTime', 'list', -1, () );
+  ExField = ( 'bannedShop', 'list', -1, () );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'questmob', 'entity', -1, '<NULL>' );
+  ExField = ( 'questobj', 'entity', -1, '<NULL>' );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'questpoints', 'int', -1, 0 );
+  ExField = ( 'questgiver', 'entity', -1, '<NULL>' );
+  Pet 9578 {
+    LogO = 1066831546;
+    DamType = 'pierce';
+    AfBy = ('charm', 'flying');
+    Act = ('npc', 'sentinel', 'wimpy', 'pet', 'mountable', 'mounted', 'noalign');
+    HMVP = (  ( 128 ),  ( 130 ),  ( 100 ),  ( 0 ) );
+    Silver = 26;
+    Room = 3001;
+    Obj 9588 {
+    }
+  }
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3704 {
+    WearLoc = 'shield';
+  }
+  Obj 3162 {
+  }
+  Obj 3715 {
+    WearLoc = 'hold';
+  }
+  Obj 9536 {
+    WearLoc = 'about';
+  }
+  Obj 5633 {
+    WearLoc = 'neck2';
+  }
+  Obj 5633 {
+    WearLoc = 'neck1';
+  }
+  Obj 5111 {
+    Condition = 99;
+    WearLoc = 'head';
+  }
+  Obj 5109 {
+    WearLoc = 'hands';
+  }
+  Obj 5108 {
+    WearLoc = 'rwrist';
+  }
+  Obj 5108 {
+    WearLoc = 'lwrist';
+  }
+  Obj 628 {
+    WearLoc = 'waist';
+  }
+  Obj 5604 {
+  }
+  Obj 5113 {
+    Level = 21;
+    WearLoc = 'wielded';
+  }
+  Obj 308 {
+    Name = 'template';
+    ShD = 'a template';
+    Desc = 'A scroll has been left here.';
+    ItemType = 'template';
+  }
+  Obj 308 {
+    Name = 'template';
+    ShD = 'a template';
+    Desc = 'A scroll has been left here.';
+    ItemType = 'template';
+  }
+  Obj 308 {
+    Name = 'template';
+    ShD = 'a template';
+    Desc = 'A scroll has been left here.';
+    ItemType = 'template';
+  }
+  Obj 308 {
+    Name = 'template';
+    ShD = 'a template';
+    Desc = 'A scroll has been left here.';
+    ItemType = 'template';
+  }
+}

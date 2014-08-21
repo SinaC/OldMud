@@ -1,0 +1,381 @@
+AreaState 'Village of Adlehyde' {
+  Room 400 {
+    Repop = 28;
+  }
+  Room 401 {
+    Repop = 28;
+    Mobile 400 {
+      Ptr = 183373232;
+      HMVP = (  ( 1067 ),  ( 159 ),  ( 100 ),  ( 184 ) );
+      Silver = 13;
+      Room = 401;
+    }
+  }
+  Room 402 {
+    Repop = 28;
+  }
+  Room 403 {
+    Repop = 28;
+  }
+  Room 404 {
+    Repop = 28;
+    Mobile 402 {
+      Ptr = 183372648;
+      HMVP = (  ( 16768 ),  ( 693 ),  ( 100 ),  ( 733 ) );
+      Room = 404;
+      Obj 402 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 403 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 405 {
+    Repop = 28;
+    Mobile 403 {
+      Ptr = 183372064;
+      DamType = 'slash';
+      HMVP = (  ( 24984 ),  ( 815 ),  ( 100 ),  ( 866 ) );
+      Room = 405;
+      Obj 404 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 406 {
+    Repop = 28;
+  }
+  Room 407 {
+    Repop = 28;
+    Mobile 404 {
+      Ptr = 183371480;
+      HMVP = (  ( 332 ),  ( 191 ),  ( 100 ),  ( 180 ) );
+      Room = 407;
+    }
+  }
+  Room 408 {
+    Repop = 28;
+    Mobile 409 {
+      Ptr = 183370896;
+      HMVP = (  ( 1289 ),  ( 248 ),  ( 100 ),  ( 287 ) );
+      Gold = 21;
+      Silver = 806;
+      Room = 408;
+      Affect = ( 'sanctuary', -1, 24, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 408 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 409 {
+    Repop = 28;
+  }
+  Room 410 {
+    Repop = 28;
+  }
+  Room 411 {
+    Repop = 28;
+  }
+  Room 412 {
+    Repop = 28;
+    Mobile 405 {
+      Ptr = 183370312;
+      HMVP = (  ( 7269 ),  ( 435 ),  ( 100 ),  ( 417 ) );
+      Room = 412;
+      Obj 405 {
+        ExtraFlags = ('glow', 'hum', 'bless', 'inventory');
+      }
+      Obj 406 {
+        ExtraFlags = ('glow', 'hum', 'bless', 'inventory');
+      }
+    }
+  }
+  Room 413 {
+    Repop = 28;
+  }
+  Room 414 {
+    Repop = 28;
+    Mobile 407 {
+      Ptr = 183381424;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 1692 ),  ( 188 ),  ( 100 ),  ( 189 ) );
+      Gold = 1;
+      Silver = 82;
+      Room = 414;
+      Affect = ( 'haste', -1, 16, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 1 ) );
+    }
+    Mobile 406 {
+      Ptr = 183369728;
+      HMVP = (  ( 2645 ),  ( 229 ),  ( 100 ),  ( 240 ) );
+      Gold = 5;
+      Silver = 2;
+      Room = 414;
+      Obj 407 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 415 {
+    Repop = 28;
+    Mobile 408 {
+      Ptr = 183380840;
+      DamType = 'pierce';
+      HMVP = (  ( 7292 ),  ( 382 ),  ( 100 ),  ( 411 ) );
+      Room = 415;
+      Affect = ( 'sanctuary', -1, 50, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 416 {
+    Repop = 28;
+    Mobile 411 {
+      Ptr = 183379672;
+      HMVP = (  ( 3868 ),  ( 294 ),  ( 100 ),  ( 291 ) );
+      Room = 416;
+      Obj 409 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 410 {
+      Ptr = 183380256;
+      HMVP = (  ( 1268, 1243 ),  ( 262 ),  ( 100 ),  ( 233 ) );
+      Gold = 17;
+      Silver = 231;
+      Room = 416;
+      Obj 400 {
+        WearLoc = 'hold';
+      }
+      Obj 412 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 417 {
+    Repop = 28;
+  }
+  Room 418 {
+    Repop = 28;
+  }
+  Room 419 {
+    Repop = 28;
+  }
+  Room 420 {
+    Repop = 28;
+  }
+  Room 421 {
+    Repop = 28;
+    Mobile 413 {
+      Ptr = 183378504;
+      HMVP = (  ( 1013 ),  ( 248 ),  ( 100 ),  ( 235 ) );
+      Gold = 3;
+      Silver = 35;
+      Room = 421;
+    }
+    Mobile 412 {
+      Ptr = 183379088;
+      HMVP = (  ( 918 ),  ( 243 ),  ( 100 ),  ( 235 ) );
+      Silver = 147;
+      Room = 421;
+      Obj 410 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 422 {
+    Repop = 28;
+    Mobile 414 {
+      Ptr = 183377920;
+      HMVP = (  ( 2187 ),  ( 322 ),  ( 100 ),  ( 299 ) );
+      Silver = 52;
+      Room = 422;
+      Obj 414 {
+      }
+    }
+  }
+  Room 423 {
+    Repop = 28;
+  }
+  Room 424 {
+    Repop = 28;
+  }
+  Room 425 {
+    Repop = 28;
+  }
+  Room 426 {
+    Repop = 28;
+  }
+  Room 427 {
+    Repop = 28;
+  }
+  Room 428 {
+    Repop = 28;
+    Mobile 416 {
+      Ptr = 183385520;
+      DamType = 'pierce';
+      HMVP = (  ( 16705 ),  ( 679 ),  ( 100 ),  ( 718 ) );
+      Room = 428;
+      Obj 416 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+      Obj 417 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+      Obj 418 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 413 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+      Obj 419 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+    }
+  }
+  Room 429 {
+    Repop = 28;
+    Mobile 415 {
+      Ptr = 183384936;
+      HMVP = (  ( 2662 ),  ( 274 ),  ( 100 ),  ( 309 ) );
+      Silver = 54;
+      Room = 429;
+      Obj 415 {
+      }
+    }
+  }
+  Room 430 {
+    Repop = 28;
+  }
+  Room 431 {
+    Repop = 28;
+    Mobile 420 {
+      Ptr = 183384352;
+      HMVP = (  ( 3020 ),  ( 270 ),  ( 100 ),  ( 279 ) );
+      Silver = 82;
+      Room = 431;
+      Affect = ( 'sanctuary', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 423 {
+      }
+    }
+  }
+  Room 432 {
+    Repop = 28;
+    Mobile 422 {
+      Ptr = 183389616;
+      Sex = 'male';
+      DamType = 'slash';
+      HMVP = (  ( 1973 ),  ( 197 ),  ( 100 ),  ( 184 ) );
+      Silver = 11;
+      Room = 432;
+    }
+    Mobile 422 {
+      Ptr = 183382016;
+      Sex = 'male';
+      DamType = 'slash';
+      HMVP = (  ( 1988 ),  ( 209 ),  ( 100 ),  ( 215 ) );
+      Silver = 18;
+      Room = 432;
+    }
+    Mobile 422 {
+      Ptr = 183382600;
+      Sex = 'female';
+      DamType = 'slash';
+      HMVP = (  ( 1976 ),  ( 224 ),  ( 100 ),  ( 206 ) );
+      Silver = 9;
+      Room = 432;
+    }
+    Mobile 422 {
+      Ptr = 183383184;
+      Sex = 'male';
+      DamType = 'pierce';
+      HMVP = (  ( 1974 ),  ( 213 ),  ( 100 ),  ( 212 ) );
+      Silver = 22;
+      Room = 432;
+    }
+    Mobile 422 {
+      Ptr = 183383768;
+      Sex = 'male';
+      DamType = 'pound';
+      HMVP = (  ( 1988 ),  ( 220 ),  ( 100 ),  ( 197 ) );
+      Silver = 14;
+      Room = 432;
+    }
+  }
+  Room 433 {
+    Repop = 28;
+    Mobile 419 {
+      Ptr = 183387280;
+      HMVP = (  ( 3183 ),  ( 270 ),  ( 100 ),  ( 291 ) );
+      Silver = 35;
+      Room = 433;
+      Affect = ( 'sanctuary', -1, 58, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 422 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 421 {
+      Ptr = 183387864;
+      AfBy = ('sanctuary');
+      HMVP = (  ( 4734 ),  ( 312 ),  ( 100 ),  ( 344 ) );
+      Silver = 189;
+      Room = 433;
+      Affect = ( 'haste', -1, 65, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 65, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 421 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 418 {
+      Ptr = 183388448;
+      AfBy = ('sanctuary');
+      HMVP = (  ( 3970 ),  ( 339 ),  ( 100 ),  ( 357 ) );
+      Gold = 2;
+      Silver = 108;
+      Room = 433;
+      Affect = ( 'haste', -1, 62, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 62, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 420 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 417 {
+      Ptr = 183389032;
+      HMVP = (  ( 3431 ),  ( 280 ),  ( 100 ),  ( 330 ) );
+      Silver = 92;
+      Room = 433;
+    }
+  }
+  Room 434 {
+    Repop = 28;
+    Mobile 424 {
+      Ptr = 183386112;
+      HMVP = (  ( 3941 ),  ( 338 ),  ( 100 ),  ( 352 ) );
+      Silver = 14;
+      Room = 434;
+      Affect = ( 'sanctuary', -1, 65, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 423 {
+      Ptr = 183386696;
+      HMVP = (  ( 4724, 4714 ),  ( 341 ),  ( 100 ),  ( 341 ) );
+      Gold = 2;
+      Silver = 42;
+      Room = 434;
+      Obj 424 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+}

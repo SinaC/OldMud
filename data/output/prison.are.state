@@ -1,0 +1,278 @@
+AreaState 'The Prison' {
+  Room 11605 {
+    Mobile 11600 {
+      Ptr = 190290208;
+      HMVP = (  ( 25001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 11605;
+      Affect = ( 'sanctuary', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 16 {
+      ShD = 'the guts of Grug';
+      Desc = 'A steaming pile of Grug\'s entrails is lying here.';
+      Timer = 4;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Grug';
+      Desc = 'The corpse of Grug is lying here.';
+      Level = 110;
+      Values = ( 11600, 2101377, 133087, 1, 32 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 17 {
+      ShD = 'the brains of Grug';
+      Desc = 'The splattered brains of Grug are lying here.';
+      Timer = 2;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Grug';
+      Desc = 'The corpse of Grug is lying here.';
+      Level = 110;
+      Values = ( 11600, 2101377, 131566, 1, 23076369 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11606 {
+    Mobile 11602 {
+      Ptr = 190289624;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'sneak', 'berserk', 'regeneration');
+      HMVP = (  ( 15001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 11606;
+      Affect = ( 'protection good', -1, 108, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 108, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 16 {
+      ShD = 'the guts of Beo, the Cursed';
+      Desc = 'A steaming pile of Beo, the Cursed\'s entrails is lying here.';
+      Timer = 3;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Beo, the Cursed';
+      Desc = 'The corpse of Beo, the Cursed is lying here.';
+      Level = 108;
+      Values = ( 11602, 2101377, 133087, 1, 32 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 14 {
+      ShD = 'the arm of Beo, the Cursed';
+      Desc = 'The sliced-off arm of Beo, the Cursed is lying here.';
+      Timer = 4;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Beo, the Cursed';
+      Desc = 'The corpse of Beo, the Cursed is lying here.';
+      Level = 108;
+      Values = ( 11602, 2101377, 132797, 1, 1048898 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11607 {
+    Mobile 11603 {
+      Ptr = 190289040;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'berserk', 'regeneration');
+      HMVP = (  ( 15001 ),  ( 10001 ),  ( 100 ),  ( 0 ) );
+      Room = 11607;
+      Affect = ( 'protection good', -1, 115, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 115, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of Asod, Hell\'s executioner';
+      Desc = 'The corpse of Asod, Hell\'s executioner is lying here.';
+      Level = 115;
+      Values = ( 11603, 2101377, 133119, 1, 0 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 10 {
+      ShD = 'the corpse of Asod, Hell\'s executioner';
+      Desc = 'The corpse of Asod, Hell\'s executioner is lying here.';
+      Level = 115;
+      Values = ( 11603, 2101377, 133119, 1, 0 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11608 {
+    Mobile 11605 {
+      Ptr = 189001728;
+      AfBy = ('detect_invis', 'sanctuary', 'berserk', 'regeneration');
+      HMVP = (  ( 15001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 11608;
+      Affect = ( 'protection good', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of Bane the Brutal';
+      Desc = 'The corpse of Bane the Brutal is lying here.';
+      Level = 110;
+      Values = ( 11605, 538972289, 4327423, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11609 {
+    Mobile 11606 {
+      Ptr = 190288456;
+      HMVP = (  ( 15001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 11609;
+      Affect = ( 'sanctuary', -1, 106, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of Blacktongue';
+      Desc = 'The corpse of Blacktongue is lying here.';
+      Level = 106;
+      Values = ( 11606, 2101377, 133119, 1, 0 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 13 {
+      ShD = 'the heart of Blacktongue';
+      Desc = 'The torn-out heart of Blacktongue is lying here.';
+      Timer = 5;
+    }
+    Obj 97 {
+      Timer = 1;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Blacktongue';
+      Desc = 'The corpse of Blacktongue is lying here.';
+      Level = 106;
+      Values = ( 11606, 2101377, 133111, 1, 8 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11610 {
+    Mobile 11607 {
+      Ptr = 189716768;
+      HMVP = (  ( 15001 ),  ( 10001 ),  ( 100 ),  ( 0 ) );
+      Room = 11610;
+      Affect = ( 'sanctuary', -1, 108, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of Jylranthar';
+      Desc = 'The corpse of Jylranthar is lying here.';
+      Level = 108;
+      Values = ( 11607, 35655809, 11765759, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11612 {
+    Mobile 11601 {
+      Ptr = 189716184;
+      HMVP = (  ( 12001 ),  ( 10001 ),  ( 100 ),  ( 0 ) );
+      Room = 11612;
+      Affect = ( 'sanctuary', -1, 113, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of Aesir, Child of Darkness';
+      Desc = 'The corpse of Aesir, Child of Darkness is lying here.';
+      Level = 113;
+      Values = ( 11601, 2101377, 133119, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11613 {
+    Mobile 11604 {
+      Ptr = 190287872;
+      HMVP = (  ( 10001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 11613;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Searnik the Ripper';
+      Desc = 'The corpse of Searnik the Ripper is lying here.';
+      Level = 108;
+      Values = ( 11604, 2101377, 133119, 1, 0 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11614 {
+    Obj 10 {
+      ShD = 'the corpse of Prison Guard 114A';
+      Desc = 'The corpse of Prison Guard 114A is lying here.';
+      Level = 110;
+      Values = ( 11608, 2101377, 133119, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 16 {
+      ShD = 'the guts of Prison Guard 114A';
+      Desc = 'A steaming pile of Prison Guard 114A\'s entrails is lying here.';
+      Timer = 5;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Prison Guard 114A';
+      Desc = 'The corpse of Prison Guard 114A is lying here.';
+      Level = 110;
+      Values = ( 11608, 2101377, 133087, 1, 32 );
+      Timer = 5;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 11615 {
+    Mobile 11609 {
+      Ptr = 190295472;
+      Desc = '';
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'berserk', 'regeneration');
+      HMVP = (  ( 15116, 15001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 11615;
+      Affect = ( 'protection evil', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 11601 {
+        WearLoc = 'about';
+      }
+    }
+    Obj 16 {
+      ShD = 'the guts of Prison Guard 195C';
+      Desc = 'A steaming pile of Prison Guard 195C\'s entrails is lying here.';
+      Timer = 3;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Prison Guard 195C';
+      Desc = 'The corpse of Prison Guard 195C is lying here.';
+      Level = 110;
+      Values = ( 11609, 2101377, 133087, 1, 32 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 11601 {
+      }
+    }
+    Obj 15 {
+      ShD = 'the leg of Prison Guard 195C';
+      Desc = 'The sliced-off leg of Prison Guard 195C is lying here.';
+      Timer = 2;
+    }
+    Obj 10 {
+      ShD = 'the corpse of Prison Guard 195C';
+      Desc = 'The corpse of Prison Guard 195C is lying here.';
+      Level = 110;
+      Values = ( 11609, 2101377, 132987, 1, 132 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 11601 {
+      }
+    }
+  }
+}

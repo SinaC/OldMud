@@ -1,0 +1,922 @@
+AreaState 'Moria' {
+  Room 4100 {
+    Repop = 28;
+  }
+  Room 4101 {
+    Repop = 28;
+  }
+  Room 4102 {
+    Repop = 28;
+  }
+  Room 4103 {
+    Repop = 28;
+    Mobile 4103 {
+      Ptr = 182125712;
+      Sex = 'female';
+      HMVP = (  ( 107 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 122;
+      Room = 4103;
+      Obj 4053 {
+        WearLoc = 'wielded';
+      }
+      Obj 3068 {
+        WearLoc = 'legs';
+      }
+      Obj 3066 {
+        WearLoc = 'body';
+      }
+      Obj 3069 {
+        WearLoc = 'feet';
+      }
+    }
+    Mobile 4102 {
+      Ptr = 182126296;
+      Sex = 'male';
+      HMVP = (  ( 120 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4103;
+      Obj 4103 {
+      }
+    }
+  }
+  Room 4104 {
+    Repop = 28;
+  }
+  Room 4105 {
+    Repop = 28;
+  }
+  Room 4106 {
+    Repop = 28;
+  }
+  Room 4107 {
+    Repop = 28;
+  }
+  Room 4108 {
+    Repop = 28;
+    Mobile 4105 {
+      Ptr = 182125128;
+      HMVP = (  ( 76 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4108;
+    }
+  }
+  Room 4109 {
+    Repop = 28;
+  }
+  Room 4110 {
+    Repop = 28;
+  }
+  Room 4111 {
+    Repop = 28;
+    Mobile 4102 {
+      Ptr = 182124544;
+      Sex = 'male';
+      HMVP = (  ( 124 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4111;
+      Obj 4103 {
+      }
+    }
+  }
+  Room 4112 {
+    Repop = 28;
+  }
+  Room 4113 {
+    Repop = 28;
+    Mobile 4106 {
+      Ptr = 182136240;
+      HMVP = (  ( 159 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 81;
+      Room = 4113;
+      Obj 4105 {
+        WearLoc = 'wielded';
+      }
+      Obj 4101 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 4114 {
+    Repop = 28;
+    Mobile 4100 {
+      Ptr = 182135656;
+      HMVP = (  ( 149 ),  ( 183 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 98;
+      Room = 4114;
+      Obj 4102 {
+      }
+      Obj 4155 {
+      }
+      Obj 3351 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4115 {
+    Repop = 28;
+  }
+  Room 4116 {
+    Repop = 28;
+  }
+  Room 4117 {
+    Repop = 28;
+  }
+  Room 4118 {
+    Repop = 28;
+  }
+  Room 4119 {
+    Repop = 28;
+    Mobile 4107 {
+      Ptr = 182135072;
+      Sex = 'male';
+      HMVP = (  ( 71 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 24;
+      Room = 4119;
+      Obj 3023 {
+        WearLoc = 'wielded';
+      }
+      Obj 4104 {
+      }
+    }
+  }
+  Room 4120 {
+    Repop = 28;
+  }
+  Room 4121 {
+    Repop = 28;
+  }
+  Room 4122 {
+    Repop = 28;
+    Mobile 4101 {
+      Ptr = 182134488;
+      HMVP = (  ( 183 ),  ( 133 ),  ( 100 ),  ( 0 ) );
+      Silver = 182;
+      Room = 4122;
+      Obj 4100 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4123 {
+    Repop = 28;
+  }
+  Room 4124 {
+    Repop = 28;
+    Mobile 4104 {
+      Ptr = 182133904;
+      HMVP = (  ( 92 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 75;
+      Room = 4124;
+      Obj 4057 {
+        WearLoc = 'wielded';
+      }
+      Obj 4104 {
+      }
+    }
+  }
+  Room 4125 {
+    Repop = 28;
+  }
+  Room 4150 {
+    Repop = 28;
+  }
+  Room 4151 {
+    Repop = 28;
+    Mobile 4156 {
+      Ptr = 182133320;
+      HMVP = (  ( 231 ),  ( 137 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 326;
+      Room = 4151;
+      Obj 4105 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4152 {
+    Repop = 28;
+  }
+  Room 4153 {
+    Repop = 28;
+    Mobile 4159 {
+      Ptr = 182132736;
+      HMVP = (  ( 87 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Silver = 87;
+      Room = 4153;
+    }
+  }
+  Room 4154 {
+    Repop = 28;
+  }
+  Room 4155 {
+    Repop = 28;
+    Mobile 4152 {
+      Ptr = 182139752;
+      Sex = 'female';
+      HMVP = (  ( 84 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4155;
+    }
+    Mobile 4150 {
+      Ptr = 182140336;
+      Sex = 'female';
+      HMVP = (  ( 75 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4155;
+    }
+  }
+  Room 4156 {
+    Repop = 28;
+  }
+  Room 4157 {
+    Repop = 28;
+    Mobile 4154 {
+      Ptr = 182138584;
+      Sex = 'male';
+      HMVP = (  ( 94 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4157;
+    }
+    Mobile 4151 {
+      Ptr = 182139168;
+      Sex = 'male';
+      HMVP = (  ( 83 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4157;
+    }
+  }
+  Room 4158 {
+    Repop = 28;
+    Mobile 4155 {
+      Ptr = 182138000;
+      HMVP = (  ( 138 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 33;
+      Room = 4158;
+      Obj 4152 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4159 {
+    Repop = 28;
+    Mobile 4152 {
+      Ptr = 182136832;
+      Sex = 'male';
+      HMVP = (  ( 82 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4159;
+    }
+    Mobile 4151 {
+      Ptr = 182137416;
+      Sex = 'female';
+      HMVP = (  ( 88 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4159;
+    }
+  }
+  Room 4160 {
+    Repop = 28;
+    Mobile 4160 {
+      Ptr = 182144432;
+      Sex = 'male';
+      HMVP = (  ( 105 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 77;
+      Room = 4160;
+      Obj 3045 {
+        WearLoc = 'body';
+      }
+      Obj 4055 {
+        WearLoc = 'wielded';
+      }
+      Obj 4150 {
+      }
+    }
+  }
+  Room 4161 {
+    Repop = 28;
+    Mobile 4160 {
+      Ptr = 182143848;
+      Sex = 'female';
+      HMVP = (  ( 115 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 74;
+      Room = 4161;
+      Obj 3110 {
+        WearLoc = 'body';
+      }
+      Obj 3026 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4162 {
+    Repop = 28;
+    Mobile 4158 {
+      Ptr = 182143264;
+      Sex = 'female';
+      HMVP = (  ( 114 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4162;
+    }
+  }
+  Room 4163 {
+    Repop = 28;
+  }
+  Room 4164 {
+    Repop = 28;
+    Mobile 4154 {
+      Ptr = 182142096;
+      Sex = 'female';
+      HMVP = (  ( 85 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4164;
+    }
+    Mobile 4153 {
+      Ptr = 182142680;
+      Sex = 'female';
+      HMVP = (  ( 92 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4164;
+    }
+  }
+  Room 4165 {
+    Repop = 28;
+  }
+  Room 4166 {
+    Repop = 28;
+  }
+  Room 4167 {
+    Repop = 28;
+    Mobile 4157 {
+      Ptr = 182140928;
+      HMVP = (  ( 127 ),  ( 144, 164 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 183;
+      Room = 4167;
+      Obj 4151 {
+        WearLoc = 'hold';
+      }
+      Obj 3351 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 4157 {
+      Ptr = 182141512;
+      HMVP = (  ( 127 ),  ( 175 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 118;
+      Room = 4167;
+      Obj 3351 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4168 {
+    Repop = 28;
+    Mobile 4159 {
+      Ptr = 182152624;
+      HMVP = (  ( 97 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 19;
+      Room = 4168;
+    }
+  }
+  Room 4169 {
+    Repop = 28;
+    Mobile 4158 {
+      Ptr = 182152040;
+      Sex = 'female';
+      HMVP = (  ( 113 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4169;
+    }
+  }
+  Room 4170 {
+    Repop = 28;
+    Mobile 4153 {
+      Ptr = 182150872;
+      Sex = 'male';
+      HMVP = (  ( 92 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4170;
+    }
+    Mobile 4150 {
+      Ptr = 182151456;
+      Sex = 'male';
+      HMVP = (  ( 86 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4170;
+    }
+  }
+  Room 4171 {
+    Repop = 28;
+  }
+  Room 4172 {
+    Repop = 28;
+  }
+  Room 3900 {
+    Repop = 28;
+  }
+  Room 3901 {
+    Repop = 28;
+  }
+  Room 3902 {
+    Repop = 28;
+  }
+  Room 3903 {
+    Repop = 28;
+  }
+  Room 3904 {
+    Repop = 28;
+  }
+  Room 3905 {
+    Repop = 28;
+  }
+  Room 3906 {
+    Repop = 28;
+  }
+  Room 3907 {
+    Repop = 28;
+  }
+  Room 3908 {
+    Repop = 28;
+  }
+  Room 4000 {
+    Repop = 28;
+  }
+  Room 4001 {
+    Repop = 28;
+  }
+  Room 4002 {
+    Repop = 28;
+  }
+  Room 4010 {
+    Repop = 28;
+  }
+  Room 4011 {
+    Repop = 28;
+  }
+  Room 4012 {
+    Repop = 28;
+  }
+  Room 4013 {
+    Repop = 28;
+    Mobile 4003 {
+      Ptr = 182103472;
+      Sex = 'female';
+      HMVP = (  ( 51 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 14;
+      Room = 4013;
+      Obj 3021 {
+        WearLoc = 'wielded';
+      }
+      Obj 3117 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 4014 {
+    Repop = 28;
+  }
+  Room 4015 {
+    Repop = 28;
+    Mobile 4004 {
+      Ptr = 182102304;
+      HMVP = (  ( 69 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Silver = 42;
+      Room = 4015;
+      Obj 3029 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 4001 {
+      Ptr = 182102888;
+      Sex = 'male';
+      HMVP = (  ( 91 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4015;
+    }
+  }
+  Room 4016 {
+    Repop = 28;
+  }
+  Room 4017 {
+    Repop = 28;
+    Mobile 4002 {
+      Ptr = 182101720;
+      HMVP = (  ( 36 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4017;
+    }
+  }
+  Room 4018 {
+    Repop = 28;
+  }
+  Room 4019 {
+    Repop = 28;
+  }
+  Room 4020 {
+    Repop = 28;
+    Mobile 4002 {
+      Ptr = 182101136;
+      HMVP = (  ( 37 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4020;
+    }
+  }
+  Room 4021 {
+    Repop = 28;
+    Mobile 4003 {
+      Ptr = 182100552;
+      Sex = 'male';
+      HMVP = (  ( 52 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 17;
+      Room = 4021;
+      Obj 4003 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4022 {
+    Repop = 28;
+    Mobile 4005 {
+      Ptr = 182099968;
+      Sex = 'female';
+      HMVP = (  ( 107 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 111;
+      Room = 4022;
+      Obj 4000 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+      Obj 3114 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 4023 {
+    Repop = 28;
+    Mobile 4002 {
+      Ptr = 182107568;
+      HMVP = (  ( 36 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4023;
+    }
+  }
+  Room 4024 {
+    Repop = 28;
+  }
+  Room 4025 {
+    Repop = 28;
+    Mobile 4001 {
+      Ptr = 182106984;
+      Sex = 'female';
+      HMVP = (  ( 83 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4025;
+    }
+  }
+  Room 4026 {
+    Repop = 28;
+  }
+  Room 4027 {
+    Repop = 28;
+    Mobile 4003 {
+      Ptr = 182106400;
+      Sex = 'female';
+      HMVP = (  ( 52 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 21;
+      Room = 4027;
+      Obj 3021 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4028 {
+    Repop = 28;
+    Mobile 4004 {
+      Ptr = 182105816;
+      HMVP = (  ( 73 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 4028;
+      Obj 4004 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4029 {
+    Repop = 28;
+  }
+  Room 4030 {
+    Repop = 28;
+    Mobile 4000 {
+      Ptr = 182105232;
+      Sex = 'female';
+      HMVP = (  ( 167 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4030;
+      Obj 4001 {
+        Obj 4002 {
+        }
+      }
+      Obj 4154 {
+      }
+    }
+  }
+  Room 4031 {
+    Repop = 28;
+  }
+  Room 4032 {
+    Repop = 28;
+  }
+  Room 4033 {
+    Repop = 28;
+  }
+  Room 4034 {
+    Repop = 28;
+  }
+  Room 4035 {
+    Repop = 28;
+  }
+  Room 4036 {
+    Repop = 28;
+  }
+  Room 4037 {
+    Repop = 28;
+  }
+  Room 4038 {
+    Repop = 28;
+  }
+  Room 4039 {
+    Repop = 28;
+  }
+  Room 4040 {
+    Repop = 28;
+  }
+  Room 4041 {
+    Repop = 28;
+  }
+  Room 4042 {
+    Repop = 28;
+    Mobile 4057 {
+      Ptr = 182104648;
+      Sex = 'male';
+      HMVP = (  ( 120 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4042;
+    }
+  }
+  Room 4043 {
+    Repop = 28;
+  }
+  Room 4044 {
+    Repop = 28;
+    Mobile 4058 {
+      Ptr = 182104064;
+      HMVP = (  ( 187 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 83;
+      Room = 4044;
+      Obj 4005 {
+        WearLoc = 'wielded';
+      }
+      Obj 4006 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 4050 {
+    Repop = 28;
+    Mobile 4051 {
+      Ptr = 182115760;
+      HMVP = (  ( 103 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 78;
+      Room = 4050;
+      Obj 4056 {
+        WearLoc = 'wielded';
+      }
+      Obj 3077 {
+        WearLoc = 'arms';
+      }
+    }
+  }
+  Room 4051 {
+    Repop = 28;
+  }
+  Room 4052 {
+    Repop = 28;
+    Mobile 4054 {
+      Ptr = 182115176;
+      HMVP = (  ( 65 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4052;
+    }
+  }
+  Room 4053 {
+    Repop = 28;
+    Mobile 4054 {
+      Ptr = 182114592;
+      HMVP = (  ( 70 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4053;
+    }
+  }
+  Room 4054 {
+    Repop = 28;
+  }
+  Room 4055 {
+    Repop = 28;
+    Mobile 4051 {
+      Ptr = 182114008;
+      HMVP = (  ( 102 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 7;
+      Room = 4055;
+      Obj 4057 {
+        WearLoc = 'wielded';
+      }
+      Obj 3074 {
+        WearLoc = 'legs';
+      }
+    }
+  }
+  Room 4056 {
+    Repop = 28;
+    Mobile 4052 {
+      Ptr = 182113424;
+      HMVP = (  ( 57 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 4056;
+      Obj 3023 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4057 {
+    Repop = 28;
+    Mobile 4056 {
+      Ptr = 182112840;
+      Sex = 'female';
+      HMVP = (  ( 104 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 59;
+      Room = 4057;
+      Obj 3026 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4058 {
+    Repop = 28;
+    Mobile 4053 {
+      Ptr = 182112256;
+      Sex = 'male';
+      HMVP = (  ( 122 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4058;
+    }
+  }
+  Room 4059 {
+    Repop = 28;
+    Mobile 4052 {
+      Ptr = 182119856;
+      HMVP = (  ( 63 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 18;
+      Room = 4059;
+      Obj 3028 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4060 {
+    Repop = 28;
+    Mobile 4054 {
+      Ptr = 182119272;
+      HMVP = (  ( 66 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4060;
+    }
+  }
+  Room 4061 {
+    Repop = 28;
+  }
+  Room 4062 {
+    Repop = 28;
+    Mobile 4050 {
+      Ptr = 182118688;
+      HMVP = (  ( 182 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 116;
+      Room = 4062;
+      Obj 4051 {
+        WearLoc = 'head';
+      }
+      Obj 4054 {
+        WearLoc = 'wielded';
+      }
+      Obj 3116 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 4063 {
+    Repop = 28;
+  }
+  Room 4064 {
+    Repop = 28;
+    Mobile 4055 {
+      Ptr = 182118104;
+      HMVP = (  ( 138 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 196;
+      Room = 4064;
+      Obj 4058 {
+        WearLoc = 'wielded';
+      }
+      Obj 4050 {
+      }
+    }
+  }
+  Room 4065 {
+    Repop = 28;
+    Mobile 4052 {
+      Ptr = 182117520;
+      HMVP = (  ( 59 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 4065;
+      Obj 3025 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 4066 {
+    Repop = 28;
+  }
+  Room 4067 {
+    Repop = 28;
+    Mobile 4056 {
+      Ptr = 182116936;
+      Sex = 'female';
+      HMVP = (  ( 110 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 66;
+      Room = 4067;
+      Obj 4004 {
+        WearLoc = 'wielded';
+      }
+      Obj 3097 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 4068 {
+    Repop = 28;
+    Mobile 4053 {
+      Ptr = 182116352;
+      Sex = 'male';
+      HMVP = (  ( 121 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 4068;
+    }
+    Obj 4052 {
+    }
+  }
+  Room 4069 {
+    Repop = 28;
+    Obj 4052 {
+    }
+  }
+  Room 4070 {
+    Repop = 28;
+    Mobile 4051 {
+      Ptr = 182128048;
+      HMVP = (  ( 104 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 89;
+      Room = 4070;
+      Obj 3027 {
+        WearLoc = 'wielded';
+      }
+      Obj 3072 {
+        WearLoc = 'head';
+      }
+    }
+    Obj 4052 {
+    }
+  }
+  Room 4071 {
+    Repop = 28;
+    Mobile 4055 {
+      Ptr = 182127464;
+      HMVP = (  ( 127 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 136;
+      Room = 4071;
+      Obj 4059 {
+        WearLoc = 'wielded';
+      }
+      Obj 4050 {
+      }
+    }
+    Obj 4052 {
+    }
+  }
+  Room 4072 {
+    Repop = 28;
+  }
+  Room 4073 {
+    Repop = 28;
+    Mobile 4051 {
+      Ptr = 182126880;
+      HMVP = (  ( 91 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 82;
+      Room = 4073;
+      Obj 4055 {
+        WearLoc = 'wielded';
+      }
+      Obj 3072 {
+        WearLoc = 'body';
+      }
+    }
+  }
+  Room 4074 {
+    Repop = 28;
+  }
+}

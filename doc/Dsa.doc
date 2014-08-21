@@ -1,0 +1,110 @@
+
+#AREA
+	DSA Format~
+	<Filename.are>~
+	<Name of the area>~
+	<Credits>~
+	<MinVnum> <MaxVnum>
+	Descr
+	<Area Description>
+	~
+	Bldrs <Builders>~
+	Sec <Security level>
+	Levels <MinLevel> <MaxLevel>
+	Flags <Area flags>
+	End
+
+
+#HELPS                   -> HAVE TO BE REMOVED MANUALLY
+	<Area help file>
+	-1 $~
+
+
+#MOBILES
+	#<mobile vnum>
+	<name>~
+	<short descr>~
+	<long descr>
+	~
+	<description>
+	~
+	<race>~
+	<act>  <affected_by>  <???> <alignment>  <group>
+	<level>  <hitroll>  <hit dice>  <mana dice>  <damage dice>  <damage type>
+	<pierce ac>  <bash ac>  <slash ac>  <exotic ac>
+	<offensive flags>  <immmunites>  <resistances>  <vulnerabilities>
+	<start position>  <default position>  <sex>  <wealth>
+	<form flags>  <part flags>  <size name>  <material>
+ *	F <act>  <value>
+ *	F <aff>  <value>
+ *	F <aff2> <value>
+ *	F <off>  <value>
+ *	F <imm>  <value>
+ *	F <res>  <value>
+ *	F <vuln> <value>
+ *	F <form> <value>
+ *	F <part> <value>
+	~
+ *	Damroll <value>
+ *	Saves <value>
+ *	MaxWorld <value>
+	End
+#0
+
+ * are optional
+
+#OBJECTS
+	#<vnum>
+	<name list>~
+	<short description>~
+	<description>~
+	<material name>~
+	<item type name>  <extra flags>  <wear flags>
+	<v0>  <v1>  <v2>  <v3>  <v4>  depending on item_type
+	<level>  <weight>  <cost>  <condition letter>
+ *	A <location> <value>
+ *     	E <extra description keyword>~
+	  <extra description>~
+	~
+ *	Spec <value>~  (flaming, everful_purse)
+ *	MaxWorld <value>
+	End
+#0
+
+ * are optional
+
+
+#ROOMS
+	#<vnum>
+	<name list>~
+	<description>~
+	0  <room flags>  <sector type>
+ *	E <extra description keyword>~
+	  <extra description>~
+ *	D <exit number 0..10>
+	<exit description>~
+	<exit keyword>~
+	<exit flags>  <exit key>  <to room vnum>
+ *	Flags <exit flags>
+ *	M <mana recovery rate>  H <heal recovery rate>  P <psp recovery rate>
+ *	C <clan name>~
+ *	O <owner name>~
+        End
+	S
+	Reset <see reset format>
+	End
+#0
+
+ * are optional
+
+
+#SPECIALS
+	M <mobile vnum> <special function name>
+S
+
+#SHOPS
+	<mob#> <items> <profit-buy> <p-sell> <op-hour> <close> 
+	<mobile vnum> <items type 1> ...<items type 5> <profit buy> <profit sell> <open hour> <close hour>
+0
+
+#$

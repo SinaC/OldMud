@@ -1,0 +1,1244 @@
+AreaState 'Darathorn\'s Pit' {
+  Room 15400 {
+    Repop = 28;
+  }
+  Room 15401 {
+    Repop = 28;
+    Mobile 15409 {
+      Ptr = 182655264;
+      Sex = 'male';
+      HMVP = (  ( 899 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 27;
+      Room = 15401;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182655848;
+      Sex = 'male';
+      HMVP = (  ( 896 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Silver = 198;
+      Room = 15401;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15402 {
+    Repop = 28;
+    Mobile 15410 {
+      Ptr = 182654096;
+      Sex = 'male';
+      HMVP = (  ( 584 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 121;
+      Room = 15402;
+      Obj 15423 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15410 {
+      Ptr = 182654680;
+      Sex = 'female';
+      HMVP = (  ( 579 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 75;
+      Room = 15402;
+      Obj 15423 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15403 {
+    Repop = 28;
+    Mobile 15409 {
+      Ptr = 182652928;
+      Sex = 'female';
+      HMVP = (  ( 899 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Silver = 160;
+      Room = 15403;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182653512;
+      Sex = 'male';
+      HMVP = (  ( 883 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 36;
+      Room = 15403;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15404 {
+    Repop = 28;
+    Mobile 15403 {
+      Ptr = 182660528;
+      HMVP = (  ( 2171, 2121 ),  ( 200 ),  ( 50, 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 576;
+      Room = 15404;
+      Obj 15424 {
+      }
+      Obj 15414 {
+        WearLoc = 'body';
+      }
+      Obj 15415 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15405 {
+    Repop = 28;
+    Mobile 15411 {
+      Ptr = 182659944;
+      HMVP = (  ( 1205, 1155 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 83;
+      Room = 15405;
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15406 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15406 {
+    Repop = 28;
+    Mobile 15409 {
+      Ptr = 182657608;
+      Sex = 'male';
+      HMVP = (  ( 884 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 70;
+      Room = 15406;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182658192;
+      Sex = 'male';
+      HMVP = (  ( 899 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 152;
+      Room = 15406;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182658776;
+      Sex = 'female';
+      HMVP = (  ( 883 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Silver = 106;
+      Room = 15406;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182659360;
+      Sex = 'male';
+      HMVP = (  ( 904 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 56;
+      Room = 15406;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15407 {
+    Repop = 28;
+  }
+  Room 15408 {
+    Repop = 28;
+    Mobile 15410 {
+      Ptr = 182668720;
+      Sex = 'female';
+      HMVP = (  ( 574 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 346;
+      Room = 15408;
+      Obj 15423 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15410 {
+      Ptr = 182657024;
+      Sex = 'male';
+      HMVP = (  ( 587 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 226;
+      Room = 15408;
+      Obj 15423 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15409 {
+    Repop = 28;
+  }
+  Room 15410 {
+    Repop = 28;
+    Mobile 15409 {
+      Ptr = 182667552;
+      Sex = 'female';
+      HMVP = (  ( 874 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 140;
+      Room = 15410;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182668136;
+      Sex = 'female';
+      HMVP = (  ( 893 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 36;
+      Room = 15410;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15411 {
+    Repop = 28;
+  }
+  Room 15412 {
+    Repop = 28;
+    Mobile 15411 {
+      Ptr = 182666384;
+      HMVP = (  ( 1201, 1151 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 63;
+      Room = 15412;
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15406 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15411 {
+      Ptr = 182666968;
+      HMVP = (  ( 1196, 1146 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 263;
+      Room = 15412;
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15406 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15413 {
+    Repop = 28;
+    Mobile 15410 {
+      Ptr = 182665216;
+      Sex = 'female';
+      HMVP = (  ( 573 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 181;
+      Room = 15413;
+      Obj 15423 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15410 {
+      Ptr = 182665800;
+      Sex = 'female';
+      HMVP = (  ( 577 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 25;
+      Room = 15413;
+      Obj 15423 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15414 {
+    Repop = 28;
+    Mobile 15411 {
+      Ptr = 182671648;
+      HMVP = (  ( 1203, 1153 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 405;
+      Room = 15414;
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15406 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182672232;
+      Sex = 'male';
+      HMVP = (  ( 906 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Silver = 141;
+      Room = 15414;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15409 {
+      Ptr = 182672816;
+      Sex = 'female';
+      HMVP = (  ( 895 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 91;
+      Room = 15414;
+      Obj 15419 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15415 {
+    Repop = 28;
+    Mobile 15415 {
+      Ptr = 182671064;
+      HMVP = (  ( 344 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 15415;
+    }
+  }
+  Room 15416 {
+    Repop = 28;
+  }
+  Room 15417 {
+    Repop = 28;
+    Mobile 15413 {
+      Ptr = 182669896;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1563 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15417;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 15413 {
+      Ptr = 182670480;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1548 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15417;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 15418 {
+    Repop = 28;
+  }
+  Room 15419 {
+    Repop = 28;
+    Mobile 15413 {
+      Ptr = 182676912;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1548 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15419;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 15413 {
+      Ptr = 182669312;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1564 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15419;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 15420 {
+    Repop = 28;
+  }
+  Room 15421 {
+    Repop = 28;
+  }
+  Room 15422 {
+    Repop = 28;
+    Mobile 15413 {
+      Ptr = 182675744;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1539 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15422;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 15413 {
+      Ptr = 182676328;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1567 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15422;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 15423 {
+    Repop = 28;
+    Mobile 15413 {
+      Ptr = 182674576;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1552 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15423;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 15413 {
+      Ptr = 182675160;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1567 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 15423;
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 15424 {
+    Repop = 28;
+    Mobile 15412 {
+      Ptr = 182673992;
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1706, 1656 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 924;
+      Room = 15424;
+      Affect = ( 'haste', -1, 38, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15407 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15425 {
+    Repop = 28;
+  }
+  Room 15426 {
+    Repop = 28;
+    Mobile 15412 {
+      Ptr = 182673408;
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1703, 1653 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 590;
+      Room = 15426;
+      Affect = ( 'haste', -1, 38, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15407 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15427 {
+    Repop = 28;
+  }
+  Room 15428 {
+    Repop = 28;
+    Mobile 15414 {
+      Ptr = 182685104;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'sneak', 'flying', 'pass_door');
+      HMVP = (  ( 2421, 2371 ),  ( 450, 500 ),  ( 100 ),  ( 0 ) );
+      Room = 15428;
+      Affect = ( 'haste', -1, 42, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15404 {
+        WearLoc = 'wielded';
+      }
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 15429 {
+    Repop = 28;
+    Mobile 15414 {
+      Ptr = 182684520;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'sneak', 'flying', 'pass_door');
+      HMVP = (  ( 2477, 2427 ),  ( 450, 500 ),  ( 100 ),  ( 0 ) );
+      Room = 15429;
+      Affect = ( 'haste', -1, 42, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15425 {
+      }
+      Obj 15404 {
+        WearLoc = 'wielded';
+      }
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 15430 {
+    Repop = 28;
+  }
+  Room 15431 {
+    Repop = 28;
+    Mobile 15402 {
+      Ptr = 182683936;
+      AfBy = ('invisible', 'detect_invis', 'detect_hidden', 'sanctuary', 'infrared', 'flying');
+      HMVP = (  ( 3193, 3118 ),  ( 401 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 966;
+      Room = 15431;
+      Affect = ( 'protection evil', -1, 45, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 45, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 15412 {
+        WearLoc = 'neck1';
+      }
+      Obj 15413 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15432 {
+    Repop = 28;
+  }
+  Room 15433 {
+    Repop = 28;
+  }
+  Room 15434 {
+    Repop = 28;
+  }
+  Room 15435 {
+    Repop = 28;
+  }
+  Room 15436 {
+    Repop = 28;
+  }
+  Room 15437 {
+    Repop = 28;
+  }
+  Room 15438 {
+    Repop = 28;
+    Mobile 15408 {
+      Ptr = 182683352;
+      AfBy = ('detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'dark_vision', 'slow');
+      HMVP = (  ( 3614 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 15438;
+      Affect = ( 'protection evil', -1, 47, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 47, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 15439 {
+    Repop = 28;
+    Mobile 15407 {
+      Ptr = 182682768;
+      AfBy = ('detect_invis', 'detect_magic', 'detect_hidden', 'sanctuary', 'flying', 'dark_vision', 'slow');
+      HMVP = (  ( 3606, 3506 ),  ( 1350, 1300 ),  ( 100 ),  ( 0 ) );
+      Gold = 26;
+      Silver = 2294;
+      Room = 15439;
+      Affect = ( 'protection evil', -1, 50, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 50, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 15401 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 15408 {
+        WearLoc = 'about';
+      }
+      Obj 15409 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15440 {
+    Repop = 28;
+  }
+  Room 15441 {
+    Repop = 28;
+    Mobile 15412 {
+      Ptr = 182682184;
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1702, 1652 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 906;
+      Room = 15441;
+      Affect = ( 'haste', -1, 38, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15407 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15442 {
+    Repop = 28;
+  }
+  Room 15443 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182681600;
+      Sex = 'female';
+      HMVP = (  ( 345 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 192;
+      Room = 15443;
+    }
+  }
+  Room 15444 {
+    Repop = 28;
+    Mobile 15412 {
+      Ptr = 182689200;
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1708, 1658 ),  ( 250, 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 584;
+      Room = 15444;
+      Affect = ( 'haste', -1, 38, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+      Obj 15407 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15445 {
+    Repop = 28;
+  }
+  Room 15446 {
+    Repop = 28;
+    Mobile 15401 {
+      Ptr = 182688032;
+      Sex = 'male';
+      HMVP = (  ( 1650 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 53;
+      Silver = 1358;
+      Room = 15446;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15401 {
+      Ptr = 182688616;
+      Sex = 'female';
+      HMVP = (  ( 1655 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 37;
+      Silver = 905;
+      Room = 15446;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15447 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182687448;
+      Sex = 'female';
+      HMVP = (  ( 340 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 128;
+      Room = 15447;
+    }
+  }
+  Room 15448 {
+    Repop = 28;
+    Mobile 15401 {
+      Ptr = 182686280;
+      Sex = 'female';
+      HMVP = (  ( 1648 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 19;
+      Silver = 1991;
+      Room = 15448;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15401 {
+      Ptr = 182686864;
+      Sex = 'male';
+      HMVP = (  ( 1646 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 37;
+      Silver = 2829;
+      Room = 15448;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15449 {
+    Repop = 28;
+    Mobile 15414 {
+      Ptr = 182685696;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'sneak', 'flying', 'pass_door');
+      HMVP = (  ( 2435, 2385 ),  ( 450, 500 ),  ( 100 ),  ( 0 ) );
+      Room = 15449;
+      Affect = ( 'haste', -1, 42, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15404 {
+        WearLoc = 'wielded';
+      }
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 15450 {
+    Repop = 28;
+  }
+  Room 15451 {
+    Repop = 28;
+    Mobile 15404 {
+      Ptr = 182697392;
+      AfBy = ('detect_invis', 'detect_magic', 'sanctuary', 'flying', 'slow');
+      HMVP = (  ( 3128 ),  ( 1251, 1201 ),  ( 100 ),  ( 0 ) );
+      Gold = 22;
+      Silver = 477;
+      Room = 15451;
+      Affect = ( 'protection evil', -1, 45, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 45, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 15416 {
+        WearLoc = 'head';
+      }
+      Obj 15417 {
+        WearLoc = 'wielded';
+      }
+      Obj 15426 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 15452 {
+    Repop = 28;
+    Mobile 15414 {
+      Ptr = 182696808;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'sneak', 'flying', 'pass_door');
+      HMVP = (  ( 2431, 2381 ),  ( 450, 500 ),  ( 100 ),  ( 0 ) );
+      Room = 15452;
+      Affect = ( 'haste', -1, 42, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15404 {
+        WearLoc = 'wielded';
+      }
+      Obj 15405 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 15453 {
+    Repop = 28;
+    Mobile 15401 {
+      Ptr = 182695640;
+      Sex = 'male';
+      HMVP = (  ( 1655 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 28;
+      Silver = 1033;
+      Room = 15453;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15401 {
+      Ptr = 182696224;
+      Sex = 'female';
+      HMVP = (  ( 1651 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 29;
+      Silver = 2889;
+      Room = 15453;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15454 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182695056;
+      Sex = 'male';
+      HMVP = (  ( 350 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 149;
+      Room = 15454;
+    }
+  }
+  Room 15455 {
+    Repop = 28;
+    Mobile 15401 {
+      Ptr = 182693888;
+      Sex = 'male';
+      HMVP = (  ( 1673 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 41;
+      Silver = 281;
+      Room = 15455;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15401 {
+      Ptr = 182694472;
+      Sex = 'male';
+      HMVP = (  ( 1653 ),  ( 301 ),  ( 100 ),  ( 0 ) );
+      Gold = 61;
+      Silver = 397;
+      Room = 15455;
+      Obj 15410 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15411 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15456 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182709680;
+      Sex = 'male';
+      HMVP = (  ( 353 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 80;
+      Room = 15456;
+    }
+  }
+  Room 15457 {
+    Repop = 28;
+    Mobile 15417 {
+      Ptr = 182709096;
+      AfBy = ('infrared');
+      HMVP = (  ( 2632 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 611;
+      Room = 15457;
+      Affect = ( 'haste', -1, 43, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 15458 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182708512;
+      Sex = 'male';
+      HMVP = (  ( 348 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 79;
+      Room = 15458;
+    }
+  }
+  Room 15459 {
+    Repop = 28;
+    Mobile 15405 {
+      Ptr = 182707344;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1962 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 7;
+      Room = 15459;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 15405 {
+      Ptr = 182707928;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1931 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 369;
+      Room = 15459;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 15460 {
+    Repop = 28;
+    Mobile 15405 {
+      Ptr = 182706176;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1929 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 386;
+      Room = 15460;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 15405 {
+      Ptr = 182706760;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1944 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 197;
+      Room = 15460;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 15461 {
+    Repop = 28;
+    Mobile 15405 {
+      Ptr = 182713192;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1902 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 194;
+      Room = 15461;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 15405 {
+      Ptr = 182713776;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1933 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 93;
+      Room = 15461;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 15462 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182712608;
+      Sex = 'female';
+      HMVP = (  ( 344 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 117;
+      Room = 15462;
+    }
+  }
+  Room 15463 {
+    Repop = 28;
+  }
+  Room 15464 {
+    Repop = 28;
+  }
+  Room 15465 {
+    Repop = 28;
+  }
+  Room 15466 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182712024;
+      Sex = 'female';
+      HMVP = (  ( 344 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 78;
+      Room = 15466;
+    }
+  }
+  Room 15467 {
+    Repop = 28;
+  }
+  Room 15468 {
+    Repop = 28;
+  }
+  Room 15469 {
+    Repop = 28;
+    Mobile 15405 {
+      Ptr = 182710272;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1924 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 121;
+      Room = 15469;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 15405 {
+      Ptr = 182710856;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1905 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 414;
+      Room = 15469;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+    Mobile 15405 {
+      Ptr = 182711440;
+      Sex = 'male';
+      AfBy = ('invisible', 'detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'flying');
+      HMVP = (  ( 1913 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 185;
+      Room = 15469;
+      Affect = ( 'haste', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 15421 {
+        WearLoc = 'wielded';
+      }
+      Obj 15420 {
+        WearLoc = 'head';
+      }
+      Obj 15422 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 15470 {
+    Repop = 28;
+    Mobile 15416 {
+      Ptr = 182721384;
+      Sex = 'male';
+      HMVP = (  ( 346 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 32;
+      Room = 15470;
+    }
+    Mobile 15400 {
+      Ptr = 182721968;
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'sanctuary', 'infrared', 'flying', 'dark_vision', 'slow');
+      HMVP = (  ( 10000 ),  ( 500 ),  ( 150, 100 ),  ( 0 ) );
+      Gold = 75;
+      Silver = 6157;
+      Room = 15470;
+      Affect = ( 'protection good', -1, 50, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 50, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 15400 {
+        WearLoc = 'wielded';
+      }
+      Obj 15402 {
+        WearLoc = 'hold';
+      }
+      Obj 15403 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 15471 {
+    Repop = 28;
+  }
+  Room 15472 {
+    Repop = 28;
+  }
+  Room 15473 {
+    Repop = 28;
+  }
+  Room 15474 {
+    Repop = 28;
+  }
+  Room 15475 {
+    Repop = 28;
+  }
+  Room 15476 {
+    Repop = 28;
+    Mobile 15418 {
+      Ptr = 182720800;
+      Sex = 'female';
+      AfBy = ('invisible', 'detect_invis', 'detect_magic', 'detect_hidden', 'infrared', 'slow');
+      HMVP = (  ( 7270 ),  ( 700 ),  ( 100 ),  ( 0 ) );
+      Room = 15476;
+      Affect = ( 'protection evil', -1, 55, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 55, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 15477 {
+    Repop = 28;
+    Mobile 15406 {
+      Ptr = 182720216;
+      AfBy = ('detect_invis', 'detect_magic', 'sanctuary', 'flying');
+      HMVP = (  ( 3682 ),  ( 1201 ),  ( 100 ),  ( 0 ) );
+      Gold = 14;
+      Silver = 369;
+      Room = 15477;
+      Affect = ( 'protection evil', -1, 45, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 45, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 15418 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 15478 {
+    Repop = 28;
+  }
+}

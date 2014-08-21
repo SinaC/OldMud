@@ -1,0 +1,818 @@
+// ****** Instead of copy/paste isDwarf everywhere, it's easier to extends GeneralGiant class
+abstract class GeneralGiantMob extends Mob {
+  isDwarf( act ) {
+    result = 0;
+    var race = act.getAttr("race");
+    if ( "dwarf" in race.tokenize("-") || race == "duergar" )
+      result = 1;
+  }
+}
+abstract class GeneralGiantObj extends Obj {
+  isDwarf( act ) {
+    result = 0;
+    var race = act.getAttr("race");
+    if ( "dwarf" in race.tokenize("-") || race == "duergar" )
+      result = 1;
+  }
+}
+abstract class GeneralGiantRoom extends Room {
+  isDwarf( act ) {
+    result = 0;
+    var race = act.getAttr("race");
+    if ( "dwarf" in race.tokenize("-") || race == "duergar" )
+      result = 1;
+  }
+}
+
+// ********* Mob
+
+class mob29800 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      this.echo("The walls vibrate as the giant snores loudly.");
+      var target = any[[ x <- this.room().people(), !x.isNPC() ]];
+      if ( target != NULL )
+        force target `say By the gods! What a din!
+    }
+  }
+}
+
+class mob29801 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      this.echo("The giant's eyes flick open, and he stares around in surprise.");
+      `say Huh?
+      this.echo("Evidently not seeing anything, he nods off again.");
+    }
+  }
+  onFight( act ) {
+    if ( chance(10) ) {
+      this.echo("The sentry leaps for the alarm, grabbing the iron bar...");
+      if ( chance(25) ) {
+        act.sendTo("Shoving you aside, he manages to strike the iron hoop loudly!");
+        this.echo("A guard comes rushing in to see what's going on.");
+        this.mLoad(29802);
+      }
+    }
+  }
+}
+
+class mob29803 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      `snore
+  }
+}
+
+class mob29804 extends mob29803 { // same as mob29803
+}
+
+class mob29806 extends Mob {
+  onGreetLeader( act, from ) {
+    `snarl
+    if ( !act.isImmortal() && !act.isNPC() ) {
+      `say Stupid stranger disturb me! Now stupid stranger die!
+      this.actRoom("Revealing two rows of rotting teeth, $n grins and attacks!");
+      `murder `act`
+      `use stun
+    }
+  }
+  testRace( act ) {
+    var race = act.getAttr("race");
+    result = 0;
+    if ( race == "half-ogre" || race == "troll" ) // FIXME: every great race, maybe a simple size test
+      result = 1;
+  }
+  isInInitialRoom() {
+    result = ( this.room().vnum() == 29815 );
+  }
+  onFight( act ) {
+    if ( chance(10) && isInInitialRoom() && !testRace(act) )  {
+      act.actAll("With a mighty effort, $n grab$v $n and hurl$v $n outside!",
+                 [[this,this,act,this,act]]);
+      `open east
+      act.transfer(29814);  // force act `east   would not work because 'act' is in fight with 'this'
+      act.sendTo("You land outside with a thud!");
+      act.actRoom("$n comes hurtling in from the west!");
+      act.damage(50, "bash", "has been killed by a giant.");
+      `close east
+      `cackle
+    }
+    if ( this.hit() <= 15*this.getAttr("hp")/100 && isInInitialRoom() ) {
+      this.actRoom("Aware that the end is near, $n makes a break for it!");
+      `open east
+      `flee
+      `close west
+      `whew
+    }
+    //if ( chance(66) )      doesn't need that, done in onPulseMobile which is call almost as often
+    //  `close east
+  }
+  onPulseMobile() {
+    if ( isInInitialRoom() )
+      `close east
+  }
+}
+
+class mob29808 extends Mob {
+  onFight( act ) {
+    if ( chance(66) )
+      `use disarm
+    if ( chance(20) ) {
+      this.actRoom("$n roars in anger, and launches into a brutal assault!");
+      `use stun
+    }
+    if ( chance(10) ) {
+      this.actRoom("Leaping back with unbelievable agility, $n raises $s ballista and fires!");
+      if ( chance(50) )
+        act.sendTo("You manage to leap out of the way of the deadly projectile!");
+      else
+        act.aggrDamage( this, 200, "pierce" , "The bolt slams into $' chest, and passes through!");
+    }
+    if ( act.hit() <= act.getAttr("hp")/20 ) {
+      `say Alas! The end is near!
+      `moan
+    }
+  }
+  onKilled( act ) {
+    `yell I am slain! Such is the fate for those who deal with the dark ones!
+    `roll
+  }
+}
+
+class mob29813 extends Mob {
+  isGiant( act ) {
+    var race = act.getAttr("race");
+    result = "giant" in race.tokenize("-") || race == "troll";
+  }
+  onGreetLeader( act, from ) {
+    act.sendTo("The giant smile turns into a frown as he spies you.");
+    if ( !isGiant(act) )
+      `say Hey... wait a second... you aren't a giant...
+    `hiccup
+    `snarl
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `say 99 bottles of beer on the wall... 99 bottles of beer...
+      `burp
+    }
+    else if ( chance(2) ) {
+      `puke
+      `giggle
+    }
+  }
+}
+
+class mob29814 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `burp
+    else if ( chance(2) )
+      `hiccup
+    else if ( chance(2) )
+      `giggle
+    else if ( chance(2) )
+      `puke
+  }
+  onGreet( act, from ) {
+    `puke `act`
+    `moan
+  }
+}
+
+class mob29815 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL ) {
+      this.echo("With a roar, the cook hurls a frying pan at an orc!");
+      this.echo("The orc screams as the heavy pan crushes its skull!");
+      `cackle
+    }
+  }
+  onGreet( act, from ) {
+    if ( chance(75) )
+      act.sendTo("The cook is too busy to pay attention to you.");
+    else {
+      `tell `act` Well, don't just stand there, grab a plate and take it out!
+      `slap `act`
+    }
+  }
+  onFight( act ) {
+    if ( chance(15) ) {
+      act.sendTo("The angry giantess beats you around the head with an iron pan!");
+      `scream
+      force act `say Bloody hell!
+      force act `wince
+    }
+    if ( this.hit() <= 2*this.getAttr("hp")/5 ) {
+      act.sendTo("Your blows are starting to tell on the cook...");
+      if ( chance(25) ) {
+        act.sendTo("She's really angry now!");
+        `scream
+        `use stun
+        `use bash
+      }
+    }
+  }
+}
+
+class mob29818 extends Mob {
+  onGreet( act, from ) {
+    act.sendTo("The giant leaps up to accost you, eager to impress his admirers.");
+  }
+  onFight( act ) {
+    if ( this.hit() <= this.getAttr("hp")/2 ) {
+      act.sendTo("The giant's resolve begins to falter.");
+      `yell Help me! Help me!
+      `moan
+    }
+  }
+}
+
+class mob29820 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `roar
+      var msg = "An earth-shattering roar shakes the very walls around you!";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+  onGreet( act, from ) {
+    act.sendTo("{yThe manticore bounds towards you, roaring fearfully!{x");
+  }
+  onFight( act ) {
+    if ( chance(10) )
+      act.aggrDamage(this,100,"pierce" ,"{yThe manticore raises its tail and releases a volley of tail spikes on $n!{x");
+  }
+}
+
+class mob29821 extends Mob {
+  onGreetLeader( act, from ) {
+    `snarl
+    this.echo("The horrid, hunchbacked giant hisses between his broken, rotting teeth.");
+    `say Death, death to the non-giants!
+    this.echo("His common is thick and heavily accented, but understandable.");
+    `say Kill them, my pets, kill them all!
+    `cackle
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      `wield keeper
+      `close west
+    }
+    if ( chance(10) ) {
+      `snarl
+      `use gouge
+      `use disarm
+    }
+  }
+  onPulseMobile() {
+    if ( chance(33) ) {
+      `wield keeper
+      `close west
+    }
+  }
+//  onFleeing( act ) {
+//    `snarl
+//    `say Cowardly Swine!
+//    act.aggrDamage(this,66,"slash" ,"The keeper hurls his axe after $n! It clips $m and returns to his hand!");
+//    //mpat 0.$n mer 0.$n An axe glances off $n's armor, then flies back!
+//  }
+   onFlee( act, to ) { // act manages to flee and is in another room
+     `snarl
+     `say Cowardly Swine!
+     this.actRoom("The keeper hurls his axe after $n! It clips $m and returns to his hand!",act);
+     act.aggrDamage(this,66,"slash" ,"An axe glances off $' armor, then flies back!");
+   }
+}
+
+class mob29824 extends Mob {
+  onPulseMobile() {
+    if ( chance(33) )
+      this.addHit(500);
+    if ( chance(2) )
+      `whistle
+  }
+  onGreet( act, from ) {
+    `eye `act`
+  }
+  onFight( act ) {
+    if ( chance(10) )
+      `use stun `act`
+  }
+}
+
+class mob29825 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `mutter
+    else if ( chance(2) )
+      `scowl
+    else if ( chance(2) ) {
+      `burp
+      `giggle
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) )
+      `wield morning
+  }
+}
+
+class mob29826 extends Mob {
+  onFight( act ) {
+    if ( chance(33) )
+      `wield morning
+  }
+}
+
+class mob29827 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      `grunt `act`
+    else {
+      `eye
+      `yell INTRUDERS IN THE LOWER LEVELS! INFORM THE CHIEF!
+      act.sendTo("Grinning evilly, the bugbear turns to deal with you.");
+    }
+  }
+}
+
+class mob29828 extends Mob {
+  onGreetLeader( act, from ) {
+    `grunt
+    if ( !act.isNPC() ) {
+      `say You should be here not, uh.
+      `scowl
+    }
+  }
+}
+
+class mob29829 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( chance(50) ) {
+      if ( "orc" in act.getAttr("race").tokenize("-") ) {
+        `yell The orcs have broken through! Send reinforcements!
+        `scowl
+      }
+      else
+        `say We're under attack!
+      this.actRoom("$n leaps up and prepares to defend himself.");
+    }
+  }
+  onFight( act ) {
+    if ( chance(25) ) {
+      act.sendTo("{rThe bugbear hefts a flask of oil and hurls it at you!{x");
+      `rem hand
+      `hold flask
+      `zap `act`
+      `zap `act`
+      `wield hand
+      `grin
+    }
+  }
+}
+
+class mob29831 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      act.sendTo("The armorer leaps up as you enter.");
+      `say Halt! Who goes there! 
+      `peer `act`
+      `say You can't come in here!
+    }
+  }
+}
+
+class mob29832 extends RepairShop {
+  onGreetLeader( act, from ) {
+    act.sendTo("The smith looks up as you enter.");
+    `say Got stuff needing repairs? Give it here.
+    `sigh
+  }
+  onKilled( act ) {
+    this.addSilver(-this.silver()); // remove silver coins
+    this.addGold(-this.gold());     // remove gold coins
+  }
+  onPulseMobile() {
+    if ( chance(2) )
+      this.echo("The giant pauses to wipe the sweat from his brow.");
+  }
+  onFight( act ) {
+    if ( chance(10) ) {
+      var done = act.aggrDamage(this,400,"fire" ,"{rThe giant grabs $n and hurls $m into the forge!{x");
+      if ( done == 1 ) // 1 means non-lethal damage
+        force act `scream
+    }
+  }
+}
+
+class mob29833 extends Mob {
+  onDisarmed( act, obj ) {
+    `wield whip
+    `sneer `act`
+    `use stun
+  }
+  onPulseMobile() {
+    if ( chance(2) && this.fighting() == NULL )
+      `snore
+    else if ( chance(5) )
+      this.addHit(66);
+  }
+  onFight( act ) {
+    if ( chance(10) ) {
+      act.sendTo("The giant snakes his whip around your weapon hand!");
+      `use disarm `act`
+      `use disarm `act`
+    }
+    else if ( chance(20) ) {
+      act.sendTo("The giant hurls a white-hot branding iron at you!");
+      if ( act.getAttr("dexterity") > 16 )
+        act.sendTo("You nimbly dodge to the side.");
+      else
+        act.aggrDamage( this, 100, "fire" ,"{rthe white-hot branding iron hits $n.{x");
+    }
+  }
+}
+
+class mob29836 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() && act.master() == NULL ) {
+      `say Giant-folk and friends! Kill!
+      `kill `act`
+    }
+    else {
+      `smile `act`
+      `say Killing lots of giants? Good! We help too!
+      `nod
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      var target = any[[ x <- this.room().people(), !x.isNPC() ]];
+      if ( target != NULL ) {
+        `tell `target` Steer clear of the southwest branch of the southeast passage!
+        `nod `target`
+      }
+    }
+  }
+}
+
+class mob29839 extends Mob {
+  onKilled( act ) {
+    if ( chance(66) ) {
+      act.sendTo("{gAs the lizard dies, it vomits forth a gout of blood and acid.");
+      act.sendTo("{gThe fluids have destroyed all of what it has ingested, save");
+      act.sendTo("{gfor a brass shield, which has miraculously survived damage.{x");
+      this.room().oLoad(29869); // FIXME: should be level 36
+    }
+  }
+  onFight( act ) {
+    if ( chance(10) ) {
+      act.actAll("The lizard snaps $n up in its jaws and swallows!");
+      act.sendTo("{gYou begin to slide down into its acid-filled stomach...{x");
+      act.sendTo("The lizard vomits you back up, finding your armor indigestible!");
+      act.actRoom("{g$n is spit back out a second later, covered in green goo!{x");
+      force act `cough
+    }
+  }
+}
+
+//****** OBJ
+
+class obj29814 extends Obj {
+  onWorn( act ) {
+    if ( act.alignment() >= -350 ) {
+      act.actAll("{W$n $b enveloped in a white aura as $e grasp$v the shield.{x");
+      this.cast( act, "shield", 50, 1 );
+    }
+  }
+  onRemoved( act ) {
+    // FIXME: removing this shield should remove shield spell
+    if ( act.alignment() >= -350 ) {
+      act.sendTo("{BThe aura dissipates as the shield is removed.{x");
+      act.actRoom("The aura surrounding $n dissipates.");
+    }
+  }
+  onDamage( amount ) {
+    var carrier = this.carriedBy();
+    if ( carrier != NULL )
+      carrier.actAll("{rAn angry red glow suffuses $n!{x");
+  }
+// FIXME
+//> repair_prog 100~
+//mpe _whi The reddish hue vanishes as the shield is mended.
+//~
+  onLooking( act ) {
+    act.sendTo("{WYour mind is flooded with images of Law and Light.");
+    if ( act.alignment() <= -350 ) {
+      act.sendTo("{rIt is too much to bear!{x");
+      force act `scream
+    }
+  }
+}
+
+class obj29815 extends Obj {
+  onDamage( amount ) {
+    if ( this.getCondition() <= 5 ) {
+      this.echo("As the skull is shattered, a gem falls out!");
+      var carrier = this.carriedBy();
+      if ( carrier == NULL )
+        this.room().oLoad(29816);
+      else
+        carrier.room().oLoad(29816);
+      this.destroy();
+    }
+  }
+}
+
+class obj29819 extends GeneralGiantObj {
+  onGot( act ) {
+    if ( isDwarf( act ) )
+      this.say("Here's a kiss for you, runt!");
+  }
+  onWearing( act ) {
+    result = 0;
+    if ( !isDwarf( act ) ) {
+      act.sendTo("You cannot use this weapon!");
+      result = 1;
+    }
+  }
+}
+
+class obj29822 extends Obj {
+  testRace( act ) {
+    result = 0;
+    var race = act.getAttr("race");
+    if ( race == "ogre" || race == "half-ogre" || race == "uruk-hai" || race == "half-orc" )
+      result = 1;
+  }
+  onLooking( act ) {
+    act.sendTo("They appear to be written in giantish, and include a detailed map, far");
+    act.sendTo("too detailed to have been scribed by giants. It is signed- Eclavdra.");
+    if ( testRace( act ) ) {
+      act.sendTo("Your eyes widen as you read the text, not dissimilar to your own");
+      act.sendTo("language. The instructions tell the giants which villages to raid,");
+      act.sendTo("and when, and what forces they can expect in support from other");
+      act.sendTo("giantish races! The force behind these giants is of a degree of");
+      act.sendTo("intelligence previously unguessed at. Who, or what, is inciting");
+      act.sendTo("these beings to their current course of action, and to what end?");
+    }
+    else
+      act.sendTo("Only an ogre would have a chance of accurately reading this script.");
+    result = 1;
+  }
+}
+
+class obj29828 extends Obj {
+  onGot( act ) {
+    // FIXME
+    act.sendTo("{yThe sword glows brightly as you grasp it.{x");
+    //cast 'continual light'
+  }
+  onDropped( act ) {
+    act.sendTo("The sword's glow dims to nothing.");
+  }
+  onWorn( act ) {
+    if ( act.alignment() >= -350 ) {
+      act.sendTo("A voice speaks inside your head as you grasp the weapon-");
+      act.actTo("{WTake me, $n, and wield me against the foul hill giants!", act );
+      this.cast( act, "bless", 50, 1 );
+    }
+  }
+}
+
+class obj29830 extends Obj {
+  testRace( act ) {
+     result = 0;
+     var race = act.getAttr("race");
+     if ( "elf" in race.tokenize("-") || race == "avariel" || race == "drow" || race == "pixie" )
+       result = 1;
+  }
+  onWearing( act ) {
+    if ( testRace( act ) ) {
+      act.sendTo("{bThe stone slips nicely into place.{x");
+      result = 0;
+    }
+    else {
+      act.sendTo("{rThe stone grows with an angry red light!{x");
+      force act `drop `this`
+      result = 1;
+    }
+  }
+}
+
+class obj29845 extends Obj {
+  onPull( act ) {
+    act.actAll("$n begin$v to fade from view...");
+    act.transfer(32200);
+  }
+}
+
+class obj29850 extends Obj {
+  fireDamage( act ) {
+    result = 0;
+    var align = act.alignment();
+    if ( align <= -350 || align >= 350 ) {
+      act.actAll("{rThe flames of the blade sear $' hands!{x");
+      result = act.damage( 50, "fire", "has been killed by a flaming blade." );
+    }
+  }
+  onGot( act ) {
+    var done = fireDamage(act);
+    if ( done == 1 ) // 1 means non-lethal damage
+      force act `drop `this`
+  }
+  onWorn( act ) {
+    var done = fireDamage(act);
+    if ( done == 1 ) { // 1 means non-lethal damage
+      force act `rem `this`
+      force act `drop `this`
+    }
+  }
+}
+
+class obj29851 extends Obj {
+  onDamage( amount ) {
+    if ( this.getCondition() <= 50 ) {
+      var carrier = this.carriedBy();
+      if ( carrier != NULL )
+        carrier.sendTo("{rAs the rune explodes, a fiendish cackle is heard...{x");
+      this.setCondition(100);
+    }
+  }
+}
+
+class obj29852 extends Obj {
+  // Pure elf: every elf race except half-elf
+  isPureElf( act ) {
+     result = 0;
+     var race = act.getAttr("race");
+     if ( ( "elf" in race.tokenize("-") || race == "avariel" || race == "drow" )
+          && race != "half-elf" )
+       result = 1;
+  }
+  onWearing( act ) {
+    result = 0;
+    if ( !isPureElf(act) ) {
+      act.sendTo("Only a pureblood elf may wear this sacred relic!");
+      result = 1;
+    }
+  }
+  onGetting( act ) {
+    result = 0;
+    if ( !isPureElf(act) ) {
+      act.sendTo("{yOnly a pureblood elf may touch this sacred relic!{x");
+      result = 1;
+    }
+  }
+}
+
+class obj29866 extends Obj {
+  onLooking( act ) {
+    if ( act.alignment() <= -350 )
+      act.sendTo("{yDark as your own heart is, you still find the device foul.{x");
+    else {
+      act.sendTo("{rGazing into the evil device, your strained heart is stopped!{x");
+      act.suddenDeath("'s heart has stopped.");
+    }
+    result = 1;
+  }
+}
+
+//******* ROOM
+
+class room29812 extends Room {
+  onPulseTick() {
+    var target = any[[ x <- this.people(), !x.isNPC() ]];
+    if ( target != NULL ) {
+      target.actAll("$n cough$v and splutter$v as $e inhale$v the smoke!");
+      target.damage( 10, "other", "has inhaled too many smoke!" );
+    }
+  }
+}
+
+class room29846 extends Room {
+  onPulseTick() { // FIXME: what's the point of this ???
+    if ( chance(15) ) {
+      var target = any[[ x <- this.people(), !x.isNPC() ]];
+      if ( target != NULL ) {
+        if ( chance(50) )
+          force target `sneeze
+        else
+          force target `cough
+      }
+    }
+  }
+}
+
+class room29850 extends Room {
+  onPulseTick() {
+    if ( chance(50) ) {
+      var target = this.people().random();
+      if ( target != NULL ) {
+        target.actAll("{BA frying pan comes sailing across the room, striking $n!{x");
+        [[ x.actAll("A tremendous clang is heard, followed by $' shriek!", [[target]]) | x <- this.around() ]];
+      }
+    }
+  }
+}
+
+class room29875 extends Room {
+  onEntered( act, from ) {
+    if ( chance(50) ) {
+       act.actAll("{yA magical force drags $n down into a hidden pit!{x");
+       act.transfer(29876); // FIXME
+       this.actAll("{yIt snaps shut behind $m!{x",act);
+       act.actAll("{y$n $b smashed onto the ground with incredible force!{x");
+       var done = act.damage( 200, "bash", "has fallen in a trap.");
+       if ( done == 1 )  // 1 means non-lethal damage
+         force act `look
+    }
+  }
+}
+
+class room29877 extends Room {
+  onPulseTick() {
+    if ( chance(15) ) {
+      var victim = any[[ x <- this.people(), !x.isNPC() ]];
+      if ( victim != NULL ) {
+        if ( chance(50) ) {
+          victim.actAll("{rOne of the runes suddenly explodes, searing $n with flame!{x");
+          victim.damage(100, "fire", "has been killed by a rune.");
+        }
+        else {
+          victim.actAll("{yA barbed chain suddenly drops from the ceiling, and strikes $n!{x");
+          victim.damage(100, "pierce", "has been killed by a barbed chain.");
+        }
+      }
+    }
+  }
+  onEntered( act, from ) {
+    if ( chance(15) )
+      act.sendTo("{yYou think you see a chunk of flesh fall from the corpse...{x");
+  }
+}
+
+class room29892 extends Room {
+  onPulseTick() {
+    if ( chance(15) )
+      this.echo("{bYou hear voices raised in song, in a strange tongue.{x");
+  }
+}
+
+class room29932 extends Room {
+  onPulseTick() {
+    if ( chance(50) ) {
+      var target = any[[ x <- this.people(), !x.isNPC() ]];
+      if ( target != NULL ) {
+        target.sendTo("{yThe overwhelming alien nature of this place overcomes you!{x");
+        target.suddenDeath("is dead.");
+      }
+    }
+  }
+}
+
+class room29941 extends Room {
+  onEntered( act, from ) { // FIXME: if damage kill act, doesn't need to send next message
+                           // neither force him to go north
+    act.actAll("Jagged rocks tear at $n!");
+    var done = act.damage(50, "pierce", "has been killed by jagged rocks.");
+    if ( done == 1 ) {  // 1 means non-lethal damage
+      act.sendTo("{bThe current pulls you north.{x");
+      force act `north
+    }
+  }
+  onPulseTick() { // items in room are also pulled by the swift current
+    var roomNorth = this.roomDir("n");
+    if ( roomNorth != NULL ) {
+      var contents = [[ roomNorth.transfer(x) | x <- this.contents() ]];
+      if ( contents.size() > 0 ) {
+        roomNorth.echo("Something has been dragged by the current.");
+        this.echo("Something is pulled by the current.");
+      }
+    }
+  }
+}
+
+class room29942 extends Room {
+  onEntered( act, from ) { // FIXME: if damage kill act, doesn't need to send next message
+                           // neither to force him go up
+    act.actAll("$n $b hurled into the rocky end of the stream!");
+    var done = act.damage( 50, "bash", "died in an underground stream.");
+    if ( done == 1 ) {  // 1 means non-lethal damage
+      act.sendTo("In a daze, you slowly crawl out onto the shore.");
+      force act `up
+    }
+  }
+  onPulseTick() { // items in room are also pulled by the swift current
+    var roomUp = this.roomDir("u");
+    if ( roomUp != NULL ) {
+      var contents = [[ roomUp.transfer(x) | x <- this.contents() ]];
+      if ( contents.size() > 0 ) {
+        roomUp.echo("Something has been dragged by the current.");
+        this.echo("Something is pulled by the current.");
+      }
+    }
+  }
+}

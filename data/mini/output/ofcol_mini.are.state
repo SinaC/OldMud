@@ -1,0 +1,98 @@
+AreaState 'Ofcol' {
+  Room 5550 {
+    Repop = 1;
+    Mobile 303 {
+      Ptr = 169761640;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 81 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 5550;
+    }
+  }
+  Room 5551 {
+    Repop = 1;
+  }
+  Room 5552 {
+    Repop = 1;
+    Mobile 304 {
+      Ptr = 169761056;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 69 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 5552;
+      Obj 3020 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5553 {
+    Repop = 1;
+    Mobile 304 {
+      Ptr = 169760472;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 67 ),  ( 103 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 5553;
+    }
+  }
+  Room 5554 {
+    Repop = 1;
+  }
+  Room 5555 {
+    Repop = 1;
+    Mobile 306 {
+      Ptr = 169759888;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 479 ),  ( 164 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 242;
+      Room = 5555;
+      Obj 304 {
+        ExtraFlags = ('antievil', 'inventory');
+      }
+      Obj 3030 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5556 {
+    Repop = 1;
+    Mobile 303 {
+      Ptr = 169758720;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 76 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 12;
+      Room = 5556;
+    }
+    Mobile 308 {
+      Ptr = 169759304;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 466 ),  ( 145 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 5556;
+      Obj 3000 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3001 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5577 {
+    Repop = 1;
+    Mobile 350 {
+      Ptr = 169827760;
+      DamType = 'pound';
+      AfBy = ('detect_invis', 'infrared', 'flying');
+      isWildMagic = false;
+      HMVP = (  ( 116 ),  ( 144 ),  ( 100 ),  ( 0 ) );
+      Room = 5577;
+    }
+  }
+}

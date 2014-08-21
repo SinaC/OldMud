@@ -1,0 +1,6 @@
+class mob3717 extends shopkeeper {
+  onCreate() {
+    Shopkeeper::onCreate();
+    buy_type = [[ "light", "container", "drinkcontainer", "food" ]];
+  }
+}

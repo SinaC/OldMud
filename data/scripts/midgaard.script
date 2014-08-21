@@ -1,0 +1,707 @@
+// ----- THESE SCRIPTS ARE USED IN MIDGAARD TOWN
+
+// ************************** MAYOR wanders in town: closing doors, greeting people, ... *********
+class midgaardMayor extends Mob {
+  onCreate() {
+    // from mayor's office (east gate) to market square
+    var oPath = "1 w 2 w n n w 3 w w n n n 4 e e e 5 n 5 e e e 6 w w w"
+    // from market square (west gate) to mayor's office
+	       +" w w w 6 s s 4 s s s e e s s e s e e e 2 e 7";
+
+    // from mayor's office (east gate) to market square
+    var cPath = "1 w 2 w n n w 3 w w n n n 4 e e e 5 n 5 e e e 8 w w w" 
+    // from market square (west gate) to mayor's office
+	       +" w w w 8 s s 4 s s s e e s s e s e e e 2 e 7";
+
+    // path to open the gates
+    objvar this:openPath = oPath.words();
+    // path to close the gates
+    objvar this:closePath = cPath.words();
+    objvar this:curPath = 0;    // 0: means sleeping for the moment
+                                // 1: openPath  
+     	                        // 2: closePath
+    objvar this:curPos = 0;     // index in current path
+  }
+
+  forceFollow( x ) {
+    force x `follow `this.name()`
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL ) {
+      if ( chance(20) )
+        if ( chance(25) ) {
+	  `say I hate fidos.
+	  `say Fidos are such disgusting creatures.
+	}
+        else if ( chance(50) ) {
+          `grumble
+          `say Day in.  Day out.  I always do the same thing.
+        }
+        else
+          `say Boring!  I lead such a boring life.
+      if ( timeHour() == 6 && this.curPath == 0 ) { // at 6am, start open circuit
+        this.curPath = 1; // open path
+        this.curPos = 0;
+      } 
+      else if ( timeHour() == 20 && this.curPath == 0 ) { // at 8pm, start close circuit
+        this.curPath = 2; // close path
+        this.curPos = 0;
+      }
+  
+      if ( this.curPath != 0 ) {
+        var cur = "smile"; // dummy action
+        if ( this.curPath == 1 ) // get current action
+          cur = this.openPath[this.curPos];
+        else
+          cur = this.closePath[this.curPos];
+  
+        if ( cur == "1" ) {
+          `wake
+          `emote awakens and groans loudly.
+          // force cityguards in the room to follow mayor
+  	  [[ forceFollow(x) | x <- this.room().people(), x.vnum() == 3069 && x.master() != this ]];
+        }
+        else if ( cur == "2" ) {
+  	  // find the secretary
+          if ( first[[ x <- this.room().people(), x.vnum() == 3142 && x.fighting() == NULL ]] != NULL )
+            `say Hello Honey!
+        }
+        else if ( cur == "3" )
+          `say What a view!  I must do something about that dump!
+        else if ( cur == "4" )
+          `say Vandals!  Youngsters have no respect for anything!
+        else if ( cur == "5" )
+          `say Good day, citizens!
+        else if ( cur == "6" ) { // FIXME: should check if not already open
+          `say I hereby declare the city of Midgaard open!
+          `unlock gate
+          `open gate
+        } 
+        else if ( cur == "7" ) { // FIXME: should check if not already closed
+          `say What a day! I'm so tired, I think I'll sleep a little bit
+          `sleep
+          this.curPath = 0;
+        } 
+        else if ( cur == "8" ) { // FIXME: should check if not already closed
+          `say I hereby declare the city of Midgaard closed!
+          `close gate
+          `lock gate
+        }
+        else // move to direction `cur`
+          ``cur`
+        this.curPos = this.curPos+1;
+      }
+    }
+  }
+}
+
+
+// ************************** HASSAN IS A COOL GUY WITH NON-KILLER/THIEF *******************
+class Hassan extends specExecutioner {
+  onGreetLeader( act, from ) {
+    if ( this.fighting() == NULL
+	 && !act.isNPC()
+         && !act.checkAct("killer") // doesn't greet killer, neither thief
+         && !act.checkAct("thief")
+ 	 && chance(75) ) {
+      if (act.isImmortal())
+        if ( act.sex() == 2 )
+          `say Greetings, Mistress `act.name()`!
+        else
+         `say Greetings, Lord `act.name()`!
+      else
+        if (act.level() < 5) {
+          `say Hello, little `act.name()`.
+          if (act.hit() < 20 ) {
+            `say The healer is north of here.
+            `say Maybe he can help you!
+          }
+        }
+     }
+  }
+}
+
+// ************************** GAMBLER GUY *******************
+class Gambler extends Mob {
+  onGreetLeader(act, from) {
+    if ( !act.isNPC() )
+      `say Come on `act.name()`, it's an easy game, everyone can win.
+  }
+
+  onSpeech(act,msg) {
+    if ( !act.isNPC() 
+         && "help" in msg.words()) {
+      `say If you want to gamble, it's easy: You give me some money and I take care of the rest.
+      `smile `act`
+    }
+  }
+
+  onBribe( act, amount, isSilver ) {
+    if ( !act.isNPC() ) {
+      var ok = 1;
+  
+      if ( isSilver ) {
+        if ( amount < 100 || amount > 10000 ) {
+       	  `say This is not an acceptable bet.        
+          `say Try something between 100 and 10000 silver coins.
+          `give `amount` silver `act`
+          ok = 0;
+        }
+        else
+          `say `act` bets `amount` silver coins.
+      }
+      else {
+        if ( amount < 10 || amount > 1000 ) {
+      	  `say This is not an acceptable bet.
+          `say Try something between 10 and 1000 gold coins.
+          `give `amount` gold `act`
+          ok = 0;
+        }
+        else
+          `say `act` bets `amount` gold coins.
+      }
+      if ( ok ) {
+        if ( chance(9) ) {
+          if ( isSilver ) {
+            `say Grats `act`, you have won `amount*10` silver coins!!
+            this.addSilver(amount*10);
+            `give `amount*10` silver `act`
+          }
+          else {
+            `say Grats `act`, you have won `amount*10` gold coins!!
+            this.addGold(amount*10);
+            `give `amount*10` gold `act`
+          }
+        }
+        else {
+          `say No luck, `act` has lost ...
+        }
+      }
+    }
+  }
+}
+
+//********************** SCRIPT TO ENTER IN ASSASSIN'S GUILD **********************
+//********************** HE'S ALSO A DRINK SHOPKEEPER
+class Filthy extends Shopkeeper {
+  onCreate() {
+    objvar this:secret = "who watches the watchmen";
+
+    Shopkeeper::onCreate(); // we call parent (Shopkeeper) onCreate function, 
+                            // so we have variables needed to be a shopkeeper
+
+    profit_buy = 0; // 100
+    profit_sell = 110;
+
+    buy_type = [[ "drinkcontainer" ]];
+
+    if ( !this.checkAffect("detect_exits") )
+      log("Filthy is not affected by detect exits!!!");
+  }
+
+  onReset() {
+    //log("Filthy::onReset  this: "+this.name()+" (vnum "+this.vnum()+")");
+    // check if secret door has the right flags
+    this.room().setExitFlags("s","door closed locked pickproof nopass hidden");
+    this.room().roomDir("s").setExitFlags("n","door closed locked pickproof nopass hidden");
+    // check if filthy has the key to open the door
+    if ( first[[ x <- this.inventory(), x.vnum() == 3396 ]] == NULL ) {
+      log("Filthy doesn't have the key to open secret pathway");
+      this.oLoad(3396);
+    }
+  }
+
+  onGreetLeader(act, from) {
+    if ( isKeeperOkGreet( act ) && from != "s" )
+      `say Welcome in my Inn, dear adventurer.
+  }
+
+  onExitingLeader( act, to ) {
+    if ( isKeeperOkExiting( act ) && to != "s" )
+      `say I hope to see you soon in my Inn.
+  }
+
+  randomMsg() {
+    if ( chance(50) )
+      `say What do you want ?
+    else
+      `say What do you need ?
+  }
+
+  secretTrigger(act, msg) {
+    if ( act.canSee(this) && !act.isNPC() && this.in_trade == 0 )
+      if ( "assassin" in act.classes() ) {
+        var w = msg.words();
+        if ( msg == this.secret ) {
+          `say Ok, `act.name()` you are allowed to go in the secret pathway.
+          `unlock south
+          `open south
+          force act `south
+          `close south
+          `lock south
+        }
+        else if ( w.includes("please password".words())
+                  || w.includes([["please","secret"]])) {
+          `whisper `act` The password is '`this.secret`' but don't tell it to anyone.
+          `chuckle
+        }
+        else
+          //randomMsg();
+          Shopkeeper::onSpeech( act, msg ); // we call parent (Shopkeeper) onSpeech trigger
+                                            //  so people are able to buy drinks
+      }
+      else
+        //randomMsg();
+        Shopkeeper::onSpeech( act, msg ); // we call parent (Shopkeeper) onSpeech trigger
+                                          //  so people are able to buy drinks
+  }
+
+  onWhisper(act, msg) {
+    secretTrigger(act, msg);
+  }
+
+  onSpeech(act, msg) {
+    secretTrigger(act, msg);
+  }
+
+  onKnock(act, from) { 
+    if ( from == "s" ) {
+      `unlock south
+      `open south
+
+      var room = act.room();
+      room.toggleExitFlags("n","nopass"); // remove nopass flag
+
+      // knocker leaves first
+      force act `north
+
+      // next the followers leave
+      var followers = [[ x | x <- room.people(), x.master() == act ]];
+      var i = 0;
+      while ( i < followers.size() ) {
+        force followers[i] `north
+        i = i+1;
+      }
+
+      room.toggleExitFlags("n","nopass"); // set nopass flag
+
+      `close south
+      `lock south
+    }
+  }
+}
+
+//************* MIDGAARD SHOPKEEPERS, DERIVATED FROM BASIC SHOPKEEPER ***************
+class WeaponSmith extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 40;
+    profit_sell = 120;
+
+    buy_type = [[ "weapon" ]];
+  }
+}
+
+class Armourer extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 50;
+    profit_sell = 100;
+
+    buy_type = [[ "armor" ]];
+  }
+}
+
+class Grocer extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 40;
+    profit_sell = 150;
+    
+    buy_type = [[ "light", "treasure", "trash", "container", "food" ]];
+  }
+}
+
+class Jeweller extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 100;
+    profit_sell = 110;
+
+    buy_type = [[ "warpstone", "treasure", "gem", "jewelry", "instrument" ]];
+  }
+}
+
+class MagicShopkeeper extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 15;
+    profit_sell = 105;
+
+    buy_type = [[ "scroll", "wand", "staff", "potion", "component" ]];
+  }
+  price_buy( obj ) { // check used staff/wand
+    result = shopkeeper::price_buy(obj);
+    if ( obj.itemType() == "staff" || obj.itemType() == "wand" ) {
+      var v1 = obj.getValue(2);
+      if ( v1 == 0 )
+        result = result / 4;
+      else
+        result = ( result * obj.getValue(2) ) / v1;
+    }
+  }
+}
+
+class MapShopkeeper extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 0; // 100
+    profit_sell = 100;
+
+    buy_type = [[ "map" ]];
+  }
+  onExitingLeader( ch, to ) {
+    if ( to != "n" ) {
+      keeper::onExitingLeader( ch, to );
+    }
+  }
+}
+
+class PotionShopkeeper extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 100;
+    profit_sell = 1000;
+
+    buy_type = [[ "potion" ]];
+  }
+}
+
+class Baker extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    
+    profit_buy = 10;
+    profit_sell = 110;
+
+    buy_type = [[ "food" ]];
+  }
+}
+
+class BoatShopkeeper extends ShopKeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+
+    profit_buy = 90;
+    profit_sell = 120;
+
+    open_hour = 6;
+    close_hour = 22;
+
+    buy_type = [[ "boat" ]];
+  }
+}
+
+class PetShopKeeper extends basePetShopKeeper {
+  onCreate() {
+    basePetShopKeeper::onCreate();
+
+    // list of pet (vnum) to sale
+    vnum_list =  [[  3090,  3091,  3092,  3093, 3094 ]];
+    // list of pet price
+    price_list = [[    10,    90,   250,   490,  810 ]];
+    //this formula should be used to calculate pet's cost 10 * pet->level * pet->level
+
+    if ( vnum_list.size() != price_list.size() )
+      log("BUG: vnum_list ("+vnum_list.size()+") and price_list ("+price_list.size()+") don't have the same size" );
+  }
+}
+
+//********************** VARIOUS CLASS: guard, beggar, drunk, ...
+
+// Fido
+class Fido extends specFido {
+  onGreetLeader( act, from ) {
+    if ( chance(40) ) {
+      `bark `act`
+      if ( act.vnum() == 3143 ) { // mayor's vnum
+        `growl `act`
+        `kill `act`
+      }
+    }
+  }
+  onPulseMobile() {
+    specFido::onPulseMobile();
+    if ( chance(10) )
+      `emote leaves a deposit on the ground.
+  }
+}
+
+// Beggar
+class Beggar extends Mob  {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() && chance(40) && !act.isImmortal() ) {
+      `beg `act`
+      `say Spare some gold?
+    }
+  }
+  onBribe( act, amount, isSilver ) {
+    var silver = amount;
+    if ( !isSilver ) amount = amount*100;
+    if ( amount > 10000 ) {
+      `dance `act`
+      `french `act`
+    }
+    else if ( amount > 100 ) {
+      `say Oh my GOD!  Thank you! Thank you!
+      `french `act`
+    }
+    else
+      `thank `act`
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `say Help!  Please somebody help me!
+      if ( chance(50) )
+	`say Ouch!
+      else
+	`say I'm bleeding.
+    }
+  }
+  onKilled( act ) {
+    if ( chance(50) ) {
+      if ( chance(50) )
+	`say Now I go to a better place.
+      else
+        `say Forgive me God for I have sinned...
+    }
+  }
+}
+
+// Town crier
+class Crier extends Mob {
+  onPulseTick() {
+    if ( chance(40) )
+      `cry
+  }
+  onSpeech( act, msg ) {
+    if ( first[[ x <- msg.words(), x %= "what" ]] != NULL ) {
+      `say My Girlfriend left me
+      `sniff
+    }
+  }
+}
+
+// Drunk
+class Drunk extends Mob {
+  onPulseTick() {
+    if ( chance(50) )
+      `dance
+    else
+      `hiccup
+  }
+  onGreet( act, from ) {
+    if ( chance(10) && !act.isNPC() && act.level() > 3 && !act.isImmortal() ) {
+      `say Monster!  I found a monster!  Kill!  Banzai!
+      `murder `act`
+    }
+  }
+  onBribe( act, amount, isSilver ) {
+    if ( chance(35) ) {
+      `say Ahh!  More spirits!  Good spirits!
+      `sings
+    }
+  }
+}
+
+// Cityguard
+class Gateguard extends specGuard {
+  // from specGuard: onPulseMobile
+  onGreet( act, from ) {
+    if ( chance(80) && !act.isNPC() && !act.isImmortal() )
+      if ( act.alignment() >= 350 ) {
+        if ( act.level() > 18 )
+	  this.actAll("$n snaps to attention at $n arrival.",[[this,act]]);
+      }
+      else
+        if ( chance(30) ) {
+          `growl `act`
+          `say Evil is not wanted here!
+        }
+  }
+}
+
+// Janitor
+class Janitor extends specJanitor {
+  // from specJanitor: onPulseMobile
+  onPulseTick() {
+    if ( chance(20) ) {
+      `grumble
+      `say Litterbugs.
+      if ( chance(20) ) {
+        `say All I do each day is cleanup other people's messes.
+        if ( chance(20) )
+          `say I do not get paid enough.
+	else
+          if ( chance(20) ) {
+            `say Day in.  Day out.  This is all I do 24 hours a day.
+            if ( chance(10) )
+              `say I want a vacation!
+          }
+      }
+    }
+  }
+// FIXME  TO DO  TODO   if someone in the same room drops something
+//  onDropped( act, obj ) {
+//    `say Litterbug!  You are all litterbugs!
+//    `growl `act`
+//    if ( chance(10) )
+//      `murder `act`
+//  }
+}
+
+// cityguard
+class Cityguard extends specExecutioner {
+  // from specGuard: onPulseMobile
+  onMoved() {
+    if ( chance(30) )
+      `emote keeps an eye out for wanted criminals.
+  }
+  onGreet( act, from ) {
+    if ( chance(40) && !act.isNPC() && !act.isImmortal() ) {
+      `look `act`
+      if ( act.alignment() >= 350 ) {
+        `say Good day.
+        `smile `act`
+      }
+      else if ( act.canSee(this) )
+        //this.actAll("$n wonders if $n $n amount the most wanted.", [[this,this,act]] );
+        this.actAll("$n wonders if $n $b among the most wanted.", [[this,act,act]] );
+    }
+  }
+  onPulseTick() {
+    if ( chance(20) )
+      if ( chance(50) )
+        `emote whistles a little song.
+      else
+        `sings
+  }
+  onSpeech( act, msg ) { // confort Crier
+    if ( msg %= "My Girlfriend left me" )
+      `comfort `act`
+  }
+  onSocial( act, social ) {
+    if ( social == "cry" )
+      `say What is wrong?
+  }
+}
+
+// vagabond
+class Vagabond extends Mob {
+  onPulseTick() {
+    if ( chance(20) )
+      `say Kill!  Blood!  Gore!
+  }
+  onGreet( act, from ) {
+    if ( chance(10) && !act.isNPC() && act.level() > 5 && !act.isImmortal() )
+      `murder `act`
+  }
+  onKilled( act ) {
+    if ( chance(60) )
+      this.actRoom("$n throws back his head and cackles with insane glee!");
+    result = 0;
+  }
+}
+
+// maid
+class Maid extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 0;//90
+    profit_sell = 110;
+
+    open_hour = 6;
+    close_hour = 23;
+
+    buy_type = [[ "drinkcontainer" ]];
+  }
+}
+
+// Esme
+class Esme extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 0;//90
+    profit_sell = 110;
+
+    open_hour = 0;
+    close_hour = 23;
+
+    buy_type = [[ "drinkcontainer", "food" ]];
+  }
+}
+
+// Bartender, waiter, waitress, ...
+class Bartender extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 0;//100
+    profit_sell = 110;
+
+    open_hour = 0;
+    close_hour = 23;
+
+    buy_type = [[ "drinkcontainer" ]];
+  }
+}
+
+class Waiter3042 extends bartender {
+  onCreate() {
+    bartender::onCreate();
+    profit_sell = 140;
+  }
+  onExitingLeader( act, to ) {
+  }
+  onGreetLeader( act, from ) {
+  }
+}
+
+class Waiter3043 extends bartender {
+  onCreate() {
+    bartender::onCreate();
+    profit_sell = 150;
+  }
+  onExitingLeader( act, to ) {
+  }
+  onGreetLeader( act, from ) {
+  }
+}
+
+class Waiter3044 extends bartender {
+  onCreate() {
+    bartender::onCreate();
+    profit_sell = 170;
+  }
+  onExitingLeader( act, to ) {
+  }
+  onGreetLeader( act, from ) {
+  }
+}
+
+class Waiter3045 extends bartender {
+  onCreate() {
+    bartender::onCreate();
+    profit_sell = 150;
+  }
+  onExitingLeader( act, to ) {
+  }
+  onGreetLeader( act, from ) {
+  }
+}

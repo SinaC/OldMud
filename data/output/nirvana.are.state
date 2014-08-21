@@ -1,0 +1,430 @@
+AreaState 'Nirvana' {
+  Room 9000 {
+    Repop = 28;
+  }
+  Room 9001 {
+    Repop = 28;
+    Mobile 9001 {
+      Ptr = 182357424;
+      HMVP = (  ( 155 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9001;
+    }
+  }
+  Room 9002 {
+    Repop = 28;
+    Mobile 9000 {
+      Ptr = 182356840;
+      HMVP = (  ( 115 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9002;
+    }
+  }
+  Room 9003 {
+    Repop = 28;
+    Mobile 9000 {
+      Ptr = 182356256;
+      HMVP = (  ( 117 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9003;
+    }
+  }
+  Room 9004 {
+    Repop = 28;
+  }
+  Room 9005 {
+    Repop = 28;
+  }
+  Room 9006 {
+    Repop = 28;
+  }
+  Room 9007 {
+    Repop = 28;
+  }
+  Room 9008 {
+    Repop = 28;
+  }
+  Room 9009 {
+    Repop = 28;
+  }
+  Room 9010 {
+    Repop = 28;
+  }
+  Room 9011 {
+    Repop = 28;
+    Mobile 9002 {
+      Ptr = 182355672;
+      HMVP = (  ( 211 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9011;
+    }
+  }
+  Room 9012 {
+    Repop = 28;
+    Mobile 9001 {
+      Ptr = 182355088;
+      HMVP = (  ( 131 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9012;
+    }
+  }
+  Room 9013 {
+    Repop = 28;
+    Mobile 9000 {
+      Ptr = 182354504;
+      HMVP = (  ( 97 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9013;
+    }
+  }
+  Room 9014 {
+    Repop = 28;
+  }
+  Room 9015 {
+    Repop = 28;
+  }
+  Room 9016 {
+    Repop = 28;
+    Mobile 9008 {
+      Ptr = 182353920;
+      HMVP = (  ( 718 ),  ( 203 ),  ( 100 ),  ( 0 ) );
+      Room = 9016;
+    }
+  }
+  Room 9017 {
+    Repop = 28;
+    Mobile 9008 {
+      Ptr = 182361520;
+      HMVP = (  ( 638 ),  ( 227 ),  ( 100 ),  ( 0 ) );
+      Room = 9017;
+    }
+  }
+  Room 9018 {
+    Repop = 28;
+    Mobile 9009 {
+      Ptr = 182360936;
+      HMVP = (  ( 1000 ),  ( 270 ),  ( 100 ),  ( 0 ) );
+      Room = 9018;
+    }
+  }
+  Room 9019 {
+    Repop = 28;
+    Mobile 9009 {
+      Ptr = 182360352;
+      HMVP = (  ( 1000 ),  ( 242 ),  ( 100 ),  ( 0 ) );
+      Room = 9019;
+    }
+  }
+  Room 9020 {
+    Repop = 28;
+    Mobile 9011 {
+      Ptr = 182359768;
+      HMVP = (  ( 4000 ),  ( 4000 ),  ( 100 ),  ( 0 ) );
+      Room = 9020;
+      Affect = ( 'sanctuary', -1, 40, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 9000 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 9021 {
+    Repop = 28;
+    Mobile 9009 {
+      Ptr = 182359184;
+      HMVP = (  ( 1000 ),  ( 248 ),  ( 100 ),  ( 0 ) );
+      Room = 9021;
+    }
+  }
+  Room 9022 {
+    Repop = 28;
+    Mobile 9008 {
+      Ptr = 182358600;
+      HMVP = (  ( 637 ),  ( 257 ),  ( 100 ),  ( 0 ) );
+      Room = 9022;
+    }
+  }
+  Room 9023 {
+    Repop = 28;
+  }
+  Room 9024 {
+    Repop = 28;
+    Mobile 9009 {
+      Ptr = 182358016;
+      HMVP = (  ( 1000 ),  ( 229 ),  ( 100 ),  ( 0 ) );
+      Room = 9024;
+    }
+  }
+  Room 9025 {
+    Repop = 28;
+    Mobile 9008 {
+      Ptr = 182365616;
+      HMVP = (  ( 724 ),  ( 238 ),  ( 100 ),  ( 0 ) );
+      Room = 9025;
+    }
+  }
+  Room 9026 {
+    Repop = 28;
+  }
+  Room 9027 {
+    Repop = 28;
+    Mobile 9000 {
+      Ptr = 182365032;
+      HMVP = (  ( 101 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9027;
+    }
+  }
+  Room 9028 {
+    Repop = 28;
+    Mobile 9001 {
+      Ptr = 182364448;
+      HMVP = (  ( 169 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9028;
+    }
+  }
+  Room 9029 {
+    Repop = 28;
+    Mobile 9000 {
+      Ptr = 182363864;
+      HMVP = (  ( 104 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9029;
+    }
+  }
+  Room 9030 {
+    Repop = 28;
+  }
+  Room 9031 {
+    Repop = 28;
+    Mobile 9002 {
+      Ptr = 182363280;
+      HMVP = (  ( 201 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9031;
+    }
+  }
+  Room 9032 {
+    Repop = 28;
+  }
+  Room 9033 {
+    Repop = 28;
+    Mobile 9005 {
+      Ptr = 182362696;
+      HMVP = (  ( 444 ),  ( 179 ),  ( 100 ),  ( 0 ) );
+      Room = 9033;
+    }
+  }
+  Room 9034 {
+    Repop = 28;
+    Mobile 9006 {
+      Ptr = 182362112;
+      HMVP = (  ( 539 ),  ( 235 ),  ( 100 ),  ( 0 ) );
+      Room = 9034;
+    }
+  }
+  Room 9035 {
+    Repop = 28;
+  }
+  Room 9036 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182369712;
+      HMVP = (  ( 669 ),  ( 199 ),  ( 100 ),  ( 0 ) );
+      Room = 9036;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9037 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182369128;
+      HMVP = (  ( 659 ),  ( 180 ),  ( 100 ),  ( 0 ) );
+      Room = 9037;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9038 {
+    Repop = 28;
+    Mobile 9010 {
+      Ptr = 182367960;
+      HMVP = (  ( 1600 ),  ( 476 ),  ( 100 ),  ( 0 ) );
+      Room = 9038;
+      Affect = ( 'sanctuary', -1, 36, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 9002 {
+      Ptr = 182368544;
+      HMVP = (  ( 206 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9038;
+    }
+  }
+  Room 9039 {
+    Repop = 28;
+  }
+  Room 9040 {
+    Repop = 28;
+    Mobile 9005 {
+      Ptr = 182367376;
+      HMVP = (  ( 438 ),  ( 190 ),  ( 100 ),  ( 0 ) );
+      Room = 9040;
+    }
+  }
+  Room 9041 {
+    Repop = 28;
+    Mobile 9006 {
+      Ptr = 182366792;
+      HMVP = (  ( 543 ),  ( 185 ),  ( 100 ),  ( 0 ) );
+      Room = 9041;
+    }
+  }
+  Room 9042 {
+    Repop = 28;
+  }
+  Room 9043 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182366208;
+      HMVP = (  ( 676 ),  ( 185 ),  ( 100 ),  ( 0 ) );
+      Room = 9043;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9044 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182373808;
+      HMVP = (  ( 653 ),  ( 198 ),  ( 100 ),  ( 0 ) );
+      Room = 9044;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9045 {
+    Repop = 28;
+    Mobile 9010 {
+      Ptr = 182372640;
+      HMVP = (  ( 1600 ),  ( 513 ),  ( 100 ),  ( 0 ) );
+      Room = 9045;
+      Affect = ( 'sanctuary', -1, 36, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 9002 {
+      Ptr = 182373224;
+      HMVP = (  ( 234 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9045;
+    }
+  }
+  Room 9046 {
+    Repop = 28;
+  }
+  Room 9047 {
+    Repop = 28;
+    Mobile 9005 {
+      Ptr = 182372056;
+      HMVP = (  ( 442 ),  ( 181 ),  ( 100 ),  ( 0 ) );
+      Room = 9047;
+    }
+  }
+  Room 9048 {
+    Repop = 28;
+    Mobile 9004 {
+      Ptr = 182371472;
+      HMVP = (  ( 305 ),  ( 168 ),  ( 100 ),  ( 0 ) );
+      Room = 9048;
+      Affect = ( 'sanctuary', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 9001 {
+      }
+    }
+  }
+  Room 9049 {
+    Repop = 28;
+  }
+  Room 9050 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182370888;
+      HMVP = (  ( 667 ),  ( 161 ),  ( 100 ),  ( 0 ) );
+      Room = 9050;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9051 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182370304;
+      HMVP = (  ( 727 ),  ( 198 ),  ( 100 ),  ( 0 ) );
+      Room = 9051;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9052 {
+    Repop = 28;
+    Mobile 9010 {
+      Ptr = 182377320;
+      HMVP = (  ( 1600 ),  ( 498 ),  ( 100 ),  ( 0 ) );
+      Room = 9052;
+      Affect = ( 'sanctuary', -1, 36, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 9002 {
+      Ptr = 182377904;
+      HMVP = (  ( 200 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9052;
+    }
+  }
+  Room 9053 {
+    Repop = 28;
+  }
+  Room 9054 {
+    Repop = 28;
+    Mobile 9005 {
+      Ptr = 182376736;
+      HMVP = (  ( 438 ),  ( 183 ),  ( 100 ),  ( 0 ) );
+      Room = 9054;
+    }
+  }
+  Room 9055 {
+    Repop = 28;
+    Mobile 9003 {
+      Ptr = 182376152;
+      HMVP = (  ( 204 ),  ( 138 ),  ( 100 ),  ( 0 ) );
+      Room = 9055;
+    }
+  }
+  Room 9056 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182375568;
+      HMVP = (  ( 648 ),  ( 191 ),  ( 100 ),  ( 0 ) );
+      Room = 9056;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9057 {
+    Repop = 28;
+    Mobile 9007 {
+      Ptr = 182374984;
+      HMVP = (  ( 739 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 9057;
+      Affect = ( 'sanctuary', -1, 26, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 9058 {
+    Repop = 28;
+    Mobile 9010 {
+      Ptr = 182382000;
+      HMVP = (  ( 1600 ),  ( 415 ),  ( 100 ),  ( 0 ) );
+      Room = 9058;
+      Affect = ( 'sanctuary', -1, 36, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 9002 {
+      Ptr = 182374400;
+      HMVP = (  ( 221 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 9058;
+    }
+  }
+  Room 9059 {
+    Repop = 28;
+  }
+}

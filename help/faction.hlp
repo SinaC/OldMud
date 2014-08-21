@@ -1,0 +1,22 @@
+#HELPS
+
+-1 FACTIONS~
+Factions have been created to make comportements between races more realistic
+For example: when a hill-dwarf (faction dwarf) meets a sylvan-elf (faction elf)
+they start to fight because (faction dwarf has an aggressive comportement
+with faction elf). When you kill an enemy of a certain faction your
+friendliness with that faction raises up but your friendliness with killed enemy
+faction raises down. So you don't have to be an drow to wander safely in Drow
+City, you just have to kill some drow's enemy such as "normal" elf.
+~
+
+102 SHOWFACTION~
+Syntax:
+ showfaction                                  display faction table
+ showfaction <faction name> races             display races getting this faction
+ showfaction <faction name> [<faction name>]  display faction line/entry
+ showfaction <char name> [<faction name>]     display char faction line/entry
+~
+
+0 $~
+#$

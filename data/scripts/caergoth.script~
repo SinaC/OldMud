@@ -1,0 +1,406 @@
+// ******** Mob
+
+class mob21800 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 0;//90;
+    profit_sell = 110;
+    open_hour = 5;
+    close_hour = 20;
+    buy_type = [[ "food" ]];
+  }
+  onPulseMobile() {
+    shopkeeper::onPulseMobile();
+    if ( timeHour() >= this.open_hour && timeHour() <= this.close_hour && chance(1) )
+      `yell Fresh meats for sale! Get 'em while they last!
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `say `act`! Glad to see ya!
+      `shake `act`
+      `say Come in, come in. Can I help you with anything?
+      `smile
+    }
+  }
+}
+
+
+class mob21801 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 0;//90;
+    profit_sell = 110;
+    open_hour = 5;
+    close_hour = 20;
+    buy_type = [[ "food" ]];
+  }
+  onPulseMobile() {
+    shopkeeper::onPulseMobile();
+    if ( chance(1) && timeHour() >= this.open_hour && timeHour() <= this.close_hour )
+      `yell Fresh fruits and vegetables! Picked fresh daily!
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `smile `act`
+      `say Hello, `act`. All my products are guaranteed to be fresh.
+    }
+  }
+}
+
+class mob21802 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 80;
+    profit_sell = 120;
+    open_hour = 5;
+    close_hour = 20;
+    buy_type = [[ "wand", "staff", "potion", "scrolls", "component" ]];
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `curts `act`
+      `say Greetings, `act`. Feel free to have a look around.
+    }
+  }
+}
+
+class mob21803 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 0;//90;
+    profit_sell = 110;
+    open_hour = 5;
+    close_hour = 20;
+    buy_type = [[ "food" ]];
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `tip `act`
+      `say Heya heya ... fresh baked goods, all day long.
+      `say Let me know if you need any help.
+    }
+  }
+  onPulseMobile() {
+    shopkeeper::onPulseMobile();
+    if ( chance(1) && timeHour() >= this.open_hour && timeHour() <= this.close_hour )
+      `emote turns to get some bread from the oven.
+  }
+}
+
+class mob21804 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 40;
+    profit_sell = 160;
+    open_hour = 0;
+    close_hour = 23;
+    buy_type = [[ "boat", "trash" ]]; // FIXME: trash is in fact a ticket to Palanthas
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `emote looks up from his paperwork.
+      `say Somethin' I can help ya with? Ticket to Palanthas, maybe?
+    }
+  }
+}
+
+class mob21806 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 20;
+    profit_sell = 200;
+    open_hour = 5;
+    close_hour = 20;
+//    buy_type = [[ "treasure", "trash" ]]; not really revelant
+    buy_type = [[ "light", "container", "drinkcontainer", "map", "weapon", "treasure", "trash" ]];
+  }
+
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `say `act`, nice to see you.
+      `say Let me know if you see something you like. The map might be helpful.
+    }
+  }
+}
+
+class mob21807 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy =  60;
+    profit_sell = 130;
+    open_hour = 5;
+    close_hour = 20;
+    buy_type = [[ "pill" ]];
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `say Ah, `act`. Come in.
+      `say All my herbs are grown in my own garden. I personally guarantee their quality.
+    }
+  }
+}
+
+class mob21808 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 50;
+    profit_sell = 150;
+    open_hour = 5;
+    close_hour = 20;
+    buy_type = [[ "armor", "weapon" ]];
+  }
+  onPulseMobile() {
+    if ( chance(1)
+         && timeHour() >= this.open_hour && timeHour() <= this.close_hour )
+      `yell Weapons and armour, forged daily!
+    shopkeeper::onPulseMobile();
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `emote looks up from what he's working on, wiping sweat and soot from his brow.
+      `say Lemme know if you see anything you want.
+      `emote goes back to work.
+    }
+  }
+}
+
+class mob21811 extends petShopKeeper {
+  onCreate() {
+    petshopkeeper::onCreate();
+    vnum_list =  [[ 21809, 21810, 21812, 21813 ]];
+    price_list = [[ 1000,  250,   6250,  40    ]];
+    open_hour = 5;
+    close_hour = 20;
+
+    if ( vnum_list.size() != price_list.size() )
+      log("BUG: vnum_list ("+vnum_list.size()+") and price_list ("+price_list.size()+
+          ") don't have the same size" );
+  }
+  onGreetLeader( act, from ) {
+    if ( isKeeperOkGreet( act ) ) {
+      `say Ah, hello.
+      `say Welcome to my pet shop.
+      `say You might be interested in something that we imported recently: a war elephant.
+      `say They're well-trained, and you can ride them.
+      `smile
+    }
+  }
+}
+
+class mob21814 extends Mob { // FIXME: should extends Bartender ?
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `say Hello there, `act`! Have a seat.
+      `say Wine? Ale? Perhaps a hot meal?
+      `say Or I have a room available ... just give me 200 silver.
+      `say It's comfortable, warm, and absolutely safe. Guaranteed.
+    }
+  }
+  onBribe( act, amount, isSilver ) {
+    if ( ( isSilver && amount >= 200 ) || ( !isSilver && amount >= 2 ) ) {
+// FIXME: would be better if the innkeeper force act to follow him
+//  and he really does the path with a timer
+      `say Thank ya kindly. Your room's just up these stairs, follow me ...
+      `emote escorts you up the stairs into your room.
+      `say Have a pleasant rest.
+      act.transfer(21841); 
+      force act `look      
+    }
+  }
+}
+
+class mob21822 extends banker {
+  help( act ) {
+    `qdirsay `act` You are in the bank of Caergoth.
+    `qdirsay `act` You can deposit and withdraw money or check your acount
+    `qdirsay `act` Give me your silver or gold coins to deposit them on your account
+    `qdirsay `act` Use say withdraw xxx gold     to withdraw xxx gold
+    `qdirsay `act`     say withdraw xxx silver   to withdraw xxx silver
+    `qdirsay `act`     say balance               to check your account balance
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `smile `act`
+      `say Hello. Is there anything I can help you with?
+      `smile
+    }
+  }
+  onPulseMobile() {
+    if ( chance(1) ) // FIXME, how can I do a zecho?
+      //mob zecho The calling of gulls can be heard throughout the city.
+      `smile
+  }
+}
+
+class mob21824 extends specGuard {
+  onPulseMobile() {
+    specGuard::onPulseMobile();
+    if ( chance(1) )
+      `emote looks around for signs of the peace being broken.
+    else if ( chance(1) )
+      `emote looks suspiciously at you for a moment before turning away.
+  }
+}
+
+class mob21823 extends mob21824 {
+  onGreet( act, from ) {
+    if ( !act.isNPC() && chance(30) ) {
+      `emote looks at you for a moment.
+      `say Enjoy Caergoth, and don't cause trouble.
+    }
+  }
+}
+
+class mob21825 extends mob21824 { // same as mob21824
+}
+
+class mob21828 extends Mob {
+  onPulseMobile() {
+    if ( chance(1) )
+      `emote looks up at you for a second before going back to work.
+    else if ( chance(1) )
+      `emote grunts as he moves some heavy cargo around.
+  }
+}
+
+class mob21831 extends Mob {
+  onGreet( act, from ) {
+    if ( chance(60) && !act.isNPC() ) {
+      `glance `act`
+      `say You must be one of those adventurin' types.
+      `say Not for me, no sir.
+      `shake
+      `say I'd rather spend my days fishing.
+    }
+  }
+  onPulseMobile() {
+    if ( chance(1) )
+      `emote casts his line into the waters of the harbour.
+  }
+}
+
+class mob21832 extends specMayor { // FIXME: create a new mayor routine, the city is different
+  onGreetLeader( act, from ) {
+    if ( chance(70) && !act.isNPC() ) {
+      `say Hello, hello.
+      `say I'm a bit busy, but are you enjoying the town?
+      `say Just a "yes or no" answer, just want to know.
+      `smile
+    }
+  }
+  onSpeech( act, msg ) {
+    var w = msg.words();
+    if ( "yes" in w ) {
+      `say Oh, wonderful.
+      `smile
+      `say I hope you come back soon, then.
+    }
+    else if ( "no" in w ) {
+      `frown
+      `say Oh, that's too bad.
+      `say I hope your next visit will be more pleasant.
+    }
+  }
+}
+
+class mob21833 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 100;
+    profit_sell = 1000;
+    open_hour = 0;
+    close_hour = 23;
+    buy_type = [[ "treasure", "clothing" ]];
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC()
+         && timeHour() >= this.open_hour && timeHour() <= this.close_hour 
+         && !act.isNPC() ) {
+      `smile
+      `say Hello! Glad to see you here.
+      `say I guess you're here to make a big decision, huh?
+      `wink `act`
+      `say Well, anyway, if you need me for anything, just ask.
+      `say We have a full line of bridal accessories, along with tuxedos and engagement rings.
+    }
+  }
+}
+
+class mob21834 extends specJanitor {
+  onPulseMobile() {
+    if ( chance(1) )
+      `emote bends over to pick up some trash.
+    else if ( chance(2) )
+      `emote sweeps some trash up with his broom.
+    specJanitor::onPulseMobile();
+  }
+}
+
+class mob21837 extends petShopKeeper {
+  onCreate() {
+    petshopkeeper::onCreate();
+    vnum_list =  [[ 21835, 21836 ]];
+    price_list = [[ 2250,  4410  ]];
+    open_hour = 5;
+    close_hour = 20;
+
+    if ( vnum_list.size() != price_list.size() )
+      log("BUG: vnum_list ("+vnum_list.size()+") and price_list ("+price_list.size()+
+          ") don't have the same size" );
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC()
+         && timeHour() >= this.open_hour && timeHour() <= this.close_hour 
+         && !act.isNPC() ) {
+      `emote looks up at you.
+      `say Come to buy a mercenary? We only got humans and minotaurs.
+      `say They'll do most anything ya tell 'em to, though.
+    }
+  }
+}
+
+class mob21838 extends shopkeeper {
+  onCreate() {
+    shopkeeper::onCreate();
+    profit_buy = 1;
+    profit_sell = 100;
+    open_hour = 0;
+    close_hour = 23;
+    buy_type = [[ "treasure", "food" ]];
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC()
+         && timeHour() >= this.open_hour && timeHour() <= this.close_hour 
+         && !act.isNPC() ) {
+      `wave
+      `say Hey there ... wanna buy some fish? Maybe a good luck charm or a ring?
+    }
+  }
+}
+
+class mob21839 extends Mob {
+  onPulseMobile() {
+    if ( chance(5) ) {
+      `drink ale
+      `hiccup
+    }
+  }
+}
+
+class mob21840 extends specFido {
+  onPulseMobile() {
+    if ( chance(5) )
+      `emote woof
+    specFido::onPulseMobile();
+  }
+}
+
+class mob21842 extends Mob {
+  onGreet( act, from ) {
+    if ( chance(11) && !act.isNPC() ) {
+      `smile
+      `say Hello, how are you?
+      `emote goes back to her shopping.
+    }
+  }
+}

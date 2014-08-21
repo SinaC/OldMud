@@ -1,0 +1,1291 @@
+AreaState 'The Port of Caergoth' {
+  Room 21800 {
+    Repop = 28;
+    Mobile 21823 {
+      Ptr = 184092376;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 1410 ),  ( 285 ),  ( 100 ),  ( 279 ) );
+      Gold = 3;
+      Silver = 108;
+      Room = 21800;
+      Affect = ( 'protection good', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+      Obj 21882 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 21801 {
+    Repop = 28;
+    Mobile 21824 {
+      Ptr = 184091792;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 640, 620 ),  ( 227 ),  ( 100 ),  ( 182 ) );
+      Gold = 5;
+      Silver = 104;
+      Room = 21801;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21864 {
+        WearLoc = 'arms';
+      }
+      Obj 21858 {
+        WearLoc = 'shield';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21802 {
+    Repop = 28;
+  }
+  Room 21803 {
+    Repop = 28;
+  }
+  Room 21804 {
+    Repop = 28;
+    Mobile 21838 {
+      Ptr = 184091208;
+      HMVP = (  ( 1034 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 21804;
+      ExField = ( 'base_wealth', 'int', -1, 0 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('treasure','food') );
+      ExField = ( 'profit_sell', 'int', -1, 100 );
+      ExField = ( 'profit_buy', 'int', -1, 1 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 21862 {
+      }
+      Obj 21893 {
+      }
+    }
+    Obj 21814 {
+    }
+  }
+  Room 21805 {
+    Repop = 28;
+    Mobile 21824 {
+      Ptr = 184090624;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 624, 604 ),  ( 243 ),  ( 100 ),  ( 229 ) );
+      Gold = 2;
+      Silver = 175;
+      Room = 21805;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21859 {
+        WearLoc = 'feet';
+      }
+      Obj 21858 {
+        WearLoc = 'shield';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21806 {
+    Repop = 28;
+    Mobile 21840 {
+      Ptr = 184102320;
+      Sex = 'male';
+      HMVP = (  ( 49 ),  ( 119 ),  ( 100 ),  ( 119 ) );
+      Room = 21806;
+      Obj 21901 {
+      }
+    }
+  }
+  Room 21807 {
+    Repop = 28;
+  }
+  Room 21808 {
+    Repop = 28;
+    Mobile 21824 {
+      Ptr = 184101736;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 642, 612 ),  ( 228 ),  ( 100 ),  ( 227 ) );
+      Gold = 3;
+      Silver = 43;
+      Room = 21808;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21858 {
+        WearLoc = 'shield';
+      }
+      Obj 21863 {
+        WearLoc = 'waist';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21809 {
+    Repop = 28;
+    Mobile 21805 {
+      Ptr = 184101152;
+      HMVP = (  ( 1053 ),  ( 152 ),  ( 100 ),  ( 0 ) );
+      Room = 21809;
+      ExField = ( 'chance', 'int', -1, 15 );
+      ExField = ( 'automaticSpell', 'list', -1, ('armor','bless','cure blindness','cure light','cure poison','refresh','cure disease') );
+      ExField = ( 'spell', 'list', -1, ('cure light','cure serious','cure critical','heal','cure blindness','cure disease','cure poison','remove curse','refresh','black lotus','regain power') );
+      ExField = ( 'cost', 'list', -1, (1000,1500,2500,5000,2000,1500,2500,5000,500,1000,1000) );
+      ExField = ( 'keyword', 'list', -1, ('light','serious','critic','heal','blind','disease','poison','uncurse','refresh','mana','psp') );
+    }
+    Obj 21823 {
+    }
+    Obj 21824 {
+    }
+  }
+  Room 21810 {
+    Repop = 28;
+    Mobile 21827 {
+      Ptr = 184100568;
+      Sex = 'female';
+      HMVP = (  ( 103 ),  ( 159 ),  ( 100 ),  ( 132 ) );
+      Silver = 61;
+      Room = 21810;
+    }
+  }
+  Room 21811 {
+    Repop = 28;
+  }
+  Room 21812 {
+    Repop = 28;
+  }
+  Room 21813 {
+    Repop = 28;
+  }
+  Room 21814 {
+    Repop = 28;
+  }
+  Room 21815 {
+    Repop = 28;
+  }
+  Room 21816 {
+    Repop = 28;
+    Mobile 21834 {
+      Ptr = 184099984;
+      HMVP = (  ( 73 ),  ( 129 ),  ( 100 ),  ( 131 ) );
+      Silver = 7;
+      Room = 21816;
+      Obj 21883 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 21817 {
+    Repop = 28;
+    Mobile 21841 {
+      Ptr = 184099400;
+      HMVP = (  ( 214 ),  ( 176 ),  ( 100 ),  ( 158 ) );
+      Gold = 1;
+      Silver = 117;
+      Room = 21817;
+    }
+  }
+  Room 21818 {
+    Repop = 28;
+  }
+  Room 21819 {
+    Repop = 28;
+    Mobile 21841 {
+      Ptr = 184098816;
+      HMVP = (  ( 221 ),  ( 170 ),  ( 100 ),  ( 189 ) );
+      Gold = 2;
+      Silver = 24;
+      Room = 21819;
+      Obj 21898 {
+        WearLoc = 'rwrist';
+      }
+    }
+  }
+  Room 21820 {
+    Repop = 28;
+    Mobile 21834 {
+      Ptr = 184109928;
+      HMVP = (  ( 72 ),  ( 124 ),  ( 100 ),  ( 122 ) );
+      Silver = 4;
+      Room = 21820;
+      Obj 21883 {
+        WearLoc = 'hold';
+      }
+    }
+    Mobile 21824 {
+      Ptr = 184110512;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 618 ),  ( 216 ),  ( 100 ),  ( 229 ) );
+      Gold = 1;
+      Silver = 229;
+      Room = 21820;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21859 {
+        WearLoc = 'feet';
+      }
+      Obj 21864 {
+        WearLoc = 'arms';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21821 {
+    Repop = 28;
+    Mobile 21824 {
+      Ptr = 184109344;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 645, 625 ),  ( 193 ),  ( 100 ),  ( 227 ) );
+      Gold = 3;
+      Silver = 93;
+      Room = 21821;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21858 {
+        WearLoc = 'shield';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21822 {
+    Repop = 28;
+  }
+  Room 21823 {
+    Repop = 28;
+  }
+  Room 21824 {
+    Repop = 28;
+    Mobile 21827 {
+      Ptr = 184108760;
+      Sex = 'male';
+      HMVP = (  ( 105 ),  ( 147 ),  ( 100 ),  ( 144 ) );
+      Silver = 31;
+      Room = 21824;
+      Obj 21815 {
+      }
+      Obj 21815 {
+      }
+    }
+  }
+  Room 21825 {
+    Repop = 28;
+    Mobile 21801 {
+      Ptr = 184108176;
+      HMVP = (  ( 1058 ),  ( 61 ),  ( 100 ),  ( 0 ) );
+      Gold = 344;
+      Silver = 17564;
+      Room = 21825;
+      ExField = ( 'base_wealth', 'int', -1, 51964 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('food') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      Obj 21804 {
+      }
+      Obj 21805 {
+      }
+      Obj 21806 {
+      }
+      Obj 21807 {
+      }
+    }
+    Obj 21887 {
+    }
+  }
+  Room 21826 {
+    Repop = 28;
+    Mobile 21842 {
+      Ptr = 184107008;
+      HMVP = (  ( 82 ),  ( 126 ),  ( 100 ),  ( 135 ) );
+      Room = 21826;
+    }
+    Mobile 21800 {
+      Ptr = 184107592;
+      AfBy = ('none');
+      HMVP = (  ( 3459 ),  ( 341 ),  ( 100 ),  ( 295 ) );
+      Gold = 674;
+      Silver = 38954;
+      Room = 21826;
+      Affect = ( 'protection good', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      ExField = ( 'base_wealth', 'int', -1, 106354 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('food') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      Obj 21800 {
+      }
+      Obj 21801 {
+      }
+      Obj 21802 {
+      }
+      Obj 21803 {
+      }
+    }
+    Obj 21885 {
+    }
+    Obj 21886 {
+    }
+  }
+  Room 21827 {
+    Repop = 28;
+    Mobile 21842 {
+      Ptr = 184122216;
+      HMVP = (  ( 82 ),  ( 137 ),  ( 100 ),  ( 141 ) );
+      Room = 21827;
+    }
+    Mobile 21803 {
+      Ptr = 184122800;
+      HMVP = (  ( 1061 ),  ( 58 ),  ( 100 ),  ( 0 ) );
+      Gold = 313;
+      Silver = 20634;
+      Room = 21827;
+      ExField = ( 'base_wealth', 'int', -1, 51934 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('food') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      Obj 21815 {
+      }
+      Obj 21816 {
+      }
+      Obj 21817 {
+      }
+      Obj 21818 {
+      }
+      Obj 21819 {
+      }
+    }
+    Obj 21877 {
+    }
+    Obj 21878 {
+    }
+  }
+  Room 21828 {
+    Repop = 28;
+    Mobile 21842 {
+      Ptr = 184121048;
+      HMVP = (  ( 94, 84 ),  ( 135 ),  ( 100 ),  ( 141 ) );
+      Room = 21828;
+      Obj 21894 {
+        WearLoc = 'lfinger';
+      }
+    }
+    Mobile 21806 {
+      Ptr = 184121632;
+      HMVP = (  ( 132 ),  ( 152 ),  ( 100 ),  ( 0 ) );
+      Gold = 332;
+      Silver = 16474;
+      Room = 21828;
+      ExField = ( 'base_wealth', 'int', -1, 49674 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('light','container','drinkcontainer','map','weapon','treasure','trash') );
+      ExField = ( 'profit_sell', 'int', -1, 200 );
+      ExField = ( 'profit_buy', 'int', -1, 20 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      Obj 21829 {
+      }
+      Obj 21828 {
+      }
+      Obj 21827 {
+      }
+      Obj 21826 {
+      }
+      Obj 21825 {
+      }
+      Obj 21836 {
+      }
+      Obj 21856 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 21829 {
+    Repop = 28;
+    Mobile 21826 {
+      Ptr = 184119880;
+      HMVP = (  ( 301 ),  ( 169 ),  ( 100 ),  ( 200 ) );
+      Silver = 9;
+      Room = 21829;
+      Obj 21897 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 21802 {
+      Ptr = 184120464;
+      HMVP = (  ( 1081 ),  ( 53 ),  ( 100 ),  ( 0 ) );
+      Gold = 334;
+      Silver = 26781;
+      Room = 21829;
+      ExField = ( 'base_wealth', 'int', -1, 60181 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('wand','staff','potion','scrolls','component') );
+      ExField = ( 'profit_sell', 'int', -1, 120 );
+      ExField = ( 'profit_buy', 'int', -1, 80 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      Obj 21808 {
+      }
+      Obj 21809 {
+      }
+      Obj 21810 {
+      }
+      Obj 21812 {
+      }
+      Obj 21811 {
+      }
+      Obj 21813 {
+      }
+      Obj 21891 {
+      }
+    }
+  }
+  Room 21830 {
+    Repop = 28;
+    Mobile 21807 {
+      Ptr = 184119296;
+      HMVP = (  ( 1037 ),  ( 1067 ),  ( 100 ),  ( 0 ) );
+      Gold = 227;
+      Silver = 17962;
+      Room = 21830;
+      ExField = ( 'base_wealth', 'int', -1, 40662 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('pill') );
+      ExField = ( 'profit_sell', 'int', -1, 130 );
+      ExField = ( 'profit_buy', 'int', -1, 60 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      Obj 21830 {
+      }
+      Obj 21831 {
+      }
+      Obj 21832 {
+      }
+      Obj 21834 {
+      }
+      Obj 21835 {
+      }
+      Obj 21833 {
+      }
+      Obj 21889 {
+      }
+    }
+    Obj 21890 {
+    }
+  }
+  Room 21831 {
+    Repop = 28;
+    Mobile 21811 {
+      Ptr = 184135088;
+      HMVP = (  ( 2256 ),  ( 301 ),  ( 100 ),  ( 291 ) );
+      Gold = 372;
+      Silver = 13914;
+      Room = 21831;
+      ExField = ( 'handle_list', 'list', -1, ('packhorse horse','dog','elephant war','kitten') );
+      ExField = ( 'name_list', 'list', -1, ('a packhorse','a dog','a war elephant','a cute kitten') );
+      ExField = ( 'level_list', 'list', -1, (10,5,25,2) );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      ExField = ( 'price_list', 'list', -1, (1000,250,6250,40) );
+      ExField = ( 'vnum_list', 'list', -1, (21809,21810,21812,21813) );
+    }
+    Obj 21877 {
+    }
+  }
+  Room 21832 {
+    Repop = 28;
+    Mobile 21813 {
+      Ptr = 184138600;
+      Desc = '';
+      Act = ('npc', 'pet', 'nopurge');
+      HMVP = (  ( 39 ),  ( 111 ),  ( 100 ),  ( 109 ) );
+      Room = 21832;
+    }
+    Mobile 21812 {
+      Ptr = 184139184;
+      Desc = '';
+      Act = ('npc', 'pet', 'mountable', 'nopurge');
+      HMVP = (  ( 568 ),  ( 211 ),  ( 100 ),  ( 247 ) );
+      Room = 21832;
+    }
+    Mobile 21810 {
+      Ptr = 184131584;
+      Desc = '';
+      Act = ('npc', 'pet', 'nopurge');
+      HMVP = (  ( 71 ),  ( 126 ),  ( 100 ),  ( 127 ) );
+      Room = 21832;
+    }
+    Mobile 21809 {
+      Ptr = 184132168;
+      Desc = '';
+      Sex = 'female';
+      Act = ('npc', 'pet', 'mountable', 'nopurge');
+      HMVP = (  ( 127 ),  ( 138 ),  ( 100 ),  ( 142 ) );
+      Room = 21832;
+    }
+  }
+  Room 21833 {
+    Repop = 28;
+    Mobile 21808 {
+      Ptr = 184138016;
+      HMVP = (  ( 1053 ),  ( 79 ),  ( 100 ),  ( 0 ) );
+      Gold = 574;
+      Silver = 6344;
+      Room = 21833;
+      ExField = ( 'base_wealth', 'int', -1, 63744 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('armor','weapon') );
+      ExField = ( 'profit_sell', 'int', -1, 150 );
+      ExField = ( 'profit_buy', 'int', -1, 50 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      Obj 21822 {
+      }
+      Obj 21838 {
+      }
+      Obj 21839 {
+      }
+      Obj 21840 {
+      }
+      Obj 21841 {
+      }
+      Obj 21843 {
+      }
+      Obj 21844 {
+      }
+      Obj 21842 {
+      }
+      Obj 21837 {
+      }
+      Obj 21845 {
+      }
+      Obj 21847 {
+      }
+    }
+    Obj 21846 {
+    }
+    Obj 21875 {
+    }
+    Obj 21876 {
+    }
+    Obj 21888 {
+    }
+  }
+  Room 21834 {
+    Repop = 28;
+    Mobile 21826 {
+      Ptr = 184137432;
+      HMVP = (  ( 308 ),  ( 199 ),  ( 100 ),  ( 191 ) );
+      Silver = 11;
+      Room = 21834;
+      Obj 21898 {
+        WearLoc = 'rwrist';
+      }
+    }
+  }
+  Room 21835 {
+    Repop = 28;
+  }
+  Room 21836 {
+    Repop = 28;
+    Mobile 21823 {
+      Ptr = 184136848;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 1376 ),  ( 238 ),  ( 100 ),  ( 264 ) );
+      Gold = 5;
+      Silver = 65;
+      Room = 21836;
+      Affect = ( 'protection good', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+      Obj 21882 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 21837 {
+    Repop = 28;
+    Mobile 21840 {
+      Ptr = 184136264;
+      Sex = 'female';
+      HMVP = (  ( 49 ),  ( 117 ),  ( 100 ),  ( 116 ) );
+      Room = 21837;
+      Obj 21901 {
+      }
+    }
+  }
+  Room 21838 {
+    Repop = 28;
+    Mobile 21826 {
+      Ptr = 184151472;
+      HMVP = (  ( 309 ),  ( 187 ),  ( 100 ),  ( 175 ) );
+      Silver = 11;
+      Room = 21838;
+      Obj 21898 {
+        WearLoc = 'lwrist';
+      }
+    }
+    Mobile 21824 {
+      Ptr = 184135680;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 637, 607 ),  ( 221 ),  ( 100 ),  ( 220 ) );
+      Gold = 2;
+      Silver = 317;
+      Room = 21838;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21858 {
+        WearLoc = 'shield';
+      }
+      Obj 21863 {
+        WearLoc = 'waist';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21839 {
+    Repop = 28;
+  }
+  Room 21840 {
+    Repop = 28;
+    Mobile 21839 {
+      Ptr = 184149720;
+      HMVP = (  ( 159 ),  ( 162 ),  ( 100 ),  ( 158 ) );
+      Silver = 15;
+      Room = 21840;
+      Obj 21849 {
+        Values = ( 30, 0, 3, 0, 0 );
+        WearLoc = 'hold';
+      }
+      Obj 21900 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 21826 {
+      Ptr = 184150304;
+      HMVP = (  ( 308 ),  ( 185 ),  ( 100 ),  ( 208 ) );
+      Silver = 15;
+      Room = 21840;
+      Obj 21897 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 21814 {
+      Ptr = 184150888;
+      HMVP = (  ( 1054 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Gold = 269;
+      Silver = 14623;
+      Room = 21840;
+      Obj 21849 {
+      }
+      Obj 21850 {
+      }
+      Obj 21851 {
+      }
+      Obj 21852 {
+      }
+    }
+    Obj 21853 {
+    }
+  }
+  Room 21841 {
+    Repop = 28;
+    Obj 21854 {
+    }
+  }
+  Room 21842 {
+    Repop = 28;
+  }
+  Room 21843 {
+    Repop = 28;
+    Mobile 21840 {
+      Ptr = 184148552;
+      Sex = 'male';
+      HMVP = (  ( 49 ),  ( 125 ),  ( 100 ),  ( 128 ) );
+      Room = 21843;
+      Obj 21901 {
+      }
+    }
+    Mobile 21824 {
+      Ptr = 184149136;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 637, 617 ),  ( 217 ),  ( 100 ),  ( 216 ) );
+      Gold = 1;
+      Silver = 208;
+      Room = 21843;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21864 {
+        WearLoc = 'arms';
+      }
+      Obj 21858 {
+        WearLoc = 'shield';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21844 {
+    Repop = 28;
+    Mobile 21828 {
+      Ptr = 184147968;
+      HMVP = (  ( 275 ),  ( 187 ),  ( 100 ),  ( 186 ) );
+      Silver = 57;
+      Room = 21844;
+      Obj 21902 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 21845 {
+    Repop = 28;
+    Mobile 21828 {
+      Ptr = 184155568;
+      HMVP = (  ( 280 ),  ( 186 ),  ( 100 ),  ( 176 ) );
+      Silver = 43;
+      Room = 21845;
+      Obj 21902 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 21846 {
+    Repop = 28;
+    Mobile 21828 {
+      Ptr = 184154984;
+      HMVP = (  ( 276 ),  ( 192 ),  ( 100 ),  ( 184 ) );
+      Silver = 26;
+      Room = 21846;
+    }
+  }
+  Room 21847 {
+    Repop = 28;
+    Mobile 21828 {
+      Ptr = 184154400;
+      HMVP = (  ( 270 ),  ( 175 ),  ( 100 ),  ( 168 ) );
+      Silver = 39;
+      Room = 21847;
+      Obj 21902 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 21848 {
+    Repop = 28;
+  }
+  Room 21849 {
+    Repop = 28;
+    Mobile 21804 {
+      Ptr = 184153816;
+      HMVP = (  ( 2058 ),  ( 63 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 21849;
+      ExField = ( 'base_wealth', 'int', -1, 6 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('boat','trash') );
+      ExField = ( 'profit_sell', 'int', -1, 160 );
+      ExField = ( 'profit_buy', 'int', -1, 40 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 21820 {
+      }
+      Obj 21821 {
+      }
+    }
+    Obj 21848 {
+    }
+  }
+  Room 21850 {
+    Repop = 28;
+    Mobile 21841 {
+      Ptr = 184152648;
+      HMVP = (  ( 216 ),  ( 163 ),  ( 100 ),  ( 168 ) );
+      Silver = 79;
+      Room = 21850;
+      Obj 21900 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 21828 {
+      Ptr = 184153232;
+      HMVP = (  ( 274 ),  ( 192 ),  ( 100 ),  ( 181 ) );
+      Silver = 58;
+      Room = 21850;
+      Obj 21902 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 21851 {
+    Repop = 28;
+    Mobile 21831 {
+      Ptr = 184152064;
+      HMVP = (  ( 49 ),  ( 132, 117 ),  ( 100 ),  ( 134 ) );
+      Silver = 4;
+      Room = 21851;
+      Obj 21860 {
+        WearLoc = 'hold';
+      }
+    }
+    Obj 21855 {
+    }
+    Obj 21861 {
+      Obj 21862 {
+      }
+      Obj 21862 {
+      }
+      Obj 21862 {
+      }
+      Obj 21862 {
+      }
+      Obj 21862 {
+      }
+    }
+  }
+  Room 21852 {
+    Repop = 28;
+  }
+  Room 21853 {
+    Repop = 28;
+    Mobile 21828 {
+      Ptr = 184163760;
+      HMVP = (  ( 278 ),  ( 166 ),  ( 100 ),  ( 192 ) );
+      Silver = 49;
+      Room = 21853;
+    }
+    Obj 21855 {
+    }
+  }
+  Room 21854 {
+    Repop = 28;
+  }
+  Room 21855 {
+    Repop = 28;
+    Mobile 21828 {
+      Ptr = 184163176;
+      HMVP = (  ( 279 ),  ( 181 ),  ( 100 ),  ( 173 ) );
+      Silver = 52;
+      Room = 21855;
+      Obj 21902 {
+        WearLoc = 'hands';
+      }
+    }
+    Obj 21855 {
+    }
+  }
+  Room 21856 {
+    Repop = 28;
+    Mobile 21827 {
+      Ptr = 184162592;
+      Sex = 'female';
+      HMVP = (  ( 101 ),  ( 132 ),  ( 100 ),  ( 149 ) );
+      Silver = 67;
+      Room = 21856;
+    }
+  }
+  Room 21857 {
+    Repop = 28;
+    Mobile 21824 {
+      Ptr = 184162008;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 642, 612 ),  ( 214 ),  ( 100 ),  ( 226 ) );
+      Gold = 4;
+      Silver = 119;
+      Room = 21857;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 21858 {
+        WearLoc = 'shield';
+      }
+      Obj 21863 {
+        WearLoc = 'waist';
+      }
+      Obj 21857 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 21858 {
+    Repop = 28;
+    Obj 21899 {
+    }
+  }
+  Room 21860 {
+    Repop = 28;
+    Mobile 21817 {
+      Ptr = 184161424;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 737 ),  ( 230 ),  ( 100 ),  ( 250 ) );
+      Silver = 125;
+      Room = 21860;
+      Affect = ( 'protection evil', -1, 22, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 21862 {
+    Repop = 28;
+    Mobile 21815 {
+      Ptr = 184160840;
+      HMVP = (  ( 1071 ),  ( 50 ),  ( 100 ),  ( 0 ) );
+      Room = 21862;
+      Affect = ( 'sanctuary', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 21863 {
+    Repop = 28;
+    Mobile 21816 {
+      Ptr = 184160256;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 745 ),  ( 263 ),  ( 100 ),  ( 261 ) );
+      Gold = 1;
+      Silver = 59;
+      Room = 21863;
+      Affect = ( 'protection evil', -1, 22, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 21864 {
+    Repop = 28;
+  }
+  Room 21865 {
+    Repop = 28;
+    Mobile 21818 {
+      Ptr = 184171952;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 736 ),  ( 229 ),  ( 100 ),  ( 267 ) );
+      Silver = 76;
+      Room = 21865;
+      Affect = ( 'protection evil', -1, 22, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 21866 {
+    Repop = 28;
+    Mobile 21819 {
+      Ptr = 184171368;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'infrared');
+      HMVP = (  ( 1055 ),  ( 76 ),  ( 100 ),  ( 0 ) );
+      Room = 21866;
+      Affect = ( 'protection evil', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 21867 {
+    Repop = 28;
+    Mobile 21820 {
+      Ptr = 184170784;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 516 ),  ( 237 ),  ( 100 ),  ( 257 ) );
+      Gold = 2;
+      Silver = 290;
+      Room = 21867;
+      Affect = ( 'protection evil', -1, 23, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 21868 {
+    Repop = 28;
+    Mobile 21821 {
+      Ptr = 184170200;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'infrared');
+      HMVP = (  ( 1051 ),  ( 61 ),  ( 100 ),  ( 0 ) );
+      Room = 21868;
+      Affect = ( 'protection evil', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 21869 {
+    Repop = 28;
+    Mobile 21822 {
+      Ptr = 184169616;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 61 ),  ( 69 ),  ( 100 ),  ( 0 ) );
+      Gold = 35;
+      Silver = 1084;
+      Room = 21869;
+      Affect = ( 'protection evil', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Obj 21892 {
+    }
+  }
+  Room 21870 {
+    Repop = 28;
+    Mobile 21827 {
+      Ptr = 184169032;
+      Sex = 'male';
+      HMVP = (  ( 104 ),  ( 142 ),  ( 100 ),  ( 148 ) );
+      Silver = 48;
+      Room = 21870;
+    }
+  }
+  Room 21871 {
+    Repop = 28;
+    Mobile 21829 {
+      Ptr = 184168448;
+      HMVP = (  ( 745 ),  ( 241 ),  ( 100 ),  ( 262 ) );
+      Gold = 4;
+      Silver = 119;
+      Room = 21871;
+    }
+  }
+  Room 21872 {
+    Repop = 28;
+    Mobile 21830 {
+      Ptr = 184176048;
+      HMVP = (  ( 49 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 21872;
+      Affect = ( 'sanctuary', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 21873 {
+    Repop = 28;
+  }
+  Room 21874 {
+    Repop = 28;
+  }
+  Room 21875 {
+    Repop = 28;
+  }
+  Room 21876 {
+    Repop = 28;
+    Mobile 21832 {
+      Ptr = 184175464;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'infrared');
+      HMVP = (  ( 3956, 3926 ),  ( 364, 334 ),  ( 100 ),  ( 352 ) );
+      Gold = 16;
+      Silver = 571;
+      Room = 21876;
+      Affect = ( 'protection good', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 21867 {
+        WearLoc = 'lfinger';
+      }
+    }
+    Obj 21881 {
+    }
+  }
+  Room 21877 {
+    Repop = 28;
+    Mobile 21833 {
+      Ptr = 184174880;
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 58 ),  ( 74 ),  ( 100 ),  ( 0 ) );
+      Room = 21877;
+      Affect = ( 'protection evil', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      ExField = ( 'base_wealth', 'int', -1, 0 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('treasure','clothing') );
+      ExField = ( 'profit_sell', 'int', -1, 1000 );
+      ExField = ( 'profit_buy', 'int', -1, 100 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 21870 {
+      }
+      Obj 21871 {
+      }
+      Obj 21872 {
+      }
+      Obj 21873 {
+      }
+      Obj 21874 {
+      }
+    }
+    Obj 21880 {
+    }
+    Obj 21879 {
+    }
+  }
+  Room 21878 {
+    Repop = 28;
+  }
+  Room 21879 {
+    Repop = 28;
+    Mobile 21827 {
+      Ptr = 184174296;
+      Sex = 'female';
+      HMVP = (  ( 105 ),  ( 140 ),  ( 100 ),  ( 155 ) );
+      Silver = 52;
+      Room = 21879;
+    }
+  }
+  Room 21880 {
+    Repop = 28;
+    Mobile 21837 {
+      Ptr = 184173712;
+      HMVP = (  ( 1064 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 21880;
+      ExField = ( 'handle_list', 'list', -1, ('mercenary human','mercenary minotaur') );
+      ExField = ( 'name_list', 'list', -1, ('a human mercenary','a minotaur mercenary') );
+      ExField = ( 'level_list', 'list', -1, (15,21) );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'close_hour', 'int', -1, 20 );
+      ExField = ( 'open_hour', 'int', -1, 5 );
+      ExField = ( 'price_list', 'list', -1, (2250,4410) );
+      ExField = ( 'vnum_list', 'list', -1, (21835,21836) );
+    }
+    Obj 21884 {
+    }
+  }
+  Room 21881 {
+    Repop = 28;
+    Mobile 21836 {
+      Ptr = 184179560;
+      Desc = '';
+      Act = ('npc', 'stay_area', 'pet');
+      HMVP = (  ( 458 ),  ( 213 ),  ( 100 ),  ( 193 ) );
+      Room = 21881;
+    }
+    Mobile 21835 {
+      Ptr = 184180144;
+      Desc = '';
+      Act = ('npc', 'stay_area', 'pet');
+      HMVP = (  ( 286 ),  ( 180 ),  ( 100 ),  ( 186 ) );
+      Room = 21881;
+    }
+  }
+  Room 21882 {
+    Repop = 28;
+    Mobile 21825 {
+      Ptr = 184178976;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'infrared');
+      HMVP = (  ( 4013, 3978 ),  ( 341 ),  ( 100 ),  ( 350 ) );
+      Gold = 15;
+      Silver = 382;
+      Room = 21882;
+      Affect = ( 'protection good', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 21865 {
+        WearLoc = 'body';
+      }
+      Obj 21868 {
+        WearLoc = 'shield';
+      }
+      Obj 21866 {
+        WearLoc = 'wielded';
+      }
+      Obj 21882 {
+        WearLoc = 'hold';
+      }
+      Obj 21863 {
+        WearLoc = 'waist';
+      }
+      Obj 21869 {
+      }
+    }
+  }
+  Room 21883 {
+    Repop = 28;
+  }
+  Room 21884 {
+    Repop = 28;
+    Obj 21895 {
+    }
+    Obj 21896 {
+    }
+  }
+  Room 21885 {
+    Repop = 28;
+    Mobile 21827 {
+      Ptr = 184178392;
+      Sex = 'male';
+      HMVP = (  ( 104 ),  ( 156 ),  ( 100 ),  ( 148 ) );
+      Silver = 41;
+      Room = 21885;
+      Obj 21807 {
+      }
+    }
+  }
+  Room 21886 {
+    Repop = 28;
+  }
+  Room 21887 {
+    Repop = 28;
+  }
+  Room 21888 {
+    Repop = 28;
+  }
+  Room 21889 {
+    Repop = 28;
+    Obj 21832 {
+    }
+  }
+}

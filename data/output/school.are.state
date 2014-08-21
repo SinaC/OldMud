@@ -1,0 +1,503 @@
+AreaState 'mud school' {
+  Room 3700 {
+    Repop = 28;
+  }
+  Room 3701 {
+    Repop = 28;
+    Mobile 3700 {
+      Ptr = 182462752;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3701;
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 3702 {
+    Repop = 28;
+  }
+  Room 3703 {
+    Repop = 28;
+  }
+  Room 3704 {
+    Repop = 28;
+  }
+  Room 3705 {
+    Repop = 28;
+  }
+  Room 3707 {
+    Repop = 28;
+  }
+  Room 3708 {
+    Repop = 28;
+  }
+  Room 3709 {
+    Repop = 28;
+  }
+  Room 3710 {
+    Repop = 1;
+    Mobile 3701 {
+      Ptr = 182462168;
+      HMVP = (  ( 50 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3710;
+    }
+  }
+  Room 3711 {
+    Repop = 28;
+  }
+  Room 3712 {
+    Repop = 1;
+    Mobile 3707 {
+      Ptr = 182461584;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3712;
+      Affect = ( 'sanctuary', -1, 70, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 3713 {
+    Repop = 1;
+    Mobile 3704 {
+      Ptr = 182461000;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 11;
+      Room = 3713;
+      Obj 3707 {
+        WearLoc = 'legs';
+      }
+      Obj 3712 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 3714 {
+    Repop = 1;
+    Mobile 3705 {
+      Ptr = 182460416;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 3714;
+      Obj 3708 {
+        WearLoc = 'feet';
+      }
+      Obj 3713 {
+        WearLoc = 'lwrist';
+      }
+    }
+  }
+  Room 3715 {
+    Repop = 1;
+    Mobile 3703 {
+      Ptr = 182468016;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 3715;
+      Obj 3706 {
+        WearLoc = 'head';
+      }
+      Obj 3711 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 3716 {
+    Repop = 1;
+    Mobile 3702 {
+      Ptr = 182467432;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 3716;
+      Obj 3705 {
+        WearLoc = 'neck1';
+      }
+      Obj 3705 {
+        WearLoc = 'neck2';
+      }
+    }
+  }
+  Room 3717 {
+    Repop = 28;
+  }
+  Room 3718 {
+    Repop = 28;
+    Mobile 3717 {
+      Ptr = 182466848;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3718;
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 3138 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3031 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 3719 {
+    Repop = 28;
+  }
+  Room 3720 {
+    Repop = 1;
+    Mobile 3706 {
+      Ptr = 182466264;
+      HMVP = (  ( 23 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 36;
+      Room = 3720;
+      Obj 3709 {
+        WearLoc = 'hands';
+      }
+      Obj 3710 {
+        WearLoc = 'arms';
+      }
+      Obj 3714 {
+        WearLoc = 'hold';
+      }
+      Obj 3713 {
+        WearLoc = 'lwrist';
+      }
+    }
+  }
+  Room 3721 {
+    Repop = 1;
+    Mobile 3708 {
+      Ptr = 182465096;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3721;
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 3720 {
+      Ptr = 182465680;
+      HMVP = (  ( 35 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 16;
+      Room = 3721;
+      Obj 3715 {
+        WearLoc = 'hold';
+      }
+      Obj 3723 {
+        WearLoc = 'floating';
+      }
+    }
+  }
+  Room 3722 {
+    Repop = 1;
+  }
+  Room 3723 {
+    Repop = 1;
+  }
+  Room 3724 {
+    Repop = 1;
+    Mobile 3713 {
+      Ptr = 194356952;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3724;
+    }
+    Mobile 3713 {
+      Ptr = 192963728;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3724;
+    }
+    Mobile 3713 {
+      Ptr = 181095856;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3724;
+    }
+    Mobile 3713 {
+      Ptr = 180999312;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3724;
+    }
+    Mobile 3713 {
+      Ptr = 182464512;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3724;
+    }
+  }
+  Room 3725 {
+    Repop = 1;
+  }
+  Room 3726 {
+    Repop = 1;
+    Mobile 3712 {
+      Ptr = 184134504;
+      Sex = 'female';
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3726;
+    }
+    Mobile 3712 {
+      Ptr = 180998728;
+      Sex = 'female';
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3726;
+    }
+    Mobile 3712 {
+      Ptr = 182476208;
+      Sex = 'male';
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3726;
+    }
+  }
+  Room 3727 {
+    Repop = 1;
+  }
+  Room 3728 {
+    Repop = 1;
+  }
+  Room 3729 {
+    Repop = 1;
+  }
+  Room 3730 {
+    Repop = 1;
+  }
+  Room 3731 {
+    Repop = 1;
+  }
+  Room 3732 {
+    Repop = 1;
+  }
+  Room 3733 {
+    Repop = 1;
+  }
+  Room 3734 {
+    Repop = 1;
+    Mobile 3709 {
+      Ptr = 192963144;
+      Sex = 'male';
+      HMVP = (  ( 11 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3734;
+    }
+    Mobile 3709 {
+      Ptr = 184133920;
+      Sex = 'female';
+      HMVP = (  ( 11 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3734;
+    }
+    Mobile 3709 {
+      Ptr = 180998144;
+      Sex = 'female';
+      HMVP = (  ( 11 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3734;
+    }
+    Mobile 3709 {
+      Ptr = 182475624;
+      Sex = 'male';
+      HMVP = (  ( 11 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3734;
+    }
+  }
+  Room 3735 {
+    Repop = 1;
+  }
+  Room 3736 {
+    Repop = 1;
+  }
+  Room 3737 {
+    Repop = 1;
+  }
+  Room 3738 {
+    Repop = 1;
+  }
+  Room 3739 {
+    Repop = 1;
+  }
+  Room 3740 {
+    Repop = 1;
+  }
+  Room 3741 {
+    Repop = 1;
+  }
+  Room 3742 {
+    Repop = 1;
+    Mobile 3710 {
+      Ptr = 184133336;
+      Sex = 'male';
+      HMVP = (  ( 23 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3742;
+    }
+    Mobile 3710 {
+      Ptr = 181005744;
+      Sex = 'male';
+      HMVP = (  ( 23 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3742;
+    }
+    Mobile 3710 {
+      Ptr = 182475040;
+      Sex = 'male';
+      HMVP = (  ( 24 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3742;
+    }
+  }
+  Room 3743 {
+    Repop = 1;
+  }
+  Room 3744 {
+    Repop = 1;
+  }
+  Room 3745 {
+    Repop = 1;
+  }
+  Room 3746 {
+    Repop = 1;
+    Mobile 3711 {
+      Ptr = 184132752;
+      Sex = 'female';
+      HMVP = (  ( 35 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3746;
+    }
+    Mobile 3711 {
+      Ptr = 181089424;
+      Sex = 'female';
+      HMVP = (  ( 35 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3746;
+    }
+    Mobile 3711 {
+      Ptr = 182474456;
+      Sex = 'female';
+      HMVP = (  ( 36 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3746;
+    }
+  }
+  Room 3748 {
+    Repop = 1;
+  }
+  Room 3749 {
+    Repop = 1;
+    Mobile 3714 {
+      Ptr = 182473872;
+      HMVP = (  ( 67 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 38;
+      Room = 3749;
+    }
+  }
+  Room 3750 {
+    Repop = 1;
+  }
+  Room 3751 {
+    Repop = 1;
+    Mobile 3715 {
+      Ptr = 181088840;
+      Sex = 'male';
+      HMVP = (  ( 51 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3751;
+    }
+    Mobile 3715 {
+      Ptr = 182473288;
+      Sex = 'female';
+      HMVP = (  ( 50 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3751;
+    }
+  }
+  Room 3752 {
+    Repop = 1;
+  }
+  Room 3753 {
+    Repop = 1;
+  }
+  Room 3754 {
+    Repop = 1;
+    Mobile 3716 {
+      Ptr = 181088256;
+      Sex = 'male';
+      HMVP = (  ( 55 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3754;
+    }
+    Mobile 3716 {
+      Ptr = 182472704;
+      Sex = 'female';
+      HMVP = (  ( 53 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3754;
+    }
+  }
+  Room 3755 {
+    Repop = 1;
+  }
+  Room 3756 {
+    Repop = 1;
+  }
+  Room 3757 {
+    Repop = 28;
+  }
+  Room 3758 {
+    Repop = 28;
+    Mobile 3718 {
+      Ptr = 182480304;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3758;
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 3759 {
+    Repop = 28;
+    Mobile 3719 {
+      Ptr = 182479720;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3759;
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 3760 {
+    Repop = 28;
+  }
+  Room 3761 {
+    Repop = 1;
+    Mobile 3705 {
+      Ptr = 182479136;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 10;
+      Room = 3761;
+      Obj 3708 {
+        WearLoc = 'feet';
+      }
+      Obj 3713 {
+        WearLoc = 'lwrist';
+      }
+    }
+  }
+  Room 3762 {
+    Repop = 1;
+    Mobile 3702 {
+      Ptr = 182478552;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 3762;
+      Obj 3705 {
+        WearLoc = 'neck1';
+      }
+      Obj 3705 {
+        WearLoc = 'neck2';
+      }
+    }
+  }
+  Room 3763 {
+    Repop = 1;
+    Mobile 3703 {
+      Ptr = 182477968;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 3763;
+      Obj 3706 {
+        WearLoc = 'head';
+      }
+      Obj 3711 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 3764 {
+    Repop = 1;
+    Mobile 3704 {
+      Ptr = 182477384;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 3764;
+      Obj 3707 {
+        WearLoc = 'legs';
+      }
+      Obj 3712 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+Player 'Testremort' {
+  Id = 1062614620;
+  Version = 10;
+  LogO = 1062616028;
+  Race = 'human';
+  Sex = 'male';
+  Size = 'medium';
+  DamType = 'punch';
+  Immunities = ('none');
+  Resistances = ('none');
+  Vulnerabilities = ('none');
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+  AfBy = ('none');
+  AfBy2 = ('higher_attributes');
+  Classes = ('druid');
+  Level = 100;
+  Experience = 100000;
+  Act = ('autoexit', 'autotitle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine');
+  Position = 'standing';
+  Attr = ( 10, 10, 12, 10, 10 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = (  ( 20, 821 ),  ( 100, 1136 ),  ( 100, 694 ),  ( 100, 309 ) );
+  Alignment = -750;
+  Etho = 'neutral';
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Room = 3700;
+  Played = 116;
+  Scroll = 24;
+  Prac = 109;
+  Train = 104;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'common';
+  Beacons = ( 0, 0, 0 );
+  God = 'mota';
+  NameAccepted = true;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = 'the Master Druid';
+  Condition = ( 0, 0, 9, 9 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Faction = ( 'notYetClassed', 0 );
+  Pnts = 40;
+  Ability = ( 1, 0, 0, 'spear' );
+  Ability = ( 40, 0, 0, 'staff(weapon)' );
+  Ability = ( 1, 0, 0, 'hide' );
+  Ability = ( 1, 0, 0, 'lore' );
+  Ability = ( 1, 1, 0, 'meditation' );
+  Ability = ( 1, 0, 0, 'staves' );
+  Ability = ( 50, 0, 0, 'recall' );
+  Ability = ( 1, 0, 0, 'blend' );
+  Ability = ( 1, 0, 0, 'riding' );
+  Ability = ( 1, 0, 0, 'shapechange' );
+  Ability = ( 1, 0, 0, 'brew' );
+  Ability = ( 1, 0, 0, 'cancellation' );
+  Ability = ( 1, 0, 0, 'create food' );
+  Ability = ( 1, 0, 0, 'create rose' );
+  Ability = ( 1, 0, 0, 'create spring' );
+  Ability = ( 1, 0, 0, 'create water' );
+  Ability = ( 1, 0, 0, 'dispel magic' );
+  Ability = ( 1, 0, 0, 'pass door' );
+  Ability = ( 1, 0, 0, 'create shelter' );
+  Ability = ( 1, 0, 0, 'nature shield' );
+  Ability = ( 1, 0, 0, 'detect lycanthropy' );
+  Group = 'rom basics';
+  Group = 'druid basics';
+  Group = 'druid default';
+  Group = 'druidic';
+  Gset = 1;
+  Security = 0;
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3718 {
+    WearLoc = 'wielded';
+  }
+  Obj 3162 {
+  }
+}

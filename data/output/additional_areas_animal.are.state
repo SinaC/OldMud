@@ -1,0 +1,962 @@
+AreaState 'Animaland' {
+  Room 20100 {
+    Repop = 28;
+  }
+  Room 20101 {
+    Repop = 28;
+    Mobile 20100 {
+      Ptr = 183397808;
+      HMVP = (  ( 421, 351 ),  ( 196 ),  ( 150, 100 ),  ( 195 ) );
+      Silver = 7;
+      Room = 20101;
+      Affect = ( 'sanctuary', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20206 {
+      }
+      Obj 20207 {
+        WearLoc = 'body';
+      }
+      Obj 20208 {
+      }
+      Obj 20209 {
+        WearLoc = 'lwrist';
+      }
+      Obj 20209 {
+        WearLoc = 'rwrist';
+      }
+      Obj 20210 {
+        WearLoc = 'legs';
+      }
+      Obj 20211 {
+      }
+      Obj 20211 {
+      }
+      Obj 20213 {
+        WearLoc = 'about';
+      }
+      Obj 20214 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 20102 {
+    Repop = 28;
+  }
+  Room 20103 {
+    Repop = 28;
+  }
+  Room 20104 {
+    Repop = 28;
+  }
+  Room 20105 {
+    Repop = 28;
+  }
+  Room 20106 {
+    Repop = 28;
+    Mobile 20102 {
+      Ptr = 183397224;
+      HMVP = (  ( 73 ),  ( 140 ),  ( 100 ),  ( 130 ) );
+      Room = 20106;
+      Obj 20216 {
+        WearLoc = 'head';
+      }
+      Obj 20201 {
+        WearLoc = 'legs';
+      }
+      Obj 20215 {
+      }
+    }
+    Obj 20230 {
+    }
+    Obj 20227 {
+    }
+  }
+  Room 20107 {
+    Repop = 28;
+  }
+  Room 20108 {
+    Repop = 28;
+    Mobile 20103 {
+      Ptr = 183396640;
+      HMVP = (  ( 94 ),  ( 155 ),  ( 100 ),  ( 125 ) );
+      Room = 20108;
+      Obj 20216 {
+        WearLoc = 'head';
+      }
+      Obj 20201 {
+        WearLoc = 'legs';
+      }
+      Obj 20215 {
+      }
+    }
+    Obj 20230 {
+    }
+    Obj 20229 {
+    }
+  }
+  Room 20109 {
+    Repop = 28;
+  }
+  Room 20110 {
+    Repop = 28;
+    Mobile 20104 {
+      Ptr = 183396056;
+      HMVP = (  ( 83 ),  ( 141 ),  ( 100 ),  ( 143 ) );
+      Room = 20110;
+      Obj 20216 {
+      }
+      Obj 20201 {
+        WearLoc = 'legs';
+      }
+      Obj 20215 {
+      }
+    }
+    Obj 20230 {
+    }
+    Obj 20228 {
+    }
+  }
+  Room 20111 {
+    Repop = 28;
+  }
+  Room 20112 {
+    Repop = 28;
+    Mobile 20111 {
+      Ptr = 183395472;
+      HMVP = (  ( 262 ),  ( 175 ),  ( 175, 100 ),  ( 186 ) );
+      Silver = 2;
+      Room = 20112;
+      Affect = ( 'sanctuary', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20193 {
+      }
+      Obj 20194 {
+        WearLoc = 'head';
+      }
+      Obj 20195 {
+        WearLoc = 'legs';
+      }
+      Obj 20196 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 20113 {
+    Repop = 28;
+    Obj 20223 {
+    }
+    Obj 20224 {
+    }
+  }
+  Room 20114 {
+    Repop = 28;
+    Mobile 20137 {
+      Ptr = 183394888;
+      HMVP = (  ( 235 ),  ( 171 ),  ( 100 ),  ( 176 ) );
+      Room = 20114;
+      Obj 20119 {
+      }
+    }
+  }
+  Room 20115 {
+    Repop = 28;
+  }
+  Room 20116 {
+    Repop = 28;
+    Mobile 20101 {
+      Ptr = 183394304;
+      HMVP = (  ( 176 ),  ( 148 ),  ( 100 ),  ( 173 ) );
+      Room = 20116;
+      Obj 20212 {
+      }
+    }
+    Obj 20205 {
+    }
+  }
+  Room 20117 {
+    Repop = 28;
+  }
+  Room 20118 {
+    Repop = 28;
+    Mobile 20113 {
+      Ptr = 183410096;
+      HMVP = (  ( 120 ),  ( 147 ),  ( 100 ),  ( 136 ) );
+      Room = 20118;
+      Affect = ( 'sanctuary', -1, 9, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20182 {
+        WearLoc = 'body';
+      }
+      Obj 20183 {
+      }
+      Obj 20225 {
+      }
+    }
+  }
+  Room 20119 {
+    Repop = 28;
+  }
+  Room 20120 {
+    Repop = 28;
+  }
+  Room 20121 {
+    Repop = 28;
+  }
+  Room 20122 {
+    Repop = 28;
+  }
+  Room 20123 {
+    Repop = 28;
+    Obj 20184 {
+    }
+    Obj 20190 {
+    }
+    Obj 20191 {
+      Obj 20189 {
+      }
+    }
+    Obj 20192 {
+    }
+  }
+  Room 20124 {
+    Repop = 28;
+    Mobile 20112 {
+      Ptr = 183409512;
+      HMVP = (  ( 403, 383 ),  ( 263, 198 ),  ( 100 ),  ( 186 ) );
+      Room = 20124;
+      Affect = ( 'sanctuary', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20185 {
+        WearLoc = 'about';
+      }
+      Obj 20186 {
+        WearLoc = 'head';
+      }
+      Obj 20187 {
+        WearLoc = 'body';
+      }
+      Obj 20188 {
+      }
+    }
+    Obj 20199 {
+    }
+  }
+  Room 20125 {
+    Repop = 28;
+  }
+  Room 20126 {
+    Repop = 28;
+    Mobile 20110 {
+      Ptr = 183408344;
+      HMVP = (  ( 53 ),  ( 135 ),  ( 100 ),  ( 134 ) );
+      Room = 20126;
+      Obj 20197 {
+        WearLoc = 'body';
+      }
+      Obj 20198 {
+      }
+      Obj 20200 {
+      }
+    }
+    Mobile 20109 {
+      Ptr = 183408928;
+      HMVP = (  ( 54 ),  ( 130 ),  ( 100 ),  ( 128 ) );
+      Room = 20126;
+      Obj 20197 {
+        WearLoc = 'body';
+      }
+      Obj 20198 {
+      }
+      Obj 20200 {
+      }
+    }
+  }
+  Room 20127 {
+    Repop = 28;
+    Mobile 20125 {
+      Ptr = 183407760;
+      HMVP = (  ( 134 ),  ( 152 ),  ( 100 ),  ( 154 ) );
+      Room = 20127;
+      Obj 20150 {
+      }
+    }
+  }
+  Room 20128 {
+    Repop = 28;
+    Mobile 20130 {
+      Ptr = 183407176;
+      HMVP = (  ( 89 ),  ( 139 ),  ( 150, 100 ),  ( 141 ) );
+      Room = 20128;
+      Obj 20155 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 20129 {
+    Repop = 28;
+  }
+  Room 20130 {
+    Repop = 28;
+    Mobile 20124 {
+      Ptr = 183418288;
+      HMVP = (  ( 157 ),  ( 155 ),  ( 100 ),  ( 170 ) );
+      Room = 20130;
+      Obj 20149 {
+      }
+    }
+    Mobile 20128 {
+      Ptr = 183406592;
+      HMVP = (  ( 213, 198 ),  ( 186 ),  ( 100 ),  ( 189 ) );
+      Silver = 3;
+      Room = 20130;
+      Obj 20153 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 20131 {
+    Repop = 28;
+    Mobile 20129 {
+      Ptr = 183417704;
+      HMVP = (  ( 153 ),  ( 172 ),  ( 100 ),  ( 173 ) );
+      Room = 20131;
+      Obj 20154 {
+      }
+    }
+  }
+  Room 20132 {
+    Repop = 28;
+    Mobile 20127 {
+      Ptr = 183416536;
+      HMVP = (  ( 193 ),  ( 156 ),  ( 100 ),  ( 163 ) );
+      Room = 20132;
+    }
+    Mobile 20126 {
+      Ptr = 183417120;
+      HMVP = (  ( 91 ),  ( 165 ),  ( 100 ),  ( 144 ) );
+      Room = 20132;
+      Obj 20151 {
+      }
+    }
+    Obj 20152 {
+    }
+  }
+  Room 20133 {
+    Repop = 28;
+  }
+  Room 20134 {
+    Repop = 28;
+  }
+  Room 20135 {
+    Repop = 28;
+  }
+  Room 20136 {
+    Repop = 28;
+  }
+  Room 20137 {
+    Repop = 28;
+    Mobile 20116 {
+      Ptr = 183414784;
+      HMVP = (  ( 679 ),  ( 283 ),  ( 100 ),  ( 262 ) );
+      Silver = 7;
+      Room = 20137;
+      Obj 20129 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 20130 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 20131 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 20132 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 20133 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 20132 {
+      Ptr = 183415368;
+      HMVP = (  ( 73 ),  ( 141 ),  ( 100 ),  ( 138 ) );
+      Room = 20137;
+    }
+    Mobile 20131 {
+      Ptr = 183415952;
+      HMVP = (  ( 69 ),  ( 135 ),  ( 50, 100 ),  ( 127 ) );
+      Room = 20137;
+      Obj 20137 {
+      }
+      Obj 20138 {
+        WearLoc = 'feet';
+      }
+      Obj 20139 {
+      }
+      Obj 20140 {
+      }
+      Obj 20219 {
+      }
+    }
+    Obj 20136 {
+    }
+    Obj 20135 {
+      Obj 20134 {
+      }
+    }
+    Obj 20219 {
+    }
+  }
+  Room 20138 {
+    Repop = 28;
+    Mobile 20115 {
+      Ptr = 183426480;
+      HMVP = (  ( 702 ),  ( 242 ),  ( 100 ),  ( 275 ) );
+      Silver = 4;
+      Room = 20138;
+    }
+    Obj 20217 {
+    }
+    Obj 20218 {
+    }
+  }
+  Room 20139 {
+    Repop = 28;
+  }
+  Room 20140 {
+    Repop = 28;
+  }
+  Room 20141 {
+    Repop = 28;
+    Mobile 20114 {
+      Ptr = 183425896;
+      HMVP = (  ( 668 ),  ( 301 ),  ( 100 ),  ( 248 ) );
+      Silver = 3;
+      Room = 20141;
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 20142 {
+    Repop = 28;
+  }
+  Room 20143 {
+    Repop = 28;
+  }
+  Room 20144 {
+    Repop = 28;
+    Mobile 20117 {
+      Ptr = 183425312;
+      HMVP = (  ( 52 ),  ( 143, 133 ),  ( 100 ),  ( 141 ) );
+      Room = 20144;
+      Obj 20220 {
+        WearLoc = 'neck1';
+      }
+      Obj 20179 {
+      }
+      Obj 20181 {
+        WearLoc = 'head';
+      }
+      Obj 20180 {
+      }
+    }
+  }
+  Room 20145 {
+    Repop = 28;
+  }
+  Room 20146 {
+    Repop = 28;
+  }
+  Room 20147 {
+    Repop = 28;
+  }
+  Room 20148 {
+    Repop = 28;
+  }
+  Room 20149 {
+    Repop = 28;
+    Mobile 20107 {
+      Ptr = 183423560;
+      HMVP = (  ( 155 ),  ( 156 ),  ( 100 ),  ( 176 ) );
+      Room = 20149;
+      Affect = ( 'sanctuary', -1, 12, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20201 {
+        WearLoc = 'legs';
+      }
+      Obj 20202 {
+        WearLoc = 'head';
+      }
+      Obj 20203 {
+      }
+    }
+    Mobile 20106 {
+      Ptr = 183424144;
+      HMVP = (  ( 103 ),  ( 138 ),  ( 100 ),  ( 163 ) );
+      Room = 20149;
+      Obj 20201 {
+        WearLoc = 'legs';
+      }
+      Obj 20202 {
+        WearLoc = 'head';
+      }
+      Obj 20203 {
+      }
+    }
+    Mobile 20105 {
+      Ptr = 183424728;
+      HMVP = (  ( 88 ),  ( 144 ),  ( 100 ),  ( 145 ) );
+      Room = 20149;
+      Obj 20201 {
+        WearLoc = 'legs';
+      }
+      Obj 20202 {
+        WearLoc = 'head';
+      }
+      Obj 20203 {
+      }
+    }
+  }
+  Room 20150 {
+    Repop = 28;
+    Mobile 20108 {
+      Ptr = 183422976;
+      HMVP = (  ( 195 ),  ( 189 ),  ( 100 ),  ( 147 ) );
+      Room = 20150;
+      Affect = ( 'sanctuary', -1, 12, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20204 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 20151 {
+    Repop = 28;
+    Mobile 20142 {
+      Ptr = 183434672;
+      HMVP = (  ( 139 ),  ( 174, 149 ),  ( 100 ),  ( 166 ) );
+      Room = 20151;
+      Obj 20105 {
+        WearLoc = 'head';
+      }
+      Obj 20101 {
+      }
+      Obj 20103 {
+      }
+      Obj 20104 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 20152 {
+    Repop = 28;
+  }
+  Room 20153 {
+    Repop = 28;
+  }
+  Room 20154 {
+    Repop = 28;
+    Mobile 20118 {
+      Ptr = 183434088;
+      HMVP = (  ( 146 ),  ( 166 ),  ( 100 ),  ( 155 ) );
+      Room = 20154;
+      Affect = ( 'sanctuary', -1, 11, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20172 {
+      }
+      Obj 20173 {
+      }
+      Obj 20174 {
+      }
+      Obj 20175 {
+      }
+      Obj 20176 {
+      }
+      Obj 20177 {
+      }
+      Obj 20178 {
+      }
+    }
+    Obj 20222 {
+    }
+  }
+  Room 20155 {
+    Repop = 28;
+    Obj 20221 {
+    }
+  }
+  Room 20156 {
+    Repop = 28;
+  }
+  Room 20157 {
+    Repop = 28;
+  }
+  Room 20158 {
+    Repop = 28;
+  }
+  Room 20159 {
+    Repop = 28;
+    Mobile 20133 {
+      Ptr = 183433504;
+      HMVP = (  ( 265 ),  ( 215 ),  ( 100 ),  ( 191 ) );
+      Silver = 6;
+      Room = 20159;
+      Obj 20124 {
+        WearLoc = 'body';
+      }
+      Obj 20123 {
+        Obj 20125 {
+        }
+      }
+    }
+  }
+  Room 20160 {
+    Repop = 28;
+  }
+  Room 20161 {
+    Repop = 28;
+    Mobile 20119 {
+      Ptr = 183432920;
+      HMVP = (  ( 280 ),  ( 188 ),  ( 100 ),  ( 186 ) );
+      Silver = 10;
+      Room = 20161;
+      Affect = ( 'sanctuary', -1, 16, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20171 {
+      }
+      Obj 20170 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 20162 {
+    Repop = 28;
+  }
+  Room 20163 {
+    Repop = 28;
+  }
+  Room 20164 {
+    Repop = 28;
+  }
+  Room 20165 {
+    Repop = 28;
+    Mobile 20136 {
+      Ptr = 183432336;
+      HMVP = (  ( 83, 108 ),  ( 147 ),  ( 100 ),  ( 150 ) );
+      Room = 20165;
+      Affect = ( 'sanctuary', -1, 8, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20120 {
+        WearLoc = 'neck1';
+      }
+      Obj 20121 {
+      }
+    }
+  }
+  Room 20166 {
+    Repop = 28;
+  }
+  Room 20167 {
+    Repop = 28;
+    Mobile 20138 {
+      Ptr = 183431752;
+      HMVP = (  ( 1154 ),  ( 349, 324 ),  ( 100 ),  ( 315 ) );
+      Silver = 71;
+      Room = 20167;
+      Obj 20118 {
+        WearLoc = 'neck1';
+      }
+    }
+    Obj 20162 {
+    }
+    Obj 20115 {
+    }
+    Obj 20116 {
+      Obj 20112 {
+      }
+    }
+    Obj 20114 {
+      Obj 20117 {
+      }
+    }
+  }
+  Room 20168 {
+    Repop = 28;
+  }
+  Room 20169 {
+    Repop = 28;
+    Mobile 20139 {
+      Ptr = 183431168;
+      HMVP = (  ( 859 ),  ( 246 ),  ( 100 ),  ( 257 ) );
+      Silver = 30;
+      Room = 20169;
+    }
+  }
+  Room 20170 {
+    Repop = 28;
+  }
+  Room 20171 {
+    Repop = 28;
+  }
+  Room 20172 {
+    Repop = 28;
+  }
+  Room 20173 {
+    Repop = 28;
+    Mobile 20140 {
+      Ptr = 183442864;
+      HMVP = (  ( 316 ),  ( 172 ),  ( 50, 100 ),  ( 212 ) );
+      Room = 20173;
+      Obj 20109 {
+        WearLoc = 'neck1';
+      }
+    }
+    Obj 20110 {
+      Obj 20113 {
+      }
+    }
+    Obj 20111 {
+      Obj 20112 {
+      }
+    }
+  }
+  Room 20174 {
+    Repop = 28;
+  }
+  Room 20175 {
+    Repop = 28;
+    Mobile 20141 {
+      Ptr = 183442280;
+      HMVP = (  ( 545, 510 ),  ( 213 ),  ( 100 ),  ( 248 ) );
+      Silver = 74;
+      Room = 20175;
+      Affect = ( 'sanctuary', -1, 25, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20106 {
+        WearLoc = 'head';
+      }
+      Obj 20107 {
+      }
+      Obj 20108 {
+        WearLoc = 'legs';
+      }
+    }
+  }
+  Room 20176 {
+    Repop = 28;
+    Mobile 20135 {
+      Ptr = 183441696;
+      HMVP = (  ( 234 ),  ( 206 ),  ( 100 ),  ( 156 ) );
+      Room = 20176;
+      Affect = ( 'sanctuary', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20121 {
+      }
+      Obj 20122 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 20177 {
+    Repop = 28;
+  }
+  Room 20178 {
+    Repop = 28;
+  }
+  Room 20179 {
+    Repop = 28;
+    Mobile 20134 {
+      Ptr = 183441112;
+      HMVP = (  ( 197 ),  ( 166 ),  ( 100 ),  ( 160 ) );
+      Room = 20179;
+      Obj 20126 {
+      }
+      Obj 20127 {
+      }
+    }
+  }
+  Room 20180 {
+    Repop = 28;
+  }
+  Room 20181 {
+    Repop = 28;
+    Mobile 20135 {
+      Ptr = 183440528;
+      HMVP = (  ( 274 ),  ( 189 ),  ( 100 ),  ( 200 ) );
+      Room = 20181;
+      Affect = ( 'sanctuary', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 20182 {
+    Repop = 28;
+  }
+  Room 20183 {
+    Repop = 28;
+    Mobile 20123 {
+      Ptr = 183439944;
+      HMVP = (  ( 225 ),  ( 187 ),  ( 100 ),  ( 176 ) );
+      Silver = 34;
+      Room = 20183;
+      Affect = ( 'sanctuary', -1, 14, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20162 {
+        WearLoc = 'head';
+      }
+      Obj 20163 {
+      }
+      Obj 20165 {
+      }
+    }
+    Obj 20164 {
+    }
+  }
+  Room 20184 {
+    Repop = 28;
+  }
+  Room 20185 {
+    Repop = 28;
+    Mobile 20121 {
+      Ptr = 183439360;
+      HMVP = (  ( 193 ),  ( 152 ),  ( 100 ),  ( 173 ) );
+      Silver = 32;
+      Room = 20185;
+      Affect = ( 'sanctuary', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20157 {
+      }
+      Obj 20158 {
+        WearLoc = 'about';
+      }
+      Obj 20159 {
+      }
+      Obj 20160 {
+      }
+      Obj 20161 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 20186 {
+    Repop = 28;
+  }
+  Room 20187 {
+    Repop = 28;
+  }
+  Room 20188 {
+    Repop = 28;
+  }
+  Room 20189 {
+    Repop = 28;
+  }
+  Room 20190 {
+    Repop = 28;
+  }
+  Room 20191 {
+    Repop = 28;
+  }
+  Room 20192 {
+    Repop = 28;
+  }
+  Room 20193 {
+    Repop = 28;
+  }
+  Room 20194 {
+    Repop = 28;
+    Mobile 20120 {
+      Ptr = 183455152;
+      HMVP = (  ( 385 ),  ( 194 ),  ( 100 ),  ( 191 ) );
+      Silver = 23;
+      Room = 20194;
+      Affect = ( 'sanctuary', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20168 {
+      }
+    }
+  }
+  Room 20195 {
+    Repop = 28;
+    Mobile 20142 {
+      Ptr = 183454568;
+      HMVP = (  ( 185, 165 ),  ( 154 ),  ( 100 ),  ( 177 ) );
+      Room = 20195;
+      Obj 20101 {
+      }
+      Obj 20102 {
+        WearLoc = 'head';
+      }
+      Obj 20103 {
+      }
+      Obj 20104 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 20196 {
+    Repop = 28;
+    Mobile 20142 {
+      Ptr = 183453984;
+      HMVP = (  ( 162, 142 ),  ( 159 ),  ( 100 ),  ( 165 ) );
+      Room = 20196;
+      Obj 20101 {
+      }
+      Obj 20102 {
+        WearLoc = 'head';
+      }
+      Obj 20103 {
+      }
+      Obj 20104 {
+        WearLoc = 'waist';
+      }
+    }
+    Obj 20166 {
+      Obj 20167 {
+      }
+      Obj 20169 {
+      }
+    }
+  }
+  Room 20197 {
+    Repop = 28;
+    Mobile 20143 {
+      Ptr = 183453400;
+      HMVP = (  ( 315 ),  ( 186 ),  ( 100 ),  ( 179 ) );
+      Silver = 5;
+      Room = 20197;
+      Obj 20100 {
+      }
+      Obj 20100 {
+      }
+    }
+  }
+  Room 20198 {
+    Repop = 28;
+  }
+  Room 20199 {
+    Repop = 28;
+    Mobile 20122 {
+      Ptr = 183452816;
+      HMVP = (  ( 374, 354 ),  ( 211 ),  ( 150, 100 ),  ( 196 ) );
+      Room = 20199;
+      Obj 20141 {
+        WearLoc = 'head';
+      }
+      Obj 20148 {
+        WearLoc = 'neck1';
+      }
+      Obj 20143 {
+      }
+      Obj 20147 {
+      }
+      Obj 20156 {
+      }
+    }
+    Obj 20142 {
+    }
+    Obj 20144 {
+      Obj 20145 {
+      }
+      Obj 20146 {
+      }
+    }
+  }
+}

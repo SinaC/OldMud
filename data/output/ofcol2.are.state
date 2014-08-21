@@ -1,0 +1,1468 @@
+AreaState 'New Ofcol' {
+  Room 600 {
+    Repop = 28;
+    Mobile 609 {
+      Ptr = 172084072;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 76 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 600;
+      Affect = ( 'protection evil', -1, 6, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Obj 649 {
+    }
+  }
+  Room 601 {
+    Repop = 28;
+    Mobile 617 {
+      Ptr = 172158384;
+      DamType = 'slash';
+      HMVP = (  ( 67 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 601;
+    }
+    Mobile 601 {
+      Ptr = 172082320;
+      DamType = 'slash';
+      AfBy = ('detect_invis', 'sanctuary');
+      HMVP = (  ( 1224, 1144 ),  ( 268, 258 ),  ( 125, 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 9;
+      Room = 601;
+      Affect = ( 'protection evil', -1, 33, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 33, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 639 {
+        WearLoc = 'body';
+      }
+      Obj 640 {
+        WearLoc = 'head';
+      }
+      Obj 641 {
+        WearLoc = 'legs';
+      }
+      Obj 642 {
+        WearLoc = 'feet';
+      }
+      Obj 643 {
+        WearLoc = 'hands';
+      }
+      Obj 644 {
+        WearLoc = 'arms';
+      }
+      Obj 645 {
+        WearLoc = 'shield';
+      }
+      Obj 646 {
+        WearLoc = 'waist';
+      }
+      Obj 647 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 600 {
+      Ptr = 172083488;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 368, 348 ),  ( 147 ),  ( 100 ),  ( 0 ) );
+      Silver = 74;
+      Room = 601;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 624 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 602 {
+    Repop = 28;
+  }
+  Room 603 {
+    Repop = 28;
+    Mobile 604 {
+      Ptr = 172194080;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 883 ),  ( 169 ),  ( 100 ),  ( 0 ) );
+      Gold = 24;
+      Silver = 808;
+      Room = 603;
+      Affect = ( 'protection evil', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 600 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 601 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 615 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 667 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 604 {
+    Repop = 28;
+    Mobile 605 {
+      Ptr = 172192912;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 875 ),  ( 181 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 434;
+      Room = 604;
+      Affect = ( 'protection evil', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 616 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 617 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 618 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 619 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 600 {
+      Ptr = 172193496;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 374, 354 ),  ( 147 ),  ( 100 ),  ( 0 ) );
+      Silver = 38;
+      Room = 604;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 623 {
+        WearLoc = 'legs';
+      }
+    }
+  }
+  Room 605 {
+    Repop = 28;
+  }
+  Room 606 {
+    Repop = 28;
+    Mobile 606 {
+      Ptr = 172276584;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 339 ),  ( 146 ),  ( 100 ),  ( 0 ) );
+      Gold = 18;
+      Silver = 41;
+      Room = 606;
+      Affect = ( 'protection evil', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 606 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 607 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 608 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 607 {
+    Repop = 28;
+    Mobile 607 {
+      Ptr = 172276000;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 905 ),  ( 172 ),  ( 100 ),  ( 0 ) );
+      Silver = 161;
+      Room = 607;
+      Affect = ( 'protection evil', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 602 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 603 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 604 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 605 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 608 {
+    Repop = 28;
+    Mobile 600 {
+      Ptr = 172275416;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 373, 353 ),  ( 152 ),  ( 100 ),  ( 0 ) );
+      Silver = 72;
+      Room = 608;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 622 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 609 {
+    Repop = 28;
+    Mobile 624 {
+      Ptr = 172311112;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 186 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Silver = 56;
+      Room = 609;
+      Affect = ( 'protection evil', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Mobile 622 {
+      Ptr = 172311696;
+      DamType = 'pound';
+      HMVP = (  ( 906 ),  ( 184 ),  ( 100 ),  ( 0 ) );
+      Silver = 28;
+      Room = 609;
+      Obj 648 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 649 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 650 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 610 {
+    Repop = 28;
+    Mobile 608 {
+      Ptr = 172310528;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 352 ),  ( 136 ),  ( 100 ),  ( 0 ) );
+      Silver = 125;
+      Room = 610;
+      Affect = ( 'protection evil', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 609 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 610 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 611 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 612 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 613 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 611 {
+    Repop = 28;
+    Mobile 618 {
+      Ptr = 169334488;
+      DamType = 'slash';
+      HMVP = (  ( 70 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 611;
+    }
+  }
+  Room 612 {
+    Repop = 28;
+  }
+  Room 613 {
+    Repop = 28;
+  }
+  Room 614 {
+    Repop = 28;
+  }
+  Room 615 {
+    Repop = 28;
+  }
+  Room 616 {
+    Repop = 28;
+  }
+  Room 617 {
+    Repop = 28;
+    Mobile 610 {
+      Ptr = 169333904;
+      DamType = 'pound';
+      HMVP = (  ( 160 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 617;
+      Obj 601 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 618 {
+    Repop = 28;
+  }
+  Room 619 {
+    Repop = 28;
+    Mobile 612 {
+      Ptr = 169503592;
+      DamType = 'pierce';
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+    Mobile 612 {
+      Ptr = 169504176;
+      DamType = 'slash';
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+    Mobile 612 {
+      Ptr = 169332736;
+      DamType = 'pound';
+      HMVP = (  ( 20 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+    Mobile 612 {
+      Ptr = 169333320;
+      DamType = 'slash';
+      HMVP = (  ( 20 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+  }
+  Room 620 {
+    Repop = 28;
+    Mobile 614 {
+      Ptr = 169587856;
+      DamType = 'pierce';
+      HMVP = (  ( 65 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Room = 620;
+    }
+    Mobile 614 {
+      Ptr = 169588440;
+      DamType = 'pierce';
+      HMVP = (  ( 66 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Room = 620;
+    }
+    Mobile 611 {
+      Ptr = 169589024;
+      DamType = 'slash';
+      HMVP = (  ( 68 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 620;
+      Obj 615 {
+        WearLoc = 'wielded';
+      }
+    }
+    Obj 614 {
+    }
+    Obj 611 {
+    }
+  }
+  Room 621 {
+    Repop = 28;
+  }
+  Room 622 {
+    Repop = 28;
+    Mobile 615 {
+      Ptr = 169683816;
+      DamType = 'pierce';
+      HMVP = (  ( 81 ),  ( 126 ),  ( 100 ),  ( 150 ) );
+      Room = 622;
+    }
+    Mobile 615 {
+      Ptr = 169635248;
+      DamType = 'slash';
+      HMVP = (  ( 82 ),  ( 132 ),  ( 100 ),  ( 146 ) );
+      Room = 622;
+    }
+    Mobile 615 {
+      Ptr = 169586688;
+      DamType = 'slash';
+      HMVP = (  ( 82 ),  ( 133 ),  ( 100 ),  ( 138 ) );
+      Room = 622;
+    }
+    Mobile 615 {
+      Ptr = 169587272;
+      DamType = 'slash';
+      HMVP = (  ( 84 ),  ( 124 ),  ( 100 ),  ( 129 ) );
+      Room = 622;
+    }
+  }
+  Room 623 {
+    Repop = 28;
+    Mobile 613 {
+      Ptr = 169682064;
+      DamType = 'pierce';
+      HMVP = (  ( 67 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Room = 623;
+    }
+    Mobile 613 {
+      Ptr = 169682648;
+      DamType = 'pound';
+      HMVP = (  ( 72 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Room = 623;
+    }
+    Mobile 613 {
+      Ptr = 169683232;
+      DamType = 'slash';
+      HMVP = (  ( 69 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Room = 623;
+    }
+  }
+  Room 624 {
+    Repop = 28;
+    Mobile 616 {
+      Ptr = 169950056;
+      DamType = 'pierce';
+      HMVP = (  ( 53 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+    Mobile 616 {
+      Ptr = 169864624;
+      DamType = 'slash';
+      HMVP = (  ( 57 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+    Mobile 616 {
+      Ptr = 169680896;
+      DamType = 'slash';
+      HMVP = (  ( 51 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+    Mobile 616 {
+      Ptr = 169681480;
+      DamType = 'pound';
+      HMVP = (  ( 51 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+  }
+  Room 625 {
+    Repop = 28;
+  }
+  Room 626 {
+    Repop = 28;
+  }
+  Room 627 {
+    Repop = 28;
+    Mobile 621 {
+      Ptr = 169949472;
+      DamType = 'pound';
+      HMVP = (  ( 66 ),  ( 115 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 627;
+      Obj 665 {
+      }
+      Obj 666 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 628 {
+    Repop = 28;
+  }
+  Room 629 {
+    Repop = 28;
+    Mobile 621 {
+      Ptr = 169948888;
+      DamType = 'slash';
+      HMVP = (  ( 64 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 629;
+      Obj 665 {
+      }
+      Obj 666 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 630 {
+    Repop = 28;
+  }
+  Room 631 {
+    Repop = 28;
+  }
+  Room 632 {
+    Repop = 28;
+  }
+  Room 633 {
+    Repop = 28;
+  }
+  Room 634 {
+    Repop = 28;
+  }
+  Room 635 {
+    Repop = 28;
+    Mobile 620 {
+      Ptr = 169948304;
+      DamType = 'pound';
+      HMVP = (  ( 40 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 635;
+    }
+  }
+  Room 636 {
+    Repop = 28;
+  }
+  Room 637 {
+    Repop = 28;
+    Mobile 618 {
+      Ptr = 170048944;
+      DamType = 'pound';
+      HMVP = (  ( 71 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 637;
+    }
+    Mobile 600 {
+      Ptr = 169996288;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 371, 351 ),  ( 149 ),  ( 100 ),  ( 0 ) );
+      Silver = 39;
+      Room = 637;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 629 {
+        WearLoc = 'lwrist';
+      }
+    }
+  }
+  Room 638 {
+    Repop = 28;
+  }
+  Room 639 {
+    Repop = 28;
+  }
+  Room 640 {
+    Repop = 28;
+  }
+  Room 641 {
+    Repop = 28;
+  }
+  Room 642 {
+    Repop = 28;
+    Mobile 600 {
+      Ptr = 170048360;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 378, 358 ),  ( 147 ),  ( 100 ),  ( 0 ) );
+      Silver = 32;
+      Room = 642;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 626 {
+        WearLoc = 'arms';
+      }
+    }
+  }
+  Room 643 {
+    Repop = 28;
+    Mobile 621 {
+      Ptr = 170047776;
+      DamType = 'pierce';
+      HMVP = (  ( 65 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 643;
+      Obj 665 {
+      }
+      Obj 666 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 644 {
+    Repop = 28;
+  }
+  Room 645 {
+    Repop = 28;
+  }
+  Room 646 {
+    Repop = 28;
+  }
+  Room 647 {
+    Repop = 28;
+    Mobile 600 {
+      Ptr = 170047192;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 367, 347 ),  ( 151 ),  ( 100 ),  ( 0 ) );
+      Silver = 75;
+      Room = 647;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 648 {
+    Repop = 28;
+    Mobile 617 {
+      Ptr = 170147248;
+      DamType = 'pound';
+      HMVP = (  ( 65 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 648;
+    }
+  }
+  Room 649 {
+    Repop = 28;
+  }
+  Room 650 {
+    Repop = 28;
+    Mobile 617 {
+      Ptr = 170146080;
+      DamType = 'pierce';
+      HMVP = (  ( 70 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 650;
+    }
+    Mobile 600 {
+      Ptr = 170146664;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 367, 347 ),  ( 138 ),  ( 100 ),  ( 0 ) );
+      Silver = 73;
+      Room = 650;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 625 {
+        WearLoc = 'hands';
+      }
+    }
+  }
+  Room 651 {
+    Repop = 28;
+  }
+  Room 652 {
+    Repop = 28;
+    Mobile 620 {
+      Ptr = 170145496;
+      DamType = 'pound';
+      HMVP = (  ( 40 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 652;
+    }
+  }
+  Room 653 {
+    Repop = 28;
+  }
+  Room 654 {
+    Repop = 28;
+  }
+  Room 655 {
+    Repop = 28;
+    Mobile 619 {
+      Ptr = 170144912;
+      DamType = 'pierce';
+      HMVP = (  ( 43 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Room = 655;
+    }
+  }
+  Room 656 {
+    Repop = 28;
+  }
+  Room 657 {
+    Repop = 28;
+  }
+  Room 658 {
+    Repop = 28;
+  }
+  Room 659 {
+    Repop = 28;
+  }
+  Room 660 {
+    Repop = 28;
+  }
+  Room 661 {
+    Repop = 28;
+    Mobile 619 {
+      Ptr = 170144328;
+      DamType = 'pound';
+      HMVP = (  ( 43 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Room = 661;
+    }
+  }
+  Room 662 {
+    Repop = 28;
+  }
+  Room 663 {
+    Repop = 28;
+  }
+  Room 664 {
+    Repop = 28;
+  }
+  Room 665 {
+    Repop = 28;
+  }
+  Room 666 {
+    Repop = 28;
+    Mobile 618 {
+      Ptr = 170605416;
+      DamType = 'slash';
+      HMVP = (  ( 65 ),  ( 114 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 666;
+    }
+  }
+  Room 667 {
+    Repop = 28;
+    Mobile 600 {
+      Ptr = 170604832;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 364, 344 ),  ( 141 ),  ( 100 ),  ( 0 ) );
+      Silver = 66;
+      Room = 667;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 628 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 668 {
+    Repop = 28;
+  }
+  Room 669 {
+    Repop = 28;
+    Mobile 628 {
+      Ptr = 170913200;
+      DamType = 'pierce';
+      AfBy = ('invisible', 'sanctuary');
+      HMVP = (  ( 897, 892 ),  ( 190, 180 ),  ( 100 ),  ( 0 ) );
+      Silver = 53;
+      Room = 669;
+      Affect = ( 'protection evil', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 664 {
+        WearLoc = 'about';
+      }
+      Obj 652 {
+        WearLoc = 'neck1';
+      }
+    }
+    Mobile 602 {
+      Ptr = 170604248;
+      DamType = 'pound';
+      AfBy = ('detect_invis', 'sanctuary');
+      HMVP = (  ( 698, 678 ),  ( 235, 205 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 141;
+      Room = 669;
+      Affect = ( 'protection evil', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 631 {
+        WearLoc = 'body';
+      }
+      Obj 653 {
+        WearLoc = 'wielded';
+      }
+      Obj 632 {
+        WearLoc = 'head';
+      }
+      Obj 633 {
+        WearLoc = 'legs';
+      }
+      Obj 634 {
+        WearLoc = 'feet';
+      }
+      Obj 635 {
+        WearLoc = 'hands';
+      }
+      Obj 626 {
+        WearLoc = 'arms';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 628 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 670 {
+    Repop = 28;
+  }
+  Room 671 {
+    Repop = 28;
+  }
+  Room 672 {
+    Repop = 28;
+  }
+  Room 673 {
+    Repop = 28;
+    Mobile 625 {
+      Ptr = 170971136;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 80 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 673;
+      Affect = ( 'protection evil', -1, 6, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 674 {
+    Repop = 28;
+    Mobile 625 {
+      Ptr = 171185296;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 82 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 674;
+      Affect = ( 'protection evil', -1, 6, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 675 {
+    Repop = 28;
+  }
+  Room 676 {
+    Repop = 28;
+    Mobile 633 {
+      Ptr = 171184712;
+      DamType = 'slash';
+      AfBy = ('invisible');
+      HMVP = (  ( 394, 389 ),  ( 149 ),  ( 100 ),  ( 0 ) );
+      Silver = 186;
+      Room = 676;
+      Affect = ( 'protection evil', -1, 21, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 662 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 677 {
+    Repop = 28;
+  }
+  Room 678 {
+    Repop = 28;
+    Mobile 627 {
+      Ptr = 171184128;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 62 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 678;
+      Affect = ( 'protection evil', -1, 5, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 679 {
+    Repop = 28;
+  }
+  Room 680 {
+    Repop = 28;
+  }
+  Room 681 {
+    Repop = 28;
+    Mobile 633 {
+      Ptr = 171236784;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      HMVP = (  ( 384, 379 ),  ( 145 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 29;
+      Room = 681;
+      Affect = ( 'protection evil', -1, 21, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 662 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 682 {
+    Repop = 28;
+    Mobile 626 {
+      Ptr = 171236200;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 87 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 682;
+      Affect = ( 'protection evil', -1, 7, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 683 {
+    Repop = 28;
+    Mobile 626 {
+      Ptr = 171352064;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 95 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 683;
+      Affect = ( 'protection evil', -1, 7, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 684 {
+    Repop = 28;
+  }
+  Room 685 {
+    Repop = 28;
+  }
+  Room 686 {
+    Repop = 28;
+  }
+  Room 687 {
+    Repop = 28;
+  }
+  Room 688 {
+    Repop = 28;
+    Mobile 630 {
+      Ptr = 171563880;
+      DamType = 'slash';
+      AfBy = ('invisible', 'sanctuary');
+      HMVP = (  ( 830, 825 ),  ( 161 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 688;
+      Affect = ( 'protection evil', -1, 29, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 29, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 669 {
+        WearLoc = 'wielded';
+      }
+      Obj 659 {
+        WearLoc = 'arms';
+      }
+      Obj 661 {
+        WearLoc = 'waist';
+      }
+    }
+    Mobile 630 {
+      Ptr = 171564464;
+      DamType = 'pierce';
+      AfBy = ('invisible', 'sanctuary');
+      HMVP = (  ( 816, 811 ),  ( 171 ),  ( 100 ),  ( 0 ) );
+      Silver = 42;
+      Room = 688;
+      Affect = ( 'protection evil', -1, 29, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 29, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 669 {
+        WearLoc = 'wielded';
+      }
+      Obj 657 {
+        WearLoc = 'feet';
+      }
+      Obj 658 {
+        WearLoc = 'hands';
+      }
+    }
+    Mobile 630 {
+      Ptr = 171520000;
+      DamType = 'slash';
+      AfBy = ('invisible', 'sanctuary');
+      HMVP = (  ( 822, 817 ),  ( 177 ),  ( 100 ),  ( 0 ) );
+      Silver = 35;
+      Room = 688;
+      Affect = ( 'protection evil', -1, 29, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 29, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 669 {
+        WearLoc = 'wielded';
+      }
+      Obj 656 {
+        WearLoc = 'head';
+      }
+      Obj 657 {
+        WearLoc = 'feet';
+      }
+    }
+    Mobile 629 {
+      Ptr = 171392432;
+      DamType = 'pierce';
+      AfBy = ('invisible', 'sanctuary');
+      HMVP = (  ( 386 ),  ( 156 ),  ( 100 ),  ( 0 ) );
+      Silver = 62;
+      Room = 688;
+      Affect = ( 'protection evil', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 664 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 689 {
+    Repop = 28;
+  }
+  Room 690 {
+    Repop = 28;
+    Mobile 633 {
+      Ptr = 171563296;
+      DamType = 'pound';
+      AfBy = ('invisible');
+      HMVP = (  ( 398, 393 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 129;
+      Room = 690;
+      Affect = ( 'protection evil', -1, 21, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 662 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 691 {
+    Repop = 28;
+  }
+  Room 692 {
+    Repop = 28;
+  }
+  Room 693 {
+    Repop = 28;
+    Mobile 632 {
+      Ptr = 171561544;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      HMVP = (  ( 357, 352 ),  ( 199 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 73;
+      Room = 693;
+      Affect = ( 'protection evil', -1, 21, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 664 {
+        WearLoc = 'about';
+      }
+    }
+    Mobile 632 {
+      Ptr = 171562128;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      HMVP = (  ( 343, 338 ),  ( 201 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 58;
+      Room = 693;
+      Affect = ( 'protection evil', -1, 21, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 664 {
+        WearLoc = 'about';
+      }
+    }
+    Mobile 631 {
+      Ptr = 171562712;
+      DamType = 'slash';
+      AfBy = ('invisible', 'sanctuary', 'infrared', 'flying');
+      HMVP = (  ( 2388, 2383 ),  ( 219 ),  ( 100 ),  ( 0 ) );
+      Gold = 74;
+      Silver = 52;
+      Room = 693;
+      Affect = ( 'protection evil', -1, 42, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 42, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 668 {
+        WearLoc = 'wielded';
+      }
+      Obj 663 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 694 {
+    Repop = 28;
+  }
+  Room 695 {
+    Repop = 28;
+  }
+  Room 696 {
+    Repop = 28;
+  }
+  Room 697 {
+    Repop = 28;
+  }
+  Room 698 {
+    Repop = 28;
+    Mobile 634 {
+      Ptr = 171965872;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 367, 347 ),  ( 154 ),  ( 100 ),  ( 0 ) );
+      Silver = 73;
+      Room = 698;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 634 {
+      Ptr = 171778632;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 365, 345 ),  ( 143 ),  ( 100 ),  ( 0 ) );
+      Silver = 59;
+      Room = 698;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 634 {
+      Ptr = 171779216;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 365, 345 ),  ( 139 ),  ( 100 ),  ( 0 ) );
+      Silver = 29;
+      Room = 698;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+  }
+  Room 699 {
+    Repop = 28;
+    Mobile 623 {
+      Ptr = 180889888;
+      DamType = 'slash';
+      AfBy = ('none');
+      HMVP = (  ( 370, 350 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 65;
+      Room = 699;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 623 {
+      Ptr = 180890472;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 377, 357 ),  ( 144 ),  ( 100 ),  ( 0 ) );
+      Silver = 30;
+      Room = 699;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 623 {
+      Ptr = 180891056;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 361, 341 ),  ( 143 ),  ( 100 ),  ( 0 ) );
+      Silver = 73;
+      Room = 699;
+      Affect = ( 'protection evil', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 603 {
+      Ptr = 171965288;
+      DamType = 'slash';
+      AfBy = ('detect_invis');
+      HMVP = (  ( 653, 633 ),  ( 266, 236 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 113;
+      Room = 699;
+      Affect = ( 'protection evil', -1, 27, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 631 {
+        WearLoc = 'body';
+      }
+      Obj 653 {
+        WearLoc = 'wielded';
+      }
+      Obj 632 {
+        WearLoc = 'head';
+      }
+      Obj 623 {
+        WearLoc = 'legs';
+      }
+      Obj 624 {
+        WearLoc = 'feet';
+      }
+      Obj 625 {
+        WearLoc = 'hands';
+      }
+      Obj 636 {
+        WearLoc = 'arms';
+      }
+      Obj 637 {
+        WearLoc = 'shield';
+      }
+      Obj 638 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+}

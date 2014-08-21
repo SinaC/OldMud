@@ -1,0 +1,3 @@
+cd player
+rm $(grep -l "Levl 1$" *)
+cd ..

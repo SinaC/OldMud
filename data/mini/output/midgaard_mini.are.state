@@ -1,0 +1,2251 @@
+AreaState 'Midgaard' {
+  Room 3100 {
+    Repop = 1;
+  }
+  Room 3101 {
+    Repop = 1;
+    Obj 3134 {
+    }
+  }
+  Room 3102 {
+    Repop = 1;
+    Obj 3134 {
+    }
+  }
+  Room 3103 {
+    Repop = 1;
+    Obj 3134 {
+    }
+  }
+  Room 3104 {
+    Repop = 1;
+  }
+  Room 3105 {
+    Repop = 1;
+  }
+  Room 3106 {
+    Repop = 1;
+    Mobile 3100 {
+      Ptr = 172153704;
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 146;
+      Room = 3106;
+      ExField = ( 'base_wealth', 'int', -1, 246 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 6 );
+      Obj 3100 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3101 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3102 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 3120 {
+      Ptr = 172068864;
+      isWildMagic = false;
+      HMVP = (  ( 40 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 70;
+      Room = 3106;
+      Obj 3121 {
+      }
+    }
+  }
+  Room 3107 {
+    Repop = 1;
+  }
+  Room 3108 {
+    Repop = 1;
+  }
+  Room 3109 {
+    Repop = 1;
+    Mobile 3123 {
+      Ptr = 172236800;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 9 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3109;
+    }
+    Mobile 3060 {
+      Ptr = 172151952;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 283 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 7;
+      Room = 3109;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3363 {
+        WearLoc = 'rwrist';
+      }
+    }
+  }
+  Room 3110 {
+    Repop = 1;
+  }
+  Room 3111 {
+    Repop = 1;
+    Mobile 3060 {
+      Ptr = 172272488;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 279 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 69;
+      Room = 3111;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3120 {
+      }
+    }
+    Mobile 3060 {
+      Ptr = 172273072;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 286 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 24;
+      Room = 3111;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3363 {
+        WearLoc = 'rwrist';
+      }
+    }
+  }
+  Room 3112 {
+    Repop = 1;
+  }
+  Room 3113 {
+    Repop = 1;
+    Mobile 3124 {
+      Ptr = 172323400;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3113;
+    }
+  }
+  Room 3114 {
+    Repop = 1;
+    Mobile 3121 {
+      Ptr = 172346800;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 14 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3114;
+    }
+    Mobile 3122 {
+      Ptr = 172322816;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 4 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3114;
+    }
+  }
+  Room 3115 {
+    Repop = 1;
+    Mobile 3124 {
+      Ptr = 172343296;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3115;
+    }
+  }
+  Room 3116 {
+    Repop = 1;
+  }
+  Room 3117 {
+    Repop = 1;
+    Mobile 3060 {
+      Ptr = 169379544;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 283 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 108;
+      Room = 3117;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+    }
+  }
+  Room 3118 {
+    Repop = 1;
+  }
+  Room 3119 {
+    Repop = 1;
+  }
+  Room 3120 {
+    Repop = 1;
+    Mobile 3060 {
+      Ptr = 169378376;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 261 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 110;
+      Room = 3120;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+    }
+    Mobile 3144 {
+      Ptr = 169378960;
+      isWildMagic = false;
+      HMVP = (  ( 15 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 8;
+      Room = 3120;
+      Obj 3161 {
+      }
+    }
+  }
+  Room 3121 {
+    Repop = 1;
+  }
+  Room 3122 {
+    Repop = 1;
+  }
+  Room 3123 {
+    Repop = 1;
+  }
+  Room 3124 {
+    Repop = 1;
+  }
+  Room 3125 {
+    Repop = 1;
+    Mobile 3060 {
+      Ptr = 169377792;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 312 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 24;
+      Room = 3125;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+    }
+  }
+  Room 3126 {
+    Repop = 1;
+  }
+  Room 3127 {
+    Repop = 1;
+  }
+  Room 3128 {
+    Repop = 1;
+    Mobile 3005 {
+      Ptr = 169655728;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 114 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 24;
+      Room = 3128;
+      Obj 3351 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3129 {
+    Repop = 1;
+  }
+  Room 3130 {
+    Repop = 1;
+  }
+  Room 3131 {
+    Repop = 1;
+  }
+  Room 3132 {
+    Repop = 1;
+  }
+  Room 3133 {
+    Repop = 1;
+  }
+  Room 3134 {
+    Repop = 1;
+  }
+  Room 3135 {
+    Repop = 1;
+  }
+  Room 3136 {
+    Repop = 1;
+  }
+  Room 3137 {
+    Repop = 1;
+    Mobile 3142 {
+      Ptr = 169655144;
+      isWildMagic = false;
+      HMVP = (  ( 169 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 97;
+      Room = 3137;
+    }
+  }
+  Room 3138 {
+    Repop = 1;
+    Mobile 3143 {
+      Ptr = 169701376;
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 560, 540 ),  ( 220, 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 45;
+      Room = 3138;
+      ExField = ( 'curPos', 'int', -1, 0 );
+      ExField = ( 'curPath', 'int', -1, 0 );
+      ExField = ( 'closePath', 'list', -1, ('1','w','2','w','n','n','w','3','w','w','n','n','n','4','e','e','e','5','n','5','e','e','e','8','w','w','w','w','w','w','8','s','s','4','s','s','s','e','e','s','s','e','s','e','e','e','2','e','7') );
+      ExField = ( 'openPath', 'list', -1, ('1','w','2','w','n','n','w','3','w','w','n','n','n','4','e','e','e','5','n','5','e','e','e','6','w','w','w','w','w','w','6','s','s','4','s','s','s','e','e','s','s','e','s','e','e','e','2','e','7') );
+      Obj 3133 {
+      }
+      Obj 3124 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3069 {
+      Ptr = 169701960;
+      Sex = 'male';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 386 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 85;
+      Room = 3138;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3069 {
+      Ptr = 169653392;
+      Sex = 'male';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 391 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 244;
+      Room = 3138;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3069 {
+      Ptr = 169653976;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 418 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 80;
+      Room = 3138;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3069 {
+      Ptr = 169654560;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 372 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 247;
+      Room = 3138;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3139 {
+    Repop = 1;
+  }
+  Room 3140 {
+    Repop = 1;
+  }
+  Room 3141 {
+    Repop = 1;
+    Obj 3135 {
+    }
+    Obj 3136 {
+    }
+  }
+  Room 3142 {
+    Repop = 1;
+    Mobile 3140 {
+      Ptr = 170037248;
+      isWildMagic = false;
+      HMVP = (  ( 314 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 209;
+      Room = 3142;
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3122 {
+      }
+      Obj 3137 {
+      }
+    }
+    Mobile 3141 {
+      Ptr = 170037832;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 108 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 150;
+      Room = 3142;
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3141 {
+      Ptr = 170010328;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 132 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 56;
+      Room = 3142;
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3141 {
+      Ptr = 170010912;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 114 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 71;
+      Room = 3142;
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3141 {
+      Ptr = 170011496;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 118 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 85;
+      Room = 3142;
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+    }
+    Obj 3130 {
+      Obj 3123 {
+      }
+    }
+    Obj 3131 {
+      Obj 3132 {
+      }
+    }
+  }
+  Room 3143 {
+    Repop = 1;
+  }
+  Room 3144 {
+    Repop = 1;
+  }
+  Room 3150 {
+    Repop = 1;
+    Mobile 3150 {
+      Ptr = 170122672;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 562;
+      Room = 3150;
+      ExField = ( 'base_wealth', 'int', -1, 1262 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer','food') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3154 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3152 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3153 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3151 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3150 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3100 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 3160 {
+    Repop = 1;
+    Mobile 3160 {
+      Ptr = 170119752;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 404;
+      Room = 3160;
+      ExField = ( 'base_wealth', 'int', -1, 1404 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('map') );
+      ExField = ( 'profit_sell', 'int', -1, 100 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3168 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3167 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3166 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3165 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3164 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3163 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3162 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 3161 {
+      Ptr = 170122088;
+      isWildMagic = false;
+      HMVP = (  ( 250 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3160;
+    }
+  }
+  Room 3161 {
+    Repop = 1;
+  }
+  Room 3170 {
+    Repop = 1;
+  }
+  Room 3200 {
+    Repop = 1;
+  }
+  Room 3201 {
+    Repop = 1;
+  }
+  Room 3202 {
+    Repop = 1;
+  }
+  Room 3203 {
+    Repop = 1;
+  }
+  Room 3204 {
+    Repop = 1;
+  }
+  Room 3205 {
+    Repop = 1;
+  }
+  Room 3250 {
+    Repop = 1;
+  }
+  Room 3251 {
+    Repop = 1;
+  }
+  Room 3252 {
+    Repop = 1;
+  }
+  Room 3253 {
+    Repop = 1;
+  }
+  Room 3254 {
+    Repop = 1;
+  }
+  Room 3255 {
+    Repop = 1;
+    Mobile 3071 {
+      Ptr = 170192304;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 307 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 73;
+      Room = 3255;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3361 {
+        WearLoc = 'about';
+      }
+    }
+    Mobile 3071 {
+      Ptr = 170119168;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 269 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 77;
+      Room = 3255;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3362 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 3256 {
+    Repop = 1;
+  }
+  Room 3257 {
+    Repop = 1;
+  }
+  Room 3258 {
+    Repop = 1;
+  }
+  Room 3259 {
+    Repop = 1;
+  }
+  Room 3260 {
+    Repop = 1;
+  }
+  Room 3261 {
+    Repop = 1;
+  }
+  Room 3262 {
+    Repop = 1;
+    Mobile 3072 {
+      Ptr = 170191720;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 301 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 131;
+      Room = 3262;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3354 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 3263 {
+    Repop = 1;
+  }
+  Room 3264 {
+    Repop = 1;
+  }
+  Room 3265 {
+    Repop = 1;
+  }
+  Room 3266 {
+    Repop = 1;
+  }
+  Room 3267 {
+    Repop = 1;
+  }
+  Room 3268 {
+    Repop = 1;
+  }
+  Room 3269 {
+    Repop = 1;
+  }
+  Room 3270 {
+    Repop = 1;
+  }
+  Room 3271 {
+    Repop = 1;
+  }
+  Room 3272 {
+    Repop = 1;
+  }
+  Room 3273 {
+    Repop = 1;
+  }
+  Room 3274 {
+    Repop = 1;
+  }
+  Room 3275 {
+    Repop = 1;
+    Mobile 3275 {
+      Ptr = 170191136;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3275;
+    }
+  }
+  Room 3301 {
+    Repop = 1;
+  }
+  Room 3302 {
+    Repop = 1;
+  }
+  Room 3303 {
+    Repop = 1;
+  }
+  Room 3304 {
+    Repop = 1;
+  }
+  Room 3305 {
+    Repop = 1;
+  }
+  Room 3306 {
+    Repop = 1;
+    Mobile 3306 {
+      Ptr = 170190552;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3306;
+    }
+  }
+  Room 3307 {
+    Repop = 1;
+  }
+  Room 3308 {
+    Repop = 1;
+  }
+  Room 3309 {
+    Repop = 1;
+    Mobile 3309 {
+      Ptr = 170369608;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3309;
+    }
+  }
+  Room 3310 {
+    Repop = 1;
+  }
+  Room 3311 {
+    Repop = 1;
+  }
+  Room 3312 {
+    Repop = 1;
+    Mobile 3312 {
+      Ptr = 170369024;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3312;
+    }
+  }
+  Room 3314 {
+    Repop = 1;
+  }
+  Room 3315 {
+    Repop = 1;
+  }
+  Room 3316 {
+    Repop = 1;
+  }
+  Room 3317 {
+    Repop = 1;
+  }
+  Room 3318 {
+    Repop = 1;
+  }
+  Room 3319 {
+    Repop = 1;
+    Mobile 3319 {
+      Ptr = 170659248;
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3319;
+    }
+  }
+  Room 3320 {
+    Repop = 1;
+  }
+  Room 3321 {
+    Repop = 1;
+  }
+  Room 3322 {
+    Repop = 1;
+    Mobile 3322 {
+      Ptr = 170658664;
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3322;
+    }
+  }
+  Room 3323 {
+    Repop = 1;
+  }
+  Room 3324 {
+    Repop = 1;
+  }
+  Room 3325 {
+    Repop = 1;
+    Mobile 3325 {
+      Ptr = 170658080;
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3325;
+    }
+  }
+  Room 3326 {
+    Repop = 1;
+  }
+  Room 3327 {
+    Repop = 1;
+  }
+  Room 3328 {
+    Repop = 1;
+  }
+  Room 3334 {
+    Repop = 1;
+    Mobile 3162 {
+      Ptr = 170657496;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 272;
+      Room = 3334;
+    }
+  }
+  Room 3352 {
+    Repop = 1;
+    Mobile 3041 {
+      Ptr = 170941288;
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 103;
+      Room = 3352;
+    }
+    Mobile 3041 {
+      Ptr = 170941872;
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 98;
+      Room = 3352;
+    }
+  }
+  Room 3355 {
+    Repop = 1;
+  }
+  Room 3356 {
+    Repop = 1;
+  }
+  Room 3357 {
+    Repop = 1;
+  }
+  Room 3358 {
+    Repop = 1;
+  }
+  Room 3359 {
+    Repop = 1;
+  }
+  Room 3360 {
+    Repop = 1;
+  }
+  Room 3370 {
+    Repop = 1;
+  }
+  Room 3371 {
+    Repop = 1;
+    Mobile 3023 {
+      Ptr = 170999216;
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3371;
+    }
+  }
+  Room 3372 {
+    Repop = 1;
+  }
+  Room 3373 {
+    Repop = 1;
+    Mobile 3022 {
+      Ptr = 170998048;
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3373;
+    }
+  }
+  Room 3374 {
+    Repop = 1;
+  }
+  Room 3375 {
+    Repop = 1;
+    Mobile 3028 {
+      Ptr = 170997464;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3375;
+    }
+  }
+  Room 3390 {
+    Repop = 1;
+  }
+  Room 3001 {
+    Repop = 1;
+    Mobile 3011 {
+      Ptr = 170996880;
+      AfBy = ('detect_evil', 'detect_invis', 'detect_hidden', 'infrared', 'dark_vision');
+      isWildMagic = false;
+      HMVP = (  ( 50001 ),  ( 736 ),  ( 100 ),  ( 0 ) );
+      Gold = 62;
+      Silver = 206;
+      Room = 3001;
+      Obj 3005 {
+        WearLoc = 'wielded';
+      }
+      Obj 3086 {
+        WearLoc = 'hold';
+      }
+      Obj 3086 {
+      }
+    }
+    Obj 3398 {
+    }
+  }
+  Room 3002 {
+    Repop = 1;
+    Mobile 3021 {
+      Ptr = 170996296;
+      AfBy = ('detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'dark_vision');
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3002;
+    }
+  }
+  Room 3003 {
+    Repop = 1;
+    Mobile 3043 {
+      Ptr = 171130288;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 116;
+      Room = 3003;
+      ExField = ( 'base_wealth', 'int', -1, 216 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer') );
+      ExField = ( 'profit_sell', 'int', -1, 150 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3002 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3004 {
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3004 {
+    Repop = 1;
+    Mobile 3025 {
+      Ptr = 171129120;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 500 ),  ( 100 ),  ( 0 ) );
+      Gold = 15;
+      Silver = 830;
+      Room = 3004;
+    }
+    Mobile 3060 {
+      Ptr = 171129704;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 295 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 97;
+      Room = 3004;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3355 {
+        WearLoc = 'neck2';
+      }
+    }
+  }
+  Room 3005 {
+    Repop = 1;
+    Obj 3135 {
+    }
+  }
+  Room 3006 {
+    Repop = 1;
+    Mobile 3061 {
+      Ptr = 171236784;
+      Desc = '';
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 14 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 3006;
+    }
+  }
+  Room 3007 {
+    Repop = 1;
+    Mobile 3040 {
+      Ptr = 171235616;
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 4;
+      Room = 3007;
+      ExField = ( 'base_wealth', 'int', -1, 104 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3000 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3001 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3064 {
+      Ptr = 171236200;
+      isWildMagic = false;
+      HMVP = (  ( 34 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 65;
+      Room = 3007;
+    }
+  }
+  Room 3008 {
+    Repop = 1;
+    Mobile 3164 {
+      Ptr = 171235032;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 586 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 3008;
+    }
+    Obj 3379 {
+    }
+  }
+  Room 3009 {
+    Repop = 1;
+    Mobile 3001 {
+      Ptr = 171234448;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 303;
+      Room = 3009;
+      ExField = ( 'base_wealth', 'int', -1, 603 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('food') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 10 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3009 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3011 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3012 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3013 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3014 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3010 {
+    Repop = 1;
+    Mobile 3002 {
+      Ptr = 171411744;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 773;
+      Room = 3010;
+      ExField = ( 'base_wealth', 'int', -1, 1373 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('light','treasure','trash','container','food') );
+      ExField = ( 'profit_sell', 'int', -1, 150 );
+      ExField = ( 'profit_buy', 'int', -1, 40 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3030 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3031 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3138 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3032 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3033 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3011 {
+    Repop = 1;
+    Mobile 3003 {
+      Ptr = 171411160;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 224024;
+      Silver = 2438678;
+      Room = 3011;
+      ExField = ( 'base_wealth', 'int', -1, 24841078 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('weapon') );
+      ExField = ( 'profit_sell', 'int', -1, 120 );
+      ExField = ( 'profit_buy', 'int', -1, 40 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3020 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3021 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3022 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3023 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3024 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3025 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3026 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3027 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3028 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3029 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+      Obj 3397 {
+        ExtraFlags = ('hum', 'inventory');
+      }
+    }
+  }
+  Room 3012 {
+    Repop = 1;
+    Mobile 3062 {
+      Ptr = 171855280;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 6 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3012;
+    }
+  }
+  Room 3013 {
+    Repop = 1;
+  }
+  Room 3014 {
+    Repop = 1;
+    Mobile 3060 {
+      Ptr = 171854112;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 258 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 40;
+      Room = 3014;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3356 {
+        WearLoc = 'head';
+      }
+    }
+    Mobile 3200 {
+      Ptr = 171854696;
+      Desc = '';
+      AfBy = ('berserk', 'regeneration');
+      isWildMagic = false;
+      HMVP = (  ( 20000 ),  ( 1558 ),  ( 100 ),  ( 0 ) );
+      Gold = 5560;
+      Silver = 107081;
+      Room = 3014;
+      ExField = ( 'objquest', 'list', -1, (32,33,34,35,36,41) );
+      ExField = ( 'rewardList', 'list', -1, (('{yCloak of {rM{gy{bs{mt{ce{yr{ry{x','cloak',40,2500),('{yBreastplate of {rM{gy{bs{mt{ce{yr{ry{x','breastplate',44,2000),('{yRing of {rM{gy{bs{mt{ce{yr{ry{x','ring',27,850),('{yAmulet of {rM{gy{bs{mt{ce{yr{ry{x','amulet',28,750),('{yShield of {rM{gy{bs{mt{ce{yr{ry{x','shield',29,750),('{yDecanter of Endless Water{x','decanter',31,550),('3500 gold pieces{x','gold',0,500),('30{y Practices{x','practice',0,500)) );
+    }
+  }
+  Room 3015 {
+    Repop = 1;
+  }
+  Room 3016 {
+    Repop = 1;
+    Mobile 3062 {
+      Ptr = 171853528;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 9 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3016;
+    }
+  }
+  Room 3017 {
+    Repop = 1;
+    Mobile 3024 {
+      Ptr = 173067696;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 500 ),  ( 100 ),  ( 0 ) );
+      Gold = 22;
+      Silver = 430;
+      Room = 3017;
+    }
+    Mobile 3060 {
+      Ptr = 171852944;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 268 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 80;
+      Room = 3017;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3357 {
+        WearLoc = 'legs';
+      }
+    }
+  }
+  Room 3018 {
+    Repop = 1;
+    Mobile 3042 {
+      Ptr = 173067112;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 109;
+      Room = 3018;
+      ExField = ( 'base_wealth', 'int', -1, 209 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer') );
+      ExField = ( 'profit_sell', 'int', -1, 140 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3002 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3003 {
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3019 {
+    Repop = 1;
+    Mobile 3020 {
+      Ptr = 173066528;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3019;
+    }
+  }
+  Room 3020 {
+    Repop = 1;
+    Mobile 3004 {
+      Ptr = 173065944;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 134640;
+      Silver = 7190381;
+      Room = 3020;
+      ExField = ( 'base_wealth', 'int', -1, 20654381 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('armor') );
+      ExField = ( 'profit_sell', 'int', -1, 100 );
+      ExField = ( 'profit_buy', 'int', -1, 50 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3072 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3073 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3074 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3075 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3076 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3077 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3110 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3111 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3112 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3113 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3114 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3115 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3116 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3097 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3117 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3021 {
+    Repop = 1;
+    Mobile 3027 {
+      Ptr = 173064776;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 226;
+      Room = 3021;
+      Obj 3349 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3060 {
+      Ptr = 173065360;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 283 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 83;
+      Room = 3021;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3358 {
+        WearLoc = 'feet';
+      }
+    }
+  }
+  Room 3022 {
+    Repop = 1;
+    Mobile 3045 {
+      Ptr = 173064192;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 141;
+      Room = 3022;
+      ExField = ( 'base_wealth', 'int', -1, 141 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer') );
+      ExField = ( 'profit_sell', 'int', -1, 150 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3002 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3003 {
+      }
+      Obj 3004 {
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3023 {
+    Repop = 1;
+    Mobile 3023 {
+      Ptr = 173133232;
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3023;
+    }
+  }
+  Room 3024 {
+    Repop = 1;
+    Mobile 3062 {
+      Ptr = 173132648;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 5 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3024;
+    }
+  }
+  Room 3025 {
+    Repop = 1;
+    Mobile 3062 {
+      Ptr = 173132064;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 10 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3025;
+    }
+  }
+  Room 3026 {
+    Repop = 1;
+    Mobile 3063 {
+      Ptr = 173130896;
+      isWildMagic = false;
+      HMVP = (  ( 70 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 16;
+      Room = 3026;
+      Obj 3021 {
+        WearLoc = 'wielded';
+      }
+      Obj 3066 {
+        WearLoc = 'body';
+      }
+      Obj 3052 {
+        WearLoc = 'rwrist';
+      }
+    }
+    Mobile 3066 {
+      Ptr = 173131480;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 9 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3026;
+    }
+  }
+  Room 3027 {
+    Repop = 1;
+    Mobile 3026 {
+      Ptr = 173247920;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 14;
+      Silver = 142;
+      Room = 3027;
+      Obj 3349 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3060 {
+      Ptr = 173129728;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 303 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 51;
+      Room = 3027;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3359 {
+        WearLoc = 'hands';
+      }
+    }
+    Mobile 3005 {
+      Ptr = 173130312;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 108 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 62;
+      Room = 3027;
+      Obj 3351 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3028 {
+    Repop = 1;
+    Mobile 3044 {
+      Ptr = 173247336;
+      Desc = '';
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 149;
+      Room = 3028;
+      ExField = ( 'base_wealth', 'int', -1, 149 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer') );
+      ExField = ( 'profit_sell', 'int', -1, 170 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3003 {
+      }
+      Obj 3004 {
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 3029 {
+    Repop = 1;
+    Mobile 3022 {
+      Ptr = 173246752;
+      isWildMagic = false;
+      HMVP = (  ( 2000 ),  ( 200 ),  ( 100 ),  ( 0 ) );
+      Room = 3029;
+    }
+  }
+  Room 3030 {
+    Repop = 1;
+  }
+  Room 3031 {
+    Repop = 1;
+    Mobile 3008 {
+      Ptr = 173246168;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 39;
+      Silver = 951;
+      Room = 3031;
+      ExField = ( 'level_list', 'list', -1, (1,3,5,7,9) );
+      ExField = ( 'name_list', 'list', -1, ('the kitten','the puppy','the beagle','the rottweiler','the wolf') );
+      ExField = ( 'handle_list', 'list', -1, ('kitten cat pet','puppy dog pet','beagle dog pet','rottweiler dog pet','wolf pet') );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      ExField = ( 'price_list', 'list', -1, (10,90,250,490,810) );
+      ExField = ( 'vnum_list', 'list', -1, (3090,3091,3092,3093,3094) );
+    }
+  }
+  Room 3032 {
+    Repop = 1;
+    Mobile 3090 {
+      Ptr = 173464424;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 19 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3032;
+    }
+    Mobile 3091 {
+      Ptr = 173465008;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 41 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3032;
+    }
+    Mobile 3092 {
+      Ptr = 173244416;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 74 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3032;
+    }
+    Mobile 3093 {
+      Ptr = 173245000;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 91 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Room = 3032;
+    }
+    Mobile 3094 {
+      Ptr = 173245584;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 119 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3032;
+    }
+  }
+  Room 3033 {
+    Repop = 1;
+    Mobile 3000 {
+      Ptr = 173463840;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Gold = 113;
+      Silver = 3871;
+      Room = 3033;
+      ExField = ( 'base_wealth', 'int', -1, 15171 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('scroll','wand','staff','potion','component') );
+      ExField = ( 'profit_sell', 'int', -1, 105 );
+      ExField = ( 'profit_buy', 'int', -1, 15 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3040 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3041 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3039 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3042 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3043 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3044 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 62 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 3034 {
+    Repop = 1;
+    Mobile 3009 {
+      Ptr = 173463256;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 769;
+      Silver = 5463;
+      Room = 3034;
+      ExField = ( 'base_wealth', 'int', -1, 82363 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('warpstone','treasure','gem','jewelry','instrument') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 100 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3378 {
+        ExtraFlags = ('inventory', 'sellextract');
+      }
+      Obj 3377 {
+        ExtraFlags = ('inventory', 'sellextract');
+      }
+      Obj 3376 {
+        ExtraFlags = ('inventory', 'sellextract');
+      }
+      Obj 3375 {
+        ExtraFlags = ('inventory', 'sellextract');
+      }
+      Obj 3374 {
+        ExtraFlags = ('inventory', 'sellextract');
+      }
+      Obj 3373 {
+        ExtraFlags = ('inventory', 'sellextract');
+      }
+      Obj 3034 {
+        ExtraFlags = ('glow', 'magic', 'inventory');
+      }
+    }
+  }
+  Room 3035 {
+    Repop = 1;
+    Mobile 3010 {
+      Ptr = 173462672;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 19;
+      Silver = 2085;
+      Room = 3035;
+      ExField = ( 'base_wealth', 'int', -1, 3985 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('armor') );
+      ExField = ( 'profit_sell', 'int', -1, 100 );
+      ExField = ( 'profit_buy', 'int', -1, 50 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3060 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3061 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3062 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3063 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3064 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3065 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3066 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3067 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3068 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3069 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3070 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3071 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3052 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3053 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3054 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 3036 {
+    Repop = 1;
+    Mobile 3036 {
+      Ptr = 173462088;
+      Desc = '';
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 248 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 116;
+      Silver = 1798;
+      Room = 3036;
+      Obj 3036 {
+      }
+    }
+  }
+  Room 3037 {
+    Repop = 1;
+    Mobile 3013 {
+      Ptr = 173461504;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 5040 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 3037;
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+    }
+  }
+  Room 3040 {
+    Repop = 1;
+    Mobile 3068 {
+      Ptr = 174164840;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 287 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 22;
+      Room = 3040;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3361 {
+        WearLoc = 'about';
+      }
+    }
+    Mobile 3068 {
+      Ptr = 174165424;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 271 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 195;
+      Room = 3040;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3362 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 3041 {
+    Repop = 1;
+    Mobile 3067 {
+      Ptr = 174163672;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 281 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 123;
+      Room = 3041;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3360 {
+        WearLoc = 'arms';
+      }
+    }
+    Mobile 3067 {
+      Ptr = 174164256;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 285 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 37;
+      Room = 3041;
+      Obj 3365 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+      Obj 3364 {
+        WearLoc = 'lfinger';
+      }
+      Obj 3350 {
+        WearLoc = 'wielded';
+      }
+      Obj 3353 {
+        WearLoc = 'body';
+      }
+      Obj 3354 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 3042 {
+    Repop = 1;
+  }
+  Room 3043 {
+    Repop = 1;
+  }
+  Room 3044 {
+    Repop = 1;
+    Mobile 3065 {
+      Ptr = 174163088;
+      isWildMagic = false;
+      HMVP = (  ( 20 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3044;
+    }
+  }
+  Room 3045 {
+    Repop = 1;
+  }
+  Room 3046 {
+    Repop = 1;
+  }
+  Room 3047 {
+    Repop = 1;
+  }
+  Room 3048 {
+    Repop = 1;
+    Mobile 3046 {
+      Ptr = 174284208;
+      isWildMagic = false;
+      HMVP = (  ( 500 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 151;
+      Room = 3048;
+      ExField = ( 'base_wealth', 'int', -1, 151 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('drinkcontainer') );
+      ExField = ( 'profit_sell', 'int', -1, 110 );
+      ExField = ( 'profit_buy', 'int', -1, 0 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      ExField = ( 'secret', 'string', -1, 'who watches the watchmen' );
+      Obj 3003 {
+      }
+      Obj 3004 {
+      }
+      Obj 3396 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3022 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 3163 {
+      Ptr = 174161920;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 417 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 58;
+      Room = 3048;
+    }
+    Mobile 3065 {
+      Ptr = 174162504;
+      isWildMagic = false;
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3048;
+    }
+  }
+  Room 3049 {
+    Repop = 1;
+    Mobile 3006 {
+      Ptr = 174283624;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 17;
+      Silver = 7;
+      Room = 3049;
+      ExField = ( 'base_wealth', 'int', -1, 1707 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('boat') );
+      ExField = ( 'profit_sell', 'int', -1, 120 );
+      ExField = ( 'profit_buy', 'int', -1, 90 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 22 );
+      ExField = ( 'open_hour', 'int', -1, 6 );
+      Obj 3050 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3051 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 3050 {
+    Repop = 1;
+    Mobile 3007 {
+      Ptr = 174283040;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 84;
+      Room = 3050;
+    }
+  }
+  Room 3051 {
+    Repop = 1;
+  }
+  Room 3052 {
+    Repop = 1;
+  }
+  Room 3053 {
+    Repop = 1;
+  }
+  Room 3054 {
+    Repop = 1;
+    Mobile 3012 {
+      Ptr = 174282456;
+      AfBy = ('detect_invis', 'detect_hidden');
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Gold = 44;
+      Silver = 1644;
+      Room = 3054;
+      ExField = ( 'chance', 'int', -1, 15 );
+      ExField = ( 'automaticSpell', 'list', -1, ('armor','bless','cure blindness','cure light','cure poison','refresh','cure disease') );
+      ExField = ( 'spell', 'list', -1, ('cure light','cure serious','cure critical','heal','cure blindness','cure disease','cure poison','remove curse','refresh','black lotus','regain power') );
+      ExField = ( 'cost', 'list', -1, (1000,1500,2500,5000,2000,1500,2500,5000,500,1000,1000) );
+      ExField = ( 'keyword', 'list', -1, ('light','serious','critic','heal','blind','disease','poison','uncurse','refresh','mana','psp') );
+    }
+  }
+  Room 3056 {
+    Repop = 1;
+    Mobile 3070 {
+      Ptr = 174281872;
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Gold = 37;
+      Silver = 1117;
+      Room = 3056;
+      ExField = ( 'base_wealth', 'int', -1, 4817 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('potion') );
+      ExField = ( 'profit_sell', 'int', -1, 1000 );
+      ExField = ( 'profit_buy', 'int', -1, 100 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3080 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3081 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3082 {
+        ExtraFlags = ('glow', 'hum', 'magic', 'bless', 'inventory');
+      }
+      Obj 3083 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3084 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3085 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3086 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3087 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3088 {
+        ExtraFlags = ('glow', 'magic', 'bless', 'inventory');
+      }
+      Obj 3089 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3090 {
+        ExtraFlags = ('hum', 'magic', 'inventory');
+      }
+      Obj 3091 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 3092 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+    }
+  }
+}

@@ -1,0 +1,1007 @@
+AreaState 'The Bazaar' {
+  Room 5900 {
+    Repop = 28;
+  }
+  Room 5901 {
+    Repop = 28;
+    Mobile 5921 {
+      Ptr = 182288968;
+      DamType = 'pierce';
+      HMVP = (  ( 409, 384 ),  ( 100 ),  ( 105, 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 181;
+      Room = 5901;
+      Obj 5945 {
+        WearLoc = 'body';
+      }
+      Obj 5901 {
+        WearLoc = 'legs';
+      }
+      Obj 5902 {
+        WearLoc = 'head';
+      }
+      Obj 5905 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5920 {
+      Ptr = 182289552;
+      DamType = 'pound';
+      HMVP = (  ( 57 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 38;
+      Room = 5901;
+      Obj 5940 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 5902 {
+    Repop = 28;
+  }
+  Room 5903 {
+    Repop = 28;
+    Mobile 5905 {
+      Ptr = 182288384;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8080 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 315;
+      Room = 5903;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5920 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 5921 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 5922 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 5923 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+    }
+  }
+  Room 5904 {
+    Repop = 28;
+    Mobile 5906 {
+      Ptr = 182300080;
+      DamType = 'slash';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 7952 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 385;
+      Room = 5904;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5924 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5925 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5926 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5927 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5905 {
+    Repop = 28;
+  }
+  Room 5906 {
+    Repop = 28;
+    Mobile 5909 {
+      Ptr = 182299496;
+      DamType = 'pierce';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8002 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 7;
+      Room = 5906;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5928 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 5929 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 5930 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 5931 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+    }
+  }
+  Room 5907 {
+    Repop = 28;
+    Mobile 5902 {
+      Ptr = 182298912;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8049 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 390;
+      Room = 5907;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5908 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5909 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5910 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5911 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5908 {
+    Repop = 28;
+    Mobile 5936 {
+      Ptr = 182296576;
+      DamType = 'pound';
+      HMVP = (  ( 129 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 52;
+      Room = 5908;
+    }
+    Mobile 5935 {
+      Ptr = 182297160;
+      DamType = 'pierce';
+      HMVP = (  ( 117 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 29;
+      Room = 5908;
+      Obj 5961 {
+        WearLoc = 'head';
+      }
+      Obj 5964 {
+        WearLoc = 'hold';
+      }
+    }
+    Mobile 5918 {
+      Ptr = 182297744;
+      DamType = 'pound';
+      HMVP = (  ( 107 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 75;
+      Room = 5908;
+    }
+    Mobile 5912 {
+      Ptr = 182298328;
+      DamType = 'pierce';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8053 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 658;
+      Room = 5908;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 5963 {
+    }
+  }
+  Room 5909 {
+    Repop = 28;
+    Mobile 5933 {
+      Ptr = 182303008;
+      DamType = 'pierce';
+      HMVP = (  ( 839 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 117;
+      Room = 5909;
+    }
+    Mobile 5932 {
+      Ptr = 182303592;
+      DamType = 'pound';
+      HMVP = (  ( 527 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 11;
+      Room = 5909;
+    }
+    Mobile 5931 {
+      Ptr = 182304176;
+      DamType = 'pierce';
+      HMVP = (  ( 180 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 95;
+      Room = 5909;
+    }
+  }
+  Room 5910 {
+    Repop = 28;
+  }
+  Room 5911 {
+    Repop = 28;
+  }
+  Room 5912 {
+    Repop = 28;
+    Mobile 5934 {
+      Ptr = 182302424;
+      DamType = 'slash';
+      HMVP = (  ( 94 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 39;
+      Room = 5912;
+      Obj 5961 {
+        WearLoc = 'head';
+      }
+      Obj 5962 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 5913 {
+    Repop = 28;
+    Mobile 5926 {
+      Ptr = 182301256;
+      DamType = 'slash';
+      HMVP = (  ( 95 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 104;
+      Room = 5913;
+    }
+    Mobile 5916 {
+      Ptr = 182301840;
+      DamType = 'pierce';
+      AfBy = ('none');
+      HMVP = (  ( 499 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 46;
+      Room = 5913;
+      Affect = ( 'protection evil', -1, 22, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 5914 {
+    Repop = 28;
+    Mobile 5936 {
+      Ptr = 182311784;
+      DamType = 'slash';
+      HMVP = (  ( 126 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 85;
+      Room = 5914;
+    }
+    Mobile 5935 {
+      Ptr = 182312368;
+      DamType = 'pound';
+      HMVP = (  ( 116 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 23;
+      Room = 5914;
+      Obj 5961 {
+        WearLoc = 'head';
+      }
+      Obj 5964 {
+        WearLoc = 'hold';
+      }
+    }
+    Mobile 5920 {
+      Ptr = 182300672;
+      DamType = 'pierce';
+      HMVP = (  ( 57 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 45;
+      Room = 5914;
+      Obj 5940 {
+        WearLoc = 'hold';
+      }
+    }
+    Obj 5963 {
+    }
+  }
+  Room 5915 {
+    Repop = 28;
+    Mobile 5903 {
+      Ptr = 182311200;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8036 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 232;
+      Room = 5915;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5912 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5913 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5914 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5915 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5916 {
+    Repop = 28;
+    Mobile 5935 {
+      Ptr = 182309448;
+      DamType = 'slash';
+      HMVP = (  ( 119 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 91;
+      Room = 5916;
+    }
+    Mobile 5935 {
+      Ptr = 182310032;
+      DamType = 'pierce';
+      HMVP = (  ( 112 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 3;
+      Room = 5916;
+      Obj 5961 {
+        WearLoc = 'head';
+      }
+      Obj 5964 {
+        WearLoc = 'hold';
+      }
+    }
+    Mobile 5920 {
+      Ptr = 182310616;
+      DamType = 'slash';
+      HMVP = (  ( 58 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 41;
+      Room = 5916;
+      Obj 5940 {
+        WearLoc = 'hold';
+      }
+    }
+    Obj 5963 {
+    }
+  }
+  Room 5917 {
+    Repop = 28;
+    Mobile 5914 {
+      Ptr = 182308864;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8017 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 427;
+      Room = 5917;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5936 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5937 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5938 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5939 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5918 {
+    Repop = 28;
+    Mobile 5919 {
+      Ptr = 182319976;
+      DamType = 'pound';
+      HMVP = (  ( 120 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 73;
+      Room = 5918;
+    }
+    Mobile 5913 {
+      Ptr = 182320560;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8064 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 368;
+      Room = 5918;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 5963 {
+    }
+  }
+  Room 5919 {
+    Repop = 28;
+  }
+  Room 5920 {
+    Repop = 28;
+    Mobile 5920 {
+      Ptr = 182319392;
+      DamType = 'pierce';
+      HMVP = (  ( 59 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 58;
+      Room = 5920;
+      Obj 5940 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 5921 {
+    Repop = 28;
+    Mobile 5934 {
+      Ptr = 182318808;
+      DamType = 'pierce';
+      HMVP = (  ( 89 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 5921;
+      Obj 5961 {
+        WearLoc = 'head';
+      }
+      Obj 5962 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 5922 {
+    Repop = 28;
+    Mobile 5920 {
+      Ptr = 182318224;
+      DamType = 'pierce';
+      HMVP = (  ( 55 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 46;
+      Room = 5922;
+      Obj 5940 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 5923 {
+    Repop = 28;
+    Mobile 5918 {
+      Ptr = 182317640;
+      DamType = 'slash';
+      HMVP = (  ( 107 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 13;
+      Room = 5923;
+    }
+  }
+  Room 5924 {
+    Repop = 28;
+    Mobile 5926 {
+      Ptr = 182328168;
+      DamType = 'pierce';
+      HMVP = (  ( 90 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 44;
+      Room = 5924;
+    }
+    Mobile 5922 {
+      Ptr = 182328752;
+      DamType = 'slash';
+      HMVP = (  ( 2076 ),  ( 100 ),  ( 125, 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 77;
+      Room = 5924;
+      Affect = ( 'sanctuary', -1, 45, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5946 {
+        WearLoc = 'head';
+      }
+      Obj 5947 {
+        WearLoc = 'feet';
+      }
+      Obj 5948 {
+        WearLoc = 'body';
+      }
+    }
+    Mobile 5918 {
+      Ptr = 182317056;
+      DamType = 'pound';
+      HMVP = (  ( 97 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 56;
+      Room = 5924;
+    }
+  }
+  Room 5925 {
+    Repop = 28;
+  }
+  Room 5926 {
+    Repop = 28;
+    Mobile 5923 {
+      Ptr = 182327584;
+      DamType = 'slash';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8074 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 121;
+      Room = 5926;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5949 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5950 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5951 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5952 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5927 {
+    Repop = 28;
+    Mobile 5924 {
+      Ptr = 182327000;
+      DamType = 'slash';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 7942 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 10;
+      Room = 5927;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5953 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5954 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5955 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5956 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5928 {
+    Repop = 28;
+    Mobile 5904 {
+      Ptr = 182326416;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8001 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 351;
+      Room = 5928;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5916 {
+        ExtraFlags = ('hum', 'inventory');
+      }
+      Obj 5917 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+      Obj 5918 {
+        ExtraFlags = ('hum', 'inventory');
+      }
+      Obj 5919 {
+        ExtraFlags = ('hum', 'evil', 'inventory');
+      }
+    }
+  }
+  Room 5929 {
+    Repop = 28;
+    Mobile 5908 {
+      Ptr = 182325832;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8093 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 367;
+      Room = 5929;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 5930 {
+    Repop = 28;
+    Mobile 5925 {
+      Ptr = 182325248;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 7933 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 378;
+      Room = 5930;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5957 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5958 {
+        ExtraFlags = ('inventory');
+        Values = ( 0, 0, -1, 0, 0 );
+      }
+      Obj 5959 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5960 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5931 {
+    Repop = 28;
+    Mobile 5926 {
+      Ptr = 182336944;
+      DamType = 'slash';
+      HMVP = (  ( 84 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 95;
+      Room = 5931;
+    }
+  }
+  Room 5932 {
+    Repop = 28;
+    Mobile 5917 {
+      Ptr = 182336360;
+      DamType = 'pound';
+      HMVP = (  ( 104 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 85;
+      Room = 5932;
+    }
+  }
+  Room 5933 {
+    Repop = 28;
+  }
+  Room 5934 {
+    Repop = 28;
+    Mobile 5917 {
+      Ptr = 182335192;
+      DamType = 'slash';
+      HMVP = (  ( 96 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 104;
+      Room = 5934;
+    }
+    Mobile 5915 {
+      Ptr = 182335776;
+      DamType = 'pound';
+      AfBy = ('none');
+      HMVP = (  ( 1296 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 148;
+      Room = 5934;
+      Affect = ( 'protection evil', -1, 36, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 5940 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5941 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5942 {
+        ExtraFlags = ('hum', 'inventory');
+      }
+      Obj 5943 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5923 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+    }
+  }
+  Room 5935 {
+    Repop = 28;
+  }
+  Room 5936 {
+    Repop = 28;
+    Mobile 5917 {
+      Ptr = 182334608;
+      DamType = 'slash';
+      HMVP = (  ( 97 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 111;
+      Room = 5936;
+    }
+  }
+  Room 5937 {
+    Repop = 28;
+  }
+  Room 5938 {
+    Repop = 28;
+    Mobile 5926 {
+      Ptr = 182334024;
+      DamType = 'pound';
+      HMVP = (  ( 87 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 78;
+      Room = 5938;
+    }
+  }
+  Room 5939 {
+    Repop = 28;
+  }
+  Room 5940 {
+    Repop = 28;
+    Mobile 5934 {
+      Ptr = 182340456;
+      DamType = 'slash';
+      HMVP = (  ( 84 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 37;
+      Room = 5940;
+      Obj 5962 {
+        WearLoc = 'hold';
+      }
+      Obj 5961 {
+        WearLoc = 'head';
+      }
+    }
+    Mobile 5919 {
+      Ptr = 182341040;
+      DamType = 'pierce';
+      HMVP = (  ( 120 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 70;
+      Room = 5940;
+    }
+    Mobile 5918 {
+      Ptr = 182333440;
+      DamType = 'pierce';
+      HMVP = (  ( 97 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 1;
+      Room = 5940;
+    }
+  }
+  Room 5941 {
+    Repop = 28;
+  }
+  Room 5942 {
+    Repop = 28;
+    Mobile 5921 {
+      Ptr = 182339288;
+      DamType = 'slash';
+      HMVP = (  ( 404, 379 ),  ( 100 ),  ( 105, 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 20;
+      Room = 5942;
+      Obj 5945 {
+        WearLoc = 'body';
+      }
+      Obj 5901 {
+        WearLoc = 'legs';
+      }
+      Obj 5902 {
+        WearLoc = 'head';
+      }
+      Obj 5905 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 5917 {
+      Ptr = 182339872;
+      DamType = 'pierce';
+      HMVP = (  ( 107 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 75;
+      Room = 5942;
+    }
+  }
+  Room 5943 {
+    Repop = 28;
+    Mobile 5901 {
+      Ptr = 182338704;
+      DamType = 'pierce';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 7950 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 395;
+      Room = 5943;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5904 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5905 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5906 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5907 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5944 {
+    Repop = 28;
+    Mobile 5900 {
+      Ptr = 182338120;
+      DamType = 'pound';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8048 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 277;
+      Room = 5944;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5900 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5901 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5902 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5903 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5945 {
+    Repop = 28;
+  }
+  Room 5946 {
+    Repop = 28;
+    Mobile 5921 {
+      Ptr = 182337536;
+      DamType = 'pound';
+      HMVP = (  ( 421, 396 ),  ( 100 ),  ( 105, 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 30;
+      Room = 5946;
+      Obj 5945 {
+        WearLoc = 'body';
+      }
+      Obj 5901 {
+        WearLoc = 'legs';
+      }
+      Obj 5902 {
+        WearLoc = 'head';
+      }
+      Obj 5905 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5947 {
+    Repop = 28;
+  }
+  Room 5948 {
+    Repop = 28;
+    Mobile 5910 {
+      Ptr = 182353328;
+      DamType = 'slash';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8099 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 329;
+      Room = 5948;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 5932 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5933 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5934 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 5935 {
+        ExtraFlags = ('hum', 'inventory');
+      }
+    }
+  }
+  Room 5949 {
+    Repop = 28;
+    Mobile 5907 {
+      Ptr = 182352744;
+      DamType = 'slash';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 7965 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 109;
+      Room = 5949;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 5950 {
+    Repop = 28;
+    Mobile 5934 {
+      Ptr = 182352160;
+      DamType = 'slash';
+      HMVP = (  ( 94 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 48;
+      Room = 5950;
+      Obj 5961 {
+        WearLoc = 'head';
+      }
+      Obj 5962 {
+        WearLoc = 'hold';
+      }
+    }
+  }
+  Room 5951 {
+    Repop = 28;
+    Mobile 5911 {
+      Ptr = 182351576;
+      DamType = 'slash';
+      AfBy = ('sanctuary', 'infrared');
+      HMVP = (  ( 8031 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 184;
+      Room = 5951;
+      Affect = ( 'protection evil', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 89, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 5952 {
+    Repop = 28;
+    Mobile 5930 {
+      Ptr = 182349824;
+      DamType = 'pound';
+      HMVP = (  ( 273 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 188;
+      Room = 5952;
+    }
+    Mobile 5929 {
+      Ptr = 182350408;
+      DamType = 'pierce';
+      HMVP = (  ( 123 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 26;
+      Room = 5952;
+    }
+    Mobile 5928 {
+      Ptr = 182350992;
+      DamType = 'slash';
+      HMVP = (  ( 65 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 5952;
+    }
+  }
+}

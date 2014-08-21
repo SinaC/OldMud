@@ -1,0 +1,18 @@
+BrewFormula 'form1' {
+  Component = ('mithril');
+  Level = 30;
+  Cost = 100;
+  Effects = ('armor', 'shield');
+}
+BrewFormula 'form2' {
+  Component = ('mithril', 'amber');
+  Level = 60;
+  Cost = 500;
+  Effects = ('sanctuary');
+}
+BrewFormula 'form3' {
+  Component = ('mithril', 'amber', 'spider web' );
+  Level = 65;
+  Cost = 1500;
+  Effects = ('fire shield', 'haste');
+}

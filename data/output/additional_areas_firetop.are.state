@@ -1,0 +1,758 @@
+AreaState 'Firetop Moutain' {
+  Room 20600 {
+    Repop = 28;
+    Mobile 20641 {
+      Ptr = 183505480;
+      HMVP = (  ( 138 ),  ( 164 ),  ( 100 ),  ( 146 ) );
+      Room = 20600;
+    }
+    Obj 20649 {
+      Obj 20650 {
+      }
+    }
+  }
+  Room 20601 {
+    Repop = 28;
+  }
+  Room 20602 {
+    Repop = 28;
+  }
+  Room 20603 {
+    Repop = 28;
+    Mobile 20668 {
+      Ptr = 183504896;
+      HMVP = (  ( 130 ),  ( 161 ),  ( 100 ),  ( 156 ) );
+      Room = 20603;
+    }
+  }
+  Room 20604 {
+    Repop = 28;
+  }
+  Room 20605 {
+    Repop = 28;
+    Mobile 20661 {
+      Ptr = 183520104;
+      AfBy = ('sanctuary', 'sleep');
+      HMVP = (  ( 182 ),  ( 185 ),  ( 100 ),  ( 186 ) );
+      Room = 20605;
+      Affect = ( 'protection evil', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20660 {
+        WearLoc = 'feet';
+      }
+      Obj 20679 {
+      }
+    }
+    Mobile 20660 {
+      Ptr = 183520688;
+      AfBy = ('detect_invis', 'detect_hidden');
+      HMVP = (  ( 185 ),  ( 181 ),  ( 100 ),  ( 165 ) );
+      Room = 20605;
+      Affect = ( 'protection evil', -1, 12, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 20606 {
+    Repop = 28;
+    Obj 20682 {
+      Obj 20681 {
+      }
+    }
+  }
+  Room 20607 {
+    Repop = 28;
+  }
+  Room 20608 {
+    Repop = 28;
+    Mobile 20659 {
+      Ptr = 183519520;
+      HMVP = (  ( 145 ),  ( 169 ),  ( 100 ),  ( 149 ) );
+      Room = 20608;
+      Obj 20672 {
+        WearLoc = 'body';
+      }
+      Obj 20673 {
+      }
+      Obj 20674 {
+      }
+    }
+    Obj 20675 {
+    }
+    Obj 20676 {
+    }
+    Obj 20677 {
+    }
+    Obj 20678 {
+    }
+  }
+  Room 20609 {
+    Repop = 28;
+    Mobile 20663 {
+      Ptr = 183518936;
+      HMVP = (  ( 264 ),  ( 195 ),  ( 100 ),  ( 227 ) );
+      Room = 20609;
+      Affect = ( 'sanctuary', -1, 17, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20686 {
+      }
+    }
+  }
+  Room 20610 {
+    Repop = 28;
+  }
+  Room 20611 {
+    Repop = 28;
+  }
+  Room 20612 {
+    Repop = 28;
+  }
+  Room 20613 {
+    Repop = 28;
+  }
+  Room 20614 {
+    Repop = 28;
+  }
+  Room 20615 {
+    Repop = 28;
+  }
+  Room 20616 {
+    Repop = 28;
+    Mobile 20657 {
+      Ptr = 183518352;
+      AfBy = ('detect_invis');
+      HMVP = (  ( 178 ),  ( 164 ),  ( 100 ),  ( 170 ) );
+      Room = 20616;
+      Affect = ( 'protection evil', -1, 12, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Obj 20668 {
+    }
+    Obj 20659 {
+    }
+    Obj 20607 {
+    }
+  }
+  Room 20617 {
+    Repop = 28;
+  }
+  Room 20618 {
+    Repop = 28;
+    Mobile 20658 {
+      Ptr = 183517768;
+      AfBy = ('detect_invis', 'sanctuary', 'infrared');
+      HMVP = (  ( 189 ),  ( 183 ),  ( 100 ),  ( 175 ) );
+      Room = 20618;
+      Affect = ( 'protection evil', -1, 14, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 14, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 20648 {
+    }
+  }
+  Room 20619 {
+    Repop = 28;
+  }
+  Room 20620 {
+    Repop = 28;
+  }
+  Room 20621 {
+    Repop = 28;
+  }
+  Room 20622 {
+    Repop = 28;
+    Obj 20696 {
+      Obj 20697 {
+      }
+      Obj 20698 {
+      }
+    }
+  }
+  Room 20623 {
+    Repop = 28;
+    Mobile 20662 {
+      Ptr = 183517184;
+      AfBy = ('detect_invis');
+      HMVP = (  ( 224 ),  ( 160 ),  ( 100 ),  ( 178 ) );
+      Room = 20623;
+      Affect = ( 'protection evil', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 20683 {
+        WearLoc = 'head';
+      }
+      Obj 20684 {
+      }
+      Obj 20685 {
+      }
+    }
+  }
+  Room 20624 {
+    Repop = 28;
+  }
+  Room 20625 {
+    Repop = 28;
+  }
+  Room 20626 {
+    Repop = 28;
+  }
+  Room 20627 {
+    Repop = 28;
+    Mobile 20664 {
+      Ptr = 183528880;
+      HMVP = (  ( 183 ),  ( 170 ),  ( 100 ),  ( 163 ) );
+      Room = 20627;
+      Obj 20688 {
+      }
+    }
+    Obj 20671 {
+    }
+    Obj 20693 {
+    }
+  }
+  Room 20628 {
+    Repop = 28;
+  }
+  Room 20629 {
+    Repop = 28;
+    Mobile 20665 {
+      Ptr = 183528296;
+      HMVP = (  ( 195 ),  ( 170 ),  ( 100 ),  ( 181 ) );
+      Room = 20629;
+      Obj 20608 {
+      }
+    }
+    Obj 20689 {
+    }
+    Obj 20690 {
+      Obj 20691 {
+      }
+    }
+  }
+  Room 20630 {
+    Repop = 28;
+  }
+  Room 20631 {
+    Repop = 28;
+  }
+  Room 20632 {
+    Repop = 28;
+    Mobile 20666 {
+      Ptr = 183527712;
+      AfBy = ('detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'sanctuary', 'infrared', 'flying');
+      HMVP = (  ( 440 ),  ( 194 ),  ( 100 ),  ( 203 ) );
+      Room = 20632;
+      Affect = ( 'protection evil', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 20, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 20633 {
+    Repop = 28;
+  }
+  Room 20634 {
+    Repop = 28;
+    Mobile 20667 {
+      Ptr = 183527128;
+      AfBy = ('detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'sanctuary', 'infrared', 'pass_door');
+      HMVP = (  ( 527 ),  ( 258, 233 ),  ( 100 ),  ( 208 ) );
+      Room = 20634;
+      Affect = ( 'protection evil', -1, 23, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 23, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20694 {
+        WearLoc = 'about';
+      }
+      Obj 20695 {
+      }
+      Obj 20699 {
+      }
+    }
+    Obj 20609 {
+      Obj 20610 {
+      }
+    }
+    Obj 20611 {
+    }
+    Obj 20612 {
+    }
+    Obj 20613 {
+    }
+  }
+  Room 20635 {
+    Repop = 28;
+  }
+  Room 20636 {
+    Repop = 28;
+  }
+  Room 20637 {
+    Repop = 28;
+  }
+  Room 20638 {
+    Repop = 28;
+  }
+  Room 20639 {
+    Repop = 28;
+    Mobile 20635 {
+      Ptr = 183526544;
+      HMVP = (  ( 152 ),  ( 165 ),  ( 100 ),  ( 159 ) );
+      Room = 20639;
+      Obj 20635 {
+      }
+      Obj 20636 {
+      }
+    }
+    Obj 20637 {
+    }
+  }
+  Room 20640 {
+    Repop = 28;
+  }
+  Room 20641 {
+    Repop = 28;
+    Mobile 20636 {
+      Ptr = 183525960;
+      HMVP = (  ( 140 ),  ( 166 ),  ( 100 ),  ( 172 ) );
+      Room = 20641;
+    }
+    Obj 20638 {
+      Obj 20640 {
+      }
+    }
+    Obj 20648 {
+    }
+  }
+  Room 20642 {
+    Repop = 28;
+  }
+  Room 20643 {
+    Repop = 28;
+    Mobile 20637 {
+      Ptr = 183525376;
+      HMVP = (  ( 129 ),  ( 155 ),  ( 100 ),  ( 154 ) );
+      Room = 20643;
+      Obj 20641 {
+      }
+    }
+    Obj 20648 {
+    }
+  }
+  Room 20644 {
+    Repop = 28;
+  }
+  Room 20645 {
+    Repop = 28;
+    Mobile 20638 {
+      Ptr = 183537072;
+      HMVP = (  ( 130 ),  ( 158 ),  ( 100 ),  ( 159 ) );
+      Room = 20645;
+      Obj 20635 {
+        WearLoc = 'feet';
+      }
+      Obj 20637 {
+      }
+    }
+    Obj 20642 {
+      Obj 20643 {
+      }
+    }
+    Obj 20648 {
+    }
+  }
+  Room 20646 {
+    Repop = 28;
+  }
+  Room 20647 {
+    Repop = 28;
+  }
+  Room 20648 {
+    Repop = 28;
+  }
+  Room 20649 {
+    Repop = 28;
+  }
+  Room 20650 {
+    Repop = 28;
+  }
+  Room 20651 {
+    Repop = 28;
+    Mobile 20642 {
+      Ptr = 183536488;
+      AfBy = ('none');
+      HMVP = (  ( 94 ),  ( 134 ),  ( 100 ),  ( 152 ) );
+      Room = 20651;
+      Affect = ( 'haste', -1, 8, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 1 ) );
+      Obj 20651 {
+      }
+    }
+  }
+  Room 20652 {
+    Repop = 28;
+  }
+  Room 20653 {
+    Repop = 28;
+    Obj 20655 {
+    }
+  }
+  Room 20654 {
+    Repop = 28;
+  }
+  Room 20655 {
+    Repop = 28;
+    Mobile 20643 {
+      Ptr = 183535904;
+      HMVP = (  ( 157 ),  ( 163 ),  ( 100 ),  ( 162 ) );
+      Room = 20655;
+      Obj 20653 {
+        WearLoc = 'wielded';
+      }
+      Obj 20654 {
+      }
+    }
+    Obj 20652 {
+    }
+  }
+  Room 20656 {
+    Repop = 28;
+  }
+  Room 20657 {
+    Repop = 28;
+    Obj 20603 {
+    }
+  }
+  Room 20658 {
+    Repop = 28;
+  }
+  Room 20659 {
+    Repop = 28;
+  }
+  Room 20660 {
+    Repop = 28;
+    Mobile 20644 {
+      Ptr = 183535320;
+      AfBy = ('detect_invis', 'sanctuary');
+      HMVP = (  ( 243 ),  ( 189 ),  ( 100 ),  ( 171 ) );
+      Room = 20660;
+      Affect = ( 'protection evil', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20656 {
+      }
+      Obj 20657 {
+      }
+    }
+  }
+  Room 20661 {
+    Repop = 28;
+  }
+  Room 20662 {
+    Repop = 28;
+  }
+  Room 20663 {
+    Repop = 28;
+    Mobile 20650 {
+      Ptr = 183534736;
+      HMVP = (  ( 149 ),  ( 174 ),  ( 100 ),  ( 160 ) );
+      Room = 20663;
+    }
+    Obj 20667 {
+    }
+  }
+  Room 20664 {
+    Repop = 28;
+    Mobile 20646 {
+      Ptr = 183534152;
+      AfBy = ('detect_evil', 'detect_invis', 'detect_magic', 'detect_hidden', 'sanctuary');
+      HMVP = (  ( 744 ),  ( 261 ),  ( 100 ),  ( 235 ) );
+      Room = 20664;
+      Affect = ( 'protection evil', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20662 {
+        ExtraFlags = ('glow', 'inventory');
+      }
+    }
+  }
+  Room 20665 {
+    Repop = 28;
+    Mobile 20645 {
+      Ptr = 183533568;
+      AfBy = ('none');
+      HMVP = (  ( 136 ),  ( 182 ),  ( 100 ),  ( 163 ) );
+      Room = 20665;
+      Affect = ( 'protection evil', -1, 12, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Obj 20658 {
+      Obj 20659 {
+      }
+      Obj 20660 {
+      }
+    }
+  }
+  Room 20666 {
+    Repop = 28;
+  }
+  Room 20667 {
+    Repop = 28;
+    Obj 20661 {
+    }
+  }
+  Room 20668 {
+    Repop = 28;
+    Obj 20692 {
+    }
+  }
+  Room 20669 {
+    Repop = 28;
+    Obj 20664 {
+    }
+    Obj 20665 {
+    }
+  }
+  Room 20670 {
+    Repop = 28;
+  }
+  Room 20671 {
+    Repop = 28;
+    Obj 20671 {
+    }
+    Obj 20669 {
+    }
+    Obj 20670 {
+    }
+  }
+  Room 20672 {
+    Repop = 28;
+  }
+  Room 20673 {
+    Repop = 28;
+    Mobile 20647 {
+      Ptr = 183549360;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary');
+      HMVP = (  ( 179 ),  ( 173 ),  ( 100 ),  ( 163 ) );
+      Room = 20673;
+      Affect = ( 'protection evil', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 20604 {
+    }
+  }
+  Room 20674 {
+    Repop = 28;
+    Mobile 20649 {
+      Ptr = 183548776;
+      AfBy = ('detect_invis', 'flying');
+      HMVP = (  ( 175 ),  ( 169 ),  ( 100 ),  ( 169 ) );
+      Room = 20674;
+      Affect = ( 'protection evil', -1, 11, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 20675 {
+    Repop = 28;
+    Mobile 20648 {
+      Ptr = 183548192;
+      AfBy = ('detect_magic', 'detect_hidden', 'infrared');
+      HMVP = (  ( 160 ),  ( 174 ),  ( 100 ),  ( 146 ) );
+      Room = 20675;
+      Affect = ( 'protection evil', -1, 12, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 20663 {
+      }
+    }
+  }
+  Room 20676 {
+    Repop = 28;
+    Mobile 20669 {
+      Ptr = 183547608;
+      HMVP = (  ( 164 ),  ( 172 ),  ( 100 ),  ( 171 ) );
+      Room = 20676;
+    }
+  }
+  Room 20677 {
+    Repop = 28;
+    Obj 20666 {
+    }
+  }
+  Room 20678 {
+    Repop = 28;
+    Mobile 20655 {
+      Ptr = 183547024;
+      HMVP = (  ( 125 ),  ( 157 ),  ( 100 ),  ( 160 ) );
+      Room = 20678;
+    }
+  }
+  Room 20679 {
+    Repop = 28;
+  }
+  Room 20680 {
+    Repop = 28;
+  }
+  Room 20681 {
+    Repop = 28;
+    Mobile 20651 {
+      Ptr = 183546440;
+      AfBy = ('none');
+      HMVP = (  ( 194 ),  ( 151 ),  ( 100 ),  ( 163 ) );
+      Room = 20681;
+      Affect = ( 'protection evil', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 20682 {
+    Repop = 28;
+  }
+  Room 20683 {
+    Repop = 28;
+  }
+  Room 20684 {
+    Repop = 28;
+  }
+  Room 20685 {
+    Repop = 28;
+  }
+  Room 20686 {
+    Repop = 28;
+  }
+  Room 20687 {
+    Repop = 28;
+  }
+  Room 20688 {
+    Repop = 28;
+  }
+  Room 20689 {
+    Repop = 28;
+    Mobile 20652 {
+      Ptr = 183545856;
+      AfBy = ('none');
+      HMVP = (  ( 185 ),  ( 159 ),  ( 100 ),  ( 174 ) );
+      Room = 20689;
+      Affect = ( 'protection evil', -1, 13, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 20690 {
+    Repop = 28;
+  }
+  Room 20691 {
+    Repop = 28;
+    Mobile 20653 {
+      Ptr = 183553456;
+      HMVP = (  ( 122 ),  ( 150 ),  ( 100 ),  ( 155 ) );
+      Room = 20691;
+    }
+  }
+  Room 20692 {
+    Repop = 28;
+    Mobile 20654 {
+      Ptr = 183552872;
+      AfBy = ('none');
+      HMVP = (  ( 229 ),  ( 210 ),  ( 100 ),  ( 168 ) );
+      Room = 20692;
+      Affect = ( 'protection evil', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 20605 {
+      }
+    }
+  }
+  Room 20693 {
+    Repop = 28;
+  }
+  Room 20694 {
+    Repop = 28;
+  }
+  Room 20695 {
+    Repop = 28;
+    Mobile 20670 {
+      Ptr = 183552288;
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'infrared', 'flying');
+      HMVP = (  ( 236 ),  ( 165 ),  ( 100 ),  ( 176 ) );
+      Room = 20695;
+      Affect = ( 'protection evil', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 20606 {
+    }
+  }
+  Room 20696 {
+    Repop = 28;
+  }
+  Room 20697 {
+    Repop = 28;
+    Mobile 20656 {
+      Ptr = 183551704;
+      AfBy = ('detect_invis');
+      HMVP = (  ( 240 ),  ( 177 ),  ( 100 ),  ( 178 ) );
+      Room = 20697;
+      Affect = ( 'protection evil', -1, 16, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 20698 {
+    Repop = 28;
+  }
+  Room 20699 {
+    Repop = 28;
+    Mobile 20640 {
+      Ptr = 183550536;
+      HMVP = (  ( 141 ),  ( 157 ),  ( 100 ),  ( 145 ) );
+      Room = 20699;
+    }
+    Mobile 20639 {
+      Ptr = 183551120;
+      HMVP = (  ( 192 ),  ( 164 ),  ( 100 ),  ( 165 ) );
+      Room = 20699;
+      Affect = ( 'sanctuary', -1, 12, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20600 {
+        WearLoc = 'wielded';
+      }
+      Obj 20601 {
+        WearLoc = 'neck1';
+      }
+      Obj 20602 {
+        WearLoc = 'waist';
+      }
+    }
+    Obj 20644 {
+      Obj 20645 {
+      }
+      Obj 20646 {
+      }
+      Obj 20647 {
+      }
+    }
+    Obj 20648 {
+    }
+  }
+}

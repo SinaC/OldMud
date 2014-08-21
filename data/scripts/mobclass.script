@@ -1,0 +1,137 @@
+class mobArcher extends Mob {
+  // FIXME: instead of objvar weapon, bow
+  //  we could find in inventory a ranged or non-ranged weapon
+
+  onFight ( act ) {
+    // when fighting, replace bow with normal weapon
+    if ( this.carrylocation( "wielded" ) != weapon && chance( this.switchWeaponChance ) ) {
+      `remove `bow`
+      `wield `weapon`
+    }
+  }
+
+  onKill( victim ) {
+    var vnum = [[ 3062, 3713, 3060 ]].random();
+    var mob = victim.room().mLoad(vnum);
+    mob.echo("Yahhh ... I'm reincarnated");
+  }
+
+  isValidTarget( x ) {
+    result = !this.isSafe(x) && !x.isImmortal() && x != this;
+  }
+  getAroundTarget( minDist, maxDist ) {
+    var dirName = [[ "n","e","s","w","u","d","ne","nw","se","sw" ]];
+    result = [[]]; // starts with an empty list   list elem will have struct [[ direction, distance, char ]]
+    if ( minDist == 0 && chance( this.pointBlankChance ) )
+      result = [[ [[ "noDir", 0, x ]] | x <- this.room().people(), isValidTarget(x) ]];
+    var i = 0;
+    while ( i < dirName.size() ) {
+      var room = this.room();
+      var dir = dirName[i];
+      var j = 1;
+      while ( j <= maxDist ) {
+        room = room.roomDir(dir);
+        if ( room != NULL ) // room in that direction exists
+          [[ result = result + [[ [[ dir, j, x ]] ]] | x <- room.people(), isValidTarget(x) ]];
+        else // no more room in that direction -> stop
+          j = maxDist;
+        j = j+1;
+      }
+      i = i+1;
+    }
+  }
+  onPulseMobile (  ) {
+    // if not fighting
+    if ( this.fighting() == NULL ) {
+      // create arrows if not enough, it could be a problem because this mob creates arrow
+      //  those arrows could be sold or used by player -> set a timer
+      if ( chance( this.fletcherChance )
+	   && [[ x | x <- this.inventory(), x.itemType() == "weapon" && x.checkValue( 0, "arrow" ) ]].size() <= this.minArrow ) {
+  //      log("Fletching arrow, this: "+this);
+        `use fletcher
+        var arrow = this.getObjCarried("arrow"); // get last arrow
+        if ( arrow != NULL ) {
+          arrow.setTimer(baseTimer+random(randomTimer));
+          if ( this.getAbility("ignite arrow") > 0 && chance( this.igniteChance ) )
+            `use 'ignite arrow' `arrow`
+          else if ( this.getAbility("envenom") > 0 && chance( this.envenomChance ) )
+            `use envenom `arrow`
+          else if ( this.getAbility("sharpen arrow") > 0 && chance( this.sharpenChance ) )
+            `use 'sharpen arrow' `arrow`
+        }
+      }
+
+      var wielded = this.carryLocation("wielded");
+      // wield bow instead of normal weapon
+      if ( wielded != bow ) {
+        `rem `weapon`
+        `wield `bow`
+      }
+      // if already wearing a bow, fire a random target and repair bow
+      else {
+        if ( chance( this.bowyerChance )
+             && wielded.getValue(1) <= 0 ) { // if bow is damaged, restring it
+//          log("No more string on "+wielded+", this: "+this);
+          `rem `wielded`
+          `restring `wielded` 
+          `wear `wielded`
+        }
+        if ( chance( this.shotChance ) ) {
+          // find a random target in a room around
+          var maxDist = 3; var minDist = 1;
+          if ( this.getAbility("long range shot") == 0 ) maxDist = 1;
+          if ( this.getAbility("point blank shot") > 0 ) minDist = 0;
+          maxDist = range( 1, wielded.getValue(4), maxDist ); // get bow range
+          var target = getAroundTarget( minDist, maxDist ).random();
+          if ( target != NULL ) { // target is a list ( dir, dist, char )
+//          log("This: "+this+"  Target found: "+target[2]+"  dir: "+target[0]+"  dist: "+target[1]);
+            if ( target[0] == "noDir" ) // point blank shot
+              `fire `target[2]`
+            else // non-point blank shot
+              `fire `target[2]` `target[0]`
+          }
+        }
+      }
+    }
+  }
+
+  onRepop ( real ) {
+    var stuff = this.inventory() + this.equipment();
+    this.bow = first[[ x <- stuff, x.itemType() == "weapon" && x.checkValue( 0, "ranged" ) ]];
+    this.weapon = first[[ x <- stuff, x.itemType() == "weapon" && !x.checkValue( 0, "ranged") && !x.checkValue( 0, "arrow") ]];
+  }
+
+  onCreate() {
+    objvar this:bow = NULL;
+    objvar this:weapon = NULL;
+    objvar this:fletcherChance = 90; // chance to create an arrow
+    objvar this:minArrow = 15; // max number of arrow
+    objvar this:baseTimer = 3; // base arrow timer
+    objvar this:randomTimer = 5; // random arrow timer
+    objvar this:bowyerChance = 90; // chance to repair bow if damaged
+    objvar this:igniteChance = 15; // chance to ignite an arrow
+    objvar this:envenomChance = 15; // chance to envenom an arrow
+    objvar this:sharpenChance = 15; // chance to sharpen an arrow
+    objvar this:pointBlankChance = 30; // chance to try a point blank shot
+    objvar this:shotChance = 70; // chance to try a shot (pointBlankChance test is done if this one is true)
+    objvar this:switchWeaponChance = 85; // chance to switch to normal weapon while in combat
+
+    checkAbility();
+  }
+  checkAbility() {
+    if ( this.getAbility("archery") == 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have ARCHERY skill." );
+    if ( fletcherChance > 0 && this.getAbility("fletcher") == 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have FLETCHER skill." );
+    if ( bowyerChance > 0 && this.getAbility("bowyer") == 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have BOWYER skill." );
+    if ( igniteChance > 0 && this.getAbility("ignite arrow") == 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have IGNITE ARROW skill." );
+    if ( envenomChance > 0 && this.getAbility("envenom") == 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have ENVENOM skill." );
+    if ( sharpenChance > 0 && this.getAbility("sharpen arrow") == 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have SHARPEN ARROW skill." );
+    if ( pointBlankChance > 0 && this.getAbility("point blank shot") == 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have POINT BLANK SHOT skill." );
+  }
+}

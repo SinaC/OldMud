@@ -1,0 +1,110 @@
+#HELPS
+
+-1 'MOUNT' 'DISMOUNT'~
+Syntax: mount <creature>    or   use riding <creature>
+Syntax: dismount
+
+RIDING is a skill that enables a character to mount certain mobs and
+ride them.  Not all mobs can be ridden.  Most often, mountable mobs are
+pets; however, it is possible to mount non-pets as well.  When a mob that
+is not a pet is mounted, the mob will become one's pet.  In order to ride
+a mob, one must have a saddle, which is placed upon the mob's back when
+mounting.  When mounted, a character does not expend any movement and is
+able to enter rooms for which flying or swimming is required if the mount
+can enter those rooms (regardless of whether the character can).
+DISMOUNT will remove one from their mount, though the creature does
+remain a pet.
+~
+
+
+-1 'SECOND'~
+Syntax : second <weapon>
+
+Dual wield is a skill that allow a player to wield a weapon in their 
+off-hand. The extra weapon must weigh less than the weapon that 
+is held in the primary hand.
+~
+
+-1 SPECIALIZE~
+Syntax: specialize <weapon-type>
+        use specialization <weapon-type>
+
+Weapon specialization allows a character to choose one weapon type
+which he or she concentrates most of his or her fighting skill in.
+When purchasing the skill, type in specialize <weapon-type> to choose
+the type of weapon you desire to be specialized in.  You may only be
+specialized in one weapon type ever, so choose carefully.  You may also
+only specialize in weapons which you are already fully proficient in
+(in other words, your skill is at 100% already).
+
+Once specialized, you chance to hit and your damage done with your
+chosen weapon type is increased.  Also, your chance of getting extra
+attacks in combat with that weapon type is increased.
+
+For information on specialization in schools of magic, see 'help magic
+specialization'.
+~
+
+-1 'THIRD' 'FOURTH'~
+Syntax: third <weapon>
+        fourth <weapon>
+
+Third wield, and Fourth are skills that allow a player to wield
+a weapon in their third or fourth hands as well if their
+race has them. The extra weapons must each weigh less the the weapon
+that is held in the primary hand.
+~
+
+-1 RESTRING STRENGTHEN~
+Syntax: restring <bow>
+Syntax: strengthen <bow>
+
+A character skilled as a bowyer is a master of the craft of improving and
+fixing bows.  Proficiency in this skill gives a character access to two
+separate commands: RESTRING and STRENGTHEN.
+RESTRING allows a character to repair frayed or broken bow strings.  A
+character skilled as a bowyer is presumed to always have the materials and
+tools necessary to replace the bow's string on him or her at all times.
+Restring will not work on a bow with a level higher than the character's,
+and may cause an already frayed bowstring to snap.
+STRENGTHEN allows a character to improve his or her bow, thus causing it to
+inflict more damage.  Strengthen can only be used on bows at least 2 levels
+below the character's level.  Attempting to strengthen a higher level bow
+could destroy it.  Strengthen will increase the bow's level in addition to
+the damage it inflicts, and can only be used a limited amount of times
+before a bow reaches its maximum strength.
+See also: help archery
+~
+
+-1 DIVE~
+Syntax: dive
+
+Some room's exits are specified as <dive>, to have access to them you must
+dive.
+~
+
+-1 SHOWINFO~
+Syntax: showinfo quest
+        showinfo <tag>
+
+This command is a complement to command 'score', it will displays some
+additionial informations such as quest ones. Sometimes a mobile will
+tell you a tag you may use to gather more informations.
+~
+
+-1 OTELL~
+Syntax: otell <item name> <sentence>
+
+This command allows you to talk to an item, this is useful to communicate
+with talkative weapon, magical items, ...
+~
+
+-1 PUSH~
+Syntax: push <item name>
+
+This command allows you to push/pull an item such as a lever, chest, ...
+~
+
+
+0 $~
+#$

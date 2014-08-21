@@ -1,0 +1,444 @@
+AreaState 'mud school' {
+  Room 3700 {
+    Repop = 1;
+  }
+  Room 3701 {
+    Repop = 1;
+    Mobile 3700 {
+      Ptr = 174281288;
+      AfBy = ('detect_evil');
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3701;
+    }
+  }
+  Room 3702 {
+    Repop = 1;
+  }
+  Room 3703 {
+    Repop = 1;
+  }
+  Room 3704 {
+    Repop = 1;
+  }
+  Room 3705 {
+    Repop = 1;
+  }
+  Room 3707 {
+    Repop = 1;
+  }
+  Room 3708 {
+    Repop = 1;
+  }
+  Room 3709 {
+    Repop = 1;
+  }
+  Room 3710 {
+    Repop = 1;
+    Mobile 3701 {
+      Ptr = 174280704;
+      isWildMagic = false;
+      HMVP = (  ( 50 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3710;
+    }
+  }
+  Room 3711 {
+    Repop = 1;
+  }
+  Room 3712 {
+    Repop = 1;
+    Mobile 3707 {
+      Ptr = 174407088;
+      AfBy = ('detect_evil');
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3712;
+    }
+  }
+  Room 3713 {
+    Repop = 1;
+    Mobile 3704 {
+      Ptr = 174406504;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 12;
+      Room = 3713;
+      Obj 3707 {
+        WearLoc = 'legs';
+      }
+      Obj 3712 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 3714 {
+    Repop = 1;
+    Mobile 3705 {
+      Ptr = 174405920;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 3714;
+      Obj 3708 {
+        WearLoc = 'feet';
+      }
+      Obj 3713 {
+        WearLoc = 'lwrist';
+      }
+    }
+  }
+  Room 3715 {
+    Repop = 1;
+    Mobile 3703 {
+      Ptr = 174405336;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 3715;
+      Obj 3706 {
+        WearLoc = 'head';
+      }
+      Obj 3711 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 3716 {
+    Repop = 1;
+    Mobile 3702 {
+      Ptr = 174404752;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 15;
+      Room = 3716;
+      Obj 3705 {
+        WearLoc = 'neck1';
+      }
+      Obj 3705 {
+        WearLoc = 'neck2';
+      }
+    }
+  }
+  Room 3717 {
+    Repop = 1;
+  }
+  Room 3718 {
+    Repop = 1;
+    Mobile 3717 {
+      Ptr = 174404168;
+      AfBy = ('detect_evil');
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3718;
+      ExField = ( 'base_wealth', 'int', -1, 0 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('light','container','drinkcontainer','food') );
+      ExField = ( 'profit_sell', 'int', -1, 150 );
+      ExField = ( 'profit_buy', 'int', -1, 50 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 3138 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3031 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 3719 {
+    Repop = 1;
+  }
+  Room 3720 {
+    Repop = 1;
+    Mobile 3706 {
+      Ptr = 174403584;
+      isWildMagic = false;
+      HMVP = (  ( 22 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 24;
+      Room = 3720;
+      Obj 3709 {
+        WearLoc = 'hands';
+      }
+      Obj 3710 {
+        WearLoc = 'arms';
+      }
+      Obj 3714 {
+        WearLoc = 'hold';
+      }
+      Obj 3713 {
+        WearLoc = 'lwrist';
+      }
+    }
+  }
+  Room 3721 {
+    Repop = 1;
+    Mobile 3720 {
+      Ptr = 174414696;
+      isWildMagic = false;
+      HMVP = (  ( 33 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 34;
+      Room = 3721;
+      Obj 3715 {
+        WearLoc = 'hold';
+      }
+      Obj 3723 {
+        WearLoc = 'floating';
+      }
+    }
+    Mobile 3708 {
+      Ptr = 174415280;
+      AfBy = ('detect_evil');
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3721;
+    }
+  }
+  Room 3722 {
+    Repop = 1;
+  }
+  Room 3723 {
+    Repop = 1;
+  }
+  Room 3724 {
+    Repop = 1;
+    Mobile 3713 {
+      Ptr = 174414112;
+      isWildMagic = false;
+      HMVP = (  ( 1 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3724;
+    }
+  }
+  Room 3725 {
+    Repop = 1;
+  }
+  Room 3726 {
+    Repop = 1;
+    Mobile 3712 {
+      Ptr = 174413528;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 13 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3726;
+    }
+  }
+  Room 3727 {
+    Repop = 1;
+  }
+  Room 3728 {
+    Repop = 1;
+  }
+  Room 3729 {
+    Repop = 1;
+  }
+  Room 3730 {
+    Repop = 1;
+  }
+  Room 3731 {
+    Repop = 1;
+  }
+  Room 3732 {
+    Repop = 1;
+  }
+  Room 3733 {
+    Repop = 1;
+  }
+  Room 3734 {
+    Repop = 1;
+    Mobile 3709 {
+      Ptr = 174412944;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 11 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3734;
+    }
+  }
+  Room 3735 {
+    Repop = 1;
+  }
+  Room 3736 {
+    Repop = 1;
+  }
+  Room 3737 {
+    Repop = 1;
+  }
+  Room 3738 {
+    Repop = 1;
+  }
+  Room 3739 {
+    Repop = 1;
+  }
+  Room 3740 {
+    Repop = 1;
+  }
+  Room 3741 {
+    Repop = 1;
+  }
+  Room 3742 {
+    Repop = 1;
+    Mobile 3710 {
+      Ptr = 174412360;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 23 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3742;
+    }
+  }
+  Room 3743 {
+    Repop = 1;
+  }
+  Room 3744 {
+    Repop = 1;
+  }
+  Room 3745 {
+    Repop = 1;
+  }
+  Room 3746 {
+    Repop = 1;
+    Mobile 3711 {
+      Ptr = 174411776;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 36 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3746;
+    }
+  }
+  Room 3748 {
+    Repop = 1;
+  }
+  Room 3749 {
+    Repop = 1;
+    Mobile 3714 {
+      Ptr = 174767536;
+      isWildMagic = false;
+      HMVP = (  ( 69 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 64;
+      Room = 3749;
+    }
+  }
+  Room 3750 {
+    Repop = 1;
+  }
+  Room 3751 {
+    Repop = 1;
+    Mobile 3715 {
+      Ptr = 174766952;
+      Sex = 'female';
+      isWildMagic = false;
+      HMVP = (  ( 55 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3751;
+    }
+  }
+  Room 3752 {
+    Repop = 1;
+  }
+  Room 3753 {
+    Repop = 1;
+  }
+  Room 3754 {
+    Repop = 1;
+    Mobile 3716 {
+      Ptr = 174766368;
+      Sex = 'male';
+      isWildMagic = false;
+      HMVP = (  ( 58 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 3754;
+    }
+  }
+  Room 3755 {
+    Repop = 1;
+  }
+  Room 3756 {
+    Repop = 1;
+  }
+  Room 3757 {
+    Repop = 1;
+  }
+  Room 3758 {
+    Repop = 1;
+    Mobile 3718 {
+      Ptr = 174765784;
+      AfBy = ('detect_evil');
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3758;
+    }
+  }
+  Room 3759 {
+    Repop = 1;
+    Mobile 3719 {
+      Ptr = 174765200;
+      AfBy = ('detect_evil');
+      isWildMagic = false;
+      HMVP = (  ( 1000 ),  ( 1000 ),  ( 100 ),  ( 0 ) );
+      Room = 3759;
+    }
+  }
+  Room 3760 {
+    Repop = 1;
+  }
+  Room 3761 {
+    Repop = 1;
+    Mobile 3705 {
+      Ptr = 174764616;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 8;
+      Room = 3761;
+      Obj 3708 {
+        WearLoc = 'feet';
+      }
+      Obj 3713 {
+        WearLoc = 'lwrist';
+      }
+    }
+  }
+  Room 3762 {
+    Repop = 1;
+    Mobile 3702 {
+      Ptr = 174764032;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 14;
+      Room = 3762;
+      Obj 3705 {
+        WearLoc = 'neck1';
+      }
+      Obj 3705 {
+        WearLoc = 'neck2';
+      }
+    }
+  }
+  Room 3763 {
+    Repop = 1;
+    Mobile 3703 {
+      Ptr = 174923184;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 11;
+      Room = 3763;
+      Obj 3706 {
+        WearLoc = 'head';
+      }
+      Obj 3711 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 3764 {
+    Repop = 1;
+    Mobile 3704 {
+      Ptr = 174922600;
+      isWildMagic = false;
+      HMVP = (  ( 8 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 3764;
+      Obj 3707 {
+        WearLoc = 'legs';
+      }
+      Obj 3712 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+}

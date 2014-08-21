@@ -1,0 +1,905 @@
+#HELPS
+
+102 COMMANDMENTS LAWS 'GOD RULES' GODS~
+.
+			 **********************
+			 ** The Rules of ROM **
+			 **********************
+ 
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easilly
+    go there themselves.
+ 
+4)  {RDO NOT{x kill the shopkeepers for any reason at ALL.
+ 
+5)  {RDO NOT{x use reboot.  <--- Note, simple English.
+ 
+6)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+7)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+8)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their priveleges.  They are being punished for a reason.
+ 
+9)  Do not try to overrule each other.  
+ 
+10) Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+11) Do not connect your mortal and immortal chars at the same time.
+    Unless of course you LIKE deletion (of your imm char).
+~
+
+102 IMOTD~
+{RWelcome Immortal!
+
+You are responsible for following the laws of immortal behavior. These can
+be found by typing 'help laws' or 'help commandments'.
+
+* Excessive loading is not allowed, and is grounds for deletion.
+
+* Asking for promotion is grounds for instant deletion.
+
+* Type 'help jobs' to get some idea of what you should be doing.
+
+* Type 'help laws' to see the rules of Mystery Mud.{x
+
+ [Hit Return to continue]
+~
+
+102 JOBS~
+This is a partial list of what a god of any given level should be doing. It is
+not complete yet.
+
+Angels:(102-104)
+Angels and higher level gods may not assist mortals directly in any way.  
+An Angel's main job is to help with quests (via switch), or possibly run
+small quest of their own -- but the rewards should be minimal.
+
+Deities:(105-106) Areabuilders
+Deities have two main roles: reimbursement and quest running.  Be skeptical
+on reimburses, don't just hand out every piece of gear.  I suggest limiting
+reimbursements to 10 items at a time, and make sure that you do not load things
+at too high a level (new format items have hard-coded levels, so are not a
+problem).  vnum and stat are useful for this.  You can draft Angels to help you
+run a quest, and please note that quests should NOT have huge rewards -- the
+main point should be to have fun.  Deities have no business trying to enforce
+rules -- the most you should do to a player is a NOCHANNEL or similar light
+punishment.
+
+Gods:(107-109) Administrators
+Gods can run quests just like Deities, and it's nice to do reimbursements too.
+However, the main role of a God is keeping the peace.  Gods can enforce (but
+not create rules), using the various NOTELL-class commands, as well as deny,
+purge, freeze, and ban (but be careful with these commands!)  Gods are expected
+to help make the mud run more smoothly, power trips are strictly verbotten.
+
+Not fufilling the roles of your office can result in demotion or deletion.
+~
+
+110 ADVANCE~
+Syntax: advance <character> <level>
+
+ADVANCE sets a character's level to the specified value.  It is the
+only way to create new immortal characters within the game.  ADVANCE
+may also be used to demote characters.
+~
+
+110 TRUST~
+Syntax: trust <character> <level>
+
+TRUST sets a character's trust to the specified level.  This is similar to
+advancing the character for accessing immortal commands, but has no effect
+on combat strength, et cetera.  You can give more trust to mortal (or
+immortal) characters to give them access to more power without messing up
+the character.  You can also restrict a player's trust to less than their
+natural level.
+
+A trust of 0 means to use the character's natural level again.
+~
+
+109 ALLOW BAN PERMBAN~
+Syntax: allow   <site>
+	ban     <site> <newbies|all|permit>
+	ban
+
+BAN <site> prohibits players from that site from logging in.  BAN with
+no arguments lists the banned sites.  ALLOW <site> removes a site from
+the ban list, if the remover is of equal or higher level than the banner.
+
+A site may have all players, new players, or non-permitted players (set
+by editing the player file) banned, by changing the argument after the site.
+*s may be used to ban either by suffix (*.edu), prefix (labmac*), or 
+content (*andrews*), but be careful not to accidently lock out too many
+sites with a wildcard.  Bans do not save unless the permban command is used.
+~
+
+109 REBOOT SHUTDOWN~
+Syntax: reboot
+	shutdown
+
+Reboot shuts down the server.  When the normal 'startup' script is used
+to control the server, a delay of fifteen seconds will ensue (to allow
+old connections to die), followed by a reboot.
+
+Shutdown shuts down the server and prevents the normal 'startup' script
+from restarting it.
+~
+
+
+108 WIZLOCK NEWLOCK~
+Syntax: wizlock
+	newlock
+
+Wizlock and newlock both block login attempts to ROM. Wizlock locks
+out all non-gods (i.e. level less than 101), except for link-dead players who
+are returning.  Newlock only locks out new character generation, typically
+used for preventing a spammer from returning.  Wizlocking should be avoided,
+and newlocking should be accompanied by mail or a note to the imps.
+
+A god must be at least Supreme level to wizlock the game.
+~
+
+109 DENY~
+Syntax: deny <name>
+
+Deny locks a character out of a game permanently, rendering their character
+name unusable.  It may only be removed by editing the file, for this reason
+freeze is usually preferred.
+~
+
+107 DISCONNECT~
+Syntax: disconnect <name>
+
+Disconnect breaks a player's link to the game, dumping them back to the telnet
+prompt.  This is a non-lethal way of getting rid of spammers and annoying
+players.
+~
+
+107 FREEZE~
+Syntax: freeze <name>
+
+FREEZE <character> is a toggle which prevents a character from issuing any
+commands at all. It can be removed from within the game, so freezing a 
+troublemaker is usually a better option than they deny command.
+~
+
+103 FORCE~
+Syntax: force <character> <command>
+Syntax: force all <command>
+
+FORCE forces one character to execute a command, except of course delete.
+
+Below level 107 (Deity) force can only be used on mobiles, and force all is
+unavailable.  You also cannot 'force orc murder hugo', for example. 
+
+FORCE 'all' forces all player characters to execute a command.
+This is typically used for 'force all save'.
+~
+
+106 SOCKETS~
+Syntax: sockets
+	sockets <name> 
+
+SOCKETS reports all of the visible users connected to the server, including 
+users in the process of logging in.  The two numbers inside brackets are the 
+channel number and the 'connected' state.  The 'connected' states are listed in 
+merc.h: 0 is CON_PLAYING; non-zero values are various states of logging in.
+
+The optional name argument shows the site of a player, or optional can be used
+to identify switched gods (i.e. socket orc shows the name of anyone switched
+into an orc).
+~
+
+102 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone <name>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your posession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.  
+Strung extended descriptions on objects are not kept, however.
+~
+
+104 LOAD~
+Syntax: load mob <vnum>
+	load obj <vnum> <level>
+
+The load command is used to load new objects or mobiles (use clone to 
+duplicate strung items and mobs).  The vnums can be found with the vnum
+command, or by stat'ing an existing mob or object.
+
+Load puts objects in inventory if they can be carried, otherwise they are
+put in the room.  Mobiles are always put into the same room as the god. Old
+format objects must be given a level argument to determine their power, new
+format objects have a preset level that cannot be changed without set.
+(see also clone, vnum, stat)
+~
+
+105 SET~
+Syntax: set mob   <mobile> <field> <value>
+	set obj   <object> <field> <value>
+	set room  <number> <field> <value>
+	set skill <char>   <name>  <rating>
+	set skill <char>   all     <rating>
+
+The set command is used to change the numerical values of the various data
+structures. Type set <class> without an argument to see a listing of options.
+Set skill all (pc's only) will set all the character's skills to the value
+given.  Use string to change the strings on an object or mobile.
+(see also string, stat)
+~
+
+105 STRING~
+Syntax: string obj <field> <string>
+	string mob <field> <string>
+
+The string command changes the various strings associated with an object or
+mobile.  A full list of fields can be viewed by typing string obj or string
+mob.  Sorry, multi-line strings are not yet supported.
+~
+
+105 NOCHANNEL NOEMOTE NOSHOUT NOTELL~
+Syntax: nochannel <character>
+	noemote   <character>
+	noshout   <character>
+	notell    <character>
+
+Noemote, noshout, and notell are used to muffle other characters, by
+preventing them from emoting, shouting, and telling, respectively.
+Characters who are noshout'ed or no'telled will also not receive those
+forms of communication.
+
+The nochannel command is similar, but more drastic. It prevents the victim
+from using any of the channels (gossip, cgossip, Q/A, music) on the game.
+Nochannels usually result from swearing or spamming on public channels.
+~
+
+104 PARDON~
+Syntax: pardon <character> killer
+	pardon <character> thief
+
+Pardon pardons a player for their crimes.  Don't pardon a player unless you
+are sure they deserve it.  Being killed by Hassan acts as an automatic
+pardon.
+~
+
+104 PURGE~
+Syntax: purge
+	purge <character>
+
+Purge is used to clean up the world.  Purge with no arguments removes all the
+NPC's and objects in the current room.  Purge with an argument purges one
+character from anywhere in the world.
+
+Purge will not get rid of PC's, or objects or mobiles with a NOPURGE flag
+set (i.e. the pit, the fountain, shopkeepers, Hassan).  Mobiles may be
+purged if they are called directly by name.
+~
+
+104 RESTORE~
+Syntax: restore <character>
+	restore room
+	restore all
+
+Restore restores full hit points, mana points, and movement points to the
+target character.  It also heals poison, plague, and blindness.
+
+Restore room (or restore with no argument) performs a restore on every player
+in the room, restore all does the same for all connected players. Restore all
+is only usable by creators and implementors.  Restore should be used sparingly
+or not at all.
+~
+
+106 SLAY~
+Syntax: slay <character>
+
+Slay kills a character in cold blood, no saving throw.  Best not to use this
+command on players if you enjoy being a god.
+~
+
+105 TRANSFER TELEPORT~
+Syntax: transfer <character>
+	transfer all
+	transfer <character> <location>
+	transfer all         <location>
+
+Transfer transfers the target character, or ALL player characters,
+to your current location (default) or to a specified location. Trans all 
+should almost never be used, as 100 players popping into one room can have
+horrible effects on slow links. Teleport is a synonym for transfer. 
+~
+
+104 AT~
+Syntax: at <location> <command>
+
+At executes the given command (which may have arguments) at the given
+location.  The location may be specified as a vnum, as the name of
+a mobile, or as the name of an object.
+
+At works by temporarily moving you to that location, executing the
+command, and then moving you back (if the command didn't change your
+location).
+~
+
+104 ECHO GECHO PECHO~
+Syntax: echo  <message>
+	gecho <message>
+	pecho <character> <message>
+
+These commands all perform similar functions.  Echo sends the message to
+all characters in the same room as the user, with no indication of who sent
+it.  Gecho does the same for all players connected to the game, and pecho
+sends the message to the player specified as the target.  Any higher-level
+god will see a prompt in front of your message, informing him or her that it
+is an echo.
+~
+
+102 GOTO GSET~
+Syntax: goto [<location>]
+        gset
+
+Goto takes you to a location.  The location may be specified as a vnum,
+as the name of a mobile, or as the name of an object.
+
+You may not Goto a room if it is PRIVATE and has two (or more) characters
+already present, or if it is SOLITARY and has one (or more) characters
+already present. Some other rooms are barred to players below a certain
+god level.
+
+Implementors can use the violate command to get into private rooms.
+
+If no argument is specified when using goto, goto will take gset as location
+You can set your default goto location by type gset when in the choosen room
+~
+
+102 HOLYLIGHT INVIS WIZINVIS~
+Syntax: holylight
+	wiznvis <level>
+
+Holylight is a toggle that allows you to see (almost) every character and
+mobile in the game.  With holy light, you can see what's in the game more
+easily.  Without holy light, you can see what mortal players see.
+
+Wizinvis takes a level argument, and will mke you invisible to all players of
+a lower level than your invisibility level.  It defaults to the maximum
+(your level) if no argument is given.  Wizi 110 characters are totally 
+invisible.
+~
+
+102 INCOGNITO~
+Toggling your incognito status will hide your presence from people outside the
+room you are in, but leave you visible to those who are with you.  It takes
+a level argument similar to wizinvis, people at that level or higher can see
+you regarless of location.
+~ 
+
+105 MEMORY~
+Syntax: memory
+
+Memory reports the size of your mud.
+
+The 'Mobs' and 'Objs' lines report the number of types of mobiles and objects,
+not the number of instances currently in the game.
+
+The 'Strings' line shows memory used by area-file strings.  These strings have
+a maximum limit, which is also shown.
+
+The 'Perms' line shows permanently allocated memory blocks.  There is no limit
+on the number and size of these blocks.
+~
+
+105 VNUM~
+Syntax: vnum <name>
+	vnum <obj or mob> <name>
+	vnum skill <name>
+
+Vnum finds all objects and mobiles with a particular name, and prints out
+the results.  Use vnum obj or vnum mob to limit the search.  This vnum is
+very useful for loading. Vnum skill returns the skill number (for set) and
+the slot number (for making new zones) of a skill name.
+(see also load)
+~
+
+102 STAT~
+Syntax: stat <name>
+	stat mob  <name>
+	stat obj  <name>
+	stat room <number>
+
+The stat command gives you detailed information on an object, mobile, or room
+within the game.  Without a class argument, the command will return a object
+(if found), a mobile (if no object exists, but a mobile does), or a room 
+(if a number is  given).  Stat room with no argument stats the room you are
+standing in.  Stat can be used to find room vnums for goto.
+(see also goto, transfer)
+~
+
+102 MWHERE~
+Syntax: mwhere <name>
+
+Mwhere shows you the locations of all mobiles with a particular name.
+~
+
+105 PEACE~
+Syntax: peace
+
+Peace causes all characters in a room to stop fighting. It also strips the
+AGGRESSIVE bit from mobiles.
+~
+
+102 POOFIN POOFOUT~
+Syntax: poofin  <message>
+Syntax: pooffout <message>
+
+The standard messages for goto are 'arrives in a swirling mist' and
+'leaves in a swirling mist'.  You can replace these messages with messages of
+your own choosing using the poofin and poofout commands.  These messages
+must include your name somewhere in the string.
+
+Poofin and poofout only show to characters who can see you.
+(see also goto)
+~
+
+110 PROTECT~
+Syntax: protect <character>
+
+Protect is used to protect a character from unwanted snooping.  Removing 
+protected status from a character WILL be seen by that character.
+~
+
+109 LOG SNOOP~
+Syntax: log   <character>
+	log   all
+	snoop <character>
+
+Log <character> causes all of a character's commands to be logged into
+the server's log file.  Like Freeze, it is a permanent character toggle.
+Logs may only be used by creators and implementors, and should be accompanied
+by mail to the implementors.
+
+Certain commands (Password) are protected against log.  Conversely, certain
+commands (especially immortal commands) are always logged.
+
+Log all logs all character commands.  It is a server-wide toggle; it does not
+persist across reboots. Please do not use this unless you tell the imps.
+
+Snoop shows you a copy of all the input and output going to a character.
+The character must have an open channel.  You may snoop more than one
+character at a time. Try to respect privacy.
+
+Snoop yourself to cancel all outstanding snoops.
+~
+
+104 SWITCH RETURN~
+Syntax: switch <character>
+	return
+
+Switch switches you into the body of another character (who must not
+already have a descriptor, e.g. you can't switch into a PC). You also cannot
+switch into link-dead PCs.
+
+Return returns you to your original body.
+~
+
+101 IMMTALK :~
+Syntax: immtalk <message>
+	immtalk
+
+Immtalk sends a message to all immortals.  : is a synonym for immtalk.
+Using this command with no argument turns off the immortal channel (or
+turns it back on).
+~
+
+102 WIZNET~
+Syntax: wiznet 
+	wiznet show
+	wiznet status
+	wiznet <field>
+
+Wiznet is sort of an immortal news service, to show important events to
+the wiznetted immoral.  Wiznet by itself turns wiznet on and off, 
+wiznet show lists all settable flags (they are not detailed here), 
+wiznet status shows your current wiznet settings, and wiznet <field> toggles
+a field on and off.  The events should be self-explanatory, if they are not,
+fiddle with them a while.  More events are available at higher levels.
+~
+101 WIZHELP~
+Syntax: wizhelp
+
+Wizhelp provides a list of all the immortal commands.
+~
+
+109 XPBONUS~
+Syntax: xpbonus <character> <a value between -5000 and 5000>
+
+Allow you to give a xp bonus to a player
+~
+
+109 SPY~
+Syntax: spy
+
+Allow IMMs to see everyone on the MUD, where they are, what they are
+doing (position), how strong they are (% of full hps), as well as 
+provide the general race, class, level info.
+
+For an IMM, it will show if they are wizi or incog and at what levels
+they are, and where they are. It ignores private and solitary flags.
+(i.e. will report on people in them).
+~
+
+105 MBATTLE~
+Syntax: mbattle open [<level min> <level max>]	: opens the battlefield
+	mbattle close   : closes the battlefield and starts the battle
+	mbattle cancel  : cancels the current battle
+~
+
+105 OLEVEL MLEVEL~
+Syntax: olevel <level>
+	mlevel <level>
+
+olevel shows you the items at the level you've choosen around the MUD.
+mlevel shows you the mobs at the level you've choosen around the MUD. 
+~
+
+109 DISABLE~
+Syntax: disable <command>
+
+This command disable a buggy command. If you use it without any parameter
+you'll see all disabled commands.
+~
+ 
+105 EXLIST~
+Syntax: exlist
+
+This command shows you all links between the area you're in and the others.
+~
+
+105 VLIST~
+Syntax: vlist
+
+This command shows you all areas vnums. Unused ones are shown with a -
+~
+
+104 GTRIVIA~
+Syntax: gtrivia <player> <number>
+
+Allows you to give trivia point.
+~
+110 DUMP~
+Syntax: dump
+
+This command creates a file (obj.dmp) with all mud's objects in.
+~
+
+
+
+104 OMATCH~
+Syntax: omatch <specifier> '<argument>' [<specifier> 'arg'] ...
+ specifiers:
+   level    {{<level> | <minlevel maxlevel>}
+   name     <list of names>
+   type     <item type>
+   size     <size>
+   wear     <wear flags>
+   extra    <extra flags>
+   wclass   <weapon class>
+   wflag    <weapon flags>
+   vnum     <minvnum maxvnum>
+   value0   <value>     or value1, value2, value3, value4
+   program  <program name>
+   material <material name>
+   balance  check unbalanced items
+   points   display item points
+   buggy    check buggy items
+
+Examples: omatch type weapon level 1 10
+           will find every weapon betwwen level 1 and 10
+          omatch name foutain level 5
+           will find every item level 5 named fountain
+
+Related help: mmatch, rmatch, exmatch, amatch
+~
+
+104 MMATCH~
+Syntax: mmatch <specifier> '<argument>' [<specifier> 'arg'] ...
+ specifiers:
+   level {{<level> | <minlevel maxlevel>}
+   name <list of names>
+   act <act flags>
+   off <offensive flags>
+   race <race name>
+   program <program name>
+   spec <spec name>
+   align {{<align> | <min align> <max align>}
+   vnum <min vnum> <max vnum>
+   parts <part flags>
+   form <form flags>
+   faction <faction name>
+   aff <affect flags>
+   aff2 <affect flags 2>
+
+Examples: mmatch act aggressive level 1 20 vnum 300 399
+           will find every 'aggressive' mob level 1 to 20 with
+           vnums between 300 and 399
+
+Related help: omatch, rmatch, exmatch, amatch
+~
+
+104 RMATCH~
+Syntax: rmatch <specifier> '<argument>' [<specifier> 'arg'] ...
+ specifiers:
+   name <list of names>
+   vnum <min vnum> <max vnum>
+   sector <sector flag>
+   flag <room flag>
+   size <room maximal size>
+   program <program name>
+   repop <minvalue> <maxvalue>
+   repoppeople <minvalue> <maxvalue>
+
+Examples: rmatch size tiny sector city
+           will find every room with sector 'city' and max
+           size 'tiny'
+
+Related help: omatch, mmatch, exmatch, amatch
+~
+
+104 EXMATCH~
+Syntax: exmatch <specifier> '<argument>' [<specifier> 'arg'] ...
+ specifiers:
+   keyword <list of names>
+   vnum <exit leading to room vnum>
+   flag <exit flag>
+   key <key vnum>
+
+Examples: exmatch flag closed vnum 3011
+           will find every rooms with a 'closed' exit leading to room 3011
+
+Related help: omatch, mmatch, rmatch, amatch
+~
+
+104 AMATCH~
+Syntax: amatch <specifier> '<argument>' [<specifier> 'arg'] ...
+ specifiers:
+   keyword <list of names>
+   type <ability type>
+   class <class name>
+   target <target name>
+   position <min position>
+   cost <min cost> [<max cost>]
+   beats <min beats> [<max beats>]
+   mob <mob use flag>
+   dispellable YES/NO
+   wait <min time> [<max time>]
+   craftable YES/NO
+   update YES/NO
+   wearoff YES/NO
+   script YES/NO
+
+Examples: amatch name detect craftable yes cost 10 50 type spell
+           will find every 'craftable' 'spell' with 'detect' in the name
+           and with a mana cost between 10 and 50
+
+Related help: omatch, mmatch, rmatch, exmatch
+~
+
+104 SHOWFACTION~
+Syntax:
+ showfaction                                 display faction table
+ showfaction <faction name> races            display races getting this faction
+ showfaction <faction name> [<faction name>] display faction line/entry
+ showfaction <char name> [<faction name>]    display char faction line/entry
+~
+
+102 AREACOUNT~
+Syntax: areacount
+        areacount <area name>
+
+Display number of mobiles/objects and players in area
+~
+
+102 ACCEPTNAME~
+Syntax: acceptname <player name>
+
+When a new character is created, he/she's flagged as {C[NEWBIE]{x. This command
+just removes this flag.
+Only use it if the new player has an acceptable name. Check 'help advertice' and
+'help names'
+If the player doesn't have an acceptable name, ask him to delete and recreate
+a new character.
+If a [NEWBIE] player reached a level higher than 5 or 10, you should ask
+other imm's opinions before asking the player to delete.
+~
+
+102 MORTAL~
+Syntax: mortal
+
+This command toggles you IMMORTAL status ON/OFF. When OFF, you may be killed as
+a normal player every IS_IMMORTAL test are by-passed. This is really useful to
+test new stuff such as abilities/scripts/...
+~
+
+102 RESETAREA~
+Syntax: resetarea [<area name>] [hard]
+
+This command resets an area, making died mob repoping. If hard is specified,
+each room is purged of its mobiles/objects before resetting.
+~
+
+104 GRAB~
+Syntax: grab <char> <item>
+
+This command allows you to get an item from a player even if you are not in the
+same room.
+~
+
+102 WRLIST~
+Syntax: wrlist <type> <low vnum> <high vnum>
+         type is o(bject), m(obile), r(oom)
+
+This command displays every resets of type <type> in vnum range.
+~
+
+102 FIELD~
+Syntax: field
+        field char/mob <char name>
+        field obj <obj name>
+        field room [room vnum]
+
+This command displays extra fields (dynamic fields added by scripts) of the
+selected entity. If no argument is specified, display your extra fields.
+~
+
+105 AFREMOVE~
+Syntax: afremove
+        afremove char <char name>
+        afremove obj <obj name>
+        afremove room [room vnum]
+
+This command remove every affects of the selected entity. If no argument is
+specified, remove your affects.
+~
+
+103 MSTATVNUM~
+Syntax: mstatvnum <mob vnum>
+
+This command display information about a mob index data specified by
+its vnum.
+~
+
+103 OSTATVNUM~
+Syntax: ostatvnum <obj vnum>
+
+This command display information about an obj index data specified by
+its vnum.
+~
+
+110 DISPLRCMD~
+Syntax: displrcmd <player name> [<command to disable/enable>]
+
+If no command is specified, this command displays every commands disabled
+for specified player. If a command is specified, the command is
+disable/enable for the specified player, he/she will be then unable/able
+to use that command again.
+~
+
+102 MWHEREVNUM~
+Syntax: mwherevnum <mobile vnum>
+
+This command displays location where mobiles with specified vnum can be
+found.
+~
+
+102 OWHEREVNUM~
+Syntax: owherevnum <object vnum>
+
+This command displays location where objects with specified vnum can be
+found.
+~
+
+102 IMMTITLE~
+Syntax: immtitle
+        immtitle none
+        immtitle <new immortal title>
+
+This command allows you to change the string into brackets before your
+name when using the command 'who'. This title is IC (In-Character/RP) so
+don't use player name/political matter/...
+Typing 'immtitle none' will clear your immtitle and default back to your
+title being shown. Typing 'immtitle' alone will show you your current
+immtitle
+~
+
+102 FVLIST~
+Syntax: fvlist obj
+        fvlist mob
+        fvlist room
+
+This command displays free vnum of specified entity in the current area,
+the current area is the area where the room you're in is attached.
+~
+
+102 SKILLSTAT SPELLSTAT POWERSTAT SONGSTAT GROUPSTAT~
+Syntax: skillstat <char name>
+        spellstat <char name>
+        powerstat <char name>
+        songstat <char name>
+        groupstat <char name>
+
+These commands display skill/spell/... a char has access to. The char
+may be a mobile or a player.
+~
+
+110 ADDLAG~
+Syntax: addlag <player name> <tick>
+
+This command add lag to a player. Be careful when using this command!
+~
+
+102 MUDSTATUS~
+Syntax: mudstatus
+
+This command displays general informations about mud such as:
+ Double XP
+ Unsaved areas
+ Mud wizlocked
+ ...
+~
+
+110 SETPASSWORD~
+Syntax: setpassword <player name> <new password>
+
+This command allows to change the password of a player. Be careful when
+using this command!
+~
+
+102 XSTAT~
+Syntax: xstat <char name>
+
+This command displays every dynamic informations about a char (mob or player)
+The first value is the base one (defined at creation or when becoming
+higher level). The second value is the current one, base one modified by
+equipement/affects/...
+~
+
+110 XSET~
+Syntax: xset <char name> <attrib> <value>
+
+This command allows you to modify any dynamic informations of a
+char (mob or player). Base value is modify so be careful! (see xstat)
+~
+
+102 CHAOS~
+Syntax: chaos <min lev> <max lev> <waiting time> <battle time>
+  min lev         is the minimum level to enter in the battle.
+  max lev         is the maximum level to enter in the battle.
+  waiting time    is the delay before the battle starts.
+  battle time     is the delay before the battle stops.
+
+Chaos is used to start a battle within a level range and 2 delay.
+
+Syntax: chaos <abort/cancel/reset>
+ This is used to abort a battle.
+~
+
+0 $~
+#$

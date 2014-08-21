@@ -1,0 +1,44 @@
+
+class objtest2 extends Obj {
+  onLooking ( act ) {
+    this.tell(act,"You never saw a talking bow?");
+    fireDamage( act, 50 );
+  }
+  onPulseTick (  ) {
+    var act = this.carriedBy();
+    if ( act != NULL ) {
+      randomMsg( act );
+      fireDamage( act, 50 );
+    }
+  }
+  randomMsg( act ) {
+    var r = random(100);
+    if ( r <= 10 )      this.tell(act,"I asked you to drop me immediately.");
+    else if ( r <= 20 ) this.tell(act,"Drop me now.");
+    else if ( r <= 30 ) this.tell(act,"Stop this and drop me.");
+    else if ( r <= 40 ) this.tell(act,"{RBurn{x");
+    else if ( r <= 50 ) this.tell(act,"Muhahahaha.");
+    else if ( r <= 60 ) this.tell(act,"Please...");
+    else if ( r <= 70 ) this.tell(act,"I warn you! If you don't drop me now, you'll get burned.");
+    else if ( r <= 80 ) this.tell(act,"I can't see you one minute more.");
+    else if ( r <= 90 ) this.tell(act,"I'm getting angry!");
+    else                this.tell(act,"Fear my wrath!!!");
+  }
+  onGot ( act ) {
+    this.tell(act,"Drop me immediately.");
+  }
+  onGiven( from, to ) {
+    this.tell( from, "I asked to drop me!");
+    fireDamage( from, 25 );
+    onGot( to );
+  }
+  fireDamage( act, amount ) {
+    this.actAll("{R$n $b burned by $n.{x", [[ act, act, this ]] );
+    act.damage( amount, "fire", "has been burned to death.");
+  }
+  onDropped ( act ) {
+    fireDamage( act, 25 );
+    this.tell(act,"Thanks a lot");
+  }
+}
+

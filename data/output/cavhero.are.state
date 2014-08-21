@@ -1,0 +1,400 @@
+AreaState 'Cavern of Heroes' {
+  Room 15800 {
+    Repop = 28;
+  }
+  Room 15801 {
+    Repop = 28;
+  }
+  Room 15802 {
+    Repop = 28;
+  }
+  Room 15803 {
+    Repop = 28;
+    Mobile 15801 {
+      Ptr = 183341056;
+      DamType = 'pound';
+      HMVP = (  ( 4095 ),  ( 405, 385 ),  ( 100 ),  ( 340 ) );
+      Gold = 11;
+      Silver = 169;
+      Room = 15803;
+      Obj 15807 {
+        WearLoc = 'hold';
+      }
+      Obj 15806 {
+        WearLoc = 'wielded';
+      }
+      Obj 15805 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15804 {
+        WearLoc = 'floating';
+      }
+    }
+    Mobile 15800 {
+      Ptr = 183341640;
+      DamType = 'pound';
+      HMVP = (  ( 4109 ),  ( 374, 349 ),  ( 100 ),  ( 371 ) );
+      Gold = 4;
+      Silver = 529;
+      Room = 15803;
+      Obj 15803 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15802 {
+      }
+      Obj 15801 {
+        WearLoc = 'wielded';
+      }
+      Obj 15800 {
+        WearLoc = 'lfinger';
+      }
+    }
+  }
+  Room 15804 {
+    Repop = 28;
+  }
+  Room 15805 {
+    Repop = 28;
+  }
+  Room 15806 {
+    Repop = 28;
+    Mobile 15802 {
+      Ptr = 183352168;
+      DamType = 'pound';
+      HMVP = (  ( 4855, 4785 ),  ( 418, 394 ),  ( 100 ),  ( 397 ) );
+      Gold = 8;
+      Silver = 561;
+      Room = 15806;
+      Obj 15813 {
+        WearLoc = 'arms';
+      }
+      Obj 15812 {
+        WearLoc = 'hold';
+      }
+      Obj 15811 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15803 {
+      Ptr = 183352752;
+      HMVP = (  ( 4755 ),  ( 391, 376 ),  ( 100 ),  ( 372 ) );
+      Gold = 30;
+      Silver = 570;
+      Room = 15806;
+      Obj 15814 {
+        WearLoc = 'hold';
+      }
+      Obj 15808 {
+        WearLoc = 'about';
+      }
+      Obj 15810 {
+        WearLoc = 'wielded';
+      }
+      Obj 15809 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 15807 {
+    Repop = 28;
+  }
+  Room 15808 {
+    Repop = 28;
+  }
+  Room 15809 {
+    Repop = 28;
+    Mobile 15805 {
+      Ptr = 183351000;
+      DamType = 'slash';
+      HMVP = (  ( 5321 ),  ( 436, 396 ),  ( 100 ),  ( 394 ) );
+      Gold = 26;
+      Silver = 440;
+      Room = 15809;
+      Obj 15820 {
+        WearLoc = 'head';
+      }
+      Obj 15819 {
+        WearLoc = 'wielded';
+      }
+      Obj 15821 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15822 {
+        WearLoc = 'hold';
+      }
+      Obj 15823 {
+        WearLoc = 'neck1';
+      }
+    }
+    Mobile 15804 {
+      Ptr = 183351584;
+      DamType = 'pierce';
+      HMVP = (  ( 5411, 5351 ),  ( 445 ),  ( 100 ),  ( 347 ) );
+      Gold = 64;
+      Silver = 37;
+      Room = 15809;
+      Obj 15817 {
+        WearLoc = 'wielded';
+      }
+      Obj 15816 {
+        WearLoc = 'about';
+      }
+      Obj 15818 {
+        WearLoc = 'neck2';
+      }
+      Obj 15815 {
+        WearLoc = 'body';
+      }
+    }
+  }
+  Room 15810 {
+    Repop = 28;
+  }
+  Room 15811 {
+    Repop = 28;
+  }
+  Room 15812 {
+    Repop = 28;
+    Mobile 15813 {
+      Ptr = 183349832;
+      DamType = 'slash';
+      HMVP = (  ( 7583, 7558 ),  ( 425, 400 ),  ( 140, 100 ),  ( 420 ) );
+      Gold = 64;
+      Silver = 3358;
+      Room = 15812;
+      Obj 15855 {
+      }
+      Obj 15854 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15853 {
+        WearLoc = 'hold';
+      }
+      Obj 15852 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15812 {
+      Ptr = 183350416;
+      HMVP = (  ( 7570, 7550 ),  ( 548, 464 ),  ( 100 ),  ( 403 ) );
+      Gold = 41;
+      Silver = 1513;
+      Room = 15812;
+      Obj 15851 {
+        WearLoc = 'neck1';
+      }
+      Obj 15850 {
+        WearLoc = 'hold';
+      }
+      Obj 15849 {
+        WearLoc = 'head';
+      }
+      Obj 15848 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15813 {
+    Repop = 28;
+    Mobile 15814 {
+      Ptr = 183365040;
+      DamType = 'pound';
+      HMVP = (  ( 9294, 9264 ),  ( 511, 441 ),  ( 100 ),  ( 451 ) );
+      Gold = 144;
+      Silver = 1081;
+      Room = 15813;
+      Obj 15859 {
+        WearLoc = 'body';
+      }
+      Obj 15858 {
+        WearLoc = 'shield';
+      }
+      Obj 15857 {
+        WearLoc = 'floating';
+      }
+      Obj 15856 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 15815 {
+      Ptr = 183349248;
+      DamType = 'pound';
+      HMVP = (  ( 9276, 9226 ),  ( 494, 454 ),  ( 100 ),  ( 482 ) );
+      Gold = 88;
+      Silver = 7591;
+      Room = 15813;
+      Obj 15863 {
+        WearLoc = 'legs';
+      }
+      Obj 15862 {
+        WearLoc = 'body';
+      }
+      Obj 15861 {
+        WearLoc = 'feet';
+      }
+      Obj 15860 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 15814 {
+    Repop = 28;
+  }
+  Room 15815 {
+    Repop = 28;
+  }
+  Room 15816 {
+    Repop = 28;
+  }
+  Room 15817 {
+    Repop = 28;
+    Mobile 15806 {
+      Ptr = 183363872;
+      DamType = 'pound';
+      HMVP = (  ( 6182, 6127 ),  ( 387 ),  ( 125, 100 ),  ( 450 ) );
+      Gold = 43;
+      Silver = 1274;
+      Room = 15817;
+      Obj 15825 {
+        WearLoc = 'waist';
+      }
+      Obj 15824 {
+      }
+      Obj 15826 {
+        WearLoc = 'wielded';
+      }
+      Obj 15827 {
+        WearLoc = 'body';
+      }
+    }
+    Mobile 15807 {
+      Ptr = 183364456;
+      DamType = 'pierce';
+      HMVP = (  ( 5891, 5861 ),  ( 403, 383 ),  ( 100 ),  ( 393 ) );
+      Gold = 57;
+      Silver = 1140;
+      Room = 15817;
+      Obj 15831 {
+        WearLoc = 'hold';
+      }
+      Obj 15830 {
+        WearLoc = 'body';
+      }
+      Obj 15829 {
+        WearLoc = 'wielded';
+      }
+      Obj 15828 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 15818 {
+    Repop = 28;
+  }
+  Room 15819 {
+    Repop = 28;
+  }
+  Room 15820 {
+    Repop = 28;
+  }
+  Room 15821 {
+    Repop = 28;
+  }
+  Room 15822 {
+    Repop = 28;
+  }
+  Room 15823 {
+    Repop = 28;
+    Mobile 15811 {
+      Ptr = 183362704;
+      DamType = 'pierce';
+      HMVP = (  ( 5380, 5335 ),  ( 411, 381 ),  ( 100 ),  ( 367 ) );
+      Gold = 79;
+      Silver = 269;
+      Room = 15823;
+      Obj 15847 {
+        WearLoc = 'body';
+      }
+      Obj 15846 {
+        WearLoc = 'wielded';
+      }
+      Obj 15845 {
+        WearLoc = 'head';
+      }
+      Obj 15844 {
+        WearLoc = 'waist';
+      }
+    }
+    Mobile 15810 {
+      Ptr = 183363288;
+      DamType = 'slash';
+      HMVP = (  ( 4470, 4450 ),  ( 351, 331 ),  ( 100 ),  ( 392 ) );
+      Room = 15823;
+      Obj 15843 {
+        WearLoc = 'head';
+      }
+      Obj 15842 {
+        WearLoc = 'waist';
+      }
+      Obj 15841 {
+        WearLoc = 'wielded';
+      }
+      Obj 15840 {
+        WearLoc = 'body';
+      }
+    }
+  }
+  Room 15824 {
+    Repop = 28;
+  }
+  Room 15825 {
+    Repop = 28;
+  }
+  Room 15826 {
+    Repop = 28;
+  }
+  Room 15827 {
+    Repop = 28;
+    Mobile 15808 {
+      Ptr = 183361536;
+      DamType = 'slash';
+      HMVP = (  ( 6498, 6448 ),  ( 481, 421 ),  ( 160, 100 ),  ( 413 ) );
+      Gold = 64;
+      Silver = 2777;
+      Room = 15827;
+      Obj 15835 {
+        WearLoc = 'lwrist';
+      }
+      Obj 15834 {
+        WearLoc = 'body';
+      }
+      Obj 15833 {
+        WearLoc = 'wielded';
+      }
+      Obj 15832 {
+        WearLoc = 'neck1';
+      }
+    }
+    Mobile 15809 {
+      Ptr = 183362120;
+      DamType = 'pound';
+      HMVP = (  ( 5626 ),  ( 502, 363 ),  ( 100 ),  ( 382 ) );
+      Gold = 58;
+      Silver = 335;
+      Room = 15827;
+      Obj 15839 {
+        WearLoc = 'wielded';
+      }
+      Obj 15838 {
+        WearLoc = 'hold';
+      }
+      Obj 15837 {
+        WearLoc = 'neck1';
+      }
+      Obj 15836 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+    }
+  }
+}

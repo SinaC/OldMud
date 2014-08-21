@@ -1,0 +1,776 @@
+AreaState 'Valley of the Elves' {
+  Room 7800 {
+    Repop = 28;
+  }
+  Room 7801 {
+    Repop = 28;
+  }
+  Room 7802 {
+    Repop = 28;
+  }
+  Room 7803 {
+    Repop = 28;
+  }
+  Room 7804 {
+    Repop = 28;
+  }
+  Room 7805 {
+    Repop = 28;
+    Mobile 7801 {
+      Ptr = 182490840;
+      DamType = 'slash';
+      HMVP = (  ( 103 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Room = 7805;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7806 {
+    Repop = 28;
+    Mobile 7800 {
+      Ptr = 182490256;
+      DamType = 'pierce';
+      HMVP = (  ( 64 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Room = 7806;
+    }
+  }
+  Room 7807 {
+    Repop = 28;
+    Mobile 7800 {
+      Ptr = 182489672;
+      DamType = 'slash';
+      HMVP = (  ( 65 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Room = 7807;
+    }
+  }
+  Room 7808 {
+    Repop = 28;
+  }
+  Room 7809 {
+    Repop = 28;
+  }
+  Room 7810 {
+    Repop = 28;
+  }
+  Room 7811 {
+    Repop = 28;
+    Mobile 7802 {
+      Ptr = 182489088;
+      DamType = 'slash';
+      HMVP = (  ( 105 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Room = 7811;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7812 {
+    Repop = 28;
+  }
+  Room 7813 {
+    Repop = 28;
+  }
+  Room 7814 {
+    Repop = 28;
+  }
+  Room 7815 {
+    Repop = 28;
+    Mobile 7814 {
+      Ptr = 182500784;
+      DamType = 'pierce';
+      HMVP = (  ( 74 ),  ( 116 ),  ( 100 ),  ( 0 ) );
+      Room = 7815;
+    }
+  }
+  Room 7816 {
+    Repop = 28;
+    Mobile 7801 {
+      Ptr = 182500200;
+      DamType = 'pound';
+      HMVP = (  ( 108 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Room = 7816;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7817 {
+    Repop = 28;
+  }
+  Room 7818 {
+    Repop = 28;
+    Mobile 7813 {
+      Ptr = 182499032;
+      DamType = 'pound';
+      HMVP = (  ( 54 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Room = 7818;
+    }
+    Mobile 7801 {
+      Ptr = 182499616;
+      DamType = 'pierce';
+      HMVP = (  ( 98 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Room = 7818;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7819 {
+    Repop = 28;
+  }
+  Room 7820 {
+    Repop = 28;
+    Mobile 7802 {
+      Ptr = 182497864;
+      DamType = 'slash';
+      HMVP = (  ( 101 ),  ( 115 ),  ( 100 ),  ( 0 ) );
+      Room = 7820;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 7801 {
+      Ptr = 182498448;
+      DamType = 'pound';
+      HMVP = (  ( 106 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Room = 7820;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7821 {
+    Repop = 28;
+  }
+  Room 7822 {
+    Repop = 28;
+  }
+  Room 7823 {
+    Repop = 28;
+    Mobile 7800 {
+      Ptr = 182497280;
+      DamType = 'slash';
+      HMVP = (  ( 67 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Room = 7823;
+    }
+  }
+  Room 7824 {
+    Repop = 28;
+  }
+  Room 7825 {
+    Repop = 28;
+    Mobile 7814 {
+      Ptr = 182504880;
+      DamType = 'pierce';
+      HMVP = (  ( 77 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Room = 7825;
+    }
+  }
+  Room 7826 {
+    Repop = 28;
+  }
+  Room 7827 {
+    Repop = 28;
+    Mobile 7805 {
+      Ptr = 182504296;
+      DamType = 'pierce';
+      HMVP = (  ( 81 ),  ( 113 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7827;
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7828 {
+    Repop = 28;
+  }
+  Room 7829 {
+    Repop = 28;
+  }
+  Room 7830 {
+    Repop = 28;
+    Mobile 7813 {
+      Ptr = 182503712;
+      DamType = 'pierce';
+      HMVP = (  ( 58 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Room = 7830;
+    }
+  }
+  Room 7831 {
+    Repop = 28;
+  }
+  Room 7832 {
+    Repop = 28;
+  }
+  Room 7833 {
+    Repop = 28;
+    Mobile 7800 {
+      Ptr = 182503128;
+      DamType = 'pierce';
+      HMVP = (  ( 71 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 7833;
+    }
+  }
+  Room 7834 {
+    Repop = 28;
+  }
+  Room 7835 {
+    Repop = 28;
+    Mobile 7806 {
+      Ptr = 182502544;
+      DamType = 'slash';
+      HMVP = (  ( 79 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Room = 7835;
+    }
+  }
+  Room 7836 {
+    Repop = 28;
+  }
+  Room 7837 {
+    Repop = 28;
+    Mobile 7800 {
+      Ptr = 182501960;
+      DamType = 'slash';
+      HMVP = (  ( 70 ),  ( 114 ),  ( 100 ),  ( 0 ) );
+      Room = 7837;
+    }
+  }
+  Room 7838 {
+    Repop = 28;
+    Mobile 7806 {
+      Ptr = 182501376;
+      DamType = 'pierce';
+      HMVP = (  ( 80 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Room = 7838;
+    }
+  }
+  Room 7839 {
+    Repop = 28;
+    Mobile 7806 {
+      Ptr = 182508976;
+      DamType = 'pound';
+      HMVP = (  ( 84 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Room = 7839;
+    }
+  }
+  Room 7840 {
+    Repop = 28;
+  }
+  Room 7841 {
+    Repop = 28;
+  }
+  Room 7842 {
+    Repop = 28;
+    Mobile 7805 {
+      Ptr = 182507808;
+      DamType = 'slash';
+      HMVP = (  ( 80 ),  ( 113 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7842;
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+    Mobile 7802 {
+      Ptr = 182508392;
+      DamType = 'slash';
+      HMVP = (  ( 107 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Room = 7842;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7843 {
+    Repop = 28;
+  }
+  Room 7844 {
+    Repop = 28;
+    Mobile 7801 {
+      Ptr = 182507224;
+      DamType = 'slash';
+      HMVP = (  ( 104 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Room = 7844;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7845 {
+    Repop = 28;
+    Mobile 7808 {
+      Ptr = 182506056;
+      DamType = 'slash';
+      AfBy = ('detect_invis', 'detect_hidden', 'infrared');
+      HMVP = (  ( 203 ),  ( 180, 170 ),  ( 100 ),  ( 0 ) );
+      Room = 7845;
+      Affect = ( 'protection evil', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 7806 {
+        WearLoc = 'lfinger';
+      }
+      Obj 7825 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 7807 {
+      Ptr = 182506640;
+      DamType = 'slash';
+      AfBy = ('detect_invis', 'detect_hidden', 'sanctuary', 'infrared');
+      HMVP = (  ( 220 ),  ( 191, 181 ),  ( 100 ),  ( 0 ) );
+      Room = 7845;
+      Affect = ( 'protection evil', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 15, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 7804 {
+      }
+      Obj 7806 {
+        WearLoc = 'lfinger';
+      }
+      Obj 7825 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7846 {
+    Repop = 28;
+    Obj 7809 {
+    }
+    Obj 7823 {
+    }
+    Obj 7820 {
+    }
+    Obj 7817 {
+    }
+    Obj 7815 {
+    }
+    Obj 7816 {
+    }
+    Obj 7819 {
+    }
+  }
+  Room 7847 {
+    Repop = 28;
+    Mobile 7806 {
+      Ptr = 182517168;
+      DamType = 'pound';
+      HMVP = (  ( 78 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Room = 7847;
+    }
+    Mobile 7806 {
+      Ptr = 182505472;
+      DamType = 'slash';
+      HMVP = (  ( 77 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Room = 7847;
+    }
+  }
+  Room 7848 {
+    Repop = 28;
+    Mobile 7804 {
+      Ptr = 182516000;
+      DamType = 'slash';
+      HMVP = (  ( 91 ),  ( 121 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7848;
+      Obj 7800 {
+        WearLoc = 'body';
+      }
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+    Mobile 7803 {
+      Ptr = 182516584;
+      DamType = 'slash';
+      HMVP = (  ( 93 ),  ( 118 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7848;
+      Obj 7800 {
+        WearLoc = 'body';
+      }
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7849 {
+    Repop = 28;
+  }
+  Room 7850 {
+    Repop = 28;
+    Mobile 7804 {
+      Ptr = 182515416;
+      DamType = 'slash';
+      HMVP = (  ( 90 ),  ( 118 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7850;
+      Obj 7800 {
+        WearLoc = 'body';
+      }
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7851 {
+    Repop = 28;
+  }
+  Room 7852 {
+    Repop = 28;
+    Mobile 7814 {
+      Ptr = 182514248;
+      DamType = 'slash';
+      HMVP = (  ( 79 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Room = 7852;
+    }
+    Mobile 7805 {
+      Ptr = 182514832;
+      DamType = 'pierce';
+      HMVP = (  ( 83 ),  ( 115 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7852;
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7853 {
+    Repop = 28;
+  }
+  Room 7854 {
+    Repop = 28;
+    Mobile 7802 {
+      Ptr = 182513664;
+      DamType = 'pound';
+      HMVP = (  ( 104 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Room = 7854;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7855 {
+    Repop = 28;
+  }
+  Room 7856 {
+    Repop = 28;
+    Mobile 7804 {
+      Ptr = 182525360;
+      DamType = 'pierce';
+      HMVP = (  ( 97 ),  ( 113 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7856;
+      Obj 7800 {
+        WearLoc = 'body';
+      }
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7857 {
+    Repop = 28;
+  }
+  Room 7858 {
+    Repop = 28;
+  }
+  Room 7859 {
+    Repop = 28;
+  }
+  Room 7860 {
+    Repop = 28;
+    Mobile 7813 {
+      Ptr = 182524192;
+      DamType = 'pound';
+      HMVP = (  ( 58 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Room = 7860;
+    }
+    Mobile 7803 {
+      Ptr = 182524776;
+      DamType = 'slash';
+      HMVP = (  ( 90 ),  ( 122 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7860;
+      Obj 7800 {
+        WearLoc = 'body';
+      }
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7861 {
+    Repop = 28;
+  }
+  Room 7862 {
+    Repop = 28;
+    Mobile 7805 {
+      Ptr = 182523608;
+      DamType = 'slash';
+      HMVP = (  ( 79 ),  ( 115 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7862;
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7863 {
+    Repop = 28;
+    Mobile 7804 {
+      Ptr = 182523024;
+      DamType = 'pierce';
+      HMVP = (  ( 92 ),  ( 123 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7863;
+      Obj 7800 {
+        WearLoc = 'body';
+      }
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7864 {
+    Repop = 28;
+  }
+  Room 7865 {
+    Repop = 28;
+    Mobile 7802 {
+      Ptr = 182522440;
+      DamType = 'pierce';
+      HMVP = (  ( 109 ),  ( 118 ),  ( 100 ),  ( 0 ) );
+      Room = 7865;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7866 {
+    Repop = 28;
+    Mobile 7803 {
+      Ptr = 182521856;
+      DamType = 'pierce';
+      HMVP = (  ( 92 ),  ( 118 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7866;
+      Obj 7800 {
+        WearLoc = 'body';
+      }
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7867 {
+    Repop = 28;
+  }
+  Room 7868 {
+    Repop = 28;
+    Mobile 7802 {
+      Ptr = 182533552;
+      DamType = 'pound';
+      HMVP = (  ( 108 ),  ( 116 ),  ( 100 ),  ( 0 ) );
+      Room = 7868;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7869 {
+    Repop = 28;
+  }
+  Room 7870 {
+    Repop = 28;
+  }
+  Room 7871 {
+    Repop = 28;
+  }
+  Room 7872 {
+    Repop = 28;
+  }
+  Room 7873 {
+    Repop = 28;
+    Mobile 7800 {
+      Ptr = 182532968;
+      DamType = 'slash';
+      HMVP = (  ( 65 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Room = 7873;
+    }
+  }
+  Room 7874 {
+    Repop = 28;
+  }
+  Room 7875 {
+    Repop = 28;
+  }
+  Room 7876 {
+    Repop = 28;
+    Mobile 7805 {
+      Ptr = 182532384;
+      DamType = 'slash';
+      HMVP = (  ( 76 ),  ( 124 ),  ( 105, 100 ),  ( 0 ) );
+      Room = 7876;
+      Obj 7801 {
+        WearLoc = 'feet';
+      }
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+      Obj 7803 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 7877 {
+    Repop = 28;
+    Mobile 7801 {
+      Ptr = 182531800;
+      DamType = 'pierce';
+      HMVP = (  ( 106 ),  ( 125 ),  ( 100 ),  ( 0 ) );
+      Room = 7877;
+      Obj 7802 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 7878 {
+    Repop = 28;
+    Mobile 7810 {
+      Ptr = 182531216;
+      DamType = 'pound';
+      HMVP = (  ( 41 ),  ( 102 ),  ( 100 ),  ( 0 ) );
+      Room = 7878;
+    }
+  }
+  Room 7879 {
+    Repop = 28;
+  }
+  Room 7880 {
+    Repop = 28;
+    Mobile 7809 {
+      Ptr = 182530632;
+      DamType = 'pierce';
+      HMVP = (  ( 344 ),  ( 160 ),  ( 100 ),  ( 0 ) );
+      Room = 7880;
+      Obj 7805 {
+      }
+    }
+  }
+  Room 7881 {
+    Repop = 28;
+    Mobile 7811 {
+      Ptr = 182530048;
+      DamType = 'pound';
+      HMVP = (  ( 526 ),  ( 246, 236 ),  ( 100 ),  ( 0 ) );
+      Silver = 26;
+      Room = 7881;
+      Obj 7806 {
+        WearLoc = 'lfinger';
+      }
+      Obj 7807 {
+        WearLoc = 'wielded';
+      }
+      Obj 7824 {
+        Values = ( 0, 0, -1, 0, 0 );
+        WearLoc = 'light';
+      }
+    }
+  }
+  Room 7882 {
+    Repop = 28;
+    Mobile 7812 {
+      Ptr = 182541744;
+      DamType = 'pound';
+      HMVP = (  ( 574 ),  ( 155 ),  ( 100 ),  ( 0 ) );
+      Room = 7882;
+    }
+    Obj 7808 {
+    }
+    Obj 7822 {
+    }
+    Obj 7821 {
+    }
+    Obj 7810 {
+    }
+    Obj 7812 {
+    }
+    Obj 7811 {
+    }
+    Obj 7820 {
+    }
+    Obj 7815 {
+    }
+    Obj 7818 {
+    }
+    Obj 7814 {
+    }
+    Obj 7813 {
+    }
+    Obj 7823 {
+    }
+  }
+  Room 7883 {
+    Repop = 28;
+  }
+}

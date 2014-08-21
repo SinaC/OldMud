@@ -1,0 +1,1273 @@
+#HELPS
+
+
+
+-1 DIKU~
+.                    Original game idea, concept, and design:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+
+Developed at: DIKU -- The Department of Computer Science
+                      at the University of Copenhagen.
+
+
+~
+
+-1 NEWBIES BEGINNER~
+.  - {gRead help about use, cast and power.{x
+  - {gRead notes, especially in the Announce board.{x
+  - When you create a character, try to have no more than 40 creation
+     points, you can gain other groups/skills/spells/powers later. 
+  - Each time you raise a level, you gain 1 train and some practices
+     (1, 2, 3, 4, 5, 6 or 7  depending of your wisdom).
+  - {gTrain(s){x are used to raise your stats (strength, wisdom, ...)
+     or to gain new groups.
+  - To train or gain groups, you can go to the mud school (until level 5)
+      or go to the sailor (after level 5, recall,3s,3e,s)
+  - {gPractices{x are used to raise your skills, spells and powers.
+  - To practice a skill/spell/power, you can go in the mud school (until
+     level 5) or in Midgaard (after level 5). There are one guild for
+     each class (see the Midgaard map to know where or the map near Hassan).
+  - When you {rdie{x, your corpse goes to the morgue, north of temple of altar.
+  - You can donate items, by using the donate command.
+  - Use the color command to see the life in colour
+  - There is a bank to deposit and withdraw silver and gold coins
+     (recall,s,e,u)  read help about bank
+  - To change silver to gold , recall,2s,3w,2n,2e,s then
+     type: give <amount> silver otho
+  - You can auction an item by typing: auction <item> <minimum bet>,
+     to buy an item auctionned just type bet <amount>
+  - This help can be obtained by typing "help newbie"
+  - Don't forget to read the hint given through the hint channel.
+~
+
+
+-1 MOB MOBS MOBILES MOBILE~
+Mobiles is a mud-term to design monsters players can kill in the mud.
+~
+
+-1 GOLD SILVER MONEY~
+Midgaard's economy is based on gold and silver coinage (and the lowly copper,
+which you as an adventurer are far too proud to carry).  Gold coins are worth
+100 silver coins, but are also four times as heavy (25 to the pound, as 
+opposed to 100 to the pound for silver). Gems can be bought to alleviate weight
+problems from the Midgaard jeweller, he charges a mere 10% more than they are
+ worth. 
+10 gems weigh one pound, and they can be worth more than 100 gold pieces for
+the highest quality stones.
+~
+
+0 DEPOSIT WITHDRAW BANK BALANCE ACCOUNT~
+{b--OLD SYSTEM NOT USED ANYMORE:
+--You can deposit and withdraw silver and gold coins in a bank
+--Syntax: deposit   <amount, all> <silver, gold>
+--	  withdraw  <amount, all> <silver, gold>
+--	  account   see you your account
+--Examples : deposit 5 silver : you deposit 5 silver coins in the bank
+--	     withdraw all gold : you withdraw all your gold coins from the
+--		bank
+{x
+NEW SYSTEM:
+You need to be in a bank to be able to use the following command/trigger.
+to check your balance:   say balance
+to deposit silver/gold:  give <amount> silver <banker>
+                         give <amount> gold   <banker>
+to withdraw silver/gold: say withdraw <amount> <silver>
+                         say withdraw <amount> <gold>
+~
+
+-1 COLOR ANSI COLOUR~
+Syntax: color    Toggles color mode on/off
+
+        You may also talk in color; the format is like this:
+        the 'escape character' to specify a color is the left
+        handed brace '{{', following
+        that you should use one of the following letters,
+                {r{{r     red     {c{{c     cyan
+                {g{{g     green   {y{{y     yellow
+                {b{{b     blue    {w{{w     white
+                {m{{m     magenta {x{{x     clear(reset color)
+        
+		{R{{R     red     {C{{C     cyan
+                {G{{G     green   {Y{{Y     yellow
+                {B{{B     blue    {W{{W     white
+                {M{{M     magenta {D{{D     dark{x
+
+            
+       		{{{{      {{ char {{*       beep
+                {{/       newline 
+
+	when using color, it looks better if you finish the line
+        with whatever color it would normally be in, such as a
+        gossip, the color is magenta, so:
+                {mSeytan gossips '{ghello,{r world{m'{x
+        looks better than:
+                {mSinac gossips '{ghello,{r world'{x
+
+        Color is written by Lope (ant@solace.mh.se)
+        Color is adapted to Mystery by Indian
+~
+
+0 BRIEF COMPACT~
+Brief and compact help set your display options for the game. Typing brief
+toggles on and off the showing of room descriptions when you move around
+(considerably reducing the text to be processed), and typing compact 
+removes the extra blank line before your prompt.
+~
+
+-1 TRIVIA~
+The Trivia channel is used to play trivia. Any player can run
+a game on this channel for any reward he/she wishes, but only immortals can
+award Trivia points. Trivia points can be used to purchase 'favors' from
+the imms. This is not RP, it's just for fun.
+A list of prizes follows. Other prizes are possible at the
+discretion of the imms:
+
+1TP  - Spell-up from an Imm - Sanctuary/Haste/Bless.
+1TP  - Restore hp/mana/moves.
+1TP  - For an imm to transfer you to the beginning of any area.
+1TP  - For an imm to corpse retrieve for you.
+1TP  - For an imm to enchant your weapon.
+1TP  - For an imm to fireproof any non-container item.
+2TP  - For an imm to fireproof a container.
+2TP  - Restore all players online.
+2TP  - Restring an item.
+2TP  - Removal of flags from an item.
+2TP  - Addition of a flag to an item
+2TP  - Halve the weight of an item.
+2TP  - Level 100 potion of sanc/haste/bless.
+3TP  - Potion of complete healing.
+3TP  - Change the type of a weapon.
+3TP  - 1 Practice session.
+4TP  - Add 'noremove' flag to a weapon.
+4TP  - Load an item within 2 levels of your current level.
+       For additional levels, add 2TP per level. So, if a level 10 wants
+       to use a level 15 item, cost will be 4TP up to level 12 and then
+       6TP for the additional 3 levels.
+15TP - 1 Training session.
+20TP - Make yourself a transporter to the beginning of any area.
+20TP - Sleeping bag - doubles heal rate when slept in.
+25TP - Floating item: +1 Con/Wis/Str and +5Hr/Dr.
+40TP - Make your own private room (with fire/fountain) within the realm
+       of Mystery.
+50TP - Add a new social to the game.
+~
+
+-1 UPGRADE~
+.                                        Silver        Qp
+.                                     ------------   ------
+
+Clan Rooms.
+1.  Create a new room (including desc):         2M      650
+2.  Clan donation room:                         5M     1000
+3.  Removal of clan room Dark flag:           500K      175
+4.  Addition of 'safe' flag to a room:          2M      400
+5.  Addition of 'no_mob' flag to a room:      800K      300
+6.  Addition of 'private' flag to a room:       1M      400
+7.  Addition of 'solitary' flag to a room:    1.5M      400
+8.  Addition of 'no_recall' flag to a room:     2M      400
+9.  Addition of 'law' flag to a room:           2M      400
+10. Addition of 'no_where' flag to a room:      2M      400
+11. Heal rate increase above 100 (each %):    300K      100
+12. Mana rate increase above 100 (each %):    300K      100
+13. Add Extra description to a room:          500K      300
+14. Rename a room:                            100k       25
+15. Change a rooms sector:                    200k       30
+
+Exits/Doors.
+1.  Exits to areas (5 max):                     5M     3000
+2.  Locking gates at clan entrance:             2M      600
+3.  Making door inside clan locked:             3M      650
+4.  Adding 'pickproof' to a door:             1.5M      600
+5.  Adding 'nopass' to a door:                  3M     1000
+
+Items/Shops.
+0.  Creating a shopkeeper                      10M     5000
+1.  Repoping Items (1 per room max)     < depends on object type >
+2.  Creation of clan transporters (5):        100K      100
+3.  Price for each transporter after:          10K       10
+4.  Fountain:                                   2M      650
+5.  Permanent fire:                             4M      750
+6.  Shopitem:                           < depends on object type >
+7.  Eq for Mobs:                        < depends on object type >
+8.  Add 'Glow' to Obj                         200k       50
+9.  Add 'Hum' to Obj                          200k       50
+10. Add 'Invis' to Obj                        500k      100
+11. Add 'NoDrop' to Obj                       200k       50
+12. Add 'NoRemove' to Obj                     200k       50
+13. Add 'Bless' to Obj                        200k       50
+14. Add 'Burn Proof' to Obj                   200k       50
+15. Add 'NoLocate' to Obj                     200k       50
+16. Add 'Anti-Good' to Obj                    500k      100
+17. Add 'Anti-Evil' to Obj                    500k      100
+18. Add 'Anti-Neutral' to Obj                 500k      100
+19. Add extra Description to Obj              300k       60
+~
+
+0 DEAF~
+The deaf toggle turns off incoming tells, helpfull if you are being bombarded
+by messages from other players.  You can still use reply (see 'help reply') to
+reply to people who were telling you before you went deaf, although you
+cannot reply to a deaf person unless you or they are a diety (it's mostly 
+useful for sending a quick "I'm being spammed so I went deaf" message to
+a person).
+~
+
+0 AFK~
+Typing AFK puts your character in a tell-saving mode as follows: any tell
+to you is stored in a special buffer, and can be seen later by typing
+replay.  This is useful when you need to leave the mud for 5 or 10 minutes,
+but don't want to miss tells.  AFK shows up in your prompt until it is
+turned off.
+
+Tells to link-dead players are stored in a similar fashion, and can also be
+seen by typing replay (unless, of course, the character logs off before
+reading them).
+~
+
+0 PROMPT~
+Syntax: prompt
+Syntax: prompt all
+Syntax: prompt <%*>
+ 
+PROMPT with out an argument will turn your prompt on or off.
+ 
+PROMPT ALL will give you 
+  "{{c<%h/%HHp %m/%MMn %v/%VMv %p/%PPsp %XNxt %b>{{x" prompt.
+ 
+PROMPT <%*> where the %* are the various variables you may set yourself.
+ 
+        %h :  Display your current hits
+        %H :  Display your maximum hits
+        %m :  Display your current mana
+        %M :  Display your maximum mana
+        %p :  Display your current psp
+        %P :  Display your maximum psp
+        %v :  Display your current moves
+        %V :  Display your maximum moves
+        %x :  Display your current experience
+	%X :  Display experience to level
+        %g :  Display your gold held
+	%s :  Display silver carried
+        %a :  Display your alignment
+        %b :  Display ennemy's life (in %)
+        %r :  Display the room name you are in
+	%e :  Display the exits from the room in NESWDU style
+	%c :  Display a carriage return (useful for multi-line prompts)
+        %R :  Display the vnum you are in (IMMORTAL ONLY)
+        %z :  Display the area name you are in (IMMORTAL ONLY)
+        %o :  Display kind of edition (MEdit,OEdit,...)
+        %O :  Display the vnum/name of what your are editing
+ 
+Example:  PROMPT <%hhp %mm %vmv>
+        Will set your prompt to "<10hp 100m 100mv>"
+ 
+~
+
+-1 SUMMARY~
+MOVEMENT                            GROUP
+north south east west up down       follow group gtell split
+exits recall
+sleep wake rest stand
+
+OBJECTS                             INFORMATION / COMMUNICATION
+get put drop give sacrifice         help credits commands areas
+wear wield hold                     report score time weather where who whois
+recite quaff zap brandish           description password title stance
+lock unlock open close pick         bug typo
+inventory equipment look compare    ooc ic say shout tell yell whisper dirsay
+eat drink fill                      emote pose
+list buy sell value                 note board
+
+COMBAT                              OTHER
+kill flee kick rescue disarm        ! save quit
+backstab wimpy                      practice train
+cast use psi
+
+For more help, type 'help <topic>' for any command, skill, or spell.
+Also help on: DAMAGE DEATH EXPERIENCE NEWS TICK WIZLIST
+~
+
+-1 DEATH~
+When your character dies, you are reincarnated back at the Altar of the Temple
+of Midgaard.  Your corpse is left behind in the room where you were killed,
+together with all of your equipment.
+
+Any spells which were affecting you are canceled by death.
+
+Following and groups are not affected by death.
+
+You lose experience points for dying.  The amount you lose is two-thirds of 
+the way back to the beginning of your level.
+
+Corpses decay after time, and the objects inside corpses decay with them.
+Player corpses last *roughly* 30 hours of game time (15 minutes of real time).
+Only the player who died, or someone in the same group, can retrieve objects
+from a player's corpse.
+~
+
+-1 EXPERIENCE LEVEL XP~
+Your character advances in power by gaining experience.  You need a set 
+amount of experience points for each level based on your creation points.
+
+You gain experience by:
+
+    being part of a group that kills a monster
+
+You lose experience by:
+
+    fleeing from combat
+    recalling out of combat
+    being the target of certain spells
+    dying
+
+The experience you get from a kill depends on several things: how many players
+are in your group; your level versus the level of the monster; your alignment
+versus the monster's alignment; how many of this monster have been killed
+lately; and some random variation.
+~
+
+-1 PET PETS~
+You can buy pets in the pet shop.  You may own only one pet at a time, after 
+the old one dies you may purchase a replacement.
+
+New pets are planned for a shop in New Thalos.
+~
+
+0 PRAY~
+Syntax: pray <your sentence>
+
+This commands allows players to send a message to imms.
+~
+
+-1 TICK~
+Many of the game actions are based upon interval timers, including combat,
+most autonomous monster actions, hp/mana/move regeneration, spell duration,
+weather, and area resetting.
+
+Of these timers, the hp/mana/move regeneration timer is popularly called the
+'tick'.  Ticks on this mud average 30 seconds of real time, but the actual
+amount varies randomly from 15 seconds to 45 seconds.
+
+Area resetting happens roughly every 3 minutes if no one is in the area; less
+often (15 minutes) if some one is.  Also note that objects lying on the ground
+will not be regenerated if anyone is in the area when it resets.
+~
+
+0 !~
+Syntax: !
+
+! repeats the last command you typed.
+~
+
+0 NORTH SOUTH EAST WEST UP DOWN~
+Syntax: north
+Syntax: south
+Syntax: east
+Syntax: west
+Syntax: up
+Syntax: down
+
+Use these commands to walk in a particular direction.
+~
+
+0 SING~
+Syntax: sing <song name>
+
+Before you can use a song, you have to practice it.  The more you practice,
+the higher chance you have of success when using.  Using songs costs mana.
+
+Songs don't have any target, they affect everyone in the room. So, be careful
+when singing a song in a room full of monsters.
+
+If the song name is more than one word, then you must quote the song name.
+Example: sing 'song of huma'.  Quoting is optional for single-word song.
+You can abbreviate the song name.
+
+Some examples:
+  sing 'song of huma'             will start singing 'song of huma'
+  sing knights                    will start singing 'knights ride forth'
+
+See also the help sections for individual songs.
+~
+
+0 USE~
+Syntax: use <skill> <target>
+
+Before you can use a skill, you have to practice it.  The more you practice,
+the higher chance you have of success when using.  Using skills costs nothing
+except for some, which costs mana/psp or moves.
+
+The <target> is optional.  Many skills which need targets will use an
+appropriate default target, especially during combat.
+
+If the skill name is more than one word, then you must quote the skill name.
+Example: use 'shield clea' frag.  Quoting is optional for single-word skill.
+You can abbreviate the skill name.
+
+Some examples:
+  use meditate                    will use meditate on user
+  use 'shield cleave' victim      will use 'shield cleave' on victim
+
+See also the help sections for individual skills.
+~
+
+0 PSI~
+Syntax: psi <power> <target>
+
+Before you can use a power, you have to practice it.  The more you practice,
+the higher chance you have of success when using.  Using powers costs psp.
+The psp cost decreases as your level increases.
+
+The <target> is optional.  Many powers which need targets will use an
+appropriate default target, especially during combat.
+
+If the power name is more than one word, then you must quote the power name.
+Example: psi 'ballistic attack' frag. Quoting is optional for single-word power.
+You can abbreviate the power name.
+
+When you use an offensive power, the victim usually gets a saving throw.
+The effect of the power is reduced or eliminated if the victim makes the
+saving throw successfully.
+
+Some examples:
+  psi endure                    will use endure on caster
+  psi 'mind thrust' victim      will use 'mind thrust' on victim
+
+See also the help sections for individual power.
+~
+
+0 CAST~
+Syntax: cast <spell> <target> <casting level>
+
+Before you can cast a spell, you have to practice it.  The more you practice,
+the higher chance you have of success when casting.  Casting spells costs mana.
+The mana cost decreases as your level increases.
+
+The <target> is optional.  Many spells which need targets will use an
+appropriate default target, especially during combat.
+
+The <casting level> is optional. Many spells have casting level higher than 1,
+and you don't have to cast spells at maximum casting level.
+
+If the spell name is more than one word, then you must quote the spell name.
+Example: cast 'cure critic' frag.  Quoting is optional for single-word spells.
+You can abbreviate the spell name.
+
+When you cast an offensive spell, the victim usually gets a saving throw.
+The effect of the spell is reduced or eliminated if the victim makes the
+saving throw successfully.
+
+Some examples:
+  cast 'chill touch' victim 4  will cast 'chill touch' level 4 on victim
+  cast armor newbie 3  will cast armor level 3 on newbie
+  cast fireball 4  will cast fireball level 4 on current target if already 
+    in combat
+  cast 'floating disc' 2  will cast 'floating disc' level 2 on caster
+
+See also the help sections for individual spells.
+Use the 'spells' command to see the spells you already have (help spells).
+~
+
+-1 MORGUE~
+When you've been killed, our undertaker get your corpse and brought
+it to the Morgue (from Recall : 2 North)
+~
+
+0 EXITS~
+Syntax: exits
+
+Tells you the visible exits of the room you are in.  Not all exits are visible.
+You can use the 'bump' technique to find hidden exits.  (Try to walk in a
+certain direction and see what you bump into).
+~
+
+0 DROP GET GIVE PUT TAKE~
+Syntax: drop <object>
+Syntax: drop <amount> coins
+Syntax: get  <object>
+Syntax: get  <object> <container>
+Syntax: give <object> <character>
+Syntax: give <amount> coins <character>
+Syntax: put  <object> <container>
+
+DROP drops an object, or some coins, on the ground.
+
+GET gets an object, either lying on the ground, or from a container, or even
+from a corpse.  TAKE is a synonym for get.
+
+GIVE gives an object, or some coins, to another character.
+
+PUT puts an object into a container.
+
+DROP, GET and PUT understand the object names 'ALL' for all objects and
+'ALL.object' for all objects with the same name.
+
+.GET/DROP/GIVE/PUT X.sword is also allowed to get/drop/give/put
+ the Xth sword of the list.
+~
+
+0 EQUIPMENT INVENTORY~
+Syntax: equipment
+Syntax: inventory
+
+EQUIPMENT lists your equipment (armor, weapons, and held items).
+INVENTORY lists your inventory.
+~
+
+0 COMPARE~
+Syntax: compare <object-1> <object-2>
+Syntax: compare <object>
+ 
+COMPARE compares two objects in your inventory.  If both objects are weapons,
+it will report the one with the better average damage.  If both objects are
+armor, it will report the one with the better armor class.
+ 
+COMPARE with one argument compares an object in your inventory to the object
+you are currently wearing or wielding of the same type.
+ 
+COMPARE doesn't consider any special modifiers of the objects.
+~
+
+0 FLEE~
+Syntax: flee
+Syntax: rescue   <character>
+
+Once you start a fight, you can't just walk away from it.  If the fight
+is not going well, you can attempt to FLEE, or another character can
+RESCUE you.  (You can also RECALL, but this is less likely to work,
+and costs more experience points, then fleeing).
+
+If you lose your link during a fight, then your character will keep
+fighting, and will attempt to RECALL from time to time.  Your chances
+of making the recall are reduced, and you will lose much more experience.
+~
+
+0 EXAMINE LOOK READ~
+Syntax: look
+Syntax: look    <object>
+Syntax: look    <character>
+Syntax: look    <direction>
+Syntax: look    <keyword>
+Syntax: look in <container>
+Syntax: look in <corpse>
+Syntax: examine <container>
+Syntax: examine <corpse>
+
+LOOK looks at something and sees what you can see.
+READ is a synonym for LOOK.
+
+EXAMINE is short for 'LOOK container' followed by 'LOOK IN container'.
+~
+
+0 ORDER~
+Syntax: order <character> command
+Syntax: order all command
+
+ORDER orders one or all of your charmed followers (including pets) to
+perform any command.  The command may have arguments.  You are responsible
+for the actions of your followers, and others who attack your followers
+will incur the same penalty as if they attacked you directly.
+
+Most charmed creatures lose their aggresive nature (while charmed).
+
+If your charmed creature engages in combat, that will break the charm.
+~
+
+0 REST SLEEP STAND WAKE SIT~
+Syntax: rest
+Syntax: sleep
+Syntax: stand
+Syntax: wake
+Syntax: sit
+
+These commands change your position.  When you REST or SLEEP, you 
+regenerate hit points, mana points, and movement points faster.
+However, you are more vulnerable to attack, and if you SLEEP,
+you won't hear many things happen.
+
+Use STAND or WAKE to come back to a standing position.  You can
+also WAKE other sleeping characters.
+~
+
+0 GTELL ; REPLY SAY TELL WHISPER OSAY DIRSAY REPLAY~
+Syntax: gtell   <message>
+Syntax: say     <message>
+Syntax: osay    <message>
+Syntax: tell    <character> <message>
+Syntax: whisper <character> <message>
+Syntax: dirsay  <character> <message>
+Syntax: replay
+
+All of these commands send messages to other players.  GTELL sends a message to
+all of the characters in your group, wherever they are, even if they are
+sleeping or stunned or dying.  ';' is a synonym for GTELL.
+
+SAY sends a message to all awake players/mobs in your room.  The single quote
+''' is a synonym for SAY (In Character channel).
+
+OSAY sends a message to all awake players in your room(Out Of Character).
+
+DIRSAY sens a message to a player/mob in your room, but everyone can hear it.
+
+TELL sends a message to one player anywhere in the world.
+
+REPLY sends a message to the last player who sent you a TELL.  REPLY will work
+even if you can't see the player, and without revealing their identity.  This
+is handy for talking to invisible or switched immortal players.
+
+WHISPER sends a message to a player/mob within the same room as you. Other 
+players/mobs in the room can't hear the message.
+
+REPLAY is used to read the tells you have received when being
+ AFK/BUILDING/LINKDEAD.
+~
+
+0 NOTE 'NOTE WRITE' 'NOTE READ' BOARD 'NOTE SYSTEM' BOARDS~
+Syntax:
+
+board [number|name]                     Shows or changes board.
+note                                    Reads next note.
+note read [number]                      Reads a certain note.
+note remove <number>                    Removes a note written by you.
+note list [number]                      Shows up to number notes.
+note write                              Posts a note.
+note catchup                            Marks all notes in this board read.
+
+These commands are used for the new note system. Instead of just one board, 
+there are several, each with its special purpose. 
+
+Changing between the boards is accomplished using the BOARD command. BOARD
+without any arguments gives you a list of all boards together with number of
+unread message. To change, type BOARD <number> or BOARD <name of the board>.
+
+To read next unread note, type NOTE. To read a note with a specified number,
+type NOTE READ <number>. Typing NOTE while in a board with no unread notes
+shifts you to the next board. Note that unlike the standard note system, a 
+note has the same number in NOTE LIST and NOTE READ.
+
+Posting a message is as simple as writing NOTE WRITE. You will be moved 
+into interactive mode, where all you see are prompts for the fields like 
+To:, From: etc. You will be automatically put AFK while writing a note.
+
+To see the list of the notes in the current board, type NOTE LIST. Typing
+NOTE LIST <number> will list only <number> of the last notes in the area.
+
+You can remove your own note by using NOTE REMOVE <number>. Implementors may
+remove other people's notes. Implementors can also select how many days
+their note is kept before being purged. Purging happens automatically at
+bootup. Purged notes are not deleted, but saved into a file.
+
+To let only immortals see your note, address it to "imm". To let players of
+a specific level and above, address it to that level (no other recipients may
+appear in that case).
+
+This board system was created by Erwin S. Andreasen, erwin@pip.dknet.dk, aka
+Phunk and is freely available. The general outlook was based on Mystic 
+Adventure's note system (mud.gel.ulaval.ca 4000).
+Has been xlated and enhanced by Oxtal
+~
+
+0 GOSSIP SHOUT YELL OOC IC CHANNEL_IC~
+Syntax: ooc     <message>
+Syntax: ic      <message>
+-- Syntax: gossip  <message>      replaced with ooc
+-- Syntax: cgossip <message>      not yet existant
+Syntax: shout   <message>
+Syntax: yell    <message>
+
+SHOUT sends a message to all awake players in the world.  To curb excessive
+shouting, SHOUT imposes a three-second delay on the shouter.
+
+OOC sends a message to all players in the world (Out Of Character channel).
+  '.' is a synonym for OOC.
+IC sends a message to all players in the world (In Character channel).
+
+-- GOSSIP and CGOSSIP are variants of SHOUT (without the delay).  '.' is a 
+-- synonym for GOSSIP.
+
+YELL sends a message to all awake players within your area.
+
+OOC means Out Of Character ==> non RP channel
+IC means In Character ==> RP channel
+
+Type a channel name by itself to turn it off.
+~
+
+0 EMOTE PMOTE POSE SOCIAL~
+Syntax: emote <action>
+Syntax: pose
+
+EMOTE is used to express emotions or actions.  Besides EMOTE, there are
+several dozen built-in social commands, such as CACKLE, HUG, and THANK
+(type socials or help socials for a listing).
+
+PMOTE is similar to emote, but will substitute you and your for a target's
+name (i.e. pmote bonks Alander will be read as bonks you by Alander, and
+as bonks Alander by everyone else).
+
+POSE produces a random message depending on your class and level.
+~
+
+102 SMOTE~
+Syntax: smote <action>
+
+Smote works exactly like pmote, except you must place your name somewhere in
+the string, and it will show that string to everyone in the room.
+~
+
+0 HOLD REMOVE WEAR WIELD~
+Syntax: hold   <object>
+Syntax: remove <object>
+Syntax: wear   <object>
+Syntax: wear   all
+Syntax: wield  <object>
+
+Three of these commands will take an object from your inventory and start using
+it as equipment.  HOLD is for light sources, wands, and staves.  WEAR is for
+armor.  WIELD is for weapons.
+
+WEAR ALL will attempt to HOLD, WEAR, or WIELD each suitable item in your
+inventory.
+
+You may not be able to HOLD, WEAR, or WIELD an item if its alignment does not
+match yours, if it is too heavy for you, or if you are not experienced enough
+to use it properly.
+
+REMOVE will take any object from your equipment and put it back into your
+inventory.
+~
+
+
+0 BUG TYPO~
+Syntax: bug <message>
+Syntax: typo <message>
+
+These commands will take your message and record it into a file as feedback
+to the mud implementors.
+~
+
+0 CREDITS~
+Syntax: credits
+
+This command shows the list of the original Diku Mud implementors.
+~
+
+0 AREAS COMMANDS REPORT SCORE TIME~
+Syntax: areas
+Syntax: commands
+Syntax: report
+Syntax: score
+Syntax: time
+Syntax: weather
+
+AREAS shows you a list of areas in the game.
+
+COMMANDS shows you all the commands in the game.
+
+REPORT shows your current statistics to you and also announces them to other
+players in the room.  
+
+SCORE shows much more detailed statistics to you only. Your ability scores 
+are shown as true value(current value), so for example
+Str: 15(23) means you have a 15 strength from training, but a 23 strength
+from other factors (spells or items).
+
+TIME shows the game time, as well as the time the mud was last started,
+and the current local time for the host computer.
+
+WEATHER shows the current game weather.
+~
+
+0 WHO~
+Syntax: who
+Syntax: who <level-range>
+Syntax: who <class or race>
+Syntax: who <clan name>
+Syntax: who <class or race> <level-range> <clan name>
+Syntax: who immortals
+Syntax: who wild
+
+WHO shows the people currently in the game.  Some people may choose to
+remain unseen and won't appear on the WHO
+ 
+WHO without any arguments shows all of the (visible) people currently playing.
+
+With arguments, WHO can show players of certain classes or levels.
+For example:
+ 
+who 10            lists all players of level 10 or above
+who 15 20         lists all players between level 15 and 20
+who cleric        lists all clerics playing
+who immortal      lists all immortals playing
+who cleric 1 5    lists all clerics between levels 1 and 5
+who human cleric  lists all human clerics
+who demise h m    lists all human mages in Demise (hi Alander!)
+
+Classes and races may be abbreviated.
+~
+
+0 WHOIS~
+Syntax: whois <name>
+The whois command identifies any user who matches the name given. For
+example, 'whois a' shows all characters whose name begins with A.
+~
+
+0 WHERE~
+Syntax: where
+Syntax: where <character>
+
+WHERE without an argument tells you the location of visible players in the same
+area as you are.
+
+WHERE with an argument tells you the location of one character with that name
+within your area, including monsters.
+~
+
+0 HELP~
+Syntax: help
+Syntax: help <keyword>
+
+HELP without any arguments shows a one-page command summary.
+
+HELP <keyword> shows a page of help on that keyword.  The keywords include
+all the commands, spells, and skills listed in the game.
+~
+
+0 DESCRIPTION DESC~
+Syntax: description <string>
+Syntax: description + <string>
+Syntax: description - 
+
+Sets your long description to the given string.  If the description string
+starts with a '+', the part after the '+' is appended to your current
+description, so that you can make multi-line descriptions. You can delete
+lines by uses description -.
+~
+
+0 PASSWORD~
+Syntax: password <old-password> <new-password>
+
+PASSWORD changes your character's password.  The first argument must be
+your old password.  The second argument is your new password.
+
+The PASSWORD command is protected against being snooped or logged.
+~
+
+0 TITLE~
+Syntax: title <string>
+
+Sets your title to a given string.
+
+The game supplies a title when your character is created and when you
+advance a level.  You can use TITLE to set your title to something else.
+~
+
+0 DAMAGE~
+"miss"
+"scratch"
+"graze"
+"hit"
+"injure"
+"wound"
+"maul"
+"decimate"
+"devastate"
+"maim"
+"{bMUTILATE{x"
+"{wDISEMBOWEL{x"
+"{rDISMEMBER{x"
+"{mMASSACRE{x"
+"{gMANGLE{x"
+"{c*** DEMOLISH ***{x"
+"{w**** {mDEVASTATE {w****{x"
+"{b=== {cOBLITERATE {b==={x"
+"{g>>> {yANNIHILATE{g <<<{x"
+"{r-=<*>=- {bERADICATE {r-=<*>=-{x"
+"{r<*>{y<*>{g<*>{b<*>{y NUKE{b<*>{g<*>{y<*>{r<*>{x"
+"{b--*-- --*-- RUPTURE --*-- --*--{x"
+"do {bU{rN{gS{yP{cE{mA{rK{bA{gB{yL{cE {xthings"
+~
+
+0 WIMPY~
+Syntax: wimpy
+Syntax: wimpy <number>
+
+WIMPY sets your wimpy value.  When your character takes damage that reduces
+your hit points below your wimpy value, you will automatically attempt to flee.
+You will only flee if your character is not in a wait state -- i.e. has not
+been using combat commands like cast, trip and bash, and has not been
+tripped or bash by an enemy.
+
+WIMPY with no argument sets your wimpy value to 20% of your maximum hit points.
+
+Some monsters are wimpy.
+~
+
+0 OPEN CLOSE LOCK UNLOCK PICK~
+Syntax: open   <object|direction>
+Syntax: close  <object|direction>
+Syntax: lock   <object|direction>
+Syntax: unlock <object|direction>
+Syntax: pick   <object|direction>
+
+OPEN and CLOSE open and close an object or a door.
+
+LOCK and UNLOCK lock and unlock a closed object or door.  You must have
+the requisite key to LOCK or UNLOCK.
+
+PICK can open a lock without having the key.  In order to PICK successfully,
+you must practice the appropriate skill.
+~
+
+0 DRINK EAT FILL POUR~
+Syntax: drink <object>
+Syntax: eat   <object>
+Syntax: fill  <object>
+Syntax: pour  <object> out
+Syntax: pour  <object> <object>
+Syntax: pour  <object> <character>
+
+When you are thirsty, DRINK something.
+
+When you are hungry, EAT something.
+
+FILL fills a drink container with water.
+
+POUR transfers a liquid to a container, or empties one.
+You can also pour from an object into something a character is holding.
+~
+
+0 BUY LIST SELL VALUE~
+Syntax: buy   <object>
+Syntax: list
+Syntax: sell  <object>
+Syntax: value <object>
+
+BUY buys an object from a shop keeper.
+When multiple items of the same name are listed, type 'buy n.item', where n
+is the position of the item in a list of that name.  So if there are two
+swords, buy 2.sword will buy the second. If you want to buy multiples of
+an item, use an * (buy 5*pie will buy 5 pies).  These can be combined into
+(for example) buy 2*2.shield, as long as the * is first.  
+
+LIST lists the objects the shop keeper will sell you.
+List <name> shows you only objects of that name.
+
+SELL sells an object to a shop keeper.
+
+VALUE asks the shop keeper how much he, she, or it will buy the item for.
+
+You can give a name to a pet when buying it: buy <pet> [<pet name>]
+~
+
+0 SACRIFICE~
+Syntax: sacrifice <object>
+
+SACRIFICE offers an object to your god, who may reward you.
+The nature of the reward depends upon the type of object.
+~
+
+0 SCROLL~
+Syntax: scroll
+Syntax: scroll <number>
+
+This command changes the number of lines the mud sends you in a page (the 
+default is 24 lines).  Change this to a higher number for larger screen
+sizes, or to 0 to disabling paging.
+~
+
+0 BRANDISH QUAFF RECITE ZAP~
+Syntax: brandish
+Syntax: quaff    <potion>
+Syntax: recite   <scroll> <target>
+Syntax: zap      <target>
+Syntax: zap
+
+BRANDISH brandishes a magical staff.  QUAFF quaffs a magical potion (as opposed
+to DRINK, which drinks mundane liquids).  RECITE recites a magical scroll; the
+<target> is optional, depending on the nature of the scroll.  ZAP zaps a
+magical wand at a target.  If the target is not specified, and you are fighting
+someone, then that character is used for a target.
+
+You must HOLD a wand or a staff before using BRANDISH or ZAP.
+
+All of these commands use up their objects.  Potions and scrolls have a single
+charge.  Wands and staves have multiple charges.  When a magical object has no
+more charges, it will be consumed.
+
+These commands may require an item skill to be succesful, see the help entries
+on the skills scrolls, staves, and wands for more information.
+~
+
+0 CONSIDER~
+Syntax: consider <character>
+
+CONSIDER tells you what your chances are of killing a character.
+Of course, it's only a rough estimate.
+~
+
+0 FOLLOW GROUP NOFOLLOW~
+Syntax: follow <character>
+Syntax: group
+Syntax: group <character>
+Syntax  nofollow
+
+FOLLOW starts you following another character.  To stop following anyone else,
+just FOLLOW <yourself>.
+
+GROUP <character> makes someone who is following you a member of your group.
+Group members share experience points from kills and may use the GTELL and
+SPLIT commands.  If anyone in your group is attacked, you will automatically
+join the fight.
+
+If the <character> is already a member of your group, then GROUP will
+kick out the <character> from your group.  Characters can also leave your
+group by using a FOLLOW command to stop following you.
+
+GROUP with no argument shows statistics for each character in your group.
+
+NOFOLLOW toggle between accepting followers state and don't accept followers.
+
+You may FOLLOW and GROUP only with characters who are within five levels of
+your own.
+~
+
+0 VISIBLE~
+VISIBLE cancels your hiding and sneaking, as well as any invisibility,
+making you visible again.
+~
+
+0 QUIT RENT SAVE~
+Syntax: QUIT
+Syntax: RENT ... not!
+Syntax: SAVE
+
+SAVE saves your character and object.  The game saves your character every
+15 minutes regardless, and is the preferred method of saving.  Typing save
+will block all other command for about 20 seconds, so use it sparingly.
+(90+ players all typing save every 30 seconds just generated too much lag)
+
+Some objects, such as keys and potions, may not be saved.
+
+QUIT leaves the game.  You may QUIT anywhere.  When you re-enter the game 
+you will be back in the same room.
+
+QUIT automatically does a SAVE, so you can safely leave the game with just one
+command.  Nevertheless it's a good idea to SAVE before QUIT.  If you get into
+the habit of using QUIT without SAVE, and then you play some other mud that
+doesn't save before quitting, you're going to regret it.
+
+There is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave.
+~
+
+0 SPLIT~
+Syntax: SPLIT <silver> <gold>
+
+SPLIT splits some coins  between you and all the members of your
+group who are in the same room as you.  It's customary to SPLIT
+the loot after a kill.  The first argument is the amount of silver
+the split (0 is acceptable), and the second gold (optional).
+Examples:
+split 30 	--> split 30 silver
+split 20 50	--> split 20 silver, 50 gold
+split  0 10	--> split 10 gold
+~
+
+0 PRACTICE~
+Syntax: PRACTICE
+Syntax: PRACTICE <skill|spell>
+
+PRACTICE without an argument tells you your current ability level in all
+the skills and spells available to you.  You can check this anywhere.
+
+PRACTICE with an argument practice that skill or spell.  Your learning
+percentage varies from 0% (unlearned) to a some maximum between 80% and 100%,
+depending on your class.  You must be at a guild master to practice.
+
+The higher your intelligence, the more you will learn at each practice
+session.  The higher your wisdom, the more practice sessions you will
+have each time you gain a level.  Unused sessions are saved until you
+do use them.
+~
+
+0 TRAIN~
+Syntax: train <str int wis dex con hp mana>
+
+TRAIN increases one of your attributes.  When you start the game, your
+character has standard attributes based on your class, and several
+initial training sessions.  You can increase your attributes by
+using these sessions at a trainer (there are several in town).
+
+It takes one training session to improve an attribute, or to increase
+mana or hp by 10.  You receive one session per level.
+
+The best attributes to train first are WIS and CON.  WIS gives you more
+practice when you gain a level.  CON gives you more hit points.
+In the long run, your character will be most powerful if you train
+WIS and CON both to 18 before practising or training anything else.
+~
+
+0 AUCTION BET~
+Syntax: auction <item name> <min bet>
+        bet
+        bet <amount>
+
+Automatic auction is a good way to sell/buy items to/from other players.
+When you auction an item, it's automatically removed from your inventory,
+if none buy your item, the item is lost.
+You can obtain information about the auctionned item, using 'bet' without
+any argument.
+If you want to bet on an item, use 'bet <amount>' amount needs to be at
+least 100 silver more than the current bet amount.
+Each tick, info about the current bet is shown.
+~
+
+0 LANGUAGE~
+Syntax: language  <language name>
+        language
+
+Language allows you to switch between the racial language you know.
+Language without any argument gives you the list of racial languages you
+already know.
+
+Racial language are automatically used when talking through (via) channels:
+ say, yell, dirsay, whisper, ic    which are RP channels
+
+See help about the different channels.
+~
+
+0 STANCE~
+Syntax: stance <sentence containing your name>
+        stance none
+        stance
+
+This command will allow you to set your short, one-line description 
+which is seen by other players looking around the room you are in.  You
+must include your name somewhere in the phrase. The use of obscenities,
+even 'disguised' ones (like a$$ F*ck) is NOT allowed in stances.
+ 
+Typing 'stance none' will clear your stance and default back to your
+title being shown.  Typing 'stance' alone will show you your current
+stance.
+~
+
+-1 NAMES~
+Ahh yes, names, the things by which we identify ourselves and others. 
+Here at Mystery, we prefer names to be of Fantasy/Medieval origin.  "Common"
+names, like Bob, John or Mary are generally frowned upon, as are names which
+are downright silly, such as "Squeeky", "WhiteyDaPimp", and "Crayon".  Also,
+offensive or rude names are not allowed.  Race names are not allowed either,
+so you can't go around calling yourself "Cattain" or "Gold Dragon", whether
+you are or are not one of that particular race. Names cannot contain
+more than one capital letter.
+ 
+Try to keep in mind that you're trying to come up with a name, not an
+adjective or anything of that sort.  Words like Demonic or Fluffy and
+so on are not acceptable. Neither are names like "Dog" or "Jaguar".
+
+Seems like a lot that we don't allow, eh? Yeah, well, we're selective. In
+order to foster a good role-play environment, we felt it necessary to weed
+out the silly, irrelevant, and such names, to better improve the In Character
+atmosphere.
+
+When you first create, you will have a (NEWBIE) flag assigned to you. 
+If your name is found to be acceptable by the Immstaff, then the flag will be
+removed. Should you be informed that you must recreate with a different name,
+please comply. Arguing just exacerbates the situation. However, if you feel 
+you have a valid Role-Play reason to have that particular name, explain it to
+the Immortal, and if they agree, there's a good chance your name will pass.
+ 
+If you just can't seem to think of anything, there are webpages that offer 
+name generators for player character names. The addresses are:
+http://www.flatearth.com/utilities/name_generator.html
+http://spitfire.ausys.se/johan/names/
+~
+
+-1 'MAGIC SYSTEM'~
+7th Era of Mystery features a magic system that is different from most ROM
+MUDs.  
+
+When a character chooses to begin life as a mage, he or she can customize
+the spells the begin with, instead of purchasing spells in spell groups. 
+During creation, the "spells" command will list all spells available,
+and they can then be added with the "add" command just like other skills or
+skill groups.  At the guildmaster, the "gain spells" command will list all
+spells available, and they can be added with the gain command.  All spells
+cost one train or creation point to gain initially.  
+
+After creation, a player may choose to specialize in one school of magic. 
+These schools are Alteration, Necromancy, Enchantment, Illusion, Elemental,
+Elemental Earth, Elemental Air, Elemental Fire, and Elemental Water.  There
+exist two other schools of magic, Universal and Divination, which cannot be
+specialized in.  Instead of specializing, a character may choose to become a
+wizard.  Wizards have an assortment of spells from all schools.  
+
+Certain spells can be trained to higher casting levels.  Spells that are
+stated as being "Level 0" cannot be improved.  All other spells may be
+improved if you have the necessary prerequisite spells for improvement and
+have practiced the spell up to a high level of learning.  Increasing a
+spell's power can be expensive.  To find out the prerequisites for improving
+a spell's casting level, consult the spell's help file.  All spells that can
+be improved can potentially be increased up to Spell Level 5.  However, only
+specialists can ever reach Spell Level 5, and they can only bring one spell
+to that level.  A specialist may bring all other spells up to level 3.  A
+
+Wizard or a General Elementalist may not learn any level 5 spells.  However,
+these two groups of spellcasters may train all spells up to Spell Level 4.  
+
+For more information, see HELP CAST, HELP MAGE, HELP NECROMANCER,
+ HELP BARD, ...
+~
+
+-1 'DISLODGE'~
+Syntax: dislodge <arrow>
+
+DISLODGE is used to remove an arrow that has become lodged somewhere upon
+one's body.  Dislodging an arrow can be a painful procedure and is generally
+accompanied by some damage to the character.
+~
+
+
+-1 WILD MAGIC~
+Wild Magic is the magic that runs freely through the world.  While most
+spellcasters use controlled magic and mana sources to cast their spells,
+some choose to attempt to control this raw form of magic.  Those that cast
+with Wild Magic are called Wild Mages.
+
+Wild Mages are in most aspects similar to normal mages.  They have access to
+the same skills and the same spells.  They can specialize in schools of
+magic, though they cannot choose the Necromancy school or the Enchantment
+school.  They can gain higher Spell Levels of spells, though they cannot
+attain Spell Level 5 in any spells.  Wild Mages are limited to only one spell
+of Spell Level 4, though they can know multiple spells at Spell Level 3 or
+lower.
+
+Unlike normal mages, the effective character level that a Wild Mage casts at
+is random.  Every time a Wild Mage casts a spell, he or she casts it as if
+he or she were somewhere between ten character levels lower and ten
+character levels higher than he or she actually is.  Further, every time a
+Wild Mage casts a spell, there is a chance that he or she will bring about a
+Wild Surge.  A Wild Surge is a surge of the random, uncontrolled magic that
+the Wild Mage is trying to control.  The result of the Wild Surge is random,
+and while sometimes beneficial to the Wild Mage, it can be extremely
+dangerous if not deadly as well.
+
+In addition to the above, Wild Mages gain access to the spell 'reckless
+dweomer'.  This spell allows the Wild Mage to attempt to cast any spell,
+whether or not the Wild Mage knows the spell he or she is trying to cast.
+However, this spell very normally results in a Wild Surge instead of the
+intended effect.  See 'help reckless dweomer' for more information.
+
+To become a Wild Mage, one must select mage as their class and then opt for
+Wild Mage during creation.  It should be noted that Wild Mages cannot be any
+form of Lawful alignment.
+~
+
+0 $~
+#$

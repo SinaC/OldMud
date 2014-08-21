@@ -1,0 +1,62 @@
+#HELPS
+
+-1 'GROUP HEADER'~
+The following abilities and groups are available to your character:
+(this list may be seen again by typing list)
+~
+
+-1 'GROUP HELP'~
+The following commands are available:
+list                     display all groups and skills not yet bought
+spell                    display all spells not yet bought
+power                    display all powers not yet bought
+song                     display all powers not yet bought
+learned                  show all groups and abilities bought 
+known                    show all groups and abilities known
+premise                  brief explanation of creation points and skill groups
+add <name>               buy an ability or group
+drop <name>              discard an ability or group
+info <name>              list the abilities contained within a group
+help <name>              help on abilities and groups, or other help topics
+done	                 exit the character generation process
+~
+
+-1 'MENU CHOICE'~
+Choice (add,drop,list,spell,power,song,help,learned,known,premise,info,done)?~
+
+-1 'GROUPS' 'INFO' 'PREMISE'~
+The ROM skill system allows you to fully customize your new character, making
+him or her skilled in the skills you choose.  But beware, the skills you pick
+at character creation are the only skills you will ever learn.  Skills are 
+paid for with creation points, and the more creation points you have, the
+harder it is to gain a level.  Furthermore, higher-cost skills are harder to
+practice.
+
+Skill groups are like package deals for characters -- sets of skills or spells
+that are closely related, and hence can be learned as a unit.  There is a 
+default skill group for each class, which can be selected for a balanced 
+selection of skills at a somewhat reduced cost.
+
+The experience breakdown is as follows: 
+points   exp/level     points   exp/level
+40        1000         90        6000
+50        1500         100       8000
+60	  2000         110      12000
+70        3000         120      16000 
+80        4000         130      24000
+The table continues in a similar manner for higher point totals.
+~
+
+-1 BASICS 'ROM BASICS'~
+The basic abilities:
+
+Every character starts with two abilities groups, one for their class and a
+default set that all characters receive.  The default abilities are:
+
+recall  	essential escape skill (see help recall)
+
+for class defaults, check the classes themselves.
+~
+
+0 $~
+#$

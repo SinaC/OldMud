@@ -1,0 +1,76 @@
+<HTML>
+
+  <HEAD>
+    <TITLE>Mystery</TITLE>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" content="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="Thu, 18 Sep 2003 21:20:56 GMT">
+    <META HTTP-EQUIV="Generator" CONTENT="MRTG 2.9.27">
+    <META HTTP-EQUIV="Date" CONTENT="Thu, 18 Sep 2003 21:20:56 GMT">
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+  </HEAD>
+
+  <!-- Header de la page -->
+  <center>
+    <div style="width:100%;filter:glow(color=#393a40,strength=8);font-family:Arial Black;color:#fbfd99;font:24pt">M &nbsp;&nbsp;y &nbsp;&nbsp;s &nbsp;&nbsp;t &nbsp;&nbsp;e &nbsp;&nbsp;r &nbsp;&nbsp;Y</div>
+  </center>
+  <!-- Ancien Header de la page -->
+  <!--<FONT FACE="tahoma"><P ALIGN="CENTER"><FONT FACE="Arial" SIZE=50 COLOR="#c0bcaf">Mystery</FONT>-->
+
+    <H3><a href="telnet://localhost 4000">Connect to Mystery</a><BR></H3>
+
+    <table border="0" width="20%" height="145">
+      <tr>
+	<td width="34%" height="21"><b>Online statistics</b></td>
+	<td width="34%" height="21"><b>Helps</b></td>
+	<td width="34%" height="21"><b>Online</b></td>
+      </tr>
+      <tr>
+	<td width="34%" height="116">
+	  <form name="form1">
+	    <select name="menuchoix" onClick="fonctionMenu(this.form)" size="5">
+	      <!--<option selected value="INVALID"> Choisissez votre Compteur</option>-->
+	      <option value="../mrtg/Stats%20Summary.html">Summary</option>
+	      <option value="../mrtg/generated/mudplayer.html">Players connected</option>
+	      <option value="../mrtg/generated/mudobjmob.html">Mobiles and Objects</option>
+	      <option value="../mrtg/generated/mudheap.html">Heap and String space</option>
+	      <option value="../mrtg/generated/mudmem.html">Memory free and allocated</option>
+	    </select></form>
+	</td>
+	
+	<td width="34%" height="116">
+	  <form name="form1">
+	    <select name="menuchoix" onClick="fonctionMenu(this.form)" size="5">
+	      <!--<option selected value="INVALID"> Choisissez votre Compteur</option>-->
+	      <option value="generated/races.html">Races</option>
+	      <option value="generated/classes.html">Classes</option>
+	      <option value="generated/abilities.html">Abilities</option>
+	      <option value="generated/gods.html">Gods</option>
+	      <option value="generated/groups.html">Groups</option>
+	    </select></form>
+	</td>
+
+	<td width="34%" height="116">
+	  <form name="form1">
+	    <!--<select name="menuchoix" onChange="fonctionMenu(this.form)" size="2">-->
+	    <select name="menuchoix" onClick="fonctionMenu(this.form)" size="2">
+	      <!--<option selected value="INVALID"> Choisissez votre Compteur</option>-->
+	      <option value="generated/who.html">Who</option>
+	    </select></form>
+	</td>
+	
+      </tr>
+    </table>
+
+    <!-- Menu deroulant permettant d'acceder aux differentes pages de statistique-->
+    <script language="JavaScript">
+      // Script trouvé sur Le Webmestre  www.le-webmestre.net   info@le-webmestre.net
+      // Retrouvez des centaines de scripts et bien plus...
+      function fonctionMenu(form) {
+        var choix=form.menuchoix.selectedIndex //lwf
+        if ( form.menuchoix.options[choix].value != "INVALID" ) {
+          location=form.menuchoix.options[choix].value;
+        }
+      }
+    </script>
+</HTML>

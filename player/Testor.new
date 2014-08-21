@@ -1,0 +1,157 @@
+Player 'Testor' {
+  Id = 1060359034;
+  Version = 10;
+  LogO = 1060359572;
+  Race = 'human';
+  Sex = 'male';
+  Size = 'medium';
+  DamType = 'punch';
+  Immunities = ('none');
+  Resistances = ('none');
+  Vulnerabilities = ('none');
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+  AfBy = ('none');
+  AfBy2 = ('none');
+  Classes = ('druid');
+  Level = 1;
+  Experience = 2728;
+  Act = ('autoexit', 'autoloot', 'autosac', 'autogold', 'autotitle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine');
+  Position = 'standing';
+  Attr = ( 10, 10, 16, 10, 11 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = ( ( 20, 20 ), ( 100, 100 ), ( 100, 100 ), ( 100, 100 ) );
+  Alignment = -750;
+  Etho = 'neutral';
+  Silver = 55;
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Room = 3721;
+  Played = 538;
+  Scroll = 24;
+  Prac = 10;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'common';
+  Beacons = ( 0, 0, 0 );
+  God = 'Aislara';
+  NameAccepted = false;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = 'the Apprentice of Magic';
+  Condition = ( 0, 34, 41, 41 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Pnts = 49;
+  Ability = ( 41, 0, 0, 'staff(weapon)' );
+  Ability = ( 1, 0, 0, 'dodge' );
+  Ability = ( 1, 0, 0, 'second attack' );
+  Ability = ( 1, 0, 0, 'hunt' );
+  Ability = ( 1, 0, 0, 'fast healing' );
+  Ability = ( 1, 0, 0, 'lore' );
+  Ability = ( 1, 0, 0, 'staves' );
+  Ability = ( 50, 0, 0, 'recall' );
+  Ability = ( 1, 0, 0, 'blend' );
+  Ability = ( 1, 0, 0, 'soothe' );
+  Ability = ( 1, 0, 0, 'riding' );
+  Ability = ( 1, 0, 0, 'shapechange' );
+  Ability = ( 1, 0, 0, 'brew' );
+  Ability = ( 1, 0, 0, 'cancellation' );
+  Ability = ( 1, 0, 0, 'create food' );
+  Ability = ( 1, 0, 0, 'create rose' );
+  Ability = ( 1, 0, 0, 'create spring' );
+  Ability = ( 1, 0, 0, 'create water' );
+  Ability = ( 1, 0, 0, 'dispel magic' );
+  Ability = ( 1, 0, 0, 'pass door' );
+  Ability = ( 1, 0, 0, 'barkskin' );
+  Ability = ( 1, 0, 0, 'create shelter' );
+  Ability = ( 1, 0, 0, 'strength of the bear' );
+  Ability = ( 1, 0, 0, 'breath of the fish' );
+  Ability = ( 1, 0, 0, 'eyes of the wolf' );
+  Ability = ( 1, 0, 0, 'rooted feet' );
+  Ability = ( 1, 0, 0, 'nature shield' );
+  Ability = ( 1, 0, 0, 'anti-venom spores' );
+  Ability = ( 1, 0, 0, 'flower of health' );
+  Ability = ( 1, 0, 0, 'flight of the bird' );
+  Ability = ( 1, 0, 0, 'polar adaptation' );
+  Ability = ( 1, 0, 0, 'desert adaptation' );
+  Ability = ( 1, 0, 0, 'speed of the cheetah' );
+  Ability = ( 1, 0, 0, 'insect swarm' );
+  Ability = ( 1, 0, 0, 'animal friendship' );
+  Ability = ( 1, 0, 0, 'thorn blast' );
+  Ability = ( 1, 0, 0, 'plant door' );
+  Ability = ( 1, 0, 0, 'growth shrooms' );
+  Ability = ( 1, 0, 0, 'shrinking shrooms' );
+  Ability = ( 1, 0, 0, 'gift of nature' );
+  Ability = ( 1, 0, 0, 'detect lycanthropy' );
+  Ability = ( 1, 0, 0, 'protection lycanthropy' );
+  Ability = ( 1, 0, 0, 'create vines' );
+  Group = 'rom basics';
+  Group = 'druid basics';
+  Group = 'druidic';
+  Group = 'animal';
+  Group = 'plant';
+  Gset = 1;
+  Security = 0;
+  Affect = ( 'bless', 'char', 'saving throw', 0, -3, 33, 29, 0 );
+  Affect = ( 'bless', 'char', 'hitroll', 0, 3, 33, 30, 0 );
+  Affect = ( 'armor', 'char', 'AC', 0, -20, 31, 29, 1 );
+  Affect = ( 'wraithform', 'char', 'AC', 0, -113, 15, 119, 0 );
+  Affect = ( 'wraithform', 'char', 'affects', 1, 128, 15, 119, 0 );
+  Affect = ( 'haste', 'char', 'affects', 1, 2097152, 25, 119, 5 );
+  Affect = ( 'haste', 'char', 'dexterity', 0, 4, 25, 120, 5 );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'questmob', 'entity', -1, '<NULL>' );
+  ExField = ( 'questobj', 'entity', -1, '<NULL>' );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'questpoints', 'int', -1, 0 );
+  ExField = ( 'questgiver', 'entity', -1, '<NULL>' );
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3718 {
+    WearLoc = 'wielded';
+  }
+  Obj 3162 {
+  }
+  Obj 3709 {
+    WearLoc = 'hands';
+  }
+  Obj 3710 {
+    WearLoc = 'arms';
+  }
+  Obj 3713 {
+    WearLoc = 'lwrist';
+  }
+  Obj 3715 {
+  }
+  Obj 3723 {
+    WearLoc = 'floating';
+  }
+}

@@ -1,0 +1,334 @@
+AreaState 'Ciquala\'s Lair' {
+  Room 20000 {
+    Repop = 28;
+  }
+  Room 20001 {
+    Repop = 28;
+  }
+  Room 20002 {
+    Repop = 28;
+  }
+  Room 20003 {
+    Repop = 28;
+    Mobile 20000 {
+      Ptr = 182624840;
+      HMVP = (  ( 1145 ),  ( 330 ),  ( 100 ),  ( 0 ) );
+      Gold = 45;
+      Silver = 341;
+      Room = 20003;
+    }
+  }
+  Room 20004 {
+    Repop = 28;
+  }
+  Room 20005 {
+    Repop = 28;
+    Mobile 20018 {
+      Ptr = 182635952;
+      HMVP = (  ( 430 ),  ( 220 ),  ( 100 ),  ( 0 ) );
+      Gold = 14;
+      Silver = 372;
+      Room = 20005;
+      Obj 20007 {
+      }
+      Obj 20008 {
+      }
+      Obj 20009 {
+      }
+      Obj 20010 {
+      }
+      Obj 20011 {
+      }
+      Obj 20012 {
+      }
+    }
+    Mobile 20001 {
+      Ptr = 182624256;
+      HMVP = (  ( 430 ),  ( 220 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 305;
+      Room = 20005;
+      Obj 20004 {
+      }
+      Obj 20013 {
+      }
+      Obj 20014 {
+      }
+      Obj 20015 {
+      }
+      Obj 20024 {
+      }
+      Obj 20025 {
+      }
+    }
+  }
+  Room 20006 {
+    Repop = 28;
+    Mobile 20004 {
+      Ptr = 182635368;
+      Sex = 'male';
+      HMVP = (  ( 1564 ),  ( 370 ),  ( 100 ),  ( 0 ) );
+      Room = 20006;
+    }
+    Obj 20003 {
+    }
+    Obj 20020 {
+    }
+    Obj 20021 {
+    }
+  }
+  Room 20007 {
+    Repop = 28;
+    Mobile 20003 {
+      Ptr = 182634200;
+      Sex = 'male';
+      AfBy = ('sanctuary');
+      HMVP = (  ( 1354 ),  ( 350 ),  ( 100 ),  ( 0 ) );
+      Gold = 49;
+      Silver = 2012;
+      Room = 20007;
+      Affect = ( 'protection good', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 20002 {
+      Ptr = 182634784;
+      HMVP = (  ( 1918 ),  ( 400 ),  ( 100 ),  ( 0 ) );
+      Gold = 48;
+      Silver = 3786;
+      Room = 20007;
+    }
+  }
+  Room 20008 {
+    Repop = 28;
+    Mobile 20003 {
+      Ptr = 182633032;
+      Sex = 'female';
+      AfBy = ('sanctuary');
+      HMVP = (  ( 1355 ),  ( 350 ),  ( 100 ),  ( 0 ) );
+      Gold = 35;
+      Silver = 3415;
+      Room = 20008;
+      Affect = ( 'protection good', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 35, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 20002 {
+      Ptr = 182633616;
+      HMVP = (  ( 1939 ),  ( 400 ),  ( 100 ),  ( 0 ) );
+      Gold = 56;
+      Silver = 2405;
+      Room = 20008;
+    }
+  }
+  Room 20009 {
+    Repop = 28;
+    Mobile 20006 {
+      Ptr = 182644144;
+      HMVP = (  ( 3127 ),  ( 450 ),  ( 100 ),  ( 0 ) );
+      Gold = 66;
+      Silver = 915;
+      Room = 20009;
+    }
+    Mobile 20005 {
+      Ptr = 182632448;
+      HMVP = (  ( 4766 ),  ( 500 ),  ( 100 ),  ( 0 ) );
+      Room = 20009;
+      Affect = ( 'sanctuary', -1, 50, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20005 {
+      }
+    }
+  }
+  Room 20010 {
+    Repop = 28;
+    Mobile 20007 {
+      Ptr = 182643560;
+      LnD = '';
+      HMVP = (  ( 687 ),  ( 270 ),  ( 100 ),  ( 0 ) );
+      Room = 20010;
+    }
+  }
+  Room 20011 {
+    Repop = 28;
+    Mobile 20008 {
+      Ptr = 182642976;
+      DamType = 'pierce';
+      HMVP = (  ( 1554 ),  ( 370 ),  ( 100 ),  ( 0 ) );
+      Gold = 65;
+      Silver = 1325;
+      Room = 20011;
+      Affect = ( 'sanctuary', -1, 37, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 20012 {
+    Repop = 28;
+    Mobile 20004 {
+      Ptr = 182642392;
+      Sex = 'female';
+      HMVP = (  ( 1551 ),  ( 370 ),  ( 100 ),  ( 0 ) );
+      Room = 20012;
+    }
+    Obj 20022 {
+    }
+    Obj 20023 {
+    }
+  }
+  Room 20013 {
+    Repop = 28;
+  }
+  Room 20014 {
+    Repop = 28;
+    Mobile 20012 {
+      Ptr = 182648240;
+      AfBy = ('none');
+      HMVP = (  ( 1798 ),  ( 390 ),  ( 100 ),  ( 0 ) );
+      Room = 20014;
+      Affect = ( 'protection good', -1, 39, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 39, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Mobile 20011 {
+      Ptr = 182640640;
+      AfBy = ('none');
+      HMVP = (  ( 1459 ),  ( 360 ),  ( 100 ),  ( 0 ) );
+      Room = 20014;
+      Affect = ( 'protection good', -1, 36, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 36, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Mobile 20010 {
+      Ptr = 182641224;
+      AfBy = ('none');
+      HMVP = (  ( 1143 ),  ( 330 ),  ( 100 ),  ( 0 ) );
+      Room = 20014;
+      Affect = ( 'protection good', -1, 33, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 33, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+    Mobile 20009 {
+      Ptr = 182641808;
+      AfBy = ('none');
+      HMVP = (  ( 899 ),  ( 300 ),  ( 100 ),  ( 0 ) );
+      Gold = 38;
+      Silver = 119;
+      Room = 20014;
+      Affect = ( 'protection good', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 30, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+    }
+  }
+  Room 20015 {
+    Repop = 28;
+    Mobile 20013 {
+      Ptr = 182647656;
+      HMVP = (  ( 2169 ),  ( 410 ),  ( 100 ),  ( 0 ) );
+      Gold = 62;
+      Silver = 1670;
+      Room = 20015;
+      Affect = ( 'sanctuary', -1, 41, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20017 {
+        WearLoc = 'wielded';
+      }
+    }
+    Obj 20016 {
+    }
+  }
+  Room 20016 {
+    Repop = 28;
+    Mobile 20014 {
+      Ptr = 182647072;
+      HMVP = (  ( 4742 ),  ( 500 ),  ( 100 ),  ( 0 ) );
+      Gold = 107;
+      Silver = 901;
+      Room = 20016;
+      Affect = ( 'sanctuary', -1, 50, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 20017 {
+    Repop = 28;
+    Mobile 20015 {
+      Ptr = 182646488;
+      HMVP = (  ( 5804 ),  ( 520 ),  ( 100 ),  ( 0 ) );
+      Gold = 66;
+      Silver = 2486;
+      Room = 20017;
+      Affect = ( 'sanctuary', -1, 52, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 20000 {
+        WearLoc = 'wielded';
+      }
+      Obj 20001 {
+        WearLoc = 'about';
+      }
+      Obj 20002 {
+        WearLoc = 'hold';
+      }
+      Obj 20006 {
+      }
+    }
+  }
+  Room 20018 {
+    Repop = 28;
+    Obj 20018 {
+    }
+    Obj 20019 {
+    }
+  }
+  Room 20019 {
+    Repop = 28;
+    Mobile 20017 {
+      Ptr = 182656432;
+      HMVP = (  ( 3661 ),  ( 470 ),  ( 100 ),  ( 0 ) );
+      Gold = 48;
+      Silver = 677;
+      Room = 20019;
+    }
+    Mobile 20017 {
+      Ptr = 182644736;
+      HMVP = (  ( 3633 ),  ( 470 ),  ( 100 ),  ( 0 ) );
+      Gold = 45;
+      Silver = 651;
+      Room = 20019;
+    }
+    Mobile 20016 {
+      Ptr = 182645320;
+      HMVP = (  ( 1536 ),  ( 370 ),  ( 100 ),  ( 0 ) );
+      Gold = 39;
+      Silver = 1736;
+      Room = 20019;
+    }
+    Mobile 20016 {
+      Ptr = 182645904;
+      HMVP = (  ( 1567 ),  ( 370 ),  ( 100 ),  ( 0 ) );
+      Gold = 56;
+      Silver = 2217;
+      Room = 20019;
+    }
+  }
+}

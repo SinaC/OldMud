@@ -1,0 +1,92 @@
+AreaState 'Ofcol' {
+  Room 5550 {
+    Repop = 28;
+    Mobile 303 {
+      Ptr = 182381416;
+      DamType = 'pierce';
+      HMVP = (  ( 77 ),  ( 116 ),  ( 100 ),  ( 0 ) );
+      Silver = 15;
+      Room = 5550;
+    }
+  }
+  Room 5551 {
+    Repop = 28;
+  }
+  Room 5552 {
+    Repop = 28;
+    Mobile 304 {
+      Ptr = 182380832;
+      DamType = 'pound';
+      HMVP = (  ( 69 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 5552;
+      Obj 3020 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 5553 {
+    Repop = 28;
+    Mobile 304 {
+      Ptr = 182380248;
+      DamType = 'slash';
+      HMVP = (  ( 64 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 5553;
+    }
+  }
+  Room 5554 {
+    Repop = 28;
+  }
+  Room 5555 {
+    Repop = 28;
+    Mobile 306 {
+      Ptr = 182379664;
+      DamType = 'pound';
+      HMVP = (  ( 485 ),  ( 156 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 155;
+      Room = 5555;
+      Obj 304 {
+        ExtraFlags = ('antievil', 'inventory');
+      }
+      Obj 3030 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 5556 {
+    Repop = 28;
+    Mobile 308 {
+      Ptr = 182378496;
+      DamType = 'pound';
+      HMVP = (  ( 475 ),  ( 160 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 5556;
+      Obj 3000 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 3001 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 303 {
+      Ptr = 182379080;
+      DamType = 'slash';
+      HMVP = (  ( 75 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 5556;
+    }
+  }
+  Room 5577 {
+    Repop = 28;
+    Mobile 350 {
+      Ptr = 182390192;
+      DamType = 'pierce';
+      HMVP = (  ( 112 ),  ( 159 ),  ( 100 ),  ( 0 ) );
+      Room = 5577;
+      Affect = ( 'sanctuary', -1, 10, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+}

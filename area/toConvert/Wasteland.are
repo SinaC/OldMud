@@ -1,0 +1,1328 @@
+#Style Circle
+#AREADATA
+Name Wasteland~
+Builders AsA~
+VNUMs 27000 27099
+Credits {{None}  CAW    Wasteland~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#27000
+giant vulture~
+the giant vulture~
+A giant vulture is here.
+~
+   It looks hungry.    
+~
+cdg dfkn -1000 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#27001
+demon horse~
+the demon horse~
+A demon horse is here.
+~
+   The demon horse widens its nostrils and fire burns in its eyes.    
+~
+bdjk k -1000 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#27002
+rabid fox~
+the rabid fox~
+A rabid fox is here, drooling heavily.
+~
+   The rabid fox seems almost putrid.    
+~
+bdnp k -900 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 0
+E
+#27003
+earth demon~
+the earth demon~
+An earth demon lingers in the air.
+~
+   It is brown and stocky.    
+~
+dgnp knps -900 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 0
+E
+#27004
+evil bird~
+the evil bird~
+An evil bird is here.
+~
+   It is raven black with bright, gleeming, yellow eyes.    
+~
+dg dk -1000 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#27005
+iodocentipedus~
+the iodocentipedus~
+An Iodocentipedus crawls around here very slowly.
+~
+   It is a mixture of colors, blue, red and brown, totally lacking hair on its
+plated body.    
+~
+bdlm k -700 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 0
+E
+#27006
+fanged reindeer~
+the fanged reindeer~
+A fanged reindeer walks around here looking for food.
+~
+   It is awesome, at least by reindeer standards!    
+~
+bcd dkn -1000 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#27007
+hill ghoul~
+the hill ghoul~
+An hill ghoul walks and walks and walks here.
+~
+   It is large, white and looks MAD!!!    
+~
+bcden dkpt -1000 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 0
+E
+#27008
+stone ogre~
+the stone ogre~
+A stone ogre tramples around.
+~
+   The ogre seems confused.    
+~
+bcdlm dfk -800 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#27009
+ice troll~
+the ice troll~
+An ice troll mutters about.
+~
+   It is covered with a thick ice armor.  And it certainly looks ready for
+battle.    
+~
+bcd dpt -1000 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#27010
+lithophiliac~
+the lithophiliac~
+A lithophiliac is here, burping his ass off.
+~
+   He is skinny but still a scary beeing, presuambly because of his dreadful
+smell.    
+~
+bcd b 200 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 1
+E
+#27011
+ice wizard~
+the ice wizard~
+The Wizard of ice-molding looks grimly at YOU!!
+~
+   He is of average height wearing a long silvery robe covered with small ice
+crystals.  He seems very intelligent with his long frosty beard and sharp
+looks.    
+~
+bcdeno dfk -1000 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#27012
+stormbringer~
+the stormbringer~
+The stormbringer sweeps around here.
+~
+   The stormbringer is HUGE but still swift.    
+~
+bcdeno bdfk -1000 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#27000
+stone club~
+a large stone club~
+A large stone club lies here.~
+~
+5 jmop an 0
+0 3 8 6
+17 500 0 20
+A
+18 2
+A
+2 -1
+#27001
+trollhelm helm~
+a trollhelm~
+A huge trollhelm lies here.~
+~
+9 jlm ae 0
+6 0 0 0
+10 200 0 30
+A
+1 1
+#27002
+ice club~
+an ice club~
+A large ice club lies here.~
+~
+5 jmo an 0
+0 4 6 6
+18 200 0 30
+A
+19 3
+#27003
+robe white~
+the robe of the ice wizard~
+A white robe lies on the ground.~
+~
+9 agjnop ak 0
+8 0 0 0
+1 120 0 30
+A
+12 30
+A
+18 3
+#27004
+cloak stormbringer~
+the cloak of the stormbringer~
+A dull cloak lies here.~
+~
+9 agjp ac 0
+6 0 0 0
+1 120 0 0
+A
+13 30
+#27005
+sleeves iron~
+a pair of iron sleeves~
+A pair of iron sleeves lies on the ground.~
+~
+9 0 ai 0
+7 0 0 0
+10 245 0 20
+A
+18 -4
+A
+19 5
+#27006
+cube ice translucent~
+a translucent ice cube~
+Someone has left a translucent ice cube here.~
+~
+8 gh ao 0
+0 0 0 0
+10 500 0 0
+A
+2 1
+A
+13 -15
+#27007
+cube white ice~
+a white ice cube~
+Someone has left a white ice cube here.~
+~
+8 gj ao 0
+0 0 0 0
+10 550 0 0
+A
+2 1
+A
+1 1
+#27008
+cube white ice~
+a white ice cube~
+Someone has left a white ice cube here.~
+~
+8 gh ao 0
+0 0 0 0
+10 500 0 0
+A
+13 -20
+A
+9 10
+#27009
+cube white ice~
+a white ice cube~
+Someone has left a white ice cube here.~
+~
+8 gj ao 0
+0 0 0 0
+10 500 0 0
+A
+2 2
+A
+19 -1
+#27010
+cube pearly blue ice~
+a pearly blue ice cube~
+Someone has left a pearly blue ice cube here.~
+~
+8 gj ao 0
+0 0 0 0
+10 550 0 0
+A
+17 10
+A
+19 -1
+#27011
+golden crystal~
+a golden crystal~
+A golden crystal lies here.~
+~
+8 agjlnop ao 0
+0 0 0 0
+10 1000 0 30
+A
+3 3
+A
+4 2
+#0
+
+#ROOMS
+
+#27000
+AsA's Zone Description Room~
+   I hereby present the wasteland area, availiable to those concerned.  I have,
+deliberately, written short long_descriptions.  Because I consider them more
+useful that way, since most DIKU's are not inclined towards questing.    
+   Builder      : AsA
+   Zone         : 270 Wasteland
+   Player Level : 12-15
+   Rooms        : 58
+   Mobiles      : 13
+   Objects      : 12 
+   Links        : 
+~
+270 0 0
+S
+#27001
+The Foothills~
+   You stand in the foothills surrounding the Icy-Mountain.
+~
+270 0 4
+D1
+~
+~
+0 -1 27002
+D2
+~
+~
+0 -1 27007
+S
+#27002
+The Foothills~
+   You stand in the foothills of the Icy-Mountain.  The mountain 
+rises high towards the sky immediately south of here.
+~
+270 0 4
+D1
+~
+~
+0 -1 27003
+D3
+~
+~
+0 -1 27001
+S
+#27003
+The Foothills~
+    You stand in the foothills of the Icy-Mountain.  The mountain 
+rises high towards the sky immediately south of here.
+~
+270 0 4
+D1
+~
+~
+0 -1 27004
+D3
+~
+~
+0 -1 27002
+S
+#27004
+The Foothills~
+   You stand in the foothills of the Icy-Mountain.  The mountain 
+rises high towards the sky immediately south and west of here.
+~
+270 0 4
+D2
+~
+~
+0 -1 27013
+D3
+~
+~
+0 -1 27003
+S
+#27005
+The Icy-Mountain~
+   The mountain trail ends here just beneath the top. 
+~
+270 0 5
+D2
+~
+~
+0 -1 27011
+S
+#27006
+The Ice Cave~
+   You are inside the ice cave.  Some droppings, not too nice 
+looking nor smelling, have been spilled in the centre of the cave.
+Your basic knowlege of ichtyology tells you that this excrement 
+does not relate to the elusive Otopharynx lithobates, but to 
+something completely different.
+~
+270 d 0
+D2
+~
+~
+0 -1 27012
+S
+#27007
+The Foothills~
+   You stand in the foothills of the Icy-Mountain.  The mountain 
+rises high towards the sky immediately east of here.
+~
+270 0 4
+D0
+~
+~
+0 -1 27001
+D2
+~
+~
+0 -1 27017
+S
+#27008
+The Icy Mountain~
+   You are at a dead-end in the mountain.
+~
+270 0 5
+D2
+~
+~
+0 -1 27014
+S
+#27009
+The Icy Mountain~
+   You are at a dead-end in the mountain.
+~
+270 0 5
+D1
+~
+~
+0 -1 27010
+S
+#27010
+The Icy Mountain~
+   You are on a trail winding along the mountainside.
+~
+270 0 5
+D1
+~
+~
+0 -1 27011
+D3
+~
+~
+0 -1 27009
+D5
+~
+~
+0 -1 27016
+S
+#27011
+The Icy Mountain~
+   You are on a trail, still leading along the mountainside.
+~
+270 0 5
+D0
+~
+~
+0 -1 27005
+D1
+~
+~
+0 -1 27012
+D3
+~
+~
+0 -1 27010
+S
+#27012
+The Icy Mountain~
+   You are on a trail in the mountain.  North of here is a 
+cavern, which might lead to a cave.
+~
+270 0 5
+D0
+~
+~
+0 -1 27006
+D3
+~
+~
+0 -1 27011
+S
+#27013
+The Foothills~
+   You are in the foothills surrounding the Icy-mountain, which 
+rises towards the sky just west of you.
+~
+270 0 4
+D0
+~
+~
+0 -1 27004
+D2
+~
+~
+0 -1 27023
+S
+#27014
+The Icy Mountain~
+   You are on a trail running along the mountainside.
+~
+270 0 5
+D0
+~
+~
+0 -1 27008
+D1
+~
+~
+0 -1 27015
+D2
+~
+~
+0 -1 27018
+S
+#27015
+The Icy Mountain~
+   You are on a trail in the mountain.  The trail leads west and
+south.  To your east is a crack in the mountain wall.
+~
+270 0 5
+D1
+~
+~
+0 -1 27016
+D2
+~
+~
+0 -1 27019
+D3
+~
+~
+0 -1 27014
+S
+#27016
+The Icy Mountain~
+   You are on a trail somewhere in this neverending mountain.
+~
+270 0 5
+D2
+~
+~
+0 -1 27020
+D4
+~
+~
+0 -1 27010
+S
+#27017
+The Foothills~
+   You are in the foothills surrounding the Icy-mountain.  There 
+is a mountain trail leading up along the side of the mountain 
+east of you.
+~
+270 0 4
+D0
+~
+~
+0 -1 27007
+D1
+~
+~
+0 -1 27018
+D2
+~
+~
+0 -1 27024
+S
+#27018
+The Icy Mountain~
+   You are on a mountain trail leading up along the moutainside.
+~
+270 0 5
+D0
+~
+~
+0 -1 27014
+D2
+~
+~
+0 -1 27025
+D3
+~
+~
+0 -1 27017
+S
+#27019
+The Icy Mountain~
+   You are on a mountain trail leading up along the side of the 
+mountain.
+~
+270 0 5
+D0
+~
+~
+0 -1 27015
+D1
+~
+~
+0 -1 27020
+D2
+~
+~
+0 -1 27026
+S
+#27020
+The Icy Mountain~
+   You are on a trail in the mountain.
+~
+270 0 5
+D0
+~
+~
+0 -1 27016
+D1
+~
+~
+0 -1 27021
+D3
+~
+~
+0 -1 27019
+S
+#27021
+The Icy Mountain~
+   You are on a trail in the mountain.
+~
+270 0 5
+D2
+~
+~
+0 -1 27028
+D3
+~
+~
+0 -1 27020
+S
+#27022
+The Icy Mountain~
+   You are on a trail in the mountain.
+~
+270 0 5
+D2
+~
+~
+0 -1 27030
+D3
+~
+~
+0 -1 27021
+S
+#27023
+The Foothills~
+   You are in the foothills east of the Icy-mountain.
+~
+270 0 4
+D0
+~
+~
+0 -1 27013
+D2
+~
+~
+0 -1 27037
+S
+#27024
+The Foothills~
+   You are in the foothills.  There is a mountain rising to your 
+easthand side.
+~
+270 0 4
+D0
+~
+~
+0 -1 27017
+D1
+~
+~
+0 -1 27025
+S
+#27025
+The Foothills~
+   You are in the foothills surrounding the Icy-mountain.  There 
+is a trail leading up the montain north of here.
+~
+270 0 4
+D0
+~
+~
+0 -1 27018
+D1
+~
+~
+0 -1 27026
+D2
+~
+~
+0 -1 27031
+D3
+~
+~
+0 -1 27024
+S
+#27026
+The Foothills~
+   You are in the foothills surrounding the Icy-mountain.  There 
+is a path leading up along the mountainside north of you.
+~
+270 0 4
+D0
+~
+~
+0 -1 27019
+D1
+~
+~
+0 -1 27027
+D3
+~
+~
+0 -1 27025
+S
+#27027
+The Foothills~
+   You are in the foothills surrounding the Icy-mountain.
+~
+270 0 4
+D1
+~
+~
+0 -1 27028
+D3
+~
+~
+0 -1 27026
+S
+#27028
+The Foothills~
+   You are in the foothills surrounding the Icy-mountain.
+~
+270 0 4
+D1
+~
+~
+0 -1 27029
+D2
+~
+~
+0 -1 27034
+D3
+~
+~
+0 -1 27027
+S
+#27029
+The Foothills~
+   You are in the foothills surrounding the Icy-mountain.
+~
+270 0 4
+D2
+~
+~
+0 -1 27035
+D3
+~
+~
+0 -1 27028
+S
+#27030
+The Icy Mountain~
+   You are on a trail winding along the mountainside.
+~
+270 0 5
+D0
+~
+~
+0 -1 27022
+D2
+~
+~
+0 -1 27036
+S
+#27031
+The Wasteland Hills~
+   You are in some completely wasted, tiresome, boring and 
+totally ugly hills.  There are some droppings left here.
+~
+270 0 4
+D0
+~
+~
+0 -1 27025
+D1
+~
+~
+0 -1 27032
+D2
+~
+~
+0 -1 27038
+E
+droppings~
+   Looks pretty messy.  
+~
+S
+#27032
+The Wasteland Hills~
+   You are on a path leading through the wasted hills.  To the 
+north you barely make out the contours of a pointy mountain and 
+its foothills.
+~
+270 0 4
+D1
+~
+~
+0 -1 27033
+D2
+~
+~
+0 -1 27039
+S
+#27033
+The Wasteland Hills~
+   You are on a path in the hills.  Apart from down to the south 
+there is nothing but brown, dull and wasted hills surrounding you.
+~
+270 0 4
+D1
+~
+~
+0 -1 27034
+D3
+~
+~
+0 -1 27032
+D5
+~
+~
+0 -1 27040
+S
+#27034
+The Wasteland Hills~
+   You are on a path leading through the brown and wasted
+hills.  North of here you can barely make out the shape of
+a pointy mountain with some rather large foothills just in
+front of it.
+~
+270 0 4
+D0
+~
+~
+0 -1 27028
+D3
+~
+~
+0 -1 27033
+D5
+~
+~
+0 -1 27041
+S
+#27035
+The Foothills~
+   You are in the foothills surrounding the mountainside.
+~
+270 0 4
+D0
+~
+~
+0 -1 27029
+D2
+~
+~
+0 -1 27042
+D3
+~
+~
+0 -1 27034
+S
+#27036
+The Icy Mountain~
+   You are on a trail leading up the moutain.  There is some loose 
+crabble lying on the ground.
+~
+270 0 5
+D0
+~
+~
+0 -1 27030
+D2
+~
+~
+0 -1 27043
+E
+crabble~
+   Yes it is just lying there of absolutely no use at all.  
+~
+S
+#27037
+The Foothills~
+   You are in the foothills surrounding the mountain.  A large
+claymore is lying on the ground here.
+~
+270 0 4
+D0
+~
+~
+0 -1 27023
+D2
+~
+~
+0 -1 27044
+E
+claymore~
+   The more you look at it the more it vanishes, to your desperate grief.  
+~
+S
+#27038
+The Wasteland Hills~
+   You are surrounded by smooth hills right in the middle of 
+absolute nowhere.
+~
+270 0 4
+D0
+~
+~
+0 -1 27031
+D1
+~
+~
+0 -1 27039
+S
+#27039
+The Wasteland hills~
+   You are on a little path leaing through the smooth, brown hills 
+of complete waste.  Right beneath you is some wasteland fields.
+~
+270 0 4
+D0
+~
+~
+0 -1 27032
+D3
+~
+~
+0 -1 27038
+D5
+~
+~
+0 -1 27045
+S
+#27040
+The Wasteland Fields~
+   You are on the wast, wasted fields in the middle of nowhere.
+~
+270 0 2
+D1
+~
+~
+0 -1 27041
+D4
+~
+~
+0 -1 27033
+S
+#27041
+The Wasteland Fields~
+   You are on the vast, wasted fields in the middle of nowhere. 
+Above you is quite clearly some hills.
+~
+270 0 2
+D2
+~
+~
+0 -1 27046
+D3
+~
+~
+0 -1 27040
+D4
+You see some utterly ugly and wasted hills.
+~
+~
+0 -1 27034
+S
+#27042
+The Foothills~
+   You are in the foothills.  Where else?
+~
+270 0 4
+D0
+~
+~
+0 -1 27035
+D1
+~
+~
+0 -1 27043
+S
+#27043
+The Foothills~
+   You are in the foothills.  North of here a small path is finding 
+its way up along the Icy-mountain.
+~
+270 0 4
+D0
+~
+~
+0 -1 27036
+D1
+~
+~
+0 -1 27044
+D3
+~
+~
+0 -1 27042
+S
+#27044
+The Foothills~
+   You are in the foothills surrounding the large pointy Icy-mountain.
+~
+270 0 4
+D0
+~
+~
+0 -1 27037
+D3
+~
+~
+0 -1 27043
+S
+#27045
+The Wasteland Fields~
+   You are in the brown, tiresome fields.
+~
+270 0 2
+D2
+~
+~
+0 -1 27048
+D4
+~
+~
+0 -1 27039
+S
+#27046
+The Wasteland Fields~
+   You are surrounded by fields!!!
+~
+270 0 2
+D0
+~
+~
+0 -1 27041
+D1
+~
+~
+0 -1 27047
+D2
+~
+~
+0 -1 27050
+S
+#27047
+The Wasteland Fields~
+   You are on a large field which do not seem to have an end to it.
+~
+270 0 2
+D2
+~
+~
+0 -1 27051
+D3
+~
+~
+0 -1 27046
+S
+#27048
+The Wasteland Fields~
+   You are on a large field.  Is there possibly an end to it??
+~
+270 0 2
+D0
+~
+~
+0 -1 27045
+D1
+~
+~
+0 -1 27049
+S
+#27049
+The Wasteland Fields~
+   You are on a large field, which as you clearly can tell is 
+nothing but waste.
+~
+270 0 2
+D1
+~
+~
+0 -1 27050
+D3
+~
+~
+0 -1 27048
+S
+#27050
+The Wasteland Fields~
+   You are on a humongous, almost corroded field.  There is a little
+stalk of wheat growing here.
+~
+270 0 2
+D0
+~
+~
+0 -1 27046
+D1
+~
+~
+0 -1 27051
+D3
+~
+~
+0 -1 27049
+E
+wheat stalk~
+   Looks lonely doesn't it.  
+~
+S
+#27051
+The Wasteland fields~
+   You are on a vast field and it sure is vast.
+~
+270 0 2
+D0
+~
+~
+0 -1 27047
+D1
+~
+~
+0 -1 27052
+D3
+~
+~
+0 -1 27050
+S
+#27052
+The Wasteland Fields~
+   You are in the fields to your utter dissatisfaction.
+~
+270 0 2
+D2
+~
+~
+0 -1 27053
+D3
+~
+~
+0 -1 27051
+S
+#27053
+The Wasteland Fields~
+   You are in some fields.  They do not look fertile at all.
+~
+270 0 2
+D0
+~
+~
+0 -1 27052
+D1
+~
+~
+0 -1 27054
+S
+#27054
+The Wasteland Fields~
+   You are in waste which happens to have the form of fields.
+~
+270 0 2
+D2
+~
+~
+0 -1 27057
+D3
+~
+~
+0 -1 27053
+S
+#27055
+The Wasteland Fields~
+   You are in the middle of a large, brown field, not nice 
+looking, but it just isn't.
+~
+270 0 2
+D1
+~
+~
+0 -1 27056
+S
+#27056
+The Wasteland Fields~
+   You are on a large, windy field.  Everything around you is laid 
+in complete waste.  Only some aufwuchs on a stone seem to be able 
+to exist here.
+~
+270 0 2
+D1
+~
+~
+0 -1 27057
+D3
+~
+~
+0 -1 27055
+E
+aufwuchs~
+   They look green and slimy.  
+~
+S
+#27057
+Close To The Wasteland Fields~
+   You are on a field.  The wind is smoothly sweeping across the 
+ground with the sound of a soft howl.  The vegetation seem to have 
+lost the battle to some greater force as it gradually disappears 
+towards the east.
+~
+270 0 2
+D0
+~
+~
+0 -1 27054
+D3
+~
+~
+0 -1 27056
+S
+#0
+
+#RESETS
+M 0 27000 7 27010 	(the giant vulture)
+M 0 27000 7 27014 	(the giant vulture)
+M 0 27000 7 27021 	(the giant vulture)
+M 0 27000 7 27030 	(the giant vulture)
+M 0 27001 6 27046 	(the demon horse)
+M 0 27001 6 27051 	(the demon horse)
+M 0 27001 6 27045 	(the demon horse)
+M 0 27001 6 27056 	(the demon horse)
+M 0 27002 15 27044 	(the rabid fox)
+M 0 27002 15 27042 	(the rabid fox)
+M 0 27002 15 27039 	(the rabid fox)
+M 0 27002 15 27033 	(the rabid fox)
+M 0 27002 15 27034 	(the rabid fox)
+M 0 27002 15 27002 	(the rabid fox)
+M 0 27002 15 27046 	(the rabid fox)
+M 0 27002 15 27055 	(the rabid fox)
+M 0 27002 15 27053 	(the rabid fox)
+M 0 27002 15 27053 	(the rabid fox)
+M 0 27002 15 27049 	(the rabid fox)
+M 0 27003 10 27001 	(the earth demon)
+M 0 27003 10 27047 	(the earth demon)
+M 0 27003 10 27011 	(the earth demon)
+M 0 27003 10 27026 	(the earth demon)
+M 0 27003 10 27052 	(the earth demon)
+M 0 27004 15 27001 	(the evil bird)
+G 1 27006 10 -1 	(a translucent ice cube)
+M 0 27004 15 27004 	(the evil bird)
+G 1 27007 10 -1 	(a white ice cube)
+M 0 27004 15 27008 	(the evil bird)
+G 1 27008 10 -1 	(a white ice cube)
+M 0 27004 15 27012 	(the evil bird)
+M 0 27004 15 27006 	(the evil bird)
+M 0 27004 15 27027 	(the evil bird)
+M 0 27004 15 27035 	(the evil bird)
+M 0 27005 1 27054 	(the iodocentipedus)
+M 0 27006 5 27025 	(the fanged reindeer)
+M 0 27006 5 27027 	(the fanged reindeer)
+M 0 27006 5 27023 	(the fanged reindeer)
+M 0 27006 5 27031 	(the fanged reindeer)
+M 0 27007 2 27043 	(the hill ghoul)
+M 0 27007 2 27026 	(the hill ghoul)
+M 0 27008 2 27016 	(the stone ogre)
+E 1 27000 10 16 	(a large stone club)
+M 0 27008 2 27022 	(the stone ogre)
+E 1 27000 10 16 	(a large stone club)
+M 0 27009 1 27009 	(the ice troll)
+E 1 27001 4 6 	(a trollhelm)
+E 1 27002 4 16 	(an ice club)
+M 0 27010 1 27006 	(the lithophiliac)
+G 1 27009 20 -1 	(a white ice cube)
+G 1 27010 15 -1 	(a pearly blue ice cube)
+M 0 27011 1 27006 	(the ice wizard)
+G 1 27011 7 -1 	(a golden crystal)
+G 1 27003 3 -1 	(the robe of the ice wizard)
+M 0 27012 1 27006 	(the stormbringer)
+G 1 27004 3 -1 	(the cloak of the stormbringer)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

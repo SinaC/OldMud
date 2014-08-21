@@ -1,0 +1,5437 @@
+#Style Circle
+#AREADATA
+Name Sanctus~
+Builders Rumble~
+VNUMs 100 199
+Credits {{None}  CAW    Sanctus~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#100
+man young~
+the young man~
+A young man is here smoking a cigarette.
+~
+   Dressed in drab clothes he looks tired and over worked.  He is one of the
+few men who did not sign up for military service.    
+~
+dgl 0 900 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#101
+Ian~
+Ian~
+Ian stands here ready to serve your needs.
+~
+   He watches you carefully, looking at everything you look at.  Sizing you up
+as you peruse his wares.  He is a small man, by anyone's standards.  He has a
+strange glint in his eyes which some men get when obsessed with money.    
+~
+bdlnopr d 900 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 118
+#102
+liam~
+Liam~
+Liam waits impatiently while you shop.
+~
+   Liam is constantly checking and restocking all his shelves.  His shop is in
+an ordered disarray that only he can fathom.  Just ask him for help and he can
+probably find what you need.    
+~
+bdlno d 900 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+T 119
+#103
+Shiro weaponshith~
+Shiro, the weaponsmith~
+Shiro waits with a smile while you browse his goods.
+~
+   Shiro is a large man, a good foot taller than you.  He enjoys his job and no
+one can come close to his skill in designing and forging weapons.  He is still
+very much in shape in spite of his years.  He looks very capable of using any
+of his fine weapons.    
+~
+bdlnopr d 900 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+T 107
+#104
+rhian daughter~
+Rhian~
+Shiro's daughter, Rhian, stands here waiting to help you.
+~
+   She is clothed in a beautfiul, and tight, dress.  Something tells you that
+she sells more weapons when she wears that dress.  She is easily one of the
+more stunning woman you have ever come across.    
+~
+bdlno d 900 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 2
+E
+T 108
+#105
+balding man old~
+the balding man~
+An old, balding man slowly walks past, leaning heavily on his cane
+~
+   The life in Sanctus though protected is anything but peaceful.  The citizens
+spend many a sleepless night wondering about their safety.    
+~
+degl 0 900 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#106
+captain lugdach~
+Captain Lugdach~
+Captain Lugdach, a retired sailor, is steaming some white oak to make a canoe.
+~
+   Years at sea have hardened this already tough man.  He looks like he could
+tear your arms out at the socket without an upwards glance.    
+~
+bdlnopr d 900 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 124
+#107
+branwen leatherworker~
+Branwen, the leatherworker~
+Branwen, the leatherworker stands behind the counter.
+~
+   Using hides bought from the local farms this young man makes some of the
+finest leather products in Sanctus.  His wares are guaranteed for life.    
+~
+bdlnopr d 900 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+T 111
+#108
+sarge blacksmith~
+Sarge, the blacksmith~
+Sarge, the blacksmith is here, pounding on his anvil.
+~
+   So intent on his work he seems not to notice you.  It gives you small start
+when he asks, "may I help you?  " without looking.  Not a man to be kept
+waiting, Sarge begins to tap his foot impatiently.    
+~
+bdlnopr d 900 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+T 109
+#109
+hazel wellmaster~
+Hazel, the wellmaster~
+Hazel, the Wellmaster is sealing a barrel of water.
+~
+   She looks tired, but in a good way.  It must be true when they say about
+everyone worrying about the dome collapsing and chaos befalling the city.  She
+looks competent in her work and enjoys it immensely.    
+~
+bdlnopr d 800 E
+34 15 -10 0d6+340 5d5+5
+340 115600
+8 8 2
+E
+T 116
+#110
+corwin postmaster~
+Corwin, the postmaster~
+Corwin, the head postmaster is waiting to help you with your mail.
+~
+   The Postmaster seems like a happy old man, though a bit sluggish.  He
+worries about the reputation of the Time Warp Mail Service, as many people seem
+to think that it is slow.  Perhaps if he were to brush the cobwebs from his
+uniform it would help to make a better impression.    
+~
+bdlnopr d 1000 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+T 114
+#111
+rowan jeweler~
+the jeweler~
+Rowan, the jeweler, stands behind his display case.
+~
+   The jeweler has an eyepiece shoved in one squinted eye, and looks as if he
+may be a tough bargainer.  You won't have much luck swindling this swindler.  
+
+~
+bdlnopr d 1000 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+T 122
+#112
+young woman~
+the young woman~
+A young woman strolls by, smiling at you.
+~
+   She is wearing a very drab white dress with some sort of flowery print on
+it.  She keeps smiling at you, and she's not a bad looker, but I wouldn't get
+your hopes up.    
+~
+dgl 0 1000 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 2
+E
+#113
+old lady~
+an old lady~
+An old lady is taking a break, just sitting on the ground
+~
+   She looks frail and withered.  The kind of lady you're supposed to help
+cross the road.    
+~
+dg 0 1000 E
+3 20 8 0d0+30 1d2+0
+30 900
+6 6 2
+E
+#114
+man~
+the man~
+A man pushes past you in a rush to get somewhere.
+~
+   The man gives a little smirk as you look at him.  He acknowlegdes you with a
+simple nod and then moves on.    
+~
+dgl 0 1000 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#115
+fisherman~
+the fisherman~
+A fisherman stalks past, obviously he didn't catch anything.
+~
+   He looks very disgruntled, another long day of fishing with nothing to bring
+home.  You feel sorry for the guy.    
+~
+dg 0 1000 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#116
+old man~
+an old man~
+A old man is reminiscing about the old days.
+~
+   He rambles about how much better it was back in his day.  Mentioning strange
+words like "the old school" and how he was so popular back then.  You pity him.
+  
+~
+dg 0 1000 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+#117
+kid annoying~
+the annoying kid~
+An annoying kid is taunting everyone that looks at him.
+~
+   What a pest.  This kid seems to enjoy other peoples misery.  He is nothing
+more than a big bully stuck in a little body.  He seems to have learned to get
+by with his big mouth rather than brawn or brain.  Someone should teach him a
+lesson.    
+~
+dg 0 1000 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#118
+woman~
+the woman~
+A woman is here gossipping with anyone that will listen.
+~
+   She rants and raves about everything from her boyfriend to the weather.  
+She would probably give all she owns for a good man, maybe you should find out.
+  
+~
+dg 0 1000 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 2
+E
+#119
+banker~
+the banker~
+The banker greets you as you enter, smiling.
+~
+   A very rich man, one of the richest alive.  He loves money.    
+~
+bdlnopr dp 1000 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+T 115
+#120
+guildmaster master mage~
+the mages' guildmaster~
+Your guildmaster is meditating here.
+~
+   Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she possesses.  She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.    
+~
+bdelnop dh 1000 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+#121
+guildmaster master cleric~
+the clerics' guildmaster~
+Your guildmaster is praying here.
+~
+   You are in no doubt that this guildmaster is truly close to the Gods; he has
+a peaceful, loving look.  You notice that he is surrounded by a white aura.  
+
+~
+bdelnop dh 1000 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#122
+guildmaster master thief~
+the thieves' guildmaster~
+You guildmaster is hiding here.
+~
+   You realize that whenever your guildmaster moves, you fail to notice it -
+the way of the true thief.  He is dressed in the finest clothing, having the
+appearance of an ignorant fop.    
+~
+bdelnop dh 1000 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#123
+guildmaster master~
+the warriors guildmaster~
+Your guildmaster is sitting here sharpening a sword.
+~
+   This is your master.  Big and strong with bulging muscles.  Several scars
+across his body proves that he was using arms before you were born.  He has a
+calm look on his face.    
+~
+bdelnop dh 1000 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+6 6 1
+E
+#124
+fiona~
+Fiona~
+Fiona is stocking the shelves to overflowing with various foods.
+~
+   She is rather slim for someone running a grocery.  Remember that saying,
+never trust a skinny cook, you would think it would also apply here.  She
+smiles and looks friendly enough.  I guess if the rest of Sanctus trusts
+her....    
+~
+bdnopr 0 900 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 123
+#125
+young girl~
+the young girl~
+A young girl is playing with a little doll.
+~
+   She is enthralled with reenacting a little skit os some sort where her doll
+is a powerful Magi and is fighting the evil Drakkar.  She is almost as filthy
+and ragged as the doll that she plays with.    
+~
+dg 0 1000 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+#126
+assassin~
+assassin~
+An man dressed all in black stalks past you.
+~
+   A hired sword, this guy specializes in the elimination of pests.  Of course
+his price is high, but many think it is well worth it.  Have someone you would
+rather see dead?  Just ask this guy for some help.    
+~
+deglo dfhs 0 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#127
+warrior~
+the warrior~
+A warrior is guarding a set of stairs in the back.
+~
+   Years of training and experience have molded this middle-aged man into a
+fighting machine, only a fool would ever try to kill someone with as much skill
+as this man.  Then again, fools are born everyday.    
+~
+bdlnop dh 800 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#128
+red magi~
+the Red Magi~
+A Red Magi watches you careful, as if you have done something wrong.
+~
+   This man is obviously very competent in the magical arts or he would not
+stare at you so.  He is dressed in a long flowing red robe with the hood pulled
+down.  Various pouches hang from a red belt.    
+~
+dgl d 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+6 6 1
+E
+#129
+thief man~
+the thief~
+The town thief is trying to hide from the authorities.
+~
+   Hard to believe, but even in Sanctus the underground activities of criminals
+is always present.  This small man lives off of the fortune of others by
+stealing whatever he needs.    
+~
+dg 0 -700 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#130
+maid~
+the maid~
+A maid scurries about trying to finish up all her chores.
+~
+   She smiles kindly as you look her up and down.  She definitely enjoys her
+work.  With a sigh of regret she moves on to finish her chores.    
+~
+dg 0 700 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#131
+hoodlum~
+the hoodlum~
+A hoodlum waits for an innocent victim.
+~
+   He starts to walk away slowly eyeing you carefully as he realizes he is
+being stared at.    
+~
+cdfghm 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#132
+butler~
+the butler~
+A butler bows says, 'good day sir' as he walks by with his nose in the air.
+~
+   Dressed in black and white finery this man lives a decent life by serving
+others.  Not exactly the most prestigious job, but it seems to make him think
+that he is important.    
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#133
+blue magi~
+the blue magi~
+A member of the blue magi floats past you.
+~
+   He seems to be out practicing.  He floats a good six inches off the ground
+and is slowly moving along.  What next?  Someone will probably fly past you.  
+
+~
+dg 0 0 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#134
+master magi~
+the Red Master Magi~
+A Master Magi is in deep contemplation of the universe.
+~
+   The red robe signifies his order.  He is one of the five Master Magi alive
+today.  He holds himself with a dignity that astonishes even you.    
+~
+bdl d 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#135
+blue magi master~
+the blue Master Magi~
+A man in a blue robe is studying a book intently.
+~
+   The Master Magi before you is enthralled in the book he is reading.  He is
+oblivious to the world around him.    
+~
+dg d 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 0
+E
+#136
+green master magi~
+the green Master Magi~
+The Master Magi of the green order dismisses you with a wave.
+~
+   A Master Magi is the highest ranking magi of each order.  Of the seven
+orders of the Magi only 5 have Master Magi's.  The orders of the purple and
+grey robe have yet to select a master magi as none of them are powerful enough.
+  
+~
+dg d 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+#137
+man black master magi~
+the Master Magi~
+A man in a black flowing robe is chanting something under his breath.
+~
+   The Master Magi of the black order.  This man should not be taken lightly.
+He has mastered the arts of his order and can call down upon his foes the power
+of the gods.    
+~
+dg d 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+#138
+yellow master magi man~
+the yellow Master Magi~
+A Master Magi in a yellow robe strolls by.
+~
+   One of the seven orders of the Magi, This Master Magi is well known
+throughout the city and is reverred almost as much as the gods.    
+~
+dg d 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+#139
+alley cat~
+the alley cat~
+An ugly white cat with dirty matted hair is pawing through the garbage.
+~
+   The cat has been missing a few meals from the look of its tightly drawn skin
+around its ribcage.  The cat is filthy and needs a good hosing down.  It is
+extremely wary of you and shies away at your approach.    
+~
+dg 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+BareHandAttack: 8
+E
+#140
+hannibal bartender~
+the bartender~
+Hannibal, the bartender wipes down a spot at the bar for you to sit at.
+~
+   Hannibal loves his job more than anyone in the city.  He is always up to
+date on all happenings withing Sanctus.  If you need some information this is
+the man to go to.  He shouts over the other customers to you, 'What can I
+getcha?  '
+~
+bdnopr d 900 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 1
+E
+T 105
+#141
+corporal~
+the corporal~
+A corporal is making his rounds.
+~
+   He looks very tired and sick of his low paid high hour job.  His aspirations
+to become a war hero went down the drain when he signed up for the army of
+Sanctus.  Now all he does is stand watch and clean latrines.    
+~
+dg 0 900 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 2
+E
+#142
+green magi~
+the green magi~
+A member of the green magi flys past, literally.
+~
+   Another magi out for some spell testing it seems.  They constantly expand
+their knowledge.  Seeking to invent some new spell to help restore the balance
+that Drakkar ruined.    
+~
+dg 0 600 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 1
+E
+#143
+woman waitress~
+the waitress~
+A scantily clad waitress waits to fulfill your every need.
+~
+   She expertly works her way inbetween the tables and people balancing three
+pints of ale on a platter while skillfully avoiding the attempted slaps at her
+fine ass.    
+~
+bd 0 600 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#144
+black magi~
+the black magi~
+A black magi walks past in a state of deep concentration.
+~
+   One of the seven orders of the magi the black are known for their delving
+into the the more abstract forms of magic.  The other Magi will not even
+associate with them sometimes because of this.    
+~
+dg 0 600 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#145
+yellow magi~
+the yellow magi~
+A yellow magi chants some arcane words and is suddenly standing behind you.
+~
+   The magi are known for thier experience with magic.  Many study decades to
+reach the title of Master Magi.  Very few actually make it.    
+~
+dg 0 600 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#146
+grey magi~
+the grey magi~
+A man in a flowing grey robe is resting here.
+~
+   He carries himself with a confidence that is almost frightening.  You
+realize he must be a magi.    
+~
+dg d 600 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#147
+logan~
+Logan~
+Logan looks up with a wry grin on his face.
+~
+   You are just another shopper to him, and he will squeeze every dollar out of
+you that you carry if your not careful.  He runs the town pawnshop.  Though the
+prices aren't great he carries alot of equipment that cannot be found anywhere
+else.    
+~
+bdnopqr defh 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+6 6 2
+E
+T 110
+#148
+purple magi~
+the purple magi~
+A magi in a purple robe is making a fashion statement.
+~
+   The robe just seems....  Loud.  That color purple can't be natural.  You
+dare not laugh or even smirk since you know they take offense to such things.
+  
+~
+dg d -400 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#149
+sargeant~
+the sargeant~
+A sargeant is trying to find his corporal so he can put him to work.
+~
+   The sargeant looks pissed that his corporal ran away.  Now he is going to
+enjoy tearing the corporal a new one.  More latrine duty is in the corporals
+future.    
+~
+dg 0 -400 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#150
+mangy mutt~
+the mangy mutt~
+A mangy mutt is looking for some scraps to eat.
+~
+   This dog does not look very healthy.  It almost looks rabid, better keep
+your distance.  It notices you looking at it and trots towards you hoping for
+some handouts, its tail wagging.    
+~
+bd 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+BareHandAttack: 4
+E
+#151
+midwife~
+the midwife~
+A midwife is tidying up the house.
+~
+   She looks rather old, touches of grey sprinkle her dark brown hair.  She
+must have once been very attractive, but not any longer.  She looks worn down
+and tired from her daily chores.    
+~
+bdm 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 2
+E
+#152
+newborn baby~
+the newborn baby~
+A newborn baby is rocking peacefully in his crib.
+~
+   How cute, this little tyke can't be more than a few months old.  He is just
+starting to get some hair.  He looks up at you and giggles softly, expecting
+some attention.    
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#153
+pickpocket~
+the pickpocket~
+A pickpocket brushes up against you.
+~
+   This lowly thief has resorted to what most thieves consider petty crimes.  
+Like taking candy from a baby.  Any thief can swipe gold, only the more
+experienced thieves can swipe equipment.    
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#154
+patrolman~
+the patrolman~
+A patrolman is making sure everyone behaves.
+~
+   The patrolman keeps a keen eye out for any trouble and is quick to respond.
+Only the foolish mess with these trained and disciplined men.  
+~
+dg 0 0 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#155
+war master~
+the War Master~
+The War Master is planning his next victory.
+~
+   This one man is responsible for the protection of the entire city.  He is
+very old.  His hair a bright white and hanging below his shoulders.  Other than
+his hair he shows no signs of his age.  He is still built like an ogre and just
+about as evil tempered.    
+~
+bdlopqr h 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+#156
+speaker great land~
+the speaker of the land~
+The Great Speaker of the Land greets all who enter the realm.
+~
+   Dressed in baggy blue velvet pants and a white silk shirt covered by a
+glaring red vest this man's voice can be heard throughout the realm.  He waits
+to greet new travellers and bestow upon them his sagely advice.    
+~
+bd 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+T 127
+T 128
+#157
+old sage~
+the old sage~
+An old sage looks out over the city.
+~
+   Far older than anyone you have ever set eyes upon, this man holds himself as
+if nothing could ever scare him again.  As if he had seen everything this life
+can throw at him and already overcome every obstacle in his life.  He is
+unafraid of death.    
+~
+bd 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#158
+carla~
+Carla~
+Carla stands here running her sewing machine at a blinding rate.
+~
+   Cloth flies into her homemade spindle at such an alarming rate that you
+wonder how she could possibly keep up with it.  Maybe she uses some kind of
+magic to weave those clothes?  Probably just years of experience.  She can make
+almost anything out of cloth.    
+~
+bdo 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+T 117
+#159
+lietenant~
+the lieutenant~
+A lieutenant is cursing up a storm as he looks for his sargeant.
+~
+   He is used to giving orders, not babysitting and hunting down people.  
+Looks like alot of heads are going to roll when he finds who he is looking for.
+He looks very strong and wise.    
+~
+deglm d 1000 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#160
+general~
+the general~
+A general is planning his next strategic victory.
+~
+   He mumbles to himself as the war plan is being picked apart in his head.  
+Trying to account for every possible outcome he carries a heavy responsibility
+that few people never appreciate.  He orders men to their death.    
+~
+dglm d 1000 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#161
+streetsweeper sweeper man~
+the streetsweeper~
+A streetsweeper pushes a broom infront of him, picking up any trash he finds.
+~
+   He is out here, day and night, picking up the garbage people leave behind.
+Do him a favor and don't litter.  He looks miserable from his job.    
+~
+dg d 800 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#162
+statesman~
+a statesman~
+A statesman stands here.
+~
+   This rather rich fellow owns a fair amount of property so he was given the
+title of statesman.  He is prized within the city because during a time of war
+his land and property will help to protect the city.    
+~
+dg 0 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#163
+hired hand~
+the hired hand~
+A hired hand is waiting for a job here.
+~
+   This guy looks capable of many things, which he would do for the right
+price.  Few people can afford him though.  So don't expect him to jump at your
+first offer.    
+~
+dg 0 -330 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#164
+drunk~
+the drunk~
+A pathetic drunk is here, passed out.
+~
+   He probably won't last very long.  Some hoodlums or a thieve will come along
+and relieve him of his money and maybe his life.    
+~
+bd 0 400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#165
+beggar~
+the beggar~
+A beggar looks up hopefully into your eyes.
+~
+   He has mastered a pathetic puppy dog look that would cause most people to
+give in to his plead.  But you're not that weak, are you?    
+~
+dg 0 400 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+T 129
+T 130
+#166
+lance corporal~
+the lance corporal~
+A lance corporal struts past, looking very tough and conceited.
+~
+   Another member of the Sanctus army, this man has worked his way up and has a
+bright future in the army.  Too bad he will probably be dead before he can get
+that far.    
+~
+dg 0 -200 E
+19 17 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+E
+#167
+staff sargeant~
+the staff sargeant~
+A staff sargeant walks by, keeping step to a cadence in his head.
+~
+   This guy has been around.  He could probably teach you a thing or two on
+fighting styles.    
+~
+dgl 0 1000 E
+19 17 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+E
+#168
+bum~
+the bum~
+A starving bum is trying to get to the good garbage before the streetsweeper.
+~
+   This guy must have run into some bad luck to end up where he is right now.
+He is covered in a film of dirt and grime.  He smells even worse than you.    
+~
+dg 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#169
+citizen~
+a citizen~
+A loyal citizen of Sanctus wanders past.
+~
+   The man seems lost in his own thoughts.  He has a grin on his face and seems
+to think something is funny.  He doesn't have a care in the world.    
+~
+dg 0 350 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#170
+townsman~
+the townsman~
+One of the townsman of Sanctus.
+~
+   He seems content with his life.  He walks past briskly mumbling something to
+himself.    
+~
+dg 0 350 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#171
+townswoman~
+the townswoman~
+A townswoman is heading out to buy some supplies.
+~
+   Dressed in a simple floral print dress so looks nothing other than ordinary.
+  
+~
+dg 0 350 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#172
+farmer~
+the farmer~
+A farmer has come in off the fields to see something of the city.
+~
+   He looks lost in the hustle and bustle of the city.  It looks like he wants
+to get back to his farm as soon as possible.    
+~
+dg 0 350 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 2
+E
+#173
+magi guildguard~
+the magi guildguard~
+The magi stands infront of a set of stairs with his arms crossed.
+~
+   He doesn't seem to be happy just standing there, he seems to be protecting
+or standing watch over something, but you can't tell what.    
+~
+bdlno dhk 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#174
+cleric guildguard~
+the cleric guildguard~
+A cleric carefully watches a set of stairs leading up.
+~
+   He looks intent on whatever purpose he has been given
+~
+bdlno dhk 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#175
+gate sentry~
+the gate sentry~
+A sentry is watching the gates, ensuring your protection.
+~
+   They stand their post with dedication and determination.  They seem very
+competent and will warn of any attack upon the city.    
+~
+bdl 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#176
+gunney~
+Gunney~
+Gunney stand here shouting orders.
+~
+   This guy looks mean.  He is stuck in charge of training new recruits to the
+army.  He pretends to hate his job, but deep down you know he loves making the
+recruits lives miserable.    
+~
+dg 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#177
+thief guildguard~
+the thief guildguard~
+A thief watches the entrance to the upstairs warily.
+~
+   He seems content twirling a dagger between his fingers and occasionally
+glancing towards the stairs in the back.    
+~
+bdlno dhk 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#178
+stateswoman woman~
+the stateswoman~
+The stateswoman walks by with her nose stuck up in the air.
+~
+   You wonder how she manages to see where she is going.  Her nose is stuck sow
+far up in the air that it seems she must not be able to see where she is
+placing her feet.  Yup, you were right.  She just stepped in a pile of dog
+shit.    
+~
+dg 0 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#179
+recruit~
+the recruit~
+A miserable recruit is carrying out Gunney's orders.
+~
+   This guy is exhausted.  The typical over worked and under paid army recruit.
+This guy needs a beer, a woman, and some time off.    
+~
+dg 0 1000 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#180
+javier~
+Javier, the High Councillor~
+Javier, the High Councillor looks at you peacefully.
+~
+   One of the seven Hich councilman he holds one of the most prestigious
+positions within Sanctus.  Javier is known for his common sense and appeal to
+those who live hard lives.  He was himself just a farmer before he his calling
+to become a Cleric.    
+~
+bd 0 1000 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#181
+lookout~
+the lookout~
+A lookout peers into the distance.
+~
+   Hour after hour he stands above the gates looking for any sign of danger.  
+It is up to him to warn the town in case of an attack.  The position has alot
+of responsibility and is only given to those who show promise within the army.
+  
+~
+bd 0 0 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#182
+ingrid~
+Ingrid~
+Ingrid stands over a boiling pot of foul smelling liquids.
+~
+   She has given up her life as a mage and turned to the more economical
+approach to living.  She sells her potions and other concoctions for a fair
+price to any who may be in need.    
+~
+bdnopr 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+T 113
+#183
+thief master~
+the Master Thief~
+A Master Thief twirls a dagger between his fingers.
+~
+   He has probably killed more people than the number of days you have lived.
+He looks hard, the kind of hardness that comes from watching people die and
+seeing how fragile life can be.  He acknowledges you with a nod and seems to
+wait patiently for something.  G
+~
+bd 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+6 6 1
+E
+#184
+morgan bartender~
+Morgan, the bartender~
+Morgan, the bartender, looks you over carefully.
+~
+   He serves his customers with ease and experience.  He wears a spotty apron
+and has a dirty towl is over one shoulder.    
+~
+bdnopr 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 112
+#185
+sareth~
+Sareth, the sage~
+Sareth flips through a book hardly paying any attention to you.
+~
+   He has become very good at putting things down in paper, including spells.
+His powerful scrolls can be used by anyone and are a very valuable asset to any
+adventurer.    
+~
+bdno 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 126
+#186
+healer~
+the healer~
+A healer is bent over from old age.
+~
+   His fellow clerics forced this poor old man into retirement.  He didn't
+listen and instead opened up his own shop.  For a small fee he can fix you
+right up.    
+~
+bdno 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 125
+#187
+the baker~
+the baker~
+A baker, covered in flour, pounds relentlessly on some tough dough.
+~
+   She looks very rugged.  Years of baking has given her arms like a smithy.  
+Very scary, especially considering she is bigger than most smithy's you've
+seen.  She smiles kindly and tells you to let her know when you see something
+you'd like.    
+~
+bdno 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 0
+E
+T 120
+#188
+butcher assistant~
+the butcher's assistant~
+The butcher's assistant is learning the trade.
+~
+   He looks up to his father is in most young men.  The field their father
+works in is almost always what they end up doing.  He seems resigned to his
+fate of cutting meat for the rest of his life.    
+~
+bdnopr 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 121
+#189
+commander~
+the commander~
+A commander of the army overseas the protection of the city.
+~
+   He ensures that all is well within the city and that everyone in the army
+carries out their orders and makes a good job of it.  He has been fighting more
+years than you've been living.    
+~
+bdl 0 1000 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#190
+cat pussy~
+the cat~
+A cat rubs up against your leg hoping for some food or affection.
+~
+   A pure white long-haired pussycat.  The only color cat in the city since
+they are considered good luck.  All other cats are either served up for dinner
+or let loose outside the city.    
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+#191
+puppy~
+the puppy~
+A small puppy has lost his way and is wimpering pathetically.
+~
+   How cute, you feel pity for him as he tries to work his way between peoples
+legs trying to find his way home.    
+~
+dg 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#192
+german shephard~
+the german shephard~
+A german shephard perks up its ears and wags it's tail as you approach.
+~
+   These dogs are kept for many reasons.  Among them include herding,
+protection and simple as pets.  They are very smart and have evolved beyond
+normal animal intelligence due to Drakkar's expirements with animals.    
+~
+cdg 0 0 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 0
+E
+#193
+dove~
+the dove~
+A small delicate dove pecks at the ground.
+~
+   The dove is pure white, almost looks like one of those albino animals you
+heard about except it has black eyes instead of pink.    
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#194
+mouse~
+the mouse~
+A mouse scurries into the gutter, trying to avoid being stept on.
+~
+   This little rodent looks more like someone's pet than a street rat.  It is
+pure white with black eyes and seems unafraid.    
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#195
+kitten~
+the kitten~
+A cute little kitten is ready to pounce, it's tail twitching back and forth
+~
+   The kitten seems intent on attacking your feet for some reason.    
+~
+dg 0 900 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+#196
+newbie guide~
+the newbie guide~
+The newbie guide is here to answer any of your questions.
+~
+   This experienced adventurer has decided to devote her life to helping those
+who are new to this dangerous realm.  She has travelled far and seen many
+things.  For the right reasons she has been known to help those who request it
+of her.  She always is willing to give advice to those in need.    
+~
+bdnopqr 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+T 103
+#197
+carpeneter~
+the carpenter~
+The carpenter frowns at your intrusion.
+~
+   He is loaded down with a tool belt full of various items he uses in his
+building of houses.  He looks very busy and should not be bothered.    
+~
+bd 0 0 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+T 106
+#198
+temple cleric~
+a temple cleric~
+A temple cleric tends to the sick and wounded.
+~
+   He looks like he enjoys his job very much.  Helping those who are in need
+for nothing more than a warm smile.  He is very gentle and looks like he cares
+deeply about all of his patients.  He smiles at you warmly.    
+~
+dg 0 0 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#199
+butcher~
+the butcher~
+The butcher is covered in blood and guts.
+~
+   He seems to enjoy his job a little too much, is that blood on his lips too?
+He has a strange look in his eyes, a lust of some kind.  Some inner instinct
+warns you to be careful around this guy.    
+~
+bd 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#100
+portal~
+the portal~
+A shimmering portal leading to Midgaard has been placed here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+T 100
+#101
+beer bottle imported beer~
+a imported bottle~
+A bottle of imported beer has been left here.~
+~
+17 0 a 0
+8 8 1 0
+13 20 0 0
+#102
+stout bottle malt liquor ale~
+a stout bottle~
+A dark bottle of stout malt liquor has been left here.~
+~
+17 0 a 0
+8 8 3 0
+13 140 0 0
+#103
+glass firebreather~
+a glass~
+A glass of firebreather was left here.~
+~
+17 0 a 0
+8 8 7 0
+13 200 0 0
+#104
+bottle brew special local~
+a bottle~
+A dark bottle of some special brew was left here.~
+~
+17 0 a 0
+8 8 8 0
+10 5 0 0
+#105
+green robe~
+a green robe ~
+A green robe of the magi lies here.~
+~
+9 0 ak 0
+5 0 0 0
+1 500 0 0
+E
+green robe magi~
+   This beautiful flowing robe is the prized possesion of the magi.  It is
+strange to find it here.    
+~
+#106
+red robe~
+a red robe~
+A beautiful red magi robe~
+~
+9 0 ak 0
+3 0 0 0
+3 500 0 0
+E
+red robe~
+   The robe of the order of the red magi.  Very well made.    
+~
+#107
+blue robe~
+a blue robe~
+A blue robe sits here.~
+~
+9 0 ak 0
+4 0 0 0
+5 500 0 0
+E
+blue robe~
+   The robe of the order of the blue magi.  Very well made.    
+~
+#108
+round fishing hat~
+a fishing hat~
+A round fishing hat has been left here.~
+Nothing.
+~
+9 0 ae 0
+1 0 0 0
+1 40 0 0
+E
+hat fishing round~
+   Round, rumpled, and covered in lures, this hat must have been someone's
+favorite.    
+~
+#109
+waybread bread~
+a waybread~
+Some waybread has been put here.~
+~
+19 0 a 0
+24 0 0 0
+1 5 0 0
+E
+waybread bread~
+   The waybread is the traditional feed of elves when traveling, they call it
+lembas.  It is said to refresh the weary traveler greatly.    
+~
+#110
+dried rations~
+some dried rations~
+Some dried rations has been left here.~
+~
+19 0 a 0
+18 0 0 0
+1 7 0 0
+E
+rations dried~
+   These rations are bland and serve no other purpose than to keep you alive.
+  
+~
+#111
+apple~
+an apple~
+A nice looking delicious red apple has been left here.~
+~
+19 0 a 0
+4 0 0 0
+1 2 0 0
+E
+apple~
+   The apple looks fresh, except for one small worm hole in, nothing wrong with
+a little protien in your diet.    
+~
+#112
+crescent~
+a crescent~
+A tasty looking crescent has been dropped here.~
+~
+19 0 a 0
+15 0 0 0
+1 5 0 0
+E
+crescent~
+   The crescent looks warm and flaky, just how you like it...    
+~
+#113
+bourbon shot whisky~
+a shot~
+A shot of bourbon is here.~
+~
+17 0 a 0
+1 1 5 0
+5 230 0 0
+E
+bourbon shot~
+   This is the kind of liquor that makes successful peopl into sloppy drunks.
+You sure you're man or woman enough to drink this stuff?    
+~
+#114
+pretzel~
+a pretzel~
+A pretzel has been left here.~
+~
+19 0 a 0
+5 0 0 0
+1 5 0 0
+E
+pretzel~
+   Heavily salted, you better buy a drink if you're gonna eat this thing.    
+~
+#115
+safe~
+a huge safe~
+A huge safe sits behind the counter, filled with gold coins.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+safe~
+   The door is propped open, the glint of gold coins sparkles from the lantern
+overhead.  Looks like enough gold is contained within to retire and live a full
+life.  Too bad no one ever steals from this bank.    
+~
+#116
+bench~
+the bench~
+A bench of black polished granite looks mighty uncomfortable.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+bench granite black~
+   The bench is carved out of a single block of black granite and has been
+polished to a smooth shine.    
+~
+#117
+rack armor~
+a rack of armor~
+A rack of armor rests here against one wall.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+rack armor~
+   Chain mail shirts, leggings, helms, sleeves, everything an adventurer could
+ever need.    
+~
+#118
+rack weapons~
+a rack of weapons~
+A rack of weapons leans against the wall.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+rack weapons~
+   Swords, clubs, implements of masss destruction for the taking, at the right
+price of course
+~
+#119
+yellow robe~
+a yellow robe~
+A yellow robe of the Magi was left here, how strange.~
+~
+9 0 a 0
+3 0 0 0
+3 500 0 0
+E
+yellow robe~
+   An expertly woven silken cloth of very high quality, most magi would die
+before giving one of these up.    
+~
+#120
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+~
+5 n an 0
+0 1 4 11
+2 30 0 0
+E
+dagger~
+   A simple dagger used by thieves and hoodlums to relieve the unwary of thier
+money.    
+~
+#121
+sword small~
+a small sword~
+A small sword lies here.~
+~
+5 n an 0
+0 1 6 11
+3 75 0 0
+E
+sword~
+   The basic sword of the Sanctus army.  Nothing spectacular about it.    
+~
+#122
+a grey robe~
+a grey robe~
+An exquisite grey robe is rumpled in a corner.~
+~
+9 0 a 0
+4 0 0 0
+3 500 0 0
+E
+grey robe~
+   The robe is the type used by Magi of the grey order.  Wonder why someone
+would just leave it here.    
+~
+#123
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
+~
+5 0 an 0
+0 1 3 7
+3 50 0 0
+E
+club~
+   Your basic club, nothing very remarkeable about it.    
+~
+#124
+mace~
+a mace~
+A mace is here.~
+~
+5 0 an 0
+0 1 7 5
+6 60 0 0
+E
+mace~
+   This mace is made of a heavy polished metal with small spikes on the end.  
+Look deadly
+~
+#125
+flail large~
+a flail~
+A large flail is here.~
+~
+5 0 an 0
+0 2 4 7
+6 100 0 0
+E
+flail~
+   A strange weapon, you wonder if you even know how to use it.    
+~
+#126
+purple robe~
+a purple robe~
+A magnificent purple robe was deserted here.~
+~
+9 0 ad 0
+3 0 0 0
+5 500 0 0
+E
+purple robe~
+   Another impressive robe of the Magi.  This robe looks to be in very good
+shape.    
+~
+#127
+brass knuckles~
+some brass knuckles~
+Some brass knuckles are here.~
+~
+5 n an 0
+0 2 5 7
+6 200 0 0
+E
+knuckles brass~
+   These, heavy, wicked looking knuckles could do some serious damage if worn
+on the hands.    
+~
+#128
+cigarette~
+a cigarette~
+An un-smoked cigarette has been left here.~
+~
+13 0 a 0
+0 0 0 0
+1 1 0 0
+E
+cigarette~
+   A perfectly good cigarette, home-made by the looks of it, but wrapped very
+neatly.    
+~
+#129
+black robe~
+a black robe~
+A black robe of the Magi hangs on a small coatrack.~
+~
+9 0 ak 0
+4 0 0 0
+1 500 0 0
+E
+black magi robe~
+   This robe is very hard to focus on.  When you stare at it your eyes seem to
+slide right off the black velvety material.    
+~
+#130
+torch~
+a torch~
+A large torch.~
+~
+1 0 ao 0
+0 0 24 0
+1 20 0 0
+E
+torch~
+   Your basic torch, nothing very remarkeable about it.    
+~
+#131
+lantern brass~
+a lantern~
+A brass lantern is here.~
+~
+1 0 a 0
+0 0 96 0
+1 50 0 0
+E
+brass lantern~
+   Your basic lantern, nothing very remarkeable about it.  Just a fuel tank,
+glass covering and a wick.    
+~
+#132
+bag~
+a bag~
+A small bag is here.~
+~
+15 0 ao 0
+50 0 0 0
+2 100 0 0
+E
+bag~
+   A simple bag to help you carry all of your belongings.    
+~
+#133
+backpack~
+a backpack~
+A backpack is here.~
+~
+15 0 ao 0
+10 0 0 0
+5 250 0 0
+E
+backpack~
+   A hefty backpack that can carry more than a bag.    
+~
+#134
+dog collar~
+a dog collar~
+A dog collar was left here, what happened to the poor dog?~
+~
+9 0 ac 0
+1 0 0 0
+1 10 0 0
+E
+dog collar~
+   It looks mangled and chewed, the dog probably pulled it off.    
+~
+#135
+catnip~
+some catnip~
+A pile of catnip is here waiting for a cat to enjoy it.~
+~
+13 0 a 0
+0 0 0 0
+1 1 0 0
+E
+catnip~
+   This stuff drives cats bonkers.    
+~
+#136
+broom~
+a broom~
+A broom is lying on the floor.~
+~
+13 0 ao 0
+0 0 0 0
+1 5 0 0
+E
+broom~
+   Looks like the streetsweep must be taking a break, he left his broom lying
+here.    
+~
+#137
+whisky dirty glass whisky~
+a dirty glass~
+A filthy glass of whiskey was left here, waiting to be emptied.~
+~
+17 0 a 0
+5 5 5 0
+5 75 0 0
+E
+whisky dirty glass~
+   You think that's whisky in there.  The glass is so filthy you can't be sure.
+  
+~
+#138
+wine white glass wine~
+a glass~
+A glass of white wine is here.~
+~
+17 0 a 0
+5 5 2 0
+10 15 0 0
+E
+wine white glass~
+   A very fancy and tall glass holding some white wine.  The drink of the
+middle class.    
+~
+#139
+champagne speciality local~
+a champagne glass~
+A champagn glass sits on the ground.~
+~
+17 0 a 0
+4 4 8 0
+10 25 0 0
+E
+local speciality champage~
+   A tall glass with a long skinny stem.  The type of glass that rich folk use
+to drink bubbly.    
+~
+#140
+cloth jacket~
+a cloth jacket~
+A jacket is lying on the floor~
+~
+9 0 ak 0
+5 0 0 0
+5 100 0 0
+E
+cloth jacket~
+   A rugged looking cloth jacket.    
+~
+#141
+leather gloves~
+a pair of leather gloves~
+A pair of leather gloves lie here.~
+~
+9 0 ah 0
+3 0 0 0
+5 170 0 0
+E
+leather gloves~
+   Rugged looking brown leather gloves.    
+~
+#142
+shield wooden~
+a wooden shield~
+A small wooden shield is lying on the ground.~
+~
+9 0 aj 0
+2 0 0 0
+3 500 0 0
+E
+wooden shield~
+   It's small, it's wooden.    
+~
+#143
+pants pair black leather~
+a pair of black leather pants~
+A pair of black leather pants lie on the ground.~
+~
+9 0 af 0
+5 0 0 0
+10 300 0 0
+E
+black leather pants~
+   These pants are in very good condition.  They would provide minimal
+protection during a fight.    
+~
+#144
+helm leather~
+a leather helm~
+A leather helm is lying on the ground.~
+~
+9 0 ae 0
+3 0 0 0
+5 100 0 0
+#145
+jacket scale~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+~
+9 0 ad 0
+4 0 0 0
+15 500 0 0
+#146
+blood pool~
+a pool of blood~
+A pool of blood from a recent kill has collected here.~
+~
+23 0 0 0
+10 10 13 0
+15 0 0 0
+#147
+splugen bottle beer~
+an exotic bottle~
+Some exotic beer from far away.~
+~
+17 0 a 0
+10 10 1 0
+15 50 0 0
+E
+splugen beer bottle~
+   This beer looks and tastes like formaldehyde.    
+~
+#148
+blue velvet pants~
+some blue velvet pants~
+A pair of blue pants made from a fine fabric.~
+~
+9 0 af 0
+3 0 0 0
+3 100 0 0
+E
+blue pants~
+   These gaudy velvet pants are meant for a royal court, not adventuring.  
+Most respectable adventurers wouldn't even be caught dead in these things.    
+~
+A
+6 1
+#149
+dustpan dust pan~
+a dustpan~
+A dustpan has been left here.~
+~
+12 0 ao 0
+0 0 0 0
+2 2 0 0
+E
+dustpan pan~
+   The streetsweeper uses this to clean up the city.    
+~
+A
+19 2
+A
+6 3
+#150
+white shirt~
+a white silken shirt~
+A fine white shirt is crumpled into a ball.~
+~
+9 0 ad 0
+3 0 0 0
+7 100 0 0
+E
+white shirt~
+   This fine silken shirt could fetch a nice price if it wasn't in such poor
+shape.  Frills of lace line the collar and cuffs.  The kind of shirt one would
+wear to a court or very fancy social gathering.    
+~
+#151
+red vest~
+a fancy red vest~
+A red vest was left here.~
+~
+9 0 ak 0
+3 0 0 0
+3 100 0 0
+E
+red vest~
+   The vest is far more extravagant than anything you have ever worn before.  
+Fancy designs run up and down it's length.  This would look very nice over a
+fancy shirt.    
+~
+#152
+cane~
+a cane~
+An old worn cane lies here in the dust.~
+~
+12 0 ao 0
+0 0 0 0
+5 100 0 0
+E
+cane~
+   It looks to be carved from some type of hard wood.  Maybe oak or maple.  
+Only traces of varnish can be seen on the wood that has been worn smooth from
+time and use.    
+~
+A
+18 1
+#153
+touppe brown~
+a brown touppe~
+A brown mass of hair almost looks like a small animal, it must be someon's touppe.~
+~
+11 0 ae 0
+0 0 0 0
+3 90 0 0
+E
+touppe brown~
+   It looks more like a rat than anything else.  Some balding people wear these
+things to try and look younger.  The can sometimes fetch a good price at the
+local pawn if they are of high enough quality.  This one unfortunately, isn't.
+~
+A
+17 -3
+#154
+sewing machine~
+the sewing machine~
+A sewing machine is covered in clothes.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+sewing machine~
+   It is made of both metal and wood, a large footpedal can be pumped to make
+the strange contraption lower and raise a needle through the cloth.  Very
+ingenious contraption.  It is the only one in the city and because of it Carla
+has a monopoly on clothing.    
+~
+#155
+feather duster~
+a feather duster~
+A feather duster lies in the dirt.~
+~
+12 0 ao 0
+0 0 0 0
+4 50 0 0
+E
+duster feather~
+   Made from the feathers of a very large bird this duster is extremely clean
+considering the purpose it is supposed to serve.  Then again maybe it is just
+used to make the person holding it look busy.    
+~
+A
+3 1
+#156
+purse~
+someone else's purse~
+Someone's purse has been left here.~
+~
+15 0 a 0
+10 0 -1 0
+9 100 0 0
+E
+purse~
+   The initials NJW are inscribed in gold lettering.  Very fancy.  Whoever had
+this must have been well off.  The drawstring used to hold it to a belt has
+been cleanly cut.  Must be someone had their purse snatched.    
+~
+#157
+gunney's hat~
+Gunney's hat~
+This is Gunney's hat, better not be caught wearing it.~
+~
+9 0 ae 0
+3 0 0 0
+3 200 0 0
+A
+5 1
+#158
+coveralls~
+some coveralls~
+A set of coveralls lies here.~
+~
+11 0 ak 0
+0 0 0 0
+5 201 0 0
+A
+5 2
+A
+17 -3
+#159
+list directions sanctus~
+a list of directions~
+A list of directions to important areas within Sanctus lies here.~
+~
+12 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+list directions sanctus~
+   @n
+recall Room - (type recall)
+Newbie Zones - (type newbie)
+Food - 1d, 3s, 1e, 1n
+1d, 3s, 1w, 1n
+Water - 1d, 3n, 2e, 1s
+Donation Room - 1d, 1n, 1w
+Cleric Guild - 1d, 7s, 3w, 2u
+Warrior Guild - 1d, 7n, 5w, 1n, 1u
+Mage Guild - 1d, 7s, 2e, 2u
+Thief Guild - 1d, 7n, 4e, 1n, 1u
+Post Office - 1d, 3n, 1w, 1s
+Bank - 1d, 3n, 1e, 1s
+~
+#162
+row boat~
+a row boat~
+A row boat has been left here.~
+~
+22 0 a 0
+0 0 0 0
+20 1000 0 0
+E
+row boat~
+   A sturdy row boat with three seats and paddles bolted in the middle.    
+~
+#163
+floatation device~
+a floatation device~
+A floatation device has been left here.~
+~
+22 0 a 0
+0 0 0 0
+3 400 0 0
+E
+floatation device~
+   You would have to be crazy to attemp to cross large bodies of water with the
+thing.    
+~
+#165
+water cup water~
+a cup~
+A cup has been left here.~
+~
+17 0 a 0
+3 3 0 0
+8 75 0 0
+E
+water cup~
+   Just a plain old cup of water.  Nothing special about it.    
+~
+#166
+cloth pants~
+a pair of cloth pants~
+A pair of cloth pants is rumpled up into a ball.~
+~
+9 0 af 0
+2 0 0 0
+5 75 0 0
+E
+cloth pants~
+   The pants are filthy, but wearable.    
+~
+#167
+cloth cap~
+a cloth cap~
+A cloth cap rests on the ground.~
+~
+9 0 ae 0
+1 0 0 0
+1 50 0 0
+E
+cloth cap~
+   The kind of cap a street urchin might wear.    
+~
+#168
+cloth shirt~
+a cloth shirt~
+A cloth shirt lays on the ground.~
+~
+9 0 ad 0
+2 0 0 0
+5 90 0 0
+E
+cloth shirt~
+   The shirt looks pretty rugged.  The plain dirty white cloth would provide
+some protection.    
+~
+#169
+cloth shoes~
+a pair of cloth shoes~
+A pair of cloth shoes are here.~
+~
+9 0 ag 0
+2 0 0 0
+1 60 0 0
+E
+cloth shoes~
+   These shoes are more like moccassins than anything else.  A strip of leather
+on their soles should make them last a long time and protect your feet very
+well.    
+~
+#170
+gloves cloth~
+some cloth gloves~
+A pair of cloth gloves have been left here.~
+~
+9 0 ah 0
+1 0 0 0
+5 65 0 0
+E
+cloth gloves~
+   They are a ditry white color, with the fingers cut off, these gloves look
+useful.    
+~
+#179
+water canteen water~
+a canteen~
+A canteen has been set on the ground here.~
+~
+17 0 a 0
+15 15 15 0
+20 100 0 0
+E
+canteen water~
+   This canteen is pretty old and has acquired a strange smell.    
+~
+#180
+chunk meat~
+a chunk of meat~
+An hunk of meat lies here covered in dirt.~
+~
+19 0 a 0
+5 0 0 0
+1 1 0 0
+E
+chunk meat~
+   The meat is some form of venison.  Hard to tell since it is rather filthy.
+  
+~
+#181
+bar platinum~
+a bar of platinum~
+A bar of platinum must have been dropped here.~
+~
+8 0 a 0
+0 0 0 0
+3 1 0 0
+E
+bar platinum~
+   The platinum bar is formed perfectly into a rectangular block.  Its surface
+is smooth and polished.    
+~
+#182
+bar mithril~
+a bar of mithril~
+A bar of mithril must have been dropped here.~
+~
+8 0 a 0
+0 0 0 0
+3 1 0 0
+E
+bar mithril~
+   The mithril bar is formed perfectly into a rectangular block.  Its surface
+is smooth and polished.    
+~
+#183
+bar gold~
+a bar of gold~
+A bar of gold must have been dropped here.~
+~
+8 0 a 0
+0 0 0 0
+1 1 0 0
+E
+bar gold~
+   The gold bar is formed perfectly into a rectangular block.  Its surface is
+smooth and polished.    
+~
+#184
+bar silver~
+a bar of silver~
+A bar of silver must have been dropped here.~
+~
+8 0 a 0
+0 0 0 0
+1 1 0 0
+E
+bar silver~
+   The silver bar is formed perfectly into a rectangular block.  Its surface is
+smooth and polished.    
+~
+#185
+calendar~
+a calendar~
+A calendar of beautiful woman is pinned on the wall.~
+   The calendar has been torn in half and only the first few months are
+visible.    
+~
+16 0 0 0
+0 0 0 0
+0 0 0 0
+E
+june~
+    .      .:IIIIHIHHIHHHII::I:.         
+       :IIIIHIHHHHHHMMHHIHHIIHHIII:.     
+    ,.:HIHHHHHHHHHHHHHHHHHHHHHIHIHHII:.   
+  .:IIHHHHHHHHMMMMMHHHHMMMHHMHHHIIIHIIII:
+  .IIHHHMMMMMMMHHMMMHHHMMMHHMHII:HHHII:I.
+  :HIHHHMHMMMMMMMMMMMMHMHHHHII:HHMMHII:II
+ :HHHHMHMMMMMMMMMMMMMMMHIIHIHHMMHHHHII::I:
+:IIHHHHHMHMMMMMMMMMMHMMHIHMMMMHHHI:"::IIHII:
+:IHHHHHMHMMMMMMMMMMMMHHI:II::I:"' .   '"IHH.
+::HHHHMHMMMMMMMMMMHMHHI:II::.'  .       'VMA.
+IHHHHHMHNMMMMMMMMHMHHI:II:. . .          "MMH.
+HHHHHMHMMMMMMMMMMHMHI:I::.' .  . .      .,MMM:.
+HHHHMHMMMMMMMMMMMHMHI:II:. ..  .    ..LI:"IMMI.
+HMHMMMMMMMMMMMMMMHMHI:II.'.        :HT;.,, VHI:
+HHHHHMHMMMMMMMMMHMHHHI:HMHII:,.   ':,MHP"HPIHII.
+IHHHHMHMMMMMMMMMHMHHHII::IT:.I:.  'HMMH ,:" VII:
+:HHHHHHHMHMMMMMHMHHHHIIMMMPVHI::. .P"TIT"'  IH:I
+HHIHHHHHHMHMMMMHMHHHHH:VMMM:.HI:H:. :. . . .II:I.
+:HHHHHMHMMMMMHMHHHHIIHMMHHI:.:HI:. . .. .   :III;
+IHHHHMHMMMMMMMHHHHHI:IT:TI:..:HI:.. ..:. .  :IHII
+ IHHMHMMMMMMMMMMMHHI:I::.:. ..:II::.. :I..  :HIIH.
+ 'HHHMHMMMMMHMHHHH:II:.. ...:II:II./'::.  ' IHHIH;
+  HHMHMMMMMMMHMHHHH:I:I::....::VIHI;, ' . . IHHIHA
+  MHHMMMMMMMMMHMHHH:II:::...::II:::.;,,,:   AHHIHH;
+  ;HHMHMMMMMMMMHMHH-:II::..:::I::"",,:"''  .HHHIHHI.
+  'HHHMHMMMMMMMMHMHHA:II:.:H.::-"'""' ,'. .AMHHIHHH;
+   :HHMHMMMMMMMMMMHMHA:II::.::::-;,,:: .. :AMHI:IHHI
+   'HHMHMMMMMMMMMMHMHHA:III:::II:II::. . .AMMHI:IHHH.
+    :HHHMHMMMMMMMMMHMHHA:IIIHII:.:::. . .AMMMHI:IHHH:.
+    'HHMHMMMMMMMMMMMMHMHHHI:":VIII::...:AMMMMHHI:IHHHI
+     ;IHMHMMMMMMMMMMMMMHMHHII:. '"" 'AMMMMMMMHI:IIHHH:I.
+     :IMHMMMMMMMMMMMMMMHMHHHII:.  .:IHMMMMMMHHHIHIHHHI::.
+     ;HHHMHMMMMMMMMMMMMMMHMHHHI:..IHHMHMMHHHHHIHHHMHH;I:".'
+     ;HHHHHMHMMMMMNMMMMMMMHMHHHI::.HHHHMMHHHHHIHIHHHHHI:'
+     :HHHHHHHHMHMMMMMMMMMHHHMHHHI:IHHMHMMHHHHHMHIHHHHIHI;
+     ;HHHHHHHHMMHMMMMMHMHHMMHIHMI:IIHHHMHHHHMHMHIHIHHHHI:.
+     IHHHHHHHHHHMHMMMMMHMHHMMHHMMII:IHHMMHMHHHHMMHMHMHHHH;
+     ;HH:":IHHHHMHMMMMMHMHIHMHIIMMHI:IMHMMMI:HHHHHMMHHHHI:I.
+    ;HV" . .:IIHHHMMMMMMMHHHMMHIIHMHHI:HHHMHI:IHHIHHIHHMHI:II;.
+   ;IV"   . .''":VMMMMMMHMHHHMMHI:HHHHI:HHHIHI:IHHHHHIHHHIHII;,
+   .II"   .. .  ':VHHHMHMMMMMHMHHI:HMMHI:IHHHI::IHHHI:HIHHHI:I:.
+  .II . . .  . .  ':HHHHMHMMMHMMMHIHIMMMHI:HHHMI:IHHHIHI:HHHHII:I.
+ .;V' . .. .  .    'IHMMMHHMHHHMMMHIHIHHHHI:IHHHI:IHHHHHIHHHHHIIHII:.
+.:I" .. . .    .   :IHMMMHHHMHHIHHHI:HHIHHHIHIHHHAIHHHHHHI:HHHIHII:.
+'..:  .  .       .  :IMMMHMHHIMHIIHHI:IHHI:IHHIHHHHIHIHHHHIHIHHHHIHI:.
+.: .. . . .      ..:IHMMMHMHMHMHHHHMHIHHI:.IVIIHHHIHHHHHHHHI:HIHHIHII:.
+.: .   . .        . :IHMMMHMIHIH:IIHHHIHH:.I:IIHHHIHHHHHHHHIHI:IHHHI:;.
+:: .:. .  .   .   ..:IHHMMMHMIHIH:IIHHHMHH::..:HHHHI:HHHHHHI:I:IIIHII;
+:. ... . .  .     ..::HHHMMHMHHII:HIIHHMMHH:..:HHHMHHIHHHI:: . :IHII:I
+':....   . .      . ..:IHHHMMMMHMHI:HIHMMMHA...VHMMHHHMI:'  .' :IH::"
+ :. ..  ....    .    ..IHHHHMMMMHHII:I:IHMMHA. .VHMHHHI:' ''    '':,
+ ::...  . .... .   . ..::IHHHMMMMIHII::I:IHMMHHMHIHIHI''   .  .     ,
+ ::.... . .....  ..  ...::IIIHHHMMIHI::IHHHIIIHHHIIHI".  ..   .      ,
+ ::.:.......... .. . ....:::HHIIHHHHHHHIIHMMMHI:' 'VI::..  . .        ,
+ ::.:............. .. . ...AHIHIIIIIHHHI::""'      'VII:.. ..    .
+ ::.:.:.......... .. .  ...HHHIIIIIIHHHI::. .       'VII::. . .       ,
+ ':::.:.:..... .. . . . ..:MHHIHIIIII:I::. .         'VII:::. ..      .
+  :::::.:..:.... . . . ...AHHHHIHIIII:::. .           'VII:::. . .   :.
+  :::::::.:..... .. . ....MHHHHHIHIII::.:.. .          'VII::.  .   ::
+  :::::::::.:.... .. ....:MHHHHIHII:I::::...  .         'VI::. .   ::I)
+  '::::::::::.:... .. ...:MHHHHIHIIII::::..  .           'VI:.    ...:V
+   .:::::::::::.:.... . .AMMHHIHIII:I::::...  .  .        I::.   ...:-"
+   :.::I::::::::.:. .  ..MMMHHIHIIII:I:::... .  .        .::.  ,..-"
+   :..:II:I:::::.:.. . ..MMMHHIHIIIIIII:I::.... .  .    ..::""'
+  .::.:III:I::::::.:.. ..MMMMIVHIHIIIII:I::::.... .   .....:,
+.:.::..:III:I:::::.:... .MMHMAIVHHIHIIIII:I::::.. .  ..::..:,
+. .:::.::III:I::::.:... .VMMHMAIVHHHIHIIII:I::::..  ..:...:::
+. :::I.:::III:I:::.::.. .:MMHHMAIVHHIHIIIII:I::::....:::.::::
+ .::IIH.:::III:I::::.:.. .MMHMHMAIVHHHIHIIIIII:I
+~
+E
+april~
+   .            nHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHn.
+             .MS?MMMMMMMMMMMMMMMMMM?MM-MMMMMMMMMSHMMMMMMM
+             MMMMMH?MMMMMMMX*MM?MMX%MM/MMMMMM"HMMMMMMMMMMMM
+            MMMMMMMMMMMMMMMMMX*MX*MMMX?MMMMM(M!XMMMMMMMMMMMM
+           XMC)?MMMMMMMMMMMMMMMhX?!?MMMMX#MM!MXMMMMMMMMMMMML   
+           MMMMMMMMMMMMMMMMMMMMMMMM!-`````-`-!?MMMM)MMMMMMMMx
+          MMM)MMMMMMMMMMMMMMMHhHH!-           `#MM(MMMMMMMMMM>
+         HM!HMMMMMMMMMMMMMMMM?)?                   "MMMMMMMMMX
+        XM!MMMMMMMMMMMMMMMMMMM?-                     'MMMMMMMM
+        M!MMMMMMMMMMMMMMMMMXH!                        MMMMXMMP
+       \!MMMMMMMSMHHHMM?XMM?-    -:::xx..             M?XMM?"
+       MXMMMMMMMMMM!XHMMMM":       ... `"%x          XHHHMMM
+      \!MMMMMMMM?XMMMMMMX!'-L     '%%%+:.  `       ..MMMMM"
+      'HMMMMMM?HMMMMM*XM!    h     -\).^\-     .%""`MM?"
+      'MMMMMMMMMMMMMXMMM!    -X               +%%!.MMMXk
+      ?MMMMMMMMMMMXMMMMM `.   -               `""'XMMMMX
+      !MMMMMMMMMMMMMMMMMX.    '                  XMkMMX>
+      XMMMMMMMMMMMMMMM?MXXXx.-`                  XXMMM!
+      MMMMMMMMMMMMMMMMXMXXXXXXx.         --      MMMMM
+      XMMMMMMMMMMMM?MMXXXXXXXXX!`         '+^  .MMM!P
+      'MMM!MMMMMMMMMi?M!"`        `-%HHHHxx.  xMMMM"
+      :MMMMMMMMMMMMMMM"               `\XMM .MMMMM
+      XMMMMMMMMMX?MM!                   `( HMMMMM
+     XMMMM)MMM"   \-                     'MMMMM*
+    'MMMMfMMM"  \-                        XMMM*
+   .MMMMMXMM"  ^                          `MMM
+   XMMMM!MM"                               MM>
+   HMMMMXM-                                MM>
+   ?MMMMM-                                 Xf%
+    MMMMf                                  %% \
+    4MMM                                    %
+      `M                                     %
+        %                                    %
+        %                                     %
+        %                 !                   %
+         %                 !                   %
+         %                 %                   !?%.
+         %                  %                   X. %%.
+          %                  %                  X!    %%.
+          %                  %                  '!       %.
+           %                  %                  !!         %.
+           %                  %                  '!          `%
+            %                  %                  !>          /%
+            %                   %                 !!          % %
+             %                   %                 !          \%
+             %                   %                 !!          %
+              %                   %                '!         %-
+               %                   %                !!       %-
+               %%                  %                `!     %%
+                %%                  %                %%%%%%
+~
+E
+March~
+   .                      ,.--..               
+                     ,::.'..  . . "VI:I:".':-.,.
+                    ,I::. ..   .   'VHMHII:.::;:.:,..
+                   :I:I:.. .   .    MHMHIHI:MHHI:I:'.:.
+                   A:I::. ...  .   .MMHHIIHIHI:IHHII:.:,
+                  .M:I::... ..   . AMMMMMHI::IHII::II.::.
+                  IMA"::.:.. .    .MMMMMHHII:IMHIHIA:::"'
+                  'MV.:.:.. .     AMMMMHMHI:I:HIHHIIIA;.
+                   P.:.:.. .  .  .MMMMMMMHHIIMHHHIIHIIH.
+                   :..:.. . .    AMMMMMMMHHI:AMIVHI:HIII:
+                  ,:.:.. .  .    MMMMMMMMMH:IHHI:HHI:HIIH.
+                  :..:...  .    .MMMHP:""''':HHIH:HHH:HIII
+                 ;.:..:.. .     AMH:". ' ' ''":HII:HHH:HII:
+                 ::..:.. . .   .H:'.. .     '".:VA:I:H::HI:
+                ;.:.:... ..    A:.'...     .   ':HA:IHI::I:
+               ,::..:. . .    .M::. .    .      ':HA:HH:II:.
+               ;.::... ..     AML;,'       .    .:VHI:HI:I:;
+              ,:.:.:. . .    .H. "PA,           .:IHH:HHII::.
+             ,:.::... ..     A:I:::";, .   .  ,ILIIIH:HI:I:I;
+            ,;:.:.:.. . .   .H:TP"VB')..   .,;T;,,::I:HI:I:::
+           ,::.:.:.. . .    AI:.":IAAT:.  .(':BB');V::IH:I:I;
+          ,::.:.:.. . .    .H:. ' . . ..  .":;AITP;I:IIH:I::;,
+         ,::.::.:. . . .   A::.   . ..:.  .  . ..:AI:IHII:I::;.
+         ;:.::.:.. .  .   AM:I:.   ..:.   .: . .::HIIIHIIHII::.
+        ,:::.:.:..  .    .MM:I:..  .:,    .:.  .::HHIIIHIHII::'
+       ,::.:..:.. .   .  AMM:I:.  . .'"-""''. ..::HIHI:HI:III:
+       ;:.::..:.. . .   AMMM::. . ,,,, '..   '.::IMHIHIHIIHI::;
+      ,:::.:..:. .   .  MMMM:I:.  ':::;;;::;' .::AMHIHIHHIHHI:"
+      ;::.:.:.. . .   .:VMMV:A:. .  ':;,,."  .::AMMMIHIHHIHHII
+     ;::.:.:.. ..  .  .::VM:IHA:. .''   ' . ..:AMMMMHIHHHIHHII:
+     ;:::.:.. .  .. . .::P::IHHAA.. .   .. .:AMMMMMMMIIHHIHHI::
+     ;::.:.. .  . .  ..:.:VIHHHIHHA::,,,,,:AMMMMMMMMMHIIHHHHII;
+     ;.::.. .    . .  ..:.:VHHIHI:IHIHHIHI:MMMMMMMMMMHIHHIHHII:
+     ::.:.. .     ..  ...:.::VHI:IIVIHIHII:MMMMMMMMMMMIHHIHHII:,
+     ;:..:. .    ..  . ..:.::::VAII:IIIIII:MMMMMMMMMMMIHHIIHIIHI
+     ';:.. .        . .. ..:...:.VII::III:.VMMMMMMMMMHIHHHIHI::I,
+      ;:. . .    ' . .. ... . .::.::V::II:..VMMMMMMMMHIHHHIHI::I;
+      ;:.. . .     . .. ..:..  .::...:VIITPL:VMMMMMMMVIHHHIH:. :;
+      ;:. .  .    . .. ... .   ..:.:.. .:IIIA:.MMMMMVI:HIHIH:. .:
+      I:. . .   . .. . .. . . . . ..:.. ..::IIA.VMMMVIHIIHIV:. .'
+      I:..    . . .. .... .  .   . .. ... .:.:IA:.VMVIMHIHIH:..:
+      I.. .  .  . ..... .       .  . .. . .. .:IIAV:HIMHHIHII:.'
+      :. ..   . . .:.. .          .  .. ... ..::.:CVI:MHHIHHI...
+      :..  . . .. ..:.               . . ... .:.:::VHA.VIHHMI:..
+      :. .. .  . ..:..        . .     . .  ..  .. ...:VIIHIHI: .
+      ':.. .  . .::. .       .::,.      .    .  . .  ...V:IHII..
+       ;:.. .. .:I:.        ..:T"::.     .  . .  .  . .  .VIIH:.
+       ;:.:.. .:I:..        .::V:::.         . . . .  .    VIII..
+       ;:.. ..::::. .        ..::. .      .  . .. . .  .    VIII.
+       I:.:.. .:I:.           ..:.'        . . .. :. .  .    "VI:.
+       I::......::.  .                    . .. .:.:.:. .       "I:
+       II::.. ..::. .       .    .      . .. .. .::::.. .      .:.
+       II::.:. ..::. .  . .   .    .     .:. . .:I:::. .       .::HD
+       'I:::.. .: . .. ..  .. . .     .  .::. . .:I:. .         .:V:
+        I:. .. .  . . ... ..  .. . .    .. ..  ..::.             .:.
+        I:.. .. .  ..:.. .. .. ..  . .      .   .                . :
+        ;:.... . ..:::I:.. ..:.. ... .::. . ... . ..              .I.
+        ::.:....::.::I:III:I::::I:II:I::.. .:.. . .:. .     .  . .AI:
+        '::.:...:..::::::III::II::::::.. ...::. .  .::. . .. .  .AMMI.
+         :::.:.:. ..::::III:II:I:::.:. .. ..::.. ..  ..::,.  ..::HMMI:
+         ':::.:.. ...::I:::I:I:::.:.. :. . ..::.. . . . .'PTIHI:IIHHI:.
+          ::I::.:...:::II:I::.:....:.:. . ...::. .  . .  .AI:IHI'':'  '.
+          ':::.:... ..I::I::.:....:. .: .. ...::. .  .   III:II:.  '
+~
+E
+february~
+   .               :AMMMMMMMMMMMMA:     
+              :AMMMMMMMMMHHHHHMMMMMMMMA:
+             :AMHMMMMHHMHIHHIMMMHMMMMHHA:
+            :AM'MMMMMMHHIHHHIMMMMMIMMHHHH:
+            AM:IMMMMMHHIHIHHHIMMHHHHHHHHHH
+           AMIIHMMMMMHIHHHIHHIHHHHHHHHHHHH:
+           MMIHHMMMMMHHIHHHIHHHHHHHHHHHHHHH
+          AMMMMMHHHHHHI;;;;;;;IHHHI;;IHHHHH
+          MMMMHIIII;":AMMMMA        ,[[, HH
+          MMMMHII;  AW"''''         ::   HH
+         IHHIHIII;:'' ,GFMF[       [MM[: IH
+         AHHIHII;::': ";[P,[  ;;   ::::  IH
+        IHHHIHII;;::         :[;:        ;H
+        AHHHHHII;;;:: :     : [  :       ;H
+        IHHIIHI:[;;;:: ;   ; ; ,  ,      IH
+        IHHIIHH:[;;;: ;   ;: ':"::" ';   IH
+        IHHIIHI:[;;: ::: ;    ,,,,    '  HH
+       :IHHHIHHMMA;:::    [;;""""""[;   AMI
+       ;IHHHHIIHMM;: : :   ;;[,,,,[;    HHI
+       IIHHMMHHIHHM;::       '"""'     AMHI
+       IIHHMMHMHHIIIM;::              AMMHI
+       IHHHMMHMHMHHHIHI;::          :AMMMHI
+       IHHHMMMMHMMHHHII;;;;::   :,;; MMMHHI
+       IHHHMMHHHHMMHHHI;:";;;;;;"    MMMIH'
+       ;IHHMMHMMMMHF"HHII            MMMHH
+        IHHMMHV;;::    HHII;:      : MMHHI
+        IHHMV;;:::      HHII;:   : : MMHI;
+        IHMV;;:: :       "HII;:   :: MMI;
+       :IHV;::  :          'HI:   :: MM;
+       IV;:: :   :          "II;:    ; 
+      IH;;:::  :              ;;;I:   ;   
+     ;M;;:::: :                ';;;HI:  '
+     MH;;::::           :        ';;HI:  ;
+    IM;;;::: :         :[;         ';I"I: ;
+    M;;;::: :   :      [;;,:          '  : '
+    ;;::::    :       ::''                : ':
+   ;;:::   :         :                     ': :
+  :;;::  :          ::                       ':'
+  ;;::  :  :        :                          '':
+ ;;:: :            :                           :;,:
+ ;;::  :          ::                           ;[[[,:
+:;;::    :        :                            ;;[[[;':
+;;:: : :         [::       : :                  ;[[[[;;[,
+;::   :         [;;;:     : :,                   [[[[['[[;
+;:: :          :M;;:       : :,[                  [[[[ [['
+;:     :        "[::        : ::[                  ;[' ;[
+;:   :           "[:         : ::[                 :'  :'
+:: :: :           ",           :::;[              :'  :;
+:   ::             ':          : :::;[          ::'  :;
+ ::  ;               :          : ::::;[:,,::;;I'   ;;
+  ;;:;: : :           :          :::::::: '""' I[[;"'
+   ;;;::     :         :          '::::'       ;    
+      ;;;::    :   :     :                     ;
+        ';;;;:::  :   :    ':                  ;       
+              ';;::::  :       :                
+                  M;::::  :      ':
+                  MMMI;::::        :          ;
+                  MMMMMA;:::        :
+                 AHHMMMMHA;::::      :       ;
+                :MHHMMMMMMMA;: '     :
+                AHHHMMM;"TTTTL:       :       ;
+               AHHHHHHMMLLLLLH ':      :
+              :MHHH:::;HHMMMMMA:        :     ;
+             :AHHH:::HH;;;;;MMM;:        :
+            :MHH;:      ;;;;;MMM:: :      :   ;
+           :MH;:  :      ';;;;MMM::     ': ':
+          ,H;:             ';;;MMM:::    :':' ;
+        ,;: :    :   :       ;;;Y;H::     :
+       ,;: : : :              ';;;:;  : : ;  ;
+      [;::          :           ;;:;  ; ; ;
+~
+E
+January~
+   .                   8888  8888888
+                   888888888888888888888888
+                8888:::8888888888888888888888888
+              8888::::::8888888888888888888888888888
+             88::::::::888:::8888888888888888888888888
+           88888888::::8:::::::::::88888888888888888888
+         888 8::888888::::::::::::::::::88888888888   888
+            88::::88888888::::m::::::::::88888888888    8
+          888888888888888888:M:::::::::::8888888888888
+         88888888888888888888::::::::::::M88888888888888
+         8888888888888888888888:::::::::M8888888888888888
+          8888888888888888888888:::::::M888888888888888888
+         8888888888888888::88888::::::M88888888888888888888
+       88888888888888888:::88888:::::M888888888888888   8888
+      88888888888888888:::88888::::M::;o*M*o;888888888    88
+     88888888888888888:::8888:::::M:::::::::::88888888    8
+    88888888888888888::::88::::::M:;:::::::::::888888888
+   8888888888888888888:::8::::::M::aAa::::::::M8888888888       8
+   88   8888888888::88::::8::::M:::::::::::::888888888888888 8888
+  88  88888888888:::8:::::::::M::::::::::;::88:88888888888888888
+  8  8888888888888:::::::::::M::"@@@::::8w8888888888888888
+   88888888888:888::::::::::M:::::":::::M8i888888888888888
+  8888888888::::88:::::::::M88:::::::::::::M88z88888888888888888
+ 8888888888:::::8:::::::::M88888:::::::::MM888!888888888888888888
+ 888888888:::::8:::::::::M8888888MAmmmAMVMM888*88888888   88888888
+ 888888 M:::::::::::::::M888888888:::::::MM88888888888888   8888888
+ 8888   M::::::::::::::M88888888888::::::MM888888888888888    88888
+  888   M:::::::::::::M8888888888888M:::::mM888888888888888    8888
+   888  M::::::::::::M8888:888888888888::::m::Mm88888 888888   8888
+    88  M::::::::::::8888:88888888888888888::::::Mm8   88888   888
+    88  M::::::::::8888M::88888::888888888888:::::::Mm88888    88
+    8   MM::::::::8888M:::8888:::::888888888888::::::::Mm8     4
+        8M:::::::8888M:::::888:::::::88:::8888888::::::::Mm    2
+       88MM:::::8888M:::::::88::::::::8:::::888888:::M:::::M
+      8888M:::::888MM::::::::8:::::::::::M::::8888::::M::::M
+     88888M:::::88:M::::::::::8:::::::::::M:::8888::::::M::M
+    88 888MM:::888:M:::::::::::::::::::::::M:8888:::::::::M:
+    8 88888M:::88::M:::::::::::::::::::::::MM:88::::::::::::M
+      88888M:::88::M::::::::::*88*::::::::::M:88::::::::::::::M
+     888888M:::88::M:::::::::88@8:::::::::M::88::::::::::::::M
+     888888MM::88::MM::::::::88@8:::::::::M:::8::::::::::::::*8
+     88888  M:::8::MM:::::::::*88*::::::::::M:::::::::::::::::88@
+     8888   MM::::::MM:::::::::::::::::::::MM:::::::::::::::::88@
+      888    M:::::::MM:::::::::::::::::::MM::M::::::::::::::::*8
+      888    MM:::::::MMM::::::::::::::::MM:::MM:::::::::::::::M
+       88     M::::::::MMMM:::::::::::MMMM:::::MM::::::::::::MM
+        88    MM:::::::::MMMMMMMMMMMMMMM::::::::MMM::::::::MMM
+         88    MM::::::::::::MMMMMMM::::::::::::::MMMMMMMMMM
+          88   8MM::::::::::::::::::::::::::::::::::MMMMMM
+~
+E
+may~
+   .                      8888  8888888
+                   888888888888888888888888
+                8888:::8888888888888888888888888
+              8888::::::8888888888888888888888888888
+             88::::::::888:::8888888888888888888888888
+           88888888::::8:::::::::::88888888888888888888
+         888 8::888888::::::::::::::::::88888888888   888
+            88::::88888888::::m::::::::::88888888888    8
+          888888888888888888:M:::::::::::8888888888888
+         88888888888888888888::::::::::::M88888888888888
+         8888888888888888888888:::::::::M8888888888888888
+          8888888888888888888888:::::::M888888888888888888
+         8888888888888888::88888::::::M88888888888888888888
+       88888888888888888:::88888:::::M888888888888888   8888
+      88888888888888888:::88888::::M::;o*M*o;888888888    88
+     88888888888888888:::8888:::::M:::::::::::88888888    8
+    88888888888888888::::88::::::M:;:::::::::::888888888
+   8888888888888888888:::8::::::M::aAa::::::::M8888888888       8
+   88   8888888888::88::::8::::M:::::::::::::888888888888888 8888
+  88  88888888888:::8:::::::::M::::::::::;::88:88888888888888888
+  8  8888888888888:::::::::::M::"@@@@@@@"::::8w8888888888888888
+   88888888888:888::::::::::M:::::"@a@":::::M8i888888888888888
+  8888888888::::88:::::::::M88:::::::::::::M88z88888888888888888
+ 8888888888:::::8:::::::::M88888:::::::::MM888!888888888888888888
+ 888888888:::::8:::::::::M8888888MAmmmAMVMM888*88888888   88888888
+ 888888 M:::::::::::::::M888888888:::::::MM88888888888888   8888888
+ 8888   M::::::::::::::M88888888888::::::MM888888888888888    88888
+  888   M:::::::::::::M8888888888888M:::::mM888888888888888    8888
+   888  M::::::::::::M8888:888888888888::::m::Mm88888 888888   8888
+    88  M::::::::::::8888:88888888888888888::::::Mm8   88888   888
+    88  M::::::::::8888M::88888::888888888888:::::::Mm88888    88
+    8   MM::::::::8888M:::8888:::::888888888888::::::::Mm8     4
+        8M:::::::8888M:::::888:::::::88:::8888888::::::::Mm    2
+       88MM:::::8888M:::::::88::::::::8:::::888888:::M:::::M
+      8888M:::::888MM::::::::8:::::::::::M::::8888::::M::::M
+     88888M:::::88:M::::::::::8:::::::::::M:::8888::::::M::M
+    88 888MM:::888:M:::::::::::::::::::::::M:8888:::::::::M:
+    8 88888M:::88::M:::::::::::::::::::::::MM:88::::::::::::M
+      88888M:::88::M::::::::::*88*::::::::::M:88::::::::::::::M
+     888888M:::88::M:::::::::88@@88:::::::::M::88::::::::::::::M
+     888888MM::88::MM::::::::88@@88:::::::::M:::8::::::::::::::*8
+     88888  M:::8::MM:::::::::*88*::::::::::M:::::::::::::::::88@@
+     8888   MM::::::MM:::::::::::::::::::::MM:::::::::::::::::88@@
+      888    M:::::::MM:::::::::::::::::::MM::M::::::::::::::::*8
+      888    MM:::::::MMM::::::::::::::::MM:::MM:::::::::::::::M
+       88     M::::::::MMMM:::::::::::MMMM:::::MM::::::::::::MM
+        88    MM:::::::::MMMMMMMMMMMMMMM::::::::MMM::::::::MMM
+         88    MM::::::::::::MMMMMMM::::::::::::::MMMMMMMMMM
+          88   8MM::::::::::::::::::::::::::::::::::MMMMMM
+~
+E
+june~
+   .               :AMMMMMMMMMMMMA:     
+              :AMMMMMMMMMHHHHHMMMMMMMMA:
+             :AMHMMMMHHMHIHHIMMMHMMMMHHA:
+            :AM'MMMMMMHHIHHHIMMMMMIMMHHHH:
+            AM:IMMMMMHHIHIHHHIMMHHHHHHHHHH
+           AMIIHMMMMMHIHHHIHHIHHHHHHHHHHHH:
+           MMIHHMMMMMHHIHHHIHHHHHHHHHHHHHHH
+          AMMMMMHHHHHHI;;;;;;;IHHHI;;IHHHHH
+          MMMMHIIII;":AMMMMA        ,[[, HH
+          MMMMHII;  AW"''''         ::   HH
+         IHHIHIII;:'' ,GFMF[       [MM[: IH
+         AHHIHII;::': ";[P,[  ;;   ::::  IH
+        IHHHIHII;;::         :[;:        ;H
+        AHHHHHII;;;:: :     : [  :       ;H
+        IHHIIHI:[;;;:: ;   ; ; ,  ,      IH
+        IHHIIHH:[;;;: ;   ;: ':"::" ';   IH
+        IHHIIHI:[;;: ::: ;    ,,,,    '  HH
+       :IHHHIHHMMA;:::    [;;""""""[;   AMI
+       ;IHHHHIIHMM;: : :   ;;[,,,,[;    HHI
+       IIHHMMHHIHHM;::       '"""'     AMHI
+       IIHHMMHMHHIIIM;::              AMMHI
+       IHHHMMHMHMHHHIHI;::          :AMMMHI
+       IHHHMMMMHMMHHHII;;;;::   :,;; MMMHHI
+       IHHHMMHHHHMMHHHI;:";;;;;;"    MMMIH'
+       ;IHHMMHMMMMHF"HHII            MMMHH
+        IHHMMHV;;::    HHII;:      : MMHHI
+        IHHMV;;:::      HHII;:   : : MMHI;
+        IHMV;;:: :       "HII;:   :: MMI;
+       :IHV;::  :          'HI:   :: MM;
+       IV;:: :   :          "II;:    ; 
+      IH;;:::  :              ;;;I:   ;   
+     ;M;;:::: :                ';;;HI:  '
+     MH;;::::           :        ';;HI:  ;
+    IM;;;::: :         :[;         ';I"I: ;
+    M;;;::: :   :      [;;,:          '  : '
+    ;;::::    :       ::''                : ':
+   ;;:::   :         :                     ': :
+  :;;::  :          ::                       ':'
+  ;;::  :  :        :                          '':
+ ;;:: :            :                           :;,:
+ ;;::  :          ::                           ;[[[,:
+:;;::    :        :                            ;;[[[;':
+;;:: : :         [::       : :                  ;[[[[;;[,
+;::   :         [;;;:     : :,                   [[[[['[[;
+;:: :          :M;;:       : :,[                  [[[[ [['
+;:     :        "[::        : ::[                  ;[' ;[
+;:   :           "[:         : ::[                 :'  :'
+:: :: :           ",           :::;[              :'  :;
+:   ::             ':          : :::;[          ::'  :;
+ ::  ;               :          : ::::;[:,,::;;I'   ;;
+  ;;:;: : :           :          :::::::: '""' I[[;"'
+   ;;;::     :         :          '::::'       ;    
+      ;;;::    :   :     :                     ;
+        ';;;;:::  :   :    ':                  ;       
+              ';;::::  :       :                
+                  M;::::  :      ':
+                  MMMI;::::        :          ;
+                  MMMMMA;:::        :
+                 AHHMMMMHA;::::      :       ;
+                :MHHMMMMMMMA;: '     :
+                AHHHMMM;"TTTTL:       :       ;
+               AHHHHHHMMLLLLLH ':      :
+              :MHHH:::;HHMMMMMA:        :     ;
+             :AHHH:::HH;;;;;MMM;:        :
+            :MHH;:      ;;;;;MMM:: :      :   ;
+           :MH;:  :      ';;;;MMM::     ': ':
+          ,H;:             ';;;MMM:::    :':' ;
+        ,;: :    :   :       ;;;Y;H::     :
+       ,;: : : :              ';;;:;  : : ;  ;
+      [;::          :           ;;:;  ; ; ;
+~
+E
+july~
+   .                      ,.--..               
+                     ,::.'..  . . "VI:I:".':-.,.
+                    ,I::. ..   .   'VHMHII:.::;:.:,..
+                   :I:I:.. .   .    MHMHIHI:MHHI:I:'.:.
+                   A:I::. ...  .   .MMHHIIHIHI:IHHII:.:,
+                  .M:I::... ..   . AMMMMMHI::IHII::II.::.
+                  IMA"::.:.. .    .MMMMMHHII:IMHIHIA:::"'
+                  'MV.:.:.. .     AMMMMHMHI:I:HIHHIIIA;.
+                   P.:.:.. .  .  .MMMMMMMHHIIMHHHIIHIIH.
+                   :..:.. . .    AMMMMMMMHHI:AMIVHI:HIII:
+                  ,:.:.. .  .    MMMMMMMMMH:IHHI:HHI:HIIH.
+                  :..:...  .    .MMMHP:""''':HHIH:HHH:HIII
+                 ;.:..:.. .     AMH:". ' ' ''":HII:HHH:HII:
+                 ::..:.. . .   .H:'.. .     '".:VA:I:H::HI:
+                ;.:.:... ..    A:.'...     .   ':HA:IHI::I:
+               ,::..:. . .    .M::. .    .      ':HA:HH:II:.
+               ;.::... ..     AML;,'       .    .:VHI:HI:I:;
+              ,:.:.:. . .    .H. "PA,           .:IHH:HHII::.
+             ,:.::... ..     A:I:::";, .   .  ,ILIIIH:HI:I:I;
+            ,;:.:.:.. . .   .H:TP"VB')..   .,;T;,,::I:HI:I:::
+           ,::.:.:.. . .    AI:.":IAAT:.  .(':BB');V::IH:I:I;
+          ,::.:.:.. . .    .H:. ' . . ..  .":;AITP;I:IIH:I::;,
+         ,::.::.:. . . .   A::.   . ..:.  .  . ..:AI:IHII:I::;.
+         ;:.::.:.. .  .   AM:I:.   ..:.   .: . .::HIIIHIIHII::.
+        ,:::.:.:..  .    .MM:I:..  .:,    .:.  .::HHIIIHIHII::'
+       ,::.:..:.. .   .  AMM:I:.  . .'"-""''. ..::HIHI:HI:III:
+       ;:.::..:.. . .   AMMM::. . ,,,, '..   '.::IMHIHIHIIHI::;
+      ,:::.:..:. .   .  MMMM:I:.  ':::;;;::;' .::AMHIHIHHIHHI:"
+      ;::.:.:.. . .   .:VMMV:A:. .  ':;,,."  .::AMMMIHIHHIHHII
+     ;::.:.:.. ..  .  .::VM:IHA:. .''   ' . ..:AMMMMHIHHHIHHII:
+     ;:::.:.. .  .. . .::P::IHHAA.. .   .. .:AMMMMMMMIIHHIHHI::
+     ;::.:.. .  . .  ..:.:VIHHHIHHA::,,,,,:AMMMMMMMMMHIIHHHHII;
+     ;.::.. .    . .  ..:.:VHHIHI:IHIHHIHI:MMMMMMMMMMHIHHIHHII:
+     ::.:.. .     ..  ...:.::VHI:IIVIHIHII:MMMMMMMMMMMIHHIHHII:,
+     ;:..:. .    ..  . ..:.::::VAII:IIIIII:MMMMMMMMMMMIHHIIHIIHI
+     ';:.. .        . .. ..:...:.VII::III:.VMMMMMMMMMHIHHHIHI::I,
+      ;:. . .    ' . .. ... . .::.::V::II:..VMMMMMMMMHIHHHIHI::I;
+      ;:.. . .     . .. ..:..  .::...:VIITPL:VMMMMMMMVIHHHIH:. :;
+      ;:. .  .    . .. ... .   ..:.:.. .:IIIA:.MMMMMVI:HIHIH:. .:
+      I:. . .   . .. . .. . . . . ..:.. ..::IIA.VMMMVIHIIHIV:. .'
+      I:..    . . .. .... .  .   . .. ... .:.:IA:.VMVIMHIHIH:..:
+      I.. .  .  . ..... .       .  . .. . .. .:IIAV:HIMHHIHII:.'
+      :. ..   . . .:.. .          .  .. ... ..::.:CVI:MHHIHHI...
+      :..  . . .. ..:.               . . ... .:.:::VHA.VIHHMI:..
+      :. .. .  . ..:..        . .     . .  ..  .. ...:VIIHIHI: .
+      ':.. .  . .::. .       .::,.      .    .  . .  ...V:IHII..
+       ;:.. .. .:I:.        ..:T"::.     .  . .  .  . .  .VIIH:.
+       ;:.:.. .:I:..        .::V:::.         . . . .  .    VIII..
+       ;:.. ..::::. .        ..::. .      .  . .. . .  .    VIII.
+       I:.:.. .:I:.           ..:.'        . . .. :. .  .    "VI:.
+       I::......::.  .                    . .. .:.:.:. .       "I:
+       II::.. ..::. .       .    .      . .. .. .::::.. .      .:.
+       II::.:. ..::. .  . .   .    .     .:. . .:I:::. .       .::HD
+       'I:::.. .: . .. ..  .. . .     .  .::. . .:I:. .         .:V:
+        I:. .. .  . . ... ..  .. . .    .. ..  ..::.             .:.
+        I:.. .. .  ..:.. .. .. ..  . .      .   .                . :
+        ;:.... . ..:::I:.. ..:.. ... .::. . ... . ..              .I.
+        ::.:....::.::I:III:I::::I:II:I::.. .:.. . .:. .     .  . .AI:
+        '::.:...:..::::::III::II::::::.. ...::. .  .::. . .. .  .AMMI.
+         :::.:.:. ..::::III:II:I:::.:. .. ..::.. ..  ..::,.  ..::HMMI:
+         ':::.:.. ...::I:::I:I:::.:.. :. . ..::.. . . . .'PTIHI:IIHHI:.
+          ::I::.:...:::II:I::.:....:.:. . ...::. .  . .  .AI:IHI'':'  '.
+          ':::.:... ..I::I::.:....:. .: .. ...::. .  .   III:II:.  '
+~
+E
+august~
+   .            nHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHn.
+             .MS?MMMMMMMMMMMMMMMMMM?MM-MMMMMMMMMSHMMMMMMM
+             MMMMMH?MMMMMMMX*MM?MMX%MM/MMMMMM"HMMMMMMMMMMMM
+            MMMMMMMMMMMMMMMMMX*MX*MMMX?MMMMM(M!XMMMMMMMMMMMM
+           XMC)?MMMMMMMMMMMMMMMhX?!?MMMMX#MM!MXMMMMMMMMMMMML   
+           MMMMMMMMMMMMMMMMMMMMMMMM!-`````-`-!?MMMM)MMMMMMMMx
+          MMM)MMMMMMMMMMMMMMMHhHH!-           `#MM(MMMMMMMMMM>
+         HM!HMMMMMMMMMMMMMMMM?)?                   "MMMMMMMMMX
+        XM!MMMMMMMMMMMMMMMMMMM?-                     'MMMMMMMM
+        M!MMMMMMMMMMMMMMMMMXH!                        MMMMXMMP
+       \!MMMMMMMSMHHHMM?XMM?-    -:::xx..             M?XMM?"
+       MXMMMMMMMMMM!XHMMMM":       ... `"%x          XHHHMMM
+      \!MMMMMMMM?XMMMMMMX!'-L     '%%%+:.  `       ..MMMMM"
+      'HMMMMMM?HMMMMM*XM!    h     -\).^\-     .%""`MM?"
+      'MMMMMMMMMMMMMXMMM!    -X               +%%!.MMMXk
+      ?MMMMMMMMMMMXMMMMM `.   -               `""'XMMMMX
+      !MMMMMMMMMMMMMMMMMX.    '                  XMkMMX>
+      XMMMMMMMMMMMMMMM?MXXXx.-`                  XXMMM!
+      MMMMMMMMMMMMMMMMXMXXXXXXx.         --      MMMMM
+      XMMMMMMMMMMMM?MMXXXXXXXXX!`         '+^  .MMM!P
+      'MMM!MMMMMMMMMi?M!"`        `-%HHHHxx.  xMMMM"
+      :MMMMMMMMMMMMMMM"               `\XMM .MMMMM
+      XMMMMMMMMMX?MM!                   `( HMMMMM
+     XMMMM)MMM"   \-                     'MMMMM*
+    'MMMMfMMM"  \-                        XMMM*
+   .MMMMMXMM"  ^                          `MMM
+   XMMMM!MM"                               MM>
+   HMMMMXM-                                MM>
+   ?MMMMM-                                 Xf%
+    MMMMf                                  %% \
+    4MMM                                    %
+      `M                                     %
+        %                                    %
+        %                                     %
+        %                 !                   %
+         %                 !                   %
+         %                 %                   !?%.
+         %                  %                   X. %%.
+          %                  %                  X!    %%.
+          %                  %                  '!       %.
+           %                  %                  !!         %.
+           %                  %                  '!          `%
+            %                  %                  !>          /%
+            %                   %                 !!          % %
+             %                   %                 !          \%
+             %                   %                 !!          %
+              %                   %                '!         %-
+               %                   %                !!       %-
+               %%                  %                `!     %%
+                %%                  %                %%%%%%
+~
+E
+september~
+      .    .:IIIIHIHHIHHHII::I:.         
+       :IIIIHIHHHHHHMMHHIHHIIHHIII:.     
+    ,.:HIHHHHHHHHHHHHHHHHHHHHHIHIHHII:.   
+  .:IIHHHHHHHHMMMMMHHHHMMMHHMHHHIIIHIIII:
+  .IIHHHMMMMMMMHHMMMHHHMMMHHMHII:HHHII:I.
+  :HIHHHMHMMMMMMMMMMMMHMHHHHII:HHMMHII:II
+ :HHHHMHMMMMMMMMMMMMMMMHIIHIHHMMHHHHII::I:
+:IIHHHHHMHMMMMMMMMMMHMMHIHMMMMHHHI:"::IIHII:
+:IHHHHHMHMMMMMMMMMMMMHHI:II::I:"' .   '"IHH.
+::HHHHMHMMMMMMMMMMHMHHI:II::.'  .       'VMA.
+IHHHHHMHNMMMMMMMMHMHHI:II:. . .          "MMH.
+HHHHHMHMMMMMMMMMMHMHI:I::.' .  . .      .,MMM:.
+HHHHMHMMMMMMMMMMMHMHI:II:. ..  .    ..LI:"IMMI.
+HMHMMMMMMMMMMMMMMHMHI:II.'.        :HT;.,, VHI:
+HHHHHMHMMMMMMMMMHMHHHI:HMHII:,.   ':,MHP"HPIHII.
+IHHHHMHMMMMMMMMMHMHHHII::IT:.I:.  'HMMH ,:" VII:
+:HHHHHHHMHMMMMMHMHHHHIIMMMPVHI::. .P"TIT"'  IH:I
+HHIHHHHHHMHMMMMHMHHHHH:VMMM:.HI:H:. :. . . .II:I.
+:HHHHHMHMMMMMHMHHHHIIHMMHHI:.:HI:. . .. .   :III;
+IHHHHMHMMMMMMMHHHHHI:IT:TI:..:HI:.. ..:. .  :IHII
+ IHHMHMMMMMMMMMMMHHI:I::.:. ..:II::.. :I..  :HIIH.
+ 'HHHMHMMMMMHMHHHH:II:.. ...:II:II./'::.  ' IHHIH;
+  HHMHMMMMMMMHMHHHH:I:I::....::VIHI;, ' . . IHHIHA
+  MHHMMMMMMMMMHMHHH:II:::...::II:::.;,,,:   AHHIHH;
+  ;HHMHMMMMMMMMHMHH-:II::..:::I::"",,:"''  .HHHIHHI.
+  'HHHMHMMMMMMMMHMHHA:II:.:H.::-"'""' ,'. .AMHHIHHH;
+   :HHMHMMMMMMMMMMHMHA:II::.::::-;,,:: .. :AMHI:IHHI
+   'HHMHMMMMMMMMMMHMHHA:III:::II:II::. . .AMMHI:IHHH.
+    :HHHMHMMMMMMMMMHMHHA:IIIHII:.:::. . .AMMMHI:IHHH:.
+    'HHMHMMMMMMMMMMMMHMHHHI:":VIII::...:AMMMMHHI:IHHHI
+     ;IHMHMMMMMMMMMMMMMHMHHII:. '"" 'AMMMMMMMHI:IIHHH:I.
+     :IMHMMMMMMMMMMMMMMHMHHHII:.  .:IHMMMMMMHHHIHIHHHI::.
+     ;HHHMHMMMMMMMMMMMMMMHMHHHI:..IHHMHMMHHHHHIHHHMHH;I:".'
+     ;HHHHHMHMMMMMNMMMMMMMHMHHHI::.HHHHMMHHHHHIHIHHHHHI:'
+     :HHHHHHHHMHMMMMMMMMMHHHMHHHI:IHHMHMMHHHHHMHIHHHHIHI;
+     ;HHHHHHHHMMHMMMMMHMHHMMHIHMI:IIHHHMHHHHMHMHIHIHHHHI:.
+     IHHHHHHHHHHMHMMMMMHMHHMMHHMMII:IHHMMHMHHHHMMHMHMHHHH;
+     ;HH:":IHHHHMHMMMMMHMHIHMHIIMMHI:IMHMMMI:HHHHHMMHHHHI:I.
+    ;HV" . .:IIHHHMMMMMMMHHHMMHIIHMHHI:HHHMHI:IHHIHHIHHMHI:II;.
+   ;IV"   . .''":VMMMMMMHMHHHMMHI:HHHHI:HHHIHI:IHHHHHIHHHIHII;,
+   .II"   .. .  ':VHHHMHMMMMMHMHHI:HMMHI:IHHHI::IHHHI:HIHHHI:I:.
+  .II . . .  . .  ':HHHHMHMMMHMMMHIHIMMMHI:HHHMI:IHHHIHI:HHHHII:I.
+ .;V' . .. .  .    'IHMMMHHMHHHMMMHIHIHHHHI:IHHHI:IHHHHHIHHHHHIIHII:.
+.:I" .. . .    .   :IHMMMHHHMHHIHHHI:HHIHHHIHIHHHAIHHHHHHI:HHHIHII:.
+'..:  .  .       .  :IMMMHMHHIMHIIHHI:IHHI:IHHIHHHHIHIHHHHIHIHHHHIHI:.
+.: .. . . .      ..:IHMMMHMHMHMHHHHMHIHHI:.IVIIHHHIHHHHHHHHI:HIHHIHII:.
+.: .   . .        . :IHMMMHMIHIH:IIHHHIHH:.I:IIHHHIHHHHHHHHIHI:IHHHI:;.
+:: .:. .  .   .   ..:IHHMMMHMIHIH:IIHHHMHH::..:HHHHI:HHHHHHI:I:IIIHII;
+:. ... . .  .     ..::HHHMMHMHHII:HIIHHMMHH:..:HHHMHHIHHHI:: . :IHII:I
+':....   . .      . ..:IHHHMMMMHMHI:HIHMMMHA...VHMMHHHMI:'  .' :IH::"
+ :. ..  ....    .    ..IHHHHMMMMHHII:I:IHMMHA. .VHMHHHI:' ''    '':,
+ ::...  . .... .   . ..::IHHHMMMMIHII::I:IHMMHHMHIHIHI''   .  .     ,
+ ::.... . .....  ..  ...::IIIHHHMMIHI::IHHHIIIHHHIIHI".  ..   .      ,
+ ::.:.......... .. . ....:::HHIIHHHHHHHIIHMMMHI:' 'VI::..  . .        ,
+ ::.:............. .. . ...AHIHIIIIIHHHI::""'      'VII:.. ..    .
+ ::.:.:.......... .. .  ...HHHIIIIIIHHHI::. .       'VII::. . .       ,
+ ':::.:.:..... .. . . . ..:MHHIHIIIII:I::. .         'VII:::. ..      .
+~
+#190
+potion deep green remove curse~
+a potion of remove curse~
+A deep green potion has been left here.~
+~
+10 a a 0
+1 35 -1 -1
+2 1000 0 0
+E
+green deep potion~
+   A potion that will remove any curses you may have been afflicted with.    
+~
+#0
+
+#ROOMS
+
+#100
+Temple of Sanctum~
+   You stand inside a massive temple dedicated to the gods of Sanctus.  The
+ceiling is supported by fluted columns and a main spiral stairwell that leads
+both up and down.  Small rooms adjoin this chamber in all four cardinal
+directions.  It is here mortals come to stay informed and discuss their
+adventures.    
+~
+1 de 0
+D0
+~
+~
+0 0 113
+D1
+~
+~
+0 0 117
+D2
+~
+~
+0 0 120
+D3
+~
+~
+0 0 116
+D4
+~
+~
+0 0 101
+D5
+~
+~
+0 0 251
+E
+info credits~
+   Builder   : Rumble
+Zone         : 1 Sanctus
+Related Zones: 2 Sanctus II, 3 Sanctus III
+Began        : 2000
+Player Level : 1-34
+Rooms        : 100
+Mobs         : 100
+Objects      : 76
+Shops        : 6
+Triggers     : 33
+Theme        : A mortal starting town.
+Plot         : Fabric of time torn, world going to hell. Sanctus one of the few
+               safe havens remaining.
+Notes        : None
+Zone 1 is linked to the following zones:
+  2 Sanctus II                     at   100 (down ) --->   251
+  3 Sanctus III                    at   101 (south) --->   365
+  2 Sanctus II                     at   111 (down ) --->   207
+  2 Sanctus II                     at   112 (down ) --->   213
+  2 Sanctus II                     at   114 (down ) --->   243
+  2 Sanctus II                     at   115 (down ) --->   248
+  2 Sanctus II                     at   118 (down ) --->   254
+  2 Sanctus II                     at   119 (down ) --->   259
+  2 Sanctus II                     at   121 (down ) --->   289
+  2 Sanctus II                     at   122 (down ) --->   295
+  3 Sanctus III                    at   128 (down ) --->   340
+  3 Sanctus III                    at   129 (down ) --->   341
+  3 Sanctus III                    at   132 (down ) --->   345
+  3 Sanctus III                    at   133 (down ) --->   346
+  3 Sanctus III                    at   139 (down ) --->   362
+  2 Sanctus II                     at   189 (south) --->   200
+  2 Sanctus II                     at   194 (south) --->   201
+  2 Sanctus II                     at   195 (south) --->   202
+  2 Sanctus II                     at   196 (south) --->   203
+  2 Sanctus II                     at   197 (south) --->   204
+  2 Sanctus II                     at   198 (south) --->   205
+  2 Sanctus II                     at   199 (south) --->   206
+~
+S
+#101
+The Temple of the Gods~
+   You have reached the highest point in the kingdom of Sanctus.  It is from
+here that the worshippers of the gods come to pay tribute to those who have
+saved them from the chaos and destruction beyond the sanctuary of the city
+walls.  Large windows reach from the floor to the ceiling, giving an excellent
+view of the city and countryside beyond.  An altar stands in the middle of the
+room with a statue on each side.    
+~
+1 e 0
+D2
+~
+~
+0 0 365
+D5
+~
+~
+0 0 100
+E
+altar~
+   The altar is made from black granite and has been carved into a small basin
+with a high back.  Almost as if it was meant to be some sort of seat.  
+Inscriptions in some foreign tongue are written on every square inch of the
+altar.  You wonder what they must say and who could have written it.    
+~
+E
+statue~
+   As you examine the statues more closely you realize they must resemble the
+two gods responsible for the creation and ongoing protection of Sanctus, Ferret
+and Rumble.  They both radiate a strength and power that resembles the solid
+white marble they were crafted from.    
+~
+S
+#102
+Inner Sanctum~
+   You have reached the highest room in the tower of Sanctum where only those
+devoted to the guild of Clerics are allowed to practice their skills and spells
+to become masters of their discipline.  The walls are covered in a white see-
+through cloth giving you the impression of being inside of a tent rather than
+in a room.  The room glows brightly, though you cannot tell from what source.
+~
+1 de 0
+D5
+~
+~
+0 0 128
+S
+#103
+High Council Meeting Room~
+   This is the meeting room for the guild of clerics.  All orders and affairs
+are resolved in this room by the High Council of Clerics.  They are responsible
+for the health of all the citizens of Sanctus and are obligated to aid anyone who
+is in need.  A large rectangular table with thirteen chairs surrounding it
+fills the center of the room.  A large pane window overhead admits a glowing
+aura that fills the room with serenity.    
+~
+1 d 1
+D5
+~
+~
+0 0 129
+E
+table~
+   A large sturdy oak table with two sturdy silver candelabras placed in the
+center.  The twelve chairs on the sides are used by the councillors while the
+head chair, which is garnished in silver, is only used by the High Councilman.
+  
+~
+S
+#104
+Inner Void~
+   This room is exempt from all normal laws of reality.  You have entered the
+realm of magic where the laws of science no longer exist.  The void you find
+yourself in is created within your mind and is the perfect place to practice
+your mystical arts.  For those who have trained hard enough they shall receive
+assistance in their pursuit of knowledge and power.  Others will find peace in
+this void and never be able to return.    
+~
+1 de 0
+D5
+~
+~
+0 0 132
+E
+void~
+   How can you look at something that does not even exist.    
+~
+S
+#105
+Meeting Room of the Magi~
+   Those who have achieved the power and fame to be considered a Magi rule the
+Mages Quarter of Sanctus.  They are responsible for the upkeep of the magical
+barrier that protects the city from the chaos of the outside world.  They may
+also be called upon to protect the city in case of an attack.  The Magi are the
+most reverred of all the classes as they are the most powerful.  But that power
+has a price.  Only five Magi have survived.  Five decorative cushions are
+placed in a circle in the middle of the room.    
+~
+1 d 1
+D5
+~
+~
+0 0 133
+E
+cushions~
+   Each cushion is of a different color.  Red, Blue, Green, Black, Yellow.  
+You notice two other cushions lined against the wall before a small altar.  
+They are Grey and Purple.  Those colors symbolize the stages in the raising of
+a Magi.  Few every achieve that honor.  None have for the Order of the Purple
+or Grey Robe.    
+~
+S
+#106
+Above the Northern Gate~
+   In between the Thieves and Warriors Quarter the Northern Gate is the main
+defensive hold in case of an attack.  At this distance you can just barely make
+out the shimmering dome that was created by the gods and is now sustained by
+the Magi.  The dome curves along the walls of the city and can not be seen for
+more than a few feet in any direction.  It reminds you of looking at a mirage.
+You can only see it if you glance to one side, it disappears as soon as you try
+to look straight at it.  Stone stairs lead down into the city wall.    
+~
+1 0 1
+D5
+~
+~
+0 0 140
+E
+dome barrier shimmering~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#107
+Training Room~
+   Pads of cloth line the walls and floor softening warriors falls as they are
+thrown about by their trainers.  This is where fighters come to hone their
+battling skills.  Racks of weapons line two of the four walls.  The room is
+filled with a smoky haze from four brass lanterns suspended from the ceiling.
+The room smells of sweat and blood.    
+~
+1 de 0
+D5
+~
+~
+0 0 141
+S
+#108
+War Room~
+   A large hearthstone fireplace blazes in one wall.  Maps, charts and other
+strategic planning tools are placed on a large glass table with a map of the
+realm encased within.  This is where the War Master plans how to protect the
+city in case of an attack.  The room is a mess with maps piled high and
+scattered haphazardly wherever there is room.  This is where the defense of the
+city is run from.    
+~
+1 d 0
+D5
+~
+~
+0 0 142
+E
+table~
+   The table is made out of cherry.  It is worn from years of use.  The glass
+top allows for an excellent view of the map protected within.    
+~
+E
+map~
+   The map is a geographic representation of Sanctus.  Not even really a map,
+more of a scaled model.  The walls and buildings of the city are raised higher
+than the rest of the map to give it a third dimension.  Small soldiers are
+scattered around the top of the table to help the War Master place his men.  
+
+~
+S
+#109
+Thieves Retreat~
+   All the curtains are pulled tight, the shades drawn low.  A feeling of
+mystery and secrecy blankets the room.  Dim lights cause a dancing of shadows
+that plays tricks on the eyes.  A few of the shadows may actually be people,
+hidden easily in the darkness Those who have chosen the discipline of thievery
+can learn invaluable skills here to further their training and wealth.    
+~
+1 de 0
+D5
+~
+~
+0 0 150
+S
+#110
+Scheming Room~
+   The masters of the underground gather here to devise their plans for the
+running of Sanctus.  Their abilities in deception allowed them to take over the
+internal affairs of the city.  They control the trade and finances of the city.
+Many disagree with this concept but none can disagree with the results.  
+Thieves are masters when it comes to politics.    
+~
+1 d 0
+D5
+~
+~
+0 0 151
+S
+#111
+Northwest Corner of the Inner Wall~
+   To the north you hear the clang and crash of the smithies in the Warriors
+Quarter.  To the west you see the barracks and the gate to the outside.  The
+Temple of Sanctus rises above you to the southeast.  It's single spire reaching
+up into the sky higher than any other building in the realm.  A stone stairwell
+leads down to the inner city.    
+~
+1 0 1
+D5
+~
+~
+0 0 207
+S
+#112
+Northeast Corner of the Inner Wall~
+   The city to the north is covered in shadows and gloom, the Thieves Quarter.
+To the east you can see the gate and a long warehouse.  The Temple of Sanctus
+rises above you to the southwest.  A light breeze brings a bit of refreshment
+and a strange smell.  Few people know, or want to know, what lies beyond the
+city walls and the safety of the dome.  A stone stairwell leads down to the
+inner city.    
+~
+1 0 1
+D5
+~
+~
+0 0 213
+S
+#113
+Quest Room~
+   In times of need citizens come here to seek the help of brave adventurers to
+recover stolen items, or seek revenge on people who have wronged them.  This
+small room is decorated with paintings of famous quests and the exulted hereos
+that have become common names throughout the realm.  It is said that completing
+a quest is a prerequisite towards immortality.    
+~
+1 d 0
+D2
+~
+~
+0 0 100
+E
+paintings heroes~
+   These masterpieces were painted by the famous L'Haspi.  They depict battles
+of various heroes.  One shows monsters of umimaginable horror rending human
+bodies with their fangs, tusks, and jaws.  Another displays a gallant warrior
+in shining golden armor waving a bejewled sword high over his head, roaring a
+challenge to some unseen beast within a nearby cave.  All are supposedly true
+tales, but most have been forgotten with the passing of time.    
+~
+S
+#114
+Above the Western Gate~
+   Atop the battlements over the western gate you can see the luminescent glow
+of the dome that protects the city.  You hear the occasional rattling of armor
+as the sentinels grow weary from their standing their posts hour after hour.  
+The city to the east looks tranquil and safe.  You can not see much to the west
+past the shimmering dome.    
+~
+1 0 1
+D5
+~
+~
+0 0 243
+E
+shimmering dome luminescent~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#115
+Above the Inner Wall~
+   The battlements on top of the inner wall are the last defense in case of an
+invasion.  All citizens are required to move within the inner city and prepare
+to fight.  The city has never fallen to this day.  To the north you see the
+barracks, to the south the Hall of Clerics.  A stone stairwell leads
+down to the inner city.    
+~
+1 0 1
+D5
+~
+~
+0 0 248
+S
+#116
+Travelling Room~
+   This used to be a travelling room.  Entire sections of the floor are now
+embedded in the ceiling and you can even see to the outside through a hole in
+one wall.  This is what happens when a portal becomes unstable.  You remind
+yourself to flee the second you think a portal may be falling apart.  The
+charred silhouette of what once must have been a man is blasted into one of the
+walls.    
+~
+1 e 0
+D1
+~
+~
+0 0 100
+E
+hole~
+   You can look out over the inner wall to the western side of Sanctus.  The
+smell of charred human remains and smoldering plaster makes your eyes water so
+it is difficult to see much else through the tiny hole.    
+~
+E
+man silhouette~
+   The distinct outline of a human body that must have taken the brunt of the
+blast when the portal imploded.  You wonder what or who it might have been.  
+You can still see pieces of cloth and bone buried deeply into the wall inside
+the shadow of the unlucky man.    
+~
+S
+#117
+Travelling Room~
+   This rooms stands empty as it is being prepared for a portal summoning.  
+The walls are glistening white plaster with a vaulted ceiling.  Powerful mages
+are said to be able to create portals through their arcane arts.  But many die
+in the process.  The skill is as of yet unmastered.  It is rumored that the
+evil Drakkar has achieved this mastery, but none have ever witnessed it.    
+~
+1 de 0
+D3
+~
+~
+0 0 100
+S
+#118
+Above the Inner Wall~
+   On top of the battlements you have a good view of the eastern side of the
+city.  To the north you see the Thieves Warehouse,, to the south the Mansion
+of the Magi.  The Temple of Sanctus rises from the center of the city to the
+west.  All looks well from this perspective.  You cannot see beyond the city
+walls.    
+~
+1 0 1
+D5
+~
+~
+0 0 254
+S
+#119
+Above the Eastern Gate~
+   The radiant dome of energy protecting the city curves over your head.  The
+powerful magic causes the hairs on the back of your neck and arms to stand on
+end.  The Magi are responsible for keeping the dome up.  But two of the seven
+have already died.  The War Master is planning for the worst, and preparing the
+army for battle.  The guards stir restlessly below you.  A stone stairwell
+leads down to the gate.    
+~
+1 0 1
+D5
+~
+~
+0 0 259
+E
+dome radiant shimmering~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#120
+Travelling Room~
+   A few of the higher mages of Sanctus have been able to control the gateways
+that have opened between realms.  One of these controlled portals is kept in
+this room.  It is a one way ticket to the realm of midgaard.  The portals are
+still eratic and uncontrollabe so anyone who uses them does so at their own
+risk.  The flickering of the portal casts eerie shadows along the white walls.
+This must be the only room in the temple that has an uneasy feeling about it.
+~
+1 de 0
+D0
+~
+~
+0 0 100
+S
+#121
+Southwestern Corner of the Inner Wall~
+   Through the clouds you catch a glimpse of the shimmering dome.  A good omen.
+To the west you can see the Hall of Clerics.  To the south the Tower of the
+High Council of Clerics glows pristinely white.  The town seems peaceful and
+untroubled by the turmoils outside the walls.    
+~
+1 0 1
+D5
+~
+~
+0 0 289
+E
+dome shimmering~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#122
+Southeastern Corner of the Inner Wall~
+   A glimpse of shimmering light above you in the clouds reminds you of the
+protecting dome that ensures your safety.  To the south the black stone of the
+Tower of the Magi glistens serenely.  To the east you can see the Mansion of
+the Magi in all its extravagance.    
+~
+1 0 1
+D5
+~
+~
+0 0 295
+E
+dome shimmering~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#123
+Closet~
+   Clean white linen is stacked neatly on shelves with pristine white towels,
+cloths, bandages, slings, and other items used in the art of healing.  
+Apprentices rush in and out grabbing what they need to aid the wounded.  Robes
+of fine wool hang on pegs in the back of the closet.  They look like the same
+robes the apprentices wear.    
+~
+1 d 0
+D2
+~
+~
+0 0 128
+S
+#124
+High Councillors Chambers~
+   The room is barren of luxuries that most people enjoy in a home.  The floor,
+ceiling, and walls are all bright white and almost painful to look at.  A bed,
+table, desk, and a small personal shrine are the only furniture in the room.  
+Even the highest priest is not allowed the luxuries that they deserve.    
+~
+1 d 0
+D2
+~
+~
+0 0 129
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.    
+~
+E
+table desk chair~
+   The table, desk, and chair are made from solid oak of the highest quality.
+A thin goose down mattress and pillow are the only comfortable looking items in
+the room.  The desk is bare and all the drawers are empty.  It is as if no one
+even lives here.    
+~
+S
+#125
+Plane of the Magi~
+   You find yourself in a place of non-existence.  The walls recede from your
+vision until you stand only in a bleak greyness.  You can no longer discern
+anything in three dimensions.  The floor, ceiling, and sky all are the same
+bleak grey color.  It is in the Magi come to test their mystical arts.  It is
+not a good place to get lost in.    
+~
+1 d 0
+D0
+~
+~
+0 0 125
+D1
+~
+~
+0 0 126
+D2
+~
+~
+0 0 132
+D3
+~
+~
+0 0 125
+D4
+~
+~
+0 0 125
+D5
+~
+~
+0 0 125
+S
+#126
+Plane of the Magi~
+   The world you knew has vanished.  You stand in the middle of greyness.  In
+every direction you can neither tell distance or see any distinguishable
+landmark.  A person could easily get lost in this nothingness.  It is this
+nothingness that helps the Magi hone their abilities before unleashing them
+into the real world.    
+~
+1 d 0
+D0
+~
+~
+0 0 126
+D1
+~
+~
+0 0 126
+D2
+~
+~
+0 0 133
+D3
+~
+~
+0 0 125
+D4
+~
+~
+0 0 126
+D5
+~
+~
+0 0 126
+S
+#127
+Healer's Room~
+   This room has been created by the High Council of Clerics to give aid to
+novices who receive injury in their adventures.  For the more experienced
+adventurers aid can be sought, but for a price.  Apprentices gowned in white
+robes bring water and fresh bandages to the experienced healers who aid the
+wounded.    
+~
+1 d 0
+D1
+~
+~
+0 0 128
+S
+#128
+Tower of Sanctum~
+   It is within these walls that the High Council meets and decides on how they
+can best serve the gods and Sanctus to improve the safety of the realm and
+eventually restore order to the world that Drakkar had so horribly imbalanced.
+With time the High Council believes they can restore order.  With the help of
+the gods this may be possible.    
+~
+1 d 0
+D0
+~
+~
+0 0 123
+D1
+~
+~
+0 0 129
+D2
+~
+~
+0 0 135
+D3
+~
+~
+0 0 127
+D4
+~
+~
+0 0 102
+D5
+~
+~
+0 0 340
+S
+#129
+Tower of Sanctum~
+   This tower was one of the first to be constructed after the temple was
+completed.  It was made from a combination of magic and manpower.  The white
+alabaster stone is said to still have some magical residue that benefits those
+who come here to seek aid.    
+~
+1 d 0
+D0
+~
+~
+0 0 124
+D1
+~
+~
+0 0 130
+D2
+~
+~
+0 0 136
+D3
+~
+~
+0 0 128
+D4
+~
+~
+0 0 103
+D5
+~
+~
+0 0 341
+S
+#130
+Bunk Room~
+   Racks, three tiers high line all three walls of this cramped room.  It seems
+this is where the sick and wounded are put up for the night.  Even the
+apprentices sometimes stay here when they are too tired to go home after a hard
+days work.  The room is empty now, the healers must have done their jobs well.
+~
+1 d 1
+D3
+~
+~
+0 0 129
+S
+#131
+Home of the Magi~
+   Since the creation of the dome to protect the city a Magi has been required
+to stay within the towers.  The five Magi share this duty and are responsible
+for the safety of the Orb of Sanctum.  The Orb is what was given to the Magi by
+the gods to sustain the protective dome.  As long as the orb is safely in place
+and a Magi is present to sustain it the dome will remain.    
+~
+1 d 1
+D1
+~
+~
+0 0 132
+S
+#132
+Tower of the Magi~
+   Within the halls of this Tower lies the Orb of Sanctum.  It is the
+responsibility of all to ensure it's safety.  Without the orb the dome would
+collapse and chaos would rule.  The Magi have been given the honor of it placed
+within these halls.  The orb is rumoured to have been created by the Gods
+Rumble and Ferret.  But, no one knows for sure.    
+~
+1 d 0
+D0
+~
+~
+0 0 125
+D1
+~
+~
+0 0 133
+D2
+~
+~
+0 0 137
+D3
+~
+~
+0 0 131
+D4
+~
+~
+0 0 104
+D5
+~
+~
+0 0 345
+S
+#133
+Tower of the Magi~
+   The Magi come here to ensure the safety of the Orb of Sanctum.  The power of
+the Orb is one of balance.  An oft overlooked power.  Balance is what is
+required for the world to exist.  The Orb is the last balance left in the
+realm.  If it were to be taken all hope would be lost.  Without it the city
+would quickly be overrun by Drakkar and his followers.    
+~
+1 d 0
+D0
+~
+~
+0 0 126
+D1
+~
+~
+0 0 134
+D2
+~
+~
+0 0 138
+D3
+~
+~
+0 0 132
+D4
+~
+~
+0 0 105
+D5
+~
+~
+0 0 346
+S
+#134
+Orb of Sanctum~
+   It is here that the Orb has been placed to ensure its protection.  The
+entire room is a made of black stone that seems to absorb all light.  A huge
+pedestal sits in the center of the room surrounded by statues of every Magi to
+ever live.  It is up to them to protect the Orb from any who wish to steal or
+cause harm to it.    
+~
+1 d 0
+D3
+~
+~
+0 0 133
+S
+#135
+Healers Chambers~
+   A stark white room that is glaringly white.  A simple bed, desk, and chair
+are the only inhabitants.  All of them are made out of wood and are polished to
+a glossy shine.  A single window looks out over the Southern Gate.  To live a
+life as a Cleric is to life a life without desire and need.    
+~
+1 d 1
+D0
+~
+~
+0 0 128
+E
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.    
+~
+E
+desk~
+   The desk is made of sturdy pine with a heavy coating of wax that was
+probably applied by the apprentices.  A small quill and pad of paper are
+centered on the top of the desk.  The desk has three drawers.  All of them are
+empty.    
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.    
+~
+E
+window~
+   Overlooking the western gate you can see the shimmering protective dome.  
+You hope it lasts, peace and tranquility is a good thing.    
+~
+S
+#136
+Kitchen~
+   At first glance this room seems to be made just to prepare food for the
+towers occupants, but on second glance you realize a few of the cooks are
+actually clerics and they are working over cauldrons of liquids that could not
+possibly be food.  At least it does not smell like food.  This must be where
+they make their healing elixirs, salves, and potions.    
+~
+1 d 0
+D0
+~
+~
+0 0 129
+S
+#137
+Supply Room~
+   Shelves full of various ingredients required for the casting of arcane
+spells line all three walls.  Everything from potions to pills and everything
+in between.  Some of the jars contain strange beasts soaking in a strange
+liquid.  The smell of dust and strange herbs permeates the room.    
+~
+1 d 1
+D0
+~
+~
+0 0 132
+S
+#138
+Room of the Magi~
+   This is a meeting room of the higher level mages who are seeking to become a
+Magi.  It is here they must prove themselves both physically and mentally.  
+Most never make it.  The Magi of the Purple and Grey robes has never been
+achieved.  The actual testing to be a Magi remains a mystery as only the Magi
+themselves have witnessed it.    
+~
+1 d 1
+D0
+~
+~
+0 0 133
+S
+#139
+Above the Southern Gate~
+   The dome of protection glows brightly here since it is closest to the Orb of
+Sanctum.  To the north you see the Temple of Sanctus towering above the Tower
+of the High Council and the Tower of the Magi.  All three structures are
+impressive works of architecture and magic combined.  To the south the dome
+rises above you blocking all view to the chaotic world beyond.    
+~
+1 0 1
+D5
+~
+~
+0 0 362
+E
+dome protection~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#140
+Northern Gate of Sanctus~
+   Steel reinforced gates large enough to pass two wagons abreast are being
+guarded diligently.  These gates are normally locked at night to ensure the
+safety of the city.  Only the east and west gates remain open all day.  The
+luminescent dome encompassing the city can be seen just to the north.    
+~
+1 0 1
+D2
+~
+~
+0 0 146
+D4
+~
+~
+0 0 106
+E
+dome luminescent~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#141
+Entrance to the Warriors Guild~
+   It is here the Warriors of Sanctus come to improve their training in the art
+of warfare.  Not only does this include brute force and the taking up of arms,
+but also the cunning art of tactics that can decide the outcome of any battle.
+A stairwell in the back of the room leads to the training room upstairs.    
+~
+1 d 0
+D2
+~
+~
+0 0 154
+D4
+~
+~
+0 0 107
+S
+#142
+Hannibal's Bar~
+   The room is filled with a haze of thick cigar smoke and the stench of
+unrefined liquor.  A noticeable blanket of dust and filth covers every inch of
+this local tavern.  Excessive drinking is looked down upon by all in Sanctus,
+but the occasional drink never hurt anyone.  Unless they were stupid enough to
+go walking through the Thieves Quarter after a few too many.    
+~
+1 d 0
+D2
+~
+~
+0 0 155
+D4
+~
+~
+0 0 108
+S
+#143
+Letzgo Inn~
+   The only Inn in Sanctus.  The Letzgo Inn appeals to those who need to take a
+break or maybe just get away from home for a few days to receive one of the
+many "treatments" available by the fine staff.  The sole proprietor goes by the
+name of Orlok and has been known to be rough, even deadly, to any customers
+that treat his "employees" unfairly.  The Inn appears to be well kept.  
+Further to the north you can see a winding staircase and a plethra of adjoining
+rooms.    
+~
+1 d 0
+D2
+~
+~
+0 0 156
+S
+#144
+Shiro's Weaponry~
+   You enter a large wood building with rack upon rack of weapons lining every
+wall, the floor, and even some suspended from the ceiling.  The sound of
+someone honing a fine blade can be heard in the background.  Some of the finest
+weapons in the realm are made right here under the supervision of Shiro, the
+master wesponsmith.    
+~
+1 d 0
+D2
+~
+~
+0 0 157
+S
+#145
+Sarge's Smithy~
+   The Smithy used to be run by the Warriors Guild for protection of the city.
+But when Sarge retired from his service in the guild they let him keep the
+smithy that he created as a retirement gift.  Of course the fact that they had
+no one that could replace him and do his quality of work was the real reason.
+But, Sarge would never complain.  He has spent his life hammering metal into
+weapons of mass destruction or armor of superior quality.  It is rumoured that
+has never been given a task that he could not complete.    
+~
+1 d 0
+D2
+~
+~
+0 0 158
+S
+#146
+The Northern Road~
+   The Northern Gate of Sanctus and the impressive wall surrounding it looms
+above you to the north.  The dull sound of hammering comes from the building to
+your west and no sound escapes the building to the east.  The North Way splits
+the city of Sanctus into two Quarters.  The thieves quarter in the east and the
+Warriors Quarter to the west.    
+~
+1 0 1
+D0
+~
+~
+0 0 140
+D2
+~
+~
+0 0 159
+S
+#147
+Logan's Pawn~
+   Various useless items line the walls of this cluttered and disorganized
+shop.  Once in a while this store is rumored to have great deals on rare
+equipment.  It is often normal to purchase clothing with small tears and blood
+stains in the small of their backs, but no one ever asks questions given the
+excellent prices.    
+~
+1 d 0
+D2
+~
+~
+0 0 160
+S
+#148
+The Rustic~
+   The only Restaurant in Sanctus.  The Rustic serves up decent meals to anyone
+that can afford them.  The prices are fair and the service is excellent.  The
+place is rather deserted and only a few customers are chatting idly in the
+back.    
+~
+1 d 0
+D2
+~
+~
+0 0 161
+S
+#149
+The Leather Shop~
+   The smell of tanning hides from the back of the shop is very unpleasant.  
+The assortment of leather goods is very extensive and they are well made.  
+Anyone needing some armor but does not want to give up alot of movement and
+flexibility need only come here.    
+~
+1 d 0
+D2
+~
+~
+0 0 162
+S
+#150
+Thieves Retreat~
+   This gloomy bar has an uneasy feeling about it.  Better be careful as this
+bar is frequented by the less honorable class in Sanctus.  Very few people
+drink here since as soon as you are inebriated you will be relieved of any gold
+you may be carrying.    
+~
+1 d 0
+D2
+~
+~
+0 0 163
+D4
+~
+~
+0 0 109
+S
+#151
+Entrance to the Thieves Guild~
+   A thief stands in the back infront of a stairwell.  Obviously making sure no
+one goes by without his permission.  The room is shabby with little furniture.
+Just a table and a few wooden chairs.  A few expensive tapestries look out of
+place hanging on the walls.    
+~
+1 d 0
+D2
+~
+~
+0 0 164
+D4
+~
+~
+0 0 110
+S
+#152
+The Warriors Barracks~
+   This is where the army of Sanctus keeps the barracks for those who wish to
+lead a life of service to protect the city.  They are all over worked and under
+paid.  But they serve their terms with pride.  You stand in the northwest
+corner of the barracks.    
+~
+1 d 0
+D1
+~
+~
+0 0 153
+D2
+~
+~
+0 0 167
+S
+#153
+The Warriors Barracks~
+   You are in the entrance of the barracks of the army of Sanctus.  This is
+where the army bases it's operations from.  Everything they need is located
+within this building.  Adjoining rooms are to the west and south.  The warriors
+avenue is just to the east.    
+~
+1 d 0
+D1
+~
+door~
+1 0 154
+D2
+~
+~
+0 0 168
+D3
+~
+~
+0 0 152
+S
+#154
+The Warriors Quarter~
+   You are in the northwest corner of the city.  The warriors guild is just to
+the north and the army barracks are in the building to the west.  Various
+stores lie further along Warriors Avenue to the east.  There is a fair amount
+of people, mostly soldiers, going about their daily lives.    
+~
+1 0 1
+D0
+~
+~
+0 0 141
+D1
+~
+~
+0 0 155
+D2
+~
+~
+0 0 169
+D3
+~
+door~
+1 0 153
+S
+#155
+Warriors Avenue~
+   A loud rucous to the north must be the local bar where soldiers go to
+relieve themselves of their worries.  The cobblestone street is clean and well
+maintained.  The buildings around you are made of wood and some are several
+stories tall.    
+~
+1 0 1
+D0
+~
+~
+0 0 142
+D1
+~
+~
+0 0 156
+D2
+~
+door~
+1 0 170
+D3
+~
+~
+0 0 154
+S
+#156
+Warriors Avenue~
+   The towns only Inn towers over you to the north.  It is one of the biggest
+structures in Sanctus, excluding of course the temple.  Many travellers go
+there to relax and unwind.  Several small houses are to the south along this
+road while the northern half seems to consist mostly of shops.    
+~
+1 0 1
+D0
+~
+~
+0 0 143
+D1
+~
+~
+0 0 157
+D2
+~
+door~
+1 0 171
+D3
+~
+~
+0 0 155
+S
+#157
+Warriors Avenue~
+   Several soldiers rush past in a hurry to make their watch in time.  You can
+hear someone working a grindstone to the north, most likely the weaponsmith.  
+A small house to the south is shadowed by the tower of Sanctus in the middle of
+the city.    
+~
+1 0 1
+D0
+~
+~
+0 0 144
+D1
+~
+~
+0 0 158
+D2
+~
+door~
+1 0 172
+D3
+~
+~
+0 0 156
+S
+#158
+Warriors Avenue~
+   The clang and clash of metal being worked to the north could only be the
+towns Smithy.  The street continues east and west with a small house to the
+south.  Townspeople walk the streets going about their business.  You are just
+another adventurer to them.    
+~
+1 0 1
+D0
+~
+~
+0 0 145
+D1
+~
+~
+0 0 159
+D2
+~
+door~
+1 0 173
+D3
+~
+~
+0 0 157
+S
+#159
+The Northern Intersection~
+   To the west you can hear the hammering of the smithy and the grinding of a
+wetstone in the Warriors Quarter.  To the east the Thieves Quarter is covered
+in shadows and mystery.  Not a single sound escapes from that section of the
+city.  You are standing on the North Way which runs from the North Gate down to
+the Temple of Sanctus.    
+~
+1 0 1
+D0
+~
+~
+0 0 146
+D1
+~
+~
+0 0 160
+D2
+~
+~
+0 0 174
+D3
+~
+~
+0 0 158
+S
+#160
+Thieves Avenue~
+   You stand in the beginning of the thieves quarter where the less honorable
+class has formed a base of operations.  The thieves of the city are responsible
+for the economic policies of the city and do a very good job.  Of course they
+are so worried about keeping one another from stealing from the city that they
+don't dare do it themselves.    
+~
+1 0 1
+D0
+~
+~
+0 0 147
+D1
+~
+~
+0 0 161
+D2
+~
+door~
+1 0 175
+D3
+~
+~
+0 0 159
+S
+#161
+Thieves Avenue~
+   A few cloaked figures glide past you with a skill and dexterity that reminds
+you to hold your gold very tightly while in this quarter of the city.  The
+thieves may run the cities finances fairly, but they could care less about a
+single adventurer.    
+~
+1 0 1
+D0
+~
+~
+0 0 148
+D1
+~
+~
+0 0 162
+D2
+~
+door~
+1 0 176
+D3
+~
+~
+0 0 160
+S
+#162
+Thieves Avenue~
+   A strange smell comes from the north, the unforgettable smell of tanning
+hides.  Must be the towns leather shop.  Tall buildings to the south must be
+the houses of the locals.  Probably shouldn't go wandering around, this place
+is full of thieves as it is and you may be mistaken for one.    
+~
+1 0 1
+D0
+~
+~
+0 0 149
+D1
+~
+~
+0 0 163
+D2
+~
+door~
+1 0 177
+D3
+~
+~
+0 0 161
+S
+#163
+Thieves Avenue~
+   The smell of booze and smoke filters through an open door to the north.  
+The local bar for the thieves.  The town used to have only one bar until the
+warriors and thieves got into a huge braul and ended up burning the place to
+the ground.  A few citizens walk past staring at you curiously.    
+~
+1 0 1
+D0
+~
+~
+0 0 150
+D1
+~
+~
+0 0 164
+D2
+~
+door~
+1 0 178
+D3
+~
+~
+0 0 162
+S
+#164
+Thieves Quarter~
+   The guild of thieves lies just to the north while a huge warehouse rises
+above you to the east.  Thieves Avenue makes a turn here to the south or west.
+You are now in the northeastern corner of the city, in the heart of the Thieves
+Quarter.  Better keep an eye on your purse.    
+~
+1 0 1
+D0
+~
+~
+0 0 151
+D1
+~
+door~
+1 0 165
+D2
+~
+~
+0 0 179
+D3
+~
+~
+0 0 163
+S
+#165
+The Thieves Warehouse~
+   You work your way through boxes and crates of supplies.  Small corridors
+lead between them, making a small maze within the building.  Looks very easy to
+get disoreientated and lost.  This is where the city keeps the majority of it's
+supplies.  Kind of an oxymoron that the thieves of the city handle the
+finances.    
+~
+1 d 0
+D1
+~
+~
+0 0 166
+D2
+~
+~
+0 0 180
+D3
+~
+door~
+1 0 164
+S
+#166
+A Storage Room~
+   Wooden crates and boxes are neatly stacked into columns standing about twice
+your height with rows inbetween that barely allow you to walk through.  Hard to
+believe anyone could find their way out of this place, let alone know where to
+find anything.    
+~
+1 d 0
+D2
+~
+~
+0 0 181
+D3
+~
+~
+0 0 165
+S
+#167
+The Warriors Hallway~
+   An elaborate hallway decorated with paintings of various victorious battles
+the city has fought in.  Sanctus has never fallen.  Various weapons and suits
+of armor are all bolted to the floor and walls.  A small doorway leads into the
+bunk room to the east.  The hall continues north and south.    
+~
+1 d 1
+D0
+~
+~
+0 0 152
+D1
+~
+~
+0 0 168
+D2
+~
+~
+0 0 182
+S
+#168
+The Bunk Room~
+   You find yourself walking between bunks where the majority of the army
+sleeps.  Some people are already in their racks since a watch must be stood
+twenty four hours a day.  You here someone grumbling in their sleep about how
+they always get stuck with the midwatch.    
+~
+1 d 0
+D0
+~
+~
+0 0 153
+D2
+~
+~
+0 0 183
+D3
+~
+~
+0 0 167
+S
+#169
+Warriors Avenue~
+   The Barracks rise above you the west and a small cozy home is to your east.
+A well-travelled road continues north and south.  You are in the Warriors
+Quarter where the army of Sanctus bases it's operations.  Several recruits rush
+past on assignment.    
+~
+1 0 1
+D0
+~
+~
+0 0 154
+D2
+~
+~
+0 0 184
+S
+#170
+A Fine Home~
+   A fine home of Sanctus.  The smell of baking bread and the sounds of a
+roaring fire.  The house is cluttered with the usual things that makes a house
+look lived in.  You could be happy spending the rest of your life living in a
+house like this.    
+~
+1 d 0
+D0
+~
+door~
+1 0 155
+S
+#171
+A Beggars Home~
+   The filth in this house is disgusting, an overflowing chamber pot almost
+sends you immediately back out the door.  This room should not even be
+considered a home.  You can barely even stand up the ceiling is so low and
+cracks in the walls let you see outside.    
+~
+1 d 0
+D0
+~
+door~
+1 0 156
+S
+#172
+An Extravagant Home~
+   This house looks out of place considering it's neighbors.  The pine walls
+are polished to a shine and the floor is made out of some strange type of
+cement.  Cushioned chairs surround a table set for dinner with expensive dishes
+and silverware.    
+~
+1 d 0
+D0
+~
+door~
+1 0 157
+S
+#173
+A Poor Home~
+   The house is made from rooten timber and the floor is just bare dirt.  A
+baking oven and a few piles of straw are the only things in the room.  This
+must be the poorest house in the entire city, how could anyone live like this.
+  
+~
+1 d 0
+D0
+~
+door~
+1 0 158
+S
+#174
+The Northern Road~
+   You walk between houses occupied by the local citizens.  The wide Northern
+Road is packed solid from years of traffic from people, wagons, and horses.  A
+small amount of dust is kicked up by every footstep.  Directly to the south you
+can see the Temple.    
+~
+1 0 1
+D0
+~
+~
+0 0 159
+D2
+~
+~
+0 0 189
+S
+#175
+An Extravagant Home~
+   One of the more successful thieves of the quarter must live here.  Rugs
+cover the entire floor.  A candelabra sits in the middle of a polished oak
+table.  A four post bed can be seen in the back of the house.  Nothing like
+living the good life.    
+~
+1 d 1
+D0
+~
+door~
+1 0 160
+S
+#176
+A Cramped Home~
+   A large table that could sit a family of about seven fills the majority of
+this house.  Small mattresses lay on the floor in the back of the room.  Not
+much hope for privacy in this house.  A few dolls are having a tea party in one
+corner.    
+~
+1 d 1
+D0
+~
+door~
+1 0 161
+S
+#177
+A Small Home~
+   You walk right in as if it was your own house.  Don't worry about
+trespassing, I'm sure no one will mind.  The house is very compact.  The
+kitchen and bedrooms are not seperated by any walls.  This must be a house for
+the poor.    
+~
+1 d 1
+D0
+~
+door~
+1 0 162
+S
+#178
+A Clean House~
+   Everything is dusted, shined, waxed, and polished.  This home is spotless.
+Well maintained it seems.  Not everyone is rich enough to afford a housekeeper,
+but these folks must be.  You can hear a baby crying, sounds hungry.    
+~
+1 d 1
+D0
+~
+door~
+1 0 163
+S
+#179
+Thieves Avenue~
+   The tall warehouse holding the supplies and emergency stores of the city is
+to the west.  The entrance looks to be a ways further north in the heart of the
+Thieve's Quarter.  South you can see another intersection and the northest
+corner of the inner wall.    
+~
+1 0 1
+D0
+~
+~
+0 0 164
+D2
+~
+~
+0 0 194
+S
+#180
+The Thieves Warehouse~
+   A pathway has been opened here to allow for small carts and wagons to pass.
+You can hear a few workers in the distance pushing the large crates over the
+dusty floor.  A large box and tackle swings back and forth on a strangel pulley
+system above you.    
+~
+1 d 0
+D0
+~
+~
+0 0 165
+D2
+~
+~
+0 0 195
+S
+#181
+A Storage Room~
+   The rows of crates and boxes continue to the north and south.  Everything is
+nailed shut, some even wrapped in chains and padlocked.  Enough stores to last
+the city for a year must be packed away in this place.  Everything is
+surpringly clean and well maintained.    
+~
+1 d 0
+D0
+~
+~
+0 0 166
+D2
+~
+~
+0 0 196
+S
+#182
+The Warriors Hallway~
+   The hallway end abruptly at a set of double doors to the south.  You can
+hear people talking behind the doors, but cannot discern what they are saying.
+The army of Sanctus is very well disciplined and your presence may not be
+exactly appreciated.  They do not take kindly to strangers.    
+~
+1 d 0
+D0
+~
+~
+0 0 167
+D1
+~
+~
+0 0 183
+D2
+~
+~
+0 0 197
+S
+#183
+The Bunk Room~
+   The sound of snoring comes from a few of the dozen or so racks crammed
+together in this confined room.  The racks are stacked four high with only a
+foot or two of space for someone to sit up.  The mattresses are only about an
+inch thick and look very uncomfortable.    
+~
+1 d 0
+D0
+~
+~
+0 0 168
+D2
+~
+~
+0 0 198
+D3
+~
+~
+0 0 182
+S
+#184
+The Northwest Intersection~
+   You come to an intersection of Warriors Avenue and Warriors Alley.  The
+alley crosses the city east to west behind the homes of the local citizens.  
+The alley is very narrow and dark as the inner city wall follows it on the
+southern side.  Warriors Avenue continues north and south.    
+~
+1 0 1
+D0
+~
+~
+0 0 169
+D1
+~
+~
+0 0 185
+D2
+~
+~
+0 0 199
+S
+#185
+Warriors Alley~
+   You walk amongst the shadows in the cramped alley.  A few piles of garbage
+are waiting to be cleaned up by the street sweeper.  An alley cat hisses at you
+and then bolts as you trespass on its territory.  This alley does not look safe
+and you wonder wether or not you will be running into some thugs.    
+~
+1 0 1
+D1
+~
+~
+0 0 186
+D3
+~
+~
+0 0 184
+S
+#186
+Warriors Alley~
+   The inner city wall rises above you to the south.  The sound of footsteps
+and the rattling of armor can be heard from the guards patrolling the top of
+the wall.  The alley is even darker here and a person could easily hide in the
+shadows.    
+~
+1 0 1
+D1
+~
+~
+0 0 187
+D3
+~
+~
+0 0 185
+S
+#187
+Warriors Alley~
+   A line of houses block your way to the north.  They seem to have back doors
+but all are bolted, locked, or nailed shut.  This is definitely not the most
+friendly section of the city.  An alley cat bolts past you as a large pile of
+garbage almost collapses on it.    
+~
+1 0 1
+D1
+~
+~
+0 0 188
+D3
+~
+~
+0 0 186
+S
+#188
+Warriors Alley~
+   The alley is a little brighter here as you are next to the Northern Road.  
+The sound of creaking wagons and the pound of horse hooves on the dirt road
+become trapped between the inner city wall and the houses within the alley
+making strange echoing sounds that are very distracting.    
+~
+1 0 1
+D1
+~
+~
+0 0 189
+D3
+~
+~
+0 0 187
+S
+#189
+The Northern Road~
+   You walk along the Northern Road with few other travellers.  The streets
+seem to be surprisingly empty for some reason.  You notice shadowy alleys to
+the east and west along the inner city wall.  To the south is the Northern Gate
+to the inner city.    
+~
+1 0 1
+D0
+~
+~
+0 0 174
+D1
+~
+~
+0 0 190
+D2
+~
+~
+0 0 200
+D3
+~
+~
+0 0 188
+S
+#190
+Thieves Alley~
+   The alley is cluttered with debris, maybe the street sweeper doesn't even
+bother cleaning this place up.  The sound of a fight can be heard further to
+the east within the alley.  This is definitely the most dangerous section of
+Sanctus.    
+~
+1 0 1
+D1
+~
+~
+0 0 191
+D3
+~
+~
+0 0 189
+S
+#191
+Thieves Alley~
+   The sounds of someone fighting suddenly grow louder, then stop.  Seems like
+that dispute was settled one way or the other.  The inner city wall to the
+south keeps the alley eternally in shadows, no matter the time of day or night.
+Houses to the north have their back doors shut and locked.    
+~
+1 0 1
+D1
+~
+~
+0 0 192
+D3
+~
+~
+0 0 190
+S
+#192
+Thieves Alley~
+   A pool of blood lies in the center of the alley, a trail of blood leads to a
+garbage pile a few feet away.  A mangy mutt trots past you and starts licking
+up the pool of blood.  You should keep moving unless you want to draw attention
+to yourself.    
+~
+1 0 1
+D1
+~
+~
+0 0 193
+D3
+~
+~
+0 0 191
+S
+#193
+Thieves Alley~
+   The inner city wall to the south towers over you, blocking out most of the
+light.  The wall looks to be made from stone blocks and some sort of filler.  
+You can't tell how thick it is, but judging from the height you would guess at
+least half as wide as it is tall.    
+~
+1 0 1
+D1
+~
+~
+0 0 194
+D3
+~
+~
+0 0 192
+S
+#194
+The Northeast Intersection~
+   The Thieves Avenue comes to an intersection with a shady alley to the west.
+You are at the northeast corner of the inner city wall.  On top of the wall you
+can see some type of post where the guards watch for any trouble.  A large
+building to the east must be some sort of warehouse.    
+~
+1 0 1
+D0
+~
+~
+0 0 179
+D2
+~
+~
+0 0 201
+D3
+~
+~
+0 0 193
+S
+#195
+Wagon Bay~
+   Huge double doors have been built into the western wall of the warehouse.  
+They are closed, barred, and locked with a padlock the size of your head.  No
+one gets in or out without that key.  An aisle to load and unload wagons runs
+to the east.    
+~
+1 d 0
+D0
+~
+~
+0 0 180
+D1
+~
+~
+0 0 196
+D2
+~
+~
+0 0 202
+S
+#196
+Wagon Bay~
+   A path is opened up between the crates here for wagons to load and unload.
+The floor has turned to packed dirt and traces of horse manure leave an
+unpleasant smell.  Three wagons fill the center of the room.  All look empty.
+  
+~
+1 d 0
+D0
+~
+~
+0 0 181
+D2
+~
+~
+0 0 203
+D3
+~
+~
+0 0 195
+S
+#197
+A Work Room~
+   This building is cluttered together in no apparent order, wherever there is
+room they simply use it.  This hallway has been converted into a small room for
+the upkeep of armor and weapons.  A grindstone is in one corner.  In another
+baskets of arrows are being sorted.  A recruit is polishing some armor and a
+large sack of equipment looks like it is ready to be taken to the Smithy.    
+~
+1 0 0
+D0
+~
+~
+0 0 182
+D1
+~
+~
+0 0 198
+D2
+~
+~
+0 0 204
+S
+#198
+The Mess Hall~
+   A dozen tables fill the room.  All bare except for a few people eating
+before they go on their next watch.  The food does not look very appetizing,
+but it serves it's purpose.  The army has had financial problems since it's
+inception.    
+~
+1 d 0
+D0
+~
+~
+0 0 183
+D2
+~
+~
+0 0 205
+D3
+~
+~
+0 0 197
+S
+#199
+Warriors Avenue~
+   In the distance you can hear some sargeant screaming at his recruits in a
+booming voice that echoes off the buildings and walls around you.  The clank of
+armor and weapons is all about you as guards change watches and work on their
+equipment.    
+~
+1 0 1
+D0
+~
+~
+0 0 184
+D2
+~
+~
+0 0 206
+S
+#0
+
+#RESETS
+M 0 154 3 146 	(the patrolman)
+M 0 163 2 195 	(the hired hand)
+M 0 156 1 100 	(the speaker of the land)
+E 1 151 99 12 	(a fancy red vest)
+E 1 150 99 5 	(a white silken shirt)
+E 1 148 99 7 	(some blue velvet pants)
+R 0 105 96 -1 	(the mages board)
+O 1 96 99 105 	(the mages board)
+M 0 134 1 105 	(the Red Master Magi)
+E 1 106 99 12 	(a red robe)
+M 0 4 1 127 	(the healer)
+M 0 197 1 143 	(the carpenter)
+M 0 141 3 143 	(the corporal)
+E 1 170 99 9 	(some cloth gloves)
+G 1 179 99 -1 	(a canteen)
+M 0 184 1 150 	(Morgan, the bartender)
+G 1 29419 99 -1 	(a glass)
+G 1 29420 99 -1 	(a glass)
+G 1 31562 99 -1 	(a glass)
+G 1 27206 99 -1 	(a glass of wine)
+G 1 27186 99 -1 	(a glass)
+G 1 104 99 -1 	(a bottle)
+G 1 101 99 -1 	(a imported bottle)
+G 1 139 99 -1 	(a champagne glass)
+G 1 138 99 -1 	(a glass)
+M 0 177 1 150 	(the thief guildguard)
+M 0 107 1 149 	(Branwen, the leatherworker)
+G 1 28100 99 -1 	(a tasseled leather bracelet)
+G 1 5433 99 -1 	(a leather shield)
+G 1 25744 99 -1 	(a leather helm)
+G 1 26412 99 -1 	(some leather hand wraps)
+G 1 29406 99 -1 	(a Leather Tie)
+G 1 32627 99 -1 	(a pair of strong leather pants)
+G 1 31521 99 -1 	(a pair of leather boots)
+G 1 144 99 -1 	(a leather helm)
+G 1 141 99 -1 	(a pair of leather gloves)
+M 0 108 1 145 	(Sarge, the blacksmith)
+G 1 12001 99 -1 	(a bronze belt)
+G 1 28729 99 -1 	(a bandanna)
+G 1 28739 99 -1 	(a helm)
+G 1 31518 99 -1 	(a steel bracelet)
+G 1 29404 99 -1 	(a silver ring)
+G 1 385 99 -1 	(a pair of bronze sleeves)
+G 1 27103 99 -1 	(a pair of black leggings)
+G 1 28738 99 -1 	(a mail-shirt)
+G 1 142 99 -1 	(a wooden shield)
+O 0 117 1 145 	(a rack of armor)
+M 0 103 1 144 	(Shiro, the weaponsmith)
+G 1 30134 99 -1 	(a long sword)
+G 1 31543 99 -1 	(a sabre)
+G 1 1601 99 -1 	(an axe)
+G 1 28736 99 -1 	(a quarterstaff)
+G 1 127 99 -1 	(some brass knuckles)
+G 1 125 99 -1 	(a flail)
+G 1 124 99 -1 	(a mace)
+G 1 123 99 -1 	(a wooden club)
+G 1 121 99 -1 	(a small sword)
+G 1 120 99 -1 	(a dagger)
+M 0 104 1 144 	(Rhian)
+O 0 118 1 144 	(a rack of weapons)
+M 0 140 1 142 	(the bartender)
+G 1 30707 99 -1 	(a bottle)
+G 1 28719 99 -1 	(a bottle)
+G 1 28324 99 -1 	(a bottle)
+E 1 128 99 17 	(a cigarette)
+G 1 113 99 -1 	(a shot)
+G 1 103 99 -1 	(a glass)
+G 1 102 99 -1 	(a stout bottle)
+G 1 147 99 -1 	(an exotic bottle)
+G 1 137 99 -1 	(a dirty glass)
+D 0 178 0 1 	(A Clean House)
+M 0 152 1 178 	(the newborn baby)
+M 0 151 1 178 	(the midwife)
+D 0 163 2 1 	(Thieves Avenue)
+D 0 177 0 1 	(A Small Home)
+M 0 131 1 177 	(the hoodlum)
+E 1 168 5 12 	(a cloth shirt)
+D 0 162 2 1 	(Thieves Avenue)
+D 0 176 0 1 	(A Cramped Home)
+D 0 161 2 1 	(Thieves Avenue)
+M 0 168 1 161 	(the bum)
+G 1 103 99 -1 	(a glass)
+D 0 175 0 1 	(An Extravagant Home)
+M 0 132 1 175 	(the butler)
+D 0 160 2 1 	(Thieves Avenue)
+D 0 173 0 1 	(A Poor Home)
+D 0 158 2 1 	(Warriors Avenue)
+D 0 172 0 1 	(An Extravagant Home)
+M 0 130 3 172 	(the maid)
+E 1 155 99 17 	(a feather duster)
+D 0 157 2 1 	(Warriors Avenue)
+M 0 167 2 157 	(the staff sargeant)
+E 1 142 99 11 	(a wooden shield)
+E 1 143 99 7 	(a pair of black leather pants)
+D 0 171 0 1 	(A Beggars Home)
+M 0 165 1 171 	(the beggar)
+D 0 156 2 1 	(Warriors Avenue)
+D 0 170 0 1 	(A Fine Home)
+D 0 155 2 1 	(Warriors Avenue)
+M 0 100 3 155 	(the young man)
+G 1 179 99 -1 	(a canteen)
+D 0 154 3 1 	(The Warriors Quarter)
+D 0 153 1 1 	(The Warriors Barracks)
+M 0 141 3 153 	(the corporal)
+E 1 170 99 9 	(some cloth gloves)
+G 1 179 99 -1 	(a canteen)
+D 0 164 1 1 	(Thieves Quarter)
+M 0 100 3 164 	(the young man)
+G 1 143 99 -1 	(a pair of black leather pants)
+D 0 165 3 1 	(The Thieves Warehouse)
+M 0 138 1 133 	(the yellow Master Magi)
+E 1 119 99 12 	(a yellow robe)
+M 0 137 1 131 	(the Master Magi)
+E 1 129 99 12 	(a black robe)
+M 0 167 2 152 	(the staff sargeant)
+E 1 143 99 7 	(a pair of black leather pants)
+E 1 142 99 11 	(a wooden shield)
+M 0 159 2 140 	(the lieutenant)
+E 1 166 99 7 	(a pair of cloth pants)
+E 1 167 99 6 	(a cloth cap)
+M 0 175 4 140 	(the gate sentry)
+E 1 30414 99 5 	(a Suit of Old Chainmail)
+M 0 160 1 168 	(the general)
+E 1 145 99 5 	(a scale mail jacket)
+E 1 144 99 6 	(a leather helm)
+M 0 153 1 190 	(the pickpocket)
+M 0 139 1 188 	(the alley cat)
+M 0 163 2 166 	(the hired hand)
+M 0 176 1 182 	(Gunney)
+E 1 157 99 6 	(Gunney's hat)
+M 0 179 3 198 	(the recruit)
+M 0 190 3 193 	(the cat)
+M 0 192 3 186 	(the german shephard)
+M 0 129 3 179 	(the thief)
+G 1 156 99 -1 	(someone else's purse)
+E 1 120 99 16 	(a dagger)
+M 0 195 3 159 	(the kitten)
+G 1 135 99 -1 	(some catnip)
+M 0 191 3 169 	(the puppy)
+E 1 134 99 3 	(a dog collar)
+M 0 143 1 148 	(the waitress)
+G 1 101 99 -1 	(a imported bottle)
+M 0 174 1 128 	(the cleric guildguard)
+M 0 173 1 132 	(the magi guildguard)
+M 0 127 1 141 	(the warrior)
+M 0 105 3 199 	(the balding man)
+E 1 152 99 17 	(a cane)
+M 0 181 4 106 	(the lookout)
+E 1 145 99 12 	(a scale mail jacket)
+E 1 26319 99 8 	(some steel-toed boots)
+E 1 143 99 7 	(a pair of black leather pants)
+E 1 144 99 6 	(a leather helm)
+M 0 181 4 119 	(the lookout)
+E 1 145 99 12 	(a scale mail jacket)
+E 1 144 99 6 	(a leather helm)
+E 1 143 99 7 	(a pair of black leather pants)
+E 1 26319 99 8 	(some steel-toed boots)
+M 0 181 4 114 	(the lookout)
+E 1 145 99 12 	(a scale mail jacket)
+E 1 26319 99 8 	(some steel-toed boots)
+E 1 143 99 7 	(a pair of black leather pants)
+E 1 144 99 6 	(a leather helm)
+M 0 181 4 139 	(the lookout)
+E 1 145 99 12 	(a scale mail jacket)
+E 1 26319 99 8 	(some steel-toed boots)
+E 1 143 99 7 	(a pair of black leather pants)
+E 1 144 99 6 	(a leather helm)
+M 0 183 1 110 	(the Master Thief)
+R 0 110 95 -1 	(the thieves board)
+O 1 95 99 110 	(the thieves board)
+M 0 122 1 109 	(the thieves' guildmaster)
+E 1 129 99 12 	(a black robe)
+M 0 161 4 174 	(the streetsweeper)
+G 1 136 99 -1 	(a broom)
+G 1 149 99 -1 	(a dustpan)
+M 0 150 1 192 	(the mangy mutt)
+R 0 192 146 -1 	(a pool of blood)
+O 1 146 99 192 	(a pool of blood)
+R 0 103 94 -1 	(the clerics board)
+O 1 94 99 103 	(the clerics board)
+M 0 180 1 103 	(Javier, the High Councillor)
+E 1 28748 99 12 	(a white robe)
+R 0 108 93 -1 	(the warriors board)
+O 1 93 99 108 	(the warriors board)
+M 0 155 1 108 	(the War Master)
+E 1 30410 99 12 	(a great fur cloak)
+M 0 123 1 107 	(the warriors guildmaster)
+E 1 31661 99 12 	(a white robe)
+M 0 120 1 104 	(the mages' guildmaster)
+E 1 129 99 12 	(a black robe)
+M 0 121 1 102 	(the clerics' guildmaster)
+E 1 31661 99 12 	(a white robe)
+M 0 3 1 113 	(the questmaster)
+E 1 107 99 12 	(a blue robe)
+M 0 147 1 147 	(Logan)
+G 1 148 99 -1 	(some blue velvet pants)
+G 1 150 99 -1 	(a white silken shirt)
+G 1 151 99 -1 	(a fancy red vest)
+M 0 157 1 101 	(the old sage)
+O 0 100 1 120 	(the portal)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#142~
+113
+103
+102
+147
+137
+28324
+28719
+30707
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+140
+0
+142
+-1
+0
+28
+0
+0
+#144~
+30134
+31543
+1601
+28726
+120
+121
+123
+124
+125
+127
+-1
+1.00
+1.00
+5
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+103
+0
+144
+-1
+0
+28
+0
+0
+#145~
+12001
+28729
+28739
+31518
+29404
+3085
+27103
+28738
+142
+-1
+1.00
+1.00
+9
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+108
+0
+145
+-1
+0
+28
+0
+0
+#147~
+150
+151
+148
+-1
+1.50
+0.50
+5
+9
+11
+12
+15
+17
+22
+19
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+147
+0
+147
+-1
+0
+28
+0
+0
+#149~
+141
+144
+31521
+32627
+29406
+26412
+25744
+5433
+28100
+-1
+1.00
+1.00
+9leather
+11leather
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+107
+0
+149
+-1
+0
+28
+0
+0
+#150~
+101
+29419
+29420
+31562
+27206
+27186
+104
+138
+139
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+184
+0
+150
+-1
+0
+28
+0
+0
+0
+
+
+#$

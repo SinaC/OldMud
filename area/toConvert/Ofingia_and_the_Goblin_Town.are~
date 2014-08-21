@@ -1,0 +1,5067 @@
+#Style Circle
+#AREADATA
+Name Ofingia and the Goblin Town~
+Builders Kaan~
+VNUMs 28700 28799
+Credits {{None}  CAW    Ofingia and the Goblin Town~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#28700
+innkeeper reilly~
+Reilly the Innkeeper~
+The innkeeper watches for customers and drinks imported Scotch.
+~
+   Reilly doesn't keep this inn open by sitting and watching the goblins invade!
+He looks more like a hobo than an innkeeper but you can at least see that he is
+wearing a huge Scotch sword at his side.  He is also drinking from a huge bottle
+of Scotch whiskey, probably not the single-malt variety.  
+~
+bdeghlnopr defhks 200 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 13
+Str: 18
+StrAdd: 100
+E
+#28701
+priest pater vinci~
+Pater Vinci~
+Pater Vinci greets you as you pass by.
+~
+   Pater Vinci did not bear a weapon in the good old days, but now the goblins
+ought to avoid him, because the good priest fought for King Korbor before he
+took holy orders, and still carries a sturdy club.  
+~
+deghln cm 900 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#28702
+sheriff zeb~
+Zeb Rykalp~
+Zeb Rykalp, sheriff of Ofingia, watches you closely.
+~
+   You had better keep on Zeb's good side.  He has few qualms about roughing up
+the Midgaarders, and is ever-vigilant for evil.  
+~
+cdegiln c 700 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#28703
+smith dorig dwarf~
+Dorig Foehammer~
+Dorig the dwarf welds bars together with a 10 pound hammer.
+~
+   He is too strong for you to beat easily in a fight, and if he had a beer or
+two in him Dorig would be invincible.  At least, he would think himself
+invincible.  
+~
+bcdeghlnopr defhks 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#28704
+carpenter joel~
+Joel Kreb~
+Joel Kreb, the village carpenter, rests with an axe close at hand.
+~
+   That axe he has has a long spike opposite its blade, and you do not think it
+is intended for wood, but for flesh and bone, particularly of goblin-kind.  
+~
+bcdeghlnopr defhks 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#28705
+maxtrum halfling shopkeeper~
+Maxtrum Holloknob~
+A stout halfling shopkeeper eyes your moneybag with a glinting eye.
+~
+   Guard your wallet carefully!  Rumor has it that Maxtrum rarely runs out of
+money, which would be wonderful, if only his customers didn't so often find
+their pockets lighter after leaving his store, though they bought nothing.  
+~
+abcdeghlnopr defhks 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#28706
+churt elf elven alchemist~
+Churt Agenris~
+An elven alchemist inhales the fumes deeply and sighs happily.
+~
+   Churt notices you gagging as you enter his shop and peers at you with some
+surprise.  He is a powerful wizard, having practiced such great spells as
+`Churt's Irresistable Retch' and `Word of Command: Go away, I...  ' Well, never
+mind that one.  
+~
+abcdeghlnopr defhks 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#28707
+dek ranger elf elven leatherworker~
+Dek Shattershock~
+A retired elven ranger works here as a leatherworker.
+~
+   Dek Shattershock- the name inspires fear in goblin and githyanki warrior
+alike!  You ought to be scared, too, you shrimp.  
+~
+bcdeghlnopr defhks 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#28708
+marya woman baker~
+Marya the Baker~
+A young Ofintine woman kneads dough here.
+~
+   She is not a noblewoman, but is a lady all the same.  After all, lady means
+`loaf-kneader' just as lord means `loaf-ward' in the old Anglo- Saxon tongue.  
+She has bashed more goblins with her rolling pin than Jewish rye has caraway
+seeds.  
+~
+bcdeghlnopr defhks 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#28709
+serathana priestess librarian~
+Serathana the Guardian of Lore~
+A priestess watches you carefully.
+~
+   This priestess is an old friend of Dek, Dorig, Churt, and Maxtrum.  They
+saved the world from destruction, but there isn't much need for heroes in
+peacetime.  You can see Sara's long spear hung on the wall where she can
+instantly reach it.  
+~
+bcdelnopr defhks 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#28710
+kelek guard captain~
+Sir Kelek~
+Passing guards raise their visors in salute to Sir Kelek, their captain.
+~
+   He did not reach this rank by staying close by the Newbie Zone.  
+~
+bdeilmn 0 700 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#28711
+king korbor~
+King Korbor~
+Clad in bright mail and girt with a sword, King Korbor goes to war.
+~
+   Once King Korbor sat in his lofty hall, but now he marches with his army to
+drive off the goblins which threaten his realm.  
+~
+bdeilmn 0 800 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#28712
+tim thief boy~
+Tim the Thief~
+A small boy sneaks silently through the shadows.
+~
+   Guard your money!  It is that dratted Tim!  
+~
+cdeglp 0 100 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#28713
+sir mischa~
+Sir Mischa~
+Sir Mischa guards his town from evil creatures.
+~
+   This knight could easily kill Curley GreenLeaf.  
+~
+dgilm 0 700 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#28714
+guard~
+the Ofintine guard~
+A guard of Ofintinia patrolls his town.
+~
+   A sturdy guardsman, loyal to King Korbor.  
+~
+dgilm 0 400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#28715
+guard~
+the Ofintine guard~
+An Ofintine guard watches the gate.
+~
+   A sturdy guardsman, ever vigilant for evil.  
+~
+bdilm 0 400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#28716
+volunteer~
+an Ofintine volunteer~
+An Ofintine volunteer patrolls his town.
+~
+   He has taken up arms to fight the goblins.  
+~
+dgm 0 400 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+#28717
+volunteer~
+an Ofintine volunteer~
+A citizen of Ofinitine looks fierce and determined.
+~
+   She has taken up arms to fight the goblins.  
+~
+dgm 0 400 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+#28718
+man~
+a Lonoyan man~
+A man of Ofingia stands here.
+~
+   He won't desert his town for a million goblins, all waving axes.  
+~
+dg 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#28719
+woman~
+a Lonoyan citizen~
+An Lonoyan woman walks through town.
+~
+   Though the goblins poured in through every gate, she would stay here.  
+~
+dg 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 2
+E
+#28720
+boy~
+a small boy~
+A small boy runs around shouting at unseen foes.
+~
+   He is ready for the goblins when they come!  
+~
+dgh 0 300 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#28721
+girl~
+a young girl~
+A Lonoyan girl stands here.
+~
+   You are sure she has killed many trolls and more goblins.  
+~
+dgh 0 300 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#28722
+big dog~
+the big dog~
+A huge dog runs about, tongue lolling out of his mouth in a silly way.
+~
+   A big goofy retriever, with a rough, coarse black coat.  
+~
+dghm 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+BareHandAttack: 4
+E
+#28723
+dog~
+Reilly's dog~
+You cringe in fear when a small black dog growls menacingly.
+~
+   Reilly's miniature schnauzer looks tougher than a small dragon.  
+~
+dghm 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#28724
+farmer man~
+a Lonoyan farmer~
+A farmer strolls about town in his Sunday clothes.
+~
+   As he walks past you, you see him stop and stare with an expression of
+recognition, changing to anger.  Perhaps you left his gate open on the way here.
+
+~
+dgh 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#28725
+dwarf~
+a dwarf~
+A drunken Dwarf rests here, singing loud enough to wake the dead.
+~
+   It takes more than a beer or two to intoxicate the sturdy mountain folk; he
+must have had enough to stun a giant.  
+~
+dgh k 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#28726
+hobbit~
+a hobbit landowner~
+A fine fat gentlehobbit swaggers around, whistling merrily.
+~
+   There aren't too many hobbits living in Lonoya, and he is most likely a
+visitor from the Shire.  
+~
+dgh 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#28727
+woman barmaid maid~
+the bar maid~
+A lovely Lonoyan woman serves mead to Reilly's customers.
+~
+   No one bothers her as she serves drinks, because they know that she has a
+dagger ready for anyone who gets `fresh'.  
+~
+dgh 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 2
+E
+#28728
+man~
+the old man~
+An old Lonoyan man sweeps the road clean.
+~
+   Too old to wield a glaive, this man has taken upon himself the task of
+picking up the litter that passerby drop in Lonoyan gutters.  Ofingia, the
+"Jewel of Lonoya", would not sparkle as it does in Korbor's crown if he was not
+so busy.  The old man really hates adventurers who don't clean up after
+themselves.  
+~
+dgh 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#28729
+goblin~
+the goblin~
+A forest goblin roams Lonoya, arguing with himself.
+~
+   He doesn't seem to notice you right away, but I wouldn't wait for him to stop
+talking and see you.  Goblins hate strangers, especially if they are armed.  
+~
+dfglm k -250 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 1
+E
+#28730
+goblin raider~
+the goblin~
+A goblin raider prowls Lonoya, looking for travellers to rob.
+~
+   Stumpy-short but thick, green-skinned and great-headed.  Ugly, ain't he?  
+~
+dfglm k -250 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#28731
+goblin~
+the goblin~
+A goblin crouches in ambush here.
+~
+   Another goblin, another battle, another notch in your newbie dagger.  
+~
+dfglm k -250 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#28732
+goblin~
+the goblin watchman~
+A goblin stands watch here.
+~
+   Goblins, it seems, are not trusty watchmen.  You'd expect no more.  
+~
+bdfglm k -250 E
+5 20 7 1d1+50 1d2+0
+50 2500
+4 8 1
+E
+#28733
+serpent~
+the serpent~
+A great serpent slithers through the caverns, ignoring you.
+~
+   For a little while you fear poison, but this snake looks about as harmless as
+any forty-five-foot reptile can.  Perhaps this serpent lives off the carcasses
+of those killed by these goblins.  
+~
+cdg k 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 0
+E
+#28734
+gnome~
+the lost gnome~
+A stone-gnome is far from home.
+~
+   He is wandering, as you are, through these tunnels to find an exit.  
+~
+cdeghl kps 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#28735
+goblin~
+the goblin guard~
+A goblin stands here alert, vigilant for intruders.
+~
+   No one will pass by him unnoticed.  
+~
+bdfglm k -350 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#28736
+goblin~
+the goblin~
+A green-skinned goblin warrior stands here, clutching a bloody scimitar.
+~
+   He looks tougher than the average goblin.  
+~
+dfglm k -400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#28737
+goblin~
+the goblin warrior~
+A goblin warrior glares at you, angry at having been awakened.
+~
+   He looks tougher than the average goblin.  
+~
+dfglm k -400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+4 8 1
+E
+#28738
+hobgoblin goblin~
+a hobgoblin~
+A large goblin clad in stinking hides glares at you.
+~
+   You would NEVER wear his armor; untanned cowhide is not your style.  He
+doesn't seem to mind it, however, and in any case this fellow is a dangerous foe
+for any knight.  
+~
+dfglm k -400 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#28739
+toadstool goblin chieftain~
+Toadstool the Goblin~
+Toadstool, chief of the forest goblins, shouts and throws things at you.
+~
+   What does he throw?  Rocks, mostly.  Toadstool is taller than a dwarf, and
+ugly as a toad.  He is larger than any goblin you have seen, in fact; maybe
+Toadstool is orcish or half-orcish.  
+~
+dfglm k -500 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#28740
+goblin~
+the goblin~
+A goblin gnaws a bone here.
+~
+   That bone looks very tasty, but he probably won't share it.  
+~
+dfglm k -250 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 1
+E
+#28741
+groff troll cook~
+Groff the Troll~
+A huge hairy troll stirrs a bubbling pot.
+~
+   As you watch, safely hidden, he picks up a dead goblin and throws it into his
+pot, followed by a few spotted mushrooms and a halfling.  Then he catches sight
+of you, and wonders what flavor you'd add to his concoction.  Oops!  Should have
+stayed still, you idiot.  
+~
+bcdf k -800 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#28742
+mimic barrel~
+the mimic~
+A sturdy oaken barrel bound with iron hoops stands in the corner.
+~
+   This barrel has no tap, but perhaps you could borrow one from the goblins.  
+No, I doubt it.  Besides, there is something queer about that cask.  Did it just
+move?  
+~
+bdqr 0 10 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 0
+E
+#28743
+mimic cabinet~
+the mimic~
+A cabinet marked `Magical Items Only' stands in the corner.
+~
+   You nearly open the cabinet when you realize goblins don't write in the
+Common Speech.  Perhaps it's a trap.  
+~
+bdqr 0 10 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 0
+E
+#28744
+hybrid centipede cementipede~
+the Cementipede~
+A strange hybrid of stone and centipede prowls the caves.
+~
+   Half-crawler, half-concrete; it could only be the legendary Cementipede!  
+~
+deghnq k 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+BareHandAttack: 8
+E
+#28745
+goblin~
+the goblin~
+A drunken goblin staggers around.
+~
+   You don't want to THINK about what he's been drinking.  
+~
+dfglm k -250 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 1
+E
+#28746
+warg~
+the hungry warg~
+A hungry warg stands here, growling at you.
+~
+   The goblins sometimes ride wargs, and maybe this one is trained as a mount.
+You only know that the white fangs it now shows as it sees you approaching look
+very sharp.  
+~
+adfg k -350 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 0
+E
+#28747
+mold~
+the green mold~
+A peculiar green mold looks at you from the wall.
+~
+   Looks at you?  Molds don't usually have EYES!  But this one does.  
+~
+bdgqr k 0 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 0
+BareHandAttack: 1
+Str: 3
+Dex: 3
+Int: 3
+Wis: 3
+E
+#28748
+orc~
+the orc~
+An Orc guards the caves here.
+~
+   He is not as large as the usual Orc, probably half a goblin.  
+~
+bdfglm k -400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+4 8 1
+E
+#28749
+goblin~
+the goblin~
+A goblin miner chips away at the mountains' stony innards.
+~
+   He doesn't seem to be in the best of spirits.  It's been a long day.  
+~
+dfglm k -250 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#28750
+stalker~
+the Stalker~
+The invisible stalker is, fortunately, not after you.
+~
+   You can't see him.  
+~
+deglnpqr bcdefghkps -1000 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 0
+BareHandAttack: 10
+E
+#28751
+kobold~
+the kobold~
+A kobold slave hauls rubble for the goblins.
+~
+   He is always looking for a way to escape.  
+~
+cdg k -100 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#28752
+goblin~
+the goblin~
+A goblin miner rests here, out of his master's sight.
+~
+   He is not too tired to kill you with that big nasty pick.  
+~
+bdfglm k -250 E
+5 20 7 1d1+50 1d2+0
+50 2500
+5 5 1
+E
+#28753
+mimic boulder~
+the mimic~
+A great boulder nearly blocks the tunnel.
+~
+   Where did that thing come from?  It didn't just MOVE, did it?  Hmmm...  
+~
+bdqr 0 -10 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#28754
+goblin~
+the goblin~
+A goblin slave driver supervises the miners and cracks his whip!
+~
+   He lashes fiercely at you with that great whip when he sees you in his mine
+tunnels.  
+~
+cdfglm k -800 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+BareHandAttack: 2
+E
+#28755
+slave~
+the human slave~
+An Ofintine works as a goblin slave, with no hope of escape.
+~
+   The goblins captured him in a raid and now work him to death in their huge
+mines.  
+~
+dg 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#28756
+slave~
+the human slave~
+An Ofintine works as a goblin slave, with no hope of escape.
+~
+   The goblins captured her in a raid and now work her to death in their huge
+mines.  
+~
+dg 0 400 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 2
+E
+#28757
+goblin blacksmith~
+the goblin blacksmith~
+Wielding two great hammers, the goblin smith toils at his forge.
+~
+   His knotted, iron-hard muscles attest to long hours at the anvil.  
+~
+bdfglm k -800 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#28758
+goblin~
+the goblin~
+A goblin pumps the great forge-bellows here.
+~
+   He works at a furious pace as the overseer cracks his whip, to keep the
+goblins' iron furnace white-hot.  
+~
+dfglm k -250 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#28759
+kobold slave~
+the kobold slave~
+A kobold shuffles quickly about, carrying iron ore and lime.
+~
+   He avoids the whip nimbly as he feeds the roaring furnace.  
+~
+cdg k -100 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#28760
+giant overseer~
+the hill giant~
+A hill giant `encourages' the slaves with a huge flint-studded whip.
+~
+   He is not very bright, as few giants are, and might think you work here if
+you stay much longer.  Like any evil giant, he loves causing pain.  
+~
+bdfghlm k -900 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#28761
+mimic pig iron~
+the mimic~
+A glowing iron pig cools in the sand, away from the others.
+~
+   This iron pig seems to be chuckling softly.  Odd.  
+~
+bdqr 0 -10 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#28762
+ogre~
+the ogre~
+A large ogre trudges about, pushing boulders that must weigh tons.
+~
+   He looks very strong.  
+~
+bdghlm k -900 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#28763
+elf elven~
+an Elf~
+An Elven hunter stalks goblins here.
+~
+   He, like you, has crept into Goblin-Town to hunt goblins.  Seems as though he
+is doing a good job of it, so why not let him continue?  
+~
+degil defkt 1000 E
+6 19 6 1d1+60 1d2+1
+60 3600
+4 8 1
+E
+#28764
+dragon~
+the red dragon~
+A large red dragon stands here, angry that you disturbed his rest.
+~
+   He can't see you when he's sleeping, and you had best let him stay that way.
+
+~
+bdfgnoq dk -1000 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+4 8 0
+E
+#28765
+troll guard~
+the troll guard~
+A huge troll of the Olog-Hai stands guard here.
+~
+   Oh dear!  Time to leave the way you came in!  
+~
+bdfghlm k -900 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+BareHandAttack: 13
+Str: 24
+Int: 3
+Wis: 3
+E
+#28766
+orc~
+the orc~
+A large Orc stands here, looking for dinner.
+~
+   Offering him a waybread was a BAD idea, you now think.  Orcs don't like elves
+very much.  Well, they do like elves dead.  In fact, they like almost any meat.
+You probably look like a tasty meal.  
+~
+cdfg k -800 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#28767
+wall~
+the living wall~
+A section of stone wall has many treasures embedded in it.
+~
+   You have heard of walls that came alive by wicked sorcery and absorb great
+treasures within their magical masonry.  
+~
+bdenopqr dh -750 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 0
+E
+#28768
+mimic chest~
+the mimic~
+A fine iron-bound chest would catch any cabinetmaker's eye.
+~
+   The chest was truly the work of a master carpenter.  
+~
+bdqr 0 -10 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#28769
+goblin moragd~
+Moragd the Goblin~
+Moragd the Goblin stands here.
+~
+   Moragd is a great goblin warrior, son of Gorgh the Knob-headed.  
+~
+bdfghlm k -900 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#28770
+goblin gorgh~
+Gorgh the Goblin~
+Gorgh the Knob-Headed stands here.
+~
+   Gorgh, father of Moragd , is the greatest goblin warrior yet to taint this
+world.  
+~
+bdfghlm k -900 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#28771
+goblin Khos~
+Khos the Goblin~
+Khos the Greatnosed stands here.
+~
+   Khos, Gorgh, and Moragd are the three best soldiers of the Great Goblin.  
+~
+bdfghlm k -900 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#28772
+goblin~
+the goblin~
+A goblin warrior stands here.
+~
+   Ugly, slime-green, and bull-strong.  
+~
+dfglm k -400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#28773
+ogre guard Thrash~
+Thrash the Ogre~
+Thrash the Ogre Mercenary guards the Great Goblin.
+~
+   You are sure you have seen Thrash before, somewhere.  Maybe he was in the
+Grunting Boar the other day with Pippin.  Anyway, the Great Goblin has hired him
+as a bodyguard.  
+~
+bcdfglm dk -900 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+BareHandAttack: 10
+E
+#28774
+giant guard Throm~
+Throm the Giant~
+Throm the Giant guards the Great Goblin.
+~
+   You are sure you have seen Throm before, somewhere.  Maybe he was at the
+weapon shop the other day?  Anyway, the Great Goblin has hired this reknowned
+giant to guard his person.  
+~
+bcdfglm dk -900 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 1
+BareHandAttack: 13
+Str: 25
+Int: 3
+Wis: 3
+E
+#28775
+human guard Tarus~
+Tarus~
+Tarus the Swordpupil guards the Great Goblin.
+~
+   You are sure you have seen Tarus before, perhaps on BluemageMUD.  This sturdy
+human is one of the Great Goblin's bodyguards.  
+~
+bcdfglm d -900 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 1
+E
+#28776
+great goblin~
+the Great Goblin~
+The Great Goblin sees you and calls his guards!
+~
+   His head is bigger than any goblin's you have seen, and he is quite proud of
+it.  This goblin is quite strong, and quite ugly, and has quite a few guards
+around him.  Kill him, and King Korbor will repay you handsomely.  
+~
+bcdfglm k -990 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#28700
+key dark~
+a dark key~
+A key of dark black metal is here.~
+~
+18 c ao 0
+0 0 0 0
+1 1 0 0
+#28701
+key black~
+a black key~
+A black key of very hard metal lies here.~
+~
+18 c ao 0
+0 0 0 0
+1 1 0 0
+#28702
+key runed~
+a runed key~
+A key graven with evil runes lies in the dust.~
+~
+18 bcdh ao 0
+0 0 0 0
+1 1 0 0
+#28703
+key pale green~
+a pale green key~
+A key of pale-green oxidized copper lies here.~
+~
+18 cdh ao 0
+0 0 0 0
+1 1 0 0
+#28704
+key iron~
+an iron key~
+A key of dull iron lies in the dirt.~
+~
+18 c ao 0
+0 0 0 0
+1 1 0 0
+#28705
+key small black~
+a small black key~
+A small, black skeleton key lies in the dirt.~
+~
+18 bcdh ao 0
+0 0 0 0
+1 1 0 0
+#28706
+key bronze~
+a bronze key~
+A bronze key with intricate wards lies here.~
+~
+18 c ao 0
+0 0 0 0
+1 1 0 0
+#28707
+key huge iron~
+a huge iron key~
+A huge key, made of black iron, lies here.~
+~
+18 c ao 0
+0 0 0 0
+5 1 0 0
+#28708
+key blued steel~
+a blued steel key~
+A small key of blued steel lies here.~
+~
+18 ac ao 0
+0 0 0 0
+1 1 0 0
+#28709
+key red~
+a red key~
+A red-colored steel key lies unnoticed in the dust.~
+~
+18 c abo 0
+0 0 0 0
+1 1 0 0
+#28710
+key golden~
+a golden key~
+A golden key brazed to a fine gold ring lies here.~
+~
+18 ac ao 0
+0 0 0 0
+1 1 0 0
+#28711
+key silver~
+a silver key~
+An ornate silver key lies on the ground, unwanted.~
+~
+18 c ao 0
+0 0 0 0
+1 1 0 0
+#28712
+key copper~
+a copper key~
+An iron key has been copper plated to keep off rust.~
+~
+18 c ao 0
+0 0 0 0
+1 1 0 0
+#28713
+cheese~
+some cheese~
+A large wedge of cheddar cheese gathers a lovely mold here.~
+~
+19 0 ao 0
+8 0 0 0
+2 1 0 0
+#28714
+key bright iron~
+a bright iron key~
+This bright iron key can open a lock, somewhere.~
+~
+18 c ao 0
+0 0 0 0
+1 1 0 0
+#28715
+juice brew strange bottle juice~
+a bottle~
+A large lumpy bottle of some strange brew is here.~
+~
+17 0 a 0
+3 3 9 1
+8 1 0 0
+#28716
+chest bronze~
+an ugly bronze chest~
+A bronze chest, made ugly with grotesque bas-reliefs, stands here.~
+~
+15 0 0 0
+200 15 8105 0
+0 0 0 0
+#28717
+potion oily black~
+an oily black potion~
+A bottle of oily black liquid lies on its side.~
+~
+10 g a 0
+25 27 27 46
+2 50 0 0
+#28718
+crown~
+King Korbor's crown~
+The crown of the Lonoyan king rolls by and falls flat with a clang.~
+~
+9 aeik ae 0
+1 0 0 0
+2 250 0 0
+E
+crown~
+   As you turn the crown over in your hands, you feel twice the warrior you used
+to be, ready even to lead an army into battle.  Surely no magic can harm such a
+great one as wears this crown.  
+~
+A
+6 1
+A
+18 1
+A
+24 -2
+#28719
+whisky bottle scotch whisky~
+a bottle~
+A bottle of Inver House blended whiskey lies here.~
+~
+17 0 ao 0
+20 14 5 0
+19 5 0 0
+E
+bottle~
+   It is sealed with a metal cap.  You KNOW this stuff is bad,bad,bad.  It is
+probably not single-malt.  More likely eight malt.  
+~
+#28720
+bowl stew bigos~
+the bowl of bigos~
+A steaming bowl of Polish hunters' stew has been left here.~
+~
+19 0 ao 0
+10 0 0 0
+3 12 0 0
+E
+bowl stew bigos~
+   It is the famous Polish hunters' stew that was immortalized in Adam
+Mickiewicz' epic poem Pan Tadeusz.  Venison and other meats are boiled with
+kapusta (sauerkraut) to make a delicious dinner, fit for King Korbor of Lonoya.
+
+~
+#28721
+apple~
+an apple~
+A lovely yellow apple with gold flecks and red cheeks lies here.~
+~
+19 0 ao 0
+2 0 0 0
+1 3 0 0
+#28722
+walnuts nuts~
+some walnuts~
+The squirrels have left a few nuts here.~
+~
+19 0 a 0
+3 0 0 0
+2 10 0 0
+#28723
+shirt~
+a plain shirt~
+A Lonoyan man's shirt lies in a crumpled heap.~
+~
+9 0 ad 0
+1 0 0 0
+1 10 0 0
+#28724
+shortgown gown~
+a shortgown~
+A Lonoyan woman's shortgown hangs forgotten on a nearby peg.~
+~
+9 0 ad 0
+1 0 0 0
+1 10 0 0
+#28725
+pants breeches~
+a pair of breeches~
+Some Lonoyan left in such a hurry, he forgot his breeches.~
+~
+9 0 af 0
+1 0 0 0
+1 20 0 0
+#28726
+skirt~
+a skirt~
+A skirt lies here.~
+~
+9 0 ad 0
+1 0 0 0
+1 20 0 0
+#28727
+boots~
+high boots~
+A pair of clodhoppers lies here.~
+~
+9 0 ag 0
+3 0 0 0
+4 200 0 0
+#28728
+kerchief~
+a kerchief~
+A kerchief lies here.~
+~
+9 0 ace 0
+0 0 0 0
+1 3 0 0
+#28729
+bandanna neckerchief~
+a bandanna~
+A large red neckerchief is draped over a stone.~
+~
+9 0 ace 0
+2 0 0 0
+3 200 0 0
+#28730
+claymore sword~
+a claymore~
+A claymore lies here.~
+~
+5 n an 0
+0 1 12 3
+10 1000 0 0
+#28731
+claymore sword~
+the claymore of MacLeod~
+A beautiful claymore with an engraved hilt lies here.~
+~
+5 agikmno an 0
+0 2 12 3
+10 1000 0 0
+E
+hilt claymore sword engravings~
+   The hilt is engraved with one word, a name ;it is the name "MacLeod".  
+~
+A
+1 1
+A
+6 1
+A
+18 5
+#28732
+spear long~
+a long spear~
+A fifteen-foot spear is hung on the wall here.~
+~
+5 n an 0
+0 2 6 11
+3 300 0 0
+#28733
+hand axe~
+a hand axe~
+A hand axe lies here.~
+~
+5 n an 0
+0 1 7 3
+3 10 0 0
+#28734
+axe~
+a battle axe~
+A battle axe lies here.~
+~
+5 n an 0
+0 1 9 3
+8 90 0 0
+#28735
+dirk knife~
+a dirk~
+A long, single-edged knife lies here.~
+~
+5 n an 0
+0 1 4 11
+1 15 0 0
+#28736
+quarterstaff staff~
+a quarterstaff~
+A quarterstaff lies here.~
+~
+5 0 an 0
+0 1 6 5
+9 340 0 0
+#28737
+broadsword sword~
+a broadsword~
+A broadsword lies here.~
+~
+5 n an 0
+0 2 4 3
+4 800 0 0
+#28738
+chain mail shirt~
+a mail-shirt~
+A shirt of chain mail lies in a heap.~
+~
+9 m ad 0
+6 0 0 0
+15 300 0 0
+#28739
+helm~
+a helm~
+An open-faced helm lies on its side.~
+~
+9 m ae 0
+6 0 0 0
+6 465 0 0
+#28740
+green cloth cloak~
+a green Elven cloak~
+A pile of forest green cloth lies in a crumpled heap.~
+~
+9 gikl ak 0
+1 0 0 0
+2 1000 0 0
+A
+14 50
+A
+18 2
+A
+24 -2
+#28741
+cloak cloth red~
+a red cloak~
+A pile of red cloth lies on the ground.~
+~
+9 0 ak 0
+1 0 0 0
+2 10 0 0
+#28742
+cloak cloth blue~
+a blue cloak~
+A pile of blue cloth lies on the ground.~
+~
+9 0 ak 0
+1 0 0 0
+2 15 0 0
+#28743
+cloak cloth green~
+a green cloak~
+A pile of green cloth lies on the ground.~
+~
+9 0 ak 0
+1 0 0 0
+2 9 0 0
+#28744
+backpack~
+a backpack~
+A backpack lies here.~
+~
+15 0 ak 0
+100 1 -1 0
+8 400 0 0
+#28745
+water flask pint water~
+a pint flask~
+A glass flask lies here.~
+~
+17 0 ao 0
+6 6 0 0
+11 100 0 0
+#28746
+water skin water~
+a water skin~
+A water skin lies here~
+~
+17 0 ao 0
+24 24 0 0
+29 100 0 0
+#28747
+robe~
+a robe of pockets~
+A many-pocketed robe lies here.~
+~
+15 ag ak 0
+1000 0 -1 0
+2 1000 0 0
+A
+17 -5
+#28748
+robe~
+a white robe~
+A white robe lies here.~
+~
+9 0 ak 0
+2 0 0 0
+4 300 0 0
+E
+white robe~
+   This robe is worn by only the most prestigious.  An aura of peace and
+contentment surrounds the robe.  Making it feel almost other worldly.  The
+fabric is soft and very pliable.  This robe would be very comfortable to wear.
+  
+~
+#28749
+shield medium wooden~
+a medium shield~
+A medium-sized wooden shield lies in the dust.~
+~
+9 0 aj 0
+6 0 0 0
+10 400 0 0
+#28750
+bow short~
+a short bow~
+A short bow lies here unstrung, its string wrapt round its stave.~
+~
+5 0 an 0
+0 1 6 11
+5 150 0 0
+#28751
+breastplate plate leather~
+a rigid leather breastplate~
+A breastplate made of leather hardened in hot oil lies here.~
+~
+9 0 ad 0
+4 0 0 0
+9 400 0 0
+#28752
+jacket studded leather~
+a studded leather jacket~
+A leather jacket studded with metal plates lies in a heap.~
+~
+9 0 ad 0
+5 0 0 0
+12 800 0 0
+#28753
+flask healing draught~
+the healing draught~
+A small flask full of an aromatic, and alcoholic, fluid.~
+~
+10 g ao 0
+5 16 16 16
+10 550 0 0
+E
+flask~
+   It is engraved with these arcane runes:
+ 
+                      judicandus dies
+~
+#28754
+flask sight elixir~
+the draught of sight~
+A small flask of clear, glimmering liquid.~
+~
+10 g ao 0
+10 14 18 20
+1 150 0 0
+#28755
+flask life elixir~
+the elixir of life~
+A small flask of fragrant golden liquid.~
+~
+10 g ao 0
+10 28 39 48
+1 200 0 0
+#28756
+flask evil's bane potion~
+the potion of evil's bane~
+A large vial of bubbling red fluid lies here, firmly capped.~
+~
+10 g ao 0
+10 22 35 43
+1 200 0 0
+#28757
+scroll~
+a scroll of enchantment~
+A scroll labelled "To Augment Thy Craftsmanship" lies here.~
+~
+2 g ao 0
+30 24 3 201
+1 1000 0 0
+#28758
+scroll~
+a scroll of stormbringing~
+A scroll labelled "To Bring the Spring Rains" lies here.~
+~
+2 g ao 0
+30 11 -1 -1
+1 500 0 0
+#28759
+scroll~
+a scroll of battle-might~
+A scroll labelled "To Increase Thy Fighting Spirit" lies here.~
+~
+2 g ao 0
+30 1 3 39
+1 150 0 0
+#28760
+scroll~
+a scroll of lore~
+A scroll labelled "The Legend of Nambor" lies here.~
+~
+12 0 ao 0
+0 0 0 0
+1 100 0 0
+E
+scroll~
+                       The Legend of Nambor.            
+    In days now forgotten to any but the living God, there lived a
+    valiant Man, Nambor by name, who dared enter the evil tunnels 
+    in the bowels of the mountains.  From Symtoto he came, through
+    paths untrodden, until after great struggle he found a shaft 
+    leading down into deep darkness.  But that was the start of poor
+    Nambor's trials, for he found the entrance was too high to leave
+    through. Now must he roam the tunnels of the evil creatures that
+    gnaw the rocks of the Underdark, till God shows him an escape 
+    from the tunnels, or from this world.
+    And bravely he went forth, ever climbing deeper, sword clutched 
+    in hand.  And 'tis said by the elves that he saw there many a 
+    marvel; rocks that turned into vile beasts when touched, and 
+    unseen creatures that lurked in the shadows.  And some there are
+    that say he escaped at last, but others say he never left, but
+    died in the dark, broken sword still in his hand.
+    And now these tunnels are full of goblins, yet still some of the
+    nameless things Nambor fought remain.  Where now is one willing
+    to enter and discover the ancient hero's fate? Where now is the
+    hero, to save Lonoya from the goblins?
+                                                     Cwell the Bard
+~
+#28761
+ring opal golden~
+an opal ring~
+A fine gold ring set with an opal lies on the ground.~
+~
+9 egik ab 0
+0 0 0 0
+1 600 0 0
+A
+12 20
+A
+18 2
+#28762
+gold~
+the gold of King Korbor~
+A huge pile of gold is here.~
+~
+20 0 a 0
+1000 0 0 0
+1 1 0 0
+#28763
+knife goblin~
+a goblin knife~
+A jagged black knife with a goblin-head carved on its hilt lies here.~
+~
+5 n an 0
+0 1 5 14
+1 50 0 0
+E
+hilt~
+   It is a hideous, leering goblin head carved in bone.  
+~
+#28764
+scimitar goblin~
+a goblin scimitar~
+A blackened scimitar engraved with evil runes lies here.~
+~
+5 ghjn an 0
+0 1 7 3
+4 200 0 0
+A
+18 1
+A
+19 1
+#28765
+club goblin~
+a goblin's club~
+A large human bone set with cruel jagged spikes lies here.~
+~
+5 ghj an 0
+0 2 4 6
+6 400 0 0
+A
+19 2
+#28766
+bow goblin~
+a goblin's shortbow~
+A shortbow of ogre horn backed with sinew lies here.~
+~
+5 ghj an 0
+0 1 6 11
+6 600 0 0
+A
+19 1
+#28767
+spear goblin~
+a goblin's spear~
+A short spear with a broad blade lies here.~
+~
+5 ghjn an 0
+0 1 8 14
+3 100 0 0
+A
+18 1
+A
+19 2
+#28768
+poleaxe jagged goblin~
+a poleaxe~
+A jagged, black, rune-carved poleaxe is stuck into the ground.~
+~
+5 ghjn an 0
+0 2 4 3
+10 120 0 0
+A
+18 1
+A
+19 3
+#28769
+elven chainmail mail~
+the elven chain mail~
+A hauberk of mithril rings lies here.~
+~
+9 gikl ad 0
+7 0 0 0
+6 150 0 0
+A
+13 20
+A
+24 -2
+#28770
+elven bow~
+the elven hunting bow~
+An elvish bow of aurodiea wood lies here.~
+~
+5 gikl an 0
+0 1 8 11
+4 220 0 0
+A
+18 2
+A
+19 2
+#28771
+broadsword sword fine krat~
+a fine broadsword named "Krat"~
+A finely crafted broadsword must have been plundered from Lonoya.~
+~
+5 n an 0
+0 2 5 3
+7 1000 0 0
+E
+broadsword sword~
+   The mark "D.  F.  " with a stamped-in hammer is on its hilt, and the blade
+bears the name "Krat".  Perhaps it is magic?  But its blade, at least, is very
+well-tempered, and its edge razor-sharp.  
+~
+A
+19 2
+#28772
+platemail red~
+the red platemail~
+Some sturdy but ugly platemail has been painted over red. Doesn't help.~
+~
+9 ghjlm ad 0
+10 0 0 0
+50 1000 0 0
+A
+17 -10
+#28773
+mace huge black~
+a huge black mace~
+A huge black club with metal bands lies here.~
+~
+5 hjl an 0
+0 3 8 6
+20 1000 0 0
+#28774
+collar iron toadstool~
+Toadstool's iron collar~
+An iron collar lies in the dirt. It has some writing on it.~
+~
+9 hjl ac 0
+8 0 0 0
+8 1000 0 0
+E
+collar writing~
+   It is in orcish:
+                     I AM TOADSTOOL THE MIGHTY
+                       NONE SHALL DEFEAT ME
+~
+#28775
+toadstool goblin head~
+Toadstool's head~
+A severed goblin head lies here.  Looks tasty.~
+~
+12 cmnop ae 0
+0 0 0 0
+10 200 0 0
+#28776
+goblin hide~
+a goblin hide~
+The hide of a goblin lies on the ground, smelling very bad.~
+~
+12 c ak 0
+0 0 0 0
+8 600 0 0
+#28777
+apron~
+a pink apron~
+A frilly pink apron, stained with blood, is on the ground.~
+~
+12 0 al 0
+0 0 0 0
+1 10 0 0
+#28778
+scimitar horrible orcish~
+an orcish scimitar~
+A horrible jagged scimitar of orcish make is stuck into the ground.~
+~
+5 bdeghjlnop an 0
+0 2 4 11
+5 1000 0 0
+A
+1 -4
+A
+18 5
+A
+19 5
+#28779
+gold~
+the gold~
+A gigantic mountain of plunder is piled in every corner.~
+~
+20 0 a 0
+1000 0 0 0
+1 1 0 0
+#28780
+chest crude~
+a crude chest~
+A crude wooden chest sits here.~
+~
+15 0 a 0
+200 13 8103 0
+50 1 0 0
+#28781
+chest ebony~
+an ebony chest~
+An ebony chest sits here.~
+~
+15 0 a 0
+400 13 8111 0
+50 1 0 0
+#28782
+chest pine~
+a pinewood chest~
+A light chest of pine sits here.~
+~
+15 0 0 0
+100 15 8112 0
+0 0 0 0
+#28783
+pick~
+a small pick~
+A mining pick lies here, discarded.~
+~
+5 n an 0
+0 1 6 9
+8 100 0 0
+#28784
+pick orcish~
+an orcish pick~
+A mining pick lies here, discarded.~
+~
+5 hjn an 0
+0 1 6 12
+8 1000 0 0
+A
+19 4
+#28785
+tub~
+a tub of dirty water~
+A tub of dirty water for quenching tools sits here.~
+~
+23 0 0 0
+999 999 14 1
+0 0 0 0
+E
+water tub~
+   It doesn't look too good.  I wouldn't drink it if I were you!  
+~
+#28786
+well jakur~
+the  Well of Jakur~
+You stand by the ancient Well of Jakur, delved thousands of years ago.~
+~
+23 0 0 0
+9999 9999 15 0
+10004 0 0 0
+#28787
+wine fountain wine~
+the wine fountain~
+A magical fountain of marble spouts the blood-red wine.~
+~
+23 g 0 0
+999 999 2 0
+0 0 0 0
+E
+wine fountain~
+   The fountain is filled with cheap, but not sour, wine.  
+~
+#28788
+safe picture~
+the large portrait~
+A portrait of King Korbor in robes of state hangs on the wall.~
+~
+15 0 0 0
+20 15 28714 0
+0 0 0 0
+E
+portrait~
+   It is an oil-on-wood portrait of the good King.  No, you can't steal it, my
+friend.  It is, strange to say, firmly bolted to the wall, not hung from the
+usual nail.  
+~
+#28789
+waybread~
+some waybread~
+Some waybread has been placed here.~
+~
+19 0 a 0
+24 0 0 0
+1 10 0 0
+#0
+
+#ROOMS
+
+#28700
+A Narrow Crawlway~
+   Ouch!  You can barely squeeze through this passage, which is only a foot and
+a half high.  It was also hidden behind a stone block; that is, no doubt, the
+reason the goblins have not tried to follow you, being too weak to move it.  
+You, however, can still shove it aside, should you wish to slither north.  The
+wide passage to the south looks much, much more inviting, however.  
+~
+287 adei 5
+D0
+The crawlway opens into a large cave, crudely hewn from the stone.
+~
+breakdown block~
+1 -1 -1
+D2
+The crawlway is not really that long; it opens out to the south.
+~
+~
+0 -1 28701
+E
+credits info~
+   *Shattered Farmlands of Ofingia
+*Written by Kaan for Dibrova
+Level: 8 - 15
+94 rooms
+13 mobs
+27 objs
+Connector Zones: Ofingia
+After making Ofingia a Hometown on Dibrova and having it basically in
+the middle of BFE, I decided it might be a good idea to stick a zone
+in that would be close in proximity to Ofingia and have some mobs
+available that were low level, made just for players fresh out of the
+Newbie Zones.
+This is not a very exciting area, I will be the first to admit. There
+are a number of same-room descrips in this one that make the zone
+slightly blah. The objs are all intended to be for lower level players,
+same as the mobs. The plot is supposed to feed off the already existing
+plot that Ofingia had from the start:
+The goblins have the town under seige, they have ransacked these
+farmlands in an attempt to prohibit the town from having any food
+supplies. They constantly come in and loot and burn everything they
+can find to further the town's losses. The Lord of Jareth has sent in
+a retinue of his finest to help quell the threat, however they are
+unaffective against the numbers of goblins in the area.
+Hope you like it.
+Exits: 07s, 16s
+~
+S
+#28701
+A Tunnel in the Mountains~
+   It is very easy to walk here.  A forgotten river has carpeted this cave soft,
+sandy clay, and streaked the walls with frozen ripples.  The north wall has a
+small crack in it, and to the south this wide tunnel becomes higher, and
+slightly narrower.  A shadow on the west wall implies a tunnel mouth, leading
+out of your lantern's reach.  
+~
+287 ad 0
+D0
+You look at the north wall.  Maybe you could fit through there.
+~
+~
+0 -1 28700
+D2
+It looks like a pleasant, though dark, walk to the south.
+~
+~
+0 -1 28702
+D3
+A small dog-leg branches off the cavern here.
+~
+~
+0 -1 28733
+S
+#28702
+A Tunnel in the Mountains~
+   What a lovely place!  It is not wide here - your shoulders fit, with little
+room for company.  You judge the cavern roof to be at least 70 feet above your
+head.  Crystal formations in the rippled walls split torchlight into countless
+sparks of flame, reflected from the quartz veins which embroider the stone in a
+timeless brocade.  The walls are mainly vertical, but taper outwards enough to
+support a block of breakdown, hanging like Damocles' sword, fifteen feet up.  I
+doubt it will fall, however.  The tunnel is lower but wider to the north.  A
+small stream trickles from a tiny hole, high up on the wall, to exit through a
+small tunnel to the south.  To the east, a larger cave continues to a bend.  
+That boulder troubles you.  Anxiously you examine its support, and notice some
+writing on the wall.  There is a NEWLY CARVED SIGN here.  Read it!  
+~
+287 ad 2
+D0
+The tunnel widens and lowers to the north, seemingly to a dead end.
+~
+~
+0 -1 28701
+D1
+Your light shows a bend, close by to the east.
+~
+~
+0 -1 28705
+D2
+The small stream trickles south.
+~
+~
+0 -1 28703
+E
+writing wall~
+   The runes are of a well-known mode, but you know not the tongue.  They say
+something like this: Tuo sdael lennut nretsae.  Retsasid ot sdael lennut htuos.
+Ekat ot eno eht si nretsae eht Htaed ylrae na diova ot tnaw uoy fi.  Nam
+Mooreeffoc Eht Morf.  What could it mean?  
+~
+E
+new sign~
+                         Notice!
+                    The eastern tunnel
+                    Has been repaired.
+                    It is now safe ;so
+                    Thrash and Pippin 
+                    Won't die here again.
+~
+S
+#28703
+A Narrow Ledge~
+   The stream plunges downward, to join another, which foams and rages far below
+you in a deeply cleft canyon.  You hear nothing above the water's roar.  Like a
+cat you tread on a spray-wet ledge only six inches wide.  Not a nice place.  
+You do not look down as you continue.  A traveler must count courage among his
+baggage, no?  Perhaps you will be repaid.  Through the mists to the south you
+glimpse a golden gleam.  To go there you must creep cautiously along a ledge too
+narrow for a surefooted cat, and slippery as fish skin.  It is not too late to
+turn back!  A narrow crevasse leads down the cliff, but only an acrobat could
+turn round and descend it.  Your nose brushes an inscription.  
+~
+287 adhi 5
+D0
+The wise (if poor) man may return north to a larger cave.
+~
+~
+0 -1 28702
+D2
+Your grandmother told you once of a lost gold mine in these mountains.
+~
+~
+0 -1 28704
+E
+inscription~
+   It is in every known language, and some others: W A R N I N G ! ! ! The Ledge
+to the South is Unsafe!!  
+~
+S
+#28704
+The Fall is Fine but the Landing Hurts~
+   You have found the lost mine!  Chunks of gold ore litter the ground, as large
+as your head!  Among them lie rough, long-ago mined rubies.  In haste to enter
+the mine, and gather the riches therein, you step from the tiny ledge to the
+broad flat table of stone near the mine entrance.  That is, you try to step that
+way...  Your feet slip.  Oh dear.  
+~
+287 ad 0
+S
+#28705
+A Short Tunnel~
+   This tunnel does not go very far.  Soon it bends again to the south.  A
+strong draft blows from there.  The walls here are no longer rippled, but
+smooth, and covered with writing.  There are many small inscriptions, but you
+can only read three: one in orcish, another in common, and a third, written
+large by a firm hand, in the secret dwarven tongue.  Looking closer, you see
+another, in ogrish.  
+~
+287 ad 1
+D2
+You see a glimmer of daylight, not very far away.
+~
+~
+0 -1 28706
+D3
+You can go west, to examine that odd inscription.  Or that small cave.
+~
+~
+0 -1 28702
+E
+orcish inscription~
+   It says, more or less: Krsd be al tem blude noms Krsd be al tem blude dwrvs
+Krsd be al tem blude elfs Krsd be da hobits but tey tasty Haf ogrs aint bad
+fokes Rit by Orfax da orc
+~
+E
+common~
+   This is easily read: O traveler!  Beware!  For goblins live near here!  
+~
+E
+dwarvish secret~
+   Hmm...  It's common after all, though it uses the dwarf runes.  Good for you,
+if you are not a dwarf who knows the secret tongue.  It says: Went east from the
+cave to Sorvecgden town.  Passed this way Monday, fourth of Yule month.  Tell
+Gloin his wife is cheating on him.  I know because she cheats with me.  Dorig of
+the Foehammers.  
+~
+E
+ogrish~
+   Ugh...  Anyone...  Anyone pass this way...  Thrash need help...  Can anyone
+read this need to know....  Where Thrash buy torches...  ...  Ugh...  Thrash the
+Ogre
+~
+S
+#28706
+The Tunnel's Entrance~
+   O traveler from Midgard, your journey has not ended, but begun!  You are just
+inside a cave entrance.  It stretches far into mountain-darkness.  Just to your
+east, an underground stream leaves a lower cave.  If the the same water flows
+inside the cave, it must have passed under your feet at a lower level, for it is
+in a gorge seventy or more feet deep.  To your south you see the smooth line of
+a road cutting the woods.  A sign is carved into the stone here.  
+~
+287 d 0
+D0
+You may go further into the dark cave.
+~
+~
+0 -1 28705
+D2
+The road looks like a good place to take a pleasant walk.
+~
+~
+0 -1 28707
+E
+sign~
+                        ___________________________
+                        |This Cave in the Mountain|
+                        |         -------         |
+                        |  Was Delved by Pippin   |
+                        |  Year of Our Lord 1997  |
+                        |_________________________|
+~
+S
+#28707
+The Old Plank Road~
+   Your feet resound on the planks of this road, built for safe travel in times
+long past by Korbor the Fat, King of Lonoya.  The plank-paved road winds east
+and south.  A milestone stands near.  A sign stands at the intersection of this
+fine road, and the path to the mountain cave.  The dirt road to the south used
+to be blocked but now the way has been cleared.  
+~
+287 g 1
+D0
+A grass-grown path leads to a cave in the north.
+~
+~
+0 -1 28706
+D1
+The road continues east to a city.
+~
+~
+0 -1 28708
+E
+milestone mile stone~
+   It says "Sorvecgden-Lacgorr 6 stadia"
+~
+E
+sign~
+   It has boards with fingers pointing north, south, and west.
+
+                          EAST - Ofingia
+                          SOUTH - Sorvecgden-Lacgorr 
+                          NORTH - Midgaard
+              Welcome, Stranger, to the Fiefdom of Lonoya.
+              You of good will may wander freely through
+              our kingdom.  Report all strange happenings
+              to Pippin, Emperor of the Lands of Eighty One.
+~
+S
+#28708
+The Old Plank Road~
+   A stone bridge crosses Snofur Creek here, which flows in a ravine about
+eighty feet deep, if only twenty-five yards wide, as it flows from a small cave
+in the mountains.  You would need wings to go down there.  This gorge certainly
+serves Ofingia well as a moat; the bridge has a wooden section that may easily
+be removed during a siege.  
+~
+287 g 1
+D1
+Ofingia's gate is right across the river.
+~
+gate wooden~
+1 28707 28709
+D3
+You can still go back west.
+~
+~
+0 -1 28707
+S
+#28709
+King's Way~
+   If it annoyed you to journey so far to see such a tiny town as Ofingia, you
+are somewhat placated by the sight of a homely inn to your south.  It is not as
+large as the Grunting Boar, but as a sailor will take any port in a storm, you
+will drink anywhere after abstaining so long!  Though Ofingia is a city under
+siege nowadays, with all the goblin raids, still Reilly keeps the inn open.  
+~
+287 0 0
+D1
+The King's Way continues east.
+~
+~
+0 -1 28710
+D2
+A fine, homely inn lies south.  A sign stands there.
+~
+door oak~
+1 -1 28728
+D3
+A great gate lies some yards west.  It is richly carved.
+~
+gate wooden~
+1 28707 28708
+E
+sign~
+                The Crossbow Inn
+                By Reilly Morgan
+~
+S
+#28710
+A Small Square~
+   Once this small park was a restful place to spend a Sunday afternoon; now
+that almost all Ofintines have either left or taken up arms to defend their
+town, the only folk seen here are off-duty guards and those who come to draw
+water.  A shed stands to the south, and a tiny church to the north.  
+~
+287 0 0
+D0
+The church has a large sign hanging on its front wall.
+~
+churchdoor~
+1 -1 28718
+D1
+King's Way runs a little farther east.
+~
+~
+0 -1 28711
+D2
+There is a torn sign on the shed which says "Z. Rykalp, Sheriff"
+~
+~
+0 -1 28727
+D3
+What? Leaving town already?
+~
+~
+0 -1 28709
+E
+church sign~
+   It says: St.  John Nepomucene Church Today's Sermon: Ogres and the Gospel:
+Can they be saved?  
+~
+S
+#28711
+King's Way~
+   Small stores lie north and south of you as you walk toward the market square
+of Ofingia.  The northern building is an open shed, where a blacksmith is busily
+pounding iron.  To the south, a carpenter's shop fills the air with the
+fragrance of wood smoke - and a lot of it; he's burning shavings.  
+~
+287 0 0
+D0
+You hear a hammer thumping on hot iron, and ringing on the anvil.
+~
+~
+0 -1 28719
+D1
+You hear the patter of hurrying feet, and knights' heavy tread.
+~
+~
+0 -1 28712
+D2
+A burly dwarf leaves that way, carrying a log on one shoulder.
+~
+~
+0 -1 28714
+D3
+What's the matter? Don't you like this town? 
+~
+~
+0 -1 28710
+S
+#28712
+The Market Square~
+   The clink of mail and the tramp of marching feet fill the air of this
+once-peaceful square, as the citizens patrol their town, watching out for
+enemies.  A general store stands to the north.  
+~
+287 0 0
+D0
+You hear someone cursing shoplifters.
+~
+~
+0 -1 28720
+D1
+This market square is at least four times as large as Midgaard's.
+~
+~
+0 -1 28721
+D2
+This market square is at least four times as large as Midgaard's.  
+~
+~
+0 -1 28713
+D3
+You really do hate Ofingia, don't you?
+~
+~
+0 -1 28711
+S
+#28713
+Southwestern Market Square~
+   You see the carpenter's yard behind several houses to the west, but a board
+fence prevents you from walking to it.  Someone has scrawled on the fence with
+chalk.  To the south a road runs through Ofingia.  
+~
+287 0 0
+D0
+The clamor of a market square echoes all around you.
+~
+~
+0 -1 28712
+D1
+Still a market square here.
+~
+~
+0 -1 28722
+D2
+This seems to be a better part of town.
+~
+~
+0 -1 28715
+D3
+You hear the thunk of an axe.
+~
+~
+0 -1 28714
+E
+fence chalk~
+   It says, "Keep an eye peeled!  The goblins are crafty.  "
+~
+S
+#28714
+Joel Kreb's Fine Woodbutchery~
+   Joel is a very busy man.  He tells you so.  Only now he is sitting on a
+sawhorse with a mug of ale.  Well, all that sawdust makes a man thirsty, don't
+you know!  He can make just about anything you want, if it is wooden, but just
+now has only a few items in stock.  He might list them for you, if you asked
+really nicely.  
+~
+287 d 0
+D0
+A small street is north of here.
+~
+~
+0 -1 28711
+D1
+You can see a wide street past Joel's saw pit.
+~
+~
+0 -1 28713
+S
+#28715
+Drovers' Street~
+   Once farmers drove their herds of cattle through this now-fancy part of
+Ofingia, on the way to the Market Square.  No more.  It has been paved, and far
+fewer hogs roam here than on King's Way.  
+~
+287 0 0
+D0
+North leads you to the market square.
+~
+~
+0 -1 28713
+D1
+Eastwards is the Great Hall of Ofingia
+~
+door~
+1 -1 28723
+D2
+Drovers' Street runs south.
+~
+~
+0 -1 28716
+S
+#28716
+Inside the South Gate of Ofingia~
+   Well, now you have reached the end of Ofingia's small noble district.  To
+your south is a great gate, and to your east, a strongly built stone house.  
+~
+287 0 0
+D0
+Why don't you go to City Hall and answer your 200 counts of burglary?
+~
+~
+0 -1 28715
+D1
+This appears to be a barracks of the town guards
+~
+door strong oak~
+2 28709 28717
+S
+#28717
+The Guard Headquarters~
+   This is where the men that guard Ofingia keep their dinner pails.  Look
+around!  You may find a dagger, but most of the weapons are in use.  Why would
+they leave them here while they were on patrol?  And as for finding money, don't
+bother!  Only in Midgaard do foolish guards keep 32000 gold coins where Pippin
+or any old thief can steal them.  
+~
+287 d 0
+D0
+A red door leads north to the city hall.
+~
+door red~
+2 28709 28723
+D3
+A strong oak door leads west to the street outside.
+~
+door strong oak~
+2 28709 28716
+S
+#28718
+The Church of St. John Nepomucene.~
+   It is small, but adequate, and defensible.  This last is the most important
+in these dangerous times.  You find no idols here, the Ofintines are a Christian
+nation.  
+~
+287 deh 0
+D2
+You can leave and go to the town square.
+~
+churchdoor~
+1 -1 28710
+S
+#28719
+Dorig Foehammer's Smithy~
+   You can only watch with awe as Dorig, the famed dwarven warrior-smith.  
+Forges a bar of iron into a knife blade in fifteen minutes.  He makes some fine
+swords and chain mail, but good armor doesn't come cheap!  A battle axe hangs on
+the wall.  
+~
+287 d 0
+D2
+You can leave and avoid the sparks of molten iron that fly thick here.
+~
+~
+0 -1 28711
+E
+axe wall~
+   The wall-hung axe is too high to reach, but you can see it is named
+"Lucille".  
+~
+S
+#28720
+Maxtrum Holloknob's Dry Goods~
+   Max will buy anything low and sell it high, useful or not.  Most of it is
+useless to you, anyway.  Why would you want nails, or pots and pans, or tulip
+bulbs?  Horseshoes don't seem like a good thing to carry on a long journey,
+either.  Max also carries a few staple items for you fool adventurers, too,
+which he would gladly list.  A strange sign with darts stuck in it is hung on
+the wall.  
+~
+287 d 0
+D2
+You can go find a cheaper store somewhere else in Market Square.
+~
+~
+0 -1 28712
+E
+sign wall symbol~
+   There are also some crossbow quarrels driven into this picture of a
+leprechaun, who is grinning and holding a bag of gold.  It is not a great work
+of art; perhaps the shopkeeper has a grudge against leprechauns.  
+~
+S
+#28721
+Northeastern Market Square~
+   Here is a quiet corner of the bustling square.  A wooden store to the north
+is busy enough, but nobody ever goes into the store to the east as you watch its
+door.  Maybe it is closed.  
+~
+287 0 0
+D0
+The smell of tanned leather comes from the north.
+~
+~
+0 -1 28729
+D1
+Tucked between two large houses is a tiny black granite building.
+~
+~
+0 -1 28730
+D2
+There is more of the square to the south.
+~
+~
+0 -1 28722
+D3
+There is more of the square to the west.
+~
+~
+0 -1 28712
+S
+#28722
+Southeastern Market Square~
+   The fragrance of fresh bread fills the air here.  Ofintine bread is
+considered the best in the world by those who know what REAL bread tastes like.
+
+~
+287 0 0
+D0
+There is more of the square to the north.
+~
+~
+0 -1 28721
+D1
+A delicious smell of fresh bread comes from the east.
+~
+~
+0 -1 28731
+D2
+You have no idea what kind of store this is; it has no windows.
+~
+~
+0 -1 28732
+D3
+There is more of the square to the west.
+~
+~
+0 -1 28713
+S
+#28723
+The Great Hall~
+   Two rows of tall wooden pillars marching down this hall support its roof on
+their sturdy heads.  A central fireplace warms it, and the smoke rises to a
+louvre in the highest part of the tall gable.  This ancient hall reminds you of
+those described in the old tales of Midgaard, but here is one still standing,
+and used for its old purpose, for you see a great throne glittering in gold to
+the north.  Oh yes; a spiral iron stair leads down.  An inscription is carved
+into the wooden wall above it.  There is a door, and a sign, to the south.  
+~
+287 d 0
+D1
+You see more of the hall.
+~
+~
+0 -1 28726
+D2
+A red door has a sign posted on it.
+~
+door red~
+2 28709 28717
+D3
+You can leave the hall to the west.
+~
+door~
+1 -1 28715
+D5
+A stairway leads down.
+~
+~
+0 -1 28724
+E
+inscription~
+                        Down:Ofingian Public Library
+                             And Book Store.
+                             Open 8 to 11 A.M.
+                              And 5 to 9 P.M.
+~
+E
+sign~
+                        Guard Headquarters of Ofingia
+~
+S
+#28724
+The Ofintine Public Library~
+   Here you may borrow, or buy, much of the great literature of Ofingia, which
+sadly does not fill very many of the shelves here.  Once this library had many
+more works, but the goblins have raided this town several times in the last few
+years and burned or stolen most of those that were reported to be magical.  One
+of the walls has a huge oil portrait hanging where there are no shelves.  
+Looking about you, you are amazed at the number of books still left, but most
+are poorly written works of popular fiction.  Alas!  There are some exceptions;
+a map hangs on the wall, for instance.  
+~
+287 d 0
+D0
+The wall is lined with bookshelves.
+~
+~
+0 -1 -1
+D1
+The wall is lined with bookshelves.
+~
+~
+0 -1 -1
+D2
+The wall is lined with bookshelves.
+~
+bookshelves~
+2 28708 28725
+D3
+The wall is lined with bookshelves.
+~
+~
+0 -1 -1
+D4
+A spiral iron staircase leads up.
+~
+~
+0 -1 28723
+E
+portrait painting~
+   It is a picture of Claeregina Mahzi, queen of Adacaract.  
+~
+E
+map~
+                     St. John's"|             Grocer
+ @   M A P   @        Church |_+_|    Smithy   ____   ____ Cobbler
+  of  Ofingia   West          | |       _____ |    | |    |   
+       &        Gate__________|_|_______|___|_|____|_|____|____
+  surroundings     :       Well                            |   |Bakery
+                   :           o  King's Way               |   |
+       o           :___________________________  Market    |___|
+    by Sir          |      | |_|         |    |   Square.  |
+   Mischa of        |      | Sheriff     |    |            |___
+    Wazen.          |______|             |____|            |   |Apothecary
+                    The Cross Bow    Carpenter|       _____|___|      
+                   R. Morgan, Prop.           | D    | |   |
+                                              | r    | |   |
+                                              | o    | |___|
+                                              | v  S |__________
+     All Distances on this Map are            | e  t |          |
+     not drawn to Scale.  Houses              | r  r | Town Hall|
+     I have not chosen to Represent,          | s  e |__________|
+     They being Rather Few since the          |    e |   |
+     Goblin invasions.                        |    t |___|
+                      Sir Mischa              |......|
+                                              South Gate
+~
+S
+#28725
+The Secret Library Vault~
+   Wow!  There is enough dust here to grow a crop of corn on the shelves.  But
+there may be even more interesting things on the shelves than corn.  Why, on
+that shelf just out of reach, you see a book that has to be the Book of Dwarven
+Herblore.  Too bad you can't get it; it would be useful to a wizard.  A few torn
+off pages litter the lowest shelf, nearer at hand than the great dusty tome.  
+~
+287 ad 0
+D0
+The public section of the library is to the north.
+~
+~
+2 28708 28724
+E
+book herblore~
+   It lies open, and you may read part of one page: Long was this wisdom lost to
+men, and long did it lie deep, deep buried beneath the goblin caves.  But the
+brave Nambor did fetch back a tattered scroll, bearing a few runes of ancient
+Dwarven, who only I, Bog Grundelgrin, could read.  Now mark well my words, O
+enchanter, for if you take the leaf of the mevais plant ground to a paste with
+water from the Well of Jakur, you may make an ointment, which heals all wounds.
+But it is hard to prepare.  The ground leaves must have been picked under the
+dying moon of late November, when the mevais is dry, and browned.  Then they
+must be You can read no more, nor can you reach the book.  
+~
+E
+pages~
+   One is a small vellum page, another is large, with red letters.  A third is a
+fragment of papyrus scroll.  Still another, very withered, curls as it dries.  
+Tucked into a corner a piece of blue paper has been chewed by mice.  
+~
+E
+small vellum~
+   Like the rest it is a fragment:
+
+The age of Iron came next; it is our present age. In these days men
+dwindled both in stature and nobility still further from the Bronze
+Age, so say the philosophers. They began forging their tools and 
+blades of iron, and no longer wrote the great epics of the last Age.
+Death still reigned, and reigns, over the world of men, cutting 
+short their little works. How large they seemed! Yet all is not lost.
+So says the philosopher:
+              To the world that stumbles lost and lone,
+              A king descends from heaven's throne. 
+              Death by death is overthrown.
+
+Here the page has been torn off.
+~
+E
+papyrus scroll fragment~
+   Some ancient scribe has written a list of legendary weapons, of which  
+only this tiny scrap remains.
+
+The great warrior Highlander, it is said, bore a mighty claymore, the
+equal of which is unknown to me.  I have heard it glowed brightly when
+drawn, but I see no way this would be useful. The great smith Durgandon
+forged it in the dwarven halls; its enchantment is opposed to any evil
+and protects its wearer from harm, it is said.  I know not if this is
+true. The blade is known to me only in legend; if indeed it ever was, 
+it is now lost forever.  No word of Highlander has been heard for long.
+Zebenak Rykalp of Wazen bears a sword made by the smith Dorig, of the
+Foehammer clan.  Its name is Krat, or "Razor" in the Vallonian tongue,
+named for its thinness, and its renowned edge.  It is supple steel,
+but quite sturdy, and I have seen Zeb plunge it deep into an oak without
+injuring the blade. Dorig is truly a great craftsman.  
+There are dark rumors of a scimitar borne by the Goblin King that, if
+
+Shoot! There is no more.
+~
+E
+withered curled curling~
+   I.  O.  U.
+   For Groceries ...........................3 cr. 1 f. 3 1/2 d.
+   (Signed) Tim, son of Tom the Lifeguard. 
+   (Signed) Maxtrum Holloknob 
+~
+E
+blue chewed paper~
+   It is a letter, or rather, half of a letter.
+
+has never done. I say more happily that your ring is finished. It
+is a work of great art, and no king wears its equal. Indeed, the stone
+quarried from the [dwarven?] mines of Holdraxe is said to have magical
+properties.  I know little of these.  But it is said that the right
+sort of opal makes the man invisible who wears it in a ring.  Sorcery
+or not, the ring is quite beautiful, and I will send it to you by
+courier as soon as the spring mires become roads once more.
+                                               Signed by my hand,
+                                                   Rzesk Kural
+~
+S
+#28726
+The Eastern End of the Great Hall~
+   Here is the end of the Great Hall.  Its size awes you.  The King, however, is
+not here, and his throne is dusty.  With his people he has taken up arms and
+marched forth to fight the evil armies that have lately assailed his kingdom.  
+Long live King Korbor!  An ancient throne of carved walnut stands here, bright
+with gold.  On the wall a shield is hung.  
+~
+287 d 0
+D3
+The hall extends west, as far as you can see.
+~
+~
+0 -1 28723
+D5
+You see a tile floor.
+~
+trapdoor~
+2 28710 28749
+E
+throne~
+   You had thought the glint you saw was gilt paint, but it was not.  The throne
+of carved black walnut is very beautifully crafted, with rather plain carving,
+just enough to be handsome without looking overly fancy.  Gold plates and
+brackets look lovely against the dark wood.  You need not read the engraved
+plate on its side to know the work of Joel Kreb.  
+~
+E
+shield wall~
+   The shield bears a cross and a stag, the arms of King Korbor.  
+~
+S
+#28727
+The Sheriff Office~
+   The Sheriff of Brocdenborough has moved his office here, in a shed Joel the
+carpenter built of scrap on hand, after the goblins forced him to leave
+Brocdenborough.  In fact, many of the former citizens of that village now live
+here, or in Venango.  The Sheriff has not retired his post; no, he moved here
+because from here he now commands a small band of guards who go out hunting
+goblins, intending to free the countryside eventually.  A tattered sign and a
+newly printed poster hang on the inside wall of this shed.  
+~
+287 d 0
+D0
+You can only leave to the north.
+~
+~
+0 -1 28710
+E
+tattered sign~
+                    W A N T E D !
+                    
+                    Dead or Alive
+                   Thrash the Ogre 
+                          &
+                  Pippin the Hobbit
+                         for
+                 Disturbing the Peace
+                   Inciting a Riot
+                          &
+                   Killing Dwarves
+                 in the Dwarven Village.
+~
+S
+#28728
+The Crossbow Inn~
+   This is the famed Crossbow, known all over Korbor's kingdom, where the food
+is fine and the beverages more or less legal.  Reilly Morgan is the innkeeper,
+and his specialty is imported Scotch whiskey.  He would gladly let you sample
+the booze.  Or perhaps you prefer beer?  His brew is second to none, better than
+the Grunting Boar's swill.  The mounted head of a 12 point buck hangs over the
+fireplace, and two upturned deer feet and hooves support some strange object.  
+~
+287 d 0
+D0
+You can leave the inn, if you really want to.
+~
+door oak~
+1 -1 28709
+E
+buck head trophy~
+   It is a magnificent whitetail buck, the kind native only to Ofingia in this
+part of the world.  The whitetail is the craftiest animal in the woods; if you
+can stalk one and bring it down with a bow, as Fred Bear used to say, you can
+stalk anything.  
+~
+E
+object strange hooves rifle gun~
+   A long metal tube set into a carved handle of curly maple, with an odd sort
+of lever hanging from it, rests on the hooves.  Perhaps it is a magical token of
+some sort.  Carved into it is the inscription "Winchester Model 1889".  Odd.  
+~
+S
+#28729
+D. Shattershock's Fine Armor.~
+   Dek, the retired Elven ranger, now sells armor suitable for his fellow
+woodsmen.  Nothing he has is very heavy, but you don't want heavy armor if you
+are sneaking around the woods, hunting goblins.  
+~
+287 d 0
+D2
+South of here is the market square.
+~
+~
+0 -1 28721
+S
+#28730
+Churt's Mortar and Pestle~
+   The air is fragrant with sharp smells and pale colored smoke in this tiny
+shop.  Tiny motes of sparkling dust, perhaps from some arcane spell, fill the
+air.  It seems this is some sort of apothecary shop, for they have many
+preparations magical and medicinal.  Some complexity of glassware bubbles on a
+charcoal brazier behind the counter, and many bottles of colorful liquids stand
+within reach.  
+~
+287 d 0
+D3
+You can leave this mysterious store to the west.
+~
+~
+0 -1 28721
+E
+glassware still~
+   An alembic bubbles and boils on a charcoal brazier, filled with sharp-
+smelling liquid.  
+~
+E
+bottles liquid~
+   Unfortunately, some sort of magical barrier prevents you from sampling the
+liquid in these bottles.  
+~
+S
+#28731
+Marya Luzarna's Bakery~
+   The aroma of freshly baked wheat bread fills this store, mingled with the
+sharper smell of sourdough rye.  No bakers anywhere in Midgaard, Thalos, or Rome
+can equal Marya Luzarna, who comes from a long line of bakers.  Her
+great-great-great-grandfather Ogann baked the great Rye Loaf of Ofingia, which
+could be carried in a pocket, and yet fed an army of Ofintines for thirty days.
+
+~
+287 d 0
+D3
+You can inhale deeply and leave west.
+~
+~
+0 -1 28722
+S
+#28732
+Rzesk and Zykub, Jewelers.~
+   There doesn't seem to be anyone in this dusty store.  The window in one wall
+is cracked, and a few pages torn from a ledger blow about.  Dimly you can see
+the glint of gold and gems through the dirty glass of a few display cases, but
+you can't break the glass- it seems to be some sort of gnomish material that
+can't be shattered.  The sign has been painted over in a strange way.  
+~
+287 d 0
+D0
+You can leave this shop and go to Market Square.
+~
+~
+0 -1 28722
+E
+sign~
+   "Rzesk & Zykub" has been crossed out with a single line, and below it has
+been painted "Closed for the Duration".  
+~
+S
+#28733
+The Dog-Leg~
+   This is a very odd cave.  It only ran west about twelve yards, smack against
+a flat stone wall.  Of all things, there is a DOOR in the west wall - what is
+that doing in a water-carved cave?  It has a sign on it that might explain who
+would put a door here.  The floor is quite flat, and the sand which covers it
+everywhere else is absent here.  Maybe it deserves a second look.  
+~
+287 ad 2
+D1
+You may go back east. What a boring place.
+~
+~
+0 -1 28701
+D3
+The door is a single polished limestone slab, balanced on steel posts.
+~
+door stone~
+0 -1 -1
+D5
+Maybe you better have a really close look at that stone floor.
+~
+floor~
+1 -1 28734
+E
+stone floor~
+   It is certainly not natural.  There is a peculiar square crack, and you
+suspect it opens up.  Only one way to find out!  
+~
+E
+sign~
+   It is carved into the door.  The sign says: A gnotiyen na purxe Grob.  
+~
+S
+#28734
+Down, Down, to Goblin-Town!~
+   The floor opened!  But sliding down a steep tunnel you realize you have shut
+yourself in.  There is no escape now but deeper in, and farther down.  There is
+a faint smell of goblins about this place.  
+~
+287 ad 1
+D2
+You see a stone hallway.
+~
+~
+0 -1 28735
+S
+#28735
+The Stone Hallway~
+   The walls are carved from limestone, and drip water, so this cave is always
+very damp, and very cold.  
+~
+287 ad 2
+D0
+The walls are just as damp to the north.
+~
+~
+0 -1 28734
+D3
+The walls are just as damp to the west.
+~
+~
+0 -1 28736
+S
+#28736
+The Stone Hallway~
+   The walls are carved from limestone, and drip water.  You are beginning to
+fear for your health, and cold is not your greatest worry.  
+~
+287 ad 2
+D1
+The walls are just as damp to the east.
+~
+~
+0 -1 28735
+D3
+There used to be a door there, but it is broken now.
+~
+~
+0 -1 28737
+S
+#28737
+The Stone Hallway~
+   You hear a peculiar scratching and tapping coming from a hole in the cave
+floor.  A strong, foul-smelling draft rises from it.  To the west is a door.  
+~
+287 ad 2
+D1
+The walls are just as damp to the east.
+~
+~
+0 -1 28736
+D2
+The hallway bends to the south, as damp as ever.
+~
+~
+0 -1 28739
+D3
+The door to the west is covered with obscure but evil-looking runes.
+~
+door runed~
+1 -1 28738
+E
+runes~
+   You do not understand much but the name Orfax is repeated often.  
+~
+S
+#28738
+The Guard Room~
+   This is a small cave hollowed out for the use of the goblin doorwards.  
+Often arms are also stored here, in case of an invasion.  The guards are so bad,
+however, that Goblin town places little trust in this, their first line of
+defense.  
+~
+287 d 1
+D1
+You can only go east.
+~
+door runed~
+1 -1 28737
+S
+#28739
+The Stone Hallway~
+   There is no escaping this cold, damp cave.  The Grunting Boar comes to mind,
+but you can not reach its warm fires now.  Only through worse danger will you
+leave these caves.  
+~
+287 ad 2
+D0
+The walls are just as damp to the north.
+~
+~
+0 -1 28737
+D1
+A stone door to the east is carved with leering faces and evil runes.
+~
+door stone~
+2 28700 28740
+S
+#28740
+The Stone Hallway~
+   The limestone walls in this room are cracked and seep icy water.  Your boots
+are soaking wet by the time you have walked twenty-five yards.  
+~
+287 ad 2
+D1
+The walls are just as damp to the east.
+~
+~
+0 -1 28741
+D3
+There is a door of stone to the west.
+~
+door stone~
+2 28700 28739
+E
+water~
+   It is very cold, too cold to safely drink.  
+~
+S
+#28741
+The Stone Hallway~
+   There is as much seepage here as anywhere else but you wrap your cloak tight
+around you and go on.  No turning back now!  The floor is drier here; the
+seepage drips around a square panel on the floor.  
+~
+287 d 2
+D1
+A glowing stone door is balanced on posts of steel and bolted shut.
+~
+door glowing~
+1 28701 28742
+D3
+You hear water dripping throughout the tunnels.
+~
+~
+0 -1 28740
+D5
+A hole has been cut in the floor and fitted with a stone slab.
+~
+slab stone~
+1 -1 28743
+E
+door stone~
+   Its glow lights this tunnel up somewhat, but it brings no pleasant
+recollection of daylight.  It is a sickly pale-green light, as if the lamps in
+dwarven mansions were stolen and ruined by the goblins.  Even in Moria some of
+the dwarf lights burn still with their old light.  If dwarves lived here once,
+they are long gone.  
+~
+S
+#28742
+A Small Chamber~
+   This may also be a guard chamber, but you are not sure.  Perhaps it is a
+storehouse of some sort, for you see no guards.  It is a large room.  The
+door-light does not reach far, and your torch casts long shadows.  Plenty of
+room for creepy things to hide.  
+~
+287 ad 2
+D3
+There is a glowing door to the west.
+~
+door glowing~
+2 28701 28741
+S
+#28743
+The Spiral Tunnel~
+   This tunnel spirals slowly clockwise, delving deeper into the bowels of the
+mountain.  You must be very far down now.  
+~
+287 ad 3
+D4
+Icy water seeps round this stone slab, soaking your jacket.
+~
+slab stone~
+1 -1 28741
+D5
+Down slopes the tunnel, ever deeper, to the goblin town.
+~
+~
+0 -1 28744
+S
+#28744
+The Spiral Tunnel~
+   The tunnel slopes gradually down, turning round and round in its path to the
+goblin city.  Whatever madness brought you here, it is too late to curse your
+foolishness, for goblins lie both before you and behind.  
+~
+287 ad 3
+D4
+A stream of water flows from this direction.
+~
+~
+0 -1 28743
+D5
+The tunnel spirals ever farther into the rock.
+~
+~
+0 -1 28745
+S
+#28745
+The Spiral Tunnel~
+   The stream of water seems to be your last friend.  Its water is muddy but it
+still tastes good after walking so far.  The gloom of these caverns is beginning
+to darken your mind, and you long for the common room of the Grunting Boar Inn.
+
+~
+287 ad 3
+D4
+The endless tunnel spirals upward.
+~
+~
+0 -1 28744
+D5
+The endless spiral runs deeper still into the earth.
+~
+~
+0 -1 28746
+S
+#28746
+The Spiral Tunnel~
+   The stream of water seems to be your last friend.  Its water is muddy but it
+still tastes good after walking so far.  The cavern-gloom is beginning to darken
+your mind, and you long for the common room of the Grunting Boar Inn.  Here the
+tunnel jogs to the east.  
+~
+287 ad 3
+D1
+The endless spiral runs east.
+~
+~
+0 -1 28747
+D4
+The endless spiral climbs higher.
+~
+~
+0 -1 28745
+S
+#28747
+The Spiral Tunnel~
+   There is no use counting how far this tunnel has spiralled down.  Goblins
+must be near, though; you can smell it.  Here the tunnel jogs down and west.  
+~
+287 ad 3
+D3
+The endless spiral runs west.
+~
+~
+0 -1 28746
+D5
+The tunnel plunges steeply down now.
+~
+~
+0 -1 28748
+S
+#28748
+The Spiral Tunnel~
+   It is no use counting any more how many times this tunnel has wound around.
+You do not want to know.  The stench of goblin-caves is very bad here, but
+bearable.  
+~
+287 ad 3
+D4
+The endless spiral climbs higher.
+~
+~
+0 -1 28747
+D5
+The endless spiral plunges still deeper.
+~
+~
+0 -1 28750
+S
+#28749
+The Treasury~
+   Hey!  You're not supposed to be in here!  Get out!  
+~
+287 ad 0
+D4
+You better leave now!
+~
+~
+2 28710 28726
+S
+#28750
+The Spiral Tunnel's End~
+   Whether it was that waybread you ate, or plain grit, you have found the
+strength to keep going and now found an exit from the horrible spiral tunnel.  
+It is hotter here than it was higher up, and the filthy stench of goblin caves
+wafts from a hole in the floor.  
+~
+287 ad 2
+D4
+The endless spiral climbs upwards.
+~
+~
+0 -1 28748
+D5
+A hole leads down to a lower level.
+~
+~
+0 -1 28751
+S
+#28751
+Upper Goblin-Town~
+   You reach the first level of the goblin city.  Now you must fight for your
+life, adventurer!  Draw your weapon and stay on your guard!  
+~
+287 ad 2
+D2
+A hallway leads south.
+~
+~
+0 -1 28753
+D3
+An iron door stands to the west.  It has an inscription.
+~
+door iron~
+2 28705 28752
+D4
+A ladder leads up through a hole in the ceiling.
+~
+~
+0 -1 28750
+E
+inscription~
+               Let the fate of he whose arms rest here     
+             Warn the fool who follows him to Goblin Town
+~
+S
+#28752
+A Small Armory~
+   The Goblins keep a few weapons here, perhaps those they do not like to use.
+
+~
+287 ad 1
+D1
+An iron door leads east.
+~
+door iron~
+2 28705 28751
+S
+#28753
+A Dark Hall in Goblin-Town~
+   This hall is deadly dangerous.  The goblins try to chase you into a corner,
+but you dart from shadow to shadow.  You must escape!  
+~
+287 ad 1
+D0
+The hallway leads north.
+~
+~
+0 -1 28751
+D1
+There is a black door to the east.
+~
+door black~
+2 28705 28754
+D2
+The hallway runs south.
+~
+~
+0 -1 28755
+S
+#28754
+A Small Storeroom~
+   You are not sure what is stored in this room, but there are plenty of crude
+chests to open.  Many appear to be of dwarven make; plunder, no doubt.  
+~
+287 ad 1
+D3
+A black door leads back west.
+~
+door black~
+2 28705 28753
+S
+#28755
+A Dark Hall in Goblin-Town.~
+   This passage is a dead end!  No, wait-there are doors to east and south.  
+But they are locked-wait, perhaps you can pick them, or do you carry the keys?
+If not, stand and fight!  Hope is not lost.  
+~
+287 ad 1
+D0
+A hallway continues north.
+~
+~
+0 -1 28753
+D1
+An iron door leads east.
+~
+door iron~
+1 28700 28757
+D2
+A stone door leads south.
+~
+door stone~
+2 28703 28756
+S
+#28756
+A Small Room~
+   This is another storeroom, of some sort.  This entire level is, like a ship's
+hold, devoted to storage.  
+~
+287 ad 1
+D0
+The only exit is a stone door to the north.
+~
+door stone~
+2 28703 28755
+S
+#28757
+A Guard Room~
+   Not now!  Not another guard room!  But this is where one should be; after
+all, there hasn't been any other on this floor.  
+~
+287 ad 1
+D1
+There is a steel door to the east.
+~
+door steel~
+2 28700 28758
+D3
+An iron door opens to the west.
+~
+door iron~
+1 28700 28755
+S
+#28758
+A Landing~
+   A stairwell plunges down to the next level here.  To the west, a steel door
+forbids your passage.  
+~
+287 ad 1
+D3
+A steel door blocks this way.
+~
+door steel~
+2 28700 28757
+D5
+A trap door opens down.
+~
+trapdoor~
+1 -1 28759
+S
+#28759
+The Barracks~
+   Goblins roam this level freely, and the stench is ...  Like a hundred
+thousand years' supply of rotten orc meat.  This hall is no longer dark; the
+walls glow with a pale light, a foul magical imitation of the dwarvish secret
+lamp-light that still floods parts of Moria.  
+~
+287 d 0
+D2
+A glowing hall leads south.
+~
+~
+0 -1 28760
+D4
+A trap door leads up.
+~
+trapdoor~
+1 -1 28758
+S
+#28760
+A Pale-Glowing Hall in Goblin-Town~
+   Not a pleasant place for a Sunday stroll!  Wonder how far down you are?  
+~
+287 d 0
+D0
+The hall leads north.
+~
+~
+0 -1 28759
+D2
+There is a bronze door to the south.
+~
+door bronze~
+1 28703 28775
+D3
+The hall glows to the west.
+~
+~
+0 -1 28761
+S
+#28761
+A Pale-Glowing Hall in Goblin-Town~
+   The bizarre magical glow these walls have is unnerving.  These tunnels are
+certainly the kind of dank, filthy holes goblins like best.  Bones and rotten
+meat litter the floor, and strange crawling beasts live on the gathered garbage.
+
+~
+287 d 0
+D0
+A bronze door leads north.
+~
+door bronze~
+1 28700 28762
+D1
+The hall glows to the east.
+~
+~
+0 -1 28760
+D2
+There is a bronze door to the south.
+~
+door bronze~
+1 28703 28774
+D3
+The hall glows to the west.
+~
+~
+0 -1 28763
+S
+#28762
+A Barracks Room~
+   Bunks hewn from the stone walls, stacked five or six high, line the granite
+walls of this room.  You are far below limestone, now.  The goblins sleep here.
+Some sleep now.  What extraordinary dreams they must be having, the foul
+creatures!  
+~
+287 d 0
+D2
+There is a bronze door to the south.
+~
+door bronze~
+1 28700 28761
+S
+#28763
+A Pale-Glowing Hall in Goblin-Town~
+   The walls flash here a little, where metal veins come to the surface.  This
+is very unnerving, and it does not help that you are dodging goblins left and
+right.  
+~
+287 d 0
+D0
+There is a bronze door to the north.
+~
+door bronze~
+1 28700 28764
+D1
+The hall continues east.
+~
+~
+0 -1 28761
+D2
+There is a bronze door to the south.
+~
+door bronze~
+1 28700 28773
+D3
+The hall glows to the west.
+~
+~
+0 -1 28765
+S
+#28764
+A Barracks Room~
+   The goblins sleep in here, packed in like sardines in a can.  The rooms smell
+worse than week-old sardines, littered as they are with old hides and
+accumulated filth.  You had better be leaving.  
+~
+287 d 0
+D2
+There is a bronze door to the south.
+~
+door bronze~
+1 28700 28763
+S
+#28765
+A Pale-Glowing Hall in Goblin-Town~
+   Uh oh...  This passage seems to go to a large, well guarded room.  A shadow
+standing there is bigger than any goblin you have ever seen.  
+~
+287 d 0
+D0
+A bronze door leads north.
+~
+door bronze~
+1 28700 28766
+D1
+The hall glows to the east.
+~
+~
+0 -1 28763
+D2
+There is a large room with LOTS of guards far to the south.
+~
+~
+0 -1 28767
+S
+#28766
+A Barracks Room~
+   The room might suit goblins, but you would never sleep here, unless pressed
+by dire need.  Even then, it would be miserable.  Here weapons and battered
+armor lie discarded, but you could use little of it.  
+~
+287 d 0
+D2
+There is a bronze door to the south.
+~
+door bronze~
+1 28700 28765
+S
+#28767
+A Glowing Hallway in Goblin-Town~
+   Hurry up!  That hulking shadow nearby to the south might not have seen you
+running through the halls, but you probably won't get through unnoticed.  
+~
+287 d 0
+D0
+The walls seem to crackle in horror, casting a flashing light.
+~
+~
+0 -1 28765
+D2
+This leads to a large stone-hewn hall, crammed with goblins and worse.
+~
+~
+0 -1 28768
+S
+#28768
+The Mess~
+   And it really IS a mess, too.  Bones of all sorts lie tramped into the sandy
+clay floor.  Often they still have quite a lot of meat left on them.  Goblins
+are quite apt to bite something and throw it away, though it comes from a king's
+board.  Grotesque green-skinned warriors of all sizes and degrees of hideousness
+mill about, chewing on meat, whose origins you do not wish to know.  The east
+smells like a knacker's yard, when he is boiling down corpses.  
+~
+287 d 0
+D0
+You hear loud shrieks and running feet to the north.
+~
+~
+0 -1 28767
+D1
+A foul stench and steam rolls from the east.
+~
+~
+0 -1 28769
+D2
+More goblins eat to the south.
+~
+~
+0 -1 28770
+E
+bones meat~
+   These bones all look somewhat decayed and smell very bad.  They don't whet
+your appetite, that is certain.  Besides, they may be poisoned after sitting
+around for so long.  
+~
+S
+#28769
+The Mess~
+   Here you see the goblins' cook - and you might make a good dinner.  Rather
+not have to take off your armor, but his pot always needs another chunk of meat,
+however it tastes.  Around him are stacked jars of strange substances to add to
+his pot, probably not tasty spices.  Dry, boiled bones are piled in the corner.
+
+~
+287 d 0
+D2
+Another passage leaves this cave to the southeast.
+~
+~
+0 -1 28771
+D3
+Goblins gobble and drool to the west.
+~
+~
+0 -1 28768
+E
+bones pile corner~
+   They are of all different sizes.  Some are only Deer or Rabbit bones, but too
+many are from creatures that walk on two legs.  
+~
+S
+#28770
+The Mess~
+   This corner is a crude caricature of a homely Inn, like the good old Grunting
+Boar.  Fellowship and the enjoyment of good beer are unknown among these foul
+creatures, so they swallow some terrible-smelling concoction of cave molds until
+it kills them.  There is no such thing as a happy drunk here.  You remember the
+dwarven village fondly now.  
+~
+287 d 0
+D0
+You can leave this place, but northwards leads only to more trouble.
+~
+~
+0 -1 28768
+D1
+A ways to the east is a doorway.
+~
+~
+0 -1 28771
+S
+#28771
+The Mess~
+   And what a mess it is!  Here the hall is less full of goblins and more
+littered with rubbish.  A guarded door leads east; it is made of stone, and
+elaborately carved.  Some orcish runes are cut into the stone.  
+~
+287 d 0
+D0
+A fireplace with a bubbling cauldron emits a foul smell.
+~
+~
+0 -1 28769
+D1
+A carved stone door leads east.
+~
+door carved stone~
+2 28700 28772
+D3
+A smell like sour wine and musty wood wafts from there.
+~
+~
+0 -1 28770
+E
+carved carvings stone door~
+   Goblins never make anything beautiful, but this door is very well made.  You
+suspect this cave once had better occupants.  The door is in excellent condition
+(though scrawled on) ...  Glowing
+~
+E
+orcish runes~
+   They say: Krsd be da hammer wieldn dwarfs
+~
+S
+#28772
+A Small Room~
+   The door you entered through is certainly of dwarven make.  You can easily
+push it open, so well-balanced was its weight on steel posts, when unlocked.  
+Some spell on it probably saved it from ruin.  This particular room might have
+once been a treasury or armory of the dwarves (or gnomes), with a lock like
+that, but now a rough hole in its floor leads downward.  
+~
+287 d 0
+D3
+A stone door leads west.
+~
+door carved stone~
+2 28700 28771
+D5
+Rough handholds are cut on this tunnels' sides.  
+~
+~
+0 -1 28776
+S
+#28773
+The Barracks Room~
+   Rough bunks are let into the walls here, so about fifty goblins can sleep in
+this rather large room.  If it was better kept up, this place might actually be
+comfortable, suggesting that it was not made by the goblins, who would not have
+made it so big.  As it is, they have crammed in the bunks as closely as
+possible, and you see a few which, because their walls were too thin, have
+collapsed on the bunk below.  
+~
+287 d 0
+D0
+A bronze door stands to the north.
+~
+door bronze~
+1 28700 28763
+S
+#28774
+The Barracks Room~
+   All of these barracks rooms are similar, with bunks carved out of the walls,
+much like a catacombs' tombs are.  In the middle of all these barracks rooms'
+floors are deep pits in the stone, and a foul stench streaming upward from them
+suggests their purpose and use.  
+~
+287 d 0
+D0
+A bronze door stands to the north.
+~
+door bronze~
+1 28700 28761
+E
+pits pit hole holes~
+   They appear to be latrines.  
+~
+S
+#28775
+The Chieftain's Quarters~
+   This is obviously the chamber of a goblin chief, but you still wouldn't want
+to live here.  A pallet of vermin-ridden furs is piled on a stone slab that
+serves as a bed.  Not even a dwarf would like such a life!  The walls are scrawn
+all over with orc-runes and signs, and decorated with scalps and skulls.  You
+would not live long if the chief found you here.  
+~
+287 d 0
+D0
+A bronze door leads north. It has some symbols on it.
+~
+door bronze~
+2 28702 28760
+E
+wall walls orc runes~
+   What you can read says: Dy kng Korbor!  Todstol lede sune!  
+~
+E
+signs~
+   All have a shield with a cross and stag on it, splotched with black, and
+hacked with some instrument.  
+~
+E
+door symbols~
+   It is damaged, but still shows the star and anvil of the Dwarven king Bog
+Grundelgrin.  So these were once his halls.  
+~
+E
+scalps skulls~
+   Many are human, but a few are elven.  
+~
+S
+#28776
+A Rough Tunnel~
+   Here the walls are roughly hewn; this is surely goblin-work through and
+through.  Rubble litters the floor.  This cave is dark, so you must light your
+lantern again.  
+~
+287 ad 1
+D0
+The tunnel continues north.
+~
+~
+0 -1 28777
+D4
+You can climb up a hole to a pale glowing tunnel.
+~
+~
+0 -1 28772
+E
+rubble floor~
+   The rubble strewn on the floor has sharply broken edges.  This passage, then,
+is probably newly made, and still being enlarged.  
+~
+S
+#28777
+A Rough Tunnel~
+   Here the walls are roughly hewn; this is surely goblin-work through and
+through.  Rubble litters the floor.  This cave is dark, so you must walk by
+lantern-light if you have not the ability to see in darkness.  
+~
+287 ad 2
+D0
+The tunnel continues north.
+~
+~
+0 -1 28778
+D2
+A faint glow comes from the south.
+~
+~
+0 -1 28776
+S
+#28778
+A Rough Tunnel~
+   Here the walls are roughly hewn, where the goblins mine for iron.  Rubble and
+ore litters the floor.  This cave is still unlit.  
+~
+287 ad 2
+D0
+The tunnel continues north.
+~
+~
+0 -1 28779
+D2
+A very faint glow comes from the south.
+~
+~
+0 -1 28777
+S
+#28779
+A Rough Tunnel~
+   Your lamp casts odd shadows on the rough-hewn walls of this passage.  The
+tapping of goblin miners at work can be heard here and there.  
+~
+287 ad 2
+D0
+You hear rushing water to the north and feel a faint draft.
+~
+~
+0 -1 28781
+D1
+Flickering firelight glows beneath a wooden door.
+~
+door wooden~
+1 -1 28780
+D2
+The mine tunnel continues south.
+~
+~
+0 -1 28778
+S
+#28780
+The Iron Foundry~
+   Goblins dearly love smoking, noisy machinery, especially if it gets a job
+done poorly and with greater labor than without the smoke.  The iron furnace
+which lights this room is one of their proudest feats.  A blower which leaks air
+and blows sparks everywhere replaces the bellows which work so well for dwarves,
+and it is run by several sturdy trolls turning a horse-mill.  Slag heaps lie all
+about this huge cave, and glowing pig iron in trenches threatens to burn the
+soles off your shoes.  
+~
+287 d 2
+D0
+A steel door leads north.
+~
+door steel~
+1 -1 28782
+D3
+A wooden door leads west.
+~
+door wooden~
+1 -1 28779
+S
+#28781
+A Corner In the Mines~
+   It is very slow going here as you inch your way around a hole in the floor.
+If you wanted to, you could more easily dive in; your lantern glints off the
+surface of a lake not far below.  
+~
+287 ad 3
+D1
+The tunnel continues east.
+~
+~
+0 -1 28782
+D2
+The tunnel runs south.
+~
+~
+0 -1 28779
+D5
+A ragged hole leads down to an underground lake.
+~
+~
+0 -1 28785
+E
+hole~
+   This water is flowing towards some exit; perhaps it leads out of this
+mountain?  But once you dive down, you won't get back up here without wings.  
+~
+S
+#28782
+A Rough Tunnel~
+   The walls become slightly smoother here long enough for someone to scratch a
+few words in the common speech into the stone.  
+~
+287 ad 1
+D1
+The tunnel continues east.
+~
+~
+0 -1 28783
+D2
+A steel door leads south, where you hear a roaring noise.
+~
+door steel~
+1 -1 28780
+D3
+You hear rushing water to the west and feel a faint draft.
+~
+~
+0 -1 28781
+E
+words common stone wall~
+   They say: Ware traveller!  You think you have left the goblins but the worst
+lies still below!  Heed my warning!  A river runs from this mountain, its
+current fast and strong, but it is safer than these rat-holes!  Gloin
+~
+S
+#28783
+A Corner in the Mines~
+   Here a vein of iron ore is being dug from the mountain, and the tunnel is
+quite wide but still unlit.  Rubble is strewn everywhere and an acrid, sulfurous
+smoke hangs in the air.  No doubt the goblins have some strange magic to break
+the stony ore from the walls.  The walls are pockmarked with shallow holes, and
+the rubble is similarly marked.  
+~
+287 ad 3
+D0
+A faint glimmer of light comes from the north.
+~
+~
+0 -1 28784
+D3
+The tunnel walls are somewhat smoother to the west.
+~
+~
+0 -1 28782
+E
+walls rubble holes~
+   There is an odd sulfurous-smelling residue in these holes.  
+~
+S
+#28784
+The Mine Shaft~
+   Here the mine passage ends.  A pale glow shines around a trapdoor in the
+floor.  
+~
+287 ad 2
+D2
+A rubble-strewn tunnel bends round a corner.
+~
+~
+0 -1 28783
+D5
+A trap door leads down. You feel very uneasy about opening it.
+~
+trapdoor~
+2 28703 28794
+E
+trap door floor~
+   The trapdoor has some dwarf-runes scribbled on its edge.  They say: I, Gloin,
+warn you not to go this way unless you are a brave warrior, whose heart never
+fails him!  
+~
+S
+#28785
+On the Underground Lake~
+   This small cave is lit very faintly by a glow from above, which is good
+because diving into the lake put out your light.  It is not very large; roughly
+a round inverted bowl, fifty feet across, and about 15 feet high.  To the north
+a small stream flows out through a tunnel.  Of all the numerous influences that
+feed this lake, none are large enough, or low enough, for you to leave through.
+
+~
+287 cdgh 6
+D0
+The stream flows fast, but not too much to swim in.
+~
+~
+0 -1 28786
+S
+#28786
+On the Underground Stream~
+   The stream flows south to east, where the roof seems to be much higher.  It
+is darker here, but since the current pushes you east, you don't much need to
+see.  
+~
+287 adgh 6
+D1
+The stream slows slightly to the east.
+~
+~
+0 -1 28787
+S
+#28787
+The Stream at the Underground Cliff~
+   Here the stream passes south of a gravelly ledge, and flows on east.  The
+cave is much narrower there, and the current roars as it rushes over some rocks.
+You had better leave the stream while you can.  As the walls narrow, the stream
+rushes faster and faster, and you hear a great thrashing noise like a mill wheel
+close by to the east.  
+~
+287 adgh 6
+D0
+Looks like gravel.
+~
+~
+0 -1 28789
+D1
+The roaring noise to the east sounds like rapids or worse, better stop.
+~
+~
+0 -1 28788
+S
+#28788
+The Waterfall~
+   For a few minutes you think you have discovered a new extreme sport;
+whitewater drowning.  There is no way to turn back now; the current is just too
+strong.  Then you see the ground drop away up ahead, and will soon discover how
+it feels to go over Niagara Falls without even a barrel.  
+~
+287 dgh 6
+S
+#28789
+The Ledge~
+   You may enter the creek to the south, or look for a way up the cliffs that
+flank this small stream.  A crevasse nearby looks like it could be chimneyed
+with a lot of effort.  
+~
+287 ad 1
+D2
+The stream flows quickly east.
+~
+~
+0 -1 28787
+D4
+It won't be easy, but you think you can do it.
+~
+~
+0 -1 28790
+S
+#28790
+The Crevasse~
+   It is rough climbing, and you won't try to go down this way, but you have
+made good progress.  
+~
+287 adgh 5
+D4
+You can keep climbing up.
+~
+~
+0 -1 28791
+D5
+You really, really don't want to look down.
+~
+~
+0 -1 -1
+S
+#28791
+The Crevasse~
+   Tiring, you climb more slowly, but still go upwards at a good pace.  You are
+nearly half way up.  
+~
+287 adgh 5
+D4
+You can keep climbing up, but you certainly won't do this again!
+~
+~
+0 -1 28792
+D5
+You really, really don't want to look down.
+~
+~
+0 -1 -1
+S
+#28792
+The Crevasse~
+   Tiring, you climb more slowly, but still go upwards at a good pace.  
+~
+287 adgh 5
+D4
+You can keep climbing up, but you certainly won't do this again!
+~
+~
+0 -1 28793
+D5
+You really, really don't want to look down.
+~
+~
+0 -1 -1
+S
+#28793
+Up the Cliff We Go~
+   Every move is sheer torture as you haul yourself up this rough crevasse in
+the cliff-face, but you are nearly to the top!  
+~
+287 adgh 5
+D4
+You can keep climbing up, but you will NEVER do this again!
+~
+~
+0 -1 28703
+D5
+You really, really don't want to look down.
+~
+~
+0 -1 -1
+S
+#28794
+A Crossing of Tunnels~
+   Four passages lead north, south, east, and west of here, but all are blocked
+by doors; a wooden door to north, a brass door to the east, an iron door to the
+south, and a western door of adamant.  You can also escape the way you came
+here.  
+~
+287 ad 0
+D0
+The wooden door seems like the safest bet; probably nothing is there.
+~
+door wooden~
+1 28700 28795
+D1
+The brass door might hide something interesting.
+~
+door brass~
+2 28702 28796
+D2
+The iron door looks very sturdy, and you had better leave it alone.
+~
+door iron~
+2 28703 28797
+D3
+The adamant door looks almost unbreakable.
+~
+door adamant~
+2 28705 28798
+D4
+A trap door leads up.
+~
+trapdoor~
+2 28703 28784
+S
+#28795
+The Storeroom~
+   This place is not very interesting; however, the wooden crates that are
+stacked about in this dusty cave do arouse your curiosity.  
+~
+287 ad 0
+D2
+A wooden door leads south.
+~
+door wooden~
+1 28700 28794
+S
+#28796
+The Guard Chamber~
+   Behind that brazen door, the goblin's deadliest warriors wait until the Great
+Goblin sends them to ravage Lonoya.  Can you slay these foul creatures, or will
+you flee?  
+~
+287 d 0
+D3
+A crossing of passages lies west of here.
+~
+brass door~
+2 28702 28794
+S
+#28797
+The North End of a Hall~
+   You have entered the halls of the Great Goblin.  South of here he sits on his
+great throne of carved bone.  The ceiling's barrel vault is cleverly made
+lopsided, but only enough to be disturbing without making itself obvious.  Bas
+reliefs adorn the walls which would be lovely, but for slightly distorted
+details.  You shudder involuntarily.  This place is evil.  
+~
+287 d 0
+D0
+It might be wise to leave, NOW, through that iron door.
+~
+door iron~
+2 28703 28794
+D2
+Do you feel very brave?
+~
+~
+0 -1 28799
+S
+#28798
+The Goblin Treasury~
+   Well!  I don't know how you got the key, but you have broken into this vault
+at last.  Now you may plunder the gold, gems, and wonderful weapons which the
+goblins have stolen over these many years.  
+~
+287 ad 0
+D1
+Have you gathered it all? Then leave through the door of adamant.
+~
+door adamant~
+2 28705 28794
+S
+#28799
+The Throne Room~
+   Here stands the Great Goblin's ugly throne of bones grotesquely carved.  He
+sits here among his bodyguards, ready to pound your skull in for entering his
+miserable halls!  
+~
+287 d 0
+D0
+Run away north while you still can!
+~
+~
+0 -1 28797
+E
+throne bones bone~
+   It is made, seemingly, of the bones of the many enemies that the Great Goblin
+killed.  All over it evil signs are carved; it glows with a pale, sickly light.
+
+~
+S
+#0
+
+#RESETS
+M 0 28713 1 28716 	(Sir Mischa)
+E 1 28738 100 5 	(a mail-shirt)
+E 1 28739 100 6 	(a helm)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28743 100 12 	(a green cloak)
+E 1 28730 100 16 	(a claymore)
+M 0 28715 4 28716 	(the Ofintine guard)
+E 1 343 100 5 	(a leather jacket)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28737 100 16 	(a broadsword)
+M 0 28715 4 28716 	(the Ofintine guard)
+E 1 343 100 5 	(a leather jacket)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 2001 100 16 	(a shortsword)
+M 0 28722 10 28716 	(the big dog)
+M 0 28728 2 28716 	(the old man)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+D 0 28716 1 2 	(Inside the South Gate of Ofingia)
+M 0 28708 1 28731 	(Marya the Baker)
+G 1 310 100 -1 	(a bread)
+G 1 28789 99 -1 	(some waybread)
+E 1 28724 100 5 	(a shortgown)
+E 1 28728 100 6 	(a kerchief)
+E 1 28726 100 7 	(a skirt)
+D 0 28700 0 1 	(A Narrow Crawlway)
+M 0 28700 1 28728 	(Reilly the Innkeeper)
+G 1 28722 100 -1 	(some walnuts)
+G 1 28721 100 -1 	(an apple)
+G 1 28713 100 -1 	(some cheese)
+G 1 28720 100 -1 	(the bowl of bigos)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28730 100 16 	(a claymore)
+E 1 28719 100 17 	(a bottle)
+M 0 28701 1 28718 	(Pater Vinci)
+E 1 28748 100 12 	(a white robe)
+E 1 28736 100 16 	(a quarterstaff)
+M 0 28702 1 28710 	(Zeb Rykalp)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28742 100 12 	(a blue cloak)
+E 1 28730 100 16 	(a claymore)
+M 0 28703 1 28719 	(Dorig Foehammer)
+G 1 324 100 -1 	(a warhammer)
+G 1 28730 100 -1 	(a claymore)
+G 1 28737 100 -1 	(a broadsword)
+G 1 321 100 -1 	(a small sword)
+G 1 28733 100 -1 	(a hand axe)
+G 1 28734 100 -1 	(a battle axe)
+G 1 28735 100 -1 	(a dirk)
+G 1 28738 100 -1 	(a mail-shirt)
+G 1 28739 100 -1 	(a helm)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 31811 100 16 	(a hammer)
+M 0 28704 1 28714 	(Joel Kreb)
+G 1 342 100 -1 	(a shield)
+G 1 28749 100 -1 	(a medium shield)
+G 1 323 100 -1 	(a wooden club)
+G 1 28736 100 -1 	(a quarterstaff)
+G 1 28750 100 -1 	(a short bow)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28733 100 16 	(a hand axe)
+M 0 28705 1 28720 	(Maxtrum Holloknob)
+G 1 331 100 -1 	(a lantern)
+G 1 332 100 -1 	(a bag)
+G 1 337 100 -1 	(a candle)
+G 1 309 100 -1 	(a waybread)
+G 1 28742 100 -1 	(a blue cloak)
+G 1 28744 100 -1 	(a backpack)
+G 1 28745 100 -1 	(a pint flask)
+G 1 28746 100 -1 	(a water skin)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28743 100 12 	(a green cloak)
+E 1 28735 100 16 	(a dirk)
+M 0 28706 1 28730 	(Churt Agenris)
+G 1 351 100 -1 	(a yellow potion of see invisible)
+G 1 28753 100 -1 	(the healing draught)
+G 1 28754 100 -1 	(the draught of sight)
+G 1 28755 100 -1 	(the elixir of life)
+G 1 28756 100 -1 	(the potion of evil's bane)
+E 1 28747 2 12 	(a robe of pockets)
+E 1 28737 100 16 	(a broadsword)
+M 0 28707 1 28729 	(Dek Shattershock)
+G 1 28727 100 -1 	(high boots)
+G 1 28751 100 -1 	(a rigid leather breastplate)
+G 1 28752 100 -1 	(a studded leather jacket)
+G 1 376 100 -1 	(a leather cap)
+G 1 371 100 -1 	(a pair of leather gloves)
+G 1 386 100 -1 	(a pair of leather sleeves)
+G 1 381 100 -1 	(a pair of leather pants)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28750 100 16 	(a short bow)
+M 0 28709 1 28724 	(Serathana the Guardian of Lore)
+G 1 350 100 -1 	(a scroll of identify)
+G 1 352 100 -1 	(a scroll of recall)
+G 1 28757 100 -1 	(a scroll of enchantment)
+G 1 28758 100 -1 	(a scroll of stormbringing)
+G 1 28759 100 -1 	(a scroll of battle-might)
+G 1 28760 100 -1 	(a scroll of lore)
+E 1 28748 100 12 	(a white robe)
+E 1 28708 100 17 	(a blued steel key)
+M 0 28710 1 28723 	(Sir Kelek)
+G 1 28709 100 -1 	(a red key)
+G 1 28708 100 -1 	(a blued steel key)
+G 1 28707 100 -1 	(a huge iron key)
+E 1 28738 100 5 	(a mail-shirt)
+E 1 28739 100 6 	(a helm)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28749 100 11 	(a medium shield)
+E 1 28743 100 12 	(a green cloak)
+E 1 28734 100 16 	(a battle axe)
+M 0 28711 1 28723 	(King Korbor)
+G 1 28707 100 -1 	(a huge iron key)
+E 1 28710 1 1 	(a golden key)
+E 1 28738 100 5 	(a mail-shirt)
+E 1 28718 1 6 	(King Korbor's crown)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28749 100 11 	(a medium shield)
+E 1 28741 100 12 	(a red cloak)
+E 1 28737 100 16 	(a broadsword)
+M 0 28712 1 28715 	(Tim the Thief)
+G 1 28711 100 -1 	(a silver key)
+E 1 28751 100 5 	(a rigid leather breastplate)
+E 1 28729 100 6 	(a bandanna)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28735 100 16 	(a dirk)
+M 0 28714 8 28710 	(the Ofintine guard)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28739 100 6 	(a helm)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 342 100 11 	(a shield)
+E 1 28737 100 16 	(a broadsword)
+M 0 28714 8 28710 	(the Ofintine guard)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28739 100 6 	(a helm)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 342 100 11 	(a shield)
+E 1 28737 100 16 	(a broadsword)
+M 0 28714 8 28711 	(the Ofintine guard)
+E 1 28751 100 5 	(a rigid leather breastplate)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 2001 100 16 	(a shortsword)
+M 0 28714 8 28712 	(the Ofintine guard)
+E 1 28751 100 5 	(a rigid leather breastplate)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 2001 100 16 	(a shortsword)
+M 0 28714 8 28713 	(the Ofintine guard)
+E 1 343 100 5 	(a leather jacket)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 2001 100 16 	(a shortsword)
+M 0 28714 8 28715 	(the Ofintine guard)
+E 1 343 100 5 	(a leather jacket)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 2001 100 16 	(a shortsword)
+M 0 28714 8 28721 	(the Ofintine guard)
+E 1 28751 100 5 	(a rigid leather breastplate)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28734 100 16 	(a battle axe)
+M 0 28714 8 28722 	(the Ofintine guard)
+E 1 28751 100 5 	(a rigid leather breastplate)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28734 100 16 	(a battle axe)
+M 0 28715 4 28709 	(the Ofintine guard)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28734 100 16 	(a battle axe)
+M 0 28715 4 28709 	(the Ofintine guard)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28737 100 16 	(a broadsword)
+M 0 28716 4 28728 	(an Ofintine volunteer)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28733 100 16 	(a hand axe)
+M 0 28717 4 28728 	(an Ofintine volunteer)
+E 1 28724 100 5 	(a shortgown)
+E 1 28728 100 6 	(a kerchief)
+E 1 28726 100 7 	(a skirt)
+E 1 28736 100 16 	(a quarterstaff)
+M 0 28718 4 28721 	(a Lonoyan man)
+E 1 28729 100 3 	(a bandanna)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28736 100 16 	(a quarterstaff)
+M 0 28719 4 28722 	(a Lonoyan citizen)
+E 1 28724 100 5 	(a shortgown)
+E 1 28728 100 6 	(a kerchief)
+E 1 28726 100 7 	(a skirt)
+E 1 28735 100 16 	(a dirk)
+M 0 28720 8 28721 	(a small boy)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+M 0 28721 8 28722 	(a young girl)
+E 1 28724 100 5 	(a shortgown)
+E 1 28726 100 7 	(a skirt)
+M 0 28722 10 28709 	(the big dog)
+M 0 28722 10 28722 	(the big dog)
+M 0 28723 1 28728 	(Reilly's dog)
+M 0 28724 1 28728 	(a Lonoyan farmer)
+E 1 28729 100 3 	(a bandanna)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+M 0 28725 2 28728 	(a dwarf)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28733 100 16 	(a hand axe)
+M 0 28726 4 28720 	(a hobbit landowner)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28735 100 16 	(a dirk)
+M 0 28727 1 28728 	(the bar maid)
+E 1 28724 100 5 	(a shortgown)
+E 1 28728 100 6 	(a kerchief)
+E 1 28726 100 7 	(a skirt)
+E 1 28735 100 16 	(a dirk)
+M 0 28728 2 28709 	(the old man)
+E 1 28723 100 5 	(a plain shirt)
+E 1 28725 100 7 	(a pair of breeches)
+M 0 28729 3 28708 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28766 100 16 	(a goblin's shortbow)
+M 0 28730 1 28708 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28764 100 16 	(a goblin scimitar)
+M 0 28731 4 28734 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28763 100 16 	(a goblin knife)
+M 0 28731 4 28735 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28763 100 16 	(a goblin knife)
+M 0 28731 4 28736 	(the goblin)
+G 1 28701 100 -1 	(a black key)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28763 100 16 	(a goblin knife)
+M 0 28731 4 28745 	(the goblin)
+G 1 28701 100 -1 	(a black key)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28763 100 16 	(a goblin knife)
+M 0 28732 4 28738 	(the goblin watchman)
+G 1 28700 100 -1 	(a dark key)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28764 100 16 	(a goblin scimitar)
+M 0 28732 4 28742 	(the goblin watchman)
+G 1 28700 100 -1 	(a dark key)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28764 100 16 	(a goblin scimitar)
+M 0 28744 1 28743 	(the Cementipede)
+M 0 28747 2 28743 	(the green mold)
+M 0 28764 1 28744 	(the red dragon)
+M 0 28747 2 28745 	(the green mold)
+M 0 28733 2 28745 	(the serpent)
+M 0 28750 1 28746 	(the Stalker)
+M 0 28733 2 28749 	(the serpent)
+M 0 28747 1 28750 	(the green mold)
+M 0 28734 1 28744 	(the lost gnome)
+E 1 28751 100 5 	(a rigid leather breastplate)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 2001 100 16 	(a shortsword)
+M 0 28735 4 28751 	(the goblin guard)
+G 1 28702 100 -1 	(a runed key)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28765 100 16 	(a goblin's club)
+M 0 28735 4 28751 	(the goblin guard)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28765 100 16 	(a goblin's club)
+M 0 28735 4 28757 	(the goblin guard)
+G 1 28703 100 -1 	(a pale green key)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28765 100 16 	(a goblin's club)
+M 0 28735 4 28757 	(the goblin guard)
+G 1 28703 100 -1 	(a pale green key)
+E 1 28752 100 5 	(a studded leather jacket)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28765 100 16 	(a goblin's club)
+M 0 28743 1 28755 	(the mimic)
+M 0 28736 10 28753 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28755 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28759 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28760 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28761 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28763 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28765 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28767 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28768 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28736 10 28771 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28767 100 16 	(a goblin's spear)
+M 0 28737 15 28762 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28762 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28762 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28764 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28764 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28764 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28766 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28766 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28766 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28773 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28773 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 15 28773 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 18 28774 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 18 28774 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28737 18 28774 	(the goblin warrior)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28738 2 28775 	(a hobgoblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28738 2 28775 	(a hobgoblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28739 1 28775 	(Toadstool the Goblin)
+G 1 28704 1 -1 	(an iron key)
+G 1 28717 100 -1 	(an oily black potion)
+E 1 28774 1 3 	(Toadstool's iron collar)
+E 1 28772 100 5 	(the red platemail)
+E 1 28775 100 6 	(Toadstool's head)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28771 1 16 	(a fine broadsword named "Krat")
+M 0 28740 5 28768 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28740 5 28768 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28740 5 28768 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28740 5 28770 	(the goblin)
+G 1 28715 100 -1 	(a bottle)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28740 5 28770 	(the goblin)
+G 1 28715 100 -1 	(a bottle)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28741 1 28769 	(Groff the Troll)
+G 1 28715 100 -1 	(a bottle)
+G 1 339 100 -1 	(a pot)
+E 1 28777 100 13 	(a pink apron)
+M 0 28742 1 28770 	(the mimic)
+G 1 28715 100 -1 	(a bottle)
+M 0 28745 2 28770 	(the goblin)
+G 1 28715 100 -1 	(a bottle)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28745 2 28770 	(the goblin)
+G 1 28715 100 -1 	(a bottle)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28748 2 28772 	(the orc)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28749 4 28777 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28784 100 16 	(an orcish pick)
+M 0 28749 4 28779 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28784 100 16 	(an orcish pick)
+M 0 28751 2 28776 	(the kobold)
+M 0 28752 1 28783 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28753 1 28782 	(the mimic)
+G 1 28717 100 -1 	(an oily black potion)
+M 0 28754 1 28778 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28755 4 28778 	(the human slave)
+E 1 28783 100 16 	(a small pick)
+M 0 28755 4 28778 	(the human slave)
+E 1 28783 100 16 	(a small pick)
+M 0 28756 4 28778 	(the human slave)
+E 1 28783 100 16 	(a small pick)
+M 0 28756 4 28778 	(the human slave)
+E 1 28783 100 16 	(a small pick)
+M 0 28757 1 28780 	(the goblin blacksmith)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28758 2 28780 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28758 2 28780 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+M 0 28759 4 28780 	(the kobold slave)
+M 0 28759 4 28780 	(the kobold slave)
+M 0 28759 4 28780 	(the kobold slave)
+M 0 28759 4 28780 	(the kobold slave)
+M 0 28760 1 28780 	(the hill giant)
+M 0 28761 1 28780 	(the mimic)
+G 1 28717 100 -1 	(an oily black potion)
+M 0 28762 1 28783 	(the ogre)
+M 0 28763 1 28784 	(an Elf)
+E 1 28769 2 5 	(the elven chain mail)
+E 1 28725 100 7 	(a pair of breeches)
+E 1 28740 2 12 	(a green Elven cloak)
+E 1 28770 100 16 	(the elven hunting bow)
+M 0 28765 6 28794 	(the troll guard)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28766 2 28794 	(the orc)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28766 2 28794 	(the orc)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28765 6 28796 	(the troll guard)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28765 6 28796 	(the troll guard)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28765 6 28796 	(the troll guard)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28765 6 28796 	(the troll guard)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28765 6 28796 	(the troll guard)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28767 1 28795 	(the living wall)
+M 0 28768 1 28798 	(the mimic)
+M 0 28769 1 28797 	(Moragd the Goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28770 1 28797 	(Gorgh the Goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28771 1 28797 	(Khos the Goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28773 100 16 	(a huge black mace)
+M 0 28772 6 28797 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28772 6 28797 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28772 6 28797 	(the goblin)
+E 1 28776 100 12 	(a goblin hide)
+E 1 28768 100 16 	(a poleaxe)
+M 0 28773 1 28799 	(Thrash the Ogre)
+E 1 28712 1 17 	(a copper key)
+M 0 28774 1 28799 	(Throm the Giant)
+G 1 28714 1 -1 	(a bright iron key)
+M 0 28775 1 28799 	(Tarus)
+M 0 28776 1 28799 	(the Great Goblin)
+E 1 28778 100 16 	(an orcish scimitar)
+E 1 28705 1 17 	(a small black key)
+D 0 28708 1 1 	(The Old Plank Road)
+D 0 28709 3 1 	(King's Way)
+D 0 28715 1 1 	(Drovers' Street)
+D 0 28723 3 1 	(The Great Hall)
+D 0 28726 5 2 	(The Eastern End of the Great Hall)
+D 0 28749 4 2 	(The Treasury)
+D 0 28723 2 2 	(The Great Hall)
+D 0 28717 0 2 	(The Guard Headquarters)
+D 0 28717 3 2 	(The Guard Headquarters)
+D 0 28733 3 2 	(The Dog-Leg)
+D 0 28733 5 1 	(The Dog-Leg)
+D 0 28737 3 1 	(The Stone Hallway)
+D 0 28738 1 1 	(The Guard Room)
+D 0 28739 1 2 	(The Stone Hallway)
+D 0 28740 3 2 	(The Stone Hallway)
+D 0 28741 1 2 	(The Stone Hallway)
+D 0 28742 3 2 	(A Small Chamber)
+D 0 28751 3 2 	(Upper Goblin-Town)
+D 0 28752 1 2 	(A Small Armory)
+D 0 28753 1 2 	(A Dark Hall in Goblin-Town)
+D 0 28754 3 2 	(A Small Storeroom)
+D 0 28755 1 2 	(A Dark Hall in Goblin-Town.)
+D 0 28757 3 2 	(A Guard Room)
+D 0 28755 2 2 	(A Dark Hall in Goblin-Town.)
+D 0 28756 0 2 	(A Small Room)
+D 0 28757 1 2 	(A Guard Room)
+D 0 28758 3 2 	(A Landing)
+D 0 28760 2 2 	(A Pale-Glowing Hall in Goblin-Town)
+D 0 28775 0 2 	(The Chieftain's Quarters)
+D 0 28761 0 1 	(A Pale-Glowing Hall in Goblin-Town)
+D 0 28762 2 1 	(A Barracks Room)
+D 0 28761 2 1 	(A Pale-Glowing Hall in Goblin-Town)
+D 0 28774 0 1 	(The Barracks Room)
+D 0 28763 2 1 	(A Pale-Glowing Hall in Goblin-Town)
+D 0 28773 0 1 	(The Barracks Room)
+D 0 28763 0 1 	(A Pale-Glowing Hall in Goblin-Town)
+D 0 28764 2 1 	(A Barracks Room)
+D 0 28765 0 1 	(A Pale-Glowing Hall in Goblin-Town)
+D 0 28766 2 1 	(A Barracks Room)
+D 0 28771 1 2 	(The Mess)
+D 0 28772 3 2 	(A Small Room)
+D 0 28779 1 1 	(A Rough Tunnel)
+D 0 28780 3 1 	(The Iron Foundry)
+D 0 28782 2 1 	(A Rough Tunnel)
+D 0 28780 0 1 	(The Iron Foundry)
+D 0 28784 5 1 	(The Mine Shaft)
+D 0 28794 4 1 	(A Crossing of Tunnels)
+D 0 28794 0 2 	(A Crossing of Tunnels)
+D 0 28794 1 2 	(A Crossing of Tunnels)
+D 0 28794 2 2 	(A Crossing of Tunnels)
+D 0 28794 3 2 	(A Crossing of Tunnels)
+D 0 28795 2 2 	(The Storeroom)
+D 0 28796 3 2 	(The Guard Chamber)
+D 0 28797 0 2 	(The North End of a Hall)
+D 0 28798 1 2 	(The Goblin Treasury)
+O 0 28787 1 28728 	(the wine fountain)
+O 0 28786 1 28710 	(the  Well of Jakur)
+R 0 28707 28722 -1 	(some walnuts)
+R 0 28708 28722 -1 	(some walnuts)
+O 1 28722 100 28707 	(some walnuts)
+O 1 28722 100 28708 	(some walnuts)
+O 0 28785 2 28719 	(a tub of dirty water)
+O 0 28762 1 28749 	(the gold of King Korbor)
+O 0 28732 1 28724 	(a long spear)
+O 0 28788 1 28732 	(the large portrait)
+P 1 28761 1 28788 	(an opal ring)
+O 1 352 100 28725 	(a scroll of recall)
+R 0 28717 28781 -1 	(an ebony chest)
+O 0 28781 1 28717 	(an ebony chest)
+P 1 320 100 28781 	(a dagger)
+P 1 320 100 28781 	(a dagger)
+P 1 322 100 28781 	(a long sword)
+P 1 28737 100 28781 	(a broadsword)
+P 1 28738 100 28781 	(a mail-shirt)
+P 1 309 100 28781 	(a waybread)
+P 1 309 100 28781 	(a waybread)
+P 1 28755 100 28781 	(the elixir of life)
+O 0 28780 6 28738 	(a crude chest)
+P 1 320 100 28780 	(a dagger)
+P 1 28715 100 28780 	(a bottle)
+P 1 28717 100 28780 	(an oily black potion)
+O 0 28780 6 28742 	(a crude chest)
+P 1 28763 100 28780 	(a goblin knife)
+P 1 28763 100 28780 	(a goblin knife)
+O 0 28780 6 28757 	(a crude chest)
+P 1 28717 100 28780 	(an oily black potion)
+O 0 28780 6 28762 	(a crude chest)
+P 1 28742 100 28780 	(a blue cloak)
+P 1 28741 100 28780 	(a red cloak)
+P 1 28717 100 28780 	(an oily black potion)
+O 0 28780 6 28775 	(a crude chest)
+P 1 28732 100 28780 	(a long spear)
+P 1 28753 100 28780 	(the healing draught)
+P 1 28753 100 28780 	(the healing draught)
+P 1 28717 100 28780 	(an oily black potion)
+O 0 28780 6 28775 	(a crude chest)
+P 1 28722 100 28780 	(some walnuts)
+O 0 28782 1 28752 	(a pinewood chest)
+P 1 28731 1 28782 	(the claymore of MacLeod)
+P 1 28740 2 28782 	(a green Elven cloak)
+P 1 28769 2 28782 	(the elven chain mail)
+O 0 28716 3 28754 	(an ugly bronze chest)
+P 1 28764 100 28716 	(a goblin scimitar)
+P 1 28764 100 28716 	(a goblin scimitar)
+P 1 325 100 28716 	(a flail)
+P 1 331 100 28716 	(a lantern)
+R 0 28780 28738 -1 	(a mail-shirt)
+R 0 28780 28738 -1 	(a mail-shirt)
+R 0 28780 28764 -1 	(a goblin scimitar)
+O 0 28738 100 28780 	(a mail-shirt)
+O 0 28738 100 28780 	(a mail-shirt)
+O 0 28764 100 28780 	(a goblin scimitar)
+O 0 28716 3 28780 	(an ugly bronze chest)
+P 1 324 100 28716 	(a warhammer)
+P 1 28738 100 28716 	(a mail-shirt)
+P 1 28717 100 28716 	(an oily black potion)
+O 0 28785 2 28780 	(a tub of dirty water)
+O 0 28716 3 28798 	(an ugly bronze chest)
+P 1 28730 100 28716 	(a claymore)
+P 1 28755 100 28716 	(the elixir of life)
+O 0 28767 1 28798 	(a goblin's spear)
+O 1 28737 100 28798 	(a broadsword)
+O 1 352 100 28798 	(a scroll of recall)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#28700~
+28720
+28713
+28721
+28722
+3002
+3321
+3320
+3319
+3001
+3000
+-1
+1.15
+0.15
+-1
+%s Sorry, I haven't got exactly that item.~
+%s Even if you had that, I wouldn't want it.~
+%s I don't buy anything from Midgaarders.~
+%s Tell Pippin! I ain't supposed to buy!~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s Tell Pippin! I ain't supposed to buy!~
+1
+3
+28700
+2
+28728
+-1
+5
+24
+0
+0
+#28703~
+28739
+28738
+28735
+28734
+28733
+3021
+28737
+28730
+3024
+-1
+1.5
+1.0
+5
+9
+-1
+%s Nope. Don't make that here.~
+%s Maybe I'd buy it, but you don't have it.~
+%s Keep it. I have no use for it.~
+%s I am sorry, but I have bought too much already.~
+%s You need to pay for that, my friend.~
+%s All right. That'll be %d coins.~
+%s Fine. Here are %d crowns.~
+1
+3
+28703
+2
+28719
+-1
+5
+18
+0
+0
+#28704~
+28750
+28736
+3023
+28749
+3042
+-1
+1.5
+0.4
+-1
+%s I haven't made any of those lately.~
+%s I think I could live without one of those.~
+%s I won't buy that.~
+%s I only buy wood, from John the Lumberjack.~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s Oops...a bug! I don't buy.~
+1
+3
+28704
+2
+28714
+-1
+5
+18
+0
+0
+#28705~
+28746
+28745
+28744
+28742
+3009
+3037
+3032
+3031
+-1
+3.5
+0.1
+1
+2
+3
+4
+5
+8
+9
+10
+12
+15
+16
+17
+19
+21
+22
+-1
+%s Don't have one. Get lost!~
+%s Take a look in your pack again, Sherlock!~
+%s No. Don't buy it!~
+%s Not enough cash! Go soak your head!~
+%s Sorry, but NO CREDIT!~
+%s Gimme %d coins!~
+%s I'll give you a whole %d coins for that.~
+1
+3
+28705
+0
+28720
+-1
+9
+17
+0
+0
+#28706~
+28756
+28755
+28754
+28753
+-1
+1.0
+0.5
+1
+-1
+%s I don't see that here. Do you?~
+%s Well, my friend, perhaps you hallucinate?~
+%s I buy only things that bubble and fizz.~
+%s Too expensive for THIS wizard.~
+%s Alas, you are too poor to buy that.~
+%s That'll be %d coins, please.~
+%s Here. I pay you %d coins. Is that enough?~
+0
+3
+28706
+2
+28730
+-1
+5
+12
+13
+18
+#28707~
+30287
+3086
+3071
+3076
+28752
+28751
+28727
+-1
+1.2
+0.9
+-1
+%s Sorry...don't have that.~
+%s I don't buy anything.~
+%s I don't buy anything.~
+%s I don't buy anything.~
+%s This fine armor is too costly for you.~
+%s Wear it in good health! That will be %d coins.~
+%s A minor bug! Please report it.~
+0
+3
+28707
+2
+28729
+-1
+6
+22
+0
+0
+#28708~
+-1
+1.0
+1.0
+-1
+%s I know not the recipe for that.~
+%s Sorry, I don't buy from outsiders.~
+%s Sorry, I don't buy from outsiders.~
+%s Sorry, I don't buy from outsiders.~
+%s Sorry, but here, no money means no goods!~
+%s %d coins, please.  Don't talk with your mouth full.~
+%s Oops - %d a minor bug - please report.~
+2
+3
+28708
+2
+28731
+-1
+3
+16
+0
+0
+#28709~
+28760
+28759
+28758
+28757
+3052
+3050
+-1
+1.5
+0.5
+2
+16
+21
+-1
+%s The goblins must have stolen that.~
+%s Sorry, you don't have that to sell.~
+%s This is a library, not a general store.~
+%s Would you donate it?~
+%s I'm sorry, but you can't afford that.~
+%s That'll be %d crowns.~
+%s Here are %d crowns. Thank you very much.~
+2
+3
+28709
+2
+28724
+-1
+5
+19
+0
+0
+0
+
+
+#$

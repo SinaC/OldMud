@@ -1,0 +1,3335 @@
+#Style Circle
+#AREADATA
+Name Revelry~
+Builders Kaan~
+VNUMs 32500 32599
+Credits {{None}  CAW    Revelry~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#32500
+tumbler man~
+a tumbler~
+A man runs past, flipping and somersaulting his body in the air as he runs.
+~
+   His only break from the constant flips and jumps are when he runs along at a
+steady pace.  He looks your way and gives a wink.    
+~
+cdg 0 400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#32501
+juggler woman~
+a juggler~
+A juggler walks slowly past juggling five colored balls in rapid succession.
+~
+   She is so good at her juggling that she is able to nod to passersby who give
+gasps of astonishment at her ability in juggling and smiles to excited
+children.    
+~
+dg 0 300 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 2
+E
+#32502
+street bard~
+a street bard~
+A street bard wanders past strumming on a lute.
+~
+   His clear tenor voice mingles in with the flawless precision of his lute,
+creating a soulful melody that uplifts spirits and makes the day just a bit
+brighter.    
+~
+bcdg 0 600 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#32503
+wandering minstrel~
+a wandering minstrel~
+A wandering minstrel strolls past, her voice raised in jubilent song.
+~
+   She seems entranced by her own song - she sings with eyes closed, with such
+feeling and power.    
+~
+cdg 0 500 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+E
+#32504
+peddler tonic man traveler garb~
+the tonic peddler~
+A man in bright traveler's garb bids you welcome.
+~
+   He motions you closer and closer and then closer yet.  He whipsers to you
+that his tonics can make a man think better, run quicker and cause the woman of
+his dreams to fall immediately in love with him.    
+~
+bcdnopr 0 600 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+#32505
+Milissin story teller~
+Milissin the Story Teller~
+Milissin reads from her tome, her voice changing with each character's lines.
+~
+   Milissin has the rare gift of the ability to change her voice at command.  
+She can sound mean, sad, scared or happy at will, making her a very effective
+storyteller.    
+~
+bdnopr 0 800 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 2
+E
+#32506
+monkey~
+a small monkey~
+A small monkey dances in time with the melody of the bard.
+~
+   The monkey keeps tethered to the bard's waist by means of a thin rope which
+is attached to a collar around the monkey's neck.    
+~
+bcdnopr 0 100 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 0
+E
+#32507
+kid child small~
+the little kid~
+A parentless little kid runs past, screaming in delight at the wonders around him.
+~
+   He seems to be everywhere at once, a flurry of movement and noise that no
+one can get a lid on.    
+~
+cdg 0 700 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#32508
+old crone zayla madame~
+Madame Zayla~
+An old crone sits unmoving in the darkness of this place.
+~
+   She sits with her hands folded over each on the table, neither looking
+toward you or away from you.  Looking closer, you begin to think that she may
+be very blind.    
+~
+bcd 0 300 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 2
+E
+#32509
+woman palm reader tarot~
+the tarot reader~
+A woman sits cross-legged on the ground, a deck of strange cards spread out before her.
+~
+   She concentrates on the cards before her, as if reading something of some
+important in the way they lay on the ground.    
+~
+bcd 0 300 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#32510
+gypsy dancer~
+a gypsy dancer~
+A gypsy dancer sways with the beat of the music, her hips a gyrating phenomenon.
+~
+   It is hard not to blush watching this full grown woman go through her
+sensuous moves - but then, it is just as hard to look away.    
+~
+bcd 0 400 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+E
+#32511
+gypsy dancer man~
+a gypsy man~
+A gypsy man attempts to keep time with his female counterpart.
+~
+   He is a wondeful dancer in all rights - she is simply a bit more interesting
+to watch than he is .
+~
+bcd 0 200 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32512
+gypsy food vendor man~
+a gypsy food vendor~
+A man covered in tattoos and piercings serves food from a large grill.
+~
+   The man sings and talks jovially to all of his customers, as if there is no
+other place in Dibrova that he would rather be.    
+~
+bcdnopr 0 800 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#32513
+jimmy pickpocket kid hand~
+Jimmy the Hand~
+A little kid bumps into you and goes off running in another direction.
+~
+   That almost felt like the little punk was trying to lighten your load a bit.
+Best to try and ask him what his intentions were.    
+~
+cdg 0 -100 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32514
+woman~
+a woman~
+A woman sits upon the grass, watching the performance on the stage.
+~
+   She seems riveted by the performance, although there really isn't much to it
+- the actors are definitely not professionals.    
+~
+bcd 0 800 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 2
+E
+#32515
+vendor woman gypsy~
+the vendor~
+A vendor walks the festival, carrying a crate filled with foodstuffs.
+~
+   She calls in a loud voice to all who will listen to get what she has while
+she still has it - only a few left and going quick.    
+~
+cdgnopr 0 400 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 2
+E
+#32516
+rootless homeless man vagabond~
+a rootless man~
+A rootless man roams the festival, heading in no particular direction at all.
+~
+   He walks with his hands in his pockets, a travel-worn cape slung over his
+left shoulder.  He meets no eyes nor does he evade them, he simply strolls
+along minding his own business.    
+~
+cdg 0 200 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#32517
+bard stump strumming~
+a lonesome bard~
+A bard rests upon the stump, lost in song as he strums his lute.
+~
+   He sways gently in his position on the stump, eyes closed and humming to the
+song his lute carries.  It must be a fine thing indeed to be so very in tune
+with one's inner self.    
+~
+bcd 0 600 E
+19 17 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+E
+#32518
+woman bard flute player~
+a woman bard~
+A woman sits at the riverbank, softly playing a song through a bamboo reed.
+~
+   The song is as fine as any produced through a metal instrument such as a
+flute.  She plays with such skill and feeling that even the wind seems to
+listen to her song.    
+~
+bcd 0 900 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 2
+E
+#32519
+woman cat actress~
+an actress~
+A woman dressed as a cat enacts her part in the production.
+~
+   The woman sports a long tail and a set of whiskers made to make even the
+most stoic of onlookers grin.  She plays her part well.    
+~
+bcd 0 89 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+E
+#32520
+actor man mushroom~
+the actor~
+A man dressed as a huge mushroom stands still as he recites his lines.
+~
+   It really does not take a great deal of talent to play the part of a
+mushroom, however the man recites his line with precision and clarity.    
+~
+bcd 0 500 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32521
+gypsy woman clean~
+a gypsy woman~
+A gypsy woman kneels at water's edge cleaning her clothes.
+~
+   She hums as she scrubs and cleans, apparently happy with her lot in life and
+pleased to be cleaning clothes in a river.    
+~
+bcd 0 800 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 2
+E
+#32522
+man fixing wagon repair burly~
+a gypsy man~
+A burly gypsy mends a broken wheel on the wagon.
+~
+   He wears only the baggy pants commonly worn by the gypsy clans, sweat
+pouring from his body.  Maybe you ought to help the poor fella?    
+~
+bcd 0 400 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32523
+man shoer~
+a gyspsy man~
+A gypsy man shoes a horse, tapping nails in gently.
+~
+   He is quite stout but makes up for his lack in height in strength.  His arms
+are heavily muscled and tanned.    
+~
+bcd 0 600 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#32524
+mime~
+a mime~
+A mime silently moves past, acting as if trapped in a moving glass prison.
+~
+   There really is nothing worse than a mime, except maybe a politician.  
+Please put this one out of its misery.    
+~
+cdg 0 200 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#32525
+woman gypsy face painter~
+the face-painter~
+A smiling gypsy woman paints the faces of delighted children.
+~
+   She seems to truly enjoy the fun and excitement that each child exhibits
+when a new face is painted on and the child leaps from his or her chair,
+laughing in delight.    
+~
+bcd 0 800 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#32526
+man resting performer~
+a resting performer~
+One of the performers rests after a gruelling performance on stage.
+~
+   He massages his shins and lower legs, getting the cramps out from the
+performances onstage.    
+~
+bcd 0 600 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#32527
+resting performer woman~
+a resting performer~
+A woman lies on her back, catching her breath after a tiring show.
+~
+   She stares at the sky as she breathes, lost in thought.    
+~
+bcd 0 600 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 2
+E
+#32528
+townsman man~
+a townsman~
+A townsman walks along, taking in the sights and sounds of the festival.
+~
+   He walks along attempting to appear unimpressed by the antics of the
+gypsies, however his open eyes and twisting neck give him away.    
+~
+cdg 0 500 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#32529
+countryman man~
+a wide-eyed countryman~
+A wide-eyed countryman walks the festival, amazed at all the people and sights.
+~
+   This bumpkin makes no attempt to hide the fact that he only sees this many
+people when he comes to town once a month - and then only the same faces.    
+~
+cdg 0 0 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#32530
+townswoman woman~
+a townswoman~
+A townswoman sniffs at the workers of the festival, taken aback at their filthiness.
+~
+   It appears that this woman feels that these workers are not of the same
+level of stature as she and that they should pay heed to where she treads.  
+Most of them pay her no heed at all.    
+~
+cdg 0 500 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+E
+#32531
+elven male wanderer~
+an elven wanderer~
+An elven wanderer walks the festival, his gait steady and dextrous.
+~
+   Although he seems to enjoy a great many of the tricks and shows that go on,
+he still keeps one hand on his dagger - just in case any of those MoS types
+show up.    
+~
+cdg 0 600 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 1
+E
+#32532
+stout countryman's wife~
+a stout countryman's wife~
+A stout countryman's wife bounces through the festival, smiling warmly.
+~
+   She seems so happy, so pleased to be out and about among people.  Poor
+thing, she must not get out very much.    
+~
+dg 0 0 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 2
+E
+#32533
+farmer man~
+a farmer~
+A farmer walks through the festival with a disbelieving look fixed upon his face.
+~
+   This is a simple man, a man of low birth who has never known much of the
+fine life or wandering.  All of this is almost too much.    
+~
+cdg 0 600 E
+19 17 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+E
+#32534
+farmer's wife woman~
+a farmer's wife~
+A woman in a simple spun dress looks around in joy and wonder.
+~
+   She looks around in all directions, trying to see everything at once.    
+~
+cdg 0 700 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 2
+E
+#32535
+midget~
+a midget~
+A midget runs through the crowds, backflipping and somersaulting.
+~
+   He does all of his tricks with a smile and a flourish, sometimes including
+people in his routine as he dives and rolls between their legs.    
+~
+cdg 0 0 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+E
+#32536
+man stilts~
+a man on stilts~
+A man walks through the festival on tall wooden poles.
+~
+   The poles seem almost an extension of his own legs.  He never falters,
+stumbles or rests for any period of time.    
+~
+cdg 0 600 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#32537
+lounging gypsy~
+a lounging gypsy~
+A gyspsy lounges on the grass, arms folded under his head.
+~
+   He does not appear to be bothered that he is taking his break, or more aptly
+put, nap in the middle of this throng of people.  He rests easily, his chest
+rising and falling in rythymic sleeping patterns.    
+~
+bcd 0 600 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#32538
+sword juggler silver~
+a sword juggler~
+A man in a silver tunic juggles curved broadswords with his partner.
+~
+   He tosses the swords, spinning them away as fast as he catches them toward
+his partner in red who does just the same right back.    
+~
+dg 0 600 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#32539
+sword juggler red~
+a sword juggler~
+A man in a red tunic juggles curved broadswords with his partner.
+~
+   As his partner catches and throws the spinning swords back at him, this man
+talks animatedly with the crowd, urging them to throw a coin or two their way.
+  
+~
+dg 0 500 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#32540
+animal caretaker~
+the animal caretaker~
+A woman tends to the animals, keeping a close watch on them.
+~
+   Her main function is to be sure that these animals do not injure the
+children who pet them.  And that is exactly what she does.    
+~
+dg 0 700 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 2
+E
+#32541
+child face painted lion~
+a child with his face painted~
+A child runs past, his face painted like a lion.
+~
+   He looks up at you.  He smirks and says, 'Roar.  '
+~
+cdg 0 800 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#32542
+preparing performer man~
+a preparing performer~
+A man stares off into space, reciting his lines quickly and quietly.
+~
+   He bobs his head with each word he whispers, as if agreeing that what he is
+saying are the proper lines, psyching himself for his time on stage.    
+~
+bcd 0 600 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#32543
+preparing performer woman~
+a preparing performer~
+A woman nervously paces back and forth at the edge of the stage.
+~
+   As she paces along she mutters to herself, praising her own ability to sing
+and dance, giving herself confidence for her time on stage.    
+~
+bcd 0 300 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 2
+E
+#32544
+child face paint kitty cat~
+a child with her face painted~
+A child pushes past, her face painted up like a kitty-cat.
+~
+   She squeals in delight as she runs along, meowing and purring at intervals.
+  
+~
+cdg 0 800 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 2
+E
+#32545
+child face paint skeleton~
+a child with his face painted~
+A child with a painted-on skeleton face looks somberly up at you.
+~
+   It is only face paint, but he appears to be taking his role quite seriously.
+  
+~
+cdg 0 900 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#32546
+man gypsy artifact~
+the gypsy salesman~
+A man leans out of his cart, bidding you to take a look at his fine goods.
+~
+   He is fat and red-faced, a dirty turban wrapped around his head.  He wears a
+set of soiled robes which have at least on hue of every color under the sun on
+them.    
+~
+bcdnopr 0 600 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#32547
+clothing woman gypsy~
+the cloth lady~
+A woman draped in awful-colored clothing stands proudly at her wagon.
+~
+   She offers the 'finest in all the land' for exotic cloth, found only at the
+outer fringes of the world and beyond.    
+~
+adgnopr 0 300 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 2
+E
+#32548
+woman costume jewelry~
+the jewelry woman~
+A woman draped in cheap jewelry beckons you in closer.
+~
+   She bids you to take a look at her fine wares, all at a price which can be
+made specially for you - but only today, right now!    
+~
+adgnopr 0 400 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 2
+E
+#32549
+puppet master~
+the puppet master~
+The puppet master causes his little creatures to dance and cavort comically.
+~
+   He looks up from time to time to make sure his audience is enjoying the
+show, but for the most part this rat-nosed man seems engrossed in his job.    
+~
+bcd 0 800 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#32550
+horse pack~
+a pack horse~
+A sturdy pack horse patiently waits on his shoes.
+~
+   Every now again a muffled snort or a swish of the tail is affected - other
+than that, it just stands there looking bored.    
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 0
+E
+#32551
+man gypsy grin sloppy~
+a grinning gypsy~
+A gypsy man with a big sloppy grin serves the ale.
+~
+   His eyes are a bit red around the edges, his smile a bit too loose.  He may
+have taken a couple swills himself...    
+~
+bcdnopr 0 500 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#32552
+man beer swilling~
+a beer-swilling man~
+A man is here throwing back the beers.
+~
+   He is a tall, broad-shouldered man who takes his drink very seriously.    
+~
+dg 0 600 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32553
+man beer drinker~
+an ale quaffer~
+A farmer drinks some ale as he watches the stage show.
+~
+   It doesn't appear that he is a heavy drinker, but he does keep a firm grip
+on his mug.  Maybe he is afraid the missus will take it away...    
+~
+dg 0 400 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#32554
+man ale drinker local drunk~
+a local drunk~
+One of the locals of the area stands near the keg, refilling his glass frequently.
+~
+   He tries to start conversations with just about anyone who will listen - he
+has a story for just about everything.    
+~
+dg 0 300 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#32555
+man spectator farmhand~
+a farmhand~
+A farmhand watches starry-eyed as the gypsy dancer moves her hips.
+~
+   He looks no older than fifteen or sixteen, with freckles and all.    
+~
+bcd 0 500 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32556
+man spectator~
+a cityboy~
+A young lad of the city blushes as he watches the gypsy dancer move.
+~
+   He may be blushing, but he sure ain't turning around, either.    
+~
+bcd 0 800 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#32557
+older woman~
+an older woman~
+An older woman clucks in disapproval at the display onstage.
+~
+   She sure makes a lot of racket for someone who hasn't moved from her spot in
+front of male gypsy dancer for the last hour and a half.    
+~
+bcd 0 500 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 2
+E
+#32558
+gypsy onlooker~
+a gypsy onlooker~
+A gypsy watches his fellow brethren as they go about their dance.
+~
+   He must be on break or between shows, the lucky guy.    
+~
+bcd 0 700 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32559
+young country girl~
+a young country girl~
+A young country girl watches in rapture as the dancers make their exotic moves.
+~
+   This poor little dear is certainly a candidate for recruitment into the
+gypsy band.    
+~
+bcd 0 700 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+E
+#32560
+gypsy cook~
+a gypsy woman~
+A gypsy woman prepares food for the hungry festival-goers.
+~
+   She is spattered in stains and grease, but seems to be enjoying herself just
+the same.    
+~
+bcd 0 600 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 2
+E
+#32561
+child waiting face paint~
+an excited child~
+An excited child waits as he gets his face painted.
+~
+   He tries not to appear too excited, but he bounces from foot to foot with
+anticipation in his eyes.    
+~
+dg 0 800 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#32562
+wide eyed child~
+a wide-eyed child~
+A wide-eyed child listens raptly to the story.
+~
+   A thin line of spittle runs out of the corner of his mouth, but he doesn't
+notice it.  He stares up in awe at the storyteller as the relates the story.  
+
+~
+bcd 0 900 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#32563
+little girl~
+a little girl~
+A little girl listens raptly as the story unfolds.
+~
+   Her ponytails droop unmoving as she listens to the story, not moving muscle,
+listening with every part of her being.    
+~
+bcd 0 800 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 2
+E
+#32564
+young lad~
+a young lad~
+A young lad listens to the story with wonder in his eyes.
+~
+   He almost looks as if he were in a trance of some sort, lost so deeply in
+the plot of the story that he lost track of the real world.    
+~
+bcd 0 800 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#32599
+butler duvois~
+Duvois' Butler~
+Duvois' personal butler stands here ready for your request.
+~
+   An old english looking fellow with grey hair and a grey moustache.  He
+features are warm and friendly, and he seems overly exciting to satisfy your
+request.  He is dressed in the traditional butler's garb and is standing
+upright like a englishman should.    
+~
+bdelnopqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+E
+#0
+
+#OBJECTS
+
+#32500
+madame zayla wagon~
+Madame Zayla's wagon~
+Madame Zayla's Wagon rests here in the middle of the woods.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32501
+small round table~
+a small round table~
+A small round wooden table sits in the center of the wagon.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32502
+crystal ball madame zayla's~
+Madame Zayla's crystal ball~
+Madame Zayla's crystal ball glows upon the table.~
+~
+8 0 a 0
+0 0 0 0
+1 1000 0 0
+A
+3 1
+#32503
+trickling brook~
+a trickling brook~
+The brook trickles by, clear and clean.~
+~
+23 0 0 0
+2000 2000 15 0
+2005 0 0 0
+#32504
+small platform stage~
+a small platform stage~
+A small platform stage has been erected for the actors.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32505
+line children~
+a line of children~
+A line of children run past you from the face painter's booth.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32506
+hot pie covered~
+a small hot pie~
+A small hot pie has been dropped on the ground.~
+~
+19 0 a 0
+9 0 0 0
+2 5 0 0
+#32507
+picnic table~
+a long wood picnic table~
+Long wooden picnic tables are scattered about.~
+Nothing.
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+table~
+   The tables are about eight feet in length, made from some wood that has aged
+beyond recognition.  The tables are still serviceable, though barely.    
+~
+#32508
+grill black iron~
+a black iron grill~
+A black iron grill steams with heat.~
+~
+15 0 0 0
+0 0 0 0
+0 0 0 0
+#32509
+water keg wooden water~
+a wooden keg~
+A wooden keg stands on stilts next to the grill.~
+~
+17 0 0 0
+0 0 0 0
+0 0 0 0
+#32510
+puppet castle~
+a wooden puppet castle~
+A wooden puppet castle painted to look like stone is here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32511
+set colored balls~
+a set of colored balls~
+Don't slip! A set of colored balls have been left on the ground.~
+~
+12 0 a 0
+0 0 0 0
+4 10 0 1
+#32512
+lute simple wooden~
+a simple wooden lute~
+A simple wooden lute has been left here.~
+~
+12 0 ao 0
+0 0 0 0
+3 25 0 11
+A
+3 2
+#32513
+homemade lyre~
+a homemade lyre~
+A nice, homemade lyre has been dicarded here.~
+~
+12 0 ao 0
+0 0 0 0
+5 100 0 1
+#32514
+love tonic~
+a jar of love tonic~
+A jar of love tonic is glowing on the ground.~
+~
+10 a ao 0
+1 7 18 22
+1 165 0 1
+#32515
+tonic super smarts jar~
+a jar of super brain-power~
+A jar of super brain-power tonic has been left here.~
+~
+10 b ao 0
+1 3 20 21
+2 231 0 1
+#32516
+youth tonic~
+a youth tonic~
+An odd looking jar of tonic has been dropped here.~
+~
+10 a ao 0
+1 43 -1 -1
+2 189 0 1
+#32517
+great tome adventures~
+the Great Tome of Adventures~
+A large tome rests face down on the ground.~
+~
+2 0 ao 0
+10 -1 -1 -1
+19 200 0 1
+#32518
+tether monkey throat small~
+a small throat tether~
+A small throat tether has been thrown to the ground.~
+~
+11 0 ac 0
+0 0 0 0
+3 20 0 11
+A
+2 2
+#32519
+tiny symbols~
+a set of tiny symbols~
+A set of tiny symbols lie left on the ground.~
+~
+12 0 am 0
+0 0 0 0
+2 10 0 10
+A
+13 15
+#32520
+fortune your told~
+a glowing fortune~
+A glowing fortune lies on the ground.~
+~
+2 0 ao 0
+25 3 -1 -1
+5 100 0 1
+#32521
+moth eaten robes~
+a set of moth-eaten robes~
+A set of moth-eaten robes lies left for trash here.~
+~
+9 b ak 0
+4 0 0 0
+6 27 0 21
+A
+4 2
+A
+9 2
+#32522
+deck tarot cards~
+a deck of tarot cards~
+A deck of tarot cards have been left here.~
+~
+12 a a 0
+0 0 0 0
+2 500 0 23
+A
+19 1
+A
+18 2
+#32523
+gypsy dancer's silks~
+some gypsy dancer's silks~
+Some gypsy dancer's silks have been removed and left here.~
+~
+9 0 af 0
+1 0 0 0
+1 80 0 13
+#32524
+tambourine~
+a tambourine~
+A tambourine lies twinklling in the light.~
+~
+12 0 a 0
+0 0 0 0
+4 100 0 0
+#32525
+slab mutton jerky~
+a slab of mutton jerky~
+A slab of mutton jerky has been dropped here.~
+~
+19 0 a 0
+7 0 0 0
+1 6 0 0
+#32526
+purse snatching~
+the purse of snatching~
+An odd-looking black purse has been dropped here.~
+~
+15 0 al 0
+650 1 -1 0
+1 200 0 10
+A
+2 2
+#32527
+alfalfa sprouts~
+some alfalfa sprouts~
+Some alfalfa sprouts lie tossed to the ground.~
+~
+19 0 a 0
+2 0 0 0
+1 3 0 0
+#32528
+fresh fruit~
+some fresh fruits~
+Some fresh fruits have been dropped to the ground.~
+~
+19 0 a 0
+4 0 0 0
+2 7 0 0
+#32529
+travel worn cape~
+a travel-worn cape~
+A travel-worn cape lies crunkled on the ground.~
+~
+9 0 ak 0
+3 0 0 0
+4 200 0 22
+A
+18 2
+A
+13 15
+#32530
+severed claw jamuurin lion~
+the severed claw of a jamuurin lion~
+A claw attached to a leather strap has been left here.~
+~
+9 0 ao 0
+2 0 0 0
+4 10 0 11
+A
+4 1
+#32531
+pair traveling shoes~
+a pair of traveling shoes~
+A pair of traveling shoes lie on the ground, dusty from the road.~
+~
+9 0 ag 0
+4 0 0 0
+4 45 0 13
+A
+5 2
+#32532
+emblem song true necklace chain~
+the Emblem of True Song~
+An odd-shaped piece lies on the ground, attached to a chain.~
+~
+9 0 ac 0
+2 0 0 0
+4 400 0 15
+A
+6 2
+#32533
+bamboo reed~
+a bamboo reed~
+A bamboo reed lies on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+2 40 0 13
+A
+6 2
+#32534
+silk scarf~
+a silk scarf~
+A silk scarf lies rumpled on the ground.~
+~
+11 0 ac 0
+0 0 0 0
+15 2 0 11
+A
+21 -2
+#32535
+lute finely carved decorated~
+a finely carved lute~
+A finely carved lute made from glossy wood lies here.~
+~
+12 0 ao 0
+0 0 0 0
+6 400 0 17
+A
+18 2
+#32536
+fake cat's tail~
+a fake cat's tail~
+A costume cat's tail has been dropped to the ground.~
+~
+11 0 ao 0
+0 0 0 0
+3 7 0 10
+A
+17 -2
+A
+6 1
+#32537
+cat whiskers~
+some cat's whiskers~
+Some cat's whiskers have been left here.~
+~
+11 0 a 0
+0 0 0 0
+1 8 0 13
+A
+2 2
+#32538
+soft gypsy boots~
+a pair of soft gypsy boots~
+A pair of soft gypsy boots lie unused on the ground.~
+~
+9 0 ag 0
+3 0 0 0
+5 18 0 14
+A
+14 25
+#32539
+mushroom suit~
+a mushroom suit~
+A mushroom suit lies in a heap.~
+~
+9 0 ad 0
+7 0 0 0
+11 40 0 1
+#32540
+clean laundry pile~
+a pile of clean laundry~
+A pile of clean laundry lies on the riverbank.~
+~
+13 0 a 0
+0 0 0 0
+6 1 0 0
+#32541
+wooden mallet~
+a wooden mallet~
+A wooden mallet has been left here.~
+~
+5 0 an 0
+2 2 7 7
+5 5 0 11
+A
+3 1
+#32542
+pair baggy pants~
+a pair of baggy pants~
+A pair of baggy pants has been tossed to the ground.~
+~
+9 0 af 0
+2 0 0 0
+6 14 0 10
+A
+2 1
+#32543
+shoeing hammer~
+a shoeing hammer~
+Someone dropped a shoeing hammer here.~
+~
+5 0 an 0
+1 2 3 7
+3 3 0 1
+#32544
+mime face paint~
+some mime face paint~
+Some mime face paint has been smudged onto the floor.~
+~
+11 0 ae 0
+0 0 0 0
+1 7 0 12
+A
+6 2
+#32545
+painter's pallet~
+a painter's pallet~
+A painter's many-colored pallet full of colorful paint is here.~
+~
+15 b ao 0
+250 0 -1 0
+3 25 0 20
+A
+6 1
+A
+2 2
+#32546
+finely crafted shoes~
+a pair of finely-crafted shoes~
+A pair of finely-crafted shoes have been neatly placed here.~
+~
+9 0 ag 0
+3 0 0 0
+4 35 0 26
+A
+19 2
+A
+18 3
+#32547
+dainty kercheif~
+a dainty kercheif~
+A dainty kercheif lies on the ground.~
+~
+12 o ao 0
+0 0 0 0
+2 30 0 11
+A
+6 1
+#32548
+shining ring~
+a shining ring~
+A shining ring lies on the ground.~
+~
+9 0 ab 0
+2 0 0 0
+3 300 0 12
+A
+3 1
+#32549
+hawk dagger~
+a hawk dagger~
+A sharp-looking hawk dagger has been left here.~
+~
+5 0 ano 0
+2 4 5 11
+5 150 0 22
+A
+19 2
+A
+2 1
+#32550
+elven boots~
+a pair of well-worn elven boots~
+A pair of well-worn elven boots lie on the ground.~
+~
+9 0 ag 0
+5 0 0 0
+8 135 0 19
+A
+14 25
+#32551
+simple home spun dress~
+a simple home-spun dress~
+A simple home-spun dress has been left behind by someone.~
+~
+9 0 ad 0
+3 0 0 0
+6 5 0 1
+#32552
+jokers cap bells~
+a silly-looking joker's cap~
+A silly-looking joker's cap with bells at the ends lies here.~
+~
+9 0 0 0
+4 0 0 0
+0 0 0 15
+A
+6 2
+#32553
+stilts~
+a set of stilts~
+A set of stilts has been dropped here.~
+~
+11 0 af 0
+0 0 0 0
+3 10 0 1
+A
+11 3
+#32554
+gypsy ring~
+a gypsy ring~
+A gypsy ring has been left here.~
+~
+11 k ao 0
+0 0 0 0
+2 45 0 28
+A
+19 2
+A
+5 1
+A
+1 -1
+#32555
+gypsy thumb ring~
+a gypsy thumb ring~
+A gypsy thumb ring lies in the dirt.~
+~
+9 0 ab 0
+2 0 0 0
+2 170 0 29
+A
+18 1
+A
+6 2
+#32556
+curved broadsword sword~
+a curved broadsword~
+A curved broadsword has been left here.~
+~
+5 0 an 0
+1 4 2 3
+11 75 0 7
+#32557
+silver tunic~
+a silver tunic~
+A silver tunic lies on the ground.~
+~
+9 0 ak 0
+4 0 0 0
+4 10 0 1
+#32558
+red tunic~
+a red tunic~
+A red tunic has been left here.~
+~
+9 0 ak 0
+4 0 0 0
+4 10 0 1
+#32559
+lamp renkaza~
+the Lamp of Renkaza~
+A tiny brass oil lamp has been left here.~
+~
+13 a a 0
+0 0 0 0
+12 203 0 1
+#32560
+horn manticonn~
+the Horn of Manticonn~
+An ood-looking horn has been dropped here.~
+~
+13 0 a 0
+0 0 0 0
+14 164 0 1
+#32561
+arvida banner~
+Arvida's Banner~
+A lenght of old cloth has been left here.~
+~
+13 0 ao 0
+0 0 0 0
+12 189 0 1
+#32562
+length silk~
+a length of silk~
+A length of silk has been dropped here.~
+~
+9 0 ao 0
+1 0 0 0
+3 101 0 1
+#32563
+silk wrap~
+a silk wrap~
+A beautiful silk wrap has been left here.~
+~
+9 0 ao 0
+1 0 0 0
+2 87 0 1
+#32564
+silk belt~
+a silk belt~
+A silk belt lies on the ground.~
+~
+9 0 al 0
+1 0 0 0
+3 69 0 1
+#32565
+hand crafted ring~
+a hand crafted ring~
+A hand crafted ring has been left here.~
+~
+11 0 abo 0
+0 0 0 0
+2 156 0 1
+A
+17 -3
+#32566
+rope woven necklace~
+a hand-woven rope necklace~
+A small rope necklace lies on the ground.~
+~
+11 0 ac 0
+0 0 0 0
+2 67 0 1
+A
+17 -2
+#32567
+pewter thumb ring~
+a pewter thumb ring~
+A pewter thumb ring lies left behind.~
+~
+9 0 ab 0
+2 0 0 0
+2 132 0 1
+#32568
+finger puppet small man~
+a small finger puppet of a man~
+A small finger puppet of a man has been left here.~
+~
+13 0 ab 0
+0 0 0 0
+5 10 0 1
+#32569
+finger puppet small woman~
+a small woman finger-puppet~
+A small woman finger-puppet has been dropped on the ground here.~
+~
+13 0 ab 0
+0 0 0 0
+5 10 0 1
+#32570
+ale mug ale~
+a mug~
+An ale mug has been left here.~
+~
+17 0 a 0
+6 6 4 0
+11 7 0 0
+#0
+
+#ROOMS
+
+#32500
+Matted-down Grass~
+   The yellow grass here has been trampled through, most of it smooshed to the
+ground from passing feet and wagon wheels.  The tracks lead south toward an open
+area where a fairly large number of people are milling about.  Just south of
+here are a couple of wagons pulled up close by the side of the road.  
+~
+325 0 0
+D2
+~
+~
+0 0 32501
+D4
+~
+~
+0 0 -1
+E
+credits info~
+Encampment by Kaan
+~
+S
+#32501
+Matted-down Grass~
+   The way is fairly well traveled for not being a road, the amount of traffic
+which has headed in this direction has made the way very passable.  Just to the
+east is a colorful wagon with a man sitting inside, waving at you.  
+~
+325 0 0
+D0
+~
+~
+0 0 32500
+D1
+~
+~
+0 0 32503
+D2
+~
+~
+0 0 32502
+S
+#32502
+A Beaten Grassy Path~
+   Another wagon sits beside the road, this one just to the west side.  The
+grasses have been walked upon so much here that there are patches where it has
+been completely worn away.  Directly south from here is a huge, wide open area
+where large numbers of odd looking men and women dance, cavort and tease their
+way through the people who walk through the area.  
+~
+325 0 0
+D0
+~
+~
+0 0 32501
+D2
+~
+~
+0 0 32505
+D3
+~
+~
+0 0 32504
+S
+#32503
+At the Tonic Wagon~
+   The colorful wagon which rests beside the road boasts travel in all the
+exotic areas of the world.  Small silver bells hang off of the awnings from
+strings, the bells twinkling and ringing as the wind carries them.  
+~
+325 0 0
+D3
+~
+~
+0 0 32501
+S
+#32504
+At a Bright Wagon~
+   This wagon is much like everything in sight in this wild and exciting place.
+It is painted in bright, garish colors with terrible landscapes and beautiful
+waterfalls abounding.  It certainly is a wagon that attracts a great deal fo
+attention.  
+~
+325 0 0
+D1
+~
+~
+0 0 32502
+D2
+~
+~
+0 0 -1
+S
+#32505
+Festival Grounds~
+   A perpetual festival is in affect here, day in and day out.  Whenever a
+caravan of gypsies or performers leaves, it always seems that another takes its
+place.  A panorama of spectacles and wonders await in every direction.  
+~
+325 0 0
+D0
+~
+~
+0 0 32502
+D1
+~
+~
+0 0 32506
+D2
+~
+~
+0 0 32509
+D3
+~
+~
+0 0 32507
+S
+#32506
+Festival Grounds~
+   Smiling folk fill this large open area where all sorts of merry men and women
+amaze and delight any who will watch.  This is the northeast corner of the area
+- most of the activity is off to the south and west.  
+~
+325 0 0
+D2
+~
+~
+0 0 32510
+D3
+~
+~
+0 0 32505
+S
+#32507
+Festival Grounds~
+   This was, up until recently, a simple open field devoid of anything unique at
+all.  The yellowish grass underfoot crunches unerfoot, still a bit springy when
+stepped upon.  All sorts of curiousities fill this area, most of it off to the
+south and east.  
+~
+325 0 0
+D1
+~
+~
+0 0 32505
+D2
+~
+~
+0 0 32508
+S
+#32508
+Festival Grounds~
+   A open swath through the trees leads off to the west, more of the same
+delights that fill this area in that direction.  
+~
+325 0 0
+D0
+~
+~
+0 0 32507
+D1
+~
+~
+0 0 32509
+D2
+~
+~
+0 0 32511
+D3
+~
+~
+0 0 32535
+S
+#32509
+Festival Grounds~
+   The sounds of the people who mill about this clearing are almost
+incomprehensible as they mingle in with the shouts of vendors, the cries of the
+performers and the general hubbub of a place like this.  The strangest sights
+abound in every direction, one need only to around to see a new miracle or feat
+at every turn.  
+~
+325 0 0
+D0
+~
+~
+0 0 32505
+D1
+~
+~
+0 0 32510
+D2
+~
+~
+0 0 32512
+D3
+~
+~
+0 0 32508
+S
+#32510
+Festival Grounds~
+   A wide open area to the east leads past more of the same delights that fill
+this clearing.  Off to the south, performance of some sort is in progress.  
+~
+325 0 0
+D0
+~
+~
+0 0 32506
+D1
+~
+~
+0 0 32518
+D2
+~
+~
+0 0 32513
+D3
+~
+~
+0 0 32509
+S
+#32511
+Festival Grounds~
+   The clearing comes to the edge of the forest at this point, however there is
+a small pathway through the trees to the west.  
+~
+325 0 0
+D0
+~
+~
+0 0 32508
+D1
+~
+~
+0 0 32512
+D2
+~
+~
+0 0 32514
+D3
+~
+~
+0 0 32545
+S
+#32512
+Festival Grounds~
+   You are dead smack in the center of this place full of gaiety and fun, people
+moving all about you jostling and bumping elbows.  In any direction is something
+new, something wonderful.  
+~
+325 0 0
+D0
+~
+~
+0 0 32509
+D1
+~
+~
+0 0 32513
+D2
+~
+~
+0 0 32515
+D3
+~
+~
+0 0 32511
+S
+#32513
+Festival Grounds~
+   With all of the people who move past you in such an unhurried manner, its
+hard not to relax a bit in this place and drop a bit of coin.  This place must
+be a traveling affair, as the ground underfoot still seems to be alive even
+through all the feet that tromp over it.  
+~
+325 0 0
+D0
+~
+~
+0 0 32510
+D1
+~
+~
+0 0 32517
+D2
+~
+~
+0 0 32516
+D3
+~
+~
+0 0 32512
+S
+#32514
+Festival Grounds~
+   This is western edge of the clearing - most of the goings-on are to the
+north, south and east.  It really is amazing how so many folk can come through
+this area, all of them of different race, size and stature and yet all of them
+can mingle peacefully - even happily.  
+~
+325 0 0
+D0
+~
+~
+0 0 32511
+D1
+~
+~
+0 0 32515
+D2
+~
+~
+0 0 32549
+S
+#32515
+Festival Grounds~
+   Just to the south is a small stage where a group of performers are acting out
+some sort of skit.  The north, east and west are many other attractions as well.
+
+~
+325 0 0
+D0
+~
+~
+0 0 32512
+D1
+~
+~
+0 0 32516
+D2
+~
+~
+0 0 32550
+D3
+~
+~
+0 0 32514
+S
+#32516
+Festival Grounds~
+   This is the eastern edge of the clearing, most of the action is to the east
+and north.  To the south is the southern boundary of the clearing where a small
+path has been cleared through the woods.  
+~
+325 d 0
+D0
+~
+~
+0 0 32513
+D2
+~
+~
+0 0 32551
+D3
+~
+~
+0 0 32515
+S
+#32517
+Road~
+   A wide section of the clearing opens out east into another open area where
+more gaming and fun are being had.  There are wagons parked alongside the
+grassway at intervals, each one filled with exotic goods for sale to sale who
+pass.  
+~
+325 0 0
+D0
+~
+~
+0 0 32518
+D1
+~
+~
+0 0 32521
+D3
+~
+~
+0 0 32513
+S
+#32518
+Eastern Grassway~
+   A wide swath of grass heads east into another open area where more people
+gather about watching shows and buying goods.  Wagons are parked alongside this
+grassway, one of which is parked just north of where you stand.  
+~
+325 0 0
+D0
+~
+~
+0 0 32519
+D1
+~
+~
+0 0 32520
+D2
+~
+~
+0 0 32517
+D3
+~
+~
+0 0 32510
+S
+#32519
+Clothing Wagon~
+   The large wagon that rests in this small niche in the treeline is strewn over
+with colorful cloths and tapestries, all of which seem like they compete with
+another in terms of garishness.  Most obviously, the owner of this wagon makes
+his living selling clothing and cloth.  
+~
+325 0 0
+D2
+~
+~
+0 0 32518
+S
+#32520
+Eastern Grassway~
+   The oddities just keep coming as the people who ply their trade of
+entertainment pass by, doing whatever it is that they are good at.  A large
+gathering of people are centered to the east, watching some kind of act or play.
+
+~
+325 0 0
+D1
+~
+~
+0 0 32523
+D2
+~
+~
+0 0 32521
+D3
+~
+~
+0 0 32518
+S
+#32521
+Eastern Grassway~
+   People move and jostle past in a constant movement, most of all them happy
+and having fun.  To the south is a brightly-colored wagon selling some sort of
+wearable, looks like jewelry.  
+~
+325 0 0
+D0
+~
+~
+0 0 32520
+D1
+~
+~
+0 0 32524
+D2
+~
+~
+0 0 32522
+D3
+~
+~
+0 0 32517
+S
+#32522
+Costume Jewelry~
+   The wagon is decorated with painted pictures of queens and kings festooned in
+regal robes and draping jewelry.  Close up pictures of hands wearing glistening
+rings and sparkling bracelets draw attention to the sale of items in the wagon's
+sale-window.  
+~
+325 0 0
+D0
+~
+~
+0 0 32521
+S
+#32523
+Eastern Grassway~
+   To the east is a wide open area where a large stage has been erected for
+acting troops to enact intricate plays and skits which involve deep story lines
+and thick plots.  A large crowd has gathered before the stage to watch the
+plays.  
+~
+325 0 0
+D1
+~
+~
+0 0 32526
+D2
+~
+~
+0 0 32524
+D3
+~
+~
+0 0 32520
+S
+#32524
+Eastern Grassway~
+   Just to the east is a large clearing.  It is not quite as large as the one
+for the main festival grounds, but it gives a good fight.  A stage is set up at
+the eastern edge of the clearing, constant skits and acts being played out to
+the delight and wonder of the crowd watching.  
+~
+325 0 0
+D0
+~
+~
+0 0 32523
+D1
+~
+~
+0 0 32527
+D3
+~
+~
+0 0 32521
+S
+#32525
+Court~
+   The stage lies to the southeast from here, where a play is being carried out,
+watched by a large crowd of people in the area to the south.  To the north is an
+open-air restaurant - the frangrant smell of gypsy food filling the air.  
+~
+325 0 0
+D0
+~
+~
+0 0 32531
+D1
+~
+~
+0 0 32573
+D2
+~
+~
+0 0 32526
+S
+#32526
+The Gypsys' Court~
+   The stage to the east is a constant flurry of activity, actors constantly
+going on or coming off the stage from playing their parts.  North of here is an
+area filled with people seated on comfortable picnic-type tables partaking of
+food which is sold nearby.  
+~
+325 0 0
+D0
+~
+~
+0 0 32525
+D2
+~
+~
+0 0 32527
+D3
+~
+~
+0 0 32523
+S
+#32527
+The Gypsys' Court~
+   The stage to the east is in constant activity - the actors and musicians
+involved in the play a neverending flurry of movement.  To the south is a huge
+tent which men stand under, holding mugs of beer while watching the play .
+~
+325 0 0
+D0
+~
+~
+0 0 32526
+D2
+~
+~
+0 0 32528
+D3
+~
+~
+0 0 32524
+S
+#32528
+The Gypsys' Court~
+   Just south of here is the Ale Tent, where a large number of people - mostly
+men - stand drinking among their fellows, enjoying the day's festivities.  The
+main stage is to the northeast, a side area lies just to the east.  
+~
+325 0 0
+D0
+~
+~
+0 0 32527
+D1
+~
+~
+0 0 32572
+D2
+~
+~
+0 0 32529
+S
+#32529
+Ale Tent~
+   Men stand elbow-to-elbow drinking their ale and talking about whatever it is
+they have a mind to speak of.  The important thing is that they are all drinking
+great-tasting gypsy ale.  So - really - they could be talking about birthing a
+baby gnat and it wouldn't matter.  Its the drink that counts.  
+~
+325 d 0
+D0
+~
+~
+0 0 32528
+D1
+~
+~
+0 0 32530
+S
+#32530
+A Gypsy Wagon~
+   This is a very comfortable, brightly colored wagon where the gypsy from the
+Ale Tent makes his home.  Whenever the festival moves or ends, he simply hitches
+the horses and finds a new home where he can brew his ale and sell it.  
+~
+325 d 0
+D3
+~
+~
+0 0 32529
+S
+#32531
+Food Cart~
+   A haphazard slew of picnic tables have been set up for people to sit at while
+they partake of the food being sold at the vending stand here.  The smell of the
+food is mouthwatering, the frangrance alone enough to make anyone immediately
+hungry.  
+~
+325 0 0
+D1
+~
+~
+0 0 32532
+D2
+~
+~
+0 0 32525
+S
+#32532
+Gypsy Wagon~
+   This is the home of the gypsy acting troop.  A large number of them all bunk
+together in the small confines of this wagon.  Turns are taken at night for who
+sleeps outside and who enjoys the indoor comfort of the wagon.  Why anyone would
+ever want to live in that fashion...  Who can know?  
+~
+325 d 0
+D3
+~
+~
+0 0 32531
+S
+#32533
+Stage~
+   Ahem...  You are on a professional's turf.  Please exit down to the left or
+right, but GET OFF THE STAGE!!  
+~
+325 0 0
+D2
+~
+~
+0 0 32534
+D5
+~
+~
+0 0 32573
+S
+#32534
+Stage~
+   Ahem...  You are on a professional's turf.  Please exit down to the left or
+right, but GET OFF THE STAGE!!  
+~
+325 0 0
+D0
+~
+~
+0 0 32533
+D5
+~
+~
+0 0 32572
+S
+#32535
+Grassy Walkway~
+   The forest gives way on either side to allow access to yet another open area
+to the west.  The same sort of merriment and festival-type atmosphere that lies
+to the east seems to carry on over to the west as well.  
+~
+325 0 0
+D1
+~
+~
+0 0 32508
+D3
+~
+~
+0 0 32536
+S
+#32536
+Grassy Walkway~
+   A wide open field lies to the west, some very temporary looking structures
+ringing the field.  This area caters more toward the families who might visit
+Revelry, as there are a great many attractions for the children in this area.  
+~
+325 0 0
+D1
+~
+~
+0 0 32535
+D3
+~
+~
+0 0 32537
+S
+#32537
+Grassy Court~
+   A large pavilion lies to the west, the smell of steam and grilled food
+wafting from that direction.  To the north and south are extensions of this
+court where all sorts of activities are constantly going on.  
+~
+325 0 0
+D0
+~
+~
+0 0 32539
+D1
+~
+~
+0 0 32536
+D2
+~
+~
+0 0 32538
+D3
+~
+~
+0 0 32544
+S
+#32538
+Grassy Court~
+   A line of children await the face painter who paints children's faces into
+semblances of creatures of the wild just south of here.  To the east is a small
+area where a woman reads from a thick tome, relating an adventurer to a crowd of
+wide-eyed kids.  
+~
+325 0 0
+D0
+~
+~
+0 0 32537
+D1
+~
+~
+0 0 32577
+D2
+~
+~
+0 0 32543
+S
+#32539
+Grassy Court~
+   Just north of here is a small wooden castle about five feet high.  It is
+painted in bright, garish colors that bring immediate attention to it.  Inside
+of it, puppets dance and cavort to the squeals of delight from the children
+seated on the ground before the castle.  To the east is a small area where caged
+animals pace in their cages, a place where rare animals can be seen and in some
+instances - touched.  
+~
+325 0 0
+D0
+~
+~
+0 0 32540
+D1
+~
+~
+0 0 32541
+D2
+~
+~
+0 0 32537
+S
+#32540
+Puppet Show~
+   A miniature castle made of thin wood but cleverly painted to look like stone
+and mortar has been erected here, a large open window cut into the top section
+where a puppet master causes his small cloth and wood men to dance, sing, fight
+and laugh - all amid the uproarious peels of laughter from the children gathered
+around the castle.  
+~
+325 0 0
+D2
+~
+~
+0 0 32539
+S
+#32541
+Petting Zoo~
+   Small and large cages lie situated around this area, each one with a very
+unique and interesting animal.  To the north are more of the cages and animals.
+
+~
+325 0 0
+D0
+~
+~
+0 0 32542
+D3
+~
+~
+0 0 32539
+S
+#32542
+Petting Zoo~
+   Small animals mew in sadness, others growl or even sleep - depending on their
+wont.  The area does not smell all that nice - most every breath is filled with
+a bit of foul fragrance, but then the beautiful animals make up for that bit of
+nastiness...  Well, mostly anyway.  
+~
+325 0 0
+D2
+~
+~
+0 0 32541
+S
+#32543
+Face Painting~
+   Children line up one after another to get a scary monster face, a happy clown
+face or even a silly one painted over their own.  One after another, they take
+turns ooing and awing over a new face turned out by the Painter here.  
+~
+325 0 0
+D0
+~
+~
+0 0 32538
+S
+#32544
+Open Air Restaurant~
+   There are no walls on this place, only a set of four poles which hold up a
+thin wooden roofing.  A grill with steaming meats and a keg filled with pleasant
+juices lies at one end of the structure, tended by workers.  This would
+certainly be a relaxing place to sit down, eat and rest a while.  
+~
+325 0 0
+D1
+~
+~
+0 0 32537
+S
+#32545
+Path~
+   By the looks of the ground, some sort of large wheeled object such as a wagon
+or a cart has been pushed through.  The grass is matted down in two straight,
+flat lines which head south into the woods.  The main festival grounds are just
+to the east.  
+~
+325 0 0
+D1
+~
+~
+0 0 32511
+D2
+~
+~
+0 0 32546
+S
+#32546
+Path~
+   The path heads straight south into the woods, small trees and bushes crunched
+down or pushed to the side by whatever vehicle came through.  The way out back
+into the main area is to the north.  
+~
+325 0 0
+D0
+~
+~
+0 0 32545
+D2
+~
+~
+0 0 32547
+S
+#32547
+Path~
+   It appears that the end of the way is near - quite near indeed.  Just to the
+south is a drab-looking wagon with a crescent moon painted on the right side of
+the door.  No sound comes from within, the drapes are all closed - from the
+looks of it, the thing may have been abandoned by some gypsy from the festival
+who decided they didn't want it anymore.  
+~
+325 0 0
+D0
+~
+~
+0 0 32546
+D2
+~
+wagon~
+1 0 32548
+S
+#32548
+Madame Zayla's Wagon~
+   Looking about this wagon's small interior room, it is easy to mistake it for
+an abandoned wagon.  Everything in this wagon is very old and rotted, the smell
+of the place is enough to make most seasoned fair-goers turn tail.  And that is
+saying a lot.  A small, round table sits in the center of the room, a glowing
+ball resting dead center on the table.  
+~
+325 d 0
+D0
+~
+door~
+1 0 32547
+S
+#32549
+Festival Grounds~
+   This is farthest southwestern corner of the clearing, all of the action lies
+to the northeast.  A small portable stage lies just east of here, upon which a
+small troop of actors enact a skit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32514
+D1
+~
+~
+0 0 32550
+S
+#32550
+At the Performance~
+   A small acting troop acts out the Great Fall of Cyrrian, the story of how one
+man's selfish choices affected the course of an entire city's existance.  The
+main festival area lies to the north.  
+~
+325 0 0
+D0
+~
+~
+0 0 32515
+D1
+~
+~
+0 0 32551
+D3
+~
+~
+0 0 32549
+S
+#32551
+Festival Grounds~
+   A small path has been pushed through the forest, leading south away from this
+main area.  Just to the west is a small portable stage where a small troop of
+actors perform a skit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32516
+D2
+~
+~
+0 0 32552
+D3
+~
+~
+0 0 32550
+S
+#32552
+Beaten Trail~
+   The way through to the south has not been very well marked, finding a good
+path through takes a bit of concentration.  Because of the slow going, you are
+able to hear the reason that others may had reason to travel in the same
+direction - the sound of running water.  
+~
+325 0 0
+D0
+~
+~
+0 0 32551
+D2
+~
+~
+0 0 32553
+S
+#32553
+Beaten Trail~
+   Finding a way through the tangle is quite difficult here, the best way is to
+try and follow the pushed-aside grasses and the broken twigs and saplings.  
+Looks like you could go one of three directions at this point west, south or
+north.  
+~
+325 0 0
+D0
+~
+~
+0 0 32552
+D2
+~
+~
+0 0 32554
+D3
+~
+~
+0 0 32576
+S
+#32554
+Beaten Trail~
+   The sound of the running water is much clearer now, it is not the sound of a
+great amount of water, just the twinkling of a stream.  There is a way through
+the forest to the north, east and south.  
+~
+325 0 0
+D0
+~
+~
+0 0 32553
+D1
+~
+~
+0 0 32555
+D2
+~
+~
+0 0 32574
+S
+#32555
+Forest Trail~
+   The path leads east into a small clearing where people can be seen moving
+about.  Structures of some sort have been erected or placed there as well.  The
+way back to the festival grounds lies to the west.  
+~
+325 0 0
+D1
+~
+~
+0 0 32556
+D3
+~
+~
+0 0 32554
+S
+#32556
+Forest Trail~
+   This trail looks almost like it may have been a deer run or something before
+the gypsies came through.  Possibly they parked their many wagons and tents here
+for just that reason, in hopes of catching a little bit of dinner.  The wagons
+and tents lie to east surrounding a clearing in the woods.  
+~
+325 0 0
+D1
+~
+~
+0 0 32557
+D3
+~
+~
+0 0 32555
+S
+#32557
+Open Clearing~
+   Trees ring this small clearing, tents and wagons set up just at the edge of
+the treeline.  A huge bonfire burns in the center where most of the people who
+sleep in this area lounge during their breaks or late at night when the
+festivities have slowed a bit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32559
+D1
+~
+~
+0 0 32558
+D2
+~
+~
+0 0 32561
+D3
+~
+~
+0 0 32556
+S
+#32558
+Open Clearing~
+   Trees ring this small clearing, tents and wagons set up just at the edge of
+the treeline.  A huge bonfire burns in the center where most of the people who
+sleep in this area lounge during their breaks or late at night when the
+festivities have slowed a bit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32560
+D1
+~
+~
+0 0 32567
+D2
+~
+~
+0 0 32562
+D3
+~
+~
+0 0 32557
+S
+#32559
+Open Clearing~
+   Trees ring this small clearing, tents and wagons set up just at the edge of
+the treeline.  A huge bonfire burns in the center where most of the people who
+sleep in this area lounge during their breaks or late at night when the
+festivities have slowed a bit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32564
+D1
+~
+~
+0 0 32560
+D2
+~
+~
+0 0 32557
+D3
+~
+~
+0 0 32563
+S
+#32560
+Open Clearing~
+   Trees ring this small clearing, tents and wagons set up just at the edge of
+the treeline.  A huge bonfire burns in the center where most of the people who
+sleep in this area lounge during their breaks or late at night when the
+festivities have slowed a bit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32565
+D1
+~
+~
+0 0 32566
+D2
+~
+~
+0 0 32558
+D3
+~
+~
+0 0 32559
+S
+#32561
+Open Clearing~
+   Trees ring this small clearing, tents and wagons set up just at the edge of
+the treeline.  A huge bonfire burns in the center where most of the people who
+sleep in this area lounge during their breaks or late at night when the
+festivities have slowed a bit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32557
+D1
+~
+~
+0 0 32562
+D2
+~
+~
+0 0 32570
+D3
+~
+~
+0 0 32571
+S
+#32562
+Open Clearing~
+   Trees ring this small clearing, tents and wagons set up just at the edge of
+the treeline.  A huge bonfire burns in the center where most of the people who
+sleep in this area lounge during their breaks or late at night when the
+festivities have slowed a bit.  
+~
+325 0 0
+D0
+~
+~
+0 0 32558
+D1
+~
+~
+0 0 32568
+D2
+~
+~
+0 0 32569
+D3
+~
+~
+0 0 32561
+S
+#32563
+Wagon~
+   This covered wagon holds a rough area of wood planking that is at this time
+very empty save for a small pad of blankets to sleep in.  The top is made of a
+strong fabric that keeps rain from falling into the interior with flaps at both
+ends that can tie closed for privacy.  
+~
+325 d 0
+D1
+~
+~
+0 0 32559
+S
+#32564
+Wagon~
+   This covered wagon holds a rough area of wood planking that is at this time
+very empty save for a small pad of blankets to sleep in.  The top is made of a
+strong fabric that keeps rain from falling into the interior with flaps at both
+ends that can tie closed for privacy.  
+~
+325 d 0
+D2
+~
+~
+0 0 32559
+S
+#32565
+Wagon~
+   This covered wagon holds a rough area of wood planking that is at this time
+very empty save for a small pad of blankets to sleep in.  The top is made of a
+strong fabric that keeps rain from falling into the interior with flaps at both
+ends that can tie closed for privacy.  
+~
+325 d 0
+D2
+~
+~
+0 0 32560
+S
+#32566
+Tent~
+   This small tent looks to have been hastily erected with no real regard for
+any comfort in living.  The user must spend only sleeping moments here, no time
+for relaxing.  
+~
+325 d 0
+D3
+~
+~
+0 0 32560
+S
+#32567
+Tent~
+   This small tent looks to have been hastily erected with no real regard for
+any comfort in living.  The user must spend only sleeping moments here, no time
+for relaxing.  
+~
+325 d 0
+D3
+~
+~
+0 0 32558
+S
+#32568
+Tent~
+   This small tent looks to have been hastily erected with no real regard for
+any comfort in living.  The user must spend only sleeping moments here, no time
+for relaxing.  
+~
+325 d 0
+D3
+~
+~
+0 0 32562
+S
+#32569
+Teepee~
+   There is another small firepit in this dwelling, the top of which allows
+smoke to drift out and into the air above.  This looks like it would sleep a
+good six or so people comfortably - and from the number of blankets strewn about
+the ground, that number is pretty accurate.  
+~
+325 d 0
+D0
+~
+~
+0 0 32562
+S
+#32570
+Teepee~
+   There is another small firepit in this dwelling, the top of which allows
+smoke to drift out and into the air above.  This looks like it would sleep a
+good six or so people comfortably - and from the number of blankets strewn about
+the ground, that number is pretty accurate.  
+~
+325 d 0
+D0
+~
+~
+0 0 32561
+S
+#32571
+Teepee~
+   There is another small firepit in this dwelling, the top of which allows
+smoke to drift out and into the air above.  This looks like it would sleep a
+good six or so people comfortably - and from the number of blankets strewn about
+the ground, that number is pretty accurate.  
+~
+325 d 0
+D1
+~
+~
+0 0 32561
+S
+#32572
+Side Stage Left~
+   This is where the actors exit the stage, where they rest a bit or have a
+drink from the ale tent before resuming a part or heading to their home for the
+night.  The stage itself lies just to the north.  
+~
+325 0 0
+D3
+~
+~
+0 0 32528
+D4
+~
+~
+0 0 32534
+S
+#32573
+Side Stage Right~
+   This is the area where the actors and actresses prepare for their time on the
+stage, rehearsing lines or simply waiting quietly.  A lot of nervous titter and
+adjustment of costume goes on here before the scenes are enacted.  
+~
+325 0 0
+D3
+~
+~
+0 0 32525
+D4
+~
+~
+0 0 32533
+S
+#32574
+At the Riverbank~
+   A small brook flows by over the smooth rocks in its bed.  Its deepest point
+could not be more than three or four feet, it couldnt be any wider than eight
+feet.  The sounds of the water is very soothing, this is the sort of place to
+inspire works of art.  
+~
+325 0 0
+D0
+~
+~
+0 0 32554
+D2
+~
+~
+0 0 32575
+S
+#32575
+In the Brook~
+   Well, your feet have certainly gotten wet now!  The water is cold and clear
+and certainly good enough to drink.  The forest path lies to the north.  
+~
+325 0 0
+D0
+~
+~
+0 0 32574
+S
+#32576
+The Bard's Stump~
+   The way is impassable in any direction except that which you came from,
+however the stump of the huge oak that rests in this space appears to be one
+heck of a place to rest for a spell, or even for the night.  
+~
+325 0 0
+D1
+~
+~
+0 0 32553
+S
+#32577
+The Storyteller's Stump~
+   This small area is where, at the top of every hour, a new tale is told to the
+children (and adults in many cases) who gather around the Stump to hear a tale
+spun from the Great Tome of Adventures.  Wide-eyed and completely quiet as they
+sit enraptured, the children chew their bottom lips, exchange frightened or
+excited looks - but never leave until the end.  
+~
+325 0 0
+D3
+~
+~
+0 0 32538
+S
+#0
+
+#RESETS
+R 0 32544 32509 -1 	(a wooden keg)
+O 1 32509 99 32544 	(a wooden keg)
+M 0 32512 1 32544 	(a gypsy food vendor)
+G 1 32525 100 -1 	(a slab of mutton jerky)
+G 1 32506 100 -1 	(a small hot pie)
+G 1 32570 100 -1 	(a mug)
+O 0 32507 1 32544 	(a long wood picnic table)
+O 0 32508 1 32544 	(a black iron grill)
+M 0 32539 1 32516 	(a sword juggler)
+E 1 32558 100 5 	(a red tunic)
+G 1 32556 100 -1 	(a curved broadsword)
+M 0 32538 1 32516 	(a sword juggler)
+E 1 32557 100 5 	(a silver tunic)
+G 1 32556 100 -1 	(a curved broadsword)
+E 1 32556 100 16 	(a curved broadsword)
+M 0 32554 1 32529 	(a local drunk)
+M 0 32553 1 32529 	(an ale quaffer)
+M 0 32552 1 32529 	(a beer-swilling man)
+M 0 32551 1 32529 	(a grinning gypsy)
+G 1 32570 100 -1 	(a mug)
+M 0 32549 1 32540 	(the puppet master)
+E 1 32568 100 1 	(a small finger puppet of a man)
+E 1 32569 100 2 	(a small woman finger-puppet)
+O 0 32510 1 32540 	(a wooden puppet castle)
+M 0 32548 1 32522 	(the jewelry woman)
+G 1 32565 100 -1 	(a hand crafted ring)
+G 1 32566 100 -1 	(a hand-woven rope necklace)
+G 1 32567 100 -1 	(a pewter thumb ring)
+M 0 32547 1 32519 	(the cloth lady)
+G 1 32562 100 -1 	(a length of silk)
+G 1 32563 100 -1 	(a silk wrap)
+G 1 32564 100 -1 	(a silk belt)
+M 0 32546 1 32504 	(the gypsy salesman)
+G 1 32559 100 -1 	(the Lamp of Renkaza)
+G 1 32560 100 -1 	(the Horn of Manticonn)
+G 1 32561 100 -1 	(Arvida's Banner)
+M 0 32537 1 32549 	(a lounging gypsy)
+M 0 32536 1 32507 	(a man on stilts)
+E 1 32553 100 7 	(a set of stilts)
+M 0 32545 1 32539 	(a child with his face painted)
+M 0 32535 1 32539 	(a midget)
+E 1 32552 100 6 	(a silly-looking joker's cap)
+M 0 32534 1 32536 	(a farmer's wife)
+E 1 32551 100 5 	(a simple home-spun dress)
+M 0 32531 1 32520 	(an elven wanderer)
+E 1 32549 100 16 	(a hawk dagger)
+E 1 32550 100 8 	(a pair of well-worn elven boots)
+M 0 32530 1 32521 	(a townswoman)
+E 1 32547 100 17 	(a dainty kercheif)
+E 1 32548 100 2 	(a shining ring)
+M 0 32528 1 32523 	(a townsman)
+E 1 32546 100 8 	(a pair of finely-crafted shoes)
+M 0 32501 1 32523 	(a juggler)
+G 1 32511 100 -1 	(a set of colored balls)
+M 0 32561 1 32543 	(an excited child)
+M 0 32525 1 32543 	(the face-painter)
+G 1 32545 100 -1 	(a painter's pallet)
+O 0 32505 1 32543 	(a line of children)
+M 0 32524 1 32506 	(a mime)
+M 0 32550 1 32530 	(a pack horse)
+M 0 32523 1 32530 	(a gyspsy man)
+E 1 32543 100 16 	(a shoeing hammer)
+M 0 32522 1 32532 	(a gypsy man)
+E 1 32541 100 16 	(a wooden mallet)
+E 1 32542 100 7 	(a pair of baggy pants)
+M 0 32521 1 32575 	(a gypsy woman)
+E 1 32538 100 8 	(a pair of soft gypsy boots)
+G 1 32540 100 -1 	(a pile of clean laundry)
+O 0 32503 1 32575 	(a trickling brook)
+M 0 32520 1 32550 	(the actor)
+E 1 32539 100 5 	(a mushroom suit)
+M 0 32519 1 32550 	(an actress)
+E 1 32536 100 13 	(a fake cat's tail)
+O 0 32504 1 32550 	(a small platform stage)
+M 0 32518 1 32574 	(a woman bard)
+E 1 32533 100 17 	(a bamboo reed)
+E 1 32534 100 3 	(a silk scarf)
+M 0 32517 1 32576 	(a lonesome bard)
+E 1 32532 100 3 	(the Emblem of True Song)
+E 1 32535 100 17 	(a finely carved lute)
+M 0 32516 1 32509 	(a rootless man)
+E 1 32529 100 12 	(a travel-worn cape)
+E 1 32530 100 3 	(the severed claw of a jamuurin lion)
+E 1 32531 100 8 	(a pair of traveling shoes)
+M 0 32507 1 32517 	(the little kid)
+M 0 32515 1 32517 	(the vendor)
+G 1 32527 100 -1 	(some alfalfa sprouts)
+G 1 32528 100 -1 	(some fresh fruits)
+M 0 32529 1 32524 	(a wide-eyed countryman)
+M 0 32513 1 32524 	(Jimmy the Hand)
+G 1 32526 100 -1 	(the purse of snatching)
+M 0 32510 1 32533 	(a gypsy dancer)
+E 1 32523 100 13 	(some gypsy dancer's silks)
+E 1 32524 100 17 	(a tambourine)
+M 0 32509 1 32511 	(the tarot reader)
+G 1 32522 100 -1 	(a deck of tarot cards)
+D 0 32548 0 1 	(Madame Zayla's Wagon)
+M 0 32508 1 32548 	(Madame Zayla)
+G 1 32520 100 -1 	(a glowing fortune)
+E 1 32521 100 12 	(a set of moth-eaten robes)
+O 0 32501 1 32548 	(a small round table)
+R 0 32548 32502 -1 	(Madame Zayla's crytsal ball)
+O 0 32502 100 32548 	(Madame Zayla's crytsal ball)
+M 0 32564 1 32577 	(a young lad)
+M 0 32563 1 32577 	(a little girl)
+M 0 32562 1 32577 	(a wide-eyed child)
+M 0 32505 1 32577 	(Milissin the Story Teller)
+G 1 32517 100 -1 	(the Great Tome of Adventures)
+M 0 32504 1 32503 	(the tonic peddler)
+G 1 32515 100 -1 	(a jar of super brain-power)
+G 1 32514 100 -1 	(a jar of love tonic)
+G 1 32516 100 -1 	(a youth tonic)
+M 0 32503 1 32551 	(a wandering minstrel)
+E 1 32513 100 17 	(a homemade lyre)
+M 0 32506 1 32512 	(a small monkey)
+E 1 32518 100 3 	(a small throat tether)
+E 1 32519 100 17 	(a set of tiny symbols)
+M 0 32502 1 32512 	(a street bard)
+E 1 32512 100 17 	(a simple wooden lute)
+D 0 32547 2 1 	(Path)
+R 0 32547 32500 -1 	(Madame Zayla's wagon)
+O 0 32500 1 32547 	(Madame Zayla's wagon)
+M 0 32560 1 32531 	(a gypsy woman)
+M 0 32559 1 32526 	(a young country girl)
+M 0 32558 1 32526 	(a gypsy onlooker)
+M 0 32557 1 32526 	(an older woman)
+M 0 32556 1 32527 	(a cityboy)
+M 0 32555 1 32527 	(a farmhand)
+M 0 32543 1 32573 	(a preparing performer)
+M 0 32542 1 32573 	(a preparing performer)
+M 0 32527 1 32572 	(a resting performer)
+M 0 32526 1 32572 	(a resting performer)
+M 0 32544 1 32538 	(a child with her face painted)
+M 0 32541 1 32537 	(a child with his face painted)
+M 0 32514 1 32514 	(a woman)
+M 0 32532 1 32513 	(a stout countryman's wife)
+M 0 32500 1 32535 	(a tumbler)
+M 0 32540 1 32542 	(the animal caretaker)
+M 0 32514 1 32515 	(a woman)
+M 0 32511 1 32534 	(a gypsy man)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#32503~
+32514
+32515
+32516
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+32504
+0
+32503
+-1
+0
+28
+0
+0
+#32504~
+32559
+32560
+32561
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+32546
+0
+32504
+-1
+0
+28
+0
+0
+#32516~
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+32505
+0
+32516
+32577
+-1
+0
+0
+0
+0
+#32517~
+32527
+32528
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+32515
+0
+32517
+-1
+0
+28
+0
+0
+#32519~
+32562
+32563
+32564
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+32547
+0
+32531
+32519
+-1
+0
+28
+0
+0
+#32521~
+3050
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+32506
+0
+32512
+-1
+0
+28
+0
+0
+#32522~
+32565
+32566
+32567
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+32548
+0
+32520
+-1
+0
+28
+0
+0
+#32529~
+32570
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+32551
+0
+32529
+-1
+0
+28
+0
+0
+#32544~
+32525
+32506
+32570
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+32512
+0
+32544
+-1
+0
+28
+0
+0
+0
+
+
+#$

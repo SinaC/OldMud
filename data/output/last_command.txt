@@ -1,0 +1,2858 @@
+===================================
+Mud Crashed.: Wed Mar 19 12:56:03 2003
+
+Last Command: Sinac(-1) in room[9683]: mount night.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[  5         PLAYING         12:55PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+===================================
+Memory Report:
+Affects      2803    mem  112120
+Areas          94    mem    8272
+ExDes        2111    mem   33776
+Exits       14948    mem  478336
+Helps         497    mem    7952
+Socials       244    mem   12688
+Spells        334    mem   29392
+Skills        131    mem   11528
+Mobs         2297    mem  496152
+(in use)     4203    mem  907848
+Objs         3102    mem  521136
+Resets       9541    mem  228984
+Rooms        6629    mem 1193220
+Shops         130    mem    5720
+Objects      3102    mem  521136
+
+Total                mem 3660412
+
+Strings 35013 strings of 2894452 bytes (max 1413120).
+Perms   73725 blocks  of 6624764 bytes.
+===================================
+Garbage Collector:
+
+--------------GC dump-------------
+#allocated blocks = 400
+#total free space = 1037992
+#contiguously     = 1037760
+free block at 5f84bc, size     12
+free block at 5f8900, size     12
+free block at 5f8a58, size     12
+free block at 5f8b3c, size     20
+free block at 5f8ba4, size     20
+free block at 5f8d0c, size     12
+free block at 5f9540, size 1037760
+
+used block at 5f9524, size     28  
+used block at 5f9510, size     20  
+used block at 5f94fc, size     20  
+used block at 5f94e0, size     28  
+used block at 5f94cc, size     20  
+used block at 5f94b4, size     24  
+used block at 5f949c, size     24  
+used block at 5f9478, size     36  
+used block at 5f944c, size     44  
+used block at 5f9438, size     20  
+used block at 5f9424, size     20  
+used block at 5f93f8, size     44  
+used block at 5f93e4, size     20  
+used block at 5f93d0, size     20  
+used block at 5f93a4, size     44  
+used block at 5f9390, size     20  
+used block at 5f937c, size     20  
+used block at 5f9350, size     44  
+used block at 5f933c, size     20  
+used block at 5f9328, size     20  
+used block at 5f930c, size     28  
+used block at 5f92f8, size     20  
+used block at 5f92e4, size     20  
+used block at 5f92c8, size     28  
+used block at 5f92b4, size     20  
+used block at 5f92a0, size     20  
+used block at 5f9284, size     28  
+used block at 5f9270, size     20  
+used block at 5f9258, size     24  
+used block at 5f9240, size     24  
+used block at 5f921c, size     36  
+used block at 5f9200, size     28  
+used block at 5f91ec, size     20  
+used block at 5f91d4, size     24  
+used block at 5f91bc, size     24  
+used block at 5f9198, size     36  
+used block at 5f917c, size     28  
+used block at 5f9168, size     20  
+used block at 5f9154, size     20  
+used block at 5f9138, size     28  
+used block at 5f9124, size     20  
+used block at 5f910c, size     24  
+used block at 5f90f4, size     24  
+used block at 5f90d0, size     36  
+used block at 5f90ac, size     36  
+used block at 5f9098, size     20  
+used block at 5f9084, size     20  
+used block at 5f9060, size     36  
+used block at 5f904c, size     20  
+used block at 5f9038, size     20  
+used block at 5f9014, size     36  
+used block at 5f9000, size     20  
+used block at 5f8fec, size     20  
+used block at 5f8fd8, size     20  
+used block at 5f8fc4, size     20  
+used block at 5f8fb0, size     20  
+used block at 5f8f98, size     24  
+used block at 5f8f80, size     24  
+used block at 5f8d64, size     40  
+used block at 5f8d50, size     20  
+used block at 5f8d3c, size     20  
+used block at 5f8d24, size     24  
+used block at 5f8cf4, size     24  
+used block at 5f8cd0, size     36  
+used block at 5f8cb4, size     28  
+used block at 5f8ca0, size     20  
+used block at 5f8c8c, size     20  
+used block at 5f8c70, size     28  
+used block at 5f8c5c, size     20  
+used block at 5f8c48, size     20  
+used block at 5f8c34, size     20  
+used block at 5f8c20, size     20  
+used block at 5f8c0c, size     20  
+used block at 5f8aec, size     28  
+used block at 5f8a9c, size     28  
+used block at 5f8ac8, size     36  
+used block at 5f8a90, size     12  
+used block at 5f8a84, size     12  
+used block at 5f8a78, size     12  
+used block at 5f8a4c, size     12  
+used block at 5f8a40, size     12  
+used block at 5f8a34, size     12  
+used block at 5f8a28, size     12  
+used block at 5f8a1c, size     12  
+used block at 5f8a10, size     12  
+used block at 5f8840, size     20  
+used block at 5f880c, size     16  
+used block at 5f89ec, size     36  
+used block at 5f89b4, size     36  
+used block at 5f89a0, size     20  
+used block at 5f8970, size     28  
+used block at 5f8954, size     28  
+used block at 5f88ac, size     24  
+used block at 5f893c, size     24  
+used block at 5f8924, size     24  
+used block at 5f88dc, size     36  
+used block at 5f8880, size     44  
+used block at 5f886c, size     20  
+used block at 5f882c, size     20  
+used block at 5f87e0, size     44  
+used block at 5f87cc, size     20  
+used block at 5f87b8, size     20  
+used block at 5f878c, size     44  
+used block at 5f8778, size     20  
+used block at 5f8764, size     20  
+used block at 5f8738, size     44  
+used block at 5f8724, size     20  
+used block at 5f86e4, size     24  
+used block at 5f8708, size     28  
+used block at 5f8664, size     24  
+used block at 5f8650, size     20  
+used block at 5f8634, size     28  
+used block at 5f8620, size     20  
+used block at 5f860c, size     20  
+used block at 5f85f0, size     28  
+used block at 5f85dc, size     20  
+used block at 5f85c4, size     24  
+used block at 5f85ac, size     24  
+used block at 5f8588, size     36  
+used block at 5f856c, size     28  
+used block at 5f8558, size     20  
+used block at 5f8540, size     24  
+used block at 5f8528, size     24  
+used block at 5f8504, size     36  
+used block at 5f84e8, size     28  
+used block at 5f84d4, size     20  
+used block at 5f84a8, size     20  
+used block at 5f848c, size     28  
+used block at 5f8478, size     20  
+used block at 5f8460, size     24  
+used block at 5f8448, size     24  
+used block at 5f8424, size     36  
+used block at 5f8400, size     36  
+used block at 5f83ec, size     20  
+used block at 5f83d8, size     20  
+used block at 5f83b4, size     36  
+used block at 5f83a0, size     20  
+used block at 5f838c, size     20  
+used block at 5f8368, size     36  
+used block at 5f8354, size     20  
+used block at 5f8340, size     20  
+used block at 5f832c, size     20  
+used block at 5f8318, size     20  
+used block at 5f8304, size     20  
+used block at 5f82ec, size     24  
+used block at 5f82d4, size     24  
+used block at 5f82b0, size     36  
+used block at 5f829c, size     20  
+used block at 5f8288, size     20  
+used block at 5f8274, size     20  
+used block at 5f825c, size     24  
+used block at 5f8244, size     24  
+used block at 5f8220, size     36  
+used block at 5f8204, size     28  
+used block at 5f81f0, size     20  
+used block at 5f81dc, size     20  
+used block at 5f81c0, size     28  
+used block at 5f81ac, size     20  
+used block at 5f8198, size     20  
+used block at 5f8184, size     20  
+used block at 5f8170, size     20  
+used block at 5f815c, size     20  
+used block at 5f8144, size     24  
+used block at 5f812c, size     24  
+used block at 5f8108, size     36  
+used block at 5f80fc, size     12  
+used block at 5f80f0, size     12  
+used block at 5f80e4, size     12  
+used block at 5f76d4, size     20  
+used block at 5f7678, size     20  
+used block at 5f75d8, size     16  
+used block at 5f74a0, size     20  
+used block at 5f7420, size     20  
+used block at 5f736c, size     20  
+used block at 5f726c, size     16  
+used block at 5f7224, size     16  
+used block at 5f80c0, size     36  
+used block at 5f80a4, size     28  
+used block at 5f8090, size     20  
+used block at 5f807c, size     20  
+used block at 5f8060, size     28  
+used block at 5f804c, size     20  
+used block at 5f8034, size     24  
+used block at 5f801c, size     24  
+used block at 5f7ff8, size     36  
+used block at 5f7fcc, size     44  
+used block at 5f7fb8, size     20  
+used block at 5f7fa4, size     20  
+used block at 5f7f78, size     44  
+used block at 5f7f64, size     20  
+used block at 5f7f50, size     20  
+used block at 5f7f24, size     44  
+used block at 5f7f10, size     20  
+used block at 5f7efc, size     20  
+used block at 5f7ed0, size     44  
+used block at 5f7ebc, size     20  
+used block at 5f7ea8, size     20  
+used block at 5f7e8c, size     28  
+used block at 5f7e78, size     20  
+used block at 5f7e64, size     20  
+used block at 5f7e48, size     28  
+used block at 5f7e34, size     20  
+used block at 5f7e20, size     20  
+used block at 5f7e04, size     28  
+used block at 5f7df0, size     20  
+used block at 5f7dd8, size     24  
+used block at 5f7dac, size     28  
+used block at 5f7d88, size     36  
+used block at 5f7d6c, size     28  
+used block at 5f7d58, size     20  
+used block at 5f7d40, size     24  
+used block at 5f7d28, size     24  
+used block at 5f7d04, size     36  
+used block at 5f7ce8, size     28  
+used block at 5f7cd4, size     20  
+used block at 5f7cc0, size     20  
+used block at 5f7ca4, size     28  
+used block at 5f7c90, size     20  
+used block at 5f7c78, size     24  
+used block at 5f7c24, size     32  
+used block at 5f7c54, size     36  
+used block at 5f7c00, size     36  
+used block at 5f7bec, size     20  
+used block at 5f7bd8, size     20  
+used block at 5f7bb4, size     36  
+used block at 5f7ba0, size     20  
+used block at 5f7b8c, size     20  
+used block at 5f7b68, size     36  
+used block at 5f7b54, size     20  
+used block at 5f762c, size     24  
+used block at 5f7618, size     20  
+used block at 5f7604, size     20  
+used block at 5f7578, size     24  
+used block at 5f75c0, size     24  
+used block at 5f75a8, size     24  
+used block at 5f7554, size     36  
+used block at 5f7540, size     20  
+used block at 5f752c, size     20  
+used block at 5f7518, size     20  
+used block at 5f74e0, size     32  
+used block at 5f74c8, size     24  
+used block at 5f747c, size     36  
+used block at 5f7460, size     28  
+used block at 5f744c, size     20  
+used block at 5f73d4, size     28  
+used block at 5f7404, size     28  
+used block at 5f73c0, size     20  
+used block at 5f73ac, size     20  
+used block at 5f7398, size     20  
+used block at 5f7358, size     20  
+used block at 5f7330, size     20  
+used block at 5f7320, size     16  
+used block at 5f7310, size     16  
+used block at 5f72fc, size     20  
+used block at 5f72e4, size     24  
+used block at 5f7258, size     20  
+used block at 5f7240, size     24  
+used block at 5f7200, size     36  
+used block at 5f71f4, size     12  
+used block at 5f71e8, size     12  
+used block at 5f71dc, size     12  
+used block at 5f71d0, size     12  
+used block at 5f71c4, size     12  
+used block at 5f71b8, size     12  
+used block at 5f71ac, size     12  
+used block at 5f71a0, size     12  
+used block at 5f7194, size     12  
+used block at 5f7188, size     12  
+used block at 5f717c, size     12  
+used block at 5f7158, size     36  
+used block at 5f7148, size     16  
+used block at 5f8f74, size     12  
+used block at 5f8f68, size     12  
+used block at 5f8f24, size     68  
+used block at 5f8ee0, size     68  
+used block at 5f8e9c, size     68  
+used block at 5f8e58, size     68  
+used block at 5f8e14, size     68  
+used block at 5f8dd0, size     68  
+used block at 5f8d8c, size     68  
+used block at 5f8d18, size     12  
+used block at 5f8bd8, size     52  
+used block at 5f8bb8, size     32  
+used block at 5f8b70, size     52  
+used block at 5f8b50, size     32  
+used block at 5f8b08, size     52  
+used block at 5f8ab8, size     16  
+used block at 5f8a64, size     20  
+used block at 5f89d8, size     20  
+used block at 5f898c, size     20  
+used block at 5f890c, size     24  
+used block at 5f88c4, size     24  
+used block at 5f8854, size     24  
+used block at 5f881c, size     16  
+used block at 5f86fc, size     12  
+used block at 5f86b0, size     52  
+used block at 5f867c, size     52  
+used block at 5f84c8, size     12  
+used block at 5f7dc8, size     16  
+used block at 5f7c44, size     16  
+used block at 5f7b48, size     12  
+used block at 5f7b34, size     20  
+used block at 5f7b20, size     20  
+used block at 5f7b08, size     24  
+used block at 5f7af4, size     20  
+used block at 5f7adc, size     24  
+used block at 5f7ac8, size     20  
+used block at 5f7ab0, size     24  
+used block at 5f7a98, size     24  
+used block at 5f7a80, size     24  
+used block at 5f7a68, size     24  
+used block at 5f7a54, size     20  
+used block at 5f79f0, size    100  
+used block at 5f798c, size    100  
+used block at 5f7980, size     12  
+used block at 5f7970, size     16  
+used block at 5f7960, size     16  
+used block at 5f7950, size     16  
+used block at 5f7940, size     16  
+used block at 5f7930, size     16  
+used block at 5f7920, size     16  
+used block at 5f7910, size     16  
+used block at 5f7900, size     16  
+used block at 5f78f0, size     16  
+used block at 5f788c, size    100  
+used block at 5f787c, size     16  
+used block at 5f7868, size     20  
+used block at 5f7844, size     36  
+used block at 5f7830, size     20  
+used block at 5f781c, size     20  
+used block at 5f780c, size     16  
+used block at 5f7800, size     12  
+used block at 5f77ec, size     20  
+used block at 5f77b8, size     52  
+used block at 5f77a4, size     20  
+used block at 5f7794, size     16  
+used block at 5f7784, size     16  
+used block at 5f7774, size     16  
+used block at 5f7764, size     16  
+used block at 5f7730, size     52  
+used block at 5f76fc, size     52  
+used block at 5f76e8, size     20  
+used block at 5f76a0, size     52  
+used block at 5f768c, size     20  
+used block at 5f7644, size     52  
+used block at 5f75e8, size     28  
+used block at 5f7590, size     24  
+used block at 5f7500, size     24  
+used block at 5f74b4, size     20  
+used block at 5f7434, size     24  
+used block at 5f73f0, size     20  
+used block at 5f7380, size     24  
+used block at 5f7344, size     20  
+used block at 5f72b0, size     52  
+used block at 5f727c, size     52  
+used block at 5f7234, size     12  
+used block at 5f7138, size     16  
+used block at 5f7124, size     20  
+used block at 5f70e8, size     60  
+used block at 5f706c, size    124  
+used block at 5f6ff0, size    124  
+used block at 5f6fdc, size     20  
+used block at 5f6fcc, size     16  
+used block at 5f6fb8, size     20  
+used block at 5f6fa8, size     16  
+used block at 5f6f98, size     16  
+used block at 5f6f88, size     16  
+used block at 5f6f78, size     16  
+used block at 5f6f68, size     16  
+used block at 5f6f5c, size     12  
+used block at 5f6f4c, size     16  
+used block at 5f6f3c, size     16  
+used block at 5f6f2c, size     16  
+used block at 5f6f18, size     20  
+used block at 5f6f08, size     16  
+used block at 5f6e8c, size    124  
+used block at 5f6e70, size     28  
+used block at 5f6e54, size     28  
+used block at 5f6e2c, size     40  
+used block at 5f6e00, size     44  
+used block at 5f6dd4, size     44  
+used block at 5f6da8, size     44  
+used block at 5f6d7c, size     44  
+used block at 5f6d50, size     44  
+used block at 5f6d24, size     44  
+used block at 5f6cf8, size     44  
+used block at 5f6ccc, size     44  
+used block at 5f6ca0, size     44  
+used block at 5f6c6c, size     52  
+used block at 5f6c40, size     44  
+used block at 5f6bc4, size    124  
+used block at 5f6bb4, size     16  
+used block at 5f6ba0, size     20  
+used block at 5f6b8c, size     20  
+used block at 5f6b7c, size     16  
+used block at 5f6b68, size     20  
+used block at 5f6b58, size     16  
+used block at 5f6b24, size     52  
+used block at 5f6b14, size     16  
+used block at 5f6b00, size     20  
+---MOB FIELD
+ Sinac (vnum: 0)
+ an old man (vnum: 20432)
+ a rough dwarf (vnum: 20417)
+ a one-handed prisoner (vnum: 20444)
+ a granite statue (vnum: 20308)
+ a red-robed mage (vnum: 20300)
+ a medium man (vnum: 805)
+ a tall man (vnum: 804)
+ a short man (vnum: 803)
+ a troll (vnum: 298)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ a troll (vnum: 298)
+ a troll (vnum: 298)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ a troll (vnum: 298)
+ a troll (vnum: 298)
+ a troll (vnum: 298)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ a troll (vnum: 298)
+ Melancholy (vnum: 3160)
+ the ancient potion-brewer (vnum: 3070)
+ the healer (vnum: 3012)
+ the captain (vnum: 3006)
+ Filthy (vnum: 3046)
+ the dwarf (vnum: 3013)
+ the leather worker (vnum: 3010)
+ the jeweller (vnum: 3009)
+ the wizard (vnum: 3000)
+ the pet shop boy (vnum: 3008)
+ the armourer (vnum: 3004)
+ an old man (vnum: 3200)
+ the weaponsmith (vnum: 3003)
+ the grocer (vnum: 3002)
+ the baker (vnum: 3001)
+---OBJ FIELD
+ a small crystal ball with a I engraved (vnum: 90)
+ a small crystal ball with a II engraved (vnum: 91)
+ a small crystal ball with a III engraved (vnum: 92)
+ a small crystal ball with a IV engraved (vnum: 93)
+ a small crystal ball with a V engraved (vnum: 94)
+ a small crystal ball with a VI engraved (vnum: 95)
+ a small crystal ball with a VII engraved (vnum: 96)
+---ROOM FIELD
+
+===================================
+<<<<<<<<<< END OF REPORT >>>>>>>>>>
+===================================
+===================================
+Mud Crashed.: Wed Mar 19 14:15:45 2003
+
+Last Command: loraine(299) in room[299]: mutter.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[  5         PLAYING         02:15PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+===================================
+Memory Report:
+Affects      2803    mem  112120
+Areas          94    mem    8272
+ExDes        2111    mem   33776
+Exits       14948    mem  478336
+Helps         497    mem    7952
+Socials       244    mem   12688
+Spells        334    mem   29392
+Skills        131    mem   11528
+Mobs         2297    mem  496152
+(in use)     4204    mem  908064
+Objs         3103    mem  521304
+Resets       9541    mem  228984
+Rooms        6629    mem 1193220
+Shops         130    mem    5720
+Objects      3103    mem  521304
+
+Total                mem 3660748
+
+Strings 35016 strings of 2894527 bytes (max 1413120).
+Perms   73759 blocks  of 6637148 bytes.
+===================================
+Garbage Collector:
+
+--------------GC dump-------------
+#allocated blocks = 395
+#total free space = 1038096
+#contiguously     = 1037832
+free block at 5f84f4, size     12
+free block at 5f94bc, size     12
+free block at 5f9aa8, size     16
+free block at 5f9b3c, size     20
+free block at 5f9ba4, size     20
+free block at 5f9d78, size     20
+free block at 5fa4f8, size 1037832
+
+used block at 5fa4dc, size     28  
+used block at 5fa4c8, size     20  
+used block at 5fa4b4, size     20  
+used block at 5fa498, size     28  
+used block at 5fa484, size     20  
+used block at 5fa46c, size     24  
+used block at 5fa454, size     24  
+used block at 5fa430, size     36  
+used block at 5fa404, size     44  
+used block at 5fa3f0, size     20  
+used block at 5fa3dc, size     20  
+used block at 5fa3b0, size     44  
+used block at 5fa39c, size     20  
+used block at 5fa388, size     20  
+used block at 5fa35c, size     44  
+used block at 5fa348, size     20  
+used block at 5fa334, size     20  
+used block at 5fa308, size     44  
+used block at 5fa2f4, size     20  
+used block at 5fa2e0, size     20  
+used block at 5fa2c4, size     28  
+used block at 5fa2b0, size     20  
+used block at 5fa29c, size     20  
+used block at 5fa280, size     28  
+used block at 5fa26c, size     20  
+used block at 5fa258, size     20  
+used block at 5fa23c, size     28  
+used block at 5fa228, size     20  
+used block at 5fa210, size     24  
+used block at 5fa1f8, size     24  
+used block at 5fa1d4, size     36  
+used block at 5fa1b8, size     28  
+used block at 5fa1a4, size     20  
+used block at 5fa18c, size     24  
+used block at 5fa174, size     24  
+used block at 5fa150, size     36  
+used block at 5fa134, size     28  
+used block at 5fa120, size     20  
+used block at 5fa10c, size     20  
+used block at 5fa0f0, size     28  
+used block at 5fa0dc, size     20  
+used block at 5fa0c4, size     24  
+used block at 5fa0ac, size     24  
+used block at 5fa088, size     36  
+used block at 5fa064, size     36  
+used block at 5fa050, size     20  
+used block at 5fa03c, size     20  
+used block at 5fa018, size     36  
+used block at 5fa004, size     20  
+used block at 5f9ff0, size     20  
+used block at 5f9fcc, size     36  
+used block at 5f9fb8, size     20  
+used block at 5f9fa4, size     20  
+used block at 5f9f90, size     20  
+used block at 5f9f7c, size     20  
+used block at 5f9f68, size     20  
+used block at 5f9d60, size     24  
+used block at 5f9d48, size     24  
+used block at 5f9d24, size     36  
+used block at 5f9cfc, size     28  
+used block at 5f9ce8, size     20  
+used block at 5f9cd4, size     20  
+used block at 5f9cb8, size     28  
+used block at 5f9ca4, size     20  
+used block at 5f9c90, size     20  
+used block at 5f9c74, size     28  
+used block at 5f9c60, size     20  
+used block at 5f9c4c, size     20  
+used block at 5f9c38, size     20  
+used block at 5f9c24, size     20  
+used block at 5f9c0c, size     24  
+used block at 5f9aec, size     28  
+used block at 5f9ac8, size     36  
+used block at 5f9a9c, size     12  
+used block at 5f9a90, size     12  
+used block at 5f9a84, size     12  
+used block at 5f9a78, size     12  
+used block at 5f9a50, size     20  
+used block at 5f9a44, size     12  
+used block at 5f9a38, size     12  
+used block at 5f9a2c, size     12  
+used block at 5f99c8, size     16  
+used block at 5f9840, size     20  
+used block at 5f9808, size     20  
+used block at 5f9a08, size     36  
+used block at 5f99ec, size     28  
+used block at 5f99b4, size     20  
+used block at 5f99a0, size     20  
+used block at 5f9968, size     36  
+used block at 5f9954, size     20  
+used block at 5f993c, size     24  
+used block at 5f9924, size     24  
+used block at 5f9898, size     44  
+used block at 5f98dc, size     48  
+used block at 5f982c, size     20  
+used block at 5f97f4, size     20  
+used block at 5f986c, size     44  
+used block at 5f97e0, size     20  
+used block at 5f97cc, size     20  
+used block at 5f97a0, size     44  
+used block at 5f978c, size     20  
+used block at 5f9778, size     20  
+used block at 5f974c, size     44  
+used block at 5f9738, size     20  
+used block at 5f9724, size     20  
+used block at 5f9708, size     28  
+used block at 5f96e4, size     24  
+used block at 5f9664, size     24  
+used block at 5f9648, size     28  
+used block at 5f9634, size     20  
+used block at 5f9620, size     20  
+used block at 5f9604, size     28  
+used block at 5f95f0, size     20  
+used block at 5f95d8, size     24  
+used block at 5f95c0, size     24  
+used block at 5f959c, size     36  
+used block at 5f9580, size     28  
+used block at 5f956c, size     20  
+used block at 5f9554, size     24  
+used block at 5f953c, size     24  
+used block at 5f9518, size     36  
+used block at 5f94fc, size     28  
+used block at 5f94e8, size     20  
+used block at 5f94d4, size     20  
+used block at 5f94a0, size     28  
+used block at 5f948c, size     20  
+used block at 5f9474, size     24  
+used block at 5f945c, size     24  
+used block at 5f9438, size     36  
+used block at 5f9414, size     36  
+used block at 5f9400, size     20  
+used block at 5f93ec, size     20  
+used block at 5f93c8, size     36  
+used block at 5f93b4, size     20  
+used block at 5f93a0, size     20  
+used block at 5f937c, size     36  
+used block at 5f9368, size     20  
+used block at 5f9354, size     20  
+used block at 5f9340, size     20  
+used block at 5f932c, size     20  
+used block at 5f9318, size     20  
+used block at 5f9300, size     24  
+used block at 5f92e8, size     24  
+used block at 5f92c4, size     36  
+used block at 5f92b0, size     20  
+used block at 5f929c, size     20  
+used block at 5f9288, size     20  
+used block at 5f9270, size     24  
+used block at 5f9258, size     24  
+used block at 5f9234, size     36  
+used block at 5f9218, size     28  
+used block at 5f9204, size     20  
+used block at 5f91f0, size     20  
+used block at 5f91d4, size     28  
+used block at 5f91c0, size     20  
+used block at 5f91ac, size     20  
+used block at 5f9198, size     20  
+used block at 5f9184, size     20  
+used block at 5f9170, size     20  
+used block at 5f9158, size     24  
+used block at 5f9140, size     24  
+used block at 5f911c, size     36  
+used block at 5f9110, size     12  
+used block at 5f9104, size     12  
+used block at 5f90f8, size     12  
+used block at 5f86d4, size     20  
+used block at 5f8678, size     20  
+used block at 5f85d4, size     20  
+used block at 5f857c, size     20  
+used block at 5f84a4, size     16  
+used block at 5f83dc, size     20  
+used block at 5f836c, size     20  
+used block at 5f826c, size     16  
+used block at 5f90d4, size     36  
+used block at 5f90c0, size     20  
+used block at 5f90a4, size     28  
+used block at 5f9090, size     20  
+used block at 5f907c, size     20  
+used block at 5f9060, size     28  
+used block at 5f904c, size     20  
+used block at 5f9034, size     24  
+used block at 5f901c, size     24  
+used block at 5f8ff8, size     36  
+used block at 5f8fcc, size     44  
+used block at 5f8fb8, size     20  
+used block at 5f8fa4, size     20  
+used block at 5f8f78, size     44  
+used block at 5f8f64, size     20  
+used block at 5f8f50, size     20  
+used block at 5f8f24, size     44  
+used block at 5f8f10, size     20  
+used block at 5f8efc, size     20  
+used block at 5f8ed0, size     44  
+used block at 5f8ebc, size     20  
+used block at 5f8ea8, size     20  
+used block at 5f8e8c, size     28  
+used block at 5f8e78, size     20  
+used block at 5f8e64, size     20  
+used block at 5f8e48, size     28  
+used block at 5f8e34, size     20  
+used block at 5f8e20, size     20  
+used block at 5f8e04, size     28  
+used block at 5f8df0, size     20  
+used block at 5f8dd8, size     24  
+used block at 5f8dac, size     28  
+used block at 5f8d88, size     36  
+used block at 5f8d6c, size     28  
+used block at 5f8d58, size     20  
+used block at 5f8d40, size     24  
+used block at 5f8d28, size     24  
+used block at 5f8d04, size     36  
+used block at 5f8ce8, size     28  
+used block at 5f8cd4, size     20  
+used block at 5f8cc0, size     20  
+used block at 5f8ca4, size     28  
+used block at 5f8c90, size     20  
+used block at 5f8c78, size     24  
+used block at 5f8c24, size     32  
+used block at 5f8c54, size     36  
+used block at 5f8c00, size     36  
+used block at 5f8bec, size     20  
+used block at 5f8bd8, size     20  
+used block at 5f8bb4, size     36  
+used block at 5f8ba0, size     20  
+used block at 5f8b8c, size     20  
+used block at 5f8b68, size     36  
+used block at 5f8b54, size     20  
+used block at 5f862c, size     24  
+used block at 5f8618, size     20  
+used block at 5f8604, size     20  
+used block at 5f85c0, size     20  
+used block at 5f85a8, size     24  
+used block at 5f8564, size     24  
+used block at 5f8540, size     36  
+used block at 5f852c, size     20  
+used block at 5f8518, size     20  
+used block at 5f84e0, size     20  
+used block at 5f84c8, size     24  
+used block at 5f848c, size     24  
+used block at 5f8468, size     36  
+used block at 5f844c, size     28  
+used block at 5f8418, size     28  
+used block at 5f8404, size     20  
+used block at 5f83c0, size     28  
+used block at 5f83ac, size     20  
+used block at 5f8398, size     20  
+used block at 5f8358, size     20  
+used block at 5f8328, size     28  
+used block at 5f8318, size     16  
+used block at 5f8308, size     16  
+used block at 5f82f8, size     16  
+used block at 5f82e4, size     20  
+used block at 5f8254, size     24  
+used block at 5f8240, size     20  
+used block at 5f8214, size     32  
+used block at 5f81f0, size     36  
+used block at 5f81e4, size     12  
+used block at 5f81d8, size     12  
+used block at 5f81cc, size     12  
+used block at 5f81c0, size     12  
+used block at 5f81b4, size     12  
+used block at 5f81a8, size     12  
+used block at 5f819c, size     12  
+used block at 5f8190, size     12  
+used block at 5f8184, size     12  
+used block at 5f8178, size     12  
+used block at 5f816c, size     12  
+used block at 5f8148, size     36  
+used block at 5f9f24, size     68  
+used block at 5f9ee0, size     68  
+used block at 5f9e9c, size     68  
+used block at 5f9e58, size     68  
+used block at 5f9e14, size     68  
+used block at 5f9dd0, size     68  
+used block at 5f9d8c, size     68  
+used block at 5f9d18, size     12  
+used block at 5f9bd8, size     52  
+used block at 5f9bb8, size     32  
+used block at 5f9b70, size     52  
+used block at 5f9b50, size     32  
+used block at 5f9b08, size     52  
+used block at 5f9ab8, size     16  
+used block at 5f9a64, size     20  
+used block at 5f99d8, size     20  
+used block at 5f998c, size     20  
+used block at 5f990c, size     24  
+used block at 5f98c4, size     24  
+used block at 5f9854, size     24  
+used block at 5f981c, size     16  
+used block at 5f96fc, size     12  
+used block at 5f96b0, size     52  
+used block at 5f967c, size     52  
+used block at 5f94c8, size     12  
+used block at 5f8dc8, size     16  
+used block at 5f8c44, size     16  
+used block at 5f8b48, size     12  
+used block at 5f8b34, size     20  
+used block at 5f8b20, size     20  
+used block at 5f8b08, size     24  
+used block at 5f8af4, size     20  
+used block at 5f8adc, size     24  
+used block at 5f8ac8, size     20  
+used block at 5f8ab0, size     24  
+used block at 5f8a98, size     24  
+used block at 5f8a80, size     24  
+used block at 5f8a68, size     24  
+used block at 5f8a54, size     20  
+used block at 5f89f0, size    100  
+used block at 5f898c, size    100  
+used block at 5f8980, size     12  
+used block at 5f8970, size     16  
+used block at 5f8960, size     16  
+used block at 5f8950, size     16  
+used block at 5f8940, size     16  
+used block at 5f8930, size     16  
+used block at 5f8920, size     16  
+used block at 5f8910, size     16  
+used block at 5f8900, size     16  
+used block at 5f88f0, size     16  
+used block at 5f888c, size    100  
+used block at 5f887c, size     16  
+used block at 5f8868, size     20  
+used block at 5f8844, size     36  
+used block at 5f8830, size     20  
+used block at 5f881c, size     20  
+used block at 5f880c, size     16  
+used block at 5f8800, size     12  
+used block at 5f87ec, size     20  
+used block at 5f87b8, size     52  
+used block at 5f87a4, size     20  
+used block at 5f8794, size     16  
+used block at 5f8784, size     16  
+used block at 5f8774, size     16  
+used block at 5f8764, size     16  
+used block at 5f8730, size     52  
+used block at 5f86fc, size     52  
+used block at 5f86e8, size     20  
+used block at 5f86a0, size     52  
+used block at 5f868c, size     20  
+used block at 5f8644, size     52  
+used block at 5f85e8, size     28  
+used block at 5f8590, size     24  
+used block at 5f8500, size     24  
+used block at 5f84b4, size     20  
+used block at 5f8434, size     24  
+used block at 5f83f0, size     20  
+used block at 5f8380, size     24  
+used block at 5f8344, size     20  
+used block at 5f82b0, size     52  
+used block at 5f827c, size     52  
+used block at 5f8234, size     12  
+used block at 5f8138, size     16  
+used block at 5f8124, size     20  
+used block at 5f80e8, size     60  
+used block at 5f806c, size    124  
+used block at 5f7ff0, size    124  
+used block at 5f7fdc, size     20  
+used block at 5f7fcc, size     16  
+used block at 5f7fb8, size     20  
+used block at 5f7fa8, size     16  
+used block at 5f7f98, size     16  
+used block at 5f7f88, size     16  
+used block at 5f7f78, size     16  
+used block at 5f7f68, size     16  
+used block at 5f7f5c, size     12  
+used block at 5f7f4c, size     16  
+used block at 5f7f3c, size     16  
+used block at 5f7f2c, size     16  
+used block at 5f7f18, size     20  
+used block at 5f7f08, size     16  
+used block at 5f7e8c, size    124  
+used block at 5f7e70, size     28  
+used block at 5f7e54, size     28  
+used block at 5f7e2c, size     40  
+used block at 5f7e00, size     44  
+used block at 5f7dd4, size     44  
+used block at 5f7da8, size     44  
+used block at 5f7d7c, size     44  
+used block at 5f7d50, size     44  
+used block at 5f7d24, size     44  
+used block at 5f7cf8, size     44  
+used block at 5f7ccc, size     44  
+used block at 5f7ca0, size     44  
+used block at 5f7c6c, size     52  
+used block at 5f7c40, size     44  
+used block at 5f7bc4, size    124  
+used block at 5f7bb4, size     16  
+used block at 5f7ba0, size     20  
+used block at 5f7b8c, size     20  
+used block at 5f7b7c, size     16  
+used block at 5f7b68, size     20  
+used block at 5f7b58, size     16  
+used block at 5f7b24, size     52  
+used block at 5f7b14, size     16  
+used block at 5f7b00, size     20  
+---MOB FIELD
+ Sinac (vnum: 0)
+ an old man (vnum: 20432)
+ a rough dwarf (vnum: 20417)
+ a one-handed prisoner (vnum: 20444)
+ a granite statue (vnum: 20308)
+ a red-robed mage (vnum: 20300)
+ a medium man (vnum: 805)
+ a tall man (vnum: 804)
+ a short man (vnum: 803)
+ a troll (vnum: 298)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ a troll (vnum: 298)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ a troll (vnum: 298)
+ a troll (vnum: 298)
+ a troll (vnum: 298)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ an ogre (vnum: 297)
+ a troll (vnum: 298)
+ Melancholy (vnum: 3160)
+ the ancient potion-brewer (vnum: 3070)
+ the healer (vnum: 3012)
+ the captain (vnum: 3006)
+ Filthy (vnum: 3046)
+ the dwarf (vnum: 3013)
+ the leather worker (vnum: 3010)
+ the jeweller (vnum: 3009)
+ the wizard (vnum: 3000)
+ the pet shop boy (vnum: 3008)
+ the armourer (vnum: 3004)
+ an old man (vnum: 3200)
+ the weaponsmith (vnum: 3003)
+ the grocer (vnum: 3002)
+ the baker (vnum: 3001)
+---OBJ FIELD
+ a small crystal ball with a VII engraved (vnum: 96)
+ a small crystal ball with a VI engraved (vnum: 95)
+ a small crystal ball with a V engraved (vnum: 94)
+ a small crystal ball with a IV engraved (vnum: 93)
+ a small crystal ball with a III engraved (vnum: 92)
+ a small crystal ball with a II engraved (vnum: 91)
+ a small crystal ball with a I engraved (vnum: 90)
+ The Ultimate Weapon (vnum: 801)
+---ROOM FIELD
+
+===================================
+<<<<<<<<<< END OF REPORT >>>>>>>>>>
+===================================
+===================================
+Mud Crashed.: Wed Mar 19 14:34:51 2003
+
+Last Command: Sinac(-1) in room[3040]: cast meteor.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[  5         PLAYING         02:20PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+===================================
+Memory Report:
+Affects      2803    mem  112120
+Areas          94    mem    8272
+ExDes        2111    mem   33776
+Exits       14950    mem  478400
+Helps         497    mem    7952
+Socials       244    mem   12688
+Spells        334    mem   29392
+Skills        131    mem   11528
+Mobs         2297    mem  496152
+(in use)     4211    mem  909576
+Objs         3103    mem  521304
+Resets       9541    mem  228984
+Rooms        6629    mem 1193220
+Shops         130    mem    5720
+Objects      3103    mem  521304
+
+Total                mem 3660812
+
+Strings 35016 strings of 2894527 bytes (max 1413120).
+Perms   73855 blocks  of 6703108 bytes.
+===================================
+Garbage Collector:
+
+--------------GC dump-------------
+#allocated blocks = 1138
+#total free space = 1020084
+#contiguously     = 1019864
+free block at 5f8428, size     12
+free block at 5f8c38, size     12
+free block at 5f99cc, size     12
+free block at 5feb28, size 1019864
+
+used block at 5feb04, size     36  
+used block at 5feaf0, size     20  
+used block at 5feadc, size     20  
+used block at 5feab8, size     36  
+used block at 5feaa4, size     20  
+used block at 5fea8c, size     24  
+used block at 5fea74, size     24  
+used block at 5fea50, size     36  
+used block at 5fea24, size     44  
+used block at 5fea10, size     20  
+used block at 5fe9fc, size     20  
+used block at 5fe9d8, size     36  
+used block at 5fe9c4, size     20  
+used block at 5fe9b0, size     20  
+used block at 5fe984, size     44  
+used block at 5fe970, size     20  
+used block at 5fe95c, size     20  
+used block at 5fe930, size     44  
+used block at 5fe91c, size     20  
+used block at 5fe908, size     20  
+used block at 5fe8ec, size     28  
+used block at 5fe8d8, size     20  
+used block at 5fe8c4, size     20  
+used block at 5fe8a8, size     28  
+used block at 5fe894, size     20  
+used block at 5fe880, size     20  
+used block at 5fe864, size     28  
+used block at 5fe850, size     20  
+used block at 5fe838, size     24  
+used block at 5fe820, size     24  
+used block at 5fe7fc, size     36  
+used block at 5fe7e0, size     28  
+used block at 5fe7cc, size     20  
+used block at 5fe7b4, size     24  
+used block at 5fe79c, size     24  
+used block at 5fe778, size     36  
+used block at 5fe75c, size     28  
+used block at 5fe748, size     20  
+used block at 5fe734, size     20  
+used block at 5fe718, size     28  
+used block at 5fe704, size     20  
+used block at 5fe6ec, size     24  
+used block at 5fe6d4, size     24  
+used block at 5fe6b0, size     36  
+used block at 5fe68c, size     36  
+used block at 5fe678, size     20  
+used block at 5fe664, size     20  
+used block at 5fe640, size     36  
+used block at 5fe62c, size     20  
+used block at 5fe618, size     20  
+used block at 5fe5f4, size     36  
+used block at 5fe5e0, size     20  
+used block at 5fe5cc, size     20  
+used block at 5fe5b8, size     20  
+used block at 5fe5a4, size     20  
+used block at 5fe58c, size     24  
+used block at 5fe574, size     24  
+used block at 5fe550, size     36  
+used block at 5fe534, size     28  
+used block at 5fe520, size     20  
+used block at 5fe508, size     24  
+used block at 5fe4f0, size     24  
+used block at 5fe4cc, size     36  
+used block at 5fe4c0, size     12  
+used block at 5fe4b4, size     12  
+used block at 5fe4a8, size     12  
+used block at 5fe49c, size     12  
+used block at 5fe490, size     12  
+used block at 5fe484, size     12  
+used block at 5fe478, size     12  
+used block at 5fe46c, size     12  
+used block at 5fe460, size     12  
+used block at 5fe454, size     12  
+used block at 5fe448, size     12  
+used block at 5fe424, size     36  
+used block at 5fe3f8, size     44  
+used block at 5fe3e4, size     20  
+used block at 5fe3d0, size     20  
+used block at 5fe3bc, size     20  
+used block at 5fe3a8, size     20  
+used block at 5fe390, size     24  
+used block at 5fe378, size     24  
+used block at 5fe354, size     36  
+used block at 5fe338, size     28  
+used block at 5fe324, size     20  
+used block at 5fe310, size     20  
+used block at 5fe2fc, size     20  
+used block at 5fe2e8, size     20  
+used block at 5fe2d0, size     24  
+used block at 5fe2b8, size     24  
+used block at 5fe294, size     36  
+used block at 5fe270, size     36  
+used block at 5fe25c, size     20  
+used block at 5fe248, size     20  
+used block at 5fe224, size     36  
+used block at 5fe210, size     20  
+used block at 5fe1f8, size     24  
+used block at 5fe1e0, size     24  
+used block at 5fe1bc, size     36  
+used block at 5fe190, size     44  
+used block at 5fe17c, size     20  
+used block at 5fe168, size     20  
+used block at 5fe144, size     36  
+used block at 5fe130, size     20  
+used block at 5fe11c, size     20  
+used block at 5fe0f0, size     44  
+used block at 5fe0dc, size     20  
+used block at 5fe0c8, size     20  
+used block at 5fe09c, size     44  
+used block at 5fe088, size     20  
+used block at 5fe074, size     20  
+used block at 5fe058, size     28  
+used block at 5fe044, size     20  
+used block at 5fe030, size     20  
+used block at 5fe014, size     28  
+used block at 5fe000, size     20  
+used block at 5fdfec, size     20  
+used block at 5fdfd0, size     28  
+used block at 5fdfbc, size     20  
+used block at 5fdfa4, size     24  
+used block at 5fdf8c, size     24  
+used block at 5fdf68, size     36  
+used block at 5fdf4c, size     28  
+used block at 5fdf38, size     20  
+used block at 5fdf20, size     24  
+used block at 5fdf08, size     24  
+used block at 5fdee4, size     36  
+used block at 5fdec8, size     28  
+used block at 5fdeb4, size     20  
+used block at 5fdea0, size     20  
+used block at 5fde84, size     28  
+used block at 5fde70, size     20  
+used block at 5fde58, size     24  
+used block at 5fde40, size     24  
+used block at 5fde1c, size     36  
+used block at 5fddf8, size     36  
+used block at 5fdde4, size     20  
+used block at 5fddd0, size     20  
+used block at 5fddac, size     36  
+used block at 5fdd98, size     20  
+used block at 5fdd84, size     20  
+used block at 5fdd60, size     36  
+used block at 5fdd4c, size     20  
+used block at 5fdd38, size     20  
+used block at 5fdd24, size     20  
+used block at 5fdd10, size     20  
+used block at 5fdcf8, size     24  
+used block at 5fdce0, size     24  
+used block at 5fdcbc, size     36  
+used block at 5fdca0, size     28  
+used block at 5fdc8c, size     20  
+used block at 5fdc74, size     24  
+used block at 5fdc5c, size     24  
+used block at 5fdc38, size     36  
+used block at 5fdc2c, size     12  
+used block at 5fdc20, size     12  
+used block at 5fdc14, size     12  
+used block at 5fdc08, size     12  
+used block at 5fdbfc, size     12  
+used block at 5fdbf0, size     12  
+used block at 5fdbe4, size     12  
+used block at 5fdbd8, size     12  
+used block at 5fdbcc, size     12  
+used block at 5fdbc0, size     12  
+used block at 5fdbb4, size     12  
+used block at 5fdb90, size     36  
+used block at 5fdb64, size     44  
+used block at 5fdb50, size     20  
+used block at 5fdb3c, size     20  
+used block at 5fdb28, size     20  
+used block at 5fdb14, size     20  
+used block at 5fdafc, size     24  
+used block at 5fdae4, size     24  
+used block at 5fdac0, size     36  
+used block at 5fdaa4, size     28  
+used block at 5fda90, size     20  
+used block at 5fda7c, size     20  
+used block at 5fda68, size     20  
+used block at 5fda54, size     20  
+used block at 5fda3c, size     24  
+used block at 5fda24, size     24  
+used block at 5fda00, size     36  
+used block at 5fd9dc, size     36  
+used block at 5fd9c8, size     20  
+used block at 5fd9b4, size     20  
+used block at 5fd990, size     36  
+used block at 5fd97c, size     20  
+used block at 5fd964, size     24  
+used block at 5fd94c, size     24  
+used block at 5fd928, size     36  
+used block at 5fd8fc, size     44  
+used block at 5fd8e8, size     20  
+used block at 5fd8d4, size     20  
+used block at 5fd8b0, size     36  
+used block at 5fd89c, size     20  
+used block at 5fd888, size     20  
+used block at 5fd85c, size     44  
+used block at 5fd848, size     20  
+used block at 5fd834, size     20  
+used block at 5fd808, size     44  
+used block at 5fd7f4, size     20  
+used block at 5fd7e0, size     20  
+used block at 5fd7c4, size     28  
+used block at 5fd7b0, size     20  
+used block at 5fd79c, size     20  
+used block at 5fd780, size     28  
+used block at 5fd76c, size     20  
+used block at 5fd758, size     20  
+used block at 5fd73c, size     28  
+used block at 5fd728, size     20  
+used block at 5fd710, size     24  
+used block at 5fd6f8, size     24  
+used block at 5fd6d4, size     36  
+used block at 5fd6b8, size     28  
+used block at 5fd6a4, size     20  
+used block at 5fd68c, size     24  
+used block at 5fd674, size     24  
+used block at 5fd650, size     36  
+used block at 5fd634, size     28  
+used block at 5fd620, size     20  
+used block at 5fd60c, size     20  
+used block at 5fd5f0, size     28  
+used block at 5fd5dc, size     20  
+used block at 5fd5c4, size     24  
+used block at 5fd5ac, size     24  
+used block at 5fd588, size     36  
+used block at 5fd564, size     36  
+used block at 5fd550, size     20  
+used block at 5fd53c, size     20  
+used block at 5fd518, size     36  
+used block at 5fd504, size     20  
+used block at 5fd4f0, size     20  
+used block at 5fd4cc, size     36  
+used block at 5fd4b8, size     20  
+used block at 5fd4a4, size     20  
+used block at 5fd490, size     20  
+used block at 5fd47c, size     20  
+used block at 5fd464, size     24  
+used block at 5fd44c, size     24  
+used block at 5fd428, size     36  
+used block at 5fd40c, size     28  
+used block at 5fd3f8, size     20  
+used block at 5fd3e0, size     24  
+used block at 5fd3c8, size     24  
+used block at 5fd3a4, size     36  
+used block at 5fd398, size     12  
+used block at 5fd38c, size     12  
+used block at 5fd380, size     12  
+used block at 5fd374, size     12  
+used block at 5fd368, size     12  
+used block at 5fd35c, size     12  
+used block at 5fd350, size     12  
+used block at 5fd344, size     12  
+used block at 5fd338, size     12  
+used block at 5fd32c, size     12  
+used block at 5fd18c, size     16  
+used block at 5fd308, size     36  
+used block at 5fd2dc, size     44  
+used block at 5fd2c8, size     20  
+used block at 5fd2b4, size     20  
+used block at 5fd2a0, size     20  
+used block at 5fd28c, size     20  
+used block at 5fd274, size     24  
+used block at 5fd25c, size     24  
+used block at 5fd238, size     36  
+used block at 5fd21c, size     28  
+used block at 5fd208, size     20  
+used block at 5fd1f4, size     20  
+used block at 5fd1e0, size     20  
+used block at 5fd1cc, size     20  
+used block at 5fd1b4, size     24  
+used block at 5fd174, size     24  
+used block at 5fd150, size     36  
+used block at 5fd12c, size     36  
+used block at 5fd118, size     20  
+used block at 5fd104, size     20  
+used block at 5fd0e0, size     36  
+used block at 5fd0cc, size     20  
+used block at 5fd0b4, size     24  
+used block at 5fd09c, size     24  
+used block at 5fd078, size     36  
+used block at 5fd04c, size     44  
+used block at 5fd038, size     20  
+used block at 5fd024, size     20  
+used block at 5fd000, size     36  
+used block at 5fcfec, size     20  
+used block at 5fcfd8, size     20  
+used block at 5fcfac, size     44  
+used block at 5fcf98, size     20  
+used block at 5fcf84, size     20  
+used block at 5fcf58, size     44  
+used block at 5fcf44, size     20  
+used block at 5fcf30, size     20  
+used block at 5fcf14, size     28  
+used block at 5fcf00, size     20  
+used block at 5fceec, size     20  
+used block at 5fced0, size     28  
+used block at 5fcebc, size     20  
+used block at 5fcea8, size     20  
+used block at 5fce8c, size     28  
+used block at 5fce78, size     20  
+used block at 5fce60, size     24  
+used block at 5fce48, size     24  
+used block at 5fce24, size     36  
+used block at 5fce08, size     28  
+used block at 5fcdf4, size     20  
+used block at 5fcddc, size     24  
+used block at 5fcdc4, size     24  
+used block at 5fcda0, size     36  
+used block at 5fcd84, size     28  
+used block at 5fcd70, size     20  
+used block at 5fcd5c, size     20  
+used block at 5fcd40, size     28  
+used block at 5fcd2c, size     20  
+used block at 5fcd14, size     24  
+used block at 5fccfc, size     24  
+used block at 5fccd8, size     36  
+used block at 5fccb4, size     36  
+used block at 5fcca0, size     20  
+used block at 5fcc8c, size     20  
+used block at 5fcc68, size     36  
+used block at 5fcc54, size     20  
+used block at 5fcc40, size     20  
+used block at 5fcc1c, size     36  
+used block at 5fcc08, size     20  
+used block at 5fcbf4, size     20  
+used block at 5fcbe0, size     20  
+used block at 5fcbcc, size     20  
+used block at 5fcbb4, size     24  
+used block at 5fcb9c, size     24  
+used block at 5fcb78, size     36  
+used block at 5fcb5c, size     28  
+used block at 5fcb48, size     20  
+used block at 5fcb30, size     24  
+used block at 5fcb18, size     24  
+used block at 5fcaf4, size     36  
+used block at 5fcae8, size     12  
+used block at 5fcadc, size     12  
+used block at 5fcad0, size     12  
+used block at 5fcac4, size     12  
+used block at 5fcab8, size     12  
+used block at 5fcaac, size     12  
+used block at 5fcaa0, size     12  
+used block at 5fca94, size     12  
+used block at 5fca88, size     12  
+used block at 5fca7c, size     12  
+used block at 5fc510, size     20  
+used block at 5fca58, size     36  
+used block at 5fca2c, size     44  
+used block at 5fca18, size     20  
+used block at 5fca04, size     20  
+used block at 5fc9f0, size     20  
+used block at 5fc9dc, size     20  
+used block at 5fc9c4, size     24  
+used block at 5fc9ac, size     24  
+used block at 5fc988, size     36  
+used block at 5fc96c, size     28  
+used block at 5fc958, size     20  
+used block at 5fc944, size     20  
+used block at 5fc930, size     20  
+used block at 5fc91c, size     20  
+used block at 5fc904, size     24  
+used block at 5fc8ec, size     24  
+used block at 5fc8c8, size     36  
+used block at 5fc8a4, size     36  
+used block at 5fc890, size     20  
+used block at 5fc87c, size     20  
+used block at 5fc858, size     36  
+used block at 5fc844, size     20  
+used block at 5fc82c, size     24  
+used block at 5fc814, size     24  
+used block at 5fc7f0, size     36  
+used block at 5fc7c4, size     44  
+used block at 5fc7b0, size     20  
+used block at 5fc79c, size     20  
+used block at 5fc778, size     36  
+used block at 5fc764, size     20  
+used block at 5fc750, size     20  
+used block at 5fc724, size     44  
+used block at 5fc710, size     20  
+used block at 5fc6fc, size     20  
+used block at 5fc6d0, size     44  
+used block at 5fc6bc, size     20  
+used block at 5fc6a8, size     20  
+used block at 5fc68c, size     28  
+used block at 5fc678, size     20  
+used block at 5fc664, size     20  
+used block at 5fc648, size     28  
+used block at 5fc634, size     20  
+used block at 5fc620, size     20  
+used block at 5fc604, size     28  
+used block at 5fc5f0, size     20  
+used block at 5fc5d8, size     24  
+used block at 5fc5c0, size     24  
+used block at 5fc59c, size     36  
+used block at 5fc580, size     28  
+used block at 5fc56c, size     20  
+used block at 5fc554, size     24  
+used block at 5fc53c, size     24  
+used block at 5fc4ec, size     36  
+used block at 5fc4d0, size     28  
+used block at 5fc4bc, size     20  
+used block at 5fc4a8, size     20  
+used block at 5fc48c, size     28  
+used block at 5fc478, size     20  
+used block at 5fc460, size     24  
+used block at 5fc448, size     24  
+used block at 5fc424, size     36  
+used block at 5fc400, size     36  
+used block at 5fc3ec, size     20  
+used block at 5fc3d8, size     20  
+used block at 5fc3b4, size     36  
+used block at 5fc3a0, size     20  
+used block at 5fc38c, size     20  
+used block at 5fc368, size     36  
+used block at 5fc354, size     20  
+used block at 5fc340, size     20  
+used block at 5fc32c, size     20  
+used block at 5fc318, size     20  
+used block at 5fc300, size     24  
+used block at 5fc2e8, size     24  
+used block at 5fc2c4, size     36  
+used block at 5fc2a8, size     28  
+used block at 5fc294, size     20  
+used block at 5fc27c, size     24  
+used block at 5fc264, size     24  
+used block at 5fc240, size     36  
+used block at 5fc234, size     12  
+used block at 5fc228, size     12  
+used block at 5fc21c, size     12  
+used block at 5fc210, size     12  
+used block at 5fc204, size     12  
+used block at 5fc1f8, size     12  
+used block at 5fc1ec, size     12  
+used block at 5fc1e0, size     12  
+used block at 5fc1d4, size     12  
+used block at 5fc1c8, size     12  
+used block at 5fc1bc, size     12  
+used block at 5fc198, size     36  
+used block at 5fc16c, size     44  
+used block at 5fc158, size     20  
+used block at 5fc144, size     20  
+used block at 5fc130, size     20  
+used block at 5fc11c, size     20  
+used block at 5fc104, size     24  
+used block at 5fc0ec, size     24  
+used block at 5fc0c8, size     36  
+used block at 5fc0ac, size     28  
+used block at 5fc098, size     20  
+used block at 5fc084, size     20  
+used block at 5fc070, size     20  
+used block at 5fc05c, size     20  
+used block at 5fc044, size     24  
+used block at 5fc02c, size     24  
+used block at 5fc008, size     36  
+used block at 5fbfe4, size     36  
+used block at 5fbfd0, size     20  
+used block at 5fbfbc, size     20  
+used block at 5fbf98, size     36  
+used block at 5fbf84, size     20  
+used block at 5fbf6c, size     24  
+used block at 5fbf54, size     24  
+used block at 5fbf30, size     36  
+used block at 5fbf04, size     44  
+used block at 5fbef0, size     20  
+used block at 5fbedc, size     20  
+used block at 5fbeb8, size     36  
+used block at 5fbea4, size     20  
+used block at 5fbe90, size     20  
+used block at 5fbe64, size     44  
+used block at 5fbe50, size     20  
+used block at 5fbe3c, size     20  
+used block at 5fbe10, size     44  
+used block at 5fbdfc, size     20  
+used block at 5fbde8, size     20  
+used block at 5fbdcc, size     28  
+used block at 5fbdb8, size     20  
+used block at 5fbda4, size     20  
+used block at 5fbd88, size     28  
+used block at 5fbd74, size     20  
+used block at 5fbd60, size     20  
+used block at 5fbd44, size     28  
+used block at 5fbd30, size     20  
+used block at 5fbd18, size     24  
+used block at 5fbd00, size     24  
+used block at 5fbcdc, size     36  
+used block at 5fbcc0, size     28  
+used block at 5fbcac, size     20  
+used block at 5fbc94, size     24  
+used block at 5fbc7c, size     24  
+used block at 5fbc58, size     36  
+used block at 5fbc3c, size     28  
+used block at 5fbc28, size     20  
+used block at 5fbc14, size     20  
+used block at 5fbbf8, size     28  
+used block at 5fbbe4, size     20  
+used block at 5fbbcc, size     24  
+used block at 5fbbb4, size     24  
+used block at 5fbb90, size     36  
+used block at 5fbb6c, size     36  
+used block at 5fbb58, size     20  
+used block at 5fbb44, size     20  
+used block at 5fbb20, size     36  
+used block at 5fbb0c, size     20  
+used block at 5fbaf8, size     20  
+used block at 5fbad4, size     36  
+used block at 5fbac0, size     20  
+used block at 5fbaac, size     20  
+used block at 5fba98, size     20  
+used block at 5fba84, size     20  
+used block at 5fba6c, size     24  
+used block at 5fba54, size     24  
+used block at 5fba30, size     36  
+used block at 5fba14, size     28  
+used block at 5fba00, size     20  
+used block at 5fb9e8, size     24  
+used block at 5fb9d0, size     24  
+used block at 5fb9ac, size     36  
+used block at 5fb9a0, size     12  
+used block at 5fb994, size     12  
+used block at 5fb988, size     12  
+used block at 5fb97c, size     12  
+used block at 5fb970, size     12  
+used block at 5fb964, size     12  
+used block at 5fb958, size     12  
+used block at 5fb94c, size     12  
+used block at 5fb940, size     12  
+used block at 5fb934, size     12  
+used block at 5fb928, size     12  
+used block at 5fb904, size     36  
+used block at 5fb8d8, size     44  
+used block at 5fb8c4, size     20  
+used block at 5fb8b0, size     20  
+used block at 5fb89c, size     20  
+used block at 5fb888, size     20  
+used block at 5fb870, size     24  
+used block at 5fb858, size     24  
+used block at 5fb834, size     36  
+used block at 5fb818, size     28  
+used block at 5fb804, size     20  
+used block at 5fb7f0, size     20  
+used block at 5fb7dc, size     20  
+used block at 5fb7c8, size     20  
+used block at 5fb7b0, size     24  
+used block at 5fb798, size     24  
+used block at 5fb774, size     36  
+used block at 5fb750, size     36  
+used block at 5fb73c, size     20  
+used block at 5fb728, size     20  
+used block at 5fb704, size     36  
+used block at 5fb6f0, size     20  
+used block at 5fb6d8, size     24  
+used block at 5fb6c0, size     24  
+used block at 5fb69c, size     36  
+used block at 5fb670, size     44  
+used block at 5fb65c, size     20  
+used block at 5fb648, size     20  
+used block at 5fb624, size     36  
+used block at 5fb610, size     20  
+used block at 5fb5fc, size     20  
+used block at 5fb5d0, size     44  
+used block at 5fb5bc, size     20  
+used block at 5fb5a8, size     20  
+used block at 5fb57c, size     44  
+used block at 5fb568, size     20  
+used block at 5fb554, size     20  
+used block at 5fb538, size     28  
+used block at 5fb524, size     20  
+used block at 5fb510, size     20  
+used block at 5fb4f4, size     28  
+used block at 5fb4e0, size     20  
+used block at 5fb4cc, size     20  
+used block at 5fb4b0, size     28  
+used block at 5fb49c, size     20  
+used block at 5fb484, size     24  
+used block at 5fb46c, size     24  
+used block at 5fb448, size     36  
+used block at 5fb42c, size     28  
+used block at 5fb418, size     20  
+used block at 5fb400, size     24  
+used block at 5fb3e8, size     24  
+used block at 5fb3c4, size     36  
+used block at 5fb3a8, size     28  
+used block at 5fb394, size     20  
+used block at 5fb380, size     20  
+used block at 5fb364, size     28  
+used block at 5fb350, size     20  
+used block at 5fb338, size     24  
+used block at 5fb320, size     24  
+used block at 5fb2fc, size     36  
+used block at 5fb2d8, size     36  
+used block at 5fb2c4, size     20  
+used block at 5fb2b0, size     20  
+used block at 5fb28c, size     36  
+used block at 5fb278, size     20  
+used block at 5fb264, size     20  
+used block at 5fb240, size     36  
+used block at 5fb22c, size     20  
+used block at 5fb218, size     20  
+used block at 5fb204, size     20  
+used block at 5fb1f0, size     20  
+used block at 5fb1d8, size     24  
+used block at 5fb1c0, size     24  
+used block at 5fb19c, size     36  
+used block at 5fb180, size     28  
+used block at 5fb16c, size     20  
+used block at 5fb154, size     24  
+used block at 5fb13c, size     24  
+used block at 5fb118, size     36  
+used block at 5fb10c, size     12  
+used block at 5fb100, size     12  
+used block at 5fb0f4, size     12  
+used block at 5fb0e8, size     12  
+used block at 5fb0dc, size     12  
+used block at 5fb0d0, size     12  
+used block at 5fb0c4, size     12  
+used block at 5fb0b8, size     12  
+used block at 5fb0ac, size     12  
+used block at 5fb0a0, size     12  
+used block at 5fb094, size     12  
+used block at 5fb070, size     36  
+used block at 5fb044, size     44  
+used block at 5fb030, size     20  
+used block at 5fb01c, size     20  
+used block at 5fb008, size     20  
+used block at 5faff4, size     20  
+used block at 5fafdc, size     24  
+used block at 5fafc4, size     24  
+used block at 5fafa0, size     36  
+used block at 5faf84, size     28  
+used block at 5faf70, size     20  
+used block at 5faf5c, size     20  
+used block at 5faf48, size     20  
+used block at 5faf34, size     20  
+used block at 5faf1c, size     24  
+used block at 5faf04, size     24  
+used block at 5faee0, size     36  
+used block at 5faebc, size     36  
+used block at 5faea8, size     20  
+used block at 5fae94, size     20  
+used block at 5fae70, size     36  
+used block at 5fae5c, size     20  
+used block at 5fae44, size     24  
+used block at 5fae2c, size     24  
+used block at 5fae08, size     36  
+used block at 5faddc, size     44  
+used block at 5fadc8, size     20  
+used block at 5fadb4, size     20  
+used block at 5fad90, size     36  
+used block at 5fad7c, size     20  
+used block at 5fad68, size     20  
+used block at 5fad3c, size     44  
+used block at 5fad28, size     20  
+used block at 5fad14, size     20  
+used block at 5face8, size     44  
+used block at 5facd4, size     20  
+used block at 5facc0, size     20  
+used block at 5faca4, size     28  
+used block at 5fac90, size     20  
+used block at 5fac7c, size     20  
+used block at 5fac60, size     28  
+used block at 5fac4c, size     20  
+used block at 5fac38, size     20  
+used block at 5fac1c, size     28  
+used block at 5fac08, size     20  
+used block at 5fabf0, size     24  
+used block at 5fabd8, size     24  
+used block at 5fabb4, size     36  
+used block at 5fab98, size     28  
+used block at 5fab84, size     20  
+used block at 5fab6c, size     24  
+used block at 5fab54, size     24  
+used block at 5fab30, size     36  
+used block at 5fab14, size     28  
+used block at 5fab00, size     20  
+used block at 5faaec, size     20  
+used block at 5faad0, size     28  
+used block at 5faabc, size     20  
+used block at 5faaa4, size     24  
+used block at 5faa8c, size     24  
+used block at 5faa68, size     36  
+used block at 5faa44, size     36  
+used block at 5faa30, size     20  
+used block at 5faa1c, size     20  
+used block at 5fa9f8, size     36  
+used block at 5fa9e4, size     20  
+used block at 5fa9d0, size     20  
+used block at 5fa9ac, size     36  
+used block at 5fa998, size     20  
+used block at 5fa984, size     20  
+used block at 5fa970, size     20  
+used block at 5fa95c, size     20  
+used block at 5fa944, size     24  
+used block at 5fa92c, size     24  
+used block at 5fa8e8, size     44  
+used block at 5fa8cc, size     28  
+used block at 5fa8b8, size     20  
+used block at 5fa8a0, size     24  
+used block at 5fa888, size     24  
+used block at 5fa864, size     36  
+used block at 5fa858, size     12  
+used block at 5fa84c, size     12  
+used block at 5fa840, size     12  
+used block at 5fa834, size     12  
+used block at 5fa828, size     12  
+used block at 5fa81c, size     12  
+used block at 5fa810, size     12  
+used block at 5fa804, size     12  
+used block at 5fa7f8, size     12  
+used block at 5fa7ec, size     12  
+used block at 5fa7e0, size     12  
+used block at 5fa7bc, size     36  
+used block at 5fa790, size     44  
+used block at 5fa77c, size     20  
+used block at 5fa768, size     20  
+used block at 5fa754, size     20  
+used block at 5fa740, size     20  
+used block at 5fa728, size     24  
+used block at 5fa710, size     24  
+used block at 5fa6ec, size     36  
+used block at 5fa6d0, size     28  
+used block at 5fa6bc, size     20  
+used block at 5fa6a8, size     20  
+used block at 5fa694, size     20  
+used block at 5fa680, size     20  
+used block at 5fa668, size     24  
+used block at 5fa650, size     24  
+used block at 5fa62c, size     36  
+used block at 5fa608, size     36  
+used block at 5fa5f4, size     20  
+used block at 5fa5e0, size     20  
+used block at 5fa5bc, size     36  
+used block at 5fa5a8, size     20  
+used block at 5fa590, size     24  
+used block at 5fa578, size     24  
+used block at 5fa554, size     36  
+used block at 5fa528, size     44  
+used block at 5fa514, size     20  
+used block at 5fa500, size     20  
+used block at 5fa4dc, size     36  
+used block at 5fa4c8, size     20  
+used block at 5fa4b4, size     20  
+used block at 5fa488, size     44  
+used block at 5fa474, size     20  
+used block at 5fa460, size     20  
+used block at 5fa434, size     44  
+used block at 5fa420, size     20  
+used block at 5fa40c, size     20  
+used block at 5fa3f0, size     28  
+used block at 5fa3dc, size     20  
+used block at 5fa3c8, size     20  
+used block at 5fa3ac, size     28  
+used block at 5fa398, size     20  
+used block at 5fa384, size     20  
+used block at 5fa368, size     28  
+used block at 5fa354, size     20  
+used block at 5fa33c, size     24  
+used block at 5fa324, size     24  
+used block at 5fa300, size     36  
+used block at 5fa2e4, size     28  
+used block at 5fa2d0, size     20  
+used block at 5fa2b8, size     24  
+used block at 5fa2a0, size     24  
+used block at 5fa27c, size     36  
+used block at 5fa260, size     28  
+used block at 5fa24c, size     20  
+used block at 5fa238, size     20  
+used block at 5fa21c, size     28  
+used block at 5fa208, size     20  
+used block at 5fa1f0, size     24  
+used block at 5fa1d8, size     24  
+used block at 5fa1b4, size     36  
+used block at 5fa190, size     36  
+used block at 5fa17c, size     20  
+used block at 5fa168, size     20  
+used block at 5fa144, size     36  
+used block at 5fa130, size     20  
+used block at 5fa11c, size     20  
+used block at 5fa0f8, size     36  
+used block at 5fa0e4, size     20  
+used block at 5fa0d0, size     20  
+used block at 5fa0bc, size     20  
+used block at 5fa0a8, size     20  
+used block at 5fa090, size     24  
+used block at 5fa078, size     24  
+used block at 5fa054, size     36  
+used block at 5fa038, size     28  
+used block at 5fa024, size     20  
+used block at 5fa00c, size     24  
+used block at 5f9ff4, size     24  
+used block at 5f9fd0, size     36  
+used block at 5f9fc4, size     12  
+used block at 5f9fb8, size     12  
+used block at 5f9fac, size     12  
+used block at 5f9fa0, size     12  
+used block at 5f9f94, size     12  
+used block at 5f9d08, size     16  
+used block at 5f9ba4, size     20  
+used block at 5f9b3c, size     20  
+used block at 5f9840, size     20  
+used block at 5f9668, size     20  
+used block at 5f94b4, size     20  
+used block at 5f9d60, size     44  
+used block at 5f9f68, size     44  
+used block at 5f9d4c, size     20  
+used block at 5f9d38, size     20  
+used block at 5f9d24, size     20  
+used block at 5f9cf4, size     20  
+used block at 5f9cdc, size     24  
+used block at 5f9cc4, size     24  
+used block at 5f9ca0, size     36  
+used block at 5f9c84, size     28  
+used block at 5f9c70, size     20  
+used block at 5f9c5c, size     20  
+used block at 5f9c48, size     20  
+used block at 5f9aa0, size     24  
+used block at 5f9c30, size     24  
+used block at 5f9aec, size     28  
+used block at 5f9c0c, size     36  
+used block at 5f9ac8, size     36  
+used block at 5f9a8c, size     20  
+used block at 5f9a78, size     20  
+used block at 5f9a3c, size     40  
+used block at 5f9a28, size     20  
+used block at 5f9a10, size     24  
+used block at 5f9970, size     28  
+used block at 5f99ec, size     36  
+used block at 5f99a0, size     44  
+used block at 5f995c, size     20  
+used block at 5f9948, size     20  
+used block at 5f9924, size     36  
+used block at 5f98ac, size     24  
+used block at 5f9898, size     20  
+used block at 5f98dc, size     48  
+used block at 5f982c, size     20  
+used block at 5f9804, size     24  
+used block at 5f986c, size     44  
+used block at 5f97f0, size     20  
+used block at 5f97dc, size     20  
+used block at 5f97c0, size     28  
+used block at 5f97ac, size     20  
+used block at 5f9798, size     20  
+used block at 5f977c, size     28  
+used block at 5f9768, size     20  
+used block at 5f9754, size     20  
+used block at 5f9738, size     28  
+used block at 5f96e4, size     24  
+used block at 5f9720, size     24  
+used block at 5f9708, size     24  
+used block at 5f9644, size     36  
+used block at 5f9628, size     28  
+used block at 5f9614, size     20  
+used block at 5f95fc, size     24  
+used block at 5f95e4, size     24  
+used block at 5f95c0, size     36  
+used block at 5f95a4, size     28  
+used block at 5f9590, size     20  
+used block at 5f957c, size     20  
+used block at 5f9560, size     28  
+used block at 5f954c, size     20  
+used block at 5f9534, size     24  
+used block at 5f951c, size     24  
+used block at 5f94f8, size     36  
+used block at 5f94d4, size     36  
+used block at 5f94a0, size     20  
+used block at 5f948c, size     20  
+used block at 5f9468, size     36  
+used block at 5f9454, size     20  
+used block at 5f9440, size     20  
+used block at 5f941c, size     36  
+used block at 5f9408, size     20  
+used block at 5f93f4, size     20  
+used block at 5f93e0, size     20  
+used block at 5f93cc, size     20  
+used block at 5f93b4, size     24  
+used block at 5f939c, size     24  
+used block at 5f9378, size     36  
+used block at 5f935c, size     28  
+used block at 5f9348, size     20  
+used block at 5f9330, size     24  
+used block at 5f9318, size     24  
+used block at 5f92f4, size     36  
+used block at 5f92e8, size     12  
+used block at 5f92dc, size     12  
+used block at 5f92d0, size     12  
+used block at 5f92c4, size     12  
+used block at 5f92b8, size     12  
+used block at 5f92ac, size     12  
+used block at 5f92a0, size     12  
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 8527872 [max: 5000000]>: Mon Aug 25 21:55:51 2003
+
+Last Command: 
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+
+===================================
+Players online:
+[   Immortals  ]
+[    Mortals   ]
+Players Found: 0
+=====================================
+Memory Report:
+Affects        72    mem    2592
+Areas           2    mem     192
+ExDes         138    mem    1656
+Exits         493    mem   13804
+Helps         739    mem   11824
+Socials       243    mem   12636
+Spells        362    mem  107152
+Skills        161    mem   47656
+Powers         57    mem   16872
+Songs          19    mem    5624
+Mobs           95    mem   21660
+(in use)      102    mem   55896
+Objs          238    mem   29512
+(in use)      261    mem   44892
+Resets        366    mem    8784
+Rooms         206    mem   51088
+Shops          21    mem     924
+Commands      372    mem   13392
+Classes        23    mem    2852
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         173    mem   12944
+Total                mem  480640
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 8527872
+Free bytes     : 3272704
+Bytes allocated: 64
+(Uncollectable): 5255104 [upper bound]
+
+String Space:
+-------------
+Total used     : 1870374
+Free entries   : 256326
+nStrDup         : 870
+nStrDupEmpty    : 0
+nStrDupGC       : 870
+nStrDupNoGC     : 0
+nStrDupUnsafe   : 0
+nAllocPerm      : 88182
+sAllocPerm      : 827616
+nAllocPermGC    : 75163
+nAllocPermHash  : 7201
+nAllocPermNoHash: 5818
+sStrDupNoGC     : 0
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 8527872 [max: 5000000]>: Mon Aug 25 21:56:05 2003
+
+Last Command: 
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+
+===================================
+Players online:
+[   Immortals  ]
+[    Mortals   ]
+Players Found: 0
+=====================================
+Memory Report:
+Affects        72    mem    2592
+Areas           2    mem     192
+ExDes         138    mem    1656
+Exits         493    mem   13804
+Helps         739    mem   11824
+Socials       243    mem   12636
+Spells        362    mem  107152
+Skills        161    mem   47656
+Powers         57    mem   16872
+Songs          19    mem    5624
+Mobs           95    mem   21660
+(in use)      102    mem   55896
+Objs          238    mem   29512
+(in use)      261    mem   44892
+Resets        366    mem    8784
+Rooms         206    mem   51088
+Shops          21    mem     924
+Commands      372    mem   13392
+Classes        23    mem    2852
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         173    mem   12944
+Total                mem  480640
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 8527872
+Free bytes     : 3272704
+Bytes allocated: 64
+(Uncollectable): 5255104 [upper bound]
+
+String Space:
+-------------
+Total used     : 1870374
+Free entries   : 256326
+nStrDup         : 870
+nStrDupEmpty    : 0
+nStrDupGC       : 870
+nStrDupNoGC     : 0
+nStrDupUnsafe   : 0
+nAllocPerm      : 88182
+sAllocPerm      : 827616
+nAllocPermGC    : 75163
+nAllocPermHash  : 7201
+nAllocPermNoHash: 5818
+sStrDupNoGC     : 0
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 8527872 [max: 8500000]>: Thu Aug 28 22:55:43 2003
+
+Last Command: Sinac(-1) in room[3005]: restore.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 27         PLAYING         10:50PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       101    mem    3636
+Areas           3    mem     288
+ExDes         185    mem    2220
+Exits         680    mem   19040
+Helps         739    mem   11824
+Socials       243    mem   12636
+Spells        362    mem  107152
+Skills        161    mem   47656
+Powers         57    mem   16872
+Songs          19    mem    5624
+Mobs          116    mem   26448
+(in use)      134    mem   73432
+Objs          265    mem   32860
+(in use)      301    mem   51772
+Resets        422    mem   10128
+Rooms         269    mem   66712
+Shops          23    mem    1012
+Commands      373    mem   13428
+Classes        23    mem    2852
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         173    mem   12944
+Total                mem  537224
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 8527872
+Free bytes     : 2498560
+Bytes allocated: 1000824
+(Uncollectable): 5028488 [upper bound]
+
+String Space:
+-------------
+Total used     : 1894280
+Free entries   : 255997
+nStrDup         : 5488
+nStrDupEmpty    : 92
+nStrDupGC       : 3877
+nStrDupNoGC     : 1519
+nStrDupUnsafe   : 0
+nAllocPerm      : 89651
+sAllocPerm      : 851851
+nAllocPermGC    : 75533
+nAllocPermHash  : 7971
+nAllocPermNoHash: 6147
+sStrDupNoGC     : 46877
+sStrDupUnsafe   : 0
+
+Fighting mob:
+Room  3005 :  Sinac(-1) is fighting the cityguard(3060)
+Room  3005 :  the cityguard(3060) is fighting Sinac(-1)
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 8527872 [max: 5000000]>: Thu Aug 28 23:23:35 2003
+
+Last Command: Sinac(-1) in room[1]: datac max_heap_size 5000000.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 27         PLAYING         11:19PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects        97    mem    3492
+Areas           3    mem     288
+ExDes         185    mem    2220
+Exits         680    mem   19040
+Helps         739    mem   11824
+Socials       243    mem   12636
+Spells        362    mem  107152
+Skills        161    mem   47656
+Powers         57    mem   16872
+Songs          19    mem    5624
+Mobs          116    mem   26448
+(in use)      150    mem   82200
+Objs          265    mem   32860
+(in use)      355    mem   61060
+Resets        422    mem   10128
+Rooms         269    mem   66712
+Shops          23    mem    1012
+Commands      373    mem   13428
+Classes        23    mem    2852
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         173    mem   12944
+Total                mem  555136
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 8527872
+Free bytes     : 3014656
+Bytes allocated: 168300
+(Uncollectable): 5344916 [upper bound]
+
+String Space:
+-------------
+Total used     : 1893383
+Free entries   : 256003
+nStrDup         : 2200
+nStrDupEmpty    : 7
+nStrDupGC       : 2085
+nStrDupNoGC     : 108
+nStrDupUnsafe   : 0
+nAllocPerm      : 89559
+sAllocPerm      : 850948
+nAllocPermGC    : 75459
+nAllocPermHash  : 7959
+nAllocPermNoHash: 6141
+sStrDupNoGC     : 1228
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 8527872 [max: 5000000]>: Thu Aug 28 23:25:42 2003
+
+Last Command: Sinac(-1) in room[1]: i.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 27         PLAYING         11:23PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects        97    mem    3492
+Areas           3    mem     288
+ExDes         185    mem    2220
+Exits         680    mem   19040
+Helps         739    mem   11824
+Socials       243    mem   12636
+Spells        362    mem  107152
+Skills        161    mem   47656
+Powers         57    mem   16872
+Songs          19    mem    5624
+Mobs          116    mem   26448
+(in use)      127    mem   69596
+Objs          265    mem   32860
+(in use)      308    mem   52976
+Resets        422    mem   10128
+Rooms         269    mem   66712
+Shops          23    mem    1012
+Commands      373    mem   13428
+Classes        23    mem    2852
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         173    mem   12944
+Total                mem  534448
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 8527872
+Free bytes     : 3055616
+Bytes allocated: 107424
+(Uncollectable): 5364832 [upper bound]
+
+String Space:
+-------------
+Total used     : 1893383
+Free entries   : 256003
+nStrDup         : 1828
+nStrDupEmpty    : 6
+nStrDupGC       : 1796
+nStrDupNoGC     : 26
+nStrDupUnsafe   : 0
+nAllocPerm      : 89629
+sAllocPerm      : 850948
+nAllocPermGC    : 75529
+nAllocPermHash  : 7959
+nAllocPermNoHash: 6141
+sStrDupNoGC     : 496
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 10719232 [max: 10000000]>: Fri Sep 19 08:44:13 2003
+
+Last Command: Sinac(-1) in room[3041]: mem.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 28         PLAYING         08:43AM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects        99    mem    3564
+Areas           3    mem     288
+ExDes         185    mem    2220
+Exits         680    mem   19040
+Helps         744    mem   11904
+Socials       243    mem   12636
+Spells        362    mem  107152
+Skills        161    mem   47656
+Powers         57    mem   16872
+Songs          19    mem    5624
+Mobs          116    mem   26448
+(in use)      127    mem   69596
+Objs          265    mem   32860
+(in use)      317    mem   54524
+Resets        421    mem   10104
+Rooms         270    mem   66960
+Shops          23    mem    1012
+Commands      372    mem   13392
+Classes        23    mem    2852
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         183    mem   14988
+Total                mem  538380
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 10719232
+Free bytes     : 2002944
+Bytes allocated: 1792608
+(Uncollectable): 6923680 [upper bound]
+
+String Space:
+-------------
+Total used     : 1895132
+Free entries   : 255987
+nStrDup         : 2021
+nStrDupEmpty    : 6
+nStrDupGC       : 1963
+nStrDupNoGC     : 52
+nStrDupUnsafe   : 0
+nAllocPerm      : 141834
+sAllocPerm      : 852713
+nAllocPermGC    : 121606
+nAllocPermHash  : 14071
+nAllocPermNoHash: 6157
+sStrDupNoGC     : 196
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 20025344 [max: 16000000]>: Fri Sep 19 08:46:26 2003
+
+Last Command: Sinac(-1) in room[3041]: dataconfig max_heap_size 16000000.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 28         PLAYING         08:44AM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects        99    mem    3564
+Areas           3    mem     288
+ExDes         185    mem    2220
+Exits         680    mem   19040
+Helps         744    mem   11904
+Socials       243    mem   12636
+Spells        362    mem  107152
+Skills        161    mem   47656
+Powers         57    mem   16872
+Songs          19    mem    5624
+Mobs          116    mem   26448
+(in use)      127    mem   69596
+Objs          265    mem   32860
+(in use)      317    mem   54524
+Resets        421    mem   10104
+Rooms         270    mem   66960
+Shops          23    mem    1012
+Commands      372    mem   13392
+Classes        23    mem    2852
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         183    mem   14988
+Total                mem  538380
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 20025344
+Free bytes     : 6352896
+Bytes allocated: 3312144
+(Uncollectable): 10360304 [upper bound]
+
+String Space:
+-------------
+Total used     : 1895132
+Free entries   : 255987
+nStrDup         : 2365
+nStrDupEmpty    : 6
+nStrDupGC       : 2242
+nStrDupNoGC     : 117
+nStrDupUnsafe   : 0
+nAllocPerm      : 369687
+sAllocPerm      : 852713
+nAllocPermGC    : 321973
+nAllocPermHash  : 41557
+nAllocPermNoHash: 6157
+sStrDupNoGC     : 353
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud Crashed: Mon Oct  6 13:35:54 2003
+
+Last Command: Sinac(-1) in room[32222]: asave world.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 28         PLAYING         01:31PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects      4492    mem  125776
+Areas          84    mem    8064
+ExDes        2162    mem   25944
+Exits       14609    mem  409052
+Helps         839    mem   13424
+Socials       243    mem   12636
+Spells        363    mem  108900
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs         2370    mem  540360
+(in use)     4560    mem 2498880
+Objs         3384    mem  419616
+(in use)     5647    mem  971284
+Resets      12065    mem  289560
+Rooms        6616    mem 1640768
+Shops         244    mem   10736
+Commands      377    mem   13572
+Classes        23    mem    3036
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         184    mem   15044
+Total                mem 7201840
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 23302144
+Free bytes     : 4984832
+Bytes allocated: 2097300
+(Uncollectable): 16220012 [upper bound]
+
+String Space:
+-------------
+Total used     : 4466814
+Free entries   : 225385
+nStrDup         : 263789
+nStrDupEmpty    : 16329
+nStrDupGC       : 17586
+nStrDupNoGC     : 229874
+nStrDupUnsafe   : 0
+nAllocPerm      : 226685
+sAllocPerm      : 3454997
+nAllocPermGC    : 116655
+nAllocPermHash  : 73271
+nAllocPermNoHash: 36759
+sStrDupNoGC     : 5405278
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud Crashed: Mon Oct  6 13:38:16 2003
+
+Last Command: Sinac(-1) in room[32222]: asave world.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 28         PLAYING         01:38PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects      4483    mem  125524
+Areas          84    mem    8064
+ExDes        2162    mem   25944
+Exits       14609    mem  409052
+Helps         839    mem   13424
+Socials       243    mem   12636
+Spells        363    mem  108900
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs         2370    mem  540360
+(in use)     4555    mem 2496140
+Objs         3384    mem  419616
+(in use)     5645    mem  970940
+Resets      12065    mem  289560
+Rooms        6616    mem 1640768
+Shops         244    mem   10736
+Commands      377    mem   13572
+Classes        23    mem    3036
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         184    mem   15044
+Total                mem 7198504
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 23207936
+Free bytes     : 380928
+Bytes allocated: 7068032
+(Uncollectable): 15758976 [upper bound]
+
+String Space:
+-------------
+Total used     : 4466814
+Free entries   : 225385
+nStrDup         : 255041
+nStrDupEmpty    : 16232
+nStrDupGC       : 12986
+nStrDupNoGC     : 225823
+nStrDupUnsafe   : 0
+nAllocPerm      : 226684
+sAllocPerm      : 3454997
+nAllocPermGC    : 116654
+nAllocPermHash  : 73271
+nAllocPermNoHash: 36759
+sStrDupNoGC     : 5364441
+sStrDupUnsafe   : 0
+
+Fighting mob:
+Room   262 :  a troll(298) is fighting an ogre(297)
+Room   262 :  an ogre(297) is fighting a troll(298)
+Room   259 :  a troll(298) is fighting an ogre(297)
+Room   259 :  an ogre(297) is fighting a troll(298)
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud Crashed: Thu Oct 23 14:13:10 2003
+
+Last Command: Sinac(-1) in room[9201]: mmatch act aggressive.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 31         PLAYING         02:12PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects      4483    mem  125524
+Areas          84    mem    8064
+ExDes        2162    mem   25944
+Exits       14609    mem  409052
+Helps         824    mem   13184
+Socials       243    mem   12636
+Spells        363    mem  108900
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs         2371    mem  540588
+(in use)     4553    mem 2513256
+Objs         3384    mem  419616
+(in use)     5652    mem  972144
+Resets      12066    mem  289584
+Rooms        6616    mem 1640768
+Shops         244    mem   10736
+Commands      381    mem   13716
+Classes        23    mem    3036
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         186    mem   16104
+Total                mem 7218040
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 16982016
+Free bytes     : 237568
+Bytes allocated: 1112504
+(Uncollectable): 15631944 [upper bound]
+
+String Space:
+-------------
+Total used     : 4460776
+Free entries   : 225381
+nStrDup         : 48162
+nStrDupEmpty    : 898
+nStrDupGC       : 44742
+nStrDupNoGC     : 2522
+nStrDupUnsafe   : 0
+nAllocPerm      : 187781
+sAllocPerm      : 3448963
+nAllocPermGC    : 77377
+nAllocPermHash  : 73641
+nAllocPermNoHash: 36763
+sStrDupNoGC     : 18028
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud Crashed: Thu Oct 23 23:03:13 2003
+
+Last Command: Sinac(-1) in room[9201]: writestat.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 31         PLAYING         11:03PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects      4481    mem  125468
+Areas          84    mem    8064
+ExDes        2162    mem   25944
+Exits       14609    mem  409052
+Helps         853    mem   13648
+Socials       243    mem   12636
+Spells        363    mem  108900
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs         2371    mem  540588
+(in use)     4556    mem 2514912
+Objs         3384    mem  419616
+(in use)     5646    mem  971112
+Resets      12066    mem  289584
+Rooms        6616    mem 1640768
+Shops         244    mem   10736
+Commands      381    mem   13716
+Classes        23    mem    3036
+Groups         98    mem   18032
+Gods           14    mem     840
+Races         186    mem   16104
+Total                mem 7219256
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 17010688
+Free bytes     : 753664
+Bytes allocated: 407700
+(Uncollectable): 15849324 [upper bound]
+
+String Space:
+-------------
+Total used     : 4469301
+Free entries   : 225321
+nStrDup         : 46110
+nStrDupEmpty    : 898
+nStrDupGC       : 43823
+nStrDupNoGC     : 1389
+nStrDupUnsafe   : 0
+nAllocPerm      : 187927
+sAllocPerm      : 3457548
+nAllocPermGC    : 77465
+nAllocPermHash  : 73639
+nAllocPermNoHash: 36823
+sStrDupNoGC     : 9409
+sStrDupUnsafe   : 0
+
+Fighting mob:
+Room   262 :  a troll(298) is fighting an ogre(297)
+Room   262 :  an ogre(297) is fighting a troll(298)
+Room   260 :  a troll(298) is fighting an ogre(297)
+Room   260 :  an ogre(297) is fighting a troll(298)
+Room   259 :  a troll(298) is fighting an ogre(297)
+Room   259 :  an ogre(297) is fighting a troll(298)
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud Crashed: Wed Oct 29 18:51:16 2003
+
+Last Command: Sinac(-1) in room[3020]: datac max_heap_size 64000000..
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 31         PLAYING         05:54PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects      5171    mem  144788
+Areas          84    mem    8064
+ExDes        2162    mem   25944
+Exits       14889    mem  416892
+Helps         925    mem   14800
+Socials       243    mem   12636
+Spells        364    mem  109200
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs         2371    mem  550072
+(in use)     4759    mem 2626968
+Objs         3384    mem  419616
+(in use)     5836    mem 1003792
+Resets      12066    mem  289584
+Rooms        6616    mem 1640768
+Shops         244    mem   10736
+Commands      382    mem   13752
+Classes        23    mem    3036
+Groups         98    mem   18032
+Gods           14    mem     840
+Races         186    mem   16104
+Total                mem 7402124
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 30580736
+Free bytes     : 7352320
+Bytes allocated: 5680388
+(Uncollectable): 17548028 [upper bound]
+
+String Space:
+-------------
+Total used     : 4503369
+Free entries   : 225169
+nStrDup         : 434194
+nStrDupEmpty    : 11207
+nStrDupGC       : 314264
+nStrDupNoGC     : 108723
+nStrDupUnsafe   : 0
+nAllocPerm      : 188122
+sAllocPerm      : 3491768
+nAllocPermGC    : 77504
+nAllocPermHash  : 73643
+nAllocPermNoHash: 36975
+sStrDupNoGC     : 1660534
+sStrDupUnsafe   : 0
+
+Fighting mob:
+Room   262 :  an ogre(297) is fighting a patrolman(296)
+Room   260 :  an ogre(297) is fighting a troll(298)
+Room   259 :  an ogre(297) is fighting a troll(298)
+Room   260 :  a troll(298) is fighting an ogre(297)
+Room   259 :  a troll(298) is fighting an ogre(297)
+Room   262 :  a troll(298) is fighting an ogre(297)
+Room   262 :  a patrolman(296) is fighting an ogre(297)
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================

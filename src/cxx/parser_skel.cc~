@@ -1,0 +1,303 @@
+#include "../gc_helper.h"
+#include "parser_skel.hh"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "../assert.h"
+// As we want to use the same parser for every grammar, we need an access to every tables
+#include "../grammar.hh"
+#include "../data_parser.hh"
+#include "../scanner.hh"
+#include "../data_scanner.hh"
+#include "../config.h"
+
+
+char token_image[4096];
+int numline;
+int *rule_depth_table;
+int *goto_entry;
+int map_token(int);
+NonTerminal* reduce_rule(int, stack_elem*);
+
+const int ** action_table;
+const int ** goto_table;
+int initialState;
+#define MAX_FINAL_RULE (16)
+int nbFinalRule = 1;
+int finalRule[MAX_FINAL_RULE];
+
+static stack_elem parse_stack[1024];
+static int parse_top = 0;
+
+
+////////////////////////////////////////////////////////////
+/// Added by SinaC 2003 to be able to read different grammar without linker error
+
+
+#define PARSING_NONE    (0)
+#define PARSING_GRAMMAR (1)
+#define PARSING_DATA    (2)
+
+int whichGrammar = PARSING_NONE;
+
+void init_grammar_parsing() {
+  whichGrammar = PARSING_GRAMMAR;
+
+  rule_depth_table = grammar_rule_depth_table;
+  goto_entry = grammar_goto_entry;
+  action_table = grammar_action_table;
+  goto_table = grammar_goto_table;
+  initialState = grammar_initialState;
+  nbFinalRule = 1;
+  finalRule[0] = 1;
+}
+
+void init_data_parsing() {
+  whichGrammar = PARSING_DATA;
+
+  rule_depth_table = data_rule_depth_table;
+  goto_entry = data_goto_entry;
+  action_table = data_action_table;
+  goto_table = data_goto_table;
+  initialState = data_initialState;
+  nbFinalRule = 1;
+  finalRule[0] = 1;
+}
+
+int map_token(int tok) {
+  switch( whichGrammar ) {
+  default: printf("Parsing kind not specified!\n\r"); exit(-1); return -1;
+  case PARSING_GRAMMAR: return grammar_map_token(tok);
+  case PARSING_DATA: return data_map_token(tok);
+  }
+  return -1;
+}
+
+NonTerminal* reduce_rule(int rule_id, stack_elem* rule) {
+  switch( whichGrammar ) {
+  default: printf("Parsing kind not specified!\n\r"); exit(-1); return NULL;
+  case PARSING_GRAMMAR: return grammar_reduce_rule( rule_id, rule );
+  case PARSING_DATA: return data_reduce_rule( rule_id, rule );
+  }
+  return NULL;
+}
+
+int scan() {
+  switch( whichGrammar ) {
+  default: printf("Parsing kind not specified!\n\r"); exit(-1); return -666;
+  case PARSING_GRAMMAR: return grammar_scan();
+  case PARSING_DATA: return data_scan();
+  }
+  return -666;
+}
+
+
+//////////////////////////////////////////////////////////////
+
+NonTerminal** listAsArray(ListNonTerminal* list, int & out_count) {
+
+  int length = 0;
+  ListNonTerminal* p = list;
+  while (p != NULL) {
+    length++;
+    p = p->tail;
+  }
+
+  NonTerminal** result = new NonTerminal*[length];
+
+  p = list;
+  for (int i=length-1; i>=0; i--) {
+    result[i] = p->head;
+    p = p->tail;
+  }
+  
+  out_count = length;
+  return result;
+}
+
+
+char* shift(int i) {
+  if ( i < 0 )
+    return "";
+  static char result[256];
+  memset(result, ' ', i);
+  result[i] = 0;
+  return result;
+}
+
+
+//////////////////////////////////////////////////////////////
+
+static void push(int state, int elem, char* tok_image) {
+  parse_stack[parse_top].elem = elem;
+  parse_stack[parse_top].state = state;
+  if ( tok_image == NULL )
+    parse_stack[parse_top].tok_image = NULL;
+  else {
+    char* s = (char*) GC_MALLOC_ATOMIC(strlen(tok_image)+1);
+    strcpy(s, tok_image);
+    parse_stack[parse_top].tok_image = s;
+  }
+  parse_top++;
+}
+
+static void pop(int i) {
+  parse_top -= i;
+  if (parse_top < 0) {
+    printf("bardaf\n");
+  }
+}
+
+static void set_top_nt(NonTerminal* nt) {
+  parse_stack[parse_top-1].elem = (int) nt;
+}
+
+static int get_top_state() {
+  return parse_stack[parse_top-1].state;
+}
+
+
+
+// Parse only one class
+NonTerminal *parse_one_class( const char *s ) {
+  init_grammar_parsing();
+  cur_pos = s;
+  // starting Class rule is the before finalRule which have a return NULL code
+  // initialRule = 2;   used in grammar.cc
+  // We can keep initialState because a Module always starts with a Class
+  nbFinalRule = 2;
+  // final Class rule is the rule where we do a new Class in grammar.cc:reduce_rule
+  finalRule[0] = 4; // we have parsed a non abstract class after reducing rule 4
+  finalRule[1] = 5; // we have parsed an abstract class after reducing rule 5
+
+  NonTerminal *nt = parse();
+
+  return nt;
+}
+// Parse only one method
+NonTerminal *parse_one_method( const char *s ) {
+  init_grammar_parsing();
+
+  char *tmp = new char [strlen(s)+2];
+  strcpy( tmp, s );
+  strcat( tmp, "}" ); // we add a } to simulate the end of a class
+  // if we don't do this, the parser will detect a E_O_F after tbe method
+  //  but there is never an E_O_F after a method, there is the end of a class
+  //  or another method
+
+  // set ptr to the start of output
+  startMethodCode = tmp;
+
+  cur_pos = tmp;
+  // starting Class rule is the before finalRule which have a return NULL code
+  // initialRule = 10  and  11;   used in grammar.cc
+  // Method initialState is the state having kernel with @ <Method *>
+  initialState = 155; // we are in state 155 when we start to parse a method
+  // 148 could work too, depend if Class is abstract, don't really matter
+  // final Method rule is the rule where we do a new Method in grammar.cc:reduce_rule
+  nbFinalRule = 1;
+  finalRule[0] = 12; // we have parsed a method after reducing rule 12
+
+  NonTerminal *nt = parse();
+
+  delete [] tmp;
+
+  return nt;
+}
+
+// Check if a just reduced rule is a final rule
+bool isFinalRule( const int rule ) {
+  for ( int i = 0; i < nbFinalRule; i++ )
+    if ( rule == finalRule[i] )
+      return 1;
+  return 0;
+}
+
+NonTerminal* parse() {
+  int token;
+  int state = initialState;
+
+  parse_top = 0; // SinaC 2003
+
+  numline = 1;
+
+  token = scan();
+
+  //  printf("=== parse()  token_image [%x]\n", (int)token_image);
+  if ( ( SCRIPT_VERBOSE > 4 && whichGrammar == PARSING_GRAMMAR )
+       || ( DATA_VERBOSE > 4 && whichGrammar == PARSING_DATA ) ) {
+    printf("=== parse()  token_image [%s]\n", token_image); fflush(stdout);
+  }
+  while (1) {
+    if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	 || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+      printf("\nIn state %d, l-a %d [%c]\n", state, token, (token>=32)?token:' ');  
+      printf("Stack = ");
+      for (int i = 0; i<parse_top; i++) {
+	printf(" [%d, %d, %s] ", parse_stack[i].state, parse_stack[i].elem, parse_stack[i].tok_image );
+      }
+      printf("\n"); fflush(stdout);
+    }
+   
+    int action = action_table[state - 1][map_token(token) - 1];
+    //int action = action_table[0][0];
+    if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	 || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+      printf("action[%d, %d] = %d\n", state-1, map_token(token)-1, action); fflush(stdout);
+    }
+    if (action == 0) {
+      // parse error
+      char tmp_buf[64];
+      strncpy( tmp_buf, cur_pos, 64 );
+      tmp_buf[64] = '\0';
+      p_error("parse error in state %d line %d (token: %s)  cur_pos:\n%s\n",
+	      state, numline-1, token_image, tmp_buf );
+    } 
+    else if (action > 0) {
+      //shift
+      if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	   || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+	printf("shitfing token %d [%c]\n", token, (token>=32)?token:' ');
+	printf("token_image: %s\n", token_image); fflush(stdout);
+      }
+      push(state, token, token_image);
+      token = scan();
+      state = action;
+      if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	   || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+	printf("ok  token: %d\n", token );
+      }
+    } 
+    else { // action < 0
+      // reduce
+      int rule = -action;
+      int depth = rule_depth_table[rule-1];
+      if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	   || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+	printf("reducing rule %d, depth %d\n", rule, depth); fflush(stdout);
+      }
+      NonTerminal* nt = reduce_rule(rule, parse_stack+parse_top-depth);
+      push(state, 0, NULL); // push a dummy state, in case depth = 0
+      pop(depth);
+      set_top_nt(nt);
+      state = get_top_state();
+      if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	   || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+	printf("Poping to state = %d\n", state); fflush(stdout);
+      }
+      state = goto_table[state - 1][goto_entry[rule-1]];
+      if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	   || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+	printf("Going to state = %d\n", state); fflush(stdout);
+      }
+      if (isFinalRule(rule)) {
+	if ( ( SCRIPT_VERBOSE > 5 && whichGrammar == PARSING_GRAMMAR )
+	     || ( DATA_VERBOSE > 5 && whichGrammar == PARSING_DATA ) ) {
+	  printf("success!\n"); fflush(stdout);
+	}
+	return nt;
+      }
+    }
+  }
+}
+

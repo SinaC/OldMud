@@ -1,0 +1,1217 @@
+//********** MOB
+
+class mob21702 extends Mob {
+  remove( act, obj ) {
+    force act `remove `obj`
+  }
+  onGreet( act, from ) {
+    if ( !act.isImmortal() ) {
+      act.sendTo("As you enter, you feel an alien presence enter your mind!");
+      act.sendTo("A voice speaks inside your head, telling you it is futile to continue.");
+      if ( act.getAttr("wisdom") < 14 ) {
+        act.sendTo("Being a creature of little willpower, you readily agree.");
+        force act `say It's hopeless. I must surrender...
+        //force act `remove all
+        [[ remove( act, x ) | x <- act.equipment() ]];
+        force act `say I YIELD!
+        `cackle
+      }
+      else {
+        act.sendTo("But you are made of sterner stuff than the weak willed fools of");
+        act.sendTo("Hochenyana! Grinning, you marshal your mental reserves and prepare");
+        act.sendTo("to do battle with these alien foes.");
+      }
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      var done = act.aggrDamage(this,125,"mental" ,"The illithid launches a devastating psionic assault on $n!");
+      if ( done == 1 ) {  // 1 means non-lethal damage
+        force act `scream
+        if ( chance(10) ) {
+          act.actRoom("$' will has been broken! $n attempts to flee!");
+          force act `flee
+          force act `yell LET ME OUT OF HERE!!!!
+          force act `scream
+        }
+      }
+    }
+    if ( act.hit() < act.getAttr("hp")/5 ) {
+      this.echo("The illithid is sorely injured. Closing its eyes, it summons its");
+      this.echo("Considerable psionic power to heal itself.");
+      this.addHit(100);
+    }
+  }
+}
+
+class mob21703 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      act.sendTo("The troll suddenly notices you, and lurches forward.");
+      act.sendTo("Its movements are jerky, and uncoordinated (even for a troll);");
+      act.sendTo("Some sort of enchantment is at work here!");
+      `emote roars in anger, but doesn't seem to have his heart in it.
+    }
+  }
+}
+
+class mob21704 extends Mob {
+  onFight( act ) {
+    if ( chance(33) )
+      `use 'bash' `act`
+  }
+  onPulseMobile() {
+    if ( chance(2) )
+      `grunt
+  }
+}
+
+class mob21705 extends Mob {
+  isElf( act ) {
+     result = 0;
+     var race = act.getAttr("race");
+     if ( "elf" in race.tokenize("-") || race == "avariel" || race == "drow" )
+       result = 1;
+  }
+  alreadyHaveMissive( act ) {
+    var found = [[ x | x <- act.equipment() + act.inventory(), x.vnum() == 21708 ]];
+    result = found.size() > 0;
+  }
+  onGreetLeader( act, msg ) {
+    if ( isElf( act ) && !alreadyHaveMissive( act ) ) {
+      `say Fellow elf, or friend of the elves, if you can understand, you must aid me.
+      `say I am on a mission of great importance, sent by Allethandra of
+      `say Malathar. I was sent here to investigate claims of an insurgence
+      `say of Chaos. However, what I found was much worse. Please, you must
+      `say travel to Malathar, and give this missive to Allethandra. He
+      `say will know what to do. I shall remain here and attempt to glean
+      `say more information from my captors. For some reason they are most
+      `say reluctant to do me any harm, save for their blasted mental probes.
+      `say In the name of the Elven nation I beseech thee, go!
+      var obj = this.oLoad(21708);
+      `give `obj` `act`
+    }
+    else
+      `say Stranger, tarry not in this dreadful place of evil...
+  }
+  onKilled( act ) {
+    if ( !alreadyHaveMissive( act ) ) {
+      this.echo("As the elf dies, a letter slips from his hand, and floats to the ground.");
+      this.room().oLoad(21708);
+    }
+  }
+}
+
+class mob21706 extends Mob {
+  onRepop( real ) {
+    objvar this:timer = 0;
+    objvar this:baseLocation = this.room().vnum();
+  }
+  onGreetLeader( act, from ) {
+    `scream
+    if ( act.isNPC() )
+      `faint
+    else {
+      `say Oh... I thought you were one of THEM...
+      `say You aren't.. are you?
+      force act `shake
+      `say Thank the Gods! Please, free me from this fell place!
+      `say You will be richly rewarded if you do! Will you free me?
+    }
+  }
+  onPulseTick() {
+    if ( this.timer > 0 ) {
+      this.timer = this.timer - 1;
+      if ( this.timer == 0 )
+        this.transfer(this.baseLocation);
+    }
+  }
+  onSpeech( act, msg ) {
+    var w = msg.words();
+    if ( "yes" in w || "ok" in w )
+      if ( !act.isNPC() ) {
+        `say You are a saint! 
+        `grovel `act`
+        `say Here, take this token to the merchant's guild in Irilian.
+        `say They will reward you for rescuing me!
+        var obj = this.oLoad(21707);
+        `give `obj` `act`
+        `wink
+        this.echo("With that, the merchant slips out the door and is away!");
+        this.transfer(2);
+        this.timer = 3*60; // 3 hours
+      }
+      else {
+        `sigh
+        `say You cannot rescue me...
+      }
+    else if ( "no" in w && !act.isNPC() )
+      if ( act.alignment() >= 350 ) {
+        `say Alas! How could a noble adventurer of good heart abandon me??
+        `cry
+      }
+      else {
+        `sigh
+        `say I am not surprised. What else should one expect from amoral 
+        `say characters such as yourself?
+      }
+  }
+}
+
+class mob21707 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `sigh
+    else if ( chance(2) )
+      `mutter
+    else if ( chance(2) )
+      `roll
+  }
+}
+
+class mob21711 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `say Look at the pretty insects...
+      `drool
+    }
+  }
+  onGreet( act, from ) {
+    act.sendTo("The guard doesn't even appear to register your presence.");
+  }
+  onFight( act ) {
+    if ( chance(25) ) {
+      `say Gaaaaahhhh...
+      `bash
+      act.aggrDamage(this,25,"slash" ,"The guard lurches awkwardly at $n, striking clumsily but hard!");
+    }
+  }
+}
+
+class mob21712 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( from == "e" )
+      if ( act.isNPC() ) {
+        `tap
+        `say What do you want, `act`?
+      }
+      else {
+        `say Ah, `act`. Well met! Word reached me that you had entered
+        `say my humble village, and i was hoping you would stop by here.
+        `say We seldom receive visitors of your repute; we are honored.
+        `bow `act`
+        act.sendTo("Noting the expression on your face, he sighs and continues.");
+        `say Ah I suppose you are wondering what ails the simple townsfolk?
+        `hmm
+        `say Well, its a simple... malady, an infection that causes 
+        `say drowsiness and lethargy... Oh don't worry, it isn't contagious.
+        `say Clerics from the Cathedral of St. Pietre are in fact en route
+        `say to administer a cure.
+        `smile
+        `say Now, if that is all, I must return to my work. Good day!
+      }
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `hum
+      `twiddle
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `say Attack the mayor in his own office would you?
+      `snarl
+      `use gouge
+      `use stun
+      `use disarm
+      `cackle
+      `wield broadsword
+    }
+    if ( act.hit() <= act.getAttr("hp")/4 ) {
+      this.echo("As the injuries mount upon the mayor, a curious change takes place.");
+      this.echo("Sporadic flashes of light flicker across his body, and occasionally");
+      this.echo("his appearance will shift and distort, as if it were being morphed.");
+      `growl
+    }
+  }
+  onKilled( act ) {
+    this.echo("As the death blow lands, the mayor's appearance changes radically.");
+    this.echo("Where once lay the dying body of the mayor now lies the corpse of");
+    this.echo("a strange creature with pale white skin, devoid of any physical");
+    this.echo("features. Revolted, you turn away, and realize the awful truth.");
+    this.echo("Someone has replaced the good mayor of Hochenyana with a vile");
+    this.echo("shapeshifter!");
+    force act `say Alas! What treachery is afoot here?
+  }
+  onExited( act, to ) {
+    if ( to == "u" ) {
+      act.sendTo("Ahem!");
+      act.actAll("The mayor grabs $n and firmly escorts $m downstairs.");
+      force act `down
+    }
+  }
+}
+
+class mob21713 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `smile
+      `say Greetings, `act`, I am sorry, you cannot see the mayor today.
+      `say He is very busy you know!
+      `emote busies herself arranging blank sheets of paper.
+    }
+  }
+}
+
+class mob21714 extends Mob {
+  onFight( act ) {
+    if ( chance(20) ) {
+      var done = act.aggrDamage(this,75,"poison" ,"The spider sinks its fangs into $' calf!");
+      if ( done == 1 )  // 1 means non-lethal damage
+        act.sendTo("You feel the venom course through your veins.");
+    }
+  }
+}
+
+class mob21715 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      `snarl
+    else {
+      `say At last! Someone not under the spell of those accursed illithids!
+      `mutter
+      `say Come on.. we have a village to save!
+      this.echo("As Geoffrey Hiln leaps to his feet, he cries out and grasps his leg.");
+      `wince
+      `say The bastards... broke my leg... in my excitement I...
+      `curse
+      `say You will have to go without me. Will you help stop the evil?
+    }
+  }
+  onSpeech( act, msg ) {
+    var w = msg.words();
+    if ( !act.isNPC() )
+      if ( "yes" in w || "ok" in w ) {
+        `say Good! Knew you would, you look the sort.
+        `say Let me fill you in- as you probably noticed the villagers
+        `say are acting all weird and like... well they are under a spell!
+        `nod
+        `say Yes, they tried to work their sorceries on me too, but it
+        `say didn't work. Being the smart fellow I am, I decided to play
+        `say along, pretend it worked and such. THAT was how I found out
+        `say some purple skinned muck swilling mind flayers have invaded
+        `say MY village! 
+        `emote fumes for a second, then continues.
+        `say I sent a call to my friends in Malathar and Maritshome, I know
+        `say not whether they received my pleas for aid. I have many friends
+        `say in Malathar, I had hoped they would aid me. But now it falls upon
+        `say you, and whatever allies you can muster. Seek out the illithids,
+        `say and whoever they serve, and destroy them! I know not where they
+        `say may lurk, but I overheard them mentioning old Badwick the tailor...
+        `say Go now! Hurry!
+        `emote grimaces and collapses into a half-faint, delirious from pain.
+      }
+      else if ( "no" in w ) {
+        `growl
+        `say You cowardly vermin! I should tear your guts out!
+        `say How can you stand by while evil forces destroy your homes?
+        `say Leave, then, and to hell with you!
+      }
+  }
+  onGiven( act, obj ) {
+    if ( obj.vnum() == 21708 ) {
+      `gasp
+      `say So Allethandra DID send help! 
+      `smile
+      `say The old dog! Quickly, return this note to him with all due
+      `say haste. Even if you manage to destroy the evil here, only he can
+      `say help you find the higher enemy at work here.
+      `give `obj` `act`
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      `use stun
+      `scream
+    }
+  }
+  onPulseMobile() {
+    if ( chance(5) ) {
+      var msg = "Muffled cries for help come from behind the door to the north.";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+}
+
+class mob21716 extends Mob {
+  onGreetLeader( act, from ) {
+    `drool
+    `say Gaaaaaahhh.... no more paiiiiiinnnn.... killllll....
+    this.echo("The zombie lurches forward at a good clip, stabbing wildly!");
+  }
+}
+
+class mob21717 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `say CHOP! CHOP! CHOP!
+      `drool
+      `cackle
+    }
+  }
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      force act `east
+    else if ( !act.isImmortal() ) {
+      `yell FRESH MEAT! I LIKE 'EM FRESH! COME AND GET CHOPPED `act`!
+      `muhaha
+      `cackle
+      var done = act.aggrDamage(this,75,"slash" ,"The butcher hurls a cleaver at $n, striking $m in the chest!");
+      if ( done != 2 ) // 2 means lethal-damage
+        this.multiHit(act);
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `say CHOP CHOP CHOP! CHOP TILL YOU DROP!
+      `cackle
+      `use disarm
+      `use punch
+    }
+    else if ( chance(33) ) {
+      `use bash
+      `use gouge
+      `emote howls with maniacal glee!
+      force act `say This is surely a most trying foe!
+    }
+    else if ( chance(5) ) {
+      act.aggrDamage(this,50,"slash" ,"Clegg slashes $n deep across the chest, striking bone!");
+      `cackle
+    }
+  }
+}
+
+class mob21719 extends Mob {
+  onPulseMobile() {
+    if ( chance(5) ) {
+      `emote rumbles deep in its chest.
+      var msg = "A low growl can be heard from a house to the north...";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+}
+
+class mob21722 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      this.actRoom("$n stares blankly at $n.",[[this,act]]);
+    else {
+      `smile
+      `say Welcome, welcome, feel free to browse, or buy!
+      `wink
+      `emote stops suddenly and peers closely.
+      `say Psst! You aren't affected either, are you? C'mere!
+      act.sendTo("As you move closer the wizard begins to whisper to you.");
+      `whisper `act` I believe some supernatural entity has possessed the souls
+      `whisper `act` of these poor folks. My tower was infested by goblins, and so
+      `whisper `act` I fled, and disguised myself as the alchemist Potrax, the
+      `whisper `act` poor devil who disappeared first. You must help me rid the
+      `whisper `act` say village of this evil! Will you? Yes or no will do!
+    }
+  }
+  onSpeech( act, msg ) {
+    var w = msg.words();
+    if ( !act.isNPC() )
+      if ( "yes" in w || "ok" in w ) {
+        `say Excellent! Knew you would! Now listen closely...
+        `say Through magical divination I was able to determine that the
+        `say mayor is not what he appears! I fear something evil has taken
+        `say his place, and may be behind the fell enchantment placed 'pon
+        `say Hochenyana, or at least may know who is. Seek out the mayor, the
+        `say true mayor, and he may be able to tell you more. Hurry!
+        `emote digs into his robes and produces a couple of wands.
+        `say Here, take these! They may help you...
+        this.oLoad(21730);
+        `give wand `act`
+        this.oLoad(21731);
+        `give wand `act`
+      }
+      else if ( "no" in w ) {
+        `sigh
+        `say Then, we are all doomed...
+      }
+  }
+}
+
+class mob21723 extends Mob {
+  onCreate() {
+    objvar this:done = 0;
+  }
+  onGreetLeader( act, from ) {
+    if ( this.done == 0 ) {
+      this.echo("The bones of a warhorse arise from the ground and form a skeleton!");
+      this.done = 1;
+    }
+  }
+}
+
+class mob21724 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `say They took her, took my wife... and slew her... NOOOO!!!
+      `scream
+      `drool
+    }
+  }
+  onGreet( act, from ) {
+    act.sendTo("The poor fellow is so engulfed in his grief he doesn't notice you.");
+  }
+  onFight( act ) {
+    if ( chance(12) ) {
+      `say NO! You have taken enough! You shan't take me!
+      `scream
+      `use gouge
+      `use stun
+    }
+  }
+}
+
+class mob21725 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() && this.fighting() == NULL && act.room().people().size() <= 2 ) {
+      act.actTo("As you enter $n slowly stands up.",this);
+      `say Huh? Who? What? Where am I? Gods, my HEAD!
+      `wince
+      `peer
+      `say Hoi, you there! What date is it?
+      `mutter
+    }
+  }
+  onSpeech( act, msg ) {
+    var w = msg.words();
+    if ( "day" in w ) {
+      `gasp
+      `say I ...it cannot be... I cannot remember the last 4 months!
+      `say All I can remember is the robed strangers coming to town...
+      `frown
+    }
+    else if ( w.includes( [["robed", "strangers "]] ) ) {
+      `say Yes, three of them, didn't say much, not as there is much to
+      `say for a stranger in a foreign town. 
+      `shrug
+      `say Wore purple robes, covered their faces and hands too. One of
+      `say them didn't seem to have any legs, he just kinda -floated-...
+      `boggle
+      `say That's about all I can remember...
+      `emote scratches his head in puzzlement.
+    }
+  }
+}
+
+class mob21726 extends Mob {
+  onFight( act ) {
+    if ( chance(15) ) {
+      var done = act.aggrDamage(this,50,"poison" ,"The otyugh's tentacle catches $n in the chest.");
+      if ( done == 1 ) {
+        `use bash
+        `cast poison `act`
+      }
+    }
+  }
+}
+
+class mob21727 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `say So cold... cold....
+      `shiver
+    }
+  }
+}
+
+class mob21728 extends Mob {
+  onFight( act ) {
+    if ( chance(10) ) {
+      act.aggrDamage(this,33,"bash" , "$' tongue lashes out, snaring $n and constricting!",[[this,act]]);
+      `use disarm
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `emote croaks loudly.
+      var msg = "A loud croaking, as of a massive amphibian, can be heard.";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+}
+
+class mob21729 extends Mob {
+  onFight( act ) {
+    if ( chance(10) ) {
+      `say No, you won't cut in on my action!
+      `snarl
+      act.aggrDamage(this,40,"pierce" ,"The thief slips in under $' guard and delivers a serious blow!");
+      `wield dirk
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) )
+      `mutter
+  }
+}
+
+class mob21730 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `grunt
+  }
+  onFight( act ) {
+    act.sendTo("The boar charges at you, and gores you with its tusks!");
+    `use gouge
+    `use bash
+  }
+}
+
+class mob21731 extends Mob {
+  onGreetLeader( act, from ) {
+    `bow `act`
+    `say Greetings, citizen. Nothing is amiss. Carry on with your business.
+    `emote stares into space.
+  }
+}
+
+class mob21732 extends Mob {
+  onFight( act ) {
+    if ( chance(66) ) {
+      if ( chance(40) ) {
+        `cast 'chill touch' `act`
+        `cast 'weaken' `act`
+        `cast 'faerie fire' `act`
+        `say Ooga Booga!
+      }
+      else if ( chance(15) ) {
+        `use gouge
+        `wink
+        `cast 'blindness' `act`
+      }
+      else if ( chance(25) ) {
+        //c galvanic $n
+        `cast 'curse' `act`
+        `cast 'poison' `act`
+      }
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      `snarl
+      `drool
+    }
+  }
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `scream
+      act.sendTo("The shaman hisses menacingly at you.");
+      `say Gah wa jeri 'nlingreru!
+      `cackle
+    }
+  }
+}
+
+class mob21734 extends Mob {
+  onPulseMobile() {
+    if ( chance(2) )
+      `cackle
+  }
+  onGreet( act, from ) {
+    if ( chance(33) ) {
+      `cackle
+      `say Die die, goodie goodie!
+      `snarl
+    }
+  }
+}
+
+class mob21735 extends Mob {
+  onGreet( act, from ) {
+    if ( chance(25) ) {
+      `snarl
+      `say Humantypes! Die! Shaman commands!
+      `cackle
+    }
+  }
+  onFight( act ) {
+    if ( chance(5) )
+      `yell Humantypes in the clan place! Die!
+  }
+}
+
+class mob21736 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( from == "n" ) {
+      if ( act.isNPC() ) {
+        `say Intruder! 
+        act.actAll("$n flee$v from the golem!");
+        force act `north
+        `chuckle
+      }
+      else {
+       `say My master prohibits any from disturbing his chambers!
+       `cast 'gas breath'
+      }
+    }
+  }
+}
+
+class mob21738 extends Mob {
+  onFight( act ) {
+    if ( chance(75) ) {
+      if ( chance(30) ) {
+        `cast 'winter' `act`
+        `cast 'frost breath' `act`
+        `cackle
+      }
+      else if ( chance(10) ) {
+        `cast 'chill touch' `act`
+        `cast 'weaken' `act`
+      }
+      else if ( chance(25) ) {
+        `use gouge
+        `use bash
+        `use kick
+        `use punch
+      }
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) ) {
+      this.echo("The minion infuses its weapon with demonic power.");
+      `remove whip
+      `cast 'charms of the daemon' whip
+      `wield whip
+      `cackle
+    }
+    if ( chance(5) ) {
+      var msg = "Horrid shrieks and howls come from all around you.";
+      [[ x.echo(msg) | x <- this.room().around() ]];
+    }
+  }
+  onGreetLeader( act, from ) {
+    if ( act.isNPC() )
+      force act `north
+    else {
+       if ( act.isImmortal() ) {
+         `sneer
+         `say Pawn of the higher powers, you may defeat me, but not NO'OL!
+         `cackle
+       }
+       else {
+         `chuckle
+         `say Poor, poor pitiful `act`. Tell me, how do you wish to die???
+         `cackle
+         this.actRoom("{RA hellish glow suffuses $n as he rises to his full height.{x");
+       }
+    }
+  }
+}
+
+class mob21739 extends Mob {
+  onFight( act ) {
+    if ( chance(20) ) {
+      `cast 'chill touch' `act`
+      `cast blindness `act`
+      `cast weaken `act`
+    }
+  }
+  onKilled( act ) {
+    if ( chance(50) )
+      this.room().oLoad(21763);
+    this.echo("{bAs the death blow is struck, the wrait dissipates, aggrieved.");
+    result = 3; // no corpse neither death cry
+  }
+}
+
+class mob21740 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `emote hisses angrily!
+      `say Intrudersssss! Monks! Repel this creature of Law!
+      this.actRoom("$n throws back his cowl, and reveals the hideous features of an illithid!");
+      `cackle
+    }
+  }
+  onFight( act ) {
+    if ( chance(33) ) {
+      var done = act.aggrDamage(this,50,"mental" ,"$n attacks $n waith a psionic assault!",[[this,act]]);
+      if ( done == 1 ) { // 1 means non-lethal damage
+        force act `scream
+        `cast blindness `act`
+        `cast weaken `act`
+        `cast 'energy drain' `act`          
+      }
+    }
+  }
+}
+
+class mob21742 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isImmortal() && !act.isNPC() ) {
+      `snarl
+      this.actRoom("$n steps out of the shadows, and strikes!");
+      `use backstab `act`
+      `cackle
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `use circle
+      `use gouge
+    }
+  }
+  onPulseMobile() {
+    if ( this.fighting() == NULL && chance(33) ) {
+      `cast invis
+      `use sneak
+      `use hide
+    }
+  }
+}
+
+class mob21743 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      act.sendTo("A shimmering mass of energy coalesces into a hunched demon.");
+      act.sendTo("When it speaks, its voice seems to come from everywhere all at once.");
+      `say wElcOmE tO mY pRiSoN, mOrTaL...
+      `chuckle
+      this.echo("The air shifts subtly, and the demon arises.");
+      `say dO uS bOtH a FaVoR aNd SlAy Me...
+      this.actRoom("Torrents of energy arc and sizzle about $' form.");
+      this.actRoom("$n suddenly moves, and with a mighty effort rips $s own hand off!");
+      act.actTo("Your eyes widen as another claw grows to replace it. Smiling $e turns.",this);
+      if ( this.getObjCarried("claw") == NULL )
+        var claw = this.oLoad(21773);
+  // FIXME, should be be wield ... should be directly set at right location
+      `wield `claw`
+      force act `faint
+    }
+  }
+  onKilled( act ) {
+    this.actRoom("A hole is torn in the fabric of this place as $n dies.");
+    //mpopenpassage 21782 1056 4             FIXME
+    var room = getRoom(21782);
+    if ( room != NULL )
+      room.createOneWayDoor( 3001, "d" );
+  }
+  onRepop( real ) { // delete created door
+    var room = this.room();
+    if ( room != NULL && room.roomDir("d") != NULL )
+      room.deleteOneWayDoor("d");
+  }
+  onPulseMobile() {
+    //rem claw
+    //drop claw
+    //sac claw
+    //c gas
+  }
+  onFight( act ) {
+    if ( act.isNPC() ) {
+      act.suddenDeath("has been slain by "+this.shortDescr());
+      `cackle
+    }
+    if ( chance(25) ) {
+      `cast 'chill touch' `act`
+      `cast 'weaken' `act`
+      `use gouge
+      `cast 'energy drain' `act`
+    }
+    else if ( chance(33) ) {
+      `wield claw
+      `use disarm
+      `use gouge
+    }
+    else if ( chance(10) ) {
+      this.echo("Cracks appear in the void, and gas seeps through them!");
+      `cast earthquake
+      `cast 'gas breath'
+      `cast 'frost breath' `act`
+    }
+  }
+// FIXME
+//> act_prog circle~
+//mprestore self 300
+//say tHe aTtAcK oF a ThIeF iNfUsEs Me WiTh StReNgTh...
+}
+
+class mob21744 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `drool
+      `say Gaaaahhhh.....
+      `shiver
+      act.actTo("$' mind has been destroyed by psychic assault.",this);
+      act.sendTo("The poor bastard cannot even form a simple sentence...");
+    }
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+      `say GAAAAAAAHHHHH!
+      `use stun
+    }
+  }
+  onPulseMobile() {
+    if ( chance(2) )
+      `drool
+  }
+}
+
+class mob21745 extends Mob {
+  onFight( act ) {
+    if ( chance(33) ) {
+      act.sendTo("The shadow's icy hands grasp you!");
+      `cast 'chill touch' `act`
+      `cast 'weaken' `act`
+      `cast 'energy drain' `act`
+    }
+  }
+  onKilled( act ) {
+    this.echo("As the shadow perishes, its form dissipates, disappearing into the gloom.");
+    result = 3;
+  }
+}
+
+class mob21746 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `emote gibbers madly.
+      `say Come witness the power of No'ol!
+      `drool
+      `faint
+    }
+  }
+  onFight( act ) {
+    if ( act.isNPC() ) {
+      this.actRoom("$n shrieks a horrible incantation, causing $n to flee in panic!",[[this,act]]);
+      force act `flee
+    }
+    if ( chance(20) ) {
+      `use bite
+      `use kick
+      `use gouge
+    }
+  }
+}
+
+class mob21747 extends Mob {
+  onFight( act ) {
+    if ( chance(25) ) {
+      `say Stepping inside my prison was foolish, `act`!
+      `say Now I shall destroy you for your cowardly attack!
+      `use stun
+      `cast 'frost breath' 
+      if ( chance(25) ) {
+        `wield mace
+        `use disarm
+      }
+    }
+  }
+  onGreetLeader( act, from ) {
+    `say if you have come to torment me, save your breath.
+    `say Nothing you can say or do can hurt me anymore...
+    `stare
+  }
+  onPulseMobile() {
+    if ( chance(5) ) {
+      `cast heal
+      `wield mace
+      `sigh
+    }
+  }
+}
+
+class mob21748 extends Mob {
+  onGreet( act, from ) {
+    if ( act.alignment() >= 350 ) {
+      `say Lawful creature, flee this place of evil!
+      `emote moans loudly.
+    }
+    else
+      `say Alas, more pawns of evil and darkness...
+  }
+}
+
+class mob21751 extends Mob {
+  onGreetLeader( act, from ) {
+    if ( !act.isNPC() ) {
+      `grin
+      `say So, you have caught on to our little ruse, eh? Found us out,
+      `say so to speak. Weeeeell, its too late to stop me now, adventurer!
+      `cackle
+      `say When this latest incantation is finished, I shall have every
+      `say soldier along the Walls of Defiance under my sway! And then...
+      `muhaha
+      `say Guards! Destroy the intruders!
+      this.echo("Two large Umber Hulks emerge from the shadows, and stride forth.");
+      var hulk1 = this.mLoad(21701);
+      var hulk2 = this.mLoad(21701);
+      //force hulk1 `cast 'poison' `act`
+      hulk1.multiHit(act);
+      //force hulk2 `cast 'weaken' `act`
+      hulk2.multiHit(act);
+      `cast shadowform
+      `cast 'eldritch sphere'
+      `cast blazeward
+      `cast inner
+      `cast dragonskin
+      `cast demonskin
+    }
+  }
+  onKilled( act ) {
+    this.echo("As the great beholder shrieks and dies, a strip of its skin is torn loose.");
+    this.room().oLoad(21701);
+  }
+  onFight( act ) {
+    if ( chance(20) ) {
+//FIXME
+      `cackle
+      `say Taste my magical powers, `act`!
+      `cast 'death spell' `act`
+      `cast fireball  `act`
+      `cast 'chill touch' `act`
+      `cast 'ethereal funnel' `act`
+      `cast 'black fist' `act`
+    }
+    else if ( chance(25) ) // FIXME: should be random target
+      act.aggrDamage(this,50,"energy" , 
+                     "Beams of energy surge forth from $' eyestalks, striking randomly!",this);
+    else if ( chance(40) ) {
+      `cast blindness `act`
+      `muhaha
+    }
+    else
+      `cast 'colour spray' `act`
+  }
+}
+
+//********** OBJ
+class obj21708 extends Obj {
+  onLooking( act ) {
+    if ( act.getAbility("elfish") > 0 ) {
+      act.sendTo("The letter reads-");
+      act.sendTo("My dear friend Allethandra,");
+      act.sendTo("The Situation is even worse than we predicted. A vile");
+      act.sendTo("beholder, with Illithid help, has ensorcelled the villagers");
+      act.sendTo("of Hochenyana with some sort of ancient artifact, the power");
+      act.sendTo("of which is greatly enhanced by the mental abilities of the");
+      act.sendTo("Illithids. I am not sure who, or what, may be behind these");
+      act.sendTo("creatures; whether they are renegades or agents of a greater");
+      act.sendTo("power is as yet unclear. I would advise we notify the");
+      act.sendTo("Estroglian mage council immediately, and...");
+      act.sendTo("The letter suddenly stops here. Hmm...");
+    }
+    else
+      act.sendTo("You cannot make heads or tails of the elaborate elven script.");
+    result = 1;
+  }
+}
+
+class obj21717 extends Lever {
+  deleteDoor() {
+    var room = getRoom(21729);
+    if ( room != NULL && room.roomDir("d") != NULL ) {
+      room.deleteDoor( "d" );
+      this.position = 0;
+    }
+  }
+  onRepop( real ) { // if the item repop and the door is already opened, we delete it
+    deleteDoor();
+  }
+  onReset() { // if the item repop and the door is already opened, we delete it
+    deleteDoor();
+  }
+  pulled( act ) {
+    if ( this.position == 1 ) {
+      this.echo("As the shop counter is pushed aside, a hidden trapdoor is revealed.");
+      var room = getRoom(21729);
+      if ( room != NULL )
+        room.createDoor( 21788, "d" );
+      //mpopenpassage 21729 21788 5           FIXME
+      //mpopenpassage 21788 21729 4            
+    }
+    else if ( this.position == 0 ) {
+      this.echo("As the shop counter is pulled back into place, it bars a trapdoor.");
+      var room = getRoom(21729);
+      if ( room != NULL )
+        room.deleteDoor( "d" );
+      //mpclosepassage 21729 5
+      //mpclosepassage 21788 4
+    }
+    else
+      log("BUG: invalid lever position "+this.position+" vnum:"+this.vnum());
+  }
+  onLooking( act ) {
+    if ( this.position == 0 ) {
+      act.sendTo("You notice that the counter is not set flush with the floor,");
+      act.sendTo("and with a little effort could be pushed aside...");
+    }
+    else if ( this.position == 1 )
+      act.sendTo("The shop counter has been pushed aside revealing a hidden trapdoor.");
+    else
+      log("BUG: invalid lever position "+this.position+" vnum:"+this.vnum());
+    result = 1;
+  }
+}
+
+class obj21722 extends Obj {
+  onWorn( act ) {
+    this.cast( act, "elven", 50, 1 ); // FIXME
+  }
+}
+
+class obj21723 extends Obj {
+  onWorn( act ) {
+    act.sendTo("Visions of blood and mutilation flood your mind.");  // FIXME  evilgrin doesn't exist
+    force act `evilgrin
+    force act `cackle
+  }
+}
+
+class obj21741 extends Obj {
+  onWorn( act ) {
+    if ( chance(2) )
+      this.cast( act, "invisibility", 50, 1 );
+  }
+}
+
+class obj21747 extends Obj {
+  onWorn( act ) {
+    this.cast( act, "sagacity", 50, 1 ); // FIXME
+  }
+}
+
+class obj21748 extends Obj {
+  onWorn( act ) {
+    act.sendTo("As you wear the eye, it sinks into your own eye, absorbing it!");
+  }
+}
+
+class obj21754 extends Obj {
+  onLooking( act ) {
+    if ( "mage" in act.classes() ) { // FIXME should test every mage classes
+      act.sendTo("As you scan the runes enscribed within, you trigger them!");
+      force act `recite spell
+      force act `chuckle
+      force act `say Silly me...;)
+    }
+    else
+      act.sendTo("You cannot make heads or tails of the cryptic runes.");
+    result = 1;
+  }
+}
+
+class obj21759 extends Obj {
+  onDamage( amount ) {
+    if ( this.getCondition() <= 50 ) {
+      this.echo("The sigil reforms even as it is damaged!");
+      this.setCondition(100);
+    }
+  }
+}
+
+class obj21768 extends Obj {
+  onWorn( act ) {
+    this.cast( act, "slink", 50, 1 );
+  }
+}
+
+class obj21771 extends Lever {
+  deleteDoor() {
+    var room = getRoom(21772);
+    if ( room != NULL && room.roomDir("n") != NULL ) {
+      room.deleteOneWayDoor( "n" );
+      this.position = 0;
+    }
+  }
+  onReset() { // if the item repop and the door is already opened, we delete it
+    deleteDoor();
+  }
+  onRepop( real ) { // if the item repop and the door is already opened, we delete it
+    deleteDoor();
+  }
+  pulled( act ) {
+    if ( this.position == 0 ) {
+      act.sendTo("A panel slides shut in the north wall.");
+      //mpclosepassage 21772 0        FIXME
+      var room = getRoom(21772);
+      if ( room != NULL )
+        room.deleteOneWayDoor( "n" );
+    }
+    else if ( this.position == 1 ) {
+      act.sendTo("As you shove the hatstand around, a secret panel opens!");
+      var roomates = [[ x.sendTo("A panel suddenly opens in the north wall!") | 
+                        x <- this.room().people(), act != x ]];
+      //mpopenpassage 21772 21782 0        FIXME
+      var room = getRoom(21772);
+      if ( room != NULL )
+        room.createOneWayDoor( 21782, "n" );
+    }
+    else
+      log("BUG: invalid lever position "+this.position+" vnum:"+this.vnum());
+  }
+  onLooking( act ) {
+    result = 0;
+  }
+}
+
+class obj21778 extends Obj {
+  onCreate() {
+    objvar this:done = 0;
+    objvar this:timer = 0;
+  }
+  onLooking( act ) {
+    if ( chance(20) && this.done == 0 ) {
+      act.sendTo("As you stick your head in to have a look around, a rather large");
+      act.sendTo("rat leaps out and bites you on the nose, then scurries away!");
+      force act `say OUCH! Damn rats!
+      act.actAll("$n rubs $s nose ruefully.");
+      act.damage(10, "pierce", "has been killed by a rat.");
+      this.done = 1;
+      this.timer = 30; // every half-hour
+    }
+  }
+  onPulseMobile() {
+    if ( this.done == 1 ) {
+      this.timer = this.timer-1;
+      if ( this.timer == 0 )
+        this.done = 0;
+    }
+  }
+}
+
+class obj21782 extends Obj {
+  onWorn( act ) {
+    if ( act.god() == "FIXME" ) {
+      act.sendTo("The power of your god fills you with strength!");
+      this.cast(act, "kin", 50, 1 );
+      this.cast(act, "troll", 50, 1 );
+    }
+  }
+}
+
+
+//********** ROOM
+
+class room21750 extends Room {
+// FIXME
+//> act_prog p bashes against the door, but it holds strong.~
+//mea $n Are you crazy? That door is solid iron!
+//mpechoar $n Someone better stop $n before $e injures $mself...
+}
+
+class room21774 extends Room {
+  onEntered( act, from ) {
+    if ( from == "n" ) {
+      act.sendTo("You feel a slight tugging, as if something was seeking to drag");
+      act.sendTo("you down into the gaping pit at your feet.");
+    }
+  }
+}

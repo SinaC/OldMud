@@ -1,0 +1,163 @@
+Player 'Azerty' {
+  Id = 1065275936;
+  Version = 11;
+  LogO = 1065280118;
+  Race = 'lupine';
+  Sex = 'male';
+  Size = 'medium';
+  DamType = 'punch';
+  Immunities = ('none');
+  Resistances = ('cold', 'poison', 'disease');
+  Vulnerabilities = ('fire');
+  Forms = ('edible', 'sentient', 'biped', 'mammal', 'fur');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+  AfBy = ('dark_vision');
+  AfBy2 = ('none');
+  Classes = ('ranger');
+  Level = 99;
+  Experience = 239218;
+  Act = ('autoassist', 'autoexit', 'autotitle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine', 'nohints');
+  Position = 'standing';
+  Attr = ( 20, 18, 20, 21, 19 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = (  ( 1350 ),  ( 418 ),  ( 713 ),  ( 424 ) );
+  Alignment = 750;
+  Etho = 'chaotic';
+  Gold = 94;
+  Timer = 2;
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Room = 3025;
+  Played = 3488;
+  Scroll = 48;
+  Prac = 564;
+  Train = 213;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'common';
+  Beacons = ( 0, 0, 0 );
+  God = 'mota';
+  NameAccepted = false;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = 'the Master Ranger';
+  Condition = ( 0, 0, 9, 9 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Faction = ( 'notYetClassed', 0 );
+  Pnts = 59;
+  Ability = ( 94, 0, 0, 'sword' );
+  Ability = ( 79, 0, 0, 'dodge' );
+  Ability = ( 98, 0, 0, 'parry' );
+  Ability = ( 85, 0, 0, 'second attack' );
+  Ability = ( 82, 0, 0, 'third attack' );
+  Ability = ( 80, 0, 0, 'fourth attack' );
+  Ability = ( 84, 1, 0, 'dual wield' );
+  Ability = ( 75, 0, 0, 'hunt' );
+  Ability = ( 75, 0, 0, 'fast healing' );
+  Ability = ( 75, 0, 0, 'recall' );
+  Ability = ( 75, 0, 0, 'blend' );
+  Ability = ( 75, 0, 0, 'improved exotic' );
+  Ability = ( 75, 0, 0, 'dual parry' );
+  Ability = ( 75, 1, 0, 'riding' );
+  Ability = ( 75, 0, 0, 'climbing' );
+  Ability = ( 75, 0, 0, 'favored enemy' );
+  Ability = ( 75, 0, 0, 'create food' );
+  Ability = ( 75, 0, 0, 'create water' );
+  Ability = ( 75, 0, 0, 'cure blindness' );
+  Ability = ( 75, 0, 0, 'cure disease' );
+  Ability = ( 75, 0, 0, 'cure light' );
+  Ability = ( 75, 0, 0, 'cure poison' );
+  Ability = ( 75, 0, 0, 'cure serious' );
+  Ability = ( 75, 0, 0, 'detect evil' );
+  Ability = ( 75, 0, 0, 'pass door' );
+  Ability = ( 75, 0, 0, 'protection evil' );
+  Ability = ( 75, 0, 0, 'refresh' );
+  Ability = ( 75, 0, 0, 'walk on water' );
+  Ability = ( 75, 0, 0, 'barkskin' );
+  Ability = ( 75, 0, 0, 'create shelter' );
+  Ability = ( 75, 0, 0, 'strength of the bear' );
+  Ability = ( 75, 0, 0, 'breath of the fish' );
+  Ability = ( 75, 0, 0, 'eyes of the wolf' );
+  Ability = ( 75, 0, 0, 'free movement' );
+  Ability = ( 75, 0, 0, 'rooted feet' );
+  Ability = ( 75, 0, 0, 'hibernation' );
+  Ability = ( 75, 0, 0, 'nature blessing' );
+  Ability = ( 75, 0, 0, 'calm animal' );
+  Ability = ( 75, 0, 0, 'protection lycanthropy' );
+  Ability = ( 75, 1, 0, 'animal follower' );
+  Group = 'rom basics';
+  Group = 'ranger basics';
+  Group = 'ranger1';
+  Group = 'ranger2';
+  Group = 'ranger3';
+  Group = 'ranger4';
+  Gset = 1;
+  Security = 0;
+  Affect = ( 'nature blessing', 35, 63, 0, ('ability'),
+            ( 'char', 'saving throw', 0, -9 ),
+            ( 'char', 'AC', 0, -20 ),
+            ( 'char', 'hitroll', 0, 9 ) );
+  Affect = ( 'eyes of the wolf', 104, 67, 0, ('ability'),
+            ( 'char', 'affects', 1, 32 ),
+            ( 'char', 'affects', 1, 512 ) );
+  Affect = ( 'strength of the bear', 28, 65, 0, ('ability'),
+            ( 'char', 'strength', 0, 4 ) );
+  Affect = ( 'detect evil', 28, 68, 0, ('ability'),
+            ( 'char', 'affects', 1, 4 ) );
+  Affect = ( 'barkskin', 28, 67, 0, ('ability'),
+            ( 'char', 'AC', 0, -70 ) );
+  Affect = ( 'walk on water', 28, 68, 0, ('ability'),
+            ( 'char', 'affects2', 1, 1 ) );
+  Affect = ( 'breath of the fish', 27, 66, 0, ('ability'),
+            ( 'char', 'affects2', 1, 2 ) );
+  Affect = ( 'bless', 21, 58, 0, ('ability'),
+            ( 'char', 'hitroll', 0, 8 ),
+            ( 'char', 'saving throw', 0, -8 ) );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'questmob', 'entity', -1, '<NULL>' );
+  ExField = ( 'questobj', 'entity', -1, '<NULL>' );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'questpoints', 'int', -1, 0 );
+  ExField = ( 'questgiver', 'entity', -1, '<NULL>' );
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3702 {
+    WearLoc = 'wielded';
+  }
+  Obj 3704 {
+  }
+  Obj 3162 {
+  }
+  Obj 3397 {
+    Condition = 93;
+    WearLoc = 'wield2';
+  }
+}

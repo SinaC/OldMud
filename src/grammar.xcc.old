@@ -1,0 +1,268 @@
+
+grammar {
+
+  <asis>
+    #include "merc.h"
+    #include "script2.h"
+    #include "db.h"
+  </asis>
+
+
+  nonterminal Module {
+    field classes: Class*;
+  
+    rule: classes;
+  }
+
+  nonterminal Class {
+     field ident: Identifier;
+     field isAbstract: "ABSTRACT";
+     field methods: Method*;
+     field extends: Identifier */ ',';
+
+     rule: "CLASS" ident "EXTENDS" extends '{' methods '}';
+     rule: isAbstract "CLASS" ident "EXTENDS" extends '{' methods '}';
+  }
+
+  nonterminal Method {
+    field body: Compound;
+    field params: Identifier */ ',';
+    field ident: Identifier;
+
+    rule: ident '(' params ')' body;
+  }
+
+  nonterminal Instruction {
+    <aziz>
+       virtual void execute(Context& ctx) const;
+    </aziz>
+  }
+
+
+  nonterminal CmdParm {
+    <asis>
+       const char* verb;
+    </asis>
+
+    <commit>
+       result->verb=str_dup(rule[0].tok_image);
+    </commit>
+
+    field expr: Expression;
+     
+    rule: "COMMAND" expr;
+  }
+
+  nonterminal Command: Instruction {
+     <asis>
+       const char* verb;
+       const char* eval(Context& ctx) const;
+     </asis>
+
+     <commit>
+       result->verb=str_dup(rule[1].tok_image);
+     </commit>
+
+     field parms: CmdParm*;
+     
+     rule: parms "COMMAND_LAST";
+  }
+
+
+  nonterminal ForceInstr: Instruction {
+     field ch: Expression;
+     field content: Command;
+     
+     rule: "FORCE" ch content;
+  }
+
+  nonterminal Compound: Instruction {
+     field instr: Instruction*;
+
+     rule: '{' instr '}';
+  }
+
+  nonterminal ExprInstr: Instruction {
+     field expr: Expression;
+
+     rule: expr ';';
+  }
+  
+  nonterminal WhileInstr: Instruction {
+    field body: Instruction;
+    field cond: Expression;
+
+    rule: "WHILE" '(' cond ')' body;
+  }
+
+  nonterminal IfInstr: Instruction {
+    field cond: Expression;
+    field thenpart: Instruction;
+    field elsepart: Instruction;
+
+    rule pred=1001: "IF" '(' cond ')' thenpart; 
+    rule pred=1000: "IF" '(' cond ')' thenpart "ELSE" elsepart;
+  }
+
+  nonterminal VarDecl: Instruction {
+    field defval: Expression;
+    field ident: Identifier;
+
+    rule: "VAR" ident ';';
+    rule: "VAR" ident '=' defval ';';
+  }
+
+  nonterminal ObjvarDecl: Instruction {
+    field object: Expression;
+    field ident: Identifier;
+    field defval: Expression;
+
+    rule: "OBJVAR" object ':' ident '=' defval ';';
+  }
+
+  nonterminal Expression {
+    <aziz> 
+       virtual Value eval(Context& ctx) const;
+    </aziz>
+
+    rule: '(' this ')';
+  }
+
+  nonterminal UnaryExpr: Expression {
+    field op: token;
+    field expr: Expression;
+
+    rule pred=16: op='!' expr;
+    rule pred=16: op='-' expr;
+
+  }
+
+  nonterminal ComprehensionExpr: Expression {
+    field generator: Expression;
+    field condition: Expression;
+    field inputList: Expression;
+    field variable: Identifier;
+
+
+    rule: '[' '[' generator '|' variable "LEFTARROW" inputList ',' condition ']' ']';
+    rule: '[' '[' generator '|' variable "LEFTARROW" inputList ']' ']';
+  }
+
+  nonterminal PartialList: Expression {
+    field inputList: Expression;
+    field lowerBound: Expression;
+    field upperBound: Expression;
+
+    rule: inputList '[' lowerBound '.' '.' upperBound ']';
+    rule: inputList '[' '.' '.' upperBound ']';
+    rule: inputList '[' lowerBound '.' '.' ']';
+  }
+
+  nonterminal OtherBinaryExpr: Expression {
+    field left: Expression;
+    field op: token;
+    field right: Identifier;
+
+    rule pred=91 assoc=left: left op="IS" right;
+    rule pred=91 assoc=left: left op="HAS" right;
+  }
+
+  nonterminal BinaryExpr: Expression {
+
+    field left: Expression;
+    field op: token;
+    field right: Expression;
+
+    rule pred=15:            left op='[' right ']';
+    rule pred=20 assoc=left: left op='*' right;
+    rule pred=20 assoc=left: left op='/' right;
+    rule pred=40 assoc=left: left op='+' right;
+    rule pred=40 assoc=left: left op='-' right;
+    rule pred=60 assoc=left: left op="IN" right;
+    rule pred=60 assoc=left: left op="LE" right;
+    rule pred=60 assoc=left: left op='<'  right;
+    rule pred=60 assoc=left: left op="GE" right;
+    rule pred=60 assoc=left: left op='>'  right;
+    rule pred=60 assoc=left: left op="EQ" right;
+    rule pred=60 assoc=left: left op="NE" right;
+    rule pred=65 assoc=left: left op="EQUIV" right;
+    rule pred=80 assoc=left: left op="AND" right;
+    rule pred=90 assoc=left: left op="OR" right;
+    rule pred=99 assoc=left: left op='=' right;
+  }
+
+  nonterminal ConsList: Expression {
+    field elems: Expression */ ',';
+    
+    rule: '[' '[' elems ']' ']' ;
+  }
+
+  nonterminal CallExpr: Expression {
+    field left: Identifier;
+    field params: Expression*/ ',';
+
+    rule pred=2: left '(' params ')';
+  }
+
+  nonterminal QualifyExpr: Expression {
+    field left:Expression;
+    field ident:Identifier;
+
+    rule pred=1: left '.' ident;
+  }
+
+  nonterminal MethodCallExpr: Expression {
+    field left:Expression;
+    field ident:Identifier;
+    field params: Expression*/ ',';
+
+    rule pred=0: left '.' ident '(' params ')';
+  }
+
+  nonterminal ScopeCallExpr: Expression {
+    field left:Identifier;
+    field ident:Identifier;
+    field params: Expression*/ ',';
+
+    rule pred=0: left "DBLPT" ident '(' params ')';
+  }
+
+  nonterminal Identifier: Expression {
+     <asis>
+       const char* image;
+     </asis>
+
+     <commit>
+       result->image=str_dup(rule[0].tok_image);
+     </commit>
+
+     rule: "IDENT";
+  }
+
+  nonterminal StringLiteral: Expression {
+     <asis>
+       const char* image;
+     </asis>
+
+     <commit>
+       result->image=str_dup(rule[0].tok_image);
+     </commit>
+
+    rule: "STRING";
+  }
+
+  nonterminal IntegerLiteral: Expression {
+     <asis>
+       int value;
+     </asis>
+
+     <commit>
+       result->value = atoi(rule[0].tok_image);
+     </commit>
+    rule: "INTEGER";
+  }
+
+  nonterminal NullLiteral: Expression {
+    rule: "NULL_TOK";
+  }
+}

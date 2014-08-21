@@ -1,0 +1,428 @@
+AreaState 'Immortals' {
+  Room 200 {
+    Mobile 295 {
+      Ptr = 182989384;
+      Desc = '';
+      DamType = 'pierce';
+      HMVP = (  ( 16699 ),  ( 710 ),  ( 100 ),  ( 656 ) );
+      Room = 200;
+    }
+  }
+  Room 252 {
+    Obj 250 {
+    }
+    Obj 251 {
+    }
+    Obj 252 {
+      Obj 299 {
+      }
+    }
+  }
+  Room 253 {
+    Mobile 298 {
+      Ptr = 193541848;
+      DamType = 'pound';
+      HMVP = (  ( 5387 ),  ( 702 ),  ( 100 ),  ( 0 ) );
+      Room = 253;
+      ExField = ( 'patrolVnum', 'int', -1, 297 );
+      ExField = ( 'enemyName', 'string', -1, 'Ogre' );
+      ExField = ( 'enemyGroup', 'int', -1, 2101 );
+    }
+    Mobile 296 {
+      Ptr = 198507952;
+      DamType = 'pierce';
+      HMVP = (  ( 6423 ),  ( 664 ),  ( 100 ),  ( 0 ) );
+      Room = 253;
+    }
+    Mobile 296 {
+      Ptr = 185456928;
+      DamType = 'slash';
+      HMVP = (  ( 4393, 5848 ),  ( 662 ),  ( 100 ),  ( 0 ) );
+      Room = 253;
+    }
+    Mobile 296 {
+      Ptr = 182999912;
+      DamType = 'slash';
+      HMVP = (  ( 6044, 6461 ),  ( 602 ),  ( 100 ),  ( 0 ) );
+      Room = 253;
+    }
+    Mobile 296 {
+      Ptr = 182999328;
+      DamType = 'slash';
+      HMVP = (  ( 4726, 5962 ),  ( 649 ),  ( 100 ),  ( 0 ) );
+      Room = 253;
+    }
+    Mobile 296 {
+      Ptr = 192974256;
+      DamType = 'slash';
+      HMVP = (  ( 6771 ),  ( 617 ),  ( 100 ),  ( 0 ) );
+      Room = 253;
+    }
+    Obj 10 {
+      ShD = 'the corpse of a troll';
+      Desc = 'The corpse of a troll is lying here.';
+      Level = 100;
+      Values = ( 298, 2101377, 133119, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'a patrolman' );
+    }
+  }
+  Room 254 {
+    Mobile 296 {
+      Ptr = 182988800;
+      DamType = 'pound';
+      HMVP = (  ( 6002, 6768 ),  ( 631 ),  ( 100 ),  ( 0 ) );
+      Room = 254;
+    }
+    Mobile 297 {
+      Ptr = 193541264;
+      DamType = 'pierce';
+      HMVP = (  ( 6495 ),  ( 653 ),  ( 100 ),  ( 607 ) );
+      Room = 254;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+    Mobile 296 {
+      Ptr = 198885376;
+      DamType = 'pierce';
+      HMVP = (  ( 5809 ),  ( 674 ),  ( 100 ),  ( 0 ) );
+      Room = 254;
+    }
+    Mobile 297 {
+      Ptr = 190074880;
+      DamType = 'pound';
+      HMVP = (  ( 5957 ),  ( 663 ),  ( 100 ),  ( 650 ) );
+      Room = 254;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+    Mobile 296 {
+      Ptr = 190075464;
+      DamType = 'pierce';
+      HMVP = (  ( 6329 ),  ( 602 ),  ( 100 ),  ( 0 ) );
+      Room = 254;
+    }
+  }
+  Room 255 {
+    Mobile 297 {
+      Ptr = 189717352;
+      DamType = 'pierce';
+      HMVP = (  ( 6372 ),  ( 653 ),  ( 100 ),  ( 632 ) );
+      Room = 255;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+    Mobile 297 {
+      Ptr = 182997576;
+      DamType = 'slash';
+      HMVP = (  ( 5857 ),  ( 652 ),  ( 100 ),  ( 606 ) );
+      Room = 255;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+  }
+  Room 256 {
+    Mobile 298 {
+      Ptr = 190291376;
+      DamType = 'slash';
+      HMVP = (  ( 5565 ),  ( 580 ),  ( 100 ),  ( 0 ) );
+      Room = 256;
+      ExField = ( 'patrolVnum', 'int', -1, 297 );
+      ExField = ( 'enemyName', 'string', -1, 'Ogre' );
+      ExField = ( 'enemyGroup', 'int', -1, 2101 );
+    }
+    Mobile 298 {
+      Ptr = 187465136;
+      DamType = 'slash';
+      HMVP = (  ( 5533 ),  ( 656 ),  ( 100 ),  ( 0 ) );
+      Room = 256;
+      ExField = ( 'patrolVnum', 'int', -1, 297 );
+      ExField = ( 'enemyName', 'string', -1, 'Ogre' );
+      ExField = ( 'enemyGroup', 'int', -1, 2101 );
+    }
+  }
+  Room 257 {
+    Mobile 298 {
+      Ptr = 183002840;
+      DamType = 'pierce';
+      HMVP = (  ( 5865 ),  ( 653 ),  ( 100 ),  ( 0 ) );
+      Room = 257;
+      ExField = ( 'patrolVnum', 'int', -1, 297 );
+      ExField = ( 'enemyName', 'string', -1, 'Ogre' );
+      ExField = ( 'enemyGroup', 'int', -1, 2101 );
+    }
+    Mobile 296 {
+      Ptr = 183003424;
+      DamType = 'slash';
+      HMVP = (  ( 6295 ),  ( 653 ),  ( 100 ),  ( 0 ) );
+      Room = 257;
+    }
+  }
+  Room 258 {
+    Mobile 296 {
+      Ptr = 183001088;
+      DamType = 'pound';
+      HMVP = (  ( 5881 ),  ( 618 ),  ( 100 ),  ( 0 ) );
+      Room = 258;
+    }
+    Mobile 297 {
+      Ptr = 183001672;
+      DamType = 'pound';
+      HMVP = (  ( 6463 ),  ( 696 ),  ( 100 ),  ( 660 ) );
+      Room = 258;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+    Mobile 297 {
+      Ptr = 183002256;
+      DamType = 'pound';
+      HMVP = (  ( 6182 ),  ( 703 ),  ( 100 ),  ( 689 ) );
+      Room = 258;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+  }
+  Room 259 {
+    Mobile 297 {
+      Ptr = 190078384;
+      Fighting = 190290792;
+      DamType = 'pierce';
+      Position = 'standing';
+      HMVP = (  ( 5071, 6586 ),  ( 636 ),  ( 100 ),  ( 636 ) );
+      Room = 259;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+    Mobile 298 {
+      Ptr = 190290792;
+      Fighting = 190078384;
+      DamType = 'pierce';
+      Position = 'standing';
+      HMVP = (  ( 1766, 6303 ),  ( 629 ),  ( 100 ),  ( 0 ) );
+      Room = 259;
+      ExField = ( 'patrolVnum', 'int', -1, 297 );
+      ExField = ( 'enemyName', 'string', -1, 'Ogre' );
+      ExField = ( 'enemyGroup', 'int', -1, 2101 );
+    }
+    Obj 10 {
+      ShD = 'the corpse of an ogre';
+      Desc = 'The corpse of an ogre is lying here.';
+      Level = 100;
+      Values = ( 297, 2101377, 133119, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'a troll' );
+    }
+    Obj 13 {
+      ShD = 'the heart of an ogre';
+      Desc = 'The torn-out heart of an ogre is lying here.';
+      Timer = 4;
+    }
+    Obj 97 {
+      Timer = 1;
+    }
+    Obj 10 {
+      ShD = 'the corpse of an ogre';
+      Desc = 'The corpse of an ogre is lying here.';
+      Level = 100;
+      Values = ( 297, 2101377, 133111, 1, 8 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'a troll' );
+    }
+  }
+  Room 260 {
+    Mobile 297 {
+      Ptr = 190077800;
+      Fighting = 198506784;
+      DamType = 'pierce';
+      Position = 'standing';
+      HMVP = (  ( 5269, 6472 ),  ( 596 ),  ( 100 ),  ( 632 ) );
+      Room = 260;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+    Mobile 298 {
+      Ptr = 198506784;
+      Fighting = 190077800;
+      DamType = 'pound';
+      Position = 'standing';
+      HMVP = (  ( 1989, 5678 ),  ( 706 ),  ( 100 ),  ( 0 ) );
+      Room = 260;
+      Affect = ( 'ego whip', 96, 99, 0, ('nondispellable', 'ability'),
+            ( 'char', 'hitroll', 0, -2 ),
+            ( 'char', 'AC', 0, 50 ),
+            ( 'char', 'saving throw', 0, 2 ) );
+      Affect = ( 'neuro drain', 43, 98, 0, ('nondispellable', 'ability'),
+            ( 'char', 'strength', 0, -4 ) );
+      ExField = ( 'patrolVnum', 'int', -1, 297 );
+      ExField = ( 'enemyName', 'string', -1, 'Ogre' );
+      ExField = ( 'enemyGroup', 'int', -1, 2101 );
+    }
+    Obj 13 {
+      ShD = 'the heart of an ogre';
+      Desc = 'The torn-out heart of an ogre is lying here.';
+      Timer = 2;
+    }
+    Obj 10 {
+      ShD = 'the corpse of an ogre';
+      Desc = 'The corpse of an ogre is lying here.';
+      Level = 100;
+      Values = ( 297, 2101377, 133111, 1, 8 );
+      Timer = 4;
+      ExField = ( 'killer_name', 'string', -1, 'a troll' );
+    }
+  }
+  Room 261 {
+    Mobile 296 {
+      Ptr = 194355784;
+      DamType = 'pierce';
+      HMVP = (  ( 5983 ),  ( 656 ),  ( 100 ),  ( 0 ) );
+      Room = 261;
+    }
+    Mobile 297 {
+      Ptr = 193086024;
+      DamType = 'slash';
+      HMVP = (  ( 6061 ),  ( 642 ),  ( 100 ),  ( 643 ) );
+      Room = 261;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+  }
+  Room 262 {
+    Mobile 297 {
+      Ptr = 190077216;
+      Fighting = 183006352;
+      DamType = 'slash';
+      Position = 'standing';
+      HMVP = (  ( 3139, 5671 ),  ( 664, 679 ),  ( 100 ),  ( 665 ) );
+      Room = 262;
+      ExField = ( 'patrolVnum', 'int', -1, 294 );
+      ExField = ( 'enemyName', 'string', -1, 'Troll' );
+      ExField = ( 'enemyGroup', 'int', -1, 2100 );
+    }
+    Mobile 296 {
+      Ptr = 183006352;
+      Fighting = 190077216;
+      DamType = 'slash';
+      Position = 'standing';
+      HMVP = (  ( 4725, 6067 ),  ( 679 ),  ( 100 ),  ( 0 ) );
+      Room = 262;
+    }
+    Mobile 298 {
+      Ptr = 183012784;
+      Fighting = 190077216;
+      DamType = 'slash';
+      Position = 'standing';
+      HMVP = (  ( 340, 6056 ),  ( 625 ),  ( 100 ),  ( 0 ) );
+      Room = 262;
+      Affect = ( 'chill touch', 0, 98, 4, ('ability'),
+            ( 'char', 'strength', 0, -4 ) );
+      Affect = ( 'ego whip', 90, 95, 0, ('nondispellable', 'ability'),
+            ( 'char', 'hitroll', 0, -2 ),
+            ( 'char', 'AC', 0, 50 ),
+            ( 'char', 'saving throw', 0, 2 ) );
+      Affect = ( 'neuro drain', 40, 95, 0, ('nondispellable', 'ability'),
+            ( 'char', 'strength', 0, -4 ) );
+      ExField = ( 'patrolVnum', 'int', -1, 297 );
+      ExField = ( 'enemyName', 'string', -1, 'Ogre' );
+      ExField = ( 'enemyGroup', 'int', -1, 2101 );
+    }
+    Obj 16 {
+      ShD = 'the guts of an ogre';
+      Desc = 'A steaming pile of an ogre\'s entrails is lying here.';
+      Timer = 1;
+    }
+    Obj 10 {
+      ShD = 'the corpse of an ogre';
+      Desc = 'The corpse of an ogre is lying here.';
+      Level = 100;
+      Values = ( 297, 2101377, 133087, 1, 32 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'a troll' );
+    }
+    Obj 10 {
+      ShD = 'the corpse of an ogre';
+      Desc = 'The corpse of an ogre is lying here.';
+      Level = 100;
+      Values = ( 297, 2101377, 133119, 1, 0 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'a patrolman' );
+    }
+  }
+  Room 299 {
+    Mobile 299 {
+      Ptr = 190076632;
+      Desc = '';
+      DamType = 'slash';
+      HMVP = (  ( 21114 ),  ( 724 ),  ( 100 ),  ( 755 ) );
+      Silver = 64;
+      Room = 299;
+      ExField = ( 'test', 'list', -1, ((10,9,8),'tsekwa',('joel','loraine'),((1,2),3,(4,5)),( '<char>', 299, 299 )) );
+      ExField = ( 'test2', 'list', -1, (4,5,6) );
+      ExField = ( 'test3', 'list', -1, (5,6,7,8) );
+      ExField = ( 'y', 'int', -1, 7 );
+      Obj 294 {
+        WearLoc = 'floating';
+        ExField = ( 'number_position', 'int', -1, 2 );
+        ExField = ( 'position', 'int', -1, 0 );
+      }
+    }
+    Obj 294 {
+      WearFlags = ('none');
+      Timer = 1;
+      ExField = ( 'ballList', 'list', -1, (90,91,92,93,94,95,96) );
+      ExField = ( 'number_position', 'int', -1, 2 );
+      ExField = ( 'position', 'int', -1, 0 );
+    }
+    Obj 295 {
+    }
+    Obj 294 {
+      WearFlags = ('none');
+      Timer = 1;
+      ExField = ( 'ballList', 'list', -1, (90,91,92,93,94,95,96) );
+      ExField = ( 'number_position', 'int', -1, 2 );
+      ExField = ( 'position', 'int', -1, 0 );
+    }
+    Obj 294 {
+      WearFlags = ('none');
+      Timer = 5;
+      ExField = ( 'ballList', 'list', -1, (90,91,92,93,94,95,96) );
+      ExField = ( 'number_position', 'int', -1, 2 );
+      ExField = ( 'position', 'int', -1, 0 );
+    }
+    Obj 13 {
+      ShD = 'the heart of Loraine';
+      Desc = 'The torn-out heart of Loraine is lying here.';
+      Timer = 5;
+    }
+    Obj 294 {
+      WearFlags = ('none');
+      Timer = 8;
+      ExField = ( 'ballList', 'list', -1, (90,91,92,93,94,95,96) );
+      ExField = ( 'number_position', 'int', -1, 2 );
+      ExField = ( 'position', 'int', -1, 0 );
+    }
+    Obj 10 {
+      ShD = 'the corpse of Loraine';
+      Desc = 'The corpse of Loraine is lying here.';
+      Level = 110;
+      Values = ( 299, 2101377, 165879, 1, 8 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 4 {
+        ShD = '83 silver coins';
+        Weight = 2;
+        Cost = 83;
+        Values = ( 83, 0, 0, 0, 0 );
+      }
+    }
+  }
+}

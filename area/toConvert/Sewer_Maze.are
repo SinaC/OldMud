@@ -1,0 +1,1200 @@
+#Style Circle
+#AREADATA
+Name Sewer Maze~
+Builders Redferne~
+VNUMs 7200 7299
+Credits {{None}  CAW    Sewer Maze~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#7200
+mindflayer master mind~
+the master mindflayer~
+The master mindflayer is here, looking at you with an evil look.
+~
+   It is a seven foot tall humanoid dressed in a purple cloak, and swinging a
+black and purple rod above its head as if it was going to attack you any moment
+now.  In the middle of its head are four tentacles with sharp points.  
+~
+acdefglm dfk -800 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#7201
+mindflayer senior mind~
+the senior mindflayer~
+The senior mindflayer walks around here, looking for something useful.
+~
+   This is a horrifying monster indeed, 6'6" high.  Dressed in purple and black,
+and carrying a large mace in its hand.  In the center of its head are four large
+tentacles with very sharp points.  
+~
+acdegjklm dfk -600 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 0
+E
+#7202
+mindflayer junior mind~
+the junior mindflayer~
+The junior mindflayer is here, watching you carefully from the corner.
+~
+   This mindflayer is six feet high.  It has a small mace in its belt, and is
+dressed in purple and black cloth.  It has four small tentacles in the center of
+its head.  
+~
+acdeghlm dfk -350 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 0
+E
+#7203
+wererat rat~
+the ugly wererat~
+An ugly wererat is here, looking at you with a strange flick in his eyes.
+~
+   The wererat is about four feet tall.  It looks very much like rat, except
+that it is standing.  
+~
+cdgjkl k -700 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 0
+E
+#7204
+rat gigantic~
+the gigantic rat~
+There is a gigantic rat here, looking at you with a hungry look.
+~
+   The gigantic rat is about ten feet long from head to tail and has claws the
+size of your head, looking very nasty.  
+~
+bdf k -800 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#7200
+rod devil~
+the devil rod~
+The mysterious devil rod lies on the floor.~
+~
+5 gj an 0
+0 2 5 3
+6 160 80 0
+E
+devil rod~
+   This is indeed a mysterious rod.  It is dark black at the base but has four
+very sharp purple tentacles at the end.  
+~
+A
+18 3
+A
+1 -1
+#7201
+mace large~
+the large mace~
+A large mace lies here.~
+~
+5 g an 0
+0 1 6 7
+10 1000 400 0
+E
+large mace~
+   The mace is pretty large with a weight of 10 lbs.  The head is actually four
+purple tentacles tied together.  
+~
+A
+19 2
+#7202
+mace small~
+the small mace~
+A small mace has been left here.~
+~
+5 g an 0
+0 1 6 7
+6 600 200 0
+E
+small mace~
+   This weapon does look like it does a lot of damage, but then you never know.
+It consists of a black handle and a purple head.  
+~
+A
+19 1
+#7203
+cloak purple~
+a purple cloak~
+A purple cloak lies on the floor.~
+~
+11 g ac 0
+0 0 0 0
+20 500 60 0
+E
+cloak purple~
+   This is a very fine made cloak from an unknown material, in a nice purple
+color.  
+~
+A
+24 2
+A
+17 -10
+#7204
+potion blue neon~
+a neon blue potion~
+A neon blue potion stands on the floor.~
+~
+10 g a 0
+14 6 15 16
+4 100 1000 0
+E
+potion blue~
+   In the flask is a transparent electric blue liquid.  
+~
+#7205
+key black~
+a black key~
+A black key has been left on the floor.~
+~
+18 c ao 0
+0 0 0 0
+2 1 0 0
+E
+black key~
+   This little key is made from a black metal of unknown origin.  
+~
+#7206
+skull white~
+a strange white skull~
+A strange white skull lies on the floor looking at you.~
+~
+9 abh ae 0
+1 0 0 0
+30 1 250 0
+E
+writing text~
+   You read the number '666'.  
+~
+E
+white skull~
+   The skull has two small horns in the forehead.  You notice some writing on
+the inside.  
+~
+A
+2 -4
+#7207
+gauntlets muddy~
+a pair of muddy gauntlets~
+A pair of muddy gauntlets have been thrown away here.~
+~
+9 g ah 0
+6 0 0 0
+10 600 150 0
+E
+muddy gauntlets~
+   These gauntlets are muddy indeed, however they look very effective.  
+~
+A
+1 1
+#7208
+stick small~
+a small stick~
+A small stick lies here.~
+~
+1 0 ao 0
+0 0 -1 0
+4 200 200 0
+E
+letters letter~
+   They read: Hold me
+~
+E
+small stick~
+   The small stick does not look interesting at all.  But just as you are going
+to throw it away you notice some small letters.  
+~
+#7209
+boots muddy~
+a pair of muddy boots~
+A pair of muddy boots has been dropped here.~
+~
+9 g ag 0
+4 0 0 0
+10 75 500 0
+E
+boots muddy~
+   The boots are muddy and they look well worn, but also very comfortable.  
+~
+A
+14 15
+#7210
+treasure coins~
+a huge treasure~
+There is a huge treasure here, looking very valuable.~
+~
+20 0 a 0
+652 0 0 0
+5 652 0 0
+E
+treasure coins~
+   This looks like a whole lot of coins.  
+~
+#7211
+sword short~
+a short sword~
+A short sword is lying here.~
+~
+5 0 an 0
+0 2 3 3
+4 100 300 0
+E
+short sword~
+   This is a very nice little weapon.  
+~
+#0
+
+#ROOMS
+
+#7200
+The Treasury~
+   You are in a small but well equipped treasury.  You can see some writing
+on the wall.  The ceiling has a funny glow, which enables you to see.  You
+can get back into the inner lair through the stone door which is east.
+~
+72 cd 0
+D1
+You look back through the opening into the inner lair.
+~
+door stone~
+2 7205 7201
+E
+writing~
+   You read the number '666'.  
+~
+E
+door stone~
+   This is a heavy black stone door it looks very solid.  
+~
+S
+#7201
+The Inner Lair~
+   You are in a octagonal room with smooth purple stone walls.  The floor is 
+made from black stone.  In the western wall you see a large black stone door.
+~
+72 ad 0
+D2
+You look back through the door into the lair.
+~
+door wooden~
+1 -1 7202
+D3
+You see the treasury.
+~
+door stone~
+2 7205 7200
+S
+#7202
+The Lair~
+   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.  To
+the north is a wooden door.
+~
+72 d 1
+D0
+You can see the inner lair.
+~
+door wooden~
+1 -1 7201
+D1
+You see another part of the lair.
+~
+~
+0 -1 7205
+D2
+You see another part of the lair.
+~
+~
+0 -1 7203
+E
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.  
+~
+E
+slime~
+   The slime is slimy and uninteresting.  
+~
+E
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.  
+~
+S
+#7203
+The Lair~
+   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+~
+72 d 1
+D0
+You see another part of the lair.
+~
+~
+0 -1 7202
+D1
+You see another part of the lair.
+~
+~
+0 -1 7206
+D2
+You see another part of the lair.
+~
+~
+0 -1 7204
+E
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.  
+~
+E
+slime~
+   The slime is slimy and uninteresting.  
+~
+E
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.  
+~
+S
+#7204
+The Lair~
+   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+~
+72 d 1
+D0
+You see another part of the lair.
+~
+~
+0 -1 7203
+D1
+You see another part of the lair.
+~
+~
+0 -1 7207
+D2
+You see the lair entrance.
+~
+door wooden~
+1 -1 7208
+E
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.  
+~
+E
+slime~
+   The slime is slimy and uninteresting.  
+~
+E
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.  
+~
+S
+#7205
+The Lair~
+   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+~
+72 d 1
+D2
+You see another part of the lair.
+~
+~
+0 -1 7206
+D3
+You see another part of the lair.
+~
+~
+0 -1 7202
+E
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.  
+~
+E
+slime~
+   The slime is slimy and uninteresting.  
+~
+E
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.  
+~
+S
+#7206
+The Lair~
+   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+~
+72 cd 1
+D0
+You see another part of the lair.
+~
+~
+0 -1 7205
+D2
+You see another part of the lair.
+~
+~
+0 -1 7207
+D3
+You see another part of the lair.
+~
+~
+0 -1 7203
+E
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.  
+~
+E
+slime~
+   The slime is slimy and uninteresting.  
+~
+E
+bones decay~
+   All the bones are broken and old.  
+~
+S
+#7207
+The Lair~
+   On the floor you see a lot of human decay, like bones and skulls.  You
+also see a lot of slime.  On the wall is a torch sitting in its sconce.
+~
+72 d 1
+D0
+You see another part of the lair.
+~
+~
+0 -1 7206
+D3
+You see another part of the lair.
+~
+~
+1 -1 7204
+E
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.  
+~
+E
+slime~
+   The slime is slimy and uninteresting.  
+~
+E
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.  
+~
+S
+#7208
+The Lair Entrance~
+   You are in a dry part of the sewer.  To the north is a wooden door,
+you can see some slime at the lower part of the door.  You also see
+some skulls and some broken bones.
+~
+72 acd 2
+D0
+You can see the lair.
+~
+door wooden~
+1 -1 7204
+D1
+You see a crawlway.
+~
+~
+0 -1 7209
+E
+slime~
+   The slime is slimy and uninteresting.  
+~
+S
+#7209
+The Crawlway~
+   You are in a narrow crawlway.  It is rather boring here.
+~
+72 ad 3
+D1
+You see a four-way junction.
+~
+~
+0 -1 7210
+D3
+You see the entrance to a lair.
+~
+~
+0 -1 7208
+S
+#7210
+The Four-Way Junction~
+   You are in a sewer junction.  To the north is a small hole, to the west
+is a narrow crawlway and to the east and south the sewer continues.
+~
+72 ad 3
+D0
+You can see a small cave-like room.
+~
+~
+0 -1 7211
+D1
+You can see a sewer drain.
+~
+~
+0 -1 7212
+D2
+You can see a sewer drain.
+~
+~
+0 -1 7215
+D3
+You can see a narrow crawlway.
+~
+~
+0 -1 7209
+S
+#7211
+The Small Cave~
+   You are in a collapsed sewer drain, which now is more like a small cave.
+~
+72 ad 3
+D2
+You look back into the four-way junction.
+~
+~
+0 -1 7210
+S
+#7212
+The Sewer Drain~
+   You are in a dry sewer drain which bends to the north.
+~
+72 ad 3
+D0
+You can see the drain continuing north.
+~
+~
+0 -1 7213
+D3
+You can see the four-way junction.
+~
+~
+0 -1 7210
+S
+#7213
+The Sewer Drain~
+   You are in a dry sewer drain which bends to the east.
+~
+72 ad 3
+D1
+You can see the drain continuing east.
+~
+~
+0 -1 7214
+D2
+You can see the drain continuing south.
+~
+~
+0 -1 7212
+S
+#7214
+The End Of The Drain~
+   You are at the end of the drain around you the sewer has collapsed, the
+only exit is west.
+~
+72 ad 3
+D3
+You see the sewer drain.
+~
+~
+0 -1 7213
+S
+#7215
+The Half-Wet Drain~
+   You are in a sewer drain where the floor is covered with water.  To
+the north it looks more dry, south however the drain runs down into
+some water.
+~
+72 ad 4
+D0
+To the north lies a dry four-way junction.
+~
+~
+0 -1 7210
+D2
+To the south you see a sewer drain filled with water.
+~
+~
+0 -1 7216
+E
+water~
+   The water is dirty but it looks like you would be able to swim in it.  
+~
+S
+#7216
+Under Water In The Sewer~
+   You are swimming in some dirty water and are holding your breath.  You'd
+better continue onwards before you drown.  It is a good thing that you can
+hold your light above the water-level.
+~
+72 ad 6
+D0
+It is hard to see, but it looks like the drain runs slightly upwards.
+~
+~
+0 -1 7215
+D2
+It is hard to see, but it looks like the drain runs a little bit upwards.
+~
+~
+0 -1 7217
+S
+#7217
+The Half-Dry Drain~
+   You are in a half-dry sewer drain.  To the north the drain runs a little
+bit downwards into some water to the east you can see a small hole.  To the
+west you see another drain.
+~
+72 ad 4
+D0
+You see the drain running down into some water.
+~
+~
+0 -1 7216
+D1
+Through the hole you can just make out a very small room.
+~
+~
+0 -1 7218
+D3
+You see a drain running to the west.
+~
+~
+0 -1 7219
+E
+hole~
+   Through the hole you can just make out a very small room.  
+~
+E
+water~
+   The water is dirty but it looks like you would be able to swim in it.  
+~
+S
+#7218
+The Very Small Room~
+   You are in a very small room, it is pretty uninteresting.
+~
+72 ad 3
+D3
+Through the little hole you can see a half-dry drain.
+~
+~
+0 -1 7217
+S
+#7219
+A Dry Sewer Drain~
+   You are in a dry but dirty sewer drain.  The drain continues east and
+south.
+~
+72 ad 3
+D1
+You see a half-dry drain.
+~
+~
+0 -1 7217
+D2
+You see another boring sewer drain.
+~
+~
+0 -1 7220
+S
+#7220
+A Boring Drain~
+   You are in yet another sewer drain.
+~
+72 ad 3
+D0
+You see a sewer drain continuing to the north.
+~
+~
+0 -1 7219
+D1
+You can see another drain to the east.
+~
+~
+0 -1 7221
+S
+#7221
+The Sewer Drain~
+   You are in a sewer drain, there is nothing special in here, except for a 
+loud echo.
+~
+72 ad 3
+D1
+You can see another sewer drain.
+~
+~
+0 -1 7222
+D3
+You can make out a sewer drain to the west.
+~
+~
+0 -1 7220
+D4
+You can see a sewer line.
+~
+~
+0 -1 7129
+S
+#7222
+The Sewer Drain~
+   You are in a drain, with some slimy water on the floor.
+~
+72 ad 3
+D1
+You see a sewer bend.
+~
+~
+0 -1 7223
+D3
+You see a sewer drain.
+~
+~
+0 -1 7221
+E
+slimy water~
+   The water floats to the east from here.  
+~
+S
+#7223
+The Sewer Bend~
+   You find yourself in an ordinary sewer bend, which bends from west to
+north.
+~
+72 ad 3
+D0
+You see a sewer drain.
+~
+~
+0 -1 7224
+D3
+You see a sewer drain.
+~
+~
+0 -1 7222
+S
+#7224
+The Sewer Junction~
+   You stand in a junction of three sewer drains.  You see some odd
+scratches on the pipe wall, as if from a gigantic rat.  North and
+south the sewer continues as usual, but west it looks a little
+strange.
+~
+72 ad 3
+D0
+You see nothing but a sewer drain.
+~
+~
+0 -1 7225
+D2
+You see nothing but a sewer drain.
+~
+~
+0 -1 7223
+D3
+You see a strange sewer pipe.
+~
+~
+0 -1 7229
+S
+#7225
+The Sewer~
+   You are in a sewer, where the slimy water runs down through a tiny hole.
+You see some odd scratches on the pipe wall, as from a gigantic rat.  There 
+is a sewer drain south.
+~
+72 ad 3
+D2
+You see a sewer drain.
+~
+~
+0 -1 7224
+S
+#7229
+The Strange Sewer~
+   You are in a very strange sewer indeed, there are some odd scratches on
+the pipe wall, as from a gigantic rat.  And you can see a lot of organic
+decay like bones from animals AND humans.  West the drain runs slightly
+upwards.
+~
+72 ad 3
+D1
+You see a sewer junction.
+~
+~
+0 -1 7224
+D3
+You see a slimy sewer drain.
+~
+~
+0 -1 7230
+S
+#7230
+The Damp Sewer~
+   You are in a sewer drain with a funny damp substance on the floor, in the 
+substance you see a lot of decay.  You see some odd scratches on the wall,
+as if from a gigantic rat.  Both to the east and west the pipe seems to run
+down.
+~
+72 acd 3
+D1
+You see a sewer.
+~
+~
+0 -1 7229
+D3
+You see a sewer.
+~
+~
+0 -1 7231
+S
+#7231
+The Strange Sewer~
+   You are in an ordinary sewer except for a lot of scratches on the sewer
+wall, and a lot of debris on the floor.
+~
+72 ad 3
+D1
+You see a sewer.
+~
+~
+0 -1 7230
+D3
+You see another sewer.
+~
+~
+0 -1 7232
+E
+debris~
+   You see a lot of organic decay on the floor.  
+~
+S
+#7232
+The Sewer~
+   You are in a sewer with more scratches on the walls.  And of course a whole
+lot of decay.  The drain runs east and north.
+~
+72 ad 3
+D0
+You see yet another sewer line.
+~
+~
+0 -1 7233
+D1
+You see a sewer pipe.
+~
+~
+0 -1 7231
+S
+#7233
+The Sewer Drain~
+   You stand in a sewer drain, you are able to see some kind of cave-like
+room.  You see some odd scratches on the drain wall, as if from a gigantic
+rat.  The sewer leads south.
+~
+72 ad 3
+D1
+You see a cave-like room.
+~
+~
+0 -1 7234
+D2
+You see a sewer.
+~
+~
+0 -1 7232
+S
+#7234
+The Rat's Lair~
+   You are in a little cave.  You are able to see quite a lot of debris on
+the floor.  There is a sewer drain west of here.
+~
+72 ad 3
+D3
+You see the sewer system that way.
+~
+~
+0 -1 7233
+S
+#7279
+The Wall Of The Abyss~
+   You hang onto some steps leading down into utter darkness.  There is an
+exit leading up as well, though you'll have to open the tiny rock again to
+do so.
+~
+72 ad 5
+D4
+~
+rock~
+1 -1 7111
+D5
+~
+~
+0 -1 7299
+S
+#7280
+The Entrance~
+   You are in a very dark room.  You notice that some faces are staring at
+you from inside the walls.  In the middle of the room there is a small altar.
+To the north there is a small round door.
+~
+72 ad 1
+D0
+A beam of red light seeps through a hole in the door.
+~
+door small round~
+1 -1 7281
+D4
+~
+altar secret~
+1 -1 7116
+E
+triangle~
+   The triangle is filled with small symbols.  They seem to be a language you
+have never seen before.  
+~
+E
+altar~
+   This altar is very special.  Faces appear to be smiling from it.  There is a
+triangle engraved in the top of it.  
+~
+S
+#7281
+The Corridor~
+   The corridor is glowing oppressively in a red hue.  You can hear wailing
+through an open black hole to the east.  To the south there is a round door.
+~
+72 d 1
+D1
+The hole seems more black than the night.  It is appears to be "eating" the
+red light around it.
+~
+~
+0 -1 7282
+D2
+~
+door small round~
+1 -1 7280
+E
+walls~
+   The walls look alive.  
+~
+E
+red light~
+   The red light glows from the walls.  
+~
+E
+small round door~
+   The door is completely round without a keyhole.  
+~
+S
+#7282
+The Realm Of Lost Souls~
+   You are standing in nothing.  All around you there are stars.
+Sometimes a shadow flies closely by you, wailing very loudly.  To
+the north there is a small bright hole.  To the west there is a
+small red hole.
+~
+72 d 0
+D0
+You look into a very bright hole.
+~
+~
+0 -1 7283
+D3
+You look into a red hole.
+~
+~
+0 -1 7281
+E
+shadow~
+   The shadow looks like a man in great pain.  
+~
+S
+#7283
+The T-Crossing~
+   You are in a small hallway.  There are doors to the east and to
+the west.  To the south there are a black hole.  There is writing
+in the wall.  Wails can be heard from the south.
+~
+72 acd 1
+D1
+It is too dark to tell.
+~
+~
+0 -1 7286
+D2
+A black hole in the wall.
+~
+~
+0 -1 7282
+D3
+You can see a big fire to the west.  It looks like a unhealthy
+place to enter!
+~
+~
+0 -1 7284
+E
+writing~
+   The writing says 'The one to the east, belongs to the beast.  To the west you
+will surely END your quest!  '.  
+~
+S
+#7284
+The Firedeath~
+   This room is very hot.  There are flames surrounding you.  You can
+see no exits at all!  Skeletons are lying all over the floor.
+~
+72 cd 1
+E
+writing wall~
+   The writing says 'A prayer to the GODS will not be heard, though the only
+exit is death...  Mother, I love you'.  
+~
+E
+skeletons~
+   The skeletons looks like they had suffered the death of hunger.  One of them
+looks like he has written something at the wall.  
+~
+S
+#7285
+The Torture Room~
+   You are standing in a middle of a square room.  Along the walls skeletons 
+are hanging in rusty chains.  In the middle of the room there is a big metal 
+box, covered with dust.  To the south you can just make out a small exit.
+~
+72 d 1
+D2
+It is too dark to tell.
+~
+door iron~
+1 -1 7286
+E
+big metal box~
+   The metal box is covered with dust.  You notice that it was once filled with
+coal, as you see some small pieces of it.  
+~
+E
+skeletons~
+   When you look at the skeletons, you can see that they once had been in great
+pain.  They are hanging in their arms, and some of them were killed with a sharp
+instrument.  
+~
+S
+#7286
+The Hell Yard~
+   You are standing in a lot of mud.  A disgusting smell surrounds
+the place, and makes you feel sick.  Small flames sometimes shoot
+up from the hot mud.  To the west there is a small door.  To the 
+north you can see an iron door.
+~
+72 cd 5
+D0
+It is too dark to tell.
+~
+door iron~
+1 -1 7285
+D3
+It is too dark to tell.
+~
+~
+0 -1 7283
+S
+#7299
+On The Walls Of The Abyss~
+   You are clutching the steps on the wall so that you don't fall to the
+ground down below.  You cannot see anymore handholds below you and thus
+this stops your journey down, as the only exit is up.
+~
+72 ad 5
+D4
+~
+~
+0 -1 7279
+S
+#0
+
+#RESETS
+O 1 7204 6 7200 	(a neon blue potion)
+O 1 7210 1 7200 	(a huge treasure)
+D 0 7200 1 2 	(The Treasury)
+M 0 7200 1 7201 	(the master mindflayer)
+E 1 7200 1 16 	(the devil rod)
+E 1 7203 1 3 	(a purple cloak)
+G 1 7205 1 -1 	(a black key)
+M 0 7201 1 7203 	(the senior mindflayer)
+E 1 7201 4 16 	(the large mace)
+M 0 7202 2 7205 	(the junior mindflayer)
+E 1 7202 8 16 	(the small mace)
+M 0 7202 2 7207 	(the junior mindflayer)
+E 1 7202 8 16 	(the small mace)
+M 0 7203 10 7214 	(the ugly wererat)
+E 1 7211 16 16 	(a short sword)
+M 0 7203 10 7213 	(the ugly wererat)
+E 1 7211 16 16 	(a short sword)
+M 0 7203 10 7215 	(the ugly wererat)
+E 1 7211 16 16 	(a short sword)
+M 0 7203 10 7217 	(the ugly wererat)
+E 1 7211 16 16 	(a short sword)
+M 0 7203 10 7219 	(the ugly wererat)
+M 0 7203 10 7221 	(the ugly wererat)
+M 0 7203 10 7223 	(the ugly wererat)
+M 0 7203 10 7225 	(the ugly wererat)
+M 0 7203 10 7233 	(the ugly wererat)
+M 0 7203 10 7233 	(the ugly wererat)
+M 0 7204 1 7234 	(the gigantic rat)
+M 0 7002 5 7285 	(the sewer rat)
+M 0 7002 5 7285 	(the sewer rat)
+E 1 7190 2 2 	(a glinting silver ring)
+E 1 7209 4 8 	(a pair of muddy boots)
+G 1 7208 20 -1 	(a small stick)
+M 0 7002 5 7285 	(the sewer rat)
+M 0 7000 8 7286 	(the horrifying Mudmonster)
+M 0 7000 8 7286 	(the horrifying Mudmonster)
+M 0 7000 8 7281 	(the horrifying Mudmonster)
+M 0 7000 8 7281 	(the horrifying Mudmonster)
+M 0 7000 8 7280 	(the horrifying Mudmonster)
+R 0 7206 7206 -1 	(a strange white skull)
+O 0 7206 4 7206 	(a strange white skull)
+R 0 7211 7208 -1 	(a small stick)
+O 0 7208 20 7211 	(a small stick)
+D 0 7201 3 2 	(The Inner Lair)
+D 0 7202 0 1 	(The Lair)
+D 0 7201 2 1 	(The Inner Lair)
+D 0 7208 0 1 	(The Lair Entrance)
+D 0 7204 2 1 	(The Lair)
+D 0 7281 2 1 	(The Corridor)
+D 0 7280 0 1 	(The Entrance)
+D 0 7286 0 1 	(The Hell Yard)
+D 0 7285 2 1 	(The Torture Room)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

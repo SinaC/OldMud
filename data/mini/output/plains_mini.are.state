@@ -1,0 +1,207 @@
+AreaState 'Plains' {
+  Room 300 {
+    Repop = 1;
+  }
+  Room 301 {
+    Repop = 1;
+  }
+  Room 302 {
+    Repop = 1;
+  }
+  Room 303 {
+    Repop = 1;
+  }
+  Room 304 {
+    Repop = 1;
+  }
+  Room 305 {
+    Repop = 1;
+  }
+  Room 306 {
+    Repop = 1;
+  }
+  Room 307 {
+    Repop = 1;
+  }
+  Room 308 {
+    Repop = 1;
+  }
+  Room 309 {
+    Repop = 1;
+  }
+  Room 310 {
+    Repop = 1;
+  }
+  Room 311 {
+    Repop = 1;
+  }
+  Room 312 {
+    Repop = 1;
+  }
+  Room 313 {
+    Repop = 1;
+  }
+  Room 314 {
+    Repop = 1;
+  }
+  Room 315 {
+    Repop = 1;
+  }
+  Room 316 {
+    Repop = 1;
+    Obj 304 {
+    }
+  }
+  Room 317 {
+    Repop = 1;
+  }
+  Room 318 {
+    Repop = 1;
+    Mobile 309 {
+      Ptr = 174922016;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 16 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 318;
+    }
+  }
+  Room 319 {
+    Repop = 1;
+    Obj 301 {
+    }
+  }
+  Room 320 {
+    Repop = 1;
+  }
+  Room 321 {
+    Repop = 1;
+  }
+  Room 322 {
+    Repop = 1;
+  }
+  Room 323 {
+    Repop = 1;
+    Mobile 300 {
+      Ptr = 174921432;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 180 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 25;
+      Room = 323;
+      Obj 308 {
+        WearLoc = 'hold';
+      }
+      Obj 307 {
+        WearLoc = 'neck1';
+      }
+      Obj 312 {
+      }
+      Obj 302 {
+      }
+    }
+    Obj 304 {
+    }
+  }
+  Room 324 {
+    Repop = 1;
+    Mobile 309 {
+      Ptr = 174920848;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 22 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 324;
+    }
+  }
+  Room 325 {
+    Repop = 1;
+  }
+  Room 326 {
+    Repop = 1;
+  }
+  Room 327 {
+    Repop = 1;
+    Obj 300 {
+    }
+  }
+  Room 330 {
+    Repop = 1;
+  }
+  Room 331 {
+    Repop = 1;
+    Mobile 301 {
+      Ptr = 174920264;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 52 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Room = 331;
+      Obj 303 {
+      }
+    }
+    Obj 309 {
+    }
+  }
+  Room 332 {
+    Repop = 1;
+  }
+  Room 333 {
+    Repop = 1;
+  }
+  Room 334 {
+    Repop = 1;
+    Mobile 309 {
+      Ptr = 174919680;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 17 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 334;
+    }
+  }
+  Room 335 {
+    Repop = 1;
+  }
+  Room 336 {
+    Repop = 1;
+  }
+  Room 337 {
+    Repop = 1;
+  }
+  Room 338 {
+    Repop = 1;
+    Obj 304 {
+    }
+  }
+  Room 339 {
+    Repop = 1;
+  }
+  Room 340 {
+    Repop = 1;
+  }
+  Room 341 {
+    Repop = 1;
+  }
+  Room 342 {
+    Repop = 1;
+  }
+  Room 343 {
+    Repop = 1;
+  }
+  Room 344 {
+    Repop = 1;
+    Mobile 305 {
+      Ptr = 169762224;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 533 ),  ( 153 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 588;
+      Room = 344;
+      Obj 310 {
+      }
+      Obj 311 {
+      }
+    }
+  }
+  Room 345 {
+    Repop = 1;
+  }
+}

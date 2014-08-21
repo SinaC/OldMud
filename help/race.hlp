@@ -1,0 +1,684 @@
+#HELPS
+-1 'REBIRTH RACE'~
+When you have done something your god doesn't approved. He or She could
+banish and transform you into an undead.
+Or if your current alignment is not accepted by your god and you die. 
+He or She could decide to not ressucitate you and transform you into
+an undead.
+{cAvailable races for rebirth{x:
+   ghost          spectre         wight
+   death-knight   ghoul           banshee
+   skeleton       zombie          lich
+~
+
+-1 'REMORT RACE'~
+{R!!!!This is different from multiclassing!!!!{x
+Only a god can set your race to a remort race, it's a great honour/dishonour. 
+It could also be set for very good RP reason(s).
+{cAvailable races for remort{x:
+   seraphim       succubus        pit-fiend      dracolich
+   holy-dragon    faerie-dragon  black-dragon    doppleganger
+   mongrelman     gargoyle       crystal-dragon  silver-dragon
+   titan          archangel      naga
+~
+
+-1 RACE_SYLVAN-ELF~
+Sylvan Elves are slightly taller than humans, but have a much lighter build.
+They lack the strength and stamina of the other races, but are for more
+agile, both in body and mind. Sylvan Elves are superb mages and thieves,
+but have at best fair talent as warriors or priests. Sylvan elves live
+mostly in the forests, and they are extremely adept in their ways. Their
+hair tends towards greens and browns, while their eyes are almost always
+green.
+~
+
+-1 RACE_HIGH-ELF~
+The standard breed of elf, they are the most common, as well as the ones
+usually on the front lines of the wars between elves and drow. They are
+bright, and dextrous, and generally have blonde hair and blue eyes.
+~
+
+-1 RACE_GREY-ELF~
+The smartest of all the elves, and also the weakest, they are potent
+magically beyond the scope of all other elves save drow. They also make
+good thieves, but aren't as quick as their brethren. Grey elves tend to dress
+in dull colors, and are usually dark haired. Their infravision frequently
+makes their eyes take on a reddish glint.
+~
+
+-1 RACE_HALF-ELF~
+Stockier than all others with elven blood, and slightly shorter than the
+usual elf, Half-elves are beautiful as elves, with a slightly more human
+look. Unfortunately, they must deal with prejudice from humans and elves
+both, but the ones that manage to get through those ordeals are definitely
+stronger for it. They come in virtually all hair colors and eye colors,
+and even varying skin colors.
+~
+
+-1 RACE_SEA-ELF~
+Also calls aquatic elves, sea elves reside in or near oceans, lagoons,
+inlets, bays, and other bodies of salt water.  They are often encountered in
+the company of dolphins or other aquatic mammals.  Their skin color varies
+from silver-green to pale blue, with green or blue-green hair.  Sea elves can
+live underwater, breathing through gills, or above it, breathing normally.
+~
+
+-1 RACE_HUMAN~
+Humans are the most common race in the world, and make up the majority of
+adventurers. Although they have no special talents like the other races,
+they are more versatile, being skilled in all classes. Humans may
+also train their primary stat higher than any other race, and are able to
+gain more benefit from magical devices.
+~
+
+-1 RACE_MOUNTAIN-DWARF~
+Mountain dwarves are short, stocky demi-humans, known for foul temper and
+great stamina.  They have high strength and constitution, but poor dexterity.
+They are not as smart as humans, but are usually wiser due to their long
+lifespans.  Mountain dwarves are normally about 4 and a half feet tall and
+weigh about 170 pounds.  Their skin tends to have a reddish tint, and their
+hair is light.  Many mountain dwarves prefer to avoid contact with outsiders.
+~
+
+-1 RACE_HILL-DWARF~
+Hill dwarves are short, stocky demi-humans, known for foul temper and great
+stamina.  They have high strength and constitution, but poor dexterity.
+They are not as smart as humans, but are usually wiser due to their long
+lifespans.  Hill dwarves are normally about 4 feet tall and weigh 150 pounds.
+They are the most common variety of dwarf.
+~
+
+-1 RACE_DUERGAR~
+Duergar lost the Great Dwarven War centuries ago, and, along with the Drow,
+were forced to live deep in the Underdark, the bowels of the earth. They
+have become immune to the poisons their cousins resist, and masters of
+using that poison to harm others. Duergar have dark grey skin, and their
+infravision causes their eyes to glow a lambent green or purple. Like all
+dwarves, they are master smiths.
+~
+
+-1 RACE_STORM-GIANT~
+Huge powerful, and extraordinarily massive, they wield the power of the
+storm, capable of throwing bolts of lightning at their opponents, and
+willing to smite evil where they find it. They look much like humans...giant
+humans, standing at 20 to 25 feet in height.
+~
+
+-1 RACE_CLOUD-GIANT~
+Living among the clouds, and standing 18-20 feet tall, they have few
+natural predators, being peaceful themselves.  This leads to few conflicts
+between them and others.  They fly naturally, and frequently follow magical
+or scholarly pursuits.  They are white of skin and hair, usually going with
+pale greys and blues for eyes.
+~
+
+-1 RACE_FIRE-GIANT~
+Fire Giants are up to 18 feet tall, and extremely powerful. Due to their
+immense size, they need to eat almost double what human-sized beings do.
+However, their huge size gives them leverage and power. They are strongly
+resistant to fire, as they use, wield, and live within it. Their hair is
+almost always soot black, and their skin a deep pink to near red.
+~
+
+-1 RACE_FROST-GIANT~
+Frost Giants are up to 18 feet tall, and extremely powerful. Due to their
+immense size, they need to eat almost double what human-sized beings do.
+However, their huge size gives them leverage and power. They are strongly
+resistant to cold, as they use, wield, and live within it. Their hair is
+almost always white, and their skin a deep cyan to near blue.
+~
+
+-1 RACE_HILL-GIANT~
+Huge, though not nearly as large as their larger cousins, they stand around
+13-14 feet tall, and often weigh over three tons. They frequently wear skins
+of animals they catch and kill, and have miserable personal hygiene. They
+are light skinned, and dark haired, and wield clubs of wood, and bone.
+~
+
+-1 RACE_HALF-GIANT~
+Half-giant, half-human, it's amazing such a union is possible...you can only
+hope that the female was the giant. Half-giants are smarter than hill
+giants, as well as more couth, and are used by many human cities as guards
+and enforcers. They come in all the colors and shapes humans do, just being
+significantly larger, standing 10-12 feet in height.
+~
+
+-1 RACE_FOREST-GNOME~
+Less common than rock-gnomes, forest-gnomes often make their homes above
+ground.  They live in log cabins in the woods, though will occasionaly
+venture into cities.  They wear their dark brown or black hair long, with
+long beards to match.  Their skin varies from greenish to tan, and their
+eyes are either blue or brown.
+~
+
+-1 RACE_ROCK-GNOME~
+Rock gnomes are the most common gnomes, and can be encountered almost
+anywhere.  Rock gnomes have the largest noses of any gnomes.  They stand about
+three and a half feet tall and weigh around 70 pounds.  They have white or
+gray hair and blue, green, or brown eyes.  Rock gnomes are known for their
+interest in gems, especially large diamonds.
+~
+
+-1 RACE_SVIRFNEBLIN~
+Svirfneblin, or deep gnomes, are believed by many to be the gnome counterpart
+to deep dwarves and dark elves.  However, this is untrue in that they are
+no more likely to be evil then surface-dwelling gnomes.  Svirfneblin tend to
+be smaller then surface gnomes.  Males are often bald, while females have
+stringy gray hair.
+~
+
+-1 RACE_DROW~
+Drow are the most feared of all the elves. They live underground in great 
+citys and practice the dark side of magic and combat. Drow are very magical 
+in nature and thus tend to be very intelligence, but do to their weak 
+constitution they are vulnurable to disease. Since the drow spend most of 
+their live beneath the surface they are very vulnerable to bright lights,
+so much that a candle hurts their eyes and the sun can almost blind them, 
+because of this only a few drow that are able to withstand the burning rays 
+of the sun chose to venture to the surface world.
+~
+
+-1 RACE_NEKOJIN~
+Nekojins look like human with a short brown fur and a splendid gilten mane.
+They have also long sharpened claws, so they make a lot of damage in unarmed
+combats. Then, they are excellent monks and priests, and are good in any other
+classes. 
+
+They cannot swim and so are very vulnerable to drowning. They are also
+vulnerable to magic and fire. They see in the dark like cats and are 
+affected by haste. They are more wise, nimble and smart than human and 
+have the same strength and constitution. They receive sneak for free .
+~
+
+-1 RACE_TROLL~
+Long hidden within the sanctity of their mountain caves, a race known in the
+past only as a myth, lies the civilization of the trolls.  Built with the
+undying stamina of the mountains they reside in, these green skinned beasts
+often grow to obtain a state of health few other races believed possible.
+Hindered by their slow intellect and mobility, the troll society seems to
+have decided as a whole to rejoin the races of the realms, moving out of
+their sanctuaries in numbers reaching high into the thousands
+~
+
+-1 RACE_LIZARDMAN~
+Lizardmen are reptilian humanoids.  They tend to make good barbarians.  They
+stand six to seven feet in height.  Their hides are covered with scales
+ranging in color from dark green to brown.  They have powerful claws and
+tails, and are excellent swimmers.
+~
+
+-1 RACE_MINOTAUR~
+Large creatures, with the head of a bull and the body of a human.
+Minotaurs are known in myth as being residents of labyrinths, but may be
+found anywhere.  They are covered with brown or black fur.  Minotaurs are
+known for their skill in combat, especially while wielding an axe.
+~
+
+-1 RACE_CENTAUR~
+Centaurs are woodland beings who shun the company of men.  They dwell in
+remote, secluded glades and pastures.  The appearance of a centaur is
+unmistakable: they have the upper torso, arms, and head of a human being,
+and the lower body of a large, powerful horse.
+~
+
+-1 RACE_AVARIEL~
+Also known as winged-elves, avariels are at home both in the air and on
+the land.  They are generally not as strong as other elves, but are among the
+most wise, intelligent, and dextrous of all elves.  Their feathered wings
+do make them vulnerable to fire.
+~
+
+-1 RACE_HOBGOBLIN~
+Larger than their goblin cousins, but still one of the smaller of the
+goblinoid races, they are roughly the size of humans, and roughly equivalent
+to humans, both mentally and physically, though they are much more sturdy.
+Hobgoblins resemble their cousins, they are greyish to greenish of skin,
+reddish eyed, and sort of scaly. One might even say they are ugly.
+~
+
+-1 RACE_GOBLIN~
+Very sturdy, very quick, and not terribly slow witted, goblins are renowned
+for breeding faster than rabbits, obeying the words of anyone who can kick
+them around, and betraying and robbing anyone at all. They are completely
+untrustworthy, and dangerous in large groups.
+~
+
+-1 RACE_ORC~
+They stand roughly 6' in height, and average around 240 pounds in weight,
+they are much stronger than humans, and far tougher. They make superb
+barbarians, and warriors, and excellent thieves and assassins. Their skin
+is a greenish to grey, and they aren't quite as smart as goblins, or
+hobgoblins, however, they dominate the lesser goblinoids through their
+vastly superior toughness and size.
+~
+
+-1 RACE_OGRE~
+Huge, 12 foot giants, they are big, strong, and dumb. They smell bad, and
+they have bad tempers. In short, they are good warriors, and barbarians, and
+useless for anything else. They are covered in short-hair almost like fur,
+and a tough hide, thats greyish.
+~
+
+-1 RACE_SHADE~
+Shadowy, undead creatures, shades have the ability to pass through doors
+and fade out of existence.  They have no substantial form of any kind,
+existing only in the borders of the real world.  Like all undead, shades do
+not require food or drink to survive.
+~
+
+-1 RACE_URUK-HAI~
+Greater Orcs, combinations of selective breeding, and the testing of
+Demi-Gods, they are far larger than the standard Orc, standing over 6 and a
+half feet tall, and weighing 300 pounds of solid muscle, on average. They
+are deadly fighters, fantastic assassins, and potent barbarians, not to
+mention powerful clerics. They are the cream of the goblinoid races, being
+highly dangerous, and also intelligent.
+~
+
+-1 RACE_QUICKLING~
+Quicklings are a freakish outcast of the faerie Folk and are treated as mutants 
+by all faeries due to their strange ability to move at an exaggerated rate. No 
+one knows how quicklings came to existence. Their small size still limits them 
+in combat. However, their natural speed enables them to attack more often than 
+other races. Quicklings have the use of the ability speedup to become faster.
+~
+
+-1 RACE_SPRITE~
+Sprites are a member of the Faerie Folk, and are only about 1-2 feet tall.
+Sprites are able to fly and their natural state is invisible. They are excellent
+users of magic but due to their small size are challenged in physical combat.
+Sprites despise poison of any type and thus make poor thieves. 
+Sprites have the use of the ability invisible to become invisible as they wish.
+~
+
+-1 RACE_HALFLING~
+Halflings are relatives of Dwarves. They are a short, agile folk who love
+nothing better then to sit in front of a warm hearth in their warrens. Mind
+you, this does not make them lazy, they are in fact hard working and take
+quite well to the adventuring life. They can be very sneaky and quick
+fingered when the need arises and thus make good thieves. Due to their
+closeness in relation to Dwarves they have trouble with magic much like the
+dwarves do. Halflings, with their keen eyesight, can often detect hidden
+things quite easily.
+~
+
+-1 RACE_RATLING~
+Ratlings are enormous rat-like creatures standing just over 5 feet tall that 
+walk on their hind legs with intelligence nearly equal to that of humans. 
+Ratlings have good natural strength but have not quite yet mastered the use of 
+their upper limbs and thus have low dexterity. Ratlings are most comfortable in 
+the wild and are highly resistant to diseases and poisons and are able to 
+forage for food, but their weak bone structure makes them vulnerable to bash 
+type damage. 
+~
+
+-1 RACE_MERFOLK~
+It is rumoured merfolks used to be humans that, after many generations
+inhabiting underground lakes and caverns, evolved into fish-like warriors 
+of the underworld. Merfolks have a bluish skin and large gills on the side of 
+their torso making them completely at home in underwater environments, so much 
+so that Merfolks will actually heal faster when submerged. Merfolks have no 
+need for a boat to cross lakes and oceans. Merfolks have a natural resistance 
+to cold, which allows them to survive in often freezing waters, but because of 
+their natural moisture electricity is particularly lethal to this race. 
+Merfolks tend to make better fighters than magic users as their intelligence is 
+somewhat limited.
+~
+
+-1 RACE_HALF-ORC~
+Half-human, Half-orc, they inherit the strength and sturdiness of their
+orcish parent, and brains and wisdom from their human parent. Dangerous, and
+not dumb, they make excellent warriors and thieves. They have half fangs,
+almost tusks, and dense muscle, their skin is a greyish, but not near as dark
+as orcs or uruk.
+~
+
+-1 RACE_HALF-OGRE~
+Huge, 9 feet tall, powerful, and not nearly as dumb as their Ogre parents,
+they are almost as strong as Ogres. They make excellent warriors and
+barbarians, and fair clerics. They look similar to their Ogre cousins, but
+frequently they bathe, so many aren't as smelly.
+~
+
+-1 RACE_WOLVEN~
+Raised in the wastes to the far north, these proud, fierce beings possess
+the strength, honour and loyalty of the wolf as well as the intelligence and 
+cunning of humans. Standing upright at almost seven feet in height, they are
+covered all over in coarse, dark fur. The feral look in their eyes coupled
+with a fang-filled maw and a howl to chill the bravest of hearts make these
+noble beings a force to be reckoned with. The Wolven are natural hunters, and
+their dexterity is among the best of any creature found within the realm.
+Adapting well to all climes, Wolven make natural rangers, thieves and warriors
+although their aptitude for change finds them equally at home with the workings
+of enchantment....
+~
+
+-1 RACE_DIVA~
+Although few know the true origins of the Diva, no one can deny the highly 
+enchanted power of these expressions of nature. Created by the Earth Mother 
+from the elements and essence of nature, Diva come in a variety of shapes and 
+sizes, from the strength and magnificence of the Oak Diva, to the slender 
+suppleness of the willow. They seek to protect and nurture the natural world, 
+and react with wrath upon those who would desecrate it. Because of their close 
+ties with nature, the Diva have the ability to sense the alignment of those 
+they encounter, the ability to tame most wild animals and have extremely high
+constitution - a diva of any class can gain the maximum possible constitution.
+~
+
+-1 RACE_ELDAR~
+Eldars are an ancient magical group that originally consisted of other races. 
+In times of old the most intelligent of each race applied to the Eldar council 
+for membership and were put through extensive mental training in order to 
+develop their abilities as masters of spellcraft. Over the years the Eldars 
+have adopted a standard form similar to that of the elf. Eldars have superior 
+intelligence over all races but make poor fighters. An Eldar's intuition 
+enables them to know the background and history of any equipment they find, 
+regardless of which profession they choose.
+~
+
+-1 RACE_KENKU~
+Kenku are bipedal, humanoid birds that use their powers to annoy and
+convience the humand and demihuman races.  The typical kenku resembles
+a humanoid hawk wearing human clothing.  Kenku have both arms and wings.
+The wings are usually folded across the back and may be mistaken at a
+distance for a very large backpack.  Height ranges from 5 to 7 feet.
+The feathers are predominantly brown with white underfeathers and face
+markings.  The eyes are a brilliant yellow.
+Strong to both great heat and freezing cold, they fair the elements well, but
+poison leads them to horrible weakness.
+~
+
+-1 RACE_AVIAN~
+The avian race is a very secretive and mysterious one.  They are the size
+of giants, towering over any human, but weight about the same as an elf.
+Their slight bone structure allows their wings to carry them as they fly
+from place to place, but it also requires them to rely on mental prowess
+instead of brawn for survival. Many speculate that they are a people who
+evolved in the mountains, perhaps magically.  However they came to be,
+they are fiercely religious, and worship a nature diety.  Most choose to
+become druids since that allows them to be closest to their god, however
+they do well in clerical magicks as well.  They have uncanny powers of
+sight, and it is said that an avian can see everything you do. For this
+reason many avians are hired as watchkeepers, and they make wonderful
+explorers and missionaries.  Their amazingly unusual bodies, which
+basically look like emaciated humans with wings, and the fact that they
+are used to an isolated environment, makes them very susceptible to
+disease and poison.  Many an avian has ventured out of his or her
+homeland only to fall victim to one of the many plagues that ravage the
+world at large.
+~
+
+-1 RACE_GNOLL~
+ Gnolls are large, evil, hyena-like humanoids that roam about in loosely
+organized bands.  While the body of a gnoll is shaped like that of a human,
+the details are those of a hyena.  They stand erect on two legs and have
+greenish grey skin, darker near muzzle, with a short reddish grey to dull
+yellow mane.
+~
+
+-1 RACE_SATYR~
+Also called fauns, satyrs are a pleasure loving race of half-human, half-goat
+creatures.  They symbolize nature's carefree ways.  Satyrs have the torso,
+head, and arms of a man, and the hind legs of a goat.  The human head is
+surmounted by two sharp horns that poke through the satyr's coarse, curly
+hair.  The skin of the upper body ranges from tan to light brown, with rare
+individuals (1%) with red skin.  A satyr's hair is medium reddish, or dark
+brown.  The horns and hooves are black.  Satyrs living near centaurs are
+likely to be friendly with them.
+Lately most satyrs have taken up dark ways though, and such attacks do not come
+of much harm to them.  Light hurts their eyes and burns their bodies, though 
+fire doesn't touch them.
+~
+
+-1 RACE_DRACONIAN~
+Draconians are humanoid-dragon hybrids.  Although not much larger than
+humans, draconians have wings upon their backs and scales.  They have a
+breath attack, fire breath, that is clearly inherited from their draconic
+parentage.  Draconians are fairly solitary, without much need for large
+families or peer groups.  The scales of a draconian are highly prized and
+can fetch a handsome sum on the black markets.
+~
+
+-1 RACE_DEATH-KNIGHT~
+Paladins that fall from grace, and renounce their deities, They are
+cursed to live endlessly, in a mockery of their former lives. They are 
+virtually immune to the ravages of magic, and deadly with their weapons, 
+they also wield some limited spell power of their own.  Like all undead, 
+death-knights do not need food or water to survive.
+~
+
+-1 RACE_WIGHT~
+Nobles and Generals, wights are the products of the incredibly resilient,
+and willful being raised from the dead. They are blessed with great strength,
+resilience, and toughness. Wights still have skin on their bones, but it is
+stretched, and cracked in places, their eyes glow a luminescent green, and
+they wield potent weapons, and magical armor from their previous lives.
+Like all undead, wights do not need food or water to survive.
+~
+
+-1 RACE_GHOST~
+Undead creatures, raised from the grave to come back to haunt these
+realms, ghosts are insubstantial and barely visible.  Ghosts possess the
+ability to pass through doors and float through the air.  Like all undead,
+ghosts do not require food or drink to survive.
+~
+
+-1 RACE_SPECTRE~
+Spectres are a powerful race of undead creatures who have a total hate
+for all that is living.  They are semitransparent, often mistaken for a
+ghost.  Their appearance is often close to that of their former life.  Like
+all undead, spectres do not need food or drink to survive.
+~
+
+-1 RACE_GHOUL~
+Decaying, partially insane undead, ghouls often have twisted and strange
+mental powers.  They are also very cunning, able to use their vast, insane
+minds for great feats.  Their bodies are decaying on the outside.  Like all
+undead, ghouls have no need for food or drink, though it is rumored that
+they do enjoy snacking on the flesh of the dead.
+~
+
+-1 RACE_BANSHEE~
+Undead elves, rumored to be female only, though this is a misconception.
+Banshees find the living to be despicable, and seek to destroy life anywhere
+they go.  They appear as luminescent visions of their former selves, and
+possess a wail that often destroys those that hear it.
+~
+
+-1 RACE_SERAPHIM~
+Seraphim are extremely rare. They are highly powerful angelic beings, 
+dedicated to the eradication of evil. They are the personal messengers, 
+soldiers, healers and scholars of their Gods. Their appearance varies, 
+though most appear close to a human or an elven form. Only those that have 
+lived numerous lives dedicated to truth and holiness are able to transcend 
+to these angelic states. 
+~
+
+-1 RACE_SUCCUBUS~
+The most sensual, and beautiful of all demons, these creatures prey upon
+humanity, and lesser demons sexually, manipulating them into performing
+their will for many seperate reasons. They are in turn preyed upon by the
+more powerful demons, and relish the opportunities to join the mortal world,
+where they arent threatened by demon lords. They have huge bat wings, and
+tiny horns and fangs.
+~
+
+-1 RACE_PIT-FIEND~
+Devils, from Hell, they truly are fiends. Evil, mean, and nasty, they are
+incredibly strong, and vicious. They rule all the lesser demons through
+their might. They are enveloped in a shroud of fire, have scaly blackish
+grey skin, harder than leather,and massive blackbat wings.
+~
+
+-1 RACE_LICH~
+Spell wielders of great power, nearing the end of their mortal lives,
+frequently seek to extend their lives through the use of potent, evil magics.
+The result, is a powerful frame, more than human, while less than human also.
+Undead, many of the problems humans face they no longer need worry about.
+Like all undead, liches do not need food or water to survive.
+~
+
+-1 RACE_DRACOLICH~
+Dragons who follow dark rituals to preserve their bodies, and magical powers
+after death, Dracoliches are the most feared form of lich by far. They
+retain the abilities to drain energy and magical power from their foes, and
+may breathe clouds of noxious gas, which gain in power as the dragon ages in
+its undeath.
+~
+
+-1 RACE_BLACK-DRAGON~
+Black Dragons rule the forests and underdark areas.  There scales are a deep 
+black and protect the dragon from the ill affects of acid.  These dragons can 
+spit a stream of corrosive acid at there victims.
+Like all the the evil dragons, black dragons are burned by the touch of silver 
+and holy, these dragons are also vulnerable to the affects of lightning.
+~
+
+-1 RACE_MONGRELMAN~
+Mongrelmen are a chaotic blend of the blood of several humanoid species.
+They are part-human, part-elf, part-goblinoid, part-dwarf, part-gnome, and
+part-who knows what.  Becoming a mongrelman is often seen as a great
+punishment, though they are not without their virtues.  Mongrelmen make some
+of the best thieves and assassins known.
+~
+
+-1 RACE_GARGOYLE~
+Gargoyles are a race of xenophobic, protective beings that hide away in
+the mountains on Dominia. Thought to be an offshoot of the same species
+that produced dragons, gargoyles are ferocious fighters, relying more on
+their powers and size than sneaking up on their prey. Gargoyles have a
+special kinship with the earth, as they can invoke the element to become
+living stone warriors. These large, clumsy but wise beings have a
+severe reliance on magic, giving them a weaker immune system than would be
+expected for one of their kind. A gargoyle's favored tactic is to dive
+from above on land-dwelling beings, slashing at them with long
+polearm-like weapons that they so heavily favor.
+~
+
+-1 RACE_TITAN~
+Titans are gargantuan, almost godlike men and women.  They, quite simply,
+look like 25 foot tall people of great physical strength and beauty.  They
+are commonly dressed in traditional Greek garb, favoring togas, loincloths,
+and such.  They wear rare and valuable jewellery and in other ways make
+themselves seem beautiful and overpowering.  Titans are very close to nature.
+They also have keen eyesight and can detect items which can not be seen
+with the naked eye.  They are quite immune to charm and resist the effects
+of weapons against them, yet they have quite a powerful temper when roused.
+They do, however, heal quicker than most.
+~
+
+-1 RACE_CRYSTAL-DRAGON~
+Crystal dragons are the evil dragons of myth and lore.  These creatures
+are huge, and terrible to behold.  Their high constitution and strength
+makes them mighty opponents.  It is said that fire and lightning cannot 
+be used to harm these creatures. They are also highly resistant to disease 
+and the trickeries of charm.Obviously being dragons, they can automatically 
+fly and they have very sharp eyesight.
+~
+
+-1 RACE_SILVER-DRAGON~
+Silver dragons are the good counterparts to crystal dragons.  Also huge
+in size, these dragons are beautiful to behold.  Their silver scales
+reflect the sunlight in an almost magical way. They have keen eyesight 
+and can see infrared and also have sharp dark vision.  They love flying 
+and take to the skies whenever they can.  They are inbred with the healing art. 
+Silver dragons are unaffected by cold and because of their high intelligence,
+are nearly impossible to charm.
+~
+
+-1 RACE_WEREWOLF~
+The werewolf is an evil and hateful creature that delights in the brutal
+slaying of humans and demihumans alike. In many cases, the werewolf is able 
+to attack its victims with utter surprise because of its ability to assume 
+the shape of a human of exceptional charisma.The werewolf is generally fairly 
+solitary in nature. When encountered in the wild, it is rare that more than 
+three of these creatures will be found. In almost all cases, encounters with 
+more than one werewolf will be with a mated pair or a group which has decided 
+to work together to increase the success of  their hunting. Despite their 
+fondness for wolves and worgs, werewolfs loathe the company of werewolves. 
+The enmity between these two monsters is so great that they will often attack 
+each other on sight.
+~
+
+-1 RACE_FIRE-ELF~
+Fire elves are not, contrary to popular belief, elves that are made out
+of fire.  Rather, they fairly closely resemble your common high-elf or
+sylvan-elf, except for a slight reddish tinge to their skin.  They are
+masters in the uses of fire, and their society evolved around the worship of
+a great being of fire that they called Browson.  Recent discoveries have
+proven that Browson was nothing more than an ancient fire elf myth.
+~
+
+-1 RACE_DESERT-ELF~
+Desert elves are nomads, living and thriving in the hottest and driest
+deserts where few creatures can survive.  Desert elves are dark-skinned, and
+wear light sand-colored clothing that allows them to easily blend into their
+environment.  Desert elves have become quite adept at finding oases and
+water holes in the desert, to the point that their abilities as
+water-finders is known throughout the world.
+~
+
+-1 RACE_HALF-DWARF~
+Half-dwarves are part human, part dwarven, and normally human-sized with
+dwarven features.  Unlike half-elves, half-giants, half-gnomes, and
+hobgoblins, half-dwarves are completely outcast from both the human and the
+dwarven population.  Full dwarves consider half-dwarves to be lowly mutants,
+worse than mongrelmen.  Humans shun half-dwarves, considering them to be
+abominations of nature.  Despite this, many half-dwarves have banded
+together and have developed small societies and some cultural heritage.
+~
+
+-1 RACE_HALF-GNOME~
+Half-gnomes are gnome-human hybrids.  They average four and a half to five
+feet in height, and weigh an average of 90-95 pounds.  They are clearly
+distinguishable from short humans due to their extremely large gnomish
+noses.  Half-gnomes are fairly well accepted amongst both the gnomish and
+human populace.
+~
+
+-1 RACE_ZOMBIE~
+One of the lowest forms of undead, zombies are quite slow and can be
+dim-witted.  Most characters reborn into zombie form do maintain some of
+their prior wisdom and intelligence.  Despite this, all zombies have
+insatiable urges for flesh, preferably fresh and bloody.  Like all undead,
+zombies do not need air, food, or water to survive.
+~
+
+-1 RACE_SKELETON~
+Skeletons are not much more than walking piles of bones, though those that
+have been reborn into this form do maintain some wisdom and intelligence.
+Skeletons are also fairly dextrous, though this is more attributable to
+their low wind resistance than to actual speed.  Skeletons are considered
+the lowest form of undead, and only those that have truly offended their god
+are punished with a life in this form.  Skeletons do not need air, food, or
+water to survive.
+~
+
+-1 RACE_NAGA~
+Nagas are demonic creatures of great evil. Their torsos are more snake- 
+like than humanoid, though they do have the standard two legs, and a head
+but they have 4 arms. They are rumored to be the divine reincarnations of 
+the favored servants of the evil gods. Nagas are masters in the uses of 
+poisons, which makes them extremely dangerous, if not deadly. 
+~
+
+-1 RACE_ARCHANGEL~
+Archangels are the ultimate embodiment of truth and goodness. They rank 
+just slightly below demigods and avatars of the gods themselves. Their 
+reason for existence is to fight on behalf of their god. Archangels are 
+the champions of their god's causes. They are rarely seen, and the tales 
+of their existence are so confusing and contradictory that no one knows 
+what they truly look like. 
+~
+
+-1 RACE_LUPINE~
+Lupine are humanoid canines, standing on two legs. Their fur coloration 
+varies from a pure white through a dark black, with all manner of colours 
+in between. They average approximately five and a half feet in height. The 
+lupine are feared as they are often mistaken for werewolves, though in 
+truth many lupine societies are extremely peaceful and prosperous. Also, 
+unlike popular myth, lupine and cattain are not mortal enemies. 
+~
+
+0 $~
+#$

@@ -1,0 +1,1272 @@
+#HELPS
+
+-1 'SKILL_RECALL' /~
+Syntax: recall
+        use recall
+
+RECALL prays to your god for miraculous transportation from where you are
+back to your recall point.  '/' is a synonym for RECALL.
+
+If you RECALL during combat, you will lose experience (more than for fleeing),
+and you will have a chance of failing (again, more than for fleeing).  This
+chance is based on your recall skill, although a 100% recall does not 
+insure success.
+
+RECALL costs half of your movement points.
+
+RECALL doesn't work in certain god-forsaken rooms.  Characters afflicted by a
+curse may not recall at all.
+~
+
+-1 'SKILL_SCROLLS'~
+Syntax: recite <target>
+        use scrolls <target>
+
+Magical items require training to use properly.  If your character lacks the
+necessary skill to use an item, he will fail, possibly destroying it. Scroll is 
+the reading of magical scrolls and books (see 'help recite')
+~
+
+-1 'SKILL_STAVES'~
+Syntax: brandish <target>
+        use brandish <target>
+
+Magical items require training to use properly.  If your character lacks the
+necessary skill to use an item, he will fail, possibly destroying it. Staves is
+the use of staves and similar devices (see 'help brandish')
+~
+
+-1 'SKILL_WANDS'~
+Syntax: zap <target>
+        use wands <target>
+
+Magical items require training to use properly.  If your character lacks the
+necessary skill to use an item, he will fail, possibly destroying it. Wands is
+the use of wands and similar items (see 'help zap') 
+~
+
+-1 EXOTIC WEAPONS WEAPON WEAPONSMASTER 'SKILL_AXE' 'SKILL_DAGGER' 'SKILL_FLAIL' 'SKILL_MACE' 'SKILL_POLEARM' 'SKILL_SPEAR' 'SKILL_SWORD' 'SKILL_WHIP' 'SKILL_STAFF(WEAPON)'~
+Each weapon skill applies to a specific group of armaments, and determines how
+well a character fights with a particular weapon.  The weaponsmaster group
+provides talent in all weapons (save exotics), from chair legs to halberds.
+If the character has the parry skill as well, he can parry incoming attacks.
+The chance of parrying is best if the character in question is skilled at 
+both his weapon and his opponent's.
+
+The weapon skills consist of the following:
+
+weaponsmaster	skill group of all weapons listed below (save exotic weaponry)
+axe		the use of axes, ranging from hand to great (but not halberds)
+dagger		the use of knives and daggers, and other stabbing weapons
+flail		skill in ball-and-chain type weapons
+mace		this skill includes clubs and hammers as well as maces
+polearm		the use of pole weapons (except spears), including halberds
+spear		this skill covers both spears and staves, but not polearms
+sword		the warrior's standby, from rapier to claymore
+whip		the use of whips, chains, and bullwhips
+staff(weapon)	this skill covers staff but not spears.
+exotic		the use of strange magical weapons
+
+The exotic skill cannot be purchased, and is dependent solely upon level.
+~
+
+-1 'SKILL_SHIELD BLOCK'~
+Shield block is a rather fancy name for the art of parrying with a shield.
+Characters with no shield block skill will not be able to defend themselves
+well with a shield.  All classes may learn shield block, but only warriors and
+clerics are good at it.  Beware, flails ignore shield blocking attempts, and
+whips have an easier time getting around them.  Axes may split shields in two.
+~
+
+-1 'SKILL_BERSERK'~
+Syntax: use berserk <target>
+
+Only powerful warriors can master berserking, the ability to enter insane rage
+in combat.  Its effects are not altogether unlike the frenzy spell -- a huge
+surge of combat prowess, coupled with a disregard for personal safety.  
+Berserking warriors are more resistant to the effects of magic.
+~
+
+-1 'SKILL_DIRT KICKING'~
+Syntax: use 'dirt kicking' <target>
+
+Consider by some to be a cowardly skill, dirt kicking gives the clever 
+combatant a chance to blind his opponent by casting dirt into his eyes.  The
+blindness does not last long, but can provide an edge in combat.  Dexterity
+helps in hitting or avoiding a dirt kick.
+~
+
+-1 'SKILL_DODGE'~
+In the words of one wise warrior, 'the best way to block a blow is to not
+be where it lands'.  The dodge skill honors this tradition, by improving the
+character's natural agility to the point where many blows will miss the 
+target. The chance of dodging is also affected by the dexterity of the
+attacker and the target.  Any class may learn dodging.
+~
+
+-1 'SKILL_ENHANCED DAMAGE'~
+Warriors and skilled thieves can become skilled enough in combat that they are
+able to inflict more damage than other classes.  Enhanced damage is checked
+for with each hit, although with a low skill, the chance of receiving a bonus
+is very low indeed.
+~
+
+-1 'SKILL_ENVENOM'~
+Syntax: use envenom <target>
+
+The envenom skill is a cowardly skill practiced only by thieves, designed to
+win a battle through alchemy and treachery rather than skill or strength.
+Or, put another way, it's a skill used by the smart to kill the foolish.
+Food, drink, and weapons may be envenomed, with varying effects. Poisoned
+food or drink puts a mild poison spell on the consumer, and is unlikely to
+be more than a minor inconvience (after all, the typical adventurer could
+drink sewer water with only a trace of the runs).  A poisoned weapon, on
+the other hand, can inflict serious damage on an opponent as the poison 
+burns through his bloodstream.  But be careful, blade venom evaporates 
+quickly and is rendered almost powerless by repeated blows in combat.
+~
+
+-1 'SKILL_KICK'~
+Syntax: use kick <target>
+
+Kicking allows the adventurer to receive an extra attack in combat, a powerful
+kick. However, a failed kick may throw an unwary fighter off balance.
+~
+
+-1 'SKILL_PARRY'~
+If at first you fail to dodge, block it.  Parry is useful for deflecting 
+attacks, and is succesful more often than dodge.  Parry requires a weapon for
+full success, the hand-to-hand skill may also be used, but results in reduced
+damage instead of no damage.  The best chance of parrying occurs when the
+defender is skilled in both his and his opponent's weapon type.
+~
+
+-1 'SKILL_RESCUE'~
+Syntax: use rescue <target>
+
+A friend in need is a friend indeed.  And when in combat, a warrior with
+the rescue skill is just the friend you need.  Rescue allows you to intercede
+in combat, protecting weaker characters from bodily harm. Hopefully the
+favor will be returned.  Success in rescuing depends on the skill rating, as
+well as a comparision of level, dexterity, and speed between the character and
+the target. (note: you rescue a friend, not the monster)
+~
+
+-1 'SKILL_TRIP'~
+Syntax: use trip <target>
+
+Back by popular demand.  Trip is a somewhat dastardly attack, and involves
+using any one of a number of methods to bring your opponent down to the ground.
+Tripping large monsters is generally not a good idea, and agile ones will
+find the attack easy to avoid.  Thieves and warriors may learn trip.
+~
+
+-1 'SKILL_SECOND ATTACK'~
+Training in second attack allows the character a chance at additional strikes
+in combat -- allow a 100% second attack does NOT guarantee 2 attacks every
+round.  Any class may learn this skill, although clerics and mages have a 
+very hard time with it.
+~
+
+-1 'SKILL_THIRD ATTACK'~
+Training in third through seventh attacks allows the character a chance
+at an additional strike in a combat, and increases the chance of all
+previous attacks as well.  Perfect skill in an attack does NOT assure that
+many attacks per round.  The amount of attacks a player may learn is
+dependant on his or her class.
+~
+-1 'SKILL_FOURTH ATTACK'~
+Training in third through seventh attacks allows the character a chance
+at an additional strike in a combat, and increases the chance of all
+previous attacks as well.  Perfect skill in an attack does NOT assure that
+many attacks per round.  The amount of attacks a player may learn is
+dependant on his or her class.
+~
+-1 'SKILL_FIFTH ATTACK'~
+Training in third through seventh attacks allows the character a chance
+at an additional strike in a combat, and increases the chance of all
+previous attacks as well.  Perfect skill in an attack does NOT assure that
+many attacks per round.  The amount of attacks a player may learn is
+dependant on his or her class.
+~
+-1 'SKILL_SIXTH ATTACK'~
+Training in third through seventh attacks allows the character a chance
+at an additional strike in a combat, and increases the chance of all
+previous attacks as well.  Perfect skill in an attack does NOT assure that
+many attacks per round.  The amount of attacks a player may learn is
+dependant on his or her class.
+~
+-1 'SKILL_SEVENTH ATTACK'~
+Training in third through seventh attacks allows the character a chance
+at an additional strike in a combat, and increases the chance of all
+previous attacks as well.  Perfect skill in an attack does NOT assure that
+many attacks per round.  The amount of attacks a player may learn is
+dependant on his or her class.
+~
+
+-1 'SKILL_FAST HEALING'~
+The fast healing skill improves wound healing rates, whether walking, resting,
+or sleeping. It represents knowledge of healing herbs or just general 
+toughness and stamina.  Fast healing is checked every tick, and it is 
+possible for it to fail.  All class may learn this skill, but mages find it
+very difficult to master, due to their bookish lifestyle.
+~
+
+-1 'SKILL_HAGGLE'~
+Haggling is an indispensable skill to the trader.  It allows a character to
+match wits with a merchant, seeking to get a better price for merchandise,
+or to buy at the lowest possible cost.  Unfortunately, most merchants are 
+already very skilled at haggling, so the untrainined adventurer had best 
+guard his treasure closely.  Thieves are natural masters at haggling, 
+although other classes may learn it as well.
+See 'help config' for more information about autohaggle.
+~
+
+-1 'SKILL_PEEK'~
+The peek skill is useful for seeing what a player or monster is carrying,
+the better to use the steal command with.  More intelligent characters are
+harder to peek at.  All characters may learn peek, but thieves are the most
+common practicioners.
+~
+
+-1 'SKILL_PICK LOCK'~
+Syntax: use 'pick lock' <target>
+
+Lock picking is one of the prime skills of thieves, allowing them to gain
+access to many secured areas.  Lock picking chances are improved by  
+intelligence, and hindered by the difficulty of the lock. Other classes may
+learn to pick locks, but they will never find it easy.
+~
+
+-1 'SKILL_MEDITATION'~
+This skill is similar to fast healing, but relies on the concentration and
+mantras to increase mana recovery when the character is sleeping or resting.
+Thieves and warriors, with their troubled minds and violent attitudes, have
+much trouble learning to meditate.
+Meditation level 2 is an advanced form of the meditation skill.  Characters
+skilled in meditation 2 will recover mana at an even faster rate than those
+only skilled in meditation. Meditation works automatically.  It does not 
+require any command word.
+~
+
+-1 'SKILL_STEAL'~
+Syntax: use steal coins <character>
+        use steal <object> <character>
+
+Theft is the defining skill of the thief, and is only available to that class.
+It allows items to be stolen from the inventory of monsters and characters,
+and even from shops!  But beware, shop keepers gaurd their merchandise 
+carefully, and attempting to steal from a character earns you a THIEF flag
+if you are caught (making you free game for killing).
+~ 
+
+-1 'SKILL_CAMPFIRE'~
+Syntax: use campfire
+
+The fire skill enables you to build a small campfire that will help
+you recover more quickly. It will cost you 100 moves to collect
+wood, pile it up, and light the fire. You can only start fires in
+woods, hills or mountains.
+~
+
+-1 'SKILL_HUNT'~
+Syntax: use hunt <target>
+
+With this skill you can track down a mob. It will tell you which direction
+to go to find it. However if you are not very skilled it will give you
+the wrong direction occasionally.
+~
+
+-1 SKILL_COMMON SKILL_ELFISH SKILL_DWARFISH SKILL_GNOMISH SKILL_GIANTISH SKILL_GOBLINISH SKILL_FAERISH SKILL_DRAGONISH SKILL_UNDERDISH SKILL_LIZARDISH~
+
+Racial language are automatically used when talking through (via) channels:
+ say, yell, dirsay, whisper, ic    which are RP channels
+
+See also help about language.
+~
+
+-1 'SKILL_MISTFORM'~
+Syntax: use mistform
+
+One of the powers of the vampire, it turns a vampire into a bilious
+green mist, able to slip through the smallest of cracks and affording
+resistance to the burning touch of the sun's rays.  It also improves
+one's armor rating.  However, vampires find it quite impossible to do
+damage in combat while in mistform.
+To deactivate mistform, simply type use mistform a second time. 
+~
+
+-1 'SKILL_FLIGHT'~
+Syntax: use flight
+
+One of the powers of the vampire, it allows to vampire to fly.
+To desactivate flight, simply type use flight a second time.
+~
+
+-1 'SKILL_SPEEDUP'~
+Syntax: use speedup
+
+Give the quicklings the possibility to move very quickly, giving them
+extra attacks but a lower heal/mana/move/psp rate.
+To desactivate speedup, simply type use speedup a second time.
+~
+
+-1 'SKILL_INVISIBLE'~
+Syntax: use invisible
+
+Give the sprites the possibility to become invisible.
+To desactivate invisible, simply type use invisible a second time.
+~
+
+-1 'SKILL_RESIZE'~
+Syntax: use resize <object> <size>
+
+RESIZE allows a character to use their skills of armor or jewelry
+smithing to change the size on an item of armor or a piece of jewelry.
+This skill is well known by dwarves, though a few other races possess
+this talent as well.
+~
+
+-1 'SKILL_CIRCLE'~
+Syntax : use circle <victim> 
+
+Circle is a deadly and powerful form of attack most commonly used by 
+those of little or no honor, such as thieves and assassins.  It 
+involves circling around one's opponent in combat and stabbing them 
+with a critical hit.  Circle combined with multiple attacks per round, 
+can be a very deadly and powerful skill.  Circling is most effective 
+when done with a dagger. 
+~
+
+-1 'SKILL_TAILSWEEP'~
+Syntax: use tailsweep <opponent>
+
+TAILSWEEP is a combat skill possessed by certain races with large tails
+that can be easily used in combat.  Tail sweep knocks the opponent off
+of their feet, causing large amounts of damage and dazing them for a few
+moments.  
+~
+
+-1 'SKILL_DUAL WIELD' SECOND~
+Syntax : second <weapon>
+
+Dual wield is a skill that allow a player to wield
+a weapon in their off-hand. The extra weapon must each weigh less than
+the weapon that is held in the primary hand.
+Dual wield 2 is an attack skill unique to the ranger class.  It allows
+the ranger a chance at an additional strike with an offhand weapon in combat
+-- although a 100% dual wield 2 does NOT guarantee two attacks with the
+offhand weapon every round.
+~
+
+-1 'SKILL_BLEND'~
+Blend is a skill that allows one to blend into natural terrains.  It is not
+effective in indoor, city, or water filled areas.  Like sneak, blend will
+stay on when one moves.  However, as long as one does not engage in combat,
+stop blending, or move into a non-natural terrain, blend will remain in
+effect.  Like sneak and hide, those that can detect hidden can detect
+blended individuals.
+~
+
+-1 'SKILL_FADE' FADING~
+Fade is the natural ability to phase out of reality to an extent that
+weapons will pass right through your form harmlessly.  A potent defensive
+skill, it works naturally, not requiring any command word.
+~
+
+-1 'SKILL_FEED'~
+Syntax: use feed <target>
+
+Feed is a vampire only skill.  The process of feeding is
+a quick bite at a vital area during combat.  As the victem
+becomes more readily aware of its demise the chance
+to feed declines until the victem is too aware of its
+mortality and the feeding attempt is unavailable.
+
+A certain amount of health can be reclaimed by
+the consumption of blood in a successful feeding
+attempt.
+~
+
+-1 'SKILL_WHIRLWIND'~
+Syntax: use whirlwind
+
+Whirlwind requires the use of the skill dual wield.
+Warriors (and others) using whirlwind attack all mobs
+and pk players within a room with one or both of thier
+two weapons as they spin about like dervish.
+~
+
+-1 'SKILL_SOOTHE'~
+Syntax: use soothe <target>
+
+SOOTHE is a skill used to calm a wild animal.  It will only work on targets
+that qualify as being animals.  Soothed animals will not attack of their
+own volition and are at a disadvantage in combat for a time after having
+been soothed.  Soothe can only be used during combat, and the more combat
+in the room at the time the skill is used, the more difficult it is to
+use it.
+~
+
+-1 'SKILL_SCRIBE'~
+Syntax: use scribe <spell> <parchment>
+
+The scribe skill allows mages to create scrolls of spells that they know.
+These scrolls can then be recited or sold to other mages that are seeking to
+study the spell.  In order to scribe a spell, the mage must purchase a blank
+piece of parchment from a magic shop.  These parchments are normally quite
+costly.  In addition to the requirement of making a successful scribe skill
+check, the scriber must also make a successful skill check with the spell he
+or she is scribing.  Failure to make either skill check will destroy the
+parchment, and could result in a magical explosion.
+~
+
+-1 'SKILL_STUDY'~
+Syntax: use study <spellname> <# of trains>
+
+This powerful skill allows a mage to attempt to learn a spell that is not in
+his or her school of spells.  To use the skill, the mage must first obtain a
+scroll containing the spell he or she wishes to study.  The mage must then
+choose the number of trains he or she wishes to dedicate to studying the
+spell.  Up to 10 trains may be so chosen.  To successfully learn the spell,
+the mage must pass two random checks.  The first one is the mage's skill in
+study, and if it fails, the scroll will be destroyed.  The second check is
+the chance that the mage actually learns the spell.  For each train
+dedicated to this skill, there is a 5% chance to learn the spell.  The
+maximum chance is 50%.  If this second check is unsuccessful, the scroll
+will be destroyed, and all trains dedicated to the task WILL BE LOST.  If
+the check is successful, the trains and scroll will be lost as well, but the
+spell will be learned.
+
+Note that a spell may not be studied until its Level 1 prerequisites are
+first learned.  Further note that a mage may not increase their spell level
+in any spell that is learned through study.
+~
+
+-1 'SKILL_IMPROVED EXOTIC'~
+Improved exotic (or improved exotic weaponry) increases a character's
+skill with exotic weapons.  While skill in exotic weapons in normally based
+solely on character level, purchasing and practicing this skill increases a
+character's skill in exotic weapons beyond that which is normal.  In
+addition, characters with this skill tend to do an increased amount of
+damage when using exotic weapons.
+~
+
+-1 'SKILL_SNEAK'~
+Syntax: use sneak
+
+Hide and sneak are similar skills, both related to remaining undetected.
+Hide has a very high chance of success, but only works for as long as the
+character remains stationary.  Sneak may be used when moving (including to
+sneak by monsters), but has a lower chance of success.  Typing hide or sneak
+a second time will cancel them.  Hide has the added benefit of increasing
+the chance of a backstab hitting your opponent.
+~
+
+-1 'SKILL_HIDE'~
+Syntax: use hide
+
+Hide and sneak are similar skills, both related to remaining undetected.
+Hide has a very high chance of success, but only works for as long as the
+character remains stationary.  Sneak may be used when moving (including to
+sneak by monsters), but has a lower chance of success.  Typing hide or sneak
+a second time will cancel them.  Hide has the added benefit of increasing
+the chance of a backstab hitting your opponent.
+~
+
+-1 'SKILL_BLEND'~
+Syntax: use blend
+
+Blend is a skill that allows one to blend into natural terrains.  It is not
+effective in indoor, city, or water filled areas.  Like sneak, blend will
+stay on when one moves.  However, as long as one does not engage in combat,
+stop blending, or move into a non-natural terrain, blend will remain in
+effect.  Like sneak and hide, those that can detect hidden can detect
+blended individuals.
+~
+
+-1 'SKILL_DUAL DISARM'~
+Syntax: use 'dual disarm' <opponent>
+
+Dual disarm allows a character an even greater chance to disarm their foe in
+combat.  It works exactly the same way as the disarm skill; however, it is
+only effective if the character is wielding a second weapon in his or her
+offhand.  The increased chance of effectiveness occurs only when the
+character is also wielding a weapon in his or her primary hand and is
+skilled in both disarm and dual disarm.  A character can be skilled in dual
+disarm without being skilled in disarm, in which event disarm attempts can
+only be made with the offhand weapon or without any weapon.
+
+See also, 'help disarm'.
+~
+
+-1 'SKILL_DISARM'~
+Syntax: use disarm <target>
+
+Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when you
+are skilled both your own and your opponent's weapon.
+
+For information on the dual disarm skill, see 'help dual disarm'.
+~
+
+-1 'SKILL_DUAL PARRY'~
+Dual parry is the ability to parry and attack with an offhand weapon (see
+'help dual wield').  A weapon must be wielded in the offhand in order for
+dual parry to be effective.  The chance for success is less than that with
+parry, and is affected by the difference in level between the two
+combatants.
+~
+
+-1 'SKILL_RIDING' 'MOUNT' 'DISMOUNT'~
+Syntax: mount <creature>    or   use riding <creature>
+Syntax: dismount
+
+RIDING is a skill that enables a character to mount certain mobs and
+ride them.  Not all mobs can be ridden.  Most often, mountable mobs are
+pets; however, it is possible to mount non-pets as well.  When a mob that
+is not a pet is mounted, the mob will become one's pet.  In order to ride
+a mob, one must have a saddle, which is placed upon the mob's back when
+mounting.  When mounted, a character does not expend any movement and is
+able to enter rooms for which flying or swimming is required if the mount
+can enter those rooms (regardless of whether the character can).
+DISMOUNT will remove one from their mount, though the creature does
+remain a pet.
+
+RIDING 2 is an advanced form of the riding skill.  A character skilled in
+riding 2 has an increased chance to successfully mount and dismount 
+creatures, including those that are not the character's current pet.
+Of course, it is physically impossible to even attempt to mount some
+creatures.
+
+In addition to the above, RIDING 2 also confers the ability to ride without
+the need for a saddle.  This requires a skill check and the character will
+be unable to mount if the check fails.
+~
+
+-1 'SKILL_APPRAISAL'~
+Syntax: use appraisal <item>
+
+The appraisal skill allows a character to evaluate the worth of an object.
+Any object the character is carrying can be appraised.  The appraised value
+is based solely on the estimated value that the object can be sold for in a
+shop, and does not factor in magical enhancements or rarity.  If the
+character's appraisal skill check fails, the character will incorrectly
+appraise the item's value.  Note that shopkeepers may not necessarily pay an
+object's true appraised value when purchasing it, and may sell objects for
+more or less than their appraised value.
+~
+
+-1 'SKILL_BACKSTAB'~
+Syntax: use backstab <victim>
+
+Backstab is the favored attack of thieves, murderers, and other rogues.  It
+can be used with any weapon type, but is most effective with piercing
+weapons such as daggers.  The damage inflicted by a backstab is determined by
+the attacker's level, his weapon skill, his backstab skill, and the power of
+his opponent.  You must be not visible to the mob (i.e. sneaking or hiding)
+in order to backstab.
+~
+
+-1 'SKILL_POISON DETECT'~
+Syntax: use 'poison detect' <object>
+
+This skill allows the user to detect poison in or on an item.
+~
+
+-1 'SKILL_PURIFY'~
+Syntax: use purify <object>
+
+Purify is essentially the opposite of the envenom skill (see 'help
+envenom').  It is used to remove poison from food and drink.  In addition,
+it will remove poison from a weapon.  If successful, purify will remove all
+poison from a weapon, whether placed there by use of magic, envenom, or
+otherwise.  The removal of the poison is permanent.
+~
+
+-1 'SKILL_ALIGN DETECT'~
+Syntax: use 'align detect' <target>
+
+This skill will allow the user to determine the general alignment of
+the target character.
+~
+
+-1 'SKILL_MAGIC DETECT'~
+Syntax: use 'detect magic' <object>
+
+This skill allows the user to determine whether an item has
+magical properties.
+~
+
+-1 'SKILL_GOUGE'~
+Syntax: use gouge <victim>
+
+Gouge is a rather dishonorable combat tactic.  Those characters skilled in
+gouging can attempt to gouge their opponent's eyes during combat.  If
+successful, the gouge attack inflicts damage and has a chance to temporarily
+blind the victim.
+~
+
+-1 'SKILL_COUNTERFEIT'~
+Syntax: use counterfeit <object>
+
+COUNTERFEIT allows a character to change the appearance of an object making
+it appear to be more valuable than it actually is.  In addition, counterfeit
+allows a character to attempt to pass off this increased value to a
+shopkeeper.  Most shopkeepers are astute at looking for counterfeit goods;
+therefore, characters unskilled in counterfeit that attempt to sell
+counterfeit goods to a shopkeeper are often caught.
+
+The counterfeit skill will increase the apparent value of an object up to
+three times its original value.  An object can only be counterfeited once.
+Objects without any value cannot have their value increased.
+
+A character that is caught attempting to sell counterfeit goods will
+generally be banned from a shop in the same manner that a character
+insulting a shopkeeper with a haggle offer will (see 'help haggle').  Note
+that selling counterfeit goods requires a skill check when the goods are
+sold as well as when the counterfeiting is done, so even a learned
+counterfeiter may on occasion be caught.
+~
+
+-1 'SKILL_SIGNAL'~
+Syntax: use signal <message>
+
+Signal is a special form of communication used to convey messages to other
+of the same class as the character.  Signal is only available to thieves and
+ninjas.  It will convey a message to others that are in the same room as the
+signaler.  Both the signaler and any target characters must make successful
+signal checks in order to receive the message.  Signal works even if the two
+characters do not speak the same languages, as the message is conveyed by
+hand signals and gestures instead of spoken words.  Note that the signaling
+method used by thieves and ninjas differs; therefore, although both classes
+have access to the skill, they cannot receive or relay signals to one
+another.
+~
+
+-1 'SKILL_DISGUISE'~
+Syntax: use disguise <good/neutral/evil>
+Syntax: use disguise <lawful/neutral2/chaotic>
+Syntax: use disguise <race>
+Syntax: use disguise none
+
+DISGUISE is a skill by which a character can hide their true race and/or
+alignment from others.  One can disguise their good/evil alignment as well
+as their lawful/chaotic alignment.  Note that neutral2 is used for
+neutral as to law/chaos.  Disguise none will cancel all disguises.
+
+When disguising one's race, one may only change into a race that players
+are allowed to choose, including races only available through remort.
+However, undead (rebirth) races are only available as a disguise for other
+undead, and Ancients are never available as a disguise.  In addition, one
+may only disguise themselves as a race of equivalent size to their own.
+
+Disguise is useful in fooling creatures into believing you are someone
+that you are not.
+
+Disguising oneself takes a lot of energy, and therefore uses half of
+one's movement per attempt.
+~
+
+-1 'SKILL_DETECT EXITS'~
+Syntax: use 'detect exits'
+
+This skill will show you all exits from a room.  In addition to showing
+visible exits, if successful, this skill will inform you of the location
+of any hidden or concealed exits.
+~
+
+-1 'SKILL_EVASION'~
+Much like the dodge skill (see 'help dodge'), evasion allows a character
+to "evade" an attack, avoiding all harm.  When combined with the dodge
+skill, evasion can make a character very difficult to hit.
+~
+
+-1 'SKILL_IMPROVED STEAL'~
+Improved steal increases a character's chance to successfully steal an
+object from another character.  A character must be skilled in both steal
+and improved steal to enjoy this benefit.
+
+See also, 'help steal'.
+~
+
+-1 'SKILL_COMPREHEND LANGUAGES'~
+The comprehend languages skill allows a character to have a chance to
+understand any language spoken, even if he or she does not speak that
+language.  This skill does not confer the ability to speak the language.  In
+addition, it does not make up for poor skill in a language by the speaker.
+
+Comprehend languages also allows the character to read icnotes written in
+any language.  It does not, however, allow a character to write icnotes in
+languages that he or she had not studied.
+
+Comprehend languages works automatically, without the need to type anything
+in to activate it.
+~
+
+-1 'SKILL_ASSASSINATION'~
+Assassination is a very powerful and very deadly skill.  It is available
+only to the highest level thieves, and most of those that train in the skill
+do so in secrecy.  Characters trained in the art of assassination are extra
+deadly when using the backstab and circle fighting techniques.  Once skilled
+in assassination, the character's chance to hit with a backstab or circle
+attack increases slightly, and the character has an improved chance to make
+backstab attacks against those that can see him or her.  The most deadly
+part of the skill, however, is the ability to strike one's opponent multiple
+times at once.  A thief skilled in assassination gets a chance for his or
+her full amount of attacks, including attacks with dual wielded weapons,
+plus one extra attack beyond those whenever backstabbing or circling an
+opponent.  Assassination works automatically, and does not require any key
+phrase to be entered to trigger it.
+~
+
+-1  'SKILL_SPECIALIZATION' SPECIALIZE~
+Syntax: specialize <weapon-type>
+	use specialization <weapon-type>
+
+Weapon specialization allows a character to choose one weapon type
+which he or she concentrates most of his or her fighting skill in.
+When purchasing the skill, type in specialize <weapon-type> to choose
+the type of weapon you desire to be specialized in.  You may only be
+specialized in one weapon type ever, so choose carefully.  You may also
+only specialize in weapons which you are already fully proficient in
+(in other words, your skill is at 100% already).
+
+Once specialized, you chance to hit and your damage done with your
+chosen weapon type is increased.  Also, your chance of getting extra
+attacks in combat with that weapon type is increased.
+
+For information on specialization in schools of magic, see 'help magic
+specialization'.
+~
+
+-1 'SKILL_ARMSLORE'~
+Syntax: use armslore <object>
+
+Armslore is similar to lore, but only reveals general information about
+weapons and armor.  It does not reveal any magical enchantments upon the
+item.
+~
+
+-1 'SKILL_LORE'~
+Syntax: use lore <object>
+
+Lore is a general skill, consisting of knowledge of myths and legends. Use
+of the lore skill gives a chance of obtaining information on an object,
+concerning its power and uses.
+~
+
+-1 'SKILL_BASH'~
+Syntax: use bash <target>
+Syntax: use bash <object or door> (Bash 2 and 3 only)
+
+Bash is a brute-force attack designed to knock your foe to his or her
+knees.  Its success depends on many factors, including the bash rating, your
+weight, and the size of your opponent.  Bashing a dragon is not generally a
+wise idea.  Bashing has a small percentage chance to knock an item off of
+your opponent.
+
+Bash 2 does not have a special command line.  Simply type bash followed by
+the name of the object or door that you wish to bash, and an attempt will be
+made.
+
+Bash 3 does not have any special command.  Once it is purchased, it will
+take effect immediately upon use of the bash command.  The chance of
+successfully hitting with a mighty bash 3 depend on a character's skill in
+bash, bash 2, and bash 3, as well as some random luck.
+~
+
+-1 'SKILL_CLEAVE'~
+Syntax: use cleave <victim>
+        use cleave
+
+CLEAVE is a skill unique to barbarians.  It involves a mighty heft of your
+weapon, and causes considerable damage to your opponent.  However,
+cleave does take a lot of energy, leaving one unable to perform other
+acts for a moment or two.  Also, it can not be done with all weapon types
+and is more effective when done with a two-handed weapon.  Cleave has a
+chance of destroying your opponent's shield, if your opponent has one.
+~
+
+-1 'SKILL_HEADBUTT'~
+Syntax: use headbutt <target>
+
+Headbutt is a powerful skill unique to the barbarian class.  Headbutt, when
+successful, causes damage to your opponent and has a chance to knock him or
+her unconscious.  The greater your size is over that of your opponent, the
+more damage your headbutt will do.  Headbutt should be used with caution,
+however.  If the headbutt misses, or is attempted on a target that is larger
+than you, you will find yourself lying on the ground, often without your
+weapon in your hand anymore.
+~
+
+-1 'SKILL_SHIELD BASH'~
+Syntax: use 'shield bash' <target>
+
+Shieldbash, like bash, is an attack designed to knock a character's opponent
+off of his or her feet.  Unlike bash, shieldbash requires the character to
+be wearing a shield at the time of the attack.  The character thrusts
+forward with his or her shield, using it to injure his or her opponent and
+possibly knock items out of their hands.  The effectiveness of the bash is
+determined by many factors, including the size of both combatants.
+~
+
+-1 'SKILL_MOUNTED COMBAT'~
+Mounted combat gives the character extra bonuses while engaged in combat
+while riding a mount.  Specifically, both the character and the mount's
+armor class rating receive bonuses during combat.  In addition, the
+character has an increased chance to strike his or her target while engaged
+in mounted combat.  Note that neither the armor class nor hitroll bonuses
+will appear in a character's score or affects, but they are added in during
+battles.
+~
+
+-1 'SKILL_CHARGE'~
+Syntax: use charge <victim>
+
+Charge is a powerful combat skilled that can only be learned by paladins and
+blackguards.  In order to charge, a character must be riding a mount and
+learned in the mounted combat skill (see 'help mounted combat').  Charge can
+only be used to initiate combat, and is a difficult attack.  If successful,
+however, a charge attack will cause great amounts of damage to an opponent.
+A charge attack is most devastating when performed with a spear or a
+polearm.  Charges cannot be performed without a weapon or with a dagger
+or an exotic weapon.
+~
+
+-1 'SKILL_BOND'~
+Syntax: use bond
+
+BOND allows a paladin or blackguard to create a special bond with his or her
+mount.  A bond can only be initiated while mounted (see 'help riding'),
+though it will continue even after the character has dismounted.  The bond
+has great benefits to both the character and the bonded mount.  Both receive
+increases to all of their statistics, a benefit to their saves, and an
+increase in their hit points, mana points, and movement points dependent on
+the level of the other member of the bonded partnership.  In addition,
+bonded mounts have the ability to quickly locate their partner character if
+they should become separated.  A failed attempt at a bond, however, has a
+draining affect on the character, leaving him or her without any mana or
+movement points.
+
+Despite all of the bonuses of the bond, there is one major drawback.  If the
+bonded mount should happen to die, the affects on the paladin or blackguard
+are devastating.  They are instantly drained of all mana points and all
+movement points, and left with only one hit point.  This is due to the utter
+shock to the character's system over the loss of the bonded union with the
+mount.
+~
+
+-1 'SKILL_COUNTER'~
+Counter is an extremely powerful weapon skills.  It allows one to reverse
+their opponent's attacks onto their opponent.  The opponent is then actually
+hit by his or her own attack.  Counter works automatically, there is no need
+to type anything in to activate it.
+~
+
+-1 'SKILL_FAVORED ENEMY'~
+Syntax: use 'favored enemy' <race>
+
+One of the trademark skills of the ranger, the favored enemy skill allows a
+character to select one race against which he or she is particularly
+proficient.  Once the skill is gained, typing 'use 'favored enemy' <race>' at 
+one's guildmaster will select the character's favored enemy race.  Once chosen, 
+a favored enemy race cannot be changed.  A ranger cannot select his or her own
+race as the ranger's favored enemy.
+
+When a ranger encounters his or her favored enemy in combat, the ranger has
+an increased chance to hit, does greater amounts of damage, and has a chance
+to strike the enemy with an extra attack each combat round.
+~
+
+-1 'SKILL_ARCHERY' FIRE~
+Syntax: use archery <victim> [direction]
+     or fire <victim> [direction]
+
+ARCHERY is a skill that gives the character proficiency in the use of bows
+and arrows.  In order to use this skill, one must be wielding a bow and have
+arrows either in his or her inventory or in a quiver.  Archery allows a
+character to fire upon a target that is one room away in any direction
+(assuming that it is a normal two-way exit).  Simply typing fire <victim>
+will fire an arrow at the victim.  If there are multiple victims with the
+same name in different directions, fire <victim> [direction] (i.e.
+ fire dog north) can be used.  Firing an arrow at a creature is a 
+hostile act and generally will cause the target to come searching for the 
+shooter.  Wielding a bow while engaged in melee combat is also a bad idea, 
+as it is basically useless in such a situation. Firing an arrow at a target 
+may cause the arrow to become lodged somewhere on his or her body.  
+See 'help dislodge' for more information.
+A character skilled in higher archery level has a chance to shoot a number
+of arrows equal to archery level in each firing attempt instead of just one.
+However, even 100% skill in higher archer level does NOT guarantee two shots 
+per firing attempt.
+Archery code based on Bowfire Code v1.0 (c)1997-99 Feudal Realms.  Revised
+for LOD2 by Julian - June, 2003.  Revised for Mystery by SinaC - July, 2003.
+~
+
+-1 'SKILL_FLETCHER'~
+Syntax: use fletch arrow
+
+A character skilled as a FLETCHER has the ability to make arrows.  A
+fletcher will always have or be able to quickly find the raw materials
+necessary to make an arrow: a stick of wood, a piece of flint, some twine,
+and a feather or leaf.  Due to the common nature of these items, fletchers
+are presumed to always have them in their possession.
+See also: help archery
+~
+
+-1 'SKILL_DISARMING SHOT'~
+Syntax: use 'disarming shot' <victim> [direction]
+
+DISARMING SHOT is a specialized shot used by an archer to attempt to disarm
+his or her target.  A disarming shot will not inflict any damage on the
+target, as it is intended solely to dislodge the target's weapon from his or
+her hand.  Firing a disarming shot is considered a hostile act and may
+result in the target coming after the shooter.  Only one disarming shot may
+be fired at a time, and it cannot be fired over long range or at point blank
+range.
+See also: help archery
+~
+
+-1 'SKILL_BOWYER' RESTRING STRENGTHEN~
+Syntax: restring <bow>
+Syntax: strengthen <bow>
+
+A character skilled as a bowyer is a master of the craft of improving and
+fixing bows.  Proficiency in this skill gives a character access to two
+separate commands: RESTRING and STRENGTHEN.
+RESTRING allows a character to repair frayed or broken bow strings.  A
+character skilled as a bowyer is presumed to always have the materials and
+tools necessary to replace the bow's string on him or her at all times.
+Restring will not work on a bow with a level higher than the character's,
+and may cause an already frayed bowstring to snap.
+STRENGTHEN allows a character to improve his or her bow, thus causing it to
+inflict more damage.  Strengthen can only be used on bows at least 2 levels
+below the character's level.  Attempting to strengthen a higher level bow
+could destroy it.  Strengthen will increase the bow's level in addition to
+the damage it inflicts, and can only be used a limited amount of times
+before a bow reaches its maximum strength.
+See also: help archery
+~
+
+-1 'SKILL_STRENGTH SHOT'~
+A character skilled in strength shot has the ability to add his or her
+strength and its associated damage roll to the damage done by shot arrows.
+Without this skill, damage roll is not added to the damage caused by arrows
+that are fired.  However, this skill allows a character to increase the
+tension applied to the bowstring, thus adding the strength-based damage roll
+in when the arrow makes contact with its target.
+~
+
+-1 'SKILL_IGNITE ARROW'~
+Syntax: use ignite <arrow>
+
+Characters with skill in IGNITE ARROW are able to light arrows on fire, thus
+making them inflict flaming damage on their target in addition to the
+arrow's regular damage.  Attempting to ignite an arrow that is too powerful
+for a character may result in the arrow being destroyed by the flames.
+An arrow will only remain lit of fire for a short time.  Once that time,
+which does increase with a character's level, has expired, the flames will
+consume the arrow and it will be destroyed.
+See also: help archery
+~
+
+-1 'SKILL_LONG RANGE SHOT'~
+A character skilled in LONG RANGE SHOT can fire arrows to distances
+greater than normal.  Specifically, a character with this skill can fire at
+targets that are up to three rooms away, provided that the rooms are in a
+straight line.  In order to shoot long distances, the player MUST include
+the direction that he or she wishes to fire after the name of the target.
+Only one long range shot can be taken at a time due to the concentration
+needed to fire over the distance.  Thus, second, third, or fourth shots will
+not fire when shooting long range.  In addition, the further away the target
+is from the archer, the less of a chance that the shot will hit.
+Example of how to fire long range:
+In order to fire at a guard that is directly south by three rooms, type
+'fire guard south'.  Note that if one were to only type 
+'fire guard', a guard that is more than one room away would not be
+ targeted.
+See also: help archery
+~
+
+-1 'SKILL_SHARPEN ARROW'~
+Syntax: use 'sharpen arrow' <arrow>
+
+Sharpen arrow is a skill used to improve the condition of an arrow.  It adds
+the "sharp" flag to the arrow, causing it to do more damage.  The arrow will
+remain sharp only for a limited duration, which increases with your level.
+Trying to use this skill on an arrow too powerful for you could result in
+its destruction.
+~
+
+-1 'SKILL_POINT BLANK SHOT'~
+A character skilled in POINT BLANK SHOT can fire an arrow at a target
+that is in the same room as the character.  A point blank shot has a greater
+chance to hit the victim than a normal shot.  Depending on how successful
+the shot is, it may do a lot more more damage than a normal shot.  Due to
+the closeness of the victim, only one point blank shot can be taken at a
+time.  Thus, second, third, or fourth shots will not fire when shooting
+point blank.
+Point blank shots cannot be used while engaged in melee combat.  Further,
+firing at a victim point blank tends to enrage the target and cause them to
+attempt to kill the shooter.
+~
+
+-1 'SKILL_CRITICAL SHOT'~
+Critical shot is the ability of an archer to aim his or her arrows
+directly for the most vital spots on an opponent.  This is an extremely
+difficult skill to master, but once an archer becomes learned in it, his or
+her arrows can strike for devastating amounts of damage.  Skill in critical
+shot increases the damage dealt on all shots, including those fired at point
+blank range or over long range.
+See also: help archery
+~
+
+
+-1 'SKILL_STUN'~
+Syntax: use stun <victim>
+
+Stun is an extra attack that can be used during combat to both inflict
+damage upon one's opponent as well as to knock the opponent to the ground.
+It can only be used by character's that are fighting without any weapon,
+shield, held item, or armor (though non-armor equipment and clothing may be
+worn).
+~
+
+-1 'SKILL_FLEETFOOTED'~
+Characters adept at this skill have the ability to pass over any form of
+terrain with minimal usage of movement points.  Regardless of what form of
+terrain the character is passing through, those that make successful
+fleetfooted skill checks will consume no more than one movement point per
+step.  Fleetfooted works automatically and does not require any keyword to
+activate.
+~
+
+-1 'SKILL_TUMBLE'~
+Tumble is a favored skill of the nimble monk class.  Monks who are
+unencumbered with armor or weapons may be able to swiftly tumble and avoid
+an opponent's attack.  As opposed to simply dropping prone on the ground to
+avoid one attack (and welcome a more devastating attack to one's backside),
+a character that tumbles will quickly drop and roll, only to find him or
+herself standing erect and ready to continue battling.  Tumble will not work
+if the character is wearing armor (though wearing non-armor equipment is
+fine), holding a weapon, holding a shield, or holding an item in his or her
+hand.
+~
+
+-1 'SKILL_HAND TO HAND'~
+Learning hand to hand combat skill gives a character a weapon even when
+disarmed -- their bare hands.  Trained hand to hand experts are far more
+effective than many swordsmen.  Monks are best known for their use of hand
+to hand combat skill, though any class may learn it.
+
+Hand to hand 2, 3, 4 and 5 is an advanced form of hand to hand combat.  
+It allows the character (normally a monk) to receive an additional strike 
+each combat round, and increases the amount of damage each of his or her 
+hand to hand strikes inflicts.  In order for hand to hand 2 to be effective, 
+the character cannot be wielding a weapon, cannot be using a shield, cannot 
+be holding anything in his or her hand, and cannot be wearing any armor 
+(though other non-armor clothing pieces are fine).
+~
+
+-1 'SKILL_BLOCK'~
+Much like dodge and tumble, block is a skill used by the monk to help
+compensate for the character's inability to fight effectively while wearing
+armor.  A block attack utilizes the monk's powerful arms and legs to knock
+an incoming attack aside, thus avoiding any serious damage.  Block will not
+work if the character is wearing armor (though wearing non-armor equipment
+is fine), holding a weapon, holding a shield, or holding an item in his or
+her hand.
+~
+
+-1 'SKILL_PURE BODY'~
+A character with the pure body skill gains the natural ability to prevent
+diseases from affecting him or her.  Whenever the character would otherwise
+contract a disease, the pure body skill is automatically checked, and if
+successful, the disease is prevented.  Pure body is also effective against
+spells that drain one's strength, such as weaken, energy, and deplete
+strength.  Pure body will not prevent lycanthropy.
+~
+
+-1 'SKILL_DEFLECT'~
+Deflect is a powerful defensive skill that allows a character to use his
+or her bare hands to knock an incoming strike away.  Unlike block, which
+utilizes one's arms and legs, deflect involves simply reaching a hand out
+and pushing the incoming attack to one side or the other, thus avoiding any
+damage.  As with many of the monk's skills, deflect will not work if the
+character is wearing armor (though wearing non-armor equipment is fine),
+holding a weapon, holding a shield, or holding an item in his or her hand.
+~
+
+-1 'SKILL_DIAMOND BODY'~
+A character with the diamond body skill gains the natural ability to
+prevent poisons from entering his or her bloodstream and causing damage or
+even death.  Whenever a character would otherwise be envenomed by a poison,
+the diamond body skill is automatically checked, and if successful, the
+poison is prevented.  Diamond body is more effective against lower-grade
+poisons, but does have a chance to work on even the most powerful of
+poisons.  Diamond body is also effective in downgrading the effect of
+certain ice/cold based spells such as chill touch.
+~
+
+-1 'SKILL_HANDS OF MULTITUDE'~
+This skill's only use is when combined with two or more of the monk
+"hands" skills (hands of energy, hands of fire, hands of ice, hands of acid,
+and hands of draining).  It allows a monk to overcome the normal restriction
+of only having one of these skills active at a time.  There is no special
+keyword needed to activate this skill.  Rather, it simply works when a monk
+with one "hands" skill already active attempts to add a second.  There is no
+limit on the amount of "hands" skills that can be activated at one time,
+though each successive skill has a shorter duration and is more difficult to
+add.  If a second (or further) skill is not successfully added, all active
+"hands" skills are immediately canceled.
+~
+
+-1 'SKILL_ROUNDHOUSE KICK'~
+Syntax: use roundhouse <victim>
+
+Roundhouse kick is a kick attack that inflicts greater damage upon one's
+opponent than a standard kick (see 'help kick').  As with a normal kick,
+roundhouse is an extra combat attack that requires a keyword to use.  Unlike
+normal kicks, however, roundhouse takes longer to recover from.  In
+addition, characters may not attempt a roundhouse unless they are fighting
+without any weapon, shield, held item, or armor (though non-armor equipment
+and clothing may be worn).  It is not necessary to know the kick skill in
+order to learn roundhouse kick.
+~
+
+-1 'SKILL_FADE'~
+Fade is the ability of the monk to draw upon his or her ki forces to
+briefly phase out of reality.  This skill allows weapons and attacks that
+would have otherwise made contact and dealt damage to simply pass right
+through the character leaving him or her unharmed.  Unlike other monk
+skills, fade will work regardless of what the monk may be carrying or
+wearing.  Fade works automatically and does not require a command word.
+~
+
+-1 'SKILL_FLURRY OF FISTS'~
+Much like the advanced hand to hand combat techniques (hand to hand 2, 3,
+4, and 5), flurry of fists is an advanced form of hand to hand combat
+employed by monks.  Flurry of fists allows the character to strike his or
+her opponent an additional time each combat round.  It also increases the
+amount of damage that each successful unarmed strike does.  In order for
+flurry of fists to be effective, the character cannot be wielding a weapon,
+cannot be using a shield, cannot be holding anything in his or her hand, and
+cannot be wearing any armor (though other non-armor clothing pieces are
+fine).
+In addition, a character striking with flurry of fists has a chance to speed
+his or her attacks up so fast that the character receives a full set of
+additional attacks in the round.  In other words, the character's total
+amount of strikes could double, or even more as the new set of strikes carry
+with them yet another chance for a lightning fast flurry.  This power makes
+flurry of fists the most powerful skill available to the monk.
+~
+
+
+-1 'SKILL_THIRD WIELD' 'SKILL_FOURTH WIELD' THIRD FOURTH~
+Syntax: third  <weapon>
+Syntax: fourth <weapon>
+
+Third wield, and Fourth are skills that allow a player to wield
+a weapon in their third or fourth hands as well if their
+race has them. The extra weapons must each weigh less the the weapon
+that is held in the primary hand.
+~
+
+-1 'SKILL_CLIMBING' climb~
+Syntax: climb <direction>
+        use climbing <direction>
+
+This command is used to attempt to climb in the desired direction.  Certain
+exits require skill in climbing or a rope in a character's inventory to pass.
+Flying characters can often pass through these exits without climbing as well.
+If a character is able to pass through a climb exit, his or her pet will go 
+along as well, being assisted by the character.  Other characters or creatures
+cannot be assisted, however. Success in climbing is not guaranteed, and the 
+climbing character does risk falling down and being injured.
+~
+
+-1 'SKILL_SHAPECHANGE'~
+Syntax: use shapechange wolfs
+Syntax: use shapechange bear
+Syntax: use shapechange <race>
+Syntax: use shapechange none
+
+The ability to shapechange into various forms is one of the most unique
+skills available to the druid.  There are three levels of this skill.
+By purchasing any one of the three levels, the druid gains the ability to
+shapechange into a wolf.  Upon purchase of two levels of this skill, the
+druid can choose between wolf form and bear form.  Upon purchase of all
+three levels, the druid can shapechange into any race listed in 'help
+shapechange races'.  In addition, upon purchase of all three levels of
+this skill, the druid's shapechange no longer has a duration.  Instead, it
+will last until canceled via the 'shapechange none' command or upon
+death.
+
+'use shapechange none' will revert the druid to his or her natural form.
+~
+
+-1 'SKILL_CONCENTRATION'~
+This skill is similar to meditation, but relies on the concentration and
+mantras to increase psi points recovery when the character is sleeping or
+resting. Meditation works automatically.  It does not require any command
+word.
+~
+
+-1 'SKILL_REPAIR'~
+Syntax: use repair <object>
+
+This skill allows to repair worn items such as armors and weapons.  It
+doesn't require any components or special material.
+~
+
+-1 'SKILL_FORGE'~
+Syntax: use forge <weapon>
+
+This skill is used to weighten mace-like weapons, after that they have a
+chance to do more damage.
+~
+
+-1 'SKILL_VORPALIZE'~
+Syntax: use vorpalize <weapon>
+
+This skill transforms any sharped weapon in a deadly weapon.
+~
+
+-1 'SKILL_REARKICK'~
+Syntax: use rearkick [<victim>]
+
+This skill, unique to centaur, allows them give a kick with their rear legs.
+~
+
+-1 'SKILL_FREEFLEE'~
+Consider by some to be a cowardly skill, freeflee gives the clever combatant
+a chance to flee his opponent without losing any experience points.
+~
+
+-1 'SKILL_SHARPEN'~
+Syntax: use sharpen <weapon>
+
+This skill is used to make better sharpeness of daggers and sword. They then
+do more damage.
+~
+
+-1 'SKILL_BREW'~
+Syntax: brew <component> [<component>] [<component>] [<component>]
+
+Brew is used to create potions.  In order to create a potion, one must first
+collect potion components.  Potion components are objects that can be brewed
+into a potion.  Between one and four potion components may be used to brew
+a potion.  Potion brewing can be dangerous, however.  Some components are
+unstable and cause explosions when brewed.  Also, a single potion cannot
+contain more than four spells.  If a variety of components is used that
+results in a potion with more than four spells, the entire mix will explode,
+injuring the brewer.  Note that not every spell possible from each component
+will necessarily make it into the potion.  Note further that multiple
+components that produce the same spell increase your chance of getting that
+spell into your potion.  Enchanters are innately better at this skill than
+most other classes.
+~
+
+0 $~
+#$

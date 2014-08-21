@@ -1,0 +1,725 @@
+#Style Circle
+#AREADATA
+Name River Island of Minos~
+Builders Mahatma~
+VNUMs 900 999
+Credits {{None}  CAW    River Island of Minos~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#900
+homba~
+the homba~
+The homba flits about.
+~
+   Part kestrel, part bear, part wolf.  Parts is parts, and makes an ugly whole.
+
+~
+bdflm bdgkp -100 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#901
+swordsman~
+the swordsman~
+The greatest swordsman in the land is standing here with a sneer on his face.
+~
+   This is the ultimate swordsman.  
+~
+bdflm dkp -400 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#902
+mummy rabscuttle~
+the Mummy of Rabscuttle~
+The Mummy of Rabscuttle wanders here, hands aloft, walking towards you.
+~
+   All bandages, no personality.  
+~
+bdflm dkp -780 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 0
+E
+#903
+lizard giant~
+the giant lizard~
+A giant lizard is here.
+~
+   This scaly creature looks like it is well adapted to its underground habitat.
+He looks very powerful.  
+~
+bdflm dkp 100 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#904
+woundwort general demon~
+General Woundwort~
+General Woundwort, the dark demon of Minos, awaits to maul you to shreds.
+~
+   He looks vaguely like a rabbit, but sure doesn't act like one.  
+~
+bdflm dhkp -1000 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#905
+franz henchman~
+Franz the Henchman~
+Franz, Minos' henchman, is here ready to pump you up.
+~
+   Franz is no girlie man.  He is very muscular and looks as if he could squeeze
+your head like a grapefruit.  
+~
+bdflm dhkp -300 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#906
+hanz henchman~
+Hanz the Henchman~
+Hanz is here flexing his muscles and squeezing grapefruits.
+~
+   Hanz is no girlie man.  He is very muscular and looks as if he could lift a
+large dragon.  
+~
+bdflm dhkp -300 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#907
+minos king minotaur~
+King Minos the Minotaur~
+King Minos the Minotaur is ready and waiting to gore you to death.
+~
+   He smells something awful.  
+~
+bdflmnoq dfhkp -1000 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#908
+turtle dragon~
+the dragon turtle~
+A large dragon turtle breaks the surface churning the water into huge waves.
+~
+   The turtle's shell is the size of a small house and looks as hard as rock.  
+~
+dfgq dkp -200 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#909
+hag sea~
+the sea hag~
+You notice the face of an ugly hag in the sea weeds.
+~
+   The sea hag is terribly fightful and has razor sharp teeth.  
+~
+dfg dkp -700 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 2
+E
+#910
+merman~
+the merman~
+There is a merman swimming here brandishing his trident at you!
+~
+   The merman has a powerful tail fin instead of legs.  
+~
+bdflmnoq dkpst 350 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#911
+crab crusty~
+the crusty crab~
+A crusty looking crab is crawling around here searching for food.
+~
+   It looks like a crab...  What more can be said?  
+~
+dfghq dkp 0 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 0
+E
+#0
+
+#OBJECTS
+
+#900
+key golden heavy~
+a golden key~
+A heavy golden key lies here.~
+~
+18 c ao 0
+900 0 0 0
+1 1 0 0
+#901
+shield minotaur~
+a dark minotaur shield~
+A dark minotaur shield has been left here.~
+~
+9 dgh aj 0
+10 0 0 0
+12 500 135 0
+E
+shield minotaur~
+   A strong, sturdy shield.  It brings to mind legends of a shield that provided
+protection from poisonous gases.  
+~
+A
+23 -2
+#902
+potion speckled~
+a speckled potion~
+A speckled potion speckles here.~
+~
+10 g a 0
+15 15 15 15
+2 130 50 0
+#903
+gauntlets troll~
+a pair of troll gauntlets~
+A pair of gauntlets made from troll skin lie on the ground.~
+~
+9 g ah 0
+5 0 0 0
+8 200 135 0
+#904
+ring platinum~
+a platinum ring~
+A shining ring of platinum lies here.  It has a tiny inscription.~
+~
+1 agh abo 0
+0 0 -1 0
+1 200 550 0
+E
+ring platinum inscription~
+   The inscription on the ring reads:
+
+Cursed be the gods that supply coins to mortals!
+And cursed be the mortal that accepts valuable gifts from the gods!
+Especially cursed are those who do not leave the toilet seat up!
+
+~
+A
+17 10
+A
+18 2
+#905
+flail~
+a flail~
+A flail has been carelessly left here.~
+~
+5 fgh an 0
+0 3 4 7
+8 500 350 0
+A
+19 2
+#906
+coins gold treasure~
+a great pile of treasure~
+A great, gleaming pile of treasure lies at your feet.~
+~
+20 0 a 0
+43500 0 0 0
+20 1 0 0
+#907
+spear heavy~
+a heavy spear~
+A heavy spear has been tossed on the ground here.~
+~
+5 0 an 0
+0 1 7 11
+8 450 200 0
+A
+19 1
+#908
+trident~
+a trident~
+There is a warrior's trident here.~
+~
+5 0 an 0
+0 2 4 11
+8 350 200 0
+E
+trident~
+   This is a common trident, often used by gladiators or mermen.  It has three
+sharp prongs jutting from the business end and a smooth wooden handle with two
+comfortable grip points.  
+~
+#909
+boots boat~
+a pair of boots~
+A pair of boots sit here in a puddle of water.~
+~
+22 deq ag 0
+0 0 0 0
+1 500 185 0
+E
+boots boat~
+   The boots are made of a strange lightweight hide and float in a puddle of
+water.  
+~
+A
+14 -20
+#0
+
+#ROOMS
+
+#900
+On The Swift Flowing River~
+   As the river exits the city of Midgaard it picks up speed and whisks
+you along high banks flanked by the trees of Haon-Dor.  As the city
+fades in the east, you approach a gloomy forest to the west.
+~
+9 0 7
+D1
+~
+~
+0 -1 3200
+D3
+~
+~
+0 -1 901
+S
+#901
+The Riverbank~
+   The river is deep, and runs swiftly in an east-west direction.  To the
+north the river eddies and enters a backwash where a small bank extends
+down from a dark, thick stand of trees.  It doesn't look particulary
+inviting however.
+~
+9 0 7
+D0
+~
+~
+0 -1 6120
+D1
+~
+~
+0 -1 900
+D3
+~
+~
+0 -1 902
+S
+#902
+The Twisty Part Of The River~
+   The river twists and turns and nearly tosses you out of your boat.
+The water is dark, cold, almost reptilian in sheen.  It seems almost
+alive.  The river runs east and south.
+~
+9 0 7
+D1
+~
+~
+0 -1 901
+D2
+~
+~
+0 -1 903
+S
+#903
+The Scenic Route~
+   The dark forest of Haon-Dor recedes behind you to the northeast.
+The river continues in a westerly direction toward the river delta,
+where you can just make out a large island.
+~
+9 0 7
+D1
+~
+~
+0 -1 902
+D3
+~
+~
+0 -1 904
+S
+#904
+The Swift River Delta~
+   You are at the edge of the river delta, where the river empties
+out on its way to the sea.  The water here is Black.  Deep.  Dark.
+Deadly.  The tidal waves sweep you around and around up and down.
+~
+9 0 7
+D0
+~
+~
+0 -1 911
+D1
+~
+~
+0 -1 903
+D2
+~
+~
+0 -1 906
+D3
+~
+~
+0 -1 905
+S
+#905
+Near The Rocks~
+   You bob up and down in the waves comming dangerously close to some
+large, jagged rocks on the eastern shore of an unusual looking island.
+There is no way you could possibly land there without getting killed.
+~
+9 0 7
+D1
+~
+~
+0 -1 904
+D2
+~
+~
+0 -1 906
+S
+#906
+The South River Delta~
+   You are making your way along a channel in the river delta between
+the island to the west and the shore to the south and east.  To the
+south an aging broken down looking pier juts out from land and toward
+the west the channel works it way close to the island as it moves around
+its southern tip.
+~
+9 0 7
+D0
+~
+~
+0 -1 905
+D1
+~
+~
+0 -1 904
+D2
+~
+~
+0 -1 907
+D3
+~
+~
+0 -1 908
+S
+#907
+The Pier~
+   You float next to a crumbling pier long since neglected.
+To the west the water gets sluggish and there are many weeds and
+some seaweed floating about.
+~
+9 0 7
+D0
+~
+~
+0 -1 906
+D3
+~
+~
+0 -1 908
+S
+#908
+Mired In Seaweed~
+   The going is rough here.  The tide struggles with the normal flow
+of the river and here near the edge of the sea there is a large
+amount of growth.  To the west the channel passes the southern tip of
+the island and heads for open waters.
+~
+9 0 7
+D0
+~
+~
+0 -1 906
+D1
+~
+~
+0 -1 907
+D3
+~
+~
+0 -1 909
+S
+#909
+The Last Stop~
+   The delta meets the sea here.  To the west you see nothing but
+ocean on the horizon.  Sea birds squawk noisily at your approach
+and take flight from a nearby beach head on the island.  It looks
+as though this could be the last stop for those heading out to sea.
+~
+9 0 7
+D0
+~
+~
+0 -1 910
+D1
+~
+~
+0 -1 908
+S
+#910
+The Beach Head~
+   This is a secluded looking beach on the southern tip of the island.
+There isn't much to see here and there is no way to cross the steep
+rocky cliffs that wall in this place.
+~
+9 0 2
+D2
+~
+~
+0 -1 909
+S
+#911
+The North Channel~
+   The river splits as runs up against the island and a navigatble
+channel slips off to the north and west.
+~
+9 c 7
+D0
+~
+~
+0 -1 912
+D2
+~
+~
+0 -1 904
+D3
+~
+~
+0 -1 912
+S
+#912
+The North Channel~
+   The river current carries you swiftly westward as the channel
+begins to narrow as it squeezes past the north end of the island.
+~
+9 0 7
+D1
+~
+~
+0 -1 911
+D2
+~
+~
+0 -1 911
+D3
+~
+~
+0 -1 913
+S
+#913
+Near The Isle~
+   You are sitting just off a small landing on the island that
+appears to be nothing more than a short path that leads to the
+side of a hill.
+~
+9 c 7
+D1
+~
+~
+0 -1 912
+D2
+~
+~
+0 -1 914
+S
+#914
+The Lane Of The Lying~
+   Bodies lie everywhere.  Commoner, peasant, duke, duchess.  The Gods
+will not hear you call here.  Hence they will not answer you.  To the
+south the path ends at a dark cave entrance.
+A sign has been posted beside the entrance.
+~
+9 0 1
+D0
+~
+~
+0 -1 913
+D2
+~
+~
+0 -1 915
+E
+sign cave~
+   A sign beside the dark cave opening reads:
+
+   WARNING! Only fools and dead people pass this way.
+The tests of Minos, our glorious ruler, await.
+~
+S
+#915
+The First Trial Of Minos~
+   Ah... you find yourself in Minos' battlefield playground.  
+Minos loves to torture his people through these places.  He
+collects the monsters of the world and puts them here.
+~
+9 ad 1
+D1
+~
+~
+0 -1 916
+S
+#916
+The Second Trial Of Minos~
+   Minos' voice reveberates from the four walls of this room:
+'Get some rest and make sure you're healed.  You'll need it for
+the next monster in my playground.  Or are you strong enough?'
+   To the south is the entrance to the next challenge of Minos'
+stronghold.
+~
+9 ad 1
+D2
+~
+~
+0 -1 917
+S
+#917
+The Third Trial Of Minos~
+   You go inside a red room.  Very red.  As if the Minos King used
+them to disembowel his guests.  The path continues eastward.  You
+see blue lights in that direction.
+~
+9 ad 0
+D1
+~
+~
+0 -1 918
+S
+#918
+The Fourth Trial Of Minos~
+   Minos must be a monster hacking machine.  You see a blue light
+flicker on and off.  A voice crackles, 'WHY ARE YOU HERE!'
+~
+9 ad 0
+D2
+~
+~
+0 -1 919
+S
+#919
+The Fifth Trial Of Minos~
+   This is General Woundwort's quarters.  Hraka abound.  The frayed
+corpses of rabbits lie scattered about this hell-hole.  The General
+is not a very neat person as you can tell.
+~
+9 ad 0
+D1
+~
+~
+0 -1 920
+S
+#920
+The Sixth Trial Of Minos~
+   Dare we surmise how many more rooms Minos has?  The paths appear to be
+endless.  You shudder the sounds of death cries from the east.  A loud
+voice bellows another warning: 'Leave now or face my wrath!'
+There is a crawlway leading upwards at the far end of the room and
+there is a fresh breeze comming from there.
+~
+9 ad 0
+D2
+~
+~
+0 -1 921
+D4
+~
+~
+0 -1 923
+S
+#921
+The Final Trial Of Minos~
+   This is Minos' room.  What else did you expect?  The room is lavishly
+decorated for this bovine king.  Everything is so opulent that it makes
+your eyes bulge.  Survive and reap his fortune!  The only exit is a large
+oak door in the east wall.
+~
+9 ad 0
+D1
+You see a rather large oak door bound with iron and securely locked.
+~
+door oak~
+2 900 922
+S
+#922
+The Royal Chamber~
+   The treasure room of Minos is dark save for your lantern.
+Hopefully it has not been looted yet by the many legendary thieves
+of Midgaard.  A clever looking secret passage leads upward from here.
+~
+9 adj 0
+D4
+~
+~
+0 -1 910
+S
+#923
+Above, On The Beach~
+   You sit amongst the rocks above a small beach at the southern
+end of the island.  You could clamber down easy enough, but getting
+back up would be another story.
+~
+9 0 4
+D5
+~
+~
+0 -1 910
+S
+#0
+
+#RESETS
+M 0 900 3 915 	(the homba)
+M 0 900 3 915 	(the homba)
+M 0 900 3 915 	(the homba)
+M 0 901 2 916 	(the swordsman)
+E 1 901 15 17 	(a dark minotaur shield)
+M 0 901 2 916 	(the swordsman)
+M 0 902 1 917 	(the Mummy of Rabscuttle)
+M 0 903 1 918 	(the giant lizard)
+M 0 904 1 919 	(General Woundwort)
+E 1 903 10 9 	(a pair of troll gauntlets)
+E 1 902 25 17 	(a speckled potion)
+M 0 905 1 920 	(Franz the Henchman)
+E 1 905 10 16 	(a flail)
+M 0 906 1 920 	(Hanz the Henchman)
+E 1 907 5 16 	(a heavy spear)
+M 0 907 1 921 	(King Minos the Minotaur)
+E 1 901 8 11 	(a dark minotaur shield)
+E 1 900 1 17 	(a golden key)
+O 1 904 10 922 	(a platinum ring)
+O 1 906 1 922 	(a great pile of treasure)
+M 0 909 2 908 	(the sea hag)
+M 0 909 2 908 	(the sea hag)
+M 0 910 2 909 	(the merman)
+E 1 908 30 16 	(a trident)
+M 0 910 2 909 	(the merman)
+E 1 908 30 16 	(a trident)
+M 0 911 3 910 	(the crusty crab)
+M 0 911 3 910 	(the crusty crab)
+R 0 910 909 -1 	(a pair of boots)
+O 0 909 12 910 	(a pair of boots)
+D 0 921 1 2 	(The Final Trial Of Minos)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

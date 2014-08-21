@@ -1,0 +1,135 @@
+Player 'Boudino' {
+  Id = 1068120175;
+  Version = 11;
+  LogO = 1068123509;
+  Race = 'drow';
+  Sex = 'male';
+  Size = 'medium';
+  DamType = 'punch';
+  Immunities = ('none');
+  Resistances = ('magic');
+  Vulnerabilities = ('disease', 'light');
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye', 'body');
+  AfBy = ('detect_magic', 'infrared', 'dark_vision');
+  AfBy2 = ('increased_casting');
+  Classes = ('air-elementalist');
+  isWildMagic = false;
+  Level = 25;
+  Experience = 41250;
+  Act = ('autoexit', 'autotitle', 'autohaggle', 'nosummon', 'colour');
+  Comm = ('prompt', 'combine');
+  Position = 'standing';
+  Attr = ( 17, 24, 19, 23, 17 );
+  ACs = ( 100, 100, 100, 100 );
+  HMVP = (  ( 257 ),  ( 640, 702 ),  ( 251 ),  ( 197 ) );
+  Alignment = -750;
+  Etho = 'chaotic';
+  Room = 3050;
+  Prompt = '{c<%h/%HHp %m/%MMn %p/%PPsp %v/%VMv %XNxt %b>{x';
+  Played = 1657;
+  Scroll = 48;
+  Prac = 274;
+  Train = 78;
+  LastLevel = 0;
+  Password = 'broluxes';
+  Address = '127.0.0.1';
+  LineMode = 0;
+  Language = 'underdish';
+  Beacons = ( 0, 0, 0 );
+  God = 'Dulac';
+  NameAccepted = false;
+  Hometown = 'Midgaard';
+  Boards = (( 'General', 0),
+            ( 'Welcome', 0),
+            ( 'Ideas', 0),
+            ( 'Announce', 0),
+            ( 'Bugs', 0),
+            ( 'Personal', 0),
+            ( 'Penalties', 0),
+            ( 'Immortals', 0));
+  Title = 'the Man';
+  Condition = ( 0, 0, 22, 22 );
+  Trivia = 0;
+  Faction = ( 'Neutral', 0 );
+  Faction = ( 'Elf', 0 );
+  Faction = ( 'Under', 0 );
+  Faction = ( 'Dwarf', 0 );
+  Faction = ( 'Gnome', 0 );
+  Faction = ( 'Giant', 0 );
+  Faction = ( 'Goblin', 0 );
+  Faction = ( 'Undead', 0 );
+  Faction = ( 'Common', 0 );
+  Faction = ( 'Dragon', 0 );
+  Faction = ( 'Animal', 0 );
+  Faction = ( 'notYetClassed', 0 );
+  Pnts = 40;
+  Ability = ( 40, 0, 0, 'dagger' );
+  Ability = ( 1, 0, 0, 'dodge' );
+  Ability = ( 1, 1, 0, 'meditation' );
+  Ability = ( 1, 0, 0, 'scrolls' );
+  Ability = ( 1, 0, 0, 'staves' );
+  Ability = ( 1, 0, 0, 'wands' );
+  Ability = ( 50, 0, 0, 'recall' );
+  Ability = ( 1, 1, 0, 'riding' );
+  Ability = ( 1, 0, 0, 'study' );
+  Ability = ( 75, 0, 0, 'cancellation' );
+  Ability = ( 75, 1, 0, 'chill touch' );
+  Ability = ( 1, 0, 0, 'continual light' );
+  Ability = ( 1, 0, 0, 'create water' );
+  Ability = ( 1, 0, 0, 'detect evil' );
+  Ability = ( 1, 0, 0, 'detect good' );
+  Ability = ( 1, 0, 0, 'detect hidden' );
+  Ability = ( 1, 0, 0, 'detect invis' );
+  Ability = ( 1, 0, 0, 'detect magic' );
+  Ability = ( 1, 0, 0, 'detect poison' );
+  Ability = ( 75, 1, 0, 'faerie fire' );
+  Ability = ( 1, 1, 0, 'faerie fog' );
+  Ability = ( 1, 1, 0, 'floating disc' );
+  Ability = ( 75, 0, 0, 'giant strength' );
+  Ability = ( 75, 0, 0, 'identify' );
+  Ability = ( 1, 0, 0, 'infravision' );
+  Ability = ( 75, 0, 0, 'invisibility' );
+  Ability = ( 1, 0, 0, 'know alignment' );
+  Ability = ( 75, 1, 0, 'magic missile' );
+  Ability = ( 1, 0, 0, 'portal' );
+  Ability = ( 1, 0, 25, 'decay corpse' );
+  Ability = ( 1, 1, 0, 'vacuum' );
+  Ability = ( 100, 0, 10, 'reckless dweomer' );
+  Group = 'rom basics';
+  Group = 'mage basics';
+  Group = 'mage default';
+  Gset = 1;
+  Security = 0;
+  ExField = ( 'bannedShop', 'list', -1, () );
+  ExField = ( 'questcomplete', 'int', -1, 0 );
+  ExField = ( 'onquest', 'int', -1, 0 );
+  ExField = ( 'questobjloc', 'int', -1, 0 );
+  ExField = ( 'questmob', 'entity', -1, '<NULL>' );
+  ExField = ( 'questobj', 'entity', -1, '<NULL>' );
+  ExField = ( 'countdown', 'int', -1, 0 );
+  ExField = ( 'nextquest', 'int', -1, 0 );
+  ExField = ( 'questpoints', 'int', -1, 0 );
+  ExField = ( 'questgiver', 'entity', -1, '<NULL>' );
+  Obj 3716 {
+    Cost = 0;
+    WearLoc = 'light';
+  }
+  Obj 3703 {
+    WearLoc = 'body';
+  }
+  Obj 3701 {
+    WearLoc = 'wielded';
+  }
+  Obj 3704 {
+    WearLoc = 'shield';
+  }
+  Obj 3162 {
+  }
+  Obj 3723 {
+    WearLoc = 'floating';
+  }
+  Obj 3715 {
+    WearLoc = 'hold';
+  }
+}

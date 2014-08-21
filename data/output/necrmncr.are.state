@@ -1,0 +1,958 @@
+AreaState 'Necromancer Island' {
+  Room 12002 {
+    Obj 12000 {
+    }
+    Obj 12001 {
+    }
+  }
+  Room 12006 {
+    Obj 12002 {
+    }
+  }
+  Room 12010 {
+    Mobile 12013 {
+      Ptr = 183208224;
+      Desc = '';
+      AfBy = ('invisible', 'flying');
+      HMVP = (  ( 2450 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 5;
+      Silver = 334;
+      Room = 12010;
+      Affect = ( 'haste', -1, 80, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Obj 12000 {
+    }
+    Obj 12003 {
+    }
+  }
+  Room 12012 {
+    Mobile 12001 {
+      Ptr = 183207640;
+      HMVP = (  ( 13654 ),  ( 570 ),  ( 100 ),  ( 586 ) );
+      Gold = 8;
+      Silver = 764;
+      Room = 12012;
+    }
+  }
+  Room 12014 {
+    Mobile 12000 {
+      Ptr = 187453440;
+      HMVP = (  ( 11666 ),  ( 504 ),  ( 100 ),  ( 509 ) );
+      Gold = 11;
+      Silver = 396;
+      Room = 12014;
+    }
+    Mobile 12000 {
+      Ptr = 192971920;
+      HMVP = (  ( 11672 ),  ( 469 ),  ( 100 ),  ( 499 ) );
+      Gold = 8;
+      Silver = 247;
+      Room = 12014;
+    }
+  }
+  Room 12016 {
+    Mobile 12000 {
+      Ptr = 188451104;
+      HMVP = (  ( 11647 ),  ( 516 ),  ( 100 ),  ( 495 ) );
+      Gold = 12;
+      Silver = 140;
+      Room = 12016;
+    }
+  }
+  Room 12020 {
+    Mobile 12004 {
+      Ptr = 183205888;
+      Desc = '';
+      AfBy = ('invisible', 'sanctuary', 'flying');
+      HMVP = (  ( 13167 ),  ( 615 ),  ( 100 ),  ( 594 ) );
+      Gold = 8;
+      Silver = 437;
+      Room = 12020;
+      Affect = ( 'haste', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 12022 {
+    Mobile 12005 {
+      Ptr = 183206472;
+      HMVP = (  ( 14847 ),  ( 674 ),  ( 100 ),  ( 631 ) );
+      Room = 12022;
+      Affect = ( 'sanctuary', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 12004 {
+      Ptr = 185329952;
+      Desc = '';
+      AfBy = ('invisible', 'sanctuary', 'flying');
+      HMVP = (  ( 13154 ),  ( 615 ),  ( 100 ),  ( 604 ) );
+      Gold = 13;
+      Silver = 105;
+      Room = 12022;
+      Affect = ( 'haste', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 12023 {
+    Mobile 12005 {
+      Ptr = 189003480;
+      HMVP = (  ( 14883 ),  ( 664 ),  ( 100 ),  ( 610 ) );
+      Room = 12023;
+      Affect = ( 'sanctuary', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 12025 {
+    Mobile 12005 {
+      Ptr = 188450520;
+      HMVP = (  ( 14922 ),  ( 667 ),  ( 100 ),  ( 703 ) );
+      Room = 12025;
+      Affect = ( 'sanctuary', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 12005 {
+    }
+  }
+  Room 12028 {
+    Mobile 12004 {
+      Ptr = 187458120;
+      Desc = '';
+      AfBy = ('invisible', 'sanctuary', 'flying');
+      HMVP = (  ( 13135 ),  ( 642 ),  ( 100 ),  ( 588 ) );
+      Gold = 18;
+      Silver = 119;
+      Room = 12028;
+      Affect = ( 'haste', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 12007 {
+      Ptr = 185328784;
+      HMVP = (  ( 13659 ),  ( 590 ),  ( 100 ),  ( 608 ) );
+      Gold = 14;
+      Silver = 791;
+      Room = 12028;
+      Affect = ( 'sanctuary', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 12012 {
+      Ptr = 183212904;
+      Desc = '';
+      AfBy = ('invisible', 'sanctuary', 'flying', 'regeneration');
+      HMVP = (  ( 5525 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 25;
+      Silver = 2411;
+      Room = 12028;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 12010 {
+      }
+    }
+  }
+  Room 12029 {
+    Mobile 12011 {
+      Ptr = 189722032;
+      Desc = '';
+      AfBy = ('invisible', 'flying');
+      HMVP = (  ( 5020 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 66;
+      Silver = 2331;
+      Room = 12029;
+      Affect = ( 'haste', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12007 {
+      Ptr = 194366896;
+      HMVP = (  ( 13694 ),  ( 616 ),  ( 100 ),  ( 636 ) );
+      Gold = 22;
+      Silver = 610;
+      Room = 12029;
+      Affect = ( 'sanctuary', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 12003 {
+      Ptr = 183211152;
+      AfBy = ('infrared', 'regeneration');
+      HMVP = (  ( 12373 ),  ( 590 ),  ( 100 ),  ( 572 ) );
+      Gold = 6;
+      Silver = 327;
+      Room = 12029;
+      Affect = ( 'haste', -1, 82, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Obj 12009 {
+    }
+  }
+  Room 12031 {
+    Mobile 12007 {
+      Ptr = 183211736;
+      HMVP = (  ( 13707 ),  ( 680 ),  ( 100 ),  ( 666 ) );
+      Gold = 23;
+      Silver = 803;
+      Room = 12031;
+      Affect = ( 'sanctuary', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 12032 {
+    Mobile 12024 {
+      Ptr = 190294304;
+      Desc = '';
+      HMVP = (  ( 4770 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12032;
+      Affect = ( 'sanctuary', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 12003 {
+      Ptr = 189720280;
+      AfBy = ('infrared', 'regeneration');
+      HMVP = (  ( 12380 ),  ( 529 ),  ( 100 ),  ( 522 ) );
+      Gold = 9;
+      Silver = 422;
+      Room = 12032;
+      Affect = ( 'haste', -1, 82, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of a phantom horde';
+      Desc = 'The corpse of a phantom horde is lying here.';
+      Level = 105;
+      Values = ( 12024, 0, 131072, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 10 {
+      ShD = 'the corpse of a phantom horde';
+      Desc = 'The corpse of a phantom horde is lying here.';
+      Level = 105;
+      Values = ( 12024, 0, 131072, 1, 0 );
+      Timer = 4;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 12033 {
+    Mobile 12002 {
+      Ptr = 183209984;
+      HMVP = (  ( 13702 ),  ( 650 ),  ( 100 ),  ( 591 ) );
+      Room = 12033;
+      Affect = ( 'sanctuary', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 12006 {
+      }
+    }
+  }
+  Room 12034 {
+    Mobile 12010 {
+      Ptr = 190293720;
+      AfBy = ('sanctuary', 'flying');
+      HMVP = (  ( 17700 ),  ( 719 ),  ( 100 ),  ( 670 ) );
+      Gold = 17;
+      Silver = 1673;
+      Room = 12034;
+      Affect = ( 'haste', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 12003 {
+      Ptr = 192970752;
+      AfBy = ('infrared', 'regeneration');
+      HMVP = (  ( 12394 ),  ( 581 ),  ( 100 ),  ( 579 ) );
+      Gold = 9;
+      Silver = 218;
+      Room = 12034;
+      Affect = ( 'haste', -1, 82, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12006 {
+      Ptr = 183213488;
+      HMVP = (  ( 13843 ),  ( 670 ),  ( 100 ),  ( 649 ) );
+      Gold = 20;
+      Silver = 559;
+      Room = 12034;
+      Affect = ( 'sanctuary', -1, 97, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Mobile 12009 {
+      Ptr = 183221680;
+      Desc = '';
+      AfBy = ('sanctuary', 'flying');
+      HMVP = (  ( 16738 ),  ( 720 ),  ( 100 ),  ( 680 ) );
+      Gold = 6;
+      Silver = 134;
+      Room = 12034;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 12008 {
+    }
+    Obj 10 {
+      ShD = 'the corpse of the bartender';
+      Desc = 'The corpse of the bartender is lying here.';
+      Level = 105;
+      Values = ( 12010, 1280, 131072, 1, 0 );
+      Timer = 4;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '1089 silver coins and 28 gold coins';
+        Weight = 29;
+        Cost = 3889;
+        Values = ( 1089, 28, 0, 0, 0 );
+      }
+    }
+  }
+  Room 12035 {
+    Mobile 12008 {
+      Ptr = 183220512;
+      HMVP = (  ( 13712 ),  ( 590 ),  ( 100 ),  ( 579 ) );
+      Gold = 37;
+      Silver = 1095;
+      Room = 12035;
+      Obj 12007 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 12036 {
+    Mobile 12003 {
+      Ptr = 190946736;
+      AfBy = ('infrared', 'regeneration');
+      HMVP = (  ( 12356 ),  ( 565 ),  ( 100 ),  ( 564 ) );
+      Gold = 6;
+      Silver = 599;
+      Room = 12036;
+      Affect = ( 'haste', -1, 82, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12003 {
+      Ptr = 193524880;
+      AfBy = ('infrared', 'regeneration');
+      HMVP = (  ( 12409 ),  ( 578 ),  ( 100 ),  ( 559 ) );
+      Gold = 5;
+      Silver = 507;
+      Room = 12036;
+      Affect = ( 'haste', -1, 82, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12016 {
+      Ptr = 183219344;
+      Desc = '';
+      DamType = 'pound';
+      HMVP = (  ( 5301, 5051 ),  ( 100, 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12036;
+      Affect = ( 'sanctuary', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 12029 {
+        WearLoc = 'waist';
+      }
+    }
+    Mobile 12015 {
+      Ptr = 183219928;
+      Desc = '';
+      DamType = 'pierce';
+      HMVP = (  ( 1403 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12036;
+      Affect = ( 'sanctuary', -1, 55, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 12038 {
+    Mobile 12034 {
+      Ptr = 183218760;
+      AfBy = ('detect_invis', 'sanctuary');
+      HMVP = (  ( 16733 ),  ( 661 ),  ( 100 ),  ( 747 ) );
+      Room = 12038;
+      Affect = ( 'protection good', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 12040 {
+    Mobile 12033 {
+      Ptr = 183218176;
+      Desc = '';
+      AfBy = ('sanctuary', 'flying');
+      HMVP = (  ( 19277 ),  ( 14070 ),  ( 100 ),  ( 0 ) );
+      Room = 12040;
+      Affect = ( 'protection good', -1, 120, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 120, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 120, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 12042 {
+    Mobile 12030 {
+      Ptr = 190293136;
+      Desc = '';
+      AfBy = ('none');
+      HMVP = (  ( 24818 ),  ( 707 ),  ( 100 ),  ( 750 ) );
+      Gold = 19;
+      Silver = 1302;
+      Room = 12042;
+      Affect = ( 'haste', -1, 115, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of the seal guardian';
+      Desc = 'The corpse of the seal guardian is lying here.';
+      Level = 115;
+      Values = ( 12030, 4612, 131271, 1, 0 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '92 silver coins and 29 gold coins';
+        Weight = 4;
+        Cost = 2992;
+        Values = ( 92, 29, 0, 0, 0 );
+      }
+    }
+    Obj 10 {
+      ShD = 'the corpse of the seal guardian';
+      Desc = 'The corpse of the seal guardian is lying here.';
+      Level = 115;
+      Values = ( 12030, 4612, 131271, 1, 0 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '1154 silver coins and 23 gold coins';
+        Weight = 30;
+        Cost = 3454;
+        Values = ( 1154, 23, 0, 0, 0 );
+      }
+    }
+  }
+  Room 12044 {
+    Mobile 12029 {
+      Ptr = 190291968;
+      Desc = '';
+      AfBy = ('flying');
+      HMVP = (  ( 24893 ),  ( 747 ),  ( 100 ),  ( 709 ) );
+      Room = 12044;
+      Affect = ( 'haste', -1, 115, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12028 {
+      Ptr = 183225192;
+      Desc = '';
+      AfBy = ('flying');
+      HMVP = (  ( 16680 ),  ( 669 ),  ( 100 ),  ( 764 ) );
+      Room = 12044;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of a spider of Ja';
+      Desc = 'The corpse of a spider of Ja is lying here.';
+      Level = 115;
+      Values = ( 12029, 32896, 132125, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 10 {
+      ShD = 'the corpse of a spider of Ja';
+      Desc = 'The corpse of a spider of Ja is lying here.';
+      Level = 115;
+      Values = ( 12029, 32896, 132125, 1, 0 );
+      Timer = 4;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 12047 {
+    Mobile 12019 {
+      Ptr = 183223440;
+      Desc = '';
+      AfBy = ('berserk');
+      HMVP = (  ( 4553 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 745;
+      Room = 12047;
+      Affect = ( 'haste', -1, 85, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12048 {
+    Mobile 12019 {
+      Ptr = 185457512;
+      Desc = '';
+      AfBy = ('berserk');
+      HMVP = (  ( 4161 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 6;
+      Silver = 599;
+      Room = 12048;
+      Affect = ( 'haste', -1, 85, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12018 {
+      Ptr = 183224024;
+      Desc = '';
+      AfBy = ('flying', 'berserk');
+      HMVP = (  ( 4378 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 70;
+      Silver = 701;
+      Room = 12048;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12051 {
+    Obj 12011 {
+    }
+  }
+  Room 12053 {
+    Mobile 12017 {
+      Ptr = 183222856;
+      Desc = '';
+      AfBy = ('flying');
+      HMVP = (  ( 4087 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12053;
+      Affect = ( 'haste', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12057 {
+    Obj 10 {
+      ShD = 'the corpse of the toxic spirit';
+      Desc = 'The corpse of the toxic spirit is lying here.';
+      Level = 115;
+      Values = ( 12014, 262144, 131072, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+    Obj 10 {
+      ShD = 'the corpse of the toxic spirit';
+      Desc = 'The corpse of the toxic spirit is lying here.';
+      Level = 115;
+      Values = ( 12014, 262144, 131072, 1, 0 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+  Room 12060 {
+    Mobile 12020 {
+      Ptr = 188454616;
+      Desc = '';
+      AfBy = ('sneak', 'flying');
+      HMVP = (  ( 4570 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 26;
+      Silver = 1170;
+      Room = 12060;
+      Affect = ( 'haste', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12062 {
+    Mobile 12020 {
+      Ptr = 183233968;
+      Desc = '';
+      AfBy = ('sneak', 'flying');
+      HMVP = (  ( 3736 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 34;
+      Silver = 55;
+      Room = 12062;
+      Affect = ( 'haste', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Obj 12012 {
+    }
+  }
+  Room 12063 {
+    Mobile 12020 {
+      Ptr = 185342824;
+      Desc = '';
+      AfBy = ('sneak', 'flying');
+      HMVP = (  ( 4001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 24;
+      Silver = 809;
+      Room = 12063;
+      Affect = ( 'haste', -1, 90, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12072 {
+    Obj 12013 {
+    }
+  }
+  Room 12077 {
+    Mobile 12022 {
+      Ptr = 192976016;
+      Desc = '';
+      AfBy = ('dark_vision', 'regeneration');
+      HMVP = (  ( 4957 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12077;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 12014 {
+      }
+    }
+  }
+  Room 12084 {
+    Mobile 12021 {
+      Ptr = 194363976;
+      Desc = '';
+      AfBy = ('flying', 'dark_vision', 'regeneration');
+      HMVP = (  ( 4094 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12084;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12021 {
+      Ptr = 183232800;
+      Desc = '';
+      AfBy = ('flying', 'dark_vision', 'regeneration');
+      HMVP = (  ( 3518 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12084;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12085 {
+    Mobile 12022 {
+      Ptr = 183233384;
+      Desc = '';
+      AfBy = ('dark_vision', 'regeneration');
+      HMVP = (  ( 4524 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12085;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 12014 {
+      }
+    }
+  }
+  Room 12086 {
+    Mobile 12025 {
+      Ptr = 183232216;
+      HMVP = (  ( 4302 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12086;
+      Obj 12023 {
+        WearLoc = 'hold';
+      }
+      Obj 12031 {
+      }
+    }
+  }
+  Room 12087 {
+    Mobile 12021 {
+      Ptr = 190941472;
+      Desc = '';
+      AfBy = ('flying', 'dark_vision', 'regeneration');
+      HMVP = (  ( 4310 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12087;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12021 {
+      Ptr = 185334048;
+      Desc = '';
+      AfBy = ('flying', 'dark_vision', 'regeneration');
+      HMVP = (  ( 4205 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12087;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12088 {
+    Mobile 12021 {
+      Ptr = 188442912;
+      Desc = '';
+      AfBy = ('flying', 'dark_vision', 'regeneration');
+      HMVP = (  ( 4049 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12088;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12095 {
+    Mobile 12022 {
+      Ptr = 198763664;
+      Desc = '';
+      AfBy = ('dark_vision', 'regeneration');
+      HMVP = (  ( 4857 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12095;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 12014 {
+      }
+    }
+    Mobile 12022 {
+      Ptr = 185342240;
+      Desc = '';
+      AfBy = ('dark_vision', 'regeneration');
+      HMVP = (  ( 4579 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12095;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 12014 {
+      }
+    }
+    Mobile 12021 {
+      Ptr = 198763080;
+      Desc = '';
+      AfBy = ('flying', 'dark_vision', 'regeneration');
+      HMVP = (  ( 3835 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12095;
+      Affect = ( 'haste', -1, 95, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12100 {
+    Obj 12019 {
+    }
+  }
+  Room 12101 {
+    Obj 12016 {
+    }
+    Obj 12018 {
+    }
+    Obj 12017 {
+    }
+  }
+  Room 12107 {
+    Mobile 12027 {
+      Ptr = 183231632;
+      Desc = '';
+      AfBy = ('detect_invis', 'flying');
+      HMVP = (  ( 3792 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12107;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+  }
+  Room 12108 {
+    Mobile 12026 {
+      Ptr = 190298984;
+      Desc = '';
+      AfBy = ('none');
+      HMVP = (  ( 4168 ),  ( 83, 0 ),  ( 100 ),  ( 0 ) );
+      Room = 12108;
+      Affect = ( 'haste', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 12024 {
+        WearLoc = 'wielded';
+      }
+      Obj 12015 {
+      }
+    }
+    Obj 10 {
+      ShD = 'the corpse of the interrogator';
+      Desc = 'The corpse of the interrogator is lying here.';
+      Level = 110;
+      Values = ( 12026, 2101377, 133119, 1, 0 );
+      Timer = 3;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 12015 {
+      }
+      Obj 12024 {
+      }
+    }
+  }
+  Room 12115 {
+    Obj 12021 {
+    }
+  }
+  Room 12121 {
+    Obj 12022 {
+    }
+  }
+  Room 12150 {
+    Mobile 12000 {
+      Ptr = 183207056;
+      HMVP = (  ( 11690 ),  ( 499 ),  ( 100 ),  ( 501 ) );
+      Gold = 6;
+      Silver = 767;
+      Room = 12150;
+    }
+  }
+  Room 12153 {
+    Mobile 12124 {
+      Ptr = 190297816;
+      Desc = '';
+      AfBy = ('flying', 'regeneration');
+      HMVP = (  ( 4761 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 135;
+      Silver = 3812;
+      Room = 12153;
+      Affect = ( 'protection good', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Mobile 12123 {
+      Ptr = 190298400;
+      Desc = '';
+      AfBy = ('flying', 'regeneration');
+      HMVP = (  ( 4422 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 73;
+      Silver = 577;
+      Room = 12153;
+      Affect = ( 'protection good', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_good') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'protection evil', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'haste', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of a stone bust';
+      Desc = 'The corpse of a stone bust is lying here.';
+      Level = 105;
+      Values = ( 12123, 516, 131072, 1, 0 );
+      Timer = 2;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '1238 silver coins and 58 gold coins';
+        Weight = 35;
+        Cost = 7038;
+        Values = ( 1238, 58, 0, 0, 0 );
+      }
+    }
+    Obj 10 {
+      ShD = 'the corpse of A bronze bust';
+      Desc = 'The corpse of A bronze bust is lying here.';
+      Level = 105;
+      Values = ( 12124, 0, 131072, 1, 0 );
+      Timer = 5;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '3996 silver coins and 61 gold coins';
+        Weight = 105;
+        Cost = 10096;
+        Values = ( 3996, 61, 0, 0, 0 );
+      }
+    }
+  }
+  Room 12156 {
+    Obj 12030 {
+    }
+  }
+  Room 12158 {
+    Mobile 12031 {
+      Ptr = 183245672;
+      Desc = '';
+      AfBy = ('flying');
+      HMVP = (  ( 5182 ),  ( 831 ),  ( 100 ),  ( 0 ) );
+      Gold = 55;
+      Silver = 418;
+      Room = 12158;
+      Affect = ( 'haste', -1, 97, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 12028 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 12159 {
+    Obj 12040 {
+    }
+  }
+  Room 12160 {
+    Mobile 12032 {
+      Ptr = 183245088;
+      Desc = '';
+      AfBy = ('sanctuary', 'flying');
+      HMVP = (  ( 12708 ),  ( 863 ),  ( 100 ),  ( 0 ) );
+      Gold = 86;
+      Silver = 3668;
+      Room = 12160;
+      Affect = ( 'haste', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 12027 {
+      }
+    }
+  }
+  Room 12161 {
+    Mobile 12122 {
+      Ptr = 190297232;
+      Desc = '';
+      AfBy = ('regeneration');
+      HMVP = (  ( 5475 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 38;
+      Silver = 3329;
+      Room = 12161;
+      Affect = ( 'haste', -1, 110, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 12026 {
+      }
+    }
+    Obj 12025 {
+    }
+    Obj 10 {
+      ShD = 'the corpse of Skinner';
+      Desc = 'The corpse of Skinner is lying here.';
+      Level = 110;
+      Values = ( 12122, 2101633, 133119, 1, 0 );
+      Timer = 4;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+      Obj 5 {
+        ShD = '763 silver coins and 26 gold coins';
+        Weight = 21;
+        Cost = 3363;
+        Values = ( 763, 26, 0, 0, 0 );
+      }
+      Obj 12026 {
+      }
+    }
+  }
+}

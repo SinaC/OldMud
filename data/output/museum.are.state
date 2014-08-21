@@ -1,0 +1,221 @@
+AreaState 'Weird Museum' {
+  Room 800 {
+    Repop = 28;
+  }
+  Room 801 {
+    Repop = 28;
+  }
+  Room 802 {
+    Repop = 28;
+    Mobile 800 {
+      Ptr = 181084744;
+      HMVP = (  ( 11 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 6782;
+      Silver = 241706;
+      Room = 802;
+      Obj 800 {
+      }
+    }
+  }
+  Room 803 {
+    Repop = 28;
+    Mobile 801 {
+      Ptr = 181084160;
+      Sex = 'female';
+      DamType = 'pierce';
+      HMVP = (  ( 17 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 803;
+    }
+    Obj 800 {
+    }
+  }
+  Room 804 {
+    Repop = 28;
+    Mobile 802 {
+      Ptr = 181091760;
+      Sex = 'male';
+      HMVP = (  ( 18 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 804;
+    }
+  }
+  Room 805 {
+    Repop = 28;
+  }
+  Room 806 {
+    Repop = 28;
+    Mobile 803 {
+      Ptr = 181091176;
+      DamType = 'slash';
+      HMVP = (  ( 2 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 806;
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+    }
+  }
+  Room 807 {
+    Repop = 28;
+  }
+  Room 808 {
+    Repop = 28;
+  }
+  Room 809 {
+    Repop = 28;
+    Mobile 804 {
+      Ptr = 181090592;
+      DamType = 'pierce';
+      HMVP = (  ( 2 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 192159;
+      Silver = 9930998;
+      Room = 809;
+      ExField = ( 'base_wealth', 'int', -1, 29146898 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('weapon','armor','food','staff') );
+      ExField = ( 'profit_sell', 'int', -1, 120 );
+      ExField = ( 'profit_buy', 'int', -1, 60 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 22 );
+      ExField = ( 'open_hour', 'int', -1, 6 );
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 802 {
+      }
+    }
+  }
+  Room 810 {
+    Repop = 28;
+    Mobile 805 {
+      Ptr = 181090008;
+      DamType = 'slash';
+      HMVP = (  ( 2 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 130912;
+      Silver = 4986579;
+      Room = 810;
+      ExField = ( 'handle_list', 'list', -1, ('oldstyle horse','oldstyle deer','tiger pet','jaguar') );
+      ExField = ( 'name_list', 'list', -1, ('a horse','the fallow deer','the tiger','the jaguar') );
+      ExField = ( 'level_list', 'list', -1, (4,2,20,10) );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      ExField = ( 'price_list', 'list', -1, (4000,2000,20000,10000) );
+      ExField = ( 'vnum_list', 'list', -1, (1109,6004,3097,5929) );
+    }
+  }
+  Room 811 {
+    Repop = 28;
+    Mobile 806 {
+      Ptr = 181095272;
+      Desc = '';
+      DamType = 'pierce';
+      HMVP = (  ( 14897 ),  ( 671 ),  ( 100 ),  ( 635 ) );
+      Room = 811;
+      ExField = ( 'done', 'int', -1, 1 );
+      ExField = ( 'base_wealth', 'int', -1, 0 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('food','drinkcontainer','template','portal') );
+      ExField = ( 'profit_sell', 'int', -1, 150 );
+      ExField = ( 'profit_buy', 'int', -1, 50 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 805 {
+      }
+      Obj 804 {
+      }
+      Obj 803 {
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 800 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 812 {
+    Repop = 28;
+    Mobile 807 {
+      Ptr = 181094688;
+      DamType = 'pound';
+      HMVP = (  ( 14909 ),  ( 644 ),  ( 100 ),  ( 595 ) );
+      Gold = 572;
+      Silver = 9742;
+      Room = 812;
+      ExField = ( 'objquest', 'list', -1, (32,33,34,35,36,41) );
+      ExField = ( 'rewardList', 'list', -1, (('{yCloak of {rM{gy{bs{mt{ce{yr{ry{x','cloak',40,2500),('{yBreastplate of {rM{gy{bs{mt{ce{yr{ry{x','breastplate',44,2000),('{yRing of {rM{gy{bs{mt{ce{yr{ry{x','ring',27,850),('{yAmulet of {rM{gy{bs{mt{ce{yr{ry{x','amulet',28,750),('{yShield of {rM{gy{bs{mt{ce{yr{ry{x','shield',29,750),('{yDecanter of Endless Water{x','decanter',31,550),('3500 gold pieces{x','gold',0,500),('30{y Practices{x','practice',0,500)) );
+      ExField = ( 'done', 'int', -1, 1 );
+      ExField = ( 'base_wealth', 'int', -1, 66942 );
+      ExField = ( 'in_trade', 'int', -1, 0 );
+      ExField = ( 'buy_type', 'list', -1, ('portal') );
+      ExField = ( 'profit_sell', 'int', -1, 150 );
+      ExField = ( 'profit_buy', 'int', -1, 50 );
+      ExField = ( 'banDuration', 'int', -1, 1440 );
+      ExField = ( 'close_hour', 'int', -1, 23 );
+      ExField = ( 'open_hour', 'int', -1, 0 );
+      Obj 805 {
+      }
+    }
+  }
+  Room 813 {
+    Repop = 28;
+    Obj 808 {
+      ExField = ( 'number_position', 'int', -1, 2 );
+      ExField = ( 'position', 'int', -1, 0 );
+      ExField = ( 'leverList', 'list', -1, () );
+      ExField = ( 'leverVnum', 'list', -1, (806,807,808) );
+    }
+    Obj 807 {
+      ExField = ( 'number_position', 'int', -1, 2 );
+      ExField = ( 'position', 'int', -1, 0 );
+      ExField = ( 'leverList', 'list', -1, () );
+      ExField = ( 'leverVnum', 'list', -1, (806,807,808) );
+    }
+    Obj 806 {
+      ExField = ( 'number_position', 'int', -1, 2 );
+      ExField = ( 'position', 'int', -1, 0 );
+      ExField = ( 'leverList', 'list', -1, () );
+      ExField = ( 'leverVnum', 'list', -1, (806,807,808) );
+    }
+  }
+  Room 814 {
+    Repop = 28;
+    Mobile 808 {
+      Ptr = 181094104;
+      Desc = '';
+      DamType = 'pierce';
+      HMVP = (  ( 4750 ),  ( 369 ),  ( 100 ),  ( 364 ) );
+      Room = 814;
+    }
+  }
+}

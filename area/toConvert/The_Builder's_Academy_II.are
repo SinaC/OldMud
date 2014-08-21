@@ -1,0 +1,943 @@
+#Style Circle
+#AREADATA
+Name The Builder's Academy II~
+Builders Rumble~
+VNUMs 1400 1499
+Credits {{None}  CAW    The Builder's Academy II~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#0
+
+#OBJECTS
+
+#1400
+apple~
+a red apple~
+A red apple lays on the ground.~
+~
+12 0 a 0
+0 0 0 0
+1 1 0 0
+#1401
+bed comfy~
+a comfy bed~
+A comfy bed is begging you to take a nap.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+T 1413
+T 1414
+T 1415
+#0
+
+#ROOMS
+
+#1400
+The Rest of the Plan~
+   Spatial Order is important to take into account when building and 
+designing areas. Spatial Order is the art of making everything fit into a 
+realistic plain. Making it geometrically correct. That kind of thing. To 
+achieve this, the use of directional words (north, east, etc.) is highly 
+recommended. Having an area geometrically correct makes it much easier
+for a player to visualize it, and thus increases their enjoyment of it.
+   Assign VNUMs to your rooms/mobs/objects beforehand and write them down. Do 
+not try and remember every VNUM you used mentally. It is a bitch. Make lists 
+of your mobs and objects. You can always add to the list later. After you 
+have done all this you will already have a huge head start on your area. 
+Organization does pay off in the long run.
+   It is recommended that you write out your descriptions on some kind of text
+editor or word processor on your own computer before putting them on a MUD.
+You can then cut and paste your descriptions in as needed. The advantage to 
+this method is that if you accidentally wipe out your work on the MUD you will
+have a ready backup. Be careful cutting and pasting to the MUD. If you send too
+much text at once you will be disconnected.
+~
+14 d 0
+D0
+~
+~
+0 0 1401
+D2
+~
+~
+0 0 1399
+S
+#1401
+Placing your Zone~
+   It is very important to know where an area is going to fit in with the world
+before it is written!  This may seem very obvious, but it is a painful truth
+that many people make areas without regard for where they will be placed on the
+MUD.  A character should not be walking around in an idyllic happy forest and
+suddenly come upon an arctic wilderness.  Likewise a character should not
+venture a couple steps outside a main human city and find themselves in an
+ancient elven homeland.  What is the moral here?  Figure out where your new
+area is going to go and make sure it does not grievously conflict with
+surrounding terrain, climate, politics, mythology, and races.  Of course a
+simple portal can make location unnecessary.  Just ask someone familiar with 
+triggers to make you a portal if you desire. 
+   The best thing to do, of course, is to integrate your zone seamlessly with
+the rest of the world rather than allowing for one connecting point and sealing
+the zone off from its surroundings in all other directions. It is not easy to
+do this, and it is not always even possible. But it is worth spending some time
+working on the rooms that link the zone as you first conceived it.
+~
+14 d 0
+D0
+~
+~
+0 0 1402
+D2
+~
+~
+0 0 1400
+S
+#1402
+Where to Begin, Literally~
+   If it is a city, the main gates probably are going to open out onto an
+existing road, not into the middle of a forest.  Give some thought to using a
+few rooms to link the "main" part of your area to a spot that is already in the
+MUD (be creative - as well as roads and pathways, there are waterways and other
+means to reach places..) If it is more of a wilderness-type area, then the
+way it links might be a bit more vague, and it might link in more than one
+place - when was the last time you saw a forest, field, or desert that could
+only be reached in one way?  As important as where the zone should begin is
+where it should end.  A city or even a village might have walls and a logical
+"edge," but if you are working with wilderness or even just the surroundings
+beyond the city itself, it is hard to know where and how to draw the boundaries.
+Natural formations seem like the perfect answer -- rivers, mountains, and so
+on -- BUT (and I think this is a huge but) the problem with these is that they
+are extremely prominent geographical features and are not a good "throwaway"
+solution.  
+~
+14 d 0
+D0
+~
+~
+0 0 1403
+D2
+~
+~
+0 0 1401
+S
+#1403
+Making the Connection~
+   If you are writing forest room upon forest room and think you will never get
+to the end, do not just write in an insurmountable mountain range or a 
+gratuitous river.  That will lead to questions like, "What is on the other side 
+of the mountains, and why can not I approach them or even see them from anywhere
+else?" or "Why did this river suddenly come to an abrupt end as soon as I
+left this forest?" Far better is to do something on a smaller scale -- the
+trees just get too dense to move on... do not assume that your area has only 
+one or two points of entry. Try and make your area accessible from at least 
+two different points, preferably in different directions. Try and leave at 
+least one possible exit on each "side" of your area in case something needs 
+to be linked to it later. 
+~
+14 d 0
+D0
+~
+~
+0 0 1404
+D2
+~
+~
+0 0 1402
+S
+#1404
+The Theme~
+   The "theme" for an area is its reason to be.  A theme can be simple "this
+area will be the homeland of a few loose-knit families of storm giants." or
+"This area is a part of the sea where a merchant ship from Anon is engaged
+in battle with a pirate ship".  Themes can (and should) be much more 
+elaborate and include insight into the history of the area, how its society 
+and economy work, current plots or conflicts going on in the area, and how 
+other people in the world view the place. The more work you put into the 
+theme the better it will be, and the better other areas will be that build 
+off of it. Discuss concept ideas informally as well as other aspects of your 
+proposed area before building.  The immortals will be glad to help you out.
+You might even get some ideas you had not thought of before. The more time you
+spend developing the theme the easier time you will have building. There is
+nothing worse than making half a zone and then running out of ideas. You then
+have to start making more ideas up and they will not fit well into the zone.
+~
+14 d 0
+D0
+~
+~
+0 0 1405
+D2
+~
+~
+0 0 1403
+S
+#1405
+The Size~
+   Make sure to have some idea of how many rooms total you will have. Make a 
+definite decision. 20, 40, 80, 100. Try and shoot for a multiple of 20. We 
+have no minimum amount that we set for a zone in terms of how many rooms. Make
+a quality zone and we do not care how many rooms it is.
+   If this is your first area, keep it under 50 rooms!  You will soon see this 
+is a fair amount of work and gives you quite a bit of room to accomplish what 
+you have in mind. Once you have completed something of this size and are proud 
+of your work, you can always make larger areas later. If this is not your first 
+area, decide how many rooms you think you will need. Even if you have a 300-room
+center-of-a-thriving-civilization concept in mind, try to divide it up into 
+sections and work on them one at a time. A cluster of small areas that get 
+phased in gradually is much better than one gigantic area that never gets done.
+Trust us when we tell you a 300-room area will never be finished without
+Herculean effort of which most of us are not capable.    
+~
+14 d 0
+D0
+~
+~
+0 0 1406
+D2
+~
+~
+0 0 1404
+S
+#1406
+The Level and Alignment~
+   Many good areas stick to a defined range, such as 10-20, 35-45, or 5-15.  
+do not try and make your new area cover the entire range of levels.  Every area
+should have its moment in the sun. Conversely, it would be nice if there were
+something really unique and challenging to do at every stage in a characters
+history. Your area might be the most successful if you can gear it for a range
+of levels that people believe is otherwise "boring".    
+   You should always try to match your mobiles to the area and the players you
+want to play there. For example, you should make the mobs in the area a
+similar level to the players you want to play there since a level X warrior
+should be able to kill a level X mobile if the warrior is fully healthy. Also,
+the quality of objects or mobiles should be matched with their level.
+   Will your area be mostly good, neutral, or evil.  If it is mostly good or
+mostly evil, is it strongly good or evil or just weakly aligned?  In any case
+try not to make your area completely homogenous (equal). In neutral
+communities there is going to be some evil and good elements, and likewise with
+other communities. To some extent this goes along with the question about zone
+level, consider what seem to be "gaps" among the zones in the world as far as
+good or evil aligned areas for a particular level range, and try to fill those
+needs. Everyones first tendency is to make extremists--The ultimate evil hell
+area, or the blindingly good paladin fortress. Keep in mind that there are
+many layers in between, and these are often more interesting.    
+~
+14 d 0
+D0
+~
+~
+0 0 1407
+D2
+~
+~
+0 0 1405
+S
+#1407
+Zone Building the Right Way~
+   Zones should be well fleshed out stories that catch the visitors 
+attention and bring out their curiosity, making them want to stay for 
+more. The descriptions should be well fleshed out, bringing images 
+into the players minds, and there should be challenges and tricks that
+the player will not expect.
+   Try and build a mini quest into part of your area so that characters can do
+something active rather than feel like aggressive tourists.  If you are building
+a wilderness area, perhaps include some kind of hidden/trapped treasure one can
+find. If you are building a populated area, think about having some mystery
+that a player can uncover. Built-in quests make a good area great.    
+   Another way to make an area interesting is to create some sort of plot line
+for it, or a coherent theme, rather than a collection of haphazardly related
+rooms.  The plot can be complex like infiltrating a castle to garner the war
+plans of the evil Lord Zygol, or simple like ridding the caves of goblins, or
+anything in between.  Often the plot in an area can be advanced by some fairly
+simple puzzles or descriptions.  This can be done with the help of triggers.    
+~
+14 d 0
+D0
+~
+~
+0 0 1408
+D2
+~
+~
+0 0 1406
+S
+#1408
+Developing a Good Area~
+   Most builders do not take the possible ecology or economic effects of an 
+area into account. By this, I do not mean having a mini-model of an actual
+ecological environment, but rather having things that make the area seem more
+plausible. The best things to put in to make an area more plausible are
+useless objects that actually add atmosphere to the area. Food sources for the
+mobiles in your area are always necessary to fleshing things out, as are
+creating import and export goods for cities, complete with customs houses.
+   Plots are extremely important in areas. Your area should have a strong 
+plot, which is well incorporated into it. Some ways of incorporating plots 
+are in descriptions of mobiles when you look at them. Extra descriptions in 
+rooms are always useful for trails, scrapings on the wall, or whatnot. Trash
+objects can be created that are notes, maps, or whatever. 
+   When designing your area and the plots within, you should always consider
+what kind of player you want playing in your area. Keep the levels and types
+in mind (i.e. role-playing, power-MUDder, etc). In doing so, try to have fun
+building the area. Make it well rounded and something that you enjoy looking
+through afterwards. If you find something you do not like, edit it and change
+it until you like it. It is always best to build when you are not bored of the
+area, since building when you are bored almost always turns out uninspired and
+boring areas.
+~
+14 d 0
+D0
+~
+~
+0 0 1409
+D2
+~
+~
+0 0 1407
+S
+#1409
+How to Develop a Plot~
+   First visualize a story that happens in your area- lets say a princess
+is captured somewhere and her relatives are looking for her. Next, you drop
+some clues to her whereabouts by putting conversations in the looked at
+description of mobiles. For example you can set up some mobs so that when you
+look at them, you get "You strike up a conversation with the shopkeeper. He
+chats with you about the rise and fall of the price of wheat. Looking at the 
+candy jar he sighs. You ask him why, and he relates a sad tale of how he has 
+not seen a little girl who used to come into his store in a long time." Granted, 
+this is not as elegant as mob programs or dg scripts, but not everyone can write
+them.    
+   The point is that you interpret the looked at description as something more
+than just looking, you can view it as a static conversation. You can then go
+around the area and throw in a few room extras leaving a trail to where the
+princess is. You can also put some extra descriptions on useless items lying
+about to indicate where one may find the princess. Once at the princess, you
+could have her relay a story of the location of a secret buried treasure in her
+looked at description, a nice reward for the rescuing hero. You can set up the
+buried treasure in a container with no long description with a short of "the
+ground" so they get the treasure from the ground, and only know where this
+object is by the tale of the princess. When your players stumble upon something
+like this, they love it.
+~
+14 d 0
+D0
+~
+~
+0 0 1410
+D2
+~
+~
+0 0 1408
+S
+#1410
+Make it Interesting~
+   Try to make your area interesting for all the major character classes, not
+just warriors or mages. Build in parts where thieves and clerics have a
+special part to play. By the same token, do not assume all anyone wants is
++damage equipment. Allow for people with strange priorities (I once knew a
+thief who actually needed +movement gear ...) and include a few different
+things as well. 
+   All in all, the best way to make an area interesting is to use variety,
+intelligence, and imagination in building. Try to imagine what it would be
+like for you to walk through and what you might try looking at or doing, and
+then try to incorporate that into your area. Show your area to others and take
+their advice. By taking all of this extra effort in creating your area, you
+will be rewarded by leaving a lasting memory of your area in the minds of many
+players. do not let your area fall by the unfinished wayside!  Work on it a
+little every day, even if it is only one or two rooms worth of work. Likewise,
+do not fill space by just making more of the same mob or duplicate room
+descriptions. Take your time and do a thorough job, not one that is only 
+superficially good.    
+~
+14 d 0
+D0
+~
+~
+0 0 1312
+D2
+~
+~
+0 0 1409
+S
+#1411
+Using World-Building Programs~
+   Various people have written programs to help builders create worlds offline
+without having to understand the complex details of the world file format.
+World-building programs are becoming more popular, especially the fancy 
+graphical builders that run under Microsoft Windows. You may prefer to use one
+of them rather than trying to use a simple text editor to build offline and 
+understanding the format on your own. New world-builders are constantly being 
+written and released.  The best I have yet to come across is CircEdit:
+ 
+@Chttp://ftp.m-l.org/pub/CircleMUD/contrib/olc/offline/@n
+ 
+Note : Very little help is available on how to use this program.
+~
+14 d 0
+D0
+~
+~
+0 0 1412
+D2
+~
+~
+0 0 1312
+S
+#1412
+Resources~
+   There are numerous resources out there for MUDs. Here are a few I have used
+in the past:
+Dictionaries:
+@Chttp://www.yourdictionary.com/
+http://m-w.com/
+@nOthers:@C
+http://msrp.com
+http://people.bu.edu/gbustard/gp/gp.jpg
+http://share1.esd105.wednet.edu/bishopcj/EYES_on_IKE/graph_templates.htm
+http://clubs.yahoo.com/clubs/areaswap
+http://clubs.yahoo.com/clubs/buildersclub
+http://Builder.listbot.com/ 
+http://www.egroups.com/group/circle-newbies
+http://www.egroups.com/group/MUDbuilders
+http://dgscripts.listbot.com/ 
+http://clubs.yahoo.com/clubs/warlocksrealm
+http://www.flatearth.com
+http://clubs.yahoo.com/clubs/codersclub
+Linux distribution with circleMUD, supposedly everything you need: 
+@Chttp://mujweb.cz/www/vladon/@n
+
+http://groups.yahoo.com/group/dg_scripts/
+~
+14 d 0
+D0
+~
+~
+0 0 1413
+D2
+~
+~
+0 0 1411
+S
+#1413
+Houses~
+   Some major misconceptions about houses. You do not set any flags for a
+house. Just use hcontrol to build the house, that is it. All the flags House,
+House_control and Atrium are for internal use only. When the house is created
+they will be set. Currently we do not use houses here.
+~
+14 d 0
+D0
+~
+~
+0 0 1414
+D2
+~
+~
+0 0 1412
+S
+#1414
+Tips from Other Builders~
+@CLance:@n
+   When building, there are some things that separate a great builder from a
+weak builder.  Items such as not using "you" in any descriptions, using 
+Capitals in title (except for prepositions). For example, "Dracula's Room of
+Horrors" instead of "dracula's room of horrors." Some other common problems are:
+Not putting in Room Extra Descriptions (Command B) and not using /fi to format 
+and indent after descriptions (in any of the edits and also in messages). To 
+know the commands while writing a description, type /h. It will tell you what
+all the / commands do).
+   
+@CSnowlock:@n
+   Not everything present in my zone was in my original plan.  I got a lot of
+ideas from everyday life, unexpectedly, rather than from a quest for a certain
+style or taste.  The only thing significant that I think I've done, which most
+builders do not realize, is to keep my eyes open all the time, and look at 
+ordinary things with a stranger's eyes, as if seeing them for the first time.  
+Thus the descriptions do not end up as a list of boring details, but rather, 
+exclamations of wonderful, magical, and perhaps even horrible things yet to be 
+noticed.  
+~
+14 d 0
+D0
+~
+~
+0 0 1415
+D2
+~
+~
+0 0 1413
+S
+#1415
+Tips from Elaseth~
+
+An in-depth document by Elaseth can be found under @RHELP STYLISTICS@n.
+
+~
+14 d 0
+D0
+~
+~
+0 0 1416
+D2
+~
+~
+0 0 1414
+S
+#1416
+More Ideas~
+   When building rooms, try to allow characters some freedom of movement. Do 
+not create paths and trails that force you to go a certain way without any 
+choices. Try and let characters get from point A to point B in a number of 
+different ways, if possible. One suggestion for this is to have one pathway
+through part of your area, using exit, extra, and room descriptions to show 
+where the path lies. This way, observant players will be able to find the path
+easily, whereas those players that are not quite as observant will get lost 
+much more easily. Such hints can be hidden two or three extra descriptions deep
+and be as small as a scrape on the side of a tree, a thread on a bush, or 
+whatever. 
+   Remember that for working two-way doors, the rooms on each side must have
+matching door flags, doors, and zone commands to close them.
+~
+14 d 0
+D0
+~
+~
+0 0 1420
+D2
+~
+~
+0 0 1415
+S
+#1420
+&)%#*@()$$ Typo's!!!~
+   I Have been noticing alot of typos. There is no excuse for this. Get a
+dictionary. Plain and simple, if you are going to build you will need one.
+Here are a few resources to help you with your typo's:
+    
+From Manivo      @Cwww.babylon.com@n
+   Babylon is a dictionary containing many languages in it, and a LOT more 
+available for download.  I do mean a lot, they even have Klingon...  The 
+sweet thing about it is that you can right-click a word in your screen, and 
+it will translate it automatically.  You can also, of course, enter words 
+manually.  Once you download the program and a language pack, you can use it 
+both on and offline, so it's great if you're on a dialup and are using some
+offline editor program.  The downside though is that it's not freeware.  
+Though in it's demo-state it WILL translate english, so it's still a 'good
+buy'.  
+  
+   Another resource is @Cwww.dictionary.com@n - This one's like any
+other online dictionary, but its usefulness comes in the form of a typo-
+checker.  When you suspect you didnt type a word in correctly, or your 
+memory regarding the spelling of a word is a bit foggy, you can enter it 
+there, and it will return all the words that are a close match to the 
+spelling of what you entered.  Useful!    
+    
+From Rumble      @Cwww.m-w.com@n
+   This is what I use. It is a web-based dictionary and thesaurus, so you do
+not have to download anything. Of course this means you cannot use it offline. 
+It is only in english.
+~
+14 0 0
+D0
+~
+~
+0 0 1313
+D2
+~
+~
+0 0 1416
+S
+#1421
+Hall of The Storytellers~
+   Welcome to those who would wish to write elegantly, and create wondrous
+places in the hearts and minds of mud players.    
+~
+14 0 0
+D0
+~
+~
+0 0 1422
+D3
+~
+~
+0 0 1312
+S
+#1422
+Hall of The Storytellers~
+   Stories have captivated human beings for thousands of years.  And mud
+players are human beings...  So let's get with the program!    
+~
+14 0 0
+D0
+~
+~
+0 0 1424
+D2
+~
+~
+0 0 1421
+S
+#1423
+Welcome to The Builder's Academy~
+
+   Your first task is to apply for builder status at: 
+
+             http://welcor.n3.net/application.htm
+
+   When you finish and submit the application tell anyone level 32 or higher
+and they will advance you to begin your training.
+
+~
+14 d 0
+S
+#1424
+But You Promised!~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D0
+~
+~
+0 0 1429
+D1
+~
+~
+0 0 1428
+D2
+~
+~
+0 0 1422
+D3
+~
+~
+0 0 1425
+S
+#1425
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D1
+~
+~
+0 0 1424
+D4
+~
+~
+0 0 1426
+S
+#1426
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D1
+~
+~
+0 0 1427
+D5
+~
+~
+0 0 1425
+S
+#1427
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+@@@rr@YY@  @w@
+@R@@@q
+~
+14 0 0
+D3
+~
+~
+0 0 1426
+D5
+~
+~
+0 0 1428
+S
+#1428
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D3
+~
+~
+0 0 1424
+D4
+~
+~
+0 0 1427
+S
+#1429
+Beginnings, Middles and Endings~
+<NULL>~
+14 0 0
+D0
+~
+~
+0 0 1430
+D2
+~
+~
+0 0 1424
+S
+#1430
+Point of View~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D1
+~
+~
+0 0 1434
+D2
+~
+~
+0 0 1429
+D3
+~
+~
+0 0 1431
+S
+#1431
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D1
+~
+~
+0 0 1430
+D4
+~
+~
+0 0 1432
+S
+#1432
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D1
+~
+~
+0 0 1433
+D5
+~
+~
+0 0 1431
+S
+#1433
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D3
+~
+~
+0 0 1432
+D5
+~
+~
+0 0 1434
+S
+#1434
+New BuildWalk Room~
+This unfinished room was created by Fyre.
+~
+14 0 0
+D3
+~
+~
+0 0 1430
+D4
+~
+~
+0 0 1433
+S
+#1435
+A Quick Mob Quest Tutorial~
+
+See: @RHELP TRIGEDIT-MOB-TUTORIAL@n
+
+@RSTAT QUESTMASTER@n. Notice the attached triggers. @RTSTAT 1400@n.
+
+~
+14 e 0
+D0
+~
+~
+0 0 1437
+D1
+~
+~
+0 0 1436
+D2
+~
+~
+0 0 1395
+S
+#1436
+A Quest Room~
+   In this room you may be able to finish the Mob Quest Tutorial.    
+~
+14 d 0
+D3
+~
+~
+0 0 1435
+S
+#1437
+Advanced Trigedit Example~
+
+   Begin by @RSTAT GATEGUARD@n and then tstat each trigger individually to see
+what they do.  This example follows the tutorial under @RHELP
+TRIGEDIT-ADVANCED-TUTORIAL@n.  Including triggers 1404-1408.    
+
+To pay the gateguard take the pile of coins, then: @RGIVE 10 COINS GUARD@n.
+~
+14 0 0
+D0
+~
+gate~
+2 0 1439
+D2
+~
+~
+0 0 1435
+S
+#1439
+Another Example With Quest Variables~
+   These triggers are a little more complex.  The complexity gives the builder
+more flexibility.  By setting a variable on a player you can later call on
+these variables.  The most basic usage is to set a quest as completed when the
+player is done.  Another use would be to set something else like
+player_can_breathe_water and prevent a player from entering a certain room
+unless they have this variable set.  To see what variables are set on a player
+simple stat that player.  @RSTAT SELF@n.    
+~
+14 e 0
+D0
+~
+~
+0 0 1440
+D1
+~
+~
+0 0 1441
+D2
+~
+gate~
+1 0 1437
+S
+#1440
+Trigger Help Files~
+   I have added extensive help files on every type of trigger.  Please use them
+and give feedback.  The easiest way to get to them all is through:
+@RHELP TRIGEDIT-MENU, HELP TRIGEDIT-TYPE@n
+~
+14 0 0
+D0
+~
+~
+0 0 1311
+D1
+~
+~
+0 0 1442
+D2
+~
+~
+0 0 1439
+S
+#1441
+Quest Variables Example~
+   I used triggers 1409 thru 1412 to setup this example.  Simply tstat each to
+see what they do.    
+~
+14 0 0
+D3
+~
+~
+0 0 1439
+S
+T 1412
+#1442
+Another Example~
+   A beautiful bed lays here with the ability to restore life to those who use
+it.  Once again @RSTAT BED@n to see what triggers are attached and then tstat
+each trigger individually to see what it does.  
+~
+14 0 0
+D3
+~
+~
+0 0 1440
+S
+#1498
+Welcome to The Builder's Academy~
+
+   A builder is a term usually used to describe a person who designs MUD zones
+for other characters to explore. Any player with motivation, ideas, and good 
+writing style can be a builder as well as a player. As a Builder, your job is 
+to create the virtual world in which players can roam around, solve puzzles, 
+find treasures, and gain experience. A Builder creates the rooms, objects, 
+mobs, shops, and triggers with which players will interact. 
+   If this is something you are interested in doing then you have come to the
+right place. Be warned, building is not easy and will require hard work, 
+patience, and the ability to take constructive criticism.
+
+   Your first task is to apply for builder status at: 
+
+             http://www.geocities.com/buildersacademy/application.htm
+
+   When you finish and submit the application tell anyone level 32 or higher
+and they will advance you to begin your training.
+
+~
+14 de 0
+S
+#1499
+The End of the Hallway~
+   You completed a hallway.  Great Job!!!  Hope you are not bored to death 
+yet, this is just the beginning. Remember, if you don't understand something
+ask.  Do not try to just figure it out on your own later through trial and 
+error. Now, Quickly check your pulse to make sure you are still alive and 
+then drive-on. Many more things yet to cover. Keep with me and keep on 
+reading. Go north to return to the beginning of the academy and tackle 
+another hallway.
+~
+14 d 0
+D0
+~
+~
+0 0 1300
+S
+#0
+
+#RESETS
+R 0 1442 1401 -1 	(a comfy bed)
+O 0 1401 99 1442 	(a comfy bed)
+M 0 1317 1 1439 	(the variable questmaster)
+M 0 1300 1 1498 	(Friedrich Nietzsche)
+R 0 1437 1302 -1 	(a pile of gold coins)
+O 0 1302 100 1437 	(a pile of gold coins)
+D 0 1437 0 2 	(Advanced Trigedit Example)
+M 0 1312 1 1437 	(the gateguard)
+M 0 1311 1 1436 	(an apprehensive ogre)
+M 0 1310 1 1435 	(the questmaster)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

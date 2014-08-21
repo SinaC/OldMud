@@ -1,0 +1,123 @@
+class Healer extends specCastAdept {
+
+  onCreate() {
+    // keyword
+    objvar this:keyword = [[ "light",  "serious", "critic",
+                             "heal",   "blind",   "disease",
+                             "poison", "uncurse", "refresh",
+                             "mana", "psp" ]];
+    // cost
+    objvar this:cost =    [[ 1000, 1500, 2500,
+                             5000, 2000, 1500,
+                             2500, 5000,  500,
+                             1000, 1000 ]];
+    // spell
+    objvar this:spell =   [[ "cure light",  "cure serious",   "cure critical",
+                             "heal",        "cure blindness", "cure disease",
+                             "cure poison", "remove curse",   "refresh",
+                             "black lotus", "regain power" ]];
+    specCastAdept::onCreate();
+  }
+
+  deductCost( from, to, cost ) {
+    var silver = 0;
+    var gold = 0;
+    
+    silver = min(from.silver(),cost);
+
+    if (silver < cost) {
+      gold = ((cost - silver + 99) / 100);
+      silver = cost - 100 * gold;
+    }
+ 
+    if ( silver > 0 )
+      force from `give `silver` silver `to`
+    if ( gold > 0 ) {
+      force from `give `gold` gold `to`
+      if ( silver < 0 ) {
+        // Added by SinaC to avoid problems if buyer doesn't have enough silver
+        force to `give `-silver` silver `from`
+      }
+    }
+  }
+
+  help( ch ) {
+    ch.actTo("{g$n says you: '{xI offer the following spells:{g'{x",this);
+    var i = 0;
+    while ( i < this.keyword.size() ) {
+      ch.sendTo(this.keyword[i].pad(10)+" : "+this.spell[i].pad(20)+this.cost[i].pad(5)+" silver");
+      i = i+1;
+    }
+    ch.actTo("{g$n says you: '{xType say heal <type>  to be healed.{g'{x",this);
+  }
+
+  castSpell( act, key ) {
+    var i = 0;
+    var stop = 0;
+    while ( i < this.keyword.size() && !stop ) {
+      if ( this.keyword[i] == key )
+        stop = 1;
+      else
+        i = i+1;
+    }
+    if ( stop ) {
+      var money = act.gold() * 100 + act.silver();
+      if ( money < this.cost[i] )
+        `say You don't have enough money for my services.
+      else {
+        var sk = this.getAbility(this.spell[i]);
+        if ( sk <= 0 ) // was  == 0  before
+          castSpecialSpell( act, i );
+        else
+          castNormalSpell( act, i );
+      }
+    }
+  }
+
+  castSpecialSpell( act, i ) {
+    if ( this.keyword[i] %= "mana" ) {
+      deductCost(act,this,this.cost[i]);
+      `emote utters the words 'energizer'.
+      act.addMana(dice(3,8) + this.level());
+      act.sendTo("A warm glow passes through you.");
+    }
+    else if ( this.keyword[i] %= "psp" ) {
+      deductCost(act,this,this.cost[i]);
+      `emote utters the words 'pzar sgs'.
+      act.addPsp(dice(3,8) + this.level());
+      act.sendTo("A warm glow passes through you.");
+    }
+    else
+      `say Sorry, I don't offer that kind of heal.
+  }
+
+  castNormalSpell( act, i ) {
+    deductCost(act,this,this.cost[i]);
+    `cast '`this.spell[i]`' `act` 1
+    this.addMana(50);
+  }
+
+  onSpeech( act, msg ) {
+    var w = msg.words();
+    if ( "list" in w 
+         || "help" in w )
+      help( act );
+    else if ( w[0] %= "heal" )
+      if ( w.size() == 1 )
+        help( act );
+      else if ( w.size() != 2 )
+        `say What kind of heal do you want ?
+      else
+        castSpell( act, w[1] );
+    else {
+      `say What do you want ?
+    }
+  }
+
+  onGreetLeader( act, from ) {
+    if ( chance(40) ) {
+      `bow `act`
+      `say How may I help you
+    }
+  }
+}

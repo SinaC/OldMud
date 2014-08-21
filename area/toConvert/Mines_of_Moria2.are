@@ -1,0 +1,808 @@
+#Style Circle
+#AREADATA
+Name Mines of Moria~
+Builders Redferne~
+VNUMs 4100 4199
+Credits {{None}  CAW    Mines of Moria~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#4100
+mage~
+the mage~
+A small intelligent looking mage is standing here.
+~
+   His IQ makes almost any normal person look stupid...  It looks like he knows
+his way with magic.  
+~
+abcdf dk -100 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 1
+E
+#4101
+troll~
+the troll~
+A large mean-looking troll is here.
+~
+   Well, it looks dangerous!  
+~
+bcdf k -800 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#4102
+snake~
+the snake~
+A large green snake is here, looks like a guardian for an evil force.
+~
+   You see a evil creature.  
+~
+abcdf k -700 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#4103
+thief~
+the thief~
+A thief is here, all dressed in black.
+~
+   He seems to be counting a handful of coins.  Maybe you ought to count YOUR
+gold too...  
+~
+acdg dkst -400 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#4104
+orc ugly~
+the orc~
+A ugly orc is standing here.
+~
+   It is quite disgusting to look at.  
+~
+cdfgh dkp -200 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#4105
+centipede~
+the centipede~
+A small harmless centipede is here.
+~
+   Well it doesn't seem to pay any attention to you.  
+~
+bd 0 300 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 0
+E
+#4106
+warrior~
+the warrior~
+A human warrior is here.  He has a evil grin in his face.
+~
+   He doesn't look friendly at all...  
+~
+cdfg k -300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#4107
+kobold~
+the kobold~
+A green kobold is here.
+~
+   It looks slimy..  
+~
+cdfg k -100 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#4100
+blade black demon~
+a black demon blade~
+A black demon blade is here.~
+~
+5 jlm an 0
+0 3 4 11
+8 1000 80 0
+E
+blade black demon~
+   You'll become as evil as the weapon, if you use it as you sense the forces of
+evil controlling the weapon...  
+~
+#4101
+gloves swordmans~
+a pair of swordsmans' gloves~
+A pair of finely crafted gloves are lying on the ground here.~
+~
+9 j ah 0
+0 0 0 0
+1 350 80 0
+E
+gloves swordsmans~
+   They look like the right kind of equipment to use when fighting.  
+~
+A
+18 2
+A
+19 1
+#4102
+scroll ysafg~
+a scroll which reads 'ysafg'~
+A scroll which reads 'ysafg', it looks very fragile and quite old.~
+~
+2 0 a 0
+1 44 -1 -1
+1 150 10 0
+E
+scroll ysafg~
+   It looks informative.  
+~
+#4103
+slime mould green~
+a green slime mould~
+A green slime mould is here.  Stinks like you wouldn't believe!~
+~
+19 0 a 0
+24 0 0 0
+1 20 8 0
+E
+smile mould~
+   It wasn't meant to be food -- at least, certainly not for humans.  
+~
+#4104
+slime mould green~
+a green slime mould~
+A green slime mould is here.  Stinks like you wouldn't believe!~
+~
+19 0 a 0
+24 0 0 1
+1 20 8 0
+E
+smile mould~
+   It wasn't meant to be food -- at least, certainly not for humans.  
+~
+#0
+
+#ROOMS
+
+#4100
+The Tunnel~
+   As you continue along this tunnel which heads deeper and deeper into
+the earth, you notice that the tunnel must be a lot steeper than you
+previously expected as there is a small rivulet of water gushing down
+the one side of the tunnel.  The tunnel appears to extend straight to
+the east for quite some distance.
+~
+41 acd 3
+D1
+~
+~
+0 -1 4101
+D3
+~
+~
+0 -1 4052
+S
+#4101
+The Long Tunnel~
+   The tunnel seems to be slightly sloped here as it continues in its
+east-west direction.  The tunnel walls are far apart, almost allowing
+for four people to travel abreast with ease.  The walls do not seem to
+be very damp, but there is a small rivulet running along the northern
+wall of the tunnel.
+~
+41 ad 3
+D1
+~
+~
+0 -1 4102
+D3
+~
+~
+0 -1 4100
+S
+#4102
+The Long Tunnel~
+   As you travel along this long tunnel, you begin to wonder just
+how long it is.  The walls are fairly far apart, but you can see
+that they begin to close in rather rapidly to the east.  In fact,
+the manner in which they come together almost reminds you of a
+funnel.
+~
+41 ad 3
+D1
+~
+~
+0 -1 4103
+D3
+~
+~
+0 -1 4101
+S
+#4103
+The Long Tunnel~
+   You are standing in a long east-west tunnel.  It is not all that
+wide at this point, perhaps wide enough for two people to stand side
+by side without impeding each other.  Off to the west it appears that
+the tunnel opens up some more while to the east it dives further down
+into the earth, and you can see a small hole about two feet in diameter
+about waist height in the southern wall.
+~
+41 ad 3
+D1
+~
+~
+0 -1 4104
+D2
+~
+~
+0 -1 4106
+D3
+~
+~
+0 -1 4102
+S
+#4104
+The Long Tunnel~
+   You find yourself in a small bulbous cavern ending.  The somewhat
+circular 'room' is about thirty feet in diameter and you can see one
+exit from it; a tunnel leading sharply upwards from the western wall.
+The walls of this cavern are quite indistinct and you cannot see any
+moss or dampness on them whatsoever.
+~
+41 ad 3
+D3
+~
+~
+0 -1 4103
+S
+#4105
+The Golden Cave~
+   You are standing in what appears to be the north-east corner of
+this large cavern.  The cave is lit by the eerie, soft, golden light
+which looks to be emanating from the walls themselves.  The cave
+itself is enormous, extending quite a distance to the west and south.
+~
+41 d 1
+D2
+~
+~
+0 -1 4108
+D3
+~
+~
+0 -1 4106
+E
+light gold golden~
+   It looks good, but as you look closely you notice that it has no value.  
+~
+S
+#4106
+The Golden Cave~
+   You are standing in what appears to be the north-west corner of
+this large cavern.  The cave is lit by the eerie, soft, golden light
+which looks to be emanating from the walls themselves.  The cave
+itself is enormous, extending quite a distance to the east and south.
+There is a hole in the northern wall, about two feet in diameter.
+All that can be seen through the hole is darkness.
+~
+41 d 1
+D0
+~
+~
+0 -1 4103
+D1
+~
+~
+0 -1 4105
+D2
+~
+~
+0 -1 4109
+E
+light gold golden~
+   It looks good, but as you look closely you notice that it has no value.  
+~
+S
+#4107
+The Passage~
+   You are standing at the elbow turn of a small passageway.  It turns
+quite sharply to the south and west.  To the south, it appears that the
+passage continues, but to the west you can see what almost appears to
+be a golden light.
+~
+41 ad 3
+D2
+~
+~
+0 -1 4113
+D3
+~
+~
+0 -1 4108
+S
+#4108
+The Golden Cave~
+   You are standing in what appears to be the south-east corner of
+this large cavern.  The cave is lit by the eerie, soft, golden light
+which looks to be emanating from the walls themselves.  The cave
+itself is enormous, extending quite a distance to the west and north.
+A crack in the wall to the east appears to lead into a passageway of
+sorts.
+~
+41 d 1
+D0
+~
+~
+0 -1 4105
+D1
+~
+~
+0 -1 4107
+D3
+~
+~
+0 -1 4109
+E
+light gold golden~
+   It looks good, but as you look closely you notice that it has no value.  
+~
+S
+#4109
+The Golden Cave~
+   You are standing in what appears to be the middle of the western
+wall of this large cavern.  The cave is lit by the eerie, soft, golden
+light which looks to be emanating from the walls themselves.  The cave
+itself is enormous, extending quite a distance to the east, south,
+and north.
+~
+41 d 1
+D0
+~
+~
+0 -1 4106
+D1
+~
+~
+0 -1 4108
+D2
+~
+~
+0 -1 4114
+E
+light gold golden~
+   It looks good, but as you look closely you notice that it has no value.  
+~
+S
+#4110
+The Hole~
+   You find yourself standing in a small alcove as the tunnel comes to
+a somewhat sudden end.  Looking about you suddenly notice a rather big
+hole in the floor of the tunnel.  In fact, it seems that another step
+forward and you would have fallen into it.
+   The tunnel itself leads to the west, and looking down into the hole
+in the floor reveals little beyond the fact that it seems to be very
+deep and very dark.  There is a very strange smell emanating from the
+hole, it almost smells like something down there is rotting.
+~
+41 acd 3
+D3
+~
+~
+0 -1 4111
+D5
+Before you head down, you drop a rock to see how deep the hole is...
+After about five minutes, it still hasn't hit bottom.  Thus, for
+reasons of sanity, you decide not to go this way.
+~
+~
+0 -1 -1
+E
+hole floor~
+   Before you head down, you drop a rock to see how deep the hole is...  After
+about five minutes, it still hasn't hit bottom.  Thus, for reasons of sanity,
+you decide not to go this way.  
+~
+S
+#4111
+The Tunnel~
+   The walls of this small tunnel are almost completely covered in a
+strange orange moss that flakes off to the touch.  The tunnel leads
+in an east-west direction and the air within is very damp and very
+stagnant.  There is no detectable breeze at all but a strange smell
+emanates from the east.  There is a small, almost unnoticed hole in
+the southern wall.
+~
+41 ad 3
+D1
+~
+~
+0 -1 4110
+D2
+The hole looks very small.  You will probably have to crawl through
+it.
+~
+~
+0 -1 4126
+D3
+~
+~
+0 -1 4112
+E
+moss walls wall~
+   The moss on the walls is orange.  When you touch it, it feels very scrubby
+and flakes off to the touch leaving a slight orange tinge on your fingertips.  
+~
+S
+#4112
+The Tunnel~
+   The tunnel in which you currently stand is fairly wide (very wide
+relative to almost all the other tunnels around here it seems) and
+yet the air is quite damp.  The walls have a thin coating of moisture
+upon them which looks and feels somewhat oiley.  The tunnel leads in
+an east-west direction.
+~
+41 ad 3
+D1
+~
+~
+0 -1 4111
+D3
+~
+~
+0 -1 4113
+E
+wall walls moisture coat coating~
+   The coating of moisture on the walls has strange little patterns of colour
+weaving through it, almost as if someone had spilled oil on a horizontal water
+surface.  
+~
+S
+#4113
+The Passage~
+   This north-south passageway looks to be a natural creation, except
+that the walls looks to have been roughly hewn in order to smooth them
+a somewhat to make passage easier.  The walls still meander as the
+passage makes its way deeper into the bowels of the earth.  A bizarre
+shadow in the eastern wall leads you to suspect that a small passage
+meets the tunnel there.
+~
+41 ad 3
+D0
+~
+~
+0 -1 4107
+D1
+~
+~
+0 -1 4112
+D2
+~
+~
+0 -1 4116
+S
+#4114
+The Golden Cave~
+   You are standing in what appears to be the south-west corner of
+this large cavern.  The cave is lit by the eerie, soft, golden light
+which looks to be emanating from the walls themselves.  The cave
+itself is enormous, extending quite a distance to the north and a
+strange shadow formation seems to indicate a passage entrance to the
+west.
+~
+41 d 1
+D0
+~
+~
+0 -1 4109
+D3
+~
+~
+0 -1 4115
+E
+light gold golden~
+   It looks good, but as you look closely you notice that it has no value.  
+~
+S
+#4115
+The Dark Passage~
+   You find yourself in a small passage ending.  It is quite dark in here.
+As you look about the damp walls, you notice that the passageway almost
+appears to curve upwards towards the ceiling.  Looking up, you notice that
+there is a small hole, just large enough to pass through.  Looking closely
+at the curved part of the wall, it appears that someone (or something) has
+carved small handholds into the wall to ease passage upwards.  The tunnel
+itself leads off to the east.
+~
+41 ad 3
+D1
+~
+~
+0 -1 4114
+D4
+~
+~
+0 -1 4021
+S
+#4116
+The Passage~
+   You find yourself in quite an ordinary passageway which leads north
+and south.  It looks to be wide enough for two people to walk side by
+side with plenty of room.  The passage appears to be almost rectangular
+in form.  Far off to the south you can see the pinpoint of a light.
+~
+41 ad 3
+D0
+~
+~
+0 -1 4113
+D2
+~
+~
+0 -1 4120
+E
+light~
+   Well, you can't see where it comes from...  
+~
+S
+#4117
+The Secret Tunnel~
+   You are currently standing in a narrow passageway that does not seem
+to have been heavily visited at any time.  It leads northwards towards
+a lit room and south towards what appears to be a chamber.
+~
+41 ad 3
+D0
+~
+~
+0 -1 4114
+D2
+~
+~
+0 -1 4122
+S
+#4118
+The Cave~
+   This rather large cave is surprisingly very well lit.  There are
+about twenty torches spread about the room set in sconces which hang
+several feet above your head.  The dancing shadows created by the
+flickering flames catch your eyes for a few minutes and threaten to
+hold you entranced.
+   Looking about the cave, it appears to continue to the west and
+south.  In the north wall a strange vertical crack looks as if it may
+lead somewhere.
+~
+41 d 1
+D0
+It looks like quite the tight fit.
+~
+~
+0 -1 4126
+D2
+~
+~
+0 -1 4123
+D3
+~
+~
+0 -1 4119
+S
+#4119
+The Cave~
+   This rather large cave is surprisingly very well lit.  There are
+about twenty torches spread about the room set in sconces which hang
+several feet above your head.  The dancing shadows created by the
+flickering flames catch your eyes for a few minutes and threaten to
+hold you entranced.
+   Looking about the cave, it appears to continue to the east and
+south.
+~
+41 d 1
+D1
+~
+~
+0 -1 4118
+D2
+~
+~
+0 -1 4124
+D3
+The rock wall to the west looks odd for some strange reason.
+~
+wall rock~
+1 -1 4121
+S
+#4120
+The Passage~
+   You stand in a fairly normal passage, slightly wider than is
+necessary for one person, but not quite wide enough for two.  The
+ceiling dips here rather surprisingly, or wait, is that because the
+floor climbs upwards toward it?  The tunnel seems to narrow slightly
+more as you look to the south, and widens up somewhat as you look
+northward.  The light to the south continues to flicker.
+~
+41 ad 3
+D0
+~
+~
+0 -1 4116
+D2
+~
+~
+0 -1 4125
+E
+light~
+   It nearly is enough to light the passage.  
+~
+S
+#4121
+The Secret Tunnel~
+   You stand in a very unnatural hallway, about ten feet across and
+about ten or twelve feet up.  The passageway funnels down towards 
+the west where it leads to a doorway that looks to be about five feet
+across.  The east end of the tunnel comes to a sudden end at a very
+smooth rock wall.
+~
+41 ad 3
+D1
+The rock wall to the east looks like it might be able to be moved.
+~
+wall rock~
+1 -1 4119
+D3
+~
+~
+0 -1 4122
+E
+wall rock~
+   The rock wall to the east looks like it might be able to be moved.  
+~
+S
+#4122
+The Secret Chamber~
+   You stand in a small chamber that you never would have thought
+could exist.  This small, almost perfectly round cave does not
+appear to be a natural formation at all, since the walls are far
+too smooth and the doorways to the north and east are both almost
+exactly five feet wide and eleven feet tall.
+~
+41 ad 3
+D0
+~
+~
+0 -1 4117
+D1
+~
+~
+0 -1 4121
+S
+#4123
+The Cave~
+   This rather large cave is surprisingly very well lit.  There are
+about twenty torches spread about the room set in sconces which hang
+several feet above your head.  The dancing shadows created by the
+flickering flames catch your eyes for a few minutes and threaten to
+hold you entranced.
+   Looking about the cave, it appears to continue to the west and
+north.
+~
+41 d 1
+D0
+~
+~
+0 -1 4118
+D3
+~
+~
+0 -1 4124
+S
+#4124
+The Cave~
+   This rather large cave is surprisingly very well lit.  There are
+about twenty torches spread about the room set in sconces which hang
+several feet above your head.  The dancing shadows created by the
+flickering flames catch your eyes for a few minutes and threaten to
+hold you entranced.
+   Looking about the cave, it appears to continue to the east and
+north.  There is a passageway leading out of the western wall of the
+cave which looks to turn northwards.
+~
+41 d 1
+D0
+~
+~
+0 -1 4119
+D1
+~
+~
+0 -1 4123
+D3
+~
+~
+0 -1 4125
+S
+#4125
+The Passage~
+   You are at the end of a narrow passage which leads away from
+here to the north.  The southern wall is bare and almost seems to
+dance with the shadows created by the flickering light emanating
+from the cave to the east.
+~
+41 d 3
+D0
+~
+~
+0 -1 4120
+D1
+~
+~
+0 -1 4124
+S
+#4126
+The Crawlway~
+   You are in a very narrow crawlway.  To back out of it, you would have
+to move carefully in order to not catch anything on the jutting rocks of
+the ceiling and walls.  The diameter of the crawlway is about two feet,
+and is a rather tight squeeze.  You'd better hope that there aren't any
+worms or similar creatures down this way since it might be difficult to
+defend yourself in here.
+~
+41 acdfgij 5
+D0
+You can see a small hole marking the north exit of the crawlway.
+~
+~
+0 -1 4111
+D2
+You can see the light emanating from the southern exit of the crawlway.
+~
+~
+0 -1 4118
+S
+#0
+
+#RESETS
+M 0 4100 1 4114 	(the mage)
+G 1 4102 2 -1 	(a scroll which reads 'ysafg')
+M 0 4101 1 4122 	(the troll)
+G 1 4100 2 -1 	(a black demon blade)
+M 0 4102 3 4111 	(the snake)
+G 1 4103 10 -1 	(a green slime mould)
+M 0 4102 3 4111 	(the snake)
+G 1 4104 3 -1 	(a green slime mould)
+M 0 4103 6 4103 	(the thief)
+M 0 4103 2 4124 	(the thief)
+E 1 4053 3 16 	(a thieves' dirk)
+M 0 4105 3 4108 	(the centipede)
+M 0 4106 2 4113 	(the warrior)
+G 1 4101 1 -1 	(a pair of swordsmans' gloves)
+M 0 4107 1 4119 	(the kobold)
+G 1 4104 10 -1 	(a green slime mould)
+D 0 4119 3 1 	(The Cave)
+D 0 4121 1 1 	(The Secret Tunnel)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

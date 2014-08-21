@@ -1,0 +1,1046 @@
+Available races (90):
+
+Name       human
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         none
+Vuln        none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name     nekojin
+Act         none
+Aff   infrared haste dark_vision
+Aff2        none
+Off         none
+Imm         none
+Res    lightning
+Vuln  magic fire drowning
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye claws
+Skill sneak hide
+
+Name        lizardman
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         poison cold
+Vuln        energy
+Form  edible sentient biped cold_blood reptile
+Parts head arms legs heart brains guts hands feet fingers ear eye tail scales
+Skill       tailsweep
+
+Name       sylvan-elf
+Act         none
+Aff     infrared detect_invis detect_hidden
+Aff2        none
+Off         none
+Imm         none
+Res        poison mental
+Vuln        iron
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill        hunt
+
+Name       grey-elf
+Act         none
+Aff     infrared detect_invis detect_hidden
+Aff2        none
+Off         none
+Imm         none
+Res        magic mental
+Vuln        iron
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name       high-elf
+Act         none
+Aff     infrared detect_invis detect_hidden
+Aff2        none
+Off         none
+Imm         none
+Res        magic poison disease
+Vuln        iron
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name       half-elf
+Act         none
+Aff       infrared
+Aff2        none
+Off         none
+Imm         none
+Res         mental
+Vuln        none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name       sea-elf
+Act         none
+Aff     infrared detect_invis detect_hidden swim
+Aff2        water_breath walk_on_water
+Off         none
+Imm        drowning
+Res        poison cold
+Vuln        fire
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name        avariel
+Act         none
+Aff         flying detect_hidden infrared
+Aff2        none
+Off         none
+Imm         none
+Res         mental cold disease
+Vuln        fire
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye wings
+
+Name        drow
+Act         none
+Aff   detect_magic infrared dark_vision
+Aff2        none
+Off         none
+Imm         none
+Res        magic
+Vuln  disease light
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill     sneak dodge
+
+Name       mountain-dwarf
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res   magic poison
+Vuln    none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill     resize forge repair
+
+Name       hill-dwarf
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res   magic poison
+Vuln    none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill     resize sharpen repair
+
+Name       duergar
+Act         none
+Aff       infrared dark_vision
+Aff2        none
+Off         none
+Imm         poison
+Res         magic
+Vuln        light
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill     resize envenom vorpalize repair
+
+Name     storm-giant
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm       lightning
+Res         bash
+Vuln        acid
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       bash  lightning bolt
+
+Name     cloud-giant
+Act         none
+Aff        flying
+Aff2        none
+Off         none
+Imm         cold
+Res         bash
+Vuln        fire
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye wings
+Skill      bash  windwall
+
+Name     fire-giant
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         fire
+Res         bash
+Vuln        cold
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      bash  burning hands
+
+Name     hill-giant
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         bash
+Vuln      mental
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      mace  crush  berserk
+
+Name     half-giant
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         bash
+Vuln        none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      sword  crush
+
+Name       troll
+Act         none
+Aff   detect_hidden infrared regeneration
+Aff2        none
+Off         none
+Imm         none
+Res    fire cold
+Vuln  drowning light
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       bash  fast healing  enhanced damage
+
+Name     forest-gnome
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res        magic
+Vuln       none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      dodge
+
+Name     rock-gnome
+Act         none
+Aff         infrared
+Aff2        none
+Off         none
+Imm         none
+Res        magic
+Vuln       none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill     dirt kicking
+
+Name      svirfneblin
+Act         none
+Aff         infrared
+Aff2        none
+Off         none
+Imm         none
+Res        magic poison
+Vuln        light
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      sneak  hide
+
+Name      goblin
+Act         none
+Aff     infrared
+Aff2        none
+Off         none
+Imm      disease
+Res       poison
+Vuln      mental
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill    war drums  resize
+
+Name   hobgoblin
+Act         none
+Aff     infrared
+Aff2        none
+Off         none
+Imm         none
+Res   poison disease
+Vuln        none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye tusks
+Skill     sword
+
+Name         orc
+Act         none
+Aff     infrared
+Aff2        none
+Off         none
+Imm         none
+Res      disease poison
+Vuln       none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      sharpen
+
+Name      half-orc
+Act         none
+Aff      infrared
+Aff2        none
+Off         none
+Imm         none
+Res       poison
+Vuln       none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name     half-ogre
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         bash
+Vuln       mental
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      flail  dirt kicking
+
+Name        ogre
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         bash
+Vuln        mental
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      crush  berserk
+
+Name        uruk-hai
+Act         none
+Aff        infrared
+Aff2        none
+Off         none
+Imm         poison
+Res         slash disease
+Vuln        light
+Form  sentient biped mammal edible
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       sword  second attack
+
+Name        minotaur
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         bash
+Vuln        none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye horns
+Skill       berserk  disarm  axe
+
+Name        centaur
+Act         none
+Aff         none
+Aff2        none
+Off         fast
+Imm         none
+Res         bash
+Vuln        mental
+Form  edible sentient biped mammal centaur
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill      bash  dodge  rearkick
+
+Name        satyr
+Act         none
+Aff         detect_hidden
+Aff2        none
+Off         none
+Imm         fire
+Res         none
+Vuln        light
+Form  edible sentient biped mammal 
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       dodge
+
+Name        halfling
+Act         none
+Aff         detect_hidden
+Aff2        none
+Off         none
+Imm         none
+Res         poison
+Vuln        none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name        ratling
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         poison disease
+Vuln        bash
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye tail
+Skill       forage  cure poison
+
+Name        quickling
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         none
+Vuln        magic
+Form  sentient biped mammal edible
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       hide  speedup
+
+Name        sprite
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         none
+Res         none
+Vuln        magic
+Form  sentient biped mammal edible
+Parts head arms legs heart brains guts hands feet fingers ear eye wings
+Skill         hide  invisible
+
+Name       merfolk
+Act         none
+Aff        swim
+Aff2        water_breath walk_on_water
+Off         none
+Imm        drowning
+Res        cold
+Vuln       lightning
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name       wolfen
+Act         none
+Aff       detect_invis detect_hidden
+Aff2        none
+Off         none
+Imm        none
+Res        cold charm
+Vuln       fire light
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye claws
+Skill       sneak  hunt
+
+Name        diva
+Act         none
+Aff       detect_good detect_evil
+Aff2        none
+Off         none
+Imm        none
+Res        poison disease
+Vuln       cold acid
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill         find familiar
+
+Name        eldar
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm        none
+Res        magic
+Vuln       slash
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       lore  meditation
+
+Name        dryad
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm        wood acid
+Res        bash drowning
+Vuln       pierce
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name        kenku
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         none
+Res        cold fire
+Vuln       bash poison
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye wings claws
+
+Name        gnoll
+Act         none
+Aff         detect_hidden
+Aff2        none
+Off         none
+Imm         none
+Res         none
+Vuln        silver
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+
+Name        avian
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         none
+Res         lightning
+Vuln        poison disease
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye wings
+
+Name        draconian
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         disease
+Res         none
+Vuln        none
+Form  edible sentient biped cold_blood dragon snake reptile
+Parts head arms legs heart brains guts hands feet fingers ear eye wings claws
+
+Name        ghost
+Act         none
+Aff         pass_door flying
+Aff2        none
+Off         none
+Imm         disease poison
+Res         slash negative
+Vuln        energy holy
+Form  magical undead instant_decay sentient biped intangible
+Parts head arms legs hands feet fingers ear eye
+
+Name        shade
+Act         none
+Aff         pass_door dark_vision
+Aff2        none
+Off         none
+Imm         none
+Res         disease poison negative
+Vuln        light holy
+Form  magical instant_decay sentient intangible
+Parts head arms legs hands feet fingers ear eye
+Skill       fade
+
+Name        mummy
+Act         none
+Aff         regeneration
+Aff2        none
+Off         none
+Imm         none
+Res         disease
+Vuln        none
+Form  magical undead instant_decay sentient
+Parts head arms legs hands feet fingers ear eye
+Skill       curse  animate dead
+
+Name        spectre
+Act         none
+Aff         berserk
+Aff2        none
+Off         none
+Imm         none
+Res         holy negative poison
+Vuln        sound light
+Form  magical undead instant_decay sentient biped
+Parts head arms legs hands feet fingers ear eye
+Skill       deathgrip
+
+Name        wight
+Act         none
+Aff         regeneration
+Aff2        none
+Off         none
+Imm         none
+Res         cold acid negative
+Vuln        holy fire
+Form  magical undead instant_decay sentient biped
+Parts head arms legs hands feet fingers ear eye
+Skill       soul blade   berserk
+
+Name        death-knight
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         magic poison disease negative
+Vuln        holy
+Form  magical undead instant_decay sentient biped
+Parts head arms legs hands feet fingers ear eye
+Skill       fireball  deathgrip
+
+Name       ghoul
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm        mental
+Res      negative disease
+Vuln        fire
+Form  magical sentient biped instant_decay undead
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       meditation
+
+Name        banshee
+Act         none
+Aff         pass_door flying
+Aff2        none
+Off         none
+Imm         sound
+Res         disease negative poison
+Vuln        iron holy
+Form  magical undead instant_decay sentient
+Parts head arms legs hands feet fingers ear eye
+Skill       wail
+
+Name        seraphim
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         holy
+Res         disease negative poison
+Vuln        none
+Form  magical edible sentient biped mammal
+Parts head arms legs hands feet fingers ear eye wings guts brains heart
+Skill       protection evil  dispel evil
+
+Name        succubus
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         charm
+Res         magic weapon
+Vuln        holy silver
+Form  magical edible sentient biped mammal
+Parts head arms legs hands feet fingers ear eye wings fangs horns guts brains heart
+Skill        charm
+
+Name        pitfiend
+Act         none
+Aff         regeneration
+Aff2        none
+Off         none
+Imm         fire
+Res         weapon negative
+Vuln        holy cold
+Form  magical edible sentient biped mammal
+Parts head arms legs hands feet fingers ear eye wings guts brains
+Skill       dual wield
+
+Name        lich
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         cold
+Res         disease negative poison
+Vuln        fire
+Form  magical edible sentient biped mammal undead
+Parts head arms legs hands feet fingers ear eye
+
+Name        dracolich
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         negative poison
+Res         slash pierce
+Vuln        bash acid
+Form  magical sentient dragon undead cold_blood
+Parts head arms legs hands feet fingers ear eye wings tail claws fangs scales
+Skill      energy drain   death breath    tailsweep
+
+Name        holy-dragon
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         holy
+Res         disease
+Vuln        negative
+Form  magical sentient dragon cold_blood
+Parts head arms legs hands feet fingers ear eye wings tail claws fangs scales
+Skill      ray of truth  protection good  tailsweep
+
+Name        faerie-dragon
+Act         none
+Aff         flying detect_invis
+Aff2        none
+Off         none
+Imm         summon charm
+Res         magic
+Vuln        weapon
+Form  magical sentient dragon cold_blood
+Parts head arms legs hands feet fingers ear eye wings tail claws fangs scales
+Skill         magic missile   colour spray    tailsweep
+
+Name        black-dragon
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm         negative
+Res         disease poison
+Vuln        holy lightning silver
+Form  magical sentient dragon cold_blood
+Parts head arms legs hands feet fingers ear eye wings tail claws fangs scales
+Skill       protection evil   acid breath   tailsweep
+
+Name        doppleganger
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         none
+Vuln        none
+Form  magical sentient biped mammal
+Parts head arms legs hands feet fingers ear eye
+Skill       morph
+
+Name        mongrelman
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm      disease
+Res      poison
+Vuln      holy
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill       pick lock  sneak
+
+Name        gargoyle
+Act         none
+Aff         flying
+Aff2        none
+Off         none
+Imm      disease poison
+Res      none
+Vuln      holy light
+Form  edible sentient biped mammal cold_blood
+Parts head arms legs heart brains guts hands feet fingers ear eye wings
+Skill       stone skin   polearm
+
+Name        crystal-dragon
+Act         none
+Aff         flying infrared dark_vision
+Aff2        none
+Off         none
+Imm         fire disease
+Res         charm
+Vuln        lightning
+Form  magical sentient dragon cold_blood
+Parts head arms legs hands feet fingers ear eye wings tail claws fangs scales
+Skill       cause critical   tailsweep
+
+Name        silver-dragon
+Act         none
+Aff         flying infrared dark_vision
+Aff2        none
+Off         none
+Imm         cold
+Res         charm disease
+Vuln        none
+Form  magical sentient dragon cold_blood
+Parts head arms legs hands feet fingers ear eye wings tail claws fangs scales
+Skill       heal  tailsweep
+
+Name        titan
+Act         none
+Aff         detect_invis
+Aff2        none
+Off         none
+Imm      charm
+Res      weapon
+Vuln      none
+Form  edible sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye
+Skill    fast healing  berserk
+
+Name        werewolf
+Act         none
+Aff         haste regeneration infrared dark_vision
+Aff2        none
+Off         none
+Imm         none
+Res         disease negative poison magic
+Vuln        fire silver
+Form  magical sentient biped mammal
+Parts head arms legs hands feet fingers ear eye claws fangs
+Skill         hand to hand
+
+Name        vampire
+Act         none
+Aff         haste infrared dark_vision
+Aff2        none
+Off         none
+Imm         none
+Res         disease negative poison
+Vuln        fire holy light
+Form  magical sentient biped mammal undead
+Parts head arms legs hands feet fingers ear eye fangs
+Skill         feed
+
+Name         bat
+Act         none
+Aff   flying dark_vision
+Aff2        none
+Off   dodge fast
+Imm         none
+Res         none
+Vuln       light
+Form  edible animal mammal
+Parts head legs heart brains guts feet ear eye wings
+
+Name        bear
+Act         none
+Aff         none
+Aff2        none
+Off   berserk disarm crush
+Imm         none
+Res    bash cold
+Vuln        none
+Form  edible animal mammal
+Parts head arms legs heart brains guts feet ear eye claws fangs
+
+Name         cat
+Act         none
+Aff   dark_vision
+Aff2        none
+Off   dodge fast
+Imm         none
+Res         none
+Vuln        none
+Form  edible animal mammal
+Parts head legs heart brains guts feet ear eye tail claws fangs
+
+Name   centipede
+Act         none
+Aff   dark_vision
+Aff2        none
+Off         none
+Imm         none
+Res   pierce cold
+Vuln        bash
+Form  edible poison animal insect
+Parts head legs eye
+
+Name         dog
+Act         none
+Aff         none
+Aff2        none
+Off         fast
+Imm         none
+Res         none
+Vuln        none
+Form  edible animal mammal
+Parts head legs heart brains guts feet ear eye claws fangs
+
+Name        doll
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm   cold poison negative holy mental disease drowning
+Res   bash light
+Vuln  slash fire lightning acid energy
+Form  other construct biped cold_blood
+Parts head arms legs hands feet eye
+
+Name      dragon
+Act         none
+Aff   infrared flying
+Aff2        none
+Off         none
+Imm         none
+Res   charm bash fire
+Vuln  pierce cold
+Form  edible sentient dragon
+Parts head legs heart brains guts hands feet fingers ear eye wings tail claws fangs scales
+
+Name        fido
+Act         none
+Aff         none
+Aff2        none
+Off   dodge assist_race
+Imm         none
+Res         none
+Vuln       magic
+Form  edible poison animal mammal
+Parts head legs heart brains guts feet ear eye tail fangs
+
+Name         fox
+Act         none
+Aff   dark_vision
+Aff2        none
+Off   dodge fast
+Imm         none
+Res         none
+Vuln        none
+Form  edible animal mammal
+Parts head legs heart brains guts feet ear eye tail fangs
+
+Name      kobold
+Act         none
+Aff     infrared
+Aff2        none
+Off         none
+Imm         none
+Res       poison
+Vuln       magic
+Form  edible poison sentient biped mammal
+Parts head arms legs heart brains guts hands feet fingers ear eye tail
+
+Name      lizard
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res       poison
+Vuln        cold
+Form  edible animal reptile cold_blood
+Parts head legs heart brains guts feet eye tail fangs
+
+Name      modron
+Act         none
+Aff     infrared
+Aff2        none
+Off   assist_align assist_race
+Imm   charm negative holy mental disease
+Res   fire cold acid
+Vuln        none
+Form    sentient
+Parts head arms legs hands feet ear eye
+
+Name         pig
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         none
+Vuln        none
+Form  edible animal mammal
+Parts head legs heart brains guts feet ear eye
+
+Name      rabbit
+Act         none
+Aff         none
+Aff2        none
+Off   dodge fast
+Imm         none
+Res         none
+Vuln        none
+Form  edible animal mammal
+Parts head legs heart brains guts feet ear eye
+
+Name  school monster
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm   summon charm
+Res         none
+Vuln       magic
+Form  edible biped mammal
+Parts head arms legs heart brains guts feet ear eye tail claws
+
+Name       snake
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res       poison
+Vuln        cold
+Form  edible animal reptile snake cold_blood
+Parts head heart brains guts eye long_tongue tail fangs scales
+
+Name   song bird
+Act         none
+Aff       flying
+Aff2        none
+Off   dodge fast
+Imm         none
+Res         none
+Vuln        none
+Form  edible animal bird
+Parts head legs heart brains guts feet eye wings
+
+Name  water fowl
+Act         none
+Aff   flying swim
+Aff2        water_breath walk_on_water
+Off         none
+Imm         none
+Res     drowning
+Vuln        none
+Form  edible animal bird
+Parts head legs heart brains guts feet eye wings
+
+Name        wolf
+Act         none
+Aff   dark_vision
+Aff2        none
+Off   dodge fast
+Imm         none
+Res         none
+Vuln        none
+Form  edible animal mammal
+Parts head legs heart brains guts ear eye tail fangs
+
+Name      wyvern
+Act         none
+Aff   detect_invis detect_hidden flying
+Aff2        none
+Off   bash dodge fast
+Imm       poison
+Res         none
+Vuln       light
+Form  edible poison animal dragon
+Parts head legs heart brains guts feet ear eye tail fangs scales
+
+Name      unique
+Act         none
+Aff         none
+Aff2        none
+Off         none
+Imm         none
+Res         none
+Vuln        none
+Form        none
+Parts       none
+
+

@@ -1,0 +1,2501 @@
+#Style Circle
+#AREADATA
+Name Newbie Farm~
+Builders Unknown~ 
+VNUMs 500 599
+Credits {{None}  CAW    Newbie Farm~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#500
+bunny~
+bunny~
+A cute little bunny is here.
+~
+   She is white with red eyes and looks harmless, but looks can be deceiving.
+  
+~
+bd 0 200 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+BareHandAttack: 4
+E
+T 500
+#501
+apple boy thief~
+the apple thief~
+A dirty boy is waiting for the next apple to fall.
+~
+   This little thief is too short to reach the apples over his head.  Instead
+he waits for the ripe apples to fall from the breeze.    
+~
+bd dfk 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+T 503
+#502
+mouse~
+mouse~
+A small mouse is here.
+~
+   He is rather small and scrawny looking.  His teeth look very sharp and would
+hurt terribly if he bit you.  
+~
+bd 0 250 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+BareHandAttack: 4
+E
+T 502
+#503
+reallyweirdalias old farmer~
+the old farmer~
+An old farmer sits underneath the shade of the apple tree.
+~
+   He wears a set of old ratty coveralls and is picking his teeth with a bit of
+hay.    
+~
+bd 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+#504
+rooster~
+rooster~
+An ugly little rooster is here.
+~
+   He is perhaps the ugliest rooster you have ever seen.  He is missing over
+half of his feathers and has a large scar over his left eye.  
+~
+bd 0 -200 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+BareHandAttack: 8
+E
+T 504
+#507
+rat~
+rat~
+A large rat is here.
+~
+   The creature looks up at you with it's big dark eyes.  They look black.  
+The hair on the rat is matted down, probably from some sewer water.    
+~
+bd 0 -250 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+BareHandAttack: 4
+E
+#508
+weasel~
+weasel~
+A sly looking weasel is here.
+~
+   She looks very sneaky and could easily sneak up on her prey.    
+~
+bd 0 -250 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 2
+BareHandAttack: 9
+E
+#510
+goose~
+goose~
+A goose is here, walking along the trail.
+~
+   Her feathers are as white as snow, she looks friendly enough to touch.    
+~
+bd 0 300 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+BareHandAttack: 4
+E
+#511
+chick~
+chick~
+A furry little chick is here.
+~
+   She is a small little thing and looks quite weak.    
+~
+bd 0 250 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+BareHandAttack: 4
+E
+#514
+hen~
+hen~
+A hen is here.
+~
+   She is mean looking and quite ugly.  Her eyes give you the chilling feeling
+of death.    
+~
+bd 0 -300 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 2
+BareHandAttack: 8
+E
+#518
+dog~
+dog~
+A large dog is here.
+~
+   He is very bony, but appears to be very tough.  It might be wise to leave
+him alone.    
+~
+bd 0 300 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+BareHandAttack: 4
+E
+#520
+farmer pete~
+farmer~
+Farmer Pete is here, busily working.
+~
+   He is a husky man.  Well built, but friendly looking.  His silver hair
+reflects in the sunlight.    
+~
+bd 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 7
+E
+T 520
+#522
+cow~
+cow~
+A cow is here.
+~
+   She is very clean and well groomed.    
+~
+bd 0 300 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 2
+BareHandAttack: 4
+E
+#523
+barn cat~
+barn cat~
+A lazy barn cat is roaming around here.
+~
+   He is a large creature, and could probably use a diet.  His fur is orange
+with stripes of brown.    
+~
+bd 0 -300 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+BareHandAttack: 8
+E
+#524
+crow~
+crow~
+An ugly crow is here.
+~
+   He looks like he should be dead.  He is covered in scars.  You notice some
+blood on his beak.    
+~
+bd 0 -300 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+BareHandAttack: 4
+E
+#526
+farmers wife Helen~
+farmers wife~
+Helen, the farmers wife is standing here.
+~
+   She is a kind looking old woman.  Her hair is still its natural brown.  She
+must be younger than the farmer.    
+~
+bd 0 350 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+BareHandAttack: 13
+E
+T 526
+#527
+sheep~
+sheep~
+A sheep is here.
+~
+   She looks very tired.  Maybe you should let her rest.    
+~
+bd 0 400 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 2
+BareHandAttack: 4
+E
+#529
+calf~
+calf~
+A small calf is here.
+~
+   She looks up at you with her young innocent eyes.  How could you ever harm
+her?    
+~
+bd 0 300 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 2
+BareHandAttack: 9
+E
+#536
+farm boy Jonathan~
+farm boy~
+A young farm boy named Jonathan is here.
+~
+   He is a scrawny little thing, but quite tall.  He makes you think of a twig.
+His face is boney and looks like it's been caved in.  How gross!    
+~
+bd 0 300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 9
+E
+#542
+owl~
+owl~
+An owl is here
+~
+   She is quite large, but very beautiful.  Her white feathers look like
+freshly fallen snow.    
+~
+bd 0 200 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+BareHandAttack: 8
+E
+#543
+sheepdog~
+sheepdog~
+A furry sheepdog is here.
+~
+   He is quite friendly looking.  He must belong to the farmer.    
+~
+bd 0 400 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 4
+E
+#544
+blackbird~
+blackbird~
+A blackbird is flying around above you.
+~
+   She is old and mean looking.  She carries a lot of battle scars.    
+~
+bd 0 -300 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 2
+BareHandAttack: 8
+E
+#545
+raven~
+raven~
+A raven is here.
+~
+   Her beak is long and sharp.  It would hurt greatly if she decided to bite
+you.    
+~
+bd 0 -600 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 2
+BareHandAttack: 4
+E
+#546
+wolf~
+wolf~
+A snarling wolf is here.
+~
+   His teeth drip with drool as he snarls at you, warning you to stay back.  
+Maybe you should just leave him alone.    
+~
+bd 0 -500 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+BareHandAttack: 9
+E
+#547
+squirrel~
+squirrel~
+A cute little squirrel is here.
+~
+   He is a cute little thing and probably wouldn't attack you unless you
+provoked him.    
+~
+bd 0 -250 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 3
+E
+#548
+gopher~
+gopher~
+A small gopher is here
+~
+   She must be a baby.  She is half the size of a normal gopher.    
+~
+bd 0 -300 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 2
+BareHandAttack: 4
+E
+#555
+bat~
+bat~
+A small bat is hanging from the wall.
+~
+   He is a small thing, but rather nasty looking.  His eyes look like 2 small
+black holes.  They remind you of death.  
+~
+bd 0 -400 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+BareHandAttack: 8
+E
+T 555
+#563
+colt~
+colt~
+A firey colt is here.
+~
+   He looks quite mean.  He must be the bully of the farm.    
+~
+bd 0 -400 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 10
+E
+#565
+mare~
+mare~
+A mare is here.
+~
+   She is a cute little thing, almost too weak to stand on her own.    
+~
+bd 0 -300 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 2
+BareHandAttack: 4
+E
+#566
+horse~
+horse~
+A beautiful horse stands here.
+~
+   Her coat is a shiny brown.  You notice she has some white splotches on her
+legs.    
+~
+bd 0 -200 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 2
+BareHandAttack: 4
+E
+#568
+stallion~
+stallion~
+A fierce looking stallion is here.
+~
+   His eyes almost seem red as they stare at you, almost making you want to
+leave.    
+~
+bd 0 -500 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+BareHandAttack: 4
+E
+#580
+turkey~
+turkey~
+An annoying turkey is here.
+~
+   He is more than ugly.  He is hidious looking!  His eyes seem to have a fog
+in them.  Maybe he can't see as well as he used to.    
+~
+bd 0 -400 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 4
+E
+#582
+butterfly~
+butterfly~
+A beautiful butterfly is here.
+~
+   His wings are splotched in many bright colors.  He is the most beautiful
+creature you have ever seen.    
+~
+bd 0 600 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 9
+E
+#584
+arthur man~
+arthur~
+Arthur is sitting here in his rocking chair, warming himself by the fire.
+~
+   He smiles at you when you look at him.  He must work somewhere on the farm
+and hunt in his spare time.    
+~
+bd 0 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 9
+E
+T 584
+#586
+coyote~
+coyote~
+A coyote is here.
+~
+   He is fierce looking.  His teeth are probably razor sharp and could easily
+tear you open.    
+~
+bd 0 -800 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 8
+E
+#587
+hawk~
+hawk~
+A hawk is here.
+~
+   She looks like a normal hawk, but her wings seems to be somewhat longer,
+enabling her to fly faster.    
+~
+bd 0 -300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+BareHandAttack: 8
+E
+#591
+roach~
+roach~
+A large roach is here.
+~
+   He is an ugly thing.  He has hair growing off his legs and is head looks
+some what deformed.    
+~
+bd 0 -300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+BareHandAttack: 4
+E
+#599
+sparrow~
+sparrow~
+A small sparrow is here.
+~
+   She is delicate looking, but looks can be deceiving.    
+~
+bd 0 -300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+BareHandAttack: 4
+E
+#0
+
+#OBJECTS
+
+#500
+dandelion~
+a dandelion~
+A dandelion is growing here.~
+~
+12 0 ao 0
+0 0 0 0
+1 25 0 0
+E
+dandelion flower~
+   The flower is yellow and as bright as the sun.  The stem is a pale green
+that blends in with the grass.    
+~
+#501
+apple red~
+a red apple~
+A red apple lays on the ground.~
+~
+19 0 a 0
+0 0 0 0
+1 1 0 0
+T 505
+E
+red apple~
+   A ripe red apple looks good enough to eat.  
+~
+#502
+cheese~
+a wedge of cheese~
+A wedge of cheese is molding here.~
+~
+19 0 a 0
+1 0 0 0
+2 60 0 0
+E
+wedge cheese~
+   The wedge looks quite tasty.  You can smell a delicious aroma coming from
+it.    
+~
+#503
+boulder~
+a boulder~
+A large boulder is here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+boulder rock~
+   The boulder is huge!  It would take at least five men of your size to move
+it.  
+~
+#505
+pile corn~
+a pile of cracked corn~
+A small pile of cracked corn is here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+pile crack cracked corn~
+   The corn is everywhere!  The animals must not have eaten their breakfast
+today.  You can hear the corn crunching under your feet.  
+~
+#507
+gem~
+a sapphire gem~
+A sapphire gem was left here.~
+~
+8 b ao 0
+0 0 0 0
+2 125 0 0
+E
+sapphire gem~
+   The blue gem sparkles in the light.  It's a pretty little thing.  You may
+want to hold onto it for good luck.  
+~
+#508
+hunters knife~
+a hunters knife~
+A hunters knife was left here.~
+~
+5 0 ano 0
+3 3 2 3
+4 250 0 0
+E
+hunter hunters knife~
+   The knife is large with a rigid blade.  The handle is made from ivory and is
+quite heavy in your hand.    
+~
+#517
+paint can~
+an empty paint can~
+An empty paint can has been left here.~
+~
+12 0 ao 0
+0 0 0 0
+3 80 0 0
+E
+empty paint can~
+   The can did at one time contain red paint.  It must have been used on the
+barn.    
+~
+#520
+pitchfork~
+a pitchfork~
+A pitchfork was left here.~
+~
+5 0 ano 0
+3 2 2 14
+5 300 0 0
+E
+pitchfork~
+   The fork looks fairly new.  The prongs on the end are very shiny and sharp.
+They could easily pierce someone.    
+~
+#521
+potatoe~
+a potatoe~
+A potatoe was left here.~
+~
+19 0 a 0
+2 0 0 0
+3 75 0 0
+E
+potatoe~
+   This is just an ordinary looking potatoe.  You might want to wipe off the
+dirt before you eat it.    
+~
+#526
+sewing needle~
+a sewing needle~
+A sewing needle was left here.~
+~
+12 0 ao 0
+0 0 0 0
+1 100 0 0
+E
+sewing needle~
+   The needle is quite large!  It must be a quilting needle.  Be careful not
+to prick yourself.    
+~
+#527
+muddy footprints~
+some muddy footprints~
+Some muddy footprints have been tracked in from outside.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+muddy footprints~
+   The footprints are fresh and quite large.  Most likely made by the farmer.
+  
+~
+#536
+rake~
+a rake~
+A rake was left here.~
+~
+5 0 a 0
+2 2 3 3
+5 200 0 0
+E
+rake~
+   The rake appears to be in good condition.  There is some dirt stuck to its
+tynes, but could be easily washed away.  
+~
+#537
+jerky~
+a piece of jerky~
+A piece of jerky was left here.~
+~
+19 0 a 0
+1 0 0 0
+2 100 0 0
+E
+jerky~
+   The piece is rather small and probably won't fill you up for very long.    
+~
+#566
+lucky horseshoe~
+a lucky horseshoe~
+A lucky horseshoe was left here.~
+~
+12 0 ao 0
+0 0 0 0
+3 150 0 0
+E
+horseshoe~
+   It's a rusty old thing, but might be worth some money.    
+~
+#578
+hay~
+a bale of hay~
+A bale of hay is sitting here.~
+~
+12 a 0 0
+0 0 0 0
+0 0 0 0
+E
+bale hay~
+   The bale is rather large.  It must be used for the chickens beds.  
+~
+#584
+fireplace~
+a fireplace~
+A stone fireplace is here, hosting a warm crackling fire.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+fireplace~
+   The fireplace is rather old looking, but gets the job done.  There are a few
+small pots hanging from the front of it.  They are probably used for cooking.
+  
+~
+#585
+bowl stew~
+a bowl of stew~
+A bowl of stew was left here.~
+~
+19 0 a 0
+2 0 0 0
+3 125 0 0
+E
+bowl stew~
+   The stew smells delicious!  It consists of freshly cut carrots, onions,
+celery and rabbit meat.    
+~
+#588
+well~
+a well~
+An enormous marble well stands before you.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+well~
+   The well sparkles in the sunlight, giving off a magical glow.  As you look
+down into the darkness of the well, you begin to wonder what could be lurking
+down there.    
+~
+#0
+
+#ROOMS
+
+#500
+Small Path~
+   A small dirt path is before you, leading towards the newbie farm.  The
+scenery here is quite beautiful.  You are surrounded by trees and gorgeous
+flowers that make the air smell sweet.    
+~
+5 0 2
+D3
+~
+~
+0 0 501
+E
+credits info~
+   Builder   : 
+Zone         : 5 Newbie Farm
+Began        : 2000 
+Player Level : 1-10
+Rooms        : 100
+Mobs         : 38
+Objects      : 13
+Shops        : 0
+Triggers     : 11
+Theme        :
+Plot         :
+Links        : 00
+~
+S
+#501
+Small Path~
+   As you continue walking towards the farm, you begin to wonder what creatures
+you will run into.  The trees shade you from the sun, making the temperature
+feel much cooler.    
+~
+5 0 2
+D1
+~
+~
+0 0 500
+D2
+~
+~
+0 0 502
+D3
+~
+~
+0 0 503
+S
+#502
+Farm Entrance~
+   You're standing in the entrance to the farm.  The smell of animals over
+powers you and almost knocks you over.  You can see that the farm spreads out
+more to the west.    
+~
+5 0 2
+D0
+~
+~
+0 0 501
+D2
+~
+~
+0 0 508
+D3
+~
+~
+0 0 504
+S
+#503
+Small Path~
+   The path comes to an end here.  You find yourself standing at the begining
+of the farm.  Where are all the animals?  Maybe they are all hiding.    
+~
+5 0 2
+D1
+~
+~
+0 0 501
+D2
+~
+~
+0 0 504
+S
+#504
+Farm Entrance~
+   You're standing in the entrance to the farm.  The smell of animals over
+powers you and almost knocks you over.  You can see that the farm spreads out
+more to the west.    
+~
+5 0 2
+D0
+~
+~
+0 0 503
+D1
+~
+~
+0 0 502
+D2
+~
+~
+0 0 506
+D3
+~
+~
+0 0 505
+S
+#505
+Farm Entrance~
+   You're standing at the entrance to the farm.  To the south, the farm
+continues.  If you go back to the east, you will be leaving the farm.  Cracked
+corn covers the ground here.    
+~
+5 0 2
+D1
+~
+~
+0 0 504
+D2
+~
+~
+0 0 507
+S
+#506
+Farm~
+   You're standing at the begining of the farm.  It continues to the east and
+west.  You begin to wonder where the barn is.    
+~
+5 0 2
+D0
+~
+~
+0 0 504
+D1
+~
+~
+0 0 508
+D3
+~
+~
+0 0 507
+S
+#507
+Farm~
+   You're standing on the edge of the farm, overlooking a small field.  You see
+several small critters running through the farm.  Maybe you could catch one.  
+~
+5 0 2
+D0
+~
+~
+0 0 505
+D1
+~
+~
+0 0 506
+D3
+~
+~
+0 0 511
+S
+#508
+Farm~
+   As you step into the farm, you feel your feet sinking into piles of cracked
+corn.  The chickens must not have eaten all of their breakfast.    
+~
+5 0 2
+D0
+~
+~
+0 0 502
+D1
+~
+~
+0 0 509
+D3
+~
+~
+0 0 506
+S
+#509
+Trail~
+   You have stepped onto a small trail, heading south.  The entrance to the
+farm is to the northwest.  You can see a large barn to the southwest.    
+~
+5 0 2
+D2
+~
+~
+0 0 510
+D3
+~
+~
+0 0 508
+S
+#510
+Trail~
+   Pebbles crunch under your feet as you make your way through the narrow
+trail.  There isn't much space here to walk.  Just enough for one person.  The
+trail continues to the south.    
+~
+5 i 2
+D0
+~
+~
+0 0 509
+D2
+~
+~
+0 0 515
+S
+#511
+Field~
+   You have stepped into a large field.  The grass here is up to your chin,
+making you feel like you're walking through the jungle.  Bugs buzz past your
+ears, tickling them.    
+~
+5 0 2
+D1
+~
+~
+0 0 507
+D3
+~
+~
+0 0 512
+S
+#512
+Field~
+   The grass here seems to get somewhat shorter, but not by much.  You can see
+a large corn field off to the west.  A large apple tree loaded with ripe apples
+sways in the breeze.    
+~
+5 0 1
+D0
+~
+~
+0 0 514
+D1
+~
+~
+0 0 511
+D2
+~
+~
+0 0 513
+S
+T 501
+#513
+Field~
+   The grass here seems to get somewhat shorter, but not by much.  You can see
+a large corn field off to the west.    
+~
+5 0 2
+D0
+~
+~
+0 0 512
+D3
+~
+~
+0 0 524
+S
+#514
+Field~
+   There is a dead end here.  The weeds are rather high towering over the top
+of your head.  You suddenly feel very lost.    
+~
+5 0 2
+D2
+~
+~
+0 0 512
+S
+#515
+Trail~
+   You are nearing the end of the trail.  You can see a barn to the west, it
+looks to be in pretty good shape.  Maybe it would be worth your time to go have
+a look.    
+~
+5 i 2
+D0
+~
+~
+0 0 510
+D3
+~
+~
+0 0 516
+S
+#516
+Barn~
+   You are standing in the entrance to the barn.  Several animals of all kinds
+live in here.  The smell is perhaps the nastiest smell you have ever come
+across.  The barn continues to the west and south.    
+~
+5 0 0
+D1
+~
+~
+0 0 515
+D3
+~
+~
+0 0 517
+S
+#517
+Barn~
+   As you walk deeper into the barn, the smell of fresh paint fills your nose.
+There are a few windows, but no glass.  Obviously not very good shelter from a
+storm.    
+~
+5 0 0
+D1
+~
+~
+0 0 516
+D2
+~
+~
+0 0 518
+S
+#518
+Milk Room~
+   You have stepped into the farms milk room.  There are several buckets in
+here, used to milk the cows.  Hay is covering the floor, making the place look
+messy.    
+~
+5 0 0
+D0
+~
+~
+0 0 517
+D1
+~
+~
+0 0 519
+D3
+~
+~
+0 0 520
+S
+#519
+Milk Room~
+   The barn comes to an end here, leaving you standing in a dead end.  This
+must be the corner of the milk room that no one uses.    
+~
+5 0 0
+D3
+~
+~
+0 0 518
+S
+#520
+Walkway through the Barn~
+   You begin walking through the barn, passing several animals as you do so.  
+At both of your sides are stalls filled with animals.  The barn is reasonably
+clean here.    
+~
+5 0 0
+D1
+~
+~
+0 0 518
+D2
+~
+~
+0 0 523
+S
+#521
+Hayloft~
+   This is the barns hayloft.  You notice bales of hay everywhere, they might
+make a nice place for you to sit down and rest.  It seems rather peaceful up
+here.    
+~
+5 0 0
+D5
+~
+~
+0 0 522
+S
+#522
+Walkway through the Barn~
+   You're standing in the center of the barn next to a ladder that was attached
+to the wall some time ago.  You look up and notice that it leads to a hayloft.
+What a novel idea!    
+~
+5 0 0
+D1
+~
+~
+0 0 523
+D3
+~
+~
+0 0 526
+D4
+~
+~
+0 0 521
+S
+#523
+Abandoned Stall~
+   You're walking through an old abandoned cow stall.  It's in bad need of
+repair.  Thats probably why it's not in use.  You can see a hayloft to the
+west.  Maybe you could go up there and rest a bit.    
+~
+5 0 0
+D0
+~
+~
+0 0 520
+D3
+~
+~
+0 0 522
+S
+#524
+Field~
+   You begin to feel like you're not getting anywhere.  Will this field ever
+end?  In the distance to the northwest you can see a corn field.  It looks to
+be rather large.    
+~
+5 0 2
+D1
+~
+~
+0 0 513
+D3
+~
+~
+0 0 525
+S
+#525
+Field~
+   You find yourself standing at the edge of a corn field.  The corn goes clear
+up to your chin!  How will you ever see in here?    
+~
+5 0 2
+D0
+~
+~
+0 0 531
+D1
+~
+~
+0 0 524
+S
+#526
+Barn~
+   You continue walking through the barn.  There are very few animals in here.
+They must all be outside in the stock yard.  You can see a doorway to the west.
+  
+~
+5 0 0
+D1
+~
+~
+0 0 522
+D2
+~
+~
+0 0 529
+D3
+~
+~
+0 0 527
+S
+#527
+Back Door of the Barn~
+   You're standing at the back of the barn in a narrow doorway.  The barn
+continues to the east and south.  You can smell some manure, but where is it
+coming from?    
+~
+5 0 0
+D0
+~
+~
+0 0 530
+D1
+~
+~
+0 0 526
+D2
+~
+~
+0 0 528
+S
+#528
+Hole in the Wall~
+   There is a large hole in the wall here.  Perhaps termintes ate away at it,
+or someone broke through the wall in a hurry to escape something terrible.  To
+the west you can see a manure pit.  The smell almost gags you.    
+~
+5 0 0
+D0
+~
+~
+0 0 527
+D1
+~
+~
+0 0 529
+D3
+~
+~
+0 0 538
+S
+#529
+Barn~
+   As you enter the room, the smell of manure almost knocks you over!  Where
+could this grotesque smell be coming from?  You see a small doorway to the
+west, leading to the outside.    
+~
+5 0 0
+D0
+~
+~
+0 0 526
+D3
+~
+~
+0 0 528
+S
+#530
+Corn Field~
+   You're standing at the edge of a large corn field.  There are only weeds at
+your feet.  The corn can be seen in the distance to the west.  To the south,
+there is a big red barn.    
+~
+5 0 2
+D2
+~
+~
+0 0 527
+D3
+~
+~
+0 0 537
+S
+#531
+Corn Field~
+   The fresh scent of corn fills your lungs as you being tromping through the
+field.  The sound of dead grass fills your ears as it crunches heavily under
+your weight.  The field continues to the west.    
+~
+5 0 2
+D2
+~
+~
+0 0 525
+D3
+~
+~
+0 0 532
+S
+#532
+Corn Field~
+   The corn seems to be getting taller the farther in you walk.  Someone should
+have cut a path through here to make it easier for adventurers like yourself to
+get through here alive.    
+~
+5 0 2
+D1
+~
+~
+0 0 531
+D3
+~
+~
+0 0 533
+S
+#533
+Corn Field~
+   The corn seems to be getting taller the farther in you walk.  Someone should
+have cut a path through here to make it easier for adventurers like yourself to
+get through here alive.    
+~
+5 0 2
+D1
+~
+~
+0 0 532
+D2
+~
+~
+0 0 534
+S
+#534
+Corn Field~
+   A large scarecrow has been left lying here in the field.  It looks like it
+fell off from it's post.  Most of the straw has been picked away from its
+fragile little body, most likely by crows.  The field continues to the south.
+~
+5 0 2
+D0
+~
+~
+0 0 533
+D2
+~
+~
+0 0 535
+S
+#535
+Corn Field~
+   The corn seems to be getting shorter with every step.  As you look over the
+field, you spot a barn off in the distance to the southeast.  Maybe you could
+rest there for a bit.    
+~
+5 0 2
+D0
+~
+~
+0 0 534
+D2
+~
+~
+0 0 536
+S
+#536
+Corn Field~
+   You feel that you're getting close to the end of the field.  To the
+southeast you can see a barn.  It looks to be in excellent condition.  Maybe
+you could stop there for a while and rest.    
+~
+5 0 2
+D0
+~
+~
+0 0 535
+D1
+~
+~
+0 0 537
+S
+#537
+Corn Field~
+   The corn has got much smaller, it's only up to your knees now.  In the
+distance you can see a large barn.  Some noises are coming from within it, most
+likely caused from the animals that live inside.    
+~
+5 0 2
+D1
+~
+~
+0 0 530
+D3
+~
+~
+0 0 536
+S
+#538
+Manure Pit~
+   You feel your body slowly sinking into a maure pit!  Flies are buzzing all
+around you, tickling your ears.  The manure is up to your knees.  It looks like
+it gets deeper the farther you walk in.    
+~
+5 0 2
+D1
+~
+~
+0 0 528
+D3
+~
+~
+0 0 539
+S
+#539
+Manure Pit~
+   As you take a step deeper, you feel your body sink into the manure.  You are
+now covered up to your thighs!  How gross.  Maybe you should get out of here
+before your entire body gets covered.    
+~
+5 0 2
+D1
+~
+~
+0 0 538
+D2
+~
+~
+0 0 540
+S
+#540
+Manure Pit~
+   Omph!  You just dropped in the manure much deeper then you would have liked.
+The manure is up to your neck and rising quickly.  No one will want to be
+around you for a very long time, unless you can find a place to wash yourself
+off.    
+~
+5 0 2
+D0
+~
+~
+0 0 539
+D1
+~
+~
+0 0 541
+S
+#541
+Manure Pit~
+   The manure is quite shallow here, enabling you walk.  To the south you see a
+rather large looking stock yard.  Maybe you would have better luck there.    
+~
+5 0 2
+D2
+~
+~
+0 0 542
+D3
+~
+~
+0 0 540
+S
+#542
+Gates of the Stock Yard~
+   You're standing in the gates of the stock yard.  Several different kinds of
+animals are before you, most of them either eating or sleeping.  The yard is
+surprisingly clean, of course anything would be compared to the manure pit.  
+
+~
+5 0 2
+D0
+~
+~
+0 0 541
+D1
+~
+~
+0 0 543
+S
+#543
+Stock Yard~
+   As you enter the stock yard, you notice how quiet everything is.  The yard
+is fenced in with a newly painted fence.  The aroma from the paint is still in
+the air.    
+~
+5 0 2
+D1
+~
+~
+0 0 544
+D3
+~
+~
+0 0 542
+S
+#544
+Stock Yard~
+   You pass a small puddle of water festering on the ground.  The ground at
+your feet is damp and slightly squishy, most likely caused from the rain.  The
+stock yard continues to the east and west.    
+~
+5 0 2
+D1
+~
+~
+0 0 545
+D3
+~
+~
+0 0 543
+S
+#545
+Stock Yard~
+   As you continue walking, you spot some footprints in the dirt.  They look
+like ones of either a goat or a sheep.  The stock yard continues to the east
+and west.    
+~
+5 0 2
+D0
+~
+~
+0 0 546
+D1
+~
+~
+0 0 548
+D2
+~
+~
+0 0 547
+D3
+~
+~
+0 0 544
+S
+#546
+Dead End~
+   You have come to a dead end.  The white picket fence is beside you.  You
+stand there for a moment and look at the view of the farm.    
+~
+5 0 2
+D2
+~
+~
+0 0 545
+S
+#547
+Dead End~
+   You have come to a dead end.  The white picket fence is beside you.  You
+stand there for a moment and look at the view of the farm.    
+~
+5 0 2
+D0
+~
+~
+0 0 545
+S
+#548
+Gopher Hole~
+   You have come to a large gopher hole.  It's big enough to crawl through.  
+As you bend down, you look into the hole.  You see nothing but blackness.  
+Would it be worth your time to go have a look?    
+~
+5 0 2
+D1
+~
+~
+0 0 549
+D3
+~
+~
+0 0 545
+D5
+~
+~
+0 0 555
+S
+#549
+Silo~
+   A large silo stands before you, most likely used for storing corn.  There is
+a ladder on one of the inside walls.  Maybe you could climb up it.    
+~
+5 0 2
+D1
+~
+~
+0 0 552
+D2
+~
+~
+0 0 554
+D3
+~
+~
+0 0 548
+S
+#550
+Silo~
+   You can start to see the roof of the Silo.  The heat up here is awful!  You
+feel beads of sweat slowly run down your face as you continue climbing up the
+ladder.    
+~
+5 0 0
+D4
+~
+~
+0 0 553
+D5
+~
+~
+0 0 551
+S
+#551
+Silo~
+   You begin pulling yourself up the wooden ladder, heading towards the roof of
+the silo.  The smell of corn fills your nose.  You can feel the temperature
+slowly rising the more you climb up.    
+~
+5 0 0
+D4
+~
+~
+0 0 550
+D5
+~
+~
+0 0 552
+S
+#552
+Silo~
+   You have entered the silo and are standing next to a tall ladder.  The corn
+thats being stored in here is being kept behind a large see-through wall.  
+Where could the ladder lead?    
+~
+5 0 0
+D3
+~
+~
+0 0 549
+D4
+~
+~
+0 0 551
+S
+#553
+Silo~
+   You have reached the top of the silo.  You crawl onto a small platform thats
+suspended from the ceiling.  A pile of bird droppings is beside you on the
+platform.  How could a bird get in here?    
+~
+5 0 0
+D5
+~
+~
+0 0 550
+S
+#554
+Stock Yard~
+   You're standing at the edge of the stock yard, looking at a small field to
+the south.  There is a silo to the north.    
+~
+5 0 2
+D0
+~
+~
+0 0 549
+D2
+~
+~
+0 0 570
+S
+#555
+Gopher Hole~
+   You begin descending into the black hole.  You hear some shuffling around
+underneath you, what could it be?  You feel your hands sinking into the dirt.
+Hopefully you can get back out.    
+~
+5 0 2
+D4
+~
+~
+0 0 548
+D5
+~
+~
+0 0 556
+S
+#556
+Gopher Hole~
+   You're almost to the bottom of the hole.  The temperature has dropped quite
+a few degrees making you feel cold and damp.    
+~
+5 0 2
+D4
+~
+~
+0 0 555
+D5
+~
+~
+0 0 557
+S
+#557
+Gopher Hole~
+   You have reached the bottom of the hole.  The ground here is quite damp and
+cold.  You see a small passageway leading to the west.  Where could it be
+going?  Maybe you should go find out.    
+~
+5 0 2
+D3
+~
+~
+0 0 558
+D4
+~
+~
+0 0 556
+S
+#558
+Gopher Hole~
+   As you begin walking through the passageway, you notice how big the gopher
+hole really is.  An entire family must live in here.  But where is everyone?  
+~
+5 0 2
+D1
+~
+~
+0 0 557
+D3
+~
+~
+0 0 559
+S
+#559
+Gopher Hole~
+   You have come to the end of the hole.  As you look up, you can see sunlight
+pouring down on you, making you feel slightly warmer.  You hear some birds
+singing in the distance.    
+~
+5 0 2
+D1
+~
+~
+0 0 558
+D4
+~
+~
+0 0 561
+S
+#560
+Stock Yard~
+   You're standing on the edge of the stock yard.  To the west you see the
+stables.  You can hear several animals inside shuffling around nervously.  To
+the south there is a large chicken coop.    
+~
+5 0 2
+D0
+~
+~
+0 0 562
+S
+#561
+Stock Yard~
+   As you crawl out of the hole, you stand up and dust yourself off.  You
+notice that you're standing at the endge of the stock yard overlooking the
+stables.  The stock yard continues to the west.    
+~
+5 0 2
+D3
+~
+~
+0 0 562
+D5
+~
+~
+0 0 559
+S
+#562
+Stock Yard~
+   You're standing at the edge of the stock yard.  To the southwest you can see
+the stables.  You can hear the horses inside shuffling around nervously.    
+~
+5 0 2
+D1
+~
+~
+0 0 561
+D2
+~
+~
+0 0 560
+S
+#563
+Stall~
+   You're standing in a horses stall.  Hay is covering the groundm, probably to
+hide the smell coming from under it.  The exit can be seen to the southeast.  
+
+~
+5 0 0
+D3
+~
+~
+0 0 564
+S
+#564
+Stables~
+   As you continue walking through the stables, you look around at all the
+beautiful horses around you.  They shuffle around nervously as you walk past
+them.    
+~
+5 0 0
+D1
+~
+~
+0 0 563
+D3
+~
+~
+0 0 565
+S
+#565
+Stall~
+   You're standing in one of the horses stalls.  Hay is covering the floor,
+probably to help hide the smell coming from under it.  You see the exit in the
+distance to the east.    
+~
+5 0 0
+D0
+~
+~
+0 0 566
+D1
+~
+~
+0 0 564
+D2
+~
+~
+0 0 567
+S
+#566
+Stables~
+   You're standing in the corner of the stables.  You see several harnesses
+hanging from the wall waiting for a horse.  There are a few cobwebs hanging
+from the ceiling.  When was the last time someone cleaned in here?    
+~
+5 0 0
+D2
+~
+~
+0 0 565
+S
+#567
+Stables~
+   This corner of the stables is used for storage.  The wall is lined with
+shelves of odd objects ranging from horseshoes to hair brushes.    
+~
+5 0 0
+D0
+~
+~
+0 0 565
+D1
+~
+~
+0 0 568
+S
+#568
+Stall~
+   You're standing in a horses stall.  Hay is covering the floor, probably to
+hide the smell thats coming from underneath it.  You can see the exit in the
+distance to the east.    
+~
+5 0 0
+D1
+~
+~
+0 0 569
+D3
+~
+~
+0 0 567
+S
+#569
+Stables Entrance~
+   You're standing in the entrance to the stables.  As you look inside you see
+all sorts of beautiful beasts just waiting to be rode.  The smell could be
+better, but the sight is beautiful.    
+~
+5 0 0
+D3
+~
+~
+0 0 568
+S
+#570
+Field~
+   You have stepped onto a small field.  It must be an old corn field thats no
+longer in use.  The ground is very rough and full of small holes.  One might
+fall if they don't watch their step!    
+~
+5 0 2
+D0
+~
+~
+0 0 554
+D2
+~
+~
+0 0 571
+S
+#571
+Field~
+   You're standing at the edge of a small field.  In the distance to the west
+you can see a large hole.  It looks big enough to climb in.  But is there
+anything in there waiting for you?    
+~
+5 0 2
+D0
+~
+~
+0 0 570
+D3
+~
+~
+0 0 572
+S
+#572
+Field~
+   Weeds tangle in your feet as you continue walking.  To the west you spot a
+large hole with a black bottom.  Is there even a bottom?  Or just eternal
+darkness?    
+~
+5 0 2
+D1
+~
+~
+0 0 571
+D3
+~
+~
+0 0 573
+S
+#573
+Hole~
+   You're standing on the edge of a very large hole looking down into sheer
+darkness.  Would it be worth the risk to climb in there and see whats down
+there?    
+~
+5 0 2
+D1
+~
+~
+0 0 572
+D3
+~
+~
+0 0 575
+D5
+~
+~
+0 0 574
+S
+#574
+Inside the Hole~
+   As you crawl into the hole, darkness surrounds you.  You suddenly feel very
+alone and lost, almost like a small child.  You look up and see a small beam of
+light.  Can you even get back out of here?  Maybe you should try to "climb up"
+out of the hole.    
+~
+5 0 2
+S
+T 574
+#575
+Field~
+   You're standing on the edge of the field.  To the east is a very large hole
+which you could probably fit in.  To the west you see a small chicken coop.  
+~
+5 0 2
+D1
+~
+~
+0 0 573
+D3
+~
+~
+0 0 576
+S
+#576
+Entrance to the Chicken Coop~
+   You're standing in the entrance to the chicken coop.  The place is filled
+with chickens, most of them are laying eggs.  There is a strong odor coming
+from the south.    
+~
+5 0 0
+D1
+~
+~
+0 0 575
+D2
+~
+~
+0 0 577
+S
+#577
+Chicken Coop~
+   As you walk deeper into the coop, your almost knocked over by a grotesque
+aroma.  Apparently the coop didn't get cleaned this morning.  You might want to
+watch your step or else you might slip.    
+~
+5 0 0
+D0
+~
+~
+0 0 576
+D2
+~
+~
+0 0 578
+D3
+~
+~
+0 0 579
+S
+#578
+Chicken Coop~
+   You have come to a small dead end.  There is not much here.  Just a few
+bales of hay.  You notice some spilled feed on the floor.  It crunches as you
+walk on it.    
+~
+5 0 0
+D0
+~
+~
+0 0 577
+S
+#579
+Chicken Coop~
+   As you continue walking through the coop, you notice the place is in bad
+need of a paint job.  You can see the exit to the north.    
+~
+5 0 0
+D0
+~
+~
+0 0 581
+D1
+~
+~
+0 0 577
+S
+#580
+Dead End~
+   You're standing in a dead end.  You can see a view of the chicken coop to
+the east.  The chickens are busily running around, probably looking for
+something to eat.    
+~
+5 0 2
+D0
+~
+~
+0 0 582
+S
+#581
+Chicken Coop~
+   You're standing in the doorway of the coop looking out onto the farm.  To
+the north you can see the stock yard.  In the distance to the west is a small
+cabin.  It looks to be in reasonably good shape.    
+~
+5 0 0
+D2
+~
+~
+0 0 579
+D3
+~
+~
+0 0 582
+S
+#582
+Farm~
+   You're standing between the chicken coop and a small hunters cabin.  There
+is a dead end to the south, but maybe there is something there that would be
+worth making the trip.    
+~
+5 0 2
+D1
+~
+~
+0 0 581
+D2
+~
+~
+0 0 580
+D3
+~
+~
+0 0 583
+S
+#583
+Hunters Cabin~
+   A small log cabin stands before you.  A large cloud of smoke is pouring out
+the chimney, filling your lungs with the scent of burning wood.  As you peek in
+through one of the windows, you see a man inside sitting in a rocking chair.  
+He see's you and waves for you to come in.  He looks like a friendly enough
+gentleman.  Perhaps you could get a bite to eat here.    
+~
+5 0 2
+D1
+~
+~
+0 0 582
+D3
+~
+~
+0 0 584
+S
+#584
+Hunters Cabin~
+   As you enter the cabin, you notice a man sitting in a rocking chair next to
+a crackling fire.  You feel your body slowly warm up.  As you scan the room you
+see several animal heads decorating the walls.  On the mantle is a stuffed cat.
+You feel very relaxed here.
+~
+5 0 0
+D1
+~
+~
+0 0 583
+D2
+~
+~
+0 0 585
+S
+#585
+Hunters Cabin~
+   You're standing at the back of the cabin, looking out the back door.  You
+see a small path to the south.  Where could it lead to?  The floor under you
+creaks as you walk across it.    
+~
+5 0 0
+D0
+~
+~
+0 0 584
+D2
+~
+~
+0 0 586
+S
+#586
+Dirt Path~
+   You've stepped onto a small path heading towards the end of the farm.  To
+the north you can see a small hunters cabin.  Maybe you could go inside and
+rest for a while.    
+~
+5 0 2
+D0
+~
+~
+0 0 585
+D2
+~
+~
+0 0 587
+S
+#587
+Dirt Path~
+   You're standing on a small dirt path.  It looks like it's had plenty of use
+over the years.  You notice some potholes that are big enough for a cat to fit
+into.  Be careful not to fall!  There is a large well to the east.    
+~
+5 0 2
+D0
+~
+~
+0 0 586
+D1
+~
+~
+0 0 588
+S
+#588
+Farm~
+   The farm looks different some how.  There is an enormous well before you.  
+There isn't any water in it, but you could easily climb down into it.  You
+can't see anything past the well, only a small path to the west.    
+~
+5 0 2
+D3
+~
+~
+0 0 587
+D5
+~
+~
+0 0 589
+S
+#589
+Well~
+   You begin crawling down into the depths of the well.  The walls under your
+fingers are cold and dry.  In the distance you can hear a dripping sound.  
+Maybe this well hasn't dried up after all.    
+~
+5 0 0
+D4
+~
+~
+0 0 588
+D5
+~
+~
+0 0 590
+S
+#590
+Well~
+   You are almost at the bottom of the well.  The temperature seems to be
+slowly decreasing, leaving you feeling chilly.  As you look up, you see some
+clouds slowly rolling by.  Where did the sun go?    
+~
+5 0 0
+D4
+~
+~
+0 0 589
+D5
+~
+~
+0 0 591
+S
+#591
+Well~
+   As you step down onto the floor of the well, you hear your footstep echo
+through out the cave that you seem to be in the entrance of.  Surprisingly
+enough, the cave is not dark.  It's slightly gloomy, due to some torches that
+have blown out.  There is a thin puddle of spring water on the floor at your
+feet.  You reach out and touch one of the walls.  A thin layer of water
+cascades over your fingers.  The cave continues to the east.    
+~
+5 0 0
+D1
+~
+~
+0 0 593
+D4
+~
+~
+0 0 590
+S
+#592
+Underground Cave~
+   You're standing in a small cove nestled in the heart of the cave.  The walls
+and floor are dry here and it feels slightly warmer.  As you look at the walls
+you see small streaks of gold running through them.    
+~
+5 0 0
+D2
+~
+~
+0 0 593
+S
+#593
+Underground Cave~
+   The cave before you is damp and chilly.  Some dead roots lay on the ground,
+threatening to trip you.  If you fell and got hurt down here no one would ever
+find you.    
+~
+5 0 0
+D0
+~
+~
+0 0 592
+D1
+~
+~
+0 0 594
+D3
+~
+~
+0 0 591
+S
+#594
+Underground Cave~
+   There is a slight incline here.  The ground at your feet is very rough.  It
+almost feels like crushed glass.  You hear stones crunching under your feet as
+you continue walking.    
+~
+5 0 0
+D2
+~
+~
+0 0 595
+D3
+~
+~
+0 0 593
+S
+#595
+Underground Cave~
+   The sense that the end of the cave is near.  The air seems somewhat fresher
+here, letting you breathe a little easier.  The tunnel out of the cave can be
+seen to the east.    
+~
+5 0 0
+D0
+~
+~
+0 0 594
+D1
+~
+~
+0 0 596
+S
+#596
+Underground Cave~
+   You're standing at the end of the cave.  As you look up you can see a tiny
+beam of sunlight trying to make its way down to you.  The walls are dripping
+with muddy water.  There is a faint smell of mildew here.    
+~
+5 0 0
+D3
+~
+~
+0 0 595
+D4
+~
+~
+0 0 597
+S
+#597
+Hole~
+   The clay walls around you are damp and dripping with cold muddy water.  
+Your clothes are probably stained and smell grotesque.  As you look down you
+can see the ground.  What is down there?    
+~
+5 0 0
+D4
+~
+~
+0 0 598
+D5
+~
+~
+0 0 596
+S
+#598
+Hole~
+   You find yourself in the middle of a hole leading deep into the ground.  
+The smell of water fills your nose.  Should you go up or down?  Only the
+bravest adventurers would dare go down.    
+~
+5 0 0
+D4
+~
+~
+0 0 599
+D5
+~
+~
+0 0 597
+S
+#599
+Farm~
+   As you climb out of the hole, you look around at your surroundings.  You
+seem to have reached the end of the farm.  You breathe in a breath of fresh air
+and feel a sense of accomplishment.    
+~
+5 0 2
+D5
+~
+~
+0 0 598
+S
+#0
+
+#RESETS
+M 0 503 1 512 	(the old farmer)
+M 0 501 1 512 	(the apple thief)
+E 1 520 99 16 	(pitchfork)
+M 0 500 1 500 	(bunny)
+O 0 500 1 500 	(dandelion)
+M 0 502 2 583 	(mouse)
+M 0 591 4 593 	(roach)
+M 0 591 4 591 	(roach)
+M 0 566 1 566 	(horse)
+G 1 566 255 -1 	(horseshoe)
+M 0 536 1 536 	(farm boy)
+G 1 536 255 -1 	(rake)
+G 1 537 255 -1 	(jerky)
+M 0 563 1 563 	(colt)
+M 0 563 1 564 	(colt)
+M 0 568 1 568 	(stallion)
+M 0 565 1 565 	(mare)
+M 0 580 2 520 	(turkey)
+M 0 580 2 580 	(turkey)
+M 0 582 1 582 	(butterfly)
+M 0 586 2 595 	(coyote)
+M 0 586 2 586 	(coyote)
+M 0 587 1 587 	(hawk)
+M 0 599 2 599 	(sparrow)
+O 0 578 1 578 	(bail of hay)
+M 0 584 1 584 	(arthur)
+G 1 585 255 -1 	(a bowl of stew)
+O 0 584 1 584 	(fireplace)
+O 0 588 1 588 	(well)
+M 0 510 2 510 	(goose)
+M 0 524 2 534 	(crow)
+M 0 524 2 524 	(crow)
+M 0 527 2 527 	(sheep)
+O 0 527 1 527 	(muddy footprints)
+M 0 545 2 545 	(raven)
+M 0 529 2 560 	(calf)
+M 0 529 2 529 	(calf)
+M 0 522 2 562 	(cow)
+M 0 522 2 522 	(cow)
+M 0 518 1 518 	(dog)
+M 0 555 1 555 	(bat)
+M 0 548 2 557 	(gopher)
+M 0 548 2 548 	(gopher)
+M 0 547 2 558 	(squirrel)
+M 0 547 2 547 	(squirrel)
+M 0 546 2 570 	(wolf)
+M 0 546 2 546 	(wolf)
+M 0 544 2 544 	(blackbird)
+M 0 543 1 543 	(sheepdog)
+M 0 542 2 542 	(owl)
+M 0 511 2 511 	(chick)
+M 0 514 2 514 	(hen)
+M 0 526 1 526 	(farmers wife)
+G 1 526 1 -1 	(sewing needle)
+M 0 523 1 523 	(barn cat)
+M 0 520 1 517 	(farmer)
+E 1 520 1 16 	(pitchfork)
+G 1 521 1 -1 	(potatoe)
+O 0 517 1 517 	(empty paint can)
+M 0 508 1 508 	(weasel)
+G 1 508 1 -1 	(hunters knife)
+M 0 507 2 507 	(rat)
+G 1 507 1 -1 	(saphire gem)
+O 0 505 1 505 	(pile of cracked corn)
+O 0 503 1 503 	(boulder)
+M 0 502 2 502 	(mouse)
+G 1 502 1 -1 	(wedge of cheese)
+M 0 504 1 504 	(rooster)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+0
+
+
+#$

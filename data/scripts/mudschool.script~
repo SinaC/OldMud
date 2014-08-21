@@ -1,0 +1,5 @@
+class mob3717 extends shopkeeper {
+  onCreate() {
+    Shopkeeper::onCreate();
+  }
+}

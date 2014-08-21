@@ -1,0 +1,533 @@
+AreaState 'Ancalador' {
+  Room 2500 {
+    Repop = 28;
+    Mobile 2507 {
+      Ptr = 182808576;
+      HMVP = (  ( 128 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 31;
+      Room = 2500;
+    }
+  }
+  Room 2501 {
+    Repop = 28;
+  }
+  Room 2502 {
+    Repop = 28;
+  }
+  Room 2503 {
+    Repop = 28;
+    Mobile 2508 {
+      Ptr = 182815592;
+      HMVP = (  ( 85 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2503;
+    }
+    Mobile 2508 {
+      Ptr = 182816176;
+      HMVP = (  ( 79 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2503;
+    }
+  }
+  Room 2504 {
+    Repop = 28;
+  }
+  Room 2505 {
+    Repop = 28;
+  }
+  Room 2506 {
+    Repop = 28;
+  }
+  Room 2507 {
+    Repop = 28;
+  }
+  Room 2508 {
+    Repop = 28;
+    Mobile 2509 {
+      Ptr = 182815008;
+      HMVP = (  ( 178 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 165;
+      Silver = 8562;
+      Room = 2508;
+    }
+  }
+  Room 2509 {
+    Repop = 28;
+  }
+  Room 2510 {
+    Repop = 28;
+  }
+  Room 2511 {
+    Repop = 28;
+    Mobile 2509 {
+      Ptr = 182814424;
+      HMVP = (  ( 183 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 164;
+      Silver = 7792;
+      Room = 2511;
+    }
+  }
+  Room 2512 {
+    Repop = 28;
+  }
+  Room 2513 {
+    Repop = 28;
+  }
+  Room 2514 {
+    Repop = 28;
+  }
+  Room 2515 {
+    Repop = 28;
+  }
+  Room 2516 {
+    Repop = 28;
+  }
+  Room 2517 {
+    Repop = 28;
+    Mobile 2510 {
+      Ptr = 182813840;
+      HMVP = (  ( 98 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2517;
+    }
+  }
+  Room 2518 {
+    Repop = 28;
+    Mobile 2511 {
+      Ptr = 182813256;
+      HMVP = (  ( 90 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 185;
+      Room = 2518;
+    }
+  }
+  Room 2519 {
+    Repop = 28;
+    Mobile 2510 {
+      Ptr = 182812672;
+      HMVP = (  ( 104 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2519;
+      Obj 2516 {
+      }
+    }
+  }
+  Room 2520 {
+    Repop = 28;
+    Mobile 2511 {
+      Ptr = 182820272;
+      HMVP = (  ( 86 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 116;
+      Room = 2520;
+    }
+  }
+  Room 2521 {
+    Repop = 28;
+    Mobile 2510 {
+      Ptr = 182819688;
+      HMVP = (  ( 108 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2521;
+    }
+  }
+  Room 2522 {
+    Repop = 28;
+    Mobile 2511 {
+      Ptr = 182819104;
+      HMVP = (  ( 86 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 49;
+      Room = 2522;
+    }
+  }
+  Room 2523 {
+    Repop = 28;
+    Mobile 2511 {
+      Ptr = 182817936;
+      HMVP = (  ( 89 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 121;
+      Room = 2523;
+    }
+    Mobile 2510 {
+      Ptr = 182818520;
+      HMVP = (  ( 103 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2523;
+      Obj 2512 {
+      }
+    }
+    Obj 2514 {
+    }
+  }
+  Room 2524 {
+    Repop = 28;
+  }
+  Room 2525 {
+    Repop = 28;
+    Mobile 2511 {
+      Ptr = 182816768;
+      HMVP = (  ( 92 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 244;
+      Room = 2525;
+    }
+    Mobile 2510 {
+      Ptr = 182817352;
+      HMVP = (  ( 103 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2525;
+    }
+  }
+  Room 2526 {
+    Repop = 28;
+    Mobile 2512 {
+      Ptr = 182824368;
+      HMVP = (  ( 160 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 163;
+      Room = 2526;
+      Obj 2515 {
+      }
+      Obj 2518 {
+      }
+    }
+  }
+  Room 2527 {
+    Repop = 28;
+    Mobile 2500 {
+      Ptr = 182823784;
+      HMVP = (  ( 168 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2527;
+    }
+  }
+  Room 2528 {
+    Repop = 28;
+  }
+  Room 2529 {
+    Repop = 28;
+    Mobile 2513 {
+      Ptr = 182823200;
+      HMVP = (  ( 235 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2529;
+    }
+  }
+  Room 2530 {
+    Repop = 28;
+    Mobile 2514 {
+      Ptr = 182822616;
+      HMVP = (  ( 205 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 636;
+      Room = 2530;
+      Obj 2521 {
+      }
+    }
+  }
+  Room 2531 {
+    Repop = 28;
+  }
+  Room 2532 {
+    Repop = 28;
+  }
+  Room 2533 {
+    Repop = 28;
+    Mobile 2513 {
+      Ptr = 182822032;
+      HMVP = (  ( 236 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2533;
+    }
+  }
+  Room 2534 {
+    Repop = 28;
+    Mobile 2514 {
+      Ptr = 182821448;
+      HMVP = (  ( 200 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 12;
+      Silver = 966;
+      Room = 2534;
+      Obj 2523 {
+      }
+    }
+  }
+  Room 2535 {
+    Repop = 28;
+  }
+  Room 2536 {
+    Repop = 28;
+    Mobile 2513 {
+      Ptr = 182820864;
+      HMVP = (  ( 238 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2536;
+    }
+  }
+  Room 2537 {
+    Repop = 28;
+    Mobile 2514 {
+      Ptr = 182828464;
+      HMVP = (  ( 208 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 17;
+      Silver = 352;
+      Room = 2537;
+      Obj 2522 {
+      }
+    }
+  }
+  Room 2538 {
+    Repop = 28;
+    Mobile 2514 {
+      Ptr = 182827296;
+      HMVP = (  ( 207 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 14;
+      Silver = 208;
+      Room = 2538;
+      Obj 2527 {
+      }
+    }
+    Mobile 2513 {
+      Ptr = 182827880;
+      HMVP = (  ( 236 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2538;
+    }
+  }
+  Room 2539 {
+    Repop = 28;
+    Mobile 2513 {
+      Ptr = 182826712;
+      HMVP = (  ( 237 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2539;
+    }
+  }
+  Room 2540 {
+    Repop = 28;
+    Mobile 2513 {
+      Ptr = 182826128;
+      HMVP = (  ( 237 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2540;
+    }
+  }
+  Room 2541 {
+    Repop = 28;
+    Mobile 2514 {
+      Ptr = 182824960;
+      HMVP = (  ( 206 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 412;
+      Room = 2541;
+      Obj 2517 {
+      }
+    }
+    Mobile 2514 {
+      Ptr = 182825544;
+      HMVP = (  ( 202 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 19;
+      Silver = 245;
+      Room = 2541;
+      Obj 2522 {
+      }
+    }
+  }
+  Room 2542 {
+    Repop = 28;
+  }
+  Room 2543 {
+    Repop = 28;
+  }
+  Room 2544 {
+    Repop = 28;
+  }
+  Room 2545 {
+    Repop = 28;
+    Mobile 2504 {
+      Ptr = 182832560;
+      HMVP = (  ( 151 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2545;
+    }
+  }
+  Room 2546 {
+    Repop = 28;
+    Mobile 2503 {
+      Ptr = 182831976;
+      HMVP = (  ( 235 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 54;
+      Silver = 4508;
+      Room = 2546;
+      Affect = ( 'sanctuary', -1, 19, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 2506 {
+      }
+    }
+    Obj 2502 {
+    }
+  }
+  Room 2547 {
+    Repop = 28;
+  }
+  Room 2548 {
+    Repop = 28;
+    Mobile 2515 {
+      Ptr = 182830224;
+      HMVP = (  ( 213 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 43;
+      Silver = 1834;
+      Room = 2548;
+      Obj 2520 {
+      }
+      Obj 2501 {
+      }
+    }
+    Mobile 2505 {
+      Ptr = 182830808;
+      HMVP = (  ( 192 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 501;
+      Room = 2548;
+      Obj 2500 {
+      }
+    }
+    Mobile 2505 {
+      Ptr = 182831392;
+      HMVP = (  ( 189 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 16;
+      Silver = 352;
+      Room = 2548;
+      Obj 2500 {
+      }
+    }
+  }
+  Room 2549 {
+    Repop = 28;
+    Mobile 2505 {
+      Ptr = 182829640;
+      HMVP = (  ( 192 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 7;
+      Silver = 775;
+      Room = 2549;
+      Obj 2500 {
+      }
+    }
+  }
+  Room 2550 {
+    Repop = 28;
+  }
+  Room 2551 {
+    Repop = 28;
+    Mobile 2515 {
+      Ptr = 182840168;
+      HMVP = (  ( 211 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 44;
+      Silver = 1035;
+      Room = 2551;
+      Obj 2520 {
+      }
+      Obj 2505 {
+      }
+    }
+    Mobile 2500 {
+      Ptr = 182840752;
+      HMVP = (  ( 169 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2551;
+    }
+    Mobile 2500 {
+      Ptr = 182829056;
+      HMVP = (  ( 166 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2551;
+    }
+    Obj 2507 {
+    }
+  }
+  Room 2552 {
+    Repop = 28;
+    Mobile 2515 {
+      Ptr = 182839000;
+      HMVP = (  ( 212 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 52;
+      Silver = 4149;
+      Room = 2552;
+      Obj 2520 {
+      }
+      Obj 2519 {
+      }
+    }
+    Mobile 2500 {
+      Ptr = 182839584;
+      HMVP = (  ( 169 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2552;
+    }
+  }
+  Room 2553 {
+    Repop = 28;
+    Mobile 2505 {
+      Ptr = 182844848;
+      HMVP = (  ( 190 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 19;
+      Silver = 150;
+      Room = 2553;
+      Obj 2500 {
+      }
+    }
+    Mobile 2505 {
+      Ptr = 182837248;
+      HMVP = (  ( 190 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 10;
+      Silver = 1189;
+      Room = 2553;
+      Obj 2500 {
+      }
+    }
+    Mobile 2505 {
+      Ptr = 182837832;
+      HMVP = (  ( 186 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 13;
+      Silver = 32;
+      Room = 2553;
+      Obj 2500 {
+      }
+    }
+    Mobile 2502 {
+      Ptr = 182838416;
+      HMVP = (  ( 440 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 310;
+      Silver = 1656;
+      Room = 2553;
+      Affect = ( 'sanctuary', -1, 23, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 2509 {
+      }
+      Obj 2510 {
+      }
+    }
+  }
+  Room 2554 {
+    Repop = 28;
+    Mobile 2506 {
+      Ptr = 182842512;
+      HMVP = (  ( 520 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 227;
+      Silver = 10524;
+      Room = 2554;
+      Obj 2511 {
+      }
+      Obj 2508 {
+      }
+    }
+    Mobile 2501 {
+      Ptr = 182843096;
+      HMVP = (  ( 159 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2554;
+    }
+    Mobile 2501 {
+      Ptr = 182843680;
+      HMVP = (  ( 154 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2554;
+    }
+    Mobile 2501 {
+      Ptr = 182844264;
+      HMVP = (  ( 156 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 2554;
+    }
+  }
+  Room 2555 {
+    Repop = 28;
+  }
+  Room 2556 {
+    Repop = 28;
+  }
+  Room 2557 {
+    Repop = 28;
+  }
+}

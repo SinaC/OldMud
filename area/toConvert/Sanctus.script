@@ -1,0 +1,558 @@
+////script for AREA Sanctus
+//
+//#100
+//Obj Command 100 - portal to Midgaard~
+//1 c 100
+//enter~
+//if %arg% == portal
+//  %send% %actor% You enter the portal.
+//  %echoaround% %actor.name% %actor.name% bravely enters the portal.
+//  %teleport% %actor% 3001
+//  %force% %actor% look
+//  %echoaround% %actor.name% %actor.name% just stepped through a portal.
+//else
+//  %send% %actor% enter what?!
+//end
+//~
+//#101
+//Room Command - portal to Midgaard~
+//2 c 100
+//enter~
+//if %arg% == portal
+//  %send% %actor% You enter the portal.
+//  %echoaround% %actor.name% %actor.name% bravely enters the portal.
+//  %teleport% %actor% 3001
+//  %force% %actor% look
+//  %echoaround% %actor.name% %actor.name% just stepped through a portal.
+//else
+//  %send% %actor% enter what?!
+//end
+//~
+//#102
+//Mob Command - portal to Midgaard~
+//0 c 100
+//enter~
+//if %arg% == portal
+//  %send% %actor% You enter the portal.
+//  %echoaround% %actor.name% %actor.name% bravely enters the portal.
+//  %teleport% %actor% 3001
+//  %force% %actor% look
+//  %echoaround% %actor.name% %actor.name% just stepped through a portal.
+//else
+//  %send% %actor% enter what?!
+//end
+//~
+//#103
+//Mob Greet Newbie Guide - 196~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  if %actor.level% <= 3
+//    wait 1 sec
+//    bow
+//    wait 1 sec
+//    say may I suggest you visit the newbie zones under HELP AREAS.
+//  end
+//  if %actor.level% >= 30
+//    wait 1 sec
+//    bow %actor.name%
+//  end
+//end
+//~
+//#104
+//Mob Speech Speaker of the Land - 156~
+//0 d 100
+//entered~
+//wait 1 sec
+//gos All Welcome %actor.name% to our Realm!
+//~
+//#105
+//Mob Greet Hannibal - 140~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say Good day sir, what would you like? 
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say Good day maam, what can I get you?
+//  else
+//    say What do you want?
+//  end
+//end
+//~
+//#106
+//Mob Greet Carpenter - 197~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say Can't you see the place is under repairs!
+//    wait 1 sec
+//    say don't worry, the inn will be open again soon.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say come to work have you?
+//    wait 1 sec
+//    wink %actor.name%
+//  else
+//    frown %actor.name%
+//  end
+//end
+//~
+//#107
+//Mob Greet Shiro - 103~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  say I sell the finest weapons in all the realm. See for yourself.
+//end
+//~
+//#108
+//Mob Greet Rhian - 104~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 3 sec
+//  if %actor.sex% == male
+//    smile %actor.name%
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    frown %actor.name%
+//  else
+//    say I hate your kind.
+//  end
+//end
+//~
+//#109
+//Mob Greet Sarge - 109~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  look %actor.name%
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say See anything you like?
+//  elseif %actor.sex% == female
+//    wait 1
+//    gaze %actor.name%
+//    wait 1
+//    say What can I get you pretty lady?
+//  else
+//    say What do you want?
+//  end
+//end
+//~
+//#110
+//Mob Greet Logan - 110~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  grin %actor.name%
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say Look at this fine vest.
+//    wait 1 sec
+//    emote holds up a gaudy red vest.
+//    wait 1 sec
+//    say this would wear well on you.
+//  elseif %actor.sex% == female
+//    say for you my young lady, I have a fine silk shirt.
+//  else
+//    say What do you want?
+//  end
+//end
+//~
+//#111
+//Mob Greet Branwen - 111~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say if it's made from leather, I have it.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say the finest leather in the realms is what I sell.
+//  else
+//    say What do you want?
+//  end
+//end
+//~
+//#112
+//Mob Greet Morgan - 184~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  sigh
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say need a drink. I sure do
+//    wait 1 sec
+//    emote downs a shot of whisky.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say can I get you a drink.
+//    wait 1 sec
+//    ogle %actor.name%
+//  else
+//    say What do you want?
+//  end
+//end
+//~
+//#113
+//Mob Greet Ingrid - 182~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  cackle %actor.name%
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say ahhh, doesn't that smell good.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say what can I get you, my pretty.
+//  else
+//    say what would you like?
+//  end
+//end
+//~
+//#114
+//Mob Greet Corwin - 110~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  emote frowns at a large stack of mail.
+//end
+//~
+//#115
+//Mob Greet Banker - 119~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  emote puts all his money in the safe when he notices you eyeing it.
+//end
+//~
+//#116
+//Mob Greet Hazel - 109~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  chuckle
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say thirsty?
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say I sell pure water, no worry about contaminants from me.
+//  else
+//    say need some water?
+//  end
+//end
+//~
+//#117
+//Mob Greet Carla - 158~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  emote steps away from her sewing machine.
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say anything I can help you with sir?
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say I could make something nice for a woman like you.
+//  else
+//    say need some clothes?
+//  end
+//end
+//~
+//#118
+//Mob Greet Ian - 101~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say I make furs for the common man, because that is what I am.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say a fine fur coat would suit you well.
+//  else
+//    say need some fur?
+//  end
+//end
+//~
+//#119
+//Mob Greet Liam - 119~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say Take your time, i've got all day.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say you aren't really an adventurer are you?
+//    wait 1 sec
+//    say who woulda thought a woman adventuring.
+//  else
+//    say need some supplies?
+//  end
+//end
+//~
+//#120
+//Mob Greet Baker - 187~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  say best bread in town.
+//  wait 1 sec      
+//  if %actor.sex% == male
+//    emote slams some dough down onto the counter.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say I'm hiring if you can cook.
+//  else
+//    say need some food?
+//  end
+//end
+//~
+//#121
+//Mob Greet Butcher - 199~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  grin
+//  wait 1 sec
+//  say I can butcher anything.
+//  wait 1 sec
+//  if %actor.sex% == male
+//    emote splatters some blood on you as he hacks at some meat.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say sorry about the mess mam.
+//  else
+//    emote rubs his bloody hands on his apron.
+//  end
+//end
+//~
+//#122
+//Mob Greet Rowan - 111~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  smile
+//  wait 1 sec
+//  say see anything you would like.
+//  wait 1 sec
+//  if %actor.sex% == male
+//    emote watches you carefully.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say isn't this diamond beautiful.
+//  else
+//    emote points you to the display cases.
+//  end
+//end
+//~
+//#123
+//Mob Greet Fiona - 124~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  glare
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say much better food here than the baker or butcher sells.
+//    wait 1 sec
+//    whisper %actor.name% I hear the butcher's meat is tainted.
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say hungry?
+//  else
+//    say hungry?
+//  end
+//end
+//~
+//#124
+//Mob Greet Lugdach - 106~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say Aye! What can I getcha!
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say What's a fine lass like you doing here?
+//  else
+//    emote need a boat?
+//  end
+//end
+//~
+//#125
+//Mob Greet Healer - 186~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  smile %actor.name%
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say What aid do you need?
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say Can I help you miss?
+//  else
+//    say What do you want?
+//  end
+//end
+//~
+//#126
+//Mob Greet Sareth - 185~
+//0 g 100
+//~
+//if %actor.vnum% == -1
+//  wait 1 sec
+//  bow
+//  wait 1 sec
+//  if %actor.sex% == male
+//    say Are you in need of a scroll?
+//  elseif %actor.sex% == female
+//    wait 1 sec
+//    say I have many types of scrolls
+//  else
+//    say What do you want?
+//  end
+//end
+//~
+//#127
+//Mob Act - 156 speaker greet~
+//0 e 0
+//has entered the game.~
+//eval inroom %self.room%
+//%zoneecho% %inroom.vnum% %self.name% shouts, 'Welcome, %actor.name%!'
+//~
+//#128
+//Mob Act - 156 speaker goodbye~
+//0 e 0
+//has left the game.~
+//eval inroom %self.room%
+//%zoneecho% %inroom.vnum% %self.name% shouts, 'Farewell, %actor.name%!'
+//~
+//#129
+//Mob Greet Beggar - 165~
+//0 g 100
+//~
+//if (%actor.vnum% == -1)
+//  wait 1 sec
+//  say Money for the poor?
+//end
+//~
+//#130
+//Mob Bribe Beggar - 165~
+//0 m 1
+//~
+//wait 1 sec
+//if (%actor.sex% == MALE)
+//  say Thank you, kind sir.
+//end
+//if (%actor.sex% == FEMALE)
+//  say Thank you, ma'am.
+//end
+//if (%actor.sex% == NEUTRAL)
+//  emote looks you over trying to determine your sex.
+//  say Thank you.....
+//end
+//~
+//#131
+//Room Command 365 - Jump~
+//2 c 100
+//jump~
+//wait 1 sec
+//%send% %actor% You jump from the window ledge to certain death.
+//%echoaround% %actor% %actor.name% decides to test fate and takes a dive out the window.
+//%teleport% %actor% 292
+//wait 1 sec
+//%echoaround% %actor% %actor.name% falls from above screaming %actor.hisher% lungs out. %actor.heshe% hits the ground with a loud thump.
+//%force% %actor% look
+//%send% %actor% You strike the ground hard but somehow manage to survive the impact.
+//%damage% %actor% 1
+//~
+//#132
+//dg_cast by level~
+//0 k 100
+//~
+//switch %actor.level%
+//  case 1
+//  case 2
+//  case 3
+//    dg_cast 'magic missile' %actor%
+//  break
+//  case 5
+//    dg_cast 'chill touch' %actor%
+//  break
+//  case 6
+//    dg_cast 'burning hands' %actor%
+//  break
+//  case 7
+//    dg_cast 'shocking grasp' %actor%
+//  break
+//  case 8
+//    dg_cast 'sleep' %actor%
+//  break
+//  case 9
+//    dg_cast 'lightning bolt' %actor%
+//  break
+//  case 10
+//    dg_cast 'blindness' %actor%
+//  break
+//  case 11
+//    dg_cast 'color spray' %actor%
+//  break
+//  case 12
+//    dg_cast 'lightning bolt' %actor%
+//  break
+//  case 13
+//    dg_cast 'energy drain' %actor%
+//  break
+//  case 14
+//    dg_cast 'curse' %actor%
+//  break
+//  case 15
+//    dg_cast 'poison' %actor%
+//  break
+//  case 16
+//    if %actor.align% > 0
+//      dg_cast 'dispel good' %actor%
+//    else
+//      dg_cast 'dispel evil' %actor%
+//    end
+// break
+//  case 17
+//    dg_cast 'call lightning' %actor%
+//  break
+//  case 18
+//  case 19
+//    dg_cast 'harm' %actor%
+//  break
+//  default
+//    dg_cast 'fireball' %actor%
+//  break
+//done
+//~

@@ -1,0 +1,1684 @@
+#Style Circle
+#AREADATA
+Name Starship Enterprise~
+Builders Crazyman~
+VNUMs 24100 24199
+Credits {{None}  CAW    Starship Enterprise~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#24100
+Lieutenant Commander Geordi LaForge~
+Geordi LaForge~
+Lieutenant Commander Geordi LaForge is standing here.
+~
+   Geordi is the Chief Engineer of the Enterprise.  He's blind, so he wears a
+special VISOR that lets him see things.    
+~
+dglmnqr dp 350 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+E
+#24101
+Lieutenant Commander Data Android~
+Data~
+Lieutenant Commander Data is here, trying to be more human.
+~
+   Data is the only android on the Enterprise, and the only android in all of
+Starfleet.  He possesses super-human strength, and is extremely tough.    
+~
+deglmnopqr dp 350 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+BareHandAttack: 6
+Str: 20
+Dex: 20
+Int: 20
+Wis: 20
+E
+#24102
+Lieutenant Worf Klingon~
+Lieutenant Worf~
+Lieutenant Worf is here, looking pretty mean.
+~
+   Worf is the first Klingon to have joined Starfleet.  He's Chief of Security
+of the Enterprise, and he's plenty strong.    
+~
+dglmnqr dp 350 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+BareHandAttack: 7
+Str: 19
+Dex: 17
+Int: 17
+Wis: 17
+E
+#24103
+Doctor Beverly Crusher~
+Doctor Crusher~
+Lieutenant Beverly Crusher is here, looking for someone to heal.
+~
+   Doctor Crusher is the Enterprise's Chief Medical Officer.  Wesley is her
+son.  Her husband was killed years ago in an accident on another starship which
+was also commanded by Captain Picard.    
+~
+dglmnqr dp 350 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+BareHandAttack: 3
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+E
+#24104
+Counselor Deanna Troi~
+Counselor Troi~
+Counselor Deanna Troi is here.
+~
+   Counselor Troi is the ship's main counselor.  She's half betazoid, which
+means that she can read people's minds.    
+~
+dglmnqr dp 350 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 2
+BareHandAttack: 1
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+E
+#24105
+Commander William Riker~
+Commander Riker~
+Commander William Riker is here, staring at you.
+~
+   Commander Riker is the Enterprise's first officer.  He's in charge of
+keeping the crew in line.    
+~
+dglmnqr dp 350 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+BareHandAttack: 13
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+E
+#24106
+Captain Jean Luc Jean-Luc Picard~
+Captain Picard~
+Captain Jean-Luc Picard is standing here, watching you.
+~
+   Captain Picard is a very important man.  He's in charge of Starfleet's
+flagship, the Enterprise.  He's very smart, and very wise.  Don't mess with
+him!    
+~
+deglmnopqr dhp 350 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 9
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+E
+#24107
+Guinan~
+Guinan~
+Guinan is here, tending the bar.
+~
+   Guinan is a strange being.  She's lived for thousands of years and
+experienced many things, but now she's decided to work on the Enterprise as a
+bartender.    
+~
+bdglmnqr dp 350 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+BareHandAttack: 11
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+E
+#24108
+Chief O'Brien Transporter~
+Chief O'Brien~
+Chief O'Brien is here, waiting to teleport you somwhere.
+~
+   Chief O'Brien is the transporter chief on the Enterprise.  It's his job to
+make sure everyone arrives (and leaves) in one piece, instead of trillions of
+atoms.    
+~
+bdglmnqr dp 350 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+BareHandAttack: 11
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+E
+#24109
+Wesley Crusher~
+Wesley~
+Wesley Crusher is here, eagerly trying to earn your praise.
+~
+   Wesley Crusher is not even an official officer, but he serves as an acting
+Ensign on the bridge.  He got this position only because Captain Picard feels
+guilty about killing his father.    
+~
+dghlmnqr dp 350 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+BareHandAttack: 4
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+E
+#24110
+Livingston fish~
+Livingston~
+Livingston the fish is here, swimming about in his tank.
+~
+   Livingston is Captain Picard's pet fish.  He's some sort of exotic breed,
+and he's expensive to feed and keep alive.    
+~
+bdglmn dp 350 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+BareHandAttack: 4
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+E
+#24111
+spot the cat~
+Spot~
+Spot, Data's pet cat, is sitting here looking at you.
+~
+   Spot is Data's orange coloured cat.  Data is always trying to become more
+human, so he thinks that having a pet might help him achieve his goal.    
+~
+bdglmn dp 350 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+BareHandAttack: 4
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+E
+#24112
+ensign~
+the ensign~
+A nervous looking ensign is standing here, watching you.
+~
+   These ensigns make up the backbone of the Enterprise.  They clean things, do
+jobs the higher ups won't even consider doing, and get yelled at all the time.
+  
+~
+dglmnqr dp 350 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+BareHandAttack: 10
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+E
+#24113
+alexander rozhenko~
+alexander rozhenko~
+Alexander Rozhenko is here, practicing laughing hour.
+~
+   Alexander Rozhenko is Worf's son.  His mother was half human and half
+Klingon, so Alexander is 3/4 Klingon.  He's quite small, but since he's a
+Klingon he's very strong.    
+~
+dglmnqr dp 0 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+BareHandAttack: 10
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+E
+#0
+
+#OBJECTS
+
+#24100
+standard issue starfleet phaser~
+a standard issue phaser~
+A standard issue Starfleet phaser has been left here.~
+~
+5 a an 0
+0 5 5 12
+3 200 500 0
+E
+phaser~
+   These phasers are the standard weapon of Starfleet officers.  It offers
+decent damage for its fairly small size.  
+~
+A
+18 2
+#24101
+phaser rifle~
+a phaser rifle~
+A large phaser rifle is lying here.~
+~
+5 a an 0
+0 7 6 12
+8 400 1000 0
+E
+phaser rifle~
+   This phaser rifle looks pretty powerful.  These weapons are used mainly on
+assault type missions, where power is important.  
+~
+A
+18 4
+#24102
+burgandy starfleet command uniform~
+a burgandy Starfleet command uniform~
+A neatly folded burgandy Starfleet command uniform is lying here.~
+~
+9 0 ak 0
+10 0 0 0
+5 400 500 0
+E
+burgandy command uniform~
+   These uniforms are worn by command officers on Federation starships.  It's
+kind of tight, but it looks pretty good.  
+~
+A
+3 1
+A
+4 1
+A
+9 1
+#24103
+gold starfleet engineering uniform~
+a gold Starfleet engineering uniform~
+A neatly folded gold Starfleet engineering uniform is lying here.~
+~
+9 0 ak 0
+10 0 0 0
+5 400 500 0
+E
+gold engineering uniform~
+   These uniforms are worn by engineering officers on Federation starships.  
+It's kind of tight, but it looks pretty good.  
+~
+A
+1 1
+A
+3 1
+A
+13 1
+#24104
+blue starfleet medical uniform~
+a blue Starfleet medical uniform~
+A neatly folded blue Starfleet medical uniform is lying here.~
+~
+9 0 ak 0
+10 0 0 0
+5 400 500 0
+E
+blue medical uniform~
+   These uniforms are worn by medical officers on Federation starships.  It's
+kind of tight, but it looks pretty good.  
+~
+A
+2 1
+A
+5 1
+A
+12 20
+#24105
+starfleet black boots~
+a pair of Starfleet black boots~
+A pair of Starfleet black boots are sitting here.~
+~
+9 0 ag 0
+5 0 0 0
+3 500 250 0
+E
+starfleet black boots~
+   These boots must be worn by all Starfleet officers while on duty.  They're
+quite light, and offer good protection for the feet.  
+~
+A
+14 50
+#24106
+starfleet comm com communication badge~
+a Starfleet communication badge~
+A Starfleet communication badge is lying here.~
+~
+9 0 ac 0
+1 0 0 0
+1 500 500 0
+E
+starfleet communication badge~
+   These communication badges must be worn by all officers while on a starship.
+It looks like a silver arrow head on top of a golden coloured oval:
+
+                        ____/\____  
+                       /   /  \   \                
+                      |   /    \   |   
+                       \_/ _/\_ \_/ 
+                        //      \\
+~
+A
+18 1
+A
+19 1
+#24107
+worf's worf sash~
+Worf's sash~
+Worf's silver chain sash has been left here.~
+~
+9 0 ad 0
+8 0 0 0
+6 500 300 0
+E
+worf's worf sash~
+   Worf's sash is some sort of Klingon clothing.  Worf always wears it, which
+makes you wonder how you managed to get a hold of it...  
+~
+A
+1 1
+#24108
+geordi geordi's visor~
+Geordi's VISOR~
+Geordi's VISOR is lying here.~
+~
+9 0 ae 0
+2 0 0 0
+6 500 750 0
+E
+geordi geordi's visor~
+   Geordi's VISOR was made specially for him, because he's blind.  This piece of
+equipment allows him to see things, but differently than normal eyes.  I wonder
+how Geordi is managing, now that you've stolen his only way of seeing?  
+~
+A
+3 1
+A
+18 3
+#24109
+medical tricorder~
+a medical Tricorder~
+A medical Tricorder is lying here, ready to be used.~
+~
+3 0 ao 0
+10 5 5 28
+6 500 500 0
+E
+medical tricorder~
+   This medical Tricorder is used to heal small wounds and cuts.  While it isn't
+made for major injuries, it can help you limp home.  To use, hold it and then
+use it.  
+~
+#24110
+dilithium crystal~
+a dilithium crystal~
+A shard of dilithium crystal is lying here.~
+~
+1 a ao 0
+0 0 -1 0
+2 500 250 0
+E
+dilithium crystal~
+   Dilithium crystals are used to power warp cores of starships.  This
+particular crystal is glowing brightly, and gives off a blue-ish tinge.  
+~
+A
+18 1
+#24111
+picard picard's flute~
+Picard's flute~
+Captain Picard's wooden flute is sitting here.~
+~
+12 b ao 0
+0 0 0 0
+3 500 250 0
+E
+picard picard's flute~
+   Captain Picard recieved this flute when he lost his memory and was stuck on
+some strange world.  Now, he plays it to relieve stress.  
+~
+A
+4 3
+A
+19 2
+#24112
+riker riker's trombone~
+Riker's trombone~
+Commander Riker's trombone has been placed here.~
+~
+12 b ao 0
+0 0 0 0
+5 500 250 0
+E
+riker riker's trombone~
+   Commander Riker considers himself to be a talented jazz musician.  He
+practices on this trombone all the time.  
+~
+A
+18 3
+A
+19 3
+#24120
+tea cup tea~
+a small cup~
+A small cup of tea is sitting here.~
+~
+17 0 ao 0
+4 4 11 0
+9 15 10 0
+#24121
+wine bottle synthehol wine~
+a synthehol~
+A bottle of synthehol is standing here.~
+~
+17 0 ao 0
+8 8 2 0
+13 30 10 0
+#24122
+ale ferengi bottle ale~
+a Ferengi bottle~
+A bottle of Ferengi ale is sitting here.~
+~
+17 0 ao 0
+8 8 3 0
+13 30 10 0
+#24123
+hisky whiskey romulan bottle whisky~
+a Romulan bottle~
+A bottle of Romulan whiskey is sitting here.~
+~
+17 0 ao 0
+8 8 5 0
+13 45 10 0
+#24124
+lemonade prune juice glass lemonade~
+a small glass~
+A small glass of prune juice is sitting here.~
+~
+17 0 ao 0
+8 8 6 0
+13 10 10 0
+#24125
+beer vulcan bottle beer~
+a Vulcan bottle~
+A bottle of Vulcan beer is standing here.~
+~
+17 0 ao 0
+8 8 1 0
+13 10 10 0
+#0
+
+#ROOMS
+
+#24100
+Main Engineering~
+   You find yourself in the middle of main engineering. The room is longer 
+than it is wide, and it has fairly low ceilings. Computer terminals cover 
+all the walls, and a large table built into the floor sits in the middle of 
+the room. At the far end of the room you see the warp core, a large pulsating 
+vertical tube.    
+~
+241 d 0
+D0
+A corridor is North.
+~
+~
+0 -1 24102
+E
+maps~
+   STARSHIP ENTERPRISE
+             Turbolift               |                Ten Forward
+               1010                  |                  1021
+                 |                   |                     |
+      School---1008----Holodeck 2    |     Crusher's-----1019----Security
+       1007      |       1008        |   Quarters 1018     |       1020
+                 |                   |                     |
+        Brig---1005---Transporter    |     Sick Bay-----1016-----Holodeck 4
+        1004     |     Room 1006     |      1015          |        1017
+                 |                   |                    |
+    Geordi's---1002----Data's        |        Cargo-----1013-----Riker's
+ Quarters 1001   |  Quarters 1003    |       Bay 1012     |    Quarters 1014
+                 |                   |                    |
+            Engineering              |                Turbolift
+               1000                  |                  1011
+                                     |
+              DECK 1                 |                DECK 2
+-------------------------------------+-----------------------------------------
+                                     |
+             Turbolift               |      Ready-----Bridge
+               1032                  |     Room 1035    1038         
+                 |                   |                    |
+   Science-----1030-----Cargo        |                 Bridge-----Conference
+   Lab 1029      |     Bay 1031      |                  1036       Room 1037
+                 |                   |                    |
+       Gym-----1027-----Picard's     |                Turbolift   
+      1026       |   Quarters 1028   |                  1034   
+                 |                   |                    |
+    Troi's-----1024-----Worf's       |                Turbolift   
+ Quarters 1023   |   Quarters 1025   |                  1033      
+                 |                   |                
+             Shuttle Bay             |                    
+               1022                  |
+                                     |
+              DECK 3                 |                DECK 4
+~
+E
+credits info~
+    x---------------------------------------------------------------------x
+    |               STARSHIP ENTERPRISE - FOR CIRCLEMUD 3.1               |
+    |                    Written in 2001 by Crazyman                      |
+    |                        www.nt.net/saarinen                          |
+    x---------------------------------------------------------------------x
+     I created this zone because I'm a fan of the show Star Trek: The Next
+     Generation. This zone features all of the main characters from the
+     show, and many of the items too. This zone features about 45 rooms, 
+     and is good for players of level 26-30. Everyone except for the 
+     ensigns, Picard, and Data are rougly a bit stronger than Jupiter. Data 
+     and Picard are much harder, and the ensigns are easier. I have a spot 
+     for a holodeck, but I haven't added anything in yet.
+               
+     Written entirely from scratch in WordPad. Feel free to edit, modify,
+     and do what you want with this zone!
+    x---------------------------------------------------------------------x
+Builder      : Crazyman
+Zone         : 241 Starship Enterprise
+Began        : 2001
+Player Level : 26-30
+Rooms        : 43
+Mobs         : 14
+Objects      : 19
+Shops        : 1
+Triggers     : 0
+Links        : 
+~
+S
+#24101
+Geordi's Quarters~
+   You're in the middle of Geordi's quarters. The room is sparsely decorated, 
+due to the fact that Geordi is blind. A small personal computer sits on a 
+desk against the western wall, in between two windows that look out into 
+space. A neatly made bed has been placed against the northern wall.
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24102
+S
+#24102
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been  rounded, making the 
+corridor an oval shape. 
+~
+241 d 0
+D0
+The corridor continues North.
+~
+~
+0 -1 24105
+D1
+Data's Quarters are East.
+~
+~
+0 -1 24103
+D2
+Main Engineering is South.
+~
+~
+0 -1 24100
+D3
+Geordi's Quarters are West.
+~
+~
+0 -1 24101
+S
+#24103
+Data's Quarters~
+   You're in the middle of Data's quarters. Some easils and paintings have 
+been left scattered around the southern part of the room, while a huge 
+computer screen showing a cross section of the Enterprise covers the entire 
+northern wall. In front of the screen is a large desk, which is covered in 
+computer controls. You can't see a bed in this room, but you figure it's 
+because Data doesn't sleep. 
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24102
+S
+#24104
+The Brig~
+   You're in the dimly lit Brig. This is where all the criminals and 
+prisoners are kept while on board the Enterprise. Three fairly large cells 
+can been seen in the southern part of the room, and they're all empty. A 
+computer control panel is situated in the northwestern corner of the room, 
+which is where the force fields for the cells are controlled. 
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24105
+S
+#24105
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape.  
+   You notice a tiny computer panel embedded into the wall.   
+~
+241 d 0
+D0
+The corridor continues North.
+~
+~
+0 -1 24108
+D1
+The Transporter Room is East.
+~
+~
+0 -1 24106
+D2
+The corridor continues South.
+~
+~
+0 -1 24102
+D3
+The Brig is West.
+~
+~
+0 -1 24104
+E
+control panel computer screen sign~
+   The panel says:
+
+    ***************************************************
+    *                                                 *
+    *            NCC-1701-D - "ENTERPRISE"            *
+    *                                                 *
+    *              *****                              *
+    *      **********************                     *
+    *      ***********************  _________         *
+    *              *****        ***(___  ____(        *
+    *                            ***** \ \*           *
+    *                             **********          *
+    *                                                 *
+    *          You are currently on deck 1            *
+    *                                                 *
+    ***************************************************
+~
+S
+#24106
+Transporter Room~
+   You're in the Enterprise transporter room. A computer terminal is sitting 
+near the southern wall, where the transporter chief can control the 
+transporters. Eight round transport pads have been arranged in a circle, 
+on a raised platform against the northern wall.
+~
+241 d 0
+D0
+A transporter beam is North.
+~
+~
+0 -1 24142
+D3
+A corridor is West.
+~
+~
+0 -1 24105
+S
+#24107
+School~
+   You step through the doors and find yourself in a large school room.
+Various tables and chairs are set up all around the room, and many
+paintings and drawings have been attached to the walls. Several computer
+consoles with a children's interface on them can be seen on the tables.
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24108
+S
+#24108
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape. 
+   You see the holodeck's control panel beside the holodeck door, and 
+it has some information on it.  
+~
+241 d 0
+D0
+The turbolift is North.
+~
+~
+0 -1 24110
+D1
+Holodeck 2 is East.
+~
+~
+0 -1 24109
+D2
+The corridor continues South.
+~
+~
+0 -1 24105
+D3
+The School is West.
+~
+~
+0 -1 24107
+E
+holodeck computer control panel sign~
+   It looks like this:
+   
+    ***************************************************
+    *                                                 *
+    *            NCC-1701-D - "ENTERPRISE"            *
+    *                    HOLODECK 2                   *
+    *                                                 *
+    *              STATUS : Inactive                  *
+    *     CURRENT PROGRAM : N/A                       *
+    *            SAFETIES : N/A                       *
+    *                                                 *
+    *    NOTE: Starfleet is not responsible for       *
+    *          any injuries incurred while on this    *
+    *          holodeck!                              *
+    *                                                 *
+    * WARNING: While the safeties are disabled, you   *
+    *          CAN be injured, or even killed.        *
+    *                                                 *
+    ***************************************************
+~
+S
+#24109
+Holodeck 2~
+   You're now on Holodeck 2. The room is just a large cube, with jet black 
+walls and a yellow grid painted on the floors, the walls, and the ceiling. 
+This is where different programs can be loaded and experienced, which seem 
+totally real. Right now, this holodeck is not functioning.
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24108
+S
+#24110
+Turbolift~
+   You're in the turbolift. The turbolift walls have been rounded off, 
+making it in the shape of a tube. Several vertical rows of lights make this 
+place very well lit. From here, you can access the other decks on the 
+Enterprise.
+
+~
+241 d 0
+D2
+A corridor leads South.
+~
+~
+0 -1 24108
+D4
+The turbolift goes Up.
+~
+~
+0 -1 24111
+S
+#24111
+Turbolift~
+   You're in the turbolift. The turbolift walls have been rounded off, 
+making it in the shape of a tube. Several vertical rows of lights make this 
+place very well lit. From here, you can accessthe other decks on the 
+Enterprise.
+~
+241 d 0
+D0
+A corridor leads North.
+~
+~
+0 -1 24113
+D4
+The turbolift goes Up.
+~
+~
+0 -1 24132
+D5
+The turbolift goes Down.
+~
+~
+0 -1 24110
+S
+#24112
+Cargo Bay 1~
+   You're in the main cargo bay of the Enterprise. It's quite a large room,
+ with a very high ceiling and a lot of floor space. You can see several 
+hundred plastic crates and barrels with the Starfleet insignia on them
+stacked right up to the ceiling. 
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24113
+S
+#24113
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape.  
+   You notice a tiny computer panel embedded into the wall.   
+~
+241 d 0
+D0
+The corridor continues North.
+~
+~
+0 -1 24116
+D1
+Riker's Quarters are East.
+~
+~
+0 -1 24114
+D2
+The Turbolift is South.
+~
+~
+0 -1 24111
+D3
+The Cargo Bay is West.
+~
+~
+0 -1 24112
+E
+control panel computer screen sign~
+   The panel says:
+ 
+    ***************************************************
+    *                                                 *
+    *            NCC-1701-D - "ENTERPRISE"            *
+    *                                                 *
+    *              *****                              *
+    *      **********************                     *
+    *      ***********************  _________         *
+    *              *****        ***(___  ____(        *
+    *                            ***** \ \*           *
+    *                             **********          *
+    *                                                 *
+    *          You are currently on deck 2            *
+    *                                                 *
+    ***************************************************
+~
+S
+#24114
+Riker's Quarters~
+   You've arrived in Riker's quarters. The room is very neat and tidy, 
+with a couch and several chairs aranged around a coffee table by the
+eastern wall. A small partition at the northern part of the room seperates 
+his sleeping area with the rest of the room.
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24113
+S
+#24115
+Sick Bay~
+   You're in the middle of the Enterprise's Sick Bay. About a dozen beds are 
+arranged along the walls of the room, while several carts covered with 
+medical supplies are scattered around the room. A large glass window in the 
+northern part of the room separates the doctor's office with the rest of the 
+room.
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24116
+S
+#24116
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape. 
+   You see the holodeck's control panel beside the holodeck door, and 
+it has some information on it.  
+~
+241 d 0
+D0
+The corridor continues North.
+~
+~
+0 -1 24119
+D1
+Holodeck 4 is East.
+~
+~
+0 -1 24117
+D2
+The corridor continues South.
+~
+~
+0 -1 24113
+D3
+Sick Bay is West.
+~
+~
+0 -1 24115
+E
+holodeck computer control panel sign~
+   It looks like this:
+   
+    ***************************************************
+    *                                                 *
+    *            NCC-1701-D - "ENTERPRISE"            *
+    *                    HOLODECK 4                   *
+    *                                                 *
+    *              STATUS : Active                    *
+    *     CURRENT PROGRAM : Sherlock Holmes (19th     *
+    *                       century London)           *
+    *            SAFETIES : Disabled                  *
+    *                                                 *
+    *    NOTE: Starfleet is not responsible for       *
+    *          any injuries incurred while on this    *
+    *          holodeck!                              *
+    *                                                 *
+    * WARNING: While the safeties are disabled, you   *
+    *          CAN be injured, or even killed.        *
+    *                                                 *
+    *             ---ENTER WHEN READY---              *
+    *                                                 *
+    ***************************************************
+~
+S
+#24117
+Holodeck 4 Entrance - A Narrow Alley~
+   You emerge into a dark narrow alley. Tall dark brick buildings block your 
+way north and south. You can see that the windows on the buildings are fairly 
+high, and some have been boarded up. The smell from the rotting food and 
+garbage mixing with the foul water on the ground is unbearable. You can hear 
+the sounds of a bustling marketpace to the east. The archway leading out of 
+the holodeck is west.
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24116
+S
+#24118
+Crusher's Quarters~
+   You're in Doctor Crusher's quarters. Several different paintings are 
+attached to the walls, and you also notice a few sculptures. A neatly made 
+bed is located by the northern wall, in between two large windows looking 
+out into space.
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24119
+S
+#24119
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape.    
+~
+241 d 0
+D0
+Ten Forward is North.
+~
+~
+0 -1 24121
+D1
+Security is East.
+~
+~
+0 -1 24120
+D2
+The corridor continues South.
+~
+~
+0 -1 24116
+D3
+Crusher's Quarters are West.
+~
+~
+0 -1 24118
+S
+#24120
+Enterprise Security~
+   You're standing in the dimly lit Enterprise Security. Weapons lockers 
+cover all of the walls, except along the northern wall, where a large glass 
+window protects dozens of different phasors, blaster rifles, and other high 
+tech weapons. Three long tables surrounded by chairs stretch across the room.
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24119
+S
+#24121
+Ten Forward~
+   You're now in Ten Forward, the entertainment room of the Enterprise. 
+The entire northern wall is covered with windows looking out into space,
+while two large wooden doors with the Starfleet insignia stamped on them
+face south. Many round metal tables are scattered around the room, 
+surrounded by metal chairs. A long bar spans almost the entire length of 
+the southern part of the room, and about two dozen bar stools are sitting
+in front of it. It's very noisy in here, due to all the talking and
+laughing.
+~
+241 d 0
+D2
+A corridor is South.
+~
+~
+0 -1 24119
+S
+#24122
+Shuttle Bay~
+   You're in the main shuttle bay of the Enterprise. It's quite a large 
+room, with a very high ceiling and a lot of floor space. You can see three 
+different shuttle crafts sitting here, waiting to be flown. 
+   A large grey door leads into space.
+~
+241 d 0
+D0
+A corridor is North.
+~
+~
+0 -1 24124
+D2
+~
+door grey doors~
+1 -1 24139
+S
+#24123
+Troi's Quarters~
+   You're in Counselor Deanna Troi's quarters.  Several different paintings
+have been hung from the walls, and a small couch and a recliner are positioned
+around a coffee table.  A neatly made bed is partially hidden behind a curtain
+at the northern part of the room.    
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24124
+S
+#24124
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape. 
+   You notice a tiny computer panel embedded into the wall.   
+~
+241 d 0
+D0
+The corridor continues North.
+~
+~
+0 -1 24127
+D1
+Worf's Quarters are East.
+~
+~
+0 -1 24125
+D2
+The shuttle bay is South.
+~
+~
+0 -1 24122
+D3
+Troi's Quarters are West.
+~
+~
+0 -1 24123
+E
+control panel computer screen sign~
+   The panel says:
+ 
+    ***************************************************
+    *                                                 *
+    *            NCC-1701-D - "ENTERPRISE"            *
+    *                                                 *
+    *              *****                              *
+    *      **********************                     *
+    *      ***********************  _________         *
+    *              *****        ***(___  ____(        *
+    *                            ***** \ \*           *
+    *                             **********          *
+    *                                                 *
+    *          You are currently on deck 3            *
+    *                                                 *
+    ***************************************************
+~
+S
+#24125
+Worf's Quarters~
+   You're in Worf's quarters. A small table is sitting in the southeastern 
+corner, and on it is a small potted plant. An impressive selection of 
+Klingon weapons have been mounted on the northern wall, and a partition 
+splits this room with Worf's bedroom to the east.
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24124
+S
+#24126
+Enterprise Gym~
+   You emerge into the Enterprise gym. The room is quite large, with a soft 
+grey floor. A set of lockers against the southern wall contain all of the 
+necessary equipment needed for using the gym. A thick stack of mats have been 
+piled high in one corner, which can be used for different activities. Captain 
+Picard likes to come here to practice his fencing.
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24127
+S
+#24127
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape. 
+~
+241 d 0
+D0
+The corridor continues North.
+~
+~
+0 -1 24130
+D1
+Picard's Quarters are East.
+~
+~
+0 -1 24128
+D2
+The corridor continues South.
+~
+~
+0 -1 24124
+D3
+The Enterprise Gym is West.
+~
+~
+0 -1 24126
+S
+#24128
+Picard's Quarters~
+   You find yourself standing by the door of Captain Picard's quarters. He 
+isn't very fond of visitors, but you decide to stay and have a look around. 
+You can see several different ancient artifacts on tables and small pedestals, 
+and a large wooden wardrobe is facing south. A comfortable looking recliner 
+with a matching footrest sits beside the door, along with a bright reading 
+lamp and end table. Two large windows offer a great view of space. A small 
+partition at the northern part of the room contains Picard's sleeping area.
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24127
+S
+#24129
+Science Lab~
+   You're in the Enterprise science lab. A strange looking machine sits in 
+the middle of the room, up on a slightly raised platform. It looks as though 
+something (or someone) could be placed inside, hooked up to the multitude of 
+wires and cables, and have scientific tests performed on it (or them). A 
+complex looking computer console is facing this machine. Around the rest of 
+the room are counterops with with the odd computer terminal.
+~
+241 d 0
+D1
+A corridor is East.
+~
+~
+0 -1 24130
+S
+#24130
+A Corridor~
+   You find yourself in the middle of a well lit corridor on the Enterprise. 
+It isn't very wide, and the light beige walls have been rounded, making the 
+corridor an oval shape. 
+~
+241 d 0
+D0
+The Turbolift is North.
+~
+~
+0 -1 24132
+D1
+Empty Quarters are East.
+~
+~
+0 -1 24131
+D2
+The corridor continues South.
+~
+~
+0 -1 24127
+D3
+Empty Quarters are West.
+~
+~
+0 -1 24129
+S
+#24131
+Cargo Bay 2~
+   You're in the cargo bay 2 of the Enterprise. It's quite a large room, with 
+a very high ceiling and a lot of floor space. You can see several hundred 
+plastic crates and barrels with the Starfleet insignia on them stacked right 
+up to the ceiling. 
+~
+241 d 0
+D3
+A corridor is West.
+~
+~
+0 -1 24130
+S
+#24132
+Turbolift~
+   You're in the turbolift. The turbolift walls have been rounded off,
+making it in the shape of a tube. Several vertical rows of lights make this 
+place very well lit. From here, you can access the other decks on the 
+Enterprise.
+~
+241 d 0
+D2
+A corridor leads South.
+~
+~
+0 -1 24130
+D4
+The turbolift goes Up.
+~
+~
+0 -1 24133
+D5
+The turbolift goes Down.
+~
+~
+0 -1 24111
+S
+#24133
+Turbolift~
+   You're in the turbolift. The turbolift walls have been rounded off, 
+making it in the shape of a tube. Several vertical rows of lights make this 
+place very well lit. From here, you can access the other decks on the 
+Enterprise.
+~
+241 d 0
+D4
+The turbolift goes Up.
+~
+~
+0 -1 24134
+D5
+The turbolift goes Down.
+~
+~
+0 -1 24132
+S
+#24134
+Turbolift~
+   You're in the turbolift. The turbolift walls have been rounded off, 
+making it in the shape of a tube. Several vertical rows of lights make this
+place very well lit. From here, you can access the other decks on the 
+Enterprise.
+~
+241 d 0
+D4
+The Main Bridge is Up.
+~
+~
+0 -1 24136
+D5
+The turbolift goes Down.
+~
+~
+0 -1 24133
+S
+#24135
+Picard's Ready Room~
+   You're standing in Captain Picard's ready room. A long couch has been 
+placed beside the door, while a large U shaped desk is located by the 
+northern wall. A small computer screen is sitting on the desk, as well as 
+several other papers and documents. A single high window beside the desk 
+looks into space, and a fish tank is located in the northwestern corner of 
+the room. This is where the Captain makes all of his important decisions.
+~
+241 d 0
+D1
+The Main Bridge - Lower Half is East.
+~
+~
+0 -1 24138
+S
+#24136
+Main Bridge - Upper Half~
+   You find yourself on the upper half of the main bridge of the USS 
+Enterprise. Directly in front of you is a thick railing that contains many 
+different computer panels used for the tactical systems of the ship. The
+entire southern wall is covered with computer consoles, where the ship's 
+main systems are controlled. Two small curved ramps on either side of the 
+room lead north to the lower part of the bridge, and a large circular 
+skylight shows the space outside the ship.
+~
+241 d 0
+D0
+The Main Bridge - Lower Half is North.
+~
+~
+0 -1 24138
+D1
+The Conference Room is East.
+~
+~
+0 -1 24137
+D5
+The Turbolift is Down.
+~
+~
+0 -1 24134
+S
+#24137
+Conference Room~
+   You're in the conference room of the Enterprise. A large glass rectangular 
+table sits in the middle of the room, surrounded by about a dozen comfortable 
+looking office chairs. The entire eastern wall is covered with windows, 
+looking out into space. This is where the senior officers of the Enterprise 
+meet and discuss important issues.
+~
+241 d 0
+D3
+The Main Bridge - Upper Half is West.
+~
+~
+0 -1 24136
+S
+#24138
+Main Bridge - Lower Half~
+   You find yourself on the lower half of the main bridge of the USS 
+Enterprise. An enormous view screen covers almost the entire northern wall, 
+and is currently displaying a view of the stars rushing by. Three large 
+chairs in the northern part of the room, in front of the railing, face the 
+screen. This is where the Captain, Commander Riker, and Counselor Troi sit. 
+Two computer consoles with built in chairs rest about ten feet in front of 
+the chairs, also facing the view screen. This is where the ship's pilot and
+information officer sit.
+~
+241 d 0
+D2
+The Main Bridge - Upper Half is South.
+~
+~
+0 -1 24136
+D3
+The Captain's Ready Room is West.
+~
+~
+0 -1 24135
+S
+#24139
+Outer Space by the Enterprise~
+   You're floating in outer space right beside the USS Enterprise. You can 
+see stars in every direction, which provide the only light here. You feel 
+very cold.
+   A large grey door leads into the Enterprise's Shuttle Bay.
+~
+241 0 9
+D0
+The Shuttle Bay is North.
+~
+door doors grey~
+1 -1 24122
+D4
+Outer Space is Up.
+~
+~
+0 -1 24140
+S
+#24140
+Outer Space~
+   You're floating in outer space right above the USS Enterprise. You can 
+see stars in every direction, which provide the only light here. You feel 
+very cold.
+~
+241 0 9
+D4
+Outer Space is Up.
+~
+~
+0 -1 24141
+D5
+Outer Space is Down.
+~
+~
+0 -1 24139
+S
+#24141
+Outer Space~
+   You're floating in outer space right above the USS Enterprise. You can 
+see stars in every direction, which provide the only light here. You feel 
+very cold.
+~
+241 0 9
+D5
+Outer Space is Down.
+~
+~
+0 -1 24140
+S
+#24142
+Transporter Beam~
+   You find yourself in a transporter beam. All you can see is blue 
+flashing light. It feels as though your body is racing around at high 
+speeds. As you try to look down at your body, you realize that there's 
+nothing there!
+~
+241 0 9
+D2
+The Transporter Room is South.
+~
+~
+0 -1 24106
+S
+#0
+
+#RESETS
+M 0 24100 1 24100 	(Geordi LaForge)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24103 10 12 	(a gold Starfleet engineering uniform)
+E 1 24108 1 6 	(Geordi's VISOR)
+M 0 24112 7 24100 	(the ensign)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24103 10 12 	(a gold Starfleet engineering uniform)
+O 0 24110 3 24100 	(a dilithium crystal)
+O 0 24110 3 24100 	(a dilithium crystal)
+O 0 24110 3 24100 	(a dilithium crystal)
+M 0 24113 1 24125 	(alexander rozhenko)
+M 0 24101 1 24129 	(Data)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24103 10 12 	(a gold Starfleet engineering uniform)
+G 1 24100 10 -1 	(a standard issue phaser)
+M 0 24103 1 24115 	(Doctor Crusher)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24104 10 12 	(a blue Starfleet medical uniform)
+G 1 24109 10 -1 	(a medical Tricorder)
+G 1 24109 10 -1 	(a medical Tricorder)
+G 1 24109 10 -1 	(a medical Tricorder)
+M 0 24107 1 24121 	(Guinan)
+G 1 24120 100 -1 	(a small cup)
+G 1 24121 100 -1 	(a synthehol)
+G 1 24122 100 -1 	(a Ferengi bottle)
+G 1 24123 100 -1 	(a Romulan bottle)
+G 1 24124 100 -1 	(a small glass)
+G 1 24125 100 -1 	(a Vulcan bottle)
+M 0 24108 1 24106 	(Chief O'Brien)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24103 10 12 	(a gold Starfleet engineering uniform)
+G 1 24100 10 -1 	(a standard issue phaser)
+M 0 24106 1 24135 	(Captain Picard)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24102 10 12 	(a burgandy Starfleet command uniform)
+G 1 24101 5 -1 	(a phaser rifle)
+G 1 24111 5 -1 	(Picard's flute)
+M 0 24105 1 24136 	(Commander Riker)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24102 10 12 	(a burgandy Starfleet command uniform)
+G 1 24112 1 -1 	(Riker's trombone)
+M 0 24104 1 24107 	(Counselor Troi)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24104 10 12 	(a blue Starfleet medical uniform)
+M 0 24109 1 24116 	(Wesley)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24102 10 12 	(a burgandy Starfleet command uniform)
+M 0 24102 1 24125 	(Lieutenant Worf)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24103 10 12 	(a gold Starfleet engineering uniform)
+G 1 24100 10 -1 	(a standard issue phaser)
+E 1 24107 1 5 	(Worf's sash)
+M 0 24110 1 24135 	(Livingston)
+M 0 24111 1 24103 	(Spot)
+M 0 24112 7 24104 	(the ensign)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24103 10 12 	(a gold Starfleet engineering uniform)
+M 0 24112 7 24111 	(the ensign)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24102 10 12 	(a burgandy Starfleet command uniform)
+M 0 24112 7 24120 	(the ensign)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24102 10 12 	(a burgandy Starfleet command uniform)
+M 0 24112 7 24124 	(the ensign)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24104 10 12 	(a blue Starfleet medical uniform)
+M 0 24112 7 24122 	(the ensign)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24104 10 12 	(a blue Starfleet medical uniform)
+M 0 24112 7 24136 	(the ensign)
+E 1 24105 30 8 	(a pair of Starfleet black boots)
+E 1 24106 25 3 	(a Starfleet communication badge)
+E 1 24104 10 12 	(a blue Starfleet medical uniform)
+O 0 24109 3 24115 	(a medical Tricorder)
+O 0 24109 3 24115 	(a medical Tricorder)
+O 0 24109 3 24115 	(a medical Tricorder)
+D 0 24122 2 1 	(Shuttle Bay)
+D 0 24139 0 1 	(Outer Space by the Enterprise)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#24100~
+24120
+24121
+24122
+24123
+24124
+24125
+-1
+1.0
+0.5
+0
+-1
+%s I'm sorry, but I don't have that right now!~
+%s I don't want to buy anything from you.~
+%s I don't want to buy anything from you.~
+%s I don't want to buy anything from you.~
+%s You don't have the money, stranger.~
+%s That will cost you %d coins. Enjoy your drink.~
+%s I don't want to buy anything from you.~
+-1
+1
+24107
+0
+24121
+-1
+0
+28
+0
+0
+0
+
+
+#$

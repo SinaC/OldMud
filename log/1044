@@ -1,0 +1,328 @@
+Thu Mar 13 17:31:53 2003 :: Booting...
+Thu Mar 13 17:31:53 2003 :: Reading scripts (Mob/Obj Programs)
+Thu Mar 13 17:31:53 2003 :: Reading script: player.script
+Thu Mar 13 17:31:53 2003 :: Reading script: quest.script
+Thu Mar 13 17:31:53 2003 :: Reading script: general.script
+Thu Mar 13 17:31:53 2003 :: Reading script: special.script
+Thu Mar 13 17:31:53 2003 :: Reading script: healer.script
+Thu Mar 13 17:31:53 2003 :: Reading script: museum.script
+Thu Mar 13 17:31:53 2003 :: Reading script: midgaard.script
+Thu Mar 13 17:31:53 2003 :: Reading script: faerie.script
+Thu Mar 13 17:31:53 2003 :: Reading script: icecave.script
+Thu Mar 13 17:31:53 2003 :: Reading script: deathdun.script
+Thu Mar 13 17:31:53 2003 :: Reading script: armsmaug.script
+Thu Mar 13 17:31:53 2003 :: Reading script: tmp.script
+Thu Mar 13 17:31:53 2003 :: 12 scripts file read
+Thu Mar 13 17:31:53 2003 :: Reading commands
+Thu Mar 13 17:31:53 2003 :: 334 commands found.
+Thu Mar 13 17:31:53 2003 :: Reading skills/spells/power
+Thu Mar 13 17:31:53 2003 :: 487 skills/spells/powers found.
+Thu Mar 13 17:31:53 2003 :: Assigning pgsn & spell_fun
+Thu Mar 13 17:31:53 2003 :: 10 languages found.
+Thu Mar 13 17:31:53 2003 :: Assigning sn to language
+Thu Mar 13 17:31:53 2003 :: Reading class table
+Thu Mar 13 17:31:53 2003 :: 15 classes found.
+Thu Mar 13 17:31:53 2003 :: Reading race table
+Thu Mar 13 17:31:53 2003 :: 93 races found.
+Thu Mar 13 17:31:53 2003 :: Reading pc race table
+Thu Mar 13 17:31:53 2003 :: 70 pc races found.
+Thu Mar 13 17:31:53 2003 :: Reading liquid table
+Thu Mar 13 17:31:53 2003 :: 36 liquids found.
+Thu Mar 13 17:31:53 2003 :: Reading group table
+Thu Mar 13 17:31:53 2003 :: 86 groups found.
+Thu Mar 13 17:31:53 2003 :: Reading classes skills/titles/groups/poses/aligns
+Thu Mar 13 17:31:53 2003 :: Reading class: mage
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group beguiling shouldn't have ability calm
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group beguiling shouldn't have ability dizziness
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group beguiling shouldn't have ability hesitation
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group beguiling shouldn't have ability trouble
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group combat shouldn't have ability fear
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group maladictions shouldn't have ability change sex
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group protective shouldn't have ability sanctuary
+Thu Mar 13 17:31:53 2003 :: Reading class: cleric
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group benedictions shouldn't have ability resurrect
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group creation shouldn't have ability create rose
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group creation shouldn't have ability create flame blade
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group creation shouldn't have ability create ice knife
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group protective shouldn't have ability blur
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group protective shouldn't have ability aid
+Thu Mar 13 17:31:53 2003 :: Reading class: thief
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability axe
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability flail
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability polearm
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability spear
+Thu Mar 13 17:31:53 2003 :: Reading class: warrior
+Thu Mar 13 17:31:53 2003 :: Reading class: ranger
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability whip
+Thu Mar 13 17:31:53 2003 :: Reading class: monk
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk default shouldn't have ability bash
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability axe
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability flail
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability mace
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability spear
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability sword
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group weaponsmaster shouldn't have ability whip
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group curative shouldn't have ability cure blindness
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group curative shouldn't have ability cure disease
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group curative shouldn't have ability cure poison
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group healing shouldn't have ability cure critical
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group healing shouldn't have ability cure light
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group healing shouldn't have ability cure serious
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group healing shouldn't have ability mass healing
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group healing shouldn't have ability refresh
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk enhancement shouldn't have ability giant strength
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk enhancement shouldn't have ability bless
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk enhancement shouldn't have ability haste
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk enhancement shouldn't have ability infravision
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk protective shouldn't have ability armor
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk protective shouldn't have ability shield
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk protective shouldn't have ability protection good
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk protective shouldn't have ability protection evil
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk protective shouldn't have ability sanctuary
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk creation shouldn't have ability create food
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk creation shouldn't have ability create water
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk creation shouldn't have ability create spring
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk creation shouldn't have ability continual light
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk detection shouldn't have ability detect evil
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk detection shouldn't have ability detect magic
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk detection shouldn't have ability detect good
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk detection shouldn't have ability detect hidden
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk detection shouldn't have ability detect poison
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group monk detection shouldn't have ability detect invis
+Thu Mar 13 17:31:53 2003 :: Reading class: neuromancer
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group neuromancer default shouldn't have ability meditation
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group neuro misc shouldn't have ability nexus
+Thu Mar 13 17:31:53 2003 :: Reading class: necromancer
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group necromancer attack shouldn't have ability life bane
+Thu Mar 13 17:31:53 2003 :: Reading class: paladin
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: group paladin defense shouldn't have ability armor
+Thu Mar 13 17:31:53 2003 :: Reading class: blackguard
+Thu Mar 13 17:31:53 2003 :: Reading class: barbarian
+Thu Mar 13 17:31:53 2003 :: Reading class: assassin
+Thu Mar 13 17:31:53 2003 :: Reading class: druid
+Thu Mar 13 17:31:53 2003 :: Reading class: bard
+Thu Mar 13 17:31:53 2003 :: Reading class: elementalist
+Thu Mar 13 17:31:53 2003 :: Reading material table
+Thu Mar 13 17:31:53 2003 :: 96 materials found.
+Thu Mar 13 17:31:53 2003 :: Reading clan table
+Thu Mar 13 17:31:53 2003 :: New clan table format!
+Thu Mar 13 17:31:53 2003 :: New format clan table read
+Thu Mar 13 17:31:53 2003 :: 10 clans found.
+Thu Mar 13 17:31:53 2003 :: Reading areas
+Thu Mar 13 17:31:53 2003 :: help.hlp
+Thu Mar 13 17:31:53 2003 :: social.are
+Thu Mar 13 17:31:53 2003 :: rom.hlp
+Thu Mar 13 17:31:53 2003 :: group.hlp
+Thu Mar 13 17:31:53 2003 :: olc.hlp
+Thu Mar 13 17:31:53 2003 :: clans.hlp
+Thu Mar 13 17:31:53 2003 :: race.hlp
+Thu Mar 13 17:31:53 2003 :: class.hlp
+Thu Mar 13 17:31:53 2003 :: skills.hlp
+Thu Mar 13 17:31:53 2003 :: spells.hlp
+Thu Mar 13 17:31:53 2003 :: powers.hlp
+Thu Mar 13 17:31:53 2003 :: imm.hlp
+Thu Mar 13 17:31:53 2003 :: limbo.are
+Thu Mar 13 17:31:53 2003 :: ofcol2.are
+Thu Mar 13 17:31:53 2003 :: shire.are
+Thu Mar 13 17:31:53 2003 :: midgaard.are
+Thu Mar 13 17:31:53 2003 :: immort.are
+Thu Mar 13 17:31:53 2003 :: plains.are
+Thu Mar 13 17:31:53 2003 :: air.are
+Thu Mar 13 17:31:53 2003 :: arachnos.are
+Thu Mar 13 17:31:53 2003 :: three.are
+Thu Mar 13 17:31:53 2003 :: haon.are
+Thu Mar 13 17:31:53 2003 :: astral.are
+Thu Mar 13 17:31:53 2003 :: canyon.are
+Thu Mar 13 17:31:53 2003 :: catacomb.are
+Thu Mar 13 17:31:53 2003 :: chapel.are
+Thu Mar 13 17:31:53 2003 :: daycare.are
+Thu Mar 13 17:31:53 2003 :: draconia.are
+Thu Mar 13 17:31:53 2003 :: donjon.are
+Thu Mar 13 17:31:53 2003 :: drow.are
+Thu Mar 13 17:31:53 2003 :: thalos.are
+Thu Mar 13 17:31:53 2003 :: dwarven.are
+Thu Mar 13 17:31:53 2003 :: dylan.are
+Thu Mar 13 17:31:53 2003 :: eastern.are
+Thu Mar 13 17:31:53 2003 :: galaxy.are
+Thu Mar 13 17:31:53 2003 :: trade.are
+Thu Mar 13 17:31:53 2003 :: gnome.are
+Thu Mar 13 17:31:53 2003 :: grave.are
+Thu Mar 13 17:31:53 2003 :: grove.are
+Thu Mar 13 17:31:53 2003 :: hitower.are
+Thu Mar 13 17:31:53 2003 :: hood.are
+Thu Mar 13 17:31:53 2003 :: mahntor.are
+Thu Mar 13 17:31:53 2003 :: marsh.are
+Thu Mar 13 17:31:53 2003 :: mega1.are
+Thu Mar 13 17:31:53 2003 :: midennir.are
+Thu Mar 13 17:31:53 2003 :: mirror.are
+Thu Mar 13 17:31:53 2003 :: mobfact.are
+Thu Mar 13 17:31:53 2003 :: moria.are
+Thu Mar 13 17:31:53 2003 :: newthalos.are
+Thu Mar 13 17:31:53 2003 :: bazaar.are
+Thu Mar 13 17:31:53 2003 :: nirvana.are
+Thu Mar 13 17:31:53 2003 :: ofcol.are
+Thu Mar 13 17:31:53 2003 :: olympus.are
+Thu Mar 13 17:31:53 2003 :: pyramid.are
+Thu Mar 13 17:31:53 2003 :: sewer.are
+Thu Mar 13 17:31:53 2003 :: redferne.are
+Thu Mar 13 17:31:53 2003 :: school.are
+Thu Mar 13 17:31:53 2003 :: factory.are
+Thu Mar 13 17:31:53 2003 :: smurf.are
+Thu Mar 13 17:31:53 2003 :: tohell.are
+Thu Mar 13 17:31:53 2003 :: trollden.are
+Thu Mar 13 17:31:53 2003 :: valley.are
+Thu Mar 13 17:31:53 2003 :: wyvern.are
+Thu Mar 13 17:31:53 2003 :: abyss.are
+Thu Mar 13 17:31:53 2003 :: rand.are
+Thu Mar 13 17:31:53 2003 :: atlantis.are
+Thu Mar 13 17:31:53 2003 :: ciquala2.are
+Thu Mar 13 17:31:53 2003 :: dara.are
+Thu Mar 13 17:31:53 2003 :: enclave.are
+Thu Mar 13 17:31:53 2003 :: funhouse.are
+Thu Mar 13 17:31:53 2003 :: lennysho.are
+Thu Mar 13 17:31:53 2003 :: whouse.are
+Thu Mar 13 17:31:53 2003 :: newbie.are
+Thu Mar 13 17:31:53 2003 :: sesamest.are
+Thu Mar 13 17:31:53 2003 :: zoo2.are
+Thu Mar 13 17:31:53 2003 :: ancala.are
+Thu Mar 13 17:31:53 2003 :: crypt.are
+Thu Mar 13 17:31:53 2003 :: graye.are
+Thu Mar 13 17:31:53 2003 :: kerofk.are
+Thu Mar 13 17:31:53 2003 :: anonplis.are
+Thu Mar 13 17:31:53 2003 :: chaos.are
+Thu Mar 13 17:31:53 2003 :: weird.are
+Thu Mar 13 17:31:53 2003 :: shield.are
+Thu Mar 13 17:31:53 2003 :: crypt4.are
+Thu Mar 13 17:31:53 2003 :: gtown.are
+Thu Mar 13 17:31:53 2003 :: clans.are
+Thu Mar 13 17:31:53 2003 :: village.are
+Thu Mar 13 17:31:53 2003 :: amazon.are
+Thu Mar 13 17:31:53 2003 :: allfim.are
+Thu Mar 13 17:31:53 2003 :: prison.are
+Thu Mar 13 17:31:53 2003 :: necrmncr.are
+Thu Mar 13 17:31:53 2003 :: museum.are
+Thu Mar 13 17:31:53 2003 :: kastalia.are
+Thu Mar 13 17:31:53 2003 :: hobkeep.are
+Thu Mar 13 17:31:53 2003 :: icecave.are
+Thu Mar 13 17:31:53 2003 :: adleh.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/animal.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/faerie.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/deathdun.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/firetop.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/malathar.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/mtdoom.are
+Thu Mar 13 17:31:53 2003 :: Merc style
+Thu Mar 13 17:31:53 2003 :: additional_areas/under.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/valleygl.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/warkeep.are
+Thu Mar 13 17:31:53 2003 :: additional_areas/armsmaug.are
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 20501:0 -> 20503:2 -> 20502.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 36134:0 -> 36137:2 -> 36135.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 36137:2 -> 36135:0 -> 36134.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 3458:2 -> 3472:0 -> 10401.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25000:0 -> 25001:2 -> 25001.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25001:1 -> 25001:3 -> 25074.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 4522:4 -> 4523:5 -> 4525.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25002:2 -> 25001:0 -> 25001.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25007:0 -> 25007:2 -> 25006.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25014:0 -> 25015:2 -> 25016.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25015:0 -> 25015:2 -> 25016.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25016:1 -> 25017:3 -> 25015.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25016:2 -> 25015:0 -> 25015.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25016:3 -> 25016:1 -> 25017.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25017:1 -> 25015:3 -> 25015.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25017:2 -> 25015:0 -> 25015.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25017:3 -> 25015:1 -> 25015.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25020:1 -> 25019:3 -> 25018.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 4552:5 -> 4553:4 -> 4558.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 4555:0 -> 4556:2 -> 4545.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 4555:2 -> 4554:0 -> 4545.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25074:0 -> 25002:2 -> 25001.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 8705:4 -> 8706:5 -> 8708.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 25094:1 -> 25095:3 -> 25096.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 8717:2 -> 8719:0 -> 8718.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5650:2 -> 5608:0 -> 5614.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5650:3 -> 5616:1 -> 5615.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5668:0 -> 5624:2 -> 5630.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5668:1 -> 5605:3 -> 5604.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5668:3 -> 5622:1 -> 5621.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6704:0 -> 6704:2 -> 6705.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6704:2 -> 6705:0 -> 6706.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6705:1 -> 6704:3 -> 6704.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6705:2 -> 6704:0 -> 6704.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6705:3 -> 6705:1 -> 6704.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6716:3 -> 6717:1 -> 6715.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6717:0 -> 6716:2 -> 6714.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 18000:5 -> 3001:4 -> 3700.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 18010:5 -> 3001:4 -> 3700.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5723:0 -> 5724:2 -> 5725.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5724:2 -> 5725:0 -> 5727.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 18020:4 -> 3054:5 -> 3360.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6758:2 -> 6757:0 -> 6755.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6760:2 -> 6757:0 -> 6755.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 18030:5 -> 3001:4 -> 3700.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 18040:4 -> 3054:5 -> 3360.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6782:2 -> 6785:0 -> 6783.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 6785:0 -> 6783:2 -> 6790.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 18050:5 -> 3001:4 -> 3700.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 18070:4 -> 3054:5 -> 3360.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 1811:3 -> 1813:1 -> 1814.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10004:1 -> 10405:3 -> 10406.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 1813:1 -> 1814:3 -> 1817.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10005:1 -> 5110:3 -> 5111.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10006:0 -> 10007:2 -> 10005.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10006:3 -> 2375:1 -> 2377.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10007:1 -> 20004:3 -> 20003.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10007:2 -> 10005:0 -> 10006.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10010:1 -> 1392:3 -> 7428.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10012:3 -> 14200:1 -> 14204.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10014:0 -> 3001:2 -> 3005.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5931:1 -> 5950:3 -> 5910.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5946:1 -> 5925:3 -> 5951.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 5951:3 -> 5931:1 -> 5950.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 21340:0 -> 21352:2 -> 21338.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16228:2 -> 16228:0 -> 16231.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16229:2 -> 16229:0 -> 16232.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16229:3 -> 16229:1 -> 16228.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16230:1 -> 16230:3 -> 16228.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16230:2 -> 16230:0 -> 16233.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16232:3 -> 16232:1 -> 16231.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16233:1 -> 16233:3 -> 16231.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 21354:2 -> 21340:0 -> 21352.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16234:3 -> 16234:1 -> 16235.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16236:1 -> 16236:3 -> 16235.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16237:3 -> 16237:1 -> 16238.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16239:1 -> 16239:3 -> 16238.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 16247:3 -> 16247:1 -> 16244.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 14225:0 -> 3100:2 -> 3270.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 21424:1 -> 21421:3 -> 21420.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 21425:3 -> 21424:1 -> 21421.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 21455:3 -> 21454:1 -> 21451.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10217:3 -> 10220:1 -> 10240.
+Thu Mar 13 17:31:53 2003 :: [*****] BUG: Fix_exits: 10238:1 -> 10220:3 -> 10239.
+Thu Mar 13 17:31:53 2003 :: Creating World...
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: basePetShopKeeper::onCreate  this: boy (vnum 3008)
+Err: obj elemental wand of wind and air (9218) -- 18, mob a small spark (9218) -- 4
+Err: obj elemental wand of wind and air (9218) -- 18, mob an eddie (9225) -- 2
+Err: obj a standard issue dagger (3351) -- 13, mob A tomb thief (8704) -- 40
+Err: obj a standard issue dagger (3351) -- 13, mob A tomb thief (8704) -- 40
+Err: obj a standard issue dagger (3351) -- 13, mob A tomb thief (8704) -- 40
+Err: obj a standard issue dagger (3351) -- 13, mob A tomb thief (8704) -- 40
+Err: obj a standard issue dagger (3351) -- 13, mob A tomb thief (8704) -- 40
+Err: obj a standard issue dagger (3351) -- 13, mob A tomb thief (8704) -- 40
+Err: obj a long sword (3022) -- 8, mob the Innguard (5623) -- 15
+Err: obj a long sword (3022) -- 8, mob the Innguard (5623) -- 15
+Err: obj a long sword (3022) -- 8, mob the Council Guard (5619) -- 15
+Err: obj a long sword (3022) -- 8, mob the Council Guard (5619) -- 15
+Err: obj a long sword (3022) -- 8, mob the Gateguard (5635) -- 15
+Err: obj a long sword (3022) -- 8, mob the Gateguard (5635) -- 15
+Err: obj a long sword (3022) -- 8, mob the Gateguard (5635) -- 15
+Err: obj a long sword (3022) -- 8, mob the Gateguard (5635) -- 15
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specPatrolMan::onCreate  this: patrolman man patrol
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specTrollMember::onCreate  this: troll
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specPatrolMan::onCreate  this: patrolman man patrol
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specPatrolMan::onCreate  this: patrolman man patrol
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specOgreMember::onCreate  this: ogre
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specOgreMember::onCreate  this: ogre
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specOgreMember::onCreate  this: ogre
+Thu Mar 13 17:31:53 2003 :: SCRIPT LOG: specOgreMember::onCreate  this: ogre

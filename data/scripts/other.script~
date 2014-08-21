@@ -1,0 +1,10 @@
+class toto extends Mob {
+titi( p ) {
+  if ( p == "hello" ) this.sendTo("Hello, world");
+  else this.sendTo("Tsekwa!");
+}
+onInformation( p ) {
+  toto( p );
+}
+}
+

@@ -1,0 +1,50 @@
+DAMAGECOMBAT <can be used by mob in combat>
+1 'bash'
+3 'dirt kicking'
+10 'kick'
+11 'disarm'
+15 'trip'
+45 'warcry'
+-1
+
+AUTOMATIC <automatically used>
+1 'axe'
+1 'dagger'
+1 'flail'
+1 'mace'
+1 'polearm'
+1 'shield block'
+1 'spear'
+1 'sword'
+1 'whip'
+1 'enhanced damage'
+1 'hand to hand'
+1 'parry'
+5 'second attack'
+10 'fast healing'
+13 'dodge'
+15 'third attack'
+25 'fourth attack'
+27 'dual wield'
+32 'grip'
+40 'fifth attack'
+55 'counter'
+60 'sixth attack'
+65 'stun'
+85 'seventh attack'
+90 'blind fighting'
+-1
+
+NORMAL <player can ask their pet to do that  or  from mobprogram>
+1 'rescue'
+23 'butcher'
+50 'campfire'
+70 'bandage'
+78 'whirlwind'
+-1
+
+UNUSED <skill available for player but not used by mob>
+1 'recall'
+5 'lore'
+11 'haggle'
+-1

@@ -1,0 +1,798 @@
+AreaState 'The Faerie Glen' {
+  Room 20300 {
+    Repop = 28;
+    Mobile 20306 {
+      Ptr = 183452232;
+      HMVP = (  ( 576 ),  ( 122 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 7;
+      Room = 20300;
+      Obj 20321 {
+        WearLoc = 'wielded';
+      }
+      Obj 20339 {
+      }
+    }
+  }
+  Room 20301 {
+    Repop = 28;
+    Mobile 20313 {
+      Ptr = 183467440;
+      HMVP = (  ( 160 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20301;
+    }
+    Mobile 20312 {
+      Ptr = 183451648;
+      Sex = 'male';
+      HMVP = (  ( 41 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20301;
+    }
+    Obj 20365 {
+    }
+    Obj 20369 {
+    }
+  }
+  Room 20302 {
+    Repop = 28;
+  }
+  Room 20303 {
+    Repop = 28;
+    Mobile 20311 {
+      Ptr = 183466856;
+      Sex = 'female';
+      HMVP = (  ( 39 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20303;
+    }
+    Obj 20367 {
+    }
+    Obj 20368 {
+    }
+    Obj 20369 {
+    }
+    Obj 20370 {
+    }
+    Obj 20365 {
+    }
+  }
+  Room 20304 {
+    Repop = 28;
+    Obj 20367 {
+    }
+    Obj 20368 {
+    }
+    Obj 20369 {
+    }
+  }
+  Room 20305 {
+    Repop = 28;
+  }
+  Room 20306 {
+    Repop = 28;
+    Mobile 20306 {
+      Ptr = 183466272;
+      HMVP = (  ( 575 ),  ( 130 ),  ( 100 ),  ( 0 ) );
+      Silver = 137;
+      Room = 20306;
+      Obj 20321 {
+        WearLoc = 'wielded';
+      }
+      Obj 20339 {
+      }
+    }
+    Obj 20366 {
+    }
+  }
+  Room 20307 {
+    Repop = 28;
+  }
+  Room 20308 {
+    Repop = 28;
+    Obj 20366 {
+    }
+  }
+  Room 20309 {
+    Repop = 28;
+    Mobile 20304 {
+      Ptr = 183465688;
+      HMVP = (  ( 266, 251 ),  ( 132 ),  ( 100 ),  ( 0 ) );
+      Silver = 96;
+      Room = 20309;
+      Obj 20307 {
+        WearLoc = 'body';
+      }
+      Obj 20323 {
+        WearLoc = 'about';
+      }
+      Obj 20351 {
+        WearLoc = 'hold';
+      }
+      Obj 20341 {
+      }
+    }
+  }
+  Room 20310 {
+    Repop = 28;
+  }
+  Room 20311 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20312 {
+    Repop = 28;
+    Obj 20368 {
+    }
+  }
+  Room 20313 {
+    Repop = 28;
+    Mobile 20315 {
+      Ptr = 183465104;
+      HMVP = (  ( 241 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 13;
+      Room = 20313;
+      Obj 20352 {
+      }
+      Obj 20370 {
+      }
+      Obj 20343 {
+      }
+    }
+  }
+  Room 20314 {
+    Repop = 28;
+  }
+  Room 20315 {
+    Repop = 28;
+    Mobile 20314 {
+      Ptr = 183464520;
+      HMVP = (  ( 205 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 20315;
+      Obj 20369 {
+      }
+      Obj 20362 {
+      }
+      Obj 20362 {
+      }
+    }
+  }
+  Room 20316 {
+    Repop = 28;
+  }
+  Room 20317 {
+    Repop = 28;
+  }
+  Room 20318 {
+    Repop = 28;
+    Mobile 20314 {
+      Ptr = 183463936;
+      HMVP = (  ( 209 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 15;
+      Room = 20318;
+      Obj 20367 {
+      }
+      Obj 20362 {
+      }
+    }
+    Obj 20365 {
+    }
+  }
+  Room 20319 {
+    Repop = 28;
+    Mobile 20312 {
+      Ptr = 183475632;
+      Sex = 'male';
+      HMVP = (  ( 40 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20319;
+    }
+  }
+  Room 20320 {
+    Repop = 28;
+    Obj 20366 {
+    }
+  }
+  Room 20321 {
+    Repop = 28;
+    Mobile 20305 {
+      Ptr = 183475048;
+      DamType = 'slash';
+      HMVP = (  ( 175, 145 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Room = 20321;
+      Obj 20318 {
+        WearLoc = 'neck1';
+      }
+      Obj 20335 {
+        WearLoc = 'hold';
+      }
+      Obj 20350 {
+      }
+      Obj 20316 {
+      }
+      Obj 20370 {
+      }
+    }
+    Obj 20369 {
+    }
+  }
+  Room 20322 {
+    Repop = 28;
+  }
+  Room 20323 {
+    Repop = 28;
+  }
+  Room 20324 {
+    Repop = 28;
+  }
+  Room 20325 {
+    Repop = 28;
+    Mobile 20311 {
+      Ptr = 183474464;
+      Sex = 'male';
+      HMVP = (  ( 37 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20325;
+    }
+  }
+  Room 20326 {
+    Repop = 28;
+    Obj 20367 {
+    }
+  }
+  Room 20327 {
+    Repop = 28;
+    Mobile 20313 {
+      Ptr = 183473880;
+      HMVP = (  ( 166 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20327;
+    }
+  }
+  Room 20328 {
+    Repop = 28;
+    Mobile 20312 {
+      Ptr = 183472712;
+      Sex = 'female';
+      HMVP = (  ( 46 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20328;
+    }
+    Mobile 20311 {
+      Ptr = 183473296;
+      Sex = 'female';
+      HMVP = (  ( 45 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20328;
+    }
+    Obj 20365 {
+    }
+  }
+  Room 20329 {
+    Repop = 28;
+    Mobile 20312 {
+      Ptr = 183472128;
+      Sex = 'female';
+      HMVP = (  ( 40 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20329;
+    }
+    Obj 20365 {
+    }
+  }
+  Room 20330 {
+    Repop = 28;
+    Mobile 20315 {
+      Ptr = 183483824;
+      HMVP = (  ( 248 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 20330;
+      Obj 20318 {
+      }
+      Obj 20370 {
+      }
+      Obj 20362 {
+      }
+      Obj 20362 {
+      }
+    }
+    Obj 20373 {
+    }
+  }
+  Room 20331 {
+    Repop = 28;
+    Mobile 20302 {
+      Ptr = 183483240;
+      AfBy = ('detect_invis');
+      HMVP = (  ( 147 ),  ( 127 ),  ( 125, 100 ),  ( 0 ) );
+      Room = 20331;
+      Affect = ( 'protection evil', -1, 11, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 20305 {
+        WearLoc = 'legs';
+      }
+      Obj 20304 {
+        WearLoc = 'feet';
+      }
+      Obj 20363 {
+        WearLoc = 'wielded';
+      }
+      Obj 20350 {
+      }
+    }
+  }
+  Room 20332 {
+    Repop = 28;
+  }
+  Room 20333 {
+    Repop = 28;
+  }
+  Room 20334 {
+    Repop = 28;
+    Mobile 20303 {
+      Ptr = 183482656;
+      HMVP = (  ( 141 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Silver = 42;
+      Room = 20334;
+      Obj 20317 {
+        WearLoc = 'hold';
+      }
+      Obj 20368 {
+      }
+    }
+    Obj 20320 {
+    }
+  }
+  Room 20335 {
+    Repop = 28;
+    Mobile 20312 {
+      Ptr = 183482072;
+      Sex = 'male';
+      HMVP = (  ( 43 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20335;
+    }
+  }
+  Room 20336 {
+    Repop = 28;
+  }
+  Room 20337 {
+    Repop = 28;
+  }
+  Room 20338 {
+    Repop = 28;
+    Mobile 20314 {
+      Ptr = 183481488;
+      HMVP = (  ( 208 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 8;
+      Room = 20338;
+      Obj 20343 {
+      }
+      Obj 20362 {
+      }
+    }
+  }
+  Room 20339 {
+    Repop = 28;
+  }
+  Room 20340 {
+    Repop = 28;
+    Obj 20368 {
+    }
+  }
+  Room 20341 {
+    Repop = 28;
+    Mobile 20312 {
+      Ptr = 183480904;
+      Sex = 'female';
+      HMVP = (  ( 37 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20341;
+    }
+  }
+  Room 20342 {
+    Repop = 28;
+    Mobile 20300 {
+      Ptr = 183480320;
+      HMVP = (  ( 576, 531 ),  ( 307, 227 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 72;
+      Room = 20342;
+      ExField = ( 'stonedisk_giver', 'entity', -1, '<NULL>' );
+      ExField = ( 'delay', 'int', -1, 0 );
+      ExField = ( 'running', 'int', -1, 0 );
+      Obj 20301 {
+        WearLoc = 'head';
+      }
+      Obj 20322 {
+        WearLoc = 'about';
+      }
+      Obj 20352 {
+        WearLoc = 'wielded';
+      }
+      Obj 20314 {
+        WearLoc = 'hold';
+      }
+      Obj 20353 {
+        WearLoc = 'lwrist';
+      }
+      Obj 20324 {
+        WearLoc = 'neck1';
+      }
+      Obj 20310 {
+      }
+      Obj 20311 {
+      }
+    }
+    Obj 20356 {
+      Obj 20355 {
+      }
+    }
+  }
+  Room 20343 {
+    Repop = 28;
+    Mobile 20308 {
+      Ptr = 183492016;
+      AfBy = ('none');
+      HMVP = (  ( 591 ),  ( 161 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 174;
+      Room = 20343;
+      Affect = ( 'protection evil', -1, 25, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      ExField = ( 'delay', 'int', -1, 988 );
+      Obj 20321 {
+        WearLoc = 'wielded';
+      }
+      Obj 20339 {
+      }
+    }
+    Obj 20325 {
+    }
+    Obj 20369 {
+    }
+  }
+  Room 20344 {
+    Repop = 28;
+  }
+  Room 20350 {
+    Repop = 28;
+    Mobile 20306 {
+      Ptr = 183491432;
+      HMVP = (  ( 579 ),  ( 137 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 79;
+      Room = 20350;
+      Obj 20321 {
+        WearLoc = 'wielded';
+      }
+      Obj 20339 {
+      }
+    }
+    Obj 20366 {
+    }
+    Obj 20365 {
+    }
+  }
+  Room 20351 {
+    Repop = 28;
+    Obj 20369 {
+    }
+  }
+  Room 20352 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20353 {
+    Repop = 28;
+  }
+  Room 20355 {
+    Repop = 28;
+  }
+  Room 20356 {
+    Repop = 28;
+    Mobile 20303 {
+      Ptr = 183490848;
+      HMVP = (  ( 143 ),  ( 126 ),  ( 100 ),  ( 0 ) );
+      Silver = 37;
+      Room = 20356;
+      Obj 20350 {
+        WearLoc = 'hold';
+      }
+      Obj 20365 {
+      }
+      Obj 20362 {
+      }
+    }
+    Obj 20366 {
+    }
+  }
+  Room 20357 {
+    Repop = 28;
+    Mobile 20311 {
+      Ptr = 183490264;
+      Sex = 'male';
+      HMVP = (  ( 43 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20357;
+    }
+    Obj 20370 {
+    }
+  }
+  Room 20358 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20359 {
+    Repop = 28;
+  }
+  Room 20360 {
+    Repop = 28;
+  }
+  Room 20361 {
+    Repop = 28;
+    Mobile 20315 {
+      Ptr = 183489680;
+      HMVP = (  ( 250 ),  ( 17, 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 16;
+      Room = 20361;
+      Obj 20353 {
+        WearLoc = 'lwrist';
+      }
+      Obj 20370 {
+      }
+      Obj 20365 {
+      }
+    }
+  }
+  Room 20362 {
+    Repop = 28;
+    Mobile 20311 {
+      Ptr = 183489096;
+      Sex = 'female';
+      HMVP = (  ( 40 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20362;
+    }
+  }
+  Room 20363 {
+    Repop = 28;
+  }
+  Room 20364 {
+    Repop = 28;
+    Mobile 20315 {
+      Ptr = 183500208;
+      HMVP = (  ( 252 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 9;
+      Room = 20364;
+      Obj 20368 {
+      }
+      Obj 20367 {
+      }
+      Obj 20369 {
+      }
+    }
+    Mobile 20313 {
+      Ptr = 183488512;
+      HMVP = (  ( 166 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20364;
+    }
+    Obj 20365 {
+    }
+  }
+  Room 20365 {
+    Repop = 28;
+  }
+  Room 20366 {
+    Repop = 28;
+    Mobile 20311 {
+      Ptr = 183499624;
+      Sex = 'female';
+      HMVP = (  ( 43 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20366;
+    }
+    Obj 20361 {
+      Desc = '';
+    }
+    Obj 20365 {
+    }
+  }
+  Room 20367 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20368 {
+    Repop = 28;
+    Mobile 20309 {
+      Ptr = 183499040;
+      HMVP = (  ( 68 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 20368;
+    }
+  }
+  Room 20369 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20370 {
+    Repop = 28;
+    Mobile 20309 {
+      Ptr = 183498456;
+      HMVP = (  ( 69 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 20370;
+    }
+  }
+  Room 20371 {
+    Repop = 28;
+    Mobile 20302 {
+      Ptr = 183497872;
+      AfBy = ('detect_invis');
+      HMVP = (  ( 165, 140 ),  ( 131 ),  ( 100 ),  ( 0 ) );
+      Room = 20371;
+      Affect = ( 'protection evil', -1, 11, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 20300 {
+        WearLoc = 'body';
+      }
+      Obj 20303 {
+        WearLoc = 'arms';
+      }
+      Obj 20364 {
+        WearLoc = 'wielded';
+      }
+      Obj 20306 {
+        WearLoc = 'waist';
+      }
+      Obj 20350 {
+      }
+    }
+  }
+  Room 20372 {
+    Repop = 28;
+    Mobile 20311 {
+      Ptr = 183497288;
+      Sex = 'female';
+      HMVP = (  ( 38 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20372;
+    }
+  }
+  Room 20373 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20374 {
+    Repop = 28;
+    Mobile 20313 {
+      Ptr = 183508400;
+      HMVP = (  ( 155 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20374;
+    }
+    Mobile 20312 {
+      Ptr = 183496704;
+      Sex = 'female';
+      HMVP = (  ( 42 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20374;
+    }
+  }
+  Room 20375 {
+    Repop = 28;
+    Obj 20366 {
+    }
+  }
+  Room 20376 {
+    Repop = 28;
+    Mobile 20311 {
+      Ptr = 183507816;
+      Sex = 'male';
+      HMVP = (  ( 41 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20376;
+    }
+  }
+  Room 20377 {
+    Repop = 28;
+    Obj 20366 {
+    }
+  }
+  Room 20378 {
+    Repop = 28;
+  }
+  Room 20379 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20380 {
+    Repop = 28;
+    Obj 20365 {
+    }
+  }
+  Room 20381 {
+    Repop = 28;
+  }
+  Room 20382 {
+    Repop = 28;
+    Mobile 20301 {
+      Ptr = 183507232;
+      HMVP = (  ( 677 ),  ( 121 ),  ( 100 ),  ( 0 ) );
+      Silver = 197;
+      Room = 20382;
+      Obj 20326 {
+      }
+      Obj 20328 {
+      }
+      Obj 20319 {
+      }
+      Obj 20360 {
+      }
+    }
+    Obj 20327 {
+      Obj 20330 {
+      }
+      Obj 20331 {
+      }
+      Obj 20332 {
+      }
+      Obj 20333 {
+      }
+      Obj 20334 {
+      }
+      Obj 20335 {
+      }
+      Obj 20337 {
+      }
+      Obj 20339 {
+      }
+      Obj 20341 {
+      }
+      Obj 20343 {
+      }
+      Obj 20354 {
+      }
+      Obj 20308 {
+      }
+    }
+    Obj 20307 {
+    }
+  }
+  Room 20383 {
+    Repop = 28;
+    Mobile 20313 {
+      Ptr = 183506648;
+      HMVP = (  ( 170 ),  ( 2 ),  ( 100 ),  ( 0 ) );
+      Room = 20383;
+    }
+    Obj 20370 {
+    }
+  }
+  Room 20384 {
+    Repop = 28;
+  }
+  Room 20385 {
+    Repop = 28;
+  }
+  Room 20386 {
+    Repop = 28;
+  }
+  Room 20387 {
+    Repop = 28;
+    Mobile 20310 {
+      Ptr = 183506064;
+      AfBy = ('detect_invis', 'detect_hidden', 'sneak');
+      HMVP = (  ( 1971, 1926 ),  ( 17, 2 ),  ( 130, 100 ),  ( 0 ) );
+      Room = 20387;
+      Affect = ( 'protection evil', -1, 25, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Obj 20358 {
+        WearLoc = 'body';
+      }
+      Obj 20357 {
+        WearLoc = 'wielded';
+      }
+      Obj 20359 {
+        WearLoc = 'shield';
+      }
+      Obj 20374 {
+        WearLoc = 'lfinger';
+      }
+    }
+  }
+}

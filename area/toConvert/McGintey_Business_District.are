@@ -1,0 +1,4447 @@
+#Style Circle
+#AREADATA
+Name McGintey Business District~
+Builders Kaan~
+VNUMs 31500 31599
+Credits {{None}  CAW    McGintey Business District~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#31500
+kire~
+the patrol captain, Kire~
+Kire, the patrol captain, is walking here.
+~
+   At first glance, this man would not seem to even hurt a fly.  As you look
+closer, you notice a long scar running down the left side of his face.  You
+think that perhaps looks can be deceiving and that you might not want to mess
+with him.    
+~
+dglopr 0 500 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+BareHandAttack: 9
+E
+#31501
+commoner~
+a commoner~
+A commoner is here searching for goods.
+~
+   She is rather plain, wearing her hair up in a bun, and she's dressed,
+well...  Plain.    
+~
+dg 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 2
+E
+#31502
+street rat~
+a street rat~
+A street rat is here, begging for food.
+~
+   The boy is caked in dirt, and smells of dead fish.  You may want to give him
+a few coins just to go away.    
+~
+dg 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 1
+E
+#31503
+common peddler~
+a common peddler~
+A peddler tries to do business with you.
+~
+   The man is uninteresting, except for his dirty turbin, which seems unusually
+large.    
+~
+dg 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+BareHandAttack: 13
+E
+#31504
+guard man~
+a guardsman~
+A guardsman patrols the streets and shops of McGintey Cove.
+~
+   He looks to be a kind, jovial man.  But I wouldn't test it.    
+~
+dg 0 500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31505
+toll booth worker~
+the toll booth worker~
+A toll booth worker is here, taking your fare for crossing into the city.
+~
+   She notices you looking and smiles at you.    
+~
+adg 0 300 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+E
+#31506
+Jon barkeep~
+Jon the barkeep~
+Jon the barkeep is here serving dinner and drinks.
+~
+   This man looks as if there could be no other place he'd rather be then here
+at this inn, serving drinks and making everyone's food.    
+~
+bdenopqr 0 500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31507
+receptionist~
+the receptionist~
+The receptionist waits patiently for you to decide on a room.
+~
+   Such a bright and cheery lady, she beams a happy smile at you.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+6 6 2
+E
+#31508
+information Cindii~
+Cindii the Info Lady~
+Cindii the Info Lady sits behind the desk, smiling happily.
+~
+   She looks so pathetically blonde, you are almost afraid to ask for any
+assistance.    
+~
+dg 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+6 6 2
+E
+#31509
+Samuel Faarza~
+Samuel Faarza~
+Samuel himself is here, pouring the drinks and getting rich.
+~
+   Samuel looks like he may have poured a few extra tonight.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31510
+postal worker~
+the postal worker~
+A postal worker is here, ready to send or get your mail.
+~
+   Be careful.  No sudden moves.  You know how these guys get....    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31511
+Juan pusher potion~
+Juan the potion pusher~
+Juan the potion pusher is here, trying sell you some potions.
+~
+   He's got that money-hungry glint in his eyes.  Watch your wallet.    
+~
+bdnopr 0 -200 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31512
+Alandra jewelry maker~
+Alandra~
+Alandra the jewelry maker is here, working on some pieces.
+~
+   She almost didn't notice you come in, so focused on her craft was she.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31513
+armourer~
+the armourer~
+The armourer waits patiently to help you.
+~
+   He looks quite competent, quite relaxed.  He must make a good living in
+spite of his reputation.    
+~
+bdnopr 0 100 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31514
+pet shop Shellee~
+Shellee~
+Shellee waits here, hoping to find good homes for her little friends.
+~
+   Shellee is quite an attractive woman, however you notice that she lacks a
+bit upstairs.  Yes, she is blonde.    
+~
+bdo 0 500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31515
+jak weaponsmith~
+Jak~
+Jak the weaponsmith is here, currently taking a break.
+~
+   Man, this guy is ALWAYS taking a break.  Must be because he sells no
+weaponry.    
+~
+bdnopr 0 100 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31516
+clerk~
+the clerk~
+A clerk is here, waiting to take your money.
+~
+   Poor guy looks a little bored - must be the only job available in town.    
+~
+bdnopr 0 300 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31517
+Pauletra pottery~
+Pauletra~
+Pauletra the pottery woman stands next to her cart, selling her goods.
+~
+   She looks like she's come a long way to sell her goods in this famous market
+place.    
+~
+bdnopr 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 2
+E
+#31518
+Herb~
+Herb the herbalist~
+Herb stands here.  Know what he's selling?
+~
+   Kind of makes you wonder if Herb was always his name, doesn't it?    
+~
+bdnopr 0 300 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31519
+Bones~
+Bones~
+Bones stands here, selling his exotic jewelry.
+~
+   Bones has all kinds of strange bone-made jewelry hanging from his body.    
+~
+bdnopr 0 100 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#31520
+Farah~
+Farah~
+Farah has a nice little booth set up to display her wares.
+~
+   Although tired, she looks very happy.    
+~
+bdnopr 0 500 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 2
+E
+#31521
+farmer~
+the farmer~
+A farmer stands next to cart selling fresh vegetables.
+~
+   Just a normal, average, every day country bumpkin.    
+~
+bdnopr 0 350 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+E
+#31522
+candle maker man wax~
+the wax man~
+A man is here selling candles.
+~
+   Numerous little burn scars mark his hands.  Dangerous job, this man has.  
+
+~
+bdnopr 0 300 E
+32 15 -9 6d6+320 5d5+5
+320 102400
+8 8 1
+E
+#31523
+fisherman~
+a fisherman~
+A fisherman sells good quality fish fresh from the sea.
+~
+   This guy...  There's something fishy about him...  Get it?  Fishy?  You
+know, he's a fisherman, and...  Forget it.    
+~
+bdnopr 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31524
+glass blower~
+the glass blower~
+A glass blower is here, her items carefully stacked on portable wooden shelf.
+~
+   She looks like a world traveler, one who has seen and been almost
+everywhere.    
+~
+bdnopr 0 200 E
+31 15 -8 6d6+310 5d5+5
+310 96100
+8 8 2
+E
+#31525
+carpenter~
+the carpenter~
+A carpenter is here, selling his woodwork.
+~
+   Big, strong with hands as big as sledgehammers.    
+~
+bdnopr 0 400 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#31526
+darva cape maker~
+Darva~
+Darva, the cape maker, is here with his many fine threads for sale.
+~
+   The man wears a very fine looking cape.  You notice that his isn't for sale,
+it must be a special one.    
+~
+bdnopr 0 -500 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#31527
+cleric robed man healer~
+the healer~
+A robed man with the power to heal stands here, hands folded before him.
+~
+   This cleric looks quite at peace with himself, tranquil even.    
+~
+bd 0 1000 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31528
+leather man~
+the Leatherman~
+The Leatherman stands next to his cart, his many leather goods for sale.
+~
+   Clad all in leather, this guy looks like he could be friend or foe.    
+~
+bdnopr 0 100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31529
+Shantar~
+Shantar~
+Shantar sits under an umbrella, relaxing as she sells an assortment of rings.
+~
+   Sipping her cool drink, you cannot help but feel just a bit jealous of her
+comfort and ease.    
+~
+bdnopr 0 100 E
+18 17 0 3d3+180 3d3+3
+180 32400
+6 6 2
+E
+#31530
+shades~
+Shades~
+Shades the eyewear man displays his assortment of eyepieces and glasses.
+~
+   Shades wears a pair of the blackest sunglasses you have ever seen.  Kind of
+makes him look a bit sinsiter, you know - cool.  I think that was his intended
+effect there.    
+~
+bdnopr 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31531
+blacksmith~
+the blacksmith~
+A blacksmith sells assorted daggers here.
+~
+   This huge man seems very out of place here in the middle of this bazaar,
+where he is forced to remain in one spot.    
+~
+bdnopr 0 300 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31532
+man burlap~
+the burlap man~
+A man is here selling various burlap goods.
+~
+   This huge guy seems quite comfortable relaxing and selling his goods.    
+~
+bdnopr 0 100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31533
+woman~
+a woman~
+A woman is here selling scarves.
+~
+   She has a whole lot of scarves, a whole lot.  Buy one.    
+~
+bdnopr 0 100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 2
+E
+#31534
+man hat~
+the Hat Man~
+A man is here with stacks and stacks of hats, all of them for sale.
+~
+   The is wearing like ten hats on his own head.  What a goof.    
+~
+bdnopr 0 0 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31535
+elf vendor~
+the elven vendor~
+An elven vendor is here offering an assortment of drinking vessels.
+~
+   This elf has the look of one who has been down a few rocky roads in his
+time.  His mistrust of most everyone is quite apparent.    
+~
+bdnopr 0 -100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31536
+baker~
+the baker~
+A baker stands proudly next to her fine baked goods.
+~
+   It is quite obvious that she loves her vocation from the look of enormous
+pride on her face.    
+~
+bdnopr 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 2
+E
+#31537
+man~
+the huge man~
+A very large man stands next to his display case.
+~
+   This man is so large, he almost seems intimidating enough to MAKE you buy
+something.    
+~
+bdnopr 0 500 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31538
+dwarf helm smith~
+a dwarven smith~
+A dwarven smith stands here selling helms.
+~
+   This stocky little guy has arms that look like miniature tree trunks.    
+~
+bdnopr 0 100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31539
+Shalaylia~
+Shalaylia~
+Shalaylia sits peacefully, selling rolling papers to any who are in need.
+~
+   She sure looks comfortable.  In fact, she looks as if she might even be a
+bit sleepy.  Her eyelids droop and she has this sloppy grin on her face.    
+~
+bdnopr 0 500 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+6 6 2
+E
+#31540
+Sazaindin~
+Sazaindin~
+Sazaindin the mage rests comfortably here, ready to brew you a potion.
+~
+   You have to wonder just what type of potions she is selling, the way she is
+huddled into this far corner of the bazaar.    
+~
+bdnopr 0 -200 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31541
+lease manager~
+the lease manager~
+The lease manager is here, ready to take your application.
+~
+   She smiles prettily at you and thanks you for stopping by.    
+~
+dg 0 500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31542
+jeweler~
+the jeweler~
+The jeweler stands behind the counter waiting to help you.
+~
+   Tall, thin, and wiry.    
+~
+bdnopr 0 500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31543
+local physician~
+a local physician~
+A physician is here, ready to tend to your wounds.
+~
+   A fairly pleasant looking person stands before you wearing a white coat.  
+They seem eager to get your business, and take care of whatever wounds you may
+have.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31544
+Aelsa~
+the bootsmith~
+Aelsa, one of Fatima's full timers, is here working on some boots.
+~
+   She looks quite exhausted, as you see a bead of sweat roll her face.  The
+leather apron she's wearing is caked in soot, and doesn't appear to be in a
+good mood, so you should better hurry up with whatever you want.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31545
+Randon~
+Randon~
+Randon stands ready to sell you a scroll or two.
+~
+   He looks like a nice young man.  A man who never cheats his customers.    
+~
+bdnopr 0 800 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31546
+Curley~
+Curley~
+Curley hustles about the room, tending to his customers in a very timely fashion.
+~
+   From the way this guy runs around this place, you would think it was all he
+ever wanted out of life.    
+~
+bdnopr 0 500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31547
+Tephe water guy~
+the water guy~
+Tephe, the water guy, sits on a stool behind a counter, twiddling his fingers.
+~
+   An overweight man looks at you with pleading eyes, begging you to buy
+something to liven up his day.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+6 6 1
+E
+#31548
+man glove~
+the gloveman~
+A man sits at a desk patiently sewing a pair of leather gauntlets.
+~
+   He looks up and tells you that if you need anything just ask.  Then he goes
+back to his sewing.    
+~
+bdnopr 0 300 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+6 6 1
+E
+#31549
+merchant~
+a skillful merchant~
+A merchant stands here trying to persuade you to buy his goods.
+~
+   You can tell this man knows what he's doing when it comes to sales.  He's
+almost gotten you to buy several of his items more than a few times.    
+~
+dg 0 0 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#31550
+local youth~
+a local youth~
+A local youth walks by, looking for something.
+~
+   They seem eager to find something to spend their money on.    
+~
+dg 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 0
+E
+#31551
+bird gull~
+a gull~
+A gull flits about, pecking the ground for dropped food.
+~
+   WHOOA!  The bird just tried to attack you, better give it some food
+before...  Ooops...  It just shit on your boots.    
+~
+cdg 0 0 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 0
+BareHandAttack: 8
+E
+#31552
+bird albatross~
+an albatross~
+An albatross rests on a nearby post.
+~
+   A large, white bird rests its wings from a long flight.    
+~
+cdg 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+5 5 0
+BareHandAttack: 8
+E
+#31553
+McHale lieutenant~
+McHale, the patrol lieutenant~
+You see McHale, the patrol lieutenant, out of the corner of your eye.
+~
+   A silohette of a man lurks in the distance, you can' tell much about him
+except that he is avoiding being seen.    
+~
+dglmpq 0 -350 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 14
+E
+#31554
+Tess sergeant~
+Tess, the Bazaar Overseer~
+Sergeant Tess, the Bazaar overseer, stands ready for any trouble.
+~
+   She is a hefty guard, but make no mistake that doesn't set her back.  She
+peers in your direction, making sure you have no plans of doing any harm.  She
+smiles and you can see chunks of her last "victim" in her teeth, you turn away
+quickly in disgust.    
+~
+dglmpr 0 500 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+BareHandAttack: 14
+E
+#31555
+deputy~
+a deputy~
+A young deputy is here.
+~
+   They look vibrant and full of life as if never even seen any action in their
+entire lives.    
+~
+dghm 0 50 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 0
+BareHandAttack: 1
+E
+#31556
+cat wildcat pet~
+the fearless wildcat~
+A fearless wildcat is waiting here patiently.
+~
+   Though this cat has a wild look in its eyes, it waits here patiently for
+something to happen.    
+~
+dg 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 2
+BareHandAttack: 4
+E
+#31557
+hawk pet~
+a hawk~
+A hawk waits faithfully for an order to be given.
+~
+   This beautiful winged creature is faithful only to it's master.  Don't mess
+with it, it may decide to peck your eyes out!    
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 0
+BareHandAttack: 4
+E
+#31558
+teleport operator man~
+the teleport operator~
+A man in a Mage's Guild robe awaits to teleport you to your desired locale.
+~
+   His manner and bearing are both that of a perfect gentleman and
+professional.  It seems the Mage's Guild in this town must have a hard time
+making the rent payment, so they rely heavily on the business from this shop to
+support most of their payment.    
+~
+bdo 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#31559
+newbie helper Alaantra~
+Alaantra the Newbie Helper~
+Alaantra the Newbie Helper is here, helping newbies go to the Newbie Headquarters.
+~
+   She smiles charmingly at you and says, 'I can get you to the Newbie
+Headquarters in a snap - just type NEWBIE and you will be instantly
+transported.  '
+~
+bdo 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+#31560
+banker~
+the city banker~
+The city banker waits impatiently behind the counter.
+~
+   He sneers a welcome at you and asks in a nasal voice if he might be able to
+help you.    
+~
+bdgo 0 -300 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#31500
+eventru war hammer~
+Eventru~
+A large war hammer rests here.~
+~
+5 0 an 0
+3 7 4 9
+12 100 0 34
+A
+3 3
+A
+5 2
+#31501
+armor hard dragonskin~
+a hard Dragonskin armor~
+Some finely crafted dragonskin armor lies here.~
+~
+9 0 ad 0
+8 0 0 0
+37 1 0 16
+A
+13 10
+A
+2 2
+#31502
+spear long~
+a long spear~
+A long spear rests undisturbed on the ground.~
+~
+5 0 ano 0
+2 3 3 11
+4 10 0 6
+#31503
+garden hoe~
+a garden hoe~
+A garden hoe encrusted in dirt lies here.~
+~
+5 0 an 0
+0 1 1 7
+5 10 0 1
+#31504
+falconblade~
+Falconblade~
+A blade seems to quiet the air around it.~
+~
+5 0 an 0
+2 5 4 14
+20 1000 0 23
+A
+10 -40
+A
+14 22
+#31505
+McHale's Cape~
+McHale's Cape~
+Some cloth is neatly set here.~
+~
+11 0 ak 0
+0 0 0 0
+3 10 0 10
+A
+1 -2
+A
+2 2
+A
+3 1
+#31506
+fishing pole~
+a fishermans' pole~
+A fisherman's pole lies here, ready to catch some fish.~
+~
+4 0 ao 0
+10 7 7 12
+2 1 0 0
+#31507
+carpenter hammer~
+a carpenters' hammer~
+A larger hammer lies here.~
+~
+5 0 an 0
+1 1 1 9
+10 1 0 1
+#31508
+deputy badge~
+a deputy's badge~
+A small golden symbol is here.~
+~
+11 a al 0
+0 0 0 0
+3 10 0 19
+A
+4 1
+A
+5 1
+#31509
+battered war helm~
+a battered war helm~
+Tess' battered helm rolls along on the ground.~
+~
+9 0 ae 0
+5 0 0 0
+10 250 0 21
+A
+5 2
+A
+18 -1
+A
+19 2
+#31510
+small crested shield~
+a small crested shield~
+A crested disc leans on some nearby bricks.~
+~
+9 0 aj 0
+8 0 0 0
+12 10 0 14
+#31511
+dried sea bass~
+some dried sea bass~
+A well preserved fish litters the ground.~
+~
+19 0 ao 0
+6 0 0 0
+3 12 0 0
+#31512
+colored gems~
+several colored gems~
+There are several colored gems piled here.~
+~
+8 0 ao 0
+0 0 0 0
+4 100 0 0
+#31513
+oil lamp~
+a large oil lamp~
+An old oil lamp is here, waiting to be used again.~
+~
+13 0 ao 0
+0 0 0 0
+3 2 0 0
+#31514
+rye bread~
+a Rye bread~
+A loaf of Rye bread lies here.~
+~
+19 0 ao 0
+4 0 0 0
+1 1 0 0
+#31515
+cornbread~
+a square of cornbread~
+A square of cornbread was carelessly left here.~
+~
+19 0 ao 0
+2 0 0 0
+1 4 0 0
+#31516
+broken costume mask~
+a broken costume mask~
+An ancient mask of some sort, lies in pieces.~
+~
+11 0 ae 0
+0 0 0 0
+2 10 0 23
+A
+17 -3
+A
+5 -1
+A
+18 2
+#31517
+shield strength~
+Shield of Strength~
+A mighty shield lies here gathering dust.~
+~
+9 0 aj 0
+8 0 0 0
+23 10 0 24
+A
+1 2
+#31518
+steel bracelet~
+a steel bracelet~
+A hoop of steel lies on the ground.~
+~
+9 0 am 0
+3 0 0 0
+1 400 0 0
+#31519
+thick gloves~
+a pair of thick gloves~
+Some thick gloves seem to be tossed to the ground.~
+~
+9 0 ah 0
+3 0 0 0
+2 20 0 10
+#31520
+red steel gauntlets~
+a pair of red steel gauntlets~
+A pair of gauntlets are tucked away in a corner.~
+~
+9 0 ah 0
+3 0 0 0
+14 1 0 20
+A
+1 2
+A
+19 1
+#31521
+boots leather~
+a pair of leather boots~
+A pair of leather boots lie in a puddle of water.~
+~
+9 0 ag 0
+3 0 0 0
+5 230 0 0
+#31522
+brown green sleeves~
+a set of brown and green sleeves~
+A set of sleeves appear to blend in with the ground.~
+~
+9 0 ai 0
+2 0 0 0
+2 1 0 13
+A
+9 5
+A
+3 1
+A
+5 -1
+#31523
+bag wonders~
+the Bag of Wonders~
+A large, magical bag has been left here.~
+~
+15 0 ao 0
+200 0 -1 0
+10 1 0 0
+E
+bag wonders~
+   It looks as if someone used this for a great many years before losing or
+having it taken from them.  
+~
+#31524
+hat dusty~
+a dusty old hat~
+An old rumpled hat has been dropped here.~
+Looks like this hat has seen much better days.
+~
+11 0 ae 0
+0 0 0 0
+5 20 0 1
+A
+17 -3
+#31525
+bardiche spiked~
+a spiked bardiche~
+A spiked bardiche is on the ground here.~
+This spiked piece fo metal looks to be a fearsome weapon, indeed.
+~
+5 0 an 0
+2 2 7 3
+10 20 0 11
+#31526
+guardsman's armour~
+a guardsman's armour~
+A guards piece of expensive lightweight armour rest on the floor.~
+~
+9 0 ad 0
+7 0 0 0
+25 60 0 23
+A
+18 1
+A
+19 2
+A
+13 -10
+#31527
+Boots~
+a pair of nickel plated boots~
+A pair of fancy boots sit together nicely.~
+~
+9 g ag 0
+3 0 0 0
+12 1000 0 20
+A
+12 10
+A
+22 1
+#31528
+sign~
+a sign~
+A sign hangs on the side of the toll booth.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+sign~
+   Please help to keep our city clean and beautiful by paying the mandatory
+donation of 10 gold.
+
+Please leave all horses at the stables as we do not allow mountable animals
+inside the city gates as they are unsightly and unclean.
+
+Just type PAY to pass.
+~
+#31529
+a floppy hat~
+a floppy hat~
+A floppy hat has been left here.~
+It nevers seems to stay in one shape, whenever you move, it moves with you.
+~
+9 0 ae 0
+4 0 0 0
+3 10 0 1
+#31530
+ale glass ale~
+a foamy glass~
+A glass has been left here.~
+~
+17 0 a 0
+3 3 3 0
+8 3 0 0
+#31531
+steak~
+a juicy hunk of steak~
+A big, juicy hunk of steak has been dropped here.~
+~
+19 0 ao 0
+5 0 0 0
+2 5 0 0
+#31532
+badge courage~
+a badge of courage~
+A silvery badge has been left behind.~
+   The badge is an ornament to a plain leather strap.  It was surely meant to
+be worn over your neck.    
+~
+11 f ac 0
+0 0 0 0
+6 800 0 12
+A
+5 1
+#31533
+brochure information~
+a brochure~
+A simple brochure with 'McGintey Cove' stenciled on the front is here.~
+~
+16 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+brochure~
+                 McGintey Cove
+    A Great for fun, travel, and shopping!
+
+
+McGintey Cove offers many attractions, large and small.
+It's main point of interest is the bazaar, located in
+the center of the business district.  All manner of
+goods and services are offered this vast market place,
+and these goods and services change daily.  Be sure to
+make the bazaar an all day stop if you have the time!
+
+Another of the Cove's attractions is the Gladiator Pit
+located in the Guild Area, which is just west of the main
+business district.  At the Gladiator Pit one can place wagers
+on on-going fights, or participate themsleves in a battle
+to the death!  What more could one ask for in a day's
+adventures?
+Also, be sure to visit the Guild Area for one-of-a-kind items
+only found in this town, items made specifically for each class
+from warrior to thief to mage to cleric!
+
+If you are looking for more high class entertainment, the Wharf,
+McGintey's high class district, offers casinos galore and many fine
+dining establishments and hotels.  Just head east up the hill for a
+night of gambling and feasting!
+
+
+And last, but not least, do not forget that McGinety Cove is the main
+seaport for Dibrova, where can book passage on any number of commercial
+travel ships which sail all over Dibrova.  Just head to the Docks and
+look for the Boat Station, tcikets can be purchased every day all day
+long.
+
+May your stay in McGintey be not only long and restful, but also as
+memorable as any stay in any town ever!  Have a great time!
+~
+#31534
+rack~
+a brochure rack~
+A brochure rack hangs from a wall.~
+~
+15 0 0 0
+20000 0 -1 0
+0 0 0 0
+#31535
+ring silver~
+a small silver ring~
+A small silver ring has been dropped here.~
+~
+11 0 abo 0
+0 0 0 0
+4 20 0 3
+A
+17 -2
+#31536
+bracelet pewter~
+a pewter bracelet~
+Someone has left a pewter bracelet here.~
+~
+11 0 am 0
+0 0 0 0
+5 22 0 1
+A
+17 -2
+#31537
+ring quartz stone~
+a ring with a quartz stone~
+Someone dropped a ring adorned with a quartz stone here.~
+~
+11 0 ab 0
+0 0 0 0
+3 30 0 1
+A
+17 -3
+#31538
+necklace bismuth~
+a necklace made of bismuth~
+A necklace made of some kind of element lies here.~
+~
+11 0 ac 0
+0 0 0 0
+4 12 0 1
+A
+17 -3
+#31539
+potion white fizzy~
+a fizzy white potion~
+A fizzy white potion has been dropped here.~
+~
+10 a ao 0
+1 16 -1 -1
+2 700 0 1
+#31540
+potion gray thick~
+a thick grey potion~
+A small grey vial has been left here.~
+~
+10 0 ao 0
+10 1 -1 -1
+1 520 0 0
+#31541
+potion blue sizzling~
+a sizzling blue potion~
+A sizzling blue potion has been left here.~
+~
+10 b ao 0
+1 47 -1 -1
+2 40 0 0
+#31542
+potion blue recall~
+a blue potion of recall~
+A blue potion of recall fizzes here.~
+~
+10 0 ao 0
+20 42 -1 -1
+2 230 0 0
+#31543
+sabre~
+a sabre~
+A sabre has been left behind.~
+   The sabre is not especially fine.  In fact, its blade is chipped from use.
+It could stand to be sharpened but you can tell, with sufficient power, it
+still has a few kills left in it.    
+~
+5 0 an 0
+1 3 4 3
+7 450 0 0
+#31544
+mace studded nail~
+a nail-studded mace~
+A mace, bristling with sharp nails, lies here.~
+Looks pretty mean - pretty tough.
+~
+5 0 an 0
+1 2 6 5
+10 30 0 8
+#31545
+bola weapon~
+a simple bola~
+A bola is here.~
+   This bola is made from thick leather wrapped about heavy rocks.  It doesn't
+look simple to use but you've seen them brain people in the past.  If learn how
+to use it well, you could, perhaps, brain a few nasties yourself!    
+~
+5 0 an 0
+1 3 4 5
+6 34 0 9
+#31546
+ale glass ale~
+a glass~
+A glass of dark lager has been left here.~
+~
+17 0 ao 0
+4 4 4 0
+4 10 0 0
+#31547
+ale pint ale~
+a pint~
+A pint of Samuel's Own Firebreather has been left here.~
+~
+17 0 ao 0
+4 4 7 0
+5 8 0 0
+#31548
+local speciality mug local~
+a mug~
+A mug of Samuel's House Special has been left here.~
+~
+17 0 ao 0
+6 6 8 0
+11 12 0 0
+#31549
+beer flask beer~
+a flask~
+A flask of home made beer lies on the ground fermenting.~
+~
+17 0 ao 0
+50 50 5 0
+50 20 0 0
+#31550
+whisky whiskey bag paper whisky~
+a bottle~
+A bottle wrapped inside a paper bag lies here.~
+~
+17 0 ao 0
+50 50 5 0
+50 50 0 0
+#31551
+beer fruit bag beer~
+a paper bag~
+Some strange tasting wiskey lies here.~
+~
+17 0 ao 0
+50 50 5 0
+50 20 0 0
+#31552
+local special drink local~
+a local special drink~
+A dark red drink bubbles and frothes here.~
+~
+17 0 ao 0
+30 30 7 0
+35 15 0 0
+#31553
+lantern hooded~
+a hooded lantern~
+A hooded lantern has been dropped here.~
+~
+1 0 ao 0
+0 0 20 0
+9 12 0 1
+#31554
+bag sack~
+a large sack~
+A large sack has been discarded on the ground.~
+~
+15 0 ao 0
+200 0 -1 0
+3 10 0 0
+#31555
+scroll~
+a small, red scroll~
+A small red scroll has been left here.~
+~
+2 0 ao 0
+1 18 -1 -1
+4 30 0 1
+#31556
+scroll~
+a wide, green scroll~
+A wide, green scroll was dropped here.~
+~
+2 0 ao 0
+1 14 -1 -1
+4 35 0 1
+#31557
+water flask water~
+a flask~
+A small flask has been left here.~
+~
+17 0 ao 0
+10 10 15 0
+10 15 0 1
+#31558
+gauntlet nickle plated~
+a nickle plated gauntlet~
+A nickel plated gauntlet has been dropped here.~
+~
+9 0 ah 0
+4 0 0 0
+8 20 0 7
+#31559
+glaive spiked~
+a spiked glaive~
+A spiked glaive is on the ground.~
+~
+9 0 an 0
+5 0 0 0
+7 31 0 4
+#31560
+special house~
+the House Special~
+One of Curley's own House Specials has been left here.~
+~
+19 0 ao 0
+4 0 0 0
+3 7 0 0
+#31561
+fries curley side~
+a side of Curley's fries~
+A side of Curley's fries have been left for anyone to grab an/d munch con.0~
+~
+19 0 ao 0
+2 0 0 0
+3 5 0 0
+#31562
+lemonade glass lemonade~
+a glass~
+A tall glass of lemonade has been left here.~
+~
+17 0 ao 0
+3 3 6 0
+8 3 0 0
+#31563
+ale mug ale~
+a mug~
+A wide mug of ale is here, warming on the ground.~
+~
+17 0 ao 0
+4 4 4 0
+9 4 0 0
+#31564
+ruby red~
+a large ruby~
+A large glittering ruby is on the floor.~
+~
+8 0 ao 0
+0 0 0 0
+3 35 0 0
+#31565
+diamond glittering~
+a glittering diamond~
+A glittering diamond lies here.~
+~
+8 0 ao 0
+0 0 0 0
+4 70 0 0
+#31566
+opal dark~
+a dark opal~
+A dark opal lies on the ground darkly.~
+~
+8 0 ao 0
+0 0 0 0
+3 1000 0 0
+#31567
+shoe boot concept~
+a pair of leather concept shoes~
+A pair of new aged leather shoes lie here.~
+~
+9 0 ag 0
+2 0 0 0
+4 40 0 1
+A
+3 2
+A
+4 -1
+#31568
+boots climbing~
+some climbing boots~
+Some sturdy looking boots have been left here.~
+~
+9 0 ag 0
+4 0 0 0
+10 20 0 1
+#31569
+wizard pointed shoes~
+a pair of pointed wizard shoes~
+A pair of wizards shoes lie here stacked nicely.~
+~
+9 0 ag 0
+4 0 0 0
+5 799 0 10
+A
+18 1
+A
+3 2
+#31570
+pot clay~
+a clay pot~
+A clay pot lies here.~
+~
+15 0 ao 0
+80 1 -1 0
+1 100 0 0
+#31571
+molded clay jar~
+a moulded clay jar~
+A moulded clay jar lies here.~
+~
+15 0 ao 0
+70 0 -1 0
+2 70 0 0
+#31572
+leaf hergin~
+some hergin leaf~
+A bit of hergin leaf has been dropped here.~
+~
+12 0 ao 0
+0 0 0 0
+3 35 0 0
+#31573
+bracelet bone curved~
+a curved bone bracelet~
+A bracelet made of bone has been left here.~
+~
+11 0 amo 0
+0 0 0 0
+4 40 0 10
+A
+17 -3
+A
+1 2
+#31574
+ring bone carved~
+a carved bone ring~
+A ring carved from bone has been dropped here.~
+~
+11 0 ab 0
+0 0 0 0
+2 30 0 1
+A
+17 -2
+#31575
+sabre tooth ring~
+a sabre tooth ring~
+A ring made from a tiger's tooth has been left here.~
+~
+11 0 abo 0
+0 0 0 0
+3 40 0 1
+A
+17 -2
+A
+13 5
+#31576
+root fisca~
+some fisca root~
+A bit of fisca root has been left here.~
+~
+12 0 ao 0
+0 0 0 0
+3 27 0 0
+#31577
+bark bismure~
+a bit of bismure bark~
+Someone dropped some bismure bark here.~
+~
+12 0 ao 0
+0 0 0 0
+4 45 0 0
+#31578
+water glass-blown colorful water~
+a glass-blown cup~
+A exspensive cup lies here full of fluid.~
+~
+17 0 ao 0
+10 10 0 0
+15 25 0 0
+#31579
+red celery glass bowl~
+a red glass celery bowl~
+A bowl lies here right side up.~
+~
+15 0 ao 0
+50 0 -1 0
+3 50 0 0
+#31580
+handmade glass pipe~
+a handmade glass pipe~
+A valuable and fragile glass pipe lies here.~
+~
+4 0 ao 0
+5 15 15 15
+1 70 0 0
+#31581
+fish salmon~
+a silver salmon~
+A dead fish lies here stinking.~
+~
+19 0 ao 0
+10 0 0 0
+3 10 0 0
+#31582
+mud sucker fish~
+a mud-sucking brown fish~
+A very ugly, dead fish degrades here.~
+~
+19 0 ao 0
+5 0 0 0
+4 5 0 0
+#31583
+shark~
+a dead baby shark~
+A choped up uterus of a shark lies here waiting from someone to eat it.~
+~
+19 0 ao 0
+33 0 0 0
+2 15 0 0
+#31584
+holy fish angel~
+an angelfish~
+A holy dead fish hovers here.~
+~
+19 a ao 0
+24 0 0 0
+1 15 0 0
+#31585
+emerald jewel~
+a beautiful emerald~
+A giant emerald sparkles in the light.~
+~
+8 a ao 0
+0 0 0 0
+14 950 0 0
+#31586
+leaves hergin~
+some hergin leaves~
+Some hergin leaves have been dropped here.~
+~
+12 0 ao 0
+0 0 0 0
+3 27 0 0
+#31587
+carrot~
+a carrot~
+A carrot has been left here.~
+~
+19 0 ao 0
+2 0 0 0
+3 4 0 0
+#31588
+potato~
+a potato~
+A potato has been dropped here.~
+~
+19 0 ao 0
+3 0 0 0
+3 5 0 0
+#31589
+tomato~
+a tomato~
+Someone has left their tomato here.~
+~
+19 0 ao 0
+1 0 0 0
+2 2 0 0
+#31590
+candle dragon~
+a dragon-shaped candle~
+A dragon-shaped candle has been dropped here.~
+~
+1 0 ao 0
+0 0 40 0
+5 15 0 0
+A
+13 5
+#31591
+candle green~
+a large green candle~
+Someone has left a large green candle here.~
+~
+1 0 ao 0
+0 0 10 0
+6 10 0 0
+#31592
+candle curved purple~
+a curved purple candle~
+A candle glows here.~
+~
+1 0 ao 0
+0 0 6 0
+2 7 0 0
+#31593
+wrap gold handsome~
+a handsome gold-stiched wrap~
+A gold-stitched wrap of some sort has been left here.~
+~
+9 0 ak 0
+5 0 0 0
+10 24 0 4
+A
+5 2
+#31594
+mantle lord~
+a Lord's Mantle~
+A beautiful cape fit for a Lord has been left here.~
+~
+9 0 ak 0
+9 0 0 0
+8 31 0 1
+#31595
+pelerine white~
+a white pelerine~
+A white pelerine lies in a clump of cloth.~
+~
+9 0 ak 0
+7 0 0 0
+6 17 0 0
+A
+4 1
+#31596
+pony toy wooden~
+a small wooden toy pony~
+Someone left their toy pony here.~
+~
+12 0 ao 0
+0 0 0 0
+4 5 0 0
+#31597
+sword wooden~
+a small wooden sword~
+A small wooden play sword has been dropped here.~
+~
+12 0 ano 0
+0 0 0 0
+3 6 0 0
+A
+19 1
+#31598
+hat pointed feather~
+a pointed hat with a feather in it~
+Someone dropped their hat here - oh well, finders keepers!~
+~
+11 0 ae 0
+0 0 0 0
+4 20 0 0
+A
+17 -3
+#31599
+papers rolling~
+some rolling papers~
+Someone dropped their rolling papers here.~
+~
+12 0 ao 0
+0 0 0 0
+1 5 0 0
+#0
+
+#ROOMS
+
+#31500
+Western Bridge~
+   This bridge spans for quite some distance over the length of space between
+the land and the plateau which McGintey Cove rests upon.  To the south the
+bridge leads the way into the city, to the north is a toll booth which sits on
+the side of McGintey Road.  
+~
+315 p 0
+D0
+~
+~
+0 0 25828
+D2
+~
+~
+0 -1 31501
+E
+credits~
+Kaan
+
+Zone 315 is linked to the following zones:
+258 Light Forest                   at 31500 (north) ---> 25828
+316 McGintey Guild Area            at 31510 (west ) ---> 31600
+317 Wharf                          at 31515 (east ) ---> 31700
+316 McGintey Guild Area            at 31565 (west ) ---> 31666
+318 Dock Area                      at 31571 (south) ---> 31801
+318 Dock Area                      at 31573 (south) ---> 31804
+~
+S
+#31501
+Western Bridge~
+   The bridge ends here, heading south into the main part of the city.  Looking
+down, you see that the bridge you stand upon must have been a huge undertaking,
+the anchors which hold the bridge to the cliff face are by themselves bigger
+than you.  You may enter into the city or head north back over the bridge into
+the wilderness.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31500
+D2
+~
+~
+0 -1 31505
+S
+#31502
+Eastern Bridge~
+   The bridge heads south toward the city entrance or leads the way north to
+McGintey Road.  
+~
+315 p 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 -1 31503
+S
+#31503
+Eastern Bridge~
+   The bridge runs straight south into the city, or north twoard McGintey Road.
+
+~
+315 p 0
+D0
+~
+~
+0 -1 31502
+D2
+~
+~
+0 -1 31508
+S
+#31504
+Cliffside Inn~
+   This inn looks to be one of the main rest spots for travellers who stay in
+McGintey Cove over night.  The place is not all that flashy, but it always has a
+warm fire at night, plenty of ale, and the beds upstairs are always very
+comfortable.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31505
+D4
+~
+~
+0 -1 31522
+S
+#31505
+West Main~
+   The street heads south into the main part of the city or north onto the
+bridge which allows access to the outside world.  East of you is a small, tidy
+building with a sign out front proclaiming 'INFORMATION'.  To the west is very
+nice looking inn, the Cliffside.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31501
+D1
+~
+~
+0 -1 31506
+D2
+~
+~
+0 -1 31511
+D3
+~
+~
+0 -1 31504
+S
+#31506
+Information~
+   This small one room building is split in half by a long counter running north
+to south, from wall to wall.  On your side of the counter at the north end is a
+large rack full of maps and brochures which tell in great hype and detail all
+the wonders of McGintey Cove.  The exit to West Main lies just west of you.  
+~
+315 dep 0
+D3
+~
+~
+0 -1 31505
+S
+#31507
+Samuel Faarza's~
+   This exclusively drunken brawling tavern looks to be a popular hangout for
+wayward travellers who need to shake the road dirt off their boots and take out
+any frustrations they may have felt in their travels on each other.  Samuel, the
+owner and operator, an ex-gladiator from the pits, never seems to mind any
+fights in his business.  It is even rumored that he sometimes starts them
+himself!  
+~
+315 dep 0
+D1
+~
+~
+0 -1 31508
+S
+#31508
+East Main~
+   The road leads south into the main section of McGintey Cove.  Shops line the
+way, both sides of the road, with the ocassional side street branching off.  To
+your west is a very loud and rustic looking tavern called Samuel Faarza's, and
+to your east is the post office.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31503
+D1
+~
+~
+0 -1 31509
+D2
+~
+~
+0 -1 31514
+D3
+~
+~
+0 -1 31507
+S
+#31509
+Post Office~
+   This small room is all you may enter into, although you know it is a much
+larger building from what you saw outside.  You may either send mail to any
+player here or receive any mail you have been sent.  
+~
+315 dep 0
+D3
+~
+~
+0 -1 31508
+S
+#31510
+North St.~
+   The road heads west into the guild areas, or east into the main section of
+McGintey Cove.  To your north is the southern wall of the Cliffside Inn, south
+is the wall of an unknown shop who's entrance must be on some other side.  
+~
+315 p 0
+D1
+~
+~
+0 0 31511
+D3
+~
+~
+0 0 31600
+S
+#31511
+West Main and North St~
+   The roads intersect here, heading in all four cardinal directions.  To the
+north the street heads toward the western bridge, one of the exits out of town.
+South, the street runs toward the bazaar.  North street runs west into the guild
+area or east deeper into the main section of town.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31505
+D1
+~
+~
+0 -1 31512
+D2
+~
+~
+0 -1 31517
+D3
+~
+~
+0 -1 31510
+S
+#31512
+North St.~
+   The street heads east and west from here, leading into the main sections of
+town.  Shops line the south side of the street, their entrances facing out in
+another direction, because from this side all you see is their brick wall.  To
+the north is the Town Meeting Hall, a gloriously large place - built for a large
+town.  
+~
+315 p 0
+D0
+~
+~
+0 0 31579
+D1
+~
+~
+0 -1 31513
+D3
+~
+~
+0 -1 31511
+S
+#31513
+North St.~
+   The street runs east and west from here.  To the east is the intersection of
+North and E.  Main.  West the street runs past the Town Meeting Hall, north of
+you is the entrance to the Teleport Shop.  
+~
+315 p 0
+D0
+~
+~
+0 0 31574
+D1
+~
+~
+0 -1 31514
+D3
+~
+~
+0 -1 31512
+S
+#31514
+Intersection~
+   You stand at the meetings of E.  Main and North St.  The roads lead in every
+direction.  North leads to the Eastern Bridge out of town, while south leads
+deeper into town toward the bazaar.  Heading east on North St.  Takes you up
+hill into the Wharf, the high-class, prestigious section of McGintey Cove.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31508
+D1
+~
+~
+0 -1 31515
+D2
+~
+~
+0 -1 31520
+D3
+~
+~
+0 -1 31513
+S
+#31515
+North St.~
+   The street heads east at an upward slant into the Wharf, a section of town
+known for it's high prices and high class people.  To the west the street runs
+into an intersection of two of the main roads of the city.  
+~
+315 p 0
+D1
+~
+~
+0 0 31700
+D3
+~
+~
+0 -1 31514
+S
+#31516
+Libation Station~
+   It looks as if maybe a mad scientist lives here, from the way all the
+counters and shelves are filled with vials and beakers, all full of different
+colored fluids, some of which bubble, some of which fizz, some which steam.  If
+you need potions, it looks like you probably came to the right place.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31517
+S
+#31517
+West Main~
+   The street heads north toward the city gates and south toward the bazaar
+which is the center of the city.  East of you is the Jewelry shop and west is
+the local potion shop, the Libation Station.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31511
+D1
+~
+~
+0 -1 31518
+D2
+~
+~
+0 -1 31525
+D3
+~
+~
+0 -1 31516
+S
+#31518
+Jewelry Store~
+   There are no items on display here, it looks as if maybe the clientele of
+this town might be a bit too rough.  Possibly you should ask if you would like
+to take a look at what the shopkeeper has to offer.  
+~
+315 dp 0
+D3
+~
+~
+0 -1 31517
+S
+#31519
+McGintey Bank and Depository~
+   One must wonder why and how most banks come to receive such opulence.  True,
+there is a lot of money which passes through a bank's hands, but most of that
+money does not belong to the bank.  Wise investments and purchases do yield a
+profit over time, however all banks seem to have way more than enough money for
+themselves.  This bank is no exception.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31520
+S
+#31520
+East Main~
+   The street heads south toward the bazaar or north toward the city gates and
+the Eastern Bridge.  The city bank is just west of here, and the armory is east.
+
+~
+315 p 0
+D0
+~
+~
+0 -1 31514
+D1
+~
+~
+0 -1 31521
+D2
+~
+~
+0 -1 31528
+D3
+~
+~
+0 -1 31519
+S
+#31521
+McGintey City Armory~
+   Suits, vests, helms, and leg-wear litter this room, all in various states of
+repair or disrepair.  It doesn't look as if the armor here is of the absolute
+finest quality, however it does cover most of your major organs.  
+~
+315 dp 0
+D3
+~
+~
+0 -1 31520
+S
+#31522
+Top of the Stairs~
+   A desk has been set here for the purpose of allowing your receptionist to
+find you a room which is vacant so that you may rest in comfort.  
+~
+315 dp 0
+D5
+~
+~
+0 -1 31504
+S
+#31523
+The Pet Shop~
+   A burst of noise and smell greets you as you enter this room.  The sound of
+dogs braking, cats meowing and birds chirping is enough to drive you crazy and
+you just got here.  How in the world does anyone stand all the racket long
+enough to actually work here?  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31525
+S
+#31524
+Pet Supplies~
+   This room is specifically for the keeping of the pets for the pet store.  Be
+sure to place this room directly south of wherever the pet shop is located.  
+~
+315 dk 0
+S
+#31525
+West Main~
+   Directly south of you is the bazaar, a huge, sprawling affair which dominates
+most of the city's center.  Vendors from all over the land come to buy, sell,
+and trade exotic goods of every kind.  The street also runs north toward the
+city gates.  East of you is the weapon shop, and to the west is the pet shop.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31517
+D1
+~
+~
+0 -1 31526
+D2
+~
+~
+0 -1 31531
+D3
+~
+~
+0 -1 31523
+S
+#31526
+The Weapon Shop~
+   This is probably the worst place in town to buy weapons of any sort unless
+you don't care about your fighting skills or you are a mage (since they can't
+fight like real men, anyway).  The proprieter of the shop is a sniveling worm of
+a kid who's rich father bought him the shop only in an attempt to keep the kid
+occupied away from home.  Hence, the poor quality of weapon sold here, and the
+high prices, which are that way because of the low volume.  
+~
+315 dp 0
+D3
+~
+~
+0 -1 31525
+S
+#31527
+Traveller's Pitstop~
+   This store sells all manner of goods which a traveller may need to keep him
+or her travelling in style, or at least in a semblance of style.  From lanterns
+to carrying cases, this store has it all.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31528
+S
+#31528
+East Main~
+   The street heads north toward the city gates or south into the bazaar, the
+merchant's fair which runs all day and all night every day.  To the east is the
+local branch of law enforcement, and to the west is the town general store.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31520
+D1
+~
+~
+0 -1 31529
+D2
+~
+~
+0 -1 31534
+D3
+~
+~
+0 -1 31527
+S
+#31529
+Marshal Station~
+   There are a few desks scattered throughout the room, most of which are empty
+at this time.  There are only a few officers on duty here, looks as if most of
+the officers spend their time patrolling the city rather than wasting it here in
+the office.  
+~
+315 dp 0
+D3
+~
+~
+0 -1 31528
+S
+#31530
+Bazaar~
+   This huge stone court, roughly a mile square, is used to host the bazaar, an
+all day, all night affair full of noise and hubbub, all from the loud haggling
+of the merchants who offer their goods and any potential customers who walk by.
+
+~
+315 p 0
+D1
+~
+~
+0 -1 31531
+D2
+~
+~
+0 -1 31536
+S
+#31531
+The Bazaar~
+   This is huge!  This wide splotch of stone in the middle of the city offers a
+spot for some of the strangest and most exotic goods to be sold by vendors who
+have travelled far and wide to claim their treasures.  North is the entrance
+onto West Main, the bazaar leads off in every direction.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31525
+D1
+~
+~
+0 -1 31532
+D2
+~
+~
+0 -1 31537
+D3
+~
+~
+0 -1 31530
+S
+#31532
+The Bazaar~
+   Men and woman from every race and class brush shoulders here, some selling
+goods, some shopping for the hard-to-find goods that can only be found in places
+such as this.  
+~
+315 p 0
+D1
+~
+~
+0 -1 31533
+D2
+~
+~
+0 -1 31538
+D3
+~
+~
+0 -1 31531
+S
+#31533
+The Bazaar~
+   The bazaar heads off into the east, west and south.  To the north, it butts
+up against a shop's wall.  
+~
+315 p 0
+D1
+~
+~
+0 -1 31534
+D2
+~
+~
+0 -1 31539
+D3
+~
+~
+0 -1 31532
+S
+#31534
+The Bazaar~
+   This bazaar is known far and wide as the largest and most popular attraction
+in McGintey Cove, a real tourist attraction.  Vendors come from all over the
+world to sell their goods here, hoping to find an open spot on the stone to set
+up shop.  You may leave the bazaar to the north onto East Main, or head off into
+the bazaar in any other direction.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31528
+D1
+~
+~
+0 -1 31535
+D2
+~
+~
+0 -1 31540
+D3
+~
+~
+0 -1 31533
+S
+#31535
+The Bazaar~
+   You stand at the northeast corner of the bazaar.  You may head south or west
+into the bazaar or browse the goods offered at this locale.  
+~
+315 p 0
+D2
+~
+~
+0 -1 31541
+D3
+~
+~
+0 -1 31534
+S
+#31536
+The Bazaar~
+   The bazaar's noise and smells surround you, washing around you in an endless
+blur.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31530
+D1
+~
+~
+0 -1 31537
+D2
+~
+~
+0 -1 31542
+S
+#31537
+The Bazaar~
+   It is easy see how one could spend a whole day in this one section of the
+city, browsing and shopping for goods which are offered by these fine men and
+woman from all corners of the land.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31531
+D1
+~
+~
+0 0 31538
+D2
+~
+~
+0 -1 31543
+D3
+~
+~
+0 -1 31536
+S
+#31538
+The Bazaar~
+   The bazaar surrounds you in every direction, vendors call out to you from all
+sides.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31532
+D1
+~
+~
+0 -1 31539
+D2
+~
+~
+0 -1 31575
+D3
+~
+~
+0 -1 31537
+S
+#31539
+The Bazaar~
+   You may head in any direction from here into more of the bazaar, or browse
+the good this fine merchant sells.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31533
+D1
+~
+~
+0 -1 31540
+D2
+~
+~
+0 -1 31576
+D3
+~
+~
+0 -1 31538
+S
+#31540
+The Bazaar~
+   Bright colors, men and women calling their salespitches over the din, this
+place is enough to give the most stalwart man a headache.  
+~
+315 0 0
+D0
+~
+~
+0 -1 31534
+D1
+~
+~
+0 -1 31541
+D2
+~
+~
+0 -1 31546
+D3
+~
+~
+0 0 31539
+S
+#31541
+The Bazaar~
+   You stand at far eastern side of the bazaar.  You may go south, north or west
+into more of the bazaar.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31535
+D2
+~
+~
+0 -1 31547
+D3
+~
+~
+0 -1 31540
+S
+#31542
+The Bazaar~
+   You stand at the western side of the bazaar.  You may head east, north or
+south into the bazaar from here.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31536
+D1
+~
+~
+0 -1 31543
+D2
+~
+~
+0 -1 31548
+S
+#31543
+The Bazaar~
+   The bazaar surrounds you on all sides.  You may head in any direction into
+this crazy managerie of goods.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31537
+D1
+~
+~
+0 0 31544
+D2
+~
+~
+0 -1 31549
+D3
+~
+~
+0 -1 31542
+S
+#31544
+The Bazaar~
+   Every size and shape of being is here, shopping in harmony.  Looks like maybe
+shopping is the universal language.  You may head in any direction from your
+current position.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31577
+D1
+~
+~
+0 -1 31545
+D2
+~
+~
+0 -1 31550
+D3
+~
+~
+0 -1 31543
+S
+#31545
+The Bazaar~
+   All around are men and women trying their damndest to get you to buy their
+products.  This is quite an exciting place.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31578
+D1
+~
+~
+0 -1 31546
+D2
+~
+~
+0 -1 31551
+D3
+~
+~
+0 -1 31544
+S
+#31546
+The Bazaar~
+   The bazaar, surrounding you from every side, seems to close in on you.  The
+people, the noise, smell, the colors all shifting, blazing, burning before you.
+All the people, they seem to be staring at you, they seem to be laughing.  Your
+arms!  Your arms seem to be growing, they begin to drag on the ground and your
+jaw - for the love of Pete!  You jaw has elongated to the point that it is
+resting on your chest even though your head is held high.  Now the whole bazaar
+is laughing, laughing, laughing...  Just kidding.  A bit of crowd claustrophobia
+there.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31540
+D1
+~
+~
+0 -1 31547
+D2
+~
+~
+0 -1 31552
+D3
+~
+~
+0 0 31545
+S
+#31547
+The Bazaar~
+   The bazaar heads south, north and east from here.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31541
+D2
+~
+~
+0 -1 31553
+D3
+~
+~
+0 -1 31546
+S
+#31548
+The Bazaar~
+   You stand at the far southwest edge of the bazaar.  A large, tall building's
+wall is just south of you, and the city wall is west of you.  You may head into
+the bazaar to the north and east.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31542
+D1
+~
+~
+0 -1 31549
+S
+#31549
+The Bazaar~
+   The bazaar, probably one of the many reasons people visit McGintey Cove,
+heads off to the north, east and west.  You may exit the bazaar to the south
+onto West Main.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31543
+D1
+~
+~
+0 -1 31550
+D2
+~
+~
+0 -1 31555
+D3
+~
+~
+0 -1 31548
+S
+#31550
+The Bazaar~
+   You stand at the southern end of the bazaar.  A building wall is to your
+south, the bazaar stretches out to the north, east and west.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31544
+D1
+~
+~
+0 -1 31577
+D3
+~
+~
+0 -1 31549
+S
+#31551
+The Bazaar~
+   You are at the south end of the bazaar.  You may head in any direction but
+south, which is the north wall of a business facing Main St.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31545
+D1
+~
+~
+0 -1 31552
+D3
+~
+~
+0 -1 31550
+S
+#31552
+The Bazaar~
+   The bazaar, home to more than twenty five different marchants from all
+corners of Dibrova is a twenty four hour, seven day a week managerie of sights
+and sounds, most of which coming from the colorful people who push their goods
+here.  You may exit onto East Main to the south or head out into the bazaar in
+any other direction.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31546
+D1
+~
+~
+0 -1 31553
+D2
+~
+~
+0 -1 31558
+D3
+~
+~
+0 -1 31551
+S
+#31553
+The Bazaar~
+   Your stand at the far southeastern corner of the bazaar.  Looking north and
+west, it seems that the bazaar must go on forever.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31547
+D3
+~
+~
+0 -1 31552
+S
+#31554
+Harbor Cove Apartments~
+   This small reception area is the leasing office for this complex.  Any player
+who wishes to rent a home here will need to fill out an application for lease
+and leave a deposit of one hundred fifty gold coins.  Type LEASE to fill out an
+application.  
+~
+315 p 0
+D1
+~
+~
+0 -1 31555
+S
+#31555
+West Main~
+   The road heads north into the bazaar, a huge open court full of vendors from
+every part of the world, plying their goods.  To the south the road continues
+with shops on either side.  East of you is the Green Leaf, a local dining
+facility.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31549
+D1
+~
+~
+0 -1 31556
+D2
+~
+~
+0 -1 31560
+S
+#31556
+The Green Leaf~
+   This large, clean restaurant offers a variety of foods, most of them the
+common fare most people from this area would be used to.  Looks as if the
+tourist trade does not touch this homey little place, and for that reason most
+locals like it here best.  
+~
+315 dp 0
+D3
+~
+~
+0 -1 31555
+S
+#31557
+The Parchment Place~
+   This run-down, hole in the wall, flea bag dive is home to a failing business
+which is failing only because of it's lack of variety and it's competition
+located in the guild area.  The scrolls offered are of fine quality and work
+with almost every use, but the scrolls offered are not popularly needed.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31558
+S
+#31558
+East Main~
+   The road heads north into the bazaar or south into the main section of town.
+To the west is a very ill-kept business with a faded and peeling sign hanging
+crooked over the door proclaiming it the Parchment Place.  The way is impassable
+to the east, a steep hill runs up for quite some distance to the Wharf, the high
+class section of town.  
+~
+315 dp 0
+D0
+~
+~
+0 -1 31552
+D2
+~
+~
+0 -1 31563
+D3
+~
+~
+0 -1 31557
+S
+#31559
+Fatima's Footwear~
+   Fatima seems to run a orderly, neat store.  All the shoes are kept clean and
+shined, all placed strategically on shelves so as to give the customer the best
+angle on them.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31560
+S
+#31560
+West Main~
+   The road heads north and south from here.  In the distance to the north the
+road leads into the bazaar and south the road heads into an intersection with
+South St.  East of you is the jeweler and west is Fatima's Footwear.  
+~
+315 dp 0
+D0
+~
+~
+0 -1 31555
+D1
+~
+~
+0 -1 31561
+D2
+~
+~
+0 -1 31566
+D3
+~
+~
+0 -1 31559
+S
+#31561
+The Jeweler~
+   Many exotic jewels lay in glass displays on velvet cushions of contrasting
+color.  The colors are dazzling to the eye, and the temptation to rob this poor
+schmuck is almost overpowering.  
+~
+315 dp 0
+D3
+~
+~
+0 -1 31560
+S
+#31562
+Hospital~
+   This small one room whitewashed building houses just enough equipment to heal
+any standard health issues.  
+~
+315 dp 0
+D2
+~
+~
+0 -1 31568
+S
+#31563
+East Main~
+   The road runs north toward the bazaar or south past an intersection with
+South St toward the Docks.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31558
+D1
+~
+~
+0 -1 31564
+D2
+~
+~
+0 -1 31569
+S
+#31564
+The Watering Hole~
+   Barrels are stacked neatly along the north wall, canteens hang from straps
+along the south wall, and behind the counter are flasks and cups of varying
+shapes and colors.  Some kind of large machine, most probably used to distill
+sea water into drinking water sits back behind the counter.  
+~
+315 dp 0
+D3
+~
+~
+0 -1 31563
+S
+#31565
+South Street~
+   The street heads west into the guild area or east into the main business
+sections of McGintey Cove.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31566
+D3
+~
+~
+0 0 31666
+S
+#31566
+West Main and South St~
+   The streets head off in all directions.  To the eastand north, the street
+goes further into the business sections of McGintey Cove.  South of here begins
+the area of town known as the Docks, where all the sea vessels are built and
+most sailors stay when in port.  To the west the street heads into the Guild
+area.  
+~
+315 dp 0
+D0
+~
+~
+0 -1 31560
+D1
+~
+~
+0 -1 31567
+D2
+~
+~
+0 -1 31571
+D3
+~
+~
+0 -1 31565
+S
+#31567
+South Street~
+   The street heads east and west from here.  To the south is a small shop which
+sells all manner of hand wear.  The street here seems a bit dirtier, less kept
+up than the streets at the north end of town near the gates, almost dingy.  
+~
+315 dp 0
+D1
+~
+~
+0 -1 31568
+D2
+~
+~
+0 -1 31572
+D3
+~
+~
+0 -1 31566
+S
+#31568
+South St~
+   The road, seeming a bit dark and gloomy at this end of town, heads east and
+west from here.  To the north is a small hospital.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31562
+D1
+~
+~
+0 -1 31569
+D3
+~
+~
+0 -1 31567
+S
+#31569
+East Main and South St~
+   The two main streets intersect here, heading off im every direction.  South
+lies the Dock area, east heads uphill into the high class area of town, the
+Wharf, and north and west lead deeper into the main business district.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31563
+D1
+~
+~
+0 -1 31570
+D2
+~
+~
+0 -1 31573
+D3
+~
+~
+0 -1 31568
+S
+#31570
+South St~
+   You have begun your ascent into the upper reaches of the high status section
+of McGintey Cove, known as the Wharf.  A warning to all who come this way.  No
+thievery is allowed here, no crimes are allowed to be committed, and all prices
+are very high.  
+~
+315 p 0
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 -1 31569
+S
+#31571
+West Main~
+   The street is definately a bit less kept up than the streets to the north.  
+The road leads generally downhill, sometimes down steps toward to the sea shore
+where sailors roam about, looking for food stuffs or women, as is their wont.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31566
+D2
+~
+~
+0 0 31801
+S
+#31572
+Gloveworks~
+   Racks are scattered throughout the room, all with various sizes and shapes of
+gloves hanging from them.  In cabinets and on shelves are many types of
+gauntlets and glaives which would be too heavy to hang from a hook on the racks.
+It smells of frehly oiled metal and leather in here, a delightful combination
+for any seasoned adventurer such as yourself.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31567
+S
+#31573
+East Main~
+   The road heads downhill into a much more scented section of town, the Docks.
+It smells of sea weed, raw fish and dirty bodied men of the sea.  The roads are
+covered in dirt and grime and the farther south you get, the worse the roads
+get.  Hard to believe that some of more high class people actually come through
+here.  
+~
+315 p 0
+D0
+~
+~
+0 -1 31569
+D2
+~
+~
+0 0 31804
+S
+#31574
+McGintey Teleporters~
+   This establishment runs in direct competition with the Boat Station, being
+that this is a seaport town and all.  The prices offered here are substantially
+less than those found in most other towns, and the choices of travel are much
+less limited than the other, smaller inland towns.  
+~
+315 p 0
+D2
+~
+~
+0 0 31513
+S
+#31575
+McGintey Center Square~
+   This area has been set aside for patrons of the bazaar and the common
+citizens to have a place for a peaceful rest away from all the noise and hustle
+of the city.  Pity that so many of the less fortunate make it their permanent
+place of residence.  Ah well, it's still a fine place to relax.  
+~
+315 cep 0
+D0
+~
+~
+0 0 31538
+D1
+~
+~
+0 0 31576
+D2
+~
+~
+0 0 31577
+S
+#31576
+McGintey Center Square~
+   This area has been set aside for patrons of the bazaar and the common
+citizens to have a place for a peaceful rest away from all the noise and hustle
+of the city.  Pity that so many of the less fortunate make it their permanent
+place of residence.  Ah well, it's still a fine place to relax.  
+~
+315 cep 0
+D0
+~
+~
+0 0 31539
+D2
+~
+~
+0 0 31578
+D3
+~
+~
+0 0 31575
+S
+#31577
+McGintey Center Square~
+   This area has been set aside for patrons of the bazaar and the common
+citizens to have a place for a peaceful rest away from all the noise and hustle
+of the city.  Pity that so many of the less fortunate make it their permanent
+place of residence.  Ah well, it's still a fine place to relax.  
+~
+315 cep 0
+D0
+~
+~
+0 0 31575
+D1
+~
+~
+0 0 31578
+D2
+~
+~
+0 0 31544
+S
+#31578
+McGintey Center Square~
+   This area has been set aside for patrons of the bazaar and the common
+citizens to have a place for a peaceful rest away from all the noise and hustle
+of the city.  Pity that so many of the less fortunate make it their permanent
+place of residence.  Ah well, it's still a fine place to relax.  
+~
+315 cep 0
+D0
+~
+~
+0 0 31576
+D2
+~
+~
+0 0 31545
+D3
+~
+~
+0 0 31577
+S
+#31579
+Town Meeting Hall~
+   This Hall has been used for many years as the center for the development of
+McGintey Cove and its laws, plus as the shouting house for the people of the
+town.  Monthly meetings are still held by either the town mayor or the immortal
+sponsor for this town.  The upper reaches of this fine place hold the various
+board rooms for McGintey Cove.  
+~
+315 dep 0
+D2
+~
+~
+0 0 31512
+D4
+~
+~
+0 0 31580
+S
+#31580
+Reading Room~
+   This is the place where players may post messages to other players, or to the
+Gods or just post whatever might be on their mind in general.  This is not a
+board to be used to post flames, if a message is considered to be a flame it
+will be removed immediately.  
+~
+315 cdep 0
+D1
+~
+~
+0 0 31582
+D3
+~
+~
+0 0 31581
+D5
+~
+~
+0 0 31579
+S
+#31581
+Quest Room~
+   This is where most quests will begin, unless a different room from another
+hometown is chosen instead.  The board here is intended to be used by players to
+talk about quests, request quests, or suggest new quests.  Feel free to post any
+suggestions you may have.  
+~
+315 cdep 0
+D1
+~
+~
+0 0 31580
+S
+#31582
+Suggestion Room~
+   This is where players can post their wants, needs and desires in terms of
+additions to Dibrova.  We encourage all players to give input regarding any and
+all aspects of the game, we want to make this a game for everyone, so don't be
+shy!  
+~
+315 cdep 0
+D3
+~
+~
+0 0 31580
+S
+#0
+
+#RESETS
+M 0 31557 1 31524 	(a hawk)
+M 0 31556 1 31524 	(the fearless wildcat)
+M 0 31560 1 31519 	(the city banker)
+M 0 31545 1 31557 	(Randon)
+G 1 31556 500 -1 	(a wide, green scroll)
+G 1 31555 500 -1 	(a small, red scroll)
+G 1 3050 500 -1 	(a scroll of identify)
+G 1 3052 500 -1 	(a scroll of recall)
+M 0 31559 1 31575 	(Alaantra the Newbie Helper)
+R 0 31575 31667 -1 	(a beautiful mermaid fountain)
+O 0 31667 4 31575 	(a beautiful mermaid fountain)
+R 0 31577 31667 -1 	(a beautiful mermaid fountain)
+O 0 31667 4 31577 	(a beautiful mermaid fountain)
+R 0 31578 31667 -1 	(a beautiful mermaid fountain)
+O 0 31667 4 31578 	(a beautiful mermaid fountain)
+R 0 31576 31667 -1 	(a beautiful mermaid fountain)
+O 0 31667 4 31576 	(a beautiful mermaid fountain)
+M 0 31558 1 31574 	(the teleport operator)
+M 0 31540 1 31553 	(Sazaindin)
+G 1 31621 500 -1 	(a potion of cure blindness)
+G 1 31620 500 -1 	(bright green potion)
+G 1 31619 500 -1 	(a glowing potion of invisibility)
+M 0 31535 1 31548 	(the elven vendor)
+G 1 31618 500 -1 	(a grail)
+G 1 31617 500 -1 	(a goblet)
+G 1 31616 500 -1 	(a cup)
+M 0 31502 4 31542 	(a street rat)
+M 0 31529 1 31542 	(Shantar)
+G 1 31613 500 -1 	(a carved emerald ring)
+G 1 31615 500 -1 	(a wide silver ring)
+G 1 31614 500 -1 	(a golden band)
+M 0 31530 1 31543 	(Shades)
+G 1 31612 500 -1 	(a pair of reading glasses)
+G 1 31611 500 -1 	(a pair of dark-tinted shades)
+M 0 31503 5 31544 	(a common peddler)
+M 0 31531 1 31544 	(the blacksmith)
+G 1 31610 500 -1 	(a ruby-hilted dagger)
+G 1 31609 500 -1 	(a dark dagger)
+M 0 31532 1 31545 	(the burlap man)
+G 1 31608 500 -1 	(a burlap jerkin)
+G 1 31607 500 -1 	(a burlap sack)
+M 0 31549 3 31545 	(a skillful merchant)
+G 1 31523 3 -1 	(the Bag of Wonders)
+M 0 31533 1 31546 	(a woman)
+G 1 31606 500 -1 	(a blue bandanna)
+G 1 31605 500 -1 	(a large red bandanna)
+G 1 31604 500 -1 	(a silk muffler)
+M 0 31536 1 31549 	(the baker)
+M 0 31537 1 31550 	(the huge man)
+M 0 31554 1 31550 	(Tess, the Bazaar Overseer)
+E 1 31517 1 11 	(Shield of Strength)
+E 1 31518 1 14 	(a steel bracelet)
+M 0 31538 1 31551 	(a dwarven smith)
+G 1 3075 500 -1 	(a bronze helmet)
+G 1 31315 500 -1 	(a homemade leather vest)
+M 0 31539 1 31552 	(Shalaylia)
+G 1 31599 500 -1 	(some rolling papers)
+M 0 31534 1 31547 	(the Hat Man)
+G 1 31598 500 -1 	(a pointed hat with a feather in it)
+G 1 31524 500 -1 	(a dusty old hat)
+M 0 31551 5 31547 	(a gull)
+M 0 31552 3 31538 	(an albatross)
+M 0 31525 1 31538 	(the carpenter)
+E 1 31507 1 17 	(a carpenters' hammer)
+G 1 31596 500 -1 	(a small wooden toy pony)
+G 1 31597 500 -1 	(a small wooden sword)
+M 0 31526 1 31539 	(Darva)
+G 1 31593 500 -1 	(a handsome gold-stiched wrap)
+G 1 31594 500 -1 	(a Lord's Mantle)
+G 1 31595 500 -1 	(a white pelerine)
+M 0 31523 1 31536 	(a fisherman)
+E 1 31506 1 17 	(a fishermans' pole)
+G 1 31584 500 -1 	(an angelfish)
+G 1 31582 500 -1 	(a mud-sucking brown fish)
+G 1 31583 500 -1 	(a dead baby shark)
+G 1 31581 500 -1 	(a silver salmon)
+M 0 31550 2 31536 	(a local youth)
+E 1 31529 2 6 	(a floppy hat)
+M 0 31524 1 31537 	(the glass blower)
+G 1 31580 500 -1 	(a handmade glass pipe)
+G 1 31579 500 -1 	(a red glass celery bowl)
+G 1 31578 500 -1 	(a glass-blown cup)
+M 0 31528 1 31541 	(the Leatherman)
+G 1 3086 500 -1 	(a pair of leather sleeves)
+G 1 3081 500 -1 	(a pair of leather pants)
+M 0 31522 1 31535 	(the wax man)
+G 1 31590 500 -1 	(a dragon-shaped candle)
+G 1 31591 500 -1 	(a large green candle)
+G 1 31592 500 -1 	(a curved purple candle)
+M 0 31521 1 31534 	(the farmer)
+E 1 31503 1 17 	(a garden hoe)
+G 1 31589 500 -1 	(a tomato)
+G 1 31588 500 -1 	(a potato)
+G 1 31587 500 -1 	(a carrot)
+M 0 31555 3 31534 	(a deputy)
+E 1 31508 3 3 	(a deputy's badge)
+E 1 31509 3 6 	(a battered war helm)
+E 1 31510 3 11 	(a small crested shield)
+M 0 31520 1 31533 	(Farah)
+G 1 31585 1000 -1 	(a beautiful emerald)
+G 1 31566 1000 -1 	(a dark opal)
+M 0 31518 1 31531 	(Herb the herbalist)
+G 1 31586 500 -1 	(some hergin leaves)
+G 1 31577 500 -1 	(a bit of bismure bark)
+G 1 31576 500 -1 	(some fisca root)
+M 0 31517 1 31530 	(Pauletra)
+G 1 31570 500 -1 	(a clay pot)
+G 1 31571 500 -1 	(a moulded clay jar)
+M 0 31519 1 31532 	(Bones)
+G 1 31575 500 -1 	(a sabre tooth ring)
+G 1 31574 500 -1 	(a carved bone ring)
+G 1 31573 500 -1 	(a curved bone bracelet)
+M 0 31544 1 31559 	(the bootsmith)
+G 1 31567 99 -1 	(a pair of leather concept shoes)
+G 1 31568 99 -1 	(some climbing boots)
+G 1 31569 99 -1 	(a pair of pointed wizard shoes)
+M 0 31542 1 31561 	(the jeweler)
+G 1 31564 500 -1 	(a large ruby)
+G 1 31566 500 -1 	(a dark opal)
+G 1 31565 500 -1 	(a glittering diamond)
+M 0 31546 1 31556 	(Curley)
+G 1 31563 500 -1 	(a mug)
+G 1 31562 500 -1 	(a glass)
+G 1 31561 500 -1 	(a side of Curley's fries)
+G 1 31560 500 -1 	(the House Special)
+M 0 31548 1 31572 	(the gloveman)
+G 1 31519 500 -1 	(a pair of thick gloves)
+G 1 31559 500 -1 	(a spiked glaive)
+G 1 31558 500 -1 	(a nickle plated gauntlet)
+M 0 31547 1 31564 	(the water guy)
+G 1 31557 500 -1 	(a flask)
+M 0 31516 1 31527 	(the clerk)
+G 1 31554 500 -1 	(a large sack)
+G 1 31553 500 -1 	(a hooded lantern)
+M 0 31513 1 31521 	(the armourer)
+G 1 3070 500 -1 	(a pair of bronze gauntlets)
+G 1 31315 500 -1 	(a homemade leather vest)
+G 1 12001 500 -1 	(a bronze belt)
+M 0 31555 3 31521 	(a deputy)
+E 1 31508 3 4 	(a deputy's badge)
+E 1 31509 3 6 	(a battered war helm)
+E 1 31510 3 11 	(a small crested shield)
+M 0 31509 1 31507 	(Samuel Faarza)
+G 1 31546 500 -1 	(a glass)
+G 1 31547 500 -1 	(a pint)
+G 1 31548 500 -1 	(a mug)
+G 1 31549 500 -1 	(a flask)
+G 1 31550 500 -1 	(a bottle)
+G 1 31552 2 -1 	(a local special drink)
+G 1 31551 2 -1 	(a paper bag)
+M 0 31515 1 31526 	(Jak)
+G 1 3020 500 -1 	(a dagger)
+G 1 31543 500 -1 	(a sabre)
+G 1 31544 500 -1 	(a nail-studded mace)
+G 1 31545 500 -1 	(a simple bola)
+M 0 31511 1 31516 	(Juan the potion pusher)
+G 1 31542 500 -1 	(a blue potion of recall)
+G 1 31539 500 -1 	(a fizzy white potion)
+G 1 31541 500 -1 	(a sizzling blue potion)
+G 1 31540 500 -1 	(a thick grey potion)
+M 0 31512 1 31518 	(Alandra)
+G 1 31535 500 -1 	(a small silver ring)
+G 1 31536 500 -1 	(a pewter bracelet)
+G 1 31537 500 -1 	(a ring with a quartz stone)
+G 1 31538 500 -1 	(a necklace made of bismuth)
+M 0 31508 1 31506 	(Cindii the Info Lady)
+O 0 31534 1 31506 	(a brochure rack)
+P 1 31533 100 31534 	(a brochure)
+M 0 31553 1 31513 	(McHale, the patrol lieutenant)
+E 1 31504 1 16 	(Falconblade)
+E 1 31505 1 12 	(McHale's Cape)
+E 1 31516 1 8 	(a broken costume mask)
+M 0 31506 1 31504 	(Jon the barkeep)
+G 1 31530 100 -1 	(a foamy glass)
+G 1 31531 100 -1 	(a juicy hunk of steak)
+M 0 31550 2 31515 	(a local youth)
+E 1 31529 2 6 	(a floppy hat)
+M 0 31500 1 31529 	(the patrol captain, Kire)
+E 1 31500 1 16 	(Eventru)
+E 1 31501 1 12 	(a hard Dragonskin armor)
+M 0 31504 8 31529 	(a guardsman)
+E 1 31526 8 5 	(a guardsman's armour)
+E 1 31502 2 16 	(a long spear)
+M 0 31504 9 31529 	(a guardsman)
+E 1 31502 2 16 	(a long spear)
+E 1 31526 8 5 	(a guardsman's armour)
+M 0 31549 3 31568 	(a skillful merchant)
+G 1 31523 3 -1 	(the Bag of Wonders)
+M 0 31549 3 31508 	(a skillful merchant)
+G 1 31523 3 -1 	(the Bag of Wonders)
+M 0 31501 6 31567 	(a commoner)
+M 0 31555 3 31567 	(a deputy)
+M 0 31503 5 31573 	(a common peddler)
+M 0 31552 3 31573 	(an albatross)
+M 0 31552 3 31503 	(an albatross)
+M 0 31551 5 31501 	(a gull)
+M 0 31551 5 31512 	(a gull)
+M 0 31543 1 31562 	(a local physician)
+M 0 31541 1 31554 	(the lease manager)
+M 0 31527 1 31540 	(the healer)
+M 0 31514 1 31523 	(Shellee)
+M 0 31510 1 31509 	(the postal worker)
+M 0 31507 1 31522 	(the receptionist)
+M 0 31503 5 31571 	(a common peddler)
+M 0 31502 4 31517 	(a street rat)
+M 0 31502 4 31558 	(a street rat)
+M 0 31502 4 31566 	(a street rat)
+M 0 31501 6 31520 	(a commoner)
+M 0 31501 6 31560 	(a commoner)
+M 0 31501 6 31528 	(a commoner)
+M 0 31501 6 31511 	(a commoner)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#31500~
+31530
+31531
+-1
+1.50
+0.00
+19steak
+17ale
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31506
+0
+31504
+-1
+0
+28
+0
+0
+#31501~
+31538
+31537
+31536
+31535
+-1
+1.00
+1.00
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31512
+0
+31518
+-1
+0
+28
+0
+0
+#31502~
+31539
+31540
+31541
+31542
+-1
+1.50
+1.00
+10
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31511
+0
+31516
+-1
+0
+28
+0
+0
+#31503~
+31543
+31544
+3020
+31545
+-1
+1.50
+1.00
+5
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+31515
+1
+31526
+-1
+0
+28
+0
+0
+#31504~
+31546
+31547
+31548
+31549
+31550
+31551
+31552
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31509
+0
+31507
+-1
+0
+28
+0
+0
+#31505~
+12001
+3318
+3070
+4119
+-1
+1.50
+1.00
+9
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31513
+0
+31521
+-1
+0
+28
+0
+0
+#31506~
+31553
+31554
+1058
+-1
+1.50
+1.00
+15
+1
+12
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31516
+0
+31527
+-1
+0
+28
+0
+0
+#31507~
+1057
+31555
+31556
+3050
+3052
+-1
+1.50
+1.00
+2
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31545
+0
+31557
+-1
+0
+28
+0
+0
+#31508~
+31557
+1065
+1079
+6517
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31547
+0
+31564
+-1
+0
+28
+0
+0
+#31509~
+31519
+31558
+31559
+-1
+1.50
+1.00
+9
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31548
+0
+31572
+-1
+0
+28
+0
+0
+#31510~
+31560
+31561
+31562
+31563
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31546
+0
+31556
+-1
+0
+28
+0
+0
+#31511~
+31564
+31565
+31566
+-1
+1.50
+1.00
+8
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31542
+0
+31561
+-1
+0
+28
+0
+0
+#31512~
+31567
+31568
+31569
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31544
+0
+31559
+-1
+0
+28
+0
+0
+#31513~
+31573
+31574
+31575
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31519
+0
+31532
+-1
+0
+28
+0
+0
+#31514~
+31570
+31571
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31517
+0
+31530
+-1
+0
+28
+0
+0
+#31515~
+31576
+31577
+31586
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+1
+31518
+0
+31531
+-1
+0
+28
+0
+0
+#31516~
+31585
+1118
+31566
+-1
+1.02
+0.91
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31520
+0
+31533
+-1
+0
+28
+0
+0
+#31517~
+31587
+31588
+31589
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31521
+0
+31534
+-1
+0
+28
+0
+0
+#31518~
+31590
+31591
+31592
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s 31592~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31522
+0
+31535
+-1
+0
+28
+0
+0
+#31519~
+1044
+3081
+3086
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31528
+0
+31541
+-1
+0
+28
+0
+0
+#31520~
+31578
+31579
+31580
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31524
+0
+31537
+-1
+0
+28
+0
+0
+#31521~
+31581
+31582
+31583
+31584
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31523
+0
+31536
+-1
+0
+28
+0
+0
+#31522~
+31595
+31594
+31593
+-1
+1.50
+1.00
+9
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31526
+0
+31539
+-1
+0
+28
+0
+0
+#31523~
+31597
+31596
+-1
+1.50
+1.00
+12
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31525
+0
+31538
+-1
+0
+28
+0
+0
+#31524~
+31524
+31598
+-1
+1.50
+1.00
+11
+9
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31534
+0
+31547
+-1
+0
+28
+0
+0
+#31525~
+31599
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31539
+0
+31552
+-1
+0
+28
+0
+0
+#31526~
+1044
+3318
+3075
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31538
+0
+31551
+-1
+0
+28
+0
+0
+#31527~
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31537
+0
+31550
+-1
+0
+28
+0
+0
+#31528~
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31536
+0
+31549
+-1
+0
+28
+0
+0
+#31529~
+6804
+6805
+6806
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31533
+0
+31546
+-1
+0
+28
+0
+0
+#31530~
+6808
+6807
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31532
+0
+31545
+-1
+0
+28
+0
+0
+#31531~
+6809
+6810
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31531
+0
+31544
+-1
+0
+28
+0
+0
+#31532~
+6811
+6812
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31530
+0
+31543
+-1
+0
+28
+0
+0
+#31533~
+6813
+6814
+6815
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31529
+0
+31542
+-1
+0
+28
+0
+0
+#31534~
+6816
+6817
+6818
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31535
+0
+31548
+-1
+0
+28
+0
+0
+#31535~
+6819
+6820
+6821
+-1
+1.34
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31540
+0
+31553
+-1
+0
+28
+0
+0
+0
+
+
+#$

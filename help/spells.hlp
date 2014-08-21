@@ -1,0 +1,2872 @@
+#HELPS
+
+-1 'SPELL_GATE'~
+Syntax: cast 'gate' <target>
+
+The gate spell is a powerful transportation magic that opens up a portal 
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set.  Clan members 
+may not be gated to except by their fellow Clan members.
+~
+
+
+-1 'SPELL_DETECT GOOD'~
+Syntax: cast 'detect good'
+ 
+This spell enables the caster to detect good characters, which will
+reveal a characteristic golden aura.
+~
+
+-1 'SPELL_DISPEL GOOD'~
+Syntax: cast 'dispel good' <victim>
+ 
+Dispel good brings forth evil energies that inflict horrific torment on 
+the pure of heart.  Good-aligned characters use this dark magic at their
+peril.
+~
+
+
+-1 'SPELL_RECHARGE'~
+Syntax: cast 'recharge' <item>
+
+The recharge spell is used to restore energy to depleted wands and staves.
+Fully exhausted items cannot be recharged, and the difficulty of the spell
+is proportional to the number of charges used.  Magic items can only be
+recharged one time successfully.
+~
+
+-1 'SPELL_RAY OF TRUTH'~
+Syntax: cast 'ray of truth' <target>
+
+Ray of truth opens a portal to the planes of positive energy, bringing forth
+a beam of light of sufficient purity to harm or or annihilate the servants
+of evil.  It cannot harm the pure of heart, and will turn and strike 
+casters who are tainted by evil.
+~
+
+-1 'SPELL_PORTAL'~
+Syntax: cast 'portal' <target>
+
+The portal spell is similar to gate, but creates a lasting one-way portal
+to the target creature, instead of transporting the caster.  Portals are
+entered using 'enter' or 'go' command, as in 'go portal'.  Portals cannot
+be made to certain destinations, nor used to escape from gate-proof rooms.
+Portal requires a special source of power to be used, unfortunately the
+secret of this material component has been lost...
+~
+
+-1 'SPELL_NEXUS'~
+Syntax: cast 'nexus' <target>
+
+This spell is virtually identical to portal (see 'help portal'), with the
+only difference being that while portal creates a one-way gate, a nexus 
+spell makes a two-sided gate.  It also lasts longer than the lower-powered
+portal spell.  Both spells require an additional power source, the secret
+of which has been lost...
+~
+
+-1 'SPELL_HEAT METAL'~
+Syntax: cast 'heat metal' <target>
+
+Heat metal is a powerful magical attack spell, with effects that vary
+according to the victim's armor.  It heats the target's metal equipment,
+causing him or her to drop them if possible, taking serious burns in the
+process (possibly fatal if the equipment is too heavy to remove easily).
+This spell does no damage to creatures that are immune to fire.
+~
+
+-1 'SPELL_HOLY WORD'~
+Syntax: cast 'holy word'
+
+Holy word involves the invocation of the full power of a cleric's god, with
+disasterous effects upon the enemies of the priest coupled with powerful
+blessings on the priest's allies.  All creatures of like alignment in the
+room are blessed and filled with righteous divine wrath, while those of
+opposite morals (or both good and evil in the case of neutral priests)
+are struck down by holy (or unholy might) and cursed.  The cleric suffers
+greatly from the strain of this spell, being left unable to move and 
+drained of vitality.  Experience loss is no longer associated with the spell.
+~
+
+-1 'SPELL_FRENZY'~
+Syntax: cast 'frenzy' <target>
+
+The frenzy spell fills the target with righteous fury, greatly increasing
+his or her attack skill and damaging capacity.  Unfortunately, this divine
+wrath is coupled with a tendency to ignore threats to personal safety, 
+making the character easier to hit.  Frenzy provides immunity to the calm
+spell (see 'help calm'), and may only be used on those of the caster's 
+alignment.
+~
+
+-1 'SPELL_CALM'~
+Syntax: cast 'calm' 
+
+One of the most useful and often overlooked abilities of the master cleric is
+the calm spell, which can put an end to all violence in a room.  Calmed
+creatures will not attack of their own volition, and are at a disadvantage
+in combat as long as the spell soothes their minds.  The more violence 
+activity there is in a room, the harder the spell, and it is all or nothing --
+either all combat in the room is ended (with the exception of those who
+are immune to magic) or none is.
+~
+
+-1 'SPELL_HASTE'~
+Syntax: cast 'haste' <target>
+
+The haste spell increases the speed and agility of the recipient, allowing
+an extra attack (or even a backstab) in combat, and improving evasive
+abilities in combat.  However, it produces a great strain on the system,
+such that recuperative abilities are halved.  Haste is capable of negating
+the slow spell. (see 'help slow').
+
+At higher levels of casting (mage-types only), haste gives increased
+bonuses to dexterity, has a longer duration, and allows even more extra
+attacks.  It is rumored that at its highest level, haste prevents any
+delay between casting of spells or use of skills during combat.  However,
+the highest level of the spell may only be cast upon oneself.
+~
+
+-1 'SPELL_SLOW'~
+Syntax: cast 'slow' <target>
+
+Despite popular mythology, slow is not the opposite of haste, but is a spell
+with it's own unique set of effects.  When cast on an unfortunate victim,
+it slows its movements, making it easier to hit and reducing its rate
+of attack.  The effect of slow also doubles movement costs and halves healing
+rates, due to reduced metabolism.
+
+At higher casting levels (mage-types only), slow decreases the victim's
+chances of hitting on attacks beyond the first each round.  At its highest
+casting level, slow greatly reduces that chance of any physical attacks
+being made each round.
+~
+
+-1 'SPELL_PLAGUE'~
+Syntax: cast 'plague' <target>
+
+The plague spell infests the target with a magical disease of great virulence,
+sapping its strength and causing horrific suffering, possibly leading to
+death.  It is a risky spell to use, as the contagion can spread like
+wildfire if the victim makes it to a populated area.
+~
+
+-1 'SPELL_CREATE ROSE'~
+Syntax: cast 'create rose'
+
+A romantic spell that creates a fragrant red rose, with utterly no game
+use whatsoever.
+~
+
+-1 'SPELL_PROTECTION GOOD'~
+Syntax:	cast 'protection good' <target>
+
+The protection spells reduce damage taken from attackers of the appropriate
+ethos, and improve saving throws against all forms of magic. They may not
+be cast on others, and one person cannot carry both defenses at the same
+time.
+~
+
+-1 'SPELL_PROTECTION EVIL'~
+Syntax: cast 'protection evil' <target>
+
+The protection spells reduce damage taken from attackers of the appropriate
+ethos, and improve saving throws against all forms of magic. They may not
+be cast on others, and one person cannot carry both defenses at the same
+time.
+~
+
+-1 'SPELL_GIANT STRENGTH'~
+Syntax: cast 'giant strength' <character>
+ 
+This spell increases the strength of the target character.
+~
+
+-1 'SPELL_CHAIN LIGHTNING'~
+Syntax : cast 'chain lightning' <target>
+
+Chain lightning is a deadly spell, producing a powerful bolt of lightning
+that arcs from target to target in the room, until its force is fully
+expended.  Allies of the caster may be hit by this spell, while the caster
+will not be struck unless no other viable target remains.  Chain lightning
+is most effective when used on large groups of creatures.  At higher
+casting levels, the bolts strike longer and for more damage.  At its
+highest casting level, the caster is immune from being hurt by the bolts.
+~
+
+-1 'SPELL_MASS HEALING'~
+Syntax: cast 'mass healing' 
+
+The mass healing spell, as its name might suggest, performs a healing spell
+on all players in the room.  It also throws in a refresh spell for good
+measure.
+~
+
+-1 'SPELL_FLOATING DISC'~
+Syntax: cast 'floating disc'
+
+This useful spell creates a floating field of force which follows the caster
+around, allowing him or her to pile treasure high with no fear of weight
+penalties.  It lasts no more than twice the casters level in minutes, and
+usually less.  It can hold 10 pounds per level of the caster, with a maximum
+of five pounds per item.  The spell requires an open float location on the
+character, and the only way to remove the disc is to die or allow it to run
+out of energy.
+
+At higher levels of casting, the floating disc has the power to confer upon
+the caster increased wisdom, intelligence, and constitution.  It is even
+rumored that at its most powerful strength, the floating disc can confer
+upon its caster great stores of magical power.
+~
+
+-1 'SPELL_FIREPROOF'~
+Syntax: cast 'fireproof' <object>
+
+The fireproof spell creates a short-lived protective aura around an object,
+to protect it from the harmful effects of acid and flame.  Items protected
+by this spell are not harmed by acid, fire, or the heat metal spell.
+Although inexpensive to use, the spell's short duration makes it impractical
+for protecting large numbers of objects.
+~
+
+
+-1 'SPELL_ARMOR'~
+Syntax: cast armor <character>
+
+This spell decreases (improves) the armor class of the target character.
+The armor class improvement depends on the level of the caster.
+
+At higher levels of casting, armor provides increased armor class
+benefits and duration.  It also has a chance to fully absorb an opponent's
+attack, though it can do so only once per spell level beyond 2.  Note
+that the spell level will decrease by one every time an attack is
+absorbed, though the armor class benefit will be unaffected by this change.
+~
+
+-1 'SPELL_BLESS'~
+Syntax: cast bless <character>
+Syntax: cast bless <object>
+
+This spell improves the to-hit roll and saving throw versus spell of the
+target character by 1 for every 8 levels of the caster. It may also be
+cast on an object to temporarily bless it (blessed weapons, for example,
+are more effective against demonic beings).
+~
+
+-1 'SPELL_BLINDNESS'~
+Syntax: cast blindness <victim>
+
+This spell renders the target character blind.
+~
+
+-1 'SPELL_AID'~
+This spell acts like a bless spell and confers extra dam points.
+The spell's duration increases with the level of the caster.
+~
+
+-1 'SPELL_ACID BLAST'~
+Syntax: cast 'acid blast'     <victim>
+
+This spell blasts the victim with watery acid, inflicting great amounts
+of damage and causing severe pain and disfiguration.  At higher levels
+of casting, this spell causes more damage, negates the target's
+saving throw, has a chance to destroy the target's equipment with
+acid and, at its highest level, will create multiple blasts of acid
+from one casting.
+~
+
+-1 'SPELL_BURNING HANDS'~
+Syntax: cast 'burning hands'  <victim>
+
+This spell causes the caster to summon fire from his or her fingertips
+to inflict damage on the victim.  At higher spell levels, this spell
+causes more damage, negates the victim's saving throw, has a chance
+to burn items carried by the victim, and causes the victim to become
+more thirsty due to the intense heat.
+~
+
+-1 'SPELL_COLOUR SPRAY'~
+Syntax: cast 'colour spray'   <victim>
+
+This spell sends forth a spray of clashing colors that damages and has a
+chance to blind your opponent.  At higher levels, the amount of damage is
+increased, the chance of blinding your opponent is increased, and your
+opponent loses his or her saving throw.  At its highest level, colour
+spray is rumored to daze the victim and worsen his or her armor class
+due to the coating of colorful paints.
+~
+
+-1 'SPELL_FIREBALL'~
+Syntax: cast 'fireball'       <victim>
+
+This spell summons forth a ball of fire which inflicts damage upon the
+victim.  At higher spell levels, this spell negates its target's saving
+throw, inflicts more damage, has the chance to burn the target's items,
+and cause fire blindness.  At its highest spell level, multiple
+fireballs will hit the target with each casting.
+~
+
+-1 'SPELL_LIGHTNING BOLT'~
+Syntax: cast 'lightning bolt' <victim>
+
+This spell enables the caster to summon forth a bolt of lightning to
+inflict damage on the victim.  At higher spell levels, this spell
+inflicts greater damage, negates the target's saving throw, has a
+chance to destroy equipment, and can create multiple lightning
+bolts with one casting.
+~
+
+-1 'SPELL_MAGIC MISSILE'~
+Syntax: cast 'magic missile'  <victim>
+
+Magic Missile conjures a missile of pure energy to target your opponent.
+As your actual level increases, the number of missiles your conjure increases
+as well.
+
+At higher levels of casting, magic missile has added effects, such as
+increased amounts of missiles, preventing your opponent from receiving a
+saving throw for half damage, and increased damage per missile.  The highest
+level version of this spell is rumored to do extreme amounts of damage per
+missile.
+~
+
+-1 'SPELL_SHOCKING GRASP'~
+Syntax: cast 'shocking grasp' <victim>
+
+This spell causes electrical impulses to surge through the caster's hands
+and inflict damage on the victim.  At higher levels, the amount of damage
+inflicted increases, the victim loses their saving throw, the victim gets
+hit with powerful shocks that can cause loss of equipment, and the victim
+can even be shocked into unconsciousness.
+~
+
+-1 'SPELL_BLUR'~
+Syntax: cast 'blur' <target>
+
+The position of a mage with an active BLUR spell shifts and wavers. This
+distorsion makes the character harder to hit with an attack.
+~
+
+-1 'SPELL_CALL LIGHTNING'~
+Syntax: cast 'call lightning'
+
+This spell works only out of doors, and only when the weather is bad.
+It calls down lightning bolts from your god.
+~
+
+-1 'SPELL_CAUSE LIGHT'~
+Syntax: cast 'cause light'    <victim>
+
+These spells inflict damage on the victim.  The higher-level spells do
+more damage.
+~
+
+-1 'SPELL_CAUSE SERIOUS'~
+Syntax: cast 'cause serious'  <victim>
+
+These spells inflict damage on the victim.  The higher-level spells do
+more damage.
+~
+
+-1 'SPELL_CAUSE CRITICAL'~
+Syntax: cast 'cause critical' <victim>
+
+These spells inflict damage on the victim.  The higher-level spells do
+more damage.
+~
+
+-1 'SPELL_HARM'~
+Syntax: cast harm             <victim>
+
+These spells inflict damage on the victim.  The higher-level spells do
+more damage.
+~
+
+-1 'SPELL_CHANGE SEX'~
+Syntax: cast 'change sex' <victim>
+
+This spell changes the sex of the victim (temporarily).
+~
+
+-1 'SPELL_CHARM PERSON'~
+Syntax: cast 'charm person' <victim>
+
+This spell, if successful, causes the victim to follow you and to take orders
+from you.  Use ORDER to order your charmed followers.
+
+You are responsible for the actions of your followers.  Conversely, other
+people who attack your followers will be penalized as if they attacked you.
+~
+
+-1 'SPELL_CHILL TOUCH'~
+Syntax: cast 'chill touch' <victim>
+
+This spell inflicts damage on the victim and also reduces the victim's
+strength.  At higher casting levels, this spell inflicts more damage and a
+greater decrease in the victim's strength, prevents the victim from getting
+a saving throw, causes the victim to grow hungrier due to the warmth being
+sucked from one's body, and can cause items to freeze and break.
+~
+
+-1 'SPELL_CONTINUAL LIGHT'~
+Syntax: cast 'continual light'
+Syntax: cast 'continual light' <object>
+
+This spell creates a ball of light, which you can hold as a light source.
+The ball of light will last indefinitely. It may also be used on an object
+to give it an enchanted glow.
+~
+
+-1 'SPELL_CONTROL WEATHER'~
+Syntax: cast 'control weather' better
+Syntax: cast 'control weather' worse
+
+This spell makes the weather either better or worse.
+~
+
+-1 'SPELL_CREATE FOOD'~
+Syntax: cast 'create food'
+
+This spell creates a Magic Mushroom, which you or anyone else can eat.
+~
+
+-1 'SPELL_CREATE SPRING'~
+Syntax: cast 'create spring'
+
+This spell brings forth a magical spring from the ground, which has the
+same properties as a fountain.
+~
+
+-1 'SPELL_CREATE WATER'~
+Syntax: cast 'create water' <drink-container>
+
+This spell replenishes a drink container with water.
+~
+
+-1 'SPELL_CURE BLINDNESS'~
+Syntax: cast 'cure blindness' <character>
+
+This spell cures blindness in one so unfortunate.
+~
+
+-1 'SPELL_CURE POISON'~
+Syntax: cast 'cure poison' <character>
+
+This spell cures poison in one so unfortunate.
+~
+
+-1 'SPELL_CURE LIGHT'~
+Syntax: cast 'cure light'    <character>
+
+These spells cure damage on the target character.  The higher-level spells
+heal more damage.
+
+(see 'help healer' for details on the heal command)
+~
+
+-1 'SPELL_CURE SERIOUS'~
+Syntax: cast 'cure serious'  <character>
+
+These spells cure damage on the target character.  The higher-level spells
+heal more damage.
+
+(see 'help healer' for details on the heal command)
+~
+
+-1 'SPELL_CURE CRITICAL'~
+Syntax: cast 'cure critical' <character>
+
+These spells cure damage on the target character.  The higher-level spells
+heal more damage.
+
+(see 'help healer' for details on the heal command)
+~
+
+-1 'SPELL_HEAL'~
+Syntax: cast 'heal'          <character>
+
+These spells cure damage on the target character.  The higher-level spells
+heal more damage.
+
+(see 'help healer' for details on the heal command)
+~
+
+-1 'SPELL_CURSE'~
+Syntax: cast 'curse' <character>
+
+This spell reduces the character's to-hit roll and save versus spells.
+It also renders the character unclean in the eyes of his/her god and
+unable to RECALL. Curse may be used to fill equipment with evil power,
+allowing (for example) weapons to do more damage to particularly holy
+opponents.
+~
+
+-1 'SPELL_DETECT EVIL'~
+Syntax: cast 'detect evil'
+
+This spell enables the caster to detect evil characters, which will
+reveal a characteristic red aura.
+~
+
+-1 'SPELL_DETECT HIDDEN'~
+Syntax: cast 'detect hidden'
+
+This spell enables the caster to detect hidden creatures.
+~
+
+-1 'SPELL_DETECT INVIS'~
+Syntax: cast 'detect invis'
+
+This spell enables the caster to detect invisible objects and characters.
+~
+
+-1 'SPELL_DETECT MAGIC'~
+Syntax: cast 'detect magic'
+
+This spell enables the caster to detect magical objects.
+~
+
+-1 'SPELL_DETECT POISON'~
+Syntax: cast 'detect poison' <object>
+
+This spell detects the presence of poison in food or drink.
+~
+
+-1 'SPELL_DISPEL EVIL'~
+Syntax: cast 'dispel evil' <victim>
+
+This spell invokes the wrath of your god on an evil victim. It can be very
+dangerous for casters who are not pure of heart.
+~
+
+-1 'SPELL_DISPEL MAGIC'~ 
+Syntax: cast 'dispel magic' <character>
+
+
+This spells remove magical effects from the target.  Dispel magic
+has a reduced chance of working, and is considering an attack spell.
+The chance of dispelling is based on the level of the spell. Permanent spells
+(such as mobile sanctuary) are much harder to remove.  Not all spells may
+be dispelled, notable examples are poison and plague.
+~
+
+-1 'SPELL_CANCELLATION'~
+Syntax: cast 'cancellation' <character>
+
+Cancellation can only be used on allies, but is much more effective and does
+not provoke attack.  Unfortunately, the spells do not discriminate between
+harmful and benign spells.
+ 
+The chance of dispelling is based on the level of the spell. Permanent spells
+(such as mobile sanctuary) are much harder to remove.  Not all spells may
+be dispelled, notable examples are poison and plague.
+~
+
+-1 'SPELL_EARTHQUAKE'~
+Syntax: cast 'earthquake'
+
+This spell inflicts damage on every enemy character in the room.
+Beware that other mobiles who are not yet fighting may attack
+you as a result!  At higher spell levels, the earthquake is more
+powerful, with the ability to knock flying creatures to the ground
+and cause mobiles to drop everything they are carrying.  Earthquake
+does not work if you are in a room without any ground in it.
+~
+
+-1 'SPELL_ENCHANT WEAPON'~
+Syntax: cast 'enchant weapon' <weapon>
+
+This spell magically enchants a weapon, increasing its to-hit and to-dam
+bonuses.  Multiple enchants may be cast, but as the weapon grows more
+and more powerful, it is more likely to be drained or destroyed by the
+magic.  Also, every successful enchant increases the level of the weapon
+by one.  At Spell Level 1, only damroll is affected.  At 2, both hit
+and dam increase.  The amount of the increase per casting goes up with
+each level after that.  At Spell Level 4 and above, only the caster will
+be able to use the weapon thereafter.  At Spell Level 5, enchant weapon
+will also permanently lock in any other affects that are cast on the
+weapon beforehand (such as fire blade, frost blade, etc.).
+~
+
+-1 'SPELL_ENCHANT ARMOR'~
+Syntax: cast 'enchant armor' <armor>
+
+The enchant armor spell imbues armor with powerful protective magics. It
+makes the armor more effective by adding a magical benefit to the wearer's
+armor class.  However, if cast upon an object too many times, enchant
+armor will either fade the object, causing it to lose all magical
+properties, or possibly cause it to explode.  At higher casting levels,
+enchant armor increases the magical benefits even more with each casting.
+At its highest casting level, enchant armor adds a bonus to saving throws
+instead of armor class.  At Spell Levels 4 and 5, the enchanted object
+attaches itself to the caster and can thereafter only be worn by the
+caster.  NOTE: For information on casting a spell at a lower spell level
+than the highest level known, see 'help cast'.
+~
+
+-1 'SPELL_CREATE FLAME BLADE'~
+Syntax:  cast 'flame blade'
+
+This spell creates a wieldable blade of fire. The damage this blade
+will do to your enemies depends on the level of the caster.
+~
+
+-1 'SPELL_CREATE ICE KNIFE'~
+Syntax:  cast 'ice knife'
+
+By casting the spell ice knife, an ice knife appears in the caster's hand.
+The knife attacks like a normal knife.  The character has to have a free
+hand to cast this spell successfully. The damage this knife will do to your 
+enemies depends on the level of the caster.
+~
+
+-1 'SPELL_VAMPIRIC TOUCH'~
+Syntax: cast 'vampiric touch' <victim>
+
+This spell saps the experience points, mana, and movement points of its
+target.
+~
+
+-1 'SPELL_FAERIE FIRE'~
+Syntax: cast 'faerie fire' <victim>
+
+This spell increases (makes worse) the armor class of its victim.  The
+higher the caster's level, the more the victim's armor class is increased.
+At higher casting levels, the affect on your victim's AC is greater.
+~
+
+-1 'SPELL_FAERIE FOG'~
+Syntax: cast 'faerie fog'
+
+This spell reveals all manner of invisible, hidden, and sneaking creatures
+in the same room as you.  At higher casting levels, faerie fog leaves a
+semi-permanent purple smoke cloud around those in the room, preventing them
+from hiding, sneaking, blending, or becoming invisible for a short period of
+time.  At its highest level of casting, the permanent smoke cloud can last
+over an hour and a half.
+~
+
+-1 'SPELL_FLAMESTRIKE'~
+Syntax: cast 'flamestrike' <victim>
+
+This spell strikes the victim with flames, inflicting damage.  At
+higher casting levels, this spell negates the target's saving
+throw and can burn equipment, as well as inflicing more damage.  At
+its two higest levels, this spell can also be cast upon weapons to
+imbue them with fire.  But one should use this power with caution,
+as if the spell is not at its highest level, the fires may consume
+the weapon when they wear off.
+~
+
+-1 'SPELL_FLY'~
+Syntax: cast 'fly' <character>
+
+This spell enables the target character to fly.
+~
+
+-1 'SPELL_IDENTIFY'~
+Syntax: cast identify <object>
+
+This spell reveals information about the object.
+~
+
+-1 'SPELL_INFRAVISION'~
+Syntax: cast infravision <character>
+
+This spell enables the target character to see warm-blooded creatures even
+while in the dark.
+~
+
+-1 'SPELL_MASS INVIS'~ 
+Syntax: cast 'mass invis'
+
+The MASS INVIS spell makes all characters in the caster's group invisible,
+including the caster.
+~
+
+-1 'SPELL_INVISIBILITY'~ 
+Syntax: cast 'invisibility' <character>
+Syntax: cast 'invisibility' <object>
+
+The INVIS spell makes the target character invisible.  Invisible characters
+will become visible when they attack. It may also be cast on an object
+to render the object invisible.
+~
+
+-1 'SPELL_KNOW ALIGNMENT'~
+Syntax: cast 'know alignment' <character>
+
+This spell reveals the alignment of the target character.
+~
+
+-1 'SPELL_LOCATE OBJECT'~
+Syntax: cast 'locate object' <name>
+
+This spell reveals the location of all objects with the given name.
+~
+
+-1 'SPELL_PASS DOOR'~
+Syntax: cast 'pass door'
+
+This spell enables the caster to pass through closed doors.
+~
+
+-1 'SPELL_POISON'~
+Syntax: cast poison <victim>
+Syntax: cast poison <object>
+
+This spell reduces the strength of the victim, as well as reducing the
+victim's regeneration rate. It may also be used to poison food, drink, or
+a weapon in a fashion similar to envenom ('help envenom'), but with
+drastically reduced effectiveness.  In addition, a poisoned character will
+continue to take damage every minute for a set duration.  At higher spell
+levels, the duration of the poison on an object or a character increases, as
+does the reduction in the victim's strength and the amount of damage dealt
+each successive round.  At its highest spell levels, poison also negates the
+victim's saving throw and deals additional damage upon its casting.  At the
+higher levels, when cast on weapons, poison affects them with the stronger
+types of poison, from "type A" at Spell Level 1 to "type E" at Spell Level 5.
+Note that at Spell Levels 4 and 5, poison will bind the weapon to the caster,
+and only he or she will be able to use it thereafter.
+~
+
+-1 'SPELL_SANCTUARY'~
+Syntax: cast sanctuary  <character>
+
+The SANCTUARY spell reduces the damage taken by the character from any attack
+by one half.
+~
+
+-1 'SPELL_REFRESH'~
+Syntax: cast refresh <character>
+
+This spell refreshes the movement points of a character who is out of movement
+points.
+~
+
+-1 'SPELL_REMOVE CURSE'~
+Syntax: cast 'remove curse' <character>
+Syntax: cast 'remove curse' <object>
+
+This spell removes a curse from a character, and might possibly uncurse
+a cursed object.  It may also be targeted on an object in the caster's
+inventory, in which case it's chance of success is significantly higher.
+~
+
+-1 'SPELL_SHARPEN'~
+Much in the way a wizard can magicaly enhance a weapon a warrior can 
+improve a bladed weapon through the time and care which only a warrior 
+gives to his trusted companions. But with over use the blade tends to become
+fragile and could break. If you sharpen a blade too much it will break.
+~
+
+-1 'SPELL_SHIELD'~
+Syntax: cast shield
+
+This spell protects the target by decreasing (improving) the target's armor
+class.  The increased protection varies along with the caster's level.
+
+At higher casting levels, shield provides increased protection and has a
+longer duration.  At its highest levels, shield is rumored to create an
+actual physical barrier surrounding the target, with the ability to
+destroy non-magical and, at its highest level, magical weapons being
+used against the target.  Upon destruction of a weapon, the magical shield
+will dissipate.
+~
+
+-1 'SPELL_STONE SKIN'~
+Syntax: cast 'stone skin'
+
+This spell protects the caster by decreasing (improving) the caster's armor
+class.  The increased protection varies along with the caster's level.
+~
+
+-1 'SPELL_SLEEP'~
+Syntax: cast sleep <victim>
+
+This spell puts its victim to sleep.  At its lowest casting levels it can
+only be used to initiate combat.  At higher casting levels, in addition to
+an increased duration, it can be cast during combat and the victim loses
+his or her saving throw.  At its most powerful casting level, sleep can
+be deadly, as the victim enters a sleep that he or she will never awaken
+from.
+~
+
+-1 'SPELL_SUMMON'~
+Syntax: cast summon <character>
+
+This spell summons a character from anywhere else in the world into your room.
+Characters who are fighting may not be summoned.
+~
+
+-1 'SPELL_TELEPORT'~
+Syntax: cast <teleport>
+
+This spell takes you from your current location to a random location somewhere
+in the world.
+~
+
+-1 'SPELL_VENTRILOQUATE'~
+Syntax: cast ventriloquate <speaker> <message>
+
+This spell throws your voice, making it appear that some other object or
+character in the room is saying your message.  Victims who make their saving
+throw will know that someone is using ventriloquism, but not who.  Victims who
+fail their saving throw will think that the object or character really did say
+your message.
+~
+
+-1 'SPELL_WEAKEN'~
+Syntax: cast weaken <victim>
+
+This spell reduces the strength of the victim.  At higher casting
+levels, it also reduces, dexterity, constitution, wisdom, and
+intelligence, as well as negating the saving throw.  At its highest
+casting level, the victim of this spell is knocked unconscious.
+~
+
+-1 'SPELL_FUMBLE'~
+Syntax: cast fumble <victim>
+
+This spell momentarily causes its target to slip, fumble and stumble about,
+possibly losing hold of anything they are holding, wielding or carrying.
+Targets who are loaded up with items (i.e. carrying close to the maximum number
+they can handle) are particularly prone to the effects of this spell.
+~
+
+-1 'SPELL_EARTHMAW'~
+Syntax: cast earthmaw <victim>
+
+One of the first ways in which someone can call upon nature to aid him,
+the Earthmaw invocation imbues the living rock with a primitive, aggressive
+sentience, causing a maw filled with sharp spikes to strike forcefully at
+the foe.
+~
+
+
+
+-1 'ACID BREATH' 'FIRE BREATH' 'FROST BREATH' 'GAS BREATH' 'LIGHTNING BREATH'~
+Syntax: cast 'acid breath'      <victim>
+Syntax: cast 'fire breath'      <victim>
+Syntax: cast 'frost breath'     <victim>
+Syntax: cast 'gas breath'
+Syntax: cast 'lightning breath' <victim>
+
+These spells are for the use of dragons.  Acid, fire, frost, and lightning
+damage one victim, whereas gas damages every PC in the room.  Fire and
+frost can break objects, and acid can damage armor.
+
+High level mages may learn and cast these spells as well.
+~
+
+-1 'SPELL_MOONBEAM'~
+Syntax:  cast 'moonbeam' <victim>
+
+With the use of this spell you conjure forth a beam of pure
+moonlight which strikes your victim.  This beam will only do damage
+to this victim if they are of good alignment.
+~
+
+-1 'SPELL_WINDWALL'~
+Syntax:  cast 'windwall'
+
+Flurrying the Zephyrs of air into a potent force, the more skilled 
+elementalists invokes the power of the storm, sending it spiralling into the 
+hapless foes, the wind whipping and lashing at them.
+~
+
+-1 'SPELL_ICE STORM'~
+Syntax:  cast 'ice storm'
+
+This spell calls upon the powers of nature to blast the room with
+extreme cold and ice thus damaging all enemies of the caster in the room. 
+~
+
+-1 'SPELL_CALM ANIMAL'~
+Syntax: cast 'calm animal' <target>
+
+Calm animal allows the caster to calm down an otherwise aggressive or
+attacking opponent.  When cast on an opponent, their rage subsides and they
+cease the current battle, though attacking the opponent again will restart
+combat.  Calm animal also reduces the target's chance to hit and damage
+dealt for its duration.  Calm animal is only affective against animals.
+~
+
+-1 'SPELL_CHAOS BOLT'~
+Syntax: cast 'chaos bolt' <victim>
+
+Chaos Bolt can be a powerful spell.  By casting it, a blackguard summons the
+forces of chaos and disorder to destroy the victim.  If the victim is a
+good-aligned being, the chaos bolt will blast him or her with negative
+energy, inflicting damage.  Those that are not good will be immune from the
+power of the bolt.
+~
+
+-1 'SPELL_UNHOLY AURA'~
+Syntax: cast 'unholy aura'
+
+Unholy aura surrounds the caster with an unholy aura of death and
+destruction.  This aura allows the character affected by the aura to
+increase the strength of all magic that he or she casts, as well as the
+strength of the affected character's allies' magic.  Any evil-aligned
+character affected by unholy aura, together with all evil-aligned characters
+grouped with a character affected by unholy aura have the effective level at
+which they cast magic (both wizard and priestly magic) increased by up to
+ten character levels.
+~
+
+-1 'SPELL_RAY OF DECEPTION'~
+Syntax: cast 'ray of deception'
+
+Ray of deception opens a dark portal to the planes of negative energy,
+summoning forth a wave of destruction and evil.  The ray seeks out all
+non-evil creatures in an attempt to annihilate them.  It cannot harm the
+truly evil.  It will, however, inflict great damage on all those in the room
+with the caster who are not evil.  The closer the caster's alignment is to
+-1000, the more damage the ray deals.
+~
+
+-1 'SPELL_CORRUPTION'~
+Syntax: cast corruption
+
+The most powerful spell available to a blackguard, Corruption surrounds the
+caster with an aura of corruption and betrayal.  This aura provides
+resistance to all holy forces.  In addition, it will counter-attack all good
+forces that strike the blackguard with a blast of negative energy.  The
+protection granted by Corruption applies to all attacks, including spells
+and other magic.
+~
+
+-1 'SPELL_COMMAND UNDEAD'~
+Syntax: cast 'command undead' <target>
+
+This spell, if successful, causes the victim to follow you and to take
+orders from you.  Use ORDER to order your charmed followers.  Unlike
+'charm person', this spell only works on undead creatures.  However, it
+can be cast in some locations that 'charm person' is not allowed.
+~
+
+-1 'SPELL_FREE MOVEMENT'~
+Syntax: cast 'free movement'
+
+This spell allows the caster to walk about without expending great amounts
+of movement.  All rooms transversed while affected by this spell cost no
+more than one movement point.  In addition, free movement increases the
+caster's overall speed, resulting in a bonus to his or her dexterity.
+~
+
+-1 'SPELL_WALK ON WATER'~
+Syntax: cast 'walk on water'
+
+This spell allows the caster to walk across any type of water without
+the need for swimming lessons or a boat.
+~
+
+-1 'SPELL_ROOTED FEET'~
+Syntax: cast 'rooted feet' <target>
+
+This spell causes roots to grow up out of the ground and entangle the
+feet of the victim.  This prevents your victim from moving, and does some
+damage as well.  This spell does not work on flying creatures or in rooms
+that have no ground, though it will work inside buildings.
+~
+
+-1 'SPELL_HIBERNATION'~
+Syntax: cast 'hibernation'
+
+This spell attempts to put all creatures in the same room as the caster
+asleep.  It cannot be used during combat, and certain creatures may be
+immune to its effects.
+~
+
+-1 'SPELL_NATURE BLESSING'~
+Syntax: cast 'nature blessing'
+
+Nature blessing is a powerful ranger spell that allows the character to
+summon the forces of nature to bless all those in the same room as the
+ranger.  Nature blessing will, however, reject all those that are unnatural
+in form, most notably those that are undead.  All natural characters are
+blessed and shielded by the blessing.  All unnatural characters are rejected
+and may find themselves both cursed and physically damaged by the blessing.
+Casting this spell in a room full of unnatural creatures may be hazardous,
+as those harmed by the spell will attack the caster.  Casting nature
+blessing has a draining effect on the caster, reducing his or her movement
+and hit points slightly.
+~
+
+-1 'SPELL_CREATE SHELTER'~
+Syntax: cast 'create shelter'
+
+This spell creates a small magical tent that the caster can rest in to
+recover lost hit points, mana, and movement.  The higher the level of the
+caster, the faster the tent will restore him or her.  Additionally, at
+higher levels, the tent will be large enough for two or even three people.
+Note that the tent cannot be moved and will fade away after a time period,
+which also increases in duration with the caster's level.
+~
+
+-1 'SPELL_DETECT LYCANTHROPY'~
+Syntax: cast 'detect lycanthropy' <target>
+
+This spell enables the caster to detect whether the target character is a
+lycanthrope, or if the target character has become infected with a form
+of lycanthropy.  For more information on lycanthropy, read 'help
+lycanthropy'.
+~
+
+-1 'SPELL_NATURE SHIELD'~
+Syntax: cast 'nature shield' <character>
+
+The protection offered by the Nature Shield reduces the damage a character
+takes by one half.
+~
+
+-1 'SPELL_CREATE VINES'~
+Syntax: cast 'create vines'
+
+This spell creates a length of vine.  This vine functions as a rope.
+Ropes are needed to pass between certain rooms.  See 'help climb' for
+more information.
+~
+
+-1 'SPELL_GIFT OF NATURE'~
+Syntax: cast 'gift of nature'
+
+This spell bestows upon the caster a gift from his or her god.  The gift
+is an oaken staff that can be wielded in combat.  The gift only lasts for
+a short period of time; however, it is a fairly powerful weapon and its
+power increases with the caster's level at the time of casting.  The gift
+is a two-handed weapon.
+~
+
+-1 'SPELL_BARKSKIN'~
+Syntax: cast 'barkskin'
+
+This spell protects the caster by decreasing (improving) his or her armor
+class by turning his or her skin into a hard, wooden bark.  The amount of
+protection increases with the caster's level.
+~
+
+-1 'SPELL_ANTI-VENOM SPORES'~
+Syntax: cast 'anti-venom spores'
+
+This spell summons forth a small handful of powerful magic spores that
+trickle down onto the caster.  These spores grant the caster resistance
+to poison for a short time.
+~
+
+-1 'SPELL_FLOWER OF HEALTH'~
+Syntax: cast 'flower of health'
+
+This spell summons forth the image of a large, yellow flower.  This flower
+appears briefly above the caster and grants him or her resistance to the
+affects of disease for a short time period.
+~
+
+-1 'SPELL_THORN BLAST'~
+Syntax: cast 'thorn blast' <victim>
+
+This spell summons forth a blast of sharp, piercing thorns that fly at
+the caster's opponent, stinging him or her and causing damage.
+~
+
+-1 'SPELL_GROWTH SHROOMS'~
+Syntax: cast 'growth shrooms'
+
+This powerful spell is used to create a {Bbright blue mushroom{x that, when
+eaten, will permanently enlarge the size of whoever eats it.  This
+enlargement is as per the 'enlarge' spell.  Growth shrooms can only be
+cast during the noon hour, and cannot be cast indoors or within the limits
+of a city.
+~
+
+-1 'SPELL_SHRINKING SHROOMS'~
+Syntax: cast 'shrinking shrooms'
+
+This powerful spell is used to create a {Rbright red mushroom{x that, when
+eaten, will permanently reduce the size of whoever eats it.  This reduction
+is as per the 'reduce' spell.  Shrinking shrooms can only be cast during
+the midnight hour, and cannot be cast indoors or within the limits of a
+city.
+~
+
+-1 'SPELL_PLANT DOOR'~
+Syntax: cast 'plant door' <target>
+
+This spell opens a gateway between two plants in any location in the world.
+The caster steps through the plant at his or her location and arrives
+instantly at the location of whatever creature he or she targets.  The
+caster's pet travels with him or her as well.  The same restrictions on
+targets that exist for the 'gate' spell are present with this spell as
+well, though the chance of the target saving is reduced.  In addition,
+this spell only works outdoors and will not work in a city.  See 'help
+gate' for more.
+~
+
+-1 'SPELL_FLIGHT OF THE BIRD'~
+Syntax: cast 'flight of the bird' <character>
+
+This spell empowers the target character with the ability to fly through
+the air, like a bird.
+~
+
+-1 'SPELL_EYES OF THE WOLF'~
+Syntax: cast 'eyes of the wolf'
+
+This spell empowers the caster with the gift of sight equal to that of
+the powerful and fierce wolf.  The caster gains the ability to see clearly
+in the dark, and to see items and characters which would otherwise be
+invisible or hidden.
+~
+
+-1 'SPELL_PROTECTION LYCANTHROPY'~
+Syntax: cast 'protection lycanthropy'
+
+This spell protects the caster from becoming infected with lycanthropy.
+It does not, however, help if the caster is already in a state of
+lycanthropic change.  For more information on lycanthropy, read 'help
+lycanthropy'.
+~
+
+-1 'SPELL_STRENGTH OF THE BEAR'~
+Syntax: cast 'strength of the bear' <character>
+
+This spell grants the target character the power of the bear, increasing
+his or her strength.
+~
+
+-1 'SPELL_POLAR ADAPTATION'~
+Syntax: cast 'polar adaptation'
+
+This spell puts the caster in tune with polar creatures, allowing him
+or her to gain greater resistance to the affects of cold.
+~
+
+-1 'SPELL_DESERT ADAPTATION'~
+Syntax: cast 'desert adaptation'
+
+This spell puts the caster in tune with desert creatures, allowing him
+or her to gain greater resistance to the affects of heat and fire.
+~
+
+-1 'SPELL_BREATH OF THE FISH'~
+Syntax: cast 'breath of the fish' <target>
+
+This spell grants the target the ability to breathe underwater, much like
+a fish.  It should be noted that if this spell wears off while the target
+is underwater, he or she may begin to drown.
+~
+
+-1 'SPELL_SPEED OF THE CHEETAH'~
+Syntax: cast 'speed of the cheetah'
+
+This spell grants the caster the superior speed of the fastest of animals,
+the cheetah.  In addition to increasing the caster's dexterity, speed of
+the cheetah grants him or her two extra attacks during combat.  However,
+like the haste spell, it produces a great strain on the system, such that
+recuperative abilities are halved.  Speed of the cheetah is also capable
+of negating the slow spell. (see 'help slow').
+~
+
+-1 'SPELL_INSECT SWARM'~
+Syntax: cast 'insect swarm'
+
+This spell summons forth a swarm of flying, buzzing insects that attack
+everything in the room.  In addition to inflicting damage, the insects
+often poison their victim.  The sudden arrival of so many disgusting
+insects may cause some weaker characters to run in terror instead of
+staying to fight.
+~
+
+-1 'SPELL_ANIMAL FRIENDSHIP'~
+Syntax: cast 'animal friendship' <victim>
+
+This spell allows the caster to befriend an animal and have it follow
+him or her as a charmed follower.  It does not work on creatures that
+do not qualify as being animals.  Use ORDER to order your charmed
+followers.
+~
+
+-1 'SPELL_INSPIRATION'~
+Syntax: cast 'inspiration'
+
+The inspiration spell allows the caster to inspire those in his or her
+group to become even greater than they normally are.  Those affected by
+this spell gain the ability to hit better and cause more damage in combat.
+In addition, the strength and the constitution of those affected is
+increased.
+~
+
+-1 'SPELL_TURN UNDEAD'~
+Syntax: cast 'turn undead'
+
+Turn undead allows the caster to summon the power of his or her god to
+cast away all undead creatures in the same room as the caster.  The
+chance of success for this spell depends on the difference in level
+between the caster and the undead creatures.  If the caster is extremely
+more powerful than the undead, there is a chance that the undead creature
+will be utterly destroyed.  Note that there must be an exit in the room
+for the turned undead to flee out of or else it will not flee.  Also
+note that this spell has no effect on undead player characters.  Finally,
+this spell does count as an attack on all undead within the room if it is
+not successful.
+~
+
+-1 'SPELL_ANGELIC STRENGTH'~
+Syntax: cast 'angelic strength' <character>
+
+Angelic strength flows through the veins of the caster or target and
+bolsters their ability to attack their foes, pick up objects, and carry
+greater weights.
+~
+
+-1 'SPELL_ANGELIC LIGHT'~
+Syntax: cast 'angelic light' <character>
+
+This spell reduces the damage a character takes by one half.  It also
+increases the target's hitroll.
+~
+
+-1 'SPELL_JUDGMENT BOLT'~
+Syntax: cast 'judgment bolt' <victim>
+
+Judgment Bolt can be a powerful spell.  By casting it, a paladin summons the
+power of law and order to render judgment upon the victim.  If the victim
+proves unworthy, notably by being an evil being, the judgment bolt will
+blast him or her with holy energy, inflicting damage.  Those that are not
+evil will be unaffected by the bolt.
+~
+
+-1 'SPELL_HOLY AURA'~
+Syntax: cast 'holy aura'
+
+Holy aura surrounds the caster with a bright aura of divinity.  It allows
+the character affected by the aura to increase the strength of all magic
+that he or she casts, as well as the strength of the affected character's
+allies' magic.  Any good-aligned character affected by holy aura, together
+with all good-aligned characters grouped with a character affected by holy
+aura have the effective level at which they cast magic (both wizard and
+priestly magic) increased by up to ten character levels.
+~
+
+-1 'SPELL_FLARE'~
+Syntax: cast 'flare' <victim>
+
+Flare allows the caster to summon the power of his or her god to surround
+both the caster and the target character that the caster is currently
+fighting.  While affected by the flare, neither the caster nor the victim
+can take any combat actions; however, other members of the caster's group
+may continue their attacks.  Flare has a relatively short duration,
+typically not lasting more than 2 or 3 combat rounds.  It should be noted
+that flare will only work if the target is currently attacking the caster,
+in other words, if the caster is "tanking".
+~
+
+-1 'SPELL_JUSTICE'~
+Syntax: cast justice
+
+The most powerful spell available to a paladin, Justice surrounds the caster
+with an aura of truth and justice.  This aura provides resistance to all
+negative forces.  In addition, it will counter-attack all evil forces that
+strike the paladin with a blast of holy power.  The protection granted by
+Justice applies to all attacks, including spells and other magic.
+~
+
+-1 'SPELL_HOLY SYMBOL'~
+Syntax: cast 'holy symbol'
+
+This spell creates a holy symbol of the caster's god or goddess.  The
+symbol does not have any game effects.
+~
+
+-1 'SPELL_CONJURE MOUNT'~
+Syntax: cast 'conjure mount'
+Syntax: cast 'conjure mount' <name>
+
+This spell summons forth a mountable steed that the caster can ride.  In
+addition, the mount serves as a pet and will aid the caster in combat.
+The mount will be of a size equal to the caster's.  Note that in order to
+ride the conjured mount, the caster must be skilled in riding and have a
+saddle available.
+
+A conjured mount can be named when the spell is cast.  In order to name a
+mount, enter the desired name after the spell name.  Note that the same
+rules for naming pets apply to naming mounts.  See "help pets" for more.
+~
+
+-1 'SPELL_CHARMS OF THE DAEMON'~
+Syntax: cast 'charms of the daemon' <character>
+Syntax: cast 'charms of the daemon' <object>
+
+This spell summons the charms of evil demons, increasing the damage
+done by the target character in combat and increasing his or her
+defense against spells.  It can also be cast on objects, increasing
+their strength.
+~
+
+-1 'SPELL_PLAGUE'~
+Syntax: cast 'plague' <target>
+
+The plague spell infests the target with a magical disease of great virulence,
+sapping its strength and causing horrific suffering, possibly leading to
+death.  It is a risky spell to use, as the contagion can spread like
+wildfire if the victim makes it to a populated area.
+~
+
+-1 'SPELL_DAEMONIC AID'~
+Syntax: cast 'daemonic aid'
+
+An infusion of aid from the daemons of the dark regions, it increases the
+caster's skills in combat, making him or her hit more often and more
+effectively.  This spell cannot be cast on others.
+~
+
+-1 'SPELL_DAEMONIC POTENCY'~
+Syntax: cast 'daemon potency' <character>
+
+Daemonic strength flows through the veins of the caster or target and
+bolsters their ability to attack their foes, pick up objects, and carry
+greater weights.
+~
+
+-1 'SPELL_UNHOLY BLADE'~
+Syntax: cast 'unholy blade'
+
+Unholy Sword is one of the defining spells of the blackguard.  It summons
+forth a mighty sword, empowered with the might of the blackguard's god.
+This sword is extremely powerful, and its strength increases even more as
+the blackguard gains in levels.  The sword only exists for a short time,
+however, and then must be resummoned by the blackguard.
+~
+
+-1 'SPELL_HOLY SWORD'~
+Syntax: cast 'holy sword'
+
+Holy Sword is one of the defining spells of the paladin.  It summons
+forth a mighty sword, empowered with the might of the paladin's god.
+This sword is extremely powerful, and its strength increases even more as
+the paladin gains in levels.  The sword only exists for a short time,
+however, and then must be resummoned by the paladin.
+~
+
+
+-1 'SPELL_REPULSION'~
+Syntax: cast 'repulsion' <character>
+
+This spell reduces the damage a character takes by one half.  It also
+increases the target's damage roll.
+~
+
+-1 'SPELL_DAEMONIC CARAPACE'~
+Syntax: cast 'daemonic carapace' <character>
+
+A daemonic spell, involving a hard outer shell similar to a scorpion's outer
+shell. The protection it offers varies with the caster's level.
+~
+
+-1 'SPELL_TERROR'~
+Syntax: cast 'terror' <victim>
+
+This spell attempts to terrify the victim.  If successful, the terror that
+overwhelms the victim causes him or her to become less effective in combat,
+reducing both hit roll and damage roll.  In addition, the victim may even
+become so terrified that he or she will run away from combat.
+~
+
+-1 'SPELL_UNHOLY WORD'~
+Syntax: cast 'unholy word'
+
+Unholy word involves the invocation of the full power of a cleric or
+blackguard's god, with disastrous effects upon the enemies of the cleric or
+blackguard coupled with powerful blessings on the cleric or blackguard's
+allies.  All creatures of neutral and evil alignment in the room are
+blessed, aided, and protected from good forces, while those of good
+alignment are struck down by unholy might and cursed.  The cleric or
+blackguard suffers greatly from the strain of this spell, being left unable
+to move and drained of vitality.  This spell has deadly consequences when
+attempted by clerics of good alignment.
+~
+
+-1 'SPELL_LAST RITES'~
+Syntax: cast 'last rites' <corpse>
+
+Performing the last rites on a corpse is one of a cleric's most important
+duties.  By casting this spell on a deceased's corpse, the last rites are
+performed in the name of the caster's god.  Like sacrificing, the cleric is
+given monetary compensation for his or her offering.  Unlike sacrificing,
+however, there is a small chance that the god will look favorably upon
+the offering and bestow the caster with several protective spells.  The
+chance that the caster's god will so respond increases with the caster's
+level.
+~
+
+-1 'SPELL_HOVERING SPHERE'~
+Syntax: cast 'hovering sphere'
+
+This useful spell creates a translucent hovering sphere which follows the caster
+around, allowing him or her to hold treasures high with no fear of weight
+penalties.  It lasts no more than twice the casters level in minutes, and
+usually less.  It can hold 10 pounds per level of the caster, with a maximum
+of five pounds per item.  The spell requires an open float location on the
+character, and the only way to remove the sphere is to die or allow it to run
+out of energy.
+~
+
+-1 'SPELL_CLOUD OF REVELATION'~
+Syntax: cast 'cloud of revelation'
+
+This spell conjures a cloud of smoke that reveals all manner of invisible,
+hidden, sneaking, and blended creatures in the same room as the caster.
+~
+
+-1 'SPELL_FINAL PRAYER'~
+Syntax: cast 'final prayer'
+
+Final prayer can be both a cleric's most valuable and least used spell.
+It can only be cast during combat, and is normally saved for a situation
+in which the cleric faces certain death without some form of intervention
+from his or her god.  Casting final prayer will consume all of the caster's
+mana, movement, and all but one hit point.  However, if the cleric's god
+chooses to hear the final prayer, the caster will be cured of disease,
+poison, blindness, sleep, curse, and restored to full hit points, mana, and
+movement.  The chance that the cleric's god will answer the prayer increases
+with the caster's level.
+~
+
+-1 'SPELL_MYSTIC BOAT'~
+Syntax: cast 'mystic boat'
+
+This spell conjures a boat out of thin air.  While the boat does glow
+with an unearthly aura, it otherwise behaves exactly like all other
+boats.  Notably, as with all boats, its must be physically dragged
+between rooms that are not part of a body of water.
+~
+
+-1 'SPELL_SPIRITUAL HAMMER'~
+Syntax: cast 'spiritual hammer'
+
+This spell conjures a spiritual hammer, a weapon bestowed upon the caster
+by his or her god or goddess.  The hammer only exists for a short period
+of time.  However, in addition to functioning as an exotic type weapon,
+the spiritual hammer will, upon certain exceptional hits during combat,
+increase in power.
+~
+
+-1 'SPELL_RESIST POISON'~
+Syntax: cast 'resist poison'
+
+This spells imbues the caster with resistance to poison.  It does not,
+however, cure the caster of poisons that have affected him or her.
+~
+
+-1 'SPELL_RESIST FIRE'~
+Syntax: cast 'resist fire'
+
+This spell imbues its caster with resistance to the affects of fire.
+~
+
+-1 'SPELL_PRISMATIC ARMOR'~
+Syntax: cast 'prismatic armor' <character>
+
+This spell creates a {rp{yr{bi{ms{Cm{ca{wt{gi{yc{x field of armor around the target.
+In addition to improving the target's armor class, this spell also improves
+the target's saves.  Note that both armor class and saves improve by
+decreasing.
+~
+
+-1 'SPELL_EXHAUST'~
+Syntax: cast exhaust <victim>
+
+This spell slows the target down by decreasing their dexterity.
+~
+
+-1 'SPELL_MASS HARM'~
+Syntax: cast 'mass harm'
+
+The mass harm spell inflicts large amounts of damage on all creatures in
+the same room as the caster.  It should be used with caution, however, as
+those injured by the spell will attack the caster.
+~
+
+-1 'SPELL_COMBAT WILL'~
+Syntax: cast 'combat will' <character>
+
+This spell increases the constitution of the target character.
+~
+
+-1 'SPELL_FROZEN BLAST'~
+Syntax: cast 'frozen blast' <target>
+
+This spell allows the caster to summon forth a frozen blast of ice and
+water which inflicts damage on the target.  The spell also has a chance
+to freeze the target and its equipment.
+~
+
+-1 'SPELL_FIRE BLAST'~
+Syntax: cast 'fire blast' <target>
+
+This spell allows the caster to summon forth a blast of fire and heat
+which inflicts damage on the target.  The spell also has a chance to burn
+the target and its equipment.
+~
+
+-1 'SPELL_ANTI-MAGIC FIELD'~
+Syntax: cast 'anti-magic field' <character>
+
+This spell creates a field of anti-magic around the victim, preventing him
+or her from accessing mana and being able to cast spells.  The field of anti-
+magic is of limited duration, however.
+~
+
+-1 'SPELL_FINAL STRIKE'~
+Syntax: cast 'final strike' <target>
+
+Final strike is one of the most deadly and most dangerous spells known.
+Casting this spell summons the full wrath and fury of the caster's god to
+come smite one's foe.  The danger of this spell is that it succeeds less
+than half the time, and failure means certain and immediate death for the
+caster.  The success of this spell is affected by the level of the
+target as well as certain immunities, resistances, and vulnerabilities the
+target may have.
+~
+
+-1 'SPELL_DEPLETE STRENGTH'~
+Syntax: cast 'deplete strength' <victim>
+
+This spell reduces the strength of the victim.
+~
+
+-1 'SPELL_DETECT WEATHER'~
+Syntax: cast 'detect weather'
+
+This spell enables the caster to detect the current weather, regardless
+of whether or not the caster is outdoors.  When cast outdoors, this spell
+will yield the same result as the 'weather' command.  (See 'help
+weather').
+~
+
+-1 'SPELL_LIGHTNING REFLEXES'~
+Syntax: cast 'lightning reflexes' <character>
+
+Harnessing the speed and power of lightning, this spell increases the
+target's dexterity.
+~
+
+-1 'SPELL_CREATE RAINBOW'~
+Syntax: cast 'create rainbow' <victim>
+
+This spell summons forth a rainbow whose bright lights damage the caster's
+opponent.  In addition, the colorful rainbow has a chance to blind the
+caster's opponent.
+~
+
+-1 'SPELL_PROTECTION LIGHTNING'~
+Syntax: cast 'protection lightning'
+
+This spell imbues its caster with resistance to lightning damage.
+~
+
+-1 'SPELL_CALL LIGHTNING'~
+Syntax: cast 'call lightning'
+
+This spell works only out of doors, and only when the weather is bad.
+It summons bolts of lightning from the caster's god or goddess to strike
+all targets in the same room as the caster.
+~
+
+-1 'SPELL_SUMMON THUNDER'~
+Syntax: cast 'summon thunder'
+
+This spell works only out of doors, and only when the weather is bad.
+It summons booming crashes of thunder from the caster's god or goddess
+that wreak havoc and damage all targets in the same room as the caster.
+~
+
+-1 'SPELL_WINDWALK'~
+Syntax: cast 'windwalk'
+
+This spell allows the caster to feel as if he or she is walking on wind.
+Once affected by this spell, the caster does not expend any movement while
+walking about.  Other activities that drain movement are not affected.
+~
+
+-1 'SPELL_EARTHCRUMBLE'~
+Syntax: cast 'earthcrumble'
+
+This spell makes the earth shake and crumble, inflicting damage on
+every opponent in the room.  This spell does not affect flying creatures
+and does not work if the caster is in a room that has no ground.  Beware
+that this spell may cause all creatures in the room to attack the caster!
+~
+
+-1 'SPELL_LIGHTNING STRIKE'~
+Syntax: cast 'lightning strike' <victim>
+
+This powerful weather sphere spell allows the caster to summon forth a
+bolt of lightning regardless of the caster's location and the current
+weather.  In addition to inflicting damage, the lightning strike also
+has a chance to destroy some of the target's equipment.
+~
+
+-1 'SPELL_HURRICANE'~
+Syntax: cast 'hurricane' <target>
+
+The most powerful spell of the weather sphere, this spell creates a
+massive hurricane that pelts everyone in the same room as the caster.
+The hurricane may strike the caster as well, and therefore this spell
+should be used with extreme caution.
+~
+
+-1 'SPELL_LOCATE WARPSTONE'~
+Syntax: cast 'locate warpstone'
+
+This spell reveals the location of warpstones (magical items needed to
+cast portal and nexus) in the general vicinity (same area) as the caster.
+~
+
+-1 'SPELL_UNSTABLE GATE'~
+Syntax: cast 'unstable gate' <target>
+
+Unstable gate is similar to the more powerful gate spell, but does not
+work with nearly the same accuracy.  When successful, it will open a
+portal between the caster and the target that the caster and his or her
+pet travel through.  Targets more than three levels higher than the
+caster cannot be gated to.  God rooms, private rooms, and no recall rooms
+cannot be gated to, and no recall rooms cannot be gated out of.  Finally,
+any GameMaster or hero is immune to gate, as well as any player who has
+no summon set.  Clan members may not be gated to except by their fellow
+Clan members.
+
+Unlike gate, unstable gate has a chance to send the caster to a random
+location instead of the intended target every time it is cast.  This
+chance of failure decreases as the caster's level increases.
+~
+
+-1 'SPELL_WORD OF RECALL'~
+Syntax: cast 'word of recall'
+
+This spell allows the caster to return directly to the main recall point
+of his or her hometown without the need for a recall token.  It may be
+used during combat, though its chance of working is decreased and the
+caster does suffer a small experience point penalty.  In addition, all
+successful castings consume one-half of the caster's current movement
+points.
+~
+
+-1 'SPELL_GEMWARP'~
+Syntax: cast 'gemwarp' <gem>
+
+This spell is used to create warpstones.  The caster must first acquire
+a gem.  Casting this spell on the gem will transform the internal properties
+of the gem and infuse it with power.  The gem will then be able to be used
+as a warpstone, the material component for the portal and nexus spells.
+Note that while warpstones are valuable, merchants that usually purchase
+gems may not have any interest in acquiring a gem that has been changed
+into a warpstone.  Also note that certain lesser quality gems may not be
+able to be transformed.
+~
+
+-1 'SPELL_REVERSE GRAVITY'~
+Syntax: cast 'reverse gravity' <target>
+
+Reverse gravity changes the gravitational field surrounding the victim,
+causing him or her to shoot upwards.  The reversed field lasts only a
+fraction of a second, thus causing the victim to immediately crash back
+down to earth, and suffer damage.
+~
+
+-1 'SPELL_DIVINE INTERVENTION'~
+Syntax: cast 'divine intervention'
+
+This spell allows the caster's deity to intervene in combat on the caster's
+behalf.  As a result, the caster's hitroll and damroll are increased.  This
+spell cannot be cast on others.
+~
+
+-1 'SPELL_HOLY ARMOR'~
+Syntax: cast 'holy armor' <character>
+
+An angelic spell, the target is protected by an armor of faith.  The
+amount of protection varies with the caster's level.
+~
+
+-1 'SPELL_ANGELIC STRENGTH'~
+Syntax: cast 'angelic strength' <character>
+
+Angelic strength flows through the veins of the caster or target and
+bolsters their ability to attack their foes, pick up objects, and carry
+greater weights.
+~
+
+-1 'SPELL_PROTECTION NEGATIVE'~
+Syntax: cast 'protection negative'
+
+This spell imbues its caster with resistance to negative energy damage.
+It cannot be cast on others.
+~
+
+-1 'SPELL_PROTECTION HOLY'~
+Syntax: cast 'protection holy'
+
+This spell imbues its caster with resistance to holy energy damage.
+It cannot be cast on others.
+~
+
+-1 'SPELL_ANGELFIRE'~
+Syntax: cast 'angelfire' <target>
+
+Angelfire is a spell of pure holiness, and as such can only be used by
+those who follow the path of righteousness.  It conjures forth angelic
+forces to smite one's foes.  It cannot be cast on those of good alignment.
+~
+
+-1 'SPELL_LIFE TRANSFER'~
+Syntax: cast 'life transfer' <target>
+
+This spell transfers a portion of the caster's health (hit points) to the
+target.  The caster cannot be reduced below one hit point by casting this
+spell.
+~
+
+-1 'SPELL_SUMMON ANGEL'~
+Syntax: cast 'summon angel'
+
+This spell summons a holy, divine angel to be a companion of the caster.
+The power of the angel is roughly equivalent to that of the caster.  This
+spell should not be cast by those of evil or neutral persuasions, less
+they suffer the consequences.
+~
+
+-1 'SPELL_DEMONFIRE'~
+Syntax: cast 'demonfire' <target>
+
+Demonfire is a spell of blackest evil, and as such can only be used by
+those who follow the paths of darkness.  It conjures forth demonic forces
+to inflict terrible wounds on the enemies of the caster.  It cannot be
+cast on those of evil alignment.
+~
+
+-1 'SPELL_LIFE DRAIN'~
+Syntax: cast 'life drain' <victim>
+
+This spell saps the experience points, mana, and movement points of its
+target.  In addition, it causes a fair amount of damage.  The caste gains
+both hit points and movement points from the victim.  However, casting
+this spell is considered an evil act, and the caster's alignment will
+is affected.
+~
+
+-1 'SPELL_SUMMON DEMON'~
+Syntax: cast 'summon demon'
+
+This spell summons an unholy, evil demon to be a companion of the caster.
+The power of the demon is roughly equivalent to that of the caster.  This
+spell should not be cast by those of good or neutral persuasions, less
+they suffer the consequences.
+~
+
+-1 'SPELL_IMPROVED RESTORATION'~
+Syntax: cast 'improved restoration'
+
+While affected by this spell, the caster's ability to cast spells in the
+restoration sphere is greatly increased.  All curing spells cure more hit
+points then without this spell cast, and all other restoration spells
+have an increased chance of success.
+~
+
+-1 'SPELL_RESURRECTION'~
+Syntax: cast 'resurrection' <corpse>
+
+This powerful healing spell allows the caster to bring a deceased creature
+back to life.  This spell does not work on player characters, as upon death
+all player characters are returned to life already.  This spell also does
+not work on creatures that were more powerful than the caster in life.
+Note that resurrected pets will no longer be in the service of their former
+master.
+~
+
+-1 'SPELL_FULL HEAL'~
+Syntax: cast 'full heal' <character>
+
+Sphere: HEALING
+
+This spell does exactly what it sounds like.  It fully heals the target
+character.  In addition, it cures any poison, plague, blindness, sleep,
+or curse that is affecting the character, and fully restores all of the
+character's movement points.
+~
+
+-1 'SPELL_CONFUSION'~
+Syntax: cast 'confusion' <victim>
+
+This spell confuses the victim for a few minutes.  The victim will be uncertain
+who his or her friends are, and who his or her foes are.  He or she will begin
+to randomly attack any target in the room each round that this spell remains in
+effect.
+~
+
+-1 'SPELL_CHAOTIC BLAST'~
+Syntax: cast 'chaotic blast' <victim>
+
+Chaotic blast is a powerful spell granted to the most powerful clerics of
+Yuri Longshadow, Goddess of Mischief.  One casting of this spell will
+cast up to five randomly selected spells known by the cleric on his or
+her opponent.
+~
+
+-1 'SPELL_SLUMBER'~
+Syntax: cast 'slumber' <character>
+
+This spell puts its victim to sleep.  It cannot be used during combat,
+however, if the target does not fall asleep, it will attack the caster.
+~
+
+-1 'SPELL_DARKVISION'~
+Syntax: cast 'darkvision' <character>
+
+This spell allows the target character to see in the dark, even if he or
+she does not have a light source.
+~
+
+-1 'SPELL_CLOUD OF DARKNESS'~
+Syntax: cast 'cloud of darkness'
+
+The caster of this spell summons forth an enveloping cloud of darkness.  All
+those caught within the cloud are slowed by its magical effects (as per the
+slow spell).  This can cause the loss of any haste affects as well as dexterity
+penalties.  Those affected by dark vision are immune to this spell.
+~
+
+-1 'SPELL_SHROUD'~
+Syntax: cast 'shroud'
+
+Shroud is a powerful spell reserved for the highest and most powerful
+clerics of Dulac, God of Darkness and Prince of Lies.  This spell shrouds
+the caster in darkness.  The shroud is a living form of shadow that has
+the power to strike out at the cleric's opponents with shadowy tentacles.
+Upon a successful hit, the tentacles may slow or weaken the target.  In
+addition, the shroud protects the caster, absorbing all damage intended
+for him or her.  However, the shroud has a limited number of hit points
+and will dissipate once it has taken enough damage.
+~
+
+-1 'SPELL_HYDROSTRIKE'~
+Syntax: cast 'hydrostrike' <victim>
+
+This spell summons forth a strike of water which damages the victim with a
+drowning attack.  The water drenches the victim, with a chance to destroy
+some of his or her equipment and possibly even drown him or her.
+~
+
+-1 'SPELL_TSUNAMI'~
+Syntax: cast 'tsunami'
+
+This spell allows the caster to summon a mighty tsunami to flood through
+an entire room, drowning all possible opponents.  This spell can only be
+cast while either in water or in a room directly adjacent to water.
+~
+
+-1 'SPELL_SACRED MISTS'~
+Syntax: cast 'sacred mists'
+
+Sacred Mists surrounds the caster with an aura of misting energy.  In
+tune with the ancient songs of the seas, the caster is given the power
+to breathe underwater and a resistance to drowning.  It also weakens
+both cold and fire based attacks.  However, this spell should be used
+with care, as it will make the caster vulnerable to lightning-based
+attacks.
+~
+
+-1 'SPELL_RIDE THE WINDS'~
+Syntax: cast 'ride the winds' <character>
+
+This spell enables the target character to ride on the wind, granting
+both the ability to fly and increased movement points.  For information
+on how to fly and land, see 'help flying'
+~
+
+-1 'SPELL_SNOWY BLAST'~
+Syntax: cast 'snowy blast' <target>
+
+This spell conjures forth a blast of snow and ice that damages the target
+and has a chance to freeze him or her with possible loss of equipment.
+~
+
+-1 'SPELL_WHIRLING SANDS'~
+Syntax: cast 'whirling sands'
+
+This spell summons forth a whirling sandstorm that affects everyone in
+the same room as the caster.  It does not, however, work if the caster
+is underwater.
+~
+
+-1 'SPELL_LIGHTNING FIELD'~
+Syntax: cast 'lightning field'
+
+This powerful spell is granted only to the most powerful clerics of
+Alesm'hai, Goddess of Storms.  It creates a protective field of lightning
+around the caster.  The field allows the caster to resist lightning-based
+attacks.  It also strikes back at the caster's opponents, inflicting
+lightning damage on anyone whose attacks strike the caster.
+~
+
+-1 'SPELL_STONE FIST'~
+Syntax: cast 'stone fist' <target>
+
+This spell hardens its target's fists into stone, allowing his or her unarmed
+punches to strike for greater amounts of damage.  It has no effect if the
+target wields a weapon during combat.
+~
+
+-1 'SPELL_INVINCIBLE MOUNT'~
+Syntax: cast 'invincible mount' <target>
+
+This spell can only be cast on mounts (pets that are being ridden with
+the 'riding' skill).  When cast upon a mount, it infuses them with divine
+abilities during combat.  Specifically, it adds significantly to their
+armor class and grants them the ability to 'fade' to avoid some attacks.
+The fade ability only works while the target remains mounted.  See
+'help fade' for more information on this ability.
+~
+
+-1 'SPELL_BATTLE FRENZY'~
+Syntax: cast 'battle frenzy'
+
+Battle frenzy is a powerful spell granted to clerics that follow Gorack,
+God of War.  This spell drives all those that are grouped with the cleric,
+including the cleric himself, into a battle frenzy.  All those affected
+have their hitroll and damroll increased, and their saving throws improved.
+However, this frenzy does come with a penalty to armor class.  Like the
+regular frenzy spell, battle frenzy provides an immunity to the calm spell.
+~
+
+-1 'SPELL_BATTLE FURY'~
+Syntax: cast 'battle fury'
+
+Battle fury is the most powerful spell granted to followers of Gorack,
+God of War.  This spell turns the cleric into a ferocious battler by
+increasing his or her hitroll and damroll significantly and improving
+his or her armor class.  Additionally, the caster is affected by a Mage
+Spell Level 3 version of the haste spell.  The only drawbacks of this
+spell are that it cannot be cast on others and it has a relatively short
+duration.
+~
+
+-1 'SPELL_WATER TO WINE'~
+Syntax: cast 'water to wine' <object>
+
+This spell changes water into wine, and wine back into water.  Simply casting
+it on any drink container filled with water will convert the water into wine,
+while casting it on a drink container filled with wine will change the wine
+into water.
+~
+
+-1 'SPELL_FRIENDSHIP'~
+Syntax: cast 'friendship' <victim>
+
+Friendship allows the caster to calm down and befriend aggressive or
+attacking opponents.  When cast on an opponent, their rage subsides and
+they end the current battle, though attacking the opponent again will
+restart combat.  Friendship also has a duration, during which time any
+affected target will not aggressively attack the caster or anyone else.
+~
+
+-1 'SPELL_SEDUCTION'~
+Syntax: cast 'seduction' <victim>
+
+This spell, much like 'charm person', causes the victim to become your
+devoted servant when successfully cast.  Seduction can be used in certain
+areas where 'charm person' cannot be cast, and creatures are more
+likely to fall victim to it than to 'charm person'.  Use ORDER to
+order your seduced followers around.
+~
+
+-1 'SPELL_FIND PATH'~
+Syntax: cast 'find path' <target>
+
+This spell allows the caster to attempt to find a path to the target
+creature.  It only works on target creatures or characters in the same
+area as the caster.  There must be a possible path to your target and
+you must be able to see your target to find a path to it.  Find path
+does not work while in most cities or other developed areas.
+~
+
+-1 'SPELL_ARROW OF ANYLAS'~
+Syntax: cast 'arrow of anylas' <victim>
+
+This powerful spell is granted only to the most powerful clerics of
+Anylas Gil-Ganad, Moon God and Lord of the Hunt.  It summons forth a
+mighty arrow to strike down the caster's foes.  This arrow, said to come
+straight from Anylas's bow, inflicts high amounts of damage.  In addition,
+the arrow has a chance to strike the target in the heart (if it has a
+heart).  If the arrow strikes the heart, the target will die instantly.
+~
+
+-1 'SPELL_SYMBIOTE'~
+Syntax: cast 'symbiote'
+
+This spell joins the caster's body with a symbiote.  Symbiotes represent
+the ultimate merging of man and nature.  The caster provides the symbiote
+with a place to live within his or her body and nourishment.  The symbiote
+returns the favor by absorbing some of the damage that otherwise would
+have hurt the caster.  The spell is more like a summon spell than a
+protection spell and thus does not inhibit the use of spells like sanctuary.
+~
+
+-1 'SPELL_SUNBLIND'~
+Syntax: cast 'sunblind' <victim>
+
+This spell casts the light of the sun directly into the victim's eyes,
+rendering him or her blind.
+~
+
+-1 'SPELL_RAY OF SUN'~
+Syntax: cast 'ray of sun' <victim>
+
+This spell summons forth a blast of sunlight from the caster's own
+fingertips, aimed directly at the victim.  The light inflicts damage
+on the victim.
+~
+
+-1 'SPELL_BLINDING RADIANCE'~
+Syntax: cast 'blinding radiance' <victim>
+Syntax: cast 'blinding radiance' <object>
+
+Blinding Radiance is a powerful spell reserved for clerics of Kayla,
+Goddess of the Sun.  When cast on an opponent, it strikes him or her
+blind and heats all objects worn by the victim, causing them to be
+dropped.  There is also a chance that Kayla will strike down the caster's
+foe, killing him or her completely.
+
+Blinding Radiance can also be cast on objects.  This spell will cause
+the object to glow with the radiant light of the Sun.  However, metal
+objects might not survive being touched by the light and may melt.
+~
+
+-1 'SPELL_NECROTISM'~
+Syntax: cast 'necrotism'
+Syntax: cast 'necrotism' <weapon>
+
+Necrotism is an extremely powerful spell that imbues either the caster's
+weapon or spells with the dark energy of Kardis, God of the Underworld.
+This energy causes the living to die with great frequency when they are
+exposed to it, and it causes the undead to decay at exactly the same rate.
+Necrotic weapons will kill instantly with some frequency.  Spells imbued
+with necrotic energy will often instantly kill their target as well.
+This includes spells cast on the caster.  Thus, healing yourself while
+you are empowered by this force can be deadly.  Either a character's
+weapon or their spells may be necrotic at any given time, but not both.
+~
+
+-1 'SPELL_KNOWLEDGE'~
+Syntax: cast 'knowledge' <character>
+
+This spell temporarily increases the wisdom and intelligence of the target
+character.
+~
+
+-1 'SPELL_TONGUES'~
+Syntax: cast 'tongues'
+
+This spell grants the caster the ability to speak and understand all
+languages, regardless of whether or not the caster has studied the
+language.  This spell, however, does not make up for mistakes in the
+speaking of the language by the person the caster is conversing with.
+This spell also does not grant the ability to write (see 'help icnote')
+in languages that the caster has not studied.
+~
+
+-1 'SPELL_STRATEGIC RETREAT'~
+Syntax: cast 'strategic retreat'
+
+Available only to the most powerful clerics of Kazgen, God of Wisdom, this
+spell grants the caster the protection of his or her god from the clutches
+of death.  While affected by this spell, Kazgen will provide the caster
+with a path of retreat from combat whenever the caster is about to take
+lethal damage.  The caster is sent to his or her hometown recall point
+with only one hit point remaining, but alive.  This spell does not affect
+certain other forms of death, such as drowning.
+~
+
+-1 'SPELL_NECROFIRE'~
+Syntax: cast 'necrofire' <target>
+
+Necrofire is a spell of blackest evil, and as such can only be used by those
+who follow the paths of darkness.  It conjures forth undead spirits to
+inflict terrible wounds on the enemies of the caster.  At higher casting
+levels, necrofire inflicts greater damage, negates saving throws, and
+puts a curse upon the victim.  At its highest level, the caster is able
+to attempt to have the spirits remove the victim from his or her presence.
+~
+
+-1 'SPELL_CREATE VINES'~
+Syntax: cast 'create vines'
+
+This spell creates a length of vine.  This vine functions as a rope.
+Ropes are needed to pass between certain rooms.  See 'help climb' for
+more information.
+~
+
+-1 'SPELL_CHAOTIC BLAST'~
+Syntax: cast 'chaotic blast' <victim>
+
+Chaotic blast is a powerful spell granted to the most powerful clerics of
+Yuri Longshadow, Goddess of Mischief.  One casting of this spell will
+cast up to five randomly selected spells known by the cleric on his or
+her opponent.
+~
+
+-1 'SPELL_MAGIC MIRROR'~
+Syntax: cast 'magic mirror'
+
+Magic Mirror creates a magical shield around the caster.
+The shield around the caster has a chance to deflect any hostile
+magics cast at the person back upon their caster.
+~
+
+-1 'SPELL_ANIMATE DEAD'~
+Syntax: cast 'animate dead' <corpse>
+
+The signature necromantic spell, it raises a skeleton or corpse from death
+back to life, as a servant of the necromancer. The strength of the corpses
+raised is based upon the casting level of the spell.  Thus, it is
+possible to raise a creature more powerful than the caster if the spell
+is trained to its highest levels.
+~
+
+-1 'SPELL_CHOKE'~
+Syntax: cast choke <character>
+
+An invisible hand of telekinetic force, grabs the throat of the target, and
+attempts to suffocate him/her.  Highly disconcerting, no doubt.
+
+At higher casting levels, choke does more damage, negates the victim's
+saving throw, and has a chance to reduce the victim to within an inch of
+death.
+~
+
+-1 'SPELL_WRAITHFORM'~
+Syntax: cast 'wraithform' <target>
+
+This spell reduces the damage a character takes by one half.  In addition,
+it improves the character's armor class.
+~
+
+-1 'SPELL_SPEAK WITH DEAD'~
+Syntax: cast 'speak with dead' <corpse>
+
+This spell is used to temporarily bestow un-life upon a corpse.  If the
+spell is succesfully cast, the corpse will rise and speak to the caster.
+The corpse will inform the caster who it was during its life and who caused
+it to die.  This spell does not work on all corpses.
+~
+
+-1 'SPELL_ENERGY DRAIN'~
+Syntax: cast 'energy drain' <target>
+
+This spell saps the experience points, mana, and movement points of its
+target.  The damage caused increases as the casting level increases.
+In addition, at higher casting levels, the victim's saving throw is
+negated, and the caster gains additional hit points, movement points,
+strength points, and mana from the victim.  At its highest level, the
+victim loses consciousness as well.
+~
+
+-1 'SPELL_POOL OF BLOOD'~
+Syntax: cast 'pool of blood'
+
+This spell summons forth a pool of blood from the bowels of the earth.  It
+only works on solid ground.  This spell also causes all those within the
+room other than the caster to make a saving throw.  Those that fail slip in
+the pool, lose any haste affects, and suffer temporary armor class and
+dexterity penalties.  Most importantly, this spell does not count as an
+attack upon those affected.
+~
+
+-1 'SPELL_SPECTRAL HAND'~
+Syntax: cast 'spectral hand' <target>
+
+This spell brings into being a hand of pure necromantic force, which sinks
+into the victims chest and squeezes.  It causes intense pain, and can cause
+the heart to fibrolate, and lungs to collapse.
+
+At higher levels, the spectral hand does greater amounts of damage to your
+foe, prevents your opponent from receiving a saving throw, and drains hit
+points, movement, and mana from your opponent into you.
+~
+
+-1 'SPELL_ROTTING TOUCH'~
+Syntax: cast 'rotting touch' <target>
+
+This spell causes the caster to summon forth death and decay from his or
+her fingertips to inflict damage and disease on the victim.  At higher
+spell levels, this spell causes more damage, negates the victim's
+saving throw, and causes the victim to become more severly affected by
+the diseases, including a loss of strength.
+~
+
+-1 'SPELL_CLOUD OF DARKNESS'~
+Syntax: cast 'cloud of darkness'
+
+The caster of this spell summons forth an enveloping cloud of darkness.  All
+those caught within the cloud are slowed by its magical effects (as per the
+slow spell).  This can cause the loss of any haste affects as well as dexterity
+penalties.  Those affected by dark vision are immune to this spell.
+~
+
+-1 'SPELL_FEAR'~
+Syntax: cast 'fear' <target>
+
+This spell invokes the victim's greatest fears.  It causes hitroll and damage
+penalties in the victim.  At higher casting levels, it also has the chance to
+cause the victim to run away in terror.  At its highest level, victims of this
+spell have been known to simply drop dead from fright.
+~
+
+-1 'SPELL_COMMAND UNDEAD'~
+Syntax: cast 'command undead' <target>
+
+This spell, if successful, causes the victim to follow you and to take
+orders from you.  Use ORDER to order your charmed followers.  Unlike
+'charm person', this spell only works on undead creatures.  However, it
+can be cast in some locations that 'charm person' is not allowed.
+~
+
+-1 'SPELL_DEATH SPELL'~
+Syntax: cast 'death spell' <target>
+
+Attacking the heart of the victim, death spell attempts to stop it from
+beating. It is an incredibly dangerous spell.  Death spell has no
+effect on creatures without hearts.  At higher levels, death spell
+causes greater amounts of damage and negates the saving throw.  At its
+highest casting level, death spell causes the victim's heart to explode
+in his or her chest, killing him or her instantly.
+~
+
+-1 'SPELL_SUMMON GHOST'~
+Syntax: cast 'summon ghost'
+
+This spell summons a ghostly apparition to the aid of the caster.  The
+ghost's power is roughly equivalent to that of the caster.
+~
+
+-1 'SPELL_ARACHNOPHOBIA'~
+Syntax: cast 'arachnophobia'
+
+This spell summons forth a swarm of poisonous spiders that attack everything
+in the room.  In addition to inflicting damage, the spiders often poison their
+victims.  The swarm is so terrifying that some creatures will turn and flee
+instead of remaining to face the swarm.
+~
+
+-1 'SPELL_FINGER OF DEATH'~
+Syntax: cast 'finger of death' <target>
+
+This spell causes the victim to lose a great amount of life force.  At
+higher levels, the damage from the spell increases, the victim loses their
+saving throw, and at the highest level the victim will often quite simply
+drop dead.  It is one of the most powerful, and most evil spells known.
+~
+
+-1 'SPELL_BLACK PLAGUE'~
+Syntax: cast 'black plague' <target>
+
+Black plague is one of the most devastating spells available to
+necromancers.  It affects all those in the room with the caster,
+causing disease and spreading plague.  At its higher casting levels,
+black plague causes even more damage, as well as negating the saving
+throw.  At its highest level, black plague can instantly wipe out
+any and all undead creatures, in addition to its other affects.
+~
+
+-1 'SPELL_PHYLACTERY'~
+Syntax: cast 'phylactery'
+
+One of the most powerful spells available to a necromancer, phylactery
+surrounds its caster with a {rCrimson Aura{x.  While surrounded by this
+aura, the caster gains a chance to "cheat death."  If successful, instead
+of dying, the necromancer is able to store a portion of his life essence
+in an unseen magical container known as a phylactery.  When the
+necromancer dies, he or she is able to attempt to restore his or her
+life from this phylactery.
+~
+
+-1 'SPELL_HYPNOTISM'~
+Syntax: cast 'hypnotism' <target>
+
+Hypnotism allows the caster to calm down otherwise aggressive or attacking
+opponents.  When cast on an opponent, their rage subsides and they cease
+the current battle, though attacking the opponent again will restart combat.
+Hypnotism does have a short duration, during which time any affected target
+will not aggressively attack the caster or anyone else.
+~
+
+-1 'SPELL_GLOBE OF INVULNERABILITY'~
+Syntax: cast 'globe of invulnerability' <target>
+
+This spells reduce the damage a character takes by one half.  It also
+gives one a bonus to their saving throws.
+~
+
+-1 'SPELL_MIND BLAST'~
+Syntax: cast 'mind blast' <target>
+
+This spell causes the target to suffer from mental damage.  At higher
+casting levels, the damage is greatly increased and the target loses
+its saving throw.
+~
+
+-1 'SPELL_FROST BLADE'~
+Syntax: cast 'frost blade' <target>
+Syntax: cast 'frost blade' <object>
+
+This spell imbues a blade weapon with an icy coating, causing the blade
+to mist when out in the air, and the weapon to do cold damage in combat.
+
+It can also be cast directly on your opponent in combat, causing them
+to weaken and freeze.
+~
+
+-1 'SPELL_SHOCK BLADE'~
+Syntax: cast 'shock blade' <target>
+Syntax: cast 'shock blade' <object>
+
+This spell imbues a weapon with a sheath of lightning, sparking up and
+down the blade, causing foes to be shocked and suffer lightning damage in
+combat.
+
+It can also be cat directly on one's opponent in combat, causing them
+to be struck weak by the power of lightning.
+~
+
+-1 'SPELL_FLAME BLADE'~
+Syntax: cast 'flame blade' <target>
+Syntax: cast 'flame blade' <object>
+
+This spell imbues a weapon with a flaming sheath, causing flame damage,
+and fire blindness in combat.
+
+It can also be cast directly at one's opponent, causing damage and
+possible blindness.
+~
+
+-1 'SPELL_VAMPIRIC BLADE'~
+Syntax: cast 'vampiric blade' <target>
+Syntax: cast 'vampiric blade' <object>
+
+This spell enables a caster to make a weapon vampiric.  Vampiric weapons
+cause negative damage, and drain hp for the caster.
+
+It can also be cast directly upon your opponent during combat, causing
+a loss in their constitution and will to live.
+~
+
+-1 'SPELL_ENCHANT WAND'~
+Syntax: cast 'enchant wand' <item> <spell>
+
+Enchant wand is used by enchanters to imbue a wand with the magic of any
+spell known by the enchanter.  Before this spell can be cast, however, the
+enchanter must obtain an unenchanted, or empty, wand.  This spell can then
+be cast upon the empty wand and it will be imbued with between one and ten
+charges of the spell.  Note that only the Spell Level 1 versions of spells
+may be enchanted into a wand.
+~
+
+-1 'SPELL_ENCHANT STAFF'~
+Syntax: cast 'enchant staff' <item> <spell>
+
+Enchant staff is used by enchanters to imbue a staff with the magic of any
+spell known by the enchanter.  Before this spell can be cast, however, the
+enchanter must obtain an unenchanted, or empty, staff.  This spell can then
+be cast upon the empty staff and it will be imbued with between one and ten
+charges of the spell.  Note that only the Spell Level 1 versions of spells
+may be enchanted into a staff.
+~
+
+-1 'SPELL_SHRIEKING BLADES'~
+Syntax: cast 'shrieking blades' <target>
+
+This powerful enchanter spell makes use of the enchanter's abilities to
+control the magic in objects, specifically weapons.  It summons forth a
+swarming barrage of blades that attack the caster's opponent, each inflicting
+brutal damage.  At higher casting levels, the number of blades and amount of
+damage caused by each one increases.  At its highest levels, the blades are
+very often enchanted by effects such as fire, lightning, frost, or the like.
+~
+
+-1 'SPELL_MIND BLADE'~
+Syntax: cast 'mind blade'
+
+This powerful enchanter spell summons forth a blade of pure mental energy that
+the caster can wield in combat.  This powerful weapon does an extreme amount
+of damage, as well as increasing the wielder's mana supply and intelligence,
+while decreasing (improving) the wielder's saves.  The blade cannot be dropped
+while this spell is in effect.  Note that the weapon is type "exotic" to
+allow for non-sword wielding enchanters to use it.
+~
+
+-1 'SPELL_MIRROR IMAGE'~
+Syntax: cast 'mirror image'
+
+The most powerful spell available to enchanters, mirror image creates
+an exact clone of the caster that will aid the enchanter in battle.
+The mirror image not only has the same stats as the caster, but is
+also fully equipped with an identical set of equipment to that worn by
+the caster (though it is not possible to have the image remove or give
+away its mirror equipment).
+~
+
+-1 'SPELL_MANASHIELD'~
+Syntax: cast 'manashield' <target>
+
+This spell reduces the damage a character takes by one half.  It also
+temporarily increases the target's maximum amount of mana.
+~
+
+-1 'SPELL_DEATH FOG'~
+Syntax: cast 'death fog'
+
+This spell changes the very nature of the air in a room (or the water if
+in an underwater room), creating a poisonous cloud of fog that inflicts
+damage on all enemies in the room.  At higher casting levels, the death fog
+inflicts more damage, negates saving throws for the victims, and can become
+affected by the poison, causing a loss in strength and the infliction of
+more damage over the duration of the poison.  At its highest casting level,
+death fog can inflict damage to a victim multiple times.
+~
+
+-1 'SPELL_ANIMATE OBJECT'~
+Syntax: cast 'animate object' <object>
+
+This spell is used to bestow life upon inanimate objects.  The change is
+permanent as the object will lose all of its prior characteristics and instead
+take on the form of a pet for the caster.  The animated object's level is the
+same as its level when it was an object.  Note that not all objects can be
+animated.  Most notably, objects that cannot be held, questitems, and containers
+cannot be animated.
+~
+
+-1 'SPELL_ANTIGRAVITY'~
+Syntax: cast 'antigravity' <target>
+
+Antigravity is one of the most powerful transmuter spells.  This spell reverses
+the gravitational fields holding the target down to the earth.  The field is
+then quickly restored, causing the victim to shoot upwards and then crash back
+down, causing damage.  At higher casting levels, the damage increases as the
+fields are weakened even more.  At its highest casting levels, the victim will
+actually be propelled to great heights (provided that the spell is not cast
+indoors).  At its highest casting level, the victim will leave the planet's
+atmosphere, and be subject to the vacuum of space.
+~
+
+-1 'SPELL_ENLARGE'~
+Syntax: cast 'enlarge'
+        cast 'enlarge' <item>
+
+This extremely powerful spell is used to enlarge the size of objects, or
+even the caster.  When cast on on object, the item will permanently increase
+in size by one size value (see 'help size').  There is a small chance,
+however, that the object will increase to giant sized instantly.  When cast
+on oneself, the caster's size increases by one size value.  All objects worn
+by the caster increase in size along with him or her.  This size change is
+permanent, and can only be undone with the reduce spell.
+~
+
+-1 'SPELL_REDUCE'~
+Syntax: cast 'reduce'
+        cast 'reduce' <item>
+
+This extremely powerful spell is used to reduce the size of objects, or
+even the caster.  When cast on on object, the item will permanently decrease
+in size by one size value (see 'help size').  There is a small chance,
+however, that the object will decrease to tiny sized instantly.  When cast
+on oneself, the caster's size decreases by one size value.  All objects worn
+by the caster decrease in size along with him or her.  This size change is
+permanent, and can only be undone with the enlarge spell.
+~
+
+-1 'SPELL_TEMPORAL STASIS'~
+Syntax: cast 'temporal stasis'
+
+Temporal stasis is a powerful transmuter spell that allows the caster to cause
+time to create a separate field around the victim.  The victim will be unable
+to fight for a few rounds while affected by the field.  This spell is only
+usable during combat.  At higher casting levels, the victim loses his or her
+saving throw, and the number of rounds during which the victim is affected is
+increased.  In addition, there is a period of time after being affected by this
+spell in which the victim cannot be affected again as the timelines are
+realigned.  At higher casting levels, this waiting period decreases.
+~
+
+-1 'SPELL_POLYMORPH SELF'~
+Syntax: cast 'polymorph self' <race>
+
+This spell allows the caster to polymorph him or her self into another race.
+The race change is real, granting the caster any and all powers of the new race.
+However, any special benefits of the caster's natural race are lost while this
+spell is in effect.  In addition to most player races, several non-player races
+are available with this spell.  A complete list of available races can be seen
+by reading "help polymorph races."  This spell does have one catch.  When
+it wears off or otherwise ends, there is a small chance that the caster will be
+unable to return to his or her natural state, and instead be stuck in the new
+form.  Note also that if a new form is of a different size than your original
+race, only equipment you are wearing will resize itself to fit your new form.
+~
+
+-1 'SPELL_FLAMEVISION'~
+Syntax: cast 'flamevision'
+
+This spell draws upon an elementalist's use of the powers of fire to augment
+the caster's power of sight.  An individual affected by this spell gains the
+ability to see in the dark, detect hidden and invisible, detect magical
+auras, and detect good and evil in others.
+~
+
+-1 'SPELL_WATER BREATH'~
+Syntax: cast 'water breath' <target>
+
+This spell confers upon the target the ability to breathe underwater.  Be
+careful in its use, though, as when this spell wears off, if the target is
+underwater, he or she will begin to drown.
+~
+
+-1 'SPELL_STONE FIST'~
+Syntax: cast 'stone fist'
+
+This spell hardens its target's fists into stone, allowing his or her unarmed
+punches to strike for greater amounts of damage.  It has no effect if the
+target wields a weapon during combat.
+~
+
+-1 'SPELL_HYDROBLAST'~
+Syntax: cast 'hydroblast' <target>
+
+This spell summons forth a blast of water which damages the victim with a
+drowning attack.  At higher spell levels, this spell negates the victim's
+saving throw, inflicts more damage, and has a chance to drown the victim.
+At its highest casting level, multiple blasts of water will hit the target
+with each casting.
+~
+
+-1 'SPELL_ELEMENTAL FIELD'~
+Syntax: cast 'elemental field' <target>
+
+This spell reduces the damage a character takes by one half.  It also
+increases the target's damage roll.
+~
+
+-1 'SPELL_IMMOLATION'~
+Syntax: cast 'immolation' <target>
+
+This spell summons forth great fires which inflict damage on the target.
+At higher spell levels, this spell negates the target's saving throw,
+has a chance to burn equipment, and causes greater amounts of damage.
+At its highest level, immolation has a chance to cause extreme amounts
+of damage.
+~
+
+-1 'SPELL_THUNDERCLAP'~
+Syntax: cast 'thunderclap' <target>
+
+This spell brings forth a huge clap of thunder, loud enough to cause
+damage to your opponent by its thundering noise.  At higher spell
+levels, thunderclap causes more damage and negates the target's saving
+throw.  At its two highest levels, thunderclap also produces a bolt
+of lightning that strikes your opponent.  At its highest level,
+thunderclap's sonic boom can be devastating.
+~
+
+-1 'SPELL_CONE OF COLD'~
+Syntax: cast 'cone of cold' <target>
+
+This spell allows the caster to summon forth a cone of ice and freezing
+water which inflicts damage on the target.  At higher levels of casting,
+this spell inflicts more damage, negates the saving throw, has a
+chance to freeze the target's equipment and, at its highest level,
+will create multiple cones of cold from one casting.
+~
+
+-1 'SPELL_ENTANGLE'~
+Syntax: cast 'entangle' <target>
+
+This spell causes roots to grow up out of the ground and entangle the
+feet of the victim.  This prevents your victim from moving, and does some
+damage as well.  At higher casting levels, this spell causes more
+damage and has a greater chance to capture your opponent.  This
+spell does not work on flying creatures or in rooms that have no
+ground, though it will work inside buildings.  Except at its
+two highest casting levels, this spell can only be used to initiate
+combat.
+~
+
+-1 'SPELL_SANDSTORM'~
+Syntax: cast 'sandstorm'
+
+This spell summons forth a blinding sandstorm that affects everyone in the
+same room as the caster.  It does not, however, work if the caster is
+underwater.  At higher casting levels, the sand becomes so intense that it
+has a chance to blind its victims.  At its highest casting level, the sand
+whips around so quickly that it often hits the targets two or even three
+times.
+~
+
+-1 'SPELL_SPELLFIRE'~
+Syntax: cast 'spellfire' <target>
+
+The most powerful spell available to a general elementalist, spellfire taps
+into the raw magic that flows through the elements.  The results are very
+unpredictable, though often very devastating to the victim.  Spellfire
+causes a random elemental spell from any of the four elemental schools to
+be cast upon the victim.  Even if the caster does not know the spell, it
+may end up being cast anyhow.  In addition, there is a chance that a non-
+elemental spell will target the victim due to the raw magic that is being
+tapped.  Spellfire has a chance to cast a beneficial spell on one's
+opponent, or a harmful spell when cast upon oneself, though the opposite
+affect is more likely (harmful spells on opponent and beneficial on
+oneself).
+~
+
+-1 'SPELL_FLAME BURST'~
+Syntax: cast 'flame burst' <target>
+
+A gout of flame and smoke, it can cause blindness, burn skin, as well
+as being highly damaging.  At higher levels, it inflicts more damage,
+and has a chance to cast two or even three times with one casting.
+~
+
+-1 'SPELL_INFERNO'~
+Syntax: cast 'inferno' <target>
+
+A wall of incredible flame and fire, it inflicts a great deal of damage,
+and is impressive in its majesty.  The higher the spell level, the more
+damage the inferno causes.  At its highest level, the inferno will
+totally consume many opponents, causing instantaneous death.
+~
+
+-1 'SPELL_SUMMON ELEMENTAL'~
+Syntax: cast 'summon elemental'
+
+This powerful spell is used to summon an elemental creature to assist
+the caster.  The strength of the being summoned is relative to the
+strength of the caster.  The type of being summoned (fire, air, water, or
+earth elemental) depends on the caster's specialty.  Non-elementalists
+and general elementalists that study this spell should do so with caution,
+as the elementals have been known to turn against such individuals.
+~
+
+-1 'SPELL_FIRE STORM'~
+Syntax: cast 'fire storm'
+
+An extremely powerful fire elementalist spell, fire rains down on anyone
+and everyone near the caster.  The caster may get hit him or herself by
+the storm as well.  At higher casting level, the storm lasts longer and
+causes more damage.  At its highest casting level, the caster is immune
+from any damage.
+~
+
+-1 'SPELL_FIRE SHIELD'~
+Syntax: cast 'fire shield'
+
+This powerful spell is known only by the most experienced fire
+elementalists.  It creates a protective shield of fire around the
+caster.  The shield allows the caster to resist fire attacks.  It
+also strikes back at the caster's opponents, inflicting fiery damage
+on anyone whose attacks strike the caster.
+~
+
+-1 'SPELL_TORNADO'~
+Syntax: cast 'tornado' <target>
+
+Huge gusts of wind buffet the target, and ravage the landside.  Tornado is
+one of the more powerful wind spells an elementalist can ravage a foe with.
+At higher casting levels, the tornado causes more damage, and negates the
+target's saving throw.  At its highest levels, the tornado has a chance to
+suck the victim up from the face of the earth and transport him or her to a
+random destination.
+~
+
+-1 'SPELL_VACUUM'~
+Syntax: cast 'vacuum' <target>
+
+Another of the elementalist air spells, it sucks the air out of the area,
+causing it to rush back in with incredible force.  It can also be used to
+suck the air out of an opponents lungs.  This spell hits all targets in
+the room.  At higher casting levels, the damage increases.  At its highest
+casting level, vacuum has a chance to instantly kill each target by
+causing their body to implode.
+~
+
+-1 'SPELL_AIR SHIELD'~
+Syntax: cast 'air shield' <target>
+
+This powerful spell is known only by the most experienced air
+elementalists.  It creates a protective shield of air around the
+caster.  The shield allows the caster to resist lightning-based attacks.
+It also strikes back at the caster's opponents, inflicting lightning
+damage on anyone whose attacks strike the caster.
+~
+
+-1 'SPELL_ICE BLAST'~
+Syntax: cast 'ice blast' <target>
+
+A blast of ice which smashes into the target with incredible force,
+inflicting damage.  At higher spell levels, this spell will inflict
+greater damage, negate the target's saving throw, be cast multiple
+times, and freeze the target, causing possible loss of equipment
+and severe strength penalties.
+~
+
+-1 'SPELL_CREATE ALCOHOL'~
+Syntax: cast 'create alcohol' <drink-container>
+
+This spell fills a drink container with a random alcoholic beverage.
+~
+
+-1 'SPELL ICE STORM'~
+Syntax: cast 'ice storm'
+
+Another amazingly powerful elementalist spell, huge balls of ice come
+crashing down to earth, hammering into everyone around.  This is one of
+the most powerful water elementalist spells.  At higher casting levels
+this spell creates a longer ice storm that causes more damage.  At its
+highest level, the caster is immune from being hurt by the storm.
+~
+
+-1 'SPELL_ICE SHIELD'~
+Syntax: cast 'ice shield'
+
+This powerful spell is known only by the most experienced water
+elementalists.  It creates a protective shield of ice around the
+caster.  The shield allows the caster to resist cold attacks.  It
+also strikes back at the caster's opponents, inflicting icy damage
+on anyone whose attacks strike the caster.
+~
+
+-1 'SPELL_FLESH TO STONE'~
+Syntax: cast 'flesh to stone' <target>
+
+This spell turns the victim to stone.  The effect is only temporary, but the
+victim will be in the same health when they return to life as they
+were before being turned.  An unsuccessful casting of this spell counts
+as an attack.
+~
+
+-1 'SPELL_QUICKSAND'~
+Syntax: cast 'quicksand' <target>
+
+This powerful earth elementalist spell creates a pool of quicksand directly
+under the victim's feet.  This spell has no effect on those that are flying,
+nor does it work in rooms that are in or under water or in the air.
+However, when it does work, the victim is hit with drowning damage and may
+suffer a temporary loss of dexterity.  At higher casting levels, the amount
+of damage increases.  At its highest level, the victim has a chance to
+drown to death instantly.  Undead and those immune to drowning are not
+affected by this spell.
+~
+
+-1 'SPELL_METEOR SHOWER'~
+Syntax: cast 'meteor shower' <target>
+
+One of the more powerful spells an earth elementalist can learn, showers of
+meteors crash into the targets.  As you might imagine, swarms of meteors
+crashing into you is very disconcerting as well as painful.  At higher
+casting levels, more meteors are formed and the meteors cause more damage.
+At its highest casting level, the caster is immune from being hit by
+any of the meteors.
+~
+
+-1 'SPELL_STONE SHIELD'~
+Syntax: cast 'stone shield'
+
+This powerful spell is known only by the most experienced earth
+elementalists.  It creates a protective shield of stone around the
+caster.  The shield allows the caster to resist bash attacks.  It
+also strikes back at the caster's opponents, inflicting damage on
+anyone whose attacks strike the caster.
+~
+
+-1 'SPELL_RECKLESS DWEOMER'~
+Syntax: cast 'reckless dweomer' <spell> <spell target>
+
+The signature spell of Wild Magic users, reckless dweomer summons the raw,
+wild magic of the world through the caster.  The caster then attempts to
+craft the magic into the desired spell effect.  The actual chance of this
+spell working is low, and decreases if the caster does not know the spell
+that he or she is trying to simulate.  It decreases even further if the
+caster is trying to cast a spell that is not normally castable by mages
+of the caster's type.  If the caster does not successfully produce the
+desired spell effect, he or she will Wild Surge.
+
+It is important to remember to add the target or any other phrase normally
+placed after the spell name when casting reckless dweomer, or else even
+if the spell would have worked, it may still fail.
+~
+
+-1 'SPELL_ANIMAL FOLLOWER'~
+Syntax: cast 'animal follower'
+
+This spell allows a ranger to summon a natural creature to him or her.  This
+creature will follow and assist the ranger, like a pet, though in truth the
+bond is more that of a companion than a servant.
+The casting level 2 is available only to the strongest rangers.  Much like
+casting level 1, it allows the ranger to summon a companion.  However,
+the companion summoned is far from a typical woodlands creature.  Instead,
+this spell summons a mighty beast of almost legendary status to assist the
+ranger.
+~
+
+-1 'SPELL_CURE DISEASE'~
+Syntax: cast 'cure disease' <character>
+
+This spell cures disease in one so unfortunate. It doesn't cure lycanthropy,
+neither poison.
+~
+
+-1 'SPELL_DRAIN'~
+Syntax: cast 'drain' <object>
+
+This spell allow Transmuter channel magical energies from objects and
+transfer it into his own mana. But not all objects can be drained by this spell.
+~
+
+-1 'SPELL_SUMMON FLESH GOLEM' 'SPELL_PRESERVE'~
+Syntax: cast 'summon flesh golem'
+Syntax: cast preserve <body part>
+
+A Necromancer may create a flesh golem by gathering body parts and then forming
+them into a flesh automaton. The power of the golem is dependent on the caster's
+level and the number of parts. The 'preserve' spell is used to keep body parts
+such as hearts, arms, legs and heads from decaying.
+~
+
+-1 'SPELL_SOULBIND' 'SPELL_MUMMIFY' 'SPELL_EMBALM' 'SPELL_DECAY CORPSE' 'SPELL_ANIMATE SKELETON' 'SPELL_ZOMBIFY'~
+Syntax: cast 'mummify' <corpse>
+Syntax: cast 'zombify' <corpse>
+Syntax: cast 'soulbind' <follower>
+Syntax: cast embalm <corpse>
+Syntax: cast 'decay corpse' <corpse>
+Syntax: cast 'animate skeleton' <skeleton>
+
+These are the basis of a Necromancer's power. Decay corpse strips the flesh off
+a corpse and leaves the skeletal remains. The skeleton may then be animated
+using the 'animate skeleton' spell. Corpses that are still intact may be
+animated with the more powerful zombify spell, or, at much higher levels,
+raised as mummies with the mummify spell. 'Embalm' spell will preserve a corpse
+and extend the duration before a it decays to dust. In all cases of animates
+the undead raised will have a level of power comparable to it's living
+existence but slightly lowered. Thus an orc zombie won't be as powerful as a
+demon zombie. Skeletons are weaker than zombies, which are in turn weaker than
+mummies. The number of undead you can raise is level dependent and also modified
+by the type of undead you already have following you. Soulbind will bind an
+undead follower to your soul and it will act as a loyal pet, entering and
+leaving the realms with you like a normal pet.
+See also: help 'animate object' for that version of animation. 
+~
+
+0 $~
+#$

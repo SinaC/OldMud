@@ -1,0 +1,291 @@
+AreaState 'The Crypt' {
+  Room 1801 {
+    Repop = 28;
+  }
+  Room 1802 {
+    Repop = 28;
+    Mobile 1820 {
+      Ptr = 183011616;
+      HMVP = (  ( 2825 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 24;
+      Silver = 381;
+      Room = 1802;
+      Obj 1805 {
+      }
+    }
+  }
+  Room 1803 {
+    Repop = 28;
+  }
+  Room 1804 {
+    Repop = 28;
+    Mobile 1818 {
+      Ptr = 183011032;
+      HMVP = (  ( 382 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 119;
+      Room = 1804;
+    }
+  }
+  Room 1805 {
+    Repop = 28;
+    Mobile 1818 {
+      Ptr = 183009864;
+      HMVP = (  ( 381 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 137;
+      Room = 1805;
+    }
+    Mobile 1802 {
+      Ptr = 183010448;
+      HMVP = (  ( 575 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1805;
+      Obj 1805 {
+      }
+    }
+  }
+  Room 1806 {
+    Repop = 28;
+  }
+  Room 1807 {
+    Repop = 28;
+  }
+  Room 1808 {
+    Repop = 28;
+    Mobile 1801 {
+      Ptr = 183009280;
+      AfBy = ('sanctuary');
+      HMVP = (  ( 4200 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 13;
+      Silver = 1103;
+      Room = 1808;
+      Affect = ( 'protection evil', -1, 48, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('protect_evil') ),
+            ( 'char', 'saving throw', 0, -1 ) );
+      Affect = ( 'sanctuary', -1, 48, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+      Obj 1802 {
+      }
+      Obj 1812 {
+      }
+    }
+  }
+  Room 1809 {
+    Repop = 28;
+  }
+  Room 1810 {
+    Repop = 28;
+  }
+  Room 1811 {
+    Repop = 28;
+  }
+  Room 1812 {
+    Repop = 28;
+    Mobile 1809 {
+      Ptr = 183016880;
+      AfBy = ('dark_vision');
+      HMVP = (  ( 525 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1812;
+      Affect = ( 'haste', -1, 24, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 2 ) );
+    }
+  }
+  Room 1813 {
+    Repop = 28;
+  }
+  Room 1814 {
+    Repop = 28;
+    Mobile 1819 {
+      Ptr = 183016296;
+      HMVP = (  ( 1645 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 419;
+      Room = 1814;
+      Obj 1815 {
+      }
+    }
+  }
+  Room 1815 {
+    Repop = 28;
+    Mobile 1812 {
+      Ptr = 183015128;
+      HMVP = (  ( 423 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 109;
+      Room = 1815;
+    }
+    Mobile 1807 {
+      Ptr = 183015712;
+      HMVP = (  ( 302 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1815;
+      Obj 1808 {
+      }
+    }
+  }
+  Room 1816 {
+    Repop = 28;
+    Mobile 1810 {
+      Ptr = 183014544;
+      HMVP = (  ( 277 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1816;
+      Obj 1806 {
+      }
+    }
+  }
+  Room 1817 {
+    Repop = 28;
+    Obj 1814 {
+    }
+  }
+  Room 1818 {
+    Repop = 28;
+  }
+  Room 1819 {
+    Repop = 28;
+    Mobile 1814 {
+      Ptr = 183013960;
+      HMVP = (  ( 1792 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1819;
+      Obj 1813 {
+      }
+    }
+  }
+  Room 1820 {
+    Repop = 28;
+  }
+  Room 1821 {
+    Repop = 28;
+    Mobile 1811 {
+      Ptr = 183013376;
+      HMVP = (  ( 221 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1821;
+    }
+  }
+  Room 1822 {
+    Repop = 28;
+    Mobile 1817 {
+      Ptr = 183020976;
+      HMVP = (  ( 3579 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1822;
+    }
+  }
+  Room 1823 {
+    Repop = 28;
+    Mobile 1804 {
+      Ptr = 183020392;
+      AfBy = ('detect_invis', 'dark_vision', 'regeneration');
+      HMVP = (  ( 9880 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 9;
+      Silver = 602;
+      Room = 1823;
+      Affect = ( 'haste', -1, 60, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('haste') ),
+            ( 'char', 'dexterity', 0, 4 ) );
+      Obj 1803 {
+      }
+      Obj 1810 {
+      }
+      Obj 1807 {
+      }
+    }
+  }
+  Room 1824 {
+    Repop = 28;
+    Mobile 1807 {
+      Ptr = 183019808;
+      HMVP = (  ( 298 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1824;
+      Obj 1808 {
+      }
+    }
+  }
+  Room 1825 {
+    Repop = 28;
+    Mobile 1805 {
+      Ptr = 183019224;
+      HMVP = (  ( 628 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Silver = 92;
+      Room = 1825;
+    }
+  }
+  Room 1826 {
+    Repop = 28;
+    Mobile 1808 {
+      Ptr = 183018640;
+      HMVP = (  ( 754 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1826;
+    }
+  }
+  Room 1827 {
+    Repop = 28;
+    Mobile 1816 {
+      Ptr = 183017472;
+      HMVP = (  ( 674 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1827;
+    }
+    Mobile 1811 {
+      Ptr = 183018056;
+      HMVP = (  ( 216 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1827;
+    }
+  }
+  Room 1828 {
+    Repop = 28;
+  }
+  Room 1829 {
+    Repop = 28;
+    Mobile 1806 {
+      Ptr = 183023904;
+      HMVP = (  ( 1656 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 33;
+      Silver = 849;
+      Room = 1829;
+      Obj 1809 {
+      }
+    }
+    Mobile 1808 {
+      Ptr = 183024488;
+      HMVP = (  ( 737 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1829;
+    }
+    Mobile 1803 {
+      Ptr = 183025072;
+      HMVP = (  ( 9450 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 50;
+      Silver = 397;
+      Room = 1829;
+      Obj 1801 {
+      }
+    }
+  }
+  Room 1830 {
+    Repop = 28;
+    Mobile 1802 {
+      Ptr = 183023320;
+      HMVP = (  ( 570 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1830;
+      Obj 1805 {
+      }
+    }
+  }
+  Room 1831 {
+    Repop = 28;
+  }
+  Room 1832 {
+    Repop = 28;
+    Mobile 1815 {
+      Ptr = 183022152;
+      HMVP = (  ( 263 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 1832;
+      Obj 1811 {
+      }
+    }
+    Mobile 1813 {
+      Ptr = 183022736;
+      HMVP = (  ( 1663 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 692;
+      Room = 1832;
+      Obj 1804 {
+      }
+    }
+  }
+}

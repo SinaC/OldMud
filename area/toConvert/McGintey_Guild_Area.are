@@ -1,0 +1,3245 @@
+#Style Circle
+#AREADATA
+Name McGintey Guild Area~
+Builders Kaan~
+VNUMs 31600 31699
+Credits {{None}  CAW    McGintey Guild Area~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#31600
+guard Cynder~
+Cynder~
+Cynder stands here, guarding the warrior guild entrance.
+~
+   Don't even think about it, she'll kick your head in.    
+~
+bdeoqr f 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+BareHandAttack: 12
+E
+#31601
+guildmaster~
+a guildmaster~
+A warrior guildmaster is here, waiting to train you.
+~
+   There is nothing special about this master.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+BareHandAttack: 14
+E
+#31602
+Nnoa guard~
+Nnoa~
+Nnoa is here, preventing all those who may enter the Ranger training grounds.
+~
+   A very earthy looking man, dark hair, scruffy beard and very plain clothing.
+He is respected by all, and feared by many, many more.  His skill of earthy
+elements will make anyone hurt.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 3
+E
+#31603
+guildmaster~
+a guildmaster~
+A Ranger guildmaster is here, waiting to train you.
+~
+   There is nothing special about this master.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+BareHandAttack: 1
+E
+#31604
+Deke guard~
+Deke~
+Deke stands silently, allowing only the holiest to enter.
+~
+   He stands silently with arms crossed, hands concealed in his robe.  With
+hood covering his face, you can not tell his intentions, lest you try and pass
+him.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 2
+E
+#31605
+guildmaster~
+a guildmaster~
+A Cleric guildmaster is here, waiting to train you.
+~
+   There is nothing special about this master.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+BareHandAttack: 2
+E
+#31606
+Sersin guard~
+Sersin~
+Sersin is here, guarding the mage guild.
+~
+   He fiddles with his cape, organizing many scrolls making sure not to lose
+track of a single one.  He lifts an eye for a second, and then retrieves a
+scroll from a pouch on his belt.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31607
+guildmaster~
+a guildmaster~
+A Mage's guildmaster is here, waiting to train you.
+~
+   There is nothing special about this master.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+BareHandAttack: 12
+E
+#31608
+Ryske guard~
+Ryske~
+Ryske peeks at you from the shadows.
+~
+   Watch It!  You'll go blind, literally, if you stare that long.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 11
+E
+#31609
+guildmaster~
+a guildmaster~
+An assasin guild master is here, waiting to train you.
+~
+   There is nothing special about this master.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+BareHandAttack: 11
+E
+#31610
+Alexa guard~
+Alexa~
+Alexa stands with back to the wall, eying you curiously.
+~
+   Her hair lies losely on her shoulders, covering half her face.  She brushes
+it back and leans casually against the wall thinking nothing of you.  She
+crosses her arms a closes her eyes, almost daring you to pass.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+BareHandAttack: 11
+E
+#31611
+guildmaster~
+the guildmaster~
+A Deathknight guildmaster is here waiting to train you.
+~
+   There is nothing special about this master.    
+~
+bdeoqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+BareHandAttack: 11
+E
+#31612
+deathknight knight~
+a Deathknight~
+A Deathknight is here, quietly waiting to sell you something.
+~
+   With no expression whatsoever, this man goes about his business.    
+~
+bdnopr 0 -200 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31613
+assassin~
+the lovely assassin~
+A lovely female assassin is here, helping others find what they need.
+~
+   Too bad she could probably drop you with one good blow (get it, blow?  ),
+otherwise you could ask her out.    
+~
+bdo 0 600 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31614
+monk guild~
+the monk~
+A monk from the guild stands here quietly, waiting on you.
+~
+   This guy looks perfectly happy to just stand and contemplate all the live
+long day.    
+~
+bdnopr 0 500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31615
+mage~
+a member of the Mage's Guild~
+A member of the Mage's Guild awaits your purchase behind the counter.
+~
+   You cannot tell if this man be evil or good aligned, nor where his loyalties
+may lie.  Who cares, he has good stuff for sale!    
+~
+bdnopr 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31616
+Gendar~
+Gendar~
+Gendar the elven thief leans in a corner of the room, a small grin on his face.
+~
+   Gendar looks almost amused by the fact that you were startled so easily.  
+
+~
+bdnopr 0 -200 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31617
+Wirntyn~
+Wirntyn~
+Wirntyn grins as you walk in.  Man, he looks even uglier when he smiles!
+~
+   Ugly, maybe, but just as deadly.  Don't piss him off.    
+~
+bdo 0 -500 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31618
+Griselda~
+Griselda~
+Griselda tends bar for all her warrior friends.
+~
+   This tough little bitch has beaten down more foes than most men can boast
+their friends have all added together.  And she's a hotty.    
+~
+bdnopr 0 300 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#31619
+warrior drunk~
+a drunken warrior~
+A drunken warrior is in the midst of hefting another chair, this time taking careful aim.
+~
+   You'd think that if you could get past the first chair tossing, they'd leave
+you alone, but it looks as if you are in for a bit of fun...  Duck!    
+~
+bd 0 -500 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31620
+warrior drunk~
+a drunken warrior~
+A drunk warrior grins his toothy grin at you, flexing his huge biceps.
+~
+   You can smell him from here.    
+~
+bd 0 -600 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#31621
+bookie~
+the bookie~
+A bookie stands here, willing to take any bet.
+~
+   Dressed in the finest armor, this man obviously preys on the stupidity of
+the people of the Cove.    
+~
+bd 0 -500 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31622
+ticket master woman~
+the ticket master~
+The Ticket Master, a beautiful and enticing woman, waits to sell you your chance to die.
+~
+   Just from the way she looks makes you want to get in that Pit and risk your
+life.    
+~
+bd 0 100 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#31623
+employee warrior guild~
+an employee of the warrior guild~
+An employee of the Warrior Guild is here waiting to help you.
+~
+   More of an apprentice than anything else, this employee is one who pulled
+extra duty for misconduct within the guild.    
+~
+bdnopr 0 -100 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31624
+mage member~
+a member of the Mage's Guild~
+A member of the Mage's Guild waits patiently for you to buy something.
+~
+   This man could be good or evil, or whatver - but who gives a shit - he has
+kicka ss eq for sale!    
+~
+bdgnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31625
+mage member~
+a member of the mage's guild~
+A member of the Mage's Guild stands behind the counter.
+~
+   She looks eager enough to sell you the goods.    
+~
+bdgnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31626
+member mage guild~
+a member of the Mage's Guild~
+A member of the Mage's Guild waits patiently for your purchase.
+~
+   He seems intent on the workings of one of the scrolls, making sure that it
+will perform its proper function.    
+~
+bdgnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31627
+employee warrior guild~
+an employee of the warrior guild~
+An employee of the Warrior Guild is here waiting to help you.
+~
+   More of an apprentice than anything else, this employee is one who pulled
+extra duty for misconduct within the guild.    
+~
+bdnopr 0 -100 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31628
+employee warrior guild~
+an employee of the warrior guild~
+An employee of the Warrior Guild is here waiting to help you.
+~
+   More of an apprentice than anything else, this employee is one who pulled
+extra duty for misconduct within the guild.    
+~
+bdnopr 0 -100 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31629
+employee warrior guild~
+an employee of the warrior guild~
+An employee of the Warrior Guild is here waiting to help you.
+~
+   More of an apprentice than anything else, this employee is one who pulled
+extra duty for misconduct within the guild.    
+~
+bdnopr 0 -100 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31630
+yolanda babe honey whore slut dancer~
+Yolanda the Bar-Slut~
+Yolanda the Bar-Slut dances on the only remaining intact table.
+~
+   You can almost smell her putrid breath from here.  As you watch her
+pirouette clumsily on the table, you notice a breast fall saggily and limply
+out of the loose rag she wears.  Seemingly unembarassed, Yolanda tucks her tit
+back into her rag and continues her 'extremely seductive' dance.    
+~
+bd 0 200 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#31631
+cleric guild member~
+a member of the Cleric's Guild~
+A member of the Cleric's Guild waits patiently for you to shop.
+~
+   He stares into what you would assume is empty space, but for him is the
+space that his God occupies.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31632
+cleric guild member~
+a member of the Cleric's Guild~
+A member of the Cleric's Guild waits patiently for you to shop.
+~
+   He stares into what you would assume is empty space, but for him is the
+space that his God occupies.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31633
+cleric guild member~
+a member of the Cleric's Guild~
+A member of the Cleric's Guild waits patiently for you to shop.
+~
+   He stares into what you would assume is empty space, but for him is the
+space that his God occupies.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31634
+deathknight knight~
+a Deathknight~
+A Deathknight sneers as he waits for you to buy something.
+~
+   He notices you looking and his sneer becomes even more pronounced than
+before.  Better just buy your stuff and get out of here.    
+~
+bdnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31635
+paladin seamstress member~
+the Paladin Seamtress~
+A Paladin Seamstress works diligently on some fabric as you browse the goods.
+~
+   She looks up at you as she sews and smiles a pretty smile, going back to her
+work while keeping an eye out in case you need any assistance.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31636
+Paladin smith~
+the Paladin smith~
+A Paladin smith works here, pounding away at the forge.
+~
+   He seems to be very happy with his work, the allotment that the Guild has
+given him.  It is a rare and fine thing to see such pride from a man who could
+be more if he desired.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31637
+paladin member~
+a member of the Paladin Guild~
+A member of the Paladin Guild is here helping the customers.
+~
+   He beams a smile your way and holds up one finger - be with you in just one
+moment!    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31638
+guard paladin Shindoz~
+Shindoz~
+Shindoz stands proudly at the entrance to the Guild, gently keeping non-members out.
+~
+   Paladin through and through - you can tell this guy is the Master's Pet, a
+real ass-kiss and butt-puppy.    
+~
+bd 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31639
+master guildmaster paladin~
+the Master~
+The Master stands calmly here, ready to train if that is your need.
+~
+   He smiles and looks you in the eye, as if reading your thoughts and virtue
+all in one glance.  It almost makes you uneasy.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#31640
+Alastor guard monk~
+Alastor~
+Alastor looks just a bit unhappy about being a monk, but guards the door just the same.
+~
+   It's a looooooonng story - don't ask.    
+~
+bd 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+E
+#31641
+master guildmaster monk~
+the Monk Guildmaster~
+The Monk Guildmaster awaits your need quietly.
+~
+   He speaks no word, makes no move.  He simply waits.    
+~
+bdo 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#31600
+pie spiced~
+a spiced pie~
+A hot spiced pie is here.~
+~
+19 0 ao 0
+4 0 0 0
+3 7 0 0
+#31604
+muffler silk~
+a silk muffler~
+A strip of silk has been dropped here.~
+~
+11 0 ac 0
+0 0 0 0
+2 10 0 1
+A
+17 -2
+#31605
+bandanna red~
+a large red bandanna~
+A red bandanna has been left here.~
+~
+11 0 ae 0
+0 0 0 0
+2 7 0 1
+A
+17 -1
+#31606
+bandana~
+a blue bandanna~
+A blue bandanna has been left here.~
+~
+11 0 ae 0
+0 0 0 0
+2 5 0 1
+A
+17 -2
+#31607
+sack burlap~
+a burlap sack~
+A burlap sack has been left here.~
+~
+15 0 ao 0
+100 0 -1 0
+3 350 0 0
+#31608
+jerkin burlap~
+a burlap jerkin~
+A length of burlap has been left here.~
+~
+9 0 ao 0
+5 0 0 0
+6 12 0 1
+#31609
+dagger dark~
+a dark dagger~
+A dark-looking dagger has been dropped here.~
+~
+5 0 ano 0
+1 3 4 11
+9 25 0 9
+#31610
+dagger ruby~
+a ruby-hilted dagger~
+An exquisitely crafted dagger has been left here.~
+~
+5 0 ano 0
+1 3 3 11
+7 56 0 5
+#31611
+shades~
+a pair of dark-tinted shades~
+Someone dropped their shades here.~
+~
+11 0 ae 0
+0 0 0 0
+3 15 0 1
+A
+17 -1
+#31612
+glasses read~
+a pair of reading glasses~
+A pair of glasses are here - be careful, don't step on them!~
+~
+9 p ae 0
+3 0 0 0
+3 75 0 1
+A
+4 1
+#31613
+ring emerald carved~
+a carved emerald ring~
+An emerald ring has been left here.~
+~
+11 0 ab 0
+0 0 0 0
+3 34 0 12
+A
+18 1
+A
+17 -2
+#31614
+band golden ring~
+a golden band~
+A beautiful gold ring has been dropped here.~
+~
+9 0 ab 0
+2 0 0 0
+3 56 0 1
+#31615
+ring silver wide~
+a wide silver ring~
+A silver ring has been dropped here.~
+~
+9 0 ab 0
+3 0 0 0
+3 21 0 1
+#31616
+water cup water~
+a cup~
+A cup has been left here.~
+~
+17 0 ao 0
+3 0 0 0
+3 3 0 0
+#31617
+water goblet water~
+a goblet~
+A goblet is here on the ground.~
+~
+17 0 ao 0
+5 0 0 0
+4 10 0 0
+#31618
+water grail water~
+a grail~
+A grail has been left on the ground.~
+~
+17 0 ao 0
+8 0 0 0
+3 21 0 0
+#31619
+potion~
+a glowing potion of invisibility~
+A glowing potion of invisibility~
+~
+10 0 ao 0
+1 29 -1 -1
+2 500 0 0
+#31620
+potion green bright~
+bright green potion~
+A bright green potion is on the ground.~
+~
+10 0 ao 0
+1 39 1 1
+3 66 0 0
+#31621
+potion cure blind~
+a potion of cure blindness~
+A potion of cure blindness is fizzing here.~
+~
+10 0 ao 0
+1 14 14 14
+3 700 0 0
+#31622
+staff magi glowing~
+the Staff of the Magi~
+A glowing staff lays here.~
+~
+5 0 ano 0
+2 3 8 12
+6 233 0 25
+E
+staff magi glowing~
+   Strange signs and sigils cover most of it's length - this must be a fearsome
+weapon, indeed.  
+~
+A
+3 2
+A
+12 10
+#31623
+hat mage's runed~
+a runed mage's hat~
+A runed hat lies on the ground.~
+~
+9 b ae 0
+4 0 0 0
+6 555 0 5
+E
+hat mage's runed~
+   It looks quite ridiculous the way it points at the top and has all those
+moons and stars all over it, but hey, anything for some mana!  
+~
+A
+12 5
+A
+20 -2
+#31624
+sword short encrypted~
+an encrypted short sword~
+A small glowing sword has been dropped here.~
+~
+5 0 an 0
+2 4 3 3
+10 342 0 13
+E
+sword short encrypted~
+   Up and down the lengths of it's blade are strange sigils and signs.  They
+must be where the power emanates from.  
+~
+#31625
+dagger glowing~
+a glowing dagger~
+A glowing dagger has been dropped here.~
+~
+5 0 an 0
+3 5 3 15
+6 386 0 20
+E
+dagger glowing~
+   It seems to be a plain enough dagger, however the glow which radiates it's
+length is near blinding.  
+~
+A
+12 15
+#31626
+robe magi~
+the Robe of the Magi~
+A crumpled pile of cloth lies here.~
+~
+9 0 ak 0
+7 0 0 0
+11 222 0 17
+E
+robe magi~
+   You sense something strange about this pile of cloth - almost like energy.  
+~
+A
+12 20
+#31627
+sash magician's~
+a Magician's Sash~
+A length of cloth lies here.~
+~
+9 0 al 0
+4 0 0 0
+6 177 0 12
+E
+sash magician~
+   This wide, purple belt made of velvet feels so soft, so smooth and SO
+powerful.  
+~
+A
+3 2
+#31628
+scroll vellum~
+a vellum scroll~
+A vellum scroll has been left here.~
+It glows with its own bright light, almost as if it were alive.
+~
+2 a ao 0
+5 1 16 19
+7 145 0 0
+#31629
+scroll frayed~
+a frayed scroll~
+A frayed scroll has been dropped here.~
+Its edges seem almost as if they might crumble with the slightest touch.
+~
+2 0 ao 0
+5 26 -1 -1
+9 177 0 0
+#31630
+scroll bound tightly~
+a tightly bound scroll~
+A tightly bound scroll has been dropped here.~
+A thin piece of string secures this scroll, keeping it tightly bound.
+~
+2 0 ao 0
+5 -1 -1 -1
+8 123 0 0
+#31631
+boots sneaking~
+Boots of Sneaking~
+A pair of sneaking boots have been left here.~
+They appear to be made of the softest leather, leather that would
+almost seem to suck to your feet.  The soles, made of the same
+leather, are only slightly more thick from the rest of the boot, but
+appear to be quite durable.    
+~
+9 0 ag 0
+4 0 0 0
+10 455 0 15
+A
+2 1
+#31632
+cloak shadows~
+Cloak of Shadows~
+A shadowy cloak has been dropped here.~
+It appears that it would cover its wearer completely, obscuring
+identity and because of its dark color, enable the wearer to hide well
+in shadows.    
+~
+9 0 ak 0
+5 0 0 0
+11 565 0 10
+#31633
+hood identity hidden~
+the Hood of Hidden Idenity~
+A dark hood has been left here.~
+This hood looks menacing even without being worn by anyone.  It
+appears to have been tailor-made for those who deal in the darker
+trades.    
+~
+9 0 ace 0
+3 0 0 0
+7 777 0 15
+#31634
+gloves snatching~
+Gloves of Snatching~
+A pair of thieven gloves have been left here.~
+These gloves, made from a soft, supple leather with the finger tips
+cut out were made to serve a thief.    
+~
+9 0 ah 0
+4 0 0 0
+4 644 0 10
+A
+2 1
+#31635
+face plate darkened~
+a darkened face plate~
+A darkened face plate lies discarded on the ground.~
+It appears that when worn, this plate would conceal not only the
+identity of the wearer, but also shade the eyes so that others would
+not be able to discern which direction the wearer might be looking in.
+~
+9 0 ae 0
+5 0 0 0
+6 375 0 10
+A
+18 2
+#31636
+dirk snake blade~
+a Snake-blade dirk~
+A strange dirk with a curving blade has been left here.~
+The workmanship on this is superb, its carftsman obviously someone
+who's life work is creating beautiful wweapons such as this.    
+~
+5 0 an 0
+1 2 7 11
+8 877 0 10
+A
+19 2
+#31637
+sword short glowing~
+a glowing short sword~
+A glowing short sword has been left here.~
+~
+5 0 an 0
+2 5 5 11
+12 267 0 30
+E
+sword short glowing~
+   Up and down its entire length, this small sword, almost small enough to be
+called a dagger, glows with its own fierce light.  
+~
+A
+18 1
+A
+19 2
+#31638
+beer tankard heavy beer~
+a heavy tankard~
+A heavy tankard has been dropped here.~
+This thing looks like it could hold enough beer for THREE warriors,
+but...  It appears that you are meant to drink its contents to the
+finish.    
+~
+17 0 ao 0
+30 30 1 0
+35 5 0 0
+#31639
+sword short blade warrior's companion~
+the Warrior's Companion~
+A small sword with a wolf's head pommel has been left here.~
+This is the blade that no warrior should be without...  At least that
+is the sales pitch.  It is quite an impressive blade.    
+~
+5 0 an 0
+1 3 5 14
+11 460 0 10
+A
+18 1
+A
+1 1
+#31640
+sword deathbringer~
+DeathBringer~
+A huge sword made of blazing gold has been dropped here.~
+Strange that a sword could be made of gold and still maintain an edge
+- it must be magically enhanced.    
+~
+5 0 an 0
+2 3 8 3
+14 800 0 25
+A
+19 2
+A
+2 1
+#31641
+sword bastard~
+a huge bastard sword~
+A huge bastard sword lies on the ground.~
+~
+5 0 an 0
+3 5 8 14
+18 400 0 25
+E
+sword bastard~
+   It would take a being of great strength to wield this mighty blade - a being
+of great strength, indeed.  
+~
+A
+18 2
+A
+19 3
+A
+1 -3
+#31642
+knuckles brass~
+a pair of brass knuckles~
+A pair of brass knuckles have been dropped here.~
+~
+5 0 an 0
+2 5 5 7
+7 210 0 30
+E
+knuckles brass~
+   They appear big enough to fit the hand of an ogre, but when you try them on
+your own hands, they meld into the sahpe of your fist, fitting perfectly!  
+~
+A
+19 2
+A
+13 20
+A
+2 -1
+#31643
+bola~
+a black bola~
+A black bola has been dropped here.~
+Just looking at this fine piece of weapontry makes you want to go
+thump someone on the head!    
+~
+5 0 an 0
+1 2 7 5
+12 460 0 10
+A
+1 1
+#31644
+club death~
+a huge club, Death~
+A very huge and very nasty looking club has been dropped here.~
+~
+5 0 an 0
+3 5 8 9
+25 750 0 25
+E
+club death~
+   Shot through with metal spikes at the end and heavy as an ogre weapon, this
+thing looks as impressive as any club could look.  No wonder they named it
+Death.  
+~
+A
+1 3
+A
+19 2
+A
+3 -3
+#31645
+helm horns~
+the Helm of Horns~
+A huge helm with two bull horns on top has been left here.~
+The two horns curve up menacingly, allowing the wearer to use this
+helm as a secondary weapon.    
+~
+9 a ae 0
+7 0 0 0
+13 477 0 10
+A
+19 2
+#31646
+shield agate glowing~
+a glowing agate shield~
+A glowing agate shield has been discarded here.~
+The power emenating from this huge piece of agate carved into a shield
+is so immense that it makes the entire thing glow.    
+~
+9 0 aj 0
+9 0 0 0
+8 400 0 10
+A
+2 2
+A
+4 2
+#31647
+buckler black stone blackstone~
+a blackstone buckler~
+A blackstone buckler has been left on the ground.~
+It appears to be in fine shape - a formidable guard against attack.
+~
+9 0 al 0
+10 0 0 0
+12 650 0 20
+A
+18 2
+#31648
+plate chest crested eagle~
+an eagle crested chest plate~
+A chest plate bearing the crest of an eagle has been left here.~
+The insignia of the eagle is bold and bright, making your heart soar
+and your spirit long for the din battle to surround you.    
+~
+9 0 ad 0
+10 0 0 0
+10 450 0 10
+A
+13 20
+#31649
+arm guard spiked~
+a set of spiked arm guards~
+A set of arm guards have been left here.~
+They look like any other set of arm guards you have seen in the past -
+well, except for the three-inch spikes which protrude from the lower
+arm area.    
+~
+9 0 ai 0
+7 0 0 0
+7 650 0 15
+A
+4 2
+A
+14 20
+#31650
+diamond-chip chip gauntlets~
+a pair of diamond-chip gauntlets~
+A pair of gauntlets lie on the ground.~
+These gauntlets are made from a sturdy metal and leather combination,
+with diamond chips embedded into the knuckles - made to slice into the
+opponent's flesh.    
+~
+9 0 ah 0
+5 0 0 0
+9 777 0 20
+A
+19 3
+#31651
+book Krolar~
+the Book of Krolar~
+Someone left the Book of Krolar here.~
+The Holy Book of Krolar emenates a power, a presence unmatched by any
+other book you ever have held.    
+~
+2 0 ao 0
+1 1 3 22
+7 389 0 10
+#31652
+mace~
+a glowing mace~
+A mace infused with the power of a God has been left here.~
+It gently glows, inviting you to pick it up, find some poor innocent
+slob, clobber him on the head repeatedly until the blood and brains
+that ooze from his head are so thick and juicy that you cannot even
+make out his features, whether he was a man, woman, human or ogre it
+doesn't matter you just want to bludgeon, kill, mangle,
+maim!!!!!......  Now where did all that come from?    
+~
+5 0 an 0
+1 2 7 5
+8 300 0 10
+A
+12 15
+A
+19 2
+#31653
+sceptre holy~
+Krolar's Holy Sceptre~
+Someone in their haste has dropped their sceptre.~
+~
+5 0 ano 0
+3 5 8 6
+12 321 0 25
+E
+sceptre holy~
+   It is rumored that every one of Krolar's Holy Sceptres made was forged with a
+small piece of the original Sceptre that Krolar used to vanquish the evil Amos
+Trask, thief and rogue who plagued the men and creatures of Jareth for nearly a
+decade.  
+~
+A
+12 35
+A
+3 2
+#31654
+whip power~
+the Power Whip~
+A whip glowing with energy lies here.~
+Suffused with some unknown God's power, this whip has all the power of
+a whip and then some.    
+~
+5 0 an 0
+3 5 3 2
+5 997 0 20
+A
+19 1
+A
+1 2
+#31655
+book word holy~
+the Holy Word~
+A book has been dropped here.~
+You can only see one word on the interior of this book - only one page
+fills it's entire content.    
+~
+2 0 ao 0
+1 47 33 43
+4 278 0 1
+#31656
+amulet sacred~
+a sacred amulet~
+A small clear stone on a chain has been left here.~
+You see nothing all that special about the amulet, however looks can
+be deceiving.    
+~
+11 0 ac 0
+0 0 0 0
+5 567 0 10
+A
+17 -3
+A
+4 2
+#31657
+wristlet glory~
+the Wristlet of Glory~
+A small wristlet has been left here.~
+It looks almost too small to be worn at all, but opun trying it on,
+you see that it is not too small at all.    
+~
+11 0 am 0
+0 0 0 0
+5 340 0 10
+A
+1 2
+#31658
+ring krolar holy~
+Krolar's Holy Stone~
+A small holy, red ring has been left here.~
+~
+11 0 aim 0
+0 0 0 0
+3 200 0 45
+E
+ring krolar holy~
+   Red stone inset in a black band - wow, this thing is cool!  
+~
+A
+12 20
+A
+18 2
+#31659
+robe yellow~
+a yellow robe~
+A yellow robe has been dropped here.~
+It looks to be in decent enough shape.
+~
+9 0 ak 0
+10 0 0 0
+9 699 0 10
+#31660
+robe bright~
+a bright robe~
+A bright robe lies crumpled in a corner.~
+It is made from some sort of material that makes the color just seem
+to jump out at you!    
+~
+9 0 ak 0
+8 0 0 0
+9 900 0 20
+A
+3 2
+A
+13 25
+#31661
+robe white~
+a white robe~
+A beautiful white robe has been left here.~
+~
+9 0 ak 0
+7 0 0 0
+9 235 0 40
+E
+robe white~
+   An exquisite robe of the finest fabric.  One of the finest pieces of cloth
+you have ever seen.  Who in their right mind would sell or leave this thing
+unaccounted for must be an absolute idiot.  Why would anyone want to leave this
+lovely piece of fabric behind?  
+~
+A
+3 2
+A
+19 2
+#31662
+shield rose~
+a grey shield emblazoned with the Black Rose~
+A grey shield of the Deathknight has been left here.~
+The black rose is symbolic of the hatred for all others, the desire to
+kill and maim that a Deathknight has breeded into them as part of
+their training.    
+~
+9 0 aj 0
+9 0 0 0
+12 766 0 20
+A
+3 2
+A
+18 2
+A
+1 -3
+#31663
+armor body black onyx~
+some black onyx body armor~
+Someone left their black onyx body armor here.~
+It is not a gleaming black color that this armor exhibits, but a dull,
+flat black that seems to soak up all color and joy around it.    
+~
+9 0 ad 0
+9 0 0 0
+22 890 0 25
+A
+19 3
+A
+18 2
+A
+13 -35
+#31664
+cape rose black~
+the Black Rose Cape~
+Some Deathknight left their cape laying here.~
+The Black Rose, the traditional symbol of the Deathknight, proudly
+adorns the back of this cape.    
+~
+9 q ak 0
+6 0 0 0
+8 666 0 30
+A
+1 2
+A
+18 1
+#31665
+sword rose black~
+the Sword of the Black Rose~
+A Deathknight has left their sword here.~
+The pommel is in the shape of a wilted black rose, the thorns on the
+stem serving as the grip.    
+~
+5 0 an 0
+3 5 3 3
+9 600 0 20
+A
+1 1
+A
+19 1
+#31666
+mace nail studded~
+a nail-studded mace~
+A mean-looking mace with nails studding its length has been dropped here.~
+This mean looking weapon looks as if it could do more damage than a
+bastard sword.    
+~
+5 0 ano 0
+1 2 7 7
+10 300 0 10
+#31667
+water fountain mermaid water~
+a beautiful mermaid fountain~
+An inticately carved fountain with a naked mermaid in the center sprays a fine geyser of clear water into its basin.~
+~
+23 0 0 0
+500 500 15 0
+505 0 0 0
+E
+water fountain mermaid~
+   Local lore states that a tribe of merfolk live just off the coast near the
+city, and that this fountain was a gift to the people of McGintey by the Lord
+of those merfolk.    
+~
+#0
+
+#ROOMS
+
+#31600
+Entering the Guild Area~
+   As you enter the Guild Area, you notice an immediate change from the street
+just east of you.  The air seems charged with magic and friction.  It makes your
+palms want to sweat, makes your pulse race.  All the hubbub and noise from the
+city has been swallowed up by the tall gray walled buildings which now surround
+you.  You may continue west into the guild area or head east back into the
+business district.  
+~
+316 d 0
+D1
+~
+~
+0 0 31510
+D3
+~
+~
+0 0 31601
+E
+credits info~
+Kaan
+Zone 316 is linked to the following zones:
+315 McGintey Business District     at 31600 (east ) ---> 31510
+315 McGintey Business District     at 31666 (east ) ---> 31565
+~
+S
+#31601
+Guild Area~
+   North Street continues to run west into the Guild Area, the strange feeling
+of power and vitality washing over you strong as ever.  A huge stone edifice
+rises to your south, one which must be at least four stories in height.  To the
+east, the street heads toward the business district.  
+~
+316 0 0
+D1
+~
+~
+0 0 31600
+D3
+~
+~
+0 0 31602
+S
+#31602
+Guild Area~
+   North Street head backs west, curving south almost immediately.  To the north
+and south are the walls of buildings whose purpose is unknown.  You may head
+toward the business district to the east.  
+~
+316 0 0
+D1
+~
+~
+0 0 31601
+D3
+~
+~
+0 0 31603
+S
+#31603
+Dead End to North Street~
+   North Street ends here, however two alleys run off to the north and south.  
+To the north, the alley seems a bit small, the way a bit tight.  To the south,
+the alley is almost the same width as North Street.  
+~
+316 0 0
+D0
+~
+~
+0 0 31604
+D1
+~
+~
+0 0 31602
+D2
+~
+~
+0 0 31612
+S
+#31604
+Mage Area~
+   You have entered into the Mage's Area, where the air itself crackles with
+arcane energies, the forces of good and evil magic strongly at work here.  You
+may continue further into the Mage Area or go south, leaving it.  To the east
+and west are low stone buildings, no signs of any sort proclaiming their
+function.  
+~
+316 0 0
+D0
+~
+~
+0 0 31608
+D1
+~
+~
+0 0 31605
+D2
+~
+~
+0 0 31603
+D3
+~
+~
+0 0 31606
+S
+#31605
+Potions~
+   These potions are those made by mages for mages.  Some will help to aid the
+common user, one who may not be a mage, but be warned, some have some very
+harmful side affects.  
+~
+316 0 0
+D3
+~
+~
+0 0 31604
+S
+#31606
+Scrolls~
+   These powerful scrolls help to manipulate the forces of magic which a mage
+commands.  The withered old man who stands here tending shop looks with a
+disdainful eye upon you, as if you could never reach his standards.  
+~
+316 d 0
+D1
+~
+~
+0 0 31604
+S
+#31607
+Mage Weapons~
+   The weapons for sale in this shop are made exclusively for mages by mages.  
+These weapons will not be of any use to any other class.  Rows of weapons lay
+neatly stacked along the walls and on shelves.  The exit is to the east.  
+~
+316 d 0
+D1
+~
+~
+0 0 31608
+S
+#31608
+End of the Alley~
+   The alley ends here, the only direction you may go is south.  The closed
+doors of low stone buildings lay to the east, west, and north however what lies
+inside those buildings is a mystery.  One thing is for sure, they certainly do
+not look inviting.  
+~
+316 d 0
+D0
+~
+~
+0 0 31610
+D1
+~
+~
+0 0 31609
+D2
+~
+~
+0 0 31604
+D3
+~
+~
+0 0 31607
+S
+#31609
+Mage Board Room~
+   Any messages between mages can be left here on the board and will received at
+any mage guild throughout the land.  The guild for the mages lies directly east
+of here or you may leave to the west.  
+~
+316 d 0
+D1
+~
+~
+0 0 31611
+D3
+~
+~
+0 0 31608
+S
+#31610
+Robes and Armor~
+   This is where a mage may buy armor specifically tailored for him or her.  
+The walls are lined with racks from which robes and leather armor hang.  You may
+exit to the south.  
+~
+316 d 0
+D2
+~
+~
+0 0 31608
+S
+#31611
+Mage Guild~
+   Here one may practice any spells that may need practicing or train skills to
+perfection.  The guildmaster is always free to lend a helpinh hang that just may
+lift you to the next level.  
+~
+316 d 0
+D3
+~
+~
+0 0 31609
+S
+#31612
+West Alley~
+   The alley heads north and south from here into the depths of the guild area.
+The feeling of power and strength still eminates all around you, lightening your
+step just a bit.  A very tight little alley heads west from here, almost
+unnoticable to the naked eye.  Gray stone buildings match the gray stone street
+you walk upon, all in contrast to the wonderful feeling of power all around you.
+
+~
+316 0 0
+D0
+~
+~
+0 0 31603
+D2
+~
+~
+0 0 31613
+D3
+~
+~
+0 0 31620
+S
+#31613
+West Alley~
+   The alley runs north and south from here, hemmed in by buildings on either
+side.  The hush that seems characteristic of this place only makes the feeling
+of power that much more mysterious and exciting.  You almost find yourself
+holding your breath, afraid to look in any passer-by's eye, afraid you may laugh
+aloud.  
+~
+316 0 0
+D0
+~
+~
+0 0 31612
+D2
+~
+~
+0 0 31614
+S
+#31614
+West Alley~
+   The alley still runs north and south, however there is a small dirt path
+leading between two stone buildings west from here.  The hushed reverence all
+around makes this whole section of town seem mysterious and thrilling, almost as
+if you should be thanking someone for their allowing you to be here.  
+~
+316 0 0
+D0
+~
+~
+0 0 31613
+D2
+~
+~
+0 0 31667
+D3
+~
+~
+0 0 31615
+S
+#31615
+Dirt Alley~
+   The stone of the street is left behind as you begin your way west along this
+path.  Just west of here, the buildings drop away and the path heads toward what
+looks to be the edge of the plateau, for all you can see ahead is wide open air.
+
+~
+316 0 0
+D1
+~
+~
+0 0 31614
+D3
+~
+~
+0 0 31616
+S
+#31616
+Dirt Path~
+   The dull gray buildings are gone now, replaced with a grassy field of wild
+flowers and trees.  Butterflies flit about you, and the smell is that of the
+open sea.  Just west of here, the trail leads to a beautiful grove, while east
+leads back into the dark grayness of the Guild Area.  
+~
+316 0 0
+D1
+~
+~
+0 0 31615
+D3
+~
+~
+0 0 31617
+S
+#31617
+Ranger's Grove~
+   This beautiful park, tended by rangers as a place for other rangers to relax
+and enjoy, perches directly on the edge of the plateau which McGintey Cove rests
+upon.  Looking west, all you can see is the beautiful shoreline following the
+curve of the Cove which the town is nestled in.  To the south is a large tree
+with a board of some sort affixed to it, and to the east leads the way back into
+the main Guild Area.  
+~
+316 0 0
+D1
+~
+~
+0 0 31616
+D2
+~
+~
+0 0 31618
+S
+#31618
+The Old Oak~
+   You stand before a huge oak tree which holds the board for the Guild of
+Rangers in McGintey Cove.  This tree looks as if it may be as old as the world
+you stand upon, so huge and impressive is it's girth and height.  Why, a single
+one of it's branches in the upper reaches is easily as big as your waist and
+then some!  
+~
+316 e 0
+D0
+~
+~
+0 0 31617
+D2
+~
+~
+0 0 31619
+S
+#31619
+Ranger Guild Room~
+   More of a park than a Guild, this small plot of well tended land serves as
+the training and advancement center for the Ranger Guild in McGintey Cove.  
+Instructors work with trainees all around you, teaching various skills and
+techniques.  
+~
+316 e 0
+D0
+~
+~
+0 0 31618
+S
+#31620
+Back Street~
+   The way through this 'street' - actually more of an alley - is quite narrow,
+grimy, and dark.  East from here you can see a faint trickle of light and
+another road.  To the west it only gets darker, looking quite unappealing.  
+~
+316 a 0
+D1
+~
+~
+0 0 31612
+D3
+~
+~
+0 0 31621
+S
+#31621
+Back Street~
+   The alley ends here, seeming to lead nowhere except back the way you came.  
+As you scan the walls surrounding you, you can't help but feel as if maybe
+someone is watching your every move, however it is too dark for you to be sure.
+
+~
+316 a 0
+D0
+~
+door~
+1 0 31623
+D1
+~
+~
+0 0 31620
+D2
+~
+door~
+1 0 31622
+D3
+~
+door~
+1 0 31625
+S
+#31622
+Thieven Weaponsmith~
+   This is a pathetically small workroom - dimly lit, grimy as hell, and reeking
+of beer.  A small, wiry man works here with a sanding stone and a small bladed
+knife of which you've never before seen the like.  At first the you think the
+man doesn't notice you standing here in his little hole, but after a short time
+he glances up and asks in a quiet, deadly voice if there is anything you need.
+
+~
+316 0 0
+D0
+~
+door~
+1 0 31621
+S
+#31623
+Board Room~
+   It looks more like a band of street punks got to this room, rather than a
+group of professional thieves.  What passes for the board is the western wall
+which is made of brick and covered in scrawlings from the many thieves who
+frequent this guild.  The guild and training area is directly north of you.  
+~
+316 c 0
+D0
+~
+~
+0 0 31624
+D2
+~
+door~
+1 0 31621
+S
+#31624
+Thieve's Guild~
+   This room, set in the back room of looks to have been a small warehouse at
+one time, is the resting and training place of the Thieves in McGintey Cove.  
+Cots are thrown haphazardly in all corners of this room.  Obviously, many of the
+thieves in McGintey Cove cannot afford their own homes and bunk here instead.  
+Better watch your wallet, some sneaky associate of yours just may decide to try
+some 'practice training' on it.  
+~
+316 0 0
+D2
+~
+~
+0 0 31623
+S
+#31625
+Darkened Room~
+   This small, darkened room gives you the foreboding feeling that you are
+surrounded by enemies.  As you get deeper into the room, you feel the fabric of
+someone's sleeve brush you.  Whirling around and grabbing the sleeve, you
+realize it is an empty jacket hanging on a hook.  Feeling your way around the
+room, you find that there are wearables hanging all around.  A low voice rumbles
+out of the darkness.  
+~
+316 d 0
+D1
+~
+door~
+1 0 31621
+S
+#31626
+Warrior Way~
+   This wide promenade, so named for the guild area it traverses, looks to be a
+well used street.  To the north is a very loud, very bawdy tavern.  A sign out
+front proclaims it 'The Broken Spleen'.  To the south is a huge building which
+looks to be off-limits, except to particular clientele.  Two well muscled
+guardsmen stand on either side of the door leading into the building, arms
+crossed.  To the east the road continues, leading the way to a HUGE building,
+one who's girth you can only imagine, being that you can only see a fraction of
+it from between the buildings you currently stand between.  West is the way out
+of the Warrior Guild's area into the West Alley.  
+~
+316 0 0
+D0
+~
+~
+0 0 31629
+D1
+~
+~
+0 0 31637
+D2
+~
+~
+0 0 31627
+D3
+~
+~
+0 0 31667
+S
+#31627
+Lounge and Board Room~
+   This large antechamber serves as a resting, meditation, stretching out, and
+board room for the Warrior Guild in McGintey Cove.  Very atypical of this class,
+the men and women who congregate here seem almost nervous as they stretch out or
+concentrate on whatever skills they will be attempting to learn in the arena
+which is the Warrior's Guild in this town.  Just south of you is the guild room,
+north is the exit to the outside.  
+~
+316 de 0
+D0
+~
+~
+0 0 31626
+D2
+~
+~
+0 0 31628
+S
+#31628
+Warrior's Guild - Arena~
+   This huge arena turned practice and advancement station is rumored to be the
+best and most thorough training guild for Warriors in Dibrova.  The numbers of
+trainers to the number of trainees is almost double, a rarity for most guilds.
+You may exit to the north when you have finished.  
+~
+316 de 0
+D0
+~
+~
+0 0 31627
+S
+#31629
+The Broken Spleen~
+   Your first thought as you enter into this building is that if ever it has
+been cleaned, it wasn't anytime during this last year.  Your second thought is
+that you had best duck, as a chair goes flying past your head, just inches from
+your right ear!  This flying chair is, of course, accompanied by drunken
+laughter and calls of 'Newbie!  ' and 'Incoming!  '.  This chair throwing must
+be a ritual here at the Broken Spleen.  How quaint.  The exit is just south of
+you.  
+~
+316 d 0
+D2
+~
+~
+0 0 31626
+S
+#31630
+The Warrior's Boutique~
+   This little store sells an assortment of deadly implements used by the
+warrior class to wreak havoc amongst their many enemies.  The exit lies to the
+east.  
+~
+316 d 0
+D1
+~
+~
+0 0 31632
+S
+#31631
+The Sword Store~
+   The many different types of swords sold here vary depending on the stature
+and level of warrior wielding them.  Many of the swords sold here may not be
+used by inferior leveled warriors, however the only way to find out which sword
+applies to which level is to buy one .
+~
+316 d 0
+D2
+~
+~
+0 0 31632
+S
+#31632
+Warrior Way~
+   The road ends here in a small court which allows access to two small stone
+buildings, one west and one north of you.  The mammoth wall of the Gladiator Pit
+runs along on your east, the clashes, clangs, and cries coming faintly to your
+ears from within.  
+~
+316 0 0
+D0
+~
+~
+0 0 31631
+D2
+~
+~
+0 0 31633
+D3
+~
+~
+0 0 31630
+S
+#31633
+Warrior Way~
+   The road runs north to a small court surrounded by stone buildings.  To the
+south the road heads into an intersection in front of the main entrance to the
+enormous Gladiator Pit.  To the east and west you are hemmed in by the gray
+stone walls of buildings owned by the Warrior Guild.  
+~
+316 0 0
+D0
+~
+~
+0 0 31632
+D2
+~
+~
+0 0 31637
+S
+#31634
+Spectator Balcony~
+   From this vantage point you can see the entire Pit spread out below you.  
+Every punch, every kick, every stab and pierce can be seen from this point.  A
+sign hangs on the wall, explaining the rules for placing wagers on the fights
+which ensue below.  
+~
+316 d 0
+D5
+~
+~
+0 0 31636
+S
+#31635
+Gladiator Pit - Center~
+   You stand at the center of a huge dirt floored arena.  All around you are
+rows and rows of screaming spectators, seated in the bleachers which climb the
+upward slope of the arena wall.  You may move in any cardinal direction in
+attempt to find and vanquish your opponent.  
+~
+316 g 0
+D3
+~
+~
+0 0 31636
+S
+#31636
+The Pit~
+   In this room, one may pay to enter into mortal combat with another combatant
+of equal stature.  Screams from spectators and cries of pain from the combatants
+accompanied by the clash of steel reaches your ears from the arena, which lies
+directly east from here.  
+~
+316 d 0
+D1
+~
+~
+0 0 31635
+D3
+~
+~
+0 0 31637
+D4
+~
+~
+0 0 31634
+S
+#31637
+Warrior Way~
+   The road comes to a wide intersection here, heading north and south, and of
+course west back toward the entrance to this guild.  In front of you is the
+arched entrance to a huge arena, one whose rounded walls tower above you a good
+five or six stories.  From inside you hear the catcalls and screams from all who
+watch the fights, and also the clanging and clashing of steel from all those who
+battle.  
+~
+316 0 0
+D0
+~
+~
+0 0 31633
+D1
+~
+~
+0 0 31636
+D2
+~
+~
+0 0 31638
+D3
+~
+~
+0 0 31626
+S
+#31638
+Warrior Way~
+   The road runs south toward a small court where two low stone buildings stand
+to the west and south.  To the north the road heads into the main intersection
+of Warrior Way where one may enter into the gladiator pit if desired.  
+~
+316 0 0
+D0
+~
+~
+0 0 31637
+D2
+~
+~
+0 0 31639
+S
+#31639
+Warrior Way~
+   The road heads farther south, ending in a small court.  To the north is the
+way leading to the main intersection of Warrior Way.  On your east is the huge
+rounded wall of the Gladiator Pit, it's enormous bulk still amazing to you, even
+though you stand beside it.  
+~
+316 0 0
+D0
+~
+~
+0 0 31638
+D2
+~
+~
+0 0 31641
+S
+#31640
+Shield 'n' Helms~
+   This small shop sells exactly what it proclaims to sell, helms and shields.
+The goods may be browsed at your leisure.  A permanet employee of the Guild
+always stands at attention to help with your purchase.  
+~
+316 0 0
+D1
+~
+~
+0 0 31641
+S
+#31641
+Warrior Way~
+   This small court is home to two small stone buildings, one west and one south
+of here.  The road heads north from here, running along the west wall of the
+gladiator pit toward it's entrance.  
+~
+316 0 0
+D0
+~
+~
+0 0 31639
+D2
+~
+~
+0 0 31642
+D3
+~
+~
+0 0 31640
+S
+#31642
+Body Armor~
+   Racks of armor, both full bodied and upper torso are scattered all through
+the shop.  A permanent member of the warrior guild is here to serve you as your
+needs demand.  
+~
+316 d 0
+D0
+~
+~
+0 0 31641
+S
+#31643
+West Alley~
+   This dark, dripping alleyway leads south toward the many guilds housed in
+this district.  To the north lies much of the same, with a section heading off
+east into the warrior guild.  To the west is the entrance to the Paladin's
+Guild, a strong sense of power and devotion radiating from its entrance.  
+~
+316 0 0
+D0
+~
+~
+0 0 31667
+D2
+~
+~
+0 0 31644
+D3
+~
+~
+0 0 31662
+S
+#31644
+West Alley~
+   The alley heads north and south, the cold, dark grey walls of stone buildings
+surrounding you on every side.  Just south of you lies an offshoot of the main
+alleyway which heads west into the cleric's guild.  
+~
+316 0 0
+D0
+~
+~
+0 0 31643
+D2
+~
+~
+0 0 31645
+S
+#31645
+West Alley~
+   The alley still runs north and south from here, the whole looking quite
+dreary and dismal.  To the west is a small cobbled path leading into the
+cleric's guild.  That path looks as if it may be the only part of this district
+that is not only maintained, but cheerful as well.  The cobblestones which line
+the path are scrubbed almost white, the walls of the buildings white stucco.  
+You feel that even someone who is not a cleric may be drawn to this part of the
+district just to escape the grey monotony everywhere else.  
+~
+316 0 0
+D0
+~
+~
+0 0 31644
+D2
+~
+~
+0 0 31655
+D3
+~
+~
+0 0 31646
+S
+#31646
+The God's Path~
+   The white cobblestones beneath your feet glisten brightly as you walk past.
+Obviously the clerics who belong to this guild take great pride in their place
+here in McGintey Cove.  Just north of you is a large marble temple with huge
+oaken double doors in front.  This temple must be the main guild housing for
+this guild.  The path heads west into more of the cleric's area or east out into
+the West Alley.  
+~
+316 0 0
+D0
+~
+~
+0 0 31647
+D1
+~
+~
+0 0 31645
+D3
+~
+~
+0 0 31649
+S
+#31647
+Sitting Room~
+   This large, ornate room is laden with plush couches, comfortable easy chairs
+and food free for the taking.  To the north is the entrance to the main practice
+and meditation area, south is the exit out to the God's Path.  
+~
+316 d 0
+D0
+~
+~
+0 0 31648
+D2
+~
+~
+0 0 31646
+S
+#31648
+Meditation and Advancement~
+   A large altar rests near the far northern wall of this temple.  Small pads of
+cloth line the eastern wall where many of your class pray and meditate,
+searching for advancement and enlightenment.  You may exit to the south.  
+~
+316 0 0
+D2
+~
+~
+0 0 31647
+S
+#31649
+The God's Path~
+   With the temple wall still to the north of you, the path heads west into a
+broad court surrounded by white stucco buildings.  Directly south of you is
+another such building, the entranceway wide open and inviting.  To the east the
+path heads out past the temple entrance into the West Alley.  
+~
+316 0 0
+D1
+~
+~
+0 0 31646
+D2
+~
+~
+0 0 31654
+D3
+~
+~
+0 0 31650
+S
+#31650
+The God's Court~
+   This large allows entrance to any of three white stucco buildings which lie
+north, south, and west of you.  You may exit to the east toward the temple and
+West Alley.  
+~
+316 0 0
+D0
+~
+~
+0 0 31651
+D1
+~
+~
+0 0 31649
+D2
+~
+~
+0 0 31653
+D3
+~
+~
+0 0 31652
+S
+#31651
+Robes~
+   This quiet room has a small wooden desk sitting at the north end, a monk from
+the guild seated serenely behind it.  On the east and west walls are lines of
+robes hung in an extremely orderly fashion.  
+~
+316 d 0
+D2
+~
+~
+0 0 31650
+S
+#31652
+Holy Relics~
+   Small wooden stands spread throughout the room hold trinkets, baubles, and
+wearables, all for sale.  A monk from the guild wanders about the room, helping
+those in need of assistance.  
+~
+316 d 0
+D1
+~
+~
+0 0 31650
+S
+#31653
+Books of the Gods~
+   Small wooden bookshelves line the east, west, and south walls of this room,
+all spotlessly clean and filled with books of all shapes and sizes.  
+~
+316 0 0
+D0
+~
+~
+0 0 31650
+S
+#31654
+Holy Weapons~
+   Although physical battle is not condoned by the guild, it is realized that in
+this day and age every man or woman must need defend themselves at some time or
+another.  Hence this small shop dedicated to those weapons deemed fit to be
+wield by a cleric in Dibrova.  
+~
+316 d 0
+D0
+~
+~
+0 0 31649
+S
+#31655
+West Alley~
+   The alley heads north deep into the guild area for McGintey Cove, the gray
+walls of guild-owned buildings surrounding the way ahead.  To the south is the
+intersection of the Alley and South St, the road leading east into the business
+district of McGintey Cove.  
+~
+316 0 0
+D0
+~
+~
+0 0 31645
+D2
+~
+~
+0 0 31656
+S
+#31656
+South Street~
+   You stand at the intersection of West Alley and South Street.  To the north
+is the dark, grey walled alley which heads deep into the guild area.  East, the
+way gets a bit lighter as it heads it's way back toward the main business
+district of McGintey Cove.  To the south the alley heads into a shadowed
+section, one which must be the Assassin's Guild area.  
+~
+316 0 0
+D0
+~
+~
+0 0 31655
+D1
+~
+~
+0 0 31664
+D2
+~
+~
+0 0 31657
+S
+#31657
+West Alley~
+   Although still technically in the West Alley, you are in the area of town
+owned by the Deathknight's guild.  Good advice would be to watch your step
+around these deadly beings.  To the west is a tall, slender door leading into
+the main guild room, where deathknights practice to advance themselves.  To the
+east is a door leading into a very small building, one which gives you a
+decidedly uneasy feeling.  South is the end of West Alley and north leads the
+way out of the Deathknight's Guild.  
+~
+316 0 0
+D0
+~
+~
+0 0 31656
+D2
+~
+~
+0 0 31661
+D3
+~
+~
+0 0 31658
+S
+#31658
+Deathknight's Board Room~
+   This small, dark room affords a few low divines for the reclining comfort of
+those who wish to relax in the comfort of their guild.  Glass display cases hold
+an array of weapons along the walls, many of which considered antique by today's
+standards of assassination.  To the west is the entrance to the training and
+advancement room.  East leads out to West Alley.  
+~
+316 d 0
+D1
+~
+~
+0 0 31657
+D3
+~
+~
+0 0 31659
+S
+#31659
+Guild Room~
+   You are all alone in a completely darkened room...  Or so you think.  
+~
+316 ade 0
+D1
+~
+~
+0 0 31658
+S
+#31660
+Dark Wearables~
+   All manner of clothing, cloakwear, and hoods are for sale in this shop.  All
+wearables sold here are to aid the deathknight in his/her profession.  
+~
+316 d 0
+D1
+~
+~
+0 0 31661
+S
+#31661
+South Dead End to West Alley~
+   This seems to be the end of the way.  Doors lead off to the east, west, and
+south.  The alley heads north.  Watch your step.  
+~
+316 0 0
+D0
+~
+~
+0 0 31657
+D2
+~
+~
+0 0 31663
+D3
+~
+~
+0 0 31660
+S
+#31662
+Paladin Row~
+   The whole area strikes you as clean and well-organized as soon as you enter.
+With all the gray building and their lack of color out in the main guild area,
+this place is a stark contrast indeed.  The alley continues west, with a door to
+the north leading into a small tavern.  
+~
+316 0 0
+D1
+~
+~
+0 0 31643
+D3
+~
+~
+0 0 31668
+S
+#31663
+Weapons of Choice~
+   All weapons sold here are made specifically for the lethal and many times
+secretive killing arts.  Browse and be merry, but remember, they are not cheap
+for a reason!  
+~
+316 d 0
+D0
+~
+~
+0 0 31661
+S
+#31664
+South Street~
+   The street, now completely enclosed on the north and south side by grey stone
+walls of guild buildings, leads west to an intersection of some sort, or east
+out into the main business district of McGintey Cove.  
+~
+316 0 0
+D1
+~
+~
+0 0 31665
+D3
+~
+~
+0 0 31656
+S
+#31665
+South Street~
+   The street heads west into the darkened guild area of McGintey, where it
+seems the very air around it carckles with mystical energy and magic.  To the
+east is the main business district of McGintey Cove.  A small, unobtrusive alley
+leads south from here.  
+~
+316 0 0
+D1
+~
+~
+0 0 31666
+D2
+~
+~
+0 0 31674
+D3
+~
+~
+0 0 31664
+S
+#31666
+South Street~
+   The high traffic business area to the east seems almost a memory only as you
+enter into this entirely different section of town.  The wide open expanse that
+was typical of the bazaar and the main streets of town are replaced by tight
+streets with stone walled buildings to either side.  
+~
+316 0 0
+D1
+~
+~
+0 0 31565
+D3
+~
+~
+0 0 31665
+S
+#31667
+West Alley~
+   The alley continues to run north and south from here, the gray, dismal walls
+surrounding it unending.  To the east is a wide stretch of cobbled street that
+looks a bit more well travelled than any any of the previous offshoots from this
+alley.  
+~
+316 0 0
+D0
+~
+~
+0 0 31614
+D1
+~
+~
+0 0 31626
+D2
+~
+~
+0 0 31643
+S
+#31668
+Paladin Row~
+   Nothing.  The alley ends just west of here at the entrance to the Guild
+itself.  It appears that a small area in front of the guild has been set up as a
+resting spot for paladins who wish to rest their feet after a day of saving
+innocent women and children.  
+~
+316 0 0
+D1
+~
+~
+0 0 31662
+D3
+~
+~
+0 0 31669
+S
+#31669
+Paladin Court~
+   This comfortable cobblestoned court hosts a small array of comfortable chairs
+and low tables, all for resting and relaxing upon before heading back out into
+the wilds of Dibrova.  To the west is the entrance to the Guild, south is a
+weapon shop and north is an armor shop.  Both shops are maintained by the Guild
+and specialize in Paladin equipment.  
+~
+316 c 0
+D0
+~
+~
+0 0 31672
+D1
+~
+~
+0 0 31668
+D2
+~
+~
+0 0 31673
+D3
+~
+~
+0 0 31670
+S
+#31670
+Paladin Board Room~
+   This is a small hallway leading into the main Audience Hall for the Paladin's
+Guild where the Master grants level gain by virtue of experience in the field.
+A bulleltin board has been posted on the south wall, a small writing implement
+attached so that anyone who wishes to may post a message to their fellow
+clannies.  
+~
+316 c 0
+D1
+~
+~
+0 0 31669
+D3
+~
+~
+0 0 31671
+S
+#31671
+Paladin Guild Hall~
+   This hall is what is considered to be the oldest structure existing on the
+rock that is McGintey Cove today.  It is said that upon this very spot, Amos
+McGintey erected his temporary hideout when hiding from the Ionian Knights who
+plagued the seas back in his day.  Now this ancient has been converted into a
+place of respect and devotion where Paladins may increase their level if so
+desired.  
+~
+316 c 0
+D1
+~
+~
+0 0 31670
+S
+#31672
+Paladin Outfitters~
+   Cloaks and armor, boots and gauntlets all are arrayed in this clean and
+bright room.  The colors of the wearables are all vibrant and catching to the
+eye, signifying the pride of the Paladin and what the class stands for in a
+world ridden with evil and pestilence.  
+~
+316 0 0
+D2
+~
+~
+0 0 31669
+S
+#31673
+Weapons of Honor~
+   This wide open area serves as both a smithy for the Guild and a shop where
+class members may purchase the fine weapons produced here.  Paladins, being a
+very meticulous and demanding class, prefer to make and enchant their own
+weapons rather than import weapons from the dwarven craftsmen or magus weavers.
+Browse these fine weapons, but remember - they are not cheap.  
+~
+316 0 0
+D0
+~
+~
+0 0 31669
+S
+#31674
+A Quiet Back Street~
+   The sounds of the bazaar, the hustle and bustle of all the city-goers all
+seems to get swallowed up by the walls of this alley.  You feel a bit of peace,
+your body begins to relax a bit as you begin down this alley.  You can see that
+it ends just south of here at a small door.  
+~
+316 0 0
+D0
+~
+~
+0 0 31665
+D2
+~
+~
+0 0 31675
+S
+#31675
+End of a Quiet Back Street~
+   You stand before a small door, a very unmentionable place if not for the man
+standing just to side of it - as if guarding it.  Strange that all sounds of the
+city have completely vanished now, though you know that you have no travelled
+that far from the main section.  
+~
+316 0 0
+D0
+~
+~
+0 0 31674
+D2
+~
+door~
+1 0 31676
+S
+#31676
+Monk Board Room~
+   You would almost think that this place were abandoned, so quiet of an air
+persists here.  However, looking south you see the main room and the Guidlmaster
+tutoring his disciples.  The Board for your clan is mounted here - any messages
+you wish to pass along can be passed via this board.  
+~
+316 cd 0
+D0
+~
+door~
+1 0 31675
+D2
+~
+~
+0 0 31677
+S
+#31677
+Monk Guild Room~
+   There is absolutely nothing at all in this room save for the man who will
+advance you to your next level if you are deemed worthy.  The exit lies to the
+north.  
+~
+316 cd 0
+D0
+~
+~
+0 0 31676
+S
+#0
+
+#RESETS
+M 0 31600 1 31626 	(Cynder)
+M 0 31602 1 31617 	(Nnoa)
+M 0 31625 1 31605 	(a member of the mage's guild)
+G 1 31619 100 -1 	(a glowing potion of invisibility)
+G 1 31620 100 -1 	(bright green potion)
+G 1 31621 100 -1 	(a potion of cure blindness)
+D 0 31676 0 1 	(Monk Board Room)
+M 0 31641 1 31677 	(the Monk Guildmaster)
+D 0 31675 2 1 	(End of a Quiet Back Street)
+M 0 31640 1 31675 	(Alastor)
+M 0 31639 1 31671 	(the Master)
+M 0 31638 1 31669 	(Shindoz)
+M 0 31636 1 31673 	(the Paladin smith)
+M 0 31637 1 31673 	(a member of the Paladin Guild)
+M 0 31635 1 31672 	(the Paladin Seamtress)
+M 0 31612 3 31663 	(a Deathknight)
+G 1 31665 100 -1 	(the Sword of the Black Rose)
+G 1 31666 100 -1 	(a nail-studded mace)
+M 0 31634 1 31660 	(a Deathknight)
+G 1 31662 100 -1 	(a grey shield emblazoned with the Black Rose)
+G 1 31663 100 -1 	(some black onyx body armor)
+G 1 31664 100 -1 	(the Black Rose Cape)
+M 0 31631 1 31651 	(a member of the Cleric's Guild)
+G 1 31659 100 -1 	(a yellow robe)
+G 1 31660 100 -1 	(a bright robe)
+G 1 31661 100 -1 	(a white robe)
+M 0 31632 1 31652 	(a member of the Cleric's Guild)
+G 1 31656 100 -1 	(a sacred amulet)
+G 1 31657 100 -1 	(the Wristlet of Glory)
+G 1 31658 100 -1 	(Krolar's Holy Stone)
+M 0 31633 1 31653 	(a member of the Cleric's Guild)
+G 1 31651 100 -1 	(the Book of Krolar)
+G 1 31655 100 -1 	(the Holy Word)
+M 0 31614 4 31654 	(the monk)
+G 1 31652 100 -1 	(a glowing mace)
+G 1 31653 100 -1 	(Krolar's Holy Sceptre)
+G 1 31654 100 -1 	(the Power Whip)
+M 0 31618 1 31629 	(Griselda)
+G 1 31638 100 -1 	(a heavy tankard)
+M 0 31619 1 31629 	(a drunken warrior)
+M 0 31620 3 31629 	(a drunken warrior)
+M 0 31620 3 31629 	(a drunken warrior)
+M 0 31620 3 31629 	(a drunken warrior)
+M 0 31630 1 31629 	(Yolanda the Bar-Slut)
+M 0 31628 1 31642 	(an employee of the warrior guild)
+G 1 31648 100 -1 	(an eagle crested chest plate)
+G 1 31649 100 -1 	(a set of spiked arm guards)
+G 1 31650 100 -1 	(a pair of diamond-chip gauntlets)
+M 0 31629 1 31640 	(an employee of the warrior guild)
+G 1 31645 100 -1 	(the Helm of Horns)
+G 1 31646 100 -1 	(a glowing agate shield)
+G 1 31647 100 -1 	(a blackstone buckler)
+M 0 31627 1 31630 	(an employee of the warrior guild)
+G 1 31642 100 -1 	(a pair of brass knuckles)
+G 1 31643 100 -1 	(a black bola)
+G 1 31644 100 -1 	(a huge club, Death)
+M 0 31623 4 31631 	(an employee of the warrior guild)
+G 1 31639 100 -1 	(the Warrior's Companion)
+G 1 31640 100 -1 	(DeathBringer)
+G 1 31641 100 -1 	(a huge bastard sword)
+M 0 31617 1 31622 	(Wirntyn)
+G 1 31637 100 -1 	(a glowing short sword)
+G 1 31636 100 -1 	(a Snake-blade dirk)
+D 0 31622 0 1 	(Thieven Weaponsmith)
+M 0 31616 1 31625 	(Gendar)
+G 1 31631 100 -1 	(Boots of Sneaking)
+G 1 31632 100 -1 	(Cloak of Shadows)
+G 1 31633 100 -1 	(the Hood of Hidden Idenity)
+D 0 31625 1 1 	(Darkened Room)
+M 0 31626 1 31606 	(a member of the Mage's Guild)
+G 1 31628 100 -1 	(a vellum scroll)
+G 1 31629 100 -1 	(a frayed scroll)
+G 1 31630 100 -1 	(a tightly bound scroll)
+M 0 31624 4 31610 	(a member of the Mage's Guild)
+G 1 31627 500 -1 	(a Magician's Sash)
+G 1 31626 500 -1 	(the Robe of the Magi)
+G 1 31623 500 -1 	(a runed mage's hat)
+M 0 31615 4 31607 	(a member of the Mage's Guild)
+G 1 31622 500 -1 	(the Staff of the Magi)
+G 1 31625 500 -1 	(a glowing dagger)
+G 1 31624 500 -1 	(an encrypted short sword)
+M 0 31622 1 31636 	(the ticket master)
+M 0 31621 1 31634 	(the bookie)
+M 0 31611 1 31659 	(the guildmaster)
+M 0 31610 1 31657 	(Alexa)
+M 0 31609 1 31624 	(a guildmaster)
+D 0 31621 0 1 	(Back Street)
+D 0 31621 2 1 	(Back Street)
+D 0 31621 3 1 	(Back Street)
+M 0 31608 1 31621 	(Ryske)
+M 0 31607 1 31611 	(a guildmaster)
+M 0 31606 1 31608 	(Sersin)
+M 0 31605 1 31648 	(a guildmaster)
+M 0 31604 1 31646 	(Deke)
+M 0 31603 1 31619 	(a guildmaster)
+M 0 31601 1 31628 	(a guildmaster)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#31600~
+31625
+31624
+31622
+-1
+1.50
+1.00
+55
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31615
+112
+31607
+-1
+0
+28
+0
+0
+#31601~
+31623
+31626
+31627
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too ppor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31624
+112
+31610
+-1
+0
+28
+0
+0
+#31605~
+31620
+31621
+31619
+-1
+1.50
+1.00
+10
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31625
+120
+31605
+-1
+0
+28
+0
+0
+#31606~
+31628
+31629
+31630
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31626
+112
+31606
+-1
+0
+28
+0
+0
+#31622~
+31636
+31637
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31617
+88
+31622
+-1
+0
+28
+0
+0
+#31625~
+31631
+31632
+31633
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+1
+31616
+88
+31625
+-1
+0
+28
+0
+0
+#31629~
+31638
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31618
+0
+31629
+-1
+0
+28
+0
+0
+#31630~
+31642
+31643
+31644
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+1
+31627
+56
+31630
+-1
+0
+28
+0
+0
+#31631~
+31639
+31640
+31641
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31623
+0
+31631
+-1
+0
+28
+0
+0
+#31640~
+31645
+31646
+31647
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+31629
+56
+31640
+-1
+0
+28
+0
+0
+#31642~
+31648
+31649
+31650
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+1
+31628
+56
+31642
+-1
+0
+28
+0
+0
+#31651~
+31659
+31660
+31661
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31631
+104
+31651
+-1
+0
+28
+0
+0
+#31652~
+31656
+31657
+31658
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31632
+104
+31652
+-1
+0
+28
+0
+0
+#31653~
+31651
+31655
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31633
+104
+31653
+-1
+0
+28
+0
+0
+#31654~
+31652
+31653
+31654
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+31614
+104
+31654
+-1
+0
+28
+0
+0
+#31660~
+31662
+31663
+31664
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+1
+31634
+120
+31660
+-1
+0
+28
+0
+0
+#31663~
+31665
+31666
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+1
+31612
+120
+31663
+-1
+0
+28
+0
+0
+0
+
+
+#$

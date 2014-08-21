@@ -1,0 +1,1408 @@
+AreaState 'New Ofcol' {
+  Room 600 {
+    Repop = 1;
+    Mobile 609 {
+      Ptr = 169827176;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 80 ),  ( 120 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 600;
+    }
+    Obj 649 {
+    }
+  }
+  Room 601 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 169825424;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 353, 341 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Silver = 50;
+      Room = 601;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 624 {
+        WearLoc = 'feet';
+      }
+    }
+    Mobile 601 {
+      Ptr = 169826008;
+      DamType = 'slash';
+      AfBy = ('detect_invis');
+      isWildMagic = false;
+      HMVP = (  ( 1164, 1145 ),  ( 252, 242 ),  ( 125, 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 273;
+      Room = 601;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 639 {
+        WearLoc = 'body';
+      }
+      Obj 640 {
+        WearLoc = 'head';
+      }
+      Obj 641 {
+        WearLoc = 'legs';
+      }
+      Obj 642 {
+        WearLoc = 'feet';
+      }
+      Obj 643 {
+        WearLoc = 'hands';
+      }
+      Obj 644 {
+        WearLoc = 'arms';
+      }
+      Obj 645 {
+        WearLoc = 'shield';
+      }
+      Obj 646 {
+        WearLoc = 'waist';
+      }
+      Obj 647 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 617 {
+      Ptr = 169826592;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 71 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 601;
+    }
+  }
+  Room 602 {
+    Repop = 1;
+  }
+  Room 603 {
+    Repop = 1;
+    Mobile 604 {
+      Ptr = 169824840;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 887 ),  ( 172 ),  ( 100 ),  ( 0 ) );
+      Gold = 49;
+      Silver = 719;
+      Room = 603;
+      Obj 600 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 601 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 615 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 667 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 604 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 170413488;
+      DamType = 'slash';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 360, 348 ),  ( 149 ),  ( 100 ),  ( 0 ) );
+      Silver = 46;
+      Room = 604;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 623 {
+        WearLoc = 'legs';
+      }
+    }
+    Mobile 605 {
+      Ptr = 169824256;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 888 ),  ( 167 ),  ( 100 ),  ( 0 ) );
+      Gold = 4;
+      Silver = 310;
+      Room = 604;
+      Obj 616 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 617 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 618 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 619 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 605 {
+    Repop = 1;
+  }
+  Room 606 {
+    Repop = 1;
+    Mobile 606 {
+      Ptr = 170412904;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 355 ),  ( 149 ),  ( 100 ),  ( 0 ) );
+      Gold = 8;
+      Silver = 920;
+      Room = 606;
+      Obj 606 {
+        ExtraFlags = ('magic', 'inventory');
+      }
+      Obj 607 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 608 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 607 {
+    Repop = 1;
+    Mobile 607 {
+      Ptr = 170412320;
+      DamType = 'slash';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 886 ),  ( 169 ),  ( 100 ),  ( 0 ) );
+      Gold = 2;
+      Silver = 27;
+      Room = 607;
+      Obj 602 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 603 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 604 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 605 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 608 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 170411736;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 355, 343 ),  ( 155 ),  ( 100 ),  ( 0 ) );
+      Silver = 30;
+      Room = 608;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 622 {
+        WearLoc = 'head';
+      }
+    }
+  }
+  Room 609 {
+    Repop = 1;
+    Mobile 622 {
+      Ptr = 170410568;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 888 ),  ( 168 ),  ( 100 ),  ( 0 ) );
+      Silver = 55;
+      Room = 609;
+      Obj 648 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 649 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 650 {
+        ExtraFlags = ('inventory');
+      }
+    }
+    Mobile 624 {
+      Ptr = 170411152;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 187 ),  ( 127 ),  ( 100 ),  ( 0 ) );
+      Silver = 30;
+      Room = 609;
+    }
+  }
+  Room 610 {
+    Repop = 1;
+    Mobile 608 {
+      Ptr = 170409984;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 347 ),  ( 157 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 171;
+      Room = 610;
+      Obj 609 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 610 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 611 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 612 {
+        ExtraFlags = ('inventory');
+      }
+      Obj 613 {
+        ExtraFlags = ('inventory');
+      }
+    }
+  }
+  Room 611 {
+    Repop = 1;
+    Mobile 618 {
+      Ptr = 170499504;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 67 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 611;
+    }
+  }
+  Room 612 {
+    Repop = 1;
+  }
+  Room 613 {
+    Repop = 1;
+  }
+  Room 614 {
+    Repop = 1;
+  }
+  Room 615 {
+    Repop = 1;
+  }
+  Room 616 {
+    Repop = 1;
+  }
+  Room 617 {
+    Repop = 1;
+    Mobile 610 {
+      Ptr = 170498920;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 152 ),  ( 140 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 617;
+      Obj 601 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 618 {
+    Repop = 1;
+  }
+  Room 619 {
+    Repop = 1;
+    Mobile 612 {
+      Ptr = 170496584;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 20 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+    Mobile 612 {
+      Ptr = 170497168;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 15 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+    Mobile 612 {
+      Ptr = 170497752;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 14 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+    Mobile 612 {
+      Ptr = 170498336;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 19 ),  ( 100 ),  ( 100 ),  ( 0 ) );
+      Room = 619;
+    }
+  }
+  Room 620 {
+    Repop = 1;
+    Mobile 611 {
+      Ptr = 170531688;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 70 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 620;
+      Obj 615 {
+        WearLoc = 'wielded';
+      }
+    }
+    Mobile 614 {
+      Ptr = 170532272;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 72 ),  ( 111 ),  ( 100 ),  ( 0 ) );
+      Room = 620;
+    }
+    Mobile 614 {
+      Ptr = 170496000;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 67 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Room = 620;
+    }
+    Obj 614 {
+    }
+    Obj 611 {
+    }
+  }
+  Room 621 {
+    Repop = 1;
+  }
+  Room 622 {
+    Repop = 1;
+    Mobile 615 {
+      Ptr = 170529352;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 83 ),  ( 128 ),  ( 100 ),  ( 130 ) );
+      Room = 622;
+    }
+    Mobile 615 {
+      Ptr = 170529936;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 83 ),  ( 141 ),  ( 100 ),  ( 131 ) );
+      Room = 622;
+    }
+    Mobile 615 {
+      Ptr = 170530520;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 84 ),  ( 133 ),  ( 100 ),  ( 133 ) );
+      Room = 622;
+    }
+    Mobile 615 {
+      Ptr = 170531104;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 84 ),  ( 124 ),  ( 100 ),  ( 131 ) );
+      Room = 622;
+    }
+  }
+  Room 623 {
+    Repop = 1;
+    Mobile 613 {
+      Ptr = 170564456;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 66 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Room = 623;
+    }
+    Mobile 613 {
+      Ptr = 170565040;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 67 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Room = 623;
+    }
+    Mobile 613 {
+      Ptr = 170528768;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 69 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Room = 623;
+    }
+  }
+  Room 624 {
+    Repop = 1;
+    Mobile 616 {
+      Ptr = 170562120;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 55 ),  ( 115 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+    Mobile 616 {
+      Ptr = 170562704;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 58 ),  ( 115 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+    Mobile 616 {
+      Ptr = 170563288;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 59 ),  ( 109 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+    Mobile 616 {
+      Ptr = 170563872;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 60 ),  ( 113 ),  ( 100 ),  ( 0 ) );
+      Room = 624;
+    }
+  }
+  Room 625 {
+    Repop = 1;
+  }
+  Room 626 {
+    Repop = 1;
+  }
+  Room 627 {
+    Repop = 1;
+    Mobile 621 {
+      Ptr = 170561536;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 69 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 627;
+      Obj 665 {
+      }
+      Obj 666 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 628 {
+    Repop = 1;
+  }
+  Room 629 {
+    Repop = 1;
+    Mobile 621 {
+      Ptr = 170597808;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 62 ),  ( 105 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 629;
+      Obj 665 {
+      }
+      Obj 666 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 630 {
+    Repop = 1;
+  }
+  Room 631 {
+    Repop = 1;
+  }
+  Room 632 {
+    Repop = 1;
+  }
+  Room 633 {
+    Repop = 1;
+  }
+  Room 634 {
+    Repop = 1;
+  }
+  Room 635 {
+    Repop = 1;
+    Mobile 620 {
+      Ptr = 170597224;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 43 ),  ( 104 ),  ( 100 ),  ( 0 ) );
+      Room = 635;
+    }
+  }
+  Room 636 {
+    Repop = 1;
+  }
+  Room 637 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 170596056;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 367, 355 ),  ( 155 ),  ( 100 ),  ( 0 ) );
+      Silver = 45;
+      Room = 637;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 629 {
+        WearLoc = 'lwrist';
+      }
+    }
+    Mobile 618 {
+      Ptr = 170596640;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 71 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 637;
+    }
+  }
+  Room 638 {
+    Repop = 1;
+  }
+  Room 639 {
+    Repop = 1;
+  }
+  Room 640 {
+    Repop = 1;
+  }
+  Room 641 {
+    Repop = 1;
+  }
+  Room 642 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 170595472;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 365, 353 ),  ( 138 ),  ( 100 ),  ( 0 ) );
+      Silver = 75;
+      Room = 642;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 626 {
+        WearLoc = 'arms';
+      }
+    }
+  }
+  Room 643 {
+    Repop = 1;
+    Mobile 621 {
+      Ptr = 170594888;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 68 ),  ( 110 ),  ( 100 ),  ( 0 ) );
+      Silver = 1;
+      Room = 643;
+      Obj 665 {
+      }
+      Obj 666 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 644 {
+    Repop = 1;
+  }
+  Room 645 {
+    Repop = 1;
+  }
+  Room 646 {
+    Repop = 1;
+  }
+  Room 647 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 170594304;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 352, 340 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Silver = 52;
+      Room = 647;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+    }
+  }
+  Room 648 {
+    Repop = 1;
+    Mobile 617 {
+      Ptr = 170696112;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 66 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 648;
+    }
+  }
+  Room 649 {
+    Repop = 1;
+  }
+  Room 650 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 170694944;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 357, 345 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Silver = 28;
+      Room = 650;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 625 {
+        WearLoc = 'hands';
+      }
+    }
+    Mobile 617 {
+      Ptr = 170695528;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 63 ),  ( 107 ),  ( 100 ),  ( 0 ) );
+      Silver = 4;
+      Room = 650;
+    }
+  }
+  Room 651 {
+    Repop = 1;
+  }
+  Room 652 {
+    Repop = 1;
+    Mobile 620 {
+      Ptr = 170694360;
+      DamType = 'slash';
+      isWildMagic = false;
+      HMVP = (  ( 46 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Room = 652;
+    }
+  }
+  Room 653 {
+    Repop = 1;
+  }
+  Room 654 {
+    Repop = 1;
+  }
+  Room 655 {
+    Repop = 1;
+    Mobile 619 {
+      Ptr = 170693776;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 42 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Room = 655;
+    }
+  }
+  Room 656 {
+    Repop = 1;
+  }
+  Room 657 {
+    Repop = 1;
+  }
+  Room 658 {
+    Repop = 1;
+  }
+  Room 659 {
+    Repop = 1;
+  }
+  Room 660 {
+    Repop = 1;
+  }
+  Room 661 {
+    Repop = 1;
+    Mobile 619 {
+      Ptr = 170693192;
+      DamType = 'pound';
+      isWildMagic = false;
+      HMVP = (  ( 40 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Room = 661;
+    }
+  }
+  Room 662 {
+    Repop = 1;
+  }
+  Room 663 {
+    Repop = 1;
+  }
+  Room 664 {
+    Repop = 1;
+  }
+  Room 665 {
+    Repop = 1;
+  }
+  Room 666 {
+    Repop = 1;
+    Mobile 618 {
+      Ptr = 170692608;
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 66 ),  ( 106 ),  ( 100 ),  ( 0 ) );
+      Silver = 3;
+      Room = 666;
+    }
+  }
+  Room 667 {
+    Repop = 1;
+    Mobile 600 {
+      Ptr = 170966448;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 367, 355 ),  ( 134 ),  ( 100 ),  ( 0 ) );
+      Silver = 61;
+      Room = 667;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 628 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 668 {
+    Repop = 1;
+  }
+  Room 669 {
+    Repop = 1;
+    Mobile 602 {
+      Ptr = 170965280;
+      DamType = 'pierce';
+      AfBy = ('detect_invis');
+      isWildMagic = false;
+      HMVP = (  ( 698, 682 ),  ( 258, 228 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 166;
+      Room = 669;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 631 {
+        WearLoc = 'body';
+      }
+      Obj 653 {
+        WearLoc = 'wielded';
+      }
+      Obj 632 {
+        WearLoc = 'head';
+      }
+      Obj 633 {
+        WearLoc = 'legs';
+      }
+      Obj 634 {
+        WearLoc = 'feet';
+      }
+      Obj 635 {
+        WearLoc = 'hands';
+      }
+      Obj 626 {
+        WearLoc = 'arms';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 628 {
+        WearLoc = 'waist';
+      }
+    }
+    Mobile 628 {
+      Ptr = 170965864;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 905, 900 ),  ( 187, 177 ),  ( 100 ),  ( 0 ) );
+      Silver = 34;
+      Room = 669;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 664 {
+        WearLoc = 'about';
+      }
+      Obj 652 {
+        WearLoc = 'neck1';
+      }
+    }
+  }
+  Room 670 {
+    Repop = 1;
+  }
+  Room 671 {
+    Repop = 1;
+  }
+  Room 672 {
+    Repop = 1;
+  }
+  Room 673 {
+    Repop = 1;
+    Mobile 625 {
+      Ptr = 170964696;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 79 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 5;
+      Room = 673;
+    }
+  }
+  Room 674 {
+    Repop = 1;
+    Mobile 625 {
+      Ptr = 170964112;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 81 ),  ( 117 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 674;
+    }
+  }
+  Room 675 {
+    Repop = 1;
+  }
+  Room 676 {
+    Repop = 1;
+    Mobile 633 {
+      Ptr = 170963528;
+      DamType = 'slash';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 398, 393 ),  ( 153 ),  ( 100 ),  ( 0 ) );
+      Gold = 3;
+      Silver = 164;
+      Room = 676;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 662 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 677 {
+    Repop = 1;
+  }
+  Room 678 {
+    Repop = 1;
+    Mobile 627 {
+      Ptr = 170962944;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 64 ),  ( 108 ),  ( 100 ),  ( 0 ) );
+      Silver = 6;
+      Room = 678;
+    }
+  }
+  Room 679 {
+    Repop = 1;
+  }
+  Room 680 {
+    Repop = 1;
+  }
+  Room 681 {
+    Repop = 1;
+    Mobile 633 {
+      Ptr = 171036080;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 400, 395 ),  ( 153 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 152;
+      Room = 681;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 662 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 682 {
+    Repop = 1;
+    Mobile 626 {
+      Ptr = 171035496;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 93 ),  ( 112 ),  ( 100 ),  ( 0 ) );
+      Silver = 2;
+      Room = 682;
+    }
+  }
+  Room 683 {
+    Repop = 1;
+    Mobile 626 {
+      Ptr = 171034912;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 89 ),  ( 119 ),  ( 100 ),  ( 0 ) );
+      Silver = 7;
+      Room = 683;
+    }
+  }
+  Room 684 {
+    Repop = 1;
+  }
+  Room 685 {
+    Repop = 1;
+  }
+  Room 686 {
+    Repop = 1;
+  }
+  Room 687 {
+    Repop = 1;
+  }
+  Room 688 {
+    Repop = 1;
+    Mobile 629 {
+      Ptr = 171032576;
+      DamType = 'slash';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 374 ),  ( 129 ),  ( 100 ),  ( 0 ) );
+      Silver = 46;
+      Room = 688;
+      Obj 664 {
+        WearLoc = 'about';
+      }
+    }
+    Mobile 630 {
+      Ptr = 171033160;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 821, 816 ),  ( 150 ),  ( 100 ),  ( 0 ) );
+      Silver = 52;
+      Room = 688;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 669 {
+        WearLoc = 'wielded';
+      }
+      Obj 656 {
+        WearLoc = 'head';
+      }
+      Obj 657 {
+        WearLoc = 'feet';
+      }
+    }
+    Mobile 630 {
+      Ptr = 171033744;
+      DamType = 'pound';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 818, 813 ),  ( 177 ),  ( 100 ),  ( 0 ) );
+      Silver = 32;
+      Room = 688;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 669 {
+        WearLoc = 'wielded';
+      }
+      Obj 657 {
+        WearLoc = 'feet';
+      }
+      Obj 658 {
+        WearLoc = 'hands';
+      }
+    }
+    Mobile 630 {
+      Ptr = 171034328;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 821, 816 ),  ( 163 ),  ( 100 ),  ( 0 ) );
+      Silver = 31;
+      Room = 688;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 669 {
+        WearLoc = 'wielded';
+      }
+      Obj 659 {
+        WearLoc = 'arms';
+      }
+      Obj 661 {
+        WearLoc = 'waist';
+      }
+    }
+  }
+  Room 689 {
+    Repop = 1;
+  }
+  Room 690 {
+    Repop = 1;
+    Mobile 633 {
+      Ptr = 171142576;
+      DamType = 'pound';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 398, 393 ),  ( 149 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 264;
+      Room = 690;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 654 {
+        WearLoc = 'body';
+      }
+      Obj 660 {
+        WearLoc = 'shield';
+      }
+      Obj 662 {
+        WearLoc = 'wielded';
+      }
+    }
+  }
+  Room 691 {
+    Repop = 1;
+  }
+  Room 692 {
+    Repop = 1;
+  }
+  Room 693 {
+    Repop = 1;
+    Mobile 631 {
+      Ptr = 171140824;
+      DamType = 'pierce';
+      AfBy = ('invisible', 'infrared', 'flying');
+      isWildMagic = false;
+      HMVP = (  ( 2398, 2393 ),  ( 211 ),  ( 100 ),  ( 0 ) );
+      Gold = 32;
+      Silver = 2631;
+      Room = 693;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 668 {
+        WearLoc = 'wielded';
+      }
+      Obj 663 {
+        WearLoc = 'hold';
+      }
+    }
+    Mobile 632 {
+      Ptr = 171141408;
+      DamType = 'pierce';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 360, 355 ),  ( 206 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 186;
+      Room = 693;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 664 {
+        WearLoc = 'about';
+      }
+    }
+    Mobile 632 {
+      Ptr = 171141992;
+      DamType = 'slash';
+      AfBy = ('invisible');
+      isWildMagic = false;
+      HMVP = (  ( 356, 351 ),  ( 208 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 159;
+      Room = 693;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 664 {
+        WearLoc = 'about';
+      }
+    }
+  }
+  Room 694 {
+    Repop = 1;
+  }
+  Room 695 {
+    Repop = 1;
+  }
+  Room 696 {
+    Repop = 1;
+  }
+  Room 697 {
+    Repop = 1;
+  }
+  Room 698 {
+    Repop = 1;
+    Mobile 634 {
+      Ptr = 171139072;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 357, 345 ),  ( 143 ),  ( 100 ),  ( 0 ) );
+      Silver = 41;
+      Room = 698;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 634 {
+      Ptr = 171139656;
+      DamType = 'slash';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 355, 343 ),  ( 148 ),  ( 100 ),  ( 0 ) );
+      Silver = 66;
+      Room = 698;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 634 {
+      Ptr = 171140240;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 357, 345 ),  ( 140 ),  ( 100 ),  ( 0 ) );
+      Silver = 39;
+      Room = 698;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+  }
+  Room 699 {
+    Repop = 1;
+    Mobile 603 {
+      Ptr = 171964120;
+      DamType = 'pound';
+      AfBy = ('detect_invis');
+      isWildMagic = false;
+      HMVP = (  ( 645, 629 ),  ( 281, 251 ),  ( 100 ),  ( 0 ) );
+      Gold = 1;
+      Silver = 150;
+      Room = 699;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 631 {
+        WearLoc = 'body';
+      }
+      Obj 653 {
+        WearLoc = 'wielded';
+      }
+      Obj 632 {
+        WearLoc = 'head';
+      }
+      Obj 623 {
+        WearLoc = 'legs';
+      }
+      Obj 624 {
+        WearLoc = 'feet';
+      }
+      Obj 625 {
+        WearLoc = 'hands';
+      }
+      Obj 636 {
+        WearLoc = 'arms';
+      }
+      Obj 637 {
+        WearLoc = 'shield';
+      }
+      Obj 638 {
+        WearLoc = 'waist';
+      }
+    }
+    Mobile 623 {
+      Ptr = 171964704;
+      DamType = 'slash';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 362, 350 ),  ( 140 ),  ( 100 ),  ( 0 ) );
+      Silver = 73;
+      Room = 699;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 623 {
+      Ptr = 171965288;
+      DamType = 'pierce';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 362, 350 ),  ( 149 ),  ( 100 ),  ( 0 ) );
+      Silver = 44;
+      Room = 699;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+    Mobile 623 {
+      Ptr = 171965872;
+      DamType = 'pound';
+      AfBy = ('none');
+      isWildMagic = false;
+      HMVP = (  ( 359, 347 ),  ( 143 ),  ( 100 ),  ( 0 ) );
+      Silver = 26;
+      Room = 699;
+      Obj 620 {
+        WearLoc = 'lfinger';
+      }
+      Obj 621 {
+        WearLoc = 'body';
+      }
+      Obj 630 {
+        WearLoc = 'wielded';
+      }
+      Obj 627 {
+        WearLoc = 'shield';
+      }
+      Obj 651 {
+      }
+    }
+  }
+}

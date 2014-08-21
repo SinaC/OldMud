@@ -1,0 +1,2295 @@
+#Style Circle
+#AREADATA
+Name Newbie School~
+Builders Radiax~
+VNUMs 23400 23499
+Credits {{None}  CAW    Newbie School~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#23400
+samantha clerk~
+Samantha, the clerk~
+Samantha smiles as you enter her shop.
+~
+   Samantha is a beautiful young elf, who seems to be happy with what she does.
+She is very pleased to see you.    
+~
+bdenopr dfp 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#23401
+newbie training mob~
+a newbie training mob~
+The newbie training mob stands here mocking you.
+~
+   The newbie training mob looks very scrawny and sickly.    
+~
+bd df 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#23402
+newbie dummy mob~
+the dummy mob~
+A newbie dummy mob is unsure what it is doing.
+~
+   This mob looks like a punching bag, that would bounce right back up, if it
+got knocked to the ground.    
+~
+bde df 0 E
+1 20 9 0d0+11 1d2+0
+8 96
+8 8 1
+E
+#23403
+Kobold~
+a kobold~
+A Kobold is snearing at you.
+~
+   You see a small rat man, which stands about 3 feet tall.  In his hand is a
+small dagger which is jagged and chipped.  The clothes on this rat man are torn
+and a bit oversized.    
+~
+dg 0 1 E
+1 20 9 0d0+11 1d2+0
+9 106
+8 8 1
+BareHandAttack: 11
+E
+#23404
+Badger~
+a badger~
+A badger is here hissing.
+~
+   You see a large badger with red eyes staring back at you.  The badger seems
+to be unusally strong.    
+~
+dg 0 0 E
+2 20 9 0d0+22 1d2+1
+18 372
+8 8 2
+BareHandAttack: 8
+E
+#23405
+Brownie~
+a brownie~
+A brownie is here trying to hide.
+~
+   You see a tiny humanoid.  The brownie is a little larger than a fairy, and
+does not have wings.  They are skilled with ranged items.    
+~
+dg bdfs 6 E
+2 20 9 0d0+22 1d2+1
+16 416
+8 8 1
+BareHandAttack: 1
+E
+#23406
+Bulette~
+a bulette~
+You see a bulette snooping around
+~
+   You see a very large insect type creature that looks like an overgrown
+beetle.  It is armored with a very tough shell.    
+~
+dg 0 0 E
+1 20 9 0d0+11 1d2+0
+9 93
+8 8 0
+BareHandAttack: 7
+E
+#23407
+Osquip~
+a osquip~
+An osquip snaps at you.
+~
+   You see a large rodent with 6 legs and appears to be of a beaver family.  
+It also looks like a large Rat.  The Osquip is the size of a small dog.    
+~
+dg d -8 E
+3 20 8 0d0+33 1d2+1
+24 882
+8 8 0
+BareHandAttack: 4
+E
+#23408
+urd~
+a urd~
+An urd is flying overhead
+~
+   An Urd is of the Kobold family, except that the Urd has wings and can fly.
+Urds are three feet tall and have short ivory horns and red rimmed eyes.    
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 10
+E
+#23409
+Water weird~
+a water weird~
+A water weird is angered to see you.
+~
+   This water weird is still young.  It seems to be made out of water, and seems
+to be of a serpent type.  It's body blends into the water.    
+~
+bd df 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+BareHandAttack: 3
+E
+#23410
+Armourer~
+the armourer~
+The Armourer is watching you eagerly.
+~
+   The Armourer is the size of a hobbit.  He looks well equipped and seems to
+have been in a battle or two.  He has a kind looking face.    
+~
+bdnopr df -250 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#23495
+Brownie~
+a brownie~
+A brownie is here trying to hide.
+~
+   You see a tiny humanoid.  The brownie is a little larger than a fairy, and
+does not have wings.  They are skilled with ranged items.    
+~
+dgh bdf 0 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+BareHandAttack: 1
+E
+#0
+
+#OBJECTS
+
+#23400
+water goatskin skin water~
+a goatskin~
+A skin with water seeping out of it, is lying here.~
+~
+17 0 a 0
+8 8 0 0
+13 10 0 0
+#23401
+black berries blackberries~
+some blackberries~
+A bunch of blackberries.~
+~
+19 0 a 0
+6 0 0 0
+1 8 0 0
+#23402
+pouch~
+a small pouch~
+A small pouch has been dropped here.~
+~
+15 0 a 0
+15 1 -1 0
+1 30 0 0
+#23403
+fountain~
+a fountain~
+A drinking fountain looks out of place, here in the Arena.~
+~
+23 0 0 0
+999 999 15 0
+1004 0 0 0
+#23404
+leaves leaf~
+a leaf~
+A fallen leaf rests here.~
+~
+19 0 a 0
+5 0 0 0
+1 5 0 0
+#23405
+newbie sword short shortsword~
+a newbie shortsword~
+A newbie shortsword is sitting here.~
+~
+5 mn an 0
+0 1 6 3
+3 10 0 0
+#23406
+Newbie mace~
+a newbie mace~
+A newbie mace has been dropped here.~
+~
+5 op an 0
+0 1 5 5
+3 10 0 0
+E
+newbie mace~
+   A short mace designed for new characters.    
+~
+#23407
+newbie dagger~
+a newbie dagger~
+A newbie dagger is resting here.~
+~
+5 mn ano 0
+1 1 6 11
+2 10 0 0
+E
+newbie dagger~
+   A small dagger designed for thieves, or an offset weapon.    
+~
+A
+19 1
+#23408
+Newbie club~
+a newbie club~
+A newbie club has been left here.~
+~
+5 op ano 0
+1 1 4 7
+2 5 0 0
+E
+newbie club~
+   A small club designed for an offset hand.    
+~
+A
+19 1
+#23409
+Newbie chest~
+a newbie chest~
+A newbie chest plate rests here.~
+~
+9 0 ad 0
+2 0 0 0
+6 15 0 0
+E
+newbie chest~
+   A small chest place designed for all classes.    
+~
+#23410
+ring power~
+a ring of power~
+A shiny ring is trying to hide here.~
+~
+9 amno ab 0
+1 0 0 0
+1 10 0 0
+E
+ring power~
+   A ring with a fighter drawing his sword is engraved on this shiny ring.    
+~
+A
+1 1
+#23411
+ring shadows~
+a ring of shadows~
+A black ring is hiding in the shadows~
+~
+9 mnp ab 0
+1 0 0 0
+1 10 0 0
+E
+ring shadows~
+   A dark black ring with no markings on it.    
+~
+A
+2 1
+#23412
+Blessed ring~
+a blessed ring~
+A humming ring is calling out to you.~
+~
+9 abmop ab 0
+1 0 0 0
+1 10 0 0
+E
+ring blessed~
+   A ring that looks pure and glows brightly.    
+~
+A
+4 1
+#23413
+ring fire~
+a ring of fire~
+A ring that glows like fire is warding you off.~
+~
+9 anop ab 0
+1 0 0 0
+1 10 0 0
+E
+ring fire~
+   This ring burns bright red and burns to the touch.    
+~
+A
+3 1
+#23414
+Warriors Amulet~
+a warriors amulet~
+An amulet is lying here.~
+~
+9 mno ac 0
+1 0 0 0
+1 10 0 0
+E
+warriors amulet~
+   This amulet is designed to protect the neck of a Warrior.    
+~
+#23415
+Black collar~
+a black collar~
+A black collar has been left here.~
+~
+9 mnp ac 0
+1 0 0 0
+1 10 0 0
+E
+black collar~
+   This collar wraps around the neck of a thief to prevent this skin from
+showing.    
+~
+#23416
+Silver pendant~
+a silver pendant~
+A silver pendant is resting here.~
+~
+9 mop ac 0
+1 0 0 0
+1 15 0 0
+E
+silver pendant~
+   This pendant is shaped as a cross.  It shines brightly.    
+~
+#23417
+Red charm~
+a red charm~
+A fire red charm is burning a hole here.~
+~
+9 nop ac 0
+1 0 0 0
+1 10 0 0
+E
+red charm~
+   This charm is red as fire and burns to the touch.    
+~
+#23418
+Warriors Helm~
+a warriors helm~
+A large Helm is looking for an owner~
+~
+9 mno ae 0
+1 0 0 0
+1 10 0 0
+E
+warriors helm~
+   A large helm which covers the entire face.  It has slits for the Eyes and
+for the nose.    
+~
+#23419
+Leather Helm~
+a leather helm~
+A dark leather helm is sitting here.~
+~
+9 mnp ae 0
+1 0 0 0
+1 10 0 0
+E
+leather helm~
+   This is helm is black and covers the entire face except for the eyes.  It
+most resembles a mask.    
+~
+#23420
+gold Tiara~
+a gold tiara~
+A gold tiara calls out to you.~
+~
+9 mop ae 0
+1 0 0 0
+1 20 0 0
+E
+gold tiara~
+   A tiara designed to show respect to the Deities.    
+~
+#23421
+Wizards Hat~
+a wizards hat~
+A pointy hat is floating here.~
+~
+9 nop ae 0
+1 0 0 0
+2 10 0 0
+E
+wizards hat~
+   A common wizards hat which points at the end.  The hat is red with pictures
+of fire.    
+~
+A
+21 1
+#23422
+Leggings~
+some leggings~
+A pair of leggings are resting here.~
+~
+9 mno af 0
+1 0 0 0
+1 10 0 0
+E
+leggings~
+   Leggings that cover the entire legs but has the ability to bend at the knee.
+  
+~
+#23423
+Leather leggings~
+some leather leggings~
+A set of leather leggings.~
+~
+9 mnp af 0
+1 0 0 0
+1 10 0 0
+E
+leather leggings~
+   A pair of leggings designed for maneuverability.    
+~
+#23424
+Cleric Breeches~
+some cleric's breeches~
+A pair of breeches that allows for great movement.~
+~
+9 mop af 0
+1 0 0 0
+1 10 0 0
+E
+cleric breeches~
+   Breeches that fight very loosely but provides extra protection.    
+~
+A
+24 1
+#23425
+Leather leggings~
+some leather leggings~
+A set of leggings rest here.~
+~
+15 nop af 0
+15 1 -1 0
+1 20 0 0
+E
+leather leggings~
+   Leather leggings with pouches along the side.    
+~
+#23426
+mail boots plate~
+some mail boots~
+A pair plate mail boots~
+~
+9 mno ag 0
+1 0 0 0
+2 50 0 0
+E
+mail plate boots~
+   A pair of boots that is made completely of Plate.    
+~
+A
+14 -10
+#23427
+Leather boots~
+some leather boots~
+A rugged pair of boots.~
+~
+9 mnp ag 0
+1 0 0 0
+2 10 0 0
+E
+leather boots~
+   A pair of leather boots that look very comfortable.    
+~
+A
+14 20
+#23428
+Sandals~
+some sandals~
+A pair of Sandals.~
+~
+9 mop ag 0
+1 0 0 0
+2 10 0 0
+E
+sandals~
+   A pair of light weight sandals.    
+~
+#23429
+Mage boots~
+some mage boots~
+A pair of Mage boots are floating here.~
+~
+9 nop ag 0
+1 0 0 0
+2 10 0 0
+E
+mage boots~
+   A pair of boots that are very lightweight, but provide good protection.    
+~
+#23430
+map newbie school~
+a map of the newbie school~
+A map of the newbie school was left here.~
+v              O-v-O            O-^-O-O-O-O-O
+                 |              | | | | | | |
+  O              O            O-O-O-O-O-O-O-O
+  |              |              | | | | | | |
+  O   O        O-O-O            O-O-O-O-O-O-O
+  |   |          |              | | | | | | |
+^-O-O-O-v        O   O   O      O-O-O-O-O-O-O
+  |   |          |   |   |      | | | | | | |
+  O   O          O-O-O-O-O-^    O-O-O-O-O-O-O
+                     |   |      | | | | | | |
+                     O v O      O-O-O-O-^-O-O
+~
+16 0 a 0
+0 0 0 0
+1 1 0 0
+#23495
+Tuxedo~
+a tuxedo~
+A tuxedo sized for a dragon.~
+~
+9 mn ad 0
+0 0 0 0
+5 1 0 0
+E
+tuxedo~
+   You see a dragon sized Tuxedo.  Its coat has a twin tail.  
+~
+#23496
+wedding dress gown~
+a wedding dress~
+A long white gown.~
+~
+11 mn ad 0
+0 0 0 0
+5 1 0 0
+E
+wedding dress~
+   You see a beautiful white wedding dress.  It covers the complete body of the
+bride and its train stretches five feet out from the bride.    
+~
+#23497
+engagement ring~
+an engagement ring~
+A beautiful ring of twisted gold and platinum.~
+~
+9 agi ab 0
+0 0 0 0
+1 1 0 0
+E
+ring~
+   A beautiful ring of twisted gold and platinum.  There is an engravement on
+the inside: "I love you Erica"
+~
+A
+1 1
+A
+19 2
+A
+18 2
+#23498
+wedding ring~
+a wedding ring~
+A wedding ring that shines brightly.~
+~
+9 agi ab 0
+5 0 0 0
+1 1 0 0
+E
+ring~
+   A ring that symbols love.  Engraved in the ring, I will love you forever,
+~
+A
+19 2
+A
+18 2
+A
+5 1
+#23499
+little black book~
+a little black book~
+A little black book is sitting here calling your name.~
+~
+12 bgi 0 0
+0 0 0 0
+0 0 0 0
+E
+book~
+   Upon these pages are players that have upset Ferret and will not receive
+help!  
+
+Demigod
+Saint
+Angel
+Phoenix
+Alexander
+@w(Maybe you!)!@n
+~
+#0
+
+#ROOMS
+
+#23400
+Newbie School~
+   Welcome.  We hope you have alot of fun here.  Please go down to start your
+training.  When you have finished the school, you can go down, and fight in the
+combat arena.  Good Luck!    
+~
+234 deh 0
+D5
+~
+~
+0 0 23401
+E
+credits info~
+   Builder   : Radiax
+Zone         : 234 Newbie School
+Began        : 1998
+Player Level : 1-4
+Rooms        : 73
+Mobs         : 12
+Objects      : 36
+Shops        : 2
+Triggers     : 3
+Theme        : 
+Plot         : 
+Links        : 00, 72u
+Map          : 30
+~
+S
+#23401
+Newbie School~
+   Following these halls will lead you to rooms that will teach you some of the
+basics commands that will be very useful for your journeys here in the realm of
+Time Warp.  Please continue East.    
+~
+234 deh 0
+D1
+~
+~
+0 0 23402
+D4
+~
+~
+0 0 23400
+S
+#23402
+Newbie School~
+   Typing @RLOOK@n either in small case, upper case, or mixed will allow you to
+see the Room name and Room Description also any players or Monsters or items.
+You also can just type @RL@n to view the room.  Please continue North or South
+to read more on commands.  After you are done, continue East.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23403
+D1
+~
+~
+0 0 23405
+D2
+~
+~
+0 0 23404
+D3
+~
+~
+0 0 23401
+S
+#23403
+Newbie School~
+   Typing @R AUTOEXIT @n will toggle your exits so when you enter a new room or
+type Look, you can see the available exits.  Closed Doors or Gates will not
+display an exit, until you open them.  Read the room descriptions for hints in
+finding hidden exits.  There is a curtain on the north wall swaying slightly as
+if air is flowing in from somewhere.    
+~
+234 deh 0
+D0
+~
+curtain curtains~
+1 0 23470
+D2
+~
+~
+0 0 23402
+E
+curtain~
+   A beautiful set of curtains is blocking your view to the north.  
+~
+S
+#23404
+Newbie School~
+   @R Color Complete @n will allow you to see colors displayed throughout the
+game, and can help you easily identify certain things like, boards, atms, mobs,
+corpses, you bleeding...  Etc etc.  You can also talk in different colors and
+make your title colorful.  Type @RHELP ANSI@n @nto view how to do this, and to
+get a list of the colors.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23402
+S
+#23405
+Newbie School~
+   To see who is currently playing in Time Warp type @R WHO.  @n This will give
+you a display of both the Visible immortals and Mortals.  It will also tell you
+the class and race of a player and if they belong to a guild or clan.  It will
+also let you know if a player is currently away from thier PC.  Typing @R AFK
+@n will toggle this Display.    
+~
+234 deh 0
+D1
+~
+~
+0 0 23406
+D3
+~
+~
+0 0 23402
+S
+#23406
+Newbie School~
+   @RCommands @nwill bring up a list of available commands that you can use.  
+This will show game commands, typing @RSocials @nwill show you actions that you
+can use.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23407
+D1
+~
+~
+0 0 23409
+D2
+~
+~
+0 0 23408
+D3
+~
+~
+0 0 23405
+S
+#23407
+Newbie School~
+   AUTO's.  @RAutoSac @nwill allow you to sacarifice corpses of mobs that you
+defeat.  @RAutoLoot @ngives you the ability to take all the items from a corpse
+of a mob you defeat (this will work before the autosac).  @RAutogold @ntakes
+only the gold from the defeated mobs.  Autoloot overrides autogold, so you will
+still take items.  @RAutosplit @nwill split your gold from a defeated mob and
+disperse it to all the people within your group.  All these commands are
+toggles, so you can turn them on or off at will.  Type @RTOGGLE @nto see all
+the available toggles that you can turn on or off.    
+~
+234 deh 0
+D2
+~
+~
+0 0 23406
+S
+#23408
+Newbie School~
+   @RWimpy @nis a safety command that lets you flee from combat if you go below
+the set wimpy.  For example if you type wimpy 10 you will flee from combat if
+you fall below 10 hitpoints.  Flee is not guaranteed.  You can fail from
+fleeing, but it will continue to flee if possible.  Make sure you keep an eye
+on your hitpoints.  A scroll of Recall will save you if you feel your wimpy
+won't.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23406
+S
+#23409
+Newbie School~
+   You can regain hitpoints, mana points, and movement points by @RSleeping
+@nand @Rresting.  @n Sleeping is exactly as it states, you fall asleep, you can
+still check your stats and listen to Gossips, group talks, view the Who list
+and simple commands.  Resting allows you to sit down, you can listen to talk,
+as well as all other channels that you belong to.  You can also do more
+commands that sleeping will not allow you to do, but some commands require you
+to be standing.  Resting does not heal hitpoints as fast as sleeping, but will
+restore movement points just as fast.  Being Drunk and sleeping increases the
+Rate of Mana point rejuvenation.    
+~
+234 deh 0
+D3
+~
+~
+0 0 23406
+D5
+~
+~
+0 0 23410
+S
+#23410
+Newbie School~
+   @RScan @nlets you see what Mobs are in the following rooms.  It will only
+show you mobs in rooms within two paces of the room you are in.  It will not
+show you mobs in a room with a closed door.  Scan will also let you see if a
+Player is within 2 spaces of you.  Scan will not work around corners, it only
+works in a straight line.    
+~
+234 deh 0
+D3
+~
+~
+0 0 23411
+D4
+~
+~
+0 0 23409
+S
+#23411
+Newbie School~
+   @RWhere@n will display all players that are currently in your zone.  It will
+not tell you where they are, just that they are within the same zone as you.  
+
+~
+234 deh 0
+D0
+~
+~
+0 0 23412
+D1
+~
+~
+0 0 23410
+D2
+~
+~
+0 0 23413
+D3
+~
+~
+0 0 23414
+S
+#23412
+Newbie School~
+   To equip and unequip items the following commands will be needed.  @RWear
+@nputs armour on the appropriate body part.  @RHold @nlets you hold onto a
+light, as well as some weapons.  @RWield @nequips your main weapon.  Shields
+will be considered a wearable.  To unequip items just @RRemove @nthe item you
+want, use specific names such as remove sword.    
+~
+234 deh 0
+D2
+~
+~
+0 0 23411
+S
+#23413
+Newbie School~
+   Spells, for all those magic users and clerics.  To cast spells you need to
+use the @RCast @ncommand followed by apostrophes.  For example to cast a Heal
+spell, type cast 'heal' or cast 'heal' joeschmo
+~
+234 d 0
+D0
+~
+~
+0 0 23411
+S
+#23414
+Newbie School~
+   To do actions that are not available on the socials list, you can use the
+@REmote @ncommand.  For example emote hops about happily.  Will display
+yourname hops about happily to everyone in the same room as you.  @RGemote
+@nwill allow you to send socials to the entire game.  For example Gemote
+smiles, displays Gossip yourname smiles happily, to the entire mud.    
+~
+234 deh 0
+D1
+~
+~
+0 0 23411
+D3
+~
+~
+0 0 23415
+S
+#23415
+Newbie School~
+   In some instances you may need to know what time of day it is.  For example
+buying items from a store that has only day time hours, and/or gates that lock
+at nightfall, and unlock at sunrise.  To view the time and date, type @RTime@n.
+  
+~
+234 deh 0
+D0
+~
+~
+0 0 23416
+D1
+~
+~
+0 0 23414
+D2
+~
+~
+0 0 23417
+D3
+~
+~
+0 0 23418
+S
+#23416
+Newbie School~
+   You can send any items you do not want to a specified place, known as a
+donation room.  Please @RDonate @n any unwanted items.  The short name for this
+is @RDon@n.  Not all items will make it to the donation room so don't use it
+for a storage place.    
+~
+234 deh 0
+D2
+~
+~
+0 0 23415
+S
+#23417
+Newbie School~
+   We have enabled @RAuctions @non this mud.  You can auction any item you have
+in your inventory.  This will send a message to all players stating what item
+and price you are auctioning off.  This auctioneer will give three chances for
+someone to bid on the item.  Then the auction will be complete.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23415
+S
+#23418
+Newbie School~
+   There are @RBoards @nlocated throughout the mud.  The major board is located
+very close to the center of town.  Please view the boards daily.  This will
+contain important information, code changes that will effect you, or maybe
+upcoming quests.  Another feature for you to view is the @RMOTD@n.  You can
+type MOTD or can view it when you log onto the game.  This part is automatic,
+but you can view it at any time.  If you have any problems Please type @RBUG@n
+and your message so we may correct the problem.    
+~
+234 deh 0
+D1
+~
+~
+0 0 23415
+D3
+~
+~
+0 0 23419
+S
+#23419
+Newbie School~
+   Before engaging in combat, you should check to see if you are able to handle
+the Mob.  The @RConsider@n command will let you know how well matched you are
+to the mob.  Typing @RCon@n mobname will display this info.  You can consider
+another player, especially if you are not in town and you are wondering if you
+can take on another player.  Pkilling is not allowed in Town or in the newbie
+school/zone area.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23420
+D1
+~
+~
+0 0 23418
+S
+#23420
+Newbie School~
+   There may be times you need help to kill a main mob, or even a group of
+mobs.  If you ask other players to join you, you can go around in your own
+group.  To follow someone, type @RFollow Playername@n or you can type @RFol
+Playername@n.  If you enable Autoassist, you will automatically fight when your
+partner fights.  However this won't work if a spell is cast first.  To view the
+stats of your party, type @RGroup@n this will display level, hit/mana/movement
+points.  To talk to your party so noone else can hear you, type @RGT@n.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23421
+D2
+~
+~
+0 0 23419
+S
+#23421
+Newbie School~
+   @REQ@n lets you see what you have equipped.  To see what you have in your
+Inventory type @Rinv@n.  This will be useful if you want to sell some items.  
+The @RScore@n allows you to check your stats, ac, class, money, time you have
+spent in the game and also what you are affected by, such as a strength, bless,
+armor spell.  The short cut for this is @RSC@n.    
+~
+234 deh 0
+D0
+~
+~
+0 0 23424
+D1
+~
+~
+0 0 23422
+D2
+~
+~
+0 0 23420
+D3
+~
+~
+0 0 23423
+S
+#23422
+Newbie School~
+   You will find a guild somewhere in town, that will have a guildmaster.  If
+you find the guildmaster that supports your class, you will find that he can
+train you.  To see how you can be trained, type @RPractice@n.  This will give
+you a list of skills and/or spells that you can learn.  This will also tell you
+how many practice points you have.  Train as much as you can until you cannot
+train anymore for that Skill/spell, this will make your fail rate decrease.  
+You gain Practice Points when you level, but you may not gain skills/spells
+each level.    
+~
+234 deh 0
+D3
+~
+~
+0 0 23421
+S
+#23423
+Newbie Shop~
+   Welcome to the minimart.  To see what the merchant has for sale type
+@RList@n.  To buy an item type @RBuy #1@n.  Or you can use the Item name, if
+there is multiple items with the same name, use the # method.  To buy multiple
+items such as 5 rations of food, you would type @RBuy 5 #2@n.  To sell items in
+your inventory just type @RSell item@n.    
+~
+234 deh 0
+D1
+~
+~
+0 0 23421
+S
+#23424
+Newbie School~
+   In town you will stumble across the Postmaster.  The postmaster will allow
+you to send mail to players that are part of this mud.  It will send it to the
+player if that player is in the game or not.  When that players joins the mud,
+they will receive a personal announcement that they have mail.  To send a
+message, go to the postmaster and type @RMail recipient@n.  If I wanted to send
+mail to Rumble, I would type @RMail Rumble@n.  Just type your massage in, and
+then on a new line type /s to save and send the mail.  To receive mail, go to
+the postmaster and type @RReceive mail@n.  Sending mail will cost you 150 gold.
+  
+~
+234 deh 0
+D0
+~
+~
+0 0 23425
+D2
+~
+~
+0 0 23421
+S
+#23425
+Newbie School~
+   The last stage of School.  WOO HOO, wait, one more thing to do yet.  Time to
+put your knowledge to the test.  To the east and west are some practice mobs
+for you test your skills and commands.  Going down will send you down into the
+Newbie zone, which was designed for you to hone your skills and make your way
+to the next experience level.  Good Luck!    
+~
+234 cdeh 0
+D1
+~
+~
+0 0 23426
+D2
+~
+~
+0 0 23424
+D3
+~
+~
+0 0 23427
+D5
+~
+~
+0 0 23428
+S
+#23426
+The Fight~
+   Here are some simple mobs for you to fight and to learn your basic skills.
+They should not be difficult.  But, be sure to set your wimpy and be ready to
+flee.    
+~
+234 d 0
+D3
+~
+~
+0 0 23425
+S
+#23427
+The Fight~
+   A few pathetic mobs are here to practice on.  Be sure to consider all mobs
+before attacking them.  This way you will know how likely it is you will win or
+flee.    
+~
+234 d 0
+D1
+~
+~
+0 0 23425
+S
+#23428
+Arena~
+   Welcome to the combat zone.  Here you will find critters roaming around,
+looking forward to a good fight.  Remember to CON the mobs..  Some mobs may be
+a bit too tough for you.  Fighting in here until you are level 5 is
+recommended, however you can roam around anytime you like.  Be careful though,
+because outside of this zone, some mobs will attack you!    
+~
+234 d 0
+D1
+~
+~
+0 0 23430
+D2
+~
+~
+0 0 23440
+D3
+~
+~
+0 0 23429
+D4
+~
+~
+0 0 23425
+S
+#23429
+Arena~
+   Here is a fountain that you can fill up your Goatskin.  The water is crystal
+clear, but the surrounding walls are very musky.  The fountain looks clean and
+safe to drink from.    
+~
+234 d 0
+D1
+~
+~
+0 0 23428
+D2
+~
+~
+0 0 23441
+S
+#23430
+Arena~
+   The smell of death is all around you.  You can hear tiny pitter patter of
+footsteps to the east, west and south.  You could be mistaken, but you think
+you see little red eyes watching you.    
+~
+234 d 0
+D1
+~
+~
+0 0 23431
+D2
+~
+~
+0 0 23439
+D3
+~
+~
+0 0 23428
+E
+eyes~
+   When you lean over to try to see the eyes, you hear something scurry off, and
+tiny squeek of laughter.  
+~
+S
+#23431
+Arena~
+   Little footprints head in all directions.  A small mouse hole is in the base
+of the northern wall.  The sounds of little footsteps echo throughout the
+arena.    
+~
+234 d 0
+D1
+~
+~
+0 0 23432
+D2
+~
+~
+0 0 23438
+D3
+~
+~
+0 0 23430
+S
+#23432
+Arena~
+   The stench here seems to be of a different origin...  As if it was human
+instead of creature.  Did someone you know, not make it far enough?  They
+probably didn't use the CON command!    
+~
+234 d 0
+D1
+~
+~
+0 0 23433
+D2
+~
+~
+0 0 23437
+D3
+~
+~
+0 0 23431
+S
+#23433
+Arena~
+   A loud wailing can be heard to the distant south.  It sounds almost like an
+animal crying.  The arena continues in all directions except to the north.    
+~
+234 d 0
+D1
+~
+~
+0 0 23434
+D2
+~
+~
+0 0 23436
+D3
+~
+~
+0 0 23432
+S
+#23434
+Arena~
+   This room has a peaceful feeling.  You feel as though you can rest here
+without anything bothering you.  You feel refreshed in this room.  Safe rooms
+are a blessing to troubled adventurers.    
+~
+234 de 0
+D2
+~
+~
+0 0 23435
+D3
+~
+~
+0 0 23433
+S
+#23435
+Arena~
+   The sounds of battle echo through out the hall.  The air is thin within this
+arena, maybe it gives the creatures an advantage in combat???  A knocked over
+sign is lying here.    
+~
+234 d 0
+D0
+~
+~
+0 0 23434
+D2
+~
+~
+0 0 23448
+D3
+~
+~
+0 0 23436
+E
+sign~
+   Be courteous to other players.  If there is a player in a room and there are
+mobs.  Do not attack the mobs, unless you ask the player, or the player is
+asleep.  Offenders will be punished.  
+~
+S
+#23436
+Arena~
+   This room seems to be darker than the rest of the arena.  You can make out
+little red eyes following your every movement.  They seem to stay just far
+enough away to hide themselves from view.    
+~
+234 ad 0
+D0
+~
+~
+0 0 23433
+D1
+~
+~
+0 0 23435
+D2
+~
+~
+0 0 23447
+D3
+~
+~
+0 0 23437
+S
+#23437
+Arena~
+   Everything echo's in this room, the clanging of swords, ring through your
+head..  The clanging of armor is continuous.  Not a good place to be if you
+have a headache.    
+~
+234 d 0
+D0
+~
+~
+0 0 23432
+D1
+~
+~
+0 0 23436
+D2
+~
+~
+0 0 23446
+D3
+~
+~
+0 0 23438
+S
+#23438
+Arena~
+   The ground here seems to be really soft.  A closer examination, suggests
+that there are creatures that live underground.  The holes are too small for
+you to enter.    
+~
+234 d 0
+D0
+~
+~
+0 0 23431
+D1
+~
+~
+0 0 23437
+D2
+~
+~
+0 0 23445
+D3
+~
+~
+0 0 23439
+S
+#23439
+Arena~
+   This is an odd room, it has a tree growing in the center.  This is the only
+tree in the arena, and it looks to be in good health.  How can this be so?    
+~
+234 d 0
+D0
+~
+~
+0 0 23430
+D1
+~
+~
+0 0 23438
+D2
+~
+~
+0 0 23444
+D3
+~
+~
+0 0 23440
+E
+tree~
+   This Tree is magical.  The fallen leaves off of this tree provides some
+nourishment.  
+~
+S
+#23440
+Arena~
+   This is a typical room in the arena.  It is clear of everything except the
+occasional wandering mob.  The air has a stench of death and blood is
+splattered everywhere.    
+~
+234 d 0
+D0
+~
+~
+0 0 23428
+D1
+~
+~
+0 0 23439
+D2
+~
+~
+0 0 23443
+D3
+~
+~
+0 0 23441
+S
+#23441
+Arena~
+   The wall here has something scratched into it.  You also see a small stone
+sticking out of the wall, the rest of the wall is smooth.  To the north you
+notice a fountain.  Nothing else of interest is here.    
+~
+234 d 0
+D0
+~
+~
+0 0 23429
+D1
+~
+door~
+1 0 23440
+D2
+~
+~
+0 0 23442
+E
+wall scratched stone~
+   The little stone screams, Push the button.    
+~
+S
+T 23400
+#23442
+Arena~
+   The ground seems a bit grainy here.  It is like wet sand.  Wet from blood.
+How would the inside of an Arena get sand in it?  This is obviously not a
+normal area.    
+~
+234 d 0
+D0
+~
+~
+0 0 23441
+D1
+~
+~
+0 0 23443
+D2
+~
+~
+0 0 23455
+S
+#23443
+Arena~
+   A grainy wet sand sticks to everything.  It is a dark, almost red, brown
+from the blood that is pooled about the room.  The amount of death involved has
+left a lingering smell.    
+~
+234 d 0
+D0
+~
+~
+0 0 23440
+D1
+~
+~
+0 0 23444
+D2
+~
+~
+0 0 23454
+D3
+~
+~
+0 0 23442
+S
+#23444
+Arena~
+   The temperature in this room seems to have increased.  There is no cool wind
+at all.  You can hear the hissing of mobs all around you.  Their beady eyes are
+all that is visible as they circle in the darkness.    
+~
+234 d 0
+D0
+~
+~
+0 0 23439
+D1
+~
+~
+0 0 23445
+D2
+~
+~
+0 0 23453
+D3
+~
+~
+0 0 23443
+S
+#23445
+Arena~
+   The sand sticks to the bottom of your feet and smells metallic.  The sand is
+scattered and piled in various ways as if people have struggled in a fight
+here.    
+~
+234 d 0
+D0
+~
+~
+0 0 23438
+D1
+~
+~
+0 0 23446
+D2
+~
+~
+0 0 23452
+D3
+~
+~
+0 0 23444
+S
+#23446
+Arena~
+   The sand covers a few dismembered body parts.  A few bleached white bones
+stick out a odd angles as if someone was trying to create a design.  They seem
+to have failed.    
+~
+234 d 0
+D0
+~
+~
+0 0 23437
+D1
+~
+~
+0 0 23447
+D2
+~
+~
+0 0 23451
+D3
+~
+~
+0 0 23445
+S
+#23447
+Arena~
+   The ground here is sandy, but very firm.  You can hear the sound of water to
+the south west.  The sand seems to give way to a more solid rock floor that
+slopes up.    
+~
+234 d 0
+D0
+~
+~
+0 0 23436
+D1
+~
+~
+0 0 23448
+D2
+~
+~
+0 0 23450
+D3
+~
+~
+0 0 23446
+S
+#23448
+Arena~
+   The musky smell seems to be very light in this section of the arena.  The
+whole atmosphere seems to have changed.  The wall here seems to be in better
+shape than the rest of the Arena.  How odd.    
+~
+234 d 0
+D0
+~
+~
+0 0 23435
+D2
+~
+~
+0 0 23449
+D3
+~
+~
+0 0 23447
+S
+#23449
+Inside Lake~
+   You enter some shallow water.  You barely splash around as you move.  The
+water level barely covers the bottom of your feet.  You can see some ripples
+forming in the southwest.    
+~
+234 d 7
+D0
+~
+~
+0 0 23448
+D2
+~
+~
+0 0 23462
+D3
+~
+~
+0 0 23450
+S
+#23450
+Inside Lake~
+   You sink knee deep into water.  This will make it hard for you to flee
+rapidly.  There are some wakes coming from the south.  You wonder if you
+disturbed something.    
+~
+234 d 7
+D0
+~
+~
+0 0 23447
+D1
+~
+~
+0 0 23449
+D2
+~
+~
+0 0 23461
+D3
+~
+~
+0 0 23451
+S
+#23451
+Inside Lake~
+   The water in this lake seems oddly warm.  It is almost as if.............  
+The color of this @Ylake@n is undeterminable.  However, you do notice a small
+wake coming from the south east.    
+~
+234 d 7
+D0
+~
+~
+0 0 23446
+D1
+~
+~
+0 0 23450
+D2
+~
+~
+0 0 23460
+D3
+~
+~
+0 0 23452
+S
+#23452
+Indoor Lake~
+   You splash into some water.  It seems as if there is a lake within this
+arena.  How did this Lake get here?  It must have been made by someone or
+something.  This is definately not natural.    
+~
+234 d 7
+D0
+~
+~
+0 0 23445
+D1
+~
+~
+0 0 23451
+D2
+~
+~
+0 0 23459
+D3
+~
+~
+0 0 23453
+S
+#23453
+Arena~
+   You seem to be on a bank of a cavern lake.  The path here is somewhat
+narrow.  You almost have to walk sideways.  Looking down the cliff you can see
+little nests.    
+~
+234 d 0
+D0
+~
+~
+0 0 23444
+D1
+~
+~
+0 0 23452
+D2
+~
+~
+0 0 23458
+D3
+~
+~
+0 0 23454
+E
+nest~
+   These nests are snug in the dirt.  Trying to remove them seems impossible.  
+This looks like a breeding ground.  
+~
+S
+#23454
+Arena~
+   The terrain here is rocky and a tad bit sandy.  To the east there is a large
+rigged boulder which almost blocks your way.  The rock is slick from water and
+blood.    
+~
+234 d 0
+D0
+~
+~
+0 0 23443
+D1
+~
+~
+0 0 23453
+D2
+~
+~
+0 0 23457
+D3
+~
+~
+0 0 23455
+S
+#23455
+Arena~
+   There is nothing here but sand and some bones.  You cannot make out what
+type of creature they come from.  It could be human, a really short and
+deformed one.    
+~
+234 d 0
+D0
+~
+~
+0 0 23442
+D1
+~
+~
+0 0 23454
+D2
+~
+~
+0 0 23456
+S
+#23456
+Arena~
+   Crunch, Crunch, Crunch.  You cannot take a step without stepping on some
+bones.  The bones break everytime you step on them.  Some of these bones seem
+to have been here for a very long time.  Some of them are beneath the large
+rocks that occupy this space also.    
+~
+234 d 0
+D0
+~
+~
+0 0 23455
+D1
+~
+~
+0 0 23457
+D2
+~
+~
+0 0 23469
+S
+#23457
+Arena~
+   The beach and the rocks merge together here.  You can see that the rocks
+form a breaking point for the water.  During a high tide, the water seems to
+come up to this point.  Hopefully you won't be in the middle of combat when it
+rises.    
+~
+234 d 0
+D0
+~
+~
+0 0 23454
+D1
+~
+~
+0 0 23458
+D2
+~
+~
+0 0 23468
+D3
+~
+~
+0 0 23456
+S
+#23458
+Arena~
+   The path here leads north and gets very narrow.  There is water coming from
+the east.  The bank here is very travel worn, you can't make out a single set
+of tracks.    
+~
+234 d 0
+D0
+~
+~
+0 0 23453
+D1
+~
+~
+0 0 23459
+D2
+~
+~
+0 0 23467
+D3
+~
+~
+0 0 23457
+S
+#23459
+Indoor Lake~
+   You sink down in the water to your chest.  It is a little bit difficult move
+here.  Fighting here would be a bad mistake.  The current of the water is
+coming from the east.    
+~
+234 d 0
+D0
+~
+~
+0 0 23452
+D1
+~
+~
+0 0 23460
+D2
+~
+~
+0 0 23466
+D3
+~
+~
+0 0 23458
+S
+#23460
+Inside Lake~
+   The waters current is coming from the east.  It is almost as if something is
+trying to force the water in every direction you walk.  You can hear a faint
+splash coming from the east.    
+~
+234 d 0
+D0
+~
+~
+0 0 23451
+D1
+~
+~
+0 0 23461
+D2
+~
+~
+0 0 23465
+D3
+~
+~
+0 0 23459
+S
+#23461
+The Source~
+   You see ripples generating here in the center of this lake.  This leads you
+to believe that there must be something alive in here.  You hear an odd noise.
+  
+~
+234 d 7
+D0
+~
+~
+0 0 23450
+D1
+~
+~
+0 0 23462
+D2
+~
+~
+0 0 23464
+D3
+~
+~
+0 0 23460
+S
+#23462
+In the Lake~
+   You fall waist deep into the water.  You can feel a small current trying to
+push you to the east.  A rock wall to the east is worn smooth from years of
+erosion.    
+~
+234 d 0
+D0
+~
+~
+0 0 23449
+D2
+~
+~
+0 0 23463
+D3
+~
+~
+0 0 23461
+S
+#23463
+Arena~
+   You sink down into water that is about 6 feet deep.  You have a wall to your
+east and south.  You could swear that something moved passed your leg.  You can
+see green moss floating all around you.    
+~
+234 d 0
+D0
+~
+~
+0 0 23462
+D3
+~
+~
+0 0 23464
+S
+#23464
+Arena~
+   This room is about half sand and half water.  There seems to be quite a lot
+of ripples coming from the north.  It is a lot for an indoor lake.  If you
+concentrate close enough, you could swear the ground is moving.    
+~
+234 d 0
+D0
+~
+~
+0 0 23461
+D1
+~
+~
+0 0 23463
+D3
+~
+~
+0 0 23465
+S
+#23465
+Arena~
+   There seems to be a lot of grass growing here.  The water comes right up to
+the grass, but does not seem to drown the grass.  The grass however has been
+trampled on, many of times.  This is a good sign that something lives around
+here.  You see a large rope dangling from the ceiling.  It looks strong enough
+to support you.    
+~
+234 d 0
+D0
+~
+~
+0 0 23460
+D1
+~
+~
+0 0 23464
+D3
+~
+~
+0 0 23466
+D4
+~
+~
+0 0 23472
+S
+#23466
+Arena~
+   You wade up to your ankles in water.  The inside lake seems to get its
+source from the south.  A small trickle of water seems to come from underneath
+the wall.    
+~
+234 d 0
+D0
+~
+~
+0 0 23459
+D1
+~
+~
+0 0 23465
+D3
+~
+~
+0 0 23467
+S
+#23467
+Arena~
+   A trail here leads right into the wall.  How strange, there is no way to go
+through the wall.  It is as if someone forgot to finish building in here.  
+None the less, this room has 3 other exits and is big enough to be in combat.
+  
+~
+234 d 0
+D0
+~
+~
+0 0 23458
+D1
+~
+~
+0 0 23466
+D3
+~
+~
+0 0 23468
+S
+#23468
+Arena~
+   The rock here is very flat, smooth and shiny.  It seems to be made from a
+fine polished marble.  Something here catches the light and reflects back at
+you.    
+~
+234 d 0
+D0
+~
+~
+0 0 23457
+D1
+~
+~
+0 0 23467
+D3
+~
+~
+0 0 23469
+S
+#23469
+Arena~
+   A pool of blood fills the center of the room.  The scent of death is in the
+air.  Hopefully you can overcome the sensation and fight your way to victory
+and fame.    
+~
+234 d 0
+D0
+~
+~
+0 0 23456
+D1
+~
+~
+0 0 23468
+S
+#23470
+A Hidden Room~
+   Congratulations, you have found the Hidden room.  Always be on the look out
+for key phrases or words that may be further explored.  Please continue back to
+the main Hallway.    
+~
+234 deh 0
+D2
+~
+curtain curtains~
+1 0 23403
+S
+#23471
+A Hidden Store~
+   You enter a small, cluttered room which is filled with shelves of boots and
+pants.  There are various types of items ranging from leather to plate mail.  
+
+~
+234 deh 0
+D1
+~
+~
+0 0 23441
+S
+T 23401
+T 23402
+#23472
+A Small Room~
+   The room ends abruptly with no way out except back down into the arena.  
+High overhead, out of reach, a trapdoor to leads to freedom out of this newbie
+training nightmare.    
+~
+234 cd 0
+D5
+~
+~
+0 0 23465
+S
+#0
+
+#RESETS
+R 0 23470 23430 -1 	(a map of the newbie school)
+O 0 23430 5 23470 	(a map of the newbie school)
+M 0 23400 1 23423 	(Samantha, the clerk)
+G 1 23409 99 -1 	(a newbie chest)
+G 1 23408 99 -1 	(a newbie club)
+G 1 23407 99 -1 	(a newbie dagger)
+G 1 23406 99 -1 	(a newbie mace)
+G 1 23405 99 -1 	(a newbie shortsword)
+G 1 23402 99 -1 	(a small pouch)
+G 1 23401 99 -1 	(some blackberries)
+G 1 23400 99 -1 	(a goatskin)
+M 0 23495 3 23444 	(a brownie)
+R 0 23429 23403 -1 	(a fountain)
+O 0 23403 1 23429 	(a fountain)
+M 0 23410 1 23471 	(the armourer)
+G 1 23422 1 -1 	(some leggings)
+G 1 23423 1 -1 	(some leather leggings)
+G 1 23424 1 -1 	(some cleric's breeches)
+G 1 23425 1 -1 	(some leather leggings)
+G 1 23426 1 -1 	(some mail boots)
+G 1 23427 1 -1 	(some leather boots)
+G 1 23428 1 -1 	(some sandals)
+G 1 23429 1 -1 	(some mage boots)
+M 0 23404 16 23438 	(a badger)
+E 1 23417 2 3 	(a red charm)
+M 0 23404 16 23446 	(a badger)
+M 0 23405 16 23446 	(a brownie)
+E 1 23416 2 4 	(a silver pendant)
+M 0 23408 16 23445 	(a urd)
+E 1 23415 2 3 	(a black collar)
+M 0 23406 16 23445 	(a bulette)
+E 1 23421 5 6 	(a wizards hat)
+M 0 23404 16 23443 	(a badger)
+E 1 23413 2 2 	(a ring of fire)
+M 0 23403 16 23443 	(a kobold)
+M 0 23403 16 23456 	(a kobold)
+E 1 23411 2 1 	(a ring of shadows)
+M 0 23405 16 23456 	(a brownie)
+E 1 23412 2 2 	(a blessed ring)
+M 0 23409 1 23461 	(a water weird)
+E 1 23414 2 3 	(a warriors amulet)
+E 1 23410 2 1 	(a ring of power)
+M 0 23406 16 23453 	(a bulette)
+E 1 23421 5 6 	(a wizards hat)
+M 0 23408 16 23453 	(a urd)
+E 1 23419 5 6 	(a leather helm)
+O 0 23404 8 23439 	(a leaf)
+M 0 23407 16 23439 	(a osquip)
+E 1 23420 5 6 	(a gold tiara)
+M 0 23407 16 23435 	(a osquip)
+E 1 23420 5 6 	(a gold tiara)
+M 0 23408 16 23435 	(a urd)
+E 1 23419 5 6 	(a leather helm)
+M 0 23406 16 23437 	(a bulette)
+M 0 23403 16 23437 	(a kobold)
+E 1 23418 5 6 	(a warriors helm)
+M 0 23403 16 23441 	(a kobold)
+E 1 23418 5 6 	(a warriors helm)
+M 0 23405 16 23454 	(a brownie)
+M 0 23407 16 23454 	(a osquip)
+M 0 23405 16 23434 	(a brownie)
+M 0 23404 16 23434 	(a badger)
+M 0 23406 16 23433 	(a bulette)
+M 0 23407 16 23433 	(a osquip)
+M 0 23404 16 23432 	(a badger)
+M 0 23403 16 23428 	(a kobold)
+O 0 5323 2 23468 	(the diamond)
+M 0 23402 4 23427 	(the dummy mob)
+M 0 23401 4 23426 	(a newbie training mob)
+D 0 23403 0 1 	(Newbie School)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#23400~
+23400
+23401
+23402
+-1
+3.00
+1.00
+15
+19
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23400
+0
+23423
+-1
+0
+28
+0
+0
+#23401~
+23422
+23423
+23424
+23425
+23426
+23427
+23428
+23429
+-1
+4.00
+0.50
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23410
+0
+23471
+-1
+0
+28
+0
+0
+0
+
+
+#$

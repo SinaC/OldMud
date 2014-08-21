@@ -1,0 +1,34 @@
+#HELPS
+
+-1 DIVE~
+Syntax: dive
+
+Some room's exits are specified as <dive>, to have access to them you must
+dive.
+~
+
+-1 SHOWINFO~
+Syntax: showinfo quest
+        showinfo <tag>
+
+This command is a complement to command 'score', it will displays some
+additionial informations such as quest ones. Sometimes a mobile will
+tell you a tag you may use to gather more informations.
+~
+
+-1 OTELL~
+Syntax: otell <item name> <sentence>
+
+This command allows you to talk to an item, this is useful to communicate
+with talkative weapon, magical items, ...
+~
+
+-1 PUSH~
+Syntax: push <item name>
+
+This command allows you to push/pull an item such as a lever, chest, ...
+~
+
+
+0 $~
+#$

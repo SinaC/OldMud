@@ -1,0 +1,82 @@
+AreaState 'Test area' {
+  Room 31000 {
+    Repop = 1;
+    Mobile 31001 {
+      Ptr = 173439848;
+      Desc = '';
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 4740 ),  ( 347 ),  ( 100 ),  ( 394 ) );
+      Room = 31000;
+    }
+  }
+  Room 31001 {
+    Repop = 1;
+    Mobile 31000 {
+      Ptr = 173439264;
+      Desc = '';
+      DamType = 'pierce';
+      isWildMagic = false;
+      HMVP = (  ( 7967 ),  ( 449 ),  ( 100 ),  ( 425 ) );
+      Room = 31001;
+      ExField = ( 'switchWeaponChance', 'int', -1, 85 );
+      ExField = ( 'shotChance', 'int', -1, 70 );
+      ExField = ( 'pointBlankChance', 'int', -1, 30 );
+      ExField = ( 'sharpenChance', 'int', -1, 15 );
+      ExField = ( 'envenomChance', 'int', -1, 15 );
+      ExField = ( 'igniteChance', 'int', -1, 15 );
+      ExField = ( 'bowyerChance', 'int', -1, 90 );
+      ExField = ( 'randomTimer', 'int', -1, 5 );
+      ExField = ( 'baseTimer', 'int', -1, 3 );
+      ExField = ( 'minArrow', 'int', -1, 15 );
+      ExField = ( 'fletcherChance', 'int', -1, 90 );
+      ExField = ( 'weapon', 'entity', -1, ( '<obj>', 31004, ( '<char>', 31000, 31001 ) ) );
+      ExField = ( 'bow', 'entity', -1, ( '<obj>', 31003, ( '<char>', 31000, 31001 ) ) );
+      Obj 31004 {
+      }
+      Obj 31003 {
+        WearLoc = 'wielded';
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 2, 3, 11, 0 );
+        Timer = 2;
+        Affect = ( 'envenom', 0, 2, 0, ('nondispellable', 'ability', 'valid'),
+            ( 'weapon', 'weapon', 1, ('poison') ) );
+      }
+      Obj 78 {
+        Level = 63;
+        Values = ( 10, 4, 6, 11, 0 );
+        Timer = 3;
+        Affect = ( 'ignite arrow', 5, 32, 0, ('nondispellable', 'ability', 'valid'),
+            ( 'weapon', 'weapon', 1, ('flaming') ) );
+      }
+      Obj 78 {
+        Level = 64;
+        Values = ( 10, 4, 3, 11, 0 );
+        Timer = 4;
+      }
+    }
+  }
+  Room 31002 {
+    Repop = 1;
+  }
+  Room 31003 {
+    Repop = 1;
+  }
+  Room 31004 {
+    Repop = 1;
+  }
+  Room 31005 {
+    Repop = 1;
+  }
+  Room 31006 {
+    Repop = 1;
+  }
+  Room 31007 {
+    Repop = 1;
+  }
+  Room 31008 {
+    Repop = 1;
+  }
+}

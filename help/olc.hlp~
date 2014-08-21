@@ -1,0 +1,1079 @@
+#HELPS
+
+-1 OLC EDIT COPY~
+Syntax: EDIT AREA [create/reset] [vnum]		- Area Creation and Repoping.
+Syntax: EDIT ROOM ( [create/delete] [vnum] )	- Room Creation and Editing.
+Syntax: EDIT OBJ  [create/delete] <vnum>	- Object Creation and Editing.
+Syntax: EDIT MOB  [create/delete] <vnum>	- Mobile Creation and Editing.
+
+Syntax: COPY <vnum>                             - Copy <vnum> to current edited.
+
+Syntax: ASAVE  <world/area/changed/list>	- Save Editing to Disk.
+Syntax: ALIST                                   - Listing of Areas.
+Syntax: RESET  See Help Resets.			- Set Game Resets.
+
+Definition: [optional]  <required>  (combined arguments)
+
+     The above commands are used to expand the game world.  The original
+code is based on was written by Surreality and installed in The Isles by Locke.
+It was then converted to work with Envy by Jason Dinkel, and ported to ROM
+2.3 by Hans Birkeland (Hugin). Port to Rom 2.4 by Ivan Toledo (ver 1.5a).
+
+     Inside an editor, typing COMMANDS lists working commands and ? gives
+help. AEDIT and REDIT default to the current area or room. EDIT ROOM RESET
+resets the current room.  Most commands with no arguments display syntax.
+See also help: AEDIT REDIT MEDIT OEDIT
+~
+
+
+
+102 ALIST~
+Syntax: ALIST
+
+This command gives you a listing of all the areas along with their
+vnum assignments and the builder(s) assigned to editing them.
+~
+
+
+
+102 AEDIT~
+Syntax: edit area	 -Enters the editor for the current area.
+Syntax: edit area <vnum> -Enters the editor for the selected area.
+
+The follow commands are available from within the AEDITOR:
+
+age <number>        - set the age of the area
+builder <player>    - toggle that builder's access
+commands            - prints a list of possible commands
+create              - create a brand new area and switch to it
+done                - exits the area editor and returns to normal play
+filename <filename> - change the file name for the area (be careful)
+name <name>         - change the 'AREAS' name of this area
+reset               - resets the current area
+security <rating>   - set the security rating for this area
+show                - hitting return, or 'show' shows the area stats
+vnum <lower> <upper>- set the lower and upper vnum's
+lvnum <lower>       - set the lower vnum
+uvnum <upper>       - set the upper vnum
+<flags>             - area flags, type ? AREA for a list
+teleport <vnum>     - if a room ( in this area ) has teleport flag set,
+		       each time a person will enter this room he will
+		       be teleport there.
+~
+
+
+
+102 REDIT~
+Syntax: edit room		-Enters the editor for the current room.
+
+The following commands are available from within the REDITOR:
+
+commands            - prints a list of possible commands
+create <vnum>       - creates a room with a certain vnum
+desc                - edit description of room
+done                - exists the room editor and returns to normal play
+ed                  - type this command for additional extra-description help
+format              - format(wordwrap) the room description
+name <room title>   - changes the room title
+show                - hitting return, or 'show' shows the room stats
+oshow <vnum>        - shows an object with given vnum
+olist               - lists objects in this area.
+mshow <vnum>        - shows a mobile with given vnum
+mlist               - lists mobiles in this area.
+maxsize             - maximal size of people who can enter in the room
+flag <room-flags>   - room attributes, type ? ROOM for a list
+sector <sector>     - terrain of room, type ? SECTOR for a list
+program             - room programs
+addaffect           - add room affect (check help about addaffect)
+delaffect           - del affect added with addaffect
+<direction>         - see help EXIT, or type <dir> ?
+mreset <vnum> <max #> <min #>
+                    - set a reset in room for a specific mobile
+oreset <vnum> [<args>]
+                    - set a reset in room for a specific object
+                      args: nothing               -> into room
+                            <obj_name>            -> into container
+                            <mob_name> <wear-loc> -> into mobile
+~
+
+
+
+102 EXIT~
+For exits, type the direction (north/s/e/w) followed by:
+
+dig <vnum>         - creates the room and makes a two way link
+link <room vnum>   - make a two way link
+room <room vnum>   - make a one way link (use with caution)
+key <object vnum>  - makes specified object the vnum of the key required
+name <door name>   - makes the door's name/keywords = to the given name
+desc               - edit the description of the exit
+delete             - delete this exit
+<exit-flags>       - type ? EXIT for a list(make exit door, locked etc.)
+unlinked <exit-flags> - set <exit-flags> only in the specified direction
+                         not applied to linked room's reverse direction
+
+The exit flags are presented in the following manner. The capitalized
+flags are ones not included in the current info. i.e. an unlocked door
+due to a player using 'pick lock' on it. The parenthesed flags are ones
+not included in the reset info. i.e. a bashed door due to a player using
+'bash' on it.
+
+-East  to [ 3053] Key: [ 3133]  Exit flags: [door CLOSED LOCKED (bashed) ]
+
+This exit is normally  door closed locked but has been bashed by a player
+ so, it's not anymore locked/closed and has bashed flag set
+
+--The exit flags are presented in the following manner.  The capitalized
+--flags are ones not included in the reset info.  i.e. closed is due to
+--a player closing the door and not due to the door being set to be closed.
+--
+---South to [ 3744] Key: [   -1] Exit flags: [door CLOSED bashed pickproof]
+~
+
+
+
+102 OEDIT~
+Syntax: edit object <vnum>	-Enters the editor for the selected object.
+
+The following commands are available from within the OEDITOR:
+
+addskillupgrade     - adds an upgrade skill/spell to an object
+delskillupgrade     - adds an upgrade skill/spell to an object
+addrestriction      - adds an attr/skill/spell wear restriction to an object
+delrestriction      - removes such a restriction
+addaffect           - applies an affect to an object, no args for help
+delaffect           - removes an affect to an object, no args for help
+commands            - prints a list of possible commands
+cost <gold>         - sets the gold value of the object
+create <vnum>       - creates object with specified vnum
+done                - exits the object editor and returns to normal play
+ed                  - type this for info on adding/editing extended descripts
+long                - edit long description (the one in the room)
+name <keywords>     - sets the keywords on an object
+short <desc>        - sets the 'name' of an object (a sword, a fish etc)
+show                - hitting return, or 'show' shows the object stats
+v0 <num>            - sets the value '0' on the object
+v1 <num>            - sets the value '1' on the object
+v2 <num>            - sets the value '2' on the object
+v3 <num>            - sets the value '3' on the object
+v4 <num>            - sets the vlaue '4' on the objcet
+weight <num>        - sets the weight of the object
+type         	    - type of object, type ? TYPE for a list.
+                      And help item_<item_type_name> for help about a specific
+                      item_type
+extra		    - attributes of object, type ? EXTRA for a list
+wear                - where object is worn, type ? WEAR for a list
+material            - material the object is made from
+program             - object programs
+points              - compute item points to check if it's balanced
+
+Related help: edit, points, item_<item_type_name> (item_light, item_armor, ...)
+~
+
+
+
+102 MEDIT~
+Syntax: medit <vnum>		-Enters the editor for the selected mobile.
+
+The following commands are available from within the MEDITOR:
+
+alignment <value>   - set the mobile's alignment
+commands            - prints a list of possible commands
+create <vnum>       - creates mobile with specified vnum
+desc                - edit the mobile's description (when looked at)
+done                - exits the mobile editor and returns to normal play
+level <level>       - set the mobile's level
+long                - edit long description (the one in the room)
+name <keywords>     - sets the keywords on an mobile
+shop                - type this command for further information
+short <desc>        - sets the 'name' of an mobile (a sword, a fish etc)
+show                - hitting return, or 'show' shows the mobile stats
+spec                - sets a mobiles spec proc, type ? SPEC for a list
+sex                 - set the mobile's sex, type ? SEX for a list
+act                 - mobiles actions, type ? ACT for a list
+affect              - mobile affects, type ? AFFECT for a list
+affect2             - mobile affects 2nd part, type ? AFFECT for a list
+ac		    - set the mobile's ac, type ? AC for a list
+race                - set mobile's race
+                      erase act/aff/aff2/form/part/off/imm/res/vuln
+form		    - mobiles body-form, type ? FORM for a list
+part		    - mobiles bodyparts, type ? PART for a list
+imm		    - mobile is immune to, type ? IMM for a list
+res		    - mobile is resistant to, type ? RES for a list
+vuln		    - mobile is vulnerable to, type ? VULN for a list
+material	    - material mobile is made from, type ? MATERIAL for a list
+off		    - offensive behaviour, type ? OFF for a list
+size		    - size, type ? SIZE for a list
+hitdice		    - dice to toss to get mobile's hitpoints
+manadice	    - dice to toss to get mobile's mana
+damdice		    - dice to toss to get mobile's hand to hand damage
+program             - mobile programs
+easy, normal, hard  - set automatically hitdice, damdice, manadice, pspdice,
+                      armor and hitroll.
+mrace               - set mobile's race
+                      add act/aff/aff2/off/imm/res/vuln but erase form/parts
+faction             - set mobile's faction
+addaffect           - add affect without using affect or affect2
+delaffect           - del affect added with addaffect
+
+type 'help HITDICE', 'help MANADICE', 'help DAMDICE' for lists of reasonable
+dice combinations on different levels.
+~
+
+
+
+102 HITDICE~
+{RUSE easy, normal or hard while editing a mob instead of these tables{x
+A high number of dice makes for less variance in mobiles hitpoints.
+Suggested values are:
+
+         1:       1d2+6       7(  7)     8(   8)     8(   8)
+         2:       1d3+15     16( 15)    18(  18)    17(  17)
+         3:       1d6+24     25( 24)    30(  30)    27(  27)
+         5:      1d17+42     43( 42)    59(  59)    51(  51)
+        10:      3d22+96     99( 95)   162( 162)   131( 129)
+        15:      5d30+161   166(159)   311( 311)   239( 235)
+        30:     10d61+416   426(419)  1026(1026)   726( 723)
+        50:    10d169+920   930(923)  2610(2610)  1770(1767)
+        70:    10d225+1750 1800(1800) 4500(4500)  3150(3150)
+        90:    10d380+2980 2990(2990) 6790(6790)  4890(4890)
+       100:    10d420+3900 3910(3910) 8110(8110)  6100(6100)
+
+(That table was extended by Whismerhill)
+
+Diff = max - min.  Mean is the arithmetic mean.
+The values in parenthesis are the the standard merc values.
+~
+
+
+
+102 MANADICE~
+{RUSE easy, normal or hard while editing a mob instead of these tables{x
+A high number of dice makes for less variance in mobiles mana.
+The values the server generates for merc-type mobs is
+
+  <level> d 10 + 100
+
+where level is the level of the mobile.
+~
+
+
+
+102 DAMDICE~
+{RUSE easy, normal or hard while editing a mob instead of these tables{x
+A high number of dice makes for less variance in mobiles hitpoints.
+Suggested values are:
+
+       Level      dice       min      max    mean
+        1         1d2+0       1        2       2
+        2         1d2+1       2        3       3
+        3         1d3+2       3        5       4
+        5         2d3+2       4        8       6
+       10         2d5+5       7       15      11
+       15         3d5+8      11       23      17
+       20         4d5+10     14       30      22
+       30         5d6+15     20       45      33
+       50        5d10+25     30       75      53
+       60        7d10+33     45      103      73
+       70       10d12+60     70      180     125
+       80       10d20+90    105      295     195
+       90       15d20+170   185      470     325
+      100       20d20+240   260      640     450
+
+(This table was extended by Whismerhill)
+
+Mean is the arithmetic mean.  The values in parenthesis are the the
+standard merc values.  (Will be put in when there's time to calculate
+them...)
+~
+
+
+
+
+102 RESETS~
+Syntax: 
+ RESET <number> OBJ <vnum> <location on body>            - equips last mobile
+ RESET <number> OBJ <vnum> inside <vnum> [max #] [min #] - store in container
+ RESET <number> OBJ <vnum> room                          - store in room
+ RESET <number> MOB <vnum> [max #] [min #]               - load a mobile
+ RESET <number> DELETE                                   - delete a reset
+ RESET <number> RANDOM [#x exits]                        - randomize an exit
+ RESET <number> MAZE <width> <height> [map vnum]         - generate a maze
+
+RESET alone will display the resets in the current room.  The <number> will
+be displayed with this list.  Typing ? WEAR-LOC will list possible locations
+that an object can be loaded to.  
+
+For resets to be successful make sure that you add them in a logical order.
+For example if you are equiping a mobile don't load a container in the room
+and fill it with some objects and then continue equiping the mobile.  It is
+likely that resets will backfire if they are not carefully entered.
+
+If you wish to reset the room then use EDIT ROOM RESET.
+
+ADDITIONAL info for maze: the maze will be update every area_reset and its size
+is width x height and starts with the vnum of the room where the reset is set.
+
+Additional info: Help AddResets
+~
+
+102 ADDRESETS~
+Obj:
+[max] max number that item is allowed on the whole mud (default: -1 (infinite))
+[min] min number that item will be loaded in the container (default: 1) 
+
+Mob:
+[max] max number that mobile is allowed on the mud (default: 1)
+[min] max number that mobile is allowed in the room (default: 1)
+
+If you create a reset with the number 3 and the reset number 3 was already
+existing, the new one will inserted before the old one, and every resets
+number after new one will be raise by one.
+
+For some examples: Help MobExampleResets
+                   Help ObjExampleResets
+                   Help InsertExampleResets
+~
+
+102 INSERTEXAMPLERESETS~
+Imagine we already have the following resets:
+
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] O[ 4506] a desk        in room             R[ 4543]       Relnar's Study
+[ 2] O[ 4505] the chronicle inside              O[ 4506]  1/ 1 a desk
+[ 3] O[ 4521] a personal    inside              O[ 4506] -1/ 2 a desk
+
+and we type: reset 2 obj 4523 room
+we now have the following resets:
+
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] O[ 4506] a desk        in room             R[ 4543]       Relnar's Study
+[ 2] O[ 4523] an inconspicu in room             R[ 4543]       Relnar's Study
+[ 3] O[ 4505] the chronicle inside              O[ 4506]  1/ 1 a desk
+[ 4] O[ 4521] a personal    inside              O[ 4506] -1/ 2 a desk
+
+~
+
+102 MOBEXAMPLERESETS~
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] M[11500] mobile        in room             R[11501]  1/ 1 A small path
+
+A repop and no mobile in the room: one mobile loaded
+A repop and one mobile in the room: no mobile loaded
+A repop, no mobile in the room and 1 mobile in another room: no mobile loaded
+
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] M[11500] mobile        in room             R[11501]  3/ 2 A small path
+[ 2] M[11500] mobile        in room             R[11501]  3/ 2 A small path
+
+A repop and no mobile in the room: 2 mobiles loaded
+A repop and 1 mobile in the room: 1 mobile loaded
+A repop, 1 mobile in the room and 1 mobile in another room: 1 mobile loaded
+
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] M[11500] mobile        in room             R[11501]  5/ 3 A small path
+
+A repop and no mobile in the room: 1 mobile loaded
+A repop and 1 mobile in the room: 1 mobile loaded
+A repop, no mobile in the room and 5 mobiles in an another room: no mobile
+loaded
+~
+
+102 OBJEXAMPLERESETS~
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] O[11500] item          in room             R[11501]       A small path
+
+A repop and no item in the room: one item loaded
+A repop and one item in the room: no item loaded
+A repop, no item in the room and 1 item on a mobile in the room: one item 
+  loaded
+
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] O[11500] item          in room             R[11501]       A small path
+[ 2] O[11500] item          in room             R[11501]       A small path
+
+A repop and no item in the room: one item loaded
+A repop and one item in the room: no item loaded
+A repop, no item in the room and 1 item on a mobile in the room: one item 
+  loaded
+
+==> You can't set 2 (or more) times the same item in a room
+
+ No.  Loads    Description       Location         Vnum   Mx Mn Description
+==== ======== ============= =================== ======== ===== ===========
+[ 1] O[ 4506] a desk        in room             R[ 4543]       Relnar's Study 
+[ 2] O[ 4505] the chronicle inside              O[ 4506]  1/ 1 a desk
+[ 3] O[ 4521] a personal    inside              O[ 4506] -1/ 2 a desk
+
+A repop, none in the room, none has items from that room, room empty:
+ desk loaded
+ chronicle loaded and put in desk
+ 2 personal loaded and put in desk
+
+A repop, someone (in the mud) has one chronicle and one personal, and desk is
+empty:
+ desk not loaded
+ chronicle not loaded
+ 2 personal loaded and put in desk
+~
+
+
+102 MOB_AC~
+{RUSE easy, normal or hard while editing a mob instead of these tables{x
+The values ROM generates for a merc format mob is:
+
+   level      pierce    bash    slash   exotic
+     1          95       95       95      95
+     5          70       70       70      85
+    10          40       40       40      70
+    15           5        5        5      55
+    20         -25      -25      -25      40
+    25         -55      -55      -55      20
+    30         -90      -90      -90       5
+    35        -120     -120     -120     -10
+    40        -150     -150     -150     -25
+    45        -180     -180     -180     -40
+    50        -215     -215     -215     -55
+    55        -245     -245     -245     -70
+    60        -275     -275     -275     -90
+    65        -305     -305     -305    -105
+    70        -340     -340     -340    -120
+    80        -400     -400     -400    -150
+
+These values are 10 times what you would put in an area file. This
+is because the server multiplies what it reads from file with 10.
+~
+
+
+
+102 ITEM_LIGHT~
+.   value 0    unused
+   value 1    unused
+   value 2    hours of light available, 0 is dead, -1 or 999 is infinite
+   value 3    unused
+   value 4    unused
+~
+
+
+
+102 ITEM_STAFF ITEM_WAND~
+.   value 0    level
+   value 1    max charges
+   value 2    current charges
+   value 3    spell name
+   value 4    unused
+
+
+An up-to-date list of spells can be obtained by typing:
+? ABILITY SPELLS [ignore/off/def/self/inventory/all]
+? TARGET for a list of different target (ignore, ...)
+~
+
+
+102 ITEM_SCROLL ITEM_POTION ITEM_PILL~
+.   value 0    level
+   value 1    spell name 1
+   value 2    spell name 2
+   value 3    spell name 3
+   value 4    spell name 4
+
+An up-to-date list of spells can be obtained by typing:
+? ABILITY SPELL [ignore/off/def/self/inventory/all]
+? TARGET for a list of different target (ignore, ...)
+~
+
+
+
+
+102 ITEM_ARMOR~
+.   value 0    ac pierce
+   value 1    ac bash
+   value 2    ac slash
+   value 3    ac exotic (magic)
+   value 4    unused
+help APOINTS, POINTS
+~
+
+
+
+
+102 ITEM_WEAPON~
+. non-ranged weapon:
+   value 0    weapon class.
+   value 1    number of dice to roll.
+   value 2    type of dice to roll.
+   value 3    weapon type.
+   value 4    special weapon type.
+ ranged weapon:
+   value 0    weapon class
+   value 1    string condition (0->100)
+   value 2    string condition modifier probability (0->100)
+   value 3    bow strength (damage multiplier 0->10)
+   value 4    max distance (range 1->3)
+
+An up-to-date list of values can be obtained by typing
+? WCLASS  for a list of values for v0
+help WEAPON_DICE  for a list of examples for v1 and v2
+? WEAPON  for a list of values for v3
+? WTYPE   for a list of values for v4
+help WPOINTS, POINTS
+~
+
+
+
+102 WEAPON_DICE~
+These are the values the server generates automatically when
+converting a merc-format mobile to ROM format.  A higher
+number of dice gives less variance in damage.  There is no
+dice-bonus on weapon dice.
+
+      level:   dice 
+        1:     1d8
+        2:     2d5
+        3:     2d5
+        5:     2d6
+       10:     4d5
+       20:     5d5
+       30:     5d7
+       50:     5d11
+~
+
+
+
+102 ITEM_CONTAINER~
+.   value 0    weight capacity
+   value 1    flags: closeable, pickproof, closed, locked            
+   value 2    key vnum
+   value 3    unused
+   value 4    unused
+
+An up-to-date list of flags can be obtained by typing
+? CONTAINER
+~
+
+
+
+102 ITEM_DRINK ITEM_DRINKCONTAINER~
+.   value0    capacity
+   value 1    current quantity
+   value 2    liquid type
+   value 3    poisoned?
+   value 4    unused
+
+An up-to-date list of liquid types can be obtained by typing:
+? LIQUID
+~
+
+
+
+102 ITEM_FOOD~
+.   value 0    hours of food value
+   value 1    unused
+   value 2    unused
+   value 3    poisoned?
+   value 4    unused
+~
+
+
+
+102 ITEM_MONEY~
+.   value 0    value in silver pieces
+   value 1    unused
+   value 2    unused
+   value 3    unused
+   value 4    unused
+~
+
+
+102 ITEM_MAP~
+.   value 0    player keeps the map when leaving  YES=1  NO=0
+   value 1    unused
+   value 2    unused
+   value 3    unused
+   value 4    unused
+~
+
+102 ITEM_WINDOW~
+.   value 0    vnum of the room to be viewed
+   value 1    unused
+   value 2    unused
+   value 3    unused
+   value 4    unused
+~
+
+102 ITEM_PORTAL~
+.   value 0    charges, 0 means infinite charges
+   value 1    exit flags
+   value 2    portal flags
+   value 3    vnum of goes to room
+   value 4    unused
+
+Exit flags can be obtained by typing:
+? EXIT
+Portal flags can be obtained by typing:
+? PORTAL
+~
+
+102 ITEM_FURNITURE~
+.   value 0    maximum people which can be on the furniture
+   value 1    maximum weight
+   value 2    furniture flags
+   value 3    heal bonus (percentage)
+   value 4    mana bonus (percentage)
+Furniture flags can be obtained by typing:
+? FURNITURE
+~
+
+102 ITEM_FOUNTAIN~
+.   value 0    liquid total
+   value 1    liquid left
+   value 2    liquid type
+   value 3    unused
+   value 4    unused
+Liquid type can be obtained by typing:
+? LIQUID
+~
+
+102 ITEM_TREASURE ITEM_TRASH ITEM_KEY ITEM_BOAT ITEM_WARPSTONE~
+.   value 0    unused
+   value 1    unused
+   value 2    unused
+   value 3    unused
+   value 4    unused
+~
+
+102 ITEM_GEM ITEM_JEWELRY ITEM_JUKEBOX ITEM_INSTRUMENT ITEM_CLOTHING~
+.   value 0    unused
+   value 1    unused
+   value 2    unused
+   value 3    unused
+   value 4    unused
+~
+
+102 ITEM_COMPONENT~
+.   value 0   component 1
+   value 1   component 2
+   value 2   component 3
+   value 3   component 4
+   value 4   component 5
+Component name can be obtained by typing:
+ ? COMPONENT
+For a list of existing brew formulas:
+ DLIST BREW
+For a list of components used by a brew formula:
+ DSHOW BREW <brew formula name> 
+~
+
+102 ITEM_SKELETON ITEM_NPCCORPSE~
+.   value 0   vnum of the mob which has been killed to give this corpse
+   value 1   form of the mob which has been killed to give this corpse
+   value 2   parts of the mob which has been killed to give this corpse
+   value 3   0: normal corpse   1: skeleton (used by spell 'animate skeleton')
+   value 4   parts which have been cut off when killing mob
+~
+
+102 RESTRICTIONS~
+Syntax:
+  addrestriction <restriction type> <restriction value> [not]
+
+When editing obj, you have the possibility to add restrictions.
+Some examples:
+ addrestriction race sylvan-elf
+   player/mob must be sylvan-elf to be able to wear it
+ addrestriction etho chaotic not
+   player/mob cannot be chaotic to wear it
+ addrestriction str 17 not
+   player/mob cannot have more than 17 in strength to wear it
+ addrestriction classes warrior not
+   player/mob cannot be warrior to wear it
+ addrestriction sex male
+   player/mob must be male to wear it
+ addrestriction 'shield block' 60
+   player/mob must have more than 60% in 'shield block' to wear it
+Type '? restriction' for a complete list of restriction type
+Remarques: If you add more than one restriction on race/etho/sex: the player/mob
+ must be one of them. Examples: restriction on race sylvan-elf, high-elf,
+ grey-elf: player/mob must be one of these 3 races to wear it
+
+Related help: oedit, olc
+~
+
+102 DELAFFECT~
+Syntax:
+  delaffect <affect id>
+
+Delete an affect from affect list.
+
+Related help: addaffect, oedit, olc
+~
+
+102 ADDAFFECT~
+Syntax:
+  addaffect [<target>] [<attrib>] <modifier> [<ability/none>]
+
+You can add special bonus/malus on items with this command. 
+Use '? ability ' for a list of abilities, '? attr' or '? roomattr' for a list
+of attributes, '? <attrib name>' for a list of available value for this
+attributes, and '? afto' for list of available target, if you specify 'room' as
+target, use '? roomattr' to see available attributes. <ability> parameters is
+really optional, almost never set. Attrib is optional if target is OBJECT,
+attrib is automatically set to extra_flags, if target is WEAPON, attrib is
+automatically set to value4. If target is not specified, CHAR will be used.
+
+Related help: addaffectexamples, delaffect, oedit, olc
+~
+
+102 ADDAFFECTEXAMPLES~
+Normal affect examples, when editing objects:
+ addaffect hp 50
+   adds 50 hp to carrier while item is worn
+ addaffect vulnerabilities fire
+   adds vulnerabilities to fire while item is worn
+ addaffect allAC -5
+   makes armor (pierce, bash, slash, magic) better (-5) while item is worn
+
+Special affect examples:
+ If you add this special affect on an item:
+  addaffect room sector burning
+    while this item is in a room (or it's carrier), this room will have its
+    sector changed to burning
+  addaffect room manarate 250
+    while this item is in a room (or it's carrier), room's manarate is set to
+    250 (used by skill campfire which create a timed no-get item changing
+    heal/mana/psp rate)
+ If you add this special affect on a room:
+  addaffect char affect sanctuary
+    every player/mob in this room will be affect by sanctuary as long he/she/it
+    is in the room
+  addaffect object invis
+    every items in the room will be invisible (not the items in inventory)
+ You can even have weirder example: on a room:
+  addaffect char race doppleganger
+    every player/mob in this room will have his/her/its race change to
+    doppleganger, as long as he/she/it stays in the room
+                                    on a char:
+  addaffect weapon flaming
+    makes every weapon, worn by this char, flaming
+
+Related help: addaffect, delaffect, oedit, olc
+~
+
+102 POINTS~
+The following system is to be used to determine the level of equipment
+used on Mystery. Failure to follow the system may result in your area being
+removed from the game:
+
+This help has been split into x parts:
+ weapon:      WPOINTS
+ armor:       APOINTS
+ other:       OPOINTS
+ affects:     AFPOINTS
+ restriction: RPOINTS
+
+FINAL NOTE : The information about abuse of the spirit of this system and
+       about the availability of special exceptions applies to all items
+       created.  Item types not listed in this file may still have level
+       requirements.  If your item seems to be really "awesome", see an
+       entity because it might be illegal.
+
+Related help: olc, oedit
+~
+
+102 WPOINTS~
+Affect                                           Levels Added/Subtracted
+------                                           -----------------------
+per point of average damage                                + 1   *
+flaming, frost, vampiric, shocking, poison, holy           + 8
+rotting, acidic                                            + 8
+sharp, weighted                                            + 10
+vorpal                                                     + 12
+twohanded                                                  - 8
+two points of hp                                           + 1
+two points of mana                                         + 1
+fours points of movement                                   + 1   **
+each point of a stat                                       + 4   ***
+each minus to saves                                        + 3
+each point of hitroll                                      + 3   @
+each point of damroll                                      + 1
+each minus to AC                                           + 1
+anti-good, anti-neutral, or anti-evil                      - 1
+burnproof                                                  + 3
+humming                                                    + 5
+item is sold in shop regularly                             + 1
+
+*   Average damage :  Weapons level 1-20 recieve a bonus of 5 extra points of
+    average damage.  Weapons level 21-40 receive 10 points.  41-60 receive 15
+    points.  61-80 receive 20 points.  81-100 receive 25 points.  101+ receive
+    30 points.
+**  No more than 12 movement points may be added per 10 levels of the weapon.
+*** Only one plus to a stat may be added per 20 levels of the weapon.
+@   No more than +1 hitroll per 10 levels of the weapon.
+
+All unlisted effects cost 0 levels.  Adding spell affects, immunities,
+resistances, or vulnerabilities require entity approval, except for those
+set forth below.
+
+Bonus points for race/class/god/sex restrictions are set forth below.
+
+Reversing the items on the above list will allow the weapon to be of a lower
+level.  However, no weapon may lose more points for a negative affect
+than it could gain for that affect.  Additional negative effects may be added,
+but they will not result in a lower level.  Example:
+
+        A level 55 object cannot have more than +60 movement points, which
+        would cost 15 points in this system.  A level 55 object can, however,
+        have as many negative movement points as one desires.  However, if the
+        total negative movement points is more than 60, the object will only
+        receive -15 points.
+
+Also, a weapon can be above the level determined by this system.  The level
+generated here is merely a maximum.
+
+All rules listed are subject to revision at any time and to exception with
+approval of an entity.  Special cases, such as difficult to get items, will
+be heard and can result in lower levels.  Weapons that take advantage of any
+problem with this system will be changed, and the builder is subject to loss
+of their building status, and any immortal powers conferred.  
+~
+
+102 APOINTS~
+Affect                                           Levels Added/Subtracted
+------                                           -----------------------
+each point of average armor (avg of 4 numbers)             + 1  *
+two points of hp added                                     + 1
+two points of mana added                                   + 1
+two points of PSPs added                                   + 1
+four points of movement                                    + 1  **
+each plus to a stat                                        + 4  ***
+each minus to saves                                        + 3
+each point of hitroll                                      + 3  @
+each point of damroll                                      + 3  @
+each minus to AC                                           + 1
+anti-good, anti-neutral, or anti-evil                      - 1
+burnproof                                                  + 3
+extra flags "magic"                                        + 5
+Humming                                                    + 5
+sold in a shop regularly                                   + 1
+armor size giant without extra flag "magic"                + 3
+armor size tiny without extra flag "magic"                 + 3
+
+*   Average armor : This is determined by averaging the four armor values
+    together.  Armor levels 21-40 recieves an extra 5 points of average armor.
+    Levels 41-60 receives 10 points.  61-80 = 15 points.  81-100 = 20 points.
+    Level 101+ receives 25 extra points.
+**  No more than 12 movement points may be added per 10 levels of the weapon.
+*** Only one plus per stat may be added per 20 levels of the armor.
+    Thus a level 30 piece may have up to +2 per stat, while a level 5
+    piece may only have +1 per stat ( if you have enough points to buy
+    that many stat adjustments of course ).
+@   No more than +1 hitroll and +1 damroll per 10 levels of the armor.
+
+All unlisted effects cost 0 levels.  Adding spell affects, immunities,
+resistances, or vulnerabilities require entity approval, except for those
+set forth below.
+
+Bonus points for race/class/god/sex restrictions are set forth below.
+
+Reversing the items on the above list will allow the object to be of a lower
+level.   However, no object may lose more points for a negative affect
+than it could gain for that affect.  Additional negative effects may be added,
+but they will not result in a lower level.  Example:
+
+        A level 55 object cannot have more than +60 movement points, which
+        would cost 15 points in this system.  A level 55 object can, however,
+        have as many negative movement points as one desires.  However, if the
+        total negative movement points is more than 60, the object will only
+        receive -15 points.
+
+Also, a weapon can be above the level determined by this system.  The level
+generated here is merely a maximum.
+
+All rules listed are subject to revision at any time and to exception with
+approval of an entity.  Special cases, such as difficult to get items, will
+be heard and can result in lower levels.  Armor that takes advantage of any
+problem with this system will be changed, and the builder is subject to loss
+of their building status, and any immortal powers conferred.  
+~
+
+102 OPOINTS~
+LIGHTS
+
+Lights follow the same rules as armor, with one additional cost.
+Any light set to be permanent ( duration -1 ) costs an extra 10 levels.
+Also, extra flag "magic" has no cost for lights.
+
+JEWELRY AND CLOTHING
+
+Follow the same rules as armor, including the cost for "magic".
+NOTE : extra flag "magic" on clothing armor and jewelry allow it to be worn
+by individuals of any size!
+
+CONTAINERS, DRINK CONTAINERS, AND FOUNTAINS
+
+Burnproof containers and drink containers may NOT be sold in stores without
+entity approval.  Any spell affect on a drink container or fountain requires
+entity approval.
+
+STAVES AND WANDS
+
+The spell in a staff or wand will normally be the same level as the staff or
+wand.
+Purchasing negative or positive affects on the ARMOR table is allowed, with
+the effect that the level of wand or staff will be higher or lower than the
+spell level.
+A wand or staff may NEVER be more then 5 levels below its spell's level.  All
+wands and staves must be at least level 15, though their spell level may be
+lower.
+CHARGES : Wands and staves under level 50 have 3 "free" charges.  Wands and
+staves over level 50 have 5 "free" charges.  Additional charges may be bought
+at the cost of 5 levels per charge, but a wand or staff may never go more then
+double its "free" charges.  ( 6 for under 50, 10 for over)
+
+Staves and wands may not be sold in stores without entity approval.
+
+PILLS, POTIONS, SCROLLS, AND COMPONENTS
+
+Pills, potions, and scrolls containing 1 spell must be at least level 20.
+Pills, potions, and scrolls containing 2 spells must be at least level 50.
+Pills, potions, and scrolls containing 3 spells must be at least level 75.
+Pills, potions, and scrolls containing 4 spells must be at least level 95.
+
+Negative spells ( spells that harm the player ) do not count towards the level
+requirements.  ( Thus, a pill with 4 negative spells can be level 0!)
+
+The level of the spell will be 1.5 times the item level for 1 spell items.
+The level of the spell will be equal to the item level for 2 spell items.
+The level of the spell will be one-half the item level for 3 spell items.
+The level of the spell will be one-quarter the item level for 4 spell items.
+
+The better the spell put in these items, the more likely that it will have its
+level tweaked up, so try to go above the minimum level requirements or throw
+a negative spell in as well.
+Pills, potions, and scrolls may not be sold in stores without entity approval.
+
+Components (used for the brew skill) also require approval prior to sale in
+stores.  Further, negative spells DO count towards the item level for
+components.  Otherwise, components follow the same rules as potions, pills,
+and scrolls (note that componenets do not have a spell level).  Components
+that are set to backfire (will explode when used, injuring player) may be up
+to 10 levels lower.
+~
+
+102 RPOINTS~
+ADDING RACE/CLASS/GOD/SEX RESTRICTIONS
+
+The following bonuses are used for adding restrictions:
+
+Racial Restrictions:
+
+0 to 2 restrictions                                0
+3 to 5 restrictions                               -1
+6 to 8 restrictions                               -2
+9 to 11 restrictions                              -3
+12 to 14 restrictions                             -4
+15 to 39 restrictions                             -5
+40 or more restrictions                           -8
+
+Class Restrictions:
+
+1 restriction                                     -1
+2 restrictions                                    -2
+3 restrictions                                    -3
+4 restrictions                                    -4
+5 to 10 restrictions                              -5
+11 or more restrictions                           -8
+
+God Restrictions:
+
+1 restriction                                     -1
+2 restrictions                                    -2
+3 restrictions                                    -3
+4 restrictions                                    -4
+5 to 10 restrictions                              -5
+11 or more restrictions                           -8
+
+Sex Restrictions:
+
+male restricted                                   -3
+female restricted                                 -3
+neutral restricted                                 0
+
+IMMUNITIES, RESISTANCES, AND VULNERABILITIES
+
+Immunities and Resistances require entity approval.
+Adding vulnerabilities is permitted, with a -10 point cost.  However, this
+point cost is only applied once, regardless of whether there is one
+vulnerability or one hundred.
+~
+
+102 AFPOINTS~
+AFFECTS AND AFFECT2S
+
+The following affects may be added without approval.  However, no affect
+beneficial affect (an affect with a + cost) to an object under level 50
+without approval.  Only one beneficial affect may be added to an object over
+level 50 without approval.
+
+Affects:
+
+sleep                      -15
+silence                    -15
+rooted                     -15
+blind                      -10
+charm                      -10
+plague                     -10
+slow                       -10
+curse                       -5
+calm                         0
+detect evil                +10
+detect good                +10
+detect magic               +10
+infrared                   +10
+detect invis               +15
+detect hidden              +15
+dark vision                +15
+protect evil               +20
+protect good               +20
+flying                     +25
+pass door                  +25
+invisible                  +25
+sneak                      +25
+hide                       +25
+swim                       +25
+haste                      +30
+regeneration               +40
+sanctuary                  ***
+faerie fire                ***
+poison                     ***
+weaken                     ***
+berserk                    ***
+
+*** These affects may NOT be added without entity approval.
+
+Affect2s:
+
+nospell                    -15
+confusion                  -10
+faerie fog                 -10
+detect exits               +20
+water breath               +25
+walk on water              +25
+magic mirror               ***
+noequipment                ***
+increased casting          ***
+higher magic attributes    ***
+free movement              ***
+necrotism                  ***
+
+No other affect2s may be added without entity approval.
+~
+
+0 $~
+#$

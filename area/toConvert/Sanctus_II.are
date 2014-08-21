@@ -1,0 +1,2751 @@
+#Style Circle
+#AREADATA
+Name Sanctus II~
+Builders Rumble~
+VNUMs 200 299
+Credits {{None}  CAW    Sanctus II~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#200
+baker's assistant~
+the baker's assistant~
+An assistant to the baker is learning the trade.
+~
+   He sifts some flour with glazed over eyes that seem to be somewhere else.  
+Obviously daydreaming of better things.  His white apron is covered in floor.
+He stands a good six feet tall, all skin and bones.    
+~
+bd 0 0 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 1
+E
+#201
+apprentice healer~
+the apprentice healer~
+An apprentice healer helps any who are in need.
+~
+   He has devoted his life to selflessly aid those who are in need of either
+physical or mental aid.  The clerics of Sanctus are well known for their aiding
+those physically wounded, but are seldom known for their great prowess in the
+emotoinal aid they give.    
+~
+dg 0 0 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#202
+horse~
+the horse~
+A beautiful horse shakes it's head and swishes it's tail.
+~
+   The horse has been well groomed and seems to be in excellent shape.    
+~
+bd 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#203
+stablemaster~
+the stablemaster~
+The stablemaster is busily cleaning out the stalls.
+~
+   He looks and smells like the rest of the stables.  His clothes are the same
+color and texture as the manure that he shovels into a wheelbarrow beside him.
+He could definitely use a bath.  But he does know his horses and makes a living
+selling, training, and breeding them.    
+~
+bd 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#204
+horse~
+the horse~
+A gentle and kind horse stares at you.
+~
+   The horse seems to be well trained and somewhat....  Lazy.  Doesn't look
+like it would be fast, but it probably has some great endurance.    
+~
+bd 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#205
+horse~
+the horse~
+A sleek and mean looking horse tramps impatiently.
+~
+   The horse looks about ready to bolt, a strange gleam in it's eyes makes you
+wonder why this animal is even standing here.  The animal looks wild.    
+~
+bd 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#0
+
+#OBJECTS
+
+#200
+generic light~
+a generic light~
+A generic light is lying here.~
+~
+1 0 ao 0
+0 0 -1 0
+1 1 0 0
+E
+generic light~
+   Since this light is completely generic there are no distinctive features
+worth noticing.    
+~
+A
+17 -10
+#201
+generic ring rfinger~
+a generic ring~
+A generic ring is lying here.~
+~
+9 0 ab 0
+10 0 0 0
+1 1 0 0
+E
+generic ring right~
+   Since this ring is completely generic there are no distinctive features worth
+noticing.    
+~
+#202
+generic ring lfinger~
+a generic ring~
+A generic ring is lying here.~
+~
+9 0 ab 0
+10 0 0 0
+1 1 0 0
+E
+generic ring left~
+   Since this ring is completely generic there are no distinctive features worth
+noticing.    
+~
+#203
+generic neck1 necklace~
+a generic necklace~
+A generic necklace is lying here.~
+~
+9 0 ac 0
+10 0 0 0
+1 1 0 0
+E
+generic neck1 necklace~
+   Since this necklace is completely generic there are no distinctive features
+worth noticing.    
+~
+#204
+generic neck2 necklace~
+a generic necklace~
+A generic necklace is lying here.~
+~
+9 0 ac 0
+10 0 0 0
+1 1 0 0
+E
+generic neck2 necklace~
+   Since this necklace is completely generic there are no distinctive features
+worth noticing.    
+~
+#205
+genetic body armor~
+a set of generic body armor~
+A set of generic body armor is lying here.~
+~
+9 0 ad 0
+10 0 0 0
+1 1 0 0
+E
+generic body armor~
+   Since this body armor is completely generic there are no distinctive features
+worth noticing.    
+~
+#206
+generic helm~
+a generic helm~
+A generic helm is lying here.~
+~
+9 0 ae 0
+10 0 0 0
+1 1 0 0
+E
+generic helm~
+   Since this helm is completely generic there are no distinctive features worth
+noticing.    
+~
+#207
+generic leggings~
+a pair of generic leggings~
+A pair of generic leggings are lying here.~
+~
+9 0 af 0
+10 0 0 0
+1 1 0 0
+E
+generic leggings~
+   Since this pair of leggings is completely generic there are no distinctive
+features worth noticing.    
+~
+#208
+generic boots~
+a pair of generic boots~
+A pair of generic boots are lying here.~
+~
+9 0 ag 0
+10 0 0 0
+1 1 0 0
+E
+generic boots~
+   Since the pair of boots are completely generic there are no distinctive
+features worth noticing.    
+~
+#209
+generic gloves~
+a pair of generic gloves~
+A pair of generic gloves are lying here.~
+~
+9 0 ah 0
+10 0 0 0
+1 1 0 0
+E
+generic gloves~
+   Since the pair of gloves are completely generic there are no distinctive
+features worth noticing.    
+~
+#210
+generic sleeves~
+a pair of generic sleeves~
+A pair of generic sleeves are lying here.~
+~
+9 0 ai 0
+10 0 0 0
+1 1 0 0
+E
+generic sleeves~
+   Since the pair of sleeves are completely generic there are no distinctive
+features worth noticing.    
+~
+#211
+generic shield~
+a generic shield~
+A generic shield is lying here.~
+~
+9 0 aj 0
+10 0 0 0
+1 1 0 0
+E
+generic shield~
+   Since the shield is completely generic there are no distinctive features
+worth noticing.    
+~
+#212
+generic cape~
+a generic cape~
+A generic cape is lying here.~
+~
+9 0 ak 0
+10 0 0 0
+1 1 0 0
+E
+generic cape~
+   Since the cape is completely generic there are no distinctive features worth
+noticing.    
+~
+#213
+generic belt~
+a generic belt~
+A generic belt is lying here.~
+~
+9 0 al 0
+10 0 0 0
+1 1 0 0
+E
+generic belt~
+   Since the belt is completely generic there are no distinctive features worth
+noticing.    
+~
+#214
+generic wristguard~
+a generic wristguard~
+A generic wristguard is lying here.~
+~
+9 0 am 0
+10 0 0 0
+1 1 0 0
+E
+generic wristguard~
+   Since the wristguard is completely generic there are no distinctive features
+worth noticing.    
+~
+#215
+generic wristguard~
+a generic wristguard~
+A generic wristguard is lying here.~
+~
+9 0 am 0
+10 0 0 0
+1 1 0 0
+E
+generic wristguard~
+   Since the wristguard is completely generic there are no distinctive features
+worth noticing.    
+~
+#216
+generic weapon~
+a generic weapon~
+A generic weapon is lying here.~
+~
+5 0 an 0
+1 2 2 0
+1 2 0 0
+E
+generic weapon~
+   Since this weapon is completely generic there are no distinctive features
+worth noticing.    
+~
+A
+17 -10
+#217
+generic staff~
+a generic staff~
+A generic staff is lying here.~
+~
+9 0 ao 0
+10 0 0 0
+1 1 0 0
+E
+generic staff~
+   Since this staff is completely generic there are no distinctive features
+worth noticing.    
+~
+#251
+fountain~
+fountain~
+A large fountain with two statues standing protectively above it.~
+~
+23 0 0 0
+500 500 0 0
+505 0 0 0
+E
+rumble names ferret~
+   To bring peace where there was only war.  To bring justice where there was
+only inequity.  To bring freedom where there was only coercion.  To bring
+balance where there was only chaos.  To bring Sanctum to the world.    
+~
+E
+statues~
+   Below each statue is engraved a name.  Rumble and Ferret.  More is written
+below the names but you must look more closely to read it.    
+~
+E
+fountain~
+   This is the most beautiful fountain you have ever set your eyes upon!  It
+has a marble bottom, which is clean enough to eat off from.  In the center of
+the fountain, you see some stone figures.  They have their mouths open.  As you
+look closely you can see that there is water streaming out from the mouths.  
+What a neat idea!    
+~
+#0
+
+#ROOMS
+
+#200
+The Northern Road~
+   You find yourself standing in the middle of a very mysterious looking road.
+Everything to the east appears to be dark and gloomy, giving you the feeling
+that maybe you shouldn't have come here.  However, things in the west change
+dramatically.  You can hear the shouts of soilders in training.  The road
+continues to the north and south.    
+~
+2 0 1
+D0
+~
+~
+0 0 189
+D2
+~
+~
+0 0 210
+E
+credits info~
+   Builder   : Rumble
+Zone         : 2 Sanctus II
+Related Zones: 1 Sanctus, 3 Sanctus III
+Began        : 2000
+Player Level : 1-34
+Rooms        : 100
+Mobs         : 6
+Objects      : 19
+Shops        : 10
+Triggers     : 1
+Theme        : A mortal starting town.
+Plot         : Fabric of time torn, world going to hell. Sanctus one of the few
+               safe havens remaining.
+Links        : 43w
+Zone 2 is linked to the following zones:
+  1 Sanctus                        at   200 (north) --->   189
+  1 Sanctus                        at   201 (north) --->   194
+  1 Sanctus                        at   202 (north) --->   195
+  1 Sanctus                        at   203 (north) --->   196
+  1 Sanctus                        at   204 (north) --->   197
+  1 Sanctus                        at   205 (north) --->   198
+  1 Sanctus                        at   206 (north) --->   199
+  1 Sanctus                        at   207 (up   ) --->   111
+  1 Sanctus                        at   213 (up   ) --->   112
+  1 Sanctus                        at   243 (up   ) --->   114
+  1 Sanctus                        at   248 (up   ) --->   115
+  1 Sanctus                        at   251 (up   ) --->   100
+  1 Sanctus                        at   254 (up   ) --->   118
+  1 Sanctus                        at   259 (up   ) --->   119
+  3 Sanctus III                    at   287 (south) --->   300
+  3 Sanctus III                    at   288 (south) --->   301
+  1 Sanctus                        at   289 (up   ) --->   121
+  3 Sanctus III                    at   292 (south) --->   302
+  1 Sanctus                        at   295 (up   ) --->   122
+  3 Sanctus III                    at   296 (south) --->   303
+  3 Sanctus III                    at   297 (south) --->   304
+  3 Sanctus III                    at   298 (south) --->   305
+  3 Sanctus III                    at   299 (east ) --->   300
+~
+S
+#201
+Thieves Avenue~
+   You walk between the inner city wall and the warehouse.  The warehouse is
+made from sturdy timber with a set of wide double doors that appear to open
+outwards.  Wagon tracks lead right up to the warehouse.  This must be where
+traders come to unload their supplies.    
+~
+2 0 1
+D0
+~
+~
+0 0 194
+D2
+~
+~
+0 0 214
+S
+#202
+The Thieves Warehouse~
+   You are close to the southern end of the storeroom.  Smaller adjoining rooms
+are to the south and east.  The financial holdings of the city are said to be
+hidden somewhere within this building.  Of course only a fool would try to
+steal from a bunch of thieves.    
+~
+2 d 1
+D0
+~
+~
+0 0 195
+D1
+~
+~
+0 0 203
+D2
+~
+~
+0 0 215
+S
+#203
+The Workers Room~
+   This room smells of sweat and dust.  The workers responsible for loading,
+unloading, and sorting through all the supply crates live in this single room.
+Mattresses that are shredded to pieces by rats and mice line one wall.  A small
+washbasin, stool and bench are the only other luxuries these overworked brutes
+own.    
+~
+2 d 1
+D0
+~
+~
+0 0 196
+D2
+~
+~
+0 0 216
+D3
+~
+~
+0 0 202
+S
+#204
+A Meeting Room~
+   Benches face toward the west wall where a large map has been pinned up.  
+This is where the lietenaunts of the army relay their plans to the sargeants to
+carry them out.  You can work your way between the benches to the south, east,
+or north.    
+~
+2 d 1
+D0
+~
+~
+0 0 197
+D1
+~
+~
+0 0 205
+D2
+~
+~
+0 0 217
+S
+#205
+The Galley~
+   Everything shines a bright silver.  Any recruits who misbehave are sent here
+to polish the kitchen.  A small scullery filled with messy pots gives the room
+a charred smell.  Large ovens line the east wall and are cold for the time
+being.    
+~
+2 d 1
+D0
+~
+~
+0 0 198
+D2
+~
+~
+0 0 218
+D3
+~
+~
+0 0 204
+S
+#206
+Warriors Avenue~
+   The inner city wall and the army barracks guide the avenue north and south
+through the Warriors Quarter.  Very few people are around, but plenty of
+soldiers rush about.  You wonder why anyone would sign up for the army after
+all the stories you've heard.    
+~
+2 0 1
+D0
+~
+~
+0 0 199
+D2
+~
+~
+0 0 219
+S
+#207
+The Northern Temple Circle~
+   You continue walking along the cobblestone road.  You can see the temple
+towering over you, shimmering in the light.  The road continues to the south
+and east.  A stairwell leads up onto the top of the inner city wall.    
+~
+2 0 1
+D1
+~
+~
+0 0 208
+D2
+~
+~
+0 0 220
+D4
+~
+~
+0 0 111
+S
+#208
+The Northern Temple Circle~
+   The road ahead of you is long.  You can see an intersection up ahead, to the
+east.  It looks like it leads into the temple.  The smell of some sort of vile
+concoction emanates from a building to the south.  You think you can hear
+someone chanting within.    
+~
+2 0 1
+D1
+~
+~
+0 0 209
+D2
+~
+~
+0 0 221
+D3
+~
+~
+0 0 207
+S
+#209
+The Northern Temple Circle~
+   You can see an intersection just ahead to the east.  It's leading directly
+into the temple of Sanctus.  The road continues to the east and west.  A small
+building to the south has boxes and envelopes stacked on both sides of the
+entrance.  You can hear someone cursing within.    
+~
+2 0 1
+D1
+~
+~
+0 0 210
+D2
+~
+~
+0 0 222
+D3
+~
+~
+0 0 208
+S
+#210
+The Northern Temple Circle Intersection~
+   A large intersection is before you.  If you go south, you will go into the
+wonderful Temple of Sanctus.  To the east and west is a road that looks to wind
+around the temple.  To the north you can't see anything but open road.  
+Everything around is silent, making you feel all alone.    
+~
+2 0 1
+D0
+~
+~
+0 0 200
+D1
+~
+~
+0 0 211
+D2
+~
+~
+0 0 223
+D3
+~
+~
+0 0 209
+S
+#211
+The Northern Temple Circle~
+   You can see an intersection just ahead to the west.  It's leading directly
+into the temple of Sanctus.  The road continues to the east and west.  To the
+south is a building with barred windows and a reinforced door that currently
+stands open.  A sign above the door informs you that it is the Bank of Sanctus.
+~
+2 0 1
+D1
+~
+~
+0 0 212
+D2
+~
+~
+0 0 224
+D3
+~
+~
+0 0 210
+S
+#212
+The Northern Temple Circle~
+   You can see an intersection just ahead to the west.  It looks to be leading
+directly into the temple of Sanctus.  The road continues east and west.  The
+sound of running water to the south and the squeak of a water pump can only
+mean one thing.  It must be the infamous Sanctus Water Hole run by none other
+than Hazel herself.    
+~
+2 0 1
+D1
+~
+~
+0 0 213
+D2
+~
+~
+0 0 225
+D3
+~
+~
+0 0 211
+S
+#213
+The Northern Temple Circle~
+   The road makes a sharp turn here, heading to the south.  You can see an
+intersection just up ahead.  A set of stone stairs leads up into the
+northeastern lookout tower of the inner city wall.  From there guards can
+oversee the entire Thieves Quarter.    
+~
+2 0 1
+D2
+~
+~
+0 0 226
+D3
+~
+~
+0 0 212
+D4
+~
+~
+0 0 112
+S
+#214
+Thieves Avenue~
+   Wagons of supplies and loud mouthed traders pass by, looking you over to see
+if they might be able to swindle some of your gold.  Most look at you with
+disappointment as everyone knows few adventurers are rich these days.  The
+avenue follows along the inner city wall to the north and south.    
+~
+2 0 1
+D0
+~
+~
+0 0 201
+D2
+~
+~
+0 0 227
+S
+#215
+A Hallway~
+   You pass through a well-lit hallway with a fancy rug, tiled walls and arched
+ceiling.  Small chandeliers hang just above your head.  This fancy hall belongs
+in a mansion, not a warehouse.  Several benches line the walls.  It almost
+looks like some type of waiting room the thieves use to impress would be
+traders.    
+~
+2 d 1
+D0
+~
+~
+0 0 202
+D2
+~
+~
+0 0 228
+S
+#216
+A Washroom~
+   A large washbasin meant for washing clothes, a few pots, and even a hand
+pump with fresh running water are kept in this room.  Too bad none of the
+workers seem to have ever touched any of them.  Leave it to the thieves to hire
+workers to do any manual labor.    
+~
+2 d 1
+D0
+~
+~
+0 0 203
+D2
+~
+~
+0 0 229
+S
+#217
+A Class Room~
+   Here the army recruits spend their time learning the basics about the army.
+It's structure, ranking system, history, and future developments are all taught
+to the recruits who usually fall asleep during the lectures, until they are
+taken outside to be "woken up.  "
+~
+2 d 1
+D0
+~
+~
+0 0 204
+D1
+~
+~
+0 0 218
+D2
+~
+~
+0 0 230
+S
+#218
+Training Room~
+   Although the majority of people believe the army is just good for fighting
+and winning wars few people realize that recruits go through some educational
+training as well.  They are taught the basics of reading and writing and
+strategy to help them become better fighters and better citizens.    
+~
+2 d 1
+D0
+~
+~
+0 0 205
+D2
+~
+~
+0 0 231
+D3
+~
+~
+0 0 217
+S
+#219
+Warriors Avenue~
+   The building to your west is made out of stone, sealed with mortar.  It must
+have taken years to construct it.  The inner city wall to your east is made of
+the same material.  That must have been one of the many foul jobs given to new
+recruits.    
+~
+2 0 1
+D0
+~
+~
+0 0 206
+D2
+~
+~
+0 0 232
+S
+#220
+The Western Temple Circle~
+   You are in the western sector of the inner city, beside the Temple of
+Sanctus.  The tall reinforced western wall rises above you.  Few people roam
+the streets and the area has a very peaceful feeling.  The sound of muttering
+voices seems to be coming from within or on top of the wall to your west.    
+~
+2 0 1
+D0
+~
+~
+0 0 207
+D2
+~
+~
+0 0 233
+S
+#221
+Ingrid's Potions~
+   A foul smelling yellow mist hugs the floor.  Billowing around your feet as
+you work your way to the counter.  Several kettles are boiling over woodless
+fires that put off no smoke.  The yellow fog overflows the top of one of the
+kettles, giving the room an awful aroma.    
+~
+2 d 1
+D0
+~
+~
+0 0 208
+S
+#222
+Post Office~
+   Piles of mail are stacked in every nook and cranny of this small room.  The
+postal service of Sanctus is heavily overworked it seems.  Somewhere amidst the
+piles of mail you hear someone snoring.  Maybe not overworked, just lazy.    
+~
+2 d 1
+D0
+~
+~
+0 0 209
+S
+#223
+Northern Temple Entrance~
+   You're standing in the entrance to the temple.  Hundreds of small lit
+candles surround you in a blanket of light.  You can hear a soft humming noise
+coming from within the depths of the temple.  Maybe it would be worth your time
+to go have a look.    
+~
+2 0 1
+D0
+~
+~
+0 0 210
+D2
+~
+~
+0 0 236
+S
+#224
+The Bank of Sanctus~
+   A man dressed in rich clothes and wearing a set of spectacles appears to be
+tediously counting a few thousand coins spread out on the table before him.  
+This bank is well known for the security it enforces to ensure safe storage of
+the cities gold.    
+~
+2 d 1
+D0
+~
+~
+0 0 211
+S
+#225
+Hazel's Water Hole~
+   An elderly woman sits behind a short rack of various water containers.  A
+large water pump behind her drips slowly into a bucket set below to catch the
+water.  The DRIP, DRIP, DRIP would drive a normal person crazy, but not Hazel.
+She loves her water.    
+~
+2 d 1
+D0
+~
+~
+0 0 212
+S
+#226
+The Eastern Temple Circle~
+   The inner city wall rises above you to the east.  The sound of armor
+clanking can be heard as some guards must be making their rounds on top of the
+wall.  This road winds around the Temple of Sanctus allowing you to enter from
+either the north or south.    
+~
+2 0 1
+D0
+~
+~
+0 0 213
+D2
+~
+~
+0 0 239
+S
+#227
+Thieves Avenue~
+   Few people roam this section of the city, the avenue gets its name for
+obvious reasons and most people are too wary of their gold to chance an
+encounter with a pickpocket.  A large warehouse to the east and the inner city
+wall to the west guides the avenue to the north or south.    
+~
+2 0 1
+D0
+~
+~
+0 0 214
+D2
+~
+~
+0 0 240
+S
+#228
+A Meeting Room~
+   A large board is nailed to the eastern wall.  A blank sheet of paper covers
+the board.  A bunch of chairs and benches are arranged in rows facing the
+board.  Looks like someone is preparing for a meeting.  Maybe you can sit in
+and learn a few things.    
+~
+2 d 1
+D0
+~
+~
+0 0 215
+D1
+~
+~
+0 0 229
+D2
+~
+~
+0 0 241
+S
+#229
+A Meeting Room~
+   A large board is nailed to the western wall.  Various numbers are scratched
+haphazardly all over it.  The type of writing that only the person who made it
+can really comprehend what it means.  This must be where some of the planning
+for the city takes place.    
+~
+2 d 1
+D0
+~
+~
+0 0 216
+D2
+~
+~
+0 0 242
+D3
+~
+~
+0 0 228
+S
+#230
+The Generals Room~
+   This is where the higher ups meet to decide on policies and rules within the
+army.  Many sleepless nights have always been spent in this room during small
+skirmishes that almost break out into an all out war.  Chairs line the walls
+and a large table fills the center of the room.    
+~
+2 d 1
+D0
+~
+~
+0 0 217
+S
+#231
+The Latrine~
+   The smell is disgusting, a recruit needs to clean this place up soon.  A
+couple of pots lie on the floor and a bucket of water sits on the table.  Very
+rudimentary, but functional, which seems to be the unsung motto of the army.  
+~
+2 d 1
+D0
+~
+~
+0 0 218
+S
+#232
+Warriors Avenue~
+   You are just north of the center of the western half of Sanctus where the
+Warriors Quarter and Clerics Quarters meet.  The Western Road runs from the
+temple to the west gate.  Very few people are about, mostly just soldiers on
+patrol.    
+~
+2 0 1
+D0
+~
+~
+0 0 219
+D2
+~
+~
+0 0 246
+S
+#233
+The Western Temple Circle~
+   To the south you see the western gate to leave the inner city.  The Temple
+of Sanctus can only be entered from the north or south.  A small shed of some
+sort has been erected to the east.  It was recently made from wood and appears
+to have been constructed in a hurry.    
+~
+2 0 1
+D0
+~
+~
+0 0 220
+D1
+~
+~
+0 0 234
+D2
+~
+~
+0 0 248
+S
+#234
+Captain Lugdach's~
+   Every imaginable type of watercraft fills this room.  From canoes, to
+buoyant vests.  An old salty sailor sits in the back carving out what must be a
+canoe from a huge oak.  He looks about as tough as they come.  You can't help
+but look for a parrot and peg leg.    
+~
+2 0 1
+D3
+~
+~
+0 0 233
+S
+#235
+Donation Room~
+   A large area has been set aside for those of great wealth and power to
+donate to those who are less fortunate.  Racks and shelves line the walls to
+supply ample storage for those who wish to donate.  Be a good citizen and leave
+something for the poor.    
+~
+2 cd 1
+D1
+~
+~
+0 0 236
+D2
+~
+~
+0 0 250
+S
+#236
+Inside the Temple of Sanctus~
+   You find yourself walking down a small hallway.  You look around at your
+surroundings.  To the south you see a large room containing a beautiful stone
+fountain!  Maybe you could get a drink there.  The floor at your feet is made
+from marble, and looks flawless.  A lot of time and effort must have been put
+into this temple.    
+~
+2 d 1
+D0
+~
+~
+0 0 223
+D1
+~
+~
+0 0 237
+D2
+~
+~
+0 0 251
+D3
+~
+~
+0 0 235
+S
+#237
+A Waiting Room~
+   The room is made entirely from white marble inlaid with gold.  Columns of
+white marble rise up to the ceiling which looks to be pure hammered gold.  
+Several cushions and benches line the walls to allow a place for people to wait
+before the daily services.    
+~
+2 d 1
+D2
+~
+~
+0 0 252
+D3
+~
+~
+0 0 236
+S
+#238
+Carla the Cloth Mistress~
+   The room is filled to overflowing with bundles wool, cloth, velvet, silk.  
+Everything a person could imagine.  All used to make some of the finest clothes
+in the realm.  Every type of clothing can be found here.  What you don't see,
+Carla can make.    
+~
+2 d 1
+D1
+~
+~
+0 0 239
+S
+#239
+The Eastern Temple Circle~
+   The western gate of the inner city wall is just to the south where you can
+venture out into the city.  The Tower of Sanctus shines brightly, it's white
+marble reflecting all light that strikes it.  The Tower is rumoured to be a
+combination of magic and perfect architecture.    
+~
+2 0 1
+D0
+~
+~
+0 0 226
+D2
+~
+~
+0 0 254
+D3
+~
+~
+0 0 238
+S
+#240
+Thieves Avenue~
+   From here you have an excellent view of the temple to the west.  It reflects
+any light that shines at it, the smooth white walls seems almost magical.  To
+the south the avenue reaches an intersection.  The meeting of the Thieves
+Quarter and the Magi's Quarter.    
+~
+2 0 1
+D0
+~
+~
+0 0 227
+D2
+~
+~
+0 0 256
+S
+#241
+The Vault~
+   A huge locked safe is built into the southern wall.  The kind you would
+expect in a bank, not in a warehouse.  The vault looks impossible to pick and
+considering who made it you bet only the person with the key could ever get
+into it.  A large ornate rug covers the floor.    
+~
+2 d 1
+D0
+~
+~
+0 0 228
+S
+#242
+The Counting Room~
+   Strange tools sit on tables in the back of the room.  They must be some sort
+of coin counting apparatus.  Unfortunately, no money has been left out.  Even
+under the tables and in the corners.  The room is very clean and organized just
+right.  If you moved something I bet people would know.    
+~
+2 d 1
+D0
+~
+~
+0 0 229
+S
+#243
+The West Gate~
+   The dome can be seen just to the west.  The gate you stand in is normally
+kept open, the tall wooden beams are reinforced with metal bars.  Guards can be
+heard above you, lookouts to warn in the case of an attack.  The town looks
+very safe and secure from here.    
+~
+2 0 1
+D1
+~
+~
+0 0 244
+D4
+~
+~
+0 0 114
+E
+dome~
+   Created by Rumble and Ferret, the dome holds back the magical chaos that was
+created by Drakkar.  The dome is used to keep balance within the city limits
+and allows everyone to exist in peace.  Those brave enough to venture beyond
+the dome do so at their own risk.  Beyond the dome the scale of balance has
+collapsed and the laws of science and nature are in disorder.    
+~
+S
+#244
+The Western Road~
+   The road leads directly from the Temple to the western gate.  To the north
+you can see the Warriors Barracks and to the south the Hall of Clerics.  The
+road consists of hard packed dirt with a few ruts from wagons.  The hustle and
+bustle of the city can be heard all around you.    
+~
+2 0 1
+D1
+~
+~
+0 0 245
+D3
+~
+~
+0 0 243
+S
+#245
+The Western Road~
+   In the western half of the city you can see a large building set aside for
+the army to the north while a smaller building to the south appears to be part
+of the clerics quarter.  The temple rises above you to the east.  You could
+leave the protection of the city and go west through the gate.    
+~
+2 0 1
+D1
+~
+~
+0 0 246
+D3
+~
+~
+0 0 244
+S
+#246
+The Western Intersection~
+   This road leads west to the gate or east to the Temple of Sanctus.  The
+Temple is where people go to pray to the gods, they are guaranteed safety
+within certain rooms of the temple.  A safe haven is very rare in the realm
+these days.  That is why Sanctus was created.    
+~
+2 0 1
+D0
+~
+~
+0 0 232
+D1
+~
+~
+0 0 247
+D2
+~
+~
+0 0 262
+D3
+~
+~
+0 0 245
+S
+#247
+Under the Inner Wall~
+   You walk through the western inner wall gate.  It is extremely dark in here.
+The inner wall appears to be about twenty feet in thickness.  No one could ever
+batter down this wall.  Looking up you see a portculis built into the wall.  
+You wonder what would happen if it were to suddenly let go and crush you.    
+~
+2 0 1
+D1
+~
+~
+0 0 248
+D3
+~
+~
+0 0 246
+S
+#248
+The Western Road~
+   This is the beginning of the Western Road that leads from the Temple of
+Sanctus to the western gate and beyond the protection of the dome.  Few people
+travel beyond the dome because they fear the gateways between worlds may open
+at anytime.  Only brave adventurers dare travel far beyond the city walls.    
+~
+2 0 1
+D0
+~
+~
+0 0 233
+D2
+~
+~
+0 0 263
+D3
+~
+~
+0 0 247
+D4
+~
+~
+0 0 115
+S
+#249
+The Mortal Board Room~
+   A large board hangs on the western wall to allow for mortals to keep in
+contact with the gods or each other.  The board is monitored and any questions
+should be promptly answered.  If the board is not the place to solve your
+problems simply go to the post office and mail a god.    
+~
+2 d 1
+D1
+~
+~
+0 0 250
+S
+#250
+Inside the Temple~
+   The white marble floor has been polished to the point where you can see your
+own reflection perfectly.  Not a single marr or scratch on it's flawless
+surface.  The echo of people walking inside the temple can be heard, though not
+pinpointed.    
+~
+2 d 1
+D0
+~
+~
+0 0 235
+D1
+~
+~
+0 0 251
+D2
+~
+~
+0 0 265
+D3
+~
+~
+0 0 249
+S
+#251
+The Center of Sanctus~
+   You stand in the exact center of the city of Sanctus.  From this spot is
+where Rumble and Ferret began restoring order to the world.  Many tales abound
+about this fabled temple and its founders.  Most are just that, tales, but many
+hold truths beyond what even the storytellers realize.    
+~
+2 de 1
+D0
+~
+~
+0 0 236
+D1
+~
+~
+0 0 252
+D2
+~
+~
+0 0 266
+D3
+~
+~
+0 0 250
+D4
+~
+~
+0 0 100
+S
+#252
+Inside the Temple of Sanctus~
+   The fluted columns of white marble laced with gold sets your mouth agape.  
+The workmanship required to create this place must have been unbelievable.  
+Must be the rumours that it was created by the gods are true.  Several benches
+can be seen to the north.  The sound of running water can be heard to the west.
+To the south you see people in prayer, while to the east you see a small room
+with several people gossiping.    
+~
+2 d 1
+D0
+~
+~
+0 0 237
+D1
+~
+~
+0 0 253
+D2
+~
+~
+0 0 267
+D3
+~
+~
+0 0 251
+S
+#253
+The Social Board Room~
+   It is here the people of Sanctus come to discuss anything and everything.  
+This board is used for no other reason than to socialize with one and another.
+Various boards can be found throughout the realm.  This one can be viewed by
+anyone.    
+~
+2 d 1
+D3
+~
+~
+0 0 252
+S
+#254
+The Western Road~
+   This road connects the Temple of Sanctus with the eastern gate to allow easy
+travelling for those wishing to visit the temple from the farmlands.  The
+farmlands are known to be one of the most stable regions outside the protection
+of the dome.    
+~
+2 0 1
+D0
+~
+~
+0 0 239
+D1
+~
+~
+0 0 255
+D2
+~
+~
+0 0 269
+D4
+~
+~
+0 0 118
+S
+#255
+Under the Inner Wall~
+   This passage through the inner city wall reminds you of a tunnel.  The wall
+is so thick that no matter the time of day shadows still lurk everywhere under
+here.  A portculis is built into the ceiling above you.  Must be the controls
+for it are on top of it.    
+~
+2 0 1
+D1
+~
+~
+0 0 256
+D3
+~
+~
+0 0 254
+S
+#256
+The Eastern Intersection~
+   You stand on the Eastern Road that travels from the east gate to the Temple
+of Sanctus.  North lies the Thieves Quarter while to the South you can enter
+the Magi's Quarter.  This road bustles with activity as people go about their
+daily lives.    
+~
+2 0 1
+D0
+~
+~
+0 0 240
+D1
+~
+~
+0 0 257
+D2
+~
+~
+0 0 270
+D3
+~
+~
+0 0 255
+S
+#257
+The Eastern Road~
+   The Eastern intersection is just to your west.  To the north lies the
+Thieves Quarter and their warehouse.  South is the Magi's Mansion and the
+Magi's Quarter.  To the east you can exit the city through the Eastern Gate.  
+The infamous Temple of Sanctus can be seen rising from the center of the city.
+  
+~
+2 0 1
+D1
+~
+~
+0 0 258
+D3
+~
+~
+0 0 256
+S
+#258
+The Eastern Road~
+   You travel along the Eastern Road.  The gate lies to the east while the
+entire city spreads out before you to the west.  The safety of the city is
+preferred by almost everyone.  But, some people choose to live outside the east
+gate where there are very few troubles or mishaps.    
+~
+2 0 1
+D1
+~
+~
+0 0 259
+D3
+~
+~
+0 0 257
+S
+#259
+The Eastern Gate~
+   The dome stretches out further than usual here, covering some sections of
+the residential district.  This area is known for it's relative safety.  Very
+few problems arise from beyond the east gate.  The city of Sanctus lies to the
+west.  To the east you can see the remains of an old gatehouse.    
+~
+2 0 1
+D3
+~
+~
+0 0 258
+D4
+~
+~
+0 0 119
+S
+#260
+The High Councillor's Chambers~
+   A large but simple room with plaster walls and a ceiling of wooden beams.  
+Seven beds are arranged side by side along one wall while seven desks with
+chairs a writing pad, inkpen and ink blotter.  This is where the high
+councillors spend their nights.  They live a life without possession or
+desires.    
+~
+2 d 1
+D2
+~
+~
+0 0 273
+S
+#261
+A Bathroom~
+   The natural scent of the room is masked by an abundance of flowers growing
+in small pots lining the walls.  A large wooden box crafted like a chair with a
+hole cut in the top must be the only bathroom in the entire Hall of Clerics.  
+You can hear something moving around below you.    
+~
+2 d 1
+D2
+~
+~
+0 0 274
+S
+#262
+Clerics Avenue~
+   To the north you can leave the Clerics Quarter and either continue to the
+Warriors Quarter, go east into the Temple of Sanctus or west to the western
+gate.  A large building and the inner city wall on each side of this north
+south street leaves little room for walking.    
+~
+2 0 1
+D0
+~
+~
+0 0 246
+D2
+~
+~
+0 0 275
+S
+#263
+The Western Temple Circle~
+   The inner city not only holds the temple, but also numerous shops for the
+town folk.  Everything, well almost everything, can be found within these walls
+to support the town.  A woman lugging a sack full of groceries arrives from the
+east.    
+~
+2 0 1
+D0
+~
+~
+0 0 248
+D1
+~
+~
+0 0 264
+D2
+~
+~
+0 0 276
+S
+#264
+The Town Grocer~
+   Chunks of ice lie in crates of sawdust to cool the perishable items.  Fruit
+and vegetable stands line both walls.  This shop seems to carry everything,
+except bread and meat.  Must be the Baker, Butcher, and Grocer have an
+understanding.    
+~
+2 d 1
+D3
+~
+~
+0 0 263
+S
+#265
+A Room of Prayer~
+   Decorative cushions are arranged in neat rows for people to kneel and pray
+on.  Several candles line the walls.  Large murals dominate the wall and
+ceiling above a small altar.  Those who are feeling pious may come here to give
+thanks to their gods.    
+~
+2 d 1
+D0
+~
+~
+0 0 250
+D1
+~
+~
+0 0 266
+S
+#266
+Inside the Temple of Sanctus~
+   This is the main passage through the temple.  Small rooms to each side are
+unusually quiet.  It appears people are in prayer inside.  The center of the
+Temple lies to the north.  The white marble floor, walls, and ceilings of the
+temple are spotless.    
+~
+2 d 1
+D0
+~
+~
+0 0 251
+D1
+~
+~
+0 0 267
+D2
+~
+~
+0 0 279
+D3
+~
+~
+0 0 265
+S
+#267
+A Room of Prayer~
+   The room surrounds you in a soft glow from dozens of candles lining the
+walls, filling the alter and even hanging from the ceiling by chandeliers.  
+The candles are scented, leaving a faint aroma of spring flowers.  Cushions of
+various colors cover the floor in precise rows.    
+~
+2 0 1
+D0
+~
+~
+0 0 252
+D3
+~
+~
+0 0 266
+S
+#268
+The Town Furrier~
+   Aromatic candles line one wall over a rack of fur hides.  Must be the
+Furrier is trying to blanket the disgusting smell from the tanning process.  
+This guy can make almost anything from a good fur hide.  He is very skilled and
+his prices are not too outrageous.    
+~
+2 d 1
+D1
+~
+~
+0 0 269
+S
+#269
+The Eastern Temple Circle~
+   The smell of tanned hides and flowers comes from the east, how strange.  
+You are just inside the market center of Sanctus.  The stores have all taken up
+shop surrounding the Temple.  They originally were afraid the outer city could
+be overrun, but now they are just too lazy to move.    
+~
+2 0 1
+D0
+~
+~
+0 0 254
+D2
+~
+~
+0 0 282
+D3
+~
+~
+0 0 268
+S
+#270
+Magis Avenue~
+   A fabulous mansion sits on a small hill to the east.  The entrance is far to
+the south . To the north you can leave the Magi's Quarter and travel along the
+Eastern Road or head further north into the Thieves Quarter.  This Quarter of
+the city is very well maintained, decorative streetlamps line both sides of the
+wide street.    
+~
+2 0 1
+D0
+~
+~
+0 0 256
+D2
+~
+~
+0 0 283
+S
+#271
+A Sleeping Chamber~
+   Three sets of beds and closets are all colored differently.  One Blue, one
+Green, and one Yellow.  The closets are filled with robes and small sandals,
+all of the same three colors.  You have trespassed on three of the five orders
+of the Master Magi.    
+~
+2 d 1
+D2
+~
+~
+0 0 284
+S
+#272
+A Sleeping Chamber~
+   Two Large down filled beds crowd the room.  Large closets occupy the
+northern walls.  Filled with robes of Red and Black.  The floor is covered in a
+thick maroon run that cushions your every step.  The Master Magi must live in
+this room.  Better not be caught trespassing.    
+~
+2 d 1
+D2
+~
+~
+0 0 285
+S
+#273
+A Study~
+   Bookshelves line the western wall, reaching well above your head.  A small
+ladder is built into the center to allow people to reach the top.  A few chairs
+and cushions allow comfortable places to relax and peruse the many novels.  
+Light from lanterns hanging overhead fills the room as if it was broad
+daylight.    
+~
+2 0 1
+D0
+~
+~
+0 0 260
+D1
+~
+~
+0 0 274
+D2
+~
+~
+0 0 286
+S
+#274
+The Kitchen~
+   The smell of fresh stew makes your stomach grumle uncomfortably.  Several
+overweight cooks are sampling their favorite dishes as they prepare for the
+next meal.  They look at you just daring you to try and take some of their food
+that they spent hours preparing.    
+~
+2 0 1
+D0
+~
+~
+0 0 261
+D2
+~
+~
+0 0 287
+D3
+~
+~
+0 0 273
+S
+#275
+Clerics Avenue~
+   The building to your west is the Hall of Clerics were the High Council holds
+audience with any who request it.  To the east the inner city wall look about
+as impenetrable as any wall you have ever seen.  Clerics Avenue continues north
+and south.    
+~
+2 0 1
+D0
+~
+~
+0 0 262
+D2
+~
+~
+0 0 288
+S
+#276
+The Western Temple Circle~
+   An expensive looking shop to the east looks extremely out of place.  A sign
+displayed in one window depicts several precious gems and minerals.  The Temple
+Circle continues north and south.  The cobblestone streets are bordered by the
+inner city wall to the west and various stores and shops to the east.    
+~
+2 0 1
+D0
+~
+~
+0 0 263
+D1
+~
+~
+0 0 277
+D2
+~
+~
+0 0 289
+S
+#277
+The Town Jeweler~
+   Display cases of very nice looking gems sit in the back of the room behind
+some steel bars.  Must be the jeweler has had problems with thieves.  Several
+nuggets of strang minerals are display on shelves all around you.  Lucky is the
+individual who can find some of these valuable items to sell.    
+~
+2 d 1
+D3
+~
+~
+0 0 276
+S
+#278
+The Butcher~
+   Slabs of meat are suspended from hooks hanging from the rafters overhead.  
+Everything from rabbit, to cow, to...  That one looks an awful lot like a cat.
+Any meat you may need, this guy sells it.  Blood covers the counter and the
+small cutting area behind it.    
+~
+2 d 1
+D2
+~
+~
+0 0 291
+S
+#279
+Southern Temple Entrance~
+   You stand in a small foyier at the southern end of the Temple of Sanctus.  
+The white marble walls have been polished smooth.  A small road to the south
+leads to the Cleric's and Magi's quarters of the city.  The scent of flowers
+soothes you.    
+~
+2 d 1
+D0
+~
+~
+0 0 266
+D2
+~
+~
+0 0 292
+S
+#280
+The Bakery~
+   Everything is covered in dust, or actually maybe that is flour.  A hefty
+woman behind the counter is pounding relentlessly on a stubborn hunk of dough.
+Those arms on her remind you of the smithy.  Various baked goods fill the
+entire room.  Baked fresh daily of course.    
+~
+2 d 1
+D2
+~
+~
+0 0 293
+S
+#281
+The General Store~
+   Various types of hardware needed by any wanna be adventurer fills bins and
+buckets around the store.  The items look second hand, but they would all serve
+their purpose.  A few other customers wander the store.  They can't seem to
+find what they are looking for either.    
+~
+2 0 1
+D1
+~
+~
+0 0 282
+S
+#282
+The Eastern Temple Circle~
+   A large shop to the west displays a few packs, some lanterns, and even some
+mining equipment.  The cobblestone road is blocked to the east by the inner
+city wall and several stores crowd against the Temple of Sanctus to the west.
+  
+~
+2 d 1
+D0
+~
+~
+0 0 269
+D2
+~
+~
+0 0 295
+D3
+~
+~
+0 0 281
+S
+#283
+Magis Avenue~
+   The streetlamps glow an unnatural white, upon closer examination you realize
+they must be magical in nature since no oil you've ever seen burns that color.
+The beautiful cobblestone road meanders north and south.  The Magi Mansion to
+the east looks glorious.    
+~
+2 0 1
+D0
+~
+~
+0 0 270
+D2
+~
+~
+0 0 296
+S
+#284
+The Reading Room~
+   A large bookshelf is overburdened and looking about ready to collapse from
+the hundreds of volumes of books it holds.  These are the chronicles of the
+Magi.  Within them they hold the secrets of their mystical art.  A large sign
+above the bookshelf warns anyone from attempting to touch the books.    
+~
+2 d 1
+D0
+~
+~
+0 0 271
+D1
+~
+~
+0 0 285
+D2
+~
+~
+0 0 297
+S
+#285
+The Dining Room~
+   A large table with a silk cloth is set for the next meal.  Sparkling
+silverware and spotless wine glasses all fill the majestic table.  Enough for
+seven settings.  Two of the place settings are turned upside down.  Servants
+rush about their work around you.    
+~
+2 d 1
+D0
+~
+~
+0 0 272
+D2
+~
+~
+0 0 298
+D3
+~
+~
+0 0 284
+S
+#286
+The Aundience Chamber~
+   This is the room where the High Council meets with any who bring forth
+problems.  The High Council will then vote and decide on a way to settle the
+matter.  Their word is final and none ever disobey them.  They are respected
+for their intelligence and wisdom.    
+~
+2 0 1
+D0
+~
+~
+0 0 273
+D2
+~
+~
+0 0 299
+S
+#287
+A Long Hallway~
+   Citizens may ask advice of the High Council in settling disputes among each
+other.  The Hall is the only form of justice within the city besides the army.
+Everyone respects the High Council for their devotion and wisdom towards what
+is right.    
+~
+2 0 1
+D0
+~
+~
+0 0 274
+D2
+~
+~
+0 0 300
+S
+#288
+Clerics Avenue~
+   The inner city wall to your east consists of large boulders, that look to be
+too big to move by any humans, and some sort of filler.  The wall rises at
+least three times your height and you can not tell how thick it must be.  You
+hear the sound of clanking armor and idle chat as guards on the wall above you
+make their rounds.    
+~
+2 0 1
+D0
+~
+~
+0 0 275
+D2
+~
+~
+0 0 301
+S
+#289
+The Southern Temple Circle~
+   You've reached the southeastern intersection of the inner city.  The south
+and west inner city walls merge here.  A set of stone stairs lead up into a
+small lookout post above you.  The street turns here, wrapping around the
+Temple of Sanctus.    
+~
+2 0 1
+D0
+~
+~
+0 0 276
+D1
+~
+~
+0 0 290
+D4
+~
+~
+0 0 121
+S
+#290
+The Southern Temple Circle~
+   The cobblestone street continues to the east and west along the southern
+wall of the inner city.  Small shops line the road to your north.  The Tower of
+Sanctus, with it's single tall spire reaching to the heavens, looks
+magnificient.  A style of workmanshi that has never been surpassed.    
+~
+2 0 1
+D1
+~
+~
+0 0 291
+D3
+~
+~
+0 0 289
+S
+#291
+The Southern Temple Circle~
+   The smell of fresh, and not so fresh, meat wafts in from the north.  A sign
+swaying above the door in the breeze depicts a hunk of meat crosse with a
+butcher's axe.  You can see an intersection just to the east where you can exit
+the inner city or enter the Temple.    
+~
+2 0 1
+D0
+~
+~
+0 0 278
+D1
+~
+~
+0 0 292
+D3
+~
+~
+0 0 290
+S
+#292
+The Southern Temple Circle Intersection~
+   The southern entrance to the Temple of Sanctus lies just to your north.  
+You may also travel along the Temple Circle east and west.  To the south you
+can exit the inner city and work your way into the Magi's or Cleric's Quarters.
+~
+2 0 1
+D0
+~
+~
+0 0 279
+D1
+~
+~
+0 0 293
+D2
+~
+~
+0 0 302
+D3
+~
+~
+0 0 291
+S
+#293
+The Southern Temple Circle~
+   The smell of freshly baked bread assails your nostrils and makes your
+stomach rumble.  To the west you can see an intersection that can lead into the
+Temple to the north or exit the inner city to the south.  The inner city wall
+stretches east and west alon the Temple Circle.    
+~
+2 0 1
+D0
+~
+~
+0 0 280
+D1
+~
+~
+0 0 294
+D3
+~
+~
+0 0 292
+S
+#294
+The Southern Temple Circle~
+   The cobblestone street continues to the east and west along the southern
+wall of the inner city.  Small shops line the road to your north.  The Tower of
+Sanctus, with it's single tall spire reaching to the heavens, looks
+magnificient.  A style of workmanshi that has never been surpassed.    
+~
+2 0 1
+D1
+~
+~
+0 0 295
+D3
+~
+~
+0 0 293
+S
+#295
+The Southern Temple Circle~
+   Various shops surround the Temple of Sanctus to the east and west.  The
+shops were moved within the inner city years ago.  All the shops seem to do
+good business and the overall wealth of the city seems to be geared mostly to
+the middle class.  Only a few have achieved poverty or great wealth within the
+city.    
+~
+2 0 1
+D0
+~
+~
+0 0 282
+D3
+~
+~
+0 0 294
+D4
+~
+~
+0 0 122
+S
+#296
+Magis Avenue~
+   The stark inner city wall to the west bears a sharp contrast to the
+luxurious mansion to the east.  The Magi have trained hard to become very
+powerful within the city and have begun living the life that shows it.  Unlike
+the Clerics who do not believe in worldly possessions the Magi surround
+themselves with it.    
+~
+2 0 1
+D0
+~
+~
+0 0 283
+D2
+~
+~
+0 0 303
+S
+#297
+An Elegant Hall~
+   The walls are covered in some sort of drawing that stretches from floor to
+ceiling.  It depicts a battle with the Master Magi obliterating hundreds of
+demons by calling down lightning and hurling fireballs.  The demons look
+vaguely familiar, like something you remember from a dream.    
+~
+2 d 1
+D0
+~
+~
+0 0 284
+D2
+~
+~
+0 0 304
+S
+#298
+A Bunk Room~
+   Small beds circle the room, a large table sits at their center.  This is
+where the servants and students sleep and, from the looks of the table and what
+is on it, gamble.  The table is full of chips and various headed die.  A deck
+of cards lies in the center of the table waiting to be dealt.    
+~
+2 d 1
+D0
+~
+~
+0 0 285
+D2
+~
+~
+0 0 305
+S
+#299
+A Waiting Room~
+   Several chairs are arranged in a half-circle facing an open door to the
+south.  The citizens of Sanctus come here to settle disputes by seeking the
+guidance of the High Council.  The High Council has come to be the law of the
+land here.    
+~
+2 d 1
+D0
+~
+~
+0 0 286
+D1
+~
+~
+0 0 300
+S
+#0
+
+#RESETS
+M 0 169 3 200 	(a citizen)
+M 0 13 2 235 	(a kind soul)
+R 0 249 3099 -1 	(a bulletin board)
+O 0 3099 99 249 	(a bulletin board)
+R 0 253 3096 -1 	(a social bulletin board)
+O 0 3096 99 253 	(a social bulletin board)
+M 0 199 1 278 	(the butcher)
+M 0 188 1 278 	(the butcher's assistant)
+G 1 14034 99 -1 	(a 16oz steak)
+G 1 29504 99 -1 	(a slab of meat)
+G 1 27175 99 -1 	(a leg of mutton)
+G 1 6024 99 -1 	(a piece of venison)
+G 1 6023 99 -1 	(a piece of rabbit meat)
+G 1 6018 99 -1 	(a large slab of meat)
+G 1 3015 99 -1 	(a piece of meat)
+G 1 180 99 -1 	(a chunk of meat)
+M 0 200 1 280 	(the baker's assistant)
+M 0 187 1 280 	(the baker)
+G 1 27132 99 -1 	(a blackberry pastry)
+G 1 27131 99 -1 	(a cake baked from wild saffron)
+G 1 27520 99 -1 	(a doughnut)
+G 1 109 99 -1 	(a waybread)
+G 1 27130 99 -1 	(a rye bread)
+G 1 109 99 -1 	(a waybread)
+G 1 112 99 -1 	(a crescent)
+M 0 196 1 251 	(the newbie guide)
+R 0 251 251 -1 	(fountain)
+O 1 251 1 251 	(fountain)
+M 0 124 1 264 	(Fiona)
+G 1 27200 99 -1 	(a salted herring)
+G 1 27217 99 -1 	(a bowl of ma gung)
+G 1 27190 99 -1 	(a white spotted mushroom)
+G 1 32429 99 -1 	(some dried fruits)
+G 1 110 99 -1 	(some dried rations)
+G 1 111 99 -1 	(an apple)
+G 1 114 99 -1 	(a pretzel)
+M 0 111 1 277 	(the jeweler)
+G 1 181 99 -1 	(a bar of platinum)
+G 1 182 99 -1 	(a bar of mithril)
+G 1 183 99 -1 	(a bar of gold)
+G 1 184 99 -1 	(a bar of silver)
+G 1 26103 99 -1 	(a piece of jade)
+G 1 5030 99 -1 	(the Tiger Jewel)
+G 1 5032 99 -1 	(a fiery green emerald)
+G 1 5028 99 -1 	(a brilliant sapphire)
+G 1 5026 99 -1 	(a large ruby)
+G 1 5027 99 -1 	(a glittering diamond)
+G 1 31566 99 -1 	(a dark opal)
+M 0 102 1 281 	(Liam)
+G 1 31607 99 -1 	(a burlap sack)
+G 1 30905 99 -1 	(a shovel)
+G 1 5000 99 -1 	(a small mining pick)
+G 1 130 99 -1 	(a torch)
+G 1 131 99 -1 	(a lantern)
+G 1 132 99 -1 	(a bag)
+G 1 133 99 -1 	(a backpack)
+M 0 101 1 268 	(Ian)
+G 1 30416 99 -1 	(a set of brown fur leggings)
+G 1 30410 99 -1 	(a great fur cloak)
+G 1 30125 99 -1 	(a Furry Hat)
+G 1 30401 99 -1 	(a brown fur cape)
+G 1 29505 99 -1 	(some animal fur)
+G 1 30410 99 -1 	(a great fur cloak)
+M 0 109 1 225 	(Hazel, the wellmaster)
+G 1 30821 99 -1 	(a large barrel)
+G 1 30820 99 -1 	(a small barrel)
+G 1 28324 99 -1 	(a bottle)
+G 1 27168 99 -1 	(a waterskin)
+G 1 26300 99 -1 	(a pail)
+G 1 179 99 -1 	(a canteen)
+G 1 165 99 -1 	(a cup)
+M 0 182 1 221 	(Ingrid)
+G 1 31542 99 -1 	(a blue potion of recall)
+G 1 31619 99 -1 	(a glowing potion of invisibility)
+G 1 31621 99 -1 	(a potion of cure blindness)
+G 1 31620 99 -1 	(bright green potion)
+G 1 3051 99 -1 	(a yellow potion of see invisible)
+G 1 26738 99 -1 	(a purple potion of giant strength)
+G 1 190 99 -1 	(a potion of remove curse)
+M 0 112 1 294 	(the young woman)
+M 0 113 1 219 	(an old lady)
+M 0 118 3 236 	(the woman)
+M 0 118 3 295 	(the woman)
+M 0 125 3 274 	(the young girl)
+M 0 125 3 254 	(the young girl)
+M 0 164 1 254 	(the drunk)
+G 1 101 99 -1 	(a imported bottle)
+M 0 135 1 252 	(the blue Master Magi)
+E 1 107 99 12 	(a blue robe)
+M 0 141 3 252 	(the corporal)
+E 1 170 99 9 	(some cloth gloves)
+G 1 179 99 -1 	(a canteen)
+M 0 136 1 297 	(the green Master Magi)
+E 1 105 99 12 	(a green robe )
+M 0 126 1 242 	(assassin)
+M 0 142 2 271 	(the green magi)
+E 1 105 99 12 	(a green robe )
+M 0 149 2 259 	(the sargeant)
+E 1 168 99 5 	(a cloth shirt)
+E 1 169 99 8 	(a pair of cloth shoes)
+M 0 175 4 259 	(the gate sentry)
+E 1 30414 99 5 	(a Suit of Old Chainmail)
+M 0 149 2 243 	(the sargeant)
+E 1 169 99 8 	(a pair of cloth shoes)
+E 1 168 99 5 	(a cloth shirt)
+M 0 175 4 243 	(the gate sentry)
+E 1 30414 99 5 	(a Suit of Old Chainmail)
+M 0 167 2 211 	(the staff sargeant)
+E 1 143 99 7 	(a pair of black leather pants)
+E 1 142 99 11 	(a wooden shield)
+M 0 166 3 283 	(the lance corporal)
+E 1 141 99 9 	(a pair of leather gloves)
+M 0 166 3 279 	(the lance corporal)
+E 1 141 99 9 	(a pair of leather gloves)
+M 0 166 3 204 	(the lance corporal)
+E 1 141 99 9 	(a pair of leather gloves)
+M 0 162 3 237 	(a statesman)
+E 1 140 99 12 	(a cloth jacket)
+O 0 116 1 237 	(the bench)
+M 0 162 3 299 	(a statesman)
+E 1 140 99 12 	(a cloth jacket)
+M 0 169 3 250 	(a citizen)
+M 0 170 3 233 	(the townsman)
+M 0 171 3 269 	(the townswoman)
+M 0 171 3 267 	(the townswoman)
+M 0 172 3 262 	(the farmer)
+E 1 158 99 12 	(some coveralls)
+M 0 172 3 223 	(the farmer)
+E 1 158 99 12 	(some coveralls)
+M 0 178 3 256 	(the stateswoman)
+E 1 26306 99 5 	(a flowered dress)
+M 0 178 3 263 	(the stateswoman)
+E 1 26306 99 5 	(a flowered dress)
+M 0 189 1 230 	(the commander)
+E 1 145 99 5 	(a scale mail jacket)
+M 0 179 3 209 	(the recruit)
+M 0 192 3 213 	(the german shephard)
+M 0 190 3 207 	(the cat)
+M 0 193 3 232 	(the dove)
+M 0 194 3 231 	(the mouse)
+M 0 193 3 214 	(the dove)
+M 0 194 3 216 	(the mouse)
+M 0 129 3 289 	(the thief)
+E 1 120 99 16 	(a dagger)
+G 1 156 99 -1 	(someone else's purse)
+M 0 129 3 241 	(the thief)
+G 1 156 99 -1 	(someone else's purse)
+E 1 120 99 16 	(a dagger)
+M 0 130 3 291 	(the maid)
+E 1 155 99 17 	(a feather duster)
+M 0 195 3 273 	(the kitten)
+G 1 135 99 -1 	(some catnip)
+M 0 195 3 285 	(the kitten)
+G 1 135 99 -1 	(some catnip)
+M 0 191 3 293 	(the puppy)
+E 1 134 99 3 	(a dog collar)
+M 0 106 1 234 	(Captain Lugdach)
+G 1 108 99 -1 	(a fishing hat)
+G 1 25763 99 -1 	(a rubber ducky)
+G 1 163 99 -1 	(a floatation device)
+G 1 25761 99 -1 	(a canoe)
+G 1 32209 99 -1 	(a small fishing boat)
+G 1 162 99 -1 	(a row boat)
+M 0 158 1 238 	(Carla)
+G 1 105 99 -1 	(a green robe )
+G 1 119 99 -1 	(a yellow robe)
+G 1 122 99 -1 	(a grey robe)
+G 1 126 99 -1 	(a purple robe)
+G 1 129 99 -1 	(a black robe)
+G 1 170 99 -1 	(some cloth gloves)
+G 1 169 99 -1 	(a pair of cloth shoes)
+G 1 168 99 -1 	(a cloth shirt)
+G 1 167 99 -1 	(a cloth cap)
+G 1 166 99 -1 	(a pair of cloth pants)
+G 1 140 99 -1 	(a cloth jacket)
+G 1 106 99 -1 	(a red robe)
+G 1 107 99 -1 	(a blue robe)
+O 0 154 1 238 	(the sewing machine)
+M 0 161 4 245 	(the streetsweeper)
+E 1 136 99 17 	(a broom)
+G 1 149 99 -1 	(a dustpan)
+O 0 115 1 224 	(a huge safe)
+M 0 119 1 224 	(the banker)
+M 0 105 3 226 	(the balding man)
+E 1 153 99 6 	(a brown touppe)
+M 0 110 1 222 	(Corwin, the postmaster)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#221~
+190
+26738
+3051
+3306
+31621
+31619
+31542
+-1
+1.00
+1.00
+10
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+182
+0
+221
+-1
+0
+28
+0
+0
+#225~
+30821
+30820
+28324
+27168
+26300
+179
+165
+-1
+1.00
+1.00
+17
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+109
+0
+225
+-1
+0
+28
+0
+0
+#234~
+162
+32209
+25763
+163
+25761
+-1
+1.30
+0.60
+22
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+106
+0
+234
+-1
+0
+28
+0
+0
+#238~
+107
+106
+140
+166
+167
+168
+169
+170
+126
+122
+129
+119
+105
+-1
+1.10
+0.90
+9
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+158
+0
+238
+-1
+0
+28
+0
+0
+#264~
+114
+111
+110
+32429
+27190
+27217
+27200
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+124
+0
+264
+-1
+0
+28
+0
+0
+#268~
+30416
+30410
+30125
+30401
+29505
+5448
+-1
+1.00
+1.00
+9fur
+11fur
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+101
+0
+268
+-1
+0
+28
+0
+0
+#277~
+2512
+2511
+2510
+2509
+6403
+5030
+5032
+5028
+5026
+5027
+31566
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+111
+0
+277
+-1
+0
+28
+0
+0
+#278~
+2505
+3015
+6018
+6023
+6024
+27175
+29504
+14034
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+188
+0
+278
+-1
+0
+28
+0
+0
+#280~
+112
+109
+27130
+2504
+27520
+27131
+27132
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+187
+0
+280
+-1
+0
+28
+0
+0
+#281~
+133
+132
+131
+130
+6514
+30905
+31607
+-1
+1.00
+1.00
+15
+1
+12
+5
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+102
+0
+281
+-1
+0
+28
+0
+0
+0
+
+
+#$

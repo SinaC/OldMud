@@ -1,0 +1,4191 @@
+#Style Circle
+#AREADATA
+Name Sundhaven~
+Builders Mercy~
+VNUMs 27100 27199
+Credits {{None}  CAW    Sundhaven~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#27100
+earl sundhaven~
+the Earl of Sundhaven~
+The Earl of Sundhaven is out for a stroll.
+~
+   A tall noble with sand-colored hair and goatee is strolling by with an
+amiable but authoritave countenance.  Long out of knighthood, he nevertheless
+looks quite confident in his abilities to defend himself, and has gone on to
+wining, dining and governing the human population.    
+~
+deghl 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+T 27105
+#27101
+guard sundhaven~
+a Sundhaven guard~
+A guard of Sundhaven stands watchfully.
+~
+   His swarthy human face is framed by well-combed dark hair that gazes about
+with a relaxed, alert air.  He wears in his uniform the dark gold and black
+colors of the town banner, and the sword that hangs from his hip looks more
+than idle decoration.    
+~
+dg 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#27102
+hangman executioner~
+the town hangman~
+The town hangman is here, idly swinging a noose.
+~
+   This brawny, placid fellow is garbed in loose black garments and an
+eyepatch, from his days as a pirate along the northern coast.  He has, of
+course, since seen the light and sticks to legal murder.    
+~
+bdl dh 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+T 27102
+#27103
+priest black~
+a black-robed priest~
+A black-robed priest is here, tending a candelabra.
+~
+   The glow of candles half reveals a shadowy priest with dark features and a
+somber but pleasant manner.  He carries a small kaleidoscope in one hand, with
+which he watches the movements of his elusive deity.    
+~
+bcdl dh 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#27104
+priestess priest black~
+a black-robed priestess~
+A black-robed priestess is charting a stellar calendar on the wall.
+~
+   She looks entirely focused on her task of painting and numbering, yet pauses
+to give you a nod as you pass in.  Her beauty, though great, is surpassed by
+the swirl of etherous colors that she busies herself with.    
+~
+bdl dh 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#27105
+raven bird shadow~
+a raven~
+A shadow passes along the ground something flies overhead.
+~
+   Regarded in local myth as a bird of prophecy, it regards you with one eye as
+it passes over.    
+~
+bd 0 0 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 0
+E
+#27106
+rat smoke~
+a smoke rat~
+A smoke-colored rat sits in the shadows.
+~
+   It slinks quickly from your vision, apparently nervous about eye contact.  
+
+~
+cdg ks 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#27107
+thief~
+a thief~
+You sense someone lurking about.
+~
+   Catching you spotting him, he gives you a quick grin and a friendly nudge.
+Better check your pockets.    
+~
+dgh st -600 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#27108
+picker blackberry~
+a blackberry picker~
+A blackberry picker is singing among the bushes.
+~
+   She is garbed in a peasant's frock and carries a basket of blackberries.  
+Black hair frames a gentle face and broad grey eyes accustomed to hardship.  
+She gives you a shy smile and feigns interest in a fray of her sleeve.    
+~
+bd 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+#27109
+peddler halfling~
+a peddler~
+A halfling peddler is here calling his wares.
+~
+   A short, slender being with wary and mirthful eyes barely gives your
+kneecaps a second glance.  He seems engaged in drawing the eyes of persons of
+wealth.  He wears a tray of spices and other goods on a strap around his neck.
+  
+~
+dg 0 0 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#27110
+mendicant beggar~
+a mendicant~
+A mendicant in rags shoves a cup in your face.
+~
+   You are absorbed by the foul smell of his ragged body, but take pity; there
+are worse odors among the wild regions of the vast world.    
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#27111
+knight warrior~
+a knight in bright armor~
+A knight in bright armor is telling tales in a roaring voice.
+~
+   His shining armor and sword of silver are so stainless that you wonder if he
+merely has a master blacksmith, or an overactive imagination.    
+~
+bd 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#27112
+squire~
+a squire~
+An eager squire stands attendant.
+~
+   He appears to be hanging on his lord's every word, but when watched closely
+seems to pay more attention to his cold mug of ale.    
+~
+bd 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#27113
+princess foreign~
+a foreign princess~
+A foreign princess is downing shots at the bar.
+~
+   She has a beauty that fascinates the eye, but she shows about as much
+interest in you as an empty keg.    
+~
+bdh 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#27114
+minstrel gypsy~
+a gypsy minstrel~
+A gypsy minstrel bows a fiddle nearby.
+~
+   She is clad in the brightest colors; red, gold, purple and orange compete
+for the attention of the eye.  She has thrown down his feathered cap and seems
+ready for donations.    
+~
+dg s 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 2
+E
+#27115
+idiot village fool~
+the village idiot~
+The village idiot is dancing about.
+~
+   He notices you checking him out, bounces up into your face, and begins
+reciting bad poetry.  He looks suspiciously like someone you know.    
+~
+cdegh 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 1
+E
+T 27107
+#27116
+priestess master cleric~
+the Priestess of the Ministry~
+The Priestess of the Ministry is here, garbed in black.
+~
+   She is tall, elderly and imposing, but willing to teach those new to her
+priestly arts.  The black gown that she wears flows past her toes to the stone
+floor.    
+~
+bd h 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#27117
+master mistress assassin thief~
+the Mistress of Assassins~
+The Mistress of Assassins comes half out of the shadow.
+~
+   You see but a blur in the shadow that is the keeper of the Black Naga
+assassins guild.  She is willing to train newcomers to her roguish trade, after
+that you must search elsewhere for learnings.    
+~
+bd h 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#27118
+knightmaster knight master warrior~
+the Knightmaster~
+The Knightmaster fingers his beard and ponders you.
+~
+   A swarthy man clad in the padded armor standard for training newcomers.  
+Thick auburn hair and beard frame a face intelligent in battle.    
+~
+bd h 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#27119
+master archmage mage~
+the Archmage~
+The Archmage watches you through a crystal ball as you arrive.
+~
+   His violet robes have long frayed and faded, his beard is long and tapering,
+but his powers have only grown throughout the years.  He is willing to teach
+his mystical arts to newcomers.    
+~
+bd h 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#27120
+bartender~
+the bartender~
+The bartender is here doing his thing.
+~
+   This plump fellow leads a quiet life.  Nevertheless the odd creatures that
+find their way to this bar from all lands have had an effect on him.  He
+glances up and gives you a lopsided grin as he mumbles to the floor.    
+~
+bdnopr 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#27121
+retired thief~
+a retired thief~
+A retired thief cleans a shot glass behind the counter.
+~
+   Having retired from the bounty lists, this thief spends his days managing
+the Nightbreak Cafe for the assassins guild.  So may you, if you become
+addicted enough to caffeine.    
+~
+bdnopr 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#27122
+falconer~
+the falconer~
+The falconer stands proudly before several cages.
+~
+   His tall, noble bearing seems to go hand in hand with the alert postures of
+his taloned birds.  A magnificent white kestrel stares at you from his left
+shoulder.    
+~
+bd 0 600 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#27123
+cartographer~
+the cartographer~
+The cartographer grins at you over wire-rimmed spectacles.
+~
+   Thin and wisp-haired, this old man regards you with a wily grin and looks
+ready to cut some deals.  There is a rumour he was kicked out of the mages
+guild for fraud.  Can you trust his goods?    
+~
+bdnopr 0 -800 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#27124
+town treasurer~
+the town treasurer~
+The town treasurer sits happily on a huge pile of gold.
+~
+   This little man has found his bliss.    
+~
+bd 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#27125
+blacksmith~
+the blacksmith~
+The blacksmith stands in the glare of the fire.
+~
+   This ex-warrior is short and brawny, looks to have some dwarf ancestry.  He
+is carrying a hot poker though, better not mess with him.    
+~
+bd 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#27126
+jeweller~
+the jeweller~
+The jeweller stands behind a glass case of rubies.
+~
+   The jeweller is a dark-skinned woman in a silken frock.  She seems to be
+doing very well for herself.  A black gem sparkles dimly round her neck.    
+~
+bdnopr 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#27127
+phadela witch~
+Phadela~
+Phadela is here grinning maniacally in a mirror.
+~
+   This local witch comes from desert lands and is making her fortune off the
+superstitious.  Her dark eyes look sharply into yours in the mirror on the far
+wall.  Her black hair and turban remind you of her exotic origins.    
+~
+bdnopr k 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#27128
+baker chef hobbit~
+the hobbit pastry chef~
+The hobbit pastry chef rolls some dough behind the counter.
+~
+   A round, short fellow covered in flour.  He looks content as a mouse in a
+corn shed, snacking on his sticky creations perpetually.    
+~
+bdnopr 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#27129
+alchemist~
+the old alchemist~
+The old alchemist stands here preparing bubbling vials.
+~
+   He is withered as a gnarled tree, but seems wise in a mad sort of way.  
+Glass vials of all colors surround him, attesting to his knowledge.    
+~
+bd 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#27130
+magess magician~
+the magess~
+The wise magess flies about the shop.
+~
+   An old silver haired woman levitates and sings to herself as she reshelves
+tomes and organizes scrolls and parchments.    
+~
+bdnopr 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#27131
+mekala thai cook~
+Mekala~
+Mekala tosses some pad tai in a pan nearby.
+~
+   This young, dark woman has traveled far from jungle lands to prepare her
+spicy-hot dishes for this heavily traversed town.  She sings a foreign song in
+a bizarre, guttaral tongue.    
+~
+bdnopr 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#27132
+armourer~
+the armourer~
+The armourer is here buffing a suit of scale mail.
+~
+   The cousin of the warrior guildmaster is six foot five and perhaps three
+hundred pounds..  Needless to say, he has many friends.  He stands rose-buffing
+a beautiful suit of scale mail.    
+~
+bdnopr 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#27133
+weaponsmaster weapons~
+the weaponsmaster~
+The weaponsmaster sharpens a kris at the back wall.
+~
+   He's a wiry little fellow, but agile as a squirrel.  He prefers to be left
+alone in the world of blade artistry, and generally people grant him his wish
+with pleasure.    
+~
+bdnopr 0 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+5 8 1
+E
+#27134
+lady old~
+a little old lady~
+A little old lady hovers around you.
+~
+   She looks a little bored, and pleased to see you, hoping for a big sale.  
+You cringe as she gives you a warm toothless smile.    
+~
+bdnopr 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#27135
+mockingbird bird~
+a mockingbird~
+A grey and white mockingbird mimics you from an oak branch.
+~
+   She cocks her head from side to side, studying you rapidly, then does an
+impression that looks very familiar and makes your friends crack up laughing.
+  
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#27136
+adventurer paranoid fool~
+a paranoid adventurer~
+A paranoid adventurer hides within the town walls, afraid to leave.
+~
+   His bug eyes and electric hair show you he has perhaps seen to many beasts,
+and they were too much for him.    
+~
+dgh 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#27137
+trader silk~
+a silk trader~
+A silk trader is strolling, looking for business.
+~
+   The fact that he has been about many lands shows on his weathered, scarred
+face.  When he notes you looking him over he smiles cunningly and shows you a
+variety of colored silk goods.    
+~
+dg 0 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+T 27100
+#27138
+boy mischievious~
+a mischievious boy~
+A mischievious boy is looking for something to set on fire.
+~
+   His small, darting eyes are set off by a mess of tousled black hair.  Ever
+since his sling shot was taken away, he has been playing with torches.    
+~
+dg s -40 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+#27139
+girl dark~
+a dark-haired girl~
+A dark-haired girl is eyeing you curiously.
+~
+   This small girl has a fine dress and precocious look that makes you feel she
+must be a wealthy citizen's daughter, perhaps a merchant or judge.    
+~
+dg 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#27140
+tabby cat~
+a tabby cat~
+A tabby cat is stalking a mockingbird.
+~
+   She looks plump from plenty of good eating.  Her wide green eyes are fixated
+on a fluttering mockingbird, the stripes of her thick black and brown fur
+mingling with the lines of the grasses.    
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#27141
+mage old~
+an old mage~
+An old mage studies the chessboard in rapt contemplation.
+~
+   His white beard trails down to his withered toes.  His forehead is creased
+in contemplation, but a wine-induced smile plays on his lips.    
+~
+bdl d 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#27142
+warrior young~
+a young warrior~
+A young warrior is sparring with his shadow.
+~
+   This brawny fellow hops about, rather gracelessly, shadow-boxing.  He is too
+absorbed to notice you watching him.    
+~
+bd 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#27143
+thief wanted~
+a wanted thief~
+A thief is lounging, hiding out from the bounty hunters.
+~
+   He doesn't look too nervous about being found and brutally hung for his
+crimes.  With his feet up and margarita in hand, he kicks back in an easy chair
+and thumbs through a magazine.    
+~
+bd 0 -1000 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#27144
+priestess sacrifice~
+a sacrificial priestess~
+A priestess is preparing a blindfolded animal for sacrifice.
+~
+   She is busy anointing a serrated dagger with a special balm, and sprinkling
+a dark water over the animal.  She asks that you take a seat and keep quiet.  
+
+~
+bdl dh 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 2
+E
+#27145
+black animal~
+a black animal~
+An iron chain rattles as something moves in the back of the room.
+~
+   Some black animal, its hard to tell exactly what in this darkness, is
+chained to the back wall.  Even its eyes are darkened as a black fold of cloth
+covers them until the moment of its departure from the world.    
+~
+bd 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#27146
+grey cat~
+a grey cat~
+A grey cat pads around, sniffing things.
+~
+   He seems vaguely interested in something beyond the range of your five
+senses, as cats often are.    
+~
+dg 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#27147
+white cat~
+a large white cat~
+A large white cat is sunning himself on a wall.
+~
+   He's a beautiful creature, with a long snow-colored coat tinged with gold in
+the sunlight.  His eyes are closed as he lies in bliss in the heat.    
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#27148
+butcher~
+the butcher~
+The town butcher tosses meat cleavers about listlessly.
+~
+   This overweight fellow looks bloodthirsty and bored with life.  As you enter
+he hurls several sharp meat cleavers around the edge of the door without
+looking up.    
+~
+bdnopr 0 -700 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+T 27103
+#27149
+watchman watch guard gate~
+the gate watchman~
+The gate watchman stares glass-eyed at the horizon.
+~
+   He was apparently chosen for his inability to blink.  He is a brawny fellow,
+but doesnt strike you as having the froth-mouthed drive to fight as seen in the
+town guards.    
+~
+bdl d 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#27150
+sparrow bird pet~
+a little sparrow~
+A little sparrow pecks at the ground.
+~
+   The tiny metal clasp round a leg of this diminuitive bird tells you it is
+someone's pet.  It regards you with one eye then the other in a nervous
+fashion, awaiting its first chance to fly to freedom.    
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#27151
+blackbird bird pet~
+a blackbird~
+A red-winged blackbird is preening nearby.
+~
+   The blackbird sports glossy dark feathers with wings tipped in crimson, and
+a keen eye.  The small metal clasp round one leg tells you it is someone's
+trained pet.    
+~
+bd 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 0
+E
+#27152
+kestrel giant bird pet~
+a giant kestrel~
+A giant white kestrel is perched near its master.
+~
+   The kestrel's plumage is pale as lamb's down, making it a beautiful animal,
+but the sharp curved beak and arched talons remind you of its predatory habits.
+A tiny metal ring is clasped round one leg..  It must be someone's pet.    
+~
+bd 0 0 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 0
+E
+#27153
+athos knight warrior~
+Athos~
+Athos the great knight is somberly nursing a bottle of wine.
+~
+   Athos wears a face of sorrow on his noble countenance, displaying only a few
+quiet words of philosophy when his tongue is loosened by drink.  His dress
+depicts a man of learning and his voice one of some foul experience.  
+Something - or someone - still haunts him to this day.    
+~
+bdl ck 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+T 27101
+#27154
+milady lady winter mage~
+Milady de Winter~
+A beautiful woman with fair hair flares angrily up at your intrusion.
+~
+   Milady de Winter is a slender form draped in white ermine and knowledgeable
+in the ways of enchantment.  Golden hair falls to her waist, her eyes are cyan
+blue and widened with anger, or perhaps a tinge of fear.  Long presumed dead,
+she wears one of many guises and is accustomed to discarding lives.    
+~
+bd hns -1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#27155
+naga black guard guardian~
+a black naga guardian~
+The black naga guardian is coiled here.
+~
+   The guardian naga is a serpentlike creature, coal-black scales shield an
+elongate body with the head of a woman, and make no sound with her curious
+writhing.  It looks intelligent enough to judge whether you are worthy to pass
+into the guild of rogues that is its keeping.    
+~
+bd df -900 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 0
+E
+#27156
+gryphon guard guardian~
+a guardian gryphon~
+A large guardian gryphon sits immobile before you.
+~
+   It's a brawny beast, measuring six feet at the shoulder, and staring
+passively at you with cold red eyes.  It watches faithfully over the guild of
+physical battle that is its charge; only those worthy may enter.    
+~
+bd df 900 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 0
+E
+#27157
+basilisk guard guardian~
+a guardian basilisk~
+A basilisk summoned from the ether guards a doorway.
+~
+   The guardian stands motionless with eyes of stone fixed on the far wall.  
+Nonetheless, this reptile, a figure born of a cold wisdom, knows well enough if
+you are worthy to pass into the guild of priests.    
+~
+bd df 900 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 0
+E
+#27158
+imp horned guard guardian~
+a guardian imp~
+A horned imp is crouched nearby, unfolding its wings.
+~
+   This is the familiar of the Archmage of the town, at present an ill- meaning
+sort of ruler.  It is charged with the worthy task of defending the guild from
+unwelcome intruders.  Its wickedly curving horns and innocuous teeth attest to
+its ability to....  Well, dispose of you.    
+~
+bd df -900 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+E
+#27159
+guard elite watch warrior~
+a warrior of the Black Watch~
+A warrior of the Black Watch maintains a alert vigilance here.
+~
+   A handsome, stalwart warrior of the famed elite guard of Sundhaven keeps a
+tireless watch over the peace of the town.    
+~
+dg df 800 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#27160
+guard lord elite watch~
+the Lord of the Black Watch~
+The Lord of the Black Watch keeps the peace as he sips a scotch.
+~
+   The captain of the Black Watch, the well-known anti-rogue force of
+Sundhaven, seems a fairly complacent noble confident in his own strength.  He
+surveys his surroundings casually over the rim of a glass of strong drink.    
+~
+dgl dfk 500 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#27161
+mage blind man~
+an old blind mage~
+A blind mage is sitting here, communing with nature.
+~
+   His blank eyes, the color long lost, leave the broad sky and seem to stare
+right through you.  His sanity, also long lost, might have made him a fine
+fellow once, but he would best be left alone now.    
+~
+bcd k -800 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+T 27106
+#27162
+lamprey black~
+a black lamprey~
+Something makes an eel-like motion under the water.
+~
+   A giant leechlike movement under the water marks the outline of a lamprey,
+skin wet and oil-black.  The row of teeth that gapes for an instant above the
+waterline gives a hint of its hunger for prey in this deserted place.    
+~
+dg dfgkns -900 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#27163
+moth bug~
+a moth~
+A small moth flits about nearby.
+~
+   The moth, pale downy white in color, beats its wings heavily above some
+ferns nearby.  It seems quite harmless.    
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#27164
+disgruntled courier~
+a disgruntled courier~
+A disgruntled courier awaits your bidding.
+~
+   The grey and strained eyes of the courier look at you with ill-concealed
+lack of interest.  The scars on his face are an indication that he has seen
+foul weather of all sorts on the roads, and nothing you could request would
+surprise him.    
+~
+bd 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#27165
+noble sundhaven~
+a Sundhaven noble~
+A Sundhaven noble stares past you with an aloof air.
+~
+   The noble is tall, of fair hair and complexion, and dressed in gold-bordered
+finery.  He appears unaware of your presence, and preoccupied with his own
+affairs.    
+~
+dgl 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#27166
+stu fool~
+Stu~
+Stu the Recruit is standing here.
+~
+   Achhh!  Dont pay too much attention to him or you'll regret it.    
+~
+cdegh 0 0 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1
+E
+T 27104
+#0
+
+#OBJECTS
+
+#27100
+noose death~
+a noose~
+A bit of sinister-looking coiled rope is lying here.~
+~
+11 h ac 0
+0 0 0 0
+3 30 0 0
+E
+noose~
+   Its a thick rope coiled into a fatal knot.  Feeling like suicide today?  
+~
+A
+13 -50
+#27101
+kaleidoscope light~
+a kaleidoscope~
+A kaleidoscope is lying here.~
+~
+1 0 ao 0
+0 0 -1 0
+2 60 0 0
+E
+kaleidoscope~
+   It's a tiny thing, and brightly colored.  While showing you a fantasy swirl
+of colors away from Mirror|rorriM Mud, here it shows you the real world.  
+~
+A
+18 1
+#27102
+tunic gold~
+a frayed golden tunic~
+A frayed golden tunic lies crumpled here.~
+~
+9 0 ad 0
+3 0 0 0
+2 30 0 0
+E
+tunic gold~
+   It's thin and frayed at more than just the seams.  Since you have been
+wearing this your whole life before entering your discipline, it may be time for
+an improvement.  
+~
+#27103
+black leggings pants~
+a pair of black leggings~
+A pair of black leggings has been left here.~
+~
+11 0 af 0
+0 0 0 0
+3 340 0 0
+E
+leggings black~
+   They are pitch black and merely a thin covering.  
+~
+A
+17 -3
+#27104
+boots leather~
+old leather boots~
+A pair of old leather boots are here.~
+~
+11 0 ag 0
+0 0 0 0
+2 270 0 0
+E
+boots leather~
+   They are close to wearing holes at the toes and the heels.  
+~
+A
+17 -2
+#27105
+dagger black~
+a small black dagger~
+A tiny black dagger has been left here.~
+~
+5 0 an 0
+0 1 4 11
+1 20 0 0
+E
+dagger black~
+   This tiny dagger serves well for around town and the neighboring village.  
+The blade, however, is small and dull.  
+~
+#27106
+staff gnarled~
+a gnarled staff~
+A thin gnarled staff has been dropped here.~
+~
+5 0 an 0
+0 1 4 7
+2 20 0 0
+E
+staff gnarled~
+   The staff is carved from holly wood, and serves well for around town and the
+neighboring village.  You might want to consider a stronger weapon as time goes
+by, however.  
+~
+#27107
+mace iron~
+an iron mace~
+An iron mace is lying here.~
+~
+5 0 an 0
+0 1 4 5
+2 20 0 0
+E
+mace iron~
+   It is wrought from strong iron, but small and slightly rusty.  It serves well
+for around town and the neighboring village, but as time goes by you might want
+to consider trying something heavier.  
+~
+#27108
+sword short~
+a short sword~
+A short sword is lying on the ground.~
+~
+5 0 an 0
+0 1 4 3
+2 20 0 0
+E
+sword short~
+   The blade is dull, but it serves well for around town and the neighboring
+village.  
+~
+#27109
+candelabra candle~
+a candelabra~
+A candelabra glows dimly with a golden light.~
+~
+1 0 ao 0
+0 0 -1 0
+1 1 0 0
+E
+candelabra candle~
+   Thirty tiny black candles shine with a golden glow.  At the base is an
+engraving of one circle partially obscured by another.  
+~
+#27110
+water fountain marble black water~
+a black marble fountain~
+A black marble fountain flows with a clear water.~
+~
+23 0 0 0
+100 100 0 0
+105 0 0 0
+E
+fountain marble black~
+   The circular fountain is carved from black marble from the mines below the
+town.  The water inside looks sweet to drink.  
+~
+#27111
+axe severance~
+the axe of severance~
+A bloody axe has been left here.~
+~
+5 mn an 0
+0 3 4 15
+10 1000 0 0
+E
+axe severance~
+   This massive weapon takes much of your strength to carry.  It would like to
+kill again, for the blood of the last victim has just dried on the blade.  
+~
+A
+18 -1
+A
+19 2
+#27112
+gold vault pile atm~
+a huge pile of gold~
+A huge pile of gold is guarded by a magical force.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+gold vault pile~
+   This is the treasury of Sundhaven.  It is, of course, guarded by a magical
+protective shield against greedy intruders.  
+~
+#27113
+quesadilla food~
+a quesadilla~
+A quesadilla is here, hot and steaming.~
+~
+19 0 a 0
+10 0 0 0
+1 21 0 0
+E
+quesadilla~
+   It looks deliciously hot and spicy, a Maynards specialty!  
+~
+#27114
+coffee brewer drink coffee~
+a coffee brewer~
+A coffee brewer purcolates in the corner of the room.~
+~
+15 0 0 0
+20 0 -1 0
+0 0 0 0
+E
+brewer coffee~
+   The smells of brewing coffee coming from this rouse you from any numb-
+mindedness and cause your mouth to water.  
+~
+#27115
+rose gold black~
+a golden rose with black leaves and stem~
+A golden rose with leaves and stem of black is growing here.~
+~
+11 0 ao 0
+0 0 0 0
+1 10 0 0
+E
+rose golden~
+   A dark stem crowned with golden petals, it smells of warm summer winds.  
+~
+#27116
+coffee iced cappuccino drink coffee~
+an iced cappuccino~
+A foamy iced cappuccino is sitting here.~
+~
+17 0 a 0
+3 3 12 0
+8 15 0 0
+E
+iced cappuccino~
+   A clear glass is filled with ice, espresso, steamed milk and milk foam.  It
+looks irresistable.  
+~
+#27117
+coffee irish cream latte drink coffee~
+an irish cream latte~
+A hot latte is sitting here.~
+~
+17 0 a 0
+5 5 12 0
+10 18 0 0
+E
+irish cream latte~
+   It's a tall glass of high-caffeine espresso, steamed milk, milk foam, and
+irish cream.  Mmmm!  
+~
+#27118
+coffee black cup drink coffee~
+a black cup~
+A black cup of coffee rests here.~
+~
+17 0 a 0
+3 3 12 0
+8 7 0 0
+E
+coffee cup~
+   Who doesn't need one of these now and then?  How about very often?  
+~
+#27119
+tea cup drink hot tea~
+a hot cup~
+A cup of hot tea is resting here.~
+~
+17 0 a 0
+3 3 11 0
+8 11 0 0
+E
+tea cup~
+   It comes in a slightly ornamented porceline cup, and looks to be brewed
+mostly of chamomile.  
+~
+#27120
+ale rogue brew ale~
+a rogue's brew~
+The mascot brew of the assassins guild is resting here.~
+~
+17 0 a 0
+7 7 4 0
+12 20 0 0
+E
+rogue brew~
+   It comes in a tall pewter flask engraved with a black naga.  
+~
+#27121
+local speciality black adder drink local~
+the black adder special~
+A black metal flask is sitting here.~
+~
+17 b a 0
+1 1 8 0
+1 25 0 0
+E
+special black adder~
+   A black metal flask engraved with a coiled snake and filled with dark ale
+that looks very inviting.  
+~
+#27122
+whisky shot drink whisky~
+a shot~
+A shot of whisky emits an alluring scent from the ground.~
+~
+17 0 a 0
+1 1 5 0
+1 20 0 0
+E
+whisky shot~
+   The scent stings your nose pleasantly.  
+~
+#27123
+victim sandwich food~
+a victim sandwich~
+The specialty sandwich of the Nightbreak Cafe is sitting here.~
+~
+19 0 a 0
+25 0 0 0
+2 30 0 0
+E
+victim sandwich~
+   What does the assassins guild do with all those corpses left over from a
+day's work?  Well, now you know.  
+~
+#27124
+firebreather mug flames drink firebreather~
+a black mug filled with leaping flames~
+A large black mug rimming with flames sits here.~
+~
+17 0 a 0
+10 10 7 0
+15 66 0 0
+E
+mug fire firebreather flames~
+   You see a wide, black mug filled with liquid of a fiery color.  The side is
+engraved with a roaring dragon.  
+~
+#27125
+beer mug cold drink beer~
+a cold mug~
+The air is condensing on a cold mug of beer.~
+~
+17 0 a 0
+3 3 1 0
+8 10 0 0
+E
+mug beer cold~
+   It's a cold pewter mug, dented from being banged on tables repeatedly.  
+~
+#27126
+wine keg wine~
+a keg of wine~
+A keg of wine rests on the floor.~
+~
+17 0 0 0
+200 200 2 0
+0 0 0 0
+#27127
+wine flask leather drink red wine~
+a leather flask~
+A flask of red wine has been dropped here.~
+~
+17 0 a 0
+4 4 2 0
+9 20 0 0
+E
+wine flask~
+   The flask is grey and filled, or once filled, perhaps, with red wine.  
+~
+#27128
+roast rabbit food~
+a rabbit roast~
+A tasty-looking roast is lying here.~
+~
+19 0 a 0
+12 0 0 0
+2 14 0 0
+E
+roast rabbit~
+   Its a savory garlic rabbit roast.  
+~
+#27129
+stew dragon pot food~
+a pot of dragon stew~
+A pot of delicious stew is steaming away.~
+~
+19 0 a 0
+40 0 0 0
+8 55 0 0
+E
+stew dragon pot~
+   You see a small black cauldron of steaming meat stew.  The few scales
+remaining tell you this was once a breathing dragon.  Despite its grisly
+appearance, it smells delicious.  
+~
+#27130
+bread rye food~
+a rye bread~
+A bread baked from rye is sitting here.~
+~
+19 0 a 0
+12 0 0 0
+2 11 0 0
+E
+bread rye~
+   Its a round bread dotted with black rye.  It smells good to eat.  
+~
+#27131
+cake saffron food~
+a cake baked from wild saffron~
+A cake baked from wild saffron is resting at your feet.~
+~
+19 0 a 0
+25 0 0 0
+3 20 0 0
+E
+cake saffron~
+   You see a round tan-colored cake, still hot from the oven.  
+~
+#27132
+pastry blackberry food~
+a blackberry pastry~
+A sticky black pastry is sitting here.~
+~
+19 0 a 0
+6 0 0 0
+1 15 0 0
+E
+pastry blackberry~
+   Its sticky with sugar and looks delicious.  Hobbit specialty.  
+~
+#27133
+dish pad tai food~
+a dish of pad tai~
+A spicy dish of Thai food is sitting here.~
+~
+19 0 a 0
+12 0 0 0
+2 20 0 0
+E
+dish pad tai~
+   The plate is hot to the touch, and the mixture of noodles and vegetables look
+spicy and delicious.  
+~
+#27134
+sack leather deer~
+a sack of deer leather~
+A strapped leather sack has been left here.~
+~
+15 0 a 0
+70 1 -1 0
+5 25 0 0
+E
+sack deer leather~
+   The hardy deer leather sack has straps to allow slinging over the shoulder.
+
+~
+A
+17 -2
+#27135
+torch light~
+a torch~
+A torch is lying on the ground.~
+~
+1 0 ao 0
+0 0 25 0
+1 5 0 0
+E
+torch light~
+   Its a short, wooden torch.  It's um, flammable.  
+~
+#27136
+quill black pen~
+a black feather quill~
+A black inky feather is lying nearby.~
+~
+21 0 ao 0
+0 0 0 0
+1 13 0 0
+E
+quill black feather~
+   A slender dark feather rises from an ink pen.  
+~
+#27137
+paper~
+a piece of paper~
+A piece of paper is fluttering in the wind.~
+~
+16 0 a 0
+0 0 0 0
+1 12 0 0
+#27138
+lamp copper light~
+a copper lamp~
+A lamp glints copper in the faint light.~
+~
+1 0 ao 0
+0 0 60 0
+2 20 0 0
+E
+lamp copper~
+   It's a small, dented lamp, forged from copper.  
+~
+#27139
+sword quartz~
+a sword of quartz hilt~
+A sword with a pale quartz hilt has been left here.~
+~
+5 0 an 0
+0 1 6 3
+8 550 0 0
+E
+sword quartz~
+   You see a long, slender-tapered sword with a carved hilt of white quartz.  
+~
+A
+18 1
+#27140
+dagger crescent mithril~
+a mithril dagger~
+A dagger with a blade curved like a crescent is lying here.~
+~
+5 0 an 0
+0 1 6 11
+3 535 0 0
+E
+dagger crescent mithril~
+   It's a silver-colored dagger, with a crescent-like blade.  
+~
+A
+18 1
+#27141
+mace fire~
+a fire-headed mace~
+Still hot from the forge, a mace burns a black space on the ground.~
+~
+5 0 an 0
+0 1 6 5
+5 545 0 0
+E
+mace fire~
+   The barbed head of the mace is still hot from the forge, and crafted to look
+like the rising spikes of flames.  
+~
+A
+18 1
+#27142
+staff rock crystal~
+a rock crystal staff~
+A staff crowned with a cloudy crystal is lying here.~
+~
+5 0 an 0
+0 1 6 6
+4 540 0 0
+E
+staff rock crystal~
+   A slender staff, carved from ash and embedded with a cloudy crystal at the
+head.  
+~
+A
+18 1
+#27143
+shield black sandstone~
+a black sandstone shield~
+A dark sandstone plate is lying here.~
+~
+9 0 aj 0
+5 0 0 0
+6 400 0 0
+E
+shield black sandstone~
+   Molded from local black cliff sandstone and laquered with a special varnish
+for strength, this makes a sturdy shield.  
+~
+#27144
+tunic golden guard~
+a guard's golden tunic~
+A tunic of dark gold is crumpled here.~
+~
+9 0 ad 0
+4 0 0 0
+4 158 0 0
+E
+tunic golden~
+   The guard's tunic is made of a sturdy, canvas-like material.  
+~
+#27145
+boots black~
+sturdy black boots~
+A pair of sturdy black boots lie scattered on the ground.~
+~
+9 0 ag 0
+3 0 0 0
+3 200 0 0
+E
+boots black~
+   They are made from heavy black leather, and make a small clump-clump sound
+when walking in them.  
+~
+#27146
+sword broadsword silver~
+a silver broadsword~
+A silver, straight-edge sword has been left here.~
+~
+5 g an 0
+0 1 7 3
+10 770 0 0
+E
+sword broadsword silver~
+   You see a silver sword with a straight, tapering blade, forged by the town
+magicians from the cliff metal and winds for the guards that defend the city.  
+~
+#27147
+marbles set~
+a set of marbles~
+Red, purple and black marbles are set up in a circular game.~
+~
+13 0 ao 0
+0 0 0 0
+1 14 0 0
+T 27108
+E
+marbles set~
+   Twenty-two marbles of red, purple and black comprise a set used commonly for
+games such as 'Lick the dragon', 'Addiction' and 'Dodge the imp', popular among
+human youths.  Set on the ground, the rolling marbles become slippery.  
+~
+#27148
+chess board set glass~
+a glass chessboard~
+A black and rose glass chessboard is set up in mid-game.~
+~
+8 0 ao 0
+0 0 0 0
+4 500 0 0
+E
+chess board glass~
+   The board and pieces are carved from black and light rose glass.  It's hard
+to say who is winning, but the sacrifices are high.  
+~
+#27149
+ribbon velvet~
+a velvet ribbon~
+A dark velvet ribbon is coiled here.~
+~
+11 0 ae 0
+0 0 0 0
+1 30 0 0
+E
+ribbon velvet~
+   It's a ribbon of soft dark velvet of finest quality..  Whoever's this is is
+probably a rich merchant's daughter or the like.  
+~
+A
+12 10
+#27150
+dagger shattered~
+a shattered dagger~
+Something that used to be a dagger has been abandoned here.~
+~
+5 0 an 0
+0 1 1 11
+2 1 0 0
+E
+dagger shattered~
+   Some poor fool tried to fight something ten times his strength, and was lucky
+to get out with his life.  You see his dagger didn't make it.  The thin blade is
+shattered to splinters.  
+~
+#27151
+curse luck ill~
+a curse of ill luck~
+You sense something unlucky about this room.~
+~
+13 h ao 0
+0 0 0 0
+1 1 0 0
+E
+curse ill luck~
+   You think you can see a curse?  You sense its evil presence all around you.
+
+~
+A
+18 -5
+A
+4 -3
+#27152
+gallows platform death~
+the gallows platform~
+The gallows platform rises ominously before you.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+gallows platform~
+   A sturdy wooden platform rises above the black sand road, with plenty of room
+around it for spectators.  On it are two means to death, the shackles for
+beheading and the oak planking holding the noose for hanging.  The entire
+surface is bespeckled with dried blood.  
+~
+#27153
+fountain cracked drink~
+a cracked stone fountain~
+A cracked stone fountain holds a supply of mossy-green water.~
+~
+23 0 0 0
+-1 -1 0 0
+0 0 0 0
+E
+fountain cracked stone~
+   The circular fountain was etched from stone eons ago, and is worn and cracked
+from the weather.  Thick moss grows along its inside walls, reflecting its poor
+maintanance.  
+~
+#27154
+altar amber~
+an altar carved from amber~
+An altar of dark amber stands here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+altar amber~
+   The altar is waist-high, with a stand of black oak and a top of dark amber.
+There is a single black candle burning in a silver holder resting on it.  
+~
+#27155
+cleaver meat~
+a meat cleaver~
+A large meat cleaver is stuck in the ground.~
+~
+5 0 an 0
+0 1 6 15
+5 115 0 0
+E
+cleaver meat~
+   It is wide and sharp, the blade's edge stained a dark red.  
+~
+#27156
+amber stone gem~
+an amber stone~
+An amber stone glints dully in the light.~
+~
+8 0 a 0
+0 0 0 0
+3 400 0 0
+E
+amber gem~
+   You see a hunk of amber stone in excellent condition, and possibly worth a
+little gold.  
+~
+#27157
+amethyst violet gem~
+an amethyst~
+An amethyst of pure violet glints from the ground.~
+~
+8 0 a 0
+0 0 0 0
+3 832 0 0
+E
+amethyst violet gem~
+   It's a beautiful amethyst in excellent condition, and possibly worth some
+gold.  
+~
+#27158
+diamond gem~
+a diamond~
+A small diamond twinkles from the ground.~
+~
+8 0 a 0
+0 0 0 0
+3 500 0 0
+E
+diamond gem~
+   You see a tiny diamond in excellent condition, and likely worth some gold.  
+~
+#27159
+sunstone golden gem~
+a sunstone~
+A golden sunstone shines with a celestial glow.~
+~
+8 0 a 0
+0 0 0 0
+3 1000 0 0
+E
+sunstone gem~
+   The golden sunstone is very pretty to look at, but is probably worth more
+than the hand that carries it.  
+~
+#27160
+necklace tiger eye eyes~
+a necklace of tiger eyes~
+A gold and brown necklace lies on the ground.~
+~
+8 0 ac 0
+0 0 0 0
+1 700 0 0
+E
+necklace tiger eyes~
+   Small but delightful to the eye.  Golden and brown bands shimmer from the
+stones as the necklace is turned in the light.  
+~
+#27161
+ring agate black~
+a black agate ring~
+A black agate ring lies half-buried on the ground.~
+~
+8 g ab 0
+0 0 0 0
+1 200 0 0
+E
+agate black ring~
+   The agate is an opaque black and set in a ring of silver.  
+~
+A
+17 -3
+#27162
+shard obsidian gem~
+a shard of snowflake obsidian~
+A black, white-flecked shard is lying here.~
+~
+8 g ao 0
+0 0 0 0
+1 1000 0 0
+E
+shard obsidian~
+   It's a pointed shard of obsidian flecked with white cloud-like patterns.  
+~
+A
+17 -2
+#27163
+suit chain mail~
+a suit of chain mail~
+A heap of chain mail is lying here.~
+~
+9 0 ad 0
+5 0 0 0
+10 900 0 0
+E
+suit chain mail~
+   The silvery chain mail looks sturdy and close-fitting.  
+~
+#27164
+helm bright~
+a bright helm~
+A bright helm has been left nearby.~
+~
+9 0 ae 0
+3 0 0 0
+8 780 0 0
+E
+helm bright~
+   The helm is small and brightly silver-colored.  Fitting snugly on the head,
+it impairs your hearing slightly, but the protection seems a worthwhile
+sacrifice.  
+~
+#27165
+bracers silver~
+silver bracers~
+A pair of silver bracers is here.~
+~
+9 0 ai 0
+4 0 0 0
+7 845 0 0
+E
+bracers silver~
+   They extend from elbow to wrist, and are forged from bright silver.  
+~
+#27166
+boots sharp~
+a pair of sharp-toed boots~
+A pair of boots with razor-sharp toes is sitting here.~
+~
+9 0 ag 0
+3 0 0 0
+6 950 0 0
+E
+boots sharp~
+   The knee-height black boots are fashioned with a razor-sharp point at each
+toe, delivering a more wicked kick, and kind of a nice tapdance, in fact.  
+~
+A
+19 1
+#27167
+shield scale~
+a scale shield~
+A shield of the scales of an unknown creature is lying here.~
+~
+9 0 aj 0
+5 0 0 0
+10 110 0 0
+E
+shield scale~
+   It's a large, thin shield fashioned of the scales of an old creature you
+don't recognize.  You wonder if the maker did.  
+~
+#27168
+water skin waterskin water~
+a waterskin~
+A waterskin has been left here.~
+~
+17 0 a 0
+17 17 0 0
+22 150 0 0
+E
+water skin waterskin~
+   It seems to be stiched together from some kind of small animal hide, probably
+something plentiful..  Mouse?  Rat?  Mole?  The water looks safe, however.  
+~
+#27169
+chair lounger black~
+a black lounger~
+A black lounger chair looks very relaxing.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+chair lounger black~
+   The black naga-hide chair eases back by the use of a lever on the side, and
+looks luxuriously comfortable.  Perfect for hanging out on, waiting for the
+bounty hunters to give up.  (Theoretically.  )
+~
+#27170
+magazine rogue book bartending~
+the Rogue's book of bartending~
+A magazine is lying open on the floor.~
+~
+13 0 ao 0
+0 0 0 0
+1 30 0 0
+E
+magazine rogue book bartending~
+   You flip through it.  It appears to contain various recipes for poisons..  
+From minor irritations to fatal, soul-stealing tinctures....  Yet, most of the
+scrawlings are spattered with blood and blurred with time.  Only in Exile would
+these components be useful - you are doubtful you could find such ingrediants
+here.  
+~
+#27171
+sword gilded fencing~
+a gilded fencing sword~
+A beautiful gilded sword lies at your feet.~
+~
+5 g an 0
+0 4 2 3
+7 850 0 0
+E
+sword gilded fencing~
+   The silvery sword is slender and light, suitable for fencing manuevers.  The
+hilt is gilded with the purest gold from the treasury of nobility.  
+~
+A
+18 1
+#27172
+scabbard silver~
+a silver scabbard~
+A scabbard of bright silver lies on the ground.~
+~
+15 0 al 0
+13 0 -1 0
+6 120 0 0
+E
+scabbard silver~
+   It is crafted to fit a long, slender type of sword, perhaps a foil.  The
+edges are faintly gilded in gold, and one side engraved with the seal of a noble
+house.  
+~
+A
+17 -5
+#27173
+sword stone~
+a stone-hilted sword~
+A short sword with a hilt of finished stone has been dropped here.~
+~
+5 0 an 0
+0 1 6 3
+10 200 0 0
+E
+sword stone~
+   It is rather crudely made, it must be acknowledged.  The use of stone in
+weaponry has fallen out of fashion, since the weight allows only the clumsier
+manuevers.  
+~
+#27174
+notice sign disclaimer~
+the cartographer's disclaimer~
+A notice is posted on the wall.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+notice sign disclaimer~
+   A neat type in black stencil gives the warning, "No Guaranteed Satisfaction.
+"
+~
+#27175
+mutton leg meat food~
+a leg of mutton~
+A leg of mutton is lying here.~
+~
+19 0 a 0
+25 0 0 0
+4 120 0 0
+E
+mutton leg~
+   The meat is thick and juicy, still red with the blood of the beast.  
+~
+#27176
+heart boar food~
+a wild boar heart~
+A heart is lying in a pool of blood.~
+~
+19 0 a 0
+12 0 0 0
+3 172 0 0
+E
+heart boar~
+   A human delicacy.  And well worth its reputation for inspiring courage...  
+Or at least gall.  
+~
+#27177
+wings bowl dragon food~
+a bowl of little dragon wings~
+A bowl of tasty dragon wings is resting here.~
+~
+19 f a 0
+25 0 0 0
+5 122 0 0
+E
+wings dragon bowl~
+   Cruelly harvested from the backs of young dragons, the leathery wings are
+tasty, and diaphanous as strands of silk or rain.  
+~
+#27178
+sandwich troll grilled food~
+a grilled troll sandwich~
+A hot sandwich with a putrid odor is here.~
+~
+19 0 a 0
+25 0 0 0
+2 110 0 0
+E
+sandwich troll grilled~
+   Fingers and ribs grilled to a saucy roast poke out from between two slices of
+coarse rye bread.  
+~
+#27179
+key black gold sundhaven~
+a black and gold key~
+A key fashioned of black and gold metal is lying in the dust.~
+~
+18 f ao 0
+0 0 0 0
+1 100 0 0
+E
+key black gold~
+   On the handle the words are engraved, "City of the Cliffs, gates freed, No
+trust guaranteed"
+~
+#27180
+doll voodoo hex~
+a voodoo doll~
+A corn straw doll is lying in the dust.~
+~
+12 0 ao 0
+0 0 0 0
+1 100 0 0
+E
+voodoo doll~
+   The small corn husk doll is stitched with irregular, uneven lines, giving it
+an eerie appearance.  A shiver runs through you as you realize it is slightly
+warm to the touch.  
+~
+#27181
+lock hair red mercy~
+a lock of someone's hair~
+A lock of red hair is lying coiled on the ground.~
+~
+13 0 ao 0
+0 0 0 0
+1 100 0 0
+E
+lock hair red~
+   A long lock of straight red hair is coiled round your fingers.  
+~
+#27182
+sword black watch~
+a sword of the Black Watch~
+A beautiful black sword emblazoned with a triskelion lies here.~
+~
+5 fo an 0
+0 2 5 3
+10 250 0 0
+E
+sword black watch~
+   The sword is beautifully crafted in order to serve the elite members of the
+Black Watch of Sundhaven, charged with the work of keeping the town clean from
+ill-meaning rogues and killers.  
+~
+#27183
+blade iron~
+an iron blade~
+A short iron blade has been left here.~
+~
+5 0 an 0
+0 1 4 1
+6 200 0 0
+E
+blade iron~
+   The hilt of the short iron blade is still warm from the hand of the elite
+guardsman to whom it once belonged.  
+~
+#27184
+plate steel black~
+a plate of black steel~
+A black breast plate is lying face up.~
+~
+9 o ad 0
+8 0 0 0
+10 250 0 0
+E
+plate black steel~
+   The breast plate seems to be forged from some sort of black iron, and is
+quite sturdy.  
+~
+#27185
+cloak gold black~
+a handsome black and gold cloak~
+A handsome black and gold cloak is folded on the ground.~
+~
+9 g ak 0
+7 0 0 0
+5 660 0 0
+E
+cloak black gold~
+   The flowing knee length cloak is fashioned from wool and chased in gold
+corded thread.  
+~
+A
+19 1
+#27186
+whisky scotch glass whisky~
+a glass~
+A tall glass of scotch is sitting nearby.~
+~
+17 0 ao 0
+10 1 5 0
+1 50 0 0
+E
+glass scotch~
+   _______
+   |     |-          
+   |.....| \        The warrior's drink of choice.
+   |     | /
+   |     |-                Okay, one of them.
+   -------
+  It appears the Lord of the Watch favored this one very much,
+since it is empty.
+~
+#27187
+skirt gypsy red~
+a colorful gypsy skirt~
+A patchwork of red and purple lies on the ground.~
+~
+9 0 af 0
+4 0 0 0
+3 53 0 0
+E
+skirt gypsy red~
+   The patched skirt is a sturdy cross-stitching of bright red and violet.  
+~
+#27188
+blouse shirt red blood~
+a blood red blouse~
+A dark red blouse is crumpled here.~
+~
+9 0 ad 0
+4 0 0 0
+3 40 0 0
+E
+blouse red blood~
+   The gypsy blouse is of a rugged muslin fabric, rough and somewhat dirty, but
+in decent shape.  
+~
+#27189
+violin old~
+an old violin~
+An old violin has been tossed in the dust.~
+~
+9 0 ao 0
+2 0 0 0
+4 220 0 0
+E
+violin old~
+   The instrument seems to have seen some rough times.  The gypsies range far
+and wide...  However, it still holds together enough to play a tune, even block
+a blow or two.  
+~
+#27190
+mushroom white food pc~
+a white spotted mushroom~
+A mushroom with white spots is growing in the water.~
+~
+19 0 a 0
+24 0 0 0
+1 20 0 0
+E
+mushroom white~
+   The mushroom is short with a wide, pale-spotted umbrella.  It emits a toxic
+fume.  
+~
+#27191
+blossom flower hibiscus red pc~
+a red hibiscus blossom~
+A lovely red hibiscus flower is lying here.~
+~
+12 0 ao 0
+0 0 0 0
+1 120 0 0
+E
+blossom flower hibiscus red~
+   The large wine-red flower emits a delightful smell, and is rumored to be
+excellent for tea, and some other more toxic uses.  
+~
+#27192
+eye toad~
+an eye of toad~
+A small slimy eye stares up at you from the ground.~
+~
+12 0 ao 0
+0 0 0 0
+1 600 0 0
+E
+eye toad~
+   All life has left the eye that stares blankly into space.  However, toad's
+eyes are rumored to be excellent in the manufacture of toxic substances.  
+~
+#27193
+mortar pestle pc~
+a mortar and pestle~
+A mortar and pestle of black marble sits here.~
+~
+15 0 ao 0
+10 0 -1 0
+1 300 0 0
+E
+pestle mortar~
+   A bowl-shaped mortar carved from black marble holds a small blunt pestle.  
+It looks like the perfect container to mash up something toxic in.  
+~
+#27194
+tunic red dusty~
+a dusty red tunic~
+A dusty pile of red canvas is here.~
+~
+9 0 ad 0
+4 0 0 0
+5 70 0 0
+E
+tunic red dusty~
+   The tunic is frayed and layered with the dust of the road from many leagues
+of travel.  
+~
+#27195
+tray goodies~
+a tray of goodies~
+A tray of goodies sits invitingly on the ground.~
+~
+15 0 ao 0
+200 0 -1 0
+30 120 0 0
+E
+tray goodies~
+   A thin, worn cloth of blue drapes over a polished wooden tray.  Though
+covered with the dust of winding roads, several goods of exotic make are lain
+out that appeal.  
+~
+#27196
+pipe wooden~
+a wooden pipe~
+An old wooden pipe sits in the dust.~
+~
+15 0 ao 0
+3 0 -1 0
+1 35 0 0
+E
+pipe wooden~
+   The pipe is cracked with age and filled with tobacco half-smoked into
+charcoal.  
+~
+#27197
+candle candlestick black light~
+a black candle~
+A black candlestick glows with a dim light.~
+~
+1 0 ao 0
+0 0 30 0
+1 40 0 0
+E
+candle candlestick black light~
+   A slim dark taper rises from a circular brass holder.  
+~
+#27198
+incense stick light~
+a stick of incense~
+A plume of smoke drifts from an incense stick in the room.~
+~
+1 0 ao 0
+0 0 20 0
+1 30 0 0
+E
+stick incense~
+   A small glowing ember shows atop a stick of a grainy substance.  It smells of
+some strong herbs grown beyond the lands you have known.  
+~
+#27199
+honey jar food~
+a jar of honey~
+Flies are buzzing round a honey jar on the ground.~
+~
+19 0 a 0
+12 0 0 0
+3 220 0 0
+E
+honey jar~
+   The small, blue and brown ornamented jar is cracked slightly and dripping
+with a sticky golden substance.  
+~
+#0
+
+#ROOMS
+
+#27100
+The Sunken Temple Courtyard~
+   The pale light from the open sky pours always into this unsheltered
+courtyard, together with the amber glow of standing torches.  Many citizens of
+the town of Sundhaven find it their pleasure to lounge here.  The dark marble
+temple rises like a shadow to the north, the vivid colors of roses eastwards,
+and the library lies to the west.  There is a stone arch to the south.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27101
+D1
+~
+~
+0 -1 27106
+D2
+~
+~
+0 -1 27107
+D3
+~
+~
+0 -1 27105
+E
+credits info~
+   Newbie starting town, possible Midgaard replacement From Mercy of ExileMUD.
+   Builder      : Mercy
+   Zone         : 271 Sundhaven
+   Player Level : 1-10
+   Rooms        : 64
+   Mobiles      : 67
+   Objects      : 100
+   Shops        : 9 
+Zone 271 is linked to the following zones:
+272 Sundhaven II                   at 27118 (south) ---> 27255
+272 Sundhaven II                   at 27121 (down ) ---> 27245
+272 Sundhaven II                   at 27125 (down ) ---> 27236
+272 Sundhaven II                   at 27127 (south) ---> 27233
+272 Sundhaven II                   at 27134 (east ) ---> 27282
+272 Sundhaven II                   at 27135 (north) ---> 27281
+272 Sundhaven II                   at 27136 (west ) ---> 27259
+272 Sundhaven II                   at 27138 (west ) ---> 27258
+272 Sundhaven II                   at 27144 (east ) ---> 27260
+272 Sundhaven II                   at 27145 (west ) ---> 27221
+272 Sundhaven II                   at 27148 (down ) ---> 27257
+
+272 Sundhaven II                   at 27149 (east ) ---> 27249
+272 Sundhaven II                   at 27152 (east ) ---> 27257
+272 Sundhaven II                   at 27152 (west ) ---> 27250
+272 Sundhaven II                   at 27161 (down ) ---> 27270
+272 Sundhaven II                   at 27162 (south) ---> 27253
+ 
+SPECS:
+cityguard: 01,59,60
+postmaster: 64
+guildguard: 56, 55, 58, 57
+smoke rat: 06
+guild: 16, 19, 17, 18
+thief: 07
+bank: 12
+~
+S
+#27101
+The Temple of Mercy~
+   A myriad of candles, burning brightly in amber hues, illuminate the
+black-domed temple.  This is where all adventurers of human ilk must begin
+their trials of danger and discovery.  You stand in a cast of rosy-gold light,
+stretching along the floor from a stained glass window that serves as your
+first sight of the known world.  The unknown world awaits you with open..  
+Jaws.  There is an inscription in the north wall.    
+~
+271 de 0
+D0
+~
+~
+0 -1 27104
+D1
+~
+~
+0 -1 27102
+D2
+~
+~
+0 -1 27100
+D3
+~
+~
+0 -1 27103
+E
+inscription~
+   The inscription reads: I met a traveller from an antique land, Who said -
+"Two vast and trunkless legs of stone Stand in the desert...  Near them, on the
+sand, Half sunk a shattered visage lies, whose frown, And wrinkled lip, and
+sneer of cold command, Tell that its sculptor well those passions read Which yet
+survive, stamped on these lifeless things, The hand that mocked them, and the
+heart that fed.  And on the pedestal, these words appear: I am the Fallen King,
+Kings of Kings, Look on my Works, ye Mighty, and despair!  Nothing beside
+remains.  Round the decay Of that colossal wreck, boundless and bare, The lone
+and level sands stretch far away.  "
+~
+S
+#27102
+The alms room~
+   Murals of black and gold adorn the walls in swirling patterns, within which
+are outlined several dark silhouettes.  Under some scrutiny you can trace a
+basilisk, a chimera, and a dragon circling a deity, a dusty red cloak about her
+neck.  Homage and sacrifice to this human deity are paid here by the other
+citizens of the realm.    
+~
+271 cde 0
+D3
+~
+~
+0 -1 27101
+S
+#27103
+At the altar~
+   You stand in a quiet room garbed on all sides by black drapery, save for the
+south wall, on which is painted a stellar calendar with symbols difficult to
+interpret.  Reverance to the elusive human deity is paid here.    
+~
+271 de 0
+D1
+~
+~
+0 -1 27101
+D5
+~
+~
+0 -1 27161
+E
+calendar~
+   The circular diagram shows symbols for what appear to be the days of the week
+and the month, and how they correspond to the slow treks of the stars, and
+perhaps, some inner meanings known only to the local priesthood.  
+~
+S
+#27104
+A narrow terrace north of the temple~
+   You stand on a thin stone terrace before the temple.  Southwards the dome of
+the temple rises among the town smoke, and a set of steps to the north leads up
+to the northern square before the cliffs edge.  Black willows grow in small
+clusters to the east and west.    
+~
+271 0 1
+D2
+~
+~
+0 -1 27101
+D4
+~
+~
+0 -1 27108
+S
+#27105
+The town library~
+   Silence reigns here.  On two walls are painted the black and gold arcs of
+mural designs; bands twisted into knotlike patterns and borders.  Travellers
+and citizens may post information on the board hung here.    
+~
+271 cdf 0
+D1
+~
+~
+0 -1 27100
+S
+#27106
+The temple garden~
+   An impressionistic splash of red, black and gold meets the eye, accompanied
+by the intoxicating fragrance of roses growing nearly wild in this garden.    
+~
+271 0 1
+D3
+~
+~
+0 -1 27100
+S
+#27107
+A stone arch~
+   An imposing arch of the grey-white stone of the cliffs arcs over your head,
+half grown over with dark green ivy.  Before you to the south are the stone
+steps leading up to the town gallows, and northwards lies the courtyard of the
+temple.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27100
+D4
+~
+~
+0 -1 27119
+S
+#27108
+Sundhaven square~
+   The traffic of foreigners and local citizens is heavy here, the ground is
+trodden down and the scents of animals, smoke and exotic perfumes hangs in the
+air.  The cliffs and the northern gate of the town lie north of here, the lane
+paralleling the cliffs runs east and west, and the entrance to the temple is
+southwards.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27109
+D1
+~
+~
+0 -1 27135
+D3
+~
+~
+0 -1 27110
+D5
+~
+~
+0 -1 27104
+S
+#27109
+The gate at the cliffs~
+   The wind picks up and blows sharply at your hair and garb as the town falls
+behind and the world opens out before you.  You are standing atop a highland
+cliff, lined with mosses, lichen and purple heather, and looking out over a
+foggy wetland.  The graveyard for the dead of Sundhaven lies near the foot of
+the cliffs, and in the far distance you can make out the blue line of the sea
+closing the horizon.    
+~
+271 0 1
+D0
+~
+gate
+~
+1 27179 27158
+D2
+~
+~
+0 -1 27108
+S
+#27110
+A lane bordering the cliffs~
+   The wind from the northern sea finds its way over the rooftops of shops and
+fills the heavily trafficked lane with a salty scent.  The path is lined with a
+few oaks, and shops lie to the north and south.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27111
+D1
+~
+~
+0 -1 27108
+D2
+~
+~
+0 -1 27112
+D3
+~
+~
+0 -1 27113
+S
+#27111
+The alchemy shop~
+   Vials and bottles of all shapes and sizes line the cluttered shelves of this
+small shop.  On a window in the north wall sits a bizarre golden squid-like
+creature in a jar, glinting in the sun.  You wonder what oddities could be
+found in storage.    
+~
+271 cdeh 0
+D2
+~
+~
+0 -1 27110
+S
+#27112
+The House of Sorcery~
+   You stand in a small, well-lit shop of cobblestone and mortar, entirely
+cluttered with scrolls, glowing wands, odd regents and components.  The place
+has an unmistakable scent of sulfur that makes you wonder, but the sorceress
+seems knowledgeable.    
+~
+271 cdeh 0
+D0
+~
+~
+0 -1 27110
+S
+#27113
+A lane bordering the cliffs~
+   You have come to a crossroads of sorts.  A park lies to the north, from
+which a pleasant scent is drifting, and the road continues, narrowing, to the
+west towards the homes of the residents.  Eastwards lies shops and the northern
+gate; a shaded lane travels to the south.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27114
+D1
+~
+~
+0 -1 27110
+D2
+~
+~
+0 -1 27136
+D3
+~
+~
+0 -1 27164
+S
+#27114
+Wisteria park~
+   The town wall to the north and stone building to the east are climbing with
+purple-flowering wisteria vine, forming in leafy clumps at the bottoms.  The
+park is a quiet, relaxing place, with the exception of the occasional explosion
+coming from a pale tower rising to the northwest, accompanied by a brilliant
+flash of light.    
+~
+271 a 2
+D2
+~
+~
+0 -1 27113
+D3
+~
+~
+0 -1 27115
+S
+#27115
+Wisteria park~
+   The dark greenery of the park extends eastwards, grown over with purple-
+flowering wisteria vine which slowly ambles up the town walls.  To the south,
+the cliff lane runs east-west.  An occasional explosion from a pale stone tower
+to the north startles you, and piques your curiousity about that strange place.
+  
+~
+271 a 2
+D0
+~
+~
+0 -1 27116
+D1
+~
+~
+0 -1 27114
+D2
+~
+~
+0 -1 27164
+S
+#27116
+The Tower of Sorcery~
+   Gently curving sigils have been worked into the ancient, weathered stone of
+the tower of the local wizards, winding towards the ceiling in a sloping
+spiral.  A stairwell has its foot at the north wall, rickety but presumably
+stable enough to support you.  A dim violet faerie glow illuminates the room.
+  
+~
+271 cd 0
+D2
+~
+~
+0 -1 27115
+D4
+~
+~
+0 -1 27117
+S
+#27117
+A dark spiral staircase~
+   The immobile stone faces of gargoyles regard you with cold stares from the
+walls of the darkened stairwell.  At each turn in the spiral steps a more
+mangled face than the last confronts you, drawing closer to the laboratory
+above.  What is the sculptor implying about the study of magic?    
+~
+271 acd 0
+D4
+~
+~
+0 -1 27118
+D5
+~
+~
+0 -1 27116
+S
+#27118
+The mages' laboratory~
+   **BOOM!  ** When your vision returns to normal, you find yourself surrounded
+by narrow black lab tables cluttered with a chaotic mess of bubbling vials,
+shattered beakers, and miscellaneous spell components.  The latest experiment
+in familiars, a leathery-skinned fork-tailed creature, hops knavishly from
+shoulder to shoulder among the mages at work here.  If you need practice in the
+magic arts, this would be a good place to start.    
+~
+271 cde 0
+D0
+~
+~
+0 -1 27160
+D2
+~
+~
+0 -1 27255
+D5
+~
+~
+0 -1 27117
+S
+#27119
+At the gallows~
+   In the shade of old gnarl-limbed elder trees stands the bane of all thieves
+and murderers, the platform of the gallows.  The dark sand of the road shows
+none of the blood that has been shed here, but the legends of the dead live on
+in tales and nightmares.  The executions still take place at irregular
+intervals, to the joy of hidden enemies and law-abiding citizens.  You note
+there is plenty of room for spectators.  Besides the east-west road, a stone
+arch stands to the north, and a well-travelled path leads southwards.    
+~
+271 0 1
+D1
+~
+~
+0 -1 27128
+D2
+~
+~
+0 -1 27122
+D3
+~
+~
+0 -1 27141
+D5
+~
+~
+0 -1 27107
+S
+#27120
+On a weathered stone terrace~
+   This seems to be a plaza of sorts, but is so worn and cracked with age the
+stone is barely holding together.  Moss and weeds have all but overgrown the
+rock-strewn surface.  Balmy, roguish scents are drifting out of a dark,
+ivy-clothed building to the east.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27122
+D1
+~
+~
+0 -1 27121
+D2
+~
+~
+0 -1 27123
+S
+#27121
+Nightbreak Cafe~
+   You have entered the infamous Nightbreak Cafe, home by night to those who
+secret themselves away in hideouts by day.  The place is well-known to be run
+by the local assassins guild, and it is common to witness conversations here
+spoken in whispers as deals are cut and bounties arranged.  The rules of
+conduct are etched on the back wall.    
+~
+271 d 0
+D3
+~
+~
+0 -1 27120
+D5
+~
+trapdoor
+~
+1 27181 27245
+E
+rules conduct~
+   These rules are scrawled by daggerpoint on the wall..
+ 1) Don't offer too little.
+ 2) Don't point.
+ 3) No stealing the tips.
+ 4) No honor among thieves.
+
+The list is, of course, left anonymous.
+~
+S
+#27122
+The southern path~
+   A well-trodden dirt path heads southwards, bordered by dense clumps of
+black-tipped grass.  By night the moths gather by a fatal instinct round the
+glow of torches lining the way, beating their wings heavily.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27119
+D2
+~
+~
+0 -1 27120
+S
+#27123
+The southern path~
+   The green grass and firm soil of the path begin to give way to mud strewn
+with traces of human filth as you pass into the poorer section of Sundhaven.  
+The shanties and town dump add a mild stench to the air, and attest to the
+virtual burglaries of the poor by the rich..  And often by the poor.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27120
+D1
+~
+~
+0 -1 27124
+D2
+~
+~
+0 -1 27127
+D3
+~
+~
+0 -1 27125
+S
+#27124
+A withered shanty~
+   The splintered plankings that make the walls of this room are sodden with
+rain and leaking water, light and a chilling wind in to its inhabitants, who
+look sick from poverty.  A rat scurries nonchalantly by your toes, then pauses
+to debate their merits as food.  The mud floor is littered with debris.    
+~
+271 cd 0
+D3
+~
+~
+0 -1 27123
+S
+#27125
+The town dump~
+   The foul stench of rotting food and other miscellaneous goods creates an
+almost visible brown haze among the heaps of trash, clouding your senses.  
+Those who call it home certainly smell as decayed as it does.    
+~
+271 0 1
+D1
+~
+~
+0 -1 27123
+D2
+~
+~
+0 -1 27126
+D5
+~
+rubble
+~
+2 23 27236
+S
+#27126
+The town dump~
+   You wander amid heaps of trash that smell of disease, famine, and other
+pleasantries...  Suffice it to say that very little that should be alive here
+is, and vice-versa.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27125
+D1
+~
+~
+0 -1 27127
+S
+#27127
+The southern path~
+   The soft mud of the path loosens and parts as it meets your heels, pulling
+you in slightly with each step.  A rotten stench is filtering in from the west,
+repelling you in another direction automatically such that it takes a great
+conscious effort for you to turn that way.  The path heads north into the
+town's mainstream, and south closer to the wildlands beyond it.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27123
+D2
+~
+~
+0 -1 27233
+D3
+~
+~
+0 -1 27126
+S
+#27128
+A black sand road~
+   The black sand of the road absorbs heat and feels pleasant to those without
+coverings on their feet, attracting all sorts of loafers and siteseers who come
+on days off to relax and watch the festivities at the gallows.  A bloody trail
+leads into a building to the south.    
+~
+271 0 1
+D1
+~
+~
+0 -1 27130
+D2
+~
+~
+0 -1 27142
+D3
+~
+~
+0 -1 27119
+E
+trail bloody~
+   Sand has been shuffled over most of it, but it is obviously from a recent
+kill.  The sign on the building reads 'The House of the Butcher and Friends'.  
+It appears the fellow has a quirky sense of humor.  
+~
+S
+#27130
+A sandy bend before the east gate~
+   The wide road comes to a crossroads close to the eastern gate, which appears
+to be forged from some heavy metal and painted white.  The ground is a mix of
+shuffled black and gold sand where the two roads meet.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27131
+D1
+~
+~
+0 -1 27144
+D3
+~
+~
+0 -1 27128
+S
+#27131
+A gold sand road~
+   A thick stone and mortar building with small windows stands to the east, but
+no entrance can be seen from here, and the black stone of the weapons shop is
+westwards.  The road is treeless and wide, the air laiden with smoke and the
+shouts of bartering.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27132
+D2
+~
+~
+0 -1 27130
+D3
+~
+~
+0 -1 27146
+S
+#27132
+A gold sand road~
+   The sand road continues north and south, crowded with citizens going about
+their business.  The armoury stands to the west, emitting heat from the fires
+of the forge.  Occasional drunken shouts and laughter can be heard from a
+smoking lodge to the east.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27133
+D1
+~
+~
+0 -1 27148
+D2
+~
+~
+0 -1 27131
+D3
+~
+~
+0 -1 27147
+S
+#27133
+A gold sand road~
+   Sand of pale gold has been carted in from the desert lands to cover this
+road, reducing the sinking effect of mud during the rains.  The air here is
+heavy with the smell of delicious food, fresh bread baking, and something
+spicier, to the east.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27134
+D1
+~
+~
+0 -1 27150
+D2
+~
+~
+0 -1 27132
+D3
+~
+~
+0 -1 27153
+S
+#27134
+A bend in the road~
+   You have come to a narrow bend, and can feel the faint heat of a fire from a
+small, blackened stone structure to the north.  Patches of gold sand are
+scattered about.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27154
+D1
+~
+~
+0 -1 27282
+D2
+~
+~
+0 -1 27133
+D3
+~
+~
+0 -1 27135
+S
+#27135
+A lane bordering the cliffs~
+   This narrow lane, sometimes dimmed with fog from the sea and forests,
+travels east and west paralleling the cliffs just around the shops to the
+north.  Faint bird cries are issuing from the building to the south.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27281
+D1
+~
+~
+0 -1 27134
+D2
+~
+~
+0 -1 27155
+D3
+~
+~
+0 -1 27108
+S
+#27136
+A shaded lane~
+   Loose leaves blow in tiny spirals along the surface of the wooded road as
+summer fades to autumn.  Between the trees to the west, something sparkles
+tauntingly from the dark doorway of a small shop.  Eastwards the dome of the
+temple can be seen rising.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27113
+D2
+~
+~
+0 -1 27138
+D3
+~
+~
+0 -1 27259
+S
+#27138
+A shaded lane~
+   You are outside the town treasury, just to the west of here, making this a
+place bustling with activity, including the occasional attentions of a
+pickpocket or two, for the lane is broad and the shadows of the trees leave
+plenty of hiding places.  However, the frequent presence of guards gives a
+feeling of security.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27136
+D2
+~
+~
+0 -1 27139
+D3
+~
+~
+0 -1 27258
+S
+#27139
+A shaded lane~
+   The bent limbs of ash and oak trees lining the lane casts a pattern of
+dappled light on the ground, which shifts languidly back and forth in the
+breeze.  To the west stands the old post office, and the lane continues north
+and south.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27138
+D2
+~
+~
+0 -1 27140
+D3
+~
+~
+0 -1 27157
+S
+#27140
+A cluster of trees before the west gate~
+   You stand at a busy crossroads, darkened by the shade of an uneven ring of
+oaks trellised with ivy.  The wind brushes the leaves, but this sound is dulled
+by the din of the town going about its daily business.  The ornate west gate
+lies just to the west, a road paved with black sand runs east and north is a
+lane shaded by oak and ash trees.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27139
+D1
+~
+~
+0 -1 27141
+D3
+~
+~
+0 -1 27145
+S
+#27141
+A black sand road~
+   Black sand has been hauled up the steep cliffs from the beaches to reduce
+the unpleasant affects of copious mud during the frequent rains and heavy fogs
+of the region.  The road is so heavily travelled it has almost been packed down
+into a hard surface.    
+~
+271 0 1
+D1
+~
+~
+0 -1 27119
+D2
+~
+~
+0 -1 27143
+D3
+~
+~
+0 -1 27140
+S
+#27142
+The butcher shop~
+   You are enclosed in a poorly lit, stuffy room that smells of blood, salted
+meat and strange preservatives you didn't think existed in this time period.  
+Pewter cases filled with ice give off wisps of steam near a roasting fire at
+the east wall.  You might wonder why this place is situated so proximate to the
+gallows, but the butcher nonchalantly claims all his goods died peaceably, then
+turns away to stifle a chuckle.    
+~
+271 cdeh 0
+D0
+~
+~
+0 -1 27128
+S
+#27143
+The stables~
+   No whinnies issue from the darkened stalls of this place; the horses are as
+yet untamed and the stables lie empty.  It is not unusual for a vagrant to make
+his home here, however, before being moved on by the guards or attacked by the
+barn owls.    
+~
+271 ad 0
+D0
+~
+~
+0 -1 27141
+S
+#27144
+The east gate of Sundhaven~
+   You stand on the eastern border of Sundhaven, before a heavy gate forged
+from iron and painted bone-white.  A hot desert wind blows through the grating
+sporadically, giving hint to the vast regions beyond.    
+~
+271 0 1
+D1
+~
+gate
+~
+1 27179 27260
+D3
+~
+~
+0 -1 27130
+S
+#27145
+The west gate of Sundhaven~
+   An ornate gate, heavy and wrought from black iron, hangs on ancient hinges
+to the west, bordered by slender elms.  The ivy so plentiful in the town is
+twined and braided about its intricate coils and carvings, which consist
+largely of prowling cats and eclipsed circle designs.    
+~
+271 0 1
+D1
+~
+~
+0 -1 27140
+D3
+~
+gate
+~
+1 27179 27221
+S
+#27146
+The Dirk & Dagger~
+   A circular stone is whirring in a fast spin at the far wall, as the
+weaponsmaster of Sundhaven continually sharpens his wares, and re-hangs them to
+display on the stone and mortar walls.  A single window admits virtually no
+light, so filled with the webs and dust of neglect is it..  Obviously the
+shopowner prefers to seclude himself to the obsessive labors of his work.  You
+wonder if he ever makes anything new, so fanatical he is about sharpening and
+re-sharpening the old.    
+~
+271 cdeh 0
+D1
+~
+~
+0 -1 27131
+S
+#27147
+The Silver Scale~
+   You pass into a shop whose walls are gleaming dully, hung with various armor
+reflecting the firelight spawning from the forge.  Goods of defensive metal may
+be bought and sold here, at nearly reasonable prices.  Use 'list' to peruse the
+options.    
+~
+271 cdeh 0
+D1
+~
+~
+0 -1 27132
+S
+#27148
+Dragon's Wrath Alehouse~
+   You have entered a rowdy tavern, noticeably different from the intellectual
+bounty hunting atmosphere of the Nightbreak Cafe.  Your feet are hard put to
+find a purchase on the slippery floor of spilled ale and cracked, sodden wood.
+This is the meeting place of those of a fighting bent, accordingly the blood
+from last night's brawls has barely dried on the walls before tonight's is
+shed, be wary.    
+~
+271 d 0
+D2
+~
+~
+0 -1 27149
+D3
+~
+~
+0 -1 27132
+D5
+~
+~
+0 -1 27257
+S
+#27149
+Along the bar counter~
+   You have entered a loud and boisterous corner in the alehouse, where
+adventurers tell their tales of fact and fable..  Perhaps there are things to
+be learned here of the lands beyond the thin walls of the city.    
+~
+271 d 0
+D0
+~
+~
+0 -1 27148
+D1
+~
+~
+0 -1 27249
+S
+#27150
+Mekala's Thai Kitchen~
+   A large room crowded with ornamental porcelain elephants, incense dishes and
+silkscreen dividers encloses you, the blur of spicy scents from the kitchen
+bringing a flush of red to your face.  A steep, narrow stairwell rises up the
+east wall.    
+~
+271 cdeh 0
+D3
+~
+~
+0 -1 27133
+D4
+~
+~
+0 -1 27151
+S
+#27151
+The rooftop at Mekala's~
+   The open, moist air gives some relief from the heat below.  Wild birds
+circle about above your head, curious about the food but too shy to descend.  
+A few tables stand adorned with simple white tablecloths and red candles.    
+~
+271 0 1
+D5
+~
+~
+0 -1 27150
+S
+#27152
+The sparring hall~
+   Shields and other items of heraldry line the sunken stone walls of the
+sparring room, gleaming with human pride.  While not being overly promiscuous,
+the heads of foes are noticeably stacked one atop the other on a pole of
+polished wood in the corner.  If you are looking to improve your skills in the
+art of battle, this might be a good place to start.    
+~
+271 de 0
+D1
+~
+~
+0 -1 27257
+D3
+~
+~
+0 -1 27250
+S
+#27153
+The Bread Basket~
+   You pass into an unusually humble dwelling and shop for the town, built from
+baked clay and hot from the cumbersome bread ovens projecting partially out of
+the far wall.  The smell of fresh bread is mouth-watering.    
+~
+271 cdeh 0
+D1
+~
+~
+0 -1 27133
+S
+#27154
+The blacksmiths~
+   The orange glow of the forge brightens an otherwise black, windowless room.
+This is the blacksmith's home and workplace; a humble cot rests very close to
+the fire.    
+~
+271 d 0
+D2
+~
+~
+0 -1 27134
+S
+#27155
+The aviary~
+   Shrill and murmuring bird calls alike assail your ears.  The aviary is
+crowded with bird cages holding the trained variety of species for sale, and
+something like aspirin is available on a small, high-standing round table by
+the door.    
+~
+271 cdeh 0
+D0
+~
+~
+0 -1 27135
+S
+#27156
+The bird cages~
+   The birds like their privacy, get the hell out!  To make a pet shop you need
+two rooms and some pets.  The rooms MUST be sequential.  If the first room is
+3015 then the second must be 3016.  The second room is known as the storeroom.
+All that is required in the storeroom is to load one of each mob you wish to be
+a pet.  This room can not have any exits and will never be used by mortals.  
+Although a pet shopkeeper is not required it is recommended.  In order to
+implement a pet shop the actual mud code has to be modified.  Just ask Rumble
+to do it for you.    
+~
+271 dj 0
+S
+#27157
+The post office~
+   You narrowly avoid the guillotine-style slash of a rusted axe as you pass
+through the doorway of the town post office.  It seems some sort of riot is
+underway in here - what would be a strike if this wasn't before unions - among
+the numerous disgruntled postal workers conglomerated.  Shining silver letter-
+openers flash in the light as they heedlessly try to backstab anyone in sight.
+It's a droll scene.  You decide it prudent to mail your wares and be on your
+way.  There is a sign posted on the north wall.    
+~
+271 cd 0
+D1
+~
+~
+0 -1 27139
+E
+sign~
+   A few instructions have been meticulously printed in small letters.  Send
+(item) (playername) will function to mail something to someone.  Receive will
+allow you to collect your mail.  Thank you and have a nice day.  
+~
+S
+#27158
+Standing at the brink~
+   A sea of light, floating fog opens up before you, swallowing most of the
+cliff and the lands beyond in its pale jaws.  Far beyond the whiteness opens
+out to reveal a welcome azure that is the mantle of the sea.  A trail
+disappears downwards into the mist.    
+~
+271 0 4
+D2
+~
+gate
+~
+1 27179 27109
+S
+#27160
+A balcony of the tower~
+   This high point on the northern edge of Sundhaven boasts quite a view.  
+When fog is not seen rolling about the balcony's railing, one can see the
+graveyard near the foot of the cliff to the north, and beyond it, the pearl
+blue sea, clothing the far horizon.  The mages have made this a favored place
+for recreational studies.    
+~
+271 0 1
+D2
+~
+~
+0 -1 27118
+S
+#27161
+A silvery-lit landing~
+   Your steps echo in a hollow stairwell of naked stone.  The air hangs light
+and silent about you as a curtain of falling snow, though there is a chanting
+taking place, seemingly miles away, in the chamber to the west.  Lamps mounted
+on the walls give off a silver glow reminiscent of saints and martyrs, whether
+they died for the cause of good, or for evil.    
+~
+271 d 0
+D3
+~
+~
+0 -1 27162
+D4
+~
+~
+0 -1 27103
+D5
+~
+~
+0 -1 27270
+S
+#27162
+The room of doctrine~
+   Artifacts and relics from a time before the known world are encased and
+illumined in airless, black glass cabinets, their twinkling golden and silver
+chasings catching your eye with mocking immortality.  Urns of demon ash line
+polished amberwood shelves, and a small, simple altar edged in ivory stands
+against the north wall.  This is the sanctum of the ministry.  Those of a pious
+bent would do well to begin studies here.    
+~
+271 cde 0
+D1
+~
+~
+0 -1 27161
+D2
+~
+~
+0 -1 27253
+D5
+~
+~
+0 -1 27163
+S
+#27163
+The chamber of sacrifice~
+   You have entered a somber chamber, somehow filled with darkness and still
+retaining shadows that seem to flicker in the recesses of the room.  It appears
+a sacrifice to the matron deity of Sundhaven is scheduled to take place.  You
+may watch, but be warned there are times set aside for the sacrifice of those
+who interfere.    
+~
+271 ad 0
+D4
+~
+~
+0 -1 27162
+S
+#27164
+At a swinging wooden gate~
+   You pass through a creaking gate of weathered wood, swinging idly in the
+wind.  To the west rise the bluffs and gardens of the homes of Sundhaven's
+varied people; citizens can also be seen passing eastwards into the town
+itself.    
+~
+271 0 1
+D0
+~
+~
+0 -1 27115
+D1
+~
+~
+0 -1 27113
+D3
+~
+gate
+~
+2 23 27165
+S
+#27165
+A windy cliffside lane~
+   A damp and chilly wind wafts over the homes of the clifftop moors.  About
+you bluffs rise, pale grey and dark sandstone, smooth from the sculpturing of
+winds, and dotted with purple heather and green mosses.  A path strays through
+the clifftop hills.    
+~
+271 0 2
+D1
+~
+gate
+~
+2 23 27164
+D3
+~
+~
+0 -1 27166
+S
+#27166
+A windy cliffside lane~
+   A damp and chilly wind wafts over the homes of the clifftop moors.  About
+you bluffs rise, pale grey and dark sandstone, smooth from the sculpturing of
+winds, and dotted with purple heather and green mosses.  A path strays through
+the clifftop hills.    
+~
+271 0 2
+D1
+~
+~
+0 -1 27165
+S
+#0
+
+#RESETS
+O 0 27110 1 27100 	(a black marble fountain)
+D 0 27109 0 1 	(The gate at the cliffs)
+D 0 27158 2 1 	(Standing at the brink)
+D 0 27145 3 1 	(The west gate of Sundhaven)
+D 0 27164 3 1 	(At a swinging wooden gate)
+D 0 27165 1 1 	(A windy cliffside lane)
+D 0 27121 5 2 	(Nightbreak Cafe)
+D 0 27125 5 1 	(The town dump)
+D 0 27144 1 1 	(The east gate of Sundhaven)
+O 0 27109 1 27101 	(a candelabra)
+O 0 27115 1 27106 	(a golden rose with black leaves and stem)
+O 0 27154 1 27103 	(an altar carved from amber)
+O 0 27152 1 27119 	(the gallows platform)
+O 0 27153 1 27120 	(a cracked stone fountain)
+O 0 27114 1 27121 	(a coffee brewer)
+O 0 27148 1 27160 	(a glass chessboard)
+O 0 27220 1 27161 	(a guild message)
+O 0 27221 1 27125 	(a heap of refuse)
+M 0 27164 1 27157 	(a disgruntled courier)
+M 0 27102 1 27119 	(the town hangman)
+E 1 27111 1 16 	(the axe of severance)
+G 1 27100 1 -1 	(a noose)
+M 0 27149 4 27144 	(the gate watchman)
+E 1 27173 4 16 	(a stone-hilted sword)
+M 0 27121 1 27121 	(a retired thief)
+G 1 27116 2 -1 	(an iced cappuccino)
+G 1 27117 2 -1 	(an irish cream latte)
+G 1 27118 2 -1 	(a black cup)
+G 1 27119 2 -1 	(a hot cup)
+G 1 27120 2 -1 	(a rogue's brew)
+G 1 27121 2 -1 	(the black adder special)
+G 1 27123 2 -1 	(a victim sandwich)
+M 0 27148 1 27142 	(the butcher)
+E 1 27155 1 16 	(a meat cleaver)
+G 1 27175 1 -1 	(a leg of mutton)
+G 1 27176 1 -1 	(a wild boar heart)
+G 1 27177 1 -1 	(a bowl of little dragon wings)
+G 1 27178 1 -1 	(a grilled troll sandwich)
+M 0 27149 4 27145 	(the gate watchman)
+E 1 27173 4 16 	(a stone-hilted sword)
+M 0 27133 1 27146 	(the weaponsmaster)
+G 1 27139 1 -1 	(a sword of quartz hilt)
+G 1 27140 1 -1 	(a mithril dagger)
+G 1 27141 1 -1 	(a fire-headed mace)
+G 1 27142 1 -1 	(a rock crystal staff)
+M 0 27149 4 27109 	(the gate watchman)
+E 1 27173 4 16 	(a stone-hilted sword)
+M 0 27132 1 27147 	(the armourer)
+G 1 27163 1 -1 	(a suit of chain mail)
+G 1 27164 1 -1 	(a bright helm)
+G 1 27165 1 -1 	(silver bracers)
+G 1 27166 1 -1 	(a pair of sharp-toed boots)
+G 1 27167 1 -1 	(a scale shield)
+M 0 27120 1 27148 	(the bartender)
+G 1 27122 1 -1 	(a shot)
+G 1 27125 1 -1 	(a cold mug)
+G 1 27124 1 -1 	(a black mug filled with leaping flames)
+G 1 27126 1 -1 	(a keg of wine)
+G 1 27127 1 -1 	(a leather flask)
+G 1 27128 1 -1 	(a rabbit roast)
+G 1 27129 1 -1 	(a pot of dragon stew)
+M 0 27111 1 27149 	(a knight in bright armor)
+M 0 27112 1 27149 	(a squire)
+M 0 27113 1 27149 	(a foreign princess)
+M 0 27118 1 27152 	(the Knightmaster)
+M 0 27165 4 27104 	(a Sundhaven noble)
+E 1 27213 7 16 	(a heraldry sword)
+E 1 27216 7 12 	(a flowing taupe cloak)
+M 0 27165 4 27106 	(a Sundhaven noble)
+E 1 27213 7 16 	(a heraldry sword)
+E 1 27216 7 12 	(a flowing taupe cloak)
+M 0 27165 4 27107 	(a Sundhaven noble)
+E 1 27213 7 16 	(a heraldry sword)
+E 1 27216 7 12 	(a flowing taupe cloak)
+M 0 27165 4 27108 	(a Sundhaven noble)
+E 1 27213 7 16 	(a heraldry sword)
+E 1 27216 7 12 	(a flowing taupe cloak)
+M 0 27131 1 27150 	(Mekala)
+G 1 27133 1 -1 	(a dish of pad tai)
+G 1 27217 1 -1 	(a bowl of ma gung)
+M 0 27128 1 27153 	(the hobbit pastry chef)
+G 1 27130 1 -1 	(a rye bread)
+G 1 27131 1 -1 	(a cake baked from wild saffron)
+G 1 27132 1 -1 	(a blackberry pastry)
+M 0 27103 1 27101 	(a black-robed priest)
+E 1 27101 15 0 	(a kaleidoscope)
+M 0 27101 11 27108 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+E 1 27179 1 17 	(a black and gold key)
+M 0 27101 11 27134 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27128 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27141 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27113 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27108 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27113 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27138 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27134 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27132 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27101 11 27128 	(a Sundhaven guard)
+E 1 27143 30 11 	(a black sandstone shield)
+E 1 27144 30 5 	(a guard's golden tunic)
+E 1 27145 30 8 	(sturdy black boots)
+E 1 27146 30 16 	(a silver broadsword)
+M 0 27160 1 27119 	(the Lord of the Black Watch)
+E 1 27185 8 12 	(a handsome black and gold cloak)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+G 1 27186 20 -1 	(a glass)
+M 0 27159 8 27140 	(a warrior of the Black Watch)
+E 1 27184 20 5 	(a plate of black steel)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+M 0 27159 8 27113 	(a warrior of the Black Watch)
+E 1 27184 20 5 	(a plate of black steel)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+M 0 27159 8 27165 	(a warrior of the Black Watch)
+E 1 27184 20 5 	(a plate of black steel)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+M 0 27159 8 27108 	(a warrior of the Black Watch)
+E 1 27184 20 5 	(a plate of black steel)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+M 0 27159 8 27148 	(a warrior of the Black Watch)
+E 1 27184 20 5 	(a plate of black steel)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+M 0 27159 8 27130 	(a warrior of the Black Watch)
+E 1 27184 20 5 	(a plate of black steel)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+M 0 27159 8 27127 	(a warrior of the Black Watch)
+E 1 27184 20 5 	(a plate of black steel)
+E 1 27182 15 16 	(a sword of the Black Watch)
+E 1 27183 15 17 	(an iron blade)
+M 0 27106 15 27136 	(a smoke rat)
+M 0 27106 15 27128 	(a smoke rat)
+M 0 27106 15 27126 	(a smoke rat)
+M 0 27106 15 27119 	(a smoke rat)
+M 0 27106 15 27131 	(a smoke rat)
+M 0 27106 15 27164 	(a smoke rat)
+M 0 27106 15 27126 	(a smoke rat)
+M 0 27106 15 27140 	(a smoke rat)
+M 0 27106 15 27140 	(a smoke rat)
+M 0 27106 15 27113 	(a smoke rat)
+M 0 27106 15 27107 	(a smoke rat)
+M 0 27106 15 27130 	(a smoke rat)
+M 0 27138 2 27133 	(a mischievious boy)
+E 1 27147 5 17 	(a set of marbles)
+M 0 27138 2 27139 	(a mischievious boy)
+E 1 27147 5 17 	(a set of marbles)
+M 0 27166 1 27108 	(Stu)
+M 0 27139 6 27104 	(a dark-haired girl)
+E 1 27149 8 6 	(a velvet ribbon)
+M 0 27139 6 27104 	(a dark-haired girl)
+E 1 27149 8 6 	(a velvet ribbon)
+M 0 27139 6 27107 	(a dark-haired girl)
+E 1 27149 8 6 	(a velvet ribbon)
+M 0 27139 6 27107 	(a dark-haired girl)
+E 1 27149 8 6 	(a velvet ribbon)
+M 0 27139 6 27108 	(a dark-haired girl)
+E 1 27149 8 6 	(a velvet ribbon)
+M 0 27139 6 27109 	(a dark-haired girl)
+E 1 27149 8 6 	(a velvet ribbon)
+M 0 27107 1 27138 	(a thief)
+M 0 27115 1 27128 	(the village idiot)
+M 0 27142 1 27152 	(a young warrior)
+M 0 27125 1 27154 	(the blacksmith)
+M 0 27122 1 27155 	(the falconer)
+M 0 27147 2 27106 	(a large white cat)
+M 0 27157 1 27161 	(a guardian basilisk)
+M 0 27146 4 27140 	(a grey cat)
+M 0 27146 4 27107 	(a grey cat)
+M 0 27146 4 27125 	(a grey cat)
+M 0 27146 4 27126 	(a grey cat)
+M 0 27140 1 27115 	(a tabby cat)
+M 0 27158 1 27116 	(a guardian imp)
+M 0 27129 1 27111 	(the old alchemist)
+G 1 27208 1 -1 	(a crystal potion)
+G 1 27222 1 -1 	(a white potion)
+G 1 27223 1 -1 	(a bubbling potion)
+M 0 27130 1 27112 	(the magess)
+G 1 27209 1 -1 	(a twisted staff)
+G 1 27224 1 -1 	(a silver wand)
+M 0 27136 1 27108 	(a paranoid adventurer)
+E 1 27150 5 16 	(a shattered dagger)
+E 1 27151 5 17 	(a curse of ill luck)
+M 0 27150 1 27156 	(a little sparrow)
+M 0 27151 1 27156 	(a blackbird)
+M 0 27152 1 27156 	(a giant kestrel)
+M 0 27114 5 27164 	(a gypsy minstrel)
+E 1 27187 10 7 	(a colorful gypsy skirt)
+E 1 27188 10 5 	(a blood red blouse)
+E 1 27189 10 17 	(an old violin)
+M 0 27114 5 27131 	(a gypsy minstrel)
+E 1 27187 10 7 	(a colorful gypsy skirt)
+E 1 27188 10 5 	(a blood red blouse)
+E 1 27189 10 17 	(an old violin)
+M 0 27114 5 27127 	(a gypsy minstrel)
+E 1 27187 10 7 	(a colorful gypsy skirt)
+E 1 27188 10 5 	(a blood red blouse)
+E 1 27189 10 17 	(an old violin)
+M 0 27114 5 27120 	(a gypsy minstrel)
+E 1 27187 10 7 	(a colorful gypsy skirt)
+E 1 27188 10 5 	(a blood red blouse)
+E 1 27189 10 17 	(an old violin)
+M 0 27114 5 27120 	(a gypsy minstrel)
+E 1 27187 10 7 	(a colorful gypsy skirt)
+E 1 27188 10 5 	(a blood red blouse)
+E 1 27189 10 17 	(an old violin)
+M 0 27109 3 27122 	(a peddler)
+E 1 27194 10 5 	(a dusty red tunic)
+E 1 27195 10 17 	(a tray of goodies)
+P 1 27196 5 27195 	(a wooden pipe)
+P 1 27197 5 27195 	(a black candle)
+P 1 27198 5 27195 	(a stick of incense)
+P 1 27199 5 27195 	(a jar of honey)
+P 1 27200 5 27195 	(a salted herring)
+P 1 27201 5 27195 	(a white feather quill)
+P 1 27202 5 27195 	(a shard of broken crystal)
+M 0 27109 3 27145 	(a peddler)
+E 1 27194 10 5 	(a dusty red tunic)
+E 1 27195 10 17 	(a tray of goodies)
+P 1 27196 5 27195 	(a wooden pipe)
+P 1 27197 5 27195 	(a black candle)
+P 1 27198 5 27195 	(a stick of incense)
+P 1 27199 5 27195 	(a jar of honey)
+P 1 27200 5 27195 	(a salted herring)
+P 1 27201 5 27195 	(a white feather quill)
+P 1 27202 5 27195 	(a shard of broken crystal)
+M 0 27110 3 27124 	(a mendicant)
+M 0 27110 3 27124 	(a mendicant)
+M 0 27110 3 27124 	(a mendicant)
+M 0 27135 2 27114 	(a mockingbird)
+M 0 27135 2 27114 	(a mockingbird)
+M 0 27100 1 27113 	(the Earl of Sundhaven)
+E 1 27172 5 13 	(a silver scabbard)
+E 1 27171 5 16 	(a gilded fencing sword)
+M 0 27147 2 27141 	(a large white cat)
+M 0 27119 1 27118 	(the Archmage)
+M 0 27141 2 27160 	(an old mage)
+M 0 27141 2 27160 	(an old mage)
+M 0 27104 1 27103 	(a black-robed priestess)
+M 0 27144 1 27163 	(a sacrificial priestess)
+M 0 27145 1 27163 	(a black animal)
+M 0 27116 1 27162 	(the Priestess of the Ministry)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#27100~
+27178
+27177
+27176
+27175
+-1
+1.20
+0.20
+-1
+%s Don't got none, don't want none!~
+%s You don't seem to have one of those.~
+%s I don't want anything of yours.~
+%s Too rich for my blood!~
+%s You're too stinking poor to afford it.~
+%s That'll be %d coins and your firstborn child please!~
+%s I don't buy.~
+2
+2
+27148
+0
+27142
+-1
+0
+28
+0
+0
+#27111~
+27208
+-1
+1.20
+0.20
+-1
+%s I don't sell any of those!~
+%s Nothing is refundable, have a nice day.~
+%s Nothing is refundable, have a nice day.~
+%s Nothing is refundable, have a nice day.~
+%s Go buy something you can afford.~
+%s That comes to %d coins. Now get lost! Heheh.~
+%s I don't buy.~
+2
+2
+27123
+0
+27281
+-1
+0
+28
+0
+0
+#27112~
+27209
+27224
+-1
+1.20
+0.10
+2
+3
+4
+-1
+%s I offer no such thing! Try list.~
+%s You lack the item in question.~
+%s I buy the tools of magicians only.~
+%s The price of this is beyond my means.~
+%s You can't afford to purchase this!~
+%s %d coins, thank you.~
+%s You'll have %d coins for that.~
+2
+2
+27130
+0
+27112
+-1
+0
+28
+0
+0
+#27121~
+27123
+27121
+27120
+27119
+27118
+27117
+27116
+27115
+-1
+1.20
+0.20
+-1
+%s I never palmed that thing, try list.~
+%s That seems to be absent from your belongings.~
+%s I don't buy, I accept charity. Fork it over!~
+%s How about if I just steal it instead?~
+%s You beggar! You can't afford that.~
+%s Here ye go, pal. That'll be %d coins.~
+%s I don't buy.~
+2
+1
+27121
+1
+27121
+-1
+0
+28
+0
+0
+#27122~
+27193
+27192
+27191
+27180
+-1
+1.20
+0.20
+12
+-1
+%s I don't carry that.~
+%s Even if you had one of those, I doubt I would want it.~
+%s I don't need to buy those - I'm a witch! Muaha!~
+%s I'd buy it, but I just fed my dragon and am broke!~
+%s You'll need more gold than that!~
+%s Good choice, my pretty! %d coins please.~
+%s Ahh! Just the thing I needed. Have %d coins.~
+2
+2
+27127
+0
+27234
+-1
+0
+28
+0
+0
+#27146~
+27142
+27141
+27140
+27139
+-1
+1.20
+0.20
+5
+-1
+%s I do not forge that weapon, try list.~
+%s You seem fresh out of those.~
+%s My art is purely offensive. Try somewhere else.~
+%s Ah! I haven't seen the like of that in years! I cannot afford it.~
+%s You haven't the means to pay for this.~
+%s A fine selection for %d coins.~
+%s Here you are, %d coins. Now be off.~
+2
+2
+27133
+0
+27146
+-1
+0
+28
+0
+0
+#27147~
+27167
+27166
+27165
+27164
+27163
+-1
+1.20
+0.20
+9
+-1
+%s I don't carry that.~
+%s Hm. Smoke another one and check your inventory.~
+%s I'm not interested in such things.~
+%s The price for that is outrageous! Away with you.~
+%s That seems to be out of your price range.~
+%s That comes to %d coins. Enjoy.~
+%s I'll give you %d coins for that.~
+2
+2
+27132
+0
+27147
+-1
+0
+28
+0
+0
+#27148~
+27129
+27128
+27127
+27126
+27124
+27125
+27122
+-1
+1.20
+0.40
+-1
+%s You'll have to make that yourself, never heard of it.~
+%s You don't seem to have one.~
+%s Be on your way loafer, I don't buy.~
+%s Not for those prices.~
+%s You can't afford my hearty drink and meals!~
+%s A solid %d coins down on the bar, friend.~
+%s I don't buy.~
+2
+1
+27120
+0
+27148
+-1
+0
+28
+0
+0
+#27150~
+27133
+-1
+1.20
+0.50
+-1
+%s None of those here! Try list.~
+%s I don't buy!~
+%s I'd rather eat half-cooked chihuahua for a month than buy that.~
+%s I don't buy.~
+%s You cannot afford this.~
+%s The bill is %d coins.~
+%s I don't buy.~
+2
+2
+27131
+0
+27150
+-1
+0
+28
+0
+0
+#27153~
+27132
+27131
+27130
+-1
+1.20
+0.20
+-1
+%s Yo! Um, we don't sell that.~
+%s We don't buy, and you have none. I see a problem there.~
+%s I don't want for anything. Be on your way, peddler.~
+%s Not buying none, nope.~
+%s You haven't enough gold for it.~
+%s That'll be %d coins.~
+%s I'm not interested.~
+2
+2
+27128
+0
+27153
+-1
+0
+28
+0
+0
+#27234~
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+27127
+0
+27234
+-1
+0
+28
+0
+0
+#27259~
+27162
+27161
+27160
+27159
+27158
+27157
+27156
+-1
+1.00
+1.00
+8
+-1
+%s None of those available.~
+%s You seem to lack one of those yourself.~
+%s I deal in gems only.~
+%s I cannot afford this precious thing you carry.~
+%s You have not the gold to buy this.~
+%s That will be %d coins.~
+%s You'll have %d coins for it.~
+2
+2
+27126
+0
+27259
+-1
+0
+28
+0
+0
+#27282~
+27168
+27138
+27137
+27136
+27135
+27134
+-1
+1.20
+0.20
+15
+16
+17
+21
+-1
+%s I don't carry those in stock. Try list.~
+%s My eyesight is poor, but I can't see as you have one.~
+%s I don't buy those. Try another shop!~
+%s My store is too humble to afford this.~
+%s I don't accept down payments. Come back with more gold!~
+%s That comes to %d coins.~
+%s I'll give you %d coins for that.~
+2
+2
+27134
+0
+27282
+-1
+0
+28
+0
+0
+0
+
+
+#$

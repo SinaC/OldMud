@@ -1,0 +1,1839 @@
+Sender  Charun~
+Date    Thu Aug  7 03:48:32 1997~
+Stamp   870918805
+Expire  872128129
+To      oxtal~
+Subject Gylian~
+Text
+I don't know if gylian has gotten to you before this does, but
+
+I told him I'd speak to you, and said I couldn't promise results.  
+
+Anyhow, he says that if he doesn't get restored that he will leave.
+
+He points out that he spent almost 200 hours here, and that it was
+
+expensive.  Also, since we are trying to reconstruct our player base
+
+I don't think it would be good to lose him.
+
+I know that brings up the, well if we do him we have to do everyone
+
+problem.  I believe that everyone should be done.  I trust the players
+
+here.  Perhaps we should only restore them to a fraction of their old
+
+level
+
+And of course we would only restore levels, and nothing else.
+
+Anyhow, I have said my piece about that.  Take it as you will.
+
+~
+
+Sender  Charun~
+Date    Thu Aug  7 03:59:38 1997~
+Stamp   870919790
+Expire  872128800
+To      oxtal~
+Subject Mud Connector~
+Text
+This will probably anger you (if your not angry from the other note).
+
+In an attempt to bring in more players (since we've lost at least 1/2)
+
+I assigned Kay to put this mud back on the new mud listing on mud
+
+connector.  I am aware that only implementors are supposed to 
+
+do things like that, and kay only did it under my instruction.
+
+My thoughts was that, since we just had a pwipe and serval crashes, we
+
+lost many of our players.  This means we need to advertise our mud
+
+to get new players.
+
+We are on mud connectors big list, this is true.  However the following
+
+is true: 1) We are way down on that list.  2) Nobody looks at the 
+
+big list straight through.  3) On a search for mystery we are the fifth
+
+entry.  4) On a search for all Rom muds we are near the bottom.
+
+5) Most people find what they are looking for in 3 or 4 entries.
+
+6) Most people check out the New Listings first.
+
+So being on the new listings as A mystery mud greatly increases our
+
+chases of getting new players, over our current listing.
+
+I have kay righting the description, because he's the most enthusiastic
+
+player we have, and I don't really have the time (and am not sure what
+
+to say ;} ).
+
+-Be merciful...Be Swift...Be Just
+
+-->Charun.
+
+~
+
+Sender  Roland~
+Date    Thu Aug 14 05:28:36 1997~
+Stamp   871529503
+Expire  872738941
+To      Oxtal~
+Subject Mobprogs~
+Text
+Oxtal,
+
+   I liked the parrot a lot.  I look forward to learning how to use
+
+ the mobprogs.  I think it will really enable us to build
+
+ some awesome areas filled with new and interesting creatures.
+
+Roland
+
+~
+
+Sender  Roland~
+Date    Sat Aug 16 17:17:58 1997~
+Stamp   871745662
+Expire  873040691
+To      Oxtal~
+Subject Test mobprogram~
+Text
+Oxtal,
+
+   I have been reading your mobprogram references and examples.
+
+   I learn best when i try things along the way, and so I have tried to put
+
+    together a little mobprogram.  Please keep in mind that I have not
+
+   done any programming in 6-7 years. I would appreciate any feedback
+
+   on it as you get the time.
+
+ 
+
+   class ShardQuest
+
+   {
+
+       OnGreet()
+
+       {
+
+          >examine $k
+
+          if (ch.carry(s) == "shard"
+
+          {
+
+             >say Ah, you have found it!
+
+             >bow
+
+          }
+
+          else
+
+          {
+
+             >say Have you found it?
+
+             >frown
+
+         }
+
+       }
+
+       OnGive()
+
+       {
+
+          if (obj == "shard")
+
+          {
+
+             >say Thank you
+
+             >bow
+
+          }
+
+          else
+
+          {
+
+             >say That's not it
+
+             >give (obj) act
+
+          }
+
+       }
+
+     }
+
+ 
+
+Again, I hope I am learning a little of the code...if not, please be patient 
+
+   I will work hard to correct my mistakes.   :)
+
+   I will work hard to correct my mistakes.   :)
+
+ 
+
+Thank you
+
+ 
+
+Roland
+
+~
+
+Sender  Roland~
+Date    Sun Aug 17 16:19:06 1997~
+Stamp   871827801
+Expire  873037159
+To      Oxtal~
+Subject Building and mobprograms~
+Text
+Oxtal,
+
+ 
+
+  Just dropping a quick line to ask how we will be able to add 
+
+   new mobprogs in OLC.  I know you haven't fully finished this yet
+
+  but I was just wondering.  I like mobprogs and would like to start 
+
+  writing some and add them to the program list. I see there are
+
+  only 3 programs available now.  I was looking at them during
+
+  an medit.  Everything looks cool, I await more developments
+
+  in your mobprog code.
+
+ 
+
+  Thanks,
+
+     Roland
+
+~
+
+Sender  Roland~
+Date    Mon Aug 18 08:56:33 1997~
+Stamp   871888058
+Expire  873615508
+To      Oxtal~
+Subject Some ideas...~
+Text
+Oxtal,
+
+ 
+
+  Just dropping a quick note to throw some ideas for new things
+
+ on Mystery.  I was thinking about a few new races...maybe a 
+
+ feline-type race (different than Nekojin), a Wolfen-type race, a 
+
+ minotaur race, or a lion-type race. I just think a few new interesting 
+
+ races might really get Mystery moving fast.  I was also thinking 
+
+ about a magic missile type spell that would include multiple missiles.  
+
+ I saw ROM code for this on the WWW.  I also saw ROM code for 
+
+ a type of Resurrect spell.  Again, I think new things on Mystery might
+
+ spark a big interest in new players.  I have seen many muds over
+
+ the years use new and interesting additions to get a playerbase 
+
+ growing.  I enjoy Mystery very much and am just trying to throw
+
+ things at you that you might like and find useful. I am certainly not
+
+ trying to tell you what to do, as you are very good at your job.
+
+ If you get the time...please drop me a note in reply.
+
+ Also, if you are worried about the coding for some of these 
+
+ additions, I have seen them on the WWW.
+
+ 
+
+ Thanks,
+
+ 
+
+  Roland
+
+~
+
+Sender  Charun~
+Date    Thu Aug  7 03:43:51 1997~
+Stamp   870918328
+Expire  878694251
+To      imm~
+Subject Anyone else still here~
+Text
+Just checking if any other immortals are still here.
+
+I'd really like a short response.
+
+~
+
+Sender  Oxtal~
+Date    Sat Aug  9 14:57:17 1997~
+Stamp   871131582
+Expire  878907456
+To      imm~
+Subject Immortals on~
+Text
+There are the following immortals (excluding me)
+
+Blink, Whismerhill, Charun, Trench.
+
+The other will be put back as soon as they leave me a note.
+
+~
+
+Sender  Oxtal~
+Date    Sat Aug  9 15:01:15 1997~
+Stamp   871132240
+Expire  878907743
+To      charun~
+Subject restoring players~
+Text
+I agree for restoring players.
+
+The problem is that it's impossible to check if 
+
+chars are player by the same people.
+
+I allow you to restore players at your will, but
+
+I won't do it myself, except in special cases.
+
+Do your best to keep the game enjoyable and fair for everyone.
+
+That's the point! :)
+
+~
+
+Sender  Oxtal~
+Date    Wed Aug 13 21:09:39 1997~
+Stamp   871499509
+Expire  879275398
+To      imm~
+Subject Mobprograms~
+Text
+If you don't know yet, i'm implementing my version
+
+of mob programs. To get an idea of what can be done,
+
+pay a visit to my museum (vnum 800)
+
+If that interests you, contact me. I need your
+
+ideas since this is under development.
+
+ 
+
+Thanks,
+
+Oxtal
+
+~
+
+Sender  Charun~
+Date    Tue Oct 28 04:31:34 1997~
+Stamp   878009691
+Expire  878873509
+To      Roland~
+Subject Editting Shielding~
+Text
+I editted shielding to make it a viable place to be played in.
+
+This was done by giving the mobs names, giving them the ability to
+
+fight, making it so they all weren't shop keepers, and giving a little
+
+equipment.
+
+Whom ever made that area was a really prick you just wanted to mess
+
+with the players.  There area as it was was unplayible, but I think
+
+I fixed that.
+
+ 
+
+Charun.
+
+~
+
+Sender  Charun~
+Date    Tue Oct 28 04:51:00 1997~
+Stamp   878010898
+Expire  878874680
+To      roland~
+Subject Linking Necromancer Island~
+Text
+I have linked Necromancer Island to New Thalos (vnum 9789, dragon sea)
+
+There will be one more link to the island, but I wont be adding it
+
+for a bit.  This link will connect it to hell.  The connection with
+
+hell has to do with the story more than because people will want 
+
+to travel there.
+
+ 
+
+Charun
+
+~
+
+Sender  Charun~
+Date    Tue Oct 28 10:54:06 1997~
+Stamp   878032592
+Expire  878896466
+To      roland~
+Subject changing anonopolis~
+Text
+I haven't done it yet, because this would be changing a high traffic area.
+
+However, many times I have heard people complain that they would
+
+like to kill the medtechs, who do nothing but stand around and be
+
+illegal to attack.  This seems fair, but I haven't looked into it.
+
+I will edit it only on your say so.
+
+Charun.
+
+~
+
+Sender  Oxtal~
+Date    Sat Aug 16 14:59:02 1997~
+Stamp   871736435
+Expire  879512351
+To      imm~
+Subject mob programs~
+Text
+The language i'm writing is getting mature.
+
+Have a look in www.ping.be/-ping5661/
+
+files : overview.txt, reference.txt, museum.my
+
+~
+
+Sender  Syrah~
+Date    Mon Aug 18 01:22:11 1997~
+Stamp   871860430
+Expire  879636142
+To      immortal~
+Subject kay~
+Text
+I just recieved proof and confession from Kay that he summoned a mob from my 
+
+area, which is unfinished and unapproved, to complete a quest.
+
+ 
+
+I am very, very disturbed by this.  I don't mind imms looking around, but I
+
+ I don't know what course of action, if any,
+
+should be taken.  In my experiences, such action is illegal, but I'm not sure
+
+what the rules are here.
+
+ 
+
+I await response from anyone on this issue.  I do think something should be
+
+done.  If you have any questions or need more information, please feel free to
+
+contact me.
+
+ 
+
+-Syrah
+
+~
+
+Sender  Jacki~
+Date    Mon Aug 18 03:09:31 1997~
+Stamp   871866758
+Expire  879642592
+To      imm~
+Subject a few things..~
+Text
+hello...
+
+ 
+
+it's good to get back in here...
+
+syrah, for the problem you have with kay ... i think you can't
+
+do much more than waiting the code to be fixed ... ;(
+
+i think that the request for killing a mob that is in an unconnected
+
+zone shouldn't be allowed ... that's not kay's fault
+
+but this still depend on imps ... :)
+
+and yeah .. this new board system roqs :)
+
+byebye
+
+Jacki.
+
+~
+
+Sender  Seytan~
+Date    Mon Aug 18 10:53:12 1997~
+Stamp   871894743
+Expire  879670512
+To      all~
+Subject I'm finally back~
+Text
+Hi all
+
+ 
+
+I'm finally back ... and i'm really sorry for all the probs
+
+due the crash.
+
+So if you've any prob or if you want to get your character back
+
+send me a note in the personal board (seytan).
+
+ 
+
+Now enjoy the life on Mystery Mud.
+
+ 
+
+Seytan 
+
+~
+
+Sender  Charun~
+Date    Sun Oct 26 17:37:20 1997~
+Stamp   877883923
+Expire  879611856
+To      imm~
+Subject reboot~
+Text
+To our Imps, please remeber that we are waiting for a reboot.
+
+~
+
+Sender  Charun~
+Date    Sun Oct 26 22:32:53 1997~
+Stamp   877901652
+Expire  879629611
+To      imm~
+Subject connecting motely~
+Text
+I'm connecting Motley to the prison.  If that's not okay with you
+
+feel free to change it, I'll understand.
+
+~
+
+Sender  Charun~
+Date    Tue Oct 28 00:18:19 1997~
+Stamp   877994535
+Expire  879722312
+To      roland~
+Subject motley~
+Text
+No problem...I'll disconnect it right now (if you haven't already)
+
+I have added several thing to it thought.  Including an exit to Sengir
+
+which was previously floating, and Space drome which was in the 
+
+same condition.
+
+I'm sorry if I offended you with my action, I was just trying to
+
+make it availible to the people, and that was the quickest solution
+
+I could come up with.
+
+ 
+
+Respectful as well as apologetic...Charun.
+
+~
+
+Sender  Syrah~
+Date    Thu Aug 21 13:48:35 1997~
+Stamp   872164271
+Expire  879940124
+To      imm~
+Subject jacki~
+Text
+I saw Jacki today (or acutally a mortal who said he was jacki) and he said
+
+he couldn't log on as Jacki.
+
+ 
+
+Apparently this is due to an item he did for a quest (vnum 11000) that has his
+
+name it it.  So what he needs is someone with the proper security to go in and
+
+change the name of the object.
+
+ 
+
+-Syrah
+
+~
+
+Sender  Oxtal~
+Date    Thu Aug 21 20:59:43 1997~
+Stamp   872190074
+Expire  879965993
+To      imm~
+Subject Jacki's problem~
+Text
+I changed the mob's name yesterday...
+
+That didn't solve the problem apparently.
+
+Well I'm going to check that.
+
+~
+
+Sender  Jacki~
+Date    Fri Aug 22 19:49:53 1997~
+Stamp   872272297
+Expire  880048200
+To      imm~
+Subject no it's ok now :)~
+Text
+no that's fixed now .. i know there is a bug in all the ROM based
+
+that prevent someone to log with a part of a name of a mob
+
+i don't know if it's a feature or a bug.. btw, what's
+
+the difference anyway ?.. :)))
+
+ 
+
+Jacki.
+
+ps, syrah ... yeah that was me :)
+
+ 
+
+~
+
+Sender  Jacki~
+Date    Sun Aug 24 02:00:07 1997~
+Stamp   872380885
+Expire  880156813
+To      imm~
+Subject oops~
+Text
+plz .. someone make "disco" launch "discodanse" insteed of "disconnect".. :)
+
+apologise to surielle :)))
+
+ 
+
+Jacki.
+
+~
+
+Sender  Syrah~
+Date    Mon Aug 25 01:29:16 1997~
+Stamp   872465597
+Expire  880241368
+To      imm~
+Subject amazon forest~
+Text
+I am pleased to announce that the Amazon Forest, though not totally finished,
+
+is in playable condition.
+
+ 
+
+I don't know who is in charge of approving areas and connecting them, but
+
+whoever it is, please do so or note me with problems to fix before connection.
+
+ 
+
+As for finishing the area, I will do so as I find time.  My classes start on
+
+Tuesday, but I will have parts of this week and the weekend to finish, if I
+
+don't finish completely (except for cosmetics) by tomorrow.
+
+ 
+
+-Syrah
+
+~
+
+Sender  Charun~
+Date    Wed Nov  5 17:35:16 1997~
+Stamp   878747831
+Expire  880475727
+To      imm~
+Subject clan war~
+Text
+Just wanted to let everyone know that, if you couldn't tell.
+
+Hunters and Plague Barers are at war, and it looks like it's going
+
+to be long, violent, and mean.  Since everyone knows each other 
+
+in real life.
+
+~
+
+Sender  Jacki~
+Date    Sun Sep 28 05:45:36 1997~
+Stamp   875418439
+Expire  883194351
+To      imm~
+Subject question to imps~
+Text
+a little question..
+
+en francais en plus :))
+
+je me demandais si l'editeur mobprog etais deja au poil,
+
+et si oui, ou qu'il est ?! :) .. et aussi, est-ce
+
+limit a de la programmation evenementielle ou alors
+
+je peux aussi utiliser des timers et autres petits trucs
+
+du genre ...?
+
+ 
+
+Jacki.
+
+~
+
+Sender  Seytan~
+Date    Mon Sep 29 12:53:16 1997~
+Stamp   875530612
+Expire  883306413
+To      Klaus~
+Subject Level~
+Text
+Hi
+
+ 
+
+You're now level 106 :) 
+
+I hope you could bring us a lot of new player. But be careful
+
+if you make any problem with mortals i'll lower your level.
+
+If you wanna make some test create a test char.
+
+ 
+
+So Seeya and good luck :)
+
+ 
+
+ 
+
+ 
+
+Seytan
+
+~
+
+Sender  Charun~
+Date    Sat Oct 11 09:14:51 1997~
+Stamp   876554234
+Expire  884330107
+To      imm~
+Subject saving~
+Text
+Just a quick reminder that you should save your work.  Luckly I
+
+asave changed often, and many times I find that other peoples areas
+
+aren't saved.  I'm sure nobody wonts to lose any work they've done
+
+so just save, at least before you leave.
+
+~
+
+Sender  Charun~
+Date    Sat Oct 11 09:17:41 1997~
+Stamp   876554479
+Expire  884330289
+To      110~
+Subject Dual wielding~
+Text
+I have a slight complaint that I think should be fixed about dual
+
+wield.  Monks.  I have no problem with them dual wielding, but 
+
+they are able to attack with any weapon (even ones they don't know)
+
+as if it was there primary weapon (namely their hands).  It would
+
+be nice if dual wielding incurred some penalties, or something of 
+
+the like.
+
+~
+
+Sender  Charun~
+Date    Sun Oct 12 09:17:30 1997~
+Stamp   876640805
+Expire  884416665
+To      imm~
+Subject extra rooms~
+Text
+I added 100 extra vnums to my area.  This is because I'm at room 
+
+77 and am about to add a section that is made up of 20 rooms.
+
+I am still far from finished, so clearly I need the space.
+
+I am taking vnums 12100-12199
+
+~
+
+Sender  Charun~
+Date    Sun Oct 12 09:22:59 1997~
+Stamp   876641110
+Expire  884416997
+To      imm~
+Subject extra rooms~
+Text
+I'm very sorry I had to do it myself.  However, I need the rooms
+
+and the IMPs are on too infrequently to make the request.  I know
+
+I could e-mail them, but I really need it now.
+
+~
+
+Sender  Klaus~
+Date    Tue Oct 14 22:43:14 1997~
+Stamp   876861885
+Expire  884637809
+To      im~
+Subject mud connector~
+Text
+Are we on the Mud Connector or zMUD lists yet?
+
+I think that if we are on both of these lists, the population of the mud
+
+will hopefully go up.
+
+ 
+
+ 
+
+Klaus
+
+p.s. Charun, next tim you're on, i have a few questions about
+
+resets in my area :)
+
+thanks
+
+~
+
+Sender  Oxtal~
+Date    Sat Oct 18 14:18:32 1997~
+Stamp   877177708
+Expire  884953207
+To      imm~
+Subject absence of the imps~
+Text
+Well as charun has pointed out we are all three imps
+
+really rarely on (especially me!) We are all very sorry
+
+for that... Please understand that we're very busy...
+
+Given that situation, I accept and even appreciate
+
+Charun's behaviour. Should all of you act this way.
+
+ 
+
+Thank you for keeping the mud alive,
+
+Oxtal.
+
+PS. I hope to talk with one of you soon
+
+~
+
+Sender  Charun~
+Date    Thu Oct 23 15:26:33 1997~
+Stamp   877614035
+Expire  885389213
+To      109~
+Subject experience system~
+Text
+I will make this quick.  All of the new area's (the ones made
+
+specifically for this mud) give terrible xp as compared to other
+
+levels.
+
+When I say this you must understand that I believe that they should
+
+have a more difficult time as there level increase.  However, I
+
+watched as Gylian fought something that was 15 levels above him
+
+almost die, and (he had >10% of his hp left, he started full and)
+
+with all spells) only get 21 xp from it.
+
+Every player above level 60 complains that all of a sudden it
+
+became impossible to find experience, and I feel that something
+
+needs to be done to fix it.  If one of you could go through and 
+
+make a (hopefully) quick adjustment to the way xp is figured,
+
+even if it's just the way it's figured above level 50 (The general
+
+cut off point) then it will make alot of people happy.  End the
+
+complaints to me, and probably convince more people to continue.
+
+Which by the way maybe (but isn't yet) a problem.  Because people
+
+think that it's hopeless and will just take too long.  The rewards
+
+don't justify the effort.
+
+ 
+
+Thank you for your time and consideration.
+
+-->Charun :)
+
+~
+
+Sender  Jacki~
+Date    Sun Oct 26 08:03:00 1997~
+Stamp   877849587
+Expire  885625389
+To      imm~
+Subject problem~
+Text
+ok .. a few thinks to say/request
+
+ 
+
+i think that some areas (from the basic distribution) shoul be
+
+available to edition for some lower gods .. because only imps
+
+can edit 'em ... that's a problem sometimes ..
+
+ 
+
+ie, there is an area (vnum 14200 or something) with some mobs players
+
+are not able to kill ... and they want to (charun pointed it out)
+
+ 
+
+some corrections on some areas would be nice too... 
+
+the good old previous ROM code was more flexible about that :)
+
+ 
+
+Jacki.
+
+~
+
+Sender  Seytan~
+Date    Mon Oct 27 14:31:09 1997~
+Stamp   877959177
+Expire  885735101
+To      charun~
+Subject area big~
+Text
+Hmm subject is area bug and not area big :)
+
+Hiya
+
+I've rebooted the mud but i had a prob with your area
+
+ncromancer island.
+
+It was bad exit reset, I remved them so look at it when you've time
+
+Ok seeya now
+
+ 
+
+Seytan
+
+~
+
+Sender  Roland~
+Date    Mon Oct 27 21:10:22 1997~
+Stamp   877983206
+Expire  885759035
+To      charun~
+Subject Motley connections~
+Text
+Charun,
+
+ 
+
+     For now, let's not have Motley connected to the Prison.
+
+  We really haven't done a lot to Motley yet, so there's no 
+
+  sense in connecting it to any area really :) We can just 
+
+  work on it "floating" right now..otherwise players will be
+
+  adventuring in it and complaining that it is empty :)
+
+  Thanks
+
+    Roland
+
+~
+
+Sender  Charun~
+Date    Tue Oct 28 00:59:43 1997~
+Stamp   877997046
+Expire  885772795
+To      Seytan~
+Subject area bug~
+Text
+I've looked everywhere, and can
+
+not tell where the problem is.
+
+Everything seems to be fine, and all the exits seem to be there.
+
+If there are still problems I'll go through it better (which will
+
+take alot of time, but bugs need to be removed)
+
+~
+
+Sender  Roland~
+Date    Tue Oct 28 19:03:15 1997~
+Stamp   878061851
+Expire  885837813
+To      charun~
+Subject Annonoplis and Medtechs...~
+Text
+Charun,
+
+   Sounds good :)
+
+ 
+
+Roland
+
+~
+
+Sender  Syrah~
+Date    Thu Oct 30 10:21:04 1997~
+Stamp   878203550
+Expire  885979282
+To      imm~
+Subject me~
+Text
+Sorry I haven't been able to be around much.  The past few months have really
+
+taken their toll on me personally, but I think I've finally worked through it.
+
+ 
+
+That means that I'll most likely be able to come back and actually participate
+
+as a staff member.  I know it's every Implementor's pet peeve to have their
+
+imms come for a bit then abandon them.  I hope that the implementors, and the
+
+other immortals here didn't feel I neglected them. :)
+
+Well, hope to see you all around soon.  The creative juices are flowing again,
+
+and who knows?  I might actually be able to scratch out another area for you
+
+all while I spiff up the other one :)
+
+ 
+
+-Syrah, who's glad to be back.
+
+~
+
+Sender  Jacki~
+Date    Sat Nov  1 10:38:36 1997~
+Stamp   878377300
+Expire  886153126
+To      seytan~
+Subject saluuuut :)~
+Text
+salut :)
+
+ 
+
+vouala j'ai un plan d'enfer.. j'ai install rom2.4 chez moa, j'ai deja install
+
+pleins de choses (colours, olc etc etc) je le customize pour le moment
+
+des que j'ai bien tout compris, et si ca t'interesse ... je vais peut etre 
+
+pouvoir t'aider pour le code de ce mud ci ... en fait, chez moa, je suis oqp
+
+a experimenter un max pour que ca puisse servir... c'est facile comme tout
+
+mais je continue a apprendre le c un peu qwa :) ehhe
+
+ 
+
+et en passant, qui est en charge pour le moment?.. il me semble qu'on vois
+
+plus bcp d'immortals ces temps ci ... faudrais voir ce qui se 
+
+passe .. etc etc qwa :)
+
+ 
+
+Jacki.
+
+~
+
+Sender  Jacki~
+Date    Sun Nov  2 04:27:53 1997~
+Stamp   878441367
+Expire  886217279
+To      seytan~
+Subject moa encore~
+Text
+salut :)
+
+ 
+
+vouala.. j'avance assez vite avec mon rom .. j'aimerais que tu me dise si 
+
+y a une feature que tu aimerais voir apparaitre, si oui, je peux essaier
+
+de faire ca chez moi a mon aise et alors je te prepare un "patch" :)
+
+ 
+
+et puis comme ca je peux m'entrainer a mon aise pour le C .. et comme
+
+je compte bien apprendre a coder (ca tu le sais deja) :)
+
+ 
+
+byebye
+
+Jacki.
+
+~
+
+Sender  Jacki~
+Date    Tue Nov  4 08:03:59 1997~
+Stamp   878627141
+Expire  886403045
+To      imm~
+Subject ...?~
+Text
+hi immortals :)
+
+ 
+
+i wrote some kind of nice spec_fun for the mud, but i currently can't get
+
+my hands on any imps ... doh ... is there a day / hour i should get my ass on
+
+to see one? 
+
+ 
+
+Jacki.
+
+~
+
+Sender  Jacki~
+Date    Fri Nov  7 08:16:35 1997~
+Stamp   878887056
+Expire  886663001
+To      imm~
+Subject problem~
+Text
+how do you set the "fireproof" bit ?... isn't it perm spell?
+
+a player paid me 1tp for it .. so it would be nice if he had
+
+a perm one :)
+
+ 
+
+Jacki.
+
+~
+
+Sender  Klaus~
+Date    Fri Nov  7 20:40:53 1997~
+Stamp   878931718
+Expire  886707668
+To      imm~
+Subject fireproof~
+Text
+If you mean putting it on an item, i believe it's burn_proof that you're
+
+talking about.
+
+extra flag
+
+ 
+
+ 
+
+Klaus =)
+
+~
+
+Sender  Jacki~
+Date    Sat Nov  8 05:35:20 1997~
+Stamp   878963776
+Expire  886739729
+To      imm~
+Subject uhm ..~
+Text
+i don't think "set obj <obj> extra burn_proof" will work
+
+i try right now, but it would be nice if we had a list of the flags
+
+no?
+
+ 
+
+Jacki.
+
+~
+
+Sender  Jacki~
+Date    Sat Nov  8 05:40:14 1997~
+Stamp   878964085
+Expire  886740023
+To      seytan~
+Subject uhm.. strange~
+Text
+salut .. un petit bug que j'ai decouvert chez moi, je sais pas si c'est
+
+le cas ici aussi ...
+
+ 
+
+purge <user>         delete le user sans avertissement et sans rien
+
+c'est pas normal .. car tout les imms y ont acces ...
+
+ 
+
+byebye
+
+Jacki.
+
+~
+
+Sender  Charun~
+Date    Mon Dec 29 22:28:20 1997~
+Stamp   883431001
+Expire  891206916
+To      imm~
+Subject reboot~
+Text
+To any imm with the power.
+
+A reboot should be executed, the muds been up for a while and it's
+
+good practice to occationally reboot.
+
+-->Charun :)
+
+Just a thought.
+
+~
+
+Sender  Seytan~
+Date    Tue Jan  6 11:29:35 1998~
+Stamp   884082736
+Expire  891858590
+To      imm~
+Subject Set hour ...~
+Text
+Hi
+
+ 
+
+Here is the way to put the play time back to players ...
+
+the command is set char 'name' hour 'time'
+
+time is in sec ... so you've to do time * 3600 .
+
+ 
+
+So good luck
+
+Seytan
+
+~
+
+Sender  Jacki~
+Date    Sat Jan 10 07:31:52 1998~
+Stamp   884414123
+Expire  892189920
+To      imm~
+Subject mais t malade ? :))~
+Text
+seytan,
+
+don't close the mud ... !!!!!!!!!!!!!!!!! ehhehe i think now
+
+is just the beginning of it ... just before the last crash,
+
+it was like the best hours of it, i think we need some
+
+new immortals since alot of 'em disapeard ...
+
+ 
+
+peoples like kay or i don't know ... that would be good to recreate an
+
+efficient immteam
+
+ 
+
+Jack.
+
+~
+
+Sender  Charun~
+Date    Sat Jan 10 07:55:38 1998~
+Stamp   884415854
+Expire  892191354
+To      imm~
+Subject Shutting down the MUD~
+Text
+I agree with Jacki.  Before the last crash was when we had the highest turn
+
+out of players.  With two creators who play frequently, and a few promotions 
+
+or new imms we've got a solid base.  Everyone who has ever played says they
+
+like this MUD, but always complained that there were never any immortals
+
+who could help them.  Now that that is fixed I think me and Jacki
+
+could turn this place around.
+
+I've got an idea to make the clan system more interesting.  If we
+
+advertize for a few dedicated builders, and some imms who are willing
+
+to spend time giving quests and trivia.  We can make this MUD as 
+
+appealling to anyone as any other.
+
+I firmly believe that this mud can make it.  I think you should have a 
+
+little faith in your creation, and trust that everyone will do what they
+
+can to make it a better place.
+
+-->Charun :)
+
+"I may be babbling, but I what I say is true."
+
+~
+
+Sender  Jacki~
+Date    Sun Jan 11 04:29:07 1998~
+Stamp   884489440
+Expire  892265357
+To      imm~
+Subject farnham~
+Text
+farnham wrote a few notes about a possible character deletion (?)
+
+did anyone deleted him or something ???????!...... 
+
+ 
+
+if that's the case (i really doubt about it), make sure to post
+
+a note and explain what happend and stuffs :)
+
+ 
+
+Jack.
+
+~
+
+Sender  Jacki~
+Date    Mon Jan 12 09:26:03 1998~
+Stamp   884593651
+Expire  892369570
+To      seytan~
+Subject s'lut~
+Text
+salut :)
+
+ 
+
+vouala j'ai un peu regard pour remettre son niveau a Farnham 
+
+(c celui ki se serais fait effac) .. et euh, apparement j'ai pas la 
+
+fonction 'advance' .. donc je peux rien y faire
+
+ 
+
+de toute facon, j'ai pas trop envie de lui refiler ses levels sans savoir
+
+comment il a ete effac :) ..
+
+juste au cas ou kwa !
+
+ 
+
+vouala .. a tchaoo
+
+Jack.
+
+~
+
+Sender  Seytan~
+Date    Tue Jan 13 11:26:34 1998~
+Stamp   884687284
+Expire  892463202
+To      all~
+Subject Web Page~
+Text
+Hi
+
+ 
+
+I've found who has deleted farnham pfile .... it's starfleet i think ...
+
+ 
+
+Hmmm i'm writing this note cos we need someone who wants to do the
+
+web page of the Mud.
+
+ 
+
+Anyone interrested ????
+
+ 
+
+Seytan
+
+~
+
+Sender  Roland~
+Date    Fri Jan 16 01:56:01 1998~
+Stamp   884912348
+Expire  892688173
+To      imm~
+Subject Web Page~
+Text
+I just wanted everyone to knoow that I had nothing
+
+to do with the note Kaine wrote. He is a good firiend
+
+of mine and I guess he just felt he had to speak out
+
+for me. I love amMystery and juswt t want to he best for it.
+
+I would love to dsetup the web page for Mystery MUD.  Send
+
+me a note if you would like me to start oon it. thanks  Roland
+
+                                                             -
+
+~
+
+Sender  Roland~
+Date    Fri Jan 16 01:59:47 1998~
+Stamp   884912469
+Expire  892688396
+To      imm~
+Subject Web Page Post~
+Text
+I just wanted to apologize for the last note I posted.
+
+My editor was going crzyzazy or something, and it was scrabbling
+
+some of my sentences. Again..sorry :)   Roland                 
+
+end                                           
+
+~
+
+Sender  Charun~
+Date    Fri Jan 16 02:09:46 1998~
+Stamp   884913290
+Expire  892688997
+To      imm~
+Subject Web Page~
+Text
+I was also thinking about writing the web page.  Just have to 
+
+brush up on my HTML (should take too long).  If you'd like to colaberate
+
+I'd be open to it.  Also, Khald has offered to write the page.  I've seen
+
+his work and it's pretty good.  It was simple, yet elegant and allowed for
+
+ease of use.  We might want to consider allowing him to help.  Maybe to the
+
+French part of the page (since we must have one) and I certainly don't know
+
+french.  Anyhow...if any other players respond to my note I'll let you know
+
+but for now looks like the three of us are it.
+
+-->Charun 
+
+"May we create much splender."
+
+~
+
+Sender  Seytan~
+Date    Fri Jan 16 15:33:34 1998~
+Stamp   884961421
+Expire  892737225
+To      imm~
+Subject Web Page~
+Text
+HI
+
+ 
+
+So there is 3 people who wants to do the web page ...
+
+Maybe each person could do a part ... or ...
+
+Hmmm i'll let you choose what you want to do ...
+
+ 
+
+Seytan
+
+PS : i had no time to answer ... i'll write you a note later
+
+ 
+
+~
+
+Sender  Jacki~
+Date    Sun Jan 18 10:50:56 1998~
+Stamp   885117243
+Expire  892893069
+To      imm~
+Subject uhm .. player cheating~
+Text
+hi there
+
+ 
+
+someone brought to my attention some peoples are using link dead immortals
+
+to improve their skills (try try to kill us and they don't have to worry
+
+about XP if they leveled ...)
+
+ 
+
+in the meantime of a fix, get a really powerfull weapon so they are getting
+
+dead very fast, set wimpy as high as possible and uhm .. what else
+
+ 
+
+a little check should be added in the code, players shouldn't be allowed to
+
+murder immortals
+
+ 
+
+thx
+
+Jack.
+
+~
+
+Sender  Jacki~
+Date    Sun Jan 18 11:44:28 1998~
+Stamp   885120368
+Expire  892896277
+To      imm~
+Subject ack ...~
+Text
+charun or whoever that feels like it
+
+i don't have time to finish clanroom for farnham today
+
+so if someone do it, that's ok ... but if not, i'll continue
+
+tomorrow
+
+ 
+
+anyway, i couldn't get "clans" command to work (to create a new clan)
+
+ 
+
+he didn't paid yet, but he doesn't have the clan either yet :)
+
+there we go
+
+ 
+
+cya
+
+Jack.
+
+~
+
+Sender  Charun~
+Date    Mon Jan 19 23:55:19 1998~
+Stamp   885252115
+Expire  893026682
+To      imm~
+Subject New gods~
+Text
+Hi, just writing to say that Jacki and I decided that
+
+It would be okay to give Trieze a try at being level
+
+103.  Should he perform unsatisfactory he will be immediately
+
+placed at level 1.  He has already had the general rules
+
+of being an imm given to him, and has been explained his
+
+duties as well as I can explain them to him.  Also I have told
+
+Kay that he would most likely be able to be placed at 103
+
+on the assumption that he makes a new character and keeps that
+
+characters true identity hidden from the other players.
+
+On a similar note.  I don't know exactly what farnham has been asking
+
+for but I don't agree with him being a god or getting a new clan.
+
+He was removed from leader of Satanis because of play unbecoming to
+
+a leader, and I feel that this transgression has made it apparent
+
+that he cannot be allowed into positions of power.
+
+-->Charun
+
+"My two cents"
+
+~
+
+Sender  Jacki~
+Date    Tue Jan 20 05:06:12 1998~
+Stamp   885269255
+Expire  893045179
+To      imm~
+Subject farnham~
+Text
+Yo. this is most likely for Charun, but other imms have to know :)
+
+i disagree with Charun about farnham not being in power of a clan...
+
+if he play bad, he will just loose clan members ... 
+
+ 
+
+Jack.
+
+~
+
+Sender  Seytan~
+Date    Tue Jan 20 10:56:48 1998~
+Stamp   885290521
+Expire  893066217
+To      imm~
+Subject New Imms~
+Text
+Hi
+
+ 
+
+Here is my problem ... farnham, treize and an other guy i forgot his name
+
+are played by same people. Farnham is a common character for treize and
+
+...
+
+So what do you want to do ... putting treize lvl 103 ... Khaldryck wants
+
+to become imm too.
+
+Ok for Kay, let him create a new char after gimme the name of it) i'll put
+
+him lvl 103.
+
+ 
+
+But for Treize and farnham i really don't know ( i've to know first whose
+
+character they are.
+
+ 
+
+So Bye all
+
+ 
+
+Seytan
+
+~
+
+Sender  Charun~
+Date    Tue Jan 20 21:26:53 1998~
+Stamp   885328331
+Expire  893104044
+To      imm~
+Subject Farnham & Trieze...imms?~
+Text
+See, I specifically don't want Farnham to be an imm.
+
+I had not concidered that Treize would probably let Farnham 
+
+use his imm character when he wants.  Now that I think of it
+
+I can see that that would likely happen, and that would be no good.
+
+So I withdraw my support for Trieze being an immortal (how dramatic).
+
+Thanks for listening.
+
+-->Charun :)
+
+~
+
+Sender  Roland~
+Date    Tue Jan 20 21:39:59 1998~
+Stamp   885328939
+Expire  893104816
+To      imm~
+Subject Treize/Farnham~
+Text
+Seytan,
+
+  As i've already told Charun and Jacki, I do not support
+
+the imming of Treize or Farnham, or any of that group.
+
+They have been taking part in suspicious activities I've heard.
+
+ 
+
+Roland
+
+~
+
+Sender  Jacki~
+Date    Wed Jan 21 08:00:47 1998~
+Stamp   885366326
+Expire  893142059
+To      imm~
+Subject now we know~
+Text
+hi folx
+
+ 
+
+like charun, it never comes to my mind that Treize could be sometimes
+
+played by Farnham .. in that eventuality, it's better not to advance him
+
+ 
+
+i'm all with you for advancing Kay (as a new char and not known by other ppls)
+
+ 
+
+now for a more personal stuff,
+
+seytan, set /home/seytan o-rwx car on peux downloader le mud si on a un access
+
+a barney (genre access ftp comme moi)
+
+j'en ai profit pour prendre la derniere version de la source dessus, et l'ai
+
+compile sur mon bsd .. ca marche.. donc je vais pouvoir faire des patch pour toi
+
+.. comment je te donne les patchs ?
+
+ 
+
+Jack.
+
+~
+

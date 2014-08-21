@@ -1,0 +1,136 @@
+AreaState 'The Lost World' {
+  Room 10604 {
+    Mobile 10606 {
+      Ptr = 183068376;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10604;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10606 {
+    Mobile 10609 {
+      Ptr = 183067792;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10606;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10607 {
+    Mobile 10609 {
+      Ptr = 183067208;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10607;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10609 {
+    Mobile 10607 {
+      Ptr = 183066624;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10609;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10610 {
+    Mobile 10603 {
+      Ptr = 183078320;
+      Desc = '';
+      HMVP = (  ( 3001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10610;
+    }
+  }
+  Room 10613 {
+    Mobile 10601 {
+      Ptr = 183077736;
+      Desc = '';
+      HMVP = (  ( 3001 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10613;
+    }
+  }
+  Room 10617 {
+    Mobile 10608 {
+      Ptr = 183077152;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10617;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10618 {
+    Mobile 10600 {
+      Ptr = 183076568;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10618;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10623 {
+    Mobile 10610 {
+      Ptr = 183075984;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10623;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10624 {
+    Mobile 10604 {
+      Ptr = 183075400;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10624;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10625 {
+    Mobile 10602 {
+      Ptr = 183074816;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10625;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10626 {
+    Mobile 10613 {
+      Ptr = 183082416;
+      Desc = '';
+      HMVP = (  ( 10000 ),  ( 0 ),  ( 100 ),  ( 0 ) );
+      Room = 10626;
+      Affect = ( 'sanctuary', -1, 100, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+  }
+  Room 10628 {
+    Mobile 10605 {
+      Ptr = 190076048;
+      Desc = '';
+      HMVP = (  ( 18902 ),  ( 771 ),  ( 100 ),  ( 716 ) );
+      Room = 10628;
+      Affect = ( 'sanctuary', -1, 105, 0, ('ability', 'permanent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+    }
+    Obj 10 {
+      ShD = 'the corpse of a Tyrannosaurus';
+      Desc = 'The corpse of a Tyrannosaurus is lying here.';
+      Level = 105;
+      Values = ( 10605, 278925505, 10684415, 1, 0 );
+      Timer = 1;
+      ExField = ( 'killer_name', 'string', -1, 'Sinac' );
+    }
+  }
+}

@@ -1,0 +1,543 @@
+MOB-PROGRAMS COMMANDS
+
+MPECHO         MPE
+Syntax: MPECHO <colour> {phrase}
+Displays a phrase to the entire room.
+
+  --> x.echo(phrase);
+  --> x.actRoom(phrase,[[related entities]]);
+  --> x.actAll(phrase,[[related entities]]);
+ 
+
+MPECHOAT       MEA
+Syntax: MPECHOAT (name) <colour> {phrase}
+Displays a phrase to only the victim.
+
+  --> victim.sendTo(phrase);
+  --> victim.actTo(phrase,[[related entities]]);
+
+
+MPECHOAROUND   MER
+Syntax: MPECHOAROUND (name) <colour> {phrase}
+Displays a phrase to all in the room except victim.
+
+  --> [[ x.sendTo(phrase) | 
+         x <- this.room().people(), 
+         victim != x ]];
+  --> victim.actRoom(phrase,[[related entities]]);
+
+MPASOUND
+Syntax: MPASOUND <colour> {phrase}
+Displays a phrase to all surrounding rooms that connected to the room in which the program triggers, but not the triggering room itself.
+
+  --> [[ x.echo(phrase) |
+         x <- this.room().around() ]];
+
+MPECHOZONE
+Syntax: MPECHOZONE <color> {phrase}
+The MPECHOZONE mpcommand works much like the ECHO and RECHO comands do except the specified string is only displayed within the area.
+  --> can't be done for the moment 
+
+ 
+MPMLOAD   MPOLOAD
+Syntax : MPMLOAD (vnum) {level}
+Syntax : MPOLOAD (vnum) {level} {timer}
+Loads a mob or object. In the case of objects, the level must be set, or supermob will end up setting the level. Timer is optional, and is the decay timer for objects.
+
+  --> var mob = this.mLoad(vnum);     //level can't be changed
+
+  --> var obj = this.oLoad(vnum);     //level can't be changed
+      obj.setTimer(timer);
+
+MPOSET
+Syntax: MPOSET (vnum) {field} [value]
+Functions much the same as OSET does.
+
+  --> obj.setValue( vIndex, value );
+  or  obj.setExtraFlags( newFlags ); // current extra flags can be got with obj.extraFlags();
+  or  obj.setCondition( newCondition ); // current condition can be obtained with obj.condition();
+  or  obj.setWearFlags( newFlags ); // current wear flags can be got with obj.wearFlags();
+  or  obj.setTimer( newTimer ); // current timer can be obtained with obj.timer();
+
+MPMSET
+Syntax: MPMSET (vnum) {field} [value]
+Functions much the same as MSET does.
+
+  --> check scripts.doc
+
+MPJUNK
+Syntax: MPJUNK (item) — Destroy a single item 
+Syntax: MPJUNK all.(item) — Destroy all of one item (Note the period) 
+Syntax: MPJUNK all — Destroy everything in inventory 
+Destroys an object in inventory/being worn. Displays no message to room.
+
+  --> obj.destroy(); // destroy one item
+  --> [[ x.destroy() | x <- act.inventory(), "item" in x.name() ]]; // destroy every items in act's inventory with "item" in the name
+  --> [[ x.destroy() | x <- act.inventory() ]]; // destroy every items in act's inventory
+      // same can be done with act.equipment() or room.contains() or obj.contains() or every commands returning a list of objects
+ 
+MPPURGE
+Syntax : MPPURGE (object/mobile)
+Example:      mppurge [Purges the contents of the entire room.] 
+     mppurge key [Purges the first key found in the room.] 
+    mppurge dog [Purges the first mob named "dog" in the room.] 
+Purges the room, or a specified object/mobile.
+
+  --> [[ x.destroy() | x <- room.people(), x.isNPC() ]]; // destroy every mobiles in the room
+      [[ x.destroy() | x <- room.contains() ]]; // destroy every objects in the room
+ 
+MPTRANSFER
+Syntax : MPTRANSFER (name/all) {location}
+Example: mptransfer $n 1000 [Transfer triggerer to room 1000] 
+  mptransfer $n joe [Transfer triggerer to mob named "joe"] 
+  mptransfer all 1000 [Transfer all in trigger room to room 1000] 
+Transfers one or all in the room to a specified location.
+
+  --> act.transfer( 1000 ); // getRoom(1000).toRoom(act);  give the same result
+  --> var joe = [[ x, x <- getMobList(), "joe" in x.name() ]] [0]; // get the first mob named joe
+      if ( joe != NULL )
+        act.transfer( joe.room().vnum() ); // joe.room().toRoom(act);  give the same result
+      else
+        log("BUG: joe not found");
+  --> [[ x.transfer(1000), x <- room.people() ]]; // transfer everyone in the room to room 1000
+
+MPSCATTER
+Syntax: MPSCATTER <victim> (vnum) (vnum)
+Functions much like teleport does, except that a vnumber range can be specified.
+
+  --> ??? 
+
+MPFORCE
+Syntax: MPFORCE (name/all) {command/action}
+Forces a player/mob to do a command or action (non-functional on immortals, all will only force all in room).
+
+  --> force act `command
+ 
+MPSLAY
+Syntax: MPSLAY (victim)
+Slays the victim in cold blood (instant death); the victim gets no saving throw.
+
+  --> victim.suddenDeath(msg); // slay victim and send 'msg' through info channel if victim was a player
+
+MPDAMAGE
+Syntax : MPDAMAGE {victim} (amount) {damtype}
+Example: mpdamage 0.$n 100 [Do 100 hps damage to player $n] 
+This command inflicts a specified amount of damage on the victim. This damage will be affected by sanctuary, but is not affected by protect, saving throws or resists. Resistance/susceptibility will only be factored in if a damtype is specified.
+Note: A mob should _never_ mpdamage itself, at risk of crashing.
+Damtypes include: None, fire, cold, electricity, energy, acid, poison, and drain. 
+
+
+  --> act.damage( amount, msgChar, msgRoom, msgDeath );
+      // inflict amount damage to act, non aggressive damage (no aggressor)
+      // msgChar is sent to act
+      // msgRoom is sent to everyone in the room except to act
+      // msgDeath is sent through info channel if act die and was a player
+
+MPDREAM
+Syntax: MPDREAM (target) {phrase}
+Sends a message to a sleeping character, same as "dream" spell.
+
+  --> target.sendTo(phrase); // no different between a sleeping and awaken character 
+
+MPFLAG   MPRMFLAG
+Syntax: MPFLAG <victim> <flag> <value>
+Syntax: MPRMFLAG <victim> <flag> <value>
+Using these commands you can assign variables based on 128 "bits". These bits work like "On/Off" switches and may be assigned by any mob. A typical mpflag will look like :
+testing:3=[1]
+"testing" is the name of the flag, "3" is the vnum of the mob that assigned the flag, and the "[1]" is the bit that is enabled. When more than one bit is enabled, it will look more like:
+testing:3=[1 0 0 0 0 0 0 0 0 0 1]
+In this case, bits 1 and 11 are enabled, 2-10 are disabled. To make use of these flags, use the "isflagged" ifchecks. Mpflags will be assigned to a player for a mobs "level X intelligence". The flag will save when the character saves and will continue to exist for this amount of time "mudtime". You can also set the timer for a tag using the commands "noexpire" or "timer".
+Example: mpflag noexpire $n <flag> [value]
+Example: mpflag timer <#> $n <flag> [value]
+If no timer is designated, the timer is set based on the mobs intelligence multiplied by the mobs level.
+
+  --> check objvar command/example in scripts.doc 
+
+MPTAG  MPRMTAG
+Syntax: MPTAG <victim> <tag> [value]
+Syntax: MPRMTAG <victim> <tag>
+Using these commands, you can assign a "tag", or "variable" to a character, either just the tag, or the tag and a value associated with it.
+The "tag" can be both a "string variable" (a group of characters, or words) or an "integer" variable, a number. If using a number you can use the ifcheck "istagged" to compare how big or little the number is using <>= operators.
+The tag assigned to a character will last on the character based on the mob's intelligence and level that assigned it. (eg: INT x LEVEL ) So a level 10 mob with an intelligence of 13 will tag for a length of 130 ticks. These tags will save to a characters pfile and will last over logging out and logging in. You can also set the timer for a tag using the commands "noexpire" or "timer".
+Example: mptag noexpire $n <tag> [value] 
+  mptag timer <#> $n <tag> [value] 
+You can additionally specify a vnum to be associated with a particular tag. Tagging a mob with the 0 vnum allows all mobs to see/modify that tag.
+Example: mptag $n <tag>:<vnum> [value] 
+  mptag $n <tag>:0 [value] 
+Mprmtag can also be used to clear all bits of a particular mpflag. See MPFLAG for more information.
+
+  --> check objvar command/example in script.doc
+ 
+MPRESTORE
+Syntax : MPRESTORE (victim) [amount]
+Example: mprestore self 200 [Triggerer restores self with 200 Hps] 
+This command restores a specified number of hitpoints to the victim. 
+
+  --> victim.addHit( amount );
+
+MPOPENPASSAGE   MPCLOSEPASSAGE
+Syntax : MPOPENPASSAGE (origin) (destination) {direction}
+Example: mpopenpassage 1000 1002 n 
+  [Open a passage north from room 1000 to room 1002] 
+Opens a passage to a room (does not affect pre-existing doors)
+Syntax : MPCLOSEPASSAGE (room) {direction}
+Example: mpclosepassage 1000 n 
+  [Close the north passage in room 1000] 
+Closes a passage to a room (does not affect pre-existing doors that were not created with mpopenpassage)
+
+  --> var room = getRoom( origin );
+      room.createOneWayDir( destination, direction ); // direction must be double-quoted: "n", "ne", ...
+  --> var room.getRoom( origin );
+      room.deleteOneWayDir( direction ); // direction must be double-quoted: "n", "ne", ...
+ 
+MPFILLIN
+Syntax: MPFILLIN <exit>
+New mpfillin, this simply sets a closed door bit, so can be used for several things, quietly closing a door, closing an exit that was dug, etc...
+
+  --> var flags = room.getExitFlags(flags);
+      if (!( "closed" in flags ))
+        room.toggleExitFlags("closed"); // toggle closed bit
+
+MPFAVOR
+Syntax: MPFAVOR <target> -(amount)
+Syntax: MPFAVOR <target> +(amount)
+Syntax: MPFAVOR <target> (amount)
+The MPFAVOR mpcommand is used to take, give, or set a PCs favor by/to the specified amount.
+Example: mpfavor 0.$n -10 [Decrease $n's favor by 10] 
+  mpfavor 0.$n +10 [Increase $n's favor by 10] 
+  mpfavor 0.$n 10 [Set $n's favor to 10] 
+Note: The current high/low settings for favor can not be exceeded: 2500 and -2500
+
+  --> doesn't exist in Rom
+ 
+MPPRACTICE 
+Syntax: MPPRACTICE (victim) [skill/spell/language] {amount}
+This command will set the victim's percentage of proficiency in the specified skill/spell/language to the specified amount
+It cannot train a character in a skill/spell/language the character does not have as a part of its class and that it does not already have as a result of its level. In other words, it canot train a warrior in fireball, or a level 1 thief in gouge.
+
+  --> can't be done for moment
+ 
+MPADVANCE
+Syntax: MPADVANCE (name) [level]
+Advances the level of a player. (Not functional in prototype programs.)
+Note: This should only be used in very special circumstances.
+
+  --> can't be done and will probably never exists
+ 
+MPINVIS
+Syntax: MPINVIS
+Syntax: MPINVIS (level)
+This command controls a mob's ability to use a modified form of wizinvis. Use 'mpinvis' alone to toggle the invisibility. Use "mpinvis (level)" to set the level at which the mob will be invis.
+Mortals under the mobinvis level of the mob will be unable to see the mob when it goes mobinvis; they cannot see it with any spell, it will be completely invisible to them.
+Be warned, however, that its programs will still function as normal, the mortal will simply see a "Someone" if it performs an action or an echo that they see, just as if a wizinvis immortal performed the action.
+Also be warned that at the present time, area attacks _will_ hit a mobinvis creature even if it is invisible.
+
+  --> not really useful 
+
+MPSLEEP
+Syntax: MPSLEEP <delay>
+This command can be used to set a delay on a program's operation. The delay is measured in "beats". I believe there are currently 9 beats per second on RoD.
+Note: This command may be RoD specific.
+
+  --> timer can be created with objvar and be tested with onPulseMobile/onPulseTick
+ 
+MPKILL
+Syntax: MPKILL {name/variable}
+Attacks a player without using murder.
+
+  --> act.multiHit(victim);
+
+MPGOTO
+Syntax: MPGOTO (vnum)
+Goes to any room which is not private.
+
+  --> objvar previousLocation = act.room().vnum(); // store previous location vnum
+      act.transfer(vnum);  // getRoom(vnum).toRoom(act);  // produce the same result
+ 
+MPREGOTO
+Syntax: MPREGOTO
+This command will place a mob at the last location they were at before their last MPGOTO.
+
+  --> act.transfer(previousLocation);
+
+MPAT
+Syntax : MPAT (vnum) {command}
+Lets the mob
+Example: mpat 1000 drop all [Mob drops its inventory at room 1000] 
+ile perform a command at another location.
+
+  --> var previousLocation = act.room().vnum();
+      act.transfer(vnum);
+      `command
+      act.transfer(previousLocation);
+
+MPDEPOSIT   MPWITHDRAW
+Syntax: MPDEPOSIT <amount>
+Syntax: MPWITHDRAW <amount>
+This command orders the mobile to deposit or withdraw a specified number of gold coins from an area. These can be used in conjunction with mpat to tell the mob which area to withdraw/deposit money in.
+Example: mpat 21000 mpwithdraw 5000000  
+This would cause the mob to withdraw 5 million coins from the new Darkhaven area, as that is the area vnum 21000 is in.
+If mpat is note used, the mob will withdraw or deposit the gold from the area in which it is located at the time.
+
+  --> depend on bank system
+ 
+MPPLACE
+Syntax: MPPLACE <object name>
+Syntax: MPPLACE <object name> [area name]
+Syntax: MPPLACE <object name> [vnum range]
+This command allows the mob to drop an item in a random location either in the entire mud, inside a certain area, or inside a vnum range. It will not drop items in a room there is a player in, and it will not drop items in death traps.
+Note: Be sure the mob executing the command can see in the rooms he is dropping in.
+
+
+  --> var roomList = getRoomList(); // get a list with every room in the mud
+      var room = roomList[ random( roomList.size() ) ]; // get a random room
+      room.toRoom( obj );
+  --> var roomList = [[ x | x <- getRoomList(), x.areaName() == "area name" ]]; // get every room in an area
+      var room = roomList[ random( roomList.size() ) ]; // get a random room
+      room.toRoom( obj );
+  --> var roomVnum = minVnum + random( maxVnum-minVnum ); // get a number between minVnum and MaxVnum
+      var room = getRoom( roomVnum );
+      if ( room != NULL )
+        room.toRoom( obj );
+
+  --> // if you want to get a room without any player, on example 2:
+      var roomList = [[ x | 
+                        x <- getRoomList(), 
+                        x.areaName() == "area name" &&
+                        [[ y | y <- x.people(), !y.isNPC() ]].size() == 0 ]]; //check if there is a player in room x
+ 
+--------------------------------------------------------------------------------
+MPRETRANS
+Syntax: MPRETRANS <victim>
+This command will retransfer whoever or whatever the mob transferred to the last location it was at before it was MPTRANS'ed.
+
+  --> just have to store previous location before transfering 
+
+
+
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+
+MOB PROGRAM TRIGGERS
+
+
+    >act_prog  keyword(s)~ 
+    >act_prog  p  keyphrase~ 
+    This is the most general trigger. It responds to "act messages" received by 
+    the mob if and only if the message matches what you specify in the argument. 
+    There are two ways to specify this argument: 
+      As a list of (one or more) keywords. The act_prog will trigger if all of 
+      the keywords you specify is contained in the message the mob receives. 
+      As a letter 'p', followed by a space and a complete keyphrase. The 
+      act_prog will trigger only if the message it receives contains the exact 
+      sequence of words you specify, in the given order and with the given 
+      spacing. Punctuation characters are taken to be part of the words of the 
+      message, and once again, there is no partial matching. Thus, the correct 
+      act_prog phrase trigger for a poke in the ribs would be: 
+      >act_prog p pokes you in the ribs.~
+      Note the period. It's part of the "word", 'ribs.' . It's required for an 
+      exact match of the keyphrase.
+    In both cases, the action, i.e. the commands you code under the trigger 
+    line, happen if the words or phrase match. It's that simple. 
+
+    >all_greet_prog   probability 
+    This mobprog is triggered when any character enters the room the mob is in, 
+    unless the mob is fighting. The 'all' signifies that it means all 
+    characters, including ones the mob cannot see. The 'greet' part signifies a 
+    typical use: You could have your mob greet people arriving. However, you 
+    don't want to use THIS trigger as it would expose invisible people. There is 
+    a greet_prog further down which would be better suited. THIS trigger is more 
+    useful for high-tech tricks like teleporting players around. Or maybe 
+    completely impassable guardians. 
+    The probability specifies how likely it is that this trigger will actually 
+    activate even if its condition is met. In this case, if (for example) you 
+    specified "bow" as a command and "50" as a probability, the mob would 
+    randomly bow to about half the people entering the room. 
+
+    >bribe_prog   silver-amount 
+    Triggered by money given to the mob. The silver-amount argument is the 
+    minimum number of silver coins (or the gold equivalent) for which the 
+    trigger will activate. If you want your mob to respond to any donation, code 
+    a 1. It's hard to give less than 1 silver and still give, right? See also 
+    give_prog. 
+
+    >buy_prog   probability 
+    Triggered if someone buys something from the mob. This seems to be local to 
+    Dizzy as it's not mentioned in the 'other' documentation on MobProgs. 
+    Unfortunately, the mob is only aware that something has been bought, not 
+    what or for how much. So there's not much room for individual reactions. 
+
+    >death_prog  probability 
+    This happens at the same time that, without this trigger, the mob would do 
+    its death scream: After it was killed but before the body is turned into a 
+    corpse. The probability arg determines how likely it is that this trigger 
+    will activate instead of the death cry. The mob is put back in a STANDING 
+    position before your commands are executed, so you can code any commands 
+    without having to worry about the mob being too dead to perform them. Note, 
+    however, that nothing you can code can actually prevent the mob's death. 
+    Even if the mob were to fully restore itself, it would die after executing 
+    your commands. Still, some amazing sleight of hand can be accomplished with 
+    this trigger. The bunnies in the temple of Tao, which get right back up 
+    after being killed, are a cute example. They load a (fresh and unhurt) clone 
+    of themselves into their location, issue a message about getting up again, 
+    then (silently) go into another room to die. 
+
+    >entry_prog  probability 
+    This is done when the mob, wandering around, enters a new room. It will be 
+    done whether the room is inhabited or not (I think) so visibility of people 
+    in the room is not a problem as with (all_)greet_prog. Typical things to do 
+    are to peer around or to wave hello. 
+    
+    >fight_prog  probability 
+    This trigger is checked once every PULSE_VIOLENCE during a fight. On Dizzy, 
+    PULSE_VIOLENCE translates to once every 3 seconds. The probability is 
+    checked on each occasion, so if you code less than 100 here whatever it is 
+    will not happen EVERY 3 seconds, but randomly. 
+    This is often used to have the mob throw insults at his opponent. If/when 
+    MPCAST is implemented, it could be used to throw spells instead. Failing 
+    that, perhaps the mob could scream for help? 
+
+    >give_prog  object-name 
+    This is triggered when someone GIVEs an object (not money) to the mob. There 
+    is no probability, it always triggers. The argument specifies, though, which 
+    object will trigger the mobprog. The object-name argument must exactly match 
+    the keywords field of the object. ID and LORE show the list of keywords in 
+    single quotes just after the first word of the output, Object:. In order to 
+    match, you must specify the entire keyword list, exactly. You do not need to 
+    specify single quotes around object-name, though. 
+    You can have your mob respond to ANY object given to it by specifying all as 
+    the argument. 
+
+    >greet_prog  probability 
+    Like all_greet_prog, but will not trigger if the mob cannot see the 
+    character entering the room. Like all_greet_prog, it will also not activate 
+    if the mob is busy fighting. 
+    Some uses include shopkeepers who greet customers and picky thieves mobs who 
+    check players' wealth before attacking. Yeah, an attack can be a form of 
+    greeting too. 
+
+    >hitprcnt_prog  hp-percent 
+    If your mob is fighting, then the MUD checks very PULSE_VIOLENCE (see 
+    fight_prog) whether the mob's hit points are below hp-percent of his maximum 
+    hp. If so, this trigger will be activated. Although hp-percent is a 
+    percentage, please code only a number between 0 and 100, no percent sign! 
+    This is one of those triggers of which you can code multiple and of which 
+    only the first successful one is executed. I'll explain this in more detail 
+    below. For now, remember that you can have your mob do something different 
+    for various levels of hurt-ness by coding several mobprogs with percentages 
+    in ascending order, say 33, 66, 100 for three different stages of defeat. 
+    The first two will not trigger as long as the mob has better than 66% of his 
+    hp; after that the second one will trigger, etc. 
+
+    >in_file_prog  file-name 
+    This is not really a trigger, but a way to include a set of mobprogs from a 
+    different file at the place where this line is coded. It's part of the hard 
+    way to link MobProgs to mobs, so I will explain it later. 
+
+    >rand_prog  probability 
+    The only condition for this trigger is that there is at least one player in 
+    the same area as the mob. It happens randomly, with the frequency controlled 
+    by the probability you specify. It is checked by a timer running at 
+    PULSE_MOBILE, which is (in Dizzy, currently) every 4 seconds. If you code 
+    100 as the probability, your mob will do this every 4 seconds and probably 
+    annoy the heck out of people. If you code 7 for the probability, it will 
+    happen, on the average, every (4 * 100) / 7 seconds, or about every minute. 
+    This is almost tolerable. You may want to cut this down to 3 percent for a 
+    little less than once every 2 minutes, average. 
+
+    >speech_prog  keyword(s) 
+    speech_prog  p  keyphrase 
+    This trigger is similar to act_prog, except that the triggering word(s) or 
+    phrase must be said (using SAY) by a character in the same room as the mob, 
+    and not ACTed. A simple example for this useage is the Acolyte of Isa in the 
+    Mud School, which gives cake to newbies polite enough to answer 'yes' to her 
+    question. You probably don't want to code this TOO specifically, because 
+    player utterances can vary wildly. Consider yourself lucky if you get 
+    reasonable matches on a single word! 
+
+  Some more conditions governing the firing of triggers
+  There are a number of triggers which may appear a number of times for one mob. 
+  hitprcnt_prog was one example. For these triggers, you do not want to see the 
+  mob performing more than one at any one time. Happily, the MUD program checks 
+  to make sure that, from each of the following trigger types, only the first 
+  successful trigger is executed: 
+    bribe_prog 
+    death_prog 
+    entry_prog 
+    fight_prog 
+    give_prog 
+    rand_prog 
+  This is hard to picture without an example. Say you have 3 entry_progs for a 
+  mob, doing "peer", "grumble" and "scan", each with a 33% chance. Upon entering 
+  a room, chances are 33% that the mob will peer. If it does, it will not 
+  grumble or scan because it's already done one entry_prog and will do no more 
+  of the same kind. If it fails to peer, there is again a 33% chance that it 
+  will grumble. Failing that, there is yet a 33% chance that it will scan. 
+  Meanwhile, the occurrence of any other triggers is not affected at all; the 
+  mob could conceivably do a rand_prog the very same second, for example. 
+  If you're any good with math and probabilities, you will notice that the 
+  probabilities of the events in the example are not as simple as they look. 
+  There is really truly a 33% chance of the mob doing the first action. But the 
+  second one only happens in 33% of the 67% left over from the first case, which 
+  is only 22% chance. The chance of either of the first two events happening is 
+  33+22 = 55%. That leaves us only a 100-55 = 45% chance to check the third 
+  event. That comes to 33% of 45%, or less than 15%. The events 'further down' 
+  sort of 'live in the shadow' of the preceding events. And yes: 33+22+15 do not 
+  add up to 100 by a long shot, thus there is a 31% chance that none of the 3 
+  events will take place, although it looked like a 99% sure thing that one of 
+  them would. 
+  What's to be learned from all this? Never mind the math. Just remember that 
+  triggers of the same kind further down the line have less of a chance of 
+  happening than you would think. Also, if you're despairing of ever getting the 
+  probabilities just right, take hope from the fact that there are IFs and 
+  probability checks coming up soon which may help you code exactly what you 
+  mean. 
+  Something entirely different to be aware of: NONE of these triggers work if 
+  the mob is charmed! This keeps people from abusing mobprog behavior for their 
+  own evil plans. 
+
+
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+********************************************************************************************************************
+
+
+MOB-PROGRAM VARIABLES
+
+ $n: the first of the names of the Actor, who performed the action that set off the trigger.
+ $N: the name and title of the Actor. (rarely used)
+ $e: he / she / it based on sex of Actor.
+ $m: him / her / it based on sex of Actor.
+ $s: his / hers / its based on sex of Actor.
+
+ $o: the first of the keywordss of the direct object (The object NActor does something to). 
+ $O: the short description of the direct object
+ $a: a / an based on first letter of direct object
+
+ $p: the first of the keywords of the indirect object
+ $P: the short description of the indirect object
+ $A: a / an based on first letter of indirect object
+
+ $t: the first of the  names of a secondary character target, the one Actor does something to.
+ $T: for mobs:the short descriptionof the target character for players:the name and title
+ $E: he / she / it based on sex of Victim.
+ $M: him / her / it based on sex of Victim.
+ $S: his / hers / its based on sex of Victim.
+
+ $i: the first of the names of your mob (generally prefer $I)
+ $I: the short description of your mob.
+ $j: he / she / it based on sex of your mob.
+ $k: him / her / it based on sex of your mob.
+ $l: his / hers / its based on sex of your mob.
+
+ $r: the first of the names of a  random char in the room with the mobile  (never the same as your mob itself)
+ $R: for mobs:the short descriptionof the random char
+     for players:the name and title
+ $J: he / she / it based on sex of the random char.
+ $K: him / her / it based on sex of the random char.
+ $L: his / hers / its based on sex of the random char.

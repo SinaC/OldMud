@@ -1,0 +1,526 @@
+=====================================
+=====================================
+=====================================
+=====================================
+Mud Crashed: Sat Aug 30 14:39:37 2003
+
+Last Command: Sinac(-1) in room[3048]: wiztest.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 12         PLAYING         02:39PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       114    mem    4104
+Areas           3    mem     288
+ExDes         185    mem    2220
+Exits         632    mem   17696
+Helps         739    mem   11824
+Socials       243    mem   12636
+Spells        362    mem   52128
+Skills        161    mem   23184
+Powers         57    mem    8208
+Songs          19    mem    2736
+Mobs          116    mem   26448
+(in use)      176    mem   96448
+Objs          265    mem   32860
+(in use)      430    mem   73960
+Resets        422    mem   10128
+Rooms         269    mem   66712
+Shops          23    mem    1012
+Commands      373    mem   13428
+Classes         4    mem     496
+Groups         14    mem     840
+Gods            2    mem     120
+Races          27    mem    1556
+Total                mem  459032
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 4837376
+Free bytes     : 1249280
+Bytes allocated: 672168
+(Uncollectable): 2915928 [upper bound]
+
+String Space:
+-------------
+Total used     : 1601654
+Free entries   : 256961
+nStrDup         : 1780
+nStrDupEmpty    : 6
+nStrDupGC       : 1770
+nStrDupNoGC     : 4
+nStrDupUnsafe   : 0
+nAllocPerm      : 43425
+sAllocPerm      : 558261
+nAllocPermGC    : 32174
+nAllocPermHash  : 6068
+nAllocPermNoHash: 5183
+sStrDupNoGC     : 96
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud Crashed: Sat Aug 30 14:46:20 2003
+
+Last Command: Sinac(-1) in room[3254]: wiztest.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 12         PLAYING         02:46PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] Sinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       114    mem    4104
+Areas           3    mem     288
+ExDes         185    mem    2220
+Exits         632    mem   17696
+Helps         739    mem   11824
+Socials       243    mem   12636
+Spells        362    mem   52128
+Skills        161    mem   23184
+Powers         57    mem    8208
+Songs          19    mem    2736
+Mobs          116    mem   26448
+(in use)      176    mem   96448
+Objs          265    mem   32860
+(in use)      430    mem   73960
+Resets        422    mem   10128
+Rooms         269    mem   66712
+Shops          23    mem    1012
+Commands      373    mem   13428
+Classes         4    mem     496
+Groups         14    mem     840
+Gods            2    mem     120
+Races          27    mem    1556
+Total                mem  459032
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 4837376
+Free bytes     : 1245184
+Bytes allocated: 679548
+(Uncollectable): 2912644 [upper bound]
+
+String Space:
+-------------
+Total used     : 1601654
+Free entries   : 256961
+nStrDup         : 1897
+nStrDupEmpty    : 6
+nStrDupGC       : 1770
+nStrDupNoGC     : 121
+nStrDupUnsafe   : 0
+nAllocPerm      : 43419
+sAllocPerm      : 558261
+nAllocPermGC    : 32168
+nAllocPermHash  : 6068
+nAllocPermNoHash: 5183
+sStrDupNoGC     : 330
+sStrDupUnsafe   : 0
+
+Fighting mob:
+Room  3254 :  Sinac(-1) is fighting the cityguard(3060)
+Room  3254 :  the cityguard(3060) is fighting Sinac(-1)
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 17993728 [max: 16000000]>: Tue Oct 21 19:02:24 2003
+
+Last Command: cityguard(3069) in room[3044]: emote keeps an eye out for wanted criminals..
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 30         PLAYING         05:58PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] [McLeod]a junior memberSinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       299    mem    8372
+Areas           9    mem     864
+ExDes         287    mem    3444
+Exits        2043    mem   57204
+Helps         824    mem   13184
+Socials       243    mem   12636
+Spells        363    mem  108900
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs          325    mem   74100
+(in use)      652    mem  359904
+Objs          517    mem   64108
+(in use)      864    mem  148608
+Resets       1364    mem   32736
+Rooms         882    mem  218736
+Shops          40    mem    1760
+Commands      381    mem   13716
+Classes        23    mem    3036
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         186    mem   16104
+Total                mem 1232600
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 17993728
+Free bytes     : 5541888
+Bytes allocated: 347484
+(Uncollectable): 12104356 [upper bound]
+
+String Space:
+-------------
+Total used     : 2163060
+Free entries   : 253048
+nStrDup         : 78474
+nStrDupEmpty    : 8
+nStrDupGC       : 17640
+nStrDupNoGC     : 60826
+nStrDupUnsafe   : 0
+nAllocPerm      : 232889
+sAllocPerm      : 1123580
+nAllocPermGC    : 193680
+nAllocPermHash  : 30113
+nAllocPermNoHash: 9096
+sStrDupNoGC     : 211251
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 17469440 [max: 16000000]>: Thu Oct 23 16:10:04 2003
+
+Last Command: Sinac(-1) in room[3025]: sniff.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 31         PLAYING         04:02PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] [McLeod]a junior memberSinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       295    mem    8260
+Areas           9    mem     864
+ExDes         287    mem    3444
+Exits        1995    mem   55860
+Helps         824    mem   13184
+Socials       243    mem   12636
+Spells        363    mem  108900
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs          325    mem   74100
+(in use)      545    mem  300840
+Objs          517    mem   64108
+(in use)      796    mem  136912
+Resets       1366    mem   32784
+Rooms         882    mem  218736
+Shops          40    mem    1760
+Commands      381    mem   13716
+Classes        23    mem    3036
+Groups         97    mem   17848
+Gods           14    mem     840
+Races         186    mem   16104
+Total                mem 1160432
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 17469440
+Free bytes     : 5193728
+Bytes allocated: 255516
+(Uncollectable): 12020196 [upper bound]
+
+String Space:
+-------------
+Total used     : 2150366
+Free entries   : 253082
+nStrDup         : 13566
+nStrDupEmpty    : 26
+nStrDupGC       : 11526
+nStrDupNoGC     : 2014
+nStrDupUnsafe   : 0
+nAllocPerm      : 227708
+sAllocPerm      : 1110852
+nAllocPermGC    : 188529
+nAllocPermHash  : 30117
+nAllocPermNoHash: 9062
+sStrDupNoGC     : 23567
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 17473536 [max: 16000000]>: Wed Oct 29 16:18:01 2003
+
+Last Command: Sinac(-1) in room[3010]: field.
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 31         PLAYING         04:09PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] [McLeod]a junior memberSinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       299    mem    8372
+Areas          10    mem     960
+ExDes         287    mem    3444
+Exits        1995    mem   55860
+Helps         925    mem   14800
+Socials       243    mem   12636
+Spells        364    mem  109200
+Skills        160    mem   48000
+Powers         57    mem   17100
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs          325    mem   75400
+(in use)      546    mem  301392
+Objs          519    mem   64356
+(in use)      764    mem  131408
+Resets       1366    mem   32784
+Rooms         883    mem  218984
+Shops          41    mem    1804
+Commands      382    mem   13752
+Classes        23    mem    3036
+Groups         98    mem   18032
+Gods           14    mem     840
+Races         186    mem   16104
+Total                mem 1159664
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 17473536
+Free bytes     : 4800512
+Bytes allocated: 568488
+(Uncollectable): 12104536 [upper bound]
+
+String Space:
+-------------
+Total used     : 2201449
+Free entries   : 252855
+nStrDup         : 18421
+nStrDupEmpty    : 23
+nStrDupGC       : 10224
+nStrDupNoGC     : 8174
+nStrDupUnsafe   : 0
+nAllocPerm      : 228098
+sAllocPerm      : 1162162
+nAllocPermGC    : 188681
+nAllocPermHash  : 30128
+nAllocPermNoHash: 9289
+sStrDupNoGC     : 31675
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 17997824 [max: 16000000]>: Fri Nov  7 14:25:43 2003
+
+Last Command: cityguard(3069) in room[3044]: emote keeps an eye out for wanted criminals..
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 32         PLAYING         01:58PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] [McLeod]a junior memberSinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       301    mem    8428
+Areas          10    mem     960
+ExDes         286    mem    3432
+Exits        1999    mem   55972
+Helps         929    mem   14864
+Socials       250    mem   13000
+Spells        364    mem  109200
+Skills        160    mem   48000
+Powers         59    mem   17700
+Songs          19    mem    5700
+SpecialAff      1    mem     300
+Mobs          326    mem   75632
+(in use)      555    mem  301920
+Objs          521    mem   64604
+(in use)      822    mem  134808
+Resets       1369    mem   32856
+Rooms         885    mem  215940
+Shops          41    mem    1804
+Commands      382    mem   13752
+Classes        23    mem    3036
+Groups         98    mem   18032
+Gods           14    mem     896
+Races         186    mem   16104
+Total                mem 1162340
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 17997824
+Free bytes     : 749568
+Bytes allocated: 4070936
+(Uncollectable): 13177320 [upper bound]
+
+String Space:
+-------------
+Total used     : 2215926
+Free entries   : 252763
+nStrDup         : 43030
+nStrDupEmpty    : 25
+nStrDupGC       : 28677
+nStrDupNoGC     : 14328
+nStrDupUnsafe   : 0
+nAllocPerm      : 333714
+sAllocPerm      : 1176731
+nAllocPermGC    : 281289
+nAllocPermHash  : 43044
+nAllocPermNoHash: 9381
+sStrDupNoGC     : 80071
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================
+=====================================
+=====================================
+=====================================
+Mud <MAX HEAP SIZE EXCEEDED: 17473536 [max: 8000]>: Sat Nov  8 12:50:34 2003
+
+Last Command: cityguard(3069) in room[3024]: emote keeps an eye out for wanted criminals..
+
+===================================
+Socket List:
+[  #     Connected_State     Login@  Idl] Player Name             Host
+--------------------------------------------------------------------------------------------
+[ 32         PLAYING         12:49PM     ] Sinac            127.0.0.1                                                       
+
+===================================
+Players online:
+[   Immortals  ]
+[   IMMTITLE   ] [McLeod]a junior memberSinac {WThe {YHappy {WGod{x
+[    Mortals   ]
+Players Found: 1
+=====================================
+Memory Report:
+Affects       315    mem    8820
+Areas          10    mem     960
+ExDes         287    mem    3444
+Exits        2011    mem   56308
+Helps         929    mem   14864
+Socials       250    mem   13000
+Spells        365    mem  112420
+Skills        160    mem   49280
+Powers         59    mem   18172
+Songs          19    mem    5852
+SpecialAff      1    mem     308
+Mobs          328    mem   76096
+(in use)      541    mem  294304
+Objs          524    mem   64976
+(in use)      779    mem  127756
+Resets       1370    mem   32880
+Rooms         891    mem  220968
+Shops          41    mem    1804
+Commands      382    mem   13752
+Classes        24    mem    3168
+Groups         98    mem   18424
+Gods           14    mem     896
+Races         186    mem   16216
+Total                mem 1160212
+
+=====================================
+Garbage Collector:
+-----------------
+Heap size      : 17473536
+Free bytes     : 4833280
+Bytes allocated: 1679720
+(Uncollectable): 10960536 [upper bound]
+
+String Space:
+-------------
+Total used     : 2212354
+Free entries   : 252766
+nStrDup         : 11604
+nStrDupEmpty    : 25
+nStrDupGC       : 10420
+nStrDupNoGC     : 1159
+nStrDupUnsafe   : 0
+nAllocPerm      : 258862
+sAllocPerm      : 1173156
+nAllocPermGC    : 215875
+nAllocPermHash  : 33609
+nAllocPermNoHash: 9378
+sStrDupNoGC     : 5306
+sStrDupUnsafe   : 0
+
+Fighting mob:
+=====================================
+<<<<<<<<<<< END OF REPORT >>>>>>>>>>>
+=====================================

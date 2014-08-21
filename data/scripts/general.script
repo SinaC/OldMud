@@ -1,0 +1,1284 @@
+// ----- THESE SCRIPTS ARE GENERAL SCRIPTS, MOST SCRIPTS USED IN THE MUD
+// ----- ARE DERIVATED FROM THESE ONE WITH 'EXTENDS'
+
+// FIXME: shopkeeper should have buy_list and sell_list
+// buy_list: item type they are selling, so items players can buy
+// sell_list: item type they are buying, so items players can sell
+
+
+// Following classes are defined in this file:
+//
+//abstract class keeper extends Mob
+//class repairShop extends keeper
+//class moneyChanger extends Mob
+//abstract class shopkeeper extends keeper
+//abstract class basePetShopkeeper extends keeper
+//class mirrorImage extends Mob
+//class saddle extends Obj
+//abstract class lever extends Obj
+//class inventoryShopkeeper extends shopkeeper
+//class banker extends Mob
+//abstract class leverSystem extends lever
+//class taxidermist extends Mob
+//class summonedElemental extends Mob
+//class createdSkeleton extends Mob
+
+// ******************************* BASE CLASS FOR EVERY KEEPERS *********************
+// ***** Contains onCreate, onGreet, onExiting to have nice and polite keepers
+// *****          deductCost to avoid having this proc duplicated in every shopkeeper
+// *****          listCountElem and logList to avoid duplication, utility functions
+abstract class keeper extends Mob {
+  onCreate() {
+    objvar this:open_hour = 0;
+    objvar this:close_hour = 23;
+
+    objvar this:banDuration = 1*24*60; // how many minutes will a PC be banned -> 1 days
+
+    if ( this.hasShop() )
+      log("Keeper::onCreate  this: "+this.name()+" (vnum "+this.vnum()+")  has shop data");
+  }
+// BANNING PLAYER FROM SHOP - START
+  // Add shop to PC's banned list, if shop is already in the list: update timer
+  addBan( act, timer ) {
+    act.shopField();
+    var i = 0; var found = -1;
+    while ( i < act.bannedShop.size() && found == -1 ) {
+      if ( act.bannedShop[i][0] == this )
+        found = i;
+      i = i+1;
+    }
+    if ( found != -1 )
+      act.bannedShop = act.bannedShop[..found-1] + [[[[ this, timer ]]]] + act.bannedShop[found+1..];
+    else
+      act.bannedShop = act.bannedShop + [[[[ this, timer ]]]];
+  }
+  // Check if a PC is banned in this shop
+  isBanned( act ) {
+    result = 0;
+    if ( ( act has bannedShop ) && !act.isImmortal() )
+      result = first[[ x <- act.bannedShop, x[0] == this ]] != NULL;
+  }
+  // Check if a PC will be banned from this shop, when selling an item
+  checkBanOnSelling( act, obj ) {
+    result = 0;
+//    log("chance: "+range(1,100-(act.level()-obj.level()),99));
+//    log("counterfeit? "+(obj has counterfeit_value));
+    if ( obj has counterfeit_value && chance(range(1,100-(act.level()-obj.level()),99)) ) {
+      `say What are you trying to sell me! This item is counterfeit!
+      addBan( act, this.banDuration );
+      result = 1;
+    }
+  }
+  // Action performed when a banned player try to speak with/use the shopkeeper, called if isBanned return 1
+  actionBanned( act ) {
+    `say Get out of my shop. In case you don't remember, you're banned from this shop!
+  }
+// -- END OF BAN CODE
+
+
+// test if shop is opened and if act is welcome
+  isKeeperOkExiting( act ) {
+    result = 0;
+    if ( !act.isNPC()
+         && act.canSee(this)
+         && timeHour() >= this.open_hour
+         && timeHour() <= this.close_hour
+         && !isBanned( act )
+         && this.canSee(act) )
+        result = 1;
+  }
+  isKeeperOkGreet( act ) {
+    result = 0;
+    if ( !act.isNPC() && act.canSee(this) ) {
+      if ( timeHour() < this.open_hour )
+        `say Sorry, I am closed. Come back later.
+      else if ( timeHour() > this.close_hour )
+        `say Sorry, I am closed. Come back tomorrow.
+      else if ( isBanned( act ) )
+        actionBanned( act );
+      else if ( !this.canSee(act) )
+        `say I don't trade with folks I can't see.
+      else
+        result = 1;
+    }
+  }
+  isKeeperOkSpeech( act ) {
+    result = isKeeperOkGreet( act );
+  }
+
+// say Hi to people entering the room
+  onGreetLeader(act, from) {
+    if ( isKeeperOkGreet(act) ) {
+      `look `act.name()`
+      if ( act.isImmortal() ) {
+        if (act.getAttr("sex") == "female" )
+          `say Greetings, mistress `act.name()`!
+        else
+   	  `say Greetings, master `act.name()`!
+        `bow `act.name()`
+      }
+      else if (act.getAttr("sex") == "female" ) {
+        `say Good day, milady! How may I be of help today?
+        `tip `act.name()`
+      } 
+      else {
+        `say Hello! How may I serve you?
+        `smile
+      }
+    }
+  }
+
+// say bye to people leaving the room
+  onExitingLeader(act,to) {
+    if ( isKeeperOkExiting( act ) )
+      `say I hope to see you soon.
+  }
+// to compute cost of the item, automatically give money to keeper
+  deductCost( from, to, cost ) {
+    var silver = 0;
+    var gold = 0;
+
+    silver = min(from.silver(),cost);
+
+    if (silver < cost) {
+      gold = ((cost - silver + 99) / 100);
+      silver = cost - 100 * gold;
+    }
+
+    if ( silver > 0 )
+      force from `give `silver` silver `to`
+    if ( gold > 0 ) {
+      force from `give `gold` gold `to`
+      if ( silver < 0 ) {
+        // Added by SinaC to avoid problems if buyer doesn't have enough silver
+        force to `give `-silver` silver `from`
+      }
+    }
+  }
+
+  // List utilities
+  // Count how many identical 'elem' are in 'list'
+  listCountElem( list, elem ) {
+    var i = 0;
+
+    result = 0;
+    while ( i < list.size() ) {
+      if ( list[i].isEquiv( elem ) )
+        result = result + 1;
+      i = i+1;
+    }
+  }
+
+  // Dumping utilities
+  // Dump to content of 'list'
+  logList( list ) {
+    var i = 0;
+    while ( i < list.size() ) {
+      log("  "+list[i]);
+      i = i+1;
+    }
+  }
+}
+
+// ******************************* REPAIR SHOP **************************************
+// *** Keep in mind that the repairshop use his/her repair skill so he/she
+// ***  needs an access to skill and only dwarves have access to this skill
+// **   so repair shop's race should be mountain-dwarf, hill-dwarf or duergar
+class repairShop extends keeper {
+  onCreate() {
+    Keeper::onCreate();
+    if ( this.getAbility( "repair" ) <= 0 )
+      log(" [*****] BUG: "+this.shortDescr()+" ["+this.vnum()+"] doesn't have REPAIR skill." );
+  }
+
+  repaircost( obj ) {
+    result = max((( 100 - obj.getCondition() ) * obj.cost())/100, 500);
+  }
+
+  onSpeech( act, msg ) {
+    // Added by SinaC 2003  if the player doesn't see the shopkeeper we don't talk to him
+    if ( isKeeperOkSpeech( act ) ) {
+      var w = msg.words();
+      if ( w.size() == 2 && w.get(0) %= "value" ) {
+        var obj = act.getObjCarried(w.get(1));
+
+        if (obj != NULL) {
+          if ( !this.canSee(obj) ) 
+            `qdirsay `act` I don't see any `w.get(1)` in your inventory
+          else if ( obj.getCondition() == 100 )
+            `qdirsay `act` But `obj.shortDescr()` is in perfect condition.
+          else if ( obj.getCondition() == 0 )
+            `qdirsay `act` `obj.shortDescr()` is too badly damaged to be repaired.
+          else {
+            var cost = repaircost( obj );
+  	    var money = act.gold()*100 + act.silver();
+  
+    	    if ( money < cost ) {
+              `qdirsay `act` It's too expensive for you.
+              `grin
+            }
+            else if ( cost == 0 )
+              `qdirsay `act` This item is worthless.
+            else {
+              var silver = 0;
+              var gold = 0;
+
+              silver = min(act.silver(),cost);
+
+              if (silver < cost) {
+                gold = ((cost - silver + 99) / 100);
+                silver = cost - 100 * gold;
+              }
+
+              if ( silver <= 0 )
+                `qdirsay `act` The cost to repair '`obj.shortDescr()`' is `gold` gold coins.
+              else if ( gold <= 0 )
+                `qdirsay `act` The cost to repair '`obj.shortDescr()`' is `silver` silver coins.
+              else
+                `qdirsay `act` The cost to repair '`obj.shortDescr()`' is `silver` silver and `gold` coins.");
+            }
+          }
+        }
+        else
+          `qdirsay `act` But you don't have any '`w[1]`'...
+      }
+      else if ( "help" in w ) {
+        `qdirsay `act` I'm here to repair worn armors and weapons.
+        `qdirsay `act` You can give me your worn items and I'll repair them
+        `qdirsay `act` if you have enough money of course.
+        `qdirsay `act` Or you can ask me what will be the price to repair an
+        `qdirsay `act` item by using  say value <item name>
+      }
+      else
+        `qdirsay `act` What do you want ??
+    }
+  }
+
+  onGiven( act, obj ) {
+    if ( !act.isNPC() ) {
+      if ( obj.getCondition() >= 100 )
+        `qdirsay `act` But `obj.shortDescr()` is in perfect condition.
+      else if ( obj.getCondition() == 0 )
+        `qdirsay `act` `obj.shortDescr()` is too badly damaged to be repaired.
+      else {
+        var cost = repaircost( obj );
+        var money = act.gold() * 100 + act.silver();
+  
+        if ( money < cost ) {
+          `qdirsay `act` You don't have enough money to repair '`obj.shortDescr()`'.
+          `grin
+	}
+        else if ( cost == 0 )
+          `qdirsay `act` This item is worthless.
+        else {
+
+          var silver = 0;
+          var gold = 0;
+
+          silver = min(act.silver(),cost);
+
+          if (silver < cost) {
+            gold = ((cost - silver + 99) / 100);
+            silver = cost - 100 * gold;
+          }
+
+          if ( silver <= 0 )
+            `qdirsay `act` The cost is `gold` gold coins.
+          else if ( gold <= 0 )
+            `qdirsay `act` The cost is `silver` silver coins.
+          else
+            `qdirsay `act` The cost is `silver` silver and `gold` gold coins.
+    	  deductCost(act, this, cost);
+          `use repair `obj`
+        }
+      }
+      `give `obj` `act`
+    }
+  }
+}
+
+// ******************************* MONEY CHANGER *************************************
+
+class moneyChanger extends Mob {
+  help( act ) {
+    `qdirsay `act` Give me your coins, and I shall change them for you, taking but 1 in 20 for my fee --- `this.shortDescr()`
+  }
+
+  onSpeech( act, msg ) {
+    if ( !act.isNPC() && "help" in msg.words() )
+      help( act );
+  }
+
+  onBribe( act, amount, isSilver ) {
+    if (!act.isNPC()) {
+      var change = 95 * amount;
+      if ( isSilver )
+        change = change / ( 100 * 100 );
+
+      if ( !isSilver && change > this.silver() )
+        this.addSilver( change );
+      if ( isSilver && change > this.gold() )
+        this.addGold( change );
+
+      if ( change >= 1 ) {
+        if ( isSilver ) {
+          var rest = (95 * amount / 100) - change * 100;
+          if ( act.carryWeight() + change/100 > act.canCarryW() ) {
+            `qdirsay `act` You can't carry that much gold.
+            `drop `change` gold
+          }
+          else
+            `give `change` gold `act`
+          if ( rest > 0 )
+            if ( act.carryWeight() + rest/40 > act.canCarryW() ) {
+              `qdirsay `act` You can't carry that much silver.
+              `drop `rest` silver
+            }
+            else
+             `give `rest` silver `act`
+        }
+        else
+          if ( act.carryWeight() + change/40 > act.canCarryW() ) {
+            `qdirsay `act` You can't carry that much silver.
+            `drop `change` silver
+          }
+          else
+            `give `change` silver `act`
+        `qdirsay `act` Thank you `act.shortDescr()`, come again.
+      }
+      else {
+        `qdirsay `act` I'm sorry, you didn't give me enough to change.
+        if ( isSilver )
+          if ( act.carryWeight() + amount/40 > act.canCarryW() ) {
+            `qdirsay `act` You can't carry that much silver.
+            `drop `amount` silver
+          }
+          else
+          `give `amount` silver `act`
+        else
+          if ( act.carryWeight() + amount/100 > act.canCarryW() ) {
+            `qdirsay `act` You can't carry that much gold.
+            `drop `amount` gold
+          }
+          else
+            `give `amount` gold `act`
+      }
+    }
+  }
+}
+
+// ******************************* SHOPKEEPER *****************************************
+
+abstract class shopkeeper extends keeper {
+  dump() {
+    log("Shopkeeper::dump  this: "+this.name()+" (vnum "+this.vnum()+")");
+
+    log("buy type: ");logList(this.buy_type);
+    log("open hour: "+this.open_hour);
+    log("close hour: "+this.close_hour);
+    log("profit buy: "+this.profit_buy);
+    log("profit sell: "+this.profit_sell);
+    log("base_wealth: "+ this.base_wealth);
+  }
+
+  onCreate() {
+    keeper::onCreate();
+
+    // buying price will be obj->cost * profit_buy / 100
+    // equivalent to Markup for seller in OLC
+    objvar this:profit_buy = 50; // set it to 0 if you don't want the shopkeeper buy anything
+    // selling price will be obj->cost * profit_sell / 100
+    // equivalent to Markdown for purchaser in OLC
+    objvar this:profit_sell = 150;
+
+    objvar this:buy_type = [[ ]]; // list every item type shopkeeper will buy/sell
+
+    // to avoid onSpeech triggering while already in onSpeech/onGiven trigger
+    objvar this:in_trade = 0;
+
+    objvar this:base_wealth = this.silver() + this.gold() * 100;
+
+    //dump();
+  }
+
+  onRepop( real ) { // happens when the mob arrives in a room for the first time, set item extra as INVENTORY
+    //log("ShopKeeper::onRepop  this: "+this.name()+" (vnum "+this.vnum()+")   real: "+real);
+
+    if ( real == 1 ) // only when mob repop not when script are modified/reloaded
+      [[ x.toggleExtraFlags("inventory") | x <- this.inventory(), !x.checkExtraFlags("inventory") ]];
+  }
+
+  // give the shopkeeper some money back
+  onPulseMobile() {
+    //log("ShopKeeper::onPulseMobile  this: "+this.name()+" (vnum "+this.vnum()+")");
+
+    if ( this.silver() + this.gold() * 100 < this.base_wealth ) {
+      //log("not enough money: silver= "+this.silver()+" gold= "+this.gold());
+      //log("base wealth= "+this.base_wealth);
+
+      var gold = (this.base_wealth * (random(20)+1))/5000000;
+      var silver = (this.base_wealth * (random(20)+1))/50000;
+
+      //log("add gold: "+gold);
+      //log("add silver: "+silver);
+
+      this.addGold( gold );
+      this.addSilver( silver );
+
+      //log("new values: silver= "+this.silver()+" gold= "+this.gold());
+    }
+  }
+
+  // Modified by SinaC 2003
+  decreaseCost( cost, obj ) {
+    result = cost;
+    if ( obj.checkExtraFlags("inventory") ) result = result / 2;
+    else                                    result = ( result * 3 ) / 4;
+  }
+  price_buy( obj ) { // shopkeeper buy item from a player, called in sell( act, obj ) and value( act, obj )
+    result = ( ( ( ( obj.cost() * obj.getCondition() ) / 100 ) * this.profit_buy ) / 100 );
+    // check if shopkeeper already have this item
+    if ( !obj.checkExtraFlags("sellextract") ) {
+      // decrease cost for each equivalent item in inventory
+      // x != obj  because item has already been given to shopkeeper
+      [[ result = decreaseCost( result, x ) | x <- this.inventory(), x %= obj && x != obj ]];
+    }
+  }
+
+  // Modified by SinaC 2003
+  price_sell( obj ) { // shopkeeper sell item to a player, called in buy( act, objname )
+    result = ( ( ( ( obj.cost() * obj.getCondition() ) / 100 ) * this.profit_sell ) / 100 );
+  }
+
+  help( act ) {
+    `qdirsay `act` This is the different things you can do here:
+    act.sendTo("Show which various items are in the store.");
+    act.sendTo("  Use: say list");
+    act.sendTo("Buy an item.");
+    act.sendTo("  Use: say buy <item name>");
+    act.sendTo("How much I will pay for your item (free of charge).");
+    act.sendTo("  Use: say value <item name>");
+    act.sendTo("Sell an item.");
+    act.sendTo("  Use: give <item name> <shopkeeper name>");
+    act.sendTo("       or  say sell <item name>");
+  }
+
+  list( act ) {
+    var inv = this.inventory();
+
+    var unique = inv.uniqueEquiv();
+
+    `qdirsay `act` This is a list of items for sale:
+    act.sendTo("[Lvl    Price Qty] Item");
+    var i = 0;
+    while ( i < unique.size() ) {
+      if ( unique[i].itemType() in this.buy_type ) { // Added by SinaC 2003, only show item we can sell
+        var row;
+        if ( unique[i].checkExtraFlags("inventory") )
+          row = "["+unique[i].level().pad(3)+
+   	        " "+price_sell(unique[i]).pad(8)+
+                "  --"+
+                "] "+unique[i].shortDescr();
+        else
+          row = "["+unique[i].level().pad(3)+
+  	        " "+price_sell(unique[i]).pad(8)+
+                " "+listCountElem(inv, unique[i]).pad(3)+
+                "] "+unique[i].shortDescr();
+        act.sendTo(row);
+      }
+      i = i+1;
+    }
+  }
+
+  value( act, objname ) {
+    var obj = act.getObjCarried(objname);
+
+    if ( obj == NULL )
+      `qdirsay `act` But you don't have any '`objname`'
+    else {
+      var cost = price_buy( obj );
+      var extra = obj.getExtraFlags();
+
+      if ( !this.canSee(obj) ) 
+        `qdirsay `act` I don't see `obj.shortDescr()`.
+      else if ( !( obj.itemType() in this.buy_type)
+      	        || "unique" in extra
+  	        || obj.getTimer()
+                || cost <= 0 )
+        `qdirsay `act` I'm not interested in '`obj.shortDescr()`'.
+      else if ( "donated" in extra )
+        `qdirsay `act` I don't want to buy donated item.
+      else {
+
+        var silver = 0;
+        var gold = 0;
+        silver = min(this.silver(),cost);
+        if (silver < cost) {
+          gold = ((cost - silver + 99) / 100);
+          silver = cost - 100 * gold;
+        }
+
+	if ( silver <= 0 )
+          `qdirsay `act` I'll give you `gold` gold coins for '`obj.shortDescr()`'.
+	else if ( gold <= 0 )
+          `qdirsay `act` I'll give you `silver` silver coins for '`obj.shortDescr()`'.
+	else
+          `qdirsay `act` I'll give you `silver` silver and `gold` gold coins for '`obj.shortDescr()`'.
+      }
+    }
+  }
+
+  buy( act, objname ) { // act buy item from shopkeeper
+    var obj = this.getObjCarried(objname);
+
+    // trading for the moment
+    this.in_trade = 1;
+
+    // we can only sell item which are in the buy list
+    if ( obj == NULL || !( obj.itemType() in this.buy_type ) )
+      `qdirsay `act` I don't sell that -- try 'say list'
+    else {
+      var cost = price_sell( obj );
+      var money = act.gold() * 100 + act.silver();
+      var extra = obj.getExtraFlags();
+
+      // Obj's level too high
+      if ( obj.level() > act.level() )
+        `qdirsay `act` You can't use '`obj.shortDescr()`' yet.
+      // Can't carry more item
+      else if ( act.carryNumber() + obj.getNumber() > act.canCarryN() )
+        `qdirsay `act` You can't carry that many items.
+      // Can't carry that weight
+      else if ( act.carryWeight() + obj.getWeight() > act.canCarryW() )
+        `qdirsay `act` You can't carry that much weight.
+      else {
+        `qdirsay `act` It's `cost` coins.
+        // Haggle down ?
+        var pra = act.getAbility("haggle");
+        var missed = 0;
+        if ( pra > 0 && !("sellextract" in extra ) && act.checkAct("autohaggle") ) {
+          var roll = random(100);
+          var new_cost = cost - ( obj.cost() * roll * obj.getCondition() ) / ( 4 * 100 * 100 );
+          if ( new_cost < cost ) {
+            act.actAll("$n start$v haggling with $n.",[[act,act,this]]);
+            force act `qdirsay `this` It's too expensive, let's say `new_cost` coins.
+            if ( roll < pra ) {
+              cost = new_cost;
+              `qdirsay `act` Okay, it's for you for `cost` coins.
+              act.checkImprove("haggle",1,4);
+            }
+            else {
+              if ( random(100) > pra ) {
+                addBan( act, this.banDuration );
+                `qdirsay `act` You must be kidding, get out of my shop.
+                missed = 1;
+              }
+              else
+		`qdirsay `act` No, way
+              act.checkImprove("haggle",0,4);
+            }
+          }
+        }
+
+        if ( !missed ) {
+          // Not enough money
+          if ( cost > money )
+            `qdirsay `act` You can't afford to buy '`obj.shortDescr()`'.
+          // Okay
+          else {
+            deductCost( act, this, cost );
+            if ( "inventory" in extra ) { // permanent item
+              var newobj = this.oLoad(obj.vnum());
+              `give `newobj` `act`
+            }
+            else // non-permanent item
+              `give `objname` `act`
+          }
+        }
+      }
+    }
+    // trading is over
+    this.in_trade = 0;
+  }
+
+  sell(act, obj) { // act sell item to shopkeeper
+    var extra = obj.getExtraFlags();
+    var cost = price_buy( obj );
+    var money = this.silver() + this.gold() * 100;
+
+    // trading for the moment
+    this.in_trade = 1;
+
+    if ( !( obj.itemType() in this.buy_type)
+      	      || "unique" in extra 
+	      || obj.getTimer()
+              || cost <= 0 ) {
+      `qdirsay `act` I'm not interested in '`obj.shortDescr()`'.
+      //previously `obj.name()` instead of `obj`
+      `give `obj` `act`
+    }
+    else if ( "donated" in extra ) {
+      `qdirsay `act` I don't want to buy donated item.
+      `give `obj` `act`
+    }
+    else if ( cost > money ) {
+      `qdirsay `act` I'm afraid I don't have enough wealth to buy '`obj.shortDescr()`'.
+      `give `obj` `act`
+    }
+    else if ( checkBanOnSelling( act, obj ) ) {
+      `give `obj` `act`
+    }
+    else {
+      // Haggle up ?
+      var pra = act.getAbility("haggle");
+      var missed = 0;
+      if ( pra > 0 && !("sellextract" in extra ) && act.checkAct("autohaggle") ) {
+        var roll = random(100);
+
+        var new_cost = cost + ( obj.cost() * roll * obj.getCondition() ) / (4*100*100);
+        // no more money that the shopkeeper has
+        new_cost = min( new_cost, money );
+
+        if ( new_cost > cost ) {
+          act.actAll("$n start$v haggling with $n.",[[act,act,this]]);
+          `qdirsay `act` I give you `cost` coins for '`obj.shortDescr()`'.
+          force act `qdirsay `this` It's not enough, let's say `new_cost` coins.
+          if ( roll < pra ) {
+            cost = new_cost;
+            `qdirsay `act` Okay, I take it for `cost` coins.
+            act.checkImprove("haggle",1,4);
+          }
+          else {
+            if ( random(100) > pra ) {
+              addBan( act, this.banDuration );
+              `qdirsay `act` You must be kidding, get out of my shop.
+              missed = 1;
+            }
+            else
+	      `qdirsay `act` No, way
+            act.checkImprove("haggle",0,4);
+	  }
+        }
+      }
+
+      if ( !missed ) {
+        if ( obj has counterfeit_value ) // FIXME: really need this
+          delvar obj:counterfeit_value;
+        deductCost( this, act, cost );
+        // remove inventory flags
+	if ( obj.checkExtraFlags("inventory") )
+	  obj.toggleExtraFlags("inventory");
+        // if shopkeeper have similar item with inventory set
+        if ( first[[ x <- this.inventory(), x %= obj && x.checkExtraFlags("inventory") ]] != NULL )
+          obj.destroy();
+      }
+    }
+
+    // trading is over
+    this.in_trade = 0;
+  }
+
+  onSpeech(act, msg) {
+    if ( isKeeperOkSpeech( act ) && this.in_trade == 0 ) {
+      var w = msg.words();
+      // help ?
+      if ( "help" in w )
+        help( act );
+      // list ?
+      else if ( "list" in w )
+        list( act );
+      // value ?
+      else if ( w.size() == 2 && w[0] %= "value" )
+        value(act, w[1]);
+      // buy ?
+      else if ( w.size() == 2 && w[0] %= "buy" )
+        buy(act, w[1]);
+      // sell ?
+      else if ( w.size() == 2 && w[0] %= "sell" ) {
+	var obj = act.getObjCarried(w[1]);
+        if ( obj == NULL )
+          `qdirsay `act` You don't have that item.
+        else
+          force act `give `w[1]` `this`
+          //--> we automatically enter in onGiving and onGiven
+      }
+      // ban, TEST OPTION
+      else if ( w.size() == 1 && w[0] %= "ban" && act.isImmortal() ) {
+        addBan( act, 2 );
+      }
+      // unban, TEST OPTION
+      else if ( w.size() == 1 && w[0] %= "unban" && act.isImmortal() ) {
+        if ( act has bannedShop ) { // player has bannedShop
+          var i = 0; var found = -1;
+          while ( i < act.bannedShop.size() && found == -1 ) {
+            if ( act.bannedShop[i][0] == this )
+              found = i;
+            i = i+1;
+          }
+          if ( found != -1 )
+            act.bannedShop = act.bannedShop[..found-1] + act.bannedShop[found+1..];
+        }
+      }
+      // ==> unknown option
+      else {
+        `qdirsay `act` What do you want ?
+        `qdirsay `act` Ask me for the help if you want to see the different possibilities.
+      }
+    }
+  }
+
+  // If the shopkeeper doesn't see the player, or the player comes out of opening hours
+  //  We prevent the player to give the item to the shopkeeper
+  onGiving( act, obj ) {
+    result = 1; // item not given to shopkeeper
+      if ( isKeeperOkSpeech( act ) && this.in_trade == 0 )
+        if ( !this.canSee(obj) ) 
+          `say I don't see any `obj.shortDescr()`.
+        else
+          result = 0; // okay, all tests passed with success -> item is given to shopkeeper -> onGiven
+  }
+
+  onGiven(act, obj) {
+    sell( act, obj );
+  }
+}
+
+
+// ******************************* PET SHOPKEEPER **************************************
+abstract class basePetShopkeeper extends keeper {
+  dump() {
+    log("pet to sale: "); logList(this.vnum_list);
+    log("pet price: "); logList(this.price_list);
+  }
+
+  onCreate() {
+    //log("basePetShopKeeper::onCreate  this: "+this.name()+" (vnum "+this.vnum()+")");
+
+    // list of pet (vnum) to sale
+    objvar this:vnum_list =  [[ ]];
+    // list of pet price
+    objvar this:price_list = [[ ]];
+    //following formula should be used to calculate pet's cost: 10 * pet->level * pet->level
+
+    objvar this:open_hour = 0;
+    objvar this:close_hour = 23;
+
+    //dump();
+
+    objvar this:in_trade = 0;
+
+    if ( vnum_list.size() != price_list.size() )
+      log("BUG: vnum_list ("+vnum_list.size()+") and price_list ("+price_list.size()+
+          ") don't have the same size" );
+  }
+
+  // onRepop, we are sure the shopkeeper is in a room.
+  // So we create the pets: get their name and level, and then destroy them
+  onRepop( real ) {
+    var mobList = [[ this.mLoad(x) | x <- vnum_list ]];
+    // Pet's level
+    objvar this:level_list = [[ x.level() | x <- mobList ]];
+    // Pet's name (short description)
+    objvar this:name_list = [[ x.shortDescr() | x <- mobList ]];
+    // Pet's handle (name)
+    objvar this:handle_list = [[ x.name() | x <- mobList ]];
+    [[ x.destroy() | x <- mobList ]];
+  }
+
+  help( act ) {
+    `qdirsay `act` To see the available pets.
+    `qdirsay `act` {x  Use: say list
+    `qdirsay `act` To buy yourself a pet and name it.
+    `qdirsay `act` {x  Use: say buy <pet> [<name>]
+    `qdirsay `act` Use 'order <pet> <instructions>' to order your pet.
+    `qdirsay `act` Use 'order all <instructions>' to order your pets.
+  }
+ 
+  list( act ) {
+    var i = 0;
+    `qdirsay `act` This is a list of pets for sale:
+    while ( i < vnum_list.size() ) {
+      var row;
+      row = "["+level_list[i].pad(3)+"]"+price_list[i].pad(9)+" - "+name_list[i];
+      act.sendTo(row);
+      i = i+1;
+    }
+  }
+
+  findPetIndex( name ) {
+    var i = 0;
+    var found = 0;
+    // get first entry in handle starting with 'name'
+    while ( i < handle_list.size() && found == NULL ) {
+      // for each word in handle, check if started with 'name'
+      found = first[[ x <- handle_list[i].words(), x.startsWith(name) ]];
+      if ( found == NULL )
+        i = i+1;
+    }
+    if ( found == NULL )
+      result = -1;
+    else
+      result = i;
+  }
+
+  buy( act, name, newname ) {
+    // trading for the moment
+    this.in_trade = 1;
+    // already have a pet
+    if ( act.getPet() != NULL )
+      `qdirsay `act` You already have a pet!
+    else {
+      // check if the shopkeeper sells that
+      var i = findPetIndex( name );
+      // not found -> don't sell that
+      if ( i == -1 )
+        `qdirsay `act` I don't sell that kind of pet
+      // found -> sell that
+      else {
+        var cost = price_list[i];
+        var money = act.gold() * 100 + act.silver();
+
+        // Haggle down ?
+        var pra = act.getAbility("haggle");
+        var missed = 0;
+        if ( pra > 0 && act.checkAct("autohaggle") ) {
+          var roll = random(100);
+          var new_cost = cost - ( cost * roll ) / ( 4 * 100 );
+          if ( new_cost < cost ) {
+            act.actAll("$n start$v haggling with $n.",[[act,act,this]]);
+            `qdirsay `act` It's `cost` coins.
+            force act `qdirsay `this` It's too expensive, let's say `new_cost` coins.
+            if ( roll < pra ) {
+              cost = new_cost;
+	      `qdirsay `act` Okay, it's for you for `cost` coins.
+             act.checkImprove("haggle",1,4);
+            }
+            else {
+              if ( random(100) > pra ) {
+                addBan( act, this.banDuration );
+                `qdirsay `act` You must be kidding, get out of my shop.
+                missed = 1;
+              }
+              else
+		`qdirsay `act` No, way
+              act.checkImprove("haggle",0,4);
+            }
+          }
+        }
+
+        if ( !missed ) {
+          // Not enough money
+          if ( cost > money )
+            `qdirsay `act` You can't afford to buy '`name_list[i]`'.
+          // Pet's level too high
+          else if ( level_list[i] > act.level() )
+            `qdirsay `act` You are not experienced enough to buy a '`name_list[i]`'.
+          else {
+            deductCost( act, this, cost );
+            var mob = this.mLoad(vnum_list[i]);
+            // we have to change the name ?
+            if ( newname != "" )
+              mob.setName( newname );
+            mob.setPet( act );
+
+            `qdirsay `act` Enjoy your pet.
+            //this.echo( act.name()+" bought "+mob.shortDescr()+" as a pet." );
+
+            //  attach on the fly an onLooking proc to see the new description
+            mob.setDescription(mob.description()+"A neck tag says 'I belong to "+act.name()+"'.");
+          }
+        }
+      }
+    }
+
+    // ok, stop trading
+    this.in_trade = 0;
+  }
+
+  onSpeech( act, msg ) {
+    if ( isKeeperOkSpeech( act ) && this.in_trade == 0 ) {
+      var w = msg.words();
+      if ( "help" in w )
+        help( act );
+      else if ( "list" in w )
+        list( act );
+      else if ( w[0] %= "buy" ) {
+        if ( w.size() == 2 )
+          buy( act, w[1], "" );
+        else if ( w.size() == 3 )
+          buy( act, w[1], w[2] );
+        else
+          `qdirsay `act` Use: say buy <pet> [<name>]
+      } 
+      else {
+        `qdirsay `act` What do you want ?
+        `qdirsay `act` Ask me for the help if you want to see the different possibilities.
+      }
+    }
+  }
+
+  onGiven( act, obj ) {
+    `qdirsay `act` Sorry, you'll have to sell that.
+    `give `obj` `act`
+  }
+}
+
+//***************************** Mirror Image Script ********************************
+class mirrorImage extends Mob {
+  // When mirror image is killed, we destroy its equipement and doesn't create a corpse
+  onKilled( act ) {
+    [[ x.destroy() | x <- this.equipment() + this.inventory() ]];
+    result = 3; // no corpse neither death cry
+  }
+}
+
+//***************************** Saddle script ******************************
+class saddle extends Obj {
+  // A saddle can't be removed|dropped while worn by a mob
+  onRemoving( act ) {
+    var carrier = this.carriedBy();
+    result = 0;
+    if ( carrier != NULL
+         && carrier.isNPC() ) {
+      carrier.actTo("You can't remove $n.",this);
+      result = 1;
+    }
+  }
+  onDropping( act ) {
+    var carrier = this.carriedBy();
+    result = 0;
+    if ( carrier != NULL
+         && carrier.isNPC() ) {
+      carrier.actTo("You can't drop $n.",this);
+      result = 1;
+    }
+  }
+}
+
+//**************************** Basic Lever Script ***************************
+//*** to create a lever, one should extends Lever and overload 2 functions:
+//***  pulled( act )  and  onLooking( act )
+//*** to create a lever with more than 2 positions or with another starting position
+//***  one should also overload onCreate
+abstract class lever extends Obj {
+  // This function may be overloaded to create lever with more positions or to start
+  //  in another initial state
+  onCreate() {
+    objvar this:position = 0;
+    objvar this:number_position = 2;
+  }
+
+  // This function should not be overloaded, overload 'pulled' instead
+  onPull( act ) {
+    this.position = this.position + 1;              // next position
+    if ( this.position == this.number_position )    // cycle between position
+      this.position = 0;
+
+    pulled( act );
+  }
+
+  // Called when the lever is pulled, to show new status
+  // This function may be overloaded when creating new lever to do special action when pulling
+  pulled( act ) {
+    this.echo("Position: "+this.position );
+  }
+
+  // This function may be overloaded when creating new lever to show special things
+  onLooking( act ) {
+    this.echo("Position: "+this.position );
+    result = 1;
+  }
+}
+
+//************************ Shopkeeper selling what they have in their inventory ********************
+//*** buy_type will be composed by inventory item_type
+//*** we can't create it in onCreate neither in onReset because mob's inventory is created
+//***  after the mob, so we must create a function which will be called once at the right moment
+//*** let's define the right moment: when someone ask for the shopkeeper's list -> in onSpeech
+class inventoryShopkeeper extends shopkeeper {
+  onCreate() {
+    Shopkeeper::onCreate(); // don't forget to create shopkeeper fields
+    objvar this:done = 0; // buy_type not already created
+  }
+
+  createBuyList() {
+    if ( this.done == 0 ) { // create only once the buy_type
+      this.buy_type = [[ x.itemType() | x <- this.inventory() ]];
+      this.buy_type = this.buy_type.unique(); // no duplicates
+      this.done = 1; // we have created the buy_type
+    }
+  }
+
+  onPulseMobile() {
+    createBuyList(); // create buy_type
+    Shopkeeper::onPulseMobile();
+  }
+
+  onSpeech( act, msg ) { // this is the right moment to create the list
+    createBuyList(); // create buy_type
+    Shopkeeper::onSpeech( act, msg ); // call shopkeeper onSpeech routine
+  }
+
+  onGiving( act, obj ) { // me must create the list before any interactions with a player
+    createBuyList();
+    Shopkeeper::onGiving( act, obj );
+  }
+}
+
+
+// ********************************* BANK CODE **************************
+class banker extends Mob {
+  addExtraFields(act) {
+    // add on the fly 2 extra fields to a player
+    // only if the player doesn't already have them
+    objvar act:bankgold = 0;
+    objvar act:banksilver = 0;
+  }
+
+  onExitingLeader(act, to)  {
+    if ( !act.isNPC() ) {
+      if ( chance(50) )
+        `say With me, your money is safe from thieves.
+      else
+        `say Don't be afraid, your money is in right hands.
+    }
+  }
+ 
+  onGreetLeader(act, from)  {
+    if ( !act.isNPC() ) {
+      `say Greetings
+      `say How may I help you ?
+    }
+  }
+
+  onBribe( act, amount, isSilver )  {
+    if (!act.isNPC()) {
+      addExtraFields(act);
+
+      if (isSilver) {
+        act.banksilver = act.banksilver + amount;
+        `qdirsay `act` `amount` silver coins has been added to your account.
+      }
+      else {
+        act.bankgold = act.bankgold + amount;
+        `qdirsay `act` `amount` gold coins has been added to your account.
+      }
+      onSpeech(act,"balance");
+    }
+  }
+ 
+  help( act ) {
+    `qdirsay `act` You are in the bank of Midgaard.
+    `qdirsay `act` You can deposit and withdraw money or check your acount
+    `qdirsay `act` Give me your silver or gold coins to deposit them on your account
+    `qdirsay `act` Use say withdraw xxx gold     to withdraw xxx gold
+    `qdirsay `act` {x  say withdraw xxx silver   to withdraw xxx silver
+    `qdirsay `act` {x  say balance               to check your account balance
+  }
+
+  onSpeech( act, msg )  {
+    if (!act.isNPC()) {
+      addExtraFields(act);
+      var ok = 0;
+      var w = msg.words();
+
+      if ( "balance" in w ) {
+        `qdirsay `act` You have `act.bankgold` gold and `act.banksilver` silver in the bank.
+        ok = 1;
+      } 
+      else if ( "help" in w ) {
+        help( act );
+        ok = 1;
+      }
+      else {
+        // msg must be something like `withdraw 5 silver`
+        if ( w.size() == 3 ) {           // 1st word must be `withdraw`
+          var amount = w.get(1).asInt(); // 2nd word must be an integer > 0
+          var thirdword = w.get(2);      // 3rd word must be `silver` or `gold`
+          if ( w.get(0) %= "withdraw" && amount > 0 ) {
+            if ( thirdword %= "silver" ) {
+              if( act.banksilver >= amount ) {
+                this.addSilver(amount);
+                act.banksilver = act.banksilver - amount;
+               `give `amount` silver `act`
+                onSpeech(act,"balance");
+              }
+              else
+                `qdirsay `act` You don't have that much silver on your account, `act`!
+              ok = 1;
+            }
+            else if ( thirdword %= "gold" ) {
+              if( act.bankgold >= amount ) {
+                 this.addGold(amount);
+                 act.bankgold = act.bankgold - amount;
+      	        `give `amount` gold `act`
+                onSpeech(act,"balance");
+              }
+              else
+                `qdirsay `act` You don't have that much gold on your account, `act`!
+              ok = 1;
+            }
+          }
+        }
+      }
+      if ( !ok ) {
+        `qdirsay `act` I don't understand what you want.
+        `qdirsay `act` Try say help.
+      }
+    }
+  }
+}
+
+
+//**************************** Lever system *****************************
+//** Levers are combinated to create a system having one or more solution
+abstract class leverSystem extends lever {
+  // Don't overload this unless you know what your are doing
+  onCreate() {
+    initLeverVnum();
+    // this list will be create when the lever will be pulled for the 1st time
+    objvar this:leverList = [[]];
+    Lever::onCreate(); // <-- call parent method
+  }
+  // Create a list with every lever in the lever system
+  // Don't overload this unless you know what you are doing
+  createLeverList() {
+    this.leverList = [[ x | x <- getObjList(), x.vnum() in leverVnum ]];
+    var i = 0; // update list for every lever so we don't have to call for every lever
+    while ( i < this.leverList.size() ) {
+      this.leverList[i].leverList = this.leverList;
+      i = i+1;
+    }
+  }
+  // When pulled for the first time, we create the lever list
+  // Don't overload this unless you know what you are doing
+  onPull( act ) {
+    if ( leverList.size() == 0 ) // first time the lever is pulled we create the list
+      createLeverList();
+    Lever::onPull( act ); // <-- call parent method
+  }
+  // Overload this if you want specific message when looking a lever
+  onLooking( act ) {
+    Lever::onLooking( act ); // <-- call parent method
+  }
+  // Overload this if you want specific message/action when using a lever
+  pulled( act ) {
+    Lever::pulled( act ); // <-- call parent method
+    if ( checkPosition() )                actionSuccess( act );
+    else                                  actionFail( act );
+  }
+  // Overload this to create your own lever system, leverVnum is a list containing lever vnum
+  initLeverVnum() {
+    objvar this:leverVnum = [[]]; // list of lever vnum
+  }
+  // Overload this to create your own lever system, create conditions on levers
+  checkPosition() {
+    var i = 0;
+    var ok = 1;
+    while ( i < this.leverList.size() && ok ) {
+      var lev = this.leverList[i];
+      ok = 0;
+      // Put every condition on every lever
+      if ( lev.vnum() == 9999 ) { if ( lev.position == 0 ) ok = 1; } // 1st condition
+      i = i+1;
+    }
+    result = ok;
+  }
+  // Overload this to do something special when the right combinaison has been been found
+  actionSuccess( act ) {
+  }
+  // Overload this if something special must happen when failing to find the right combinaison
+  actionFail( act ) {
+  }
+}
+
+//**************************** Taxidermist *****************************
+//** When someone gives a head (OBJ_VNUM_SEVERED_HEAD   12) to a taxidermist
+//**  he/she transforms it into a trophy
+class taxidermist extends Mob {
+  onGiving( act, obj ) {
+    result = 0;
+    if ( obj.vnum() != 12 ) { // OBJ_VNUM_SEVERED_HEAD is vnum 12
+      result = 1; // item will not be given
+      `qdirsay `act` This is not a head.
+    }
+  }
+  onGiven( act, obj ) {
+    // we are sure obj is a head
+
+    // a head has a name looking like: The head of XXXXX
+    // if we want to keep XXXXX, we have to remove the 3 first words
+    var l = obj.shortDescr().words();
+    var nam = "";
+    var i = 0;
+    while ( i < l.size() ) {
+      if ( i >= 3 ) // keeps after 3rd word
+        nam = nam + " " + l[i];
+      i = i+1;
+    }
+    var buf = "a trophy of"+nam;
+    obj.setName(buf);
+    obj.setShortDescr(buf);
+    obj.setDescription(buf);
+    obj.setTimer(0); // no more timer
+    obj.setCondition(100); // condition is perfect
+    // give back transformed head
+    `give `obj` `act`
+  }
+  onSpeech( act, msg ) {
+    if ( "help" in msg.words() ) {
+      `qdirsay `act` I'm a taxidermist, you can give me a head and
+      `qdirsay `act` I'll transform it into a splendid trophy.
+      `qdirsay `act` Free of any charge...For the moment...
+    }
+  }
+}
+
+//**************************** Elemental *****************************
+//** When casting 'summon elemental', the elemental can have aggressive
+//**  behavior against caster
+class summonedElemental extends Mob {
+  onCreate() {
+    objvar this:timer = -1;
+  }
+  attackCaster( act ) { // called in spell_summon_elemental
+    this.actRoom("$n looks at $n menacingly and attacks.", [[ this, act ]] );
+    this.timer = 5; // after 5 minutes, the elemental disappears
+    this.multiHit( act );
+  }
+  onPulseTick() { // each minute
+    if ( this.timer > 0 ) {
+      this.timer = this.timer-1;
+      if ( this.timer == 0 ) {
+        this.actRoom("$n suddenly disappears.", this );
+        this.stopFighting();
+        this.destroy();
+      }
+    }
+  }
+}
+
+//*************************** Skeleton *******************************
+//** When casting 'animate skeleton', we create a skeleton(mob) from
+//**  a skeleton(obj) but we want to get back the obj when the
+//**  skeleton(mob) dies
+class createdSkeleton extends Mob {
+  onKilled( act ) {
+    this.actRoom("$n falls on the ground.", this );
+    var skeleton = this.room().oLoad(65); // load the skeleton (obj)
+    skeleton.setLevel(this.level());
+    skeleton.setShortDescr( this.shortDescr() );
+    var w = this.shortDescr().words(); // the skeleton of <type>
+    var type = "";
+    var i = 3;
+    while ( i < w.size() ) {
+      type = type + " "+w[i];
+      i = i+1;
+    }
+    skeleton.setDescription( "A skeleton of"+type+" is lying here in a puddle of decayed flesh." );
+    // value0 should be mob's vnum but mob vnum is not stored in skeleton(mob)
+    skeleton.setValue(1,this.getAttrINT("form"));
+    skeleton.setValue(2,this.getAttrINT("parts"));
+    result = 1; // no death cry
+  }
+}

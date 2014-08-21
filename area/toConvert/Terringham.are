@@ -1,0 +1,1956 @@
+#Style Circle
+#AREADATA
+Name Terringham~
+Builders Radiax~
+VNUMs 23200 23299
+Credits {{None}  CAW    Terringham~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#23200
+Wizard merchant~
+a wizard~
+A tall man wearing a wizards hat stands behind a counter.
+~
+   The wizard is tall man with a grey beard.  You can see such great wisdom in
+his eyes.  His hat makes him look very comical.  
+~
+bcdelnopqr dfhmp 600 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+BareHandAttack: 12
+E
+#23201
+Baker lady woman~
+the Baker~
+A beautiful Baker stands behind a counter full of goodies.
+~
+   You see a tall slender woman with some flour over her close and a touch on
+her nose.  She is very attractive and has a friendly attitude.  
+~
+bcdelnopqr dfhkm 150 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 2
+E
+#23202
+man shopkeeper merchant Zorg~
+Zorg the shopkeeper~
+Zorg the shopkeeper sits behind a table with his feet proped up.
+~
+   You see a medium sized man with long hair.  His hygene is a little bit
+questionable.  His beard needs to be tended to.  He looks as though he could get
+out and excercise ALOT!  
+~
+bdelnopqr dfhn -200 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#23203
+Lora Croft~
+Lora Croft~
+You see Lora Croft examining some of the weapons she sells.
+~
+   You see a beautiful well built woman.  She wears a white tank top shirt that
+is almost see through.  She looks very strong yet femanine
+~
+bdelnopqr dfhkm 250 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 2
+E
+#23204
+Tarzan~
+Tarzan~
+Tarzan walks about feeding the pets.
+~
+   Tarzan seems to be a strange individual.  Someone forgot to tell him that
+causal day doesn't mean to just prance around in a short cloth wrapped around
+his waist.  He seems to know what he is doing though, all the Pets seem to
+worship him.  
+~
+bcdelnopqr dfhkm 300 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+#23205
+Saber tiger sabertooth~
+Sabertooth Tiger~
+A Sabertooth Tiger stands here protecting it's owner.
+~
+   You see a large feline with very long, very sharp teeth.  The tiger watches
+you suspiciously, growling at you as you try to approach.  
+~
+bcdenpqr dfp -100 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 0
+BareHandAttack: 4
+E
+#23206
+Anaconda~
+Anaconda~
+A large anaconda watches you closely.
+~
+   The snake looks at you evilly, flicking it's tongue to you, wondering how
+good you taste.  
+~
+bcdlnqr dfk -100 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 0
+BareHandAttack: 6
+E
+#23207
+Armourer~
+the armourer~
+The armourer is here forging new items.
+~
+   You see a very large man.  He holds a large hammer and his muscles bulge as
+he swings the hammer.  He is very strong and has a soft smile.  He looks pleased
+to see you.  
+~
+bdnopr df 0 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+BareHandAttack: 7
+E
+#0
+
+#OBJECTS
+
+#23200
+snake ring~
+a snake ring~
+A snake ring is sitting here peacefully.~
+~
+9 abgi ab 0
+5 0 0 0
+1 1 0 0
+E
+wedding~
+   A ring that shows that the wearer is commited to the most lovely woman
+around, Midnight.  The ring is a symbol of the wearers devoted Love to her.  
+~
+E
+snake ring~
+   You see a ring that is in a shape of a snake.  The eyes are made from
+Sapphires.  
+~
+#23201
+fountain~
+a fountain~
+A large Fountain is bubbling here.~
+~
+23 b 0 0
+500 500 15 0
+0 0 0 0
+#23202
+Raspberry tart~
+a rspberry tart~
+A sweet tart filled with a raspberry filling is calling out to you.~
+~
+19 e a 0
+12 0 0 0
+1 200 0 0
+#23203
+Chocolate eclairs~
+a chocolate eclair~
+A large chocolate eclair calls you over to eat it.~
+~
+19 0 a 0
+16 0 0 0
+1 250 0 0
+#23204
+Apple pie~
+an apple pie~
+A steaming hot Apple pie rests here.. waiting to be eaten.~
+~
+19 0 a 0
+20 0 0 0
+2 300 0 0
+#23205
+bread~
+a slice of bread~
+A slice of bread has fallen and can't get up.~
+~
+19 0 a 0
+6 0 0 0
+1 25 0 0
+#23206
+German Chocolate cake~
+a German chocolate cake~
+An awesome German chocolate cake sits here waiting for you to eat it.~
+~
+19 0 a 0
+26 0 0 0
+5 500 0 0
+#23207
+Pound cake~
+a pound cake~
+A heavy looking cake sits here.~
+~
+19 0 a 0
+24 0 0 0
+5 100 0 0
+#23208
+bag~
+a small bag~
+A small bag lies here.~
+~
+15 0 a 0
+30 1 -1 0
+2 150 0 0
+#23209
+Rucksack~
+a rucksack~
+A large rucksack rests here.~
+~
+15 0 ak 0
+60 1 -1 0
+4 500 0 0
+#23210
+Flashlight~
+a flashlight~
+A flashlight is lying here.~
+~
+1 0 ao 0
+0 0 150 0
+2 120 0 0
+#23211
+Lantern~
+a lantern~
+A lantern with energizer batteries is sitting here lighting your way.~
+~
+1 0 ao 0
+0 0 -1 0
+3 350 0 0
+#23212
+Flail~
+a flail~
+A flail lies here.~
+~
+5 0 an 0
+1 2 4 0
+6 625 0 0
+#23213
+warhammer~
+a warhammer~
+A warhammer rests here.~
+~
+5 0 an 0
+1 1 5 7
+6 50 0 0
+#23214
+Club~
+a club~
+A club is lying here.~
+~
+5 0 an 0
+1 1 3 0
+3 12 0 0
+#23215
+Long sword~
+a long sword~
+A long sword rests up against the wall.~
+~
+5 mn an 0
+1 1 8 3
+8 600 0 0
+#23216
+Small sword~
+a small sword~
+A small sword is sitting here looking for a master.~
+~
+5 n an 0
+1 1 6 3
+3 60 0 0
+#23217
+dagger~
+a dagger~
+A dagger is waiting here for a back to pierce.~
+~
+5 n ano 0
+1 1 4 11
+1 10 0 0
+#23218
+Black ringmail ring mail~
+some black ringmail~
+An all black ringmail is lying here.~
+~
+9 mn ad 0
+5 0 0 0
+11 500 0 0
+#23219
+Studded leather~
+some studded leather armor~
+A leather suit with studs is resting here.~
+~
+9 mn ad 0
+4 0 0 0
+8 200 0 0
+#23220
+Plate platemail mail leggings~
+a pair of platemail leggings~
+A pair of platemail leggings are stacked here.~
+~
+9 mn af 0
+8 0 0 0
+15 300 0 0
+#23221
+Banded leggings~
+some banded leggings~
+A set of binding leggings.~
+~
+9 0 af 0
+5 0 0 0
+7 200 0 0
+#23296
+quest flag~
+a quest flag~
+A Quest flag is hiding here.~
+~
+8 dgq a 0
+0 0 0 0
+1 1 0 0
+#23297
+ring power~
+a ring of power~
+A ring of power is lying here.~
+~
+22 gi ab 0
+0 0 0 0
+4 1000 0 0
+#23298
+black book blackbook~
+a blackbook~
+A large blackbook is resting here, with its' pages open.~
+~
+16 g 0 0
+0 0 0 0
+0 0 0 0
+E
+black book blackbook~
+   @n
+Demigod
+Saint
+Angel
+Phoenix
+(Maybe you)
+~
+#23299
+Ferrets necklace~
+Ferret's necklace~
+Ferret's necklace is lying here.~
+~
+9 abfgi ac 0
+7 0 0 0
+5 1000 0 90
+A
+12 50
+A
+5 2
+#0
+
+#ROOMS
+
+#23200
+Terringham~
+   You have entered the town center of Terringham.  The board room is 1 west and
+1 south of here.  Please read it daily.  Terringham is a small town and will
+hopefully start to populate quite rapidly.  
+~
+232 eh 1
+D0
+~
+~
+0 0 23261
+D1
+~
+~
+0 0 23201
+D2
+~
+~
+0 0 23254
+D3
+~
+~
+0 0 23258
+E
+credits info~
+   Builder   : Ferret
+Zone         : 232 Terringham
+Began        : 2001
+Player Level : 21-24
+Rooms        : 84
+Mobs         : 9
+Objects      : 26
+Shops        : 7
+Triggers     : 
+Theme        : 
+Plot         : 
+Links        : 18n, 31w, 43s
+~
+S
+#23201
+Terringham road~
+   You walk along a finely made road.  The surface of the road is very smooth,
+it looks like someone took their time to make traveling easy.  The smell of
+fresh baked bread seems to be coming from the north.  To the west you see a
+large fountain.  
+~
+232 0 1
+D0
+~
+~
+0 0 23273
+D1
+~
+~
+0 0 23202
+D3
+~
+~
+0 0 23200
+S
+#23202
+Terringham road~
+   This road travels east and west, it is so well built that it feels like you
+are walking on air.  The buildings to the north and south have great Murals on
+them.  You stand back to look at the lovely pictures and wonder where it all
+happened.  
+~
+232 0 1
+D1
+~
+~
+0 0 23203
+D3
+~
+~
+0 0 23201
+E
+mural murals~
+   You see pictures of great Dragons killing horrible monsters.  You also see
+Warriors and Thieves killing monsters that attacked some town.  The Wizards and
+Clerics are behind the warriors, casting their spells.  They glow as they
+attempt to cast.  You see in small writing, the words Bellau wood.  
+~
+S
+#23203
+Terringham road~
+   This well pathed road seems to have a split in it.  You can go east, west or
+south.  To the north is a wall.  You can see a gate to the far east.  
+~
+232 0 1
+D1
+~
+~
+0 0 23204
+D2
+~
+~
+0 0 23250
+D3
+~
+~
+0 0 23202
+S
+#23204
+Terringham road~
+   You have come to a cross road.  To the east you see a large gate.  To the
+north, south and west you see a large stretch of road.  
+~
+232 0 1
+D0
+~
+~
+0 0 23206
+D1
+~
+~
+0 0 23205
+D2
+~
+~
+0 0 23249
+D3
+~
+~
+0 0 23203
+S
+#23205
+East gate~
+   You see a large gate here, with 2 guard shacks standing just inside of the
+gates.  The guards here make it a point to keep mean old nasty mobs from coming
+inside.  
+~
+232 0 1
+D3
+~
+~
+0 0 23204
+S
+#23206
+Star trail~
+   You pull off onto a side street hoping to get away from the noise of the main
+city street.  To the South is the main city street.  The only other exit is to
+the North
+~
+232 0 0
+D0
+~
+~
+0 0 23207
+D2
+~
+~
+0 0 23204
+S
+#23207
+Star trail~
+   You come to a T intersection.  The north and south follow the eastern wall.
+You get an uneasy feeling from the west, but it somehow calls to you.  The way
+west is well lit.  
+~
+232 0 1
+D0
+~
+~
+0 0 23211
+D2
+~
+~
+0 0 23206
+D3
+~
+~
+0 0 23208
+S
+#23208
+A clean alley~
+   You enter an alley way which seems to be very clean.  There are murals on the
+wall of Gang fights.  The pictures are excellently done.  You wonder if this is
+the place for you!  
+~
+232 ceh 0
+D0
+~
+~
+0 0 23209
+D1
+~
+~
+0 0 23207
+S
+#23209
+A clean alley~
+   This room looks to be in great condition.  It is hard to believe that an
+alley way would be kept up this well.  Everything seems to be in its place.  
+Even the lighting here is decent.  You hear some noise coming from the north.  
+~
+232 g 0
+D0
+~
+~
+0 0 23210
+D2
+~
+~
+0 0 23208
+S
+#23210
+A ladder well going UP~
+   In this room you see a large ladder leading up.  The ladder looks very strong
+and is mounted sturdily in the wall.  You wonder what could be above you.  
+~
+232 gh 0
+D2
+~
+~
+0 0 23209
+S
+#23211
+Star trail~
+   You are just past the mini crossroads.  You can hear birds chirping and see
+cats roaming the streets looking for somthing to eat.  There are only two exits
+that you can see one going north and the other going South.  
+~
+232 0 1
+D0
+~
+~
+0 0 23212
+D2
+~
+~
+0 0 23207
+S
+#23212
+Star trail~
+   This small section of town is depicted with a mural of the towns history.  
+When you walk through the town you get a feeling of profound pride that your
+little town has done so well in the years since it was created.  The only exits
+are North and South .
+~
+232 0 1
+D0
+~
+~
+0 0 23213
+D2
+~
+~
+0 0 23211
+S
+#23213
+Star trail~
+   This is the northeastern corner of the city.  It is very quiet here and has a
+drawing on the group.  The only exits are West and South.  
+~
+232 0 1
+D2
+~
+~
+0 0 23212
+D3
+~
+~
+0 0 23214
+S
+#23214
+Rumble road~
+   You are travelling along the northern wall on a quickened pace.  The sound of
+clanging still chimes in your ears from the west.  The exits that you can see
+are to the West and North .
+~
+232 0 1
+D1
+~
+~
+0 0 23213
+D3
+~
+~
+0 0 23215
+S
+#23215
+Rumble road~
+   You are walking down a long paved street.  There are small pictures on the
+wall that looks like they have been drawn on by children.  To the west you can
+hear the distant shouts of guards on duty.  The only other exit that you can see
+is to the East.  
+~
+232 0 0
+D1
+~
+~
+0 0 23214
+D3
+~
+~
+0 0 23216
+S
+#23216
+Rumble road~
+   You see patrolmen walking down the long street watching for any infractions
+of the law.  You can hear the steps of armored boots clinking on the ground to
+the West.  The only other exit is to the East.  
+~
+232 0 0
+D1
+~
+~
+0 0 23215
+D3
+~
+~
+0 0 23217
+S
+#23217
+Terringham avenue~
+   You are walking down a street that is the bustel of activity.  Guards patrol
+the street.  To the North is the Nothern Gate.  Other exits lead to the South,
+East and West.  
+~
+232 0 1
+D0
+~
+~
+0 0 23218
+D1
+~
+~
+0 0 23216
+D2
+~
+~
+0 0 23265
+D3
+~
+~
+0 0 23219
+S
+#23218
+North gate~
+   You come to the northgate.  There are two guard posts here protecting the
+entrance to the city.  These guards look very strong and should not be messed
+with.  
+~
+232 0 1
+D2
+~
+~
+0 0 23217
+S
+#23219
+Rumble road~
+   You can hear the sounds of guards barking orders and the sounds of opening
+gates to the north east.  The only discenable exits are to the east and the
+west.  
+~
+232 0 1
+D1
+~
+~
+0 0 23217
+D3
+~
+~
+0 0 23220
+S
+#23220
+Rumble road~
+   The granite paved street looks like it stretches on for miles.  The walls to
+the north and south side looms in front of you with no way to leave except east
+or west.  
+~
+232 0 1
+D1
+~
+~
+0 0 23219
+D3
+~
+~
+0 0 23221
+S
+#23221
+Rumble road~
+   The smooth paved street glides on towards the northwest corner of town.  To
+the north you see a tall wall, while there are exits east, west and south.  
+~
+232 0 1
+D1
+~
+~
+0 0 23220
+D2
+~
+~
+0 0 23222
+D3
+~
+~
+0 0 23224
+S
+#23222
+An Alley way~
+   You have entered a well kept Alley way.  You see no signs of rats, not even
+trash cans.  This is not your average Alley way.  The lighting here seems a bit
+mystical.  You hear some chatter from the south.  
+~
+232 cgh 0
+D0
+~
+~
+0 0 23221
+D2
+~
+~
+0 0 23223
+S
+#23223
+An Alley way~
+   You see a beautifully decorated stair well leading up.  You can hear noises
+coming from up above, as if a meeting is in order.  You wonder what could be
+going on here.  
+~
+232 gh 0
+D0
+~
+~
+0 0 23222
+S
+#23224
+Rumble road~
+   This is the northwest corner of town.  It looks well maintained for as little
+traffic as this street would normally have.  To the south you can travel down
+the western wall and to the east you go towards the Northern gate.  
+~
+232 0 1
+D1
+~
+~
+0 0 23221
+D2
+~
+~
+0 0 23225
+S
+#23225
+West drive~
+   You are walking along the west wall of the spectacular city.  The walls are
+whitewashed and very smooth with no artistic talent to them at all.  
+~
+232 0 1
+D0
+~
+~
+0 0 23224
+D2
+~
+~
+0 0 23226
+S
+#23226
+West drive~
+   This street is a simple granite street that is so smooth it feels like
+walking on air.  The walls are very tall and have little on them that would not
+give you any indication of where you are located.  
+~
+232 0 1
+D0
+~
+~
+0 0 23225
+D2
+~
+~
+0 0 23227
+S
+#23227
+West drive~
+   The street here is rough and ragged, it looks like this isn't a very nice
+area of the street.  The walls of the buildings have writing on it.  The only
+exits are to the North and the South.  
+~
+232 0 0
+D0
+~
+~
+0 0 23226
+D2
+~
+~
+0 0 23228
+S
+#23228
+West drive~
+   The street is ragged looking as though it has had a lot of use lately.  The
+walls are lined with magical figures of prominence.  To the east is the Magic
+shop and to the South you hear some guards muttering, the only other discernable
+exit is to the North.  
+~
+232 0 0
+D0
+~
+~
+0 0 23227
+D1
+~
+~
+0 0 23229
+D2
+~
+~
+0 0 23230
+S
+#23229
+Magic shop~
+   This is a wizards dream shop.  There are shelves of scrolls and potions all
+throughout this room.  The items here are not limited to mages alone.  A recall
+is recommended for everyone, so don't hesitate to buy them.  
+~
+232 d 1
+D3
+~
+~
+0 0 23228
+S
+#23230
+Terringham street~
+   You have come to a crossroad.  To the west you see a large gate.  You also
+see exits to the north, south, and east.  The road here is in great condition.
+
+~
+232 0 1
+D0
+~
+~
+0 0 23228
+D1
+~
+~
+0 0 23260
+D2
+~
+~
+0 0 23232
+D3
+~
+~
+0 0 23231
+S
+#23231
+West gate~
+   You have entered an area that is guarded well.  There are two guard shacks
+here, just inside of the gate.  The guards watch you suspiciously.  
+~
+232 0 1
+D1
+~
+~
+0 0 23230
+S
+#23232
+West drive~
+   This is the southwestern corner of the city, the road appears to be
+untouched.  There are no paintings and no wagons lining the streets.  You can go
+East or North.  
+~
+232 0 1
+D0
+~
+~
+0 0 23230
+D1
+~
+~
+0 0 23233
+S
+#23233
+West drive~
+   You walk along a curvy street.  The street reminds you very much like a maze
+that is hard to navigate through.  The exits go West and South.  
+~
+232 0 0
+D2
+~
+~
+0 0 23234
+D3
+~
+~
+0 0 23232
+S
+#23234
+West drive~
+   This is a continuation on the long maze.  The walls are covered by branches
+that hang down in your face.  It doesn't look like any caretakers come this way.
+The exits go North and West.  
+~
+232 0 1
+D0
+~
+~
+0 0 23233
+D3
+~
+~
+0 0 23235
+S
+#23235
+West drive~
+   This street is very confusing and you don't know where you are going.  The
+street is paved with the same shiny surface as the rest of the town except here
+it looks more for the lower classes of civilians in the city.  The exits are
+East and South.  
+~
+232 0 0
+D1
+~
+~
+0 0 23234
+D2
+~
+~
+0 0 23236
+S
+#23236
+West drive~
+   The street continues turning in an unorthodoxed manner.  Some branches hang
+down and some you must push out of the way.  The only exits that you can see are
+North and East.  
+~
+232 0 1
+D0
+~
+~
+0 0 23235
+D1
+~
+~
+0 0 23237
+S
+#23237
+South park~
+   The road here seems to fade out.  To the east you can see the road, and to
+the west you notice that a jungle or something starts to form.  
+~
+232 0 1
+D1
+~
+~
+0 0 23238
+D3
+~
+~
+0 0 23236
+S
+#23238
+South park~
+   This is a straight road with a few curves.  The road doesn't look completely
+done, maybe it isn't.  To the North you can hear some clanging.  The only other
+exits are to the East and West.  
+~
+232 0 1
+D0
+~
+~
+0 0 23239
+D1
+~
+~
+0 0 23241
+D3
+~
+~
+0 0 23237
+S
+#23239
+A side road~
+   You hear alot of clanging to the north.  Someone seems to be making
+something.  You also hear the sound of someone chopping up wood....  Which is a
+weird sound to hear in the City.  
+~
+232 0 1
+D0
+~
+~
+0 0 23240
+D2
+~
+~
+0 0 23238
+S
+#23240
+Weapons Shop~
+   You see many arms hung up along the wall.  Some items glow and attract the
+attention of everyone.  The prices are steep for the glowing items.  
+~
+232 d 1
+D2
+~
+~
+0 0 23239
+S
+#23241
+South park~
+   This is a long stretch of highway.  The pavement is cracking here under great
+strain.  The sun seems to beat down more on this part of town than the others.
+Available exits are to the east and west.  
+~
+232 0 1
+D1
+~
+~
+0 0 23242
+D3
+~
+~
+0 0 23238
+S
+#23242
+Terringham way~
+   This looks as though it is the main street with exits going all directions.
+To the South you hear boots clanging on the ground and orders being shouted.  
+The other exits are to the East, West and South.  
+~
+232 0 1
+D0
+~
+~
+0 0 23255
+D1
+~
+~
+0 0 23244
+D2
+~
+~
+0 0 23243
+D3
+~
+~
+0 0 23241
+S
+#23243
+South gate~
+   A large gate looms up in front of you.  To both sides of the gates gaurds
+stand watching over all who enter and leave.  In case you were trying to escape
+the law this way be careful because the gate has sharp spear heads on the top.
+
+~
+232 0 0
+D0
+~
+~
+0 0 23242
+S
+#23244
+South park~
+   The long street continues.  Both sides of the street are lined with small
+saplings recently planted.  The only exits are to the East and the West.  
+~
+232 0 0
+D1
+~
+~
+0 0 23245
+D3
+~
+~
+0 0 23242
+S
+#23245
+South park~
+   The street widens here.  There are room for 3 carts going by each other.  
+The street is well maintained by a street worker that is here cleaning up the
+street.  The only exits are to the East and the West.  
+~
+232 0 1
+D1
+~
+~
+0 0 23246
+D3
+~
+~
+0 0 23244
+S
+#23246
+South park~
+   The street is cracked a bit here.  Also the street has some red on it.  It
+looks like there has been blood spilled here before and someone didn't do there
+job to clean it up.  The other exits are East and West.  
+~
+232 0 1
+D1
+~
+~
+0 0 23247
+D3
+~
+~
+0 0 23245
+S
+#23247
+South park~
+   You are standing at the SouthEastern corner of the city.  The walls are high
+and almost metallic smooth.  The only exits you can see are North and West.  
+~
+232 0 1
+D0
+~
+~
+0 0 23248
+D3
+~
+~
+0 0 23246
+S
+#23248
+Star trail~
+   The street is narrow and has no marks of travel on it.  The building walls
+have pictures that stand out more than normal paintings do.  The only exits you
+can see are North and South.  
+~
+232 0 1
+D0
+~
+~
+0 0 23249
+D2
+~
+~
+0 0 23247
+E
+picture pictures mural~
+   You see a great battle in a cathedral.  At a closer glance, you can tell the
+battle was taken place in Midgaard.  Drakkar the evil immortal seems to be
+standing on the alter and destroying everything in sight, with his minions
+standing at his side.    
+~
+S
+#23249
+Star trail~
+   There is a great wall which looks unpassable on the east.  To the west you
+see some houses, but the access is blocked off to you.  To the north you can see
+the main street leading from the east gate.  To the south you see a trail.  
+~
+232 0 1
+D0
+~
+~
+0 0 23204
+D2
+~
+~
+0 0 23248
+S
+#23250
+An alley~
+   This is not your typical alley.  This alley seems to be peaceful and glows
+with a brilliant blue.  You notice a sign on a wall.  
+~
+232 ce 1
+D0
+~
+~
+0 0 23203
+D2
+~
+~
+0 0 23251
+E
+sign~
+   The Don room is to the Southwest.  Please do not fight in this sacred area.
+
+~
+S
+#23251
+An alley~
+   This place seems so peaceful.  You seem to be able to rest here without any
+hassles.  To the west is the don room, to the north is your exit back to the
+city.  
+~
+232 e 1
+D0
+~
+~
+0 0 23250
+D3
+~
+~
+0 0 23252
+S
+#23252
+Don room~
+   This where all the items come when players don the equipment they have.  All
+items here are up for grabs.  Feel free to take what you need.  Please don't
+take everything, let the others get some equipment too.  If there are 3 swords
+here..  Don't take all 3, you can't use 3 swords.  Please be curtious.  
+~
+232 ce 1
+D1
+~
+~
+0 0 23251
+S
+#23253
+The board room~
+   This is where the mortal board sits.  Please read this board everyday.  It
+may contain new information.  Feel free to make notes on this board.  
+~
+232 de 1
+D0
+~
+~
+0 0 23258
+S
+#23254
+Terringham way~
+   You are standin in a small section of town just south of the fountain.  The
+buildings to either side are quite striking as they have been painted with
+pictures of dragons fighting knights.  The only noticeable exits are to the
+north and south.  
+~
+232 0 1
+D0
+~
+~
+0 0 23200
+D2
+~
+~
+0 0 23255
+S
+#23255
+Terringham way~
+   This is the main street.  To the south is the gates.  There is a crossroads
+which lead to one of the off streets.  The last exit is North.  
+~
+232 0 1
+D0
+~
+~
+0 0 23254
+D1
+~
+~
+0 0 23256
+D2
+~
+~
+0 0 23242
+S
+#23256
+A side street~
+   You hear the sound of clanging to the north, as if someone is making
+something.  You notice that it seems very warm here.  This definately would not
+be a good place to rest, if need be.  
+~
+232 0 1
+D0
+~
+~
+0 0 23257
+D3
+~
+~
+0 0 23255
+S
+#23257
+The armoury~
+   You see manaquines wearing all different kinds of armour.  They range from
+leather to full plate.  If you need a special item, you have to ask for it.  It
+is not displayed in the open.  
+~
+232 deh 1
+D2
+~
+~
+0 0 23256
+S
+#23258
+Terringham street~
+   This room has a certain glow about it, it seems to show it has some
+importance.  To the South you see a sign over the exit that says Board room.  
+You can see a large fountain to the east.  
+~
+232 0 1
+D1
+~
+~
+0 0 23200
+D2
+~
+~
+0 0 23253
+D3
+~
+~
+0 0 23259
+S
+#23259
+Terringham street~
+   The road here leads east and west.  The walls to the north and south, sport
+some fabulous pictures.  
+~
+232 0 1
+D0
+~
+~
+0 0 23281
+D1
+~
+~
+0 0 23258
+D3
+~
+~
+0 0 23260
+E
+wall picture~
+   You see fabulous pictures of dragons in flight and a group of people in full
+armor gear.  You notice some of these people..  You spot out Springfire,
+Gunthar, Buffy, Lilly, Angel, and Blaze.  
+~
+S
+#23260
+Terringham street~
+   The road here continues to the east and west.  The walls seem to be
+untouched, and the lighting here seems to be a bit poor.  It looks as if someone
+tried to rush their job.  
+~
+232 0 1
+D1
+~
+~
+0 0 23259
+D3
+~
+~
+0 0 23230
+S
+#23261
+Terringham avenue~
+   This room glows with a brilliant bright light.  The walls here have beautiful
+paintings on them.  To the south you notice a large fountain.  To the west you
+see the Bank of Terringham.  
+~
+232 0 1
+D0
+~
+~
+0 0 23263
+D2
+~
+~
+0 0 23200
+D3
+~
+~
+0 0 23262
+E
+wall walls paintings~
+   The pictures here are of great warriors trying to guard a city from a band of
+orcs.  The orcs out number the warriors, but the warriors are putting up a good
+fight.  
+~
+S
+#23262
+Terringham Bank~
+   There is an Atm here where you can store your gold.  The Gods recommend that
+you use this bank often.  We would hate to see an accident and you rejoin the
+game with no money.  The commands are easy.  Dep $$$$.  With $$$$.  Or Bal.  
+~
+232 cd 1
+D1
+~
+~
+0 0 23261
+S
+#23263
+Terringham avenue~
+   You walk along a finely made road.  The surface of the road is very smooth.
+The road looks like someone took their time to make travelling easy.  To the
+south is the bank and to the east you can smell the scents of leather and oils.
+
+~
+232 0 1
+D0
+~
+~
+0 0 23264
+D1
+~
+~
+0 0 23280
+D2
+~
+~
+0 0 23261
+S
+#23264
+Terringham avenue~
+   The smooth easy going road continues north to south.  You notice exits to the
+east and west.  Which path shall you take?  
+~
+232 0 1
+D0
+~
+~
+0 0 23265
+D1
+~
+~
+0 0 23266
+D2
+~
+~
+0 0 23263
+D3
+~
+~
+0 0 23275
+S
+#23265
+Terringham avenue~
+   You are travelling down a granite paved street.  The surrounding buildings
+have paintings of the towns greatest heros.  The only visible exits are to the
+north and south.  
+~
+232 0 1
+D0
+~
+~
+0 0 23217
+D2
+~
+~
+0 0 23264
+S
+#23266
+An Alley~
+   You hear something moving behind you, but cannot see anything or anyone.  
+You hear noises coming from the east.  
+~
+232 0 1
+D1
+~
+~
+0 0 23267
+D3
+~
+~
+0 0 23264
+S
+#23267
+Guild row~
+   You see a bright blue light coming from the north.  There is emptiness coming
+from the south.  You can guess that these are the cleric guilds and the thieves
+guild.  
+~
+232 0 1
+D0
+~
+~
+0 0 23268
+D2
+~
+~
+0 0 23269
+D3
+~
+~
+0 0 23266
+S
+#23268
+Entrance to the Cleric Guild~
+   The clerics may come here to practice thier skills when they have the need to
+expand their skills.  The guildmaster awaits your arrival, please don't
+hesitate.  
+~
+232 0 1
+D2
+~
+~
+0 0 23267
+D4
+~
+~
+0 0 23276
+S
+#23269
+Entrance to the Thieves Guild.~
+   The Thieves may come here to practice thier skills when they have the need to
+expand their skills.  The guildmaster awaits your arrival, please don't
+hesitate.  
+~
+232 0 1
+D0
+~
+~
+0 0 23267
+D4
+~
+~
+0 0 23277
+S
+#23270
+Guild row~
+   You have found the path to the warriors guild and the mages guild.  Which
+path do you take to reach your guildmaster?  
+~
+232 0 1
+D0
+~
+~
+0 0 23271
+D1
+~
+~
+0 0 23275
+D2
+~
+~
+0 0 23272
+S
+#23271
+Entrance to the Warriors Guild~
+   The warriors may come here to practice thier skills when they have the need
+to expand their fighting skills and swordmanship.  The guildmaster awaits your
+arrival, please don't hesitate.  
+~
+232 0 1
+D2
+~
+~
+0 0 23270
+D4
+~
+~
+0 0 23278
+S
+#23272
+Entrance to the Mage Guild~
+   Mages may come here to practice thier skills when they have the need to
+expand their knowledge in the lores of Arcane.  The guildmaster awaits your
+arrival, please don't hesitate.  
+~
+232 0 1
+D0
+~
+~
+0 0 23270
+D4
+~
+~
+0 0 23279
+S
+#23273
+Bread crumb road~
+   Your mind is pulled away from the look of the granite street and is pulled to
+the east where you can smell the best baked goods you can remember.  The only
+other way to go is to the south.  
+~
+232 0 0
+D1
+~
+~
+0 0 23274
+D2
+~
+~
+0 0 23201
+S
+#23274
+The Bakery~
+   You have entered the right room, if you are hungry.  There is a large glass
+counter, surrounding this place.  You see all sorts of breads, pies and cakes.
+Which would you like for your travel.  
+~
+232 dh 1
+D3
+~
+~
+0 0 23273
+S
+#23275
+An Alley~
+   You enter a very clean alley.  There is nothing here polluting the roads.  
+You hear faint noises coming for the west.  To the east is Terringham road.  
+~
+232 0 1
+D1
+~
+~
+0 0 23264
+D3
+~
+~
+0 0 23270
+S
+#23276
+Clerics Guild~
+   The Cleric Guildsmaster is here waiting to help you.  This room has a very
+peaceful feeling about it.  You feel enlightened when you enter here.  
+~
+232 cdeh 1
+D5
+~
+~
+0 0 23268
+S
+#23277
+Thieves Guild~
+   You enter a room and notice it is empty.  You walk around with caution,
+knowing that something is afoot.  You listen carefully and Turn about real
+fast....  Your Guildmaster slips out of the Darkness.  
+~
+232 cde 1
+D5
+~
+~
+0 0 23269
+S
+#23278
+Warriors guild~
+   There are alot of training dummies in this room.  You see a very large
+warrior practicing on these dummies.  He does not look like the type to be
+messed with.  The Warrior stops his training and advances towards you with a
+friendly smile, "Fresh meat" he says calmly.  
+~
+232 cde 1
+D5
+~
+~
+0 0 23271
+S
+#23279
+Mages Guild~
+   This room is filled with books.  The air smells of different reagants, and
+mixed components.  This is a mage's dream house.  Your guild master sits behind
+a large desk studying a book.  
+~
+232 cde 1
+D5
+~
+~
+0 0 23272
+S
+#23280
+General Store~
+   Ahhh, this is a great place to be for everyone.  Almost everything you need
+to go adventuring with is in here.  You have your sacks and bags and lanterns
+all right here.  Please come in and shop around.  
+~
+232 d 1
+D3
+~
+~
+0 0 23263
+S
+#23281
+The Pet shop~
+   This room is full of different animals and beasts.  They range from all
+different sizes and prices.  All the pets seem to be very well trained.  A large
+muscular man is going around feeding all of the pets.  
+~
+232 cdeh 0
+D2
+~
+~
+0 0 23259
+S
+#23282
+The Kennel~
+   This is where are all the pets are stored for the pet shop in Terringham.  
+All the pets seem very friendly towards you.  Of course they would be friendly
+towards you, cause you have to be level 103 or level 104 to be here...  And they
+wouldn't want to upset you!  
+~
+232 dk 0
+S
+#0
+
+#RESETS
+M 0 23205 1 23282 	(Sabertooth Tiger)
+M 0 23206 1 23282 	(Anaconda)
+O 0 23201 1 23200 	(Fountain)
+M 0 3023 2 23278 	(the fighters' guildmaster)
+M 0 3020 2 23279 	(the mages' guildmaster)
+M 0 3022 2 23277 	(the thieves' guildmaster)
+M 0 3021 2 23276 	(the priests' guildmaster)
+M 0 23207 1 23257 	(the armourer)
+G 1 23218 1 -1 	(Black ringmail)
+G 1 23219 1 -1 	(Studded leather)
+G 1 23220 1 -1 	(Platemail leggings)
+G 1 23221 1 -1 	(banded leggings)
+M 0 23204 1 23281 	(Tarzan)
+M 0 23203 1 23240 	(Lora Croft)
+G 1 23212 1 -1 	(Flail)
+G 1 23213 1 -1 	(Warhammer)
+G 1 23214 1 -1 	(Club)
+G 1 23215 1 -1 	(Long sword)
+G 1 23216 1 -1 	(Small sword)
+G 1 23217 1 -1 	(Dagger)
+M 0 23202 1 23280 	(Zorg the shopkeeper)
+G 1 23208 1 -1 	(small bag)
+G 1 23209 1 -1 	(Rucksack)
+G 1 23210 1 -1 	(Flashlight)
+G 1 23211 1 -1 	(Lantern)
+M 0 23201 1 23274 	(the Baker)
+G 1 23202 1 -1 	(Raspberry tart)
+G 1 23203 1 -1 	(Chocolate eclairs)
+G 1 23204 1 -1 	(Apple pie)
+G 1 23205 1 -1 	(bread)
+G 1 23206 1 -1 	(German Chocolate cake)
+G 1 23207 1 -1 	(Pound cake)
+M 0 23200 1 23229 	(a wizard)
+G 1 3052 500 -1 	(a scroll of recall)
+G 1 3050 500 -1 	(a scroll of identify)
+G 1 3051 500 -1 	(a yellow potion of see invisible)
+G 1 3053 500 -1 	(a grey wand of invisibility)
+R 0 23262 3034 -1 	(an automatic teller machine)
+O 0 3034 10 23262 	(an automatic teller machine)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#23200~
+3052
+3050
+3051
+3053
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23200
+2
+23229
+-1
+0
+28
+0
+0
+#23201~
+23202
+23203
+23204
+23205
+23206
+23207
+-1
+1.50
+1.00
+-1
+%s Sorry, I don'u stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23201
+0
+23274
+-1
+0
+28
+0
+0
+#23202~
+23208
+23209
+23210
+23211
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23202
+0
+23280
+-1
+0
+28
+0
+0
+#23203~
+23212
+23213
+23214
+23215
+23216
+23217
+-1
+1.70
+1.00
+5
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23203
+0
+23240
+-1
+0
+28
+0
+0
+#23257~
+23218
+23219
+23220
+23221
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23207
+0
+23257
+-1
+0
+28
+0
+0
+#23281~
+23205
+-1
+2.30
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+23204
+0
+23281
+23282
+-1
+0
+28
+0
+0
+0
+
+
+#$
