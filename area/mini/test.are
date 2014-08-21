@@ -1,0 +1,314 @@
+#AREADATA
+Name Test area~
+Builders Sinac~
+VNUMs 31000 31099
+Credits {{All} Test area~
+Security 1
+Flags 0
+End
+
+
+
+#MOBILES
+#31000
+test mob mobile~
+a mobile test~
+A test mobile stands here.
+~
+~
+human~
+W
+AB 0 K 0 0 0
+65 60 40d10+7740 65d9+85 65d9+85 9d5+29 none
+-29 -29 -29 -19
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJKR medium unknown
+M
+mobArcher
+#31001
+bardaf~
+bardaf~
+Bardaf stands here.
+~
+~
+human~
+0
+AB 0 K 0 0 0
+50 50 50d10+4500 50d10+100 50d10+100 5d8+19 none
+-20 -20 -20 -13
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJKR medium unknown
+Y
+char 'affects' 1 128
+#0
+
+
+
+#OBJECTS
+#31000
+test item~
+a test item~
+A test item lies here.~
+energy~
+staff G AO
+110 10 10 'fireball' 0
+110 5 0 P
+R
+'race' 3 0
+R
+'race' 69 0
+Z
+'staves' 23
+#31001
+new test item~
+a new test item~
+A new test item lies here.~
+energy~
+weapon G AN
+ranged 100 5 1 1
+110 0 0 P
+R
+'race' 1 1
+R
+'parts' 8 0
+Y
+char 'immunities' 1 128
+Y
+room 'healrate' 0 150
+#31002
+template~
+a template~
+A scroll lies on the ground.~
+paper~
+template 0 AO
+0 '' '' '' ''
+1 1 3500 P
+#31003
+a long bow~
+a long bow~
+A long bow lies on the ground.~
+wood~
+weapon 0 AN
+ranged 5 1 1 2
+65 10 1500 P
+#31004
+polearm~
+a polearm~
+A long and heavy polearm lies on the ground.~
+steel~
+weapon 0 AN
+polearm 10 10 cleave 0
+65 40 2105 P
+Y
+char 'damroll' 0 15
+Y
+char 'hitroll' 0 10
+#31005
+super weapon~
+a super weapon~
+A super weapon lies here.~
+steel~
+weapon 0 AN
+sword 5 3 slash 0
+110 5 5 P
+Y
+char 'damroll' 0 2
+Y
+char 'strength' 0 2
+#31006
+grenade launcher~
+a grenade launcher~
+A grenade Launcher stands on the ground.~
+steel~
+weapon b AN
+ranged 100 0 10 3
+110 50 1000 P
+#31007
+grenade~
+a grenade~
+A grenade lies on the ground.~
+steel~
+weapon 0 A
+arrow 2 3 blast A
+110 1 50 P
+#0
+
+
+
+#ROOMS
+#31000
+Test room~
+You are in an empty room where supreme beings are
+doing some twisted experiments.
+~
+0 1024 0
+6
+D0
+~
+~
+0 0 31001
+Z
+Room
+Y
+object 34 1 32
+Y
+char 'strength' 0 5
+S
+#31001
+Another test room~
+A mobile test room full of body parts.
+~
+0 0 0
+6
+D0
+~
+~
+0 0 31003
+D1
+~
+~
+0 0 31002
+D2
+~
+~
+0 0 31000
+D3
+~
+~
+0 0 31006
+Z
+Room
+S
+#31002
+test room~
+Another test room full of body parts.
+~
+0 0 0
+6
+D1
+~
+~
+0 0 31005
+D3
+~
+~
+0 0 31001
+Z
+Room
+S
+#31003
+Another test room~
+Another test room
+~
+0 0 0
+6
+D0
+~
+~
+0 0 31004
+D2
+~
+~
+0 0 31001
+Z
+Room
+S
+#31004
+Another test room~
+Another test room
+~
+0 0 0
+6
+D0
+~
+~
+0 0 31007
+D2
+~
+~
+0 0 31003
+Z
+Room
+S
+#31005
+Another test room~
+Another test room
+~
+0 0 0
+6
+D3
+~
+~
+0 0 31002
+Z
+Room
+S
+#31006
+Another test room~
+Another test room
+~
+0 0 0
+6
+D1
+~
+~
+0 0 31001
+D3
+~
+~
+0 0 31008
+Z
+Room
+S
+#31007
+Another test room~
+Another test room
+~
+0 0 0
+6
+D2
+~
+~
+0 0 31004
+Z
+Room
+S
+#31008
+Another test room~
+Another test room
+~
+0 0 0
+6
+D1
+~
+~
+0 0 31006
+Z
+Room
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 31001 1 31000 1
+M 0 31000 1 31001 1
+E 0 31004 0 16
+G 0 31003 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

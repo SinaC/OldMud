@@ -1,0 +1,1763 @@
+#Style Circle
+#AREADATA
+Name Forest Trails~
+Builders Kaan~
+VNUMs 26200 26299
+Credits {{None}  CAW    Forest Trails~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#26200
+bear brown~
+a brown bear~
+A huge brown bear roars its defiance and opens its jaws in a snarl!
+~
+   It moves its head this way and that, as if looking for the best spot to bite
+you.  
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 0
+BareHandAttack: 8
+E
+#26201
+snake rattlesnake~
+a rattlesnake~
+A rattlesnake slithers up near you, raising head and tail in anticipation.
+~
+   Roughly 5 feet in length, this snake could very well give you a bit of
+trouble if you mess with it too much.  Best to just sort of ease on past.  
+~
+cdg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+BareHandAttack: 4
+E
+#26202
+wolf timberwolf~
+a timberwolf~
+A wolf slinks past you, looking at you out of the corner of its eye.
+~
+   It looks sleek and swift, not very large at all, but large enough to give you
+a few nips in the ass if you mess with it.  
+~
+dgq 0 0 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 0
+BareHandAttack: 4
+E
+#26203
+bear black~
+an enormous black bear~
+An enormous black bear rears up on two legs and roars!
+~
+   Its gaping jaws drip saliva, saliva that is probably the prep for the bear's
+mouth where it intends to bodily put you!  
+~
+dg 0 0 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 0
+BareHandAttack: 4
+E
+#26204
+bear grizzly~
+a huge grizzly bear~
+A huge grizzly bear lumbers along, minding its own business.
+~
+   It doesn't even acknowledge the fact that you are near, it just moves right
+along on its way.  
+~
+cdg 0 0 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 0
+BareHandAttack: 9
+E
+#26205
+fox~
+a little fox~
+A little fox runs past you, happily playing its day away.
+~
+   It jumps from leaf to leaf in huge bounds, trapping the leaf and biting the
+hell out of it, the going onto its next 'victim'.  
+~
+dg 0 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 0
+BareHandAttack: 4
+E
+#0
+
+#OBJECTS
+
+#26200
+claws bear~
+some bear's claws~
+A terribly wicked looking set of bear's claws have been left here.~
+They look as if they might fit well into the palms of your hand -
+maybe to use as weapon, hmm...    
+~
+5 0 24577 0
+1 2 7 8
+10 200 0 10
+A
+1 1
+#26201
+belt skin snake~
+a snake skin belt~
+A pile of rattlesnake skin has been dropped here.~
+The skin is naturally decorated by the diamonds that cover the skin of
+most rattlesnakes from the forest area east of Midgaard.    
+~
+9 0 2049 0
+5 0 0 0
+6 40 0 7
+#26202
+rattle snake~
+a rattlesnake's rattle~
+A severed rattle from a rattlesnake has been dropped here.~
+If there's a rattle here, then where's the rest of the snake?
+~
+12 0 16385 0
+0 0 0 0
+6 30 0 7
+A
+17 -5
+#26203
+tooth wolf~
+a Wolf's Tooth~
+A wolf's tooth is on the ground.~
+It is slightly yellowed, but still razor sharp.
+~
+9 0 5 0
+4 0 0 0
+4 200 0 12
+#26204
+paw wolf~
+the Wolf's Paws~
+A set of wolf's paws have been left here.~
+They seem like they would fit right over your own hands as a defense
+against blows and an attack with the claws they still boast.    
+~
+9 0 129 0
+7 0 0 0
+10 300 0 12
+A
+19 1
+#26205
+necklace fang bear~
+a Bear's Fang Necklace~
+A necklace made from bear fangs has been left here.~
+It is long, curved, and scythe-like.
+~
+9 0 5 0
+3 0 0 0
+3 100 0 13
+A
+13 10
+#26206
+hide bear~
+a bear's hide~
+A furry, shaggy brown hide has been left here.~
+~
+9 0 1025 0
+9 0 0 0
+18 20 0 15
+A
+5 1
+#26207
+skull~
+a bear skull~
+A bear's skull shines with a strange brightness.~
+Strange that a bear's skull would shine with a light - must be enchanted.
+~
+1 1 16385 0
+0 0 200 0
+9 10 0 15
+A
+13 5
+#0
+
+#ROOMS
+
+#26200
+Forest Trails Zone Description Room By Kaan~
+   *The Forest Trails *Modified by Kaan for Dibrova This is the same Forest that
+is available on the CircleMud site, a lump of same descrip rooms which work as
+an extremely effective connector zone off of any city.  I added some mobs and eq
+which are not part of the package you receive from the CircleMud download.  
+Apologies to the original builder if I have offended at all by reposting this
+zone on my webpage, just thought that others might appreciate the mobs and eq as
+well.  
+~
+262 j 0
+S
+#26201
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D1
+The woods continue to the east.
+~
+~
+0 -1 26202
+D2
+The woods continue to the south.
+~
+~
+0 -1 26205
+S
+#26202
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continues to the south.
+~
+~
+0 -1 26206
+D3
+The woods continues to the west.
+~
+~
+0 -1 26201
+S
+#26203
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  To the
+north you can see the spires of a huge castle rising high above the forest
+around you.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26208
+S
+#26204
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D1
+The woods continue to the east.
+~
+~
+0 -1 26205
+D2
+The woods continue to the south.
+~
+~
+0 -1 26209
+S
+#26205
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26201
+D1
+The woods continue to the east.
+~
+~
+0 -1 26206
+D2
+The woods continue to the south.
+~
+~
+0 -1 26210
+D3
+The woods continue to the west.
+~
+~
+0 -1 26204
+S
+#26206
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26202
+D1
+The woods continue to the east.
+~
+~
+0 -1 26207
+D2
+The woods continue to the south.
+~
+~
+0 -1 26211
+D3
+The woods continue to the west.
+~
+~
+0 -1 26205
+S
+#26207
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26212
+D3
+The woods continue to the west.
+~
+~
+0 -1 26206
+S
+#26208
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26203
+D2
+The woods continue to the south.
+~
+~
+0 -1 26226
+D3
+The woods continue to the west.
+~
+~
+0 -1 26222
+S
+#26209
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26204
+D1
+The woods continue to the east.
+~
+~
+0 -1 26210
+D2
+The woods continue to the south.
+~
+~
+0 -1 26214
+S
+#26210
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26205
+D1
+The woods continue to the east.
+~
+~
+0 -1 26211
+D2
+The woods continue to the south.
+~
+~
+0 -1 26215
+D3
+The woods continue to the west.
+~
+~
+0 -1 26209
+S
+#26211
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26206
+D1
+The woods continue to the east.
+~
+~
+0 -1 26212
+D2
+The woods continue to the south.
+~
+~
+0 -1 26216
+D3
+The woods continue to the west.
+~
+~
+0 -1 26210
+S
+#26212
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26207
+D1
+The woods continue to the east.
+~
+~
+0 -1 26213
+D2
+The woods continue to the south.
+~
+~
+0 -1 26217
+D3
+The woods continue on to the west.
+~
+~
+0 -1 26211
+S
+#26213
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26218
+D3
+The woods continue to the west.
+~
+~
+0 -1 26212
+S
+#26214
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26209
+D1
+The woods continue to the east.
+~
+~
+0 -1 26215
+D2
+The woods continue to the south.
+~
+~
+0 -1 26232
+S
+#26215
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26210
+D1
+The woods continue to the east.
+~
+~
+0 -1 26216
+D2
+The woods continue to the south.
+~
+~
+0 -1 26219
+D3
+The woods continue to the west.
+~
+~
+0 -1 26214
+S
+#26216
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26211
+D1
+The woods continue to the east.
+~
+~
+0 -1 26217
+D2
+The woods continue to the south.
+~
+~
+0 -1 26220
+D3
+The woods continue to the west.
+~
+~
+0 -1 26215
+S
+#26217
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26212
+D1
+The woods continue to the east.
+~
+~
+0 -1 26218
+D2
+The woods continue to the south.
+~
+~
+0 -1 -1
+D3
+The woods continue to the west.
+~
+~
+0 -1 26216
+S
+#26218
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26213
+D1
+Broad plains spread out to the east.
+~
+~
+0 -1 -1
+D2
+Broad plains spread out to the south.
+~
+~
+0 -1 -1
+D3
+The woods continue to the west.
+~
+~
+0 -1 26217
+S
+#26219
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26215
+D1
+The woods continue to the east.
+~
+~
+0 -1 26220
+D3
+The woods continue to the west.
+~
+~
+0 -1 26232
+S
+#26220
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26216
+D1
+The woods continue to the east.
+~
+~
+0 -1 -1
+D2
+The woods continue to the south.
+~
+~
+0 -1 26244
+D3
+The woods continue to the west.
+~
+~
+0 -1 26219
+S
+#26221
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D1
+The woods continue to the east.
+~
+~
+0 -1 26222
+D2
+The woods continue to the south.
+~
+~
+0 -1 26224
+S
+#26222
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D1
+The woods continue to the east.
+~
+~
+0 -1 26208
+D2
+The woods continue to the south.
+~
+~
+0 -1 26225
+D3
+The woods continue to the west.
+~
+~
+0 -1 26221
+S
+#26223
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D1
+The woods continue to the east.
+~
+~
+0 -1 26224
+D2
+The woods continue to the south.
+~
+~
+0 -1 26228
+S
+#26224
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continues to the north.
+~
+~
+0 -1 26221
+D1
+The woods continues to the east.
+~
+~
+0 -1 26225
+D2
+The woods continues to the south.
+~
+~
+0 -1 26229
+D3
+The woods continue to the west.
+~
+~
+0 -1 26223
+S
+#26225
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continues to the north.
+~
+~
+0 -1 26222
+D1
+The woods continues to the east.
+~
+~
+0 -1 26226
+D2
+The woods continue to the south.
+~
+~
+0 -1 26230
+D3
+The woods continus to the west.
+~
+~
+0 -1 26224
+S
+#26226
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26208
+D2
+The woods continue to the south.
+~
+~
+0 -1 26231
+D3
+The woods continue to the west.
+~
+~
+0 -1 26225
+S
+#26227
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D1
+The woods continue to the east.
+~
+~
+0 -1 26228
+D2
+The woods continue to the south.
+~
+~
+0 -1 26233
+S
+#26228
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26223
+D1
+The woods continue to the east.
+~
+~
+0 -1 26229
+D2
+The woods continue to the south.
+~
+~
+0 -1 26234
+D3
+The woods continues to the west.
+~
+~
+0 -1 26227
+S
+#26229
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26224
+D1
+The woods continue to the east.
+~
+~
+0 -1 26230
+D2
+The woods continue to the south.
+~
+~
+0 -1 26235
+D3
+The woods continue to the west.
+~
+~
+0 -1 26228
+S
+#26230
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26225
+D1
+The woods continue to the east.
+~
+~
+0 -1 26231
+D2
+The woods continue to the south.
+~
+~
+0 -1 26236
+D3
+The woods continue to the west.
+~
+~
+0 -1 26229
+S
+#26231
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26226
+D1
+The woods continue to the east.
+~
+~
+0 -1 26232
+D2
+The woods continue to the south.
+~
+~
+0 -1 26237
+D3
+The woods continue to the west.
+~
+~
+0 -1 26230
+S
+#26232
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26238
+D3
+The woods continue to the west.
+~
+~
+0 -1 26231
+S
+#26233
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26227
+D1
+The woods continue to the east.
+~
+~
+0 -1 26234
+S
+#26234
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26228
+D1
+The woods continue to the east.
+~
+~
+0 -1 26235
+D3
+The woods continue to the west.
+~
+~
+0 -1 26233
+S
+#26235
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26229
+D1
+The woods continue to the east.
+~
+~
+0 -1 26236
+D2
+The woods continue to the south.
+~
+~
+0 -1 26240
+D3
+The woods continue to the west.
+~
+~
+0 -1 26234
+S
+#26236
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26230
+D1
+The woods continue to the east.
+~
+~
+0 -1 26237
+D2
+The woods continue to the south.
+~
+~
+0 -1 26241
+D3
+The woods continue to the west.
+~
+~
+0 -1 26235
+S
+#26237
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26231
+D1
+The woods continue to the east.
+~
+~
+0 -1 26238
+D2
+The woods continue to the south.
+~
+~
+0 -1 26242
+D3
+The woods continue to the west.
+~
+~
+0 -1 26236
+S
+#26238
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26232
+D1
+The woods continue to the east.
+~
+~
+0 -1 26239
+D2
+The woods continue to the south.
+~
+~
+0 -1 26246
+D3
+The woods continue to the west.
+~
+~
+0 -1 26237
+S
+#26239
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26247
+D3
+The woods continue to the west.
+~
+~
+0 -1 26238
+S
+#26240
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26235
+D1
+The woods continue to the east.
+~
+~
+0 -1 26241
+S
+#26241
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26236
+D1
+The woods continue to the east.
+~
+~
+0 -1 26242
+D3
+The woods continue to the west.
+~
+~
+0 -1 26240
+S
+#26242
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26237
+D1
+The woods continue to the east.
+~
+~
+0 -1 26244
+D2
+The woods continue to the south.
+~
+~
+0 -1 26251
+D3
+The woods continue to the west.
+~
+~
+0 -1 26241
+S
+#26244
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26220
+D1
+The woods continue to the east.
+~
+~
+0 -1 26245
+D2
+The woods continue to the south.
+~
+~
+0 -1 26248
+S
+#26245
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 -1
+D2
+The woods continue to the south.
+~
+~
+0 -1 26249
+D3
+The woods continue to the west.
+~
+~
+0 -1 26244
+S
+#26246
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26238
+D1
+The woods continue to the east.
+~
+~
+0 -1 26247
+D2
+The woods continue to the south.
+~
+~
+0 -1 26252
+D3
+The woods continue to the west.
+~
+~
+0 -1 26242
+S
+#26247
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26239
+D1
+The woods continue to the east.
+~
+~
+0 -1 26248
+D2
+The woods continue to the south.
+~
+~
+0 -1 26253
+D3
+The woods continue to the west.
+~
+~
+0 -1 26246
+S
+#26248
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26254
+D3
+The woods continue to the west.
+~
+~
+0 -1 26247
+S
+#26249
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26245
+D1
+The woods continue to the east.
+~
+~
+0 -1 26250
+D3
+The woods continue to the west.
+~
+~
+0 -1 26254
+S
+#26250
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26256
+S
+#26251
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  A
+large keep lies just west of here.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26242
+D1
+The woods continue to the east.
+~
+~
+0 -1 26252
+S
+#26252
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26246
+D1
+The woods continue to the east.
+~
+~
+0 -1 26253
+D2
+The woods continue to the south.
+~
+~
+0 -1 26258
+D3
+The woods continue to the west.
+~
+~
+0 -1 26251
+S
+#26253
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26247
+D1
+The woods continue to the east.
+~
+~
+0 -1 26254
+D2
+The woods continue to the south.
+~
+~
+0 -1 26259
+D3
+The woods continue to the west.
+~
+~
+0 -1 26252
+S
+#26254
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26248
+D1
+The woods continue to the east.
+~
+~
+0 -1 26255
+D2
+The woods continue to the south.
+~
+~
+0 -1 26260
+D3
+The woods continue to the west.
+~
+~
+0 -1 26253
+S
+#26255
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D2
+The woods continue to the south.
+~
+~
+0 -1 26261
+D3
+The woods continue to the west.
+~
+~
+0 -1 26254
+S
+#26256
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26250
+D1
+Broad plains spread out to the east.
+~
+~
+0 -1 -1
+D2
+Broad plains spread out to the south.
+~
+~
+0 -1 -1
+D3
+The woods continue to the west.
+~
+~
+0 -1 -1
+S
+#26257
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26251
+D1
+The woods continue to the east.
+~
+~
+0 -1 26258
+S
+#26258
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26252
+D3
+The woods continue to the west.
+~
+~
+0 -1 26257
+S
+#26259
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26253
+D1
+The woods continue to the east.
+~
+~
+0 -1 26260
+D3
+The woods continue to the west.
+~
+~
+0 -1 26258
+S
+#26260
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26254
+D1
+The woods continue to the east.
+~
+~
+0 -1 26261
+D3
+The woods continue to the west.
+~
+~
+0 -1 26259
+S
+#26261
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26255
+D2
+The woods continue to the south.
+~
+~
+0 -1 26262
+D3
+The woods continue to the west.
+~
+~
+0 -1 26260
+S
+#26262
+Woods~
+   As your eyes get used to the dimness, you can see a little way to either
+side, a sort of darkend green glimmer.  Ocassionally a slender beam of sun has
+the luck to slip in through some opening in the leaves far above, and still more
+luck in not being caught in the tangled boughs and matted twigs beneath.  
+~
+262 0 3
+D0
+The woods continue to the north.
+~
+~
+0 -1 26261
+S
+#0
+
+#RESETS
+M 0 26205 9 26256 	(a little fox)
+M 0 26205 9 26246 	(a little fox)
+M 0 26205 9 26234 	(a little fox)
+M 0 26205 9 26226 	(a little fox)
+M 0 26205 9 26218 	(a little fox)
+M 0 26205 9 26212 	(a little fox)
+M 0 26205 9 26204 	(a little fox)
+M 0 26204 7 26260 	(a huge grizzly bear)
+E 1 26206 20 12 	(a bear's hide)
+E 1 26207 20 17 	(a bear skull)
+M 0 26204 7 26262 	(a huge grizzly bear)
+E 1 26206 20 12 	(a bear's hide)
+E 1 26207 20 17 	(a bear skull)
+M 0 26204 7 26228 	(a huge grizzly bear)
+E 1 26206 20 12 	(a bear's hide)
+E 1 26207 20 17 	(a bear skull)
+M 0 26204 7 26217 	(a huge grizzly bear)
+E 1 26206 20 12 	(a bear's hide)
+E 1 26207 20 17 	(a bear skull)
+M 0 26204 7 26202 	(a huge grizzly bear)
+E 1 26206 20 12 	(a bear's hide)
+E 1 26207 20 17 	(a bear skull)
+M 0 26203 6 26251 	(an enormous black bear)
+E 1 26205 20 8 	(a Bear's Fang Necklace)
+M 0 26203 6 26231 	(an enormous black bear)
+E 1 26205 20 8 	(a Bear's Fang Necklace)
+M 0 26203 6 26224 	(an enormous black bear)
+E 1 26205 20 8 	(a Bear's Fang Necklace)
+M 0 26203 6 26209 	(an enormous black bear)
+E 1 26205 20 8 	(a Bear's Fang Necklace)
+M 0 26203 6 26244 	(an enormous black bear)
+E 1 26206 20 8 	(a bear's hide)
+M 0 26202 4 26262 	(a timberwolf)
+E 1 26203 20 3 	(a Wolf's Tooth)
+E 1 26204 20 9 	(the Wolf's Paws)
+M 0 26202 4 26227 	(a timberwolf)
+E 1 26203 20 3 	(a Wolf's Tooth)
+E 1 26204 20 9 	(the Wolf's Paws)
+M 0 26202 4 26240 	(a timberwolf)
+E 1 26203 20 3 	(a Wolf's Tooth)
+E 1 26204 20 9 	(the Wolf's Paws)
+M 0 26201 7 26261 	(a rattlesnake)
+E 1 26201 10 13 	(a snake skin belt)
+E 1 26202 10 17 	(a rattlesnake's rattle)
+M 0 26201 7 26257 	(a rattlesnake)
+E 1 26201 10 13 	(a snake skin belt)
+E 1 26202 10 17 	(a rattlesnake's rattle)
+M 0 26201 7 26236 	(a rattlesnake)
+E 1 26201 10 13 	(a snake skin belt)
+E 1 26202 10 17 	(a rattlesnake's rattle)
+M 0 26201 7 26211 	(a rattlesnake)
+E 1 26201 10 13 	(a snake skin belt)
+E 1 26202 10 17 	(a rattlesnake's rattle)
+M 0 26200 6 26242 	(a brown bear)
+E 1 26200 20 16 	(some bear's claws)
+M 0 26200 6 26221 	(a brown bear)
+E 1 26200 20 16 	(some bear's claws)
+M 0 26200 6 26208 	(a brown bear)
+E 1 26200 20 16 	(some bear's claws)
+M 0 26200 6 26201 	(a brown bear)
+E 1 26200 20 16 	(some bear's claws)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

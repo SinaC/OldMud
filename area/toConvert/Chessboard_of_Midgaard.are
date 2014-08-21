@@ -1,0 +1,2053 @@
+#Style Circle
+#AREADATA
+Name Chessboard of Midgaard~
+Builders Exxon~
+VNUMs 3600 3699
+Credits {{None}  CAW    Chessboard of Midgaard~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#3600
+black pawn~
+the Pawn of the Black Court~
+You see a pawn standing here waiting for orders.
+~
+   The Black Pawn looks quite like a small knight without his powerful steed.  
+His armor is shiny and black.  He stands ready to give his life for the Crown.
+
+~
+bcdgh d -400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#3601
+white pawn~
+the Pawn of the White Court~
+You see a pawn standing here waiting for orders.
+~
+   The White Pawn looks quite like a small knight without his powerful steed.  
+His armor is spotless and white.  He stands ready to give his life for the
+Crown.  
+~
+bcdgh d 400 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#3602
+black rook castle~
+the Black Rook~
+In the corner you see a large, black, stone castle on wheels.
+~
+   The Black Rook is a very large man-made tomb on wheels.  Just from the looks
+of it, it will probably be YOUR tomb.  
+~
+bdpqr d -600 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 0
+E
+#3603
+white rook castle~
+the White Rook~
+In the corner you see a large, white, stone castle on wheels.
+~
+   The White Rook is a very large man-made tomb on wheels.  Just from the looks
+of it, it will probably be YOUR tomb.  
+~
+bdpqr d 600 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 0
+E
+#3604
+black knight~
+the Black Knight~
+Here stands a magnificent knight of the dark realm.
+~
+   The Black Knight is here, riding his ebony black war horse.  His eyes flash
+behind his visor in vengence.  
+~
+bdf d -400 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+E
+#3605
+white knight~
+the White Knight~
+Here stands a magnificent knight of the light realm.
+~
+   The White Knight is here, riding his ivory white war horse.  His eyes gleam
+behind his visor in joy.  
+~
+bdf d 400 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+E
+#3606
+black bishop priest~
+the Black Bishop~
+A dark priest stands here.
+~
+   The Black Bishop seems willing to help you straight into your grave so he can
+bless you properly.  
+~
+bd d -500 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 0
+E
+#3607
+white bishop priest~
+the White Bishop~
+A light priest stands here.
+~
+   The White Bishop seems willing to help you in any possible so that he can
+attain a higher spirituality.  
+~
+bd d 500 E
+24 16 -4 4d4+240 4d4+4
+240 57600
+8 8 0
+E
+#3608
+black queen~
+the Black Queen~
+The Black Queen stands here.
+~
+   The Black Queen is a strikingly beautiful woman with pale skin and a mass of
+dark hair that crowns her head like a black cloud.  If looks could kill, you
+would already be dead.  
+~
+bcdfl dh -750 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 0
+E
+#3609
+white queen~
+the White Queen~
+The White Queen stands here.
+~
+   The White Queen is a stunningly beautiful woman with dark skin and a mass of
+light hair that frames her head like the sun.  This is surely love at first
+sight for you.  
+~
+bcdfl dh 750 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 0
+E
+#3610
+black king~
+the Black King~
+The Black King stands here.
+~
+   The Black King is a menacing figure.  You can easily understand why he is the
+king and you are not.  
+~
+bcdefl dh -999 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+E
+#3611
+white king~
+the White King~
+The White King stands here.
+~
+   The White King is a stately figure.  You can easily understand why he is the
+king and you are not.  
+~
+bcdefl dh 999 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+E
+#0
+
+#OBJECTS
+
+#3600
+armour black pawn~
+some Black Pawn Armour~
+A pile of black armour is here.~
+~
+9 j ad 0
+1 0 0 0
+13 300 1 0
+#3601
+armour white pawn~
+some White Pawn Armour~
+A pile of white armour is here.~
+~
+9 k ad 0
+1 0 0 0
+13 300 1 0
+#3602
+sword black pawn~
+a Black Pawn's Sword~
+The sword of a Black Pawn lies here.~
+~
+5 j an 0
+0 3 4 3
+10 100 1 0
+#3603
+sword white pawn~
+a White Pawn's Sword~
+The sword of a White Pawn lies here.~
+~
+5 k an 0
+0 3 4 3
+10 100 1 0
+#3604
+armour black rook~
+some Black Rook Armour~
+Some armour made from the remains of a black rook lies heaped on the floor.~
+~
+9 ahj ad 0
+2 0 0 0
+50 170 5 0
+A
+17 2
+A
+5 1
+#3605
+armour white rook~
+some White Rook Armour~
+Some armour made from the remains of a white rook lies heaped on the floor.~
+~
+9 agk ad 0
+2 0 0 0
+50 170 5 0
+A
+17 2
+A
+5 1
+#3606
+lance black knight~
+the Lance of the Black Knight~
+The Lance of the Black Knight lies here, waiting to rust.~
+~
+5 bgj an 0
+0 3 6 6
+18 100 3 0
+A
+19 2
+A
+23 2
+#3607
+lance white knight~
+the Lance of the White Knight~
+The Lance of the White Knight lies here, waiting to rust.~
+~
+5 bgk an 0
+0 3 6 6
+18 100 3 0
+A
+19 2
+A
+23 2
+#3608
+staff black bishop~
+the Staff of the Black Bishop~
+The Black Bishop's Staff is lying here.~
+~
+4 agj ao 0
+20 5 5 36
+3 200 6 0
+#3609
+staff white bishop~
+the Staff of the White Bishop~
+The White Bishop's Staff is lying here.~
+~
+4 agk ao 0
+20 5 5 36
+3 200 6 0
+#3610
+crown black queen~
+the Crown of the Black Queen~
+The Crown of the Black Queen lies here, looking neglected.~
+~
+9 bgj ae 0
+2 0 0 0
+4 300 5 0
+A
+3 1
+A
+4 1
+#3611
+crown white queen~
+the Crown of the White Queen~
+The Crown of the White Queen lies here, looking neglected.~
+~
+9 bgk ae 0
+2 0 0 0
+4 300 5 0
+A
+3 1
+A
+4 1
+#3612
+sceptre black king~
+the Black King's Sceptre~
+The Sceptre of the Black King lies here, collecting dust.~
+~
+8 bfgj ao 0
+0 0 0 0
+50 850 1 0
+A
+1 1
+A
+18 1
+#3613
+sceptre white king~
+the White King's Sceptre~
+The Sceptre of the White King lies here, collecting dust.~
+~
+8 bfgk ao 0
+0 0 0 0
+50 850 10 0
+A
+1 1
+A
+18 1
+#3614
+key black treasury~
+the Key to the Black Treasury~
+There is a sinister black key lying here.~
+~
+18 cdfq ao 0
+3614 0 0 0
+1 1000 300 0
+#3615
+key white treasury~
+the Key to the White Treasury~
+There is a bright white key lying here.~
+~
+18 cdfq ao 0
+3615 0 0 0
+1 1000 300 0
+#3616
+coins gold black royal treasure~
+the Black Royal Treasure~
+There are a LOT of coins here.~
+~
+20 0 a 0
+1000 0 0 0
+10 1000 0 0
+#3617
+coins gold white royal treasure~
+the White Royal Treasure~
+There are a LOT of coins here.~
+~
+20 0 a 0
+1000 0 0 0
+10 1000 0 0
+#0
+
+#ROOMS
+
+#3600
+The Great Chessboard Of Midgaard~
+   You stand in the archway of the Chessboard of Midgaard.  The giant
+wooden gate is rusted open.
+   A narrow dirt path leads eastwards into the thick grass and the
+chessboard opens up to the west.
+~
+36 c 1
+D1
+A dirt path leads away through the great field north of Midgaard.
+~
+~
+0 -1 3066
+D3
+The huge chessboard opens up to the west.
+~
+~
+0 -1 3632
+S
+#3601
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the Black Queen's Rook.
+~
+36 0 1
+D1
+A black square lies to the east.
+~
+~
+0 -1 3602
+D2
+A black square lies to the south.
+~
+~
+0 -1 3609
+S
+#3602
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the Black Queen's Knight.
+~
+36 0 1
+D1
+A white square lies to the east.
+~
+~
+0 -1 3603
+D2
+A white square lies to the south.
+~
+~
+0 -1 3610
+D3
+A white square lies to the west.
+~
+~
+0 -1 3601
+S
+#3603
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the Black Queen's Bishop.
+~
+36 0 1
+D1
+A black square lies to the east.
+~
+~
+0 -1 3604
+D2
+A black square lies to the south.
+~
+~
+0 -1 3611
+D3
+A black square lies to the west.
+~
+~
+0 -1 3602
+S
+#3604
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the Black Queen.
+~
+36 0 1
+D1
+A white square lies to the east.
+~
+~
+0 -1 3605
+D2
+A white square lies to the south.
+~
+~
+0 -1 3612
+D3
+A white square lies to the west.
+~
+~
+0 -1 3603
+D5
+~
+marble square~
+2 3614 3665
+S
+#3605
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the Black King.
+~
+36 0 1
+D1
+A black square lies to the east.
+~
+~
+0 -1 3606
+D2
+A black square lies to the south.
+~
+~
+0 -1 3613
+D3
+A black square lies to the west.
+~
+~
+0 -1 3604
+S
+#3606
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the Black King's Bishop.
+~
+36 0 1
+D1
+A white square lies to the east.
+~
+~
+0 -1 3607
+D2
+A white square lies to the south.
+~
+~
+0 -1 3614
+D3
+A white square lies to the west.
+~
+~
+0 -1 3605
+S
+#3607
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the Black King's Knight.
+~
+36 0 1
+D1
+A black square lies to the east.
+~
+~
+0 -1 3608
+D2
+A black square lies to the south.
+~
+~
+0 -1 3615
+D3
+A black square lies to the west.
+~
+~
+0 -1 3606
+S
+#3608
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the Black King's Rook.
+~
+36 0 1
+D2
+A white square lies to the south.
+~
+~
+0 -1 3616
+D3
+A white square lies to the west.
+~
+~
+0 -1 3607
+S
+#3609
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3601
+D1
+A white square lies to the east.
+~
+~
+0 -1 3610
+D2
+A white square lies to the south.
+~
+~
+0 -1 3617
+S
+#3610
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3602
+D1
+A black square lies to the east.
+~
+~
+0 -1 3611
+D2
+A black square lies to the south.
+~
+~
+0 -1 3618
+D3
+A black square lies to the west.
+~
+~
+0 -1 3609
+S
+#3611
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3603
+D1
+A white square lies to the east.
+~
+~
+0 -1 3612
+D2
+A white square lies to the south.
+~
+~
+0 -1 3619
+D3
+A white square lies to the west.
+~
+~
+0 -1 3610
+S
+#3612
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the Black Queen's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3604
+D1
+A black square lies to the east.
+~
+~
+0 -1 3613
+D2
+A black square lies to the south.
+~
+~
+0 -1 3620
+D3
+A black square lies to the west.
+~
+~
+0 -1 3611
+S
+#3613
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the Black King's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3605
+D1
+A white square lies to the east.
+~
+~
+0 -1 3614
+D2
+A white square lies to the south.
+~
+~
+0 -1 3621
+D3
+A white square lies to the west.
+~
+~
+0 -1 3612
+S
+#3614
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the Black King's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3606
+D1
+A black square lies to the east.
+~
+~
+0 -1 3615
+D2
+A black square lies to the south.
+~
+~
+0 -1 3622
+D3
+A black square lies to the west.
+~
+~
+0 -1 3613
+S
+#3615
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the Black King's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3607
+D1
+A white square lies to the east.
+~
+~
+0 -1 3616
+D2
+A white square lies to the south.
+~
+~
+0 -1 3623
+D3
+A white square lies to the west.
+~
+~
+0 -1 3614
+S
+#3616
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the Black King's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3608
+D2
+A black square lies to the south.
+~
+~
+0 -1 3624
+D3
+A black square lies to the west.
+~
+~
+0 -1 3615
+S
+#3617
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3609
+D1
+A black square lies to the east.
+~
+~
+0 -1 3618
+D2
+A black square lies to the south.
+~
+~
+0 -1 3625
+S
+#3618
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3610
+D1
+A white square lies to the east.
+~
+~
+0 -1 3619
+D2
+A white square lies to the south.
+~
+~
+0 -1 3626
+D3
+A white square lies to the west.
+~
+~
+0 -1 3617
+S
+#3619
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3611
+D1
+A black square lies to the east.
+~
+~
+0 -1 3620
+D2
+A black square lies to the south.
+~
+~
+0 -1 3627
+D3
+A black square lies to the west.
+~
+~
+0 -1 3618
+S
+#3620
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3612
+D1
+A white square lies to the east.
+~
+~
+0 -1 3621
+D2
+A white square lies to the south.
+~
+~
+0 -1 3628
+D3
+A white square lies to the west.
+~
+~
+0 -1 3619
+S
+#3621
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3613
+D1
+A black square lies to the east.
+~
+~
+0 -1 3622
+D2
+A black square lies to the south.
+~
+~
+0 -1 3629
+D3
+A black square lies to the west.
+~
+~
+0 -1 3620
+S
+#3622
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3614
+D1
+A white square lies to the east.
+~
+~
+0 -1 3623
+D2
+A white square lies to the south.
+~
+~
+0 -1 3630
+D3
+A white square lies to the west.
+~
+~
+0 -1 3621
+S
+#3623
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3615
+D1
+A black square lies to the east.
+~
+~
+0 -1 3624
+D2
+A black square lies to the south.
+~
+~
+0 -1 3631
+D3
+A black square lies to the west.
+~
+~
+0 -1 3622
+S
+#3624
+A Black Square~
+   You are standing on a black marble square.  You can see a rusty gate
+to the south.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3616
+D2
+A white square lies to the south.
+~
+~
+0 -1 3632
+D3
+A white square lies to the west.
+~
+~
+0 -1 3623
+S
+#3625
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3617
+D1
+A white square lies to the east.
+~
+~
+0 -1 3626
+D2
+A white square lies to the south.
+~
+~
+0 -1 3633
+S
+#3626
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3618
+D1
+A black square lies to the east.
+~
+~
+0 -1 3627
+D2
+A black square lies to the south.
+~
+~
+0 -1 3634
+D3
+A black square lies to the west.
+~
+~
+0 -1 3625
+S
+#3627
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3619
+D1
+A white square lies to the east.
+~
+~
+0 -1 3628
+D2
+A white square lies to the south.
+~
+~
+0 -1 3635
+D3
+A white square lies to the west.
+~
+~
+0 -1 3626
+S
+#3628
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3620
+D1
+A black square lies to the east.
+~
+~
+0 -1 3629
+D2
+A black square lies to the south.
+~
+~
+0 -1 3636
+D3
+A black square lies to the west.
+~
+~
+0 -1 3627
+S
+#3629
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3621
+D1
+A white square lies to the east.
+~
+~
+0 -1 3630
+D2
+A white square lies to the south.
+~
+~
+0 -1 3637
+D3
+A white square lies to the west.
+~
+~
+0 -1 3628
+S
+#3630
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3622
+D1
+A black square lies to the east.
+~
+~
+0 -1 3631
+D2
+A black square lies to the south.
+~
+~
+0 -1 3638
+D3
+A black square lies to the west.
+~
+~
+0 -1 3629
+S
+#3631
+A Black Square~
+   You are standing on a black marble square.  There is a rusty gate
+a short distance to the east.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3623
+D1
+A white square lies to the east.
+~
+~
+0 -1 3632
+D2
+A white square lies to the south.
+~
+~
+0 -1 3639
+D3
+A white square lies to the west.
+~
+~
+0 -1 3630
+S
+#3632
+A White Square~
+   You are standing on a white marble square.  There is a large rusty
+gate to the east.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3624
+D1
+The gate to the chessboard is just to the east.
+~
+~
+0 -1 3600
+D2
+A black square lies to the south.
+~
+~
+0 -1 3640
+D3
+A black square lies to the west.
+~
+~
+0 -1 3631
+S
+#3633
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3625
+D1
+A black square lies to the east.
+~
+~
+0 -1 3634
+D2
+A black square lies to the south.
+~
+~
+0 -1 3641
+S
+#3634
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3626
+D1
+A white square lies to the east.
+~
+~
+0 -1 3635
+D2
+A white square lies to the south.
+~
+~
+0 -1 3642
+D3
+A white square lies to the west.
+~
+~
+0 -1 3633
+S
+#3635
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3627
+D1
+A black square lies to the east.
+~
+~
+0 -1 3636
+D2
+A black square lies to the south.
+~
+~
+0 -1 3643
+D3
+A black square lies to the west.
+~
+~
+0 -1 3634
+S
+#3636
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3628
+D1
+A white square lies to the east.
+~
+~
+0 -1 3637
+D2
+A white square lies to the south.
+~
+~
+0 -1 3644
+D3
+A white square lies to the west.
+~
+~
+0 -1 3635
+S
+#3637
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3629
+D1
+A black square lies to the east.
+~
+~
+0 -1 3638
+D2
+A black square lies to the south.
+~
+~
+0 -1 3645
+D3
+A black square lies to the west.
+~
+~
+0 -1 3636
+S
+#3638
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3630
+D1
+A white square lies to the east.
+~
+~
+0 -1 3639
+D2
+A white square lies to the south.
+~
+~
+0 -1 3646
+D3
+A white square lies to the west.
+~
+~
+0 -1 3637
+S
+#3639
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3631
+D1
+A black square lies to the east.
+~
+~
+0 -1 3640
+D2
+A black square lies to the south.
+~
+~
+0 -1 3647
+D3
+A black square lies to the west.
+~
+~
+0 -1 3638
+S
+#3640
+A Black Square~
+   You are standing on a black marble square.  There is a rusty gate
+to the north.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3632
+D2
+A white square lies to the south.
+~
+~
+0 -1 3648
+D3
+A white square lies to the west.
+~
+~
+0 -1 3639
+S
+#3641
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3633
+D1
+A white square lies to the east.
+~
+~
+0 -1 3642
+D2
+A white square lies to the south.
+~
+~
+0 -1 3649
+S
+#3642
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3634
+D1
+A black square lies to the east.
+~
+~
+0 -1 3643
+D2
+A black square lies to the south.
+~
+~
+0 -1 3650
+D3
+A black square lies to the west.
+~
+~
+0 -1 3641
+S
+#3643
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3635
+D1
+A white square lies to the east.
+~
+~
+0 -1 3644
+D2
+A white square lies to the south.
+~
+~
+0 -1 3651
+D3
+A white square lies to the west.
+~
+~
+0 -1 3642
+S
+#3644
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3636
+D1
+A black square lies to the east.
+~
+~
+0 -1 3645
+D2
+A black square lies to the south.
+~
+~
+0 -1 3652
+D3
+A black square lies to the west.
+~
+~
+0 -1 3643
+S
+#3645
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3637
+D1
+A white square lies to the east.
+~
+~
+0 -1 3646
+D2
+A white square lies to the south.
+~
+~
+0 -1 3653
+D3
+A white square lies to the west.
+~
+~
+0 -1 3644
+S
+#3646
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3638
+D1
+A black square lies to the east.
+~
+~
+0 -1 3647
+D2
+A black square lies to the south.
+~
+~
+0 -1 3654
+D3
+A black square lies to the west.
+~
+~
+0 -1 3645
+S
+#3647
+A Black Square~
+   You are standing on a black marble square.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3639
+D1
+A white square lies to the east.
+~
+~
+0 -1 3648
+D2
+A white square lies to the south.
+~
+~
+0 -1 3655
+D3
+A white square lies to the west.
+~
+~
+0 -1 3646
+S
+#3648
+A White Square~
+   You are standing on a white marble square.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3640
+D2
+A black square lies to the south.
+~
+~
+0 -1 3656
+D3
+A black square lies to the west.
+~
+~
+0 -1 3647
+S
+#3649
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the White Queen's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3641
+D1
+A black square lies to the east.
+~
+~
+0 -1 3650
+D2
+A black square lies to the south.
+~
+~
+0 -1 3657
+S
+#3650
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the White Queen's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3642
+D1
+A white square lies to the east.
+~
+~
+0 -1 3651
+D2
+A white square lies to the south.
+~
+~
+0 -1 3658
+D3
+A white square lies to the west.
+~
+~
+0 -1 3649
+S
+#3651
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the White Queen's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3643
+D1
+A black square lies to the east.
+~
+~
+0 -1 3652
+D2
+A black square lies to the south.
+~
+~
+0 -1 3659
+D3
+A black square lies to the west.
+~
+~
+0 -1 3650
+S
+#3652
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the White Queen's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3644
+D1
+A white square lies to the east.
+~
+~
+0 -1 3653
+D2
+A white square lies to the south.
+~
+~
+0 -1 3660
+D3
+A white square lies to the west.
+~
+~
+0 -1 3651
+S
+#3653
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the White King's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3645
+D1
+A black square lies to the east.
+~
+~
+0 -1 3654
+D2
+A black square lies to the south.
+~
+~
+0 -1 3661
+D3
+A black square lies to the west.
+~
+~
+0 -1 3652
+S
+#3654
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the White King's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3646
+D1
+A white square lies to the east.
+~
+~
+0 -1 3655
+D2
+A white square lies to the south.
+~
+~
+0 -1 3662
+D3
+A white square lies to the west.
+~
+~
+0 -1 3653
+S
+#3655
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of one of the White King's Pawns.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3647
+D1
+A black square lies to the east.
+~
+~
+0 -1 3656
+D2
+A black square lies to the south.
+~
+~
+0 -1 3663
+D3
+A black square lies to the west.
+~
+~
+0 -1 3654
+S
+#3656
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of one of the White King's Pawns.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3648
+D2
+A white square lies to the south.
+~
+~
+0 -1 3664
+D3
+A white square lies to the west.
+~
+~
+0 -1 3655
+S
+#3657
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the White Queen's Rook.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3649
+D1
+A white square lies to the east.
+~
+~
+0 -1 3658
+S
+#3658
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the White Queen's Knight.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3650
+D1
+A black square lies to the east.
+~
+~
+0 -1 3659
+D3
+A black square lies to the west.
+~
+~
+0 -1 3657
+S
+#3659
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the White Queen's Bishop.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3651
+D1
+A white square lies to the east.
+~
+~
+0 -1 3660
+D3
+A white square lies to the west.
+~
+~
+0 -1 3658
+S
+#3660
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the White Queen.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3652
+D1
+A black square lies to the east.
+~
+~
+0 -1 3661
+D3
+A black square lies to the west.
+~
+~
+0 -1 3659
+D5
+~
+marble square~
+2 3615 3666
+S
+#3661
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the White King.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3653
+D1
+A white square lies to the east.
+~
+~
+0 -1 3662
+D3
+A white square lies to the west.
+~
+~
+0 -1 3660
+S
+#3662
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the White King's Bishop.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3654
+D1
+A black square lies to the east.
+~
+~
+0 -1 3663
+D3
+A black square lies to the west.
+~
+~
+0 -1 3661
+S
+#3663
+A Black Square~
+   You are standing on a black marble square.  This is usually the home
+of the White King's Knight.
+~
+36 0 1
+D0
+A white square lies to the north.
+~
+~
+0 -1 3655
+D1
+A white square lies to the east.
+~
+~
+0 -1 3664
+D3
+A white square lies to the west.
+~
+~
+0 -1 3662
+S
+#3664
+A White Square~
+   You are standing on a white marble square.  This is usually the home
+of the White King's Rook.
+~
+36 0 1
+D0
+A black square lies to the north.
+~
+~
+0 -1 3656
+D3
+A black square lies to the west.
+~
+~
+0 -1 3663
+S
+#3665
+The Black Treasury~
+   You are standing in the treasury of the Black Court.  Hopefully no one 
+has looted the Crown's treasure.
+~
+36 adj 0
+D4
+A small staircase rises above you.
+~
+marble square~
+2 3614 3604
+S
+#3666
+The White Treasury~
+   You are standing in the treasury of the White Court.  Hopefully no one 
+has looted the Crown's treasure.
+~
+36 adj 0
+D4
+A small staircase rises above you.
+~
+marble square~
+2 3615 3660
+S
+#0
+
+#RESETS
+M 0 3600 8 3609 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3600 8 3610 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3600 8 3611 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3600 8 3612 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3600 8 3613 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3600 8 3614 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3600 8 3615 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3600 8 3616 	(the Pawn of the Black Court)
+E 1 3600 8 5 	(some Black Pawn Armour)
+E 1 3602 8 16 	(a Black Pawn's Sword)
+M 0 3601 8 3649 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3601 8 3650 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3601 8 3651 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3601 8 3652 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3601 8 3653 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3601 8 3654 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3601 8 3655 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3601 8 3656 	(the Pawn of the White Court)
+E 1 3601 8 5 	(some White Pawn Armour)
+E 1 3603 8 16 	(a White Pawn's Sword)
+M 0 3602 2 3601 	(the Black Rook)
+E 1 3604 2 5 	(some Black Rook Armour)
+M 0 3602 2 3608 	(the Black Rook)
+E 1 3604 2 5 	(some Black Rook Armour)
+M 0 3603 2 3657 	(the White Rook)
+E 1 3605 2 5 	(some White Rook Armour)
+M 0 3603 2 3664 	(the White Rook)
+E 1 3605 2 5 	(some White Rook Armour)
+M 0 3604 2 3602 	(the Black Knight)
+E 1 3606 2 16 	(the Lance of the Black Knight)
+M 0 3604 2 3607 	(the Black Knight)
+E 1 3606 2 16 	(the Lance of the Black Knight)
+M 0 3605 2 3658 	(the White Knight)
+E 1 3607 2 16 	(the Lance of the White Knight)
+M 0 3605 2 3663 	(the White Knight)
+E 1 3607 2 16 	(the Lance of the White Knight)
+M 0 3606 2 3603 	(the Black Bishop)
+E 1 3608 2 17 	(the Staff of the Black Bishop)
+M 0 3606 2 3606 	(the Black Bishop)
+E 1 3608 2 17 	(the Staff of the Black Bishop)
+M 0 3607 2 3659 	(the White Bishop)
+E 1 3609 2 17 	(the Staff of the White Bishop)
+M 0 3607 2 3662 	(the White Bishop)
+E 1 3609 2 17 	(the Staff of the White Bishop)
+M 0 3608 1 3604 	(the Black Queen)
+E 1 3610 1 6 	(the Crown of the Black Queen)
+M 0 3609 1 3660 	(the White Queen)
+E 1 3611 1 6 	(the Crown of the White Queen)
+M 0 3610 1 3605 	(the Black King)
+E 1 3612 1 17 	(the Black King's Sceptre)
+G 1 3614 1 -1 	(the Key to the Black Treasury)
+M 0 3611 1 3661 	(the White King)
+E 1 3613 1 17 	(the White King's Sceptre)
+G 1 3615 1 -1 	(the Key to the White Treasury)
+O 0 3616 1 3665 	(the Black Royal Treasure)
+O 0 3617 1 3666 	(the White Royal Treasure)
+D 0 3604 5 2 	(A Black Square)
+D 0 3665 4 2 	(The Black Treasury)
+D 0 3660 5 2 	(A White Square)
+D 0 3666 4 2 	(The White Treasury)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

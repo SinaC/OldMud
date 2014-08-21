@@ -1,0 +1,2461 @@
+#Style Circle
+#AREADATA
+Name Baron Cailveh~
+Builders Kaan~
+VNUMs 30800 30899
+Credits {{None}  CAW    Baron Cailveh~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#30800
+cailveh baron~
+the Baron Cailveh~
+The Baron lounges in his favorite chair, reading from a thick book.
+~
+   He is a short, stocky man who looks as if he might need a bit of shaping up
+to be called 'in shape'.  His eyes are a bit hollowed, as are most men's eyes
+spent too long reading from books.  His hair is all but vanished except for two
+thin lines on the sides of his head.    
+~
+bdo 0 800 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#30801
+melinna cailvah's wife baroness~
+Melinna, the Baroness~
+Melinna, Cailveh's wife, holds court for her absent husband.
+~
+   Most of the day-to-day runnings of the court are left to Melinna, a very
+skilled and shrewd politician.  It is an unspoken agreement between the Baron
+and his wife that she deal with the more mundane matters so that he might
+continue his studies without significant interruption.    
+~
+bdno 0 900 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+#30802
+gilzaan son eldest~
+Gilzaan~
+Cailveh's eldest son, Gilzaan, walk about meeting and greeting the people.
+~
+   It is Gilzaan who will eventually succeed to the title of Baron when Cailveh
+and his wife have passed on.  Gilzaan does not take this responsibility
+lightly, and makes it a point to make himself known to as many of the prominent
+men of the area that he can.    
+~
+dglm 0 500 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#30803
+necromocis son younger~
+Necromocis~
+Necromocis, Cailveh's youngest son, works diligently at one of the tables.
+~
+   Although not as large of frame or imposing as his older brother, Necromocis
+has his strength in other areas.  He has a highly developed intellect, bred
+from many years of study and dedication.  His father's work with healing will
+certainly go on even after his father has passed on.    
+~
+bdmo 0 600 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+#30804
+atronomer court~
+the court astronomer~
+The court astronomer peers with one eye closed through the telescope.
+~
+   He is a withered old man, who doesn't appear to have much longer in this
+plane of existance.  He scratches notes in a small pad of paper every now and
+again.    
+~
+bd 0 300 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#30805
+servant quiet~
+a quiet servant~
+A quiet servant glides about the tower, keeping the guests happy.
+~
+   He is a stately old gentleman with long, fine wisps of hair that delicately
+brush the back of his coat.    
+~
+cdg 0 400 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#30806
+man robed~
+a robed man~
+A robed man patiently awaits his time to speak with the Baron.
+~
+   He stands within the comfortable confines of the tower, yet he wears a
+thick, full robe of dark wool with the hood pulled up over his head.  He
+radiates a very mysterious aura.    
+~
+bd 0 -500 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+#30807
+petitioner humble~
+a humble petitioner~
+A humble petitioner pleads his cause with the Baroness.
+~
+   He looks as if he might be a woodcutter or perhaps a simple worker, however
+he bravely stands his ground and speaks with a strong voice to the Baroness.  
+~
+bd 0 400 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30808
+owner land arrogant~
+an arrogant land owner~
+An arrogant land owner noisily clears her throat as she waits in annoyance.
+~
+   She wears only the finest of clothing upon her body, making excellent use of
+her bodice so that she might coury even more favor with the locals.  It ain't
+workin'.    
+~
+bd 0 200 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 2
+E
+#30809
+farmer pious~
+a pious farmer~
+A pious farmer patiently awaits his audience with his head bowed.
+~
+   He holds his rumpled hat in his hands, fretfully twisting and turning it in
+nervous anticipation.    
+~
+bd 0 600 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#30810
+assistant lab~
+a lab assistant~
+A lab assistant works about the tables, mixing various chemicals.
+~
+   She looks to be about middle-aged with severe features which almost seem to
+be held in place with an iron will.  Her work is her life.    
+~
+bd 0 600 E
+32 15 -9 6d6+320 5d5+5
+320 102400
+8 8 2
+E
+#30811
+guard door holy warrior~
+a door guard~
+A door guard stands post at the door, clicking his heels sharply as you enter.
+~
+   He looks more for decoration and ceremony than anything else, but he
+certainly seems to take his job very seriously.    
+~
+bd 0 400 E
+32 15 -9 6d6+320 5d5+5
+320 102400
+8 8 1
+E
+#30812
+maid chamber~
+a chamber maid~
+A chamber maid efficiently cleans and organizes the room.
+~
+   She hums as she works, apparently enjoying what she does for a living a
+great deal.  She apparent hasn't noticed your entry into the room.    
+~
+bd 0 600 E
+31 15 -8 6d6+310 5d5+5
+310 96100
+8 8 2
+E
+#30813
+cousin visiting~
+a visiting cousin~
+A visiting cousin leans back contentedly in his chair, enjoying a meal.
+~
+   It looks like this one may have run low on funds and knew that good old
+Cailveh would come through with a few meals and maybe a bit of spare change for
+the road.    
+~
+bdlo 0 100 E
+31 15 -8 6d6+310 5d5+5
+310 96100
+8 8 1
+E
+#30814
+farmhand man old~
+an old farmhand~
+An old farmhand makes his way about the barn, going through his work day.
+~
+   He walks slightly unched over with a bad back, but he still seems to be able
+to perform his regular duties without much trouble.  He notices you looking his
+way and gives a smile and a wink.    
+~
+bd 0 500 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#30815
+cow fat~
+a fat cow~
+A fat cow waddles about, lazily chewing on some grass.
+~
+   No matter how long you stare, it still looks like nothing more than a big
+fat cow chewing grass.    
+~
+dg 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 0
+E
+#30816
+wife housewife busy~
+a busy housewife~
+A busy housewife skitters about the house, cleaning everything.
+~
+   She must not have seen you enter yet or else your shoes would be *off*.    
+~
+bd 0 400 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 2
+E
+#30817
+farmer snoozing~
+a snoozing farmer~
+A farmer snoozes in his favorite chair, his nose hairs vibrating as he snores.
+~
+   He is your average typical farmer - a tall, lanky guy dressed in servicable
+clothing that smells of cow.    
+~
+bd 0 400 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#30818
+woodsman lounging~
+a lounging woodsman~
+A woodsman, still dressed in his work clothes, lounges iin a chair.
+~
+   He looks so relaxed there in that chair - is it really necessary to kill the
+poor chap?    
+~
+bd 0 300 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#30819
+man old humble~
+a humble old man~
+An old man sits humbly in an old wooden chair staring up at you.
+~
+   He almost looks as if he might have something to say, but he just sits
+there, mouth half open and quiet.    
+~
+bd 0 400 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30820
+housewife wife quiet~
+a quiet housewife~
+A poor, quiet housewife looks up in fear as you enter into her home.
+~
+   She says nothing, only stares at you with fear-filled eyes.    
+~
+bd 0 800 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 2
+E
+#30821
+man eating~
+an eating man~
+A man sits at his small table, eating the last part of a meal.
+~
+   He nods at you as you enter into his home, a slightly confused expression on
+his face.    
+~
+bd 0 499 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#30822
+marm school~
+the school marm~
+The school marm sits at her desk, scribbling some notes.
+~
+   She barely glances at you as you enter, giving you a 'May I help you?  '
+sort of look.    
+~
+bd 0 800 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#30823
+barkeep~
+the barkeep~
+The barkeep gives you a warm smile and bids you welcome.
+~
+   He waves his arm expansively at one of his many tables, bidding that you sit
+down, relax a while and enjoy a fine meal.    
+~
+bd 0 400 E
+31 15 -8 6d6+310 5d5+5
+310 96100
+8 8 1
+E
+#30824
+man storyteller expansive~
+an expansive storyteller~
+A man speaks in a loud voice, telling tales of heroism and bravery.
+~
+   The stories are not of his own adventures, but of those made by the
+characters of his stories.  Whether these people he tells of ever lived is a
+tale in itself, but it matters little - the stories are all good.    
+~
+bd 0 400 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#30825
+man lounging~
+a man~
+A man lounges back in a chair, listening good-naturedly to the storyteller.
+~
+   His eyes look only a little bleary - undoubtedly he has had some of the
+Hall's finest after a long day's work.    
+~
+bd 0 600 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#30826
+man gentleman well dressed~
+a well-dressed gentleman~
+A well-dressed gentleman sits at the bar, sipping a tankard of ale.
+~
+   He appears to be keeping to himself, having no desire to interact with
+anyone.  He is obviously not a local.    
+~
+bd 0 100 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+E
+#30827
+woman flirtatious~
+a flirtatious woman~
+A woman leans over her small table, smiling up at the storyteller.
+~
+   She never takes her eyes from him, intent on his story and intent on showing
+as much of her bosom as she might be able to.    
+~
+bd 0 300 E
+32 15 -9 6d6+320 5d5+5
+320 102400
+8 8 2
+E
+#30828
+Calintra herbalist~
+Calintra~
+Calintra the herbalist grinds some herbs in a bowl, smiling as you enter.
+~
+   Calintra is a young woman for the standards of most of the business owners
+in the towne, and beautiful as well.  Her long, dark hair falls in her face as
+grinds the herbs, causing her to brush it back with her fingers every so often.
+~
+bdnopr 0 600 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 2
+E
+#30829
+salaylia kind woman~
+Salaylia~
+A kind, plump woman beams a broad smile your way as you enter the restaurant.
+~
+   She wipes her hands on an apron, happily clucking over you as she leads you
+toward an empty table.    
+~
+bdnopr 0 800 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#30830
+smithy man~
+the towne smithy~
+A short, stocky man grinds at a piece of steel.
+~
+   Save for his shortness of stature, this man is exactly what you might
+envision a blacksmith to look like.  Strong, gruff, a bit dirty - this man is
+it.    
+~
+bd 0 400 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#30831
+apothecary master~
+the master apothecary~
+The master apothecary is here, resting in a comfortable chair.
+~
+   It looks as if he must have already done the brunt of his work for the day
+and is now taking the time to rest and relax a bit.    
+~
+bdnopr 0 300 E
+31 15 -8 6d6+310 5d5+5
+310 96100
+8 8 1
+E
+#30832
+mochaaska~
+Mochaaska~
+Mochaaska stands amid his many fine barrels of water, smiling you way.
+~
+   Mochaaska is obviously not originally from these parts.  His skin is of a
+darker complexion, his teeth very large and white.    
+~
+bdnopr 0 400 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#30833
+owner store~
+the store owner~
+The owner of the store wipes down her main counter, keeping things clean.
+~
+   She glances up at you as you enter, giving you a nod and leaving you to
+browse for yourself.    
+~
+bdnopr 0 300 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#30834
+minister towne~
+the towne minister~
+The towne minister waddles past, sweat pouring from his every gland.
+~
+   Although everyone is well aware of the minister's ill health, no one can
+convince him to abstain from his daily rounds.  Every day, he walks about the
+settlement giving ministery to those who might need it, talking to those who
+might wish to sit and talk a while.  And every day, he looks just a little
+worse for the wear.    
+~
+dg 0 900 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#30835
+townesman man~
+a townesman~
+A townesman makes his way through the settlement.
+~
+   He looks as if he couldn't be much happier - bright and cheery, full of
+vigor.    
+~
+dg 0 600 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#30836
+young lass~
+a young lass~
+A young lass skips past, her pigtails bouncing.
+~
+   Her freckled face squinches up at you in a smile.  She winks and skips right
+on past.    
+~
+dg 0 800 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#30837
+tailor man~
+the tailor~
+The tailor awaits to serve you.
+~
+   He says nothing to you, only nods a great deal and smiles.    
+~
+bdnopr 0 200 E
+32 15 -9 6d6+320 5d5+5
+320 102400
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#30800
+key old brittle~
+an old and brittle key~
+An old and brittle key lies on the ground.~
+~
+18 c ao 0
+0 0 0 0
+1 10 0 1
+#30801
+flail baron~
+the Baron's Flail~
+A strange, silver flail has been left here.~
+~
+5 0 an 0
+1 6 8 10
+7 560 0 90
+A
+19 5
+A
+18 2
+A
+1 -2
+#30802
+adornment holy white shroud cloth~
+a holy adornment~
+A brilliant white shroud of cloth has been dropped here.~
+~
+9 0 ak 0
+4 0 0 0
+6 10 0 87
+A
+18 3
+A
+1 1
+A
+13 30
+#30803
+bracelet white bead~
+a white bead bracelet~
+A white bead bracelet has been left here.~
+~
+11 0 am 0
+0 0 0 0
+5 10 0 79
+A
+24 -2
+A
+3 2
+A
+19 3
+#30804
+pewter cross~
+a pewter cross~
+An earring in the shape of a pewter cross has been left here.~
+~
+11 0 ao 0
+0 0 0 0
+2 10 0 71
+A
+19 4
+A
+18 1
+A
+13 -30
+#30805
+gown flowing white~
+a flowing white gown~
+A pile of thin white fabric lies upon the ground.~
+~
+9 0 ad 0
+3 0 0 0
+3 10 0 74
+A
+13 30
+A
+12 30
+#30806
+crest cailveh ring~
+the Crest of Cailveh~
+A silver ring lies upon the ground.~
+~
+11 0 ab 0
+0 0 0 0
+2 10 0 81
+A
+17 -2
+A
+19 4
+A
+18 2
+#30807
+sandals scholar's~
+some scholar's sandals~
+Some scholar's sandals lie upon the ground.~
+~
+11 0 ag 0
+0 0 0 0
+5 10 0 77
+A
+17 -4
+A
+3 3
+A
+4 2
+#30808
+book warding~
+the Book of Warding~
+A glowing book lies upon the ground.~
+~
+2 0 ao 0
+30 3 1 24
+4 10 0 0
+#30809
+paper wadded piece~
+a wadded piece of paper~
+A wadded piece of paper lies crumpled on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+1 10 0 1
+#30810
+ring diamond sparkling~
+a sparkling diamond~
+A diamond ring~
+~
+11 0 abo 0
+0 0 0 0
+2 10 0 52
+A
+17 -2
+A
+19 4
+A
+18 2
+#30811
+maul two handed~
+a two-handed maul~
+A two-handed maul has been left here.~
+~
+5 0 an 0
+0 8 8 9
+9 10 0 71
+A
+19 4
+A
+18 2
+#30812
+shield silver face~
+a silver face shield~
+A silver face shield has been left here.~
+~
+9 0 ae 0
+5 0 0 0
+4 10 0 54
+A
+19 3
+A
+18 2
+A
+5 1
+#30813
+plates set scuffed thigh~
+a set of scuffed thigh plates~
+A set of scuffed thigh plates have been tossed aside.~
+~
+9 0 af 0
+8 0 0 0
+7 10 0 67
+A
+19 4
+A
+18 3
+A
+2 -1
+#30814
+belt weapons tarnished~
+a tarnished weapons belt~
+A tarnished weapons belt has been dropped here.~
+~
+15 0 ao 0
+150 0 -1 0
+4 10 0 53
+A
+17 -4
+A
+19 3
+A
+18 2
+#30815
+tie waist beaded~
+a white beaded waist tie~
+A white beaded waist tie has been left here.~
+~
+11 0 al 0
+0 0 0 0
+3 10 0 41
+A
+17 -1
+A
+12 20
+A
+13 20
+#30816
+potion refresh~
+a refreshing potion~
+A potion lies upon the ground, untouched.~
+~
+10 0 ao 0
+10 1 17 35
+2 103 0 1
+#30817
+potion curing~
+a potion of curing~
+A potion lies upon the ground, untouched.~
+~
+10 0 ao 0
+10 3 39 18
+2 184 0 1
+#30818
+pork roast platter potatoes~
+a pork roast platter with potatoes~
+A pork roast platter with potatoes has been thrown to the ground.~
+~
+19 0 ao 0
+8 0 0 0
+3 9 0 1
+#30819
+sandwich supreme deluxe salaylia~
+a Deluxe Salaylia Sandwich Supreme~
+The biggest damn sandwich you've ever seen has been dropped here.~
+~
+19 0 ao 0
+15 0 0 0
+3 12 0 1
+#30820
+water barrel small water~
+a small barrel~
+A small barrel of water has been left here.~
+~
+17 0 ao 0
+40 40 15 0
+45 200 0 1
+#30821
+water barrel large water~
+a large barrel~
+A large barrel of water has been left here.~
+~
+17 0 ao 0
+80 80 15 0
+50 300 0 1
+#0
+
+#ROOMS
+
+#30800
+Wooden Guard Gate~
+   The road south of this gate is covered in an even coating of gravel, just a
+short distance to the southeast a small settlement is visible.  The gate appears
+to be more of a stopping point for travelers to stop for directions or to make
+certain that the Baron is indeed in his tower rather than a checkpoint for a
+military operation - although there are guards who man it.  To the west is the
+short stretch of the King's Highway before it turns north, headind far from
+Cailveh's lands.  
+~
+308 0 0
+D2
+~
+~
+0 0 30801
+E
+credits info~
+   *Baron Cailveh's Tower
+* Built by Kaan for Dibrova
+Level: 50 - 120
+82 rooms
+38 mobs
+22 objs
+Connector Zone(s): The King's Road
+This is one in a group of Barons' land holdings that lie along the
+King's Road. This particular holding is held by a Cleric Baron whose
+main export is corn, wheat and healing potions. There is a short road
+that passes a small settlement of the Baron's people and the Tower of
+the Baron itself.
+A great deal of excellent eq is included in this zone as well as some
+extremely difficult mobs.
+~
+S
+#30801
+Gravel Road~
+   This long north-south road is meticulously cared for, running through the
+usual corn and wheat fields that seem to grow without cessation through this
+entire area.  A small settlement lies southeast from here, smoke rising from
+many of the chimneys, all of the buildings seeming in good repair.  
+~
+308 0 0
+D0
+~
+~
+0 0 30800
+D2
+~
+~
+0 0 30802
+S
+#30802
+Gravel Road~
+   On the east side of the road, the backs of many small homes now face you.  
+They are all well-constructed, strong and freshly painted with short, cropped
+grass growing in their lawns.  The road continues to run north and south.  
+~
+308 0 0
+D0
+~
+~
+0 0 30801
+D2
+~
+~
+0 0 30803
+S
+#30803
+Gravel Road~
+   On the east side of the road, the backs of many small homes face you.  They
+are all well-constructed, strong and freshly painted with short, cropped grass
+growing in their lawns.  The road continues to run north and south, with an
+entrance into the settlement just south of here.  
+~
+308 0 0
+D0
+~
+~
+0 0 30802
+D2
+~
+~
+0 0 30804
+S
+#30804
+Gravel Road at the Settlement~
+   A road, also graveled just like the one you stand upon, leads east into the
+settlement.  To the south, the road continues for a distance before curving
+eastward, to the north the road runs for quite some way.  
+~
+308 0 0
+D0
+~
+~
+0 0 30803
+D1
+~
+~
+0 0 30819
+D2
+~
+~
+0 0 30805
+S
+#30805
+Gravel Road~
+   The road runs north and south, the settlement for the Baron's constituants
+just to the east and rolling fields of grain to the west.  
+~
+308 0 0
+D0
+~
+~
+0 0 30804
+D2
+~
+~
+0 0 30806
+S
+#30806
+Gravel Road~
+   The road runs north and south, the settlement for the Baron's constituants
+just to the east and rolling fields of grain to the west.  Just to the south,
+the roads bends away to the southeast.  
+~
+308 0 0
+D0
+~
+~
+0 0 30805
+D2
+~
+~
+0 0 30807
+S
+#30807
+Gravel Road~
+   The road bends to the east, making a slow southeastern curve toward the tower
+that can now be seen in the distance.  A slight ways further is a small barn,
+the only building between the settlement and the tower.  
+~
+308 0 0
+D0
+~
+~
+0 0 30806
+D1
+~
+~
+0 0 30808
+S
+#30808
+Gravel Road~
+   The road continues to twist and bend its way through the fields, the tower
+larger than ever to the southeast.  To the north, through a short length of corn
+stalks, a fair-sized settlement can be seen - the place where all that work for
+the Baron live.  
+~
+308 0 0
+D2
+~
+~
+0 0 30809
+D3
+~
+~
+0 0 30807
+S
+#30809
+Bend in the Gravel Road~
+   The road makes a twist to the north and east, heading toward the tower of
+Cailveh or away from it - depending on which way you may be traveling.  A barn
+lies southeast of here, the only structure visible between here and the tower.
+
+~
+308 0 0
+D0
+~
+~
+0 0 30808
+D1
+~
+~
+0 0 30810
+S
+#30810
+Bend in the Gravel Road~
+   The road makes a bend to the west and the south, heading along the road that
+leads to Cailveh's tower.  A short jaunt to south is the entrance into a small
+barn, a sturdy-looking structure wih a fresh coat of silver paint.  
+~
+308 0 0
+D2
+~
+~
+0 0 30811
+D3
+~
+~
+0 0 30809
+S
+#30811
+Before a Large Barn~
+   The entrance into a small barn lies to the south, the door wide open to
+anyone who might wish to enter.  It must be that Cailveh feels very comfortable
+about who his complacent guards let through at the entrance to his property...
+To the east the road runs directly up to Cailveh's front door, to the north the
+road runs away and off of Cailveh's property.  
+~
+308 0 0
+D0
+~
+~
+0 0 30810
+D1
+~
+~
+0 0 30812
+D2
+~
+~
+0 0 30815
+S
+#30812
+West of the Tower~
+   Cailveh's tower lies just east from from here, its looming height now just a
+bit daunting as you approach.  The road runs toward the tower or west toward the
+exit from Cailveh's property.  
+~
+308 0 0
+D1
+~
+~
+0 0 30813
+D3
+~
+~
+0 0 30811
+S
+#30813
+Before the Tower~
+   The tower doors lie just to the east, large wooden doors made of slats of oak
+and bound by iron.  Plentiful crops lie on the north and south of the road, a
+calming breeze blows by.  This is not a place to feel at all intimidated or
+unwelcome.  
+~
+308 0 0
+D1
+~
+~
+0 0 30814
+D3
+~
+~
+0 0 30812
+S
+#30814
+The Tower Entry Gate~
+   The doors to the tower are certainly large enough to be considered a gate -
+they are at least ten feet in height, rising to a point where they meet each
+other.  Enter, if you will, or head west back along the main road.  
+~
+308 0 0
+D1
+~
+door~
+1 0 30856
+D3
+~
+~
+0 0 30813
+S
+#30815
+Scrupulously Clean Barn~
+   Even the inner walls of this small barn have been painted silver!  All of the
+harnesses and yokes are hung upon the walls in neat and orderly fashion, the
+floor is even swept.  Through a door in the south wall lies the pastures.  
+~
+308 d 0
+D0
+~
+~
+0 0 30811
+D2
+~
+door~
+1 0 30816
+S
+#30816
+The Pastures~
+   This small, fenced in area holds the cows that keep the people who live in
+Cailveh's care well fed with an ample supply of milk.  Be careful where you
+step...  
+~
+308 0 0
+D0
+~
+door~
+1 0 30815
+D1
+~
+~
+0 0 30817
+D3
+~
+~
+0 0 30818
+S
+#30817
+The Pastures~
+   This small, fenced in area holds the cows that keep the people who live in
+Cailveh's care well fed with an ample supply of milk.  Be careful where you
+step...  
+~
+308 0 0
+D3
+~
+~
+0 0 30816
+S
+#30818
+The Pastures~
+   This small, fenced in area holds the cows that keep the people who live in
+Cailveh's care well fed with an ample supply of milk.  Be careful where you
+step...  
+~
+308 0 0
+D1
+~
+~
+0 0 30816
+S
+#30819
+Towne Road~
+   This well graveled road leads east into the settlement, a very tidy place
+where the streets are free of litter and all the homes are tended to regularly.
+The main road lies just to the west.  A small sign lies on the south side of the
+road.  
+~
+308 0 0
+D1
+~
+~
+0 0 30820
+D3
+~
+~
+0 0 30804
+E
+sign~
+   All travelers welcome in Cailveh Towne.
+
+Bring no malice with ye upon entry, but only the goodwill harbored
+within your heart. May the Gods be with you.
+~
+S
+#30820
+Intersection on Towne Road~
+   Homes lie to the north and south; small, neat structures which look welcome
+and very non-threatening.  To the east is what must be the merchant's area,
+where most of the business of the towne is conducted.  The main road to the
+tower and the King's Highway lies to the west.  
+~
+308 0 0
+D0
+~
+~
+0 0 30821
+D1
+~
+~
+0 0 30838
+D2
+~
+~
+0 0 30825
+D3
+~
+~
+0 0 30819
+S
+#30821
+Towne Road~
+   Homes lie on the east and west sides of the road.  The road itself runs north
+and south for some distance past homes of all shape and size.  
+~
+308 0 0
+D0
+~
+~
+0 0 30822
+D1
+~
+door~
+1 0 30837
+D2
+~
+~
+0 0 30820
+D3
+~
+door~
+1 0 30832
+S
+#30822
+Towne Road~
+   Homes lie on the east and west sides of the road.  The road itself runs north
+and south for some distance past homes of all shape and size.  
+~
+308 0 0
+D0
+~
+~
+0 0 30823
+D1
+~
+door~
+1 0 30836
+D2
+~
+~
+0 0 30821
+D3
+~
+door~
+1 0 30833
+S
+#30823
+Cul-de-sac~
+   You are surrounded on all sides but the south by the private homes of the
+people that live in Cailveh's care.  The only way out of here is south unless
+you desire to meet some of the folk who live within these homes.  
+~
+308 0 0
+D0
+~
+door~
+1 0 30824
+D1
+~
+door~
+1 0 30835
+D2
+~
+~
+0 0 30822
+D3
+~
+door~
+1 0 30834
+S
+#30824
+Simple Home~
+   The furnishings of this place are at best simple, nothing looks as if it
+would hold any true value, only function.  There is only one adornment to the
+walls, that being a large, flat cross which hangs directly above the dining
+table.  
+~
+308 d 0
+D2
+~
+door~
+1 0 30823
+S
+#30825
+Towne Road~
+   This is the residential section of the community with homes lining both sides
+of the street.  Just north of here is a main intersection in the street, suth
+lies a small square.  
+~
+308 0 0
+D0
+~
+~
+0 0 30820
+D1
+~
+door~
+1 0 30831
+D2
+~
+~
+0 0 30826
+D3
+~
+~
+0 0 30830
+S
+#30826
+Schoolhouse Square~
+   Named Schoolhouse Square for no other reason than the fact that the
+schoolhouse is located just south of here, this small square is a tidy little
+turn-around with houses on the east and west sides of the school.  
+~
+308 0 0
+D0
+~
+~
+0 0 30825
+D1
+~
+door~
+1 0 30829
+D2
+~
+~
+0 0 30827
+D3
+~
+door~
+1 0 30828
+S
+#30827
+Ye Olde School~
+   Three rows of desks line the floor, a moderate-sized desk fronting the south
+side of the room.  A gilded cross hangs on the south wall above the desk,
+obviously the people of this community place a large emphasis on religion.  
+~
+308 d 0
+D0
+~
+~
+0 0 30826
+S
+#30828
+Small Home~
+   This single-room home is no bigger than ten by ten, obviously the home of a
+single occupant.  A small bed lies against the south wall, a small table is
+nudged into the northwest corner.  
+~
+308 d 0
+D1
+~
+door~
+1 0 30826
+S
+#30829
+Tidy Home~
+   This mid-sized home is meticulously cleaned from top to bottom, the walls
+even squeaky clean.  A small cross hangs on the wall right next to the door.  
+~
+308 d 0
+D3
+~
+door~
+1 0 30826
+E
+sign~
+   Please remove shoes!  
+~
+S
+#30830
+Empty Home~
+   It appears that whoever built this place has either passed on or possibly
+went to live somewhere else.  With very little cleaning and even less
+construction, this could be a very livable place.  
+~
+308 d 0
+D1
+~
+~
+0 0 30825
+S
+#30831
+Freshly-Painted Home~
+   The smell of the stain used on the walls is still fresh in this house, the
+walls still shine with that glare that comes from freshly painted walls.  All of
+the furniture is pulled away from the walls until they dry, as a result it is
+very cramped in this home.  
+~
+308 di 0
+D3
+~
+door~
+1 0 30825
+S
+#30832
+Quiet Home~
+   The plain white walls of this home coupled with the somber furnishings only
+add to the vibe that immediately soaks in as you enter.  It is obvious that the
+occupants like it quiet in their home and wish to keep it that way.  
+~
+308 d 0
+D1
+~
+door~
+1 0 30821
+S
+#30833
+Simple Home~
+   This is indeed someone's happy home, however it appears that whoever lives
+here lives quite the simple life; nothing in the house appears to hold any sort
+of monetary value whatsoever.  There is a table and chairs made of crude wood
+and a bed made from the same of wood and hay.  
+~
+308 d 0
+D1
+~
+door~
+1 0 30822
+S
+#30834
+Small Home~
+   The quarters in this small home are tight, indeed, allowing comfortbale
+movement for only one person at a time.  The door lies to the east.  
+~
+308 di 0
+D1
+~
+door~
+1 0 30823
+S
+#30835
+Thatch-Roofed Home~
+   This is the only home in the entire settlement that is not completely
+weather-proof.  The roof is made from thatch, the walls from rough-hewn timber,
+but strangely enough it appears to work very well as an abode.  
+~
+308 d 0
+D3
+~
+door~
+1 0 30823
+S
+#30836
+Small Log Home~
+   This is, as far as you can tell, the only home in the settlement made from
+log.  The owner must have spent quite some time building this place and have
+quite a large amount of pride in his work because the place is beautiful.  Much
+of the wood for the inner walls have been carved out to allow for shelving and
+such.  The furniture is most made from the same dark wood as the home itself.  
+~
+308 d 0
+D3
+~
+~
+0 0 30822
+S
+#30837
+Cozy Home~
+   This home boasts a very warm wood stove burning in the northeast corner of
+the room, the warm air giving the place a drowsy, comfortable feeling.  A plush
+armchair and matching divan lie against the south wall, beds on the north wall.
+
+~
+308 d 0
+D3
+~
+door~
+1 0 30821
+S
+#30838
+Towne Road~
+   This small portion of road runs between the two main intersections of the
+settlement, bordering the north side and entryway into the local pub and dining
+establishment.  It is actually a very nice place to eat, having a strong
+reputation of good food and good people, recommended throughout the land.  
+~
+308 0 0
+D1
+~
+~
+0 0 30839
+D2
+~
+~
+0 0 30848
+D3
+~
+~
+0 0 30820
+S
+#30839
+Towne Square~
+   A beautiful park lies along the eastern side of the road, full of beautiful
+flowers and trees.  The road travels north and south through the business
+district and also west past the local pub toward the main road.  
+~
+308 0 0
+D0
+~
+~
+0 0 30840
+D1
+~
+~
+0 0 30847
+D2
+~
+~
+0 0 30850
+D3
+~
+~
+0 0 30838
+S
+#30840
+Towne Road~
+   The road travels north to south past a small restaurant on the east and an
+herbalist on the west side of the road.  Just north of here is small square.  
+~
+308 0 0
+D0
+~
+~
+0 0 30841
+D1
+~
+~
+0 0 30845
+D2
+~
+~
+0 0 30839
+D3
+~
+~
+0 0 30846
+S
+#30841
+Northern Square~
+   Businesses surround you, the tink tink of the blacksmith very audible on the
+west side of the road, a low single story building lies to the east - the town
+doctor.  To the north is the apothecary, who is said to have the finest and most
+potent potions in all the realm.  
+~
+308 0 0
+D0
+~
+~
+0 0 30842
+D1
+~
+~
+0 0 30843
+D2
+~
+~
+0 0 30840
+D3
+~
+~
+0 0 30844
+S
+#30842
+The Apothecary~
+   Odd smells linger in the air of this musty and yet curiously drafty place.  
+Colored liquids fill glass containers along the northern wall behind the
+counter, the labors of long hours of brewing by the master apothecary.  
+~
+308 d 0
+D2
+~
+~
+0 0 30841
+S
+#30843
+Towne Doctor~
+   It appears that the doctor is not in at this time.  The entire building lies
+silent and empty.  Devoid of life.  Odd.  
+~
+308 d 0
+D3
+~
+~
+0 0 30841
+S
+#30844
+Smithy~
+   Entering into this high-roofed building immediately engulfs you in a
+tremendous heat.  The gruff and filthy man who works within the confines of this
+room must obviously not care much about hiegene or the fact that its easily one
+hundred degrees in this building.  
+~
+308 d 0
+D1
+~
+~
+0 0 30841
+S
+#30845
+Salaylia's~
+   Salaylia makes a mean dish of food that can be eaten right here in comfort or
+taken with you on your journeys.  Either way, she is always pleased to be able
+to provide for the hungry.  
+~
+308 d 0
+D3
+~
+~
+0 0 30840
+S
+#30846
+The Herbalist~
+   Small plants grow along shelves high along the north and south walls of this
+room, a long counter running the west end of the room.  Within that counter lie
+samples of the poultices and remedies which the herbalist offers.  
+~
+308 d 0
+D1
+~
+~
+0 0 30840
+S
+#30847
+Colorful Park~
+   This is obviously a place that harbors a great deal of pride for the locals,
+it so well tended.  A small stone bench lies alongside the path, allowing you to
+rest for a short period if that be your desire.  
+~
+308 e 0
+D3
+~
+~
+0 0 30839
+S
+#30848
+The Towne Hall~
+   This pub, named the Towne Hall in jest, is only so named due to the fact that
+after most day's work, most of the local residents end up coming here to dine
+with their fellow townsfolk.  Nightly 'meetings' are conducted over steaming
+plates of meat and vegetables, accompanied by laughter and the occasional music
+of a traveling musician.  
+~
+308 d 0
+D0
+~
+~
+0 0 30838
+S
+#30849
+Tailor~
+   The locals tend to mostly the servicable garb of the simple worker, humble
+people of the Gods who perform their daily work with pride.  As such, the tailor
+mostly carries what sells.  
+~
+308 d 0
+D1
+~
+~
+0 0 30850
+S
+#30850
+Towne Road~
+   The road runs south past a number of businesses and the local chapel toward a
+wonderful garden, full of bloom and color.  To the north is the Towne Square.  
+~
+308 0 0
+D0
+~
+~
+0 0 30839
+D1
+~
+~
+0 0 30851
+D2
+~
+~
+0 0 30853
+D3
+~
+~
+0 0 30849
+S
+#30851
+House of Worship~
+   Every morning and every evening, the entire community gathers in this humble
+building to give thanks for the land they live upon and their gracious
+benefactor, the Baron Cailveh.  Lines of benches run up to the east wall where
+large cross hangs upon the wall, gleaming beautifully.  
+~
+308 d 0
+D3
+~
+~
+0 0 30850
+S
+#30852
+The General Store~
+   You name it, this place has it and if they don't have it, they'll get it.  
+At least that is their reputation.  All manner of oddities and necessities lie
+scattered about on shelves and in displays.  
+~
+308 d 0
+D1
+~
+~
+0 0 30853
+S
+#30853
+Southern Square~
+   A magnificent garden lies just south of here, a tidy little store on the west
+side and mill of some sort on the east side.  
+~
+308 0 0
+D0
+~
+~
+0 0 30850
+D1
+~
+~
+0 0 30854
+D2
+~
+~
+0 0 30855
+D3
+~
+~
+0 0 30852
+S
+#30854
+Distillery~
+   This used to be the old mill for the settlement, but has since been converted
+into a distillery for the locals so that they might have drinking water free of
+disease.  Barrels, bottles or whatever you like can be refilled or simply
+purchased here.  
+~
+308 d 0
+D3
+~
+~
+0 0 30853
+S
+#30855
+Towne Gardens~
+   These beautiful gardens are tended with love and care by all of the locals,
+kept as a haven for thought and quiet contemplation.  They are kep immaculate
+year round, with no exceptions.  
+~
+308 0 0
+D0
+~
+~
+0 0 30853
+S
+#30856
+Entryway Into the Main Hall~
+   This is actually a part of the main hall, however most of the politicking
+goes on a bit to the east where Cailveh holds his court.  The exit from the
+tower lies to the west.  
+~
+308 d 0
+D1
+~
+~
+0 0 30857
+D3
+~
+door~
+1 0 30814
+S
+#30857
+Main Hall~
+   A door lies on the north wall, next to an ornate silver tapestry which hangs
+from the ceiling to the floor, covering the entire wall.  On the south wall is a
+matching tapestry, giving the hall a feeling of majestic holiness.  
+~
+308 d 0
+D0
+~
+door~
+1 0 30861
+D1
+~
+~
+0 0 30858
+D3
+~
+~
+0 0 30856
+S
+#30858
+Audience Chamber~
+   All of Cailveh's formal matters of state are conducted here, at this very
+spot.  A gilded chair of worked silver sits upon a low dias, a plush cushion
+resting atop the chair.  A thick silver curtain runs along behind the chair,
+completing the picture of strength and calm that Cailveh wishes to project.  
+Doors lie on the north and south walls.  
+~
+308 d 0
+D0
+~
+door~
+1 0 30860
+D1
+~
+curtain~
+1 0 30859
+D2
+~
+door~
+1 0 30862
+D3
+~
+~
+0 0 30857
+S
+#30859
+Behind the Gilded Chair~
+   It appears that the Baron has a spot to get away from all the noise and
+stress of court whenever he likes.  There is a stone stairway leading upward
+into the heights of the tower, curving around and up out of sight.  Behind the
+curtain lies the Audience Chamber.  
+~
+308 d 0
+D3
+~
+curtain~
+1 0 30858
+D4
+~
+~
+0 0 30863
+S
+#30860
+The Feasting Hall~
+   Twin doors lie on the south wall of this enormous chamber, exits designed to
+allow the ingress and egress of large amounts of people.  A long table runs most
+of the length of the room, beautifully woven table coverings over most of its
+surface.  
+~
+308 d 0
+D2
+~
+door~
+1 0 30858
+D3
+~
+~
+0 0 30861
+S
+#30861
+The Feasting Hall~
+   Twin doors lie on the south wall of this enormous chamber, exits designed to
+allow the ingress and egress of large amounts of people.  A long table runs most
+of the length of the room, beautifully woven table coverings over most of its
+surface.  
+~
+308 d 0
+D1
+~
+~
+0 0 30860
+D2
+~
+door~
+1 0 30857
+S
+#30862
+Private Meeting Room~
+   Whenever a visitor comes that is not considered one of Cailveh's 'friends'
+but needs to conduct business privately, this is where Cailveh brings the
+visitor to talk.  The room is protected by a ward of silence maintained by
+Cailveh himself so that conversations within this room stay only within this
+room.  
+~
+308 df 0
+D0
+~
+door~
+1 0 30858
+S
+#30863
+Secret Stair Passage~
+   These stairs are the single one way to reach the upper levels of the tower.
+Cailveh keeps them hidden so that he might enjoy a relative calm when dealing
+with family or personal life.  No visitors are ever allowed in these higher
+chambers, only Cailveh, his family, and a small slew of servants.  
+~
+308 d 0
+D4
+~
+~
+0 0 30864
+D5
+~
+~
+0 0 30859
+S
+#30864
+Stone and Mortar Hallway~
+   The stairs open into a hallway that is neither large nor small, simply very
+average.  The walls are of stone and mortar, well formed and solid to the touch.
+On the south wall is a door, the stairs lead downward to the main floor of the
+tower and the hallway runs westward toward more doors, actually ending at a
+door.  
+~
+308 d 0
+D2
+~
+door~
+1 0 30870
+D3
+~
+~
+0 0 30865
+D5
+~
+~
+0 0 30863
+S
+#30865
+Stone and Mortar Hallway~
+   A door lies on the north wall, the hallway heads east and west, both only for
+short distances.  
+~
+308 d 0
+D0
+~
+door~
+1 0 30867
+D1
+~
+~
+0 0 30864
+D3
+~
+~
+0 0 30866
+S
+#30866
+End of the Hall~
+   A wide door lies on the west wall of the hall which would be the dead end to
+the hall if there weren't a door there.  Off to the east are more doors, with a
+stairway leading downward at the end of the hall.  
+~
+308 d 0
+D1
+~
+~
+0 0 30865
+D3
+~
+door~
+1 0 30871
+S
+#30867
+Gilzaan's Private Chambers~
+   Gilzaan, being the eldest of Cailveh's two sons and most likely to receive
+the endowment of all that Cailveh holds upon his death, holds the largest room
+in the tower save for Cailveh himself.  All that is holy and worthy, studious
+and pious lies in an orderly fashion in this enormous apartment.  A door lies in
+the south wall.  
+~
+308 d 0
+D2
+~
+door~
+1 0 30865
+D3
+~
+~
+0 0 30868
+S
+#30868
+Gilzaan's Private Chambers~
+   Gilzaan, being the eldest of Cailveh's two sons and most likely to receive
+the endowment of all that Cailveh holds upon his death, holds the largest room
+in the tower save for Cailveh himself.  All that is holy and worthy, studious
+and pious lies in an orderly fashion in this enormous apartment.  A door lies on
+the south wall just east from here.  
+~
+308 d 0
+D1
+~
+~
+0 0 30867
+S
+#30869
+Necromocis' Private Chambers~
+   Necromocis is Cailveh's youngest son, but certainly the brighter of the two.
+Most of Necromocis' time is spent up in the higher reaches of the tower, pouring
+over the ancient tomes which Cailveh holds locked within his library.  
+Necromocis could soak up knowledge all day long and still yearn for more at the
+fall of night.  He is Cailveh's pride and joy, unencumbered the knowledge that
+he may have to one day run the Barony, as his brother is.  
+~
+308 d 0
+D1
+~
+~
+0 0 30870
+S
+#30870
+Necromocis' Private Chambers~
+   Necromocis is Cailveh's youngest son, but certainly the brighter of the two.
+Most of Necromocis' time is spent up in the higher reaches of the tower, pouring
+over the ancient tomes which Cailveh holds locked within his library.  
+Necromocis could soak up knowledge all day long and still yearn for more at the
+fall of night.  He is Cailveh's pride and joy, unencumbered the knowledge that
+he may have to one day run the Barony, as his brother is.  
+~
+308 d 0
+D0
+~
+door~
+1 0 30864
+D3
+~
+~
+0 0 30869
+S
+#30871
+Sitting Room~
+   This room is dominated by a huge fireplace on the west wall.  It spans the
+entire length of the wall, the stonework giving the room a very rustic, cozy
+feel.  Lounge chairs and couches lie in a fashionable array about the room.  
+This is where Cailveh and his family spend most of their evenings together, away
+from the main court life which never seems to end downstairs.  
+~
+308 d 0
+D0
+~
+~
+0 0 30874
+D1
+~
+door~
+1 0 30866
+D2
+~
+~
+0 0 30872
+D4
+~
+fireplace~
+1 0 30875
+E
+fireplace~
+   It is a huge piece of work, spanning the entire length of the room.  The
+place where the firewood is actually kept and burnt only takes up about a
+quarter of the space that it could, the rest of it is just ornate.  Most of the
+rocks are made from regular, grayish stone but there is a particular run of them
+that are a bit darker than the rest.  
+~
+E
+stones~
+   They look as if they aren't anchored all that well, as if they might be able
+to be moved or jarred free.  
+~
+S
+#30872
+Cailveh's Private Chambers~
+   This section of the room is more an entryway into the larger part of
+Cailveh's private area which is shared with his wife.  The room follows the
+curve of the tower, opening east into the private chambers and north into the
+sitting room.  
+~
+308 d 0
+D0
+~
+~
+0 0 30871
+D1
+~
+~
+0 0 30873
+S
+#30873
+Cailveh's Private Chambers~
+   This lavish section of Cailveh's private quarters are reserved for he and his
+wife only, a retreat for the two of them to get away from everything completely.
+There is a large bed and a long, low divan that sits before a fireplace - a very
+appealing setup.  
+~
+308 d 0
+D3
+~
+~
+0 0 30872
+S
+#30874
+Bathing Area~
+   A carved bathing vessel lies in the center of the room, raised upon a
+curious-looking stone pedestal designed specifically for holding the hot embers
+of coal that heat the tub above it.  A curtain can be drawn about the tub or
+left wide open, a wooden desk lies against the west wall with a washbasin and
+mirror atop it.  
+~
+308 d 0
+D2
+~
+~
+0 0 30871
+S
+#30875
+Runed Stairwell~
+   The runes on the sides of this stairwell or there as wards against intruders,
+but more so they are wards of notification which will let Cailveh when an
+unwelcome guest has intruded upon his private demenses unwelcome.  Enter upward
+into the private work area of the Baron Cailveh, but beware of his fury and the
+wrath of his gods.  
+~
+308 d 0
+D4
+~
+~
+0 0 30876
+D5
+~
+secret~
+1 0 30871
+S
+#30876
+Laboratory~
+   The entire room in this area and to the east is covered in tables and runes,
+the walls lined with shelving which holds all manner of scrolls, books and
+tablature.  The wooden creaks underfoot as you move about, even a shifting of
+your weight makes a fair amount of noise.  It will be very difficult, indeed, to
+stay here undetected for very long.  
+~
+308 d 0
+D1
+~
+~
+0 0 30877
+D2
+~
+~
+0 0 30878
+D5
+~
+~
+0 0 30875
+S
+#30877
+Laboratory~
+   The entire room in this area and to the east is covered in tables and runes,
+the walls lined with shelving which holds all manner of scrolls, books and
+tablature.  The wooden creaks underfoot as you move about, even a shifting of
+your weight makes a fair amount of noise.  It will be very difficult, indeed, to
+stay here undetected for very long.  There is a door on the south wall, one that
+does not look as if it is opened very often.  
+~
+308 d 0
+D2
+~
+door~
+2 30800 30881
+D3
+~
+~
+0 0 30876
+S
+#30878
+Study~
+   This is a more sedate setting than that just north of here.  A plush chair
+lies against the west wall, one that looks very much like it is used extremely
+often.  Shelves line the east wall, however the books there are more scholarly
+than for research.  
+~
+308 d 0
+D0
+~
+~
+0 0 30876
+D2
+~
+~
+0 0 30879
+S
+#30879
+Library~
+   If it seemed that there were a lot of books on the shelves in the rooms to
+the north, then you had no idea what to expect here.  Every single foot of space
+available has been utilized for shelving for books, all of them organized by
+size and content.  
+~
+308 d 0
+D0
+~
+~
+0 0 30878
+D1
+~
+~
+0 0 30880
+S
+#30880
+Observatory~
+   There is wide, tall window in the southeastern wall, one that rises all the
+way to the ceiling and opens out into the heavens.  A strange object has been
+placed near to the window, one that looks much like a long tube with glass at
+the ends.  
+~
+308 d 0
+D3
+~
+~
+0 0 30879
+S
+#30881
+Artifact Room~
+   This room has been looted.  Nothing remains except empty shelves and tables
+that were once laden with numerous items and artifacts.  The patches of dust
+free shelves hint at the outlines of the previous occupants.  Uneven shadings of
+the walls hint at portraits that may have once been hung for many years.  
+~
+308 0 0
+D0
+~
+door~
+2 30800 30877
+S
+#0
+
+#RESETS
+M 0 30828 1 30846 	(Calintra)
+G 1 29105 99 -1 	(a green herb)
+M 0 30837 1 30849 	(the tailor)
+G 1 343 100 -1 	(a leather jacket)
+G 1 371 100 -1 	(a pair of leather gloves)
+G 1 376 100 -1 	(a leather cap)
+G 1 381 100 -1 	(a pair of leather pants)
+M 0 30832 1 30854 	(Mochaaska)
+G 1 30820 100 -1 	(a small barrel)
+G 1 30821 100 -1 	(a large barrel)
+M 0 30833 1 30852 	(the store owner)
+G 1 330 100 -1 	(a torch)
+G 1 331 100 -1 	(a lantern)
+G 1 332 100 -1 	(a bag)
+G 1 339 100 -1 	(a pot)
+G 1 376 100 -1 	(a leather cap)
+M 0 30829 1 30845 	(Salaylia)
+G 1 30818 100 -1 	(a pork roast platter with potatoes)
+G 1 30819 100 -1 	(a Deluxe Salaylia Sandwich Supreme)
+M 0 30831 1 30842 	(the master apothecary)
+G 1 30816 1000 -1 	(a refreshing potion)
+G 1 30817 1000 -1 	(a potion of curing)
+M 0 30836 2 30838 	(a young lass)
+M 0 30835 3 30840 	(a townesman)
+M 0 30835 3 30850 	(a townesman)
+M 0 30834 1 30847 	(the towne minister)
+E 1 30815 100 13 	(a white beaded waist tie)
+M 0 30830 1 30844 	(the towne smithy)
+M 0 30827 1 30848 	(a flirtatious woman)
+M 0 30826 1 30848 	(a well-dressed gentleman)
+M 0 30825 1 30848 	(a man)
+M 0 30824 1 30848 	(an expansive storyteller)
+M 0 30823 1 30848 	(the barkeep)
+M 0 30822 1 30827 	(the school marm)
+M 0 30821 1 30828 	(an eating man)
+D 0 30828 1 1 	(Small Home)
+M 0 30820 1 30824 	(a quiet housewife)
+D 0 30824 2 1 	(Simple Home)
+M 0 30819 1 30835 	(a humble old man)
+D 0 30835 3 1 	(Thatch-Roofed Home)
+M 0 30818 1 30836 	(a lounging woodsman)
+D 0 30836 3 1 	(Small Log Home)
+M 0 30817 1 30832 	(a snoozing farmer)
+D 0 30832 1 1 	(Quiet Home)
+M 0 30816 1 30837 	(a busy housewife)
+D 0 30837 3 1 	(Cozy Home)
+M 0 30815 3 30817 	(a fat cow)
+M 0 30815 3 30818 	(a fat cow)
+M 0 30815 3 30816 	(a fat cow)
+D 0 30816 0 1 	(The Pastures)
+M 0 30814 1 30815 	(an old farmhand)
+D 0 30815 2 1 	(Scrupulously Clean Barn)
+M 0 30813 1 30861 	(a visiting cousin)
+E 1 30813 100 7 	(a set of scuffed thigh plates)
+E 1 30814 100 13 	(a tarnished weapons belt)
+D 0 30861 2 1 	(The Feasting Hall)
+M 0 30812 1 30873 	(a chamber maid)
+M 0 30808 1 30856 	(an arrogant land owner)
+M 0 30807 1 30856 	(a humble petitioner)
+D 0 30856 3 1 	(Entryway Into the Main Hall)
+M 0 30811 2 30814 	(a door guard)
+M 0 30811 2 30814 	(a door guard)
+E 1 30811 100 16 	(a two-handed maul)
+D 0 30814 1 1 	(The Tower Entry Gate)
+M 0 30810 1 30877 	(a lab assistant)
+D 0 30877 2 2 	(Laboratory)
+M 0 30809 1 30857 	(a pious farmer)
+M 0 30806 1 30857 	(a robed man)
+G 1 30809 100 -1 	(a wadded piece of paper)
+M 0 30802 1 30857 	(Gilzaan)
+E 1 30806 100 2 	(the Crest of Cailveh)
+D 0 30857 0 1 	(Main Hall)
+M 0 30805 1 30860 	(a quiet servant)
+D 0 30860 2 1 	(The Feasting Hall)
+M 0 30804 1 30880 	(the court astronomer)
+M 0 30803 1 30876 	(Necromocis)
+E 1 30807 100 8 	(some scholar's sandals)
+E 1 30808 100 17 	(the Book of Warding)
+M 0 30800 1 30879 	(the Baron Cailveh)
+E 1 30800 1 17 	(an old and brittle key)
+E 1 30801 100 16 	(the Baron's Flail)
+E 1 30802 100 12 	(a holy adornment)
+E 1 30803 100 14 	(a white bead bracelet)
+D 0 30858 2 1 	(Audience Chamber)
+D 0 30858 0 1 	(Audience Chamber)
+D 0 30858 1 1 	(Audience Chamber)
+M 0 30801 1 30858 	(Melinna, the Baroness)
+E 1 30805 100 5 	(a flowing white gown)
+D 0 30881 0 2 	(Artifact Room)
+D 0 30871 4 1 	(Sitting Room)
+D 0 30871 1 1 	(Sitting Room)
+D 0 30875 5 1 	(Runed Stairwell)
+D 0 30866 3 1 	(End of the Hall)
+D 0 30870 0 1 	(Necromocis' Private Chambers)
+D 0 30864 2 1 	(Stone and Mortar Hallway)
+D 0 30865 0 1 	(Stone and Mortar Hallway)
+D 0 30867 2 1 	(Gilzaan's Private Chambers)
+D 0 30862 0 1 	(Private Meeting Room)
+D 0 30859 3 1 	(Behind the Gilded Chair)
+D 0 30823 3 1 	(Cul-de-sac)
+D 0 30823 1 1 	(Cul-de-sac)
+D 0 30823 0 1 	(Cul-de-sac)
+D 0 30834 1 1 	(Small Home)
+D 0 30822 1 1 	(Towne Road)
+D 0 30822 3 1 	(Towne Road)
+D 0 30833 1 1 	(Simple Home)
+D 0 30821 1 1 	(Towne Road)
+D 0 30821 3 1 	(Towne Road)
+D 0 30831 3 1 	(Freshly-Painted Home)
+D 0 30825 1 1 	(Towne Road)
+D 0 30829 3 1 	(Tidy Home)
+D 0 30826 1 1 	(Schoolhouse Square)
+D 0 30826 3 1 	(Schoolhouse Square)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#30842~
+30816
+30817
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+30831
+0
+30842
+-1
+0
+28
+0
+0
+#30845~
+30818
+30819
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+30829
+0
+30845
+-1
+0
+28
+0
+0
+#30846~
+29105
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+30828
+0
+30846
+-1
+0
+28
+0
+0
+#30849~
+3043
+3071
+3076
+3081
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+30837
+0
+30849
+-1
+0
+28
+0
+0
+#30852~
+3030
+3031
+3032
+3039
+3076
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+30833
+0
+30852
+-1
+0
+28
+0
+0
+#30854~
+30820
+30821
+-1
+1.50
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You dpn't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+30832
+0
+30854
+-1
+0
+28
+0
+0
+0
+
+
+#$

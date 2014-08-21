@@ -1,0 +1,2933 @@
+#Style Circle
+#AREADATA
+Name Dun Maura~
+Builders Rumble~
+VNUMs 24000 24099
+Credits {{None}  CAW    Dun Maura~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#24000
+minotaur~
+the minotaur~
+A huge minotaur stands here, keeping the peace.
+~
+   He is a massive, humanoid beast with the body of a man and the head of a
+bull.  His legs are also hoofed and shaped as that of a bull's.  This is a very
+strong creature, and should not be taken lightly.    
+~
+dgmq 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+BareHandAttack: 3
+E
+#24001
+minotaur sentry~
+the sentry~
+A minotaur sentry is here guarding the gates.
+~
+   This half-man half-bull sentry is here to guard the gates and give warning
+of any possible attack.  It looks like he alone could withstand a small army.
+He stands at least 8 feet tall and must be over 300 pounds.    
+~
+bdglq 0 0 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+BareHandAttack: 3
+E
+#24002
+minotaur warrior~
+the warrior~
+A minotaur warrior carrying a deadly war-axe.
+~
+   This minotaur is suited for battle.  You notice a sinking feeling in your
+stomach the second you saw him.  You are more than intimidated by this war
+machine.  The minotaur carries himself with pride and confidence.    
+~
+dglq 0 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#24003
+minotaur woman~
+the minotaur woman~
+A female minotaur is sharpening her husbands weapons.
+~
+   Although the woman minotuar are usually only expected to raise the family it
+is sometimes heard of that they will become warriors.  This is usually not
+acceptable and they must leave the city.  Except in the case of widows without
+any children.    
+~
+bdg 0 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+6 8 2
+BareHandAttack: 13
+E
+#24004
+minotaur man~
+the minotaur~
+A large minotaur pushes you out of its way.
+~
+   This rude minotaur seems to be in his prime.  He holds himself with
+confidence and ignores you outright.  It seems like he thinks you are not even
+worthy of notice.  Maybe you could teach him differently, or maybe not.    
+~
+dgl 0 300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#24005
+minotaur child~
+the minotaur child~
+A minotaur child is playing here.
+~
+   This little brat is dangerous.  He seems to be pretending that he is
+fighting some imaginary foe.  He is running around pretending to impale his foe
+with his miniature set of horns.  Those horns look awfully sharp.    
+~
+dghl 0 300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#24006
+young minotaur~
+the young minotaur~
+A young, vibrant minotaur stomps past without a worry in the world.
+~
+   This minotaur looks to be in its adolescent years.  It is almost full grown,
+about seven feet tall and looks to be busy.  Probably running some errand or
+doing some task.    
+~
+dgl 0 300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 7
+E
+#24007
+old minotaur~
+the old minotaur~
+An old minotaur is here rambling on about past battles and adventures.
+~
+   This ancient minotaur is just a shadow of the former warrior he must have
+been.  Scars riddle his body, you almost dismiss him as not being a threat when
+you catch a glimpse of his eyes.  Those eyes have seen and experienced more
+than you ever will in your lifetime.    
+~
+dgl 0 200 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#24008
+healer minotaur~
+the minotaur healer~
+A minotaur healer is making house calls to the sick and wounded.
+~
+   The healers are used during war to aid those who have fallen to the enemy.
+It is a rather simple job.  Either the victim can get up and continue fighting
+or the healer will finish them off.    
+~
+dg 0 300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 2
+E
+#24009
+vorn~
+Vorn~
+Vorn stands here conducting his business.
+~
+   This is the minotaur solely responsible for the wealth of the city.  He
+conducts all business matters and has managed to build this city into what it
+is today.  He looks deceiving.    
+~
+bdgl 0 -1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#24010
+zarn~
+Zarn~
+Zarn, the Grand Master is busy ruling the city.
+~
+   He is in charge of day to day operations of the city.  He is supposed to be
+the supreme ruler of the city.  But many advise him, including the war master
+who to most is the true ruler of the city.    
+~
+bdgl 0 300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+BareHandAttack: 5
+E
+#24011
+master minotaur~
+the War Master~
+The War Master is planning for battle.
+~
+   This grizzled old minotaur is not only the best and strongest warrior in the
+city, but also the undefeated champion of the arena.  He has more scars than
+wrinkles.  Most of his fur has turned grey.  He looks like he knows what you
+are thinking.    
+~
+bdgl 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#24012
+advisor minotaur~
+the minotaur advisor~
+The advisor to the grand master is doing some research here.
+~
+   The advisor's job is to make sure the grand master does not make any
+mistakes.  He is responsible for more than the grand master himself, but he
+gets no credit.    
+~
+dgl 0 300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#24013
+minotaur interrogator~
+the interrogator~
+A large minotaur hides in the corner, waiting for its next victim.
+~
+   This minotaur has an evil grin and seems to enjoy his work of inflicting
+pain on others.  You wonder which is more important to him, inflicting the pain
+or getting the information out of his subjects.    
+~
+bdg 0 -1000 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#24014
+minotaur master~
+the weapons master~
+A large minotaur wielding a wicked looking pole arm struts by.
+~
+   This battle veteran wield his polearm with a familiarity that's scary.  You
+wonder if he sleeps with it.  He has a 1000 yard gaze that is even more
+frightening.  He must have seen many battles.    
+~
+bdgl 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#24015
+trainer minotaur~
+the trainer~
+A large minotaur stands beside a rack of training weapons and armor.
+~
+   This veteran is responsible for training all minotaurs able to fight to do
+exactly that.  He has had years of training and even more practice at the real
+thing during the wars against the centaurs.    
+~
+dgl 0 300 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#24016
+loremaster minotaur~
+the loremaster~
+A grizzled, old minotaur rests here, throughout the realm he is known as the loremaster.
+~
+   Perhaps the most famous minotaur to ever live.  This minotaur's age is
+unknown.  He has outlived his friends by decades.  No one alive knows when he
+was born, and he will not tell anyone his real age.  He remains a mystery to
+many.    
+~
+dgnopqr 0 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#24017
+priest minotaur~
+the priest~
+A priest blesses all who worship Vardis.
+~
+   The minotaurs worship only one god.  Vardis, the god of war.  This priest is
+responsible for the upkeep of the sole place of worship in the city.  He often
+goes into battle to bless all those who fight for their god.    
+~
+bdg 0 300 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#24018
+merchant minotaur~
+the merchant~
+A wealthy minotaur with a pouch full of gold walks past you.
+~
+   This and many other minotaurs work for Vorn in keeping the trading and
+supply routes open between the cities.  They have all accumulated great wealth
+from their adventures and most of them live the life of the rich.    
+~
+dgl 0 300 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#24019
+noble minotaur~
+the noble~
+A minotaur with its nose stuck up in the air almost walks into you.
+~
+   This arrogant minotaur has lived the better life.  It has never gone through
+the hardships of battle, or the typical training given to most warriors.  
+Instead she has learned how to live off from others.  You pity her.    
+~
+dgl 0 300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 2
+E
+#24020
+tradesman minotaur~
+the tradesman~
+A minotaur tradesman is busy calculating profits.
+~
+   He looks intelligent.  But he has never experienced the training for battle.
+He has lived his life eating from the silver spoon.  Some think they can avoid
+war by seperating themselves from those who fight.  They are so wrong.    
+~
+dgl 0 300 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#24021
+guildsman minotaur~
+the guildsman~
+A minotaur guildsman is waiting for someone to train.
+~
+   It is fighters like this guildsman that pass down the knowledge and
+experience they have received over generations and in numerous battles that
+make the minotaur one of the fiercest fighters in the realm.    
+~
+dgl 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#24022
+lady minotaur~
+the lady~
+A lady minotaur gazes at you with total admiration, of your gold.
+~
+   If someone could ever consider a minotaur beautiful, you pity them.  This
+beastly lady is intimidating and just the thought of.....  Frightens you.    
+~
+dgl 0 300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+BareHandAttack: 4
+E
+#24023
+scribe minotaur~
+the scribe~
+A small minotaur is here writing something down.
+~
+   This educated minotaur has been hired by Vorn to take care of the paperwork
+in running the estate.  It's hard to believe a minotaur could look like a geek,
+but this one does.    
+~
+dgl 0 300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 13
+E
+#24024
+butcher minotaur~
+the butcher~
+A minotaur is carrying some meat to the market.
+~
+   This minotaur has blood smeared all face and hands.  He must be the butcher
+for the city.  He is caring a few slabs of bloody meat slung over each
+shoulder.    
+~
+dgl 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 10
+E
+#24025
+woman minotaur~
+the woman~
+A young female minotaur is running some errand.
+~
+   How anyone could consider a minotaur is beyond you.  You can not help but to
+remember the story about the young man who ran away with a beautiful minotaur
+once.  It sickens you.    
+~
+dgl 0 300 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+BareHandAttack: 4
+E
+#24026
+woman minotaur~
+the old woman~
+An old female minotaur is rambling about how beautiful she used to be.
+~
+   This old wrinkled hag has more stretch marks and sags than your waterskin.
+If she was beautiful once it must not have been in this century.    
+~
+dgl 0 300 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#24027
+Trang~
+Trang~
+Trang, the minotaur armorer is hammering something, he ignores you.
+~
+   This burly minotaur is very scary looking.  He has huge arms and a scarred
+face and body from the heat of the furnaces.  He looks disagreeable.    
+~
+bdglnopqr 0 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#24028
+targ~
+Targ~
+Targ, the supplies shop owner scowls at you.
+~
+   He has been running this shop for years and knows everyone in the city.  He
+makes you feel very uncomfortable.  Minotaurs typically don't like the other
+races and Targ is no exception.    
+~
+bdglnopqr 0 100 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#24029
+garge~
+Garge~
+Garge, looks at you and immediately begins to ignore you.
+~
+   He deals in those hard to find items that are desired by everyone.  But he
+is very picky about who he sells to.  Don't get on his bad side or he will
+never deal with you.    
+~
+bdgnopqr 0 100 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#24000
+robe~
+a grey robe~
+A nice robe is laying abandoned on the ground.~
+~
+9 0 ak 0
+2 0 0 0
+3 3 0 0
+E
+robe~
+   A long, loose flowing, outer garment, significant of church rank or position.
+
+~
+#24001
+mantle~
+a cloth mantle~
+Someone left a bright white mantle here.~
+~
+9 0 ac 0
+2 0 0 0
+3 3 0 0
+E
+mantle~
+   A very short cloak, often covering just the shoulders.  
+~
+#24002
+axe~
+a battle axe~
+A large battle axe is stuck into the ground.~
+~
+5 0 an 0
+1 7 3 6
+16 800 120 0
+E
+axe~
+   A single-bladed axe designed primarily for combat.  
+~
+#24003
+axe~
+a double headed axe~
+A massive double headed axe is half buried in the ground.~
+~
+5 0 an 0
+1 4 6 3
+18 850 135 0
+E
+axe~
+   A war axe with two opposing blades.  
+~
+#24004
+lochaber~
+a lochaber~
+An expertly crafted lochaber is hidden in the dirt.~
+~
+5 0 an 0
+1 8 3 3
+12 600 0 0
+E
+axe~
+   As much a polearm as an axe, it is a single edged axe head attached to a 6
+foot long haft.  
+~
+#24005
+axe~
+a broad axe~
+A large axe was left here.~
+~
+5 0 an 0
+1 4 5 6
+8 300 0 0
+E
+axe~
+   A single wide-edged axe.  
+~
+#24006
+bardiche~
+a bardiche~
+A bardiche was negligently left here.~
+~
+5 0 an 0
+4 7 4 10
+7 525 52 0
+E
+bardiche~
+   A type of pole-axe, typically a long, convex blade attached to the pole at
+two points.  
+~
+#24007
+halberd~
+a halberd~
+A halberd is rusting in the damp air.~
+~
+5 g an 0
+4 3 10 6
+8 600 60 0
+E
+halberd~
+   A large, angled axe blade atop a pole, set with a back spike.  
+~
+#24008
+hatchet~
+a hatchet~
+A small hatchet has been abandoned by its owner.~
+~
+5 0 an 0
+1 5 3 3
+3 150 15 0
+E
+hatchet~
+   A small, one handed axe, designed for labor more than combat.  
+~
+#24009
+polearm~
+a polearm~
+A expertly crafted polearm is lying here.~
+~
+5 g an 0
+4 5 5 10
+13 465 47 0
+E
+polearm~
+   This horrifying weapons main feeature is that a large hook is the main body
+of the weapon, with a convex axe blade on the end with sharpened edges and
+spikes.  
+~
+#24010
+loincloth~
+a leather loincloth~
+A leather loincloth is laying on the ground.~
+~
+9 0 al 0
+3 0 0 0
+2 20 2 0
+E
+loincloth~
+   This is the only clothing most minotaurs wear.  It looks very uncomfortable
+and you would rather not be caught wearing it.  
+~
+#24011
+bear meat~
+the bear meat~
+A large side of meat is lying here attracting flies.~
+~
+19 0 a 0
+8 0 0 0
+1 15 3 0
+E
+meat~
+   This large hunk of meat must have come from a big animal.  You guess it's
+probably from the bears outside the city of Dun Maura.  
+~
+#24012
+elk meat~
+the elk meat~
+A side of meat was left here.~
+~
+19 0 a 0
+6 0 0 0
+2 10 2 0
+E
+meat~
+   This large hunk of meat must have come from a big animal.  You guess it's
+probably from the elks outside the city of Dun Maura.  
+~
+#24013
+salmon fish~
+the salmon~
+A large fish stinks here.~
+~
+19 0 a 0
+3 0 0 0
+2 50 5 0
+E
+fish~
+   A large fish, looks like salmon, was left here.  It still looks edible, at
+least if you like fish.  
+~
+#24014
+loincloth fur~
+a fur loincloth~
+A loincloth made of soft fur has your name on it.~
+~
+9 0 al 0
+2 0 0 0
+3 15 1 0
+E
+loincloth~
+   This attractive little getup is very soft.  You wouldn't mind wearing this at
+all.  Who knows, maybe you'll attract some attention.  
+~
+#24015
+minotaur horns~
+the minotaur horns~
+A set of minotaur horns was left here.~
+~
+8 0 a 0
+0 0 0 0
+10 350 35 0
+E
+minotaur horns~
+   Whoever, or whatever killed the minotaur to get these horns must be on tough
+SOB.  These horns are prized in some areas and will fetch a good price.  
+~
+#24016
+nosering~
+a minotaur's nosering~
+A gold nosering is covered in dust.~
+~
+12 0 am 0
+0 0 0 0
+2 260 26 0
+E
+nosering~
+   This prized item among the minotaurs looks almost big enough to fit around
+your wrist.  The minotaurs use the nosering as a symbol of office.  Only an
+experienced guildsman is allowed to wear them.  
+~
+A
+19 2
+#24017
+quarterstaff oak~
+an oak quarterstaff~
+A large oak quarterstaff is perfectly straight and smooth without imperfection.~
+~
+5 go an 0
+4 3 7 7
+5 125 12 0
+E
+oak quarterstaff~
+   A long staff a few inches thick.  It is made of oak and is in perfect
+condition.  It is the best staff you have ever seen.  
+~
+A
+19 1
+#24018
+brass knuckles~
+the brass knuckles~
+A set of brass knuckles is lying in the dirt.~
+~
+9 ag ah 0
+5 0 0 0
+4 280 28 0
+E
+brass knuckles~
+   This deadly looking weapon is very good during fist fights.  That or it can
+be worn when wielding a weapon to prevent a foe from raking your fingers and
+trying to make you drop your own weapon.  
+~
+#24019
+hooded lantern~
+a hooded lantern~
+A large hooded lantern is unlit.~
+~
+1 0 ao 0
+0 0 36 0
+3 60 6 0
+E
+lantern hooded~
+   This is a rugged lantern used on long treks when searching caves or
+underground tunnels.  It is made to last a long time, but the price is
+outrageous.  
+~
+#24020
+belt pouch~
+a belt pouch~
+A small belt pouch was left here, maybe there is some money in it.~
+~
+15 0 al 0
+50 1 -1 0
+2 2 1 0
+E
+belt pouch~
+   This small pouch is used by merchants to carry their gold, is this one empty?
+
+~
+#24021
+cape~
+a fancy cape~
+A fancy cape was left here.~
+~
+9 0 ak 0
+2 0 0 0
+4 204 20 0
+E
+cape~
+   An fancy unhooded cloak that serves no real purpose except look silly.  You
+wonder how anyone could wear one of these and not get all tangled up in it.  
+~
+A
+2 1
+#24022
+sandals~
+a pair of sandals~
+A pair of hoof looking sandals are lying here.~
+~
+13 0 a 0
+0 0 0 0
+6 30 3 0
+E
+sandals~
+   These sandals won't even fit on your feet.  Some rich minotaurs of Dun Maura
+are supposed to wear these, they are considered a type of high status if you
+have a pair.  To you they are just junk.  
+~
+#24023
+scourge~
+a scourge~
+A wicked looking whip is coiled up neatly in a circle.~
+~
+5 0 an 0
+7 4 5 2
+8 500 0 0
+E
+scourge~
+   A whip with sharp metal attached to the end.  
+~
+A
+19 2
+A
+18 -3
+#24024
+sceptre~
+a bronze sceptre~
+A large bronze sceptre sparkles brightly.~
+~
+1 0 a 0
+0 0 -1 0
+15 1000 0 0
+E
+spectre~
+   This spectre gives off a strange light from an unkown source.  It does not
+flicker like a torch or lantern but radiates constantly.  
+~
+#24025
+purse~
+a purse~
+A fancy fur purse is hidden in the shadows.~
+~
+15 0 a 0
+50 1 -1 0
+9 100 0 0
+E
+purse~
+   This nice looking purse is very pretty.  You wonder what poor woman dropped
+it.  
+~
+#24026
+gold band~
+a gold band~
+A gold band, signifying an arena win has been lost here.~
+~
+9 jk ab 0
+5 0 0 0
+3 1000 0 0
+E
+gold ring~
+   This ring signifies a victory in the arena of Dun Maura, city of minotaurs.
+These are considered precious.  Minotaurs wear these on their horns after a
+victory.  Anyone falsely wearing this is deserving of a long painful death.  
+~
+A
+19 2
+A
+5 -2
+#24027
+fountain~
+the fountain~
+A pool of clear water is contained within a large fountain made of stone.~
+~
+23 0 0 0
+500 500 0 0
+0 0 0 0
+#0
+
+#ROOMS
+
+#24000
+The Southern Gate of Dun Maura~
+   As you walk into the shadows between the large steel gates you realize how
+insignificant you must look.  Minotaurs walk past, most several feet taller
+than you.  The guards here seem to be looking for an excuse to kill something,
+or someone.    
+~
+240 0 1
+D0
+~
+~
+0 0 24005
+D2
+You see the Highway, leading to the capital.
+~
+gate gates~
+1 0 -1
+E
+gate~
+   The large gates are made of wood, but are so heavily reinforced with stell
+that The large gates are made of wood, but are so heavily reinforced with steel
+that you can hardly tell.  It would take someone of inhuman strength to close
+them.  
+~
+E
+credits info~
+   Builder   : Rumble
+Zone         : 240 Dun Maura
+Began        : 2000
+Player Level : 5-10
+Rooms        : 88
+Mobs         : 34
+Objects      : 27
+Shops        : 1
+Triggers     : 10
+Theme        : A city of proud minotaurs.
+Links        : 00s, 37w, 84n
+~
+S
+#24001
+Zyanya Way~
+   You have heard stories that minotaurs like large buildings and open spaces
+which can accommodate their extended families.  They tend to get on well with
+anyone displaying similar qualities to their own.  You hope they will get along
+with you.    
+~
+240 0 1
+D0
+~
+~
+0 0 24010
+D1
+~
+~
+0 0 24002
+S
+#24002
+Zyanya Way~
+   The minotaur is one of the most powerful races.  Some growing over eight
+feet tall.  Stories of minotaurs killing humans for sport abound.  But they
+were all just stories, right?    
+~
+240 0 1
+D0
+~
+~
+0 0 24011
+D1
+~
+~
+0 0 24003
+D3
+~
+~
+0 0 24001
+S
+#24003
+Zyanya Way~
+   You carefully work your way along the small side street.  Trying to stay out
+of the way of the minotaurs.  Their bodies are covered in a short dark fur.  
+Minotaurs are not considered one of the smarter races, and tend be viewed as a
+race of bullies.    
+~
+240 0 1
+D1
+~
+~
+0 0 24004
+D3
+~
+~
+0 0 24002
+S
+#24004
+Zyanya Way~
+   The minotaur is a tall muscular race.  Most Minotaurs average about 8 feet
+tall, and weigh in excess of 400 pounds.  You follow a small street along the
+southern wall.  To the north you see a large structure.    
+~
+240 0 1
+D0
+~
+~
+0 0 24013
+D1
+~
+~
+0 0 24005
+D3
+~
+~
+0 0 24003
+S
+#24005
+Vassar Road~
+   You stare around in amazement at this strange race, the Minotaur.  You know
+the stories well.  Generally sturdy, large and strong folk, they are mostly
+hard-working, assertive and uncompromising to the point of stubbornness, which
+can manifest as belligerence, boastful pride and a hot temper.
+~
+240 0 1
+D0
+~
+~
+0 0 24014
+D1
+~
+~
+0 0 24006
+D2
+~
+~
+0 0 24000
+D3
+~
+~
+0 0 24004
+S
+#24006
+Zyanya Way~
+   You have heard stories that minotaurs like large buildings and open spaces
+which can accommodate their extended families.  They tend to get on well with
+anyone displaying similar qualities to their own.  You hope they will get along
+with you.    
+~
+240 0 1
+D1
+~
+~
+0 0 24007
+D3
+~
+~
+0 0 24005
+S
+#24007
+Zyanya Way~
+   Minotaurs are ancient creatures, dating back to the beginning of time.  
+Human in body, these creatures have the heads of bulls, making them not very
+well suited towards beautypageants.    
+~
+240 0 1
+D1
+~
+~
+0 0 24008
+D3
+~
+~
+0 0 24006
+S
+#24008
+Zyanya Way~
+   You remember the horrible stories about how a minotaur can become greatly
+enraged and wreak havoc if provoked.  You remind yourself to be very careful
+around these juggernauts.    
+~
+240 0 1
+D1
+~
+~
+0 0 24009
+D3
+~
+~
+0 0 24007
+S
+#24009
+Zyanaya Way~
+   The average Minotaur tends to wear very little clothing because their fur
+provides quite a bit of warmth.  They trample past you with a certain
+determination that makes you feel uneasy.  They all look so...  Confident.    
+~
+240 0 1
+D0
+~
+~
+0 0 24018
+D3
+~
+~
+0 0 24008
+S
+#24010
+Whits Lane~
+   Minotaurs are a very honorable race.  Unfortunately, they are also a violent
+race because of how they value strength.  This makes them very seclusive.  
+Very rarely will a minotaur ever bee seen outside of the city.  Unless they are
+on a mission.    
+~
+240 0 1
+D0
+~
+~
+0 0 24019
+D2
+~
+~
+0 0 24001
+S
+#24011
+Minotaur Home~
+   A large room lined with bunks stacked three high.  Several large tables are
+in the middle of the room without any chairs.  This must be where the minotaurs
+come to sleep and eat.  They must live a very mundane and dull life.    
+~
+240 0 1
+D2
+~
+~
+0 0 24002
+D4
+~
+~
+0 0 24085
+E
+table~
+   The table is bare and in pretty rough shape.  Scratches mar the once smooth
+top.    
+~
+S
+#24012
+The Armory~
+   You can hear the bellows pumping, the roar of the furnace where some of the
+finest weapons in the realm are made.  A huge minotaur with arms larger than
+your waist hammers away at some yet to be recognizable hunk of metal.  Many
+items lay about you, ready for sale
+~
+240 0 1
+D0
+~
+~
+0 0 24021
+S
+#24013
+Minotaur Home~
+   This is where the minotaurs sleep and eat.  That is all.  A large table sits
+in the middle of the room and bunks line all the walls.  They have no need for
+luxuries.  A large family must live in this house.  A small staircase winds its
+way to the second floor.    
+~
+240 0 1
+D2
+~
+~
+0 0 24004
+D4
+~
+~
+0 0 24086
+E
+table~
+   The table spans about three quarters of the room.  Enough to seat at least
+30 minotaurs.  Too bad there are no chairs.    
+~
+S
+#24014
+Vassar Road~
+   From their birth, minotaurs are trained for strength, cunning, and
+intelligence.  They believe that the weak should perish and that might proves
+right.  It is to them, the natural process of life.  The street continues north
+and south.    
+~
+240 0 1
+D0
+~
+~
+0 0 24023
+D2
+~
+~
+0 0 24005
+S
+#24015
+Training Grounds~
+   You remember the tales of battle how the Minotaurs fought ferociously and
+showed no mercy to their fallen adversaries, often stampeding over the dead and
+dying bodies to pursue a new enemy.    
+~
+240 0 1
+D0
+~
+~
+0 0 24024
+D1
+~
+~
+0 0 24016
+S
+#24016
+Training Grounds~
+   Minotaurs view surrender as an admission of weakness, and are likely to
+fight to the death regardless of the circumstances.  Several minotaurs are here
+sparring with their deadly look axes and pole arms.    
+~
+240 0 1
+D0
+~
+~
+0 0 24025
+D1
+~
+~
+0 0 24017
+D3
+~
+~
+0 0 24015
+S
+#24017
+Training Grounds~
+   Minotaurs are powerfully built and tower more than eight feet in height,
+with the head of a bull and the body of a human male.  Minotaurs revere
+physical strength above all else, and they believe that the strong should
+naturally rule the weak.    
+~
+240 0 1
+D0
+~
+~
+0 0 24026
+D3
+~
+~
+0 0 24016
+S
+#24018
+Wasatch Lane~
+   Minotaurs grow up in secluded towns only with other Minotaurs.  The city
+seems to be very chaotic and barbaric.  But, this is not the case.  They just
+have a very different way of approaching law enforcement and society.    
+~
+240 0 1
+D0
+~
+~
+0 0 24027
+D2
+~
+~
+0 0 24009
+S
+#24019
+Whits Lane~
+   The stories you hear of the minotaurs are not always good ones, you remember
+one specifically.  Minotaurs believe themselves to be the "Master Race.  " They
+believe the gods chose them to control the weak and dishonorable.    
+~
+240 0 1
+D0
+~
+~
+0 0 24028
+D2
+~
+~
+0 0 24010
+S
+#24020
+Market Street~
+   You recall the story how when provoked, these awesome warriors will
+fearlessly charge headlong into their foes, seeking to spill entrails with
+their devastating horns.  This power makes Minotaurs respected and revered
+fighters throughout all of the realm.    
+~
+240 0 1
+D0
+~
+~
+0 0 24029
+D1
+~
+~
+0 0 24021
+S
+#24021
+Market Street~
+   The city around you is a wondrous city of buildings and cobblestone streets.
+Though crude and utilitarian.  Inhabited solely by minotaurs, it is ruled by
+Zarn, the minotaur Grand Master.    
+~
+240 0 1
+D1
+~
+~
+0 0 24022
+D2
+~
+~
+0 0 24012
+D3
+~
+~
+0 0 24020
+S
+#24022
+Market Street~
+   Many minotaurs are brutal savages, but they are not always mindless killers.
+They are ruthless, harsh, and stubborn, but they can be surprisingly
+intelligent.  As you enter the marketplace, you realize they are a society just
+like any other.    
+~
+240 0 1
+D0
+~
+~
+0 0 24031
+D1
+~
+~
+0 0 24023
+D3
+~
+~
+0 0 24021
+S
+#24023
+Vassar Road~
+   To the west you can hear the sounds of fighting.  To the east a small
+marketplace.  You remember more of the minotuar history.  They are intensely
+proud creatures, half-human and half-cow, "bovine" is just about the worst
+insult anyone can hurl at a minotaur
+~
+240 0 1
+D0
+~
+~
+0 0 24032
+D1
+~
+~
+0 0 24024
+D2
+~
+~
+0 0 24014
+D3
+~
+~
+0 0 24022
+S
+#24024
+Training Grounds~
+   You have entered into the minotaurs training area.  Here minotaurs practice
+their various fighting styles.  You could probably learn a thing or two by
+watching.  Because of their legendary stamina and massive builds most Minotaurs
+pursue a life of military service.    
+~
+240 0 1
+D0
+~
+~
+0 0 24033
+D1
+~
+~
+0 0 24025
+D2
+~
+~
+0 0 24015
+D3
+~
+~
+0 0 24023
+S
+#24025
+Training Grounds~
+   Adventurer knows better then to get on the wrong side of a Minotaur.  
+Minotaurs are a large strong race well known for their abillty to work days at
+a time with very little rest.  Though they are not among the smartest of races,
+they are regarded for their warrior skills and even the novice adventurer knows
+better then to get on the wrong side of a Minotaur.    
+~
+240 0 1
+D0
+~
+~
+0 0 24034
+D1
+~
+~
+0 0 24026
+D2
+~
+~
+0 0 24016
+D3
+~
+~
+0 0 24024
+S
+#24026
+Training Grounds~
+   Minotaurs are great fighters, but they are limited in the other occupations.
+They mostly keep to themselves because of their superior beliefs except during
+war.  If you ever had to go to war, this would be who you want as any ally.  
+~
+240 0 1
+D0
+~
+~
+0 0 24035
+D2
+~
+~
+0 0 24017
+D3
+~
+~
+0 0 24025
+S
+#24027
+Wasatch Lane~
+   Minotaurs frequently prize strength and prowess, and tend to prefer simple,
+direct solutions to problems.  The majority of Minotaurs despise laziness and
+injustice.  You wonder exactly at what their definition of laziness and
+injustice would be.    
+~
+240 0 1
+D0
+~
+~
+0 0 24036
+D2
+~
+~
+0 0 24018
+S
+#24028
+Whits Lane~
+   The small lane continues north and south from here.  You recall even more of
+the stories of the minotaur way of life.  The family is the blood of the
+culture.  Without a family a Minotaur has no source for nobility, honor, or
+pride.    
+~
+240 0 1
+D0
+~
+~
+0 0 24038
+D2
+~
+~
+0 0 24019
+S
+#24029
+Specialty Shop~
+   This small shop has exotic items only made by minotaurs, for minotaurs.  
+You have heard stories of some people being able to get these items through
+other hands, but no minotaur ever gives up these special items willingly.    
+~
+240 0 1
+D2
+~
+~
+0 0 24020
+S
+#24030
+Minotaur House~
+   There is something strange about this house.  You can't quite figure it out,
+but something disturbs you.  A staircase leads up.  The street is to the north.
+A large rug covers most of the floor here.  It is the first luxury you have
+seen in any minotuar home.    
+~
+240 0 1
+D0
+~
+~
+0 0 24040
+D4
+~
+~
+0 0 24087
+D5
+~
+Grate~
+1 0 24088
+E
+grate~
+   A small grate is partially hidden under some dirt and blankets.    
+~
+E
+rug~
+   The rug seems to be covering a large grate in the floor.  You wonder if you
+could lift that heavy metal grate.    
+~
+S
+#24031
+Supplies store~
+   Shelves are everywhere in this small shope.  Crowded to overflowing, items
+lean against the walls, are stacked on the floor, and are even hanging from the
+ceiling.  You wonder what kinds of things might be for sale to you.  Most
+minotaurs only trade with their own kind.    
+~
+240 0 1
+D2
+~
+~
+0 0 24022
+S
+#24032
+Vassar Road~
+   Few other races are respected or feared more than the minotaurs of Dun
+Maura.  Their minds and bodies are powerful, and they radiate auras of command
+and authority.  No one in their right mind comes to this city with evil
+intentions.    
+~
+240 0 1
+D0
+~
+~
+0 0 24042
+D2
+~
+~
+0 0 24023
+S
+#24033
+Training Grounds~
+   You stare at the minotaurs honrs, you start to feel sick to your stomach.  
+Could you imagine what it would be like to be impaled by a minotaur?  The
+minotaurs ivory-coloured horns reach up to two feet in length.  They adorn
+thier horns with gold rings which represent the number of combats won in the
+Arena.    
+~
+240 0 1
+D1
+~
+~
+0 0 24034
+D2
+~
+~
+0 0 24024
+S
+#24034
+Training Grounds~
+   Minotaurs are incredibly strong and powerful.  Their thick hide can take a
+strong beating in battle.  Due to their nature, they are disliked by many other
+races but are tolerated because of their fierce warlike attitudes.  Minotaurs
+make superb warriors.    
+~
+240 0 1
+D1
+~
+~
+0 0 24035
+D2
+~
+~
+0 0 24025
+D3
+~
+~
+0 0 24033
+S
+#24035
+Training Grounds~
+   Minotaurs are the largest of the races, ranging from 7-9 feet in height.  
+They are stronger than any other race, and almost as durable as the dwarves.  
+Minotaurs are very versatile.  They prefer to be what they were born to be: a
+Warrior!    
+~
+240 0 1
+D2
+~
+~
+0 0 24026
+D3
+~
+~
+0 0 24034
+S
+#24036
+Wasatch Lane~
+   Minotaurs do not look down on other races, but they rarely understand the
+likes of the "higher", "civilized" species.  They are a very brusque and direct
+people and don't particularly enjoy the likes of those races that rely on
+diplomacy and subterfuge to exist.    
+~
+240 0 1
+D0
+~
+~
+0 0 24046
+D2
+~
+~
+0 0 24027
+S
+#24037
+The Western Gate of Dun Maura~
+   This gate is rarely open.  Only the Southern and Eastern gates are kept open
+to allow travel between the city of the centaurs and the Capital.  The
+wilderness beyond these gate is wild and untamed.    
+~
+240 0 1
+D1
+~
+~
+0 0 24038
+S
+#24038
+Whits Lane~
+   You arrive at the intersection before the west gate.  The minotaurs around
+you have heads that are shaped like that of a bull and their bodies are covered
+with fur and their feet are cleft hooves.  They have horns that grow 3-24
+inches.    
+~
+240 0 1
+D0
+~
+~
+0 0 24048
+D1
+~
+~
+0 0 24039
+D2
+~
+~
+0 0 24028
+D3
+~
+~
+0 0 24037
+S
+#24039
+VaQuero Road~
+   Few other races are respected or feared more than the minotaurs of Dun
+Maura.  Their minds and bodies are powerful, and they radiate auras of command
+and authority.  No one in their right mind comes to this city with evil
+intentions.    
+~
+240 0 1
+D1
+~
+~
+0 0 24040
+D3
+~
+~
+0 0 24038
+S
+#24040
+VaQuero Road~
+   To the north you see a large, crude building.  It seems that alot of
+important minotaurs must reside there.  It must be where the city is run from.
+To the south a small stone building is heavily guarded.    
+~
+240 0 1
+D0
+~
+~
+0 0 24050
+D1
+~
+~
+0 0 24041
+D2
+~
+~
+0 0 24030
+D3
+~
+~
+0 0 24039
+S
+#24041
+VaQuero Road~
+   The physical presence of a minotaur is awe-inspiring.  Powerful, eight-foot
+tall humanoids with the horned head of a bull, minotaurs have fur all over
+their bodies, ranging in colour from red to brown and even black.    
+~
+240 0 1
+D1
+~
+~
+0 0 24042
+D3
+~
+~
+0 0 24040
+S
+#24042
+The Center of Dun Maura~
+   You find yourself in the heart of the city.  Minotaurs are everywhere.  It
+seem like this city is overflowing, you wonder how so many can live in such a
+small city.  They seem oblivious to your presence, you are not sure if that is
+good or bad.    
+~
+240 0 1
+D0
+~
+~
+0 0 24052
+D1
+~
+~
+0 0 24043
+D2
+~
+~
+0 0 24032
+D3
+~
+~
+0 0 24041
+S
+#24043
+VaQuero Road~
+   You stare at the minotaurs honrs, you start to feel sick to your stomach.  
+Could you imagine what it would be like to be impaled by a minotaur?  The
+minotaurs ivory-coloured horns reach up to two feet in length.  They adorn
+thier horns with gold rings which represent the number of combats won in the
+Arena.    
+~
+240 0 1
+D1
+~
+~
+0 0 24044
+D3
+~
+~
+0 0 24042
+S
+#24044
+VaQuero Road~
+   Minotaurs are incredibly strong and powerful.  Their thick hide can take a
+strong beating in battle.  Due to their nature, they are disliked by many other
+races but are tolerated because of their fierce warlike attitudes.  Minotaurs
+make superb warriors.    
+~
+240 0 1
+D1
+~
+~
+0 0 24045
+D3
+~
+~
+0 0 24043
+S
+#24045
+VaQuero Way~
+   Minotaurs are the largest of the races, ranging from 7-9 feet in height.  
+They are stronger than any other race, and almost as durable as the dwarves.  
+Minotaurs are very versatile.  They prefer to be what they were born to be: a
+Warrior!    
+~
+240 0 1
+D1
+~
+~
+0 0 24046
+D3
+~
+~
+0 0 24044
+S
+#24046
+Wasatch Lane~
+   You arrive at the intersection before the east gate.  The minotaurs around
+you have heads that are shaped like that of a bull and their bodies are covered
+with fur and their feet are cleft hooves.  They have horns that grow 3-24
+inches.    
+~
+240 0 1
+D0
+~
+~
+0 0 24056
+D1
+~
+~
+0 0 24047
+D2
+~
+~
+0 0 24036
+D3
+~
+~
+0 0 24045
+S
+#24047
+The Eastern Gate of Dun Maura~
+   This gate is heavily guarded by the minotaurs.  You can remember the huge
+battles between the minotaurs and centaurs.  Some of the greatest fighters ever
+to clash in the great wars.  Now a temporary truce has stopped the war, but how
+long will it last?    
+~
+240 0 1
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 24046
+S
+#24048
+Whits Lane~
+   Minotaurs are a very honorable race.  Unfortunately, they are also a violent
+race because of how they value strength.  This makes them very seclusive.  
+Very rarely will a minotaur ever bee seen outside of the city.  Unless they are
+on a mission.    
+~
+240 0 1
+D0
+~
+~
+0 0 24057
+D2
+~
+~
+0 0 24038
+S
+#24049
+Hall of Vardis~
+   Despite their brutal appearance, Minotaurs possess good-natured dispositions
+and strive to uphold justice in the name of the Glorious Vardis, their only
+god.    
+~
+240 0 1
+D0
+~
+~
+0 0 24058
+D1
+~
+~
+0 0 24050
+S
+#24050
+Hall of Vardis~
+   You stand in a massive stone building.  The hall continues north.  This
+seems to be some kind of place of worship.  A large statue dominates the center
+of the room.  It must be the minotuars sole god.    
+~
+240 0 1
+D0
+~
+~
+0 0 24059
+D1
+~
+~
+0 0 24051
+D2
+~
+~
+0 0 24040
+D3
+~
+~
+0 0 24049
+S
+#24051
+Hall of Vardis~
+   Minotaurs are a secluded race and are fervently religious toward their god,
+Vardis.  Minotaurs possess good-natured dispositions and strive to uphold
+justice in the name of Glorious Vardis.    
+~
+240 0 1
+D0
+~
+~
+0 0 24060
+D3
+~
+~
+0 0 24050
+S
+#24052
+Vassar Road~
+   The physical presence of a minotaur is awe-inspiring.  Powerful, eight-foot
+tall humanoids with the horned head of a bull, minotaurs have fur all over
+their bodies, ranging in colour from red to brown and even black.    
+~
+240 0 1
+D0
+~
+~
+0 0 24061
+D2
+~
+~
+0 0 24042
+S
+#24053
+Vorn Estate~
+   This is the estate of the famous minotaur Vorn.  He is in charge of the
+cities economic stature and has supposedly been doing a great job for over 30
+years.  But, few minotaurs seem to respect him.  You wonder why.    
+~
+240 0 1
+D0
+~
+~
+0 0 24062
+D1
+~
+~
+0 0 24054
+D4
+~
+~
+0 0 24098
+S
+#24054
+Main Chamber~
+   You stand in a massive room, marble pillars support a high ceiling.  
+Skylights and windows are carved intricately into the walls.  This estate is a
+relief compared to the crude buildings in the rest of the city.    
+~
+240 0 1
+D0
+~
+~
+0 0 24063
+D1
+~
+~
+0 0 24055
+D3
+~
+~
+0 0 24053
+S
+#24055
+Waiting Room~
+   This is where anyone seeking an audience with Vorn must wait until called
+upon.  The room is surprisingly empty.  Either Vorn runs a tight ship or the
+population must be scared of him.  The main chamber is to the west.    
+~
+240 0 1
+D3
+~
+~
+0 0 24054
+S
+#24056
+Wasatch Lane~
+   Minotaurs live by a Code of Honor.  A Minotaur would never break his word or
+cause dishonor to himself.  Minotaurs believe that "Might makes right.  " All
+legal cases are settled in the Arena.  The Arena is the heart of their culture.
+  
+~
+240 0 1
+D0
+~
+~
+0 0 24065
+D2
+~
+~
+0 0 24046
+S
+#24057
+Whits Lane~
+   Minotaurs live by a Code of Honor.  A Minotaur would never break his word or
+cause dishonor to himself.  Minotaurs believe that "Might makes right.  " All
+legal cases are settled in the Arena.  The Arena is the heart of their culture.
+~
+240 0 1
+D0
+~
+~
+0 0 24066
+D2
+~
+~
+0 0 24048
+S
+#24058
+Hall of Vardis~
+   Minotaurs are a secluded race and are fervently religious toward their god,
+Vardis.  Minotaurs possess good-natured dispositions and strive to uphold
+justice in the name of Glorious Vardis.    
+~
+240 0 1
+D1
+~
+~
+0 0 24059
+D2
+~
+~
+0 0 24049
+S
+#24059
+Hall of Vardis~
+   A huge statue dominates the center of this room.  Vardis, the god of
+minotaurs has been known by many names.  The god of war, death, or justice.  
+All minotaurs revere him and wait for his return to finally overthrow the
+centaurs to the east.    
+~
+240 0 1
+D0
+~
+~
+0 0 24068
+D1
+~
+~
+0 0 24060
+D2
+~
+~
+0 0 24050
+D3
+~
+~
+0 0 24058
+E
+statue vardis~
+   The statue depicts a giant centaur with horns covered with golden rings to
+portray an undefeated rein in the arena.  He holds a massive war axe and seems
+to be standing over the remains of a centaur.    
+~
+S
+#24060
+Hall of Vardis~
+   Despite their brutal appearance, Minotaurs possess good-natured dispositions
+and strive to uphold justice in the name of the Glorious Vardis, their only
+god.    
+~
+240 0 1
+D2
+~
+~
+0 0 24051
+D3
+~
+~
+0 0 24059
+S
+#24061
+Vassar Road~
+   To the east the entrance to a large fancy building is wide open.  You
+remember more of the minotuar history.  They are intensely proud creatures,
+half-human and half-cow, "bovine" is just about the worst insult anyone can
+hurl at a minotaur.    
+~
+240 0 1
+D0
+~
+~
+0 0 24070
+D1
+~
+~
+0 0 24062
+D2
+~
+~
+0 0 24052
+S
+#24062
+Vorn Estate~
+   Though most minotaurs would rather lead a life of battle and honor some have
+been persuaded by the ways of other races to live a more fertile and luxurious
+life.  This is frowned on by the society, but allowed by the Grand Master to
+allow for trade.    
+~
+240 0 1
+D0
+~
+~
+0 0 24071
+D1
+~
+~
+0 0 24063
+D2
+~
+~
+0 0 24053
+D3
+~
+~
+0 0 24061
+S
+#24063
+The Main Chamber~
+   You work your way into the center of this fancy estate.  The exit seems to
+be to the west while Vorn himself should be in the audience chamber to the
+east.  This massive chamber continues north and south.    
+~
+240 0 1
+D0
+~
+~
+0 0 24072
+D1
+~
+~
+0 0 24064
+D2
+~
+~
+0 0 24054
+D3
+~
+~
+0 0 24062
+S
+#24064
+Audience Chamber~
+   It is here that the cities financial matters are taken care of.  Vorn
+himself usually sits on top of a small platform at the back of the room to
+listen to anyone who has a reason to petition.  The room is lavishly decorated
+with curtains and a fine rug.    
+~
+240 0 1
+D3
+~
+~
+0 0 24063
+D4
+~
+~
+0 0 24097
+S
+#24065
+Wasatch Lane~
+   The small lane continues north and south from here.  You recall even more of
+the stories of the minotaur way of life.  The family is the blood of the
+culture.  Without a family a Minotaur has no source for nobility, honor, or
+pride.    
+~
+240 0 1
+D0
+~
+~
+0 0 24074
+D2
+~
+~
+0 0 24056
+S
+#24066
+Whits Lane~
+   Minotaurs do not look down on other races, but they rarely understand the
+likes of the "higher", "civilized" species.  They are a very brusque and direct
+people and don't particularly enjoy the likes of those races that rely on
+diplomacy and subterfuge to exist.    
+~
+240 0 1
+D0
+~
+~
+0 0 24075
+D2
+~
+~
+0 0 24057
+S
+#24067
+Zarn's Estate~
+   Stairs lead up to the Grand Masters rooms.  He is the supreme power in the
+city.  Everyone except the War Master answer to him and him alone.  Only in the
+time of war can his word be overran by the War Master.    
+~
+240 0 1
+D1
+~
+~
+0 0 24068
+D4
+~
+~
+0 0 24089
+S
+#24068
+Zarn's Estate~
+   You enter another small building attached to the end of Vardis Hall.  This
+is where the government, if you could call it that, of the minotaurs resides.
+Their is only one position.  The Grand Master.  He is the final say in all
+matters of the city.    
+~
+240 0 1
+D1
+~
+~
+0 0 24069
+D2
+~
+~
+0 0 24059
+D3
+~
+~
+0 0 24067
+S
+#24069
+Zarn's Estate~
+   Stairs lead up to Zarn's rooms where he runs the city.  The Grand Master is
+almost always accompanied by the War Master and a few advisors that help him
+make all the decisions for the city.    
+~
+240 0 1
+D3
+~
+~
+0 0 24068
+D4
+~
+~
+0 0 24090
+S
+#24070
+Vassar Road~
+   From their birth, minotaurs are trained for strength, cunning, and
+intelligence.  They believe that the weak should perish and that might proves
+right.  It is to them, the natural process of life.  The street continues north
+and south.    
+~
+240 0 1
+D0
+~
+~
+0 0 24079
+D2
+~
+~
+0 0 24061
+S
+#24071
+Vorn Estate~
+   Several minotaurs are actually wearing robes and some type of sandals here.
+They seem to have given up the normal minotaur life in order to pursue a more
+monetary lifestyle.  A spiral stairway leads up.    
+~
+240 0 1
+D1
+~
+~
+0 0 24072
+D2
+~
+~
+0 0 24062
+D4
+~
+~
+0 0 24096
+S
+#24072
+Vorn Estate~
+   You wonder how even a race of warriors must trade and have some sort of
+monetary system to keep the city healthy.  The occupants of this small estate
+must be in charge of all trade with the outsiders.    
+~
+240 0 1
+D1
+~
+~
+0 0 24073
+D2
+~
+~
+0 0 24063
+D3
+~
+~
+0 0 24071
+S
+#24073
+Vorn Estate~
+   This Vorn, the guy who owns this place must be rich.  You have heard that he
+controls all trade with the other cities.  He is well known as a conniving
+salesman who always gets the best of any deal.    
+~
+240 0 1
+D3
+~
+~
+0 0 24072
+S
+#24074
+Wasatch Lane~
+   The stories you hear of the minotaurs are not always good ones, you remember
+one specifically.  Minotaurs believe themselves to be the "Master Race.  " They
+believe the gods chose them to control the weak and dishonorable.    
+~
+240 0 1
+D0
+~
+~
+0 0 24083
+D2
+~
+~
+0 0 24065
+D5
+   A large metal cover blocks the entrance to the sewers below the city.    
+~
+sewer cover~
+1 0 24099
+E
+sewer cover~
+   A large metal sewer cover is partially open.    
+~
+S
+#24075
+Zoa Way~
+   You remember the horrible stories about how a minotaur can become greatly
+enraged and wreak havoc if provoked.  You remind yourself to be very careful
+around these juggernauts.  The road continues west or south.    
+~
+240 0 1
+D1
+~
+~
+0 0 24076
+D2
+~
+~
+0 0 24066
+S
+#24076
+Zoa Way~
+   Minotaurs are ancient creatures, dating back to the beginning of time.  
+Human in body, these creatures have the heads of bulls, making them not very
+well suited towards beautypageants.    
+~
+240 0 1
+D1
+~
+~
+0 0 24077
+D3
+~
+~
+0 0 24075
+S
+#24077
+Zoa Way~
+   You have heard stories that minotaurs like large buildings and open spaces
+which can accommodate their extended families.  They tend to get on well with
+anyone displaying similar qualities to their own.  You hope they will get along
+with you.    
+~
+240 0 1
+D1
+~
+~
+0 0 24078
+D3
+~
+~
+0 0 24076
+S
+#24078
+Zoa Way~
+   You carefully work your way along the small side street.  Trying to stay out
+of the way of the minotaurs.  Their bodies are covered in a short dark fur.  
+Minotaurs are not considered one of the smarter races, and tend be viewed as a
+race of bullies.    
+~
+240 0 1
+D1
+~
+~
+0 0 24079
+D3
+~
+~
+0 0 24077
+S
+#24079
+Vassar Road~
+   You stare around in amazement at this strange race, the Minotaur.  You know
+the stories well.  Generally sturdy, large and strong folk, they are mostly
+hard-working, assertive and uncompromising to the point of stubbornness, which
+can manifest as belligerence, boastful pride and a hot temper.    
+~
+240 0 1
+D0
+~
+~
+0 0 24084
+D1
+~
+~
+0 0 24080
+D2
+~
+~
+0 0 24070
+D3
+~
+~
+0 0 24078
+S
+#24080
+Zoa Way~
+   You carefully work your way along the small side street.  Trying to stay out
+of the way of the minotaurs.  Their bodies are covered in a short dark fur.  
+Minotaurs are not considered one of the smarter races, and tend be viewed as a
+race of bullies.    
+~
+240 0 1
+D1
+~
+~
+0 0 24081
+D3
+~
+~
+0 0 24079
+S
+#24081
+Zoa Way~
+   The average Minotaur tends to wear very little clothing because their fur
+provides quite a bit of warmth.  They trample past you with a certain
+determination that makes you feel uneasy.  They all look so...  Confident.    
+~
+240 0 1
+D1
+~
+~
+0 0 24082
+D3
+~
+~
+0 0 24080
+S
+#24082
+Zoa Way~
+   Minotaurs grow up in secluded towns only with other Minotaurs.  The city
+seems to be very chaotic and barbaric.  But, this is not the case.  They just
+have a very different way of approaching law enforcement and society.    
+~
+240 0 1
+D1
+~
+~
+0 0 24083
+D3
+~
+~
+0 0 24081
+S
+#24083
+Zoa Way~
+   Minotaurs frequently prize strength and prowess, and tend to prefer simple,
+direct solutions to problems.  The majority of Minotaurs despise laziness and
+injustice.  You wonder exactly at what their definition of laziness and
+injustice would be.    
+~
+240 0 1
+D2
+~
+~
+0 0 24074
+D3
+~
+~
+0 0 24082
+S
+#24084
+The Northern Gate of Dun Maura~
+   The gate stands wide open and leads into a peaceful looking woods.  A fresh
+breeze blows through the gate carrying with it the noise and smell of the
+forest.  A small path leads into the woods to the north.    
+~
+240 0 1
+D2
+~
+~
+0 0 24079
+S
+#24085
+Bunk Room~
+   Nothing but bunks crowd this room to the max.  Stacked one on top of the
+other you wonder how anyone could live in such cramped quarters.  About a
+quarter of the population could probably live in this one house.    
+~
+240 0 1
+D5
+~
+~
+0 0 24011
+S
+#24086
+Bunk Room~
+   Nothing but bunk after bunk lining the walls.  They are actually built right
+into the walls.  Three high, on right on top of the other.  At least 20
+minotaurs could probably sleep in here.  You see no personal items at all.    
+~
+240 0 1
+D5
+~
+~
+0 0 24013
+S
+#24087
+Bunk Room~
+   This room also gives you a strange creepy feeling.  Nothing unusual about it
+though.  Just bunks lining the walls giving the minotaurs somewhere to sleep.
+The night shift is snoring, asleep until thier next watch.    
+~
+240 0 1
+D5
+~
+~
+0 0 24030
+S
+#24088
+Hidden Room~
+   You thought minotaurs were very unsecretive and incapable of any mischief.
+Various implements of torture lie about the room.  This seems to be where the
+not so honorable minotaurs of the society reside.  You wonder how a society of
+such strict honor could allow something like this to go on.    
+~
+240 0 0
+D4
+   A small grate blocks the exit up.    
+~
+grate~
+1 0 24030
+S
+#24089
+Zarn's Hall~
+   Stairs lead down or the hall continues to the east towards the meeting room.
+Where Zarn runs the city.  The hierarchy of minatours is simple.  Their God,
+the Grand Master, and finally the War Master.    
+~
+240 0 1
+D1
+~
+~
+0 0 24091
+D5
+~
+~
+0 0 24067
+S
+#24090
+Zarn's Hall~
+   Stairs lead down or the hall continues to the west towards the meeting room.
+Where Zarn runs the city.  The hierarchy of minatours is simple.  Their God,
+the Grand Master, and finally the War Master.    
+~
+240 0 1
+D3
+~
+~
+0 0 24091
+D5
+~
+~
+0 0 24069
+S
+#24091
+Zarn's Hall~
+   Just to the south you can see the meeting room where the Grand Master
+resides.  To the east and west are stairways leading down to the Hall of
+Vardis.  Several minotaurs are lounging around, awaiting an audience with Zarn.
+  
+~
+240 0 1
+D1
+~
+~
+0 0 24090
+D2
+~
+~
+0 0 24093
+D3
+~
+~
+0 0 24089
+S
+#24092
+Advisors Room~
+   Several bunks line the walls where the advisors to the Grand Master sleep.
+Always withing shouting distance they help Zarn run the city.  To many Zarn is
+just a figurehead while the advisors are the real brains.    
+~
+240 0 1
+D1
+~
+~
+0 0 24093
+S
+#24093
+Meeting Room of the Grand Master~
+   You step into a large room with windows cut into the high ceiling to allow
+light, and pillars to keep the ceiling from crashing down on your head.  In the
+center of the room is a pedestal where the grand master gives audience with his
+advisors.    
+~
+240 0 1
+D0
+~
+~
+0 0 24091
+D1
+~
+~
+0 0 24094
+D2
+~
+~
+0 0 24095
+D3
+~
+~
+0 0 24092
+S
+#24094
+War Masters Chambers~
+   Easily the most respected of all the minotaurs, the War Master is admired
+almost as much as the war god himself.  The title War Master is the ultimate
+honor to be given to any minotaur.  It can only be given to a minotaur who has
+been a war hero and undefeated in the arena.    
+~
+240 0 1
+D3
+~
+~
+0 0 24093
+S
+#24095
+Grand Masters Chamber~
+   The Grand Master is the only political figure in the entire city.  Some
+minotaurs even despise him because of this, but it was agreed that a figurehead
+is necessary in order to run the city and trade with the other races.    
+~
+240 0 1
+D0
+~
+~
+0 0 24093
+S
+#24096
+A Bedroom~
+   This has to be one of the first liveable rooms you have seen in this city of
+stone.  A large bed fills the room and even some small furniture is scattered
+haphazardly in the corners.    
+~
+240 0 1
+D5
+~
+~
+0 0 24071
+S
+#24097
+Vorn's Chamber~
+   This is where the richest minotaur alive sleeps.  The minotaurs are well
+known for thier honesty and word.  You wonder if it is possible for a minotaur
+to actually be evil.  If it is possible, Vorn would be a good place to start.
+~
+240 0 1
+D5
+~
+~
+0 0 24064
+S
+#24098
+Guest Room~
+   This is where the special guests of the estate can stay if Vorn thinks it
+fit.  Many people of different races and from across the realm travel to this
+fabled city.  If they have the money Vorn is sure to swindle them out of it.  
+~
+240 0 1
+D5
+~
+~
+0 0 24053
+S
+#24099
+The Sewers~
+   Large Iron bars block any further entrance to the sewers.  A small rusty
+ladder leads back up into the city.  You guess the minotaurs did not want
+anyone wandering below them in their sewers.    
+~
+240 0 0
+D4
+   A sewer cover leading up to the city and fresh air.    
+~
+sewer cover~
+1 0 24074
+S
+#0
+
+#RESETS
+M 0 24001 8 24000 	(the sentry)
+E 1 24018 99 9 	(the brass knuckles)
+E 1 24003 99 16 	(a double headed axe)
+R 0 24042 24027 -1 	(the fountain)
+O 1 24027 1 24042 	(the fountain)
+M 0 24003 4 24042 	(the minotaur woman)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24011 1 24094 	(the War Master)
+E 1 24026 10 1 	(a gold band)
+E 1 24018 99 9 	(the brass knuckles)
+E 1 24006 10 16 	(a bardiche)
+M 0 24027 1 24012 	(Trang)
+G 1 24018 99 -1 	(the brass knuckles)
+G 1 24014 10 -1 	(a fur loincloth)
+G 1 24010 10 -1 	(a leather loincloth)
+G 1 24008 10 -1 	(a hatchet)
+G 1 24005 10 -1 	(a broad axe)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24001 8 24084 	(the sentry)
+E 1 24003 99 16 	(a double headed axe)
+E 1 24018 99 9 	(the brass knuckles)
+M 0 24001 8 24037 	(the sentry)
+E 1 24002 99 16 	(a battle axe)
+E 1 24018 99 9 	(the brass knuckles)
+M 0 24001 8 24047 	(the sentry)
+E 1 24018 99 9 	(the brass knuckles)
+E 1 24002 99 16 	(a battle axe)
+M 0 24026 4 24022 	(the old woman)
+G 1 24013 10 -1 	(the salmon)
+M 0 24026 4 24002 	(the old woman)
+G 1 24013 10 -1 	(the salmon)
+M 0 24026 4 24040 	(the old woman)
+G 1 24013 10 -1 	(the salmon)
+M 0 24026 4 24067 	(the old woman)
+G 1 24013 10 -1 	(the salmon)
+M 0 24025 4 24081 	(the woman)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24025 4 24014 	(the woman)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24025 4 24049 	(the woman)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24025 4 24069 	(the woman)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24024 2 24068 	(the butcher)
+G 1 24011 10 -1 	(the bear meat)
+G 1 24012 10 -1 	(the elk meat)
+M 0 24024 2 24046 	(the butcher)
+G 1 24012 10 -1 	(the elk meat)
+G 1 24011 10 -1 	(the bear meat)
+M 0 24023 2 24064 	(the scribe)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24009 1 24064 	(Vorn)
+G 1 24025 10 -1 	(a purse)
+M 0 24023 2 24055 	(the scribe)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24018 3 24055 	(the merchant)
+G 1 24020 10 -1 	(a belt pouch)
+M 0 24022 4 24018 	(the lady)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24022 4 24082 	(the lady)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24022 4 24051 	(the lady)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24022 4 24019 	(the lady)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24022 4 24021 	(the lady)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24021 2 24007 	(the guildsman)
+G 1 24016 10 -1 	(a minotaur's nosering)
+M 0 24021 2 24077 	(the guildsman)
+G 1 24016 10 -1 	(a minotaur's nosering)
+M 0 24020 3 24052 	(the tradesman)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24012 3 24052 	(the minotaur advisor)
+E 1 24024 10 17 	(a bronze sceptre)
+M 0 24020 3 24098 	(the tradesman)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24020 3 24054 	(the tradesman)
+G 1 24022 10 -1 	(a pair of sandals)
+M 0 24019 3 24062 	(the noble)
+E 1 24021 10 3 	(a fancy cape)
+M 0 24019 3 24063 	(the noble)
+E 1 24021 10 3 	(a fancy cape)
+M 0 24019 3 24073 	(the noble)
+E 1 24021 10 3 	(a fancy cape)
+M 0 24018 3 24071 	(the merchant)
+G 1 24020 10 -1 	(a belt pouch)
+M 0 24018 3 24053 	(the merchant)
+G 1 24020 10 -1 	(a belt pouch)
+M 0 24007 4 24053 	(the old minotaur)
+G 1 24015 4 -1 	(the minotaur horns)
+G 1 24026 4 -1 	(a gold band)
+M 0 24017 2 24079 	(the priest)
+E 1 24000 10 12 	(a grey robe)
+M 0 24017 2 24030 	(the priest)
+E 1 24000 10 12 	(a grey robe)
+D 0 24030 5 1 	(Minotaur House)
+M 0 24016 1 24024 	(the loremaster)
+E 1 24007 10 16 	(a halberd)
+M 0 24015 3 24033 	(the trainer)
+E 1 24004 10 16 	(a lochaber)
+M 0 24015 3 24035 	(the trainer)
+E 1 24004 10 16 	(a lochaber)
+M 0 24015 3 24017 	(the trainer)
+E 1 24004 10 16 	(a lochaber)
+M 0 24014 1 24025 	(the weapons master)
+E 1 24026 10 1 	(a gold band)
+E 1 24009 10 16 	(a polearm)
+M 0 24013 1 24099 	(the interrogator)
+E 1 24023 10 16 	(a scourge)
+D 0 24099 4 1 	(The Sewers)
+M 0 24012 3 24091 	(the minotaur advisor)
+E 1 24024 10 17 	(a bronze sceptre)
+M 0 24012 3 24092 	(the minotaur advisor)
+E 1 24024 10 17 	(a bronze sceptre)
+M 0 24010 1 24093 	(Zarn)
+E 1 24017 10 16 	(an oak quarterstaff)
+M 0 24008 2 24070 	(the minotaur healer)
+E 1 24001 10 3 	(a cloth mantle)
+M 0 24008 2 24006 	(the minotaur healer)
+E 1 24001 10 3 	(a cloth mantle)
+M 0 24007 4 24003 	(the old minotaur)
+G 1 24026 4 -1 	(a gold band)
+G 1 24015 4 -1 	(the minotaur horns)
+M 0 24007 4 24034 	(the old minotaur)
+G 1 24015 4 -1 	(the minotaur horns)
+G 1 24026 4 -1 	(a gold band)
+M 0 24007 4 24076 	(the old minotaur)
+G 1 24026 4 -1 	(a gold band)
+G 1 24015 4 -1 	(the minotaur horns)
+M 0 24006 4 24080 	(the young minotaur)
+E 1 24008 10 16 	(a hatchet)
+M 0 24006 4 24048 	(the young minotaur)
+E 1 24008 10 16 	(a hatchet)
+M 0 24006 4 24005 	(the young minotaur)
+E 1 24008 10 16 	(a hatchet)
+M 0 24006 4 24015 	(the young minotaur)
+E 1 24008 10 16 	(a hatchet)
+M 0 24006 4 24023 	(the young minotaur)
+E 1 24008 10 16 	(a hatchet)
+M 0 24005 4 24065 	(the minotaur child)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24005 4 24072 	(the minotaur child)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24005 4 24013 	(the minotaur child)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24005 4 24011 	(the minotaur child)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24004 4 24001 	(the minotaur)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24004 4 24083 	(the minotaur)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24004 4 24044 	(the minotaur)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24004 4 24060 	(the minotaur)
+E 1 24010 10 5 	(a leather loincloth)
+M 0 24003 4 24058 	(the minotaur woman)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24003 4 24066 	(the minotaur woman)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24003 4 24036 	(the minotaur woman)
+E 1 24014 10 5 	(a fur loincloth)
+M 0 24002 4 24061 	(the warrior)
+E 1 24018 4 9 	(the brass knuckles)
+E 1 24002 10 16 	(a battle axe)
+E 1 24026 4 2 	(a gold band)
+M 0 24002 4 24020 	(the warrior)
+E 1 24026 4 2 	(a gold band)
+E 1 24002 10 16 	(a battle axe)
+E 1 24018 4 9 	(the brass knuckles)
+M 0 24002 4 24075 	(the warrior)
+E 1 24002 10 16 	(a battle axe)
+E 1 24018 4 9 	(the brass knuckles)
+E 1 24026 4 2 	(a gold band)
+M 0 24002 4 24026 	(the warrior)
+E 1 24026 4 2 	(a gold band)
+E 1 24018 4 9 	(the brass knuckles)
+E 1 24002 10 16 	(a battle axe)
+M 0 24000 4 24038 	(the minotaur)
+E 1 24005 10 16 	(a broad axe)
+M 0 24000 4 24009 	(the minotaur)
+E 1 24005 10 16 	(a broad axe)
+M 0 24000 4 24078 	(the minotaur)
+E 1 24005 10 16 	(a broad axe)
+M 0 24029 1 24029 	(Garge)
+M 0 24028 1 24031 	(Targ)
+G 1 24025 10 -1 	(a purse)
+G 1 24021 10 -1 	(a fancy cape)
+G 1 24020 10 -1 	(a belt pouch)
+G 1 24019 10 -1 	(a hooded lantern)
+G 1 24013 10 -1 	(the salmon)
+G 1 24012 10 -1 	(the elk meat)
+G 1 24011 10 -1 	(the bear meat)
+D 0 24088 4 1 	(Hidden Room)
+D 0 24074 5 1 	(Wasatch Lane)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#24000~
+24005
+24008
+24010
+24014
+24022
+24018
+-1
+30.00
+1.00
+15purse
+5axe
+9loincloth
+5hatchet
+9brass
+-1
+%s You seeing things boy?~
+%s You stupid or what?~
+%s I don't want that.~
+%s I'm broke, come back later.~
+%s You seeing things boy?~
+%s That's %d, now go away~
+%s Here's %d, now go home!~
+0
+2
+24027
+0
+24012
+-1
+0
+28
+0
+0
+#24001~
+24011
+24012
+24013
+24019
+24020
+24021
+24025
+-1
+5.00
+1.00
+19meat
+19fish
+1lantern
+15pouch
+15purse
+9cape
+-1
+%s I'm out of that.~
+%s Look again you idiot~
+%s I don't want that.~
+%s I'm broke~
+%s How do you plan on paying for that?~
+%s That's %d!~
+%s Here's %d coins!~
+0
+2
+24028
+0
+24031
+-1
+0
+28
+0
+0
+#24002~
+-1
+20.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+24029
+7
+24029
+-1
+0
+28
+0
+0
+0
+
+
+#$

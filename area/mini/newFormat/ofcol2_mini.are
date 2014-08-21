@@ -1,0 +1,3653 @@
+Area 'New Ofcol' {
+  Builders = 'None';
+  Vnums = ( 600, 699 );
+  Credits = '{{ 5 35} Hatchet New Ofcol';
+  Security = 9;
+
+//=======================================
+Mobile 600 {
+  Name = 'oldstyle cityguard guard';
+  ShD = 'the Ofcol cityguard';
+  LnD = 'An Ofcol cityguard is standing here, making sure there is no trouble.
+';
+  Desc = 'This guard is surely a trained and skilled fighter.  He is fully armed and
+armored, and he uses his equipment with a practiced precision.  Luckily for 
+you, this guard will only use his deadly skills for the good of the citizens of
+Ofcol.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 19;
+  Hitroll = 0;
+  Hit = ( 3, 9, 333 );
+  Mana = ( 9, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 7, 5 );
+  ACs = ( -4, -4, -4, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_guard';
+}
+Mobile 601 {
+  Name = 'oldstyle marshall diana';
+  ShD = 'Marshall Diana';
+  LnD = 'Diana, the Marshall of Ofcol, stands here proudly.
+';
+  Desc = 'Diana is a beautiful, powerfully built woman.  She wears platinum armor for
+three reasons.  The first is to show she is strong enough to withstand the
+weight.  The second is to show her rank of office.  The third is that platinum
+is the hardest metal she can find.  She is willing to defend Ofcol to her 
+death.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 33;
+  Hitroll = 0;
+  Hit = ( 10, 10, 1100 );
+  Mana = ( 33, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 10 );
+  ACs = ( -11, -11, -11, 3 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_cleric';
+}
+Mobile 602 {
+  Name = 'oldstyle derrick captain guard cityguard';
+  ShD = 'Captain Derrick';
+  LnD = 'Derrick, Captain of the Guard, is here disciplining his guards.
+';
+  Desc = 'Derrick is a very big man.  He has acquired this station, not by brains or
+charm, but by brute strength.  He had fought in three orc wars and is a
+descendent of a surviving cityguard of old Thalos.  He believes that everything
+has to be hard won to be kept, and that laxity is for the weak.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 27;
+  Hitroll = 0;
+  Hit = ( 5, 10, 650 );
+  Mana = ( 27, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 10, 7 );
+  ACs = ( -8, -8, -8, 4 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_cleric';
+}
+Mobile 603 {
+  Name = 'oldstyle jacklyn captain guard cityguard';
+  ShD = 'Captain Jacklyn';
+  LnD = 'Jacklyn, Captain of the Citadel Guard, is here raising morale.
+';
+  Desc = 'Jacklyn is pale and wiry, but then, so are most other witches.  The fact that
+Jacklyn is a mage and a warrior makes her the perfect captain of the citadel
+guards.  Jacklyn is very beautiful, but whether it is due to her pale softness
+or her magic, no one has ever found out.  She isn\'t very strong physically, but
+she need not be.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 27;
+  Hitroll = 0;
+  Hit = ( 5, 10, 600 );
+  Mana = ( 27, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 10, 6 );
+  ACs = ( -7, -7, -7, 2 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_mage';
+}
+Mobile 604 {
+  Name = 'oldstyle jim blacksmith';
+  ShD = 'Jim the Blacksmith';
+  LnD = 'Jim the Blacksmith is here, selling his latest works of metal.
+';
+  Desc = 'Jim is big and brawny, just like what you\'d expect of a blacksmith.  He is
+smiling a very big smile, as he looks at your coins.  You wonder if he likes
+the metals or the value of the coins.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 30;
+  Hitroll = 0;
+  Hit = ( 6, 12, 853 );
+  Mana = ( 15, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 8 );
+  ACs = ( -9, -9, -9, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 3750;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( ('weapon', 'armor', 'container'), 120, 80, 0, 23 );
+}
+Mobile 605 {
+  Name = 'oldstyle sam';
+  ShD = 'Sam';
+  LnD = 'Sam is here, selling his leather works.
+';
+  Desc = 'Sam is a middle-aged workman.  He looks tired, but never too tired to get that
+last sale from you.  He grins at you slightly.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 30;
+  Hitroll = 0;
+  Hit = ( 6, 12, 853 );
+  Mana = ( 15, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 8 );
+  ACs = ( -9, -9, -9, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 750;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( ('armor'), 120, 80, 0, 23 );
+}
+Mobile 606 {
+  Name = 'oldstyle madam tracy';
+  ShD = 'Madam Tracy';
+  LnD = 'Madam Tracy is here, selling and buying little treasures.
+';
+  Desc = 'Madam Tracy is a bit old, but not to the point of senility.  Besides, she knows
+the hard ways of this world and is ready for it.  She spends her time at the
+shop, trading little things (for a wee bit of profit).
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 20;
+  Hitroll = 0;
+  Hit = ( 3, 9, 333 );
+  Mana = ( 10, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 5 );
+  ACs = ( -4, -4, -4, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 1250;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( ('treasure', 'furniture', 'trash'), 120, 80, 0, 23 );
+}
+Mobile 607 {
+  Name = 'oldstyle marty';
+  ShD = 'Marty';
+  LnD = 'Marty the meat store owner is here, selling you his choice meats.
+';
+  Desc = 'Marty is a big man.  He used to hunt the animals he sells, but now he lets his
+son, Jim, raise and slaughter the animals for him.  Marty still knows how to
+kill, though.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 30;
+  Hitroll = 0;
+  Hit = ( 6, 12, 853 );
+  Mana = ( 15, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 8 );
+  ACs = ( -9, -9, -9, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( ('food'), 120, 10, 0, 23 );
+}
+Mobile 608 {
+  Name = 'oldstyle elizabeth farmer';
+  ShD = 'Farmer Elizabeth';
+  LnD = 'Farmer Elizabeth is here, selling the latest crop.
+';
+  Desc = 'Elizabeth is a very happy woman.  She can\'t believe the nice weather here in
+Ofcol, and the great vegetables this land produces is unbelievable to her too.
+Farmer Elizabeth smiles at you nicely, but you bet she is doing that just to
+get a good price off of you!
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 20;
+  Hitroll = 0;
+  Hit = ( 3, 9, 333 );
+  Mana = ( 10, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 5 );
+  ACs = ( -4, -4, -4, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( ('drinkcontainer', 'food'), 120, 10, 0, 23 );
+}
+Mobile 609 {
+  Name = 'oldstyle granny jenkins';
+  ShD = 'Granny Jenkins';
+  LnD = 'Granny Jenkins is here, running the still.
+';
+  Desc = 'Granny Jenkins is a feeble woman, but she knows her brew.  She might be very
+old, but she is still in charge of the still.  She cackles lightly at herself
+every time she tastes her whiskey, which is quite often!
+Granny Jenkins cackles again.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 6;
+  Hitroll = 0;
+  Hit = ( 2, 7, 71 );
+  Mana = ( 3, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 7, 1 );
+  ACs = ( 4, 4, 4, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 610 {
+  Name = 'oldstyle jack';
+  ShD = 'Jack';
+  LnD = 'Jack is here slaughtering away at the animals.
+';
+  Desc = 'Jack is the son of Marty, and you can see the family resemblance (especially in
+their shared affinity for slaughtering animals.)  Jack leers at you as you
+enter.  "Came by to watch, eh?", he asks.
+';
+  Race = 'human';
+  Alignment = 200;
+  Etho = 'neutral';
+  Level = 12;
+  Hitroll = 0;
+  Hit = ( 2, 10, 150 );
+  Mana = ( 6, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 10, 3 );
+  ACs = ( 0, 0, 0, 8 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 611 {
+  Name = 'oldstyle Sarah farmer';
+  ShD = 'Farmer Sara';
+  LnD = 'Farmer Sara is here, milking the cows.
+';
+  Desc = 'Farmer Sara is all covered with bits of straw and grime, but underneath all
+that, she doesn\'t look that bad.  She smiles at you demurely, and goes back to
+her work.
+';
+  Race = 'human';
+  Alignment = 800;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 612 {
+  Name = 'oldstyle chicken hen';
+  ShD = 'a hen';
+  LnD = 'A hen is here, squawking at your intrusion.
+';
+  Desc = 'The hen has yellow feathers and small wings.  It looks like a chicken, if
+you\'ve ever seen one.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 2, 6, 10 );
+  Mana = ( 0, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 4, 0 );
+  ACs = ( 9, 9, 9, 10 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 613 {
+  Name = 'oldstyle cow';
+  ShD = 'the cow';
+  LnD = 'A cow is here, munching on grass.
+';
+  Desc = 'The cow is here happily grazing.  It moos at you and goes back to grazing.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 614 {
+  Name = 'oldstyle cow';
+  ShD = 'the cow';
+  LnD = 'A cow is here, waiting to be milked.
+';
+  Desc = 'The cow is just standing here.  She moos at you and otherwise ignores you.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 615 {
+  Name = 'oldstyle horse young';
+  ShD = 'the young horse';
+  LnD = 'A young horse is here, grazing.
+';
+  Desc = 'The horse whinnies at you, then runs around you a few times, then just goes
+back to grazing.
+';
+  Race = 'horse';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 6;
+  Hitroll = 6;
+  Hit = ( 1, 4, 80 );
+  Mana = ( 6, 10, 100 );
+  Psp = ( 6, 10, 100 );
+  Damage = ( 2, 3, 1 );
+  ACs = ( 3, 3, 3, 4 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+  Program = 'mount';
+}
+Mobile 616 {
+  Name = 'oldstyle pig';
+  ShD = 'the pig';
+  LnD = 'A pig is playing here, getting itself and you dirty.
+';
+  Desc = 'The pig looks dirty.  It snorts and sniffs at you, then goes back to its slop.
+';
+  Race = 'pig';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 4;
+  Hitroll = 0;
+  Hit = ( 2, 7, 46 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 5, 1 );
+  ACs = ( 6, 6, 6, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+}
+Mobile 617 {
+  Name = 'oldstyle citizen man';
+  ShD = 'the citizen';
+  LnD = 'A citizen is here, smiling at you.
+';
+  Desc = 'The citizen smiles at you.  He is having a great day, and he wishes the same
+for you.  He looks at you strangely, though, wondering why you are so armed and
+armored.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 618 {
+  Name = 'oldstyle citizen woman';
+  ShD = 'the citizen';
+  LnD = 'A citizen is here, smiling at you.
+';
+  Desc = 'The citizen smiles at you.  She is having a great day, and she wishes the same
+for you.  She looks at you strangely, though, wondering why you are so armed
+and armored.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 619 {
+  Name = 'oldstyle child boy';
+  ShD = 'the boy';
+  LnD = 'A boy is here, playing tag and other kids\' games.
+';
+  Desc = 'The little boy looks up at you and says, \'Hi.  Can I have a piece of candy?\'
+He then smiles and runs away, remembering his game.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 3;
+  Hitroll = 0;
+  Hit = ( 2, 6, 35 );
+  Mana = ( 1, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 0 );
+  ACs = ( 7, 7, 7, 10 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 620 {
+  Name = 'oldstyle child girl';
+  ShD = 'the girl';
+  LnD = 'A girl is here, playing jump jacks and other kids\' games.
+';
+  Desc = 'The little girl looks up at you and says, \'Hi.  Can I have a pretty little
+coin?\'  She then smiles and runs away, remembering her game.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 3;
+  Hitroll = 0;
+  Hit = ( 2, 6, 35 );
+  Mana = ( 1, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 0 );
+  ACs = ( 7, 7, 7, 10 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 621 {
+  Name = 'oldstyle maid woman';
+  ShD = 'the maid';
+  LnD = 'A maid is here, cleaning the house and preparing the next meal.
+';
+  Desc = 'The maid startles at your presence.  \'You are ruining my floors!  Wait till
+Master and Mistress come back.  You will get me in trouble!  Shoo!\', she says.
+She hits you with her broom.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 2;
+  Size = 'medium';
+  Faction = 'Common';
+  Program = 'specJanitor';
+}
+Mobile 622 {
+  Name = 'oldstyle Nyles';
+  ShD = 'Nyles the Bartender';
+  LnD = 'Nyles the Bartender is here, ready to serve you up a good brew.
+';
+  Desc = 'Nyles is a hefty guy, who looks like he\'s waiting for the next bar fight to
+join in.  He keeps an eye on you and his glasses, making sure you don\'t steal
+any.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 30;
+  Hitroll = 0;
+  Hit = ( 6, 12, 853 );
+  Mana = ( 15, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 8 );
+  ACs = ( -9, -9, -9, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( ('drinkcontainer'), 120, 10, 0, 23 );
+}
+Mobile 623 {
+  Name = 'oldstyle cityguard guard';
+  ShD = 'the Ofcol cityguard';
+  LnD = 'An Ofcol cityguard is posted here to guard the gate.
+';
+  Desc = 'This guard is surely a trained and skilled fighter.  He is fully armed and
+armored, and he uses his equipment with a practiced precision.  Luckily for 
+you, this guard will only use his deadly skills for the good of the citizens of
+Ofcol.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 19;
+  Hitroll = 0;
+  Hit = ( 3, 9, 333 );
+  Mana = ( 9, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 7, 5 );
+  ACs = ( -4, -4, -4, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_guard';
+}
+Mobile 624 {
+  Name = 'oldstyle bard';
+  ShD = 'a bard';
+  LnD = 'A bard is here, singing of the glories of Ofcol.
+';
+  Desc = 'After years of traveling around the world, this bard has decided to stay in the
+peaceful city of Ofcol, and to sing of its unmatched glories.  He smiles at
+you, hinting toward a tip from you in ever a subtle way.
+';
+  Race = 'human';
+  Alignment = 800;
+  Etho = 'neutral';
+  Level = 13;
+  Hitroll = 0;
+  Hit = ( 2, 10, 170 );
+  Mana = ( 6, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 5, 3 );
+  ACs = ( -1, -1, -1, 8 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 625 {
+  Name = 'oldstyle servant';
+  ShD = 'a servant';
+  LnD = 'A servant is here, carrying the duties of the Keeper of the Golden Citadel.
+';
+  Desc = 'The servant smiles good-naturedly at you, then goes on his duties.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 6;
+  Hitroll = 0;
+  Hit = ( 2, 7, 71 );
+  Mana = ( 3, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 7, 1 );
+  ACs = ( 4, 4, 4, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 626 {
+  Name = 'oldstyle squire';
+  ShD = 'a squire';
+  LnD = 'A squire is here, scurrying from duty to duty.
+';
+  Desc = 'This young man smiles at you, but is too busy to chat.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 7;
+  Hitroll = 0;
+  Hit = ( 2, 6, 85 );
+  Mana = ( 3, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 1 );
+  ACs = ( 4, 4, 4, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 627 {
+  Name = 'oldstyle page';
+  ShD = 'a page';
+  LnD = 'A page is here, sending a message to his knight.
+';
+  Desc = 'The page smiles for you, asking if he can do you a favor too.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 628 {
+  Name = 'oldstyle priestess';
+  ShD = 'the Priestess of Ofcol';
+  LnD = 'The Priestess of Ofcol is here, blessing you 
+with her beatific smile.
+';
+  Desc = 'The Priestess of Ofcol is an old woman, perfectly at peace with herself and 
+with the world.  She devotes all her time to help teach you the ways of her
+god, Bahamut.  The dragon symbol around her neck looks almost alive.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 30;
+  Hitroll = 0;
+  Hit = ( 6, 12, 853 );
+  Mana = ( 15, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 8 );
+  ACs = ( -9, -9, -9, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_adept';
+}
+Mobile 629 {
+  Name = 'oldstyle chaplain Jerrold';
+  ShD = 'Chaplain Jerrold';
+  LnD = 'Jerrold, the chaplain of this Citadel, is here 
+directing the activities of the people around here.
+';
+  Desc = 'He smiles at you, with the enthusiasm of a little kid.  "What\'re you doing just
+STANDING here, young man?  Go help that other squire there!", he yells.  He
+turns to you and with a consipatory tone, whispers, "Kids!"
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 20;
+  Hitroll = 0;
+  Hit = ( 4, 10, 360 );
+  Mana = ( 10, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 5 );
+  ACs = ( -4, -4, -4, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_guard';
+}
+Mobile 630 {
+  Name = 'oldstyle dragonlord lord dragon';
+  ShD = 'a Dragonlord';
+  LnD = 'A knight wearing the scales of a dragon stands here.
+';
+  Desc = 'This person looks almost like a dragon itself.  His golden scales gleam with
+power.  He smiles at you with a vicious grin.  You\'re happy that he doesn\'t
+look upset at your presence. 
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 29;
+  Hitroll = 0;
+  Hit = ( 6, 12, 778 );
+  Mana = ( 14, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 12, 8 );
+  ACs = ( -9, -9, -9, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_breath_any';
+}
+Mobile 631 {
+  Name = 'oldstyle dragon gold';
+  ShD = 'The Ancient Gold Dragon';
+  LnD = 'An old dragon shimmering with the colors of this 
+cavern peers at you sleepily.
+';
+  Desc = 'This dragon\'s head is taller than you.  He is annoyed at your disturbance, but
+realizing that you\'re no danger to him, he ignores you.  He waves to one of
+his attendants to escort you away.
+';
+  Race = 'dragon';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 42;
+  Hitroll = 0;
+  Hit = ( 25, 10, 2250 );
+  Mana = ( 21, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 12, 14 );
+  ACs = ( -14, -14, -14, 4 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5000;
+  Size = 'medium';
+  Faction = 'Dragon';
+  Special = 'spec_breath_any';
+}
+Mobile 632 {
+  Name = 'oldstyle attendant';
+  ShD = 'an attendant of the dragon';
+  LnD = 'A person robed in gold is attending to the Keeper of the Citadel.
+';
+  Desc = 'This elder servant to the Gold Dragon is very loyal to him, willing to risk
+his life for his liege.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 21;
+  Hitroll = 0;
+  Hit = ( 3, 9, 333 );
+  Mana = ( 21, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 7, 4 );
+  ACs = ( -4, -4, -4, 3 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_mage';
+}
+Mobile 633 {
+  Name = 'oldstyle dragonknight knight dragon';
+  ShD = 'a Dragonknight';
+  LnD = 'A person dressed in the scales of a gold dragon 
+stands here, guarding the Golden Citadel.
+';
+  Desc = 'This person looks like a dragon itself.  His golden scales gleam with power.
+He smiles at you, showing very sharp teeth.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 21;
+  Hitroll = 0;
+  Hit = ( 4, 10, 360 );
+  Mana = ( 10, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 4, 5 );
+  ACs = ( -5, -5, -5, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_breath_any';
+}
+Mobile 634 {
+  Name = 'oldstyle cityguard guard';
+  ShD = 'the Ofcol cityguard';
+  LnD = 'An Ofcol cityguard is posted here to guard the gate.
+';
+  Desc = 'This guard is surely a trained and skilled fighter.  He is fully armed and
+armored, and he uses his equipment with a practiced precision.  Luckily for 
+you, this guard will only use his deadly skills for the good of the citizens of
+Ofcol.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 19;
+  Hitroll = 0;
+  Hit = ( 3, 9, 333 );
+  Mana = ( 9, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 7, 5 );
+  ACs = ( -4, -4, -4, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_guard';
+}
+
+
+//=======================================
+Object 600 {
+  Name = 'axe hand';
+  ShD = 'a hand axe';
+  Desc = 'A hand axe is on the floor here.';
+  ItemType = 'weapon';
+  Level = 4;
+  Weight = 100;
+  Cost = 420;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'wield');
+  Values = ( 'axe', 1, 8, 'chop', ('none') );
+  ExtraDescr = ( 'handaxe hand axe', 'You see a finely made axe.  Iron, with a nice wooden shaft, this axe can
+withstand years of use.
+');
+}
+Object 601 {
+  Name = 'meat cleaver';
+  ShD = 'a meat cleaver';
+  Desc = 'A sharp meat cleaver is just lying on the floor here!';
+  ItemType = 'weapon';
+  Level = 8;
+  Weight = 50;
+  Cost = 530;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'wield');
+  Values = ( 'dagger', 2, 5, 'chop', ('none') );
+  Affect = ( 'none', -1, 8, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 1 ) );
+  ExtraDescr = ( 'meat cleaver', 'This meat cleaver is made of good steel.
+');
+}
+Object 602 {
+  Name = 'side meat beef';
+  ShD = 'a side of beef';
+  Desc = 'A side of beef is here on the floor.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 100;
+  Cost = 50;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 24, 24, false );
+}
+Object 603 {
+  Name = 'side meat pork';
+  ShD = 'a side of pork';
+  Desc = 'A side of pork is here on the floor.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 100;
+  Cost = 42;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 23, 23, false );
+}
+Object 604 {
+  Name = 'side meat horse';
+  ShD = 'a side of horse';
+  Desc = 'A side of horse is here on the floor.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 120;
+  Cost = 21;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 30, 30, false );
+}
+Object 605 {
+  Name = 'meat chicken';
+  ShD = 'a defeathered chicken';
+  Desc = 'A defeathered chicken is here on the floor.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 50;
+  Cost = 10;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 16, 16, false );
+}
+Object 606 {
+  Name = 'emerald ring';
+  ShD = 'an emerald ring';
+  Desc = 'An emerald ring is on the floor, gathering dust.';
+  ItemType = 'jewelry';
+  Level = 1;
+  Weight = 10;
+  Cost = 1000;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'finger');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 607 {
+  Name = 'glass trinket';
+  ShD = 'a glass trinket';
+  Desc = 'A glass trinket is on the floor, gathering dust.';
+  ItemType = 'gem';
+  Level = 3;
+  Weight = 10;
+  Cost = 150;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 3, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+}
+Object 608 {
+  Name = 'golden necklace';
+  ShD = 'a golden necklace';
+  Desc = 'A golden necklace is on the floor, gathering dust.';
+  ItemType = 'jewelry';
+  Level = 2;
+  Weight = 20;
+  Cost = 500;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'neck');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 2, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, -1 ) );
+}
+Object 609 {
+  Name = 'cabbage';
+  ShD = 'a head of cabbage';
+  Desc = 'Some fresh cabbage is here, get it while it lasts!';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 20;
+  Cost = 2;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 12, 12, false );
+}
+Object 610 {
+  Name = 'lettuce';
+  ShD = 'a head of lettuce';
+  Desc = 'Some fresh lettuce is here, get it while it lasts!';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 20;
+  Cost = 2;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 12, 12, false );
+}
+Object 611 {
+  Name = 'milk bottle';
+  ShD = 'a bottle of milk';
+  Desc = 'A glass bottle of milk is on a shelf here, fresh from the cow.';
+  ItemType = 'drinkcontainer';
+  Level = 1;
+  Weight = 50;
+  Cost = 3;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 20, 20, 'milk', false );
+}
+Object 612 {
+  Name = 'apple';
+  ShD = 'an apple';
+  Desc = 'An apple is on the ground.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 10;
+  Cost = 1;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 8, 8, false );
+}
+Object 613 {
+  Name = 'corn';
+  ShD = 'an ear of corn';
+  Desc = 'An ear of corn is on the ground.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 10;
+  Cost = 3;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 8, 8, false );
+}
+Object 614 {
+  Name = 'hay pile';
+  ShD = 'a pile of hay';
+  Desc = 'There is a big pile of hay here.';
+  ItemType = 'trash';
+  Level = 1;
+  Weight = 200;
+  Cost = 0;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 615 {
+  Name = 'pitchfork fork';
+  ShD = 'a pitchfork';
+  Desc = 'A pitchfork is on the floor.';
+  ItemType = 'weapon';
+  Level = 7;
+  Weight = 100;
+  Cost = 122;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'wield');
+  Values = ( 'spear', 3, 3, 'stab', ('none') );
+}
+Object 616 {
+  Name = 'vest';
+  ShD = 'a leather vest';
+  Desc = 'A leather vest is on the floor.';
+  ItemType = 'armor';
+  Level = 1;
+  Weight = 100;
+  Cost = 270;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'body');
+  Values = ( 1, 2, 2, 0, 0 );
+}
+Object 617 {
+  Name = 'sleeves';
+  ShD = 'some leather sleeves';
+  Desc = 'Some leather sleeves are on the floor.';
+  ItemType = 'armor';
+  Level = 1;
+  Weight = 50;
+  Cost = 136;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'arms');
+  Values = ( 1, 2, 2, 0, 0 );
+}
+Object 618 {
+  Name = 'leggings';
+  ShD = 'some leather leggings';
+  Desc = 'Some leather leggings are on the floor.';
+  ItemType = 'armor';
+  Level = 1;
+  Weight = 50;
+  Cost = 136;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'legs');
+  Values = ( 1, 2, 2, 0, 0 );
+}
+Object 619 {
+  Name = 'boots';
+  ShD = 'some leather boots';
+  Desc = 'Some leather boots are on the floor.';
+  ItemType = 'armor';
+  Level = 1;
+  Weight = 50;
+  Cost = 136;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'feet');
+  Values = ( 1, 2, 2, 0, 0 );
+}
+Object 620 {
+  Name = 'signet ring';
+  ShD = 'an Ofcol signet ring';
+  Desc = 'A shiny ring of gold is in the dirt.';
+  ItemType = 'jewelry';
+  Level = 10;
+  Weight = 10;
+  Cost = 730;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'finger');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 10, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 10, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+  Affect = ( 'none', -1, 10, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -2 ) );
+}
+Object 621 {
+  Name = 'plate brass';
+  ShD = 'brass plate';
+  Desc = 'A pile of brass plates is against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 2400;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'body');
+  Values = ( 6, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 10 ) );
+}
+Object 622 {
+  Name = 'helm brass';
+  ShD = 'a brass helm';
+  Desc = 'A brass helm is against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 1280;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'head');
+  Values = ( 6, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 623 {
+  Name = 'leggings brass';
+  ShD = 'brass leggings';
+  Desc = 'A pile of brass plates is against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 1280;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'legs');
+  Values = ( 6, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 624 {
+  Name = 'boots brass';
+  ShD = 'brass boots';
+  Desc = 'Some brass boots are against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 1280;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'feet');
+  Values = ( 6, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 625 {
+  Name = 'gauntlets brass';
+  ShD = 'brass gauntlets';
+  Desc = 'Some brass gauntlets are against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 1280;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'hands');
+  Values = ( 6, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 626 {
+  Name = 'sleeves brass';
+  ShD = 'brass sleeves';
+  Desc = 'A pile of brass plates is against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 1280;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'arms');
+  Values = ( 6, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 627 {
+  Name = 'shield brass';
+  ShD = 'a brass shield';
+  Desc = 'A big plate of brass is against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 1850;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'shield');
+  Values = ( 6, 5, 6, 2, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 628 {
+  Name = 'girth brass';
+  ShD = 'a brass girth';
+  Desc = 'A brass girth is against the wall here.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 100;
+  Cost = 1280;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'waist');
+  Values = ( 6, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 629 {
+  Name = 'bracer brass';
+  ShD = 'a brass bracer';
+  Desc = 'A brass bracer is against the wall here.';
+  ItemType = 'armor';
+  Level = 12;
+  Weight = 100;
+  Cost = 1040;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'wrist');
+  Values = ( 4, 5, 6, 1, 0 );
+  Affect = ( 'none', -1, 12, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -1 ) );
+  Affect = ( 'none', -1, 12, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 5 ) );
+}
+Object 630 {
+  Name = 'claymore sword';
+  ShD = 'a claymore';
+  Desc = 'A VERY big sword is against the wall here.';
+  ItemType = 'weapon';
+  Level = 19;
+  Weight = 160;
+  Cost = 3100;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 4, 4, 'cleave', ('twohands') );
+  Affect = ( 'none', -1, 19, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, -2 ) );
+  Affect = ( 'none', -1, 19, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 5 ) );
+}
+Object 631 {
+  Name = 'plate silver';
+  ShD = 'silver plate';
+  Desc = 'A pile of silver plating and chain is on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 5000;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'body');
+  Values = ( 8, 8, 8, 2, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 10 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 1 ) );
+}
+Object 632 {
+  Name = 'helm silver';
+  ShD = 'a silver helm';
+  Desc = 'A shiny helm is on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 2900;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'head');
+  Values = ( 8, 8, 8, 2, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 5 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'dexterity', 0, 1 ) );
+}
+Object 633 {
+  Name = 'leggings silver';
+  ShD = 'silver leggings';
+  Desc = 'Some shiny leggings are on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 2900;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'legs');
+  Values = ( 8, 8, 8, 2, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 5 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, 1 ) );
+}
+Object 634 {
+  Name = 'boots silver';
+  ShD = 'silver boots';
+  Desc = 'Some shiny boots are on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 2900;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'feet');
+  Values = ( 8, 8, 8, 2, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 5 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 1 ) );
+}
+Object 635 {
+  Name = 'gauntlets silver';
+  ShD = 'silver gauntlets';
+  Desc = 'Some shiny gauntlets are on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 2900;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'hands');
+  Values = ( 8, 8, 8, 2, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 5 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'constitution', 0, 1 ) );
+}
+Object 636 {
+  Name = 'sleeves silver';
+  ShD = 'silver sleeves';
+  Desc = 'Some shiny sleeves are on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 2400;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'arms');
+  Values = ( 8, 8, 8, 2, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 5 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 637 {
+  Name = 'shield silver';
+  ShD = 'the silver shield';
+  Desc = 'A shiny shield is on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 4200;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'shield');
+  Values = ( 8, 8, 8, 3, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 5 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+}
+Object 638 {
+  Name = 'girth silver';
+  ShD = 'the silver girth';
+  Desc = 'A shiny girth is on the floor.';
+  ItemType = 'armor';
+  Level = 25;
+  Weight = 200;
+  Cost = 2400;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'waist');
+  Values = ( 8, 8, 8, 2, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 5 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 1 ) );
+}
+Object 639 {
+  Name = 'plate platinum';
+  ShD = 'platinum plate';
+  Desc = 'A pile of silvery metal is on the floor.';
+  ItemType = 'armor';
+  Level = 30;
+  Weight = 500;
+  Cost = 9200;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'body');
+  Values = ( 9, 9, 9, 3, 0 );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 15 ) );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'constitution', 0, 2 ) );
+}
+Object 640 {
+  Name = 'helmet platinum';
+  ShD = 'the platinum helmet';
+  Desc = 'A silvery helmet is on the floor.';
+  ItemType = 'armor';
+  Level = 30;
+  Weight = 300;
+  Cost = 6300;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'head');
+  Values = ( 9, 9, 9, 3, 0 );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 10 ) );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 2 ) );
+}
+Object 641 {
+  Name = 'leggings platinum';
+  ShD = 'platinum leggings';
+  Desc = 'Some silvery leggings are on the floor.';
+  ItemType = 'armor';
+  Level = 30;
+  Weight = 400;
+  Cost = 6300;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'legs');
+  Values = ( 9, 9, 9, 3, 0 );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 10 ) );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'dexterity', 0, 2 ) );
+}
+Object 642 {
+  Name = 'boots platinum';
+  ShD = 'platinum boots';
+  Desc = 'Some silvery boots are on the floor.';
+  ItemType = 'armor';
+  Level = 32;
+  Weight = 400;
+  Cost = 4100;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'feet');
+  Values = ( 9, 9, 9, 3, 0 );
+  Affect = ( 'none', -1, 32, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 10 ) );
+  Affect = ( 'none', -1, 32, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'moves', 0, 25 ) );
+}
+Object 643 {
+  Name = 'gauntlets platinum';
+  ShD = 'platinum gauntlets';
+  Desc = 'A pair of silvery gauntlets are on the floor.';
+  ItemType = 'armor';
+  Level = 31;
+  Weight = 400;
+  Cost = 4300;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'hands');
+  Values = ( 9, 9, 9, 3, 0 );
+  Affect = ( 'none', -1, 31, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 10 ) );
+  Affect = ( 'none', -1, 31, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+}
+Object 644 {
+  Name = 'sleeves platinum';
+  ShD = 'platinum sleeves';
+  Desc = 'A pair of silvery sleeves are on the floor.';
+  ItemType = 'armor';
+  Level = 30;
+  Weight = 400;
+  Cost = 6300;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'arms');
+  Values = ( 9, 9, 9, 3, 0 );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 10 ) );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 2 ) );
+}
+Object 645 {
+  Name = 'shield spiked platinum';
+  ShD = 'the platinum spiked shield';
+  Desc = 'A jagged, silvery shield is on the floor.';
+  ItemType = 'armor';
+  Level = 31;
+  Weight = 400;
+  Cost = 6000;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'shield');
+  Values = ( 9, 9, 9, 5, 0 );
+  Affect = ( 'none', -1, 31, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 10 ) );
+  Affect = ( 'none', -1, 31, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 646 {
+  Name = 'girth platinum';
+  ShD = 'the platinum girth';
+  Desc = 'A silvery girth is on the floor.';
+  ItemType = 'armor';
+  Level = 31;
+  Weight = 400;
+  Cost = 4000;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'waist');
+  Values = ( 9, 9, 9, 3, 0 );
+  Affect = ( 'none', -1, 31, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 10 ) );
+  Affect = ( 'none', -1, 31, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -2 ) );
+}
+Object 647 {
+  Name = 'avenger holy sword';
+  ShD = 'holy Avenger';
+  Desc = 'A glowing silvery sword is hovering here, ready to possess an owner.';
+  ItemType = 'weapon';
+  Level = 32;
+  Weight = 250;
+  Cost = 5700;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 7, 6, 'slice', ('none') );
+  Affect = ( 'none', -1, 32, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+  Affect = ( 'none', -1, 32, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 6 ) );
+}
+Object 648 {
+  Name = 'whiskey shot';
+  ShD = 'a shot of whiskey';
+  Desc = 'A shot of whiskey is on the table.';
+  ItemType = 'drinkcontainer';
+  Level = 1;
+  Weight = 10;
+  Cost = 12;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 2, 2, 'whisky', false );
+}
+Object 649 {
+  Name = 'ale quart';
+  ShD = 'a quart of ale';
+  Desc = 'A quart of ale is on the table.';
+  ItemType = 'drinkcontainer';
+  Level = 1;
+  Weight = 20;
+  Cost = 10;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 32, 32, 'ale', false );
+}
+Object 650 {
+  Name = 'port brew quart';
+  ShD = 'a quart of port brew';
+  Desc = 'A quart of port brew is on the table.';
+  ItemType = 'drinkcontainer';
+  Level = 1;
+  Weight = 20;
+  Cost = 18;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 32, 32, 'dark ale', false );
+}
+Object 651 {
+  Name = 'key citadel';
+  ShD = 'the citadel key';
+  Desc = 'A key is on the floor.';
+  ItemType = 'key';
+  Level = 1;
+  Weight = 10;
+  Cost = 0;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 652 {
+  Name = 'symbol holy';
+  ShD = 'the Holy Symbol of Bahamut';
+  Desc = 'A very shiny symbol is on the floor.';
+  ItemType = 'jewelry';
+  Level = 17;
+  Weight = 50;
+  Cost = 3700;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'bless', 'antievil', 'antineutral');
+  WearFlags = ('take', 'neck');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 10 ) );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 2 ) );
+}
+Object 653 {
+  Name = 'ranseur polearm';
+  ShD = 'a ranseur';
+  Desc = 'A heavy polearm is against the wall here, ready to inflict damage.';
+  ItemType = 'weapon';
+  Level = 24;
+  Weight = 200;
+  Cost = 1460;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'wield');
+  Values = ( 'polearm', 4, 6, 'thrust', ('twohands') );
+  Affect = ( 'none', -1, 24, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 3 ) );
+  Affect = ( 'none', -1, 24, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, -1 ) );
+}
+Object 654 {
+  Name = 'torso dragonscale golden';
+  ShD = 'a golden dragonscale torso';
+  Desc = 'A golden dragonscale torso is on the floor!';
+  ItemType = 'armor';
+  Level = 24;
+  Weight = 250;
+  Cost = 6200;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'body');
+  Values = ( 7, 7, 7, 3, 0 );
+  Affect = ( 'none', -1, 24, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -5 ) );
+  Affect = ( 'none', -1, 24, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+}
+Object 655 {
+  Name = 'dragonhelm golden';
+  ShD = 'a golden dragonhelm';
+  Desc = 'A golden dragonhelm is on the floor!';
+  ItemType = 'armor';
+  Level = 21;
+  Weight = 100;
+  Cost = 2800;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'head');
+  Values = ( 7, 7, 7, 3, 0 );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 656 {
+  Name = 'leggings golden';
+  ShD = 'golden dragonscale leggings';
+  Desc = 'Some golden dragonscale leggings are on the floor!';
+  ItemType = 'armor';
+  Level = 21;
+  Weight = 100;
+  Cost = 2800;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'legs');
+  Values = ( 7, 7, 7, 3, 0 );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 657 {
+  Name = 'boots golden';
+  ShD = 'golden dragonscale boots';
+  Desc = 'Some golden dragonscale boots are on the floor!';
+  ItemType = 'armor';
+  Level = 21;
+  Weight = 100;
+  Cost = 2800;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'feet');
+  Values = ( 7, 7, 7, 3, 0 );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 658 {
+  Name = 'gauntlets golden';
+  ShD = 'golden dragonscale gauntlets';
+  Desc = 'Some golden dragonscale gauntlets are on the floor!';
+  ItemType = 'armor';
+  Level = 21;
+  Weight = 100;
+  Cost = 2800;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'hands');
+  Values = ( 7, 7, 7, 3, 0 );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 659 {
+  Name = 'sleeves golden';
+  ShD = 'golden dragonscale sleeves';
+  Desc = 'Some golden dragonscale sleeves are on the floor!';
+  ItemType = 'armor';
+  Level = 21;
+  Weight = 100;
+  Cost = 2800;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'arms');
+  Values = ( 7, 7, 7, 3, 0 );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 660 {
+  Name = 'shield golden';
+  ShD = 'a golden dragonscale shield';
+  Desc = 'A golden dragonscale shield is on the floor!';
+  ItemType = 'armor';
+  Level = 21;
+  Weight = 100;
+  Cost = 3700;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'shield');
+  Values = ( 7, 7, 7, 4, 0 );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 661 {
+  Name = 'girth golden';
+  ShD = 'a golden dragonscale girth';
+  Desc = 'A golden dragonscale girth is on the floor!';
+  ItemType = 'armor';
+  Level = 21;
+  Weight = 100;
+  Cost = 2800;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'waist');
+  Values = ( 7, 7, 7, 3, 0 );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -3 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 662 {
+  Name = 'claw golden';
+  ShD = 'the golden claw';
+  Desc = 'A small golden claw is on the floor';
+  ItemType = 'weapon';
+  Level = 21;
+  Weight = 100;
+  Cost = 2600;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 2, 10, 'claw', ('none') );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 663 {
+  Name = 'orb dragonorb';
+  ShD = 'the Gold Dragon Orb';
+  Desc = 'A very large pearl-like sphere is in the center of this room.';
+  ItemType = 'staff';
+  Level = 17;
+  Weight = 300;
+  Cost = 9000;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil', 'antineutral');
+  WearFlags = ('take', 'hold');
+  Values = ( 14, 4, 4, 'heal' );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, 1 ) );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 2 ) );
+}
+Object 664 {
+  Name = 'robe golden';
+  ShD = 'a golden robe';
+  Desc = 'A golden robe is on the floor.';
+  ItemType = 'armor';
+  Level = 17;
+  Weight = 100;
+  Cost = 3800;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'about');
+  Values = ( 6, 6, 5, 2, 0 );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, 2 ) );
+}
+Object 665 {
+  Name = 'house key';
+  ShD = 'a house key';
+  Desc = 'A house key is on the floor.';
+  ItemType = 'key';
+  Level = 1;
+  Weight = 10;
+  Cost = 0;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 666 {
+  Name = 'broom';
+  ShD = 'a broom';
+  Desc = 'A broom is against the wall here.';
+  ItemType = 'weapon';
+  Level = 1;
+  Weight = 80;
+  Cost = 760;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 2, 3, 'beating', ('none') );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 3 ) );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, -3 ) );
+}
+Object 667 {
+  Name = 'chest';
+  ShD = 'a chest';
+  Desc = 'A chest is on the floor here.';
+  ItemType = 'container';
+  Level = 0;
+  Weight = 100;
+  Cost = 100;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 100, ('none'), 0, 10, 100 );
+}
+Object 668 {
+  Name = 'claw golden';
+  ShD = 'the Golden Claw';
+  Desc = 'A huge golden claw is on the floor';
+  ItemType = 'weapon';
+  Level = 39;
+  Weight = 200;
+  Cost = 7200;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 6, 5, 'claw', ('none') );
+  Affect = ( 'none', -1, 39, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 4 ) );
+}
+Object 669 {
+  Name = 'claw golden';
+  ShD = 'the golden claw';
+  Desc = 'A large golden claw is on the floor';
+  ItemType = 'weapon';
+  Level = 28;
+  Weight = 150;
+  Cost = 4100;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 3, 8, 'claw', ('none') );
+  Affect = ( 'none', -1, 28, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 3 ) );
+}
+
+
+//=======================================
+Room 600 {
+  Name = 'Granny\'s Still Room';
+  Desc = 'You are in Granny Jenkins\' still room.  The smell of whiskey is heady, and
+the bottles of it on the floor make your mouth water and your mind swirl.  You
+also see a very large still.  So THIS is why there are so many grain fields!
+The exit is to the east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the storage shed.
+', 'door', ('door', 'closed'), -1, 616 );
+  Reset = ( 'M', 609, 1, 1 );
+  Reset = ( 'O', 649 );
+
+}
+Room 601 {
+  Name = 'The Big Intersection';
+  Desc = 'You are in the big intersection between Raff Way and Impy Way.  Crowds 
+of people walk past you as they go on their daily tasks.  Raff Way continues
+east and west, and Impy Way runs north and south.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'Impy Way continues north.
+', '', ('none'), 0, 625 );
+  Exit = ( 1, 'Raff Way continues east.
+', '', ('none'), 0, 666 );
+  Exit = ( 2, 'Impy Way continues south.
+', '', ('none'), 0, 602 );
+  Exit = ( 3, 'Raff Way continues west.
+', '', ('none'), 0, 5553 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 624, 0, 'feet' );
+  Reset = ( 'M', 601, 1, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 639, 0, 'body' );
+  Reset = ( 'E', 640, 0, 'head' );
+  Reset = ( 'E', 641, 0, 'legs' );
+  Reset = ( 'E', 642, 0, 'feet' );
+  Reset = ( 'E', 643, 0, 'hands' );
+  Reset = ( 'E', 644, 0, 'arms' );
+  Reset = ( 'E', 645, 0, 'shield' );
+  Reset = ( 'E', 646, 0, 'waist' );
+  Reset = ( 'E', 647, 0, 'wielded' );
+  Reset = ( 'M', 617, 3, 1 );
+
+}
+Room 602 {
+  Name = 'Impy Way';
+  Desc = 'You are on Impy Way.  You can see a leather shop east and a blacksmith
+west.  To the north you see a big intersection, and Impy Way continues south.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the big intersection.
+', '', ('none'), 0, 601 );
+  Exit = ( 1, 'You see the leather shop.
+', '', ('none'), 0, 604 );
+  Exit = ( 2, 'Impy Way continues south.
+', '', ('none'), 0, 605 );
+  Exit = ( 3, 'You see the blacksmith.
+', '', ('none'), 0, 603 );
+
+}
+Room 603 {
+  Name = 'The Blacksmith';
+  Desc = 'You are in a black and smelly room.  Pieces of metal are strewn all over
+the floor, and a wave of heat from a big furnace hits you.  An anvil sits on 
+one side of the room, and on the other side is a workbench.  The exit is east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see Impy Way.
+', '', ('none'), 0, 602 );
+  Reset = ( 'M', 604, 1, 1 );
+  Reset = ( 'G', 600, 0 );
+  Reset = ( 'G', 601, 0 );
+  Reset = ( 'G', 615, 0 );
+  Reset = ( 'G', 667, 0 );
+
+}
+Room 604 {
+  Name = 'The Leather Shop';
+  Desc = 'You are in a brown and smelly room.  Pieces of leather are strewn all over
+the floor.  The smell of burnt hide assaults your nose.  You can tell by the
+looks that the tanning is done VERY CLOSE to here!   A table is near the
+entrance.  The exit is west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, 'You see Impy Way.
+', '', ('none'), 0, 602 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 623, 0, 'legs' );
+  Reset = ( 'M', 605, 1, 1 );
+  Reset = ( 'G', 616, 0 );
+  Reset = ( 'G', 617, 0 );
+  Reset = ( 'G', 618, 0 );
+  Reset = ( 'G', 619, 0 );
+
+}
+Room 605 {
+  Name = 'Impy Way';
+  Desc = 'You are on Impy Way.  To the east is a meat store, and to the west is a
+pawn shop.  Impy Way continues north and south.  People are rushing around you
+to go to these stores.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'Impy Way continues North.
+', '', ('none'), 0, 602 );
+  Exit = ( 1, 'You see the Meat Store.
+', '', ('none'), 0, 607 );
+  Exit = ( 2, 'Impy Way continues south.
+', '', ('none'), 0, 608 );
+  Exit = ( 3, 'You see the Pawn Shop.
+', '', ('none'), 0, 606 );
+
+}
+Room 606 {
+  Name = 'The Pawn Shop.';
+  Desc = 'You are in a little shop filled with a lot of knick knacks and semi-
+valuable goods.  There is a display case full of little treasures that you are
+sure that you or any other little kid would like to touch!  The exit is east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see Impy Way.
+', '', ('none'), 0, 605 );
+  Reset = ( 'M', 606, 1, 1 );
+  Reset = ( 'G', 606, 0 );
+  Reset = ( 'G', 607, 0 );
+  Reset = ( 'G', 608, 0 );
+
+}
+Room 607 {
+  Name = 'The Meat Store';
+  Desc = 'You are in a meat store.  Hanging on hooks are meats of many kinds of
+animals.  In the background, you can hear the sound of blade against flesh.
+It smells like meat here (which is not a good smell).  The exit is west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, 'You see Impy Way.
+', '', ('none'), 0, 605 );
+  Reset = ( 'M', 607, 1, 1 );
+  Reset = ( 'G', 602, 0 );
+  Reset = ( 'G', 603, 0 );
+  Reset = ( 'G', 604, 0 );
+  Reset = ( 'G', 605, 0 );
+
+}
+Room 608 {
+  Name = 'Impy Way';
+  Desc = 'You are on Impy Way.  To the east is Farmer\'s Market, and to the west is
+Nyles\' House of Ale.  Impy Way runs north and ends south of here.  You can hear
+the sound of housewives gossiping at the market.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'Impy Way continues north.
+', '', ('none'), 0, 605 );
+  Exit = ( 1, 'You see the Farmer\'s Market.
+', '', ('none'), 0, 610 );
+  Exit = ( 2, 'You see the end of Impy Way.
+', '', ('none'), 0, 611 );
+  Exit = ( 3, 'You see Nyles\' House of Ale.
+', '', ('none'), 0, 609 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 622, 0, 'head' );
+
+}
+Room 609 {
+  Name = 'Nyles\' House of Ale';
+  Desc = 'This is a very busy bar, with everyone holding homemade bottles of
+ale.  You see even the more gentile persons here, laughing along with
+Nyles, who offers you a quart of ale too.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see Impy Way.
+', '', ('none'), 0, 608 );
+  Reset = ( 'M', 622, 1, 1 );
+  Reset = ( 'G', 648, 0 );
+  Reset = ( 'G', 649, 0 );
+  Reset = ( 'G', 650, 0 );
+  Reset = ( 'M', 624, 1, 1 );
+
+}
+Room 610 {
+  Name = 'Farmer\'s Market';
+  Desc = 'You see many carts filled with fruits and vegetables.  Many farmers are
+all trying to sell you their produce, each saying their\'s is better.  The exit
+is west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, 'You see Impy Way.
+', '', ('none'), 0, 608 );
+  Reset = ( 'M', 608, 1, 1 );
+  Reset = ( 'G', 609, 0 );
+  Reset = ( 'G', 610, 0 );
+  Reset = ( 'G', 611, 0 );
+  Reset = ( 'G', 612, 0 );
+  Reset = ( 'G', 613, 0 );
+
+}
+Room 611 {
+  Name = 'The End of Impy Way';
+  Desc = 'You are at the end of Impy and of the city part of Ofcol.  To the east is
+a dirt road leading toward the farm animals.  West from here are fields.  Impy
+Way continues north.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'Impy Way continues north.
+', '', ('none'), 0, 608 );
+  Exit = ( 1, 'You see the dirt road.
+', '', ('none'), 0, 668 );
+  Exit = ( 3, 'You see the fields.
+', '', ('none'), 0, 612 );
+  Reset = ( 'M', 618, 3, 1 );
+
+}
+Room 612 {
+  Name = 'Fields';
+  Desc = 'You are in a corn field.  You can\'t see far, since the corn stalks are
+taller than you are.  You remember that the end of Impy Way is east of here, 
+and you think you see a building to the north.  The field continues south and 
+west.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You think you see a building north of here.
+', '', ('none'), 0, 616 );
+  Exit = ( 1, 'You remember that the end of Impy Way is east.
+', '', ('none'), 0, 611 );
+  Exit = ( 2, 'You can make a path to the fields south.
+', '', ('none'), 0, 613 );
+  Exit = ( 3, 'You can make a path to the fields west.
+', '', ('none'), 0, 615 );
+
+}
+Room 613 {
+  Name = 'Fields';
+  Desc = 'You are among fruit trees in a field.  You see many apple and orange 
+trees.  You can make out the corn fields north and some vegetable patches west.
+The sight of the fruit makes your mouth water.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the corn fields.
+', '', ('none'), 0, 612 );
+  Exit = ( 3, 'You see the vegetable fields.
+', '', ('none'), 0, 614 );
+
+}
+Room 614 {
+  Name = 'Fields';
+  Desc = 'You are among the vegetable fields.  You see many cabbage and lettuce
+patches, along with tomato bushes and potato plants.  To the east are some
+fruit trees, and north are some wheat fields.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the wheat fields.
+', '', ('none'), 0, 615 );
+  Exit = ( 1, 'You see the fruit trees.
+', '', ('none'), 0, 613 );
+
+}
+Room 615 {
+  Name = 'Fields';
+  Desc = 'You are among the wheat fields.  The gentle caress of the wheat and the
+cool shadow from the tall stalks and scarecrow lulls you to sleep and dream
+of a little girl and little dog from a faraway place.  To the east are the corn
+stalks, and south of you are the vegetable patches.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the corn fields.
+', '', ('none'), 0, 612 );
+  Exit = ( 2, 'You see the vegetable patches.
+', '', ('none'), 0, 614 );
+
+}
+Room 616 {
+  Name = 'The Shed';
+  Desc = 'You are in the storage shed.  Bales of wheat, corn and hay are piled
+against the wall, and some vegetables are in carts.  You see a small door
+to the west.  The main exit is south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see the corn fields.
+', '', ('none'), 0, 612 );
+  Exit = ( 3, 'You see the door.
+', 'door', ('door', 'closed'), -1, 600 );
+
+}
+Room 617 {
+  Name = 'Slaughterhouse';
+  Desc = 'You are in the slaughterhouse, where all the animals are slaughtered so
+that they can be sold or their skins be tanned.  The scream of dying animals
+makes your stomach churn.  The exit is to the west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, 'You see the dirt road.
+', '', ('none'), 0, 668 );
+  Reset = ( 'M', 610, 1, 1 );
+  Reset = ( 'E', 601, 0, 'wielded' );
+
+}
+Room 618 {
+  Name = 'Dirt Road';
+  Desc = 'You are on a dirt road.  To the east is a barn, and you see a big chicken
+coop south of you.  The dirt road continues north and west.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the dirt road.
+', '', ('none'), 0, 668 );
+  Exit = ( 1, 'You see the barn.
+', '', ('none'), 0, 620 );
+  Exit = ( 2, 'You see the chicken coop.
+', 'coop', ('door', 'closed'), -1, 619 );
+  Exit = ( 3, 'You see the dirt road.
+', '', ('none'), 0, 621 );
+
+}
+Room 619 {
+  Name = 'Chicken Coop';
+  Desc = 'You are in the chicken coop.  The smell of chickens and chicken droppings
+makes you gasp.  The exit is north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You can sense the fresh air.
+', '', ('door', 'closed'), -1, 618 );
+  Reset = ( 'M', 612, 4, 4 );
+  Reset = ( 'M', 612, 4, 4 );
+  Reset = ( 'M', 612, 4, 4 );
+  Reset = ( 'M', 612, 4, 4 );
+
+}
+Room 620 {
+  Name = 'Barn';
+  Desc = 'You are in a barn.  There are some cows here, munching on mounds of hay.
+Milk is milked and bottled here.  You see the exit west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, 'You see the dirt road.
+', '', ('none'), 0, 618 );
+  Reset = ( 'M', 611, 1, 1 );
+  Reset = ( 'E', 615, 0, 'wielded' );
+  Reset = ( 'O', 614 );
+  Reset = ( 'O', 611 );
+  Reset = ( 'M', 614, 2, 2 );
+  Reset = ( 'M', 614, 2, 2 );
+
+}
+Room 621 {
+  Name = 'Dirt Road';
+  Desc = 'You are on a dirt road.  To the north and south, you see some grass 
+fields.  There is a pigsty west, and the dirt road continues east.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see some grass fields.
+', '', ('none'), 0, 622 );
+  Exit = ( 1, 'You see the dirt road.
+', '', ('none'), 0, 618 );
+  Exit = ( 2, 'You see some grass fields.
+', '', ('none'), 0, 623 );
+  Exit = ( 3, 'You see the pigsty.
+', '', ('none'), 0, 624 );
+
+}
+Room 622 {
+  Name = 'Grass Field';
+  Desc = 'You are in a grass field.  Fences block the way north, east, and west.
+The dirt road is to the south.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see the dirt road.
+', '', ('none'), 0, 621 );
+  Reset = ( 'M', 615, 4, 4 );
+  Reset = ( 'M', 615, 4, 4 );
+  Reset = ( 'M', 615, 4, 4 );
+  Reset = ( 'M', 615, 4, 4 );
+
+}
+Room 623 {
+  Name = 'Grass Field';
+  Desc = 'You are in a grass field.  Fences block the way south, east, and west.
+The dirt road is to the north.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the dirt road.
+', '', ('none'), 0, 621 );
+  Reset = ( 'M', 613, 3, 3 );
+  Reset = ( 'M', 613, 3, 3 );
+  Reset = ( 'M', 613, 3, 3 );
+
+}
+Room 624 {
+  Name = 'Pig Sty';
+  Desc = 'For some reason, you are in a pig sty.  You wonder why you are standing in
+muck.  To realize your senses and notice the dirt road is to the east.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the dry dirt road.
+', '', ('none'), 0, 621 );
+  Reset = ( 'M', 616, 4, 4 );
+  Reset = ( 'M', 616, 4, 4 );
+  Reset = ( 'M', 616, 4, 4 );
+  Reset = ( 'M', 616, 4, 4 );
+
+}
+Room 625 {
+  Name = 'Impy Way';
+  Desc = 'You are on Impy Way.  East and west of you are big houses.  Impy Way
+continues north and reaches a big intersection south.  Children are running to
+from home to home.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'Impy Way continues north.
+', '', ('none'), 0, 632 );
+  Exit = ( 1, 'You see a big house.
+', 'door', ('door', 'closed', 'locked'), 665, 626 );
+  Exit = ( 2, 'You see a big intersection.
+', '', ('none'), 0, 601 );
+  Exit = ( 3, 'You see a big house.
+', 'door', ('door', 'closed', 'locked'), 665, 629 );
+
+}
+Room 626 {
+  Name = 'Big House';
+  Desc = 'You are in a big house.  Evidently, the owners of this house are richer
+than the average citizen, since there is more than one room to this house.  A
+door leads to the kitchen east, and a bedroom is upstairs.  The exit is to the
+west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the kitchen.
+', '', ('none'), 0, 628 );
+  Exit = ( 3, 'You see Impy Way.
+', 'door', ('door', 'closed', 'locked'), 665, 625 );
+  Exit = ( 4, 'You see the bedroom.
+', '', ('none'), 0, 627 );
+
+}
+Room 627 {
+  Name = 'Bedroom';
+  Desc = 'You are in the bedroom.  There isn\'t much of interest except for a bed and
+a closet.  The stairs lead back down.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, 'You see the main room of the house.
+', '', ('none'), 0, 626 );
+  Reset = ( 'M', 621, 3, 1 );
+  Reset = ( 'G', 665, 0 );
+  Reset = ( 'E', 666, 0, 'wielded' );
+
+}
+Room 628 {
+  Name = 'Kitchen';
+  Desc = 'You are in a kitchen.  There isn\'t much of interest here.  The main room
+is west of here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, 'You see the main room of the house.
+', '', ('none'), 0, 626 );
+
+}
+Room 629 {
+  Name = 'Big House';
+  Desc = 'You are in a big house.  Evidently, the owners of this house are richer
+than the average citizen, since there is more than one room to this house.  A
+door leads to the kitchen west, and a bedroom is upstairs.  The exit is to the
+east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see Impy Way.
+', 'door', ('door', 'closed', 'locked'), 665, 625 );
+  Exit = ( 3, 'You see the kitchen.
+', '', ('none'), 0, 631 );
+  Exit = ( 4, 'You see the bedroom.
+', '', ('none'), 0, 630 );
+  Reset = ( 'M', 621, 3, 1 );
+  Reset = ( 'G', 665, 0 );
+  Reset = ( 'E', 666, 0, 'wielded' );
+
+}
+Room 630 {
+  Name = 'Bedroom';
+  Desc = 'You are in the bedroom.  There isn\'t much of interest except for a bed and
+a closet.  The stairs lead back down.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, 'You see the main room of the house.
+', '', ('none'), 0, 629 );
+
+}
+Room 631 {
+  Name = 'Kitchen';
+  Desc = 'You are in a kitchen.  There isn\'t much of interest here.  The main room
+is east of here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the main room of the house.
+', '', ('none'), 0, 629 );
+
+}
+Room 632 {
+  Name = 'Impy Way';
+  Desc = 'You are on Impy Way.  Houses are to the east and west of here.  Impy Way
+continues north and south.  There are many people walking along the streets.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'Impy Way continues north.
+', '', ('none'), 0, 637 );
+  Exit = ( 1, 'You see a house.
+', 'door', ('door', 'closed'), -1, 633 );
+  Exit = ( 2, 'Impy Way continues south.
+', '', ('none'), 0, 625 );
+  Exit = ( 3, 'You see a house.
+', 'door', ('door', 'closed'), -1, 635 );
+
+}
+Room 633 {
+  Name = 'House';
+  Desc = 'You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see the bedroom.
+', '', ('none'), 0, 634 );
+  Exit = ( 3, 'You see Impy Way.
+', 'door', ('door', 'closed'), -1, 632 );
+
+}
+Room 634 {
+  Name = 'Bedroom';
+  Desc = 'You are in a bedroom.  There isn\'t much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the main room of the house.
+', '', ('none'), 0, 633 );
+
+}
+Room 635 {
+  Name = 'House';
+  Desc = 'You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see Impy Way.
+', 'door', ('door', 'closed'), -1, 632 );
+  Exit = ( 2, 'You see the bedroom.
+', '', ('none'), 0, 636 );
+  Reset = ( 'M', 620, 2, 1 );
+
+}
+Room 636 {
+  Name = 'Bedroom';
+  Desc = 'You are in a bedroom.  There isn\'t much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the main room of the house.
+', '', ('none'), 0, 635 );
+
+}
+Room 637 {
+  Name = 'Impy Way';
+  Desc = 'You are on Impy Way.  Houses are to the east and west of here.  Impy Way
+continues south.  To the north is a big intersection.  There are many people
+walking along the streets.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a big intersection.
+', '', ('none'), 0, 642 );
+  Exit = ( 1, 'You see a house.
+', 'door', ('door', 'closed'), -1, 638 );
+  Exit = ( 2, 'Impy Way continues south.
+', '', ('none'), 0, 632 );
+  Exit = ( 3, 'You see a house.
+', 'door', ('door', 'closed'), -1, 640 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 629, 0, 'lwrist' );
+  Reset = ( 'M', 618, 3, 1 );
+
+}
+Room 638 {
+  Name = 'House';
+  Desc = 'You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see the bedroom.
+', '', ('none'), 0, 639 );
+  Exit = ( 3, 'You see Impy Way.
+', 'door', ('door', 'closed'), -1, 637 );
+
+}
+Room 639 {
+  Name = 'Bedroom';
+  Desc = 'You are in a bedroom.  There isn\'t much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the main room of the house.
+', '', ('none'), 0, 638 );
+
+}
+Room 640 {
+  Name = 'House';
+  Desc = 'You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see Impy Way.
+', 'door', ('door', 'closed'), -1, 637 );
+  Exit = ( 2, 'You see the bedroom.
+', '', ('none'), 0, 641 );
+
+}
+Room 641 {
+  Name = 'Bedroom';
+  Desc = 'You are in a bedroom.  There isn\'t much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the main room of the house.
+', '', ('none'), 0, 640 );
+
+}
+Room 642 {
+  Name = 'The Big Intersection';
+  Desc = 'You are on the intersection of Impy Way and Swiftest Way.  To the north of
+you is a big house.  Swiftest Way runs east and west, and Impy way continues
+south.  There are quite a few people on this intersection.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the big house.
+', 'door', ('door', 'closed', 'locked'), 665, 643 );
+  Exit = ( 1, 'Swiftest Way continues east.
+', '', ('none'), 0, 646 );
+  Exit = ( 2, 'Impy Way continues south.
+', '', ('none'), 0, 637 );
+  Exit = ( 3, 'Swiftest Way continues west.
+', '', ('none'), 0, 649 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 626, 0, 'arms' );
+
+}
+Room 643 {
+  Name = 'Big House';
+  Desc = 'You are in a big house.  Evidently, the owners of this house are richer
+than the average citizen, since there is more than one room to this house.  A
+door leads to the kitchen north, and a bedroom is upstairs.  The exit is to 
+the south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the kitchen.
+', '', ('none'), 0, 645 );
+  Exit = ( 2, 'You see Impy Way.
+', 'door', ('door', 'closed', 'locked'), 665, 642 );
+  Exit = ( 4, 'You see the bedroom.
+', '', ('none'), 0, 644 );
+  Reset = ( 'M', 621, 3, 1 );
+  Reset = ( 'G', 665, 0 );
+  Reset = ( 'E', 666, 0, 'wielded' );
+
+}
+Room 644 {
+  Name = 'Bedroom';
+  Desc = 'You are in the bedroom.  There isn\'t much of interest except for a bed 
+and a closet.  The stairs lead back down.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, 'You see the main room of the house.
+', '', ('none'), 0, 643 );
+
+}
+Room 645 {
+  Name = 'Kitchen';
+  Desc = 'You are in a kitchen.  There isn\'t much of interest here.  The main room
+is east of here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see the main room of the house.
+', '', ('none'), 0, 643 );
+
+}
+Room 646 {
+  Name = 'Swiftest Way';
+  Desc = 'You are on Swiftest Way, the commoner\'s residential area.  Small houses
+are north and south of you.  Swiftest Way continues east, and west is a big
+intersection.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a small house.
+', '', ('none'), 0, 652 );
+  Exit = ( 1, 'Swiftest Way continues east.
+', '', ('none'), 0, 647 );
+  Exit = ( 2, 'You see a small house.
+', '', ('none'), 0, 653 );
+  Exit = ( 3, 'You see a big intersection.
+', '', ('none'), 0, 642 );
+
+}
+Room 647 {
+  Name = 'Swiftest Way';
+  Desc = 'You are on Swiftest Way, the commoner\'s residential area.  Small houses
+are north and south of you.  Swiftest Way continues east and west.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a small house.
+', '', ('none'), 0, 654 );
+  Exit = ( 1, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 648 );
+  Exit = ( 2, 'You see a small house.
+', '', ('none'), 0, 655 );
+  Exit = ( 3, 'Swiftest Way continues west.
+', '', ('none'), 0, 646 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 627, 0, 'shield' );
+
+}
+Room 648 {
+  Name = 'End of Swiftest Way';
+  Desc = 'You are on Swiftest Way, the commoner\'s residential area.  Small houses
+are north, south, and east of you.  Swiftest Way continues west.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a small house.
+', '', ('none'), 0, 656 );
+  Exit = ( 1, 'You see a small house.
+', '', ('none'), 0, 657 );
+  Exit = ( 2, 'You see a small house.
+', '', ('none'), 0, 658 );
+  Exit = ( 3, 'Swiftest Way continues west.
+', '', ('none'), 0, 647 );
+  Reset = ( 'M', 617, 3, 1 );
+
+}
+Room 649 {
+  Name = 'Swiftest Way';
+  Desc = 'You are on Swiftest Way, the commoner\'s residential area.  Small houses
+are north and south of you.  Swiftest Way continues west, and to the east you
+see a big intersection.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a small house.
+', '', ('none'), 0, 659 );
+  Exit = ( 1, 'You see the big intersection.
+', '', ('none'), 0, 642 );
+  Exit = ( 2, 'You see a small house.
+', '', ('none'), 0, 660 );
+  Exit = ( 3, 'Swiftest Way continues west.
+', '', ('none'), 0, 650 );
+
+}
+Room 650 {
+  Name = 'Swiftest Way';
+  Desc = 'You are on Swiftest Way, the commoner\'s residential area.  Small houses
+are north and south of you.  Swiftest Way continues east and west.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a small house.
+', '', ('none'), 0, 661 );
+  Exit = ( 1, 'Swiftest Way continues east.
+', '', ('none'), 0, 649 );
+  Exit = ( 2, 'You see a small house.
+', '', ('none'), 0, 662 );
+  Exit = ( 3, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 651 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 625, 0, 'hands' );
+  Reset = ( 'M', 617, 3, 1 );
+
+}
+Room 651 {
+  Name = 'The end of Swiftest Way';
+  Desc = 'You are on Swiftest Way, the commoner\'s residential area.  Small houses
+are north, south, and west of you.  Swiftest Way continues east.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a small house.
+', '', ('none'), 0, 663 );
+  Exit = ( 1, 'Swiftest Way continues east.
+', '', ('none'), 0, 650 );
+  Exit = ( 2, 'You see a small house.
+', '', ('none'), 0, 664 );
+  Exit = ( 3, 'You see a small house.
+', '', ('none'), 0, 665 );
+
+}
+Room 652 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see Swiftest Way.
+', '', ('none'), 0, 646 );
+  Reset = ( 'M', 620, 2, 1 );
+
+}
+Room 653 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see Swiftest Way.
+', '', ('none'), 0, 646 );
+
+}
+Room 654 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see Swiftest Way.
+', '', ('none'), 0, 647 );
+
+}
+Room 655 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see Swiftest Way.
+', '', ('none'), 0, 647 );
+  Reset = ( 'M', 619, 2, 1 );
+
+}
+Room 656 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 648 );
+
+}
+Room 657 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 648 );
+
+}
+Room 658 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 648 );
+
+}
+Room 659 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see Swiftest Way.
+', '', ('none'), 0, 649 );
+
+}
+Room 660 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see Swiftest Way.
+', '', ('none'), 0, 649 );
+
+}
+Room 661 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see Swiftest Way.
+', '', ('none'), 0, 650 );
+  Reset = ( 'M', 619, 2, 1 );
+
+}
+Room 662 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see Swiftest Way.
+', '', ('none'), 0, 650 );
+
+}
+Room 663 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 651 );
+
+}
+Room 664 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 651 );
+
+}
+Room 665 {
+  Name = 'Small House';
+  Desc = 'You are in a small house, owned by a commoner of Ofcol.  There isn\'t much
+of value here to you, but you\'d bet that the owner really cherishes the pile
+of stuff here.  The exit is to the east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the end of Swiftest Way.
+', '', ('none'), 0, 651 );
+
+}
+Room 666 {
+  Name = 'Raff Way';
+  Desc = 'You are on Raff Way.  To the west, you can see a big intersection.  To 
+the east, you see Raff Way continue toward the Golden Citadel.  There are 
+beautiful flowers growing along the road here, making this more of a garden
+than a road.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 1, 'Raff Way continues east.
+', '', ('none'), 0, 667 );
+  Exit = ( 3, 'You see the big intersection.
+', '', ('none'), 0, 601 );
+  Reset = ( 'M', 618, 3, 1 );
+
+}
+Room 667 {
+  Name = 'Raff Way';
+  Desc = 'You are on Raff Way.  Raff Way continues west to the city of Ofcol.  To 
+the east, you see Raff Way continue toward the Golden Citadel.  There are 
+beautiful flowers growing along the road here, making this more of a garden
+than a road.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the entrance of the Golden Citadel.
+', '', ('none'), 0, 699 );
+  Exit = ( 3, 'Raff Way continues west.
+', '', ('none'), 0, 666 );
+  Reset = ( 'M', 600, 8, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 628, 0, 'waist' );
+
+}
+Room 668 {
+  Name = 'Dirt Road';
+  Desc = 'You are on a dirt road.  To the east is a large building with a bad smell
+emanating from it.  To the west is the end of Impy Way, and this road continues
+south.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the large building with the bad smell.
+', '', ('none'), 0, 617 );
+  Exit = ( 2, 'The dirt road continues south.
+', '', ('none'), 0, 618 );
+  Exit = ( 3, 'You see the end of Impy Way.
+', '', ('none'), 0, 611 );
+
+}
+Room 669 {
+  Name = 'The Temple of Ofcol';
+  Desc = 'You are in the Temple of Ofcol.  Golden tiles cover the floor, and solid
+gold columns reach the twelve foot ceiling of this vast chamber.  Servants in
+golden livery wander this place, making even the raggiest messenger boy look
+richer than you are.  Exits lead to the anterooms in the cardinal directions.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 670 );
+  Exit = ( 1, '', '', ('none'), 0, 672 );
+  Exit = ( 2, '', '', ('none'), 0, 673 );
+  Exit = ( 3, '', '', ('none'), 0, 671 );
+  Reset = ( 'M', 602, 1, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 631, 0, 'body' );
+  Reset = ( 'E', 653, 0, 'wielded' );
+  Reset = ( 'E', 632, 0, 'head' );
+  Reset = ( 'E', 633, 0, 'legs' );
+  Reset = ( 'E', 634, 0, 'feet' );
+  Reset = ( 'E', 635, 0, 'hands' );
+  Reset = ( 'E', 626, 0, 'arms' );
+  Reset = ( 'E', 627, 0, 'shield' );
+  Reset = ( 'E', 628, 0, 'waist' );
+  Reset = ( 'M', 628, 1, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 664, 0, 'about' );
+  Reset = ( 'E', 652, 0, 'neck1' );
+
+}
+Room 670 {
+  Name = 'The Anteroom to the Temple of Ofcol';
+  Desc = 'You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the south, and to the north is a hallway.  A stairways leads up.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 675 );
+  Exit = ( 2, '', '', ('none'), 0, 669 );
+  Exit = ( 4, '', '', ('none'), 0, 686 );
+
+}
+Room 671 {
+  Name = 'The Anteroom to the Temple of Ofcol';
+  Desc = 'You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the east, and to the west is a hallway.  A stairways leads up.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 669 );
+  Exit = ( 3, '', '', ('none'), 0, 679 );
+  Exit = ( 4, '', '', ('none'), 0, 687 );
+
+}
+Room 672 {
+  Name = 'The Anteroom to the Temple of Ofcol';
+  Desc = 'You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the west, and to the east is a hallway.  A stairways leads up.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 680 );
+  Exit = ( 3, '', '', ('none'), 0, 669 );
+  Exit = ( 4, '', '', ('none'), 0, 689 );
+
+}
+Room 673 {
+  Name = 'The Anteroom to the Temple of Ofcol';
+  Desc = 'You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the north, and to the south is a hallway.  A stairways leads up.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 669 );
+  Exit = ( 2, '', '', ('none'), 0, 684 );
+  Exit = ( 4, '', '', ('none'), 0, 690 );
+  Reset = ( 'M', 625, 2, 1 );
+
+}
+Room 674 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead east and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 675 );
+  Exit = ( 2, '', '', ('none'), 0, 677 );
+  Reset = ( 'M', 625, 2, 1 );
+
+}
+Room 675 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead east, west, and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 676 );
+  Exit = ( 2, '', '', ('none'), 0, 670 );
+  Exit = ( 3, '', '', ('none'), 0, 674 );
+
+}
+Room 676 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead west and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 678 );
+  Exit = ( 3, '', '', ('none'), 0, 675 );
+  Reset = ( 'M', 633, 3, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 654, 0, 'body' );
+  Reset = ( 'E', 660, 0, 'shield' );
+  Reset = ( 'E', 662, 0, 'wielded' );
+
+}
+Room 677 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 674 );
+  Exit = ( 2, '', '', ('none'), 0, 679 );
+
+}
+Room 678 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 676 );
+  Exit = ( 2, '', '', ('none'), 0, 680 );
+  Reset = ( 'M', 627, 1, 1 );
+
+}
+Room 679 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead to the cardinal directions, with the east leading
+toward the Temple of Ofcol, and west leading toward the City of Ofcol.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 677 );
+  Exit = ( 1, '', '', ('none'), 0, 671 );
+  Exit = ( 2, '', '', ('none'), 0, 681 );
+  Exit = ( 3, '', '', ('none'), 0, 698 );
+
+}
+Room 680 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead west, north and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 678 );
+  Exit = ( 2, '', '', ('none'), 0, 682 );
+  Exit = ( 3, '', '', ('none'), 0, 672 );
+
+}
+Room 681 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 679 );
+  Exit = ( 2, '', '', ('none'), 0, 683 );
+  Reset = ( 'M', 633, 3, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 654, 0, 'body' );
+  Reset = ( 'E', 660, 0, 'shield' );
+  Reset = ( 'E', 662, 0, 'wielded' );
+
+}
+Room 682 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 680 );
+  Exit = ( 2, '', '', ('none'), 0, 685 );
+  Reset = ( 'M', 626, 2, 1 );
+
+}
+Room 683 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 681 );
+  Exit = ( 1, '', '', ('none'), 0, 684 );
+  Reset = ( 'M', 626, 2, 1 );
+
+}
+Room 684 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead east, west, and north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 673 );
+  Exit = ( 1, '', '', ('none'), 0, 685 );
+  Exit = ( 3, '', '', ('none'), 0, 683 );
+
+}
+Room 685 {
+  Name = 'A Hallway of the Golden Citadel';
+  Desc = 'You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead west and north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 682 );
+  Exit = ( 3, '', '', ('none'), 0, 684 );
+
+}
+Room 686 {
+  Name = 'An Upper Chamber of the Golden Citadel';
+  Desc = 'You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads south. 
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 688 );
+  Exit = ( 4, '', '', ('none'), 0, 691 );
+  Exit = ( 5, '', '', ('none'), 0, 670 );
+
+}
+Room 687 {
+  Name = 'An Upper Chamber of the Golden Citadel';
+  Desc = 'You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads east. 
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 688 );
+  Exit = ( 4, '', '', ('none'), 0, 692 );
+  Exit = ( 5, '', '', ('none'), 0, 671 );
+
+}
+Room 688 {
+  Name = 'The Hall of the DragonLords';
+  Desc = 'You are in a vast hall, filled with the commanders of the Golden Citadel.
+Golden tiles etched with platinum cover the floors, and weapons of all types
+are mounted on the walls of this meeting hall.  Surrounding a solid gold table
+are four sons of the Keeper of the Golden Citadel.  They smile at you and ask 
+you to join them in lunch.  Exits lead to the cardinal directions. 
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 686 );
+  Exit = ( 1, '', '', ('none'), 0, 689 );
+  Exit = ( 2, '', '', ('none'), 0, 690 );
+  Exit = ( 3, '', '', ('none'), 0, 687 );
+  Reset = ( 'M', 629, 1, 1 );
+  Reset = ( 'E', 664, 0, 'about' );
+  Reset = ( 'M', 630, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 654, 0, 'body' );
+  Reset = ( 'E', 660, 0, 'shield' );
+  Reset = ( 'E', 669, 0, 'wielded' );
+  Reset = ( 'E', 656, 0, 'head' );
+  Reset = ( 'E', 657, 0, 'feet' );
+  Reset = ( 'M', 630, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 654, 0, 'body' );
+  Reset = ( 'E', 660, 0, 'shield' );
+  Reset = ( 'E', 669, 0, 'wielded' );
+  Reset = ( 'E', 657, 0, 'feet' );
+  Reset = ( 'E', 658, 0, 'hands' );
+  Reset = ( 'M', 630, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 654, 0, 'body' );
+  Reset = ( 'E', 660, 0, 'shield' );
+  Reset = ( 'E', 669, 0, 'wielded' );
+  Reset = ( 'E', 659, 0, 'arms' );
+  Reset = ( 'E', 661, 0, 'waist' );
+
+}
+Room 689 {
+  Name = 'An Upper Chamber of the Golden Citadel';
+  Desc = 'You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads west. 
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), 0, 688 );
+  Exit = ( 4, '', '', ('none'), 0, 694 );
+  Exit = ( 5, '', '', ('none'), 0, 672 );
+
+}
+Room 690 {
+  Name = 'An Upper Chamber of the Golden Citadel';
+  Desc = 'You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads north. 
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 688 );
+  Exit = ( 4, '', '', ('none'), 0, 695 );
+  Exit = ( 5, '', '', ('none'), 0, 673 );
+  Reset = ( 'M', 633, 3, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 654, 0, 'body' );
+  Reset = ( 'E', 660, 0, 'shield' );
+  Reset = ( 'E', 662, 0, 'wielded' );
+
+}
+Room 691 {
+  Name = 'A Top Chamber of the Golden Citadel';
+  Desc = 'You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon\'s hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads south.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 693 );
+  Exit = ( 5, '', '', ('none'), 0, 686 );
+
+}
+Room 692 {
+  Name = 'A Top Chamber of the Golden Citadel';
+  Desc = 'You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon\'s hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 693 );
+  Exit = ( 5, '', '', ('none'), 0, 687 );
+
+}
+Room 693 {
+  Name = 'The Dragon Chamber';
+  Desc = 'You are in a vast chamber carved from gold and platinum.  Gems the size of
+a man\'s fist protrude from the walls, ceiling, and the floor, making your step
+painful.  A vast open sky-light lets fresh air come in from the top.  In the
+center of this chamber, you see a great wealth of coins, and on top of that
+pile of coins, you see a golden dragon squinting at you.  Exits lead to the
+cardinal directions to the anterooms.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 691 );
+  Exit = ( 1, '', '', ('none'), 0, 694 );
+  Exit = ( 2, '', '', ('none'), 0, 695 );
+  Exit = ( 3, '', '', ('none'), 0, 692 );
+  Exit = ( 4, '', '', ('none'), 0, 696 );
+  Reset = ( 'M', 631, 1, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 668, 0, 'wielded' );
+  Reset = ( 'E', 663, 0, 'hold' );
+  Reset = ( 'M', 632, 2, 2 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 664, 0, 'about' );
+  Reset = ( 'M', 632, 2, 2 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 664, 0, 'about' );
+
+}
+Room 694 {
+  Name = 'A Top Chamber of the Golden Citadel';
+  Desc = 'You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon\'s hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads west.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), 0, 693 );
+  Exit = ( 5, '', '', ('none'), 0, 689 );
+
+}
+Room 695 {
+  Name = 'A Top Chamber of the Golden Citadel';
+  Desc = 'You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon\'s hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 693 );
+  Exit = ( 5, '', '', ('none'), 0, 690 );
+
+}
+Room 696 {
+  Name = 'Above the Dragon Chamber';
+  Desc = 'You are above the Dragon Chamber.  You curiously note that this shaft that
+connects the chamber to the sky is wide enough that even a dragon can fit
+through.  This shaft leads up and down.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 4, '', '', ('none'), 0, 697 );
+  Exit = ( 5, '', '', ('none'), 0, 693 );
+
+}
+Room 697 {
+  Name = 'In the Shaft from the Dragon Chamber';
+  Desc = 'You are in the shaft leading from the Dragon Chamber.  Below you lies the
+Dragon Chamber of the Golden Citadel.  Above you, you see the sky, but 
+currently, the way out is sealed by a layer of diamond that looks impenetrable.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, '', '', ('none'), 0, 696 );
+
+}
+Room 698 {
+  Name = 'Inside the Entrance to the Golden Citadel';
+  Desc = 'You are inside the entrance to the Golden Citadel.  Rich golden tapestries
+line the walls, and golden tiles cover the floors.  The exit to this citadel is
+to the west, while the citadel itself is to the east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 679 );
+  Exit = ( 3, '', 'gate', ('door'), 651, 699 );
+  Reset = ( 'M', 634, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 627, 0, 'shield' );
+  Reset = ( 'G', 651, 0 );
+  Reset = ( 'M', 634, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 627, 0, 'shield' );
+  Reset = ( 'G', 651, 0 );
+  Reset = ( 'M', 634, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 627, 0, 'shield' );
+  Reset = ( 'G', 651, 0 );
+
+}
+Room 699 {
+  Name = 'Outside the Entrance to the Golden Citadel';
+  Desc = 'You are outside the entrance to the Golden Citadel.  A great gate is to
+to the east, marking the entranceway into the citadel.  The road also leads
+back west to Raff Way.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('door'), 651, 698 );
+  Exit = ( 3, '', '', ('none'), 0, 667 );
+  Reset = ( 'M', 603, 1, 1 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 631, 0, 'body' );
+  Reset = ( 'E', 653, 0, 'wielded' );
+  Reset = ( 'E', 632, 0, 'head' );
+  Reset = ( 'E', 623, 0, 'legs' );
+  Reset = ( 'E', 624, 0, 'feet' );
+  Reset = ( 'E', 625, 0, 'hands' );
+  Reset = ( 'E', 636, 0, 'arms' );
+  Reset = ( 'E', 637, 0, 'shield' );
+  Reset = ( 'E', 638, 0, 'waist' );
+  Reset = ( 'M', 623, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 627, 0, 'shield' );
+  Reset = ( 'G', 651, 0 );
+  Reset = ( 'M', 623, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 627, 0, 'shield' );
+  Reset = ( 'G', 651, 0 );
+  Reset = ( 'M', 623, 3, 3 );
+  Reset = ( 'E', 620, 0, 'lfinger' );
+  Reset = ( 'E', 621, 0, 'body' );
+  Reset = ( 'E', 630, 0, 'wielded' );
+  Reset = ( 'E', 627, 0, 'shield' );
+  Reset = ( 'G', 651, 0 );
+
+}
+
+
+//=======================================
+}
+

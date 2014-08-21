@@ -1,0 +1,2364 @@
+#Style Circle
+#AREADATA
+Name Farmlands of Ofingia~
+Builders Kaan~
+VNUMs 31300 31399
+Credits {{None}  CAW    Farmlands of Ofingia~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#31300
+goblin raider~
+a goblin raider~
+A goblin raider runs crouched-over through the fields, looking for people to kill.
+~
+   It runs with its arms almost dragging on the ground through the fields, its
+nose twitching as it sniffs for prey.    
+~
+dgj 0 -700 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#31301
+goblin torch~
+a torch-bearing goblin~
+A goblin walks through the smoke and ash carrying a torch.
+~
+   He looks right and then left - he must be searching for something to burn.
+  
+~
+dgj 0 -600 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#31302
+goblin gnawing~
+a leg-gnawing goblin~
+A goblin sits cross-legged on the ground gnawing on a human leg.
+~
+   Blood and muscle tissue drip down its face, its pointed noise dripping with
+goo and gore.    
+~
+bd 0 -900 E
+10 19 4 2d2+100 1d2+1
+100 10000
+6 6 1
+E
+#31303
+goblin commander~
+the goblin commander~
+A goblin commander grunts and screams his troops into organization.
+~
+   His green warted skin stretches tight over his squinted eyes, he smiffs the
+wind every now and again for signs of human flesh.    
+~
+dgj 0 -1000 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#31304
+goblin scout~
+a goblin scout~
+A goblin scout walks cautiously past, sniffing and searching.
+~
+   A goblin scout here could mean only one thing - there are more in the area.
+Best to keep a close eye out.    
+~
+cdeg 0 -600 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#31305
+goblin looter~
+a goblin looter~
+A goblin searches through the wreckage of the fields for scraps.
+~
+   It rummages through the blackened dirt, looking for any valuables that might
+have been overlooked by the troops when they came through.    
+~
+cdg 0 -700 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#31306
+goblin hordesman~
+a goblin hordesman~
+A goblin hordesman tromps confidently along, looking for a fight.
+~
+   Its weapon is constantly held at ready while it scans the smoke and ruin for
+any signs of life.    
+~
+dg 0 -600 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#31307
+commander of the lord's retinue~
+the Commander of the Lord's Retinue~
+The Commander of the Lord's Retinue leads a weary gaggle of men through the desolation.
+~
+   He face is covered in black dirt and ash, his once-fine armor dented and
+dirty.  By the looks in his black-rimmed eyes, he appears a man at the end of
+his rope.    
+~
+dg 0 900 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#31308
+member Lord's Retinue soldier guard~
+a member of the Lord's Retinue~
+A member of the Lord's Retinue strides wearily past.
+~
+   He appears to have lost much of his hope in eliminating the threat of the
+goblins in this region.  The the constant raids and the lack of sleep has made
+him less than the highly-trained soldier that he was when he arrived here some
+months back.    
+~
+dg 0 800 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#31309
+sobbing soldier retinue~
+a sobbing soldier~
+A soldier is curled into a ball, knees clutched, sobbing into the black dirt.
+~
+   He does not acknowledge your presence nor does he stop his sobbing.  He
+seems to have lost his mind, reduced to a whimpering infant.    
+~
+bd 0 600 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#31310
+jon boggins farmer~
+Jon Boggins~
+Jon Boggins strides through his fields, a heavy pitchfork held at ready.
+~
+   Jon has lost not only his son the Horde, but has lost his wife and daughter
+as well.  He is a man with no ties and no love of life - that is what makes him
+so dangerous.    
+~
+dg 0 400 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#31311
+desperate farmer~
+a desperate farmer~
+A desperate farmer crouches in this barricade, eyes wide with fear.
+~
+   The poor man has lost his livelihood, but he will BE DAMNED if he will lose
+his land as well to the very creatures who destroyed it.  He will die before he
+gives this small stand up to the enemy.    
+~
+bd 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#31312
+angry farmwife~
+an angry farmwife~
+An angry farmwife squats beside her husband, lending him her strength and support.
+~
+   Against her husband's numerous requests, she has stayed here in their last
+ditch stand to make an effort at saving their home.    
+~
+bd 0 500 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#0
+
+#OBJECTS
+
+#31300
+banner horde~
+the War Banner of the Horde~
+A large piece of cloth mounted on a pole lies on the ground.~
+~
+12 a ao 0
+0 0 0 0
+4 10 0 7
+A
+5 1
+#31301
+goblin scrap armor~
+some goblin scrap armor~
+A filthy set of scrap armor lies in a heap.~
+~
+9 0 ad 0
+5 0 0 0
+7 4 0 1
+#31302
+torch~
+a torch~
+A torch has been left here.~
+~
+1 0 ao 0
+0 0 20 0
+3 3 0 1
+#31303
+human leg~
+the remains of a human leg~
+The remains of a human leg lie discarded on the ground.~
+~
+19 0 ao 0
+20 0 0 1
+7 1 0 1
+#31304
+green wart~
+a green wart~
+A hideous green wart lies severed from someone's skin.~
+~
+11 0 abe 0
+0 0 0 0
+1 1 0 1
+A
+17 3
+#31305
+commander's vest goblin~
+a goblin commander's vest~
+A filthy rag of a vest lies stinking on the ground.~
+~
+9 0 ak 0
+6 0 0 0
+5 4 0 7
+A
+3 1
+#31306
+blackened gold ring~
+a blackened gold ring~
+A tarnished ring lies on the ground.~
+~
+9 0 ab 0
+2 0 0 0
+2 200 0 8
+A
+3 1
+#31307
+curve bladed sword~
+a curve bladed sword~
+A curve bladed sword has been left behind.~
+~
+5 0 an 0
+1 4 2 3
+7 10 0 7
+#31308
+raggedy pair black pants~
+a raggedy pair of black pants~
+A raggedy pair of black pants lie strewn on the ground.~
+~
+9 0 af 0
+4 0 0 0
+3 1 0 6
+A
+4 1
+#31309
+curve bladed knife~
+a curve-bladed knife~
+A curve-bladed knife has been dropped here.~
+~
+5 0 an 0
+1 4 3 11
+4 10 0 12
+A
+2 1
+#31310
+set dented armor~
+a set of dented armor~
+A set of dented armor from one of the Lord's Retinue lies here.~
+~
+9 0 ad 0
+8 0 0 0
+9 100 0 5
+A
+5 1
+#31311
+filthy cape~
+a filthy cape~
+A once-fine, but now very filthy cape has been left here.~
+~
+9 0 ak 0
+5 0 0 0
+3 50 0 11
+A
+19 1
+#31312
+notched sword~
+a notched sword~
+A sword that had seen many battles lies on the ground.~
+~
+5 0 an 0
+1 2 6 3
+4 10 0 8
+A
+19 1
+#31313
+battle scarred chest plate~
+a battle-scarred chest plate~
+A battle-scarred chest plate lies on its side here.~
+~
+9 0 ad 0
+8 0 0 0
+7 75 0 8
+#31314
+three pronged pitch fork~
+a three-pronged pitch fork~
+A three-pronged pitch fork lies dully on the ground.~
+~
+5 0 an 0
+1 3 4 14
+4 10 0 9
+A
+5 1
+#31315
+homemade leather vest~
+a homemade leather vest~
+A homemade leather vest has been left here.~
+~
+9 0 ak 0
+4 0 0 0
+4 3 0 7
+A
+1 2
+#31316
+sewn leather pants~
+a pair of sewn leather pants~
+A pair of sewn leather pants have been discarded on the ground.~
+~
+9 0 af 0
+7 0 0 0
+4 10 0 1
+#31317
+toy dolly~
+a toy dolly~
+A toy dolly has been left on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+2 2 0 8
+A
+4 1
+#31318
+long wooden pole~
+a long wooden pole~
+A long wooden pole lies on the ground.~
+~
+5 0 an 0
+1 2 6 7
+3 2 0 8
+A
+13 15
+#31319
+kitchen knife~
+a sturdy kitchen knife~
+A good, sturdy kitchen knife lies on the ground.~
+~
+5 0 ano 0
+1 3 3 3
+3 1 0 5
+#31320
+pair grubby overalls~
+a pair of grubby overalls~
+A pair of grubby overalls lie thrown on the ground.~
+~
+9 0 ak 0
+4 0 0 0
+4 3 0 1
+#31321
+sooty black dress~
+a black, sooty dress~
+A dress black with soot has been left here.~
+~
+9 0 ad 0
+4 0 0 0
+3 3 0 1
+#31322
+steady waterfall water~
+a steady waterfall~
+A waterfall streams steadily down from the mountaintop.~
+~
+23 0 0 0
+500 500 15 0
+0 0 0 0
+E
+waterfall~
+   It appears that there may be some sort of cavern or cave behind the fall, but
+it is too hard to tell from this angle.  
+~
+#31323
+husk goblin body~
+the husk of a goblin body~
+The fire-dried husk of a goblin body lies stinking on the ground.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#31324
+scraps wood timber~
+a few scraps of wood and timber~
+A few scraps of wood and timber from what was a farmhouse lie here.~
+~
+13 0 ao 0
+0 0 0 0
+3 1 0 1
+#31325
+jumble boulders~
+a jumble of boulders~
+A jumble of boulders lie strewn about the ground.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#31326
+unidentifiable body part~
+an unidentifiable body part~
+An unidentifiable human body part lies left on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+4 1 0 0
+#0
+
+#ROOMS
+
+#31300
+At the South Gate to Ofingia~
+   Looking south toward what should be the farming capitol of Dibrova, an
+intense weight of sorrow for the men and women who farmed there, lived there,
+loved there, and died there staggers you with the sheer immensity of the crimes
+done them.  The sky which once was nearly always blue and clear is filled now
+with char and soot, carried upon winds of smoke and ash from the goblin raids
+which took this peaceful community by surprise.  The gate to the north always
+stays closed and barred from the inside, vigilant guards on the ramparts
+watching for any signs of trouble and bidding you a safe journey.  
+~
+313 0 0
+D1
+~
+~
+0 0 31301
+D2
+~
+~
+0 0 31306
+D3
+~
+~
+0 0 31304
+E
+credits~
+*Farmlands of Jareth
+*Written by Kaan for Dibrova
+This zone was made as a connector to other zones, a basic filler zone full
+of low level mobs and eq.  DragonSpyre, the Corn Maize, the Sinister Forest,
+Jher, and Ofingia all connect off this zone on Dibrova.  It is not a
+particularly stand-out zone, but is a decent enough connector zone.
+
+~
+S
+#31301
+The Rocky Flatlands at the City Wall~
+   Jagged rocks rise from their resting places in the earth the solid rock
+formations being what Ofingia was built upon.  Just to south a ways, the rocks
+taper off and open up a small valley where one of the many farmland fields of
+this area are.  Of course, the fields are no longer as cared for as they once
+were, being that every time any farmer makes an attempt at replanting a field, a
+band of goblins come along and burn it to ash and kill the farmer.  The city
+wall lies to the north - a tall, thick obstuction which is the town's only
+defense against the goblin hoardes which attempt to overrun the town daily.  
+~
+313 0 0
+D1
+~
+~
+0 0 31302
+D2
+~
+~
+0 0 31307
+D3
+~
+~
+0 0 31300
+S
+#31302
+At the Wall of Ofingia~
+   The southern wall of Ofingia stands tall and impregnable on the north side.
+To the east, the jumbled upon which you stand drops off into a large field which
+may once have been growing tall with corn but now only boasts a few scorched
+stalks.  South is much the same, a steep drop off down into the burnt-out field.
+It does not appear that the way down in either direction is safe - it is
+recommended that another way be found.  
+~
+313 0 0
+D3
+~
+~
+0 0 31301
+S
+#31303
+Rocky Flatlands at the City Wall~
+   On the north side the south wall of Ofingia rises thirty feet up, solid and
+unyielding.  Stolid faces look down upon you from the ramparts, faces of men and
+women who have known much pain and injustice from the goblins who continually
+raid this town.  To the south and west are steep rocky drop-offs, too steep for
+climbing.  They lead down into the farming area, where the soil is rich and
+strong when its not being burnt by goblins or trampled by the feet of marching
+soldiers.  
+~
+313 0 0
+D1
+~
+~
+0 0 31304
+S
+#31304
+At the City Wall~
+   The wall of Ofingia rises high on the north side, the way kept blocked by the
+impenetrable wall which the citizens have fortified and refortified against
+goblin intrusion.  The ground here is rocky and without growth, the rock bed
+which Ofingia was built upon stands higher than the rest of the land around it.
+
+~
+313 0 0
+D1
+~
+~
+0 0 31300
+D2
+~
+~
+0 0 31305
+D3
+~
+~
+0 0 31303
+S
+#31305
+The Outer Rocklands of Ofingia~
+   This is the far southwest edge of the rocklands which Ofingia was built upon.
+To the south and west the rocklands drop steeply away down into the farming land
+which Ofingia is so famous for.  Stone causeways riddle passage on higher ground
+through the farmlands, seperating each field with a solid wall of rock and scree
+which is used as the main roadway.  The town of Ofingia lies to the north.  
+~
+313 0 0
+D0
+~
+~
+0 0 31304
+D1
+~
+~
+0 0 31306
+S
+#31306
+The Outer Rocklands of Ofingia~
+   This is the far southwest edge of the rocklands which Ofingia was built upon.
+To the southeast and southwest the rocklands drop steeply away down into the
+farming land which Ofingia is so famous for.  Stone causeways riddle passage on
+higher ground through the farmlands, seperating each field with a solid wall of
+rock and scree which is used as the main roadway.  The town of Ofingia lies to
+the north, the beginning of the causeway lies south.  
+~
+313 0 0
+D0
+~
+~
+0 0 31300
+D1
+~
+~
+0 0 31307
+D2
+~
+~
+0 0 31308
+D3
+~
+~
+0 0 31305
+S
+#31307
+The Outer Rocklands of Ofingia~
+   This is the far southeast edge of the rocklands which Ofingia was built upon.
+To the south and east the rocklands drop steeply away down into the farming land
+which Ofingia is so famous for.  Stone causeways riddle passage on higher ground
+through the farmlands, seperating each field with a solid wall of rock and scree
+which is used as the main roadway.  The town of Ofingia lies to the north.  
+~
+313 0 0
+D0
+~
+~
+0 0 31301
+D3
+~
+~
+0 0 31306
+S
+#31308
+A Breathtaking View~
+   The start of the walkway begins here, the tall manmade rock causeway that
+spans over most of the farming area of Ofingia.  From this height, most of the
+farmlands and the small homes within those areas can be seen.  At one time, an
+artist could probably have been struck with wonder and awe at the beauty of this
+vast, organized farming area.  Now the fields - once green and verdant with life
+- are burnt and smoking.  Farmhouses have been all but erradicated by the roving
+hoardes of giblins from the mountain caverns to the north.  The causeway leads
+south into the smoke and soot or north toward the city.  
+~
+313 0 0
+D0
+~
+~
+0 0 31306
+D2
+~
+~
+0 0 31309
+S
+#31309
+On the Causeway~
+   To the east and west the rock slopes downward into farming areas, where the
+field are burnt and twisted from the ravages of battle.  Occassionally in the
+fields below, a figure or two can be seen running crouched over from one spot to
+another trying not be seen.  Small pockets of fighting can be heard if not seen
+in the areas below.  It is rumored that the Lord of Jareth sent reinforcements
+for the town to try and eliminate the threat of the goblins, maybe that is what
+the sounds are from.  
+~
+313 0 0
+D0
+~
+~
+0 0 31308
+D2
+~
+~
+0 0 31310
+S
+#31310
+High Upon the Causeway~
+   All of the smoke and ash from the burnt-out fields has risen into the air,
+rising to this higher elevation where it has made breathing almost difficult.  
+The causeway runs north and south with the fields below on the east and west.  
+~
+313 0 0
+D0
+~
+~
+0 0 31309
+D2
+~
+~
+0 0 31311
+S
+#31311
+Stone Causeway~
+   The causeway splits off to the east at this point, also continuing south and
+north.  The high wall of Ofingia can be seen off to the north, fields full of
+charred and smoking crops lie northeast, west and souteast from here.  
+~
+313 0 0
+D0
+~
+~
+0 0 31310
+D1
+~
+~
+0 0 31312
+D2
+~
+~
+0 0 31330
+S
+#31312
+Narrow Causeway~
+   This section of the causeway narrows somewhat, only wide enough for one cart
+to pass at this point.  It continues far to the east, heading over many fields
+which lie in smoky ruins.  To the west, the causeway comes to a juncture where
+it splits north and south.  
+~
+313 0 0
+D1
+~
+~
+0 0 31313
+D3
+~
+~
+0 0 31311
+S
+#31313
+Narrow Causeway~
+   This section of the causeway narrows somewhat, only wide enough for one cart
+to pass at this point.  It continues far to the east, heading over many fields
+which lie in smoky ruins.  Far to the west, the causeway comes to a juncture
+where it splits north and south.  
+~
+313 0 0
+D1
+~
+~
+0 0 31314
+D3
+~
+~
+0 0 31312
+S
+#31314
+A Split in the Causeway~
+   A small, almost unfinished section of the causeway runs off to the east
+running through a smaller set of fields.  It appears that maybe this fields were
+just recently cultivated before the raids began.  Now, of course, they are in
+ruin - smoking and burnt almost beyond repair.  To the south, a wider stretch of
+the causeway runs south through some of the larger and more profitable fields of
+the area.  
+~
+313 0 0
+D1
+~
+~
+0 0 31315
+D2
+~
+~
+0 0 31319
+D3
+~
+~
+0 0 31313
+S
+#31315
+Poorly-made Section of the Causeway~
+   This area of the farmlands appears to either have been very new during the
+time when the raids began or else it was destroyed by the raids, broken down
+into its current state by goblins intent on destroying everything in their path.
+
+~
+313 0 0
+D0
+~
+~
+0 0 31316
+D3
+~
+~
+0 0 31314
+S
+#31316
+Strewn Rubble Causeway~
+   The causeway barely affords any travel to the north.  It has been left either
+unfinished or has been broken down to the point of almost unusability.  Small
+fields lie to the north and south, burnt and ravaged just like the rest of this
+area.  
+~
+313 0 0
+D0
+~
+~
+0 0 31317
+D2
+~
+~
+0 0 31315
+S
+#31317
+The End of the Causeway~
+   It appears that it may be possible to climb east down the rubble onto the
+flat farmlands from this elevated position, however if you wish to stay upon the
+causeway with a good vantage point you will have to head back to the west.  As
+it is now, the causeway has broken down to the point where it is only five feet
+higher at the most than the fields it runs through.  
+~
+313 0 0
+D1
+~
+~
+0 0 31318
+D2
+~
+~
+0 0 31316
+S
+#31318
+The Base of the Causeway~
+   Chunks of stone and rubble lie scattered, as if someone were still working on
+extending this section of the causeway further into the fields to make room for
+more farming.  To the south, an enormous field of scorched earth strectches
+toward the horizon, the same true of the blackened fields to the north.  You may
+climb back up onto the causeway to the west if that is your intent.  
+~
+313 c 0
+D0
+~
+~
+0 0 31374
+D2
+~
+~
+0 0 31339
+D3
+~
+~
+0 0 31317
+S
+#31319
+The Eastern Causeway~
+   This small section of causeway, called the Eastern Causeway because it runs
+at the farmlands' farthest east section, runs through area splitting the main
+field to the west from the Eastern Field to the east.  Just north of here is
+where the Eastern Causeway meets another, splitting off to the east and west.  
+~
+313 0 0
+D0
+~
+~
+0 0 31314
+D2
+~
+~
+0 0 31320
+D5
+~
+~
+0 0 31385
+S
+#31320
+The Eastern Causeway~
+   This small section of causeway, called the Eastern Causeway because it runs
+at the farmlands' farthest east section, runs through area splitting the main
+field to the west from the Eastern Field to the east.  
+~
+313 0 0
+D0
+~
+~
+0 0 31319
+D2
+~
+~
+0 0 31321
+S
+#31321
+The Eastern Causeway~
+   You stand atop the center of the Eastern Causeway, the causeway that
+seperates the far Eastern Field from the rest of the farmlands.  The top of this
+stone walkway is clear and wide, large enough to accomodate a couple of wagons
+side by side.  The only obstruction is the occassional body part or stray piece
+of armor that has fallen from the battles fought through this area.  
+~
+313 0 0
+D0
+~
+~
+0 0 31320
+D2
+~
+~
+0 0 31322
+S
+#31322
+South End of the Eastern Causeway~
+   A great amount of fighting must have been centered in this area, as the whole
+top of the causeway here is strewn with body parts, stained in blood and
+littered with crude weapons and armor.  The fields below - on every side - still
+smoke in places, with the occassional clang of armor and weapons reaching your
+ears.  
+~
+313 0 0
+D0
+~
+~
+0 0 31321
+D2
+~
+~
+0 0 31323
+S
+#31323
+The Southeastern Corner~
+   The Eastern Causeway ends at this point, another section of it heading west
+through more of the farmlands.  To the south is a fairly large plot of land
+owned and farmed - until recently - by Jon Boggins, the first farmer in this
+area.  His land is now scorched and ruined with no hope of a crop for at least a
+couple more years until the soil repairs itself.  The folk of Ofingia have only
+seen Jon once since the raids began, when he came into town to ask for military
+help from the mayor.  Jon's farm was the first hit by the raids, and the mayor
+thought that it would be a one-time occurance.  Since the town forces were
+already fighting in the caverns east of town and were few in number to start
+with, the mayor refused Jon his help.  Jon spit in the mayor's face and vowed
+never to pay another dime in taxes.  The only communication from Jon was a cart
+bearing his farm's crest sent into town bearing the remains of Jon's son.  
+~
+313 0 0
+D0
+~
+~
+0 0 31322
+D3
+~
+~
+0 0 31324
+S
+#31324
+Stone Causeway~
+   The causeway runs along high above the farming lands east to west.  To the
+north and south are the scorched fields which used to supply the main farming
+products for most of Dibrova.  
+~
+313 0 0
+D1
+~
+~
+0 0 31323
+D3
+~
+~
+0 0 31325
+S
+#31325
+Stone Causeway~
+   The red blood of humans is mixed with the thick, green slimy blood of goblins
+on these rocks.  Looking down into the fields below, it makes you wonder if
+through the smoke and ash drifting in the wind if there isn't some goblin or
+even a band of them waiting for you to descend.  Waiting so that they might tear
+you throat out and eat you whole.  
+~
+313 0 0
+D1
+~
+~
+0 0 31324
+D3
+~
+~
+0 0 31326
+S
+#31326
+A Wide Crossroads~
+   The causeway opens up and bcomes extremely wide here to allow for the
+increased traffic of wagons and carts that would normally flow through here.  
+The causeway branches off to the east as well as running north and south.  
+~
+313 0 0
+D0
+~
+~
+0 0 31327
+D1
+~
+~
+0 0 31325
+D2
+~
+~
+0 0 31336
+S
+#31327
+Wide Causeway~
+   This main elevated road through the fields runs north and south for quite
+some distance.  To the south are a couple of offshoots which head in other
+directions.  
+~
+313 0 0
+D0
+~
+~
+0 0 31328
+D2
+~
+~
+0 0 31326
+D5
+~
+~
+0 0 31390
+S
+#31328
+Wide Causeway~
+   This main elevated road through the fields runs north and south for quite
+some distance.  On either side, to the east and west, are the charred remains of
+the fields that once bore the fruit of this realm.  
+~
+313 0 0
+D0
+~
+~
+0 0 31329
+D2
+~
+~
+0 0 31327
+S
+#31329
+Rocky Causeway~
+   The causeway runs north and south for a long distance through the center of
+the farmlands.  Smoking, ruined fields lie to the east and west - some of them
+still on fire.  Far to the north, the tall wall of Ofingia rises up high,
+protecting the town from the many raids.  
+~
+313 0 0
+D0
+~
+~
+0 0 31330
+D2
+~
+~
+0 0 31328
+S
+#31330
+Intersection on the Causeway~
+   This area is a crux where the causeway runs north to south, with a small
+offshoot to the west.  The way west appears little traveled, it is not as wide
+as this main section by half.  
+~
+313 0 0
+D0
+~
+~
+0 0 31311
+D2
+~
+~
+0 0 31329
+D3
+~
+~
+0 0 31331
+S
+#31331
+A Short Section~
+   This short stub of causeway runs west for a very short distance with a small
+section bending north at the end.  To the east is the main causeway which runs
+smack dab through the center of the farming area.  
+~
+313 0 0
+D1
+~
+~
+0 0 31330
+D3
+~
+~
+0 0 31332
+S
+#31332
+Private Causeway~
+   At one time - not too long ago - this section of the farming area was owned
+and kept by Scorfahr, the richest of the farmers in the Ofingian farmlands due
+to the immense size of his fields and the quality of the soil with which he
+produced the most plentiful crops year after year.  Scorfahr was killed right at
+the outset of the raids by a roaving band, his farm burnt to the ground.  
+~
+313 0 0
+D0
+~
+~
+0 0 31333
+D1
+~
+~
+0 0 31331
+S
+#31333
+The End of a Private Causeway~
+   This small section of additional causeway was built by Scorfahr so he could
+have his own ingress and egress to his home without having to deal with the
+common farmhands who frequented the main causeway.  A sloping path leads down to
+the north into the field and homestead where Scorfahr used to reside.  His home,
+once the largest and most opulent home in the farmlands, is now no more than a
+burnt out shell - still smoking.  
+~
+313 0 0
+D2
+~
+~
+0 0 31332
+D5
+~
+~
+0 0 31369
+S
+#31334
+A Short Causeway~
+   This short section ends here, a small path leading west and down into the
+fields below.  To the east is the path back along the crest of the causeway back
+to the main path.  To the south is the reservoir, the man-made basin of water
+which was used to irrigate all of the land in this area.  A small waterfall
+falls gently into the basin on its western end, the water originating from
+somewhere up in the mountains.  
+~
+313 0 0
+D1
+~
+~
+0 0 31335
+D5
+~
+~
+0 0 31357
+S
+#31335
+A Short Causeway~
+   This small sections ends just west of here, the personal causeway for some
+farmer or another who might have once used it to get down into his fields and
+his home.  To the south is the reservoir, the man-made basin of water which was
+used to irrigate all of the land in this area.  A small waterfall falls gently
+into the basin on its western end, the water originating from somewhere up in
+the mountains.  
+~
+313 0 0
+D1
+~
+~
+0 0 31336
+D3
+~
+~
+0 0 31334
+S
+#31336
+Nearing the End of the Causeway~
+   The end of this main section of the causeway is in sight, just south from
+here.  A small section of the causeway leads off to the west, the reservoir for
+the farmlands lapping gently against its southern side.  
+~
+313 0 0
+D0
+~
+~
+0 0 31326
+D2
+~
+~
+0 0 31337
+D3
+~
+~
+0 0 31335
+S
+#31337
+Nearing the End of the Causeway~
+   The end of this main causeway ends just to the south.  Below, to the west is
+the man-made reservoir which supplied water to all of the fields, keeping the
+soil fresh and strong.  A gentle waterfall splashes down into the reservoir from
+the mountains above, keeping it full.  
+~
+313 0 0
+D0
+~
+~
+0 0 31336
+D2
+~
+~
+0 0 31338
+D5
+~
+~
+0 0 31392
+S
+#31338
+The End of the Main Causeway~
+   The causeway dead ends at this area, a paht sloping down the side of the rock
+walkway into the fields below to the east.  Below, to the west is the man-made
+reservoir which supplied water to all of the fields, keeping the soil fresh and
+strong.  A gentle waterfall splashes down into the reservoir from the mountains
+above, keeping it full.  
+~
+313 c 0
+D0
+~
+~
+0 0 31337
+D5
+~
+~
+0 0 31354
+S
+#31339
+Scorched Earth~
+   The earth is blackened, damaged beyond repair in any time coming soon.  The
+goblins come and raid the area, killing off any resistance and burning anything
+that might burn - over and over again.  
+~
+313 0 0
+D0
+~
+~
+0 0 31318
+D2
+~
+~
+0 0 31340
+S
+#31340
+Burnt Field~
+   The land lies clear and black, smooth as if it had been rolled over with a
+giant roller.  Bits and pieces of wood give testament to the fact there once was
+a home or structure of some size here before the raids began.  The materials
+must all have been scavenged or burnt to ash - there are only splinters and
+scraps here now.  
+~
+313 0 0
+D0
+~
+~
+0 0 31339
+D2
+~
+~
+0 0 31341
+S
+#31341
+Scorched Earth~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  
+~
+313 0 0
+D0
+~
+~
+0 0 31340
+D2
+~
+~
+0 0 31342
+D3
+~
+~
+0 0 31346
+S
+#31342
+Burnt Field~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  
+~
+313 0 0
+D0
+~
+~
+0 0 31341
+D2
+~
+~
+0 0 31343
+D3
+~
+~
+0 0 31347
+S
+#31343
+Scorched Earth~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  
+~
+313 0 0
+D0
+~
+~
+0 0 31342
+D2
+~
+~
+0 0 31344
+D3
+~
+~
+0 0 31348
+S
+#31344
+Burnt Field~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  To the south is a small wooden structure, still
+standing unscathed in this field of death and fire.  The entrance must lie on
+its west side, the door is not on this side.  
+~
+313 0 0
+D0
+~
+~
+0 0 31343
+D3
+~
+~
+0 0 31349
+S
+#31345
+Watershed~
+   This could very well be the last remaining structure that stands with four
+walls in this entire farmland area.  For some unknown reason the goblins left it
+standing and when the fires passed by in the fields outside, it did not ignite.
+This would probably be a very good place to rest if that were your desire.  
+~
+313 cd 0
+D3
+~
+~
+0 0 31350
+S
+#31346
+Burnt Field~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  
+~
+313 0 0
+D1
+~
+~
+0 0 31341
+D2
+~
+~
+0 0 31347
+S
+#31347
+Scorched Earth~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  
+~
+313 0 0
+D0
+~
+~
+0 0 31346
+D1
+~
+~
+0 0 31342
+D2
+~
+~
+0 0 31348
+S
+#31348
+Burnt Field~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  
+~
+313 0 0
+D0
+~
+~
+0 0 31347
+D1
+~
+~
+0 0 31343
+D2
+~
+~
+0 0 31349
+S
+#31349
+Scorched Earth~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  
+~
+313 0 0
+D0
+~
+~
+0 0 31348
+D1
+~
+~
+0 0 31344
+D2
+~
+~
+0 0 31350
+S
+#31350
+Burnt Field~
+   All around are the burnt, scorched, blistered remains of what was once a
+wonderful field of sown wheat.  The entrance to a small wood structure lies to
+the east.  To the south is the heaping pile of what is left of the barn and
+farmhouse that used top be here.  
+~
+313 0 0
+D0
+~
+~
+0 0 31349
+D1
+~
+~
+0 0 31345
+D2
+~
+~
+0 0 31351
+S
+#31351
+A Crude Barricade~
+   The heaped remains of the farmhouse and barn - that which hasn't been burned
+to ash - has been erected into a barricade against goblin intrusion.  A large
+hole has been dug in the earth to accomodate more space and protection from the
+cold nights.  All of this is butt up against the rock wall of the valley on the
+east side.  To north and west are the burnt and scorched fields.  
+~
+313 0 0
+D0
+~
+~
+0 0 31350
+D2
+~
+~
+0 0 31352
+D3
+~
+~
+0 0 31355
+S
+#31352
+A Crude Barricade~
+   The roving goblins of this area must have not wanted to leave a single stalk,
+a single bit of shrubbery standing.  The heaped remains of the farmhouse and
+barn - that which hasn't been burned to ash - has been erected into a barricade
+against goblin intrusion.  A large hole has been dug in the earth to accomodate
+more space and protection from the cold nights.  The barricade area spans just a
+bit north from here, a way out of this heap of burnt wood lies to the west.  
+~
+313 0 0
+D0
+~
+~
+0 0 31351
+D3
+~
+~
+0 0 31353
+S
+#31353
+Trampled and Bloodied Ground~
+   The roving goblins of this area must have not wanted to leave a single stalk,
+a single bit of shrubbery standing.  
+~
+313 0 0
+D0
+~
+~
+0 0 31355
+D1
+~
+~
+0 0 31352
+D3
+~
+~
+0 0 31354
+S
+#31354
+Burnt Field~
+   The roving goblins of this area must have not wanted to leave a single stalk,
+a single bit of shrubbery standing.  
+~
+313 0 0
+D0
+~
+~
+0 0 31356
+D1
+~
+~
+0 0 31353
+D4
+~
+~
+0 0 31338
+S
+#31355
+Smoking Farmlands~
+   The roving goblins of this area must have not wanted to leave a single stalk,
+a single bit of shrubbery standing.  
+~
+313 0 0
+D1
+~
+~
+0 0 31351
+D2
+~
+~
+0 0 31353
+D3
+~
+~
+0 0 31356
+S
+#31356
+Smoking Farmlands~
+   The roving goblins of this area must have not wanted to leave a single stalk,
+a single bit of shrubbery standing.  
+~
+313 0 0
+D1
+~
+~
+0 0 31355
+D2
+~
+~
+0 0 31354
+S
+#31357
+Charred Battlesite~
+   The battle that must have been fought in this space appears to have cost both
+sides dearly.  Husks of goblin bodies litter the ground and blood from the
+defenders of this land soaks the soil.  
+~
+313 c 0
+D0
+~
+~
+0 0 31359
+D1
+~
+~
+0 0 31358
+D4
+~
+~
+0 0 31334
+S
+#31358
+Charred Battlesite~
+   The battle that must have been fought in this space appears to have cost both
+sides dearly.  Husks of goblin bodies litter the ground and blood from the
+defenders of this land soaks the soil.  The wind blows through this corner of
+the field, howling against the rock wall of the causeway, sounding almost like
+the wail of the dead.  
+~
+313 0 0
+D0
+~
+~
+0 0 31360
+D3
+~
+~
+0 0 31357
+S
+#31359
+Charred Battlesite~
+   The battle that must have been fought in this space appears to have cost both
+sides dearly.  Husks of goblin bodies litter the ground and blood from the
+defenders of this land soaks the soil.  
+~
+313 0 0
+D0
+~
+~
+0 0 31361
+D1
+~
+~
+0 0 31360
+D2
+~
+~
+0 0 31357
+S
+#31360
+Charred Battlesite~
+   The battle that must have been fought in this space appears to have cost both
+sides dearly.  Husks of goblin bodies litter the ground and blood from the
+defenders of this land soaks the soil.  
+~
+313 0 0
+D0
+~
+~
+0 0 31362
+D2
+~
+~
+0 0 31358
+D3
+~
+~
+0 0 31359
+S
+#31361
+Blackened Soil~
+   The soil here has been so covered in blood and fire that it has turned black,
+no longer able to sustain plant life.  
+~
+313 0 0
+D0
+~
+~
+0 0 31363
+D1
+~
+~
+0 0 31362
+D2
+~
+~
+0 0 31359
+S
+#31362
+Blackened Soil~
+   The soil here has been so covered in blood and fire that it has turned black,
+no longer able to sustain plant life.  
+~
+313 0 0
+D0
+~
+~
+0 0 31364
+D2
+~
+~
+0 0 31360
+D3
+~
+~
+0 0 31361
+S
+#31363
+Blackened Soil~
+   The soil here has been so covered in blood and fire that it has turned black,
+no longer able to sustain plant life.  
+~
+313 0 0
+D0
+~
+~
+0 0 31365
+D1
+~
+~
+0 0 31364
+D2
+~
+~
+0 0 31361
+S
+#31364
+Blackened Soil~
+   The soil here has been so covered in blood and fire that it has turned black,
+no longer able to sustain plant life.  
+~
+313 0 0
+D0
+~
+~
+0 0 31366
+D2
+~
+~
+0 0 31362
+D3
+~
+~
+0 0 31363
+S
+#31365
+Blackened Soil~
+   The soil here has been so covered in blood and fire that it has turned black,
+no longer able to sustain plant life.  
+~
+313 0 0
+D1
+~
+~
+0 0 31366
+D2
+~
+~
+0 0 31363
+S
+#31366
+Blackened Soil~
+   The soil here has been so covered in blood and fire that it has turned black,
+no longer able to sustain plant life.  Looking south and west over the
+desolation, no sign of any plant life can be seen.  
+~
+313 0 0
+D2
+~
+~
+0 0 31364
+D3
+~
+~
+0 0 31365
+S
+#31367
+Scorfahr Farms~
+   This area was at one time the most fertile of the fields in the area.  After
+the raids, the goblins came and dumped gallons of their dead's blood all over
+the fields to insure that no crop would ever grow again.  The goblins' plan is
+simple - starve the inhabitants out.  
+~
+313 0 0
+D0
+~
+~
+0 0 31368
+S
+#31368
+The Remains of an Opulent Farmhouse~
+   Standing amid the wreckage and ruin of what was once an enormous home filled
+with all sorts of finery and goods, you must wonder what Scorfahr thought in his
+last moments.  All of his wordly goods, all of his wealth meant nothing as the
+goblins ransacked his home, killed his family and ate chunks of his flesh as he
+watched himself die.  Only a few timbers and stone remain of this once-awesome
+place.  
+~
+313 0 0
+D0
+~
+~
+0 0 31371
+D2
+~
+~
+0 0 31367
+D3
+~
+~
+0 0 31369
+S
+#31369
+Scorfahr Farms~
+   This area was at one time the most fertile of the fields in the area.  After
+the raids, the goblins came and dumped gallons of their dead's blood all over
+the fields to insure that no crop would ever grow again.  The goblins' plan is
+simple - starve the inhabitants out.  To the east are the remains of a large
+farmhouse.  
+~
+313 c 0
+D0
+~
+~
+0 0 31370
+D1
+~
+~
+0 0 31368
+D4
+~
+~
+0 0 31333
+S
+#31370
+Scorfahr Farms~
+   This area was at one time the most fertile of the fields in the area.  After
+the raids, the goblins came and dumped gallons of their dead's blood all over
+the fields to insure that no crop would ever grow again.  The goblins' plan is
+simple - starve the inhabitants out.  
+~
+313 0 0
+D0
+~
+~
+0 0 31372
+D1
+~
+~
+0 0 31371
+D2
+~
+~
+0 0 31369
+S
+#31371
+Scorfahr Farms~
+   This area was at one time the most fertile of the fields in the area.  After
+the raids, the goblins came and dumped gallons of their dead's blood all over
+the fields to insure that no crop would ever grow again.  The goblins' plan is
+simple - starve the inhabitants out.  To the south are the remains of Scorfahr's
+palatial farmhouse.  
+~
+313 0 0
+D0
+~
+~
+0 0 31373
+D2
+~
+~
+0 0 31368
+D3
+~
+~
+0 0 31370
+S
+#31372
+Scorfahr Farms~
+   This area was at one time the most fertile of the fields in the area.  After
+the raids, the goblins came and dumped gallons of their dead's blood all over
+the fields to insure that no crop would ever grow again.  The goblins' plan is
+simple - starve the inhabitants out.  
+~
+313 0 0
+D1
+~
+~
+0 0 31373
+D2
+~
+~
+0 0 31370
+S
+#31373
+Scorfahr Farms~
+   This area was at one time the most fertile of the fields in the area.  After
+the raids, the goblins came and dumped gallons of their dead's blood all over
+the fields to insure that no crop would ever grow again.  The goblins' plan is
+simple - starve the inhabitants out.  
+~
+313 0 0
+D2
+~
+~
+0 0 31371
+D3
+~
+~
+0 0 31372
+S
+#31374
+Northern Fields~
+   The charred and smoking stalks of corn which still stand in many places
+afford a great many hiding spots for raiders who may still be in the area.  
+Bits of rubble from the broken-down causeway lie strewn about, a small bit of
+pleasure for the raiders to destroy something.  
+~
+313 0 0
+D2
+~
+~
+0 0 31318
+D3
+~
+~
+0 0 31375
+S
+#31375
+Northern Fields~
+   The charred and smoking stalks of corn which still stand in many places
+afford a great many hiding spots for raiders who may still be in the area.  The
+ground crunched underfoot, the soil that was once soft and fertile now brittle
+from the fires that swept across it.  
+~
+313 0 0
+D1
+~
+~
+0 0 31374
+D3
+~
+~
+0 0 31376
+S
+#31376
+Northern Fields~
+   The charred and smoking stalks of corn which still stand in many places
+afford a great many hiding spots for raiders who may still be in the area.  Far
+to the house over the tops of the blackened stalks, the shell of a burnt-out
+barn can be seen.  
+~
+313 0 0
+D1
+~
+~
+0 0 31375
+D2
+~
+~
+0 0 31379
+D3
+~
+~
+0 0 31377
+S
+#31377
+Northern Fields~
+   The charred and smoking stalks of corn which still stand in many places
+afford a great many hiding spots for raiders who may still be in the area.  
+~
+313 0 0
+D1
+~
+~
+0 0 31376
+D2
+~
+~
+0 0 31378
+S
+#31378
+Northern Fields~
+   The charred and smoking stalks of corn which still stand in many places
+afford a great many hiding spots for raiders who may still be in the area.  The
+soil beneath has bore many attacks, the goblins hoping to remove any food
+sources the town may have.  
+~
+313 0 0
+D0
+~
+~
+0 0 31377
+D1
+~
+~
+0 0 31379
+D2
+~
+~
+0 0 31383
+S
+#31379
+Northern Fields~
+   The charred and smoking stalks of corn which still stand in many places
+afford a great many hiding spots for raiders who may still be in the area.  
+Just to the south are the ruins of a fenceline where the boundaries of a
+barnyard began.  All that are left now are a few charred timbers scattered on
+the ground like large toothpicks.  
+~
+313 0 0
+D0
+~
+~
+0 0 31376
+D2
+~
+~
+0 0 31380
+D3
+~
+~
+0 0 31378
+S
+#31380
+Ruined Barnyard~
+   Even the ground here, where there were no crops, is blackened and scorched
+beyond repair.  To the south is the barn - or what is left of it - a shell of
+blackened wood and shingles.  
+~
+313 0 0
+D0
+~
+~
+0 0 31379
+D2
+~
+~
+0 0 31381
+D3
+~
+~
+0 0 31383
+S
+#31381
+Burnt Shell of a Barn~
+   The sight and the smell of charred horse flesh induces a feeling of nausea,
+the wood of the walls and work equipment are still smoking from the fires that
+are lit over and over again everytime a raiding party comes through.  
+~
+313 0 0
+D0
+~
+~
+0 0 31380
+D3
+~
+~
+0 0 31382
+S
+#31382
+Ruined Barnyard~
+   The small area of this place where plow horses could graze and machinery was
+kept has been destroy, looted and burned like the rest of the farmlands around.
+To the east is the burnt-out shell of the barn that used to house the work
+animals for this field.  North is the smouldering fields filled with smoking
+stalks of corn.  
+~
+313 0 0
+D0
+~
+~
+0 0 31383
+D1
+~
+~
+0 0 31381
+S
+#31383
+Northern Fields~
+   The charred and smoking stalks of corn which still stand in many places
+afford a great many hiding spots for raiders who may still be in the area.  
+Just to the south is a small barnyard, burnt and ruined just like the rest of
+this area.  
+~
+313 0 0
+D0
+~
+~
+0 0 31378
+D1
+~
+~
+0 0 31380
+D2
+~
+~
+0 0 31382
+S
+#31384
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 0 0
+D1
+~
+~
+0 0 31385
+D2
+~
+~
+0 0 31386
+S
+#31385
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 c 0
+D2
+~
+~
+0 0 31387
+D3
+~
+~
+0 0 31384
+D4
+~
+~
+0 0 31319
+S
+#31386
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 0 0
+D0
+~
+~
+0 0 31384
+D1
+~
+~
+0 0 31387
+D2
+~
+~
+0 0 31388
+S
+#31387
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 0 0
+D0
+~
+~
+0 0 31385
+D2
+~
+~
+0 0 31389
+D3
+~
+~
+0 0 31386
+S
+#31388
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 0 0
+D0
+~
+~
+0 0 31386
+D1
+~
+~
+0 0 31389
+D2
+~
+~
+0 0 31390
+S
+#31389
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 0 0
+D0
+~
+~
+0 0 31387
+D2
+~
+~
+0 0 31391
+D3
+~
+~
+0 0 31388
+S
+#31390
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 c 0
+D0
+~
+~
+0 0 31388
+D1
+~
+~
+0 0 31391
+D4
+~
+~
+0 0 31327
+S
+#31391
+Blackened Battleground~
+   This may have once been a verdant field, full of greenery and bloom of
+whatever crop a farmer might choose.  That was before.  Being that this is the
+most centrally located field in the farmlands, the defenders chose this place
+for their major battles.  Many of the raiders have been defeated in this area
+but as of yet the foe is still not vanquished for good.  
+~
+313 0 0
+D0
+~
+~
+0 0 31389
+D3
+~
+~
+0 0 31390
+S
+#31392
+The Reservoir~
+   Amazingly, the water still seems in fine condition even through the constant
+ash and soot that drifts through the air into it.  Off the west is the waterfall
+which feeds this small pool.  
+~
+313 0 0
+D3
+~
+~
+0 0 31393
+D4
+~
+~
+0 0 31337
+S
+#31393
+Reservoir at the Waterfall~
+   The waterfall splashes down into the sooty water, the crystal-clear mountain
+stream mixing in with the reservoir's ash covered water.  The water flows down
+from high above on the mountain, not a wide flow but a steady stream just the
+same.  
+~
+313 0 0
+D1
+~
+~
+0 0 31392
+S
+#0
+
+#RESETS
+R 0 31353 31326 -1 	(an unidentifiable body part)
+O 0 31326 3 31353 	(an unidentifiable body part)
+M 0 31310 1 31353 	(Jon Boggins)
+E 1 31314 100 16 	(a three-pronged pitch fork)
+E 1 31315 100 5 	(a homemade leather vest)
+E 1 31316 100 7 	(a pair of sewn leather pants)
+M 0 31304 5 31353 	(a goblin scout)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31308 100 7 	(a raggedy pair of black pants)
+R 0 31353 31323 -1 	(the husk of a goblin body)
+O 0 31323 2 31353 	(the husk of a goblin body)
+R 0 31364 31326 -1 	(an unidentifiable body part)
+O 0 31326 3 31364 	(an unidentifiable body part)
+R 0 31370 31326 -1 	(an unidentifiable body part)
+O 0 31326 3 31370 	(an unidentifiable body part)
+R 0 31339 31325 -1 	(a jumble of boulders)
+O 0 31325 2 31339 	(a jumble of boulders)
+R 0 31374 31325 -1 	(a jumble of boulders)
+O 0 31325 2 31374 	(a jumble of boulders)
+R 0 31367 31324 -1 	(a few scraps of wood and timber)
+O 0 31324 2 31367 	(a few scraps of wood and timber)
+M 0 31306 5 31358 	(a goblin hordesman)
+R 0 31358 31324 -1 	(a few scraps of wood and timber)
+O 0 31324 2 31358 	(a few scraps of wood and timber)
+M 0 31303 1 31386 	(the goblin commander)
+E 1 31304 100 2 	(a green wart)
+E 1 31305 100 5 	(a goblin commander's vest)
+E 1 31307 100 16 	(a curve bladed sword)
+R 0 31386 31323 -1 	(the husk of a goblin body)
+O 0 31323 2 31386 	(the husk of a goblin body)
+O 0 31322 1 31393 	(a steady waterfall)
+M 0 31312 1 31351 	(an angry farmwife)
+E 1 31319 100 16 	(a sturdy kitchen knife)
+E 1 31321 100 5 	(a black, sooty dress)
+M 0 31311 1 31351 	(a desperate farmer)
+E 1 31318 100 16 	(a long wooden pole)
+E 1 31320 100 7 	(a pair of grubby overalls)
+M 0 31307 1 31389 	(the Commander of the Lord's Retinue)
+E 1 31311 100 12 	(a filthy cape)
+E 1 31313 100 5 	(a battle-scarred chest plate)
+M 0 31309 1 31366 	(a sobbing soldier)
+E 1 31310 100 5 	(a set of dented armor)
+E 1 31317 100 17 	(a toy dolly)
+M 0 31308 7 31384 	(a member of the Lord's Retinue)
+E 1 31310 100 5 	(a set of dented armor)
+E 1 31312 100 16 	(a notched sword)
+M 0 31301 7 31384 	(a torch-bearing goblin)
+E 1 31301 100 5 	(some goblin scrap armor)
+G 1 31302 100 -1 	(a torch)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31308 7 31349 	(a member of the Lord's Retinue)
+E 1 31310 100 5 	(a set of dented armor)
+E 1 31312 100 16 	(a notched sword)
+M 0 31308 7 31373 	(a member of the Lord's Retinue)
+E 1 31310 100 5 	(a set of dented armor)
+E 1 31312 100 16 	(a notched sword)
+M 0 31308 7 31361 	(a member of the Lord's Retinue)
+E 1 31310 100 5 	(a set of dented armor)
+E 1 31312 100 16 	(a notched sword)
+M 0 31305 5 31361 	(a goblin looter)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31304 5 31388 	(a goblin scout)
+E 1 31309 100 16 	(a curve-bladed knife)
+M 0 31304 5 31376 	(a goblin scout)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31309 100 16 	(a curve-bladed knife)
+M 0 31306 5 31368 	(a goblin hordesman)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31304 5 31368 	(a goblin scout)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31308 100 7 	(a raggedy pair of black pants)
+M 0 31305 5 31371 	(a goblin looter)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31302 1 31347 	(a leg-gnawing goblin)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31300 100 17 	(the War Banner of the Horde)
+G 1 31303 100 -1 	(the remains of a human leg)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31306 5 31383 	(a goblin hordesman)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31301 7 31383 	(a torch-bearing goblin)
+E 1 31301 100 5 	(some goblin scrap armor)
+G 1 31302 100 -1 	(a torch)
+M 0 31300 10 31387 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31300 10 31385 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31300 10 31372 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31300 10 31377 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+E 1 31307 100 16 	(a curve bladed sword)
+M 0 31305 5 31321 	(a goblin looter)
+E 1 31301 100 5 	(some goblin scrap armor)
+G 1 31306 100 -1 	(a blackened gold ring)
+M 0 31301 7 31323 	(a torch-bearing goblin)
+E 1 31301 100 5 	(some goblin scrap armor)
+G 1 31302 100 -1 	(a torch)
+M 0 31301 7 31363 	(a torch-bearing goblin)
+E 1 31301 100 5 	(some goblin scrap armor)
+G 1 31302 100 -1 	(a torch)
+M 0 31306 5 31355 	(a goblin hordesman)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31301 7 31369 	(a torch-bearing goblin)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31300 10 31343 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31300 10 31346 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31300 10 31354 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31300 10 31365 	(a goblin raider)
+E 1 31301 100 5 	(some goblin scrap armor)
+M 0 31305 5 31390 	(a goblin looter)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

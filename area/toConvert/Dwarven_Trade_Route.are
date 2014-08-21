@@ -1,0 +1,1075 @@
+#Style Circle
+#AREADATA
+Name Dwarven Trade Route~
+Builders Welcor~
+VNUMs 23700 23799
+Credits {{None}  CAW    Dwarven Trade Route~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#23700
+construction worker dwarf~
+a dwarven worker~
+A dwarven construction worker is here, tending the road.
+~
+   He's small and quite ugly.  But the way he takes care of the road, you know
+he loves his work.    
+~
+dglm 0 100 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#23701
+construction worker dwarf foreman~
+the foreman~
+The foreman for the construction workers is here, getting an overview.
+~
+   A little higher than the original construction worker, this dwarf has been
+instructed by his superiors to keep an eye on his fellow workers.  He rather
+enjoys that power...    
+~
+dglm 0 100 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#23702
+guard dwarven~
+a dwarven guard~
+A dwarven guard is standing here, guarding.
+~
+   This guard looks to be in exceptional shape, and very tough.  For a dwarf
+he's look like he might actually pose a threat, should you encounter him in
+battle.    
+~
+bdlm 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#23703
+guard dwarven~
+a dwarven guard~
+A dwarven guard is walking here, guarding the area.
+~
+   This guard looks to be in exceptional shape, and very tough.  For a dwarf
+he's look like he might actually pose a threat, should you encounter him in
+battle.    
+~
+dglm 0 300 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#23704
+lookout guard dwarf dwarven~
+the lookout~
+The dwarven lookout is here, watching over the traderoute.
+~
+   This is one dwarf you do not want to mess with.  He's so high in the ranks,
+that he alone can determine when to set off the traps, you've noticed further
+down the road.    
+~
+bdlmr dk 500 E
+10 19 4 2d2+100 1d2+1
+100 10000
+6 6 1
+BareHandAttack: 13
+E
+#23705
+trader dwarven~
+the dwarven trader~
+The dwarven trader is on his way to a meeting with fellow traders.
+~
+   The dwarves has long known not to trust anybody except dwarves.  This dwarf
+has been given only the amount of gold necessary to perform his duties, and has
+been assigned an escort.  He walks as if he owns the world, as traders have
+always done, and keeps his money in his hands always, lest someone steal them.
+  
+~
+bcdlmno 0 400 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+T 23702
+T 23706
+T 23708
+#23706
+bodyguard guard dwarf~
+a bodyguard~
+A bodyguard for the dwarven trader, is here, guarding.
+~
+   When he vulunteered for this duty, he was certain to see the world.  And
+sure enough.  Following the trader whereever he goes, takes him around to parts
+of the world he only dreamed about.    
+~
+bdlm k 400 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+T 23703
+T 23704
+T 23705
+T 23707
+#23707
+dog cur~
+a cur dog~
+A cur dog is here, barking at you.
+~
+   It looks as though it's almost starved to death.  And smells if its been
+buried a week.    
+~
+dfgh s -100 E
+3 19 9 6d2+28 1d2+0
+0 36
+8 8 0
+BareHandAttack: 4
+E
+#23708
+mouse~
+a small mouse~
+A small mouse scurries about here.
+~
+   It looks soft and ready for your blade..    
+~
+dg s 0 E
+3 19 9 4d2+22 1d2+0
+0 20
+8 8 0
+BareHandAttack: 4
+E
+#23709
+crow~
+a crow~
+A crow is flying around here, looking for carcasses.
+~
+   A black crow.  Just another black crow.  How should that be anything worth
+looking at.    
+~
+cdg 0 0 E
+3 19 9 8d2+28 1d2+0
+0 58
+8 8 0
+BareHandAttack: 8
+E
+#23710
+hawk~
+a hawk~
+A hawk has landed not far from you. It stares at you with one eye.
+~
+   A hawk, seemingly untamed and ready to put both beak and claws to use.    
+~
+dfgh 0 0 E
+3 19 8 12d2+38 1d2+0
+0 84
+8 8 0
+BareHandAttack: 8
+E
+#23711
+centipede white~
+a small white centipede~
+A small white centipede tries to hide under a nearby rock.
+~
+   Well, it doesn't have a hundred legs.  But it's a close race.  And it's
+really not worth looking at.    
+~
+dg 0 0 E
+3 19 9 4d2+22 1d2+0
+0 2
+8 8 0
+BareHandAttack: 4
+E
+#0
+
+#OBJECTS
+
+#23700
+axe dwarven~
+a dwarven axe~
+An axe, obviously of dwarven manufacture, has been left here.~
+~
+5 n an 0
+1 3 6 3
+12 600 60 0
+E
+axe dwarven~
+   A nicely made battle axe, with the rune 'T' engraved on the haft.  
+~
+#23701
+short sword shortsword dwarven~
+a dwarven shortsword~
+A short sword with a broad blade has been left here.~
+~
+5 gn an 0
+5 2 6 11
+8 700 70 0
+E
+short sword shortsword dwarven~
+   This sword is typical dwarven manufacture.  The forge in the mountain has
+produced planty of these small wonders to start a full-scale war.  This
+particular blade bears a small 'T' rune, near the handle.  
+~
+A
+18 1
+#23702
+dagger dwarven~
+a dwarven dagger~
+A large dagger, almost resembling a small sword, is here.~
+~
+5 gn an 0
+5 2 4 11
+1 175 17 0
+A
+19 1
+#23703
+pick dwarven~
+a dwarven pick~
+A small pick has been left here, gathering dust.~
+~
+5 mn an 0
+0 3 5 10
+4 200 20 0
+E
+pick dwarven~
+   A pick, made for someone not quite as tall as you.  
+~
+#23704
+hammer dwarven~
+a dwarven hammer~
+A hammer, ready for pounding on armor, worn or not, is here.~
+~
+5 mo an 0
+2 2 8 7
+6 300 30 0
+E
+hammer dwarven~
+   A large hammer for dwarven standards, the head of this weapon can also be
+used in the everyday life of the working dwarf
+~
+A
+19 1
+#23705
+studded leather dwarven~
+a studded leather armor~
+A dwarven made studded leather armor has been thrown in a pile here.~
+~
+9 g ad 0
+4 0 0 0
+6 160 6 0
+A
+17 -3
+#23706
+ring mail ringmail dwarven~
+a dwarven ringmail~
+A ringmail has been thrown in a heap here.~
+~
+9 o ad 0
+5 0 0 0
+2 750 75 0
+#23707
+chain chainmail dwarven~
+a dwarven chainmail~
+A chainmail is here, abandoned.~
+~
+9 mo ad 0
+6 0 0 0
+3 850 85 0
+#23708
+shield dwarven kite~
+a dwarven shield~
+A shield, bearing the insignia of the dwarves, has been left here.~
+~
+9 o aj 0
+5 0 0 0
+2 100 10 0
+E
+shield dwarven kite~
+   A hammer and an axe crossed over 3 rocks is the insignia of the dwarves.  
+This must be a dwarven shield.  
+~
+#23709
+buckler dwarven shield~
+a dwarven buckler~
+A small round shield has been thrown here.~
+~
+9 0 aj 0
+2 0 0 0
+1 50 5 0
+E
+buckler dwarven shield~
+   A small round 'target' shield, it offers little protection when fighting.  
+But anything is better than nothing...  
+~
+#23710
+gauntlets plate dwarven~
+some plate gauntlets~
+Some plate gauntlets, with the dwarven insignia on them, are here.~
+~
+9 go ah 0
+7 0 0 0
+1 250 25 0
+E
+gauntlets plate dwarven insignia~
+   A hammer and an axe crossed over 3 rocks is the insignia of the dwarves.  
+This must be dwarven gauntlets.  
+~
+A
+19 2
+#23711
+chain sleeves~
+a set of chain sleeves~
+Some chain mail sleeves has been abandoned here.~
+~
+9 o ai 0
+7 0 0 0
+3 150 15 0
+#23712
+chain leggings~
+a set of chain leggings~
+Some chain mail leggings are here on the ground.~
+~
+9 o af 0
+7 0 0 0
+3 150 15 0
+#23713
+overalls dwarven dwarf~
+some overalls~
+A pair of workers overalls lie here in an uneven pile.~
+~
+11 g af 0
+0 0 0 0
+1 2 1 0
+A
+2 -1
+#23714
+helmet plate dwarven~
+a dwarven plate helmet~
+A helmet bearing the dwarven insignia has been thrown here.~
+~
+9 o ae 0
+7 0 0 0
+3 150 15 0
+E
+helmet plate dwarven~
+   A hammer and an axe crossed over 3 rocks is the insignia of the dwarves.  
+This must be a dwarven helmet.  
+~
+#23715
+purse traders leather~
+a large leather purse~
+A large leather purse with the dwarven insignia has been thrown here.~
+~
+15 e a 0
+30 5 -1 0
+5 50 5 0
+E
+purse traders leather~
+   A hammer and an axe crossed over 3 rocks is the insignia of the dwarves.  
+This must be the traders purse.  
+~
+#23716
+pile coins~
+quite a large amount of coins~
+Quite a large amount of coins is lying here.~
+~
+20 0 a 0
+1000 0 0 0
+1 1000 0 0
+#23717
+looking glass dwarven~
+a looking glass~
+A copper tube about 3' long has been left here.~
+~
+12 g ao 0
+0 0 0 0
+1 220 22 0
+E
+looking glass dwarven~
+   In either end of the tube a small piece of glass is inserted.  When you look
+through it, you see much clearer, even in half-darkness.  
+~
+#23718
+skullcap cap iron~
+an iron skullcap~
+A skullcap, made from iron, has been thrown here.~
+~
+9 m ae 0
+6 0 0 0
+2 100 10 0
+#23719
+boots leather~
+some soft leather boots~
+Some rather soft leather boots have been left behind.~
+~
+9 g ag 0
+2 0 0 0
+2 220 22 0
+A
+2 1
+#0
+
+#ROOMS
+
+#23700
+On a well used road in the mountains.~
+   The twenty feet wide road is narrowed in from a deep fall to your west, and
+a steep climb to your east.  The road clings to the mountain as if it was
+afraid to fall to the depths beyond its edge.  There isn't much chance of that,
+however, since the road is being repaired whereever it is needed as soon as it
+is needed.  The dwarves are interested in trade, and without roads there will
+be no trade.  The road continues southward, while north of here you see a cave
+opening.    
+~
+237 0 5
+D0
+~
+~
+0 0 23601
+D2
+~
+~
+0 0 23701
+E
+view east~
+   The view is excellent from uphere.  You have a splendid view over the
+mountains, and you think they're sooo beautiful...  They do, however get boring
+eventually.  
+~
+E
+credits info~
+   This zone has been thought out, and implemented by Welcor of Cruelworld Mud.
+Builder      : Welcor
+Zone         : 237 Dwarven Trade Route
+Began        : 1998
+Player Level : 10-14
+Rooms        : 29
+Mobs         : 12
+Objects      : 20
+Shops        : 0
+Triggers     : 11
+Theme        : 
+Plot         : 
+Links        : 24, 26, 29 
+ 
+Zone 237 is linked to the following zones:
+236 Aldin                          at 23700 (north) ---> 23601
+~
+S
+#23701
+On a well used road through the mountains~
+   You're walking along on a paved road, leading from south to north.  To your
+east a steep mountainside blocks any view, while to the west a just as steep
+drop leads into certain death.  The road is quite wide and heavily used by
+carridges, soldiers and the occasional road worker.  North from here you see
+some sort of opening in the mountain.    
+~
+237 0 5
+D0
+~
+~
+0 0 23700
+D2
+~
+~
+0 0 23702
+S
+#23702
+On a well used road through the mountains~
+   The paved road turns west and north here.  A humongous boulder has fallen
+down on what was once the road just south of here.  The road has been
+reconstructed, leading around the boulder.  A vertical rock wall to your east
+keeps you from going that way.  However a set of steps has been hacked into the
+stone of the boulder to the south, allowing you to get to the small wooden
+building on top of it.    
+~
+237 0 5
+D0
+~
+~
+0 0 23701
+D3
+~
+~
+0 0 23703
+D4
+~
+~
+0 0 23708
+S
+#23703
+At a turn on the paved road in the mountains.~
+   You're on the edge of a five hundred feet drop.  The road you're standing on
+leads east and south from here.  It is about fifteen feet wide here, but just
+north and est of here there is nothing, except empty air.  To your southeast
+you see the reason for going so near the edge; A colossal rock has once tumbled
+down the mountain, and hit the road where it lay once - close to the side of
+the mountain.    
+~
+237 0 5
+D1
+~
+~
+0 0 23702
+D2
+~
+~
+0 0 23704
+S
+#23704
+A well used road near certain death.~
+   The road leads north and south from here.  To your east a colossal rock has
+dropped where the road once were.  This part of the road has been made around
+it, and is therefore a little narrower.  This also means you are walking
+dangerously close to the edge of a cliff, several hundred feet high.    
+~
+237 p 5
+D0
+~
+~
+0 0 23703
+D2
+~
+~
+0 0 23705
+S
+#23705
+At a turn on the paved road through the mountains.~
+   You are at the edge of certain death!  South and west of where you're
+standing, the road ends abruptly.  The cobbles have been put very close to the
+edge - so close in fact, that if you were to walk on the outer stones, you
+would surely fall to your death if you slipped.  To your northeast you see an
+enourmous boulder, about the size of a house which totally blocks the road
+where it once were, near the side of the cliff.  The road continues north and
+east around the boulder.    
+~
+237 p 5
+D0
+~
+~
+0 0 23704
+D1
+~
+~
+0 0 23706
+S
+#23706
+Before the enormous boulder on the road.~
+   The road here turns sharply west and south here.  I haven't always doen so,
+though, as it's obvious it continued straight north from here once.  However a
+large boulder, the size of a large house, has fallen onto hte road just north
+of here, totally obstructing the path.  It seems the dwarves has decided to
+make the road go around the boulder rather than to take it apart.  On the top
+of the boulder you can see a small wooden building, which seem to house some
+kind of lookout post.  The rockface to both north and east is smooth, and
+cannot be climbed here, though.    
+~
+237 p 5
+D2
+~
+~
+0 0 23709
+D3
+~
+~
+0 0 23705
+S
+#23707
+In the lookouts cabin~
+   What a splendid view.  From here you see most of the road as it twists
+toward you from the south.  Only small bits of it is hidden by protruding
+shelves, or an occasional turn eastwards.  This is where the dwarven lookout is
+doing just that, keeping an eye out for orc raiding parties, or others trying
+to invade the city of the dwarves.  Not only does the lookout have a good view.
+He alos has some switches on the northern wall of the cabin.  From what you can
+decpiher of the labels, they set off different traps on the road below.    
+~
+237 d 0
+D5
+~
+~
+0 0 23708
+E
+switches north traps label labels~
+   The traps include - or so you guess from the labels - the following:
+Handle one: Logs falling onto the road just before the boulder.
+Handle two: Rockslide further down the road.
+Handle three - this one has been locked in with a large padlock :
+A piece of the road just west of the lookout post falls to the valley below.
+
+A thick length of rope leads from the handles out through the north wall.
+They are probably connecting to the traps.
+You feel tempted to pull a handle!!!
+~
+S
+#23708
+On the stone stairs.~
+   These steps have been made for dwarven hands and feet, and you are slipping
+several times.  As you raise your eyes, you see the small wooden cabin, the
+dwarves has built on top of the boulder.  Just below you, the road is ready to
+accept the offer of your falling body, should you slip.    
+~
+237 0 0
+D4
+~
+~
+0 0 23707
+D5
+~
+~
+0 0 23702
+S
+#23709
+On a road in the mountains.~
+   The road you are walking on is quite steep.  The carridges that pass you
+once in a while, have great difficulty going northwards, because of the slope.
+To your east a smooth stone wall blocks any movement, while to your west a just
+as smooth fall lets you move very fast - for a short while.  High on the
+eastern cliffwall, some logs have been fastened with boards and a thick rope
+leads northward from here.  You hope noone pulls the rope while you're standing
+here.    
+~
+237 p 5
+D0
+~
+~
+0 0 23706
+D2
+~
+~
+0 0 23710
+S
+#23710
+On a road in the mountains.~
+   The road has started getting steeper.  You are walking on a paved road in a
+montain area - This can only be dwarf work.  And it is, of course.  The road
+has obviously been built to facilitate trade between the dwarves and the men of
+Ilniyr.  Also it has been built to keep those not welcome to the dwarves out.
+Several rocks has been set behind a plank high on the smooth rock wall to your
+east.  A thick rope leads northwards, so whoever pulls the rope starts a
+rockslide onto YOU!  And you can't even escape westwards, without falling a
+hundred feet to the valley below.  You'd better move on, north ar south from
+here.    
+~
+237 p 5
+D0
+~
+~
+0 0 23709
+D2
+~
+~
+0 0 23711
+S
+#23711
+On a road in the mountains.~
+   You are walking a along a paved road through the mountains.  The road leads
+north and south from here, and rises somewhat to the north.  East of here a
+smooth rock wall blocks any access, while west the road stops at the edge of
+the shelf along the mountain, letting you fall several hundred feet to the
+bottom, should you go outthere.    
+~
+237 p 5
+D0
+~
+~
+0 0 23710
+D2
+~
+~
+0 0 23712
+S
+#23712
+On a road in the mountains.~
+   You are walking a along a paved road through the mountains.  The road leads
+north and south from here, and rises somewhat to the north.  East of here a
+smooth rock wall blocks any access, while west the road stops at the edge of
+the shelf along the mountain, letting you fall several hundred feet to the
+bottom, should you go outthere.  South of here a promontory from the main
+mountain makes the road turn.    
+~
+237 p 5
+D0
+~
+~
+0 0 23711
+D2
+~
+~
+0 0 23713
+S
+#23713
+On a road passing the promontory.~
+   You are walking a along a paved road through the mountains.  The road goes
+around a promontory just east of here, while letting you fall to your death if
+you step one step off the ledge south or west of here.  This also means that
+you can go into the foothills of the promontory, by leaving east or continue
+into the mountains by going north.    
+~
+237 p 5
+D0
+~
+~
+0 0 23712
+D1
+~
+~
+0 0 23715
+S
+#23715
+On a road high in the mountains.~
+   The road continues from the foothills to the east along the rockface of the
+promontory to your north towards a turn west of here.  South of here the view
+is magnificent.  The road has climbed above the foothils below you and you can
+see as far as the eastern highway, where it twists through the fields and
+forests of Ilniyr.  You figure you must be high indeed as you know the distance
+to be nearly a days travel.  The well-tended road is impossible close to the
+edge here, and you watch your step carefully, so as to not fall from the ledge.
+~
+237 p 5
+D1
+~
+~
+0 0 23716
+D3
+~
+~
+0 0 23713
+S
+#23716
+On a road ascending the mountains.~
+   The road here looks impossibly steep, but when you start walking it, the
+cobbles have been put at just the right angle for you to walk rather
+comfortably, while making the horses' hooves get a grip too.  It leads east and
+west from here, rising sharply to the west, and falling just as sharply to the
+east from here.  All thoughts of leaving the path are forgotten as you look
+over the southern edge into a deep valley and north a blank rock wall blocks
+your progress.  The road is obviously the only way ahead.    
+~
+237 p 5
+D1
+~
+~
+0 0 23717
+D3
+~
+~
+0 0 23715
+S
+#23717
+Above the foothills.~
+   You're at the beginning of the mountains.  South of here the road winds
+through foothills, while to the west it rises sharply and follows the side of
+the cliff.  The path once continued east too, but that path has been buried by
+a landslide.  Though the way looks unstable and dangerous, it should still be
+passable.  The road itself has been seen to recently, and not a single stone is
+out of place.    
+~
+237 p 5
+D1
+~
+~
+0 0 23725
+D2
+~
+~
+0 0 23718
+D3
+~
+~
+0 0 23716
+S
+#23718
+On a paved road through foothills~
+   You are walking along a paved road, with granite slabs the size of your
+chest laid down side by side over the hills, that seem to grow steadily to the
+north.  The road is well-tended, not a single bit of grass peeks out from the
+cracks.  The road leads north and south here, and being the only interesting
+thing around here, you decide to stick to it.    
+~
+237 p 4
+D0
+~
+~
+0 0 23717
+D2
+~
+~
+0 0 23719
+S
+#23719
+On a paved road through foothills~
+   The craftmanship of this road is very nice.  Someone must be tending this
+road regularly, or it would wither in these surroundings.  The foothills show
+all the signs of decomposition and breakdown caused by frostbite.  The road is
+free from that and also cleared of leaves and large rocks.  The Dwarves have
+long ago learned to be meticulous about their work, making a name in the stone
+and steel business.  You decide to stay on the north and south leading road,
+while watching the scenery around from a distance.    
+~
+237 p 4
+D0
+~
+~
+0 0 23718
+D2
+~
+~
+0 0 23720
+S
+#23720
+On a paved road through low foothills~
+   The road leads over small foothills north and south from here, letting you
+cross from the forested area to your south and towards the timber line.  The
+road is rising slightly towards the north, heading into the mountain range you
+can see to your far north.  The road leaves no doubt about its origin, made
+from granite, and tended beyond belief, it's a masterpiece in itself.    
+~
+237 p 4
+D0
+~
+~
+0 0 23719
+D2
+~
+~
+0 0 23721
+S
+#23721
+On a paved road through low foothills~
+   The paved road you're currently on continues south and north from here.  
+Far in the distance to your north you see the granite slabs cut a path through
+the green grass of the foothills before ascending the mountains, while to the
+south it continues over a hill toward the eastern highway.  The road itself is
+an exhibition of engineering in itself.  Totally smooth, and perfectly
+straight.  Just what any dwarf would want to show off with.    
+~
+237 p 4
+D0
+~
+~
+0 0 23720
+D2
+~
+~
+0 0 23722
+S
+#23722
+On a paved road through low foothills~
+   The hill you are standing on is but the first of many foothills on the path
+north of here.  South of here however, the road leads through open, flat
+grassland towards the Eastern highway.  If you focus hard, you are able to see
+the T-crossing where the trade route meets the Highway.  The granite road feels
+comfortably smooth to walk on, so you are certain the hills to your north are
+easily crossed with this kind of foundation.    
+~
+237 p 4
+D0
+~
+~
+0 0 23721
+D2
+~
+~
+0 0 23723
+S
+#23723
+On a paved road through grasslands.~
+   The road stretches for miles and miles northward, but only few southward.  
+Some hills just north of here block your view, but you are certain the road
+will continue in a just as straight line beyond this false horizon as it does
+southward, across the plains.  The grasslands around you are unsafe, as several
+places quicksand is hidden under a thin layer of grass.  After a short
+consideration you decide to stay on the road.    
+~
+237 p 2
+D0
+~
+~
+0 0 23722
+D2
+~
+~
+0 0 23724
+S
+#23724
+On a paved road through grasslands.~
+   You take an extra look as you step out on this road.  Obviously built and
+tended for by dwarves, the road is like nothing you have ever seen before.  
+Granite slabs lined up so perfectly that not even a single straw of grass grows
+between any two slabs, and all smooth like a rock from the sea.  And the road
+continues in a perfectly straight line north from here, towards the kingdom of
+the dwarves and the capital Aldin.  The occasional trader comes here, and some
+hide a smile as they see your amazement.  South of here the man-made eastern
+highway leads towards Radidan.    
+~
+237 p 2
+D0
+~
+~
+0 0 23723
+S
+#23725
+Crossing the Landslide~
+   The loose rock, gravel, and sand makes travelling extremely treacherous.  
+Large boulders jut out erradicately between patches of sand loose gravel.  The
+possibility of another landslide seems imminent.  The landslide slopes
+downwards to the east.  Leading towards a deep chasm.  To the north the
+landslide rises steeply above you, looking almost impossible to climb.    
+~
+237 c 0
+D0
+~
+~
+0 0 23727
+D1
+~
+~
+0 0 23726
+D3
+~
+~
+0 0 23717
+S
+#23726
+Crossing the Landslide~
+   The remains of the landslide empty into a deep chasm further to the east.  
+The sheer walls of granite from the chasm begin to block out portions of the
+sky.  The further east you travel the deeper into the chasm you will be.    
+~
+237 0 0
+D3
+~
+~
+0 0 23725
+S
+#23727
+Climbing Up the Landslide~
+   The perilous task of climbing up the landslide may actually be worth it.  
+Just to the north, at the top, you can see some old ruins uncovered by the
+recent avalanche.  Now if you can only find the footing to climb up to it.    
+~
+237 0 0
+D0
+~
+~
+0 0 23728
+D2
+~
+~
+0 0 23725
+S
+#23728
+Nearing the Top of the Landslide~
+   From here you have an excellent view of the realm.  You can catch a glimpse
+of a desert to the south, the city of Eldorado to the southeast.  To the west
+you can vaguely catch glimpses of the plains through a jagged mountain range.
+North and east a fresh wind blows in off from the ocean.    
+~
+237 0 0
+D0
+~
+~
+0 0 23729
+D2
+~
+~
+0 0 23727
+S
+#23729
+The Top of the Landslide~
+   Finally at the top.  The loose rock, dirt, and sand has given way, revealing
+a strange doorway made of ancient stone.  Strange symbols, almost worn away
+with age, decorate the door and walls.  The door is cracked open slightly.  
+Unidentifiable tracks, made from blood, lead down into the passageway
+~
+237 0 0
+D2
+~
+~
+0 0 23728
+S
+#0
+
+#RESETS
+M 0 23705 1 23700 	(the dwarven trader)
+G 1 23702 100 -1 	(a dwarven dagger)
+E 1 23719 100 8 	(some soft leather boots)
+E 1 23707 100 5 	(a dwarven chainmail)
+E 1 23714 100 6 	(a dwarven plate helmet)
+E 1 23710 100 9 	(some plate gauntlets)
+E 1 23715 100 17 	(a large leather purse)
+M 0 23711 2 23703 	(a small white centipede)
+M 0 23711 2 23703 	(a small white centipede)
+M 0 23710 2 23718 	(a hawk)
+M 0 23710 2 23721 	(a hawk)
+M 0 23708 3 23721 	(a small mouse)
+M 0 23709 2 23710 	(a crow)
+M 0 23708 3 23710 	(a small mouse)
+M 0 23708 3 23715 	(a small mouse)
+M 0 23707 3 23724 	(a cur dog)
+M 0 23707 3 23719 	(a cur dog)
+M 0 23702 5 23719 	(a dwarven guard)
+E 1 23708 100 11 	(a dwarven shield)
+E 1 23700 100 16 	(a dwarven axe)
+E 1 23706 100 5 	(a dwarven ringmail)
+M 0 23707 3 23701 	(a cur dog)
+M 0 23700 4 23701 	(a dwarven worker)
+E 1 23703 100 16 	(a dwarven pick)
+E 1 23713 100 7 	(some overalls)
+E 1 23709 100 11 	(a dwarven buckler)
+M 0 23700 4 23717 	(a dwarven worker)
+E 1 23703 100 16 	(a dwarven pick)
+E 1 23713 100 7 	(some overalls)
+E 1 23709 100 11 	(a dwarven buckler)
+M 0 23700 4 23709 	(a dwarven worker)
+E 1 23703 100 16 	(a dwarven pick)
+E 1 23713 100 7 	(some overalls)
+E 1 23709 100 11 	(a dwarven buckler)
+M 0 23700 4 23712 	(a dwarven worker)
+E 1 23703 100 16 	(a dwarven pick)
+E 1 23713 100 7 	(some overalls)
+E 1 23709 100 11 	(a dwarven buckler)
+M 0 23701 1 23706 	(the foreman)
+E 1 23709 100 11 	(a dwarven buckler)
+E 1 23713 100 7 	(some overalls)
+E 1 23701 100 16 	(a dwarven shortsword)
+M 0 23703 3 23706 	(a dwarven guard)
+E 1 23708 100 11 	(a dwarven shield)
+E 1 23700 100 16 	(a dwarven axe)
+E 1 23706 100 5 	(a dwarven ringmail)
+M 0 23702 5 23713 	(a dwarven guard)
+E 1 23708 100 11 	(a dwarven shield)
+E 1 23700 100 16 	(a dwarven axe)
+E 1 23706 100 5 	(a dwarven ringmail)
+M 0 23703 3 23713 	(a dwarven guard)
+E 1 23708 100 11 	(a dwarven shield)
+E 1 23700 100 16 	(a dwarven axe)
+E 1 23706 100 5 	(a dwarven ringmail)
+M 0 23703 3 23702 	(a dwarven guard)
+E 1 23706 100 5 	(a dwarven ringmail)
+E 1 23700 100 16 	(a dwarven axe)
+E 1 23708 100 11 	(a dwarven shield)
+M 0 23702 5 23702 	(a dwarven guard)
+E 1 23708 100 11 	(a dwarven shield)
+E 1 23700 100 16 	(a dwarven axe)
+E 1 23706 100 5 	(a dwarven ringmail)
+M 0 23704 1 23707 	(the lookout)
+E 1 23717 10 17 	(a looking glass)
+E 1 23707 100 5 	(a dwarven chainmail)
+E 1 23700 100 16 	(a dwarven axe)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

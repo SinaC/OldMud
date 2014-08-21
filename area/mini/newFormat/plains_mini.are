@@ -1,0 +1,1166 @@
+Area 'Plains' {
+  Builders = 'None';
+  Vnums = ( 300, 399 );
+  Credits = '{{ 1 20} Copper  Plains of the North';
+  Security = 9;
+
+//=======================================
+Mobile 300 {
+  Name = 'oldstyle druid Aruncus';
+  ShD = 'Aruncus the Druid';
+  LnD = 'Aruncus the Druid is walking around here, searching for herbs.
+';
+  Desc = 'Aruncus is a tall, skinny druid with a face marked by nature.
+He seems to be in peace with himself and his surroundings.
+';
+  Race = 'human';
+  Alignment = -500;
+  Etho = 'neutral';
+  Level = 13;
+  Hitroll = 0;
+  Hit = ( 2, 10, 170 );
+  Mana = ( 6, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 5, 3 );
+  ACs = ( -1, -1, -1, 8 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 25;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 301 {
+  Name = 'oldstyle hermit sorbus';
+  ShD = 'Sorbus the Hermit';
+  LnD = 'Sorbus the Hermit is sitting here, roasting a rabbit.
+';
+  Desc = 'Sorbus bares the marks of a long, hard life in solitude.
+He is dressed in simple clothing and looks like he has little
+or nothing to say.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 4;
+  Hitroll = 0;
+  Hit = ( 2, 7, 46 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 5, 1 );
+  ACs = ( 6, 6, 6, 9 );
+  Position = ( 'sitting', 'sitting' );
+  Sex = 'male';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 303 {
+  Name = 'oldstyle citizen';
+  ShD = 'the citizen';
+  LnD = 'There is a citizen of Ofcol here glaring at you ... stranger!
+';
+  Desc = 'He seems like a nice person with no interest in harming you or others.
+He wears normal, light clothing and has an anonymous face.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 6;
+  Hitroll = 0;
+  Hit = ( 2, 7, 71 );
+  Mana = ( 3, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 7, 1 );
+  ACs = ( 4, 4, 4, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 10;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 304 {
+  Name = 'oldstyle citizen';
+  ShD = 'the citizen';
+  LnD = 'There is a citizen of Ofcol here glaring at you ... stranger!
+';
+  Desc = 'She seems like a nice person with no interest in harming you or others.
+She wears a minimum of clothing and has big ... eyes.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 2, 6, 60 );
+  Mana = ( 2, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 5, 5, 5, 9 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 305 {
+  Name = 'oldstyle worm Shudde-M\'ell';
+  ShD = 'Shudde-M\'ell';
+  LnD = 'Shudde-M\'ell the Giant worm of G\'harne is guarding his treasure.
+';
+  Desc = 'Shudde-M\'ell is about 15 ft long and is surrounded by an evil stench,
+The worm is the protector of the treasure of G\'harne and has been so
+for as long anyone can remember.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 24;
+  Hitroll = 0;
+  Hit = ( 5, 10, 500 );
+  Mana = ( 12, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 10, 6 );
+  ACs = ( -6, -6, -6, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 683;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 306 {
+  Name = 'oldstyle luxan shopkeeper';
+  ShD = 'Luxan';
+  LnD = 'Luxan the Shopkeeper is here, eager to sell you anything.
+';
+  Desc = 'Luxan is dressed in a strange jacket.
+He looks like a mean trader from the outskirts of Midgaard.
+His life is seems to be totally occupied with trading.
+He looks very fit and capable of protecting his goods.
+';
+  Race = 'human';
+  Alignment = 400;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 0;
+  Hit = ( 5, 10, 450 );
+  Mana = ( 11, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 6, 6 );
+  ACs = ( -6, -6, -6, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 400;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( ('light', 'potion', 'clothing', 'food'), 120, 60, 0, 23 );
+}
+Mobile 308 {
+  Name = 'oldstyle keeper innkeeper';
+  ShD = 'the Innkeeper';
+  LnD = 'An Innkeeper is here waiting for your order.
+';
+  Desc = 'The Innkeeper looks skilled in brewing different beers and mixing the
+wierdest drinks known. He also looks very big.
+';
+  Race = 'human';
+  Alignment = -100;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 0;
+  Hit = ( 5, 10, 450 );
+  Mana = ( 11, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 6, 6 );
+  ACs = ( -6, -6, -6, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5;
+  Size = 'medium';
+  Faction = 'Common';
+  Shop = ( (), 110, 100, 0, 23 );
+}
+Mobile 309 {
+  Name = 'oldstyle rabbit';
+  ShD = 'the cute rabbit';
+  LnD = 'A cute rabbit is here.
+';
+  Desc = 'It is a small, furry creature with long ears and big feet.
+';
+  Race = 'rabbit';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 2, 6, 10 );
+  Mana = ( 0, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 4, 0 );
+  ACs = ( 9, 9, 9, 10 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+}
+Mobile 350 {
+  Name = 'oldstyle dragon pet';
+  ShD = 'the pet dragon';
+  LnD = 'Ravan\'s pet dragon is bouncing around here flapping her cute wings.
+';
+  Desc = 'Ravan\'s pet dragon is about 3 ft. tall with small pointy teeth.
+The small wings are eagerly trying to lift her from the ground,
+but so far they haven\'t succeeded.
+';
+  Race = 'dragon';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 10;
+  Hitroll = 0;
+  Hit = ( 2, 6, 110 );
+  Mana = ( 10, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 1 );
+  ACs = ( 2, 2, 2, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Dragon';
+  Special = 'spec_cast_mage';
+}
+
+
+//=======================================
+Object 300 {
+  Name = 'herbs herb timian';
+  ShD = 'a small dusk of timian herbs';
+  Desc = 'Some herbs are lying here, small green leaves and tiny pink flowers.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 10;
+  Cost = 10;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 1, 1, false );
+  ExtraDescr = ( 'herbs herb timian', 'This herb smells rather spicy; maybe you should try it?
+');
+}
+Object 301 {
+  Name = 'herbs herb gyvel';
+  ShD = 'a small dusk of black gyvel';
+  Desc = 'Some black gyvel is lying here, dark green with black leaves and tiny
+blood red flowers.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 10;
+  Cost = 10;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 1, 1, false );
+  ExtraDescr = ( 'herbs herb gyvel', 'This herb smells rather special, but is it poisonous?
+');
+}
+Object 302 {
+  Name = 'plant ivy';
+  ShD = 'a small dusk of poison ivy';
+  Desc = 'Some poison ivy is growing here.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 10;
+  Cost = 0;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 1, 1, true );
+  ExtraDescr = ( 'plant ivy', 'This plant has dark green juicy leaves.
+You notice some small white thorns on it.');
+}
+Object 303 {
+  Name = 'blood jar';
+  ShD = 'a dark red jar';
+  Desc = 'A small jar in a dark, red colour.';
+  ItemType = 'drinkcontainer';
+  Level = 0;
+  Weight = 20;
+  Cost = 20;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 2, 2, 'blood', false );
+  ExtraDescr = ( 'blood jar', 'The jar is made of dry clay, covered with markings suggesting its
+occult origin.
+');
+}
+Object 304 {
+  Name = 'wild flowers';
+  ShD = 'wild flowers';
+  Desc = 'A bunch of pretty wild flowers is here.';
+  ItemType = 'trash';
+  Level = 0;
+  Weight = 10;
+  Cost = 0;
+  Material = 'oldstyle';
+  ExtraFlags = ('antievil');
+  WearFlags = ('take', 'head', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  ExtraDescr = ( 'wild flowers', 'These wild flowers are really pretty.
+Just like the flowers you would wear in your hair.');
+}
+Object 307 {
+  Name = 'strange amulet';
+  ShD = 'a strange amulet';
+  Desc = 'A strange looking amulet is lying here, half covered with dust.';
+  ItemType = 'jewelry';
+  Level = 3;
+  Weight = 10;
+  Cost = 1;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'nodrop');
+  WearFlags = ('take', 'neck');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 3, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, 5 ) );
+  ExtraDescr = ( 'amulet', 'Judging from the signs inscripted in the amulet, you gather it must
+have belonged to a druid.  It is weird looking with symbols from nature
+dominating it.
+');
+}
+Object 308 {
+  Name = 'staff stick';
+  ShD = 'a druish staff';
+  Desc = 'A staff with druidic marks have been left here.';
+  ItemType = 'trash';
+  Level = 0;
+  Weight = 40;
+  Cost = 10;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  ExtraDescr = ( 'staff stick', 'Then staff is about 5 ft long, engraved with mythical signs and figures.
+Otherwise the staff seems of no real interest.
+');
+}
+Object 309 {
+  Name = 'rabbit roast wabbit';
+  ShD = 'a rabbit roast';
+  Desc = 'You see a deliciously looking rabbit roast.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 50;
+  Cost = 0;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 24, 24, false );
+  ExtraDescr = ( 'roast rabbit wabbit', 'Well the rabbit looks rather dead.
+You guess that this once was a ferocious rabbit who\'s life now has
+changed to that of a tasty wabbit woast.
+');
+}
+Object 310 {
+  Name = 'template scroll';
+  ShD = 'a strange template';
+  Desc = 'A strange template made of an exotic green metal is placed here';
+  ItemType = 'scroll';
+  Level = 13;
+  Weight = 10;
+  Cost = 1870;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 15, 'sleep', 'blindness', 'fireball', 'none' );
+  ExtraDescr = ( 'template scroll metal', 'The template is made of an exotic green metal and looks
+centuries old.
+Inscripted upon is the words \'Ep ep fi\'hur G\'harne
+                             G\'harne fhtagn Shudde-M\'ell hyas Negg\'h\'
+And beneath the inscription you see horrifying death scenes depicted.
+');
+}
+Object 311 {
+  Name = 'potion clear';
+  ShD = 'a clear potion';
+  Desc = 'A clear potion wrapped in leather is unnoticed placed here.';
+  ItemType = 'potion';
+  Level = 15;
+  Weight = 20;
+  Cost = 300;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take');
+  Values = ( 20, 'detect evil', 'detect invis', 'detect magic', 'none' );
+  ExtraDescr = ( 'leather', 'The leather wrapped around the potion is old and decayed, originating
+from an, to you, unknown creature.');
+  ExtraDescr = ( 'potion clear', 'As you examine the potion more, you notice the oddities of this
+potion. When you look through it you notice strange things...
+The clear potion is certainly not of this world.
+');
+}
+Object 312 {
+  Name = 'scroll jhyfrdow';
+  ShD = 'a scroll titled \'jhyfrdow\'';
+  Desc = 'An odd looking scroll is here.';
+  ItemType = 'scroll';
+  Level = 2;
+  Weight = 10;
+  Cost = 640;
+  Material = 'oldstyle';
+  WearFlags = ('take');
+  Values = ( 18, 'protection evil', 'none', 'none', 'none' );
+  ExtraDescr = ( 'ritual men drawings', 'The drawing pictures people gathered round giant stone formations,
+worshipping a giant worm like creature.
+It seems they are sacrificing some of their own species.
+');
+  ExtraDescr = ( 'scroll jhyfrdow', 'The scroll is titled \'jhyfrdow\' and looks very old.
+As you examine it closer you notice primitive drawings of
+men doing some kind of a ritual.
+');
+}
+
+
+//=======================================
+Room 300 {
+  Name = 'Path in the plains';
+  Desc = 'You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues east, north
+and west leads to plains and you see the path towards the north
+gate of midgaard to the south.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the grassy plains.
+', '', ('none'), -1, 315 );
+  Exit = ( 1, 'You notice nothing special, except that the path in the plains continues.
+', '', ('none'), -1, 301 );
+  Exit = ( 2, 'Towards the south you notice the north gate of Midgaard.
+', '', ('none'), -1, 1 );
+  Exit = ( 3, 'You see the grassy plains.
+', '', ('none'), -1, 316 );
+
+}
+Room 301 {
+  Name = 'Path in the plains';
+  Desc = 'You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues east and west.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 1, 'You notice nothing special, except that the path in the plains continues.
+', '', ('none'), -1, 302 );
+  Exit = ( 3, 'You notice nothing special, except that the path in the plains continues.
+', '', ('none'), -1, 300 );
+
+}
+Room 302 {
+  Name = 'Path in the plains';
+  Desc = 'You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues north and west.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You notice nothing special, except that the path in the plains continues.
+', '', ('none'), -1, 303 );
+  Exit = ( 3, 'You notice nothing special, except that the path in the plains continues.
+', '', ('none'), -1, 301 );
+
+}
+Room 303 {
+  Name = 'Path in the plains';
+  Desc = 'You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path leads north and south.
+To the east and the west you have the grassy plains.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You notice nothing special, except that the path in the plains continues.
+', '', ('none'), -1, 304 );
+  Exit = ( 1, 'To the east you notice the grassy plains.
+', '', ('none'), -1, 317 );
+  Exit = ( 2, 'You notice nothing special, except that the path in the plains continues.
+', '', ('none'), -1, 302 );
+  Exit = ( 3, 'To the west you can see more of the beautiful grassy plains.
+', '', ('none'), -1, 315 );
+
+}
+Room 304 {
+  Name = 'Path in the plains';
+  Desc = 'You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The Path leads north and south.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The path continues north as small foothills begins to appear.
+', '', ('none'), -1, 305 );
+  Exit = ( 2, 'The path leads south towards the town.
+', '', ('none'), -1, 303 );
+
+}
+Room 305 {
+  Name = 'Path in the plains';
+  Desc = 'You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you watch the
+beautiful landscaping here. To the east and west you see the grassy plains.
+The path extends into small foothills to the north and also continues south.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The path continues into the small foothills.
+', '', ('none'), -1, 306 );
+  Exit = ( 1, 'You see the grassy plains here.
+', '', ('none'), -1, 321 );
+  Exit = ( 2, 'The path continues towards Midgaard.
+', '', ('none'), -1, 304 );
+  Exit = ( 3, 'You see the grassy plains here.
+', '', ('none'), -1, 320 );
+
+}
+Room 306 {
+  Name = 'Path in the foothills';
+  Desc = 'You are on the path leading through the small foothills.
+The wind blow through your hair as you study the beautiful
+landscaping here. From the north you sense a certain freshness.
+The path continues east and south. You smell freshness from north.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see grassy plains and perhaps some crystal clear water.
+', '', ('none'), -1, 326 );
+  Exit = ( 1, 'The path continues towards east here.
+', '', ('none'), -1, 307 );
+  Exit = ( 2, 'The path in the plains wind through the small foothills.
+', '', ('none'), -1, 305 );
+
+}
+Room 307 {
+  Name = 'Path in the foothills';
+  Desc = 'You are walking on a path situated in the small foothills.
+The winds are more than average here but it feels nice. You can follow
+the path east or west.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 1, 'The path continues in the foothills
+', '', ('none'), -1, 308 );
+  Exit = ( 3, 'To the west the path takes a bend southwards.
+', '', ('none'), -1, 306 );
+
+}
+Room 308 {
+  Name = 'Path in the foothills';
+  Desc = 'You are walking on a narrow path in the foothills.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path goes north and west.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The narrow path through the foothills turns left here.
+', '', ('none'), -1, 309 );
+  Exit = ( 3, 'To the west you can see the path continues.
+', '', ('none'), -1, 307 );
+
+}
+Room 309 {
+  Name = 'Path in the foothills';
+  Desc = 'You are walking on a path situated in foothills.
+To the west you sense a certain freshness and the path continues
+south and east.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see the path continues in the foothills.
+', '', ('none'), -1, 310 );
+  Exit = ( 2, 'You see the path continues in the foothills.
+', '', ('none'), -1, 308 );
+  Exit = ( 3, 'You see grassy plains and perhaps some crystal clear water.
+', '', ('none'), -1, 326 );
+
+}
+Room 310 {
+  Name = 'Path in the foothills';
+  Desc = 'You are walking on a long path in the east-west direction.
+The surroundings are green, vegetated foothills.
+You are able to force your way through some dense plants to the north.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You can\'t really see much through the vegetation on the foothills.
+', '', ('none'), -1, 327 );
+  Exit = ( 1, 'To the east you notice that the path continues towards a T-intersection.
+', '', ('none'), -1, 311 );
+  Exit = ( 3, 'You just see the path through the foothills.
+', '', ('none'), -1, 309 );
+
+}
+Room 311 {
+  Name = 'Path in the foothills';
+  Desc = 'You are walking on the long, narrow path through the foothills.
+To your east you see a T-intersection and to the west the path
+continues far.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 1 );
+  Exit = ( 1, 'You can go to the T-intersection this way.
+', '', ('none'), -1, 312 );
+  Exit = ( 3, 'You can see the long path through the plains.
+', '', ('none'), -1, 310 );
+
+}
+Room 312 {
+  Name = 'The path intersection';
+  Desc = 'You are standing on an intersection between 3 paths.
+To the west you can follow a long, narrow path through the foothills.
+To the north a wide path leads to the Village of Ofcol and an
+ancient path leads towards the south.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The wide road to Ofcol runs here.
+', '', ('none'), -1, 313 );
+  Exit = ( 2, 'Here is a partially hidden, ancient looking path.
+', '', ('none'), -1, 332 );
+  Exit = ( 3, 'You can see the long narrow path running through the foothills.
+', '', ('none'), -1, 311 );
+
+}
+Room 313 {
+  Name = 'Road to Ofcol';
+  Desc = 'You are walking on a wide road with trail marks on it.  To the north
+you see the village of Ofcol and to the south there is the T intersection.
+You can enter the foothills west.  The foothills to your east are too
+steep to climb.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The road continues towards Ofcol.
+', '', ('none'), -1, 314 );
+  Exit = ( 2, 'You can see the T-intersection in the souther direction.
+', '', ('none'), -1, 312 );
+  Exit = ( 3, 'You think you can climb these foothills.
+', '', ('none'), -1, 327 );
+
+}
+Room 314 {
+  Name = 'Outside Ofcol';
+  Desc = 'You are standing outside the village of Ofcol.
+The village looks very small, but still a nice and safe place to stay.
+You may enter the city to the north or journey towards the
+T-intersection in the southern direction.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You notice a sign saying : Stranger we welcome you to the
+                           peaceful city of Ofcol.
+', '', ('none'), -1, 5550 );
+  Exit = ( 2, 'Here you see the road go towards the intersection.
+', '', ('none'), -1, 313 );
+
+}
+Room 315 {
+  Name = 'Gallow hill';
+  Desc = 'You walk in the grassy plains. On this little hill you can see
+two gallows, with rotting human tissue hanging from the ropes.
+There is a sign here.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  ExtraDescr = ( 'sign', 'The sign says:
+
+  Loyal citizens of Midgaard.  These are the earthly remains of the
+  two heretics \'Dim\' and \'Gamma\' of this world. Having forged them-
+  selves to immortality, they called upon themselves the anger of the
+  implementators.  Let this be a lesson too all .....
+
+                                    -- the Powers that Be.
+');
+  Exit = ( 0, 'The plains extend far to the north.
+', '', ('none'), -1, 320 );
+  Exit = ( 1, 'To the east you can see a small path in the plains.
+', '', ('none'), -1, 303 );
+  Exit = ( 2, 'To the south you can see a small path in the plains.
+', '', ('none'), -1, 300 );
+  Exit = ( 3, 'The plains extend far to the west.
+', '', ('none'), -1, 318 );
+
+}
+Room 316 {
+  Name = 'Grassy plains';
+  Desc = 'You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The plains extend far to the north.
+', '', ('none'), -1, 318 );
+  Exit = ( 1, 'When you look to the east you notice at small path.
+', '', ('none'), -1, 300 );
+  Reset = ( 'O', 304 );
+
+}
+Room 317 {
+  Name = 'Grassy plains';
+  Desc = 'You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible. City of Midgaard is to the south but so are some
+VERY steep slopes.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 1, 'The plains extend far to the east.
+', '', ('none'), -1, 338 );
+  Exit = ( 2, 'Some VERY steep slopes prevent you from going this way, it might kill you.
+', '', ('none'), -1, 345 );
+  Exit = ( 3, 'A small path is running through the plains.
+', '', ('none'), -1, 303 );
+
+}
+Room 318 {
+  Name = 'Grassy plains';
+  Desc = 'You walk in the beautiful grassy plains. The wind is strong and rough.
+Far to the north you can see the foothills and further on mountain peaks
+are visible.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The plains extend far to the north.
+', '', ('none'), -1, 319 );
+  Exit = ( 1, 'The plains extend far to the east.
+', '', ('none'), -1, 315 );
+  Exit = ( 2, 'The plains extend far to the south.
+', '', ('none'), -1, 316 );
+  Reset = ( 'M', 309, 10, 4 );
+
+}
+Room 319 {
+  Name = 'Grassy plains';
+  Desc = 'You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. To the north you can see the foothills and just behind
+mountain peaks are visible.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'To the north, the plains extend into small foothills, behind a small hill
+you notice something ...
+', '', ('none'), -1, 330 );
+  Exit = ( 1, 'The plains extend far to the east.
+', '', ('none'), -1, 320 );
+  Exit = ( 2, 'The plains extend far to the south.
+', '', ('none'), -1, 318 );
+  Reset = ( 'O', 301 );
+
+}
+Room 320 {
+  Name = 'Grassy plains';
+  Desc = 'You walk in some grassy plains. The wind is strong and rough. To the
+north you can see the foothills and further on mountain peaks are visible.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The plains extend into small foothills to the north.
+', '', ('none'), -1, 322 );
+  Exit = ( 1, 'East of here you see a winding path in the plains.
+', '', ('none'), -1, 305 );
+  Exit = ( 2, 'The plains extend far to the south.
+', '', ('none'), -1, 315 );
+  Exit = ( 3, 'The plains extend far to the west.
+', '', ('none'), -1, 319 );
+
+}
+Room 321 {
+  Name = 'Grassy plains';
+  Desc = 'You walk in the grassy plains. The wind is fairly strong.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 2, 'The plains extend far to the south.
+', '', ('none'), -1, 338 );
+  Exit = ( 3, 'A small path is running through the plains.
+', '', ('none'), -1, 305 );
+
+}
+Room 322 {
+  Name = 'Grassy foothills';
+  Desc = 'You walk in the grassy foothills north of the plains. The wind is rough.
+To the north you can see foothills and just behind them mountain peaks
+are visible.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The small foothills extend into foothills far to the north.
+', '', ('none'), -1, 324 );
+  Exit = ( 2, 'The small foothills extend into plains far to the south.
+', '', ('none'), -1, 320 );
+  Exit = ( 3, 'The small foothills extend far to the west.
+', '', ('none'), -1, 330 );
+
+}
+Room 323 {
+  Name = 'The steep foothills';
+  Desc = 'You walk in the steep foothills. It is rather hard to move here.
+To the north you can see a grassy valley with wildflowers.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a path toward the valley.
+', '', ('none'), 0, 1 );
+  Exit = ( 1, 'The foothills extend far to the east.
+', '', ('none'), -1, 324 );
+  Exit = ( 2, 'On the horizon you can see the City of Midgaard.
+', '', ('none'), -1, 330 );
+  Reset = ( 'O', 304 );
+  Reset = ( 'M', 300, 1, 1 );
+  Reset = ( 'E', 308, 0, 'hold' );
+  Reset = ( 'E', 307, 0, 'neck1' );
+  Reset = ( 'G', 312, 0 );
+  Reset = ( 'G', 302, 0 );
+
+}
+Room 324 {
+  Name = 'The steep foothills';
+  Desc = 'You are walking in the steep foothills. It is rather hard to move here.
+To the north you can see the mountains towering over you.  Pine trees
+grow here.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  ExtraDescr = ( 'pine tree trees pines', 'The all too quiet trees suggest that something roams these woods.
+');
+  ExtraDescr = ( 'mountains', 'The mountains seems dark and all most alive, as they contrast against
+the sky.
+');
+  Exit = ( 1, 'The foothills extend far to the east.
+', '', ('none'), -1, 325 );
+  Exit = ( 2, 'The foothills extend downwards to the south. In the horizon you can
+see the City Of Midgaard.
+', '', ('none'), -1, 322 );
+  Exit = ( 3, 'The foothills extend far to the west.
+', '', ('none'), -1, 323 );
+  Reset = ( 'M', 309, 10, 4 );
+
+}
+Room 325 {
+  Name = 'The steep foothills';
+  Desc = 'You are walking in the steep foothills. It is rather hard to move here.
+Further to the north you can see the mountains towering over you.
+Several pinetrees grow here.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 1, 'The foothills extend into smaller hills far to the east.
+', '', ('none'), -1, 326 );
+  Exit = ( 3, 'The foothills extend far to the west.
+', '', ('none'), -1, 324 );
+
+}
+Room 326 {
+  Name = 'The pool in the foothills';
+  Desc = 'You are standing by a pool in the small foothills. It is clear and cold.
+A steep slope rises up into the foothills to the north. Behind them ...
+the mountains.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  ExtraDescr = ( 'pool', 'The pool is crystal clear, but as you look into it you notice that
+you can\'t see the bottom of it ... it must be pretty deep.
+');
+  Exit = ( 1, 'To the east you notice a small path in the foothills.
+', '', ('none'), -1, 309 );
+  Exit = ( 2, 'To the south a path winds its way south into the plains.
+', '', ('none'), -1, 306 );
+  Exit = ( 3, 'The foothills extend far to the west.
+', '', ('none'), -1, 325 );
+
+}
+Room 327 {
+  Name = 'The foothills';
+  Desc = 'You are walking in some foothills. It is rather hard to move here.
+Further to the north you can see the mountains towering over you.
+Several pinetrees grow here.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 1, 'To the east you notice a small path in the foothills.
+', '', ('none'), -1, 313 );
+  Exit = ( 2, 'To the south a steep slope runs down to a small path in the foothills.
+', '', ('none'), -1, 310 );
+  Reset = ( 'O', 300 );
+
+}
+Room 330 {
+  Name = 'In front of hut in foothills';
+  Desc = 'You are standing in the foothills. To the west, well hidden among the small
+foothills and pines, you see a small hut. To the north you can see
+the foothills, and some pineforrest. Further on mountain peaks are visible.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The steep foothills seems hard to climb
+', '', ('none'), -1, 323 );
+  Exit = ( 1, 'The foothills extend far to the east.
+', '', ('none'), -1, 322 );
+  Exit = ( 2, 'To the south the foothills extend into plains far to the south.
+', '', ('none'), -1, 319 );
+  Exit = ( 3, 'You see a small crumbled hut here, must be a hermit living here.
+', 'door', ('door'), -1, 331 );
+
+}
+Room 331 {
+  Name = 'Hermit\'s hut';
+  Desc = 'You are inside the hermit\'s hut. It is rather old, but serves it purpose.
+It keeps its habitant from the rough winds and dangerous beasts of the
+plains and foothills. There is a small fireplace here.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'fireplace', 'The hermit cooks here.
+');
+  Exit = ( 1, 'Through the door you can see the foothills.
+', 'door', ('door'), -1, 330 );
+  Reset = ( 'M', 301, 1, 1 );
+  Reset = ( 'G', 303, 0 );
+  Reset = ( 'O', 309 );
+
+}
+Room 332 {
+  Name = 'The ancient path';
+  Desc = 'You are moving on an ancient path. The path is slightly covered with
+leaves and twitches.
+To the north you can see the T-crossing and the path continues south.
+';
+  Sector = 'forest';
+  MaxSize = 'giant';
+  Exit = ( 0, 'As you look to the north you see a T-intersection.
+', '', ('none'), -1, 312 );
+  Exit = ( 2, 'The ancient path continues through the plains.
+', '', ('none'), -1, 333 );
+
+}
+Room 333 {
+  Name = 'The ancient path';
+  Desc = 'You are standing on the ancient path which runs north and south.
+The path is hardly visible here.
+';
+  Sector = 'forest';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the ancient path.
+', '', ('none'), -1, 332 );
+  Exit = ( 2, 'You trace the path carefully and see no immediate dangers.
+', '', ('none'), -1, 334 );
+
+}
+Room 334 {
+  Name = 'The ancient path';
+  Desc = 'You are standing on the ancient path which runs north and south.
+The path is hardly visible here.
+';
+  Sector = 'forest';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see the ancient path.
+', '', ('none'), -1, 333 );
+  Exit = ( 2, 'You trace the path carefully and see no immediate dangers.
+', '', ('none'), -1, 335 );
+  Reset = ( 'M', 309, 10, 4 );
+
+}
+Room 335 {
+  Name = 'The ancient path';
+  Desc = 'The path runs north and east from here.  You notice some markers placed
+along the side of the path.
+';
+  Sector = 'forest';
+  MaxSize = 'giant';
+  ExtraDescr = ( 'markers', 'The markers seems like normal stones, but the way they are
+arranged makes you think there is something special about them.
+');
+  Exit = ( 0, 'You see the ancient path winding its way north from here. Looks safe.
+', '', ('none'), -1, 334 );
+  Exit = ( 1, 'Further ahead you see a bridge over a small creak.
+', '', ('none'), -1, 336 );
+
+}
+Room 336 {
+  Name = 'The wooden bridge';
+  Desc = 'You have stepped upon a wooden bridge. It looks old but safe to cross.
+It is made of a wood you haven\'t seen before.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  ExtraDescr = ( 'rock formation formations', 'The rock formations are made of 7 huge, monolith like stones, placed
+in a symbolic circle.
+You notice it\'s possible to enter the ring.
+');
+  Exit = ( 1, 'The path continues, further ahead you notice some rock formations.
+', '', ('none'), -1, 337 );
+  Exit = ( 3, 'The ancient path leads west and turns north further ahead.
+', '', ('none'), -1, 335 );
+
+}
+Room 337 {
+  Name = 'The ancient path';
+  Desc = 'You find yourself located between the bridge and the rock formations.
+As you approach the formations you begin to realize the true size of
+them, about 15 feet tall and almost perfect rectangular shape.
+You feel impressed with the awesome sight.
+';
+  Sector = 'forest';
+  MaxSize = 'giant';
+  ExtraDescr = ( 'rock formation formations', 'The rock formations are made of seven huge monolith placed in a circle.
+You notice it\'s possible to enter the ring.
+');
+  Exit = ( 1, 'To the east you enter the ring of stones. You wonder if it\'s safe.
+', '', ('none'), -1, 339 );
+  Exit = ( 3, 'To the west the ancient path leads across the wooden bridge.
+', '', ('none'), -1, 336 );
+
+}
+Room 338 {
+  Name = 'Grassy plains';
+  Desc = 'You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The plains extend far to the north.
+', '', ('none'), -1, 321 );
+  Exit = ( 3, 'The plains extend far to the east.
+', '', ('none'), -1, 317 );
+  Reset = ( 'O', 304 );
+
+}
+Room 339 {
+  Name = 'The Stones of G\'harne';
+  Desc = 'You are in the center of 7, 15 ft tall monolith like black stones.
+In the center of the ring formed by the monolith you can\'t help
+noticing a big sacrifice altar. The ground is covered with dirt, but the
+altar shows no sign of such. West of here is the ancient path.
+';
+  Sector = 'field';
+  MaxSize = 'giant';
+  ExtraDescr = ( 'death rituals worms engraving picture', 'The pictures are depicting evil rituals.
+You see druids pouring blood over herbs on an altar like this one.
+There are people calling giant worms into existence with dark spells.
+');
+  ExtraDescr = ( 'altar sacrifice', 'You move closer to examine the sacrifice altar of G\'harne.
+The altar is about 3 feet high, 10 feet long and 4 feet wide.
+It has engraved pictures of death rituals and horrifying worms.
+');
+  ExtraDescr = ( 'stones g\'harne monolith', 'The stones of G\'harne tower fifteen feet over you.
+The giant stones are made of a material you haven\'t seen before.
+It resembles black marble, but somehow feels different.
+');
+  Exit = ( 3, 'You see the ancient path and the wooden bridge here.
+', '', ('none'), -1, 337 );
+  Exit = ( 5, 'You see a tunnel down there.
+', '', ('none'), -1, 340 );
+
+}
+Room 340 {
+  Name = 'Dark smelly tunnels';
+  Desc = 'You are standing in a gloomy tunnel leading south and west, right under
+the altar of G\'harne.  The walls are covered with a smelly slime and small
+rotting pieces of a meat like substance, fills the air with an unbearable
+stench.  You might be able to force your way up into fresh air from here.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors', 'solitary');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'meat rotting slime substance', 'You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+');
+  Exit = ( 2, '', '', ('none'), -1, 341 );
+  Exit = ( 3, '', '', ('none'), -1, 342 );
+  Exit = ( 4, 'You welcome the sight of fresh air.
+', '', ('none'), -1, 339 );
+
+}
+Room 341 {
+  Name = 'Dead end of tunnel';
+  Desc = 'The tunnel comes to an abrupt end here. It simply looks like it
+hasn\'t been excavated further.  North of here the tunnel makes a turn east.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors', 'solitary');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 340 );
+
+}
+Room 342 {
+  Name = 'Dark smelly tunnels';
+  Desc = 'You are standing in a gloomy tunnel leading east and west.
+The walls are covered with a smelly slime and small rotting pieces of a
+meat like substance, fills the air with an unbearable stench.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors', 'solitary');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'meat rotting slime substance', 'You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+');
+  Exit = ( 1, 'The tunnel continues in this direction.
+', '', ('none'), -1, 340 );
+  Exit = ( 3, 'The tunnel continues in this direction.
+', '', ('none'), -1, 343 );
+
+}
+Room 343 {
+  Name = 'Dark smelly tunnels';
+  Desc = 'You are standing in a small smelly tunnel under the plains.
+The smell is growing stronger to the west, so is the density of the
+slime and other undeterminable substances ...
+';
+  Sector = 'inside';
+  Flags = ('solitary');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'slime substance', 'BWADR! ...
+');
+  Exit = ( 1, 'The unbearable stench is less intensive in this direction.
+', '', ('none'), -1, 342 );
+  Exit = ( 3, 'The tunnel seems to extend into some kind of cave.
+', '', ('none'), -1, 344 );
+
+}
+Room 344 {
+  Name = 'The Hall of G\'harne';
+  Desc = 'You stand in the hall of G\'harne. The walls are dressed with strange
+carving, symbolizing human sacrifice and people worshipping giant worms.
+Disgusting slime and gore are also very dominant in your view of this room.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors', 'solitary');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'slime gore', 'You puke.
+');
+  Exit = ( 1, 'It looks like a good idea just to run in this direction.
+', '', ('none'), -1, 343 );
+  Reset = ( 'M', 305, 1, 1 );
+  Reset = ( 'G', 310, 0 );
+  Reset = ( 'G', 311, 0 );
+
+}
+Room 345 {
+  Name = 'Steep slope';
+  Desc = 'You try to climb down the slope.
+>
+You slip!
+You fall and tumble.
+You hit your head HARD.
+You die.
+
+You\'ve fallen, and you can\'t get up!
+';
+  Sector = 'field';
+  Flags = ('no_mob');
+  MaxSize = 'giant';
+
+}
+
+
+//=======================================
+}
+

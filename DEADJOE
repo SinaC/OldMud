@@ -1,0 +1,2526 @@
+
+*** Modified files in JOE when it aborted on Sat Apr  6 00:48:03 2002
+*** JOE was aborted by signal 1
+
+*** File 'history.txt'
+RACES:
+14  remort
+ 6  rebirth
+ 2  cursed
+48  normal
+--
+70  total
+
+NPC RACES:  92
+
+normal:
+  Classic:    human            nekojin          lizardman
+  Elf:        sylvan-elf       high-elf         half-elf         grey-elf
+              avariel          drow             sea-elf
+  Dwarf:      hill-dwarf       mountain-dwarf   duergar
+  Gnome:      forest-gnome     rock-gnome       svirfneblin
+  Mythologic: minotaur         satyr            centaur
+  Undead:     shade            mummy
+  Goblinoid:  goblin           hobgoblin        orc              half-orc
+              half-ogre        ogre             uruk-hai         gnoll
+  Giant:      storm-giant      cloud-giant      fire-giant       frost-giant
+              hill-giant       half-giant       troll
+  Faerie:     sprite           quickling
+  Other:      ratling          merfolk          wolfen           diva
+              eldar            dryad            kenku            avian
+              draconian        halfling
+
+cursed:
+  werewolf       vampire
+
+rebirth:
+  ghost          spectre         wight          death-knight
+  ghoul          banshee
+
+remort:
+  seraphim       succubus        pitfiend       lich
+  dracolich      holy-dragon     faerie-dragon  black-dragon
+  doppleganger   mongrelman      gargoyle       crystal-dragon
+  silver-dragon  titan
+
+
+CLASSES:
+15
+
+  mage           cleric          thief          warrior
+  ranger         monk            neuromancer    necromancer
+  paladin        blackguard      barbarian      assassin
+  druid          bard            elementalist
+
+
+GODS:
+9
+  Mota           Rothagor        Tall           Hecate
+  Alexander      Illuminas       Talchior       Buliwyf
+  Kazak
+
+TO ADD A NEW LANGUAGE TO A PLAYER
+ set percentage to 1%
+ and set level to current level
+
+ADDITIONAL AREAS HEADER (Merc, Rom, Smaug):
+ #Style Merc/Rom/Smaug
+ #AREA
+ Area name~
+ Credits~
+ Min_vnum    Max_vnum
+
+PERL SCRIPT TO CHANGE VNUMS:
+  perl -pi~ -e 's/XX(\d\d)/YY\1/g' filename.are
+change every XX follow by 2 numbers  with  YY followed by the 2 same numbers
+
+MERC AREA FILE FORMAT:
+ item type 33 is portal
+           30 is throwing
+
+ATTACH A RUNNING PROCESS
+ gdb ../src/rom
+   attach <pid>
+
+.Spell with levels (level+Prereqs?):
+armor(5+P), enchant weapon(5+P), magic missile(5+P), floating disc(5+P),
+energy drain(5), bless (3), chill touch(5+P), colour spray(5), acid blast(5),
+fireball(5+P), haste(5+P), flamestrike(5), faerie fire(5+P), cone of cold(5),
+faerie fog(5+P), heat metal(5+P), burning hands(5+P)
+
+.Spell with levels not yet implemented:
+slow(5+P), weaken(5+P), shield(5+P), enchant armor(5+P), 
+sleep(5+P), poison(5+P)
+
+.Spell without levels but with Prereqs:
+detect invis(P), detect hidden(P), detect poison(P), dispel magic(P),
+know alignment(P), flame blade(P), frost blade(P), shock blade(P), 
+vampiric blade(P)
+
+.Class almost done (others are far from finished):
+paladin, blackguard, barbarian, ranger, thief, assassin, druid, warrior, bard
+
+Year 2001
+---------
+.Minor modifications.
+  'act_wiz2.C'  'act_info.C'  'skills.C'  'act_wiz3.C'  'magic.C'  'save.C'
+  'handler.C'  'class.C'  'update.C'  'db.C'  'act_wiz.C'  'fight.C'
+  'act_move.C'  'effects.C'  'quest.C'  'noncombatskills.C'  'act_info.C'
+  'act_obj.C'  'combatskills.C'  'bit.C'  'data.C'  'raceskills.C'
+  'magic3.C'  'olc_act.C'  'act_comm.C'  'string.C'  'magic2.C'
+
+// 10/09/2001
+.xp formula has been slightly modified to give more xp at "low" levels.
+ + holy weapon has been fixed.
+  'fight.C'
+
+.little bug found in group check.
+  'class.C'
+
+.licanthropy disease has been slightly modified: duration, msg and moon phase.
+  'disease.C'
+
+.damage reduction only for mobile.
+  'fight.C'
+
+.FORM_FUR added.
+ + nekojin, minotaur, centaur, wolfen, satyr, werewolf
+ 'olc_value.h'  'tables.C'  'names.C'  'disease.C'
+
+// 31/07/2001 --> 22/08/2001
+scripts reload done JUST A BIG MEMORY LEAK (180k).
+  'dbscript.C'
+
+.new method on string in script: startsWith(arg)  check if this starts with arg
+ + new predef function on mob: addPractice(pra)
+ + new trigger: onLoad
+  'execute.cc'  'scrpred.C'
+
+.player has their own class: player  written in tmp.script
+ + assigned in load_char_obj
+  'save.C'
+
+.damage reduction in the beginning of damage func has been removed.
+ + chill touch has been modified.
+ + SHOULD MODIFY EVERY SPELLS/SKILLS/POWERS, LESS DAMAGE /3
+  'fight.C'  'magic.C'
+
+.questor WRITTEN IN SCRIPT HAS BEEN STARTED.
+  '../data/scripts/tmp.script'
+
+.disease HAS BEEN STARTED.
+ + do_bite and OFF_BITE added.
+ + OFF_BITE added to following races:
+    werewolf, bear, cat, dog, fox, lizard, snake, wolf, wyvern
+ + 2 new files:  disease.h  and  disease.C
+ + new AFF2_NOEQUIPMENT added, can't wear any equipment when affected.
+ + change_race has an additional argument: casting_level
+ + race lycanthropy has been modified: AFF2_NOEQUIPMENT
+  'merc.h'  'tables.C'  'olc_value.h'  'affects.C'  'bit.C'  'olc_act.C'
+  'olc.C'  'olc.h'  'fight.C'  'combatskills.C'  'combatskills.h'  'gsn.h'
+  'db.C'  'handler.C'  'const.C'  'olc_save.C'  'db2.C'  'update.C'
+  '../data/skills/skills.txt'  '../data/races/race.txt'
+
+.help accessible during creation SHOULD BE only in the right category: race, 
+  classes/skills, ...
+ just have to test ch->desc->connected
+  'act_info.C'
+
+.OnKilled SHOULD BE REPLACED with onDied, and onKilled should be placed
+  in damage, POS_DEAD case before act(....is DEAD);
+  'fight.C'  'dbscript.C'
+  every scripts with onKilled trigger
+
+.advertice and customize help added, called in nanny.
+  'comm.C'  '../area/rom.hlp'
+
+.spectre has been modified: skill berserk instead of affect berserk.
+  '../data/races/race.txt'  '../data/races/pcrace.txt'
+
+.additional test in group load and rate set has been added.
+  'class.C'
+
+.flesh golem, lesser golem, greater golem and soulblade have been modified.
+  'magic3.C'
+
+.onKilled result is used in raw_kill:
+ 0     : normal
+ bit 1 : don't call death_cry
+ bit 2 : don't call make_corpse  only for NPC
+  'fight.C'
+
+.deathtrap dungeon scripts written
+ + each rooms SHOULD BE SET to no_recall except the first/last one and some other traps.
+ + each exit with a closed door SHOULD BE SET to NOPASS
+  '../data/scripts/deathdun.script'
+
+.chain_lightning: additional test on in_room added.
+  'magic.C'
+
+.obj->cost = 0 removed in reset_room 'O' case.
+  'db.C'
+
+.msg: XXX has just been reset      has been removed.
+  'db.C'
+
+.raw_kill and silent_kill affects removing has been modified, keep PERMANENT affect.
+  'fight.C'  'update.C'
+
+.afstr has been modified.
+  'affects.C'
+
+.act_new has been replaced with act in:
+ trivia, ooc, grats, quote, music, question, answer
+  'act_comm.C'
+
+.armor msg in do_score: range has been modified.
+  'act_info.C'
+
+.do_help has been modified, racehelp, classhelp, skillhelp too use paging now.
+ + groups_help added.
+  'act_info.C'  'skills.C'  'skills.h'
+
+.flag_value accept 'none'.
+  'bit.C'
+
+.classes methods are in hash table instead of list   max collision=2.
+  'script2.h'  'scrhash.C'  'scrhash.h'  'execute.cc'  'dbscript.C'  'scrpred.C'
+
+.some colors has been modified in show_char_to_char_0, do_exits(auto), do_look.
+  'act_info.C'
+
+.new material added: malachite.
+  '../data/material.txt'
+
+.new npc/pc race: frost-giant.
+  '../data/races/race.txt'  '../data/races/pcrace.txt'  '../area/race.help'
+
+.tell has been modified to be able to see the teller even if sleeping, blind, ...
+  'act_comm.C'
+
+.hidden exit are not hidden when opened.
+  'act_info.C'
+
+.invis/weapon flag/magic on item is shown if holylight too.
+  'act_info.C'
+
+.change_race changes size too.
+  'handler.C'
+
+.medit_race: |=  instead of  =
+  'olc_act.C'
+
+.linkdead added before player in show_char_to_char_0.
+  'act_info.C'
+
+.do_areas has been modified to accept 2 optional parameters: low_level and max_level
+ + low_level and max_level are automatically set in medit_level, load_mobiles, 
+  load_mob_rom and load_old_mob
+  'db.C'  'olc_act.C'  'db2.C'  'mem.C'
+
+.first mummy/zombie's cost was only 4 instead of 12 and 6 (respectively).
+  'magic3.C'
+
+.potion/pill decrease thirst/hunger.
+  'act_obj.C'
+
+.players/mobs can't shield block if they don't have the skill.
+  'fight.C'
+
+."A new note have been posted (board %s)"  is sent to every concerned player.
+  'board.C'
+
+.free_room_index reset/extra_descr freeing part has been modified   bug fixed.
+  'mem.C'
+
+.bug fixed in note line deletion when trying to delete the 1st line.
+  'board.C'
+
+.wail and lycanthropy get_skill test added.
+  'raceskills.C'
+
+.skill_type has 2 more fields:
+  bool dispellable        // true if the spell can be dispelled/cancelled
+  char* msg_dispel        // msg when the spell is dispelled
+ to do an automatic dispel_magic and cancellation.
+ + skills.txt file has been modified.        DON'T FORGET TO MODIFY IT
+ + spell_cancellation  and  spell_dispel_magic  has been modified.
+ + show_skill and set_skill has been modified.
+  'merc.h'  'magic.C'  '../data/skills/skills.txt'  'act_wiz3.C'
+
+.extra description modified: more than one keyword is allowed in olc.
+ + ed function: change <old keyword> <new keyword> allow to change the keyword(s)
+  'olc_act.C'  'act_wiz2.C'  'act_wiz3.C'
+
+.reload_race has been completed.
+  'data.C'  'restriction.C'  'restriction.h'  'bit.C'  'bit.h'
+  'affects.C'  'affects.h'  'db.C'
+
+.redit_delete, medit_delete and oedit_delete: security check added..
+  'olc_act.C'
+
+.pFile with a non-existant container doesn't freeze anymore the mud.
+  'save.C'
+
+.wiznet has been moved in a new file.
+ + new files: wiznet.C  wiznet.h
+ + WIZ_BUGS added called from bug(...).
+  'merc.h'  'act_wiz.C'  'act_comm.C'  'act_wiz2.C'  'act_wiz3.C'  'comm.C'
+  'const.C'  'db.C'  'fight.C'  'interp.C'  'noncombatskills.C'  'punish.C'
+  'update.C'
+
+.additional optional argument for resetarea: hard.
+  extract every mobiles from area before resetting the area.
+  'act_wiz3.C'
+
+.ACT_FREE_WANDER has been added: can leave an area without being extract.
+  'olc_value.h'  'tables.C'  'names.C'  'update.C'
+
+.obj_use_power added.
+  'magic.C'  'power.C'  'power.h'  'merc.h'  'magic.h'  'act_obj.C'
+  'effects.C'  'song.C'
+
+.burning sector does fire_effect.
+  'update.C'
+
+.new item type: ITEM_LEVER.
+ + do_pull has been modified to manage lever.
+ + new script trigger: onPull
+ + new script  mobTest (mob 299), objTest (obj 294 lever)
+  'olc_value.h'  'tables.C'  'act_obj.C'  'act_wiz2.C'  'const.C'  'db2.C'
+  'db.C'  'olc_act.C'  '../data/script/tmp.script'
+
+.new predef functions: 
+ obj_cast(target,spell,lvl)(NOT YET FINISHED), obj_echo(msg), obj_value(), 
+  obj_oload(vnum), obj_mload(vnum).
+ mob_is_affected( name ).
+  'scrpred.C'
+
+.do_look: every call to onLook has been modified to take care of the result.
+ + show_char_to_char_1 has been modified.
+ + granite statue script mob20308 has been modified: the description is modified
+   during 900 ticks (1 hour) so players must wait before giving him his arm again.
+  'act_info.C'  '../data/script/faerie.script'
+
+// 25/07/2001 --> 26/07/2001  =========> release
+.easy, normal, hard medit method have been added to automatically set hitdice,
+  manadice, damdice, hitroll, ac for mobiles.
+ + new files: olc_value.C
+  'olc.h'  'olc.C'  'olc_act.C'  'olc_value.C'
+
+.bug fixed in scripts: shopkeeper and repairshop  <= instead of <.
+  '../data/script/shopkeeper.script'  '../data/script/general.script'
+
+.max casting rule for each class added.
+ 1: every spells at casting lvl 3              for other
+ 2: every spells at casting lvl 4              for mage/elementalist
+ 3: one to level 5 and the others to level 3   for necromancer
+ 4: one to level 5 and the others to level 4   for necromancer+mage
+99: every spells at casting lvl 5              for immortals :)
+ + new field in class_table and class.txt file
+  'data.C'  'skills.C'  '../data/classes/pc/class.txt'  'classes.C'  'classes.h'
+
+.don't yet see the room exit description if it's a closed door.
+  'act_move.C'
+
+.gamble.C  gamble.h  have been removed, gamble and uncover command removed.
+  'interp.h'  'interp.C'
+
+.do_motd, do_imotd, do_rules, do_story, do_worth have been removed.
+  'act_info.C'  'interp.C'  'interp.h'
+
+.shroud does slow now.
+  'fight.C'
+
+.janitor takes every item types, not only trash and drinkcontainer.
+  '../data/script/special.script'
+
+.ITEM_TAKE is automatically added to wear_flags when creating an new item.
+  'olc_act.C'
+
+.minimum position is checked in do_use  SHOULD check every skills min. position 
+  in skill file.
+  'skills.C'
+
+.4th, 5th, 6th and 7th attacks for mob have been added in mob_hit.
+  'fight.C'
+
+.skills/spells/power_stat can be used on mob even if they don't have a class.
+  'act_wiz3.C'
+
+.blind is less powerful on mob than on player, check_blindfighting test for mob_hit
+  modified, check_parry, _dodge, ... allowed if don't see target.
+  'fight.C'
+
+.additional parameter for afstring: bool spl  is true if must take care of ch->level.
+  'affects.C'  'affects.h'  'act_info.C'  'act_wiz2.C'  'act_wiz3.C'  'magic.C'
+
+.don't gain xp in battle.
+  'fight.C'
+
+.trains are now shown in do_mstat.
+  'act_wiz2.C'
+
+.new imm command: areacount: count pc, npc and obj in an area.
+  'act_wiz3.C'  'interp.h'  'interp.C'
+
+.spell failed replaced with power failed in powers.
+  'power.C'
+
+.do_pray has been modified.
+  'act_comm.C'
+
+.fourth/fifth attacks added to act_warrior in get_skill.
+  'handler.C'
+
+.can_see_ooc have been created to be used in commands like who, whois, count.
+ + asleep players see the who list now.
+  'handler.C'  'handler.h'  'act_info.C'
+
+.automatic branding mark on branded player.
+ + load_gods have been moved after area loading.
+ + new field in god_data: brand_mark
+ + new field in god data file: mark vnum
+  'merc.h'  'data.C'  'act_wiz3.C'  'db.C'
+
+.item 295 is the mota's brand.
+ + new obj program for item 295 in file brand.script.
+ '../data/script/brand.script' '../data/script/list'
+
+// 22/07/2001
+.config command added, will replace every auto_XXX, brief, compact, color, noloot, ...
+  'act_info.C'  'act_comm.C' (do_colour came from that file)
+
+.help on alignment and etho added.
+  '../area/rom.hlp'
+
+.casting lvl for powers has been removed.
+  'merc.h'  'power.C'
+
+.onFight(fighting) script trigger added in violence_update.
+  'fight.C'  'dbscript.C'
+
+.dam with claws have been decreased.
+  'fight.C'
+
+.clan recall added.     recall house added but NOT YET CODED.
+  'noncombatskills.C'
+
+.when a player in a clan died, he goes in his clan instead of temple.
+  'fight.C'  'update.C'
+
+.HAVE STARTED to create reload_XXX functions to be able to reload table from files online.
+ reload_race  reading race/pcrace works
+  'data.C'  'act_wiz3.C'
+
+.advance_level: psp and mana gain have been updated.
+  'update.C'
+
+.disarm is in white now.
+  'combatskills.C'
+
+.reset_always global variable have been added: area is resetted even if a player is within.
+  'db.C'  'db.h'  'act_wiz3.C'
+
+.bug fixed in do_help: MAX_PC_RACE instead if MAX_RACE.
+  'act_info.C'
+
+.color added in dam_message: green->ch damages, red->vict damages, yellow->other damages.
+  'fight.C'
+
+// 19/07/2001  ======> release
+.remove_obj can be done even if no_remove but need to immortal.
+  'act_obj.C'
+
+.warning message if two identique classes are read.
+  'dbscript.C'  'script.h'  'scrhash.C'
+
+.heal psp have been added.
+  'healer.C'
+
+.when a note is posted, a msg is sent to everyone.
+  'board.C'
+
+.gethostbyaddr have been removed in init_descriptor, cos' a mud freezing sometimes.
+  'comm.C'
+
+.maximum average damage for weapon has been fixed to 500.
+  'olc_act.C'
+
+.recomproom has been added in redit_sector, redit_psp, ...
+  'olc_act.C'
+
+.help added:songlist, trophy, knock, stance, pull, clanlist, hometown,
+  jog, enter, donate, quiet, quote, hints, grats, question, answer, combine,
+  scan, clantalk, info, groups, channels, kill, murder, nofollow, replay,
+  sit, read
+
+.memory leak removed in do_resets.
+  'olc.C'
+
+.drowning doesn't work on FORM_UNDEAD, FORM_INTANGIBLE and FORM_MIST.
+  'update.C'
+
+.UMAX, UMIN and URANGE have been replaced with inline function instead of macros
+  to avoid problem when using UMAX with a number_range() within: 
+  example: UMAX( 1, 5 - number_range(3,6) ) could give -1, 0, 1 or 2, instead of only 1.
+  'merc.h'
+
+// 18/07/2001 --> 19/07/2001
+.some skills help added: counter, cleave, tailsweep, dual wield, circle,
+  resize, flight, speedup, invisibility and mistform.
+  '../area/skills.hlp'
+
+.players below level 5 don't suffer from starvation.
+  'update.C'
+
+.brand mark wear location has been added.
+ + find a tiny bug in wear_table in olc_act.C  WEAR_FLOAT was missing
+  'olc_act.h'  'act_info.C'  'act_obj.C'  'handler.C'  'names.C'  'olc_act.C'
+  'tables.C'
+
+.some info are not shown to player too low level.
+  'act_info.C'  'affects.C'
+
+.gset added for immortal: goto set.
+ + goto has been modified.
+  'merc.h'  'act_wiz3.C'  'save.C'  'act_wiz.C'  'interp.h'  'interp.C'
+  '../data/commands.txt'
+
+.mmatch and omatch have been modified to give the area name.
+  'act_wiz2.C'
+
+.charmies recall with the master now.
+  'noncombatskills.C'
+
+.socket now shows cheater, player with same ip, in the a different color.
+  'act_wiz.C'
+
+.do_programs have been modified to allow to see function on program.
+  'act_scri.C'
+
+// 16/07/2001          VERSION BETA 1.0
+.branding is coded: to be able to cast his/her godspell a player has to be
+  branded by his/her god.
+ + new command: branding   to brand players
+  'merc.h'  'act_wiz3.C'  'magic.C'  'comm.C'  'save.C'  'recycle.C'  
+  'act_info.C'
+
+.omatch can check value (0-->4).
+  'act_wiz2.C'
+
+.gcstat can be used to dump garbage collector info.
+  'act_wiz3.C'
+
+.following areas have been modified (resets was corrupted):
+  Midgaard, Haon Dor, Elemental Canyon, Catacombs, Chapel, The Dungeon,
+  Thalos, Sands of Sorrow, Gnome Village, Holy Grove, High Tower,
+  Gangland, Mahn-Tor, Mega City One, Old Thalos, Moria, The Bazaar,
+  Pyramid, Redferne's, Troll Den, Wyvern's Tower, Sesame Street,
+  Ancalador, The Abandonned Cathedral, Kerofk, Ghost Town, Air,
+  Dragon Tower, New Ofcol
+
+.no more commands associated with skills (have to use 'use'):
+  backstab, bash, berserk, dirt kicking, disarm, envenom, kick, rescue, trip,
+  circle, sharpen, roundhouse kick, tailsweep, whirlwind, deathgrip, 
+  meditate, butcher, lure, pillify, bladethirst, cleave, herb, bandage, 
+  nerve, shield cleave, find water, rear kick, forage, lash, pugil, spike,
+  warcry, crush, barkskin, stake, align detect, magic detect, detect exits,
+  poison detects, wail, resize, forge, vorpalize, songs, campfire, 
+  hunt, hide, lore, pick lock, sneak, steal, speedup, invisible, feed,
+  war drums, repair, morph
+
+  recite, brandish, zap and recall are still existing.
+
+.bool is_wearable( OBJ_INDEX_DATA, wear_loc ) have been created to check if
+  an item can be worn on a certain location, used in add_resets and
+  reset_room to check if the reset is okay.
+ + an automatic fix has been added un reset_room.
+ + int find_suitable_wearloc( OBJ_DATA ) have been created.
+  'handler.C'  'handler.h'  'db.C'  'olc.C'
+
+.help about arena, auction, newbie, trivia, language, every language skill
+  have been created/modified.
+  '../area/help.hlp'  '../area/rom.hlp'
+
+.Ellia has been replaced with Hecate (don't forget to change each pFile).
+  '../data/gods.txt'
+
+.New rules help.
+  '../area/rom.hlp'
+
+// 13/07/2001 --> 15/07/2001
+.bugs fixed:
+  roundhouse kick: pChar instead of victim
+  fist of fury: number of hits was not correct
+  buddha palm: was doing too many damage, new is 2/3 of old damage
+  'P' case in reset_room was crashing
+  'combatskills.C'  'db.C'
+
+.permanent non-dispellable affects have a special duration: DURATION_PERMANENT  (-99)
+ + used in check_dispel and saves_dispel
+ + affect duration for sprite invisibility and quickling haste has been set to -99
+  'merc.h'  'magic.C'  'raceskills.C'
+
+.script trigger result is returned.
+  'script.C'
+
+.energy fist and burning fist does shock_effect and fire_effect.
+  'fight.C'
+
+.new power: inertial barrier: gives protection_evil and resist_negative
+ + new file: magic4.C
+ + new spell: ice storm: ice based area attack spell
+              moonbeam: light based attack spell, almost same as sunbeam
+  'power.C'  'power.h'  'magic4.C'  'magic.h'
+
+.min_mana has been replaced with min_cost in skill_type struct.
+  'merc.h'  'act_obj.C'  'db.C'  'magic.C'  'skills.C'  'act_wiz3.C'  'power.C'
+
+.load_old_rooms and load_old_resets have been created to read Merc area files.
+ + load_old_obj, load_old_mob and convert_mobiles have been upgraded.
+ + load_resets shows bug message if arg2 or arg4 is equal to 0.
+  'db.C'  'db2.C'
+
+.mmatch can check alignment range and vnum range.
+ + omatch can check vnum range.
+  'act_wiz2.C'
+
+.load_area_rom, load_mob_rom, load_obj_rom and load_room_rom have been created
+  to read Rom2.4 area files.
+ + FIXME: in load_obj_rom: dunno what's the utility of letter 'L'
+  'db.C'
+
+.boot_db() has been slightly modified to be more clear/clean.
+  'db.C'
+
+.new materials: dragonscale and jelly.
+  '../data/material.txt'
+
+.new NPC race: fish
+  '../data/race.txt'
+
+.new areas: Animal Town, Faerie Glen, Deathtrap Dungeon, Firetop Mountain, 
+  Malathar, Mount Doom, The Underdark, Valley Glade, The Keep of the Warlock.
+ + new directory ../area/additional_areas
+ + new help file: area.hlp  giving help about areas
+ + Thanks Yaegar for all these areas :)
+ '../area/area.lst'  '../area/additional_areas/*.are'
+
+.racial language are used now in IC channels:
+  say, IC, dirsay, whisper, yell,
+ + languages can be practiced till 90%.
+ + 2 new languages: underdish  for underdark creatures (drow, svirfneblin, duergar)
+                    lizardish  for lizardman
+  'language.C'  'language.h'  'act_info.C'  
+  '../data/races/pcrace.txt'  '../data/skills/skills.txt'  'const.C'
+
+.smaug are files are supported:
+  load_version_smaug, load_mob_smaug, load_obj_smaug, load_room_smaug,
+  load_reset_smaug.
+ + new file: smaug_load.C
+  'db.C'  'smaug_load.C'
+
+.rmatch can check size
+ + fix flag bug in rmatch
+  'act_wiz2.C'
+
+.vampire race modified:
+  immunities, resistances, vulnerabilities, affects, stats, align 
+   and allowed classes modified.
++ 2 new race skills: 
+   mistform: give pass_door, AC and remove vuln_daylight, can't do damage in combat,
+     can't wear any stuff except floatie and add res_weapon.
+   flight: allows the vampire to fly.
+  '../data/races/race.txt'  '../data/races/pcrace.txt'
+  'raceskills.C'  'db.C'  'gsn.h'  'const.C'  '../data/skills/skills.txt'
+  'raceskills.h'  'act_obj.C'  'fight.C'
+
+.operator NOR on affects has been added.
+  'merc.h'  'affects.C'  'handler.C'  'tables.C'
+
+.new dam, vuln, res, imm: XXX_DAYLIGHT.
+  'olc_value.h'  'tables.C'  'names.C'  'handler.C'  'condition.C'  'raceskills.C'
+  'update.C'
+
+.damage over time update have been added (every 12 seconds)
+ + managed daylight damage done to char vulnerable to daylight (vampire)
+ + WILL MANAGE DOT_AFFECT doing damage over time (like in Everquest)
+ 'update.C'
+
+.new script triggers: char->onKilled(killer), 
+                      obj->onDamage(damage),
+                      obj->onWear(ch), obj->onWorn(ch),
+                      obj->onRemove(ch), obj->onRemoved(ch).
+ + new script mob predefined functions: 
+       damage( dam, dam_msg, other_msg, die_msg ),
+       getCurrentAttr(whichone) giving cstat(whichone)
+       getBaseAttr(whichone)           bstat(whichone)
+         the type of value returned depends if whichone is a flag or an int
+         CAN REMOVE classes(), sex(), currentAffect(), baseAffect, alignment(), etho()
+       transfer(vnum)  transfer this to the room (vnum)
+       echo(msg)  tell msg to everyone in the room
+  'dbscript.C'  'scrpred.C'  'fight.C'  'act_obj.C'  'handler.C'  'condition.C'
+
+.scripts of armsmaug.are have been rewritten NOT COMPLETED/NOT TESTED.
+ + scripts of faerie.are have been rewritten.
+  '../data/script/armsmaug.script'  '../data/script/list'
+  '../data/script/faerie.script'
+
+// 28/06/2001 --> 01/07/2001
+.some bugs fixed:
+  recomproom(pRoom) has been added in reset_area
+  in do_score: >= LEVEL_IMMORTAL  instead of  > LEVEL_IMMORTAL
+  IS_QUEST_TOKEN was wrong
+  added a SET_BIT( obj->base_extra ...  everywhere SET_BIT( obj->extra_flags ...   
+   was used
+  is_safe: mobiles with same group number was unable to fight, add a test  group <> 0
+  a few IS_SET(ch->act, ACT_IS_SAFE) have been added
+  'db.C'  'act_info.C'  'handler.C'  'db2.C'  'act_obj.C'  'olc_act.C'  'fight.C'
+
+.script healer, specCastAdept has been modified.
+  '../data/script/healer.script'  '../data/script/special.script'
+
+.afremove can manage affect on char, obj and room.
+  'act_wiz3.C'
+
+.restrictions work in the same way as affected, using  enchanted flag in obj struct.
+  'restriction.C'  'handler.C'  'save.C'  'act_wiz2.C'  'act_wiz3.C'  'db.C'  'magic.C'
+  'raceskills.C'
+
+.additional affect on campfire: add 1 in room light.
+  'noncombatskills.C'
+
+.rmatch works with room flags.
+  'act_wiz2.C'
+
+.a recompute, recompobj and recomproom was missing in char_update, obj_update 
+  and room_update.
+ + recompute and recomproom was missing in extract_obj
+  'update.C'
+
+// 20/06/2001 --> 25/06/2001
+.die_follower has been slightly modified.
+  'act_comm.C'
+
+.unique extra_flags is checked in reset_room and do_resets (in OLC)
+  'db.C'
+
+.new imm command: findfollower: list every players which follower a certain god.
+  'act_wiz3.C'  'interp.h'  'interp.C'
+
+.resize disabled till the restriction bug is fixed.
+  '../data/disabled.txt'
+
+.new monk skill: fist of fury  multiple punches
+  'combatskills.C'  'combatskills.h'  'gsn.h'  'db.C'  'const.C'
+
+.hitroll depends on dexterity instead of strength.
+ + GET_HITROLL and GET_DAMROLL and GET_AC has been moved in const.h
+  'const.C'  'merc.h'  'const.h'
+
+.little bug fixed: sector swim was not accessible if swimming.
+  'act_move.C'
+
+.room affects have been implemented:
+ room_flags, light, sector_type, heal_rate, mana_rate, psp_rate and max_size have been
+  replaced with 2 arrays of 7 elements: baseattr and curattr  (same thing as char affects)
+ + new entry in ROOM_INDEX_DATA: affected  to store the room affect
+ + new table: room_attr_flags.
+ + new entry in flag_stat_table.
+ + campfire check in hit/mana/psp/move_gain has been removed: campfire
+  add an affect to the room adding 100% in hit/mana/psp recovery rate.
+ + recomproom, affect_to_room, is_affected_room, affect_remove_room, affect_strip_room
+  have been added in handler.C
+ + in OLC, when modifying room info, modify baseattr and recomproom is called after
+  edit_done.
+ + new entry in skill_type: msg_room  store a wear off msg for room: skills.txt has been
+  modified.
+ + new table in affects.C: room_attr_table.
+ + order of affects computation for recompute, recompobj and recomproom:
+    recompute
+     1. char affects from room
+     2. char affects from equipement obj_index_data
+     3. char affects from equipement
+     4. char affects from char
+    recompobj
+     1. obj affects from room
+     2. obj affects from obj_index_data
+     3. obj affects from obj
+    recomproom
+     1. room affects from room
+     2. room affects from people in the room
+     3. room affects from obj_index_data in the room
+     4. room affects from obj in the room
+ + effects have been "optimized" not all those recompobj, recompute.
+ + recomproom, recompobj, recompute have been added/removed everywhere where it
+    was necessary.
+ + affect_to_char, _to_obj, _to_room }_  have been 
+   affect_remove, _obj, _room        }   optimized
+ + wiztest shows what can been done with room affects.
+ + campfire has been modified, doesn't yet add an affect to the room, the campfire
+    is created with room affects in it adding 100% in hp, mana, psp.
+ + we can even add a room affect on a char, for example: an affect transforming
+    the sector in the room where the player is to burning
+ + ITEM_LIGHT WILL BE REMOVED and replaced with a room affect light+1 on item.
+  'merc.h'  'tables.C'  'bit.C'  'handler.C'  'handler.h'  'affects.C'  'effects.C'
+  + almost every files
+
+some examples of room affects, every affects last 3 minutes:
+  // Affect added to the room:
+  //  upgrade maxhp by 100 for everyone in the room
+  afsetup(af,CHAR,max_hit,ADD,100,3,ch->level,0 /*inherent affect*/);
+  affect_to_room(ch->in_room,&af);
+  //  every items in the room will be invisible
+  afsetup(af,OBJECT,NA,OR,ITEM_INVIS,3,ch->level,0 /*inherent affect*/);
+  affect_to_room(ch->in_room,&af);
+  //  room's psprate is reduced by 50
+  afsetup(af,ROOM,psprate,ADD,-50,3,ch->level,0 /*inherent affect*/);
+  affect_to_room(ch->in_room,&af);
+  // Affect added to the player
+  //  the player will change the sector of the room, he/she's in, to burning
+  afsetup(af,ROOM,sector,ASSIGN,SECT_BURNING,3,ch->level,0 /*inherent affect*/);
+  affect_to_char(ch,&af);
+  //  the player will change the maximal size of the room, he/she's in, to tiny
+  afsetup(af,ROOM,maxsize,ASSIGN,SIZE_TINY,3,ch->level,0 /*inherent affect*/);
+  affect_to_char(ch,&af);
+
+
+
+// 12/06/2001 --> 17/06/2001
+.default maximum value of item in container is set to infinite (-1), see do_reset
+ + new help added: addresets (additional info), mobexampleresets 
+    and objexampleresets (some examples)
+  'olc.C'  'olc.hlp'
+
+.show_condition has been modified, perfect only if condition is 100.
+  'condition.C'
+
+.afk is removed when a command is entered.
+  'interp.C'
+
+.mobiles/objects on the ground/objects in container/objects on mobiles don't
+ repop if there is someone in the room.
+  'db.C'
+
+.condition on weapon is now used on one_hit  REMOVED.
+  'fight.C'
+
+.combat skills don't do extra affects if damage are not done (immune, miss, ...).
+  'combatskills.C'
+
+.some tables XXX_app has been modified  (value 25-->30).
+  'const.C'
+
+.cast has an additional optional parameter: casting level.
+  cast armor 4  will cast armor level 4 on the caster
+  cast 'faerie fire' victim 2  will cast 'faerie fire' level 2 on target
+  cast fireball 2  will cast fireball level 2 on current target if already in combat
+ + target_name type has been modified, from  char *  to  char [MAX_STRING_LENGTH]
+  'magic.C'  'magic2.C'  'magic3.C'
+
+.skill 'exits detect' has been renamed to 'detect exits'
+ + spell 'power holy word' has been renamed to 'higher holy word'
+  'const.C'  '../data/skills/skills.txt'
+
+.2 additional script: healer and specCastAdept.
+ + new predefined functions for mob.
+ + MANA option for healer script not yet implemented, neither PSP
+  'scrpred.C'  '../data/scripts/special.script'  '../data/scripts/healer.script'
+  '../data/scripts/list'
+
+.psi powers are now different from spells.
+ + new attr: attr_max_psp
+ + new field in mob_index_data: int psp[3]
+ + new field in room_index_data: int psp_rate
+ + new field in char_data: int psp
+ + new commands: power       allow to use powers (~cast)
+                 psi         give the list of known powers (~spells)
+                 powerstat   give the list of powers a char knows (~spellstat)
+ + 2 new files added: power.C  power.h
+ + every neuromancer spells have been moved in power.C
+ + some help files modified
+ + new name/lookup functions: classtype_name/lookup, skilltype_name/lookup
+ + skill_type_init and skill_type has been modified:
+    spell_fun and do_fun has been removed and replaced with action_fun
+ + skill_type has an additional parameter indicating what's the type of the skill:
+    type has been added (TYPE_SKILL, TYPE_SPELL, TYPE_POWER)
+ + every test on spell_fun has been replaced with test on type
+ 'merc.h'  'power.C'  'power.h' 'magic.C'  'skills.C'  'const.C'
+  + almost every files
+
+.detonate, windwall and disintegrate have been upgraded.
+  detonate can damaged item into victim's inventory.
+  disintegrate can't disintegrate PC's but can destroy PC's equipement
+  'power.C'  'magic3.C'
+
+.is_safe and is_safe_spell has been modified to take care of NPC's group.
+  'fight.C'
+
+.a test on ch->in_room in do_cast before check_killer cos' sometimes
+  a spell can be mirrored and kill ourself, and in_room is NULL.
+  'magic.C'
+
+.some powers have been upgraded/fixed.
+  'power.C'
+
+.new power: telepathic gate, ki hai.
+  'power.C'  'power.h'  'const.C'
+
+.new skill for mental user: concentration  heals psp faster (~meditation for mana).
+  'update.C'  'const.C'  'db.C'  'gsn.h'
+
+// 08/06/2001 --> 11/06/2001
+.ACT_UNDEAD replaced with FORM_UNDEAD is every skills/spells.
+  'combatskills.C'
+
+.some recompobj and recompute add in effects.
+  'effects.C'
+
+.resetarea can be used with an argument area vnum or area name.
+  'act_wiz3.C'
+
+.clantalk has color now :))
+  'act_comm.C'
+
+.skillstat and spellstat are now valid on mob.
+ + groupstat adds.
+  'act_wiz3.C'
+
+.repair has been modified, remove acid_breath affects now.
+ + acid_breath effects have been modified.
+ + new function: affect_strip_obj.
+ + effects take care of object material.
+ + !!!!!!!!! repairshop needs the repair skill ==> dwarves !!!!!!!!!!!!!!! 
+  'raceskills.C'  'effects.C'  'handler.C'  'handler.h'
+
+.quest reward objects has been modified.
+  'quest.C'
+
+.flying and manashield are now shown in show_char_to_char.
+  'act_info.C'
+
+.add some message when spell failed or if already affected.
+  'magic.C'  'magic2.C'  'magic3.C'
+
+.magic mirror affect is now used in do_cast and obj_cast_spell.
+ + some damage spells with  ch == victim  test has been modified 
+  --> changed failure message.
+  'magic.C'  'magic2.C'  'magic3.C'
+
+.nwrite added in interp table.
+  'interp.C'  'interp.h'  'board.h'
+
+.every XXX_name functions has been moved from handler.C to new file: names.C
+ + scrpred2.C has been renamed in scrpred.C
+ + script2.C has been renamed in script.C
+  'names.C'  'names.h'  'handler.C'  'handler.h'
+  'act_info.C'  'act_move.C'  'act_obj.C'  'act_wiz.C'  'act_wiz2.C'  'act_wiz3.C'
+  'affects.C'  'class.C'  'classes.C'  'comm.C'  'fight.C'  'magic.C'  'noncombatskills.C'
+  'olc_act.C'  'olc_save.C'  'scrpred.C'
+
+.every combat/noncombat/race commands has been moved from interp.h to new files: 
+  combatskills.h, noncombatskills.h and raceskills.h
+ + constants moved from interp.h to const.h
+  'interp.h'  'noncombatskills.h'  'combatskills.h'  'raceskills.h'  'const.h'  
+  'act_info.C'  'act_wiz2.C'  'const.C'  'fight.C'  'hunt.C'  'interp.C'  'save.C'
+  'skills.C'  'special.C'
+
+.new monk combat skill: buddha palm depends on dexterity and strength
+  'combatskills.C'  'combatskills.h'  'const.C'  'gsn.h'  'db.C'
+
+.some bugs fixed: shroud, onPulseXXX, set char XXXX god.
+  'update.C'  'magic3.C'  'act_wiz2.C'
+
+.damage of created weapons (ice knife, flame blade, soul blade, holy blade, unholy blade)
+  has been raise down (MAX: 21d10 for a hero).
+  'magic2.C'  'magic3.C'
+
+.spell can't be missed if it's a race spell, even if intelligence is low.
+  'magic.C'
+
+// 05/06/2001
+.bug fixed in spell_ultrablast, in fwrite_char, in do_gtell, in immtitle.
+  'magic2.C'  'save.C'  'act_comm.C'  'act_wiz3.C'
+
+.new dump function: do_gc_dump.
+ + some modifications in gc_dump
+  'gc.C'  'gc.h'  'act_wiz3.C'
+
+.2 new imm commands: ostatvnum, mstatvnum gives stat with vnum.
+  'act_wiz3.C'  'interp.h'  'interp.C'
+
+.condition is now show before object description: format_obj_to_char.
+  'act_info.C'
+
+.autotick is on: COMM_TICK.
+  'merc.h'  'tables.C'  'act_info.C'  'update.C'  'handler.C'
+
+// 28/05/2001 --> 31/05/2001
+.quest datas are now saved in pFile.
+ + new function: find_mob
+  'save.C'  'quest.C'  'handler.C'
+
+.player's address is now saved in pFile, so I can check offline the IP.
+  'save.C'
+
+.command's extra info (position, level, log, show) are saved in file.
+ + new data file: '../data/commands.txt'
+ + command extra info can be changed online: commandset, commandshow, commandsave.
+  'interp.C'  'interp.h'  'merc.h'  'act_wiz3.C'
+
+.new command: use <skill name>
+ + skill_type and skill_type_init has an additional field: DO_FUN* do_fun.
+ + skill_table has been upgraded.
+  'act_wiz3.C'  'const.C'  'merc.h'
+
+.gsn have been been moved from merc.h to gsn.h.
+  + new file: gsn.h
+ 'merc.h'  'gsn.h'  + every files where gsn_XXXXX was used
+
+.new act flag: ACT_IS_SAFE: if set, the mob is not killable.
+  'merc.h'  'tables.C'  'handler.C'  'fight.C'
+
+.olc values like ACT_IS_SAFE, ITEM_INVIS, ... have been moved from merc.h 
+  to olc_value.h
+  'merc.h'  'olc_value.h' + every files where olc values was used
+
+.MAX_ALIAS upgraded to 30 (instead of 20)
+  'merc.h'
+
+.new quest info: questobjloc: stores the obj location when a obj quest has been asked.
+ + saved in pFile too.
+ + when loading a pFile, if quest obj, the obj is created if needed.
+  'merc.h'  'quest.C'  'comm.C'  'save.C'
+
+// 24/05/2001 --> 25/05/2001
+.combat skills like bash, kick, ... can't be done if rooted.
+  'combatskills.C'
+
+.mob_usable in skill_type becomes mob_use and is not yet a boolean but an integer:
+   0: not used by mob
+   1: can be used in combat by the mob itself
+   2: automatic like second attack, fast healing, dodge, ...
+   3: can be use through order or scripts
+ + test on mob_usable in get_skill has been modified.
+  'merc.h'  'handler.C'  'class.C'
+
+.bug fixed in scopes.
+  'execute.cc'  'scrvalue.C'
+
+.found a little bug in room_is_dark, ROOM_INDOORS was not tested.
+  'handler.C'
+
+.new scripts: specNasty, specJanitor, specGuard, specExecutioner, specTrollMember,
+   specOgreMember, specMayor
+  '../data/scripts/special.txt'
+
+.found a little bug in nanny: ch->baseattr[classAttr] += 3 instead of +2
+ + immortals with RP god name couldn't connect: check_parse_name
+  'comm.C'
+
+.typo in quest giveup.
+  'quest.C'
+
+.added a test in group load, check if a skill/group is not more than once in a group.
+  'data.C'
+
+.found some bugs in do_practice: forgot to check sn, and unused tests removed.
+  'act_info.C'
+
+.group paladin healing contained 2 times cure serious and cure poison.
+  '../data/skills/group.txt'
+
+// 20/05/2001 --> 23/05/2001
+.sprite's invisibility stays in combat now :)
+ + invisible skill has now his own gsn
+  'merc.h'  'db.C'  'raceskills.C'  'act_move.C'  'magic.C'
+
+.new base prompt: {c<%h/%HHp %m/%MMn %v/%VMv %XNxt %b>{x
+  'save.C'  'act_info.C'
+
+.help <race name> or help <class name> are now redirected to racehelp and classhelp
+ + 2 new help files  '../area/race.hlp'  '../area/class.hlp'
+  'act_info.C'  'olc_save.C'  '../area/area.lst'
+
+.bug fixed in garbage collector: forgot to mark list and list elements.
+  'gc.C'
+
+.new method on value: v1.equiv(v2)  test if v1 is equivalent to v2.
+  'scrvalue.C'  'script2.h'
+
+.new method on list: uniqueEquiv  returns a list with only non-equivalent elem.
+  'scrvalue.C'  'script2.h'  'execute.cc'
+
+.help <skill/spell name> is now redirected to skillhelp.
+  'act_info.C'
+
+.get_char_world has been modified, search in a different order:
+    in room
+    in area
+    everywhere else
+  'handler.C'
+
+.bug fixed in load_objects: forgot to set values for potion/wand/staff/scroll.
+  'db2.C'
+
+.bug fixed in some predefined functions: addGold, addSilver.
+  'scrpred2.C'
+
+.etho/alignment are now attributes: ATTR_etho, ATTR_alignment.
+ + player version is 10.
+ + replace anti_good, anti_neutral, anti_evil with restriction on align is
+   automatically done if areas saved.
+  'merc.h'  'save.C'  'tables.C'  'affects.C'  'act_info.C'  'act_wiz2.C'
+  'comm.C'  'db.C'  'fight.C'  'handler.C'  'magic.C'  'magic2.C'  'magic3.C'
+  'special.C'  'restriction.C'  'bit.C'  'affects.C'  'tables.C'
+
+.bug fix in anti-good,... test in gain_exp.
+  'fight.C'
+
+.anti-good,... test in gain_exp and equip_char replaced with check_restriction.
+  'handler.C'
+
+.recompute adds in the end of gain_exp.
+  'update.C'
+
+.add some colors in creation and gain, and in affects.
+  'skills.C'  'comm.C'  'affects.C'
+
+// 17/05/2001
+.race/god/clan skill are now showed in practice list.
+  'act_info.C'
+
+.word of recall, farsight  has been removed.
+  'magic.C'  'magic.h'
+
+.in reset_room, waiting till there isn't any player left in an area to repop 
+  items has been removed.
+  'db.C'
+  
+.a tiny bug has been fixed in skill/spell stat
+  'act_wiz3.C'
+
+.HAS STARTED to do npc classes.
+  '../data/classes/npc/*'
+
+// 16/05/2001
+.shopkeeper completly rewritten in mobprogram.
+ NO multiple buy.
+  '../data/scripts/shopkeeper.script'
+
+.new trigger: onLook.
+  'act_info.C'  'dbscript.C'
+
+.some modifications in char_update, there were strange cases where we did a return 
+  instead of a continue.
+  'update.C'
+
+.tell, say, osay, ic, ooc are in color now.
+  'act_comm.C'
+
+.enter now takes care with portal on the ground, in inventory and in equipement.
+  'act_enter.C'
+
+.mob commands used in mobprogram as been removed.
+ + 2 files removed: 'mob_command.C'  'mob_command.h'
+  'interp.C'  'interp.h'  and some mobprograms
+
+.field imm command has been slightly modified to accept mob and obj.
+  'act_wiz3.C'
+
+.mob/obj program are now showed on mstat/ostat.
+  'act_wiz2.C'
+
+.new method on string/int: pad(n).
+ + new method on int: asStr().
+ + new method on list: unique() returns a list without multiple copies of the same elem.
+  'execute.cc'
+
+.new predefined functions: 
+  general: random, min, max, range, timeHour, timeDay, timeMonth,
+    timeYear
+  on obj: say, tell, vnum, extra_flags, material, weight, item_type, timer, destroy,
+    getNumber, getWeight
+  on mob: roomates, getObj, giveHp, inventory, vnum, carry_weight, carry_number,
+    can_carry_n, can_carry_w, oload, canSee, getSkill, checkImprove
+  'scrpred2.C'
+
+// 09/05/2001
+.objprograms have been coded.
+ + inheritance added to obj/mob programs new reserved word: extends.
+ + operator [] has been added for easier list use.
+ + CHAR_DATA and OBJ_DATA now inherits from a new struct ENTITY_DATA.
+ + every mobiles/objects has a program  Mob/Obj.
+ + each classes inherits from Mob as default, to inherits from Obj an explicit
+    inheritance must be applied.
+  'grammar.xml'  'merc.h'  'script2.C'  'execute.cc'  'grammar.cc'  'grammar.hh'  
+  'script2.h'  'scrvalue.h'  'scrvalue.C'  'scrhash.h'  'scrhash.C'  'scrpred2.C'
+
+.pet/charmie are allowed to pkill.
+ + some modifications in do_cast to check pkill.
+ + is_safe and is_safe_spell has been modified.
+  'fight.C'  'magic.C'
+
+.raceskills are not considered when counting spell with maximum casting level.
+  'skills.C'
+
+.find familiar is not possible in water_swim and water_no_swim
+  'noncombatskills.C'
+
+.primary attributes allow +3 instead of +2 in that attributes.
+  'handler.C'
+
+.olc has 2 additional functions: redit_flag and redit_sector for an easier
+  setting of room flags and sector type.
+  'olc.C'  'olc_act.C'  'olc.h'
+
+.olc help has been upgraded to take care for new item type and old not present.
+  '../area/olc.hlp'
+
+.a lot of lookup functions has been transfered in lookup.C
+  'handler.C'  'lookup.C'  'lookup.h'
+  and a lot of other when an include was needed
+
+.merfolk's size is medium and diva's size is large.
+  '../data/race/pcrace.txt'
+
+.train_level in affect_data and learned_lvl in skill_info has been replaced
+  with casting_level
+ + MAX_SKILL_LEVEL has been replaced with MAX_CASTING_LEVEL
+ + level in prereq hierarchy has been replaced with casting_level
+ + nb_level in skill_type and skill_type_init has been replaced with
+    nb_casting_level
+ + get_skill_level has been replaced with get_casting_level
+  'merc.h'  'affects.C'  'fight.C'  'magic.C'  'magic3.C'  'recycle.C'
+  'save.C'  'skills.C'  'act_info.C'  'act_wiz2.C'  'act_wiz3.C'  'db.C'
+  'comm.C'  'handler.C'  'class.C'  'classes.C'
+
+.when AFK hunger, thirsty and drunk are not updated.
+  'update.C'
+
+.constructor for list in script added  [[ elem0, elem1, ... ]]
+  'grammar.xml'  'grammar.cc'  'grammar.hh'  'execute.cc'
+
+.script operator + has been slighty modified to accept   string + anything that can be
+  converted in a string.
+  'scrvalue.cc'
+
+.quest rewards has been slightly modified.
+ + quest token added: Roland's Box.
+ + 2 quest rewards added: cloak and breastplate of mystery.
+  'merc.h'  'quest.C'
+
+.player in the limbo can't be hungry or thirsty.
+  'update.C'
+
+.cyclic prereqs are now checked.
+ + new files: 'prereqs.C'  'prereqs.h'
+  'prereqs.C'  'prereqs.h'  'class.C'  'class.h'
+
+.found a little bug: when starting a mob/obj program we had to search the trigger in the 
+  extended class too.
+  'script2.C'
+
+.extra fields in pet and objects are saved.
+  'save.C'
+
+.new trigger: onCreate, onTick, onRepop
+  'dbscript.C'  'db.C'  'update.C'
+
+// 30/04/2001
+.crypted passwords are back :))
+  'comm.C'  'act_info.C'  'act_wiz3.C'
+
+.mobprograms with LALR parser generator complete!!!!
+  'grammar.cc'  'grammar.hh'  'execute.cc'
+
+.some scripts have been modified.
+  '../data/scripts/*'
+
+// 22/04/2001
+.mobiles use extra haste (lvl>1) attacks now.
+  'fight.C'
+
+.shroud has been modified: train_level has been used instead of level
+  'update.C'  'fight.C'  'magic3.C'
+
+.wizhelp accept an additional parameter (lvl) allowing to ask what are the commands
+  an immortal can have at a certain level(parm).
+  'interp.C'
+
+.war drums and invisible have been slightly modified.
+  'raceskills.C'
+
+// 15/04/2001
+.new spells: prismatic spray, creeping doom.
+  'magic3.C'  'magic.h'  'const.C'
+
+.heat metal 's level has been implemented.
+  'magic.C'
+
+.some spell modifications.
+  'magic.C'  'magic3.C'
+
+.char_update has been modified (crappy) for shroud spell.
+  'update.C'
+
+.new info in mudstatus: double_xp.
+  'act_wiz3.C'
+
+// 01/04/2001 --> 12/04/2001
+.mob program restarted for the 2nd time with an LL parser generator hand-made.
+ + things like  msg.words().include("hiya hello hi".words()) doesn't work properly
+   had to put additionial brackets  (msg.words()).include("hiya hello hi".words())
+   so restarted with a LR.
+  + new directory and files: 'parser/exec.cc'  'parser/grammar.cc'  'parser/grammar.hh'
+     'parser/pconf.hh'  'parser/scanner.cc'
+  'script2.C'  'dbscript.C'
+
+.mob program restarted for the 3rd time with an LR parser generator hand-made :) !!!.
+
+.spell manashield added: same as sanctuary for mage gives additional mana.
+  'magic3.C'  'magic.h'  'const.C'
+
+.God Deverell replaced with Tall; and god Illuminas added.
+  '../data/gods.txt'
+
+.almost every functions has been removed from merc.h and spread in different .h files
+ + new files: 'act_comm.h'  'act_move.h'  'act_enter.h'  'act_obj.h'  'act_wiz.h'
+   'act_wiz2.h'  'alias.h'  'arena.h'  'ban.h'  'class.h'  'comm.h'  'effects.h'
+   'fight.h'  'handler.h'  'hints.h'  'hunt.h'  'language.h'  'mob_command.h'
+   'music.h'  'save.h'  'skills.h'  'skillupgrade.h'  'special.h'  'string.h'
+   'update.h'  and probably other one.
+ almost every files has been modified
+
+// 26/03/2001 --> 27/03/2001
+.mob program continued.
+  + added type list + IN, size(), get(int), includes(list).
+  + new methods on string: size(), asInt(), words() tokenize a string into a list
+     of string
+  + new mobprog command: force '...  same as  'mobforce ...
+  + added player's extra fields saving.
+  + 6 new mob predef fct: silver, gold, 
+     classes (return the list of mob/char classes),
+     charInRoom (return the list of mob/char in the room),
+     setSilver, setGold (set silver or gold).
+  + new mobprogram added: banker, gambler, moneychanger.
+  'script2.C'  'script2.h'  'dbscript.C'  'scrvalue.C'  'scrpred2.C'  'save.C'
+
+.money weight has been modified  gold/10 + silver/40 instead of gold*2/5 + silver/10
+  'merc.h'
+
+.useful function: chardata_to_str: return 2.'victim->name' if victim is the
+  second with that name in the room, 3.'' if was th third, ....
+  'handler.C'  'fight.C'
+
+.MONEY CHANGER code in do_give has been removed, replaced with a mob program.
+  'act_obj.C'
+
+.BANK code has been removed, replaced with a mob program.
+  'act_info.C'  'interp.h'  'interp.C'
+
+// 20/03/2001 --> 25/03/2001
+.material CONTINUED and FINISHED.
+  + field  material  in obj struct has been changed to  int  (char* before).
+  + function updated: material_lookup     returns the index in material table.
+  + new table: material_flags  created in load_material.
+  'merc.h'  'bit.C'  'tables.C'  'olc_act.C'  'db2.C'  'olc_save.C'  'handler.C'
+  'data.C'  'db.C'
+
+.mob program continued: proc and proc/trigger paramaters added successfully.
+  + mob program optimized ==> replaced every  Value  in param with  const Value &
+  + in skipping mode, code is not yet parsed/interpreted, just scanned ==> faster.
+  + fixed some bugs.
+  + fields in mob/char added successfully.
+  + OnBribe has an additional parameter: isSilver
+  'script2.C'  'script2.h'  'dbscript.C'  'scrvalue.C'  'scrpred2.C'
+
+.ITEM_NONMETAL removed, material table is used instead.
+  + spell 'heat metal' modified.
+  'merc.h'  'tables.C'  'handler.C'  'magic.C'
+
+.unique items STARTED and FINISHED.
+  + unique items are not saved in pFile, they are automatically dropped.
+  + added save_unique_items() and load_unique_items()
+  + they can't be stored into containers
+  + they can't be sold
+  + the first time we want to put them into the mud, we have to load them somewhere
+  + new data file: '../data/unique.txt'
+  + 7 crystal balls created and loaded "randomly" in the mud.
+  'merc.h'  'handler.C'  'tables.C'  'data.C'  'copyover.C'  'save.C'  'act_comm.C'
+
+.5 new remort races: mongrelman, gargoyle, titan, crystal-dragon, silver-dragon.
+  '../data/race/race.txt'  '../data/race/pcrace.txt'
+
+.EX_INFURIATING is now used, the door is impossible to open/lock/unlock/pick/close
+  the door opens by itself on TICK if a test (50%) is passed succesfully.
+  + so it's useless to set infuriating combined with pickproof, locked, east, hard
+     nolock and noclose but the exit needs to be a door of course.
+  'act_move.C'  'noncombatskills.C'  'db.C'
+
+// 13/03/2001 --> 15/03/2001
+.fixed a BUG with mob classes, when a charmed mob was fighting the same mob,
+  the charmed one was unable to use spell/skill against the other (had to 
+  use cast 'spell' 2.name)
+  'fight.C'
+
+.xset can be used on PC's and has been slightly modified to toggle bit.
+  'act_wiz2.C'
+
+.now if an affect doesn't have a msg_off or msg_obj and needs it, it writes
+ a message through BUG channel.
+  'update.C'
+
+.spell domination was supposed to be a neuromancer spell but was not used.
+  'const.C'  '../data/skills/skills.txt'
+
+.the level of race/clan/god skill/spell raises with player level same as mobiles.
+  'handler.C'  'skills.C'
+
+.spell faerie fog  has 3 levels, at higher level it surrounds people with an aura
+  preventing them from becoming invisible/sneak/hidden
+  + new affects2: AFF2_FAERIE_FOG
+  'magic.C'  'merc.h'  'tables.C'  'handler.C'  'noncombatskills.C'  
+  'raceskills.C'  'act_info.C'
+
+.racial language CONTINUED.
+  + new files: 'language.C'  'language.h'
+  + new pc_race_type field: int  language     stores the index in language_table
+  + new skills attached to languages: common, elfish, dwarfish, gnomish,
+     giantish, goblinish, faerish, dragonish
+  + new languages WILL BE LEARNED with a mobprogram
+  + new command: language showing known language and allowing to switch between
+     them (to set current spoken language)
+  + languages HAVE TO BE WRITTEN.
+  'data.C'  'merc.h'  'act_info.C'  'db.C'  'handler.C'
+
+.mobiles with race skill can use it in combat.
+  'fight.C'  'handler.C'  'merc.h'
+
+.mobprograms WORK but not completed.
+ + garbage collector to store strings during mobprog  still bugged
+ + new files  'gc.C'  'gc.h'  'scrhash.C'  'scrhash.h'
+  'script2.C'  'script2.h'  'scrvalue.C'  'scrpred2.C'  'dbscript.C'  'act_scri.C'
+  'act_move.C'  'act_obj.C'  'olc_act.C'
+
+.skills and spells can be taught by a player/mobile (>95% in that skill/spell)
+  to another player.
+ + only non-charmed, non-pet mobiles can teach skill/spell to a player
+  'skills.C'  'interp.h'  'interp.C'
+
+// 11/03/2001
+.long long has been removed, replaced with affected2_by and affects2 tables
+ + IS_AFFECTED2()
+ + affect2_bit_name()
+ + new fields in mob_index_data (affected2_by) and race_type (aff2)
+ + new ATTR_xxxx    ATTR_affected2_by
+ + new table: affect2_flags
+ + new OLC function  medit_affect2
+  '../data/race.txt'
+  'merc.h'  'affects.C'  'tables.C'  'bit.C'  'db.C'  'db2.C'  'olc_act.C'  'olc.C'
+  'olc_save.C'  'olc.h'  'handler.C' ...  almost every files
+
+// 06/03/2001
+.change_race has been modified to take care of size.
+  'handler.C'
+
+.new race skill: morph allows the user to morph into any pickable pcrace.
+ + !!! unfriendly thing: if morphed into quickling and use speedup, when switched
+    back, can't use speeddown DON'T SEE HOW TO FIX IT EASILY
+ + new race: doppleganger (remort race)
+  'raceskills.C'  'const.C'  'interp.C'  'interp.h'  'db.C'  'merc.h'
+
+.doesn't need to set dam_type to claw if a char has claws, it's automatically done
+  in damage function
+  'fight.C'
+
+.new command: trophy: to fashion a trophy with the head of a dead player/mob
+  'act_obj.C'  'interp.C'  'interp.h'
+
+.STARTED material table.
+ + new struct material_type and new table material_table
+ + new file: '../data/material.txt'
+  'merc.h'  'data.C'  'const.C'
+
+.STARTED racial language.
+ + gossip replaced with OOC
+ + IC added (help already updated) don't use languages yet
+ + OSAY added (help already updated)
+ + SAY (help already updated) don't use languages yet
+  'act_info.C'  'merc.h'  'act_comm.C'  'handler.C'  'tables.C'  'interp.h'  
+  'interp.C'
+
+// 04/03/2001 -->05/03/2001
+.Spell removed: chaos was too buggy and useless
+  'magic3.C'
+
+.Spell/skill level for mobiles is depending on mob's level (get_skill_level)
+  'handler.C'
+
+.get_skill has been modified so mobiles with classes can't use skill/spell without
+  mob_usable flag set.
+  'handler.C'
+
+.fread_pet has been modified so affects like sanctuary/haste/protection evil/
+  protection good are not duplicated (it was a little bug ;)))  ).
+  'save.C'
+
+.do_visible has been modified, put  cstat  instead of  bstat.
+  'act_move.C'
+
+.exp_per_level has been modified: race_base_xp * number of classes.
+  'skills.C'  'classes.C' (class_count)
+
+.quifael area removed, object 3301 (midgaard)removed.
+
+// 28/02/2001
+.New skill: repair (for mountain-dwarf, hill-dwarf and duergar)
+  'raceskills.C'
+
+.New god: Alexander, master of undead  for rebirth races.
+  '../data/gods.txt'
+
+.Spells gained at creation take care of prereqs.
+  'skills.C'
+
+.Double xp has been added, every 9 hours during 30 minutes, starts 3 hours after reboot.
+  'update.C'  'comm.C'  'db.C'  'merc.h'
+
+.Fixed some bugs with shroud and armor spell.
+  'fight.C'
+
+.New spell: magic mirror   returns any damage done by aggressive spells to 
+  its caster, it's really a crap for the moment cos' of spec_fun and tons of other problems.
+  'magic3.C'  'merc.h'  'tables.C'  'handler.C'  'fight.C'
+
+.New help file: 'race creation' used during creation so race choose is more clear.
+  'comm.C'
+
+// 27/02/2001
+.During creation, players can gain spells one by one, not only by groups
+  'comm.C'  'skills.C'
+
+.New mobprogram starts to work but far from finished.
+  'script2.C'  'scrpred2.C'  'script2.h'  'scrvalue.C'
+
+.Fixed some little BUGS, yes again some  int  left instead of  long long.
+  'handler.C'  'comm.C'  'act_info.C'  'ban.C'  'save.C'  'data.C'  'act_wiz.C'
+
+.Quickling gain higher level haste when they become higher level
+  1--> 25: lvl 1   26-->50: lvl 2  51-->75: lvl 3  76-->100: lvl 4  101: lvl 5
+  'raceskills.C'  'fight.C'
+
+// 24/02/2001 --> 26/02/2001
+.SPELL_FUN takes one more argument: int spell_level
+  'merc.h'  'magic.C'  'magic2.C'  'magic3.C'  'fight.C'  'healer.C'
+
+.Many spells levels added (thanks to MrRaph).
+  'magic.C'  'fight.C'
+
+.Frenzy upgraded: effects more important if chaotic or lawful (MrRaph's suggestion)
+  'magic.C'
+
+.Sanctuary upgraded: gives regeneration (MrRaph's suggestion)
+  'magic.C'
+
+.Skills attached to different classes (whirlwind, meditate, blind fighting, butcher,
+  grip, pillify, herb, nerve, bandage, endure, warcry, stun)
+
+.EX_EASY and EX_HARD are now used in pick lock
+  'noncombatskills.C'
+
+.Found bugs with affects: int instead of long long
+  'handler.C'
+
+.New exit flag: EX_HIDDEN: can't see the exit unless affected by AFF_DETECT_EXITS
+ + new skill: detect_exits
+  'merc.h'  'tables.C'  'noncombatskills.C'  'handler.C'  'act_info.C'  'const.C'
+  'interp.h'  'interp.C'  'db.C'
+
+.DARN ... the exit_info saving method was CRAPPY ... now the real flag is saved,
+  so that crappy formula giving a flag between 0 and 4 is not yet used.
+  'db.C'  'olc_save.C'
+
+.do_exits remade.
+  'act_info.C'
+
+.JyP has STARTED to redo the mobprograms.
+  New file: 'script2.C'  'scrpred2.C'   'script2.h'
+
+.New communication command: whisper <player/mobile> <sentence>
+  'act_comm.C'  'interp.h'  'interp.C'
+
+.New file: 'raceskills.C'
+  'noncombatskills.C'  'combatskills.C'
+
+// 23/02/2001
+.LOL, fixed some problems with skills/spells not allowed for certain classes :))
+  ==> IT WORKS NOW
+  'handler.C'
+
+.haste has levels now, do more attacks: only players.
+  'fight.C'  'magic.C'
+
+.new spell: shroud (godskill ellia)
+  'magic3.C'  'fight.C'  'magic.h'  'const.C'
+
+.Some minor but crappy BUGS found with some long left instead of long long.
+  'bit.C'  'olc_act.C'  'db2.C'  'olc_save.C'
+
+.new class: elementalist.
+  'data/classes/pc/class.txt' ...
+
+// 22/02/2001
+.mobprogram commands added: mobforce, mobat, moboload, mobmload, mobjunk, 
+  mobgoto, mobtransfer, mobpurge
+  + new file: 'mob_commands.C'  'mob_commands.h'
+  'interp.C'
+
+.fixed some problems with races
+  '../data/races/race.txt'    '../data/races/pcrace.txt'
+
+.new races: gnoll, avian, dryad, kenku, satyr, draconian
+  holy-dragon, black-dragon, faerie-dragon (remort)
+  '../data/races/race.txt'    '../data/races/pcrace.txt'
+
+.new race skill: war drums (for goblin)
+  'noncombatskills.C'  'interp.C'  'interp.h'  'merc.h'  'const.C'  'db.C'
+
+.when someone dies, 15% chance of creating a puddle of blood (if not undead, ...)
+  'fight.C'  'merc.h'  '../area/limbo.are'
+
+.Added some security tests on races/classes when reading pFile and clan file
+  'clan.C'  'save.C'
+
+.Fixed some bugs with do_skills, do_spells; when a player has gained a skill/spell 
+  his/her class doesn't not allow ==> IT WORKS NOW :))
+ + new function: get_skill_simple, same as get_skill but does not consider the 
+   player level in the same way
+  'handler.C'  'skills.C'  'merc.h'
+
+// 19/02/2001
+.New race skill: feed (for vampire)
+  + new race: vampire not choosable by player (cursed race)
+  'combatskills.C'   'data/races/races.txt'  'data/races/pcraces.txt'
+
+.Mobprogram for assassin guild improved
+  + new trigger onknock
+  + Filthy Inn modified
+  + TO ENTER: from recall 3s,w,s  say beware the red eels
+    TO LEAVE: from secret pathway: knock north
+  'act_move.C'
+
+.New skills/abilities for monks: iron hand, energy fist, burning fist
+  'noncombatskills.C'  'fight.C'  'const.C'  'interp.h'  'interp.C'
+
+.Undead can't be drunk
+  'act_obj.C'
+
+.Important note about random generated maze: it's better if there was no exits
+  in the rooms choosen for the maze.
+  + for rooms which are not on the border of the maze put only exit up/down
+  + for rooms on the border put only exit in the opposite dir of the maze
+  + new test maze: from 254 to 261 (map 262)
+      room 262 is the entrance and room 253 is the exit
+example:
+     exit
+        | <------- outside exit
+        *--*  -
+        |      |
+        *--*   |
+           |   | --> this is a 8 rooms maze with 2 outside exits
+        *--*   |
+        |  |   |
+        *  *  -
+           | <---- outside exit
+    entrance
+
+.ch->pcdata->skill_info[].level is now used in class_skilllevel(modified) and 
+  class_skillrating, so a player who can't learn a skill/spell cos' of his
+  classes, can use and pra that skill/spell when he's higher level than
+  ch->pcdata->skill_info[skill].level
+  'classes.C'  'act_info.C'  'act_obj.C'  'handler.C'  'skills.C'  
+  'act_wiz3.C'
+
+.curattr, baseattr, affected_by has been changed to long long instead of long
+ + flag imm command has been removed ('flags.C')
+  'merc.h'  'bit.C'  'classes.C' ... a lot of files
+
+.sect_water_swim, sect_water_noswim are really used
+ + new AFF_WATER_BREATH and AFF_WALK_ON_WATER
+ + new spells: spell_water_breath and spell_walk_on_water
+ + merfolk, sea-elf and water fowl are affected by swim, water_breath and walk_on_water
+  'act_move.C'  'update.C'  'merc.h'  'tables.C'  'handler.C'  'magic3.C'
+  'magic.h'  'const.C'
+
+// 15/02/2001
+.New spells: wraithform
+  + a little modif in 'act_info.C' for wraithform (same as repulsion)
+  'magic3.C'  'magic.h'  'const.C'  'act_info.C'
+
+.Creation is more clear now.
+  'comm.C'
+
+.con_app_table has been modified (more HP for very high constitution)
+  'const.C'
+
+.get_max_train is based on bstat(race) instead of cstat(race), useful
+  for people training when affected by a race modification
+  'handler.C'
+
+.New races: wolfen, diva, eldar, mummy, uruk-hai, dracolich, shade, quickling,
+  sprite, half-orc, half-ogre, merfolk, ghoul
+ + new race skills/spells: death breath, invisible, speedup/slowdown
+  'data/races/races.txt'  'data/races/pcraces.txt'  'magic3.C'  
+  'noncombatskills.C'
+
+.During creation, if a player use all his/her CP, it's converted into trains (/2)
+  'comm.C'
+
+.PK restricted on levels
+  'fight.C'
+
+.Found a little BUG in the mob classes, if the mob didn't see the target ==> segfault
+  'fight.C'
+
+.New guild created for druid, bard and assassin
+  + mob_program to enter in assassin guild (have to say 'beware the red eels')
+  + map updated
+
+.New spell: arcane concordance (needs more than one caster) just to show what 
+ can be done
+  'magic3.C'  'magic.h'  'const.C'  
+
+.New test race: werewolf (not accepted by any god)
+ + New command: lycanthropy: transform player to a werewolf TO BE REMOVED
+  'data/races/races.txt'  'data/races/pcraces.txt'  'act_wiz3.C'  
+  'merc.h'  'db.C'  'const.C'
+
+// 10/02/2001
+.New skills: aligndetect, poisondetect, magicdetect
+  'noncombatskills.C'  'interp.C'  'interp.h'  'const.C'  'db.C'  'merc.h'
+
+.New class: assassin, druid, bard (NEED to build the guild)
+  'data/classes/pc/class.txt' ...
+
+.New rebirth: only the race is selected at random
+  'comm.C'
+
+.New spell: entangle
+ + new affect: AFF_ROOTED: telling the player/mob is rooted
+   ==> when ROOTED: can't move, aggro mobs can't aggro ('update.C')
+  'magic3.C'  'merc.h'  'handler.C'  'tables.C'  'update.C'
+
+.New rebirth race: banshee
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.New race: ratling
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.New races (remort): seraphim, succubus, pitfiend, lich
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.New table for dam_type to be able to see in affect the dam_type
+  'tables.C'  'merc.h'  'affects.C'  'bit.C'
+
+.Removed dwarf
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.New races: mountain-dwarf, hill-dwarf, duergar, forest-gnome, rock-gnome, 
+  svirfneblin
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.New race skills (for dwarf): resize, forge, vorpalize
+ + New special weapon flag: WEAPON_WEIGHTED equivalent SHARPEN for maces
+  'noncombatskills.C'  'affects.C'  'const.C'  'interp.C'  'interp.h'
+
+.New races: sylvan-elf, grey-elf, high-elf, sea-elf, half-elf, shade
+  + removed race elf
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+// 05/02/2001
+.Object condition
+ + found a little BUG in save.C: we saved obj->value instead of obj->baseval
+ + mobiles objects condition is resetted every reset_area (area_update)
+ + 2 new files: 'condition.C'  and  'condition.h'
+  'condition.C'  'condition.h'  'const.C'  'act_wiz2.C'  'magic.C'  'fight.C'
+  'act_obj.C'  'save.C'  'db.C'
+
+.New weapon flag: holy
+  'merc.h'  'tables.C'  'act_info.C'  'handler.C'
+
+.New spells: divine intervention, holy armor, holy sword(holy flag), unholy blade
+  'magic3.C'  'magic.h'  'const.C'
+
+.Have a BUG with olc command delete, have removed an old way to avoid bug.
+  'olc.C'  'olc_act.C'
+
+.Skill/Spell with level system has been remade
+  'skills.C'  'classes.C'  'classes.h'  'act_info.C'
+
+.Player can't choose as name a race, a class or a god
+  'comm.C'
+
+.New spells: vampiric blade, shock blade, flame blade, frost blade
+  'magic3.C'  'magic.h'  'const.C'
+
+// 01/02/2001
+.New race: halfling
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.4 new spells: daemonic aid, daemonic potency, daemonic carapace, repulsion
+  + a little modif in 'act_info.C' for repulsion
+  'magic3.C'  'magic.h'  'const.C'
+
+.Undead doesn't need to drink/eat
+ + found a BUG, in char_update, there was a test !IS_NPC(ch) && IS_IMMORTAL(ch)
+    instead of !IS_NPC(ch) && !IS_IMMORTAL(ch)  !!!!!
+  'update.C'
+
+.Color greet
+  'merc.h'  'comm.C'  'recycle.C'
+
+.Player takes damage from being thirsty or hungry
+  'update.C'
+
+// 28/01/2001
+.Name acceptance for newbie
+ + new field in pcdata: name_accepted
+ + new imm commands: acceptname
+  'merc.h'  'act_info.C'  'save.C'  'act_wiz3.C'  'interp.C'  'interp.h'
+
+.rebirth STILL WORKING ON ==> do_rebirth (act_wiz3.C) is used for test
+  'merc.h'  'act_wiz.C'  'comm.C'  'act_wiz3.C'
+
+.Align restriction based on class
+ + 2 new fields in class_type: nb_allowed_align  and  allowed_align
+  'class.C'  'merc.h'  'handler.C'
+
+.Removed 2 fields in pc_race_type: points & class_mult
+ + add a new field: expl  representing the number of exp/level needed for that race
+  'merc.h'  'skills.C'  'act_info.C'  'comm.C'
+
+.PC races can be choosable or not during creation
+ + new field in pc_race_type: bool choosable
+  'merc.h'  'data.C'  'comm.C'
+
+.Race gremlin removed.
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.BUG fix: when a player was in creation/rebirth and he creates a new session to the 
+ same player, the player in creation/rebirth was killed
+  'comm.C'
+
+.New races added: goblin, hobgoblin, orc, ogre, lizardman, minotaur, avariel, 
+  ghost, spectre, wight, deathknight (the 4 last one are not choosable, rebirth)
+  'data/races/races.txt'  'data/races/pcraces.txt'
+
+.New class: paladin, blackguard, barbarian
+  'data/classes/pc/class.txt' ...
+
+// 11/01/2001
+.Players can choose a god at creation.
+ + new Imm command: godinfo: show info about god.
+  'merc.h'  'data.C'  'db.C'  'const.C'  'save.C'  'act_info.C'  'handler.C'
+  'comm.C'  'magic.C'  'act_move.C'  'noncombatskills.C'  'fight.C'  'act_obj.C'
+
+.etho/alignment can be choosen during creation.
+  'comm.C'
+
+.New align/class restriction based on pc_race.
+ + new fields in pc_race_type: nb_allowed_align, nb_allowed_race
+                               allowed_align[], allowed_race[]
+ + new fields in pc_race file: Rom/data/race/pcrace.txt
+ + race determines which class and etho/align players can choose at creation
+  'merc.h'  'data.C'  'handler.C'
+
+.New field in skill_table: mob_usable telling if a mob can use a skill/spell
+  'merc.h'  'class.C'  'handler.C'  'fight.C'  'db.C'
+
+.Gods can now disable a command for a specific player
+ + new imm commands: plrdisablecmd
+  'merc.h'  'recycle.C'  'interp.C'  'save.C'  interp.h'
+
+.Walking drunk, thanks to Kohl Desenee
+  'act_move.C'
+
+.New imm command: checkskill
+  'act_wiz3.C'  'interp.h'  'interp.C'
+
+.New wiznet: WIZ_MEMCHECK
+  'interp.C'  'merc.h'  'const.C'
+
+.New script test: act.npc: see joel.script
+  'scrpred.C'
+
+.spell acid arrow has been modified: add poison effect now
+  'magic2.C'
+
+.spell know alignment has been modified: show etho now
+  'magic.C'
+
+.maximal size of room: people greater than size can't enter in that room
+  'act_move.C'  'olc_act.C'  'olc.C'  'olc.h'  'olc_save.C'  'db.C'
+
+Year 2000  from september to end of year
+---------
+.Minor modifications, search SinaC 2000 to see the modifications.
+  'act_info.C'  'clan.C'  'fight.C'  'handler.C'  'music.C'  'act_wiz2.C'
+  'db.C'  'hunt.C'  'magic.C'  'magic2.C'  'update.C'  'olc_act.C'
+  'act_obj.C'  'scan.C'  'olc.C'  'act_comm.C'  'comm.C' 'act_wiz.C'
+  'olc_save.C'  'classes.C'  'skills.C'  'mem.C'  'clan.C'  'act_move.C'
+  'board.C'  'ban.C'  'hints.C'  'interp.C'  'magic3.C'  'special.C'
+  'effects.C'
+
+.Now able to see the items affecting you with 'oaffect' ( Imm command ).
+  'act_info.C'  'merc.h'
+
+.Being invisible, with an item, during combat has been fixed, before we were
+  switching between vis/invis each hit, now we stay invis.
+  'fight.C'
+
+ ==> creation of HasItemGivingFlag( character, flag_to_test ) TRUE if the 
+  character is wearing an item giving the 'flag_to_test'.
+  'act_obj.C'
+
+.Allow to cast invisible and use sneak when wearing an item giving 
+  invisible/sneak.
+  'magic.C'  'act_move.C'
+
+.'Where' has been modified to allow to see which area we are in.
+  'act_info.C'
+
+.'Tailsweep' skill created, now mobiles with a tail could use it.
+  'db.C'  'merc.h'  'fight.C'  'const.C'  'handler.C'
+
+.fourth, fifth, sixth, seventh attack and circle has been created.
+  'fight.C'  'merc.h'  'db.C'  'const.C'   'handler.C'
+
+.Some modifications of damage formula with hand_to_hand, claws and backstab.
+  'fight.C'
+
+.Value of the damage done has been added in the combat text.
+  'fight.C'
+
+.Need to be 'invisible' to target to backstab, for PCs and NPCs.
+  'fight.C'
+
+.New imm command 'mmatch' same as omatch for mobiles.
+  'act_wiz2.C'  'interp.C'
+
+.damage_old function has been removed ... now damage has an additional 
+  parameter : BOOL old_dam --> TRUE if it's "damage_old" we were calling.
+  'fight.C'  'magic.C'  'merc.h'  'magic2.C'  'update.C'
+
+.We're now allowed to see the poison, invis, ... flag added magically on an 
+  item.
+  'affects.C'
+
+.Mobs with OFF_BACKSTAB can circle now !!!!.
+  'fight.C'  'handler.C'
+
+.We can't circle if we don't see the target (blind, target invis, ...).
+  'fight.C'
+
+.A few things were missing in extra_flag table.
+  'tables.C'  'handler.C'
+
+.Haggle is back with do_buy :).
+  'act_obj.C'
+
+.Zombies are no longer losing their power with time.
+  'update.C'
+
+.when loading a pet, we add the charm flag cos' when we set a pet with 'setpet'
+ leave and connect again, the charm flag disappears even if it's in the 
+ save file ===> WEIRD, so I have decided to set the charm flag each time we read
+ a pet.
+  'save.C'
+
+.some problems with omatch and mmatch (level) has been removed.
+  'act_wiz2.C'
+
+.vorpal weapons kill in one hit ==> creation of sudden_death func.
+  'fight.C'
+
+.adding an affect to an item setting the race works now ==> creation of a new 
+  table and update the other ones.
+  'olc_act.C'  'tables.C'  'affects.C'  'bit.C'
+
+.new xp_compute function by Blade.
+  'fight.C'
+
+.fixed some bugs found by The Mage, see buglisting.txt, bugs.txt, bugslong.txt  .
+  'fight.C'  'magic.C'  'act_comm.C'  'act_obj.C'  'comm.C'  'skills.C'
+  'act_info.C'  'act_wiz2.C'  'alias.C'  'olc_save.C'  'act_wiz.C'  'update.C'
+  'olc.C'
+
+.when a corpse in our inventory decays into dust, the silver and gold are added
+  to our current gold, silver instead of being an item in inventory.
+
+.added a random message for unknown command not only Huh?.
+  'interp.C'
+
+.added new Imm commands: mudstatus, setpassword, check, addlag, skillstat, 
+  spellstat, fvlist, peace all, ...
+  'act_wiz2.C'  'act_wiz3.C'
+
+.now mobiles has 15% chance of switching to another person who is killing him.
+  'fight.C'
+
+.OLC builders can now delete and copy Objects, Mobiles and Rooms.
+  'olc.C'  'olc_act.C'
+
+.We can now 'knock' to a door :)))
+  'act_move.C'
+
+.New skills: phase, counter, whirlwind, critical strike, find familiar, meditate,
+ deathgrip, barkskin
+  'fight.C'  'db.C'  'const.C'  'merc.h'  'interp.C'  'skills.C'
+
+.New command: jog
+  'act_move.C'  'act_info.C'  'interp.C'  'comm.C'  'db.C'
+
+.Restless spirits, a mob who dies has 1% chance to ressurect into a ghost and 
+  attack his killer.
+  'fight.C'
+
+.New spells: fumble, beacon, ionwave, sunbeam, vaccine, banshee scream, 
+   locate person
+  'magic3.C'  'const.C'
+
+.Earthquake is impossible in air_area, water_area, ...
+  'magic.C'
+
+.'Songs' skill: allow (a bard) to song something ==> new item INSTRUMENT.
+  'song.C'  'song.h'  'merc.h'  'db.C'  'interp.C'  'const.C'  'db2.C'  'tables.C'
+  'act_wiz2.C'
+
+.New obj extra flag: ITEM_NOIDENT
+  'merc.h'  'tables.C'  'handler.C'  'skills.C'  'magic.C'
+
+.With 'affects', we now see the affects of our pet.
+  'act_info.C'
+
+.Have replaced ITEM_ROOM_KEY with ITEM_INGREDIENT in prevision of 'brew' skill.
+  'merc.h'  'act_wiz2.C'  'const.C'  'db.C'  'tables.C'
+
+.Have delete MAX_SONGS_BARD, replace it by a dummy song at the end of the list.
+  'merc.h'  'song.C'
+
+.New room_flag: ROOM_NOSPELL, ROOM_NOSCAN, ROOM_ARENA...
+  'merc.h'  'tables.C'  'magic.C'  'scan.C'  'song.C'  'arena.C'
+
+.Arena and Challenge.
+  'arena.C'  'merc.h'  'update.C'  'interp.C'  'act_comm.C'  'tables.C'  'fight.C'
+
+.Have removed spell mount and spec_mount.
+  'magic.C'  'const.C'  'act_move.C'  'special.C'  'hunt.C'
+
+.Have modified some spells: armor, blindness.
+  'magic.C'
+
+.Have added talking drunk, only used in do_say; it's very funny ;)
+  'act_comm.C'
+
+.Have added throwing items ( ITEM_THROWING replacing ITEM_PROTECT ) + skill
+ dartthrow.
+  'skill.C'  'merc.h'  'act_wiz2.C'  'const.C'  'db2.C'  'db.C'  'olc_act.C'
+  'tables.C'  'magic.C'  'olc_save.C'
+
+.XP is not yet divided among the members of the group.
+  'fight.C'
+
+.Area flags are now saved ( only one flag used ) AREA_NOTELEPORT : to avoid people
+  going in under-construction area, ...
+  'handler.C'  'tables.C'  'olc_save.C'  'db.C'  'olc.C'
+
+.Immtitle appears in the 'who'.
+  'act_wiz3.C'  'merc.h'  'act_info.C'  'save.C'
+
+.Stance is now showed when someone is in the same room as us in place of name+title.
+  'act_info.C'  'merc.h'  'save.C'
+
+.New affect flag: AFF_SILENCE, with this flag, the player is unable to cast spell
+ + spell 'silence'.
+  'handler.C'  'tables.C'  'merc.h'  'magic3.C'  'magic.C'
+
+.New skills: deathgrip.
+  'skills.C'  'fight.C'
+
+.New Imm commands: idle, grab, wrlist.
+  'act_wiz3.C'  'interp.C'
+
+.Can't do more than one attack+HASTE+DUAL if blind, same thing for mobiles.
+  'fight.C'
+
+.Can't parry, dodge, shield block and phase if blind.
+  'fight.C'
+
+.Have added 'blind fighting' for PC and NPC to be able to fight if blind.
+  'fight.C'  'handler.C'  'const.C'  'db.C'  'merc.h'
+
+.Players may now remove an item they are wearing even if they can't see it.
+  'act_obj.C'  'merc.h'  'handler.C'
+
+.More skills: butcher, grip(automatic), pillify, bladethirst, lure.
+  'interp.C'  'skills.C'  'db.C'  'merc.h'  'const.C'  'fight.C'  'act_obj.C'
+
+.Some new spells: acid rain, lay hands, jades lust, summon lesser/greater golem.
+  'magic3.C'  'const.C'
+
+.SECT_BURNING ( replacing SECT_UNUSED ) does damage every tick 
+ + WATER damage due to drowning ( with SECT_WATER_SWIM & SECT_WATER_NOSWIM ).
+  'act_move.C'  'update.C'  'merc.h'  'tables.C'
+  ==> creation of new function noaggr_damage( vict, dam, dam_type,
+		                            dam_msg_vict, dam_vict_other,
+					    death_msg,
+					    showdam )
+	allowing to do damage without any aggressor, useful for poison, plague,...
+  ==> minor modif in 'act_obj.C'  'magic.C'  'skills.C'  'update.C'
+
+.Have added a lot of fun with grenade ( ITEM_GRENADE ) + pull command.
+  'update.C'  'db.C'  'db2.C'  'act_wiz2.C'  'magic.C'  'const.C'  'olc_act.C'
+  'olc_save.C'  'tables.C'  'interp.C'
+
+.Have added more fun: lightning falling from the sky when the sky is cloudy.
+  'update.C'
+
+.Have added window code ( ITEM_WINDOW ).
+  'db.C'  'db2.C'  'act_wiz2.C'  'const.C'  'olc_act.C'  'olc_save.C'  'tables.C'
+  'act_info.C'
+
+.Have added teleport code ( ROOM_TELEPORT + new field in AREA_DATA ).
+  'db.C'  'db2.C'  'const.C'  'olc_act.C'  'olc_save.C'  'update.C'  'olc.C'
+
+.More new spells: soulblade, mind meld, chaos, psi twister, regeneration, exorcism
+  'magic3.C'  'const.C'  'merc.h'  'handler.C'
+
+.New spells from Tartarus: utter heal, flesh golem, lightshield, darkshield,
+ fire&ice, word of fear, shock sphere, cremate, sun bolt, frost bolt, ice lance, 
+ lifebane, death spell, energy drain(new), blade barrier, holy fire, revolt,
+ firestream, wither, hand of vengeance, iceball, cone of cold, spirit blade,
+ drain, earthmaw, tsunami, windwall, web, turn undead, channel, true sight, 
+ dark wrath, wrath, power holy word, higher demonfire, concatenate, word of kill.
+  'magic3.C'  'const.C'
+
+.New skills: warcry, crush, spike, pugil, lash, forage. rear kick(race skill),
+ find water, shield cleave, endure, nerve, bandage, herb, cleave.
+  'skills.C'  'fight.C'  'merc.h'  'db.C'  'const.C'  'interp.C'
+
+.Mobiles can now yell, tell, ...
+  'db.C'
+
+.skills/spells/classes are now in files ( Rom/data/classes/*  + Rom/data/skills.txt )
+  ==> new Imm commands: skillsave, skillshow, skillset
+  'db.C'  'class.C'  'const.C'  'merc.h'  'act_wiz3.C'
+
+.New imm commands: owherevnum, mwherevnum.
+  'act_wiz3.C'
+
+.Mudstatus has been upgraded.
+  'act_wiz2.C'  'act_wiz3.C'  'clan.C'  'class.C'  'db.C'  'comm.C'
+
+.Some stat functions: ofindmat, mfindmat, ofindcond, rfindkey.
+  ==> new Imm Command: writestat
+  'act_wiz3.C'
+
+.People connecting in a battle room are transfered to the temple.
+  'comm.C'
+
+.Quest tokens, questor asks us to bring back, are now only visible by the questing 
+ player.
+  'handler.C'  'merc.h'
+
+.When a player is hunted and flees, the mob now continues to hunt him
+ + the mob stops hunting him if he leaves, dies or goes in a room the mob can't 
+   access.
+ ==> new function: remove_hunter()
+  'hunt.C'  'fight.C'  'update.C'
+
+.Have added a new script: ShopKeeper 
+  'Rom/data/scripts/joel.script'
+
+.New spells to animate corpse: animate skeleton, animate dead, mummify,
+  decay corpse, preserve + they disappear when nofol or quit.
+  'magic3.C'  'merc.h'  'tables.C'  'db.C'  'db2.C'  'act_wiz2.C'  'const.C'  
+  'act_comm.C'
+
+.FORM_INSTANT_DECAY is now used in make_corpse.
+ + flesh golems, zombies, mummies, spirits and skeletons are instant_decay
+  'fight.C'
+
+.format_obj_to_char has been modified to show flags like flaming, vampiric, vorpal, ..
+  'act_info.C'
+
+.Found a big bad bug in update.C ( burning and teleport update ): a valid target for
+ an update is :
+   a CONNECTED player with a descriptor who is not an immortal 
+   OR a mob who is not the pet of a NOT CONNECTED player with a descriptot.
+==> creation of a new function: valid_update_target( CHAR_DATA *)
+  'update.C'
+
+.If there is a too big level difference between a ch and a mob, the ch gains 0 Xp.
+  'fight.C'
+
+.With nofollow and quit: the lesser, flesh and greater golem disappears.
+  'act_comm.C'
+
+.Now, when we modify a reset, the area is considered as AREA_CHANGED.
+  'olc.C'
+
+.Songs have now a waiting time before able to sing another one.
+  'song.C'  'merc.h'
+
+.Clan skill has been added.
+  'clan.C'  'skills.C'  'handler.C'  'act_wiz3.C'  'clan.h'
+
+.random maze + automap in extra descr (ex: map vnum 80 & maze (5x5) from vnum 4 to 28)
+  exits from outside to inside the maze are kept.
+ the first room is the far north-west room of the maze and contains info about
+  the maze.
+  'qmaze.C'  'qmaze.h'  'db.C'  'olc.C'  'olc_save.C'  'merc.h'
+
+.punctuation for big number like exp, gold and silver ( num_punct(num) ).
+   + HAVE TO modified every print of gold, Xp or silver, see act_comm.C
+  'act_info.C'  'merc.h'  'act_comm.C'
+
+.If a player, member of a clan, deletes himself, he is removed from the member list 
+  of the clan.
+  'act_comm.C'
+
+.New command: clanlist, racehelp.
+  'clan.C'  'interp.C'  'act_info.C'
+
+.Mobiles now can't use as many command as before.
+  'act_comm.C'  'act_info.C'  'act_wiz.C'  'punish.C'  'comm.C'  'hints.C'
+  'interp.C'
+
+.Builders now can reset a weapon as secondary wield.
+  'tables.C'
+
+.New Imm command: reset_area.
+  'interp.C'  'act_wiz3.C'
+
+.2 channels have been removed  dutch and french one.
+  'act_comm.C'  'merc.h'
+
+.New flag: COMM_BUILDING.
+  'merc.h'  'act_info.C'  'olc.C'  'act_comm.C'  'handler.C'  'fight.C'
+  'tables.C'  'save.C'  'comm.C'
+
+.Liquids are now in a file, /Rom/data/liquid.txt .
+ + NEW FILE: data.C
+  'merc.h'  'data.C'  'const.C'  'db.C'
+
+.New spec_fun: spec_gambler + 2 new commands: gamble and uncover.
+ + NEW FILE: gamble.C
+  'special.C'  'gamble.C'  'save.C'  'handler.C'  'tables.C'  'merc.h'
+  'interp.C'
+
+.New funny thing: automatic earthquake in area if the flag AREA_EARTHQUAKE is set
+  1 chance on 250 having an earthquake, an Imm can starts an earthquake too.
+==> new Imm command: do_quake
+    + 2 new fields in AREA_DATA
+  'merc.h'  'tables.C'  'update.C'
+
+.Another funny Imm commmand: bighunt.
+ + some modifications in the hunt code
+  'hunt.C'  'act_wiz3.C'  'interp.C'
+
+.char_data->zone is now used.
+ + automatically set in boot and reset_room
+ + also set in act_wiz2.C  do_mset and do_string
+	    in flags.C     do_flag
+  'db.C'  'update.C'
+
+.If we have charmies or pet fighting, we can't leave.
+ ==> new func: check_pet_charmies_fighting
+  'act_comm.C'
+
+.Restriction on objects.
+  'merc.h'  'tables.C'  'db.C'  'db2.C'  'olc_save.C'  'olc.C'  'olc.h'  
+  'olc_act.C'  'recycle.C'  'recycle.h'
+
+.Items lost in Arena are donated ==> appears in donation room.
+  'arena.C'
+
+.New Imm command: writestat: write some stats in Rom/data/stat/
+  'act_wiz3.C'  'interp.C'
+
+.OFF_FADE is now used, ==> phase.
+  'handler.C'
+
+.If a MOB_VNUM_SKELETON dies, a OBJ_VNUM_SKELETON is left on the ground.
+  'fight.C'
+
+.Another Imm command: afremove: remove all target's affects.
+  'act_wiz3.C'  'interp.C'
+
+.Another Imm command: mortal: allow an immortal to become mortal.
+ ==> IS_IMMORTAL has been modified
+  'act_wiz3.C'  'merc.h'  'handler.C'  'tables.C'  'act_info.C'  'comm.C'
+
+.race_table is now in a file Rom/data/races/race.txt.
+  'merc.h'  'const.C'  'data.C'  'db.C'
+
+.pc_race_table is now in a file Rom/data/races/pcrace.txt.
+  'merc.h'  'const.C'  'data.C'  'db.C'
+
+.Mobiles who have SANCTUARY, HASTE, PROTECT_GOOD/EVIL in their basic affected are now
+ affected by the spell instead of having the affect in bstat, so it's removed from
+ bstat.
+  'db.C'  'magic.C' ( for a not anymore used sanctuary dispel_magic test )
+
+.MAX_SKILL, MAX_PC_RACE, MAX_GROUP, MAX_CLASS  are now variable, not constant.
+ + MAX_IN_GROUP has been removed, replaced by an additionnal field in group_type.
+  'merc.h'  'recycle.C'  'const.C'
+
+.class_table, title_table, group_table in a file.
+  'db.C'  'data.C'  'const.C'  'merc.h'
+
+.An object with an owner can only be worn or got by the owner.
+ + don't forget to set the first letter of the owner field to upper case.
+ + can use "none" to say no owner.
+  'act_obj.C'  'act_wiz2.C'
+  
+.Some modifications in clan/race skill assignement.
+ + have removed almost every ->pcdata->learned[sn].
+  'handler.C'  'clan.C'  'db.C'  'comm.C'  'act_info.C'  'act_wiz.C'  
+  'act_wiz2.C'  'act_wiz3.C'  'magic.C'  'magic3.C'  'hunt.C'
+
+.Gain revert is now available  convert 1 train to 10 practices.
+  'skills.C'
+
+.Groups rating and title are now in the associate class file.
+  'data.C'  'class.C'  'merc.h'  'act_wiz3.C'
+
+.pose_table is now in class files.
+ + MAX_POSE is initialized in load_classtable()
+  'act_comm.C'  'merc.h'  'class.C'  'data.C'
+
+.attr_table, restr_table and flag_stat_table are initialized in a function called
+ in db.C
+ + new files 'affect.h'  'bit.h'  and  'restriction.h'  
+  'affects.C'  'bit.C'  'restriction.C'  'merc.h'  'db.C'
+
+.New field in char_data: stunned, used by bash to stun the opponent for a few rounds
+  ==> target can't do anything
+ + skill stun
+  'merc.h'  'tables.C'  'special.C'  'fight.C'  'comm.C'  'act_wiz2.C'  
+  'act_obj.C'
+
+.Have added a new condition to be able to cast depending on intelligence.
+  'magic.C'
+
+.New command: "?" to be able to see olc help without editing.
+  'olc.C'
+
+.Skill/spell with levels and prereqs.
+ + pay a lot of attention when setting prereqs, don't check impossible and cyclic
+    prereqs.
+ + new field in PC_DATA: int *learned_lvl   learned spells/skills level 
+ + pfile version 8 now  
+ + new field in AFFECT_DATA: int train_level   spell/skill level
+ + actual skill/spell with level: fireball, fireproof, fly
+ + to set the spell level in affect afsetup followed by af.train_level = x
+ + SPELLS can be gain individually without buying groups ==> gain spell (gain)
+   and spell list (character creation)
+  'merc.h'  'const.C'  'class.C'  'db.C'  'act_wiz3.C'  'recycle.C'  'affects.C'
+  'skills.C'  'save.C'
+
+.Skills have been moved from act_obj.C act_move.C skills.C fight.C ... to 
+ combatskills.C and noncombatskills.C
+  'act_move.C'  'skills.C'  'fight.C' ... 'combatskills.C'  'noncombatskills.C'
+
+.We can now help our charmies/pet with rescue.
+  'fight.C'
+
+.When we have charmies and/or a pet and murder another player, the pet/charmies
+ doesn't stop to follow us ( check_killer ).
+  'fight.C'
+
+.help_table is now initialized in db.C
+  'db.C'  'olc.C'
+
+.There is no dummy race in first element of pc_race_table and race_table
+ ==> every loop with race_table has been modified, after almost each call to 
+  race_lookup the tests has been changed.
+ + the files are clean and easy to use. 
+  'data.C'  'db.C'  'handler.C'  'comm.C'  'act_info.C'  'act_wiz2.C'  ... 
+
+.liquid table has no dummy info
+ + MAX_LIQUID
+  'merc.h'  'data.C'  'handler.C'  'olc_act.C'
+
+.New classes files, prereq file, skills file, group file
+ + trim_proc() which remove the spaces in the begining and end of a string
+  'db.C'  'merc.h'  'data.C'  'class.C'
+
+.New global variable for spells 'spell_level' to know what's the level of the
+ spell casted ( fireball lvl 5 ).
+  'magic.C'  'magic2.C'  'magic3.C'
+
+.learned and learned_lvl ( from pc_data ) has been put in a struct skill_info.
+ + an additional field in skill_info: level, the level when the player will gain
+   the skill/spell ( NOT USED FOR THE MOMENT ).
+  'merc.h'  'act_info.C'  'act_wiz2.C'  'comm.C'  'skills.C'  'save.C'  
+  'recycle.C'  'magic.C'  'handler.C'  'act_wiz3.C'
+
+.Every loop with MAX_GROUP, MAX_IN_GROUP, MAX_LIQUID has been modified to not
+ test a dummy info.
+  'a lot of files, mainly skills.C'
+
+.do_gain has been modified/upgraded.
+ + class_skillrating has been modified to return the number of trains needed
+   for the next level.
+ + new immortal command: prereq <skill/spell name>  giving the prereqs.
+ + a player can't have more than one spell level 5.
+ + a player with a spell level 5 can only have the other level 3.
+ + a player can have every spells level 4 but with no level 5.
+  'skills.C'  'class.C'
+
+.Spells, skills and practice command has been modified/upgraded.
+  'skills.C'  'act_info.C'
+
+.Arena can be aborted now.
+  'arena.C'
+
+.First, haste and dual attack when blind has been modified.
+  'fight.C'
+
+.races_flags is initialized in load_race instead of load_pc_race.
+ ==> song bird spell  affects shows  modifies race by setting them to song bird 
+  instead of none
+ ==> !!! pc_race has to be in the same order at the same position in pc_race.txt and 
+  race.txt !!!
+ + races_flags[].settable is initialized in load_pc_race
+  'data.C'
+
+.Mobiles have class(es) now.
+ + mobiles with class stops to use offensive flags but use their skill/spell instead
+   ( only TAR_CHAR_OFFENSIVE ones for the moment ).
+ + mobiles without a class continue to use offensive flags.
+ + mobiles cotinue to use their spec_function.
+ + mobiles now use mana ( switch mob uses switcher mana ).
+  'fight.C'  'handler.C'  'magic.C'  'classes.C'  'act_wiz2.C'
+
+.Less chance to successfully cast a spell if can't see target.
+  'magic.C'
+
+.Character creation ( customization ) has been modified.
+ + new creation command: known  telling what are the groups/skills known
+  'skills.C'  'comm.C'
+
+.New restriction NOT (ex: requires TO NOT BE human ).
+  'restriction.C'  'db2.C'  'olc_act.C'  'olc_save.C'
+
+.New requirement on skill/spell (ex: requires 50% in shield block )
+  'restriction.C'  'db2.C'  'olc_act.C'  'olc_save.C'
+
+.Items upgrading skills/spells (ex: +5% in enhanced damage, ... )
+  if we don't have the skills/spells ==> we aren't able to use it.
+  + new files: 'skillupgrade.C'  'skillupgrade.h'
+  'merc.h'  'db2.C'  'db.C'  'olc.C'  'olc.h'  'olc_act.C'  'olc_save.C'
+
+.Alignment has been put in a struct (align_info) with another field: etho.
+ + 3 ethos possible: lawful(1), neutral(0) and chaotic(-1).
+  'merc.h'  'act_info.C'  'act_wiz2.C'  'db2.C'  'db.C'  'figth.C'
+  'handler.C'  'magic.C'  'magic2.C'  'magic3.C'  'mem.C'  'olc_act.C'
+  'olc_save.C'  'save.C'  'special.C'
+
+.Gods added.
+ + new struct god_data
+ + new field in pc_data: int  god   // index in the god_table
+  'merc.h'  'data.C'  'db.C'  'const.C'
+
+.HAVE TO FINISH 'balance'&'buggy' imm command telling what are the 
+  unbalanced items.
+
+
+
+BUG
+.During creation, if we have sword as basic and add weaponmaster, then remove 
+  weaponmaster, we lose sword.
+.Arena: if the arena has started and everyone in the arena is transfered
+  it looks like nobody has entered it :((
+.No dryad, doppleganger, vampire help.
+.If the copyover failed, people are not reconnected in the game.
+
+CHECK
+.every ->name in msg and care if the ch is visible by the people receiving the msg
+.every area/room/mob/item/shop/RESETS.
+.every spells/skills + check if skill use WAIT_STATE.
+.every commands to see if a mob is allowed to do it.
+.every help files to update everything.
+.If every mobiles/objects are resetted somewhere.
+.If every container/door locked has a key (especially if pickproof).
+
+OTHER
+.Autogold could get the maximum gold/silver in the corpse and let the rest in
+  the corpse.
+.Spells to upgrade CON, WIS, ... (dragon wit, dwarven vigor).
+.Taunt: force every mobs attacking members of the group to attack us.
+.Divert: opposite skill of rescue, divert <mob> will redirect the <mob> to
+  another member of the group.
+.Sharpen needs a sharpening stone (component).
+.Aggressive skills that can initiate a PK must send a yell message.
+.Every mobiles able to wear a weapon should use a weapon instead of damage
+  and damtype they are using, so when they are disarm they don't hit as hard as
+  they still have a weapon.
+.Vampirism, lycanthropy (vampire and werewolf race already created).
+.Haunting and unkillable mobs.
+.Bleeding wounds: when wounded a player loses hp each tick.
+.Bonus/Malus choosed during creation.
+.Arms, legs, ... can be cut during fight ==> must go a special healer.
+.Extra exits (nw,ne,sw,se).
+.Should take gods from warhammer god files.
+.Put header in new  '*.C'  '*.cc'  files.
+.Set a timer when pkilled to avoid being kill every 5 sec.
+.room programs.
+.create spell school :divination, elemental fire, alteration,...
+.create race family: elf, gnome, giant,...
+.skill blend: see skills.hlp
+.bell curve for check_improve (en cloche).
+.help about new magic system.

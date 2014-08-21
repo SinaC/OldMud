@@ -1,0 +1,1108 @@
+#Style Circle
+#AREADATA
+Name Elven Woods~
+Builders Gbetz~
+VNUMs 24800 24899
+Credits {{None}  CAW    Elven Woods~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#24801
+Elf Guardian Elven~
+the Elven guardian~
+An Elven Guardian is standing here guarding the portal.
+~
+   This is a robust built elf in his best years and as far as you can tell.  
+
+~
+bd d 1000 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#24802
+Elf Soldier guard elven~
+the Elven soldier~
+An Elven Soldier is standing here guarding the path.
+~
+   This is an elf in his youth, sent by the chief of the village guards, to
+guard the path from any intruder not wanted here.    
+~
+bd d 1000 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#24803
+Elf Soldier guard elven~
+the Elven guard~
+An Elven Guard is walking around, protecting the villagers.
+~
+   This is an elf in her youth, sent by the chief of the village guards, to
+guard the village from unwanted intruders.    
+~
+dg d 1000 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+E
+#24804
+Elf weaponsmith smith elven~
+the Elven weaponsmith~
+A Large Elven weaponsmith is walking behind the counter.
+~
+   You notice a tired look on his face.    
+~
+bd 0 900 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#24805
+Elf armoursmith smith elven~
+the Elven armoursmith~
+A Large Elven armoursmith is walking around behind the counter.
+~
+   You notice a tired look on his face.    
+~
+bd 0 900 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#24806
+Elf mage elven~
+the Elven mage~
+A Tiny Elven mage is floating behind the counter.
+~
+   You notice a tired look on his face.    
+~
+bd 0 900 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#24807
+Elf Quintor grocer~
+the Elf named Quintor~
+An Elf named Quintor is here counting money behind the counter.
+~
+   You notice a tired look on his face.    
+~
+bd 0 900 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#24808
+elf bartender elven~
+the Elven bartender~
+A fat Elf is standing behind the bar taking orders.
+~
+   You notice a tired look on his face.    
+~
+bd 0 900 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#24809
+elf receptionist elven~
+the Elven receptionist~
+A nice-looking Elf is standing in the reception.
+~
+   You notice a tired look on her face.    
+~
+bd 0 900 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 2
+E
+#24810
+elf chief elven guard~
+the chief of the elven guard~
+A lazy-looking Elf lies on his bed snoring loudly.
+~
+   This elf looks somehow more experienced than any guard in the village guard.
+By the look of the uniform he is probably the chief of the village guard.  You
+notice some scars on the hands and one on the neck of the elf.  He has
+obviously been in battle in his days.    
+~
+dg dh 1000 E
+17 18 0 3d3+170 2d2+2
+170 28900
+4 4 1
+E
+#0
+
+#OBJECTS
+
+#24800
+sword diamond edge edged long~
+a diamond-edged sword~
+A long sharp-edged sword is stuck half into a stone.~
+~
+5 k an 0
+0 6 5 4
+15 1000 1000 0
+E
+diamond edge edged sword long~
+   This is a long slim sword with diamond edges on its silver blade.  On the
+silver blade are some writings in a long forgotten language.  The diamond edges
+of the blade are as sharp as razors and hard as dimonds.  
+~
+E
+writings~
+   You can't make out anything of it, sorry.  Maybe you should ask a sage or a
+wizard for help in this matter...  
+~
+A
+18 5
+A
+19 5
+#24801
+Sword long longsword weapon~
+a fine Longsword~
+A shiny longsword is lying on the ground.~
+~
+5 k an 0
+0 3 4 3
+8 600 200 0
+#24802
+armor elven chain chainmail~
+an Elven chainmail~
+A nice looking chainmail is lying on the ground here.~
+~
+9 k ado 0
+6 0 0 0
+15 800 80 0
+#24803
+mithril elven armor chain~
+a Mithril chainmail~
+A white chainmail is lying on the ground.~
+~
+9 k ado 0
+6 0 0 0
+15 1000 85 0
+A
+13 10
+A
+12 10
+#24804
+mithril sword twohanded~
+a Two-handed Mithril Sword~
+A large sword is stuck into the ground.~
+~
+5 agik an 0
+0 4 4 3
+18 1000 100 0
+A
+18 1
+A
+19 2
+#24805
+scope telescope large~
+a large telescope~
+A large telescope is fastened on a tree.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#24806
+bow hunting elven~
+an Elven hunting bow~
+A wooden bow has been left here lying on the ground.~
+~
+5 k an 0
+0 2 6 7
+1 1000 330 0
+A
+18 2
+#24807
+cap coif chain elven~
+an Elven Chaincoif~
+A chainmail coif has been left here on the ground.~
+~
+9 k ae 0
+6 0 0 0
+20 400 20 0
+#24808
+leggings chain elven~
+a pair of Elven Chain leggings~
+Some chain leggings has been left here unguarded.~
+~
+9 abk af 0
+6 0 0 0
+25 750 84 0
+#24809
+green leafgreen potion~
+a Leaf-green potion~
+A green potion is standing on the ground.~
+~
+10 gk ao 0
+30 25 28 15
+1 900 50 0
+#24810
+oak branch staff~
+an oak branch staff~
+A long, grey branch rests heavily on the ground. ~
+~
+4 gk ao 0
+30 15 5 42
+2 500 20 0
+#24811
+potion ocean blue~
+an Ocean-blue potion~
+An ocean-blue potion is resting on the ground.~
+~
+10 gk ao 0
+30 3 1 36
+2 250 50 0
+#24812
+flute mithril~
+a Mithril flute~
+A glittring flute has carelessly been dropped here.~
+~
+3 gk ao 0
+26 4 4 34
+2 1000 40 0
+#24813
+bag green small~
+a small green bag~
+A green bag has been left here.~
+~
+15 0 ao 0
+50 0 0 0
+1 18 6 0
+#24814
+sack green large~
+a large green sack~
+A green sack has been left here.~
+~
+15 0 ao 0
+100 0 0 0
+2 25 10 0
+#24815
+papyrus paper~
+a papyrus note~
+A papyrus roll is lying on the ground.~
+~
+16 k ao 0
+0 0 0 0
+1 15 1 0
+#24816
+swan quill feather pen white~
+a swan-feather quill~
+A small white feather is flying around in mid-air.~
+~
+21 k ao 0
+0 0 0 0
+1 10 0 0
+#24817
+small jar glass worm~
+a small glass jar with a glowing worm in it~
+A small glass jar has been left on the ground.~
+~
+1 k ao 0
+0 0 -1 0
+2 100 3 0
+E
+small jar glass~
+   You see a small perfectly made glass jar.  In the jar you can see a small
+worm glowing brightly.  
+~
+E
+worm glowing~
+   The worm looks friendly...  :-)
+~
+A
+18 2
+#24818
+milk skin milk~
+a homemade milk skin~
+A nice looking skin, with white traces of milk on it, has been left here.~
+~
+17 k a 0
+20 20 10 0
+25 333 10 0
+#24819
+rabbit meat rosted~
+a nicely rosted rabbit~
+A very good smelling rosted rabbit has been left on the ground.~
+~
+19 0 ao 0
+24 0 0 0
+3 25 2 0
+#24820
+bisquet elven~
+a fine elven bisquet~
+A small bisquet lies on the ground.~
+~
+19 0 ao 0
+12 0 0 0
+1 5 1 0
+#24821
+cape wool woolen ~
+a warm woolen cape~
+Someone has left something wooly on the ground.~
+~
+9 0 ack 0
+9 0 0 0
+10 1000 200 0
+#24822
+ring fire opal~
+a small fire-opal ring ~
+A small glowing ring has been left on the ground.~
+~
+9 a ab 0
+10 0 0 0
+10 950 100 0
+E
+ring fire opal~
+   A small red opal is set into the platinum ring, the opal glows with a faint
+red light that pulses whith your heart beet.  
+~
+A
+9 10
+A
+1 2
+#0
+
+#ROOMS
+
+#24800
+Gbetz's Zone Description Room ~
+   The Elven Woods by Gbetz
+This is a new area, complete with shops, an elven forest, a reception area, and
+guilds... It can be used in place of the major town or as another one.
+Please enjoy,
+Gbetz@gargamel.asms.state.k12.al.us
+Builder      : Gbetz
+Zone         : 248 Elven Woods
+Began        : 
+Player Level : 15-17
+Rooms        : 29
+Mobs         : 10
+Objects      : 23
+Shops        : 5
+Links        : 01s
+~
+248 j 0
+S
+#24801
+Entrance to the Elven forest.~
+   Trees tower above you blocking the majority of light with their expanse
+canopies.  A large steel reinforced wooden gate is set into a wall of wood logs
+just to the north.    
+~
+248 0 3
+D0
+~
+~
+0 -1 24802
+S
+#24802
+Guarded path through the forest.~
+   The path runs straight through the forest from south to north.  You feel
+yourself observed by someone.  To the east you see a wooden door in a large
+tree, and to the west you see a rope hanging down from a tree.    
+~
+248 0 3
+D0
+~
+~
+0 -1 24807
+D1
+~
+~
+0 -1 24803
+D2
+~
+~
+0 -1 24801
+D4
+~
+~
+0 -1 24806
+S
+#24803
+Guard room.~
+   In the north-east corner of this dimly lit room stands a large round stone
+table.  To the east and west you can see doors.  The sound of footseps can be
+heard in the distance.    
+~
+248 d 3
+D1
+~
+~
+0 -1 24804
+D3
+~
+~
+0 -1 24802
+D5
+the carpet is made of wool.~
+secret carpet wool~
+1 8000 -1
+S
+#24804
+Guard chiefs bed room.~
+   This room is apparantly the chief of the elven guards bedroom.  Decorations
+and awards line the walls.  In a corner stands a large bed and there is a door
+to the west.    
+~
+248 d 3
+D3
+~
+~
+0 -1 24803
+S
+#24805
+Cellar.~
+   The damp earthen cellar is relatively cool.  Shelves line all the walls.  
+Filled, almost to the point of collapse, with various dried foods and storage
+containers.    
+~
+248 ad 3
+D4
+~
+~
+0 -1 24803
+S
+#24806
+On the platform.~
+   You are standing on a wooden platform above the beginning of the elven
+forest.  From here, above the tree tops, the town of Thewston is visible in the
+distance.    
+~
+248 c 5
+D5
+~
+~
+0 -1 24802
+S
+#24807
+A Guarded Path Through the Forest~
+   The path runs straight through the forest from south to north.  The forest
+is in good condition and looks well kept.  No dead branches or brush is visible
+between the trees.    
+~
+248 0 3
+D0
+~
+~
+0 -1 24808
+D2
+~
+~
+0 -1 24802
+S
+#24808
+A Path Crossing~
+   The path splits up into four here, one in every direction.  In the middle of
+the crossing stands a gigantic stone obelisk with some runes engraved into it.
+  
+~
+248 0 3
+D0
+~
+~
+0 -1 24809
+D2
+~
+~
+0 -1 24807
+E
+runes obelisk stone~
+   If you had been an old elven sage you might have known what the runes told,
+but you are not, so this means nothing to you....  
+~
+S
+#24809
+A Fine Path Through the Elven Forest~
+   On both sides of this path is doors.  Over the eastern door is a sign
+telling you this must be the weapon shop, and over the western door is a
+similar sign telling you it's the armoury.    
+~
+248 0 3
+D0
+~
+~
+0 -1 24812
+D1
+~
+~
+0 -1 24810
+D2
+~
+~
+0 -1 24808
+D3
+~
+~
+0 -1 24811
+S
+#24810
+The Elven Armoury~
+   On the walls of this large room are fine elven armours hanging.  A few other
+odds and ends lay about that are required for the bending and pounding of the
+armour.    
+~
+248 d 0
+D3
+~
+~
+0 -1 24809
+S
+#24811
+The Elven Weaponry~
+   On the counter and upon the walls hang fine weapons of elven quality.  In
+the back you can hear the roar of the furnace and the pumping of the billows.
+  
+~
+248 d 0
+D1
+~
+~
+0 -1 24809
+S
+#24812
+A Fine Path Through the Elven Forest~
+   On both sides of this path are doors.  Over the eastern door is a sign
+telling you this must be the magic shop of the elven village, and over the
+western door is a similar sign telling you it's Quintors fine shop.  To the
+north the path continues.    
+~
+248 0 3
+D0
+~
+~
+0 -1 24815
+D1
+~
+~
+0 -1 24814
+D2
+~
+~
+0 -1 24809
+D3
+~
+~
+0 -1 24813
+S
+#24813
+Quintor's Fine Shop~
+   In this fine room you can see all kinds of equipment.  Everything from bags
+to torches can bee seen on the shelves.  The items are of a fair quality and
+reasonably priced.    
+~
+248 d 0
+D1
+~
+~
+0 -1 24812
+S
+#24814
+The Elven Magic Shop~
+   As you enter this store you feel a sensation in your stomach.  There is
+something wrong here or is it just the powers of all magic in here?  All around
+this room you see objects of different shapes and sizes.    
+~
+248 d 0
+D3
+~
+~
+0 -1 24812
+S
+#24815
+The End of the Path~
+   On both sides of this path are doors.  Over the eastern door is a sign
+telling you this must be the tavern of the village, and to the north you see a
+large house, about two stores high.    
+~
+248 0 3
+D0
+~
+~
+0 -1 24817
+D1
+~
+~
+0 -1 24816
+D2
+~
+~
+0 -1 24812
+S
+#24816
+The Tavern of Hope~
+   You are standing in the bar of the Tavern.  The bar is set against the
+northern wall, old elven writings, carvings and symbols cover its top.  A
+fireplace is built into the eastern wall, and through the door in the western
+wall you se the fine path.  This place really makes you feel at home.    
+~
+248 d 0
+D3
+~
+~
+0 -1 24815
+D4
+~
+~
+0 -1 24890
+S
+#24817
+Inside a Fine House~
+   A large staircase leads into a foyer in front of the house.  At the top of
+the stairs two doors lead to the east or west into the house.  The house is
+well kept.    
+~
+248 d 0
+D1
+~
+~
+0 -1 24819
+D2
+~
+~
+0 -1 24815
+D3
+~
+~
+0 -1 24818
+D4
+~
+~
+0 -1 24820
+S
+#24818
+A Guard Room~
+   A table with chairs scattered about fills the center of the room.  Along the
+walls are several sets of beds.  Items are scattered about the table and the
+room is a mess.    
+~
+248 d 0
+D1
+~
+~
+0 -1 24817
+S
+#24819
+The Trophy Room of the Elven King~
+   The walls are covered in trophies, tapestries, paintings, and other various
+gifts the King has acquired during his long life.  All are exquisitely made and
+in good taste.    
+~
+248 d 0
+D3
+~
+~
+0 -1 24817
+S
+#24820
+The Grand Stairway~
+   The stairs are wooden with a carpet running down the center.  The carpet is
+plush, almost like a moss which its color resembles.  The house seems to be
+another extension of the forest.    
+~
+248 d 0
+D4
+~
+~
+0 -1 24821
+D5
+~
+~
+0 -1 24817
+S
+#24821
+The Upper Floor of the House~
+   The corridor is lined on both sides by doors.  Everything is made of wood.
+From the floor to the ceiling it is all well polished.  Small wooden stands
+break are scattered about the hall holding various flowers in vases.    
+~
+248 d 0
+D0
+~
+~
+0 -1 24823
+D1
+~
+~
+0 -1 24822
+D2
+~
+~
+0 -1 24824
+D5
+~
+~
+0 -1 24820
+S
+#24822
+The Corridor~
+   You are standing in a corridor with wooden floor and ceiling.  Door are
+placed in the north and south walls.  Further to the east the corridor ends at
+a window overlooking the forest.    
+~
+248 d 0
+D0
+~
+~
+0 -1 24826
+D1
+~
+~
+0 -1 24825
+D2
+~
+~
+0 -1 24827
+D3
+~
+~
+0 -1 24821
+S
+#24823
+The Library~
+   Book shelves line the walls of this room.  In the center of the room is a
+large desk and some chairs.  The shelves are filled with books bound in leather
+and scrolls stacked high.    
+~
+248 d 0
+D2
+~
+~
+0 -1 24821
+S
+#24824
+The Living Room~
+   A set of large padded chairs face a roaring fireplace that fills the room
+with its radiant heat.  The wooden logs in the fire crack and sputter as the
+flames consume them.    
+~
+248 d 0
+D0
+~
+~
+0 -1 24821
+S
+#24825
+Falling ~
+   That was a mistake.  You are not a bird.  You fall to the ground and splat!
+Like a bug on a windshield.  Ask a wizard to get a spatula.  Perhaps your
+remains will soften the fall for the next victim.    
+~
+248 bcj 0
+D3
+~
+~
+0 -1 24821
+S
+#24826
+The Guards Bedroom~
+   This looks like an ordinary bed room with about twenty beds in it.  There
+are no other exits than the one to the south.  The beds look uncomfortable and
+unkept.    
+~
+248 d 0
+D0
+~
+~
+0 -1 24827
+D2
+~
+~
+0 -1 24822
+S
+#24827
+The Training Room~
+   The middle of the room is filled with a rack of training equipment.  
+Everything from padding to wooden weapons.  The floor is wooden with sawdust to
+help clean up any accidents.    
+~
+248 d 0
+D0
+~
+~
+0 -1 24822
+S
+#24890
+The Reception of the Tavern of Hope~
+   A staircase leads down to the entrance hall.  A conspicous sign hangs over
+the counter.  All the noise and excitement seems to be coming from the entrance
+hall.    
+~
+248 cd 0
+D5
+You see the Tavern of Hope.
+~
+~
+0 -1 24816
+E
+sign~
+   Rooms are expensive but good!  You may:
+
+   Offer - get an offer on a room - Time is in real life days.
+   Rent  - Rent a room (saves your stuff, and quits the game),
+           minimum charge is one day.
+
+
+                          MY WAY OR THE HIGHWAY
+                             PAY YOUR RENT!
+                WE WON'T THINK TWICE BEFORE KICKING YOU OUT.
+~
+S
+#0
+
+#RESETS
+M 0 24802 10 24808 	(the Elven soldier)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24803 10 24808 	(the Elven guard)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24803 10 24808 	(the Elven guard)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24803 10 24808 	(the Elven guard)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24803 10 24808 	(the Elven guard)
+E 1 24800 99 16 	(a diamond-edged sword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24810 1 24804 	(the chief of the elven guard)
+E 1 24801 10 16 	(a fine Longsword)
+E 1 24802 10 5 	(an Elven chainmail)
+M 0 24804 2 24811 	(the Elven weaponsmith)
+E 1 24804 100 16 	(a Two-handed Mithril Sword)
+G 1 24801 100 -1 	(a fine Longsword)
+G 1 3020 100 -1 	(a dagger)
+G 1 3021 100 -1 	(a small sword)
+G 1 3023 100 -1 	(a wooden club)
+G 1 24806 100 -1 	(an Elven hunting bow)
+G 1 7211 100 -1 	(a short sword)
+G 1 6000 100 -1 	(a lumber axe)
+R 0 24827 3023 -1 	(a wooden club)
+O 0 3023 100 24827 	(a wooden club)
+M 0 24804 2 24827 	(the Elven weaponsmith)
+E 1 24804 100 16 	(a Two-handed Mithril Sword)
+E 1 24821 25 12 	(a warm woolen cape)
+E 1 24822 25 1 	(a small fire-opal ring )
+E 1 24803 100 5 	(a Mithril chainmail)
+D 0 24803 5 1 	(Guard room.)
+D 0 24805 4 1 	(Cellar.)
+M 0 24801 2 24801 	(the Elven guardian)
+E 1 24803 10 5 	(a Mithril chainmail)
+E 1 24804 10 16 	(a Two-handed Mithril Sword)
+M 0 24801 2 24801 	(the Elven guardian)
+E 1 24803 10 5 	(a Mithril chainmail)
+E 1 24804 10 16 	(a Two-handed Mithril Sword)
+M 0 24805 1 24810 	(the Elven armoursmith)
+E 1 24801 100 16 	(a fine Longsword)
+G 1 3042 100 -1 	(a shield)
+G 1 3086 100 -1 	(a pair of leather sleeves)
+G 1 3076 100 -1 	(a leather cap)
+G 1 24802 100 -1 	(an Elven chainmail)
+G 1 24807 100 -1 	(an Elven Chaincoif)
+G 1 24808 100 -1 	(a pair of Elven Chain leggings)
+M 0 24806 1 24814 	(the Elven mage)
+E 1 24801 100 16 	(a fine Longsword)
+G 1 3050 1000 -1 	(a scroll of identify)
+G 1 3051 1000 -1 	(a yellow potion of see invisible)
+G 1 24809 10 -1 	(a Leaf-green potion)
+G 1 24810 100 -1 	(an oak branch staff)
+G 1 24811 100 -1 	(an Ocean-blue potion)
+G 1 24812 10 -1 	(a Mithril flute)
+M 0 24807 1 24813 	(the Elf named Quintor)
+E 1 24801 100 16 	(a fine Longsword)
+G 1 24813 1000 -1 	(a small green bag)
+G 1 24814 1000 -1 	(a large green sack)
+G 1 24815 1000 -1 	(a papyrus note)
+G 1 24816 1000 -1 	(a swan-feather quill)
+G 1 24817 1000 -1 	(a small glass jar with a glowing worm in it)
+G 1 7208 100 -1 	(a small stick)
+M 0 24808 1 24816 	(the Elven bartender)
+E 1 24801 100 16 	(a fine Longsword)
+G 1 24818 1000 -1 	(a homemade milk skin)
+G 1 24819 1000 -1 	(a nicely rosted rabbit)
+G 1 3102 1000 -1 	(a cup)
+G 1 24820 1000 -1 	(a fine elven bisquet)
+M 0 24809 1 24890 	(the Elven receptionist)
+E 1 24801 100 16 	(a fine Longsword)
+M 0 24802 15 24806 	(the Elven soldier)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24802 10 24807 	(the Elven soldier)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24802 10 24812 	(the Elven soldier)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24802 10 24809 	(the Elven soldier)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24802 10 24802 	(the Elven soldier)
+E 1 24801 100 16 	(a fine Longsword)
+E 1 24802 100 5 	(an Elven chainmail)
+M 0 24803 15 24815 	(the Elven guard)
+O 0 24805 1 24806 	(a large telescope)
+S
+
+
+#SHOPS
+
+#24800~
+24801
+3020
+3021
+3023
+24806
+1.3
+0.4
+5
+6
+7
+0
+0
+%s Sorry, I don't have that weapon.~
+%s Sorry, you don't seem to have that...~
+%s I don't buy such an item, try some other shop.~
+%s Sorry, that's a too expensive weapon for me, try in Thewston.~
+%s Get some money if you wanna buy something...~
+%s Ok, I'll charge you %d coins for it.~
+%s Here you are, I'll give you %d coins for it.~
+2
+0
+24804
+0
+24811
+0
+28
+0
+0
+#24801~
+3042
+3086
+3076
+24802
+6002
+1.0
+0.5
+9
+0
+0
+0
+0
+%s Sorry, I don't have that armour.~
+%s Sorry, you don't seem to have that.~
+%s I don't buy such a item, try some other shop.~
+%s Sorry, that's a too expensive armour for me, try in Thewston.~
+%s Get some money if you like to buy something...~
+%s Ok, that'll be %d coins, please.~
+%s Here you are, I'll give you %d coins for it.~
+0
+0
+24805
+0
+24810
+0
+28
+0
+0
+#24802~
+3050
+3051
+24809
+24810
+24811
+1.05
+0.15
+2
+3
+4
+10
+0
+%s To bad, I don't seem to have that item.~
+%s Sorry, I don't buy something you don't have.~
+%s Sorry that's not my part of business...~
+%s Sorry, that's a too expensive item for me, try in Thewston.~
+%s Get lost punk! You don't have that much money.~
+%s That'll be %d coins!~
+%s I'll give you about %d coins for it.~
+0
+0
+24806
+0
+24814
+0
+28
+0
+0
+#24803~
+24813
+24814
+24815
+24816
+24817
+1.5
+0.4
+1
+15
+16
+21
+8
+%s Sorry, I'm unfortunatly out of that for the moment.~
+%s You don't seem to be a honest man, maybe I should call the guards?~
+%s I don't trade in that kind of objects.~
+%s Sorry, I'm out of cash, try in Thewston, or give it to me. :-)~
+%s You seem to have been robbed if you thought you had that kind of money? ~
+%s That'll be %d coins, please...~
+%s I'll give you about %d coins for it, here you go...~
+0
+0
+24807
+0
+24813
+0
+28
+0
+0
+#24804~
+-1
+3102
+24818
+24819
+24820
+1.0
+0.9
+17
+19
+0
+0
+0
+%s It's very noisy in here, what did you say you wanted to buy?~
+%s You don't seem to be a honest man, maybe I should call the guards?~
+%s I don't trade in that kind of objects.~
+%s Sorry, I'm out of cash, try in Thewston, or give it to me for free...:-)~
+%s Are you drunk or what ??? - NO CREDIT!~
+%s That'll be - say %d coins.~
+%s I'll give you about %d coins for it, here you go...~
+0
+0
+24808
+0
+24816
+0
+28
+0
+0
+0
+
+
+#$

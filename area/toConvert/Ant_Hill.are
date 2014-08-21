@@ -1,0 +1,1028 @@
+#Style Circle
+#AREADATA
+Name Ant Hill~
+Builders Garrison~
+VNUMs 4600 4699
+Credits {{None}  CAW    Ant Hill~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#4600
+green ant worker~
+a green worker ant~
+A green worker ant toils away mindlessly for its queen.
+~
+   The green worker ant is the powerhouse behind this anthill.  It slaves away
+almost constantly, digging new tunnels, gathering food, and even protecting the
+hill from other bugs.  
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+BareHandAttack: 4
+E
+#4601
+red soldier ant~
+a red soldier ant~
+A red soldier ant is invading the anthill.
+~
+   Sent by the red queen to seek and destroy for progression and expansion of
+the red ant colony.  This red soldier ant has been sent here to eliminate the
+existing residents.  
+~
+cdgq 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+BareHandAttack: 1
+E
+#4616
+green soldier ant~
+a green soldier ant~
+A green soldier ant is protecting the anthill.
+~
+   The green soldier ant was born and raised to protect the queen and the entire
+anthill.  They do no work, but will sacrifice themselves for the queen.  
+~
+bd 0 3 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+BareHandAttack: 11
+E
+#4632
+huge green soldier ant~
+a huge green soldier ant~
+A huge green soldier ant stands here ready to die protecting the Queen.
+~
+   This special soldier ant has been given the sole responsibility of protecting
+the queen from attack.  It is by far one of the largest ants in the entire
+anthill.  
+~
+bdm 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+BareHandAttack: 4
+E
+T 4603
+T 4605
+T 4607
+#4633
+green queen ant~
+the green queen ant~
+The green queen ant is ensuring the survival of the species.
+~
+   She has no purpose other than to lead the anthill, and breed.  She is huge
+and it doesn't look like she could ever fit through any of the tunnels.  She
+guards over her newborn larvae.  
+~
+bd 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+BareHandAttack: 4
+E
+T 4602
+T 4604
+T 4606
+#4699
+dominant male ant green~
+a green dominant male ant~
+A large green dominant male ant scutters about, making sure the workers tend their jobs.
+~
+   This large dominant male green ant is second only to the queen.  Its purpose
+is to ensure everything gets done and the queen keeps pumping out cute little
+larvae.  
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+BareHandAttack: 4
+E
+#0
+
+#OBJECTS
+
+#4600
+giant anthill~
+a giant anthill~
+There is a particularly large anthill here. ~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+T 4601
+E
+anthill~
+   You are looking at a huge anthill, it's unfanthomably big, there is a large
+man size hole leading into it.    
+~
+#4601
+giant ant feeler~
+a feeler from a giant ant~
+A long whip, looking like a piece of a bug is lying here.~
+~
+5 0 ano 0
+0 3 2 2
+3 30 3 0
+#4602
+exoskeleton shell~
+an exoskeleton shell~
+An exoskeleton shell is lying here.~
+~
+9 0 ad 0
+3 0 0 0
+4 40 4 0
+#4603
+ant pincher~
+an ant's pincher~
+Some insect pinchers have been hacked off and left here, oozing green slime.~
+~
+5 0 an 0
+0 1 5 1
+1 10 1 0
+A
+18 2
+A
+17 -1
+#4604
+gqueen ants stinger~
+a stinger from the queen ant~
+Looks like someone ripped off the tip of a Queen ant's butt.~
+~
+5 ag an 0
+0 4 4 1
+1 40 0 0
+A
+12 5
+#4605
+red ant eye~
+a red ant's eye~
+A bright shining eye is here looking back at you.~
+~
+1 0 ao 0
+0 0 -1 0
+3 90 10 0
+A
+3 1
+#4606
+poisoned metasoma~
+a poisoned metasoma~
+A small sac of sweet smelling liquid oozing out from a metasoma.~
+~
+3 0 ao 0
+12 2 2 33
+5 50 5 0
+#4607
+sleeves exoskeleton~
+a pair of exoskeleton sleeves.~
+Small bits of exoskeleton stiched together lay here in armor form.~
+~
+9 0 ai 0
+3 0 0 0
+2 20 2 0
+#4608
+legging exoskeleton~
+a pair of exoskeleton leggings~
+Long pieces of exoskeleton lay here in armor form.~
+~
+9 0 af 0
+3 0 0 0
+2 20 2 0
+#4609
+larvae~
+an ant larvae~
+A small ant larvae has been left behind here.~
+~
+19 0 a 0
+2 0 0 0
+1 1 0 0
+#4610
+junk~
+some junk~
+Broken shells, unborn larvae and heaps of other junk have been thrown here in an untidy pile.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#4611
+red exoskeleton~
+a leather underlined red plated exoskeleton~
+Slabs of an exoskeleton bounded together on a large piece of leather lays here.~
+~
+9 g ad 0
+3 0 0 0
+9 140 15 0
+A
+5 1
+#4612
+red ant stinger~
+a red ant's stinger~
+Someone has ripped the butt off a red ant and threw it here.~
+~
+5 0 an 0
+0 3 4 1
+3 30 3 0
+#4613
+leg broken red ant~
+a broken red ant's leg~
+The remaining leg of a red ant lays here, it's never gonna walk again.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#4616
+sharp claws~
+a pair of sharp claws~
+A pair of sharp claws, taken from an extremely large ant is here.~
+~
+5 g an 0
+8 3 3 8
+5 150 20 0
+A
+19 3
+#4633
+antenna~
+an antennae~
+An ant antennae still twitches on the ground.~
+~
+9 0 ae 0
+0 0 0 0
+2 20 2 0
+A
+2 2
+A
+13 3
+A
+17 5
+#0
+
+#ROOMS
+
+#4600
+Inside A Giant Anthill~
+   You have fallen into a large open area beneath the surface of the earth.  
+Ants can be seen running in every direction.  They do not take the time to
+notice anything going on around them.  There are exits in just about every
+direction possible.  There is a distinct smell of fresh air here, maybe it's
+possible to get out.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4601
+D1
+~
+~
+0 0 4602
+D2
+~
+~
+0 0 4603
+D3
+~
+~
+0 0 4604
+D5
+~
+~
+0 0 4605
+E
+credits info~
+   Builder   : Garrison
+Zone         : 46 Ant Hill
+Began        : 3/1/2000
+Player Level : 3-7
+Rooms        : 41
+Mobs         : 6
+Objects      : 16
+Shops        : 0
+Triggers     : 8
+Theme        : A giant anthill with BUGS, ewww gross.
+Plot         : A giant ant hill.
+Notes        : Plan on having alot of mobs so the zone will be a slaughterhouse
+               for experience points. 
+Links        : 00u, or better yet through teleport trigger in object 00 "enter anthill"
+~
+S
+T 4600
+#4601
+Inside The Anthill~
+   This small room is packed with junk that the ants have pulled in that has no
+use.  There is a little bit of everything in this room.  And the ants just keep
+bringing more stuff in.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4639
+D2
+~
+~
+0 0 4600
+S
+#4602
+A Small Room~
+   Here is a small empty room that has nothing at all inside of it.  Except for
+the few ants that wander in.  Another passage can be seen to the east of here.
+The ants have dug through the dark brown soil recently.  The smell of the fresh
+earth is invigorating.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4634
+D3
+~
+~
+0 0 4600
+S
+#4603
+A Hole In The Wall~
+   Here is a small opening that looks as if the ants were going to make another
+passage but never completed it.  A ledge of rock in the southern wall explains
+why they stopped.  The ledge has a strange golden sparkle to it.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4600
+S
+#4604
+Another Room In The Anthole~
+   Here is another basic room full of ants just standing around looking for
+something to do.  Small dugouts in the wall can be seen that looks like they
+have tried to make more passages but never completed them.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4600
+S
+#4605
+Farther Into The Hole~
+   Now farther into the hole it seems to be a little cooler than it was.  More
+passages lead elsewhere in ever direction, and ants can be seen coming from
+each one.  Trails of food lead from each room to another where the ants have
+been carrying it.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4606
+D1
+~
+~
+0 0 4609
+D2
+~
+~
+0 0 4608
+D3
+~
+~
+0 0 4607
+D4
+~
+~
+0 0 4600
+D5
+~
+~
+0 0 4610
+S
+#4606
+A Passage In The Hole~
+   This is a fairly large room that seems to be used often for tired ants to
+set and rest awhile without being in the way of others.  The wall has little
+indents where the ants lean agaist it so they don't take up as much room on the
+ground.    
+~
+46 dp 0
+D2
+~
+~
+0 0 4605
+S
+#4607
+A Tunnel~
+   Yet another room where the ants are seen coming and going as always.  Some
+are laying around and others look as if they are actually doing work.  The
+earthen tunnel lead both east and west.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4605
+D3
+~
+~
+0 0 4635
+S
+#4608
+A Sandy Dead End~
+   The tunnel walls consist of a light brown sand, making it impossible to
+continue excavation in this direction.  The ants seemed to have given up on
+this tunnel once they ran into the unsupportive soil.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4605
+S
+#4609
+A Collapsed Tunnel~
+   The tunnel comes to an abrupt end to the east.  It appears that the eastern
+wall may have recently caved in, closing off what once used to be another
+tunnel.  Strange how the ants have not fixed it yet.    
+~
+46 dp 0
+D3
+~
+~
+0 0 4605
+S
+#4610
+Deeper In The Anthole~
+   Now deeper in the hole it is even colder and darker than when you were only
+one level up.  More and more ants can be seen running around back and forth
+doing there jobs.  Tunnels and passages can be seend in all the cardinal
+directions.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4613
+D1
+~
+~
+0 0 4612
+D2
+~
+~
+0 0 4614
+D3
+~
+~
+0 0 4611
+D4
+~
+~
+0 0 4605
+D5
+~
+~
+0 0 4615
+S
+#4611
+A Small Passage~
+   This small passage leads west into another part of the anthole.  Sounds can
+be heard coming from it.  It almost sounds as if the ants are fighting.  
+Probably more of the fire ants have invaded the tunnel.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4610
+D3
+~
+~
+0 0 4616
+S
+#4612
+A Caved in Tunnel~
+   The tunnel has collapsed here, leaving a sloping pile of dirt that rises to
+the ceiling of the tunnel.  In the rubble you notice a large red soldier ant
+crushed from the collapse.  Maybe these collapses were planned.    
+~
+46 dp 0
+D3
+~
+~
+0 0 4610
+S
+#4613
+A Storage Room~
+   This large empty room looks like it is used for storage.  Shelf-like burrows
+are carved into the dirt walls.  Perhaps to place crumbs and other food
+particals that they picked up and brought in.    
+~
+46 dp 0
+D2
+~
+~
+0 0 4610
+S
+#4614
+A Caved-in Tunnel~
+   A collapse of the tunnel has buried even more red fire ants.  The green ants
+that run the anthill must have caused these collapses to prevent the fire ants
+from taking over their hill.  The two species of ants must have put up home too
+close to each other.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4610
+S
+#4615
+At The Bottom~
+   You have now reached the bottom of the anthole.  The fall was so far that
+there is no way you could get back up to the other levels of the hole.  Larger
+worker ants and guards can be seen roaming in and out of the passages.  The
+queen has to be somewhere around here.    
+~
+46 dp 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 4618
+D2
+~
+~
+0 0 4620
+D3
+~
+~
+0 0 4619
+S
+#4616
+A Rocky Tunnel~
+   This section of the tunnel is heavily guarded by soldier ants, something
+valuable must be contained at its end.  The tunnel here is bordered by rock and
+ledge, making more digging almost impossible.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4611
+D2
+~
+~
+0 0 4617
+S
+#4617
+The Larvae Storage Room~
+   Eggs and larvae fill this entire room.  The green queen and green dominant
+male must have been busy here.  Severl soldier ants are close by to protect the
+newborn.  The tunnel exits to the north.    
+~
+46 dp 0
+D0
+~
+~
+0 0 4616
+S
+#4618
+A Large Hallway~
+   The short hallway leads to a large open room.  Worker ants rush back and
+forth bringing food and other supplies deep into the anthill for safety.  This
+rooms sole purpose seems to be for storage and the worker ants to live.    
+~
+46 dp 0
+D3
+~
+~
+0 0 4615
+S
+#4619
+A Large Tunnel~
+   The tunnel has been dug out wider than usual.  The sounds of digging can be
+heard in almost every direction.  The tunnel floor is packed hard from the
+heavy traffic.  The tunnel continues east and west.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4615
+D3
+~
+~
+0 0 4629
+S
+#4620
+A Dark Tunnel~
+   The thick black soil causes this tunnel to look darker than normal.  The
+interconnecting tunnels make it hard to stay orientated in which direction you
+are travelling.  East and west you see even more tunnels with side passages.  
+~
+46 dp 0
+D0
+~
+~
+0 0 4615
+D1
+~
+~
+0 0 4621
+D3
+~
+~
+0 0 4629
+S
+#4621
+A Dark Intersection~
+   The dark earth here has been dug out by the workers and now forms a precise
+junction in all four cardinal directions.  It is amazing how a bug with a tiny
+brain can build things so perfectly.    
+~
+46 d 0
+D0
+~
+~
+0 0 4622
+D1
+~
+~
+0 0 4625
+D2
+~
+~
+0 0 4626
+D3
+~
+~
+0 0 4620
+S
+#4622
+Another Branch~
+   The tunnel becomes increasingly more damp the further to the north.  The
+sound of running water can be heard.  The walls here appear to have been washed
+out, not dug out by ants.    
+~
+46 d 0
+D0
+~
+~
+0 0 4623
+D2
+~
+~
+0 0 4621
+S
+#4623
+Along The Passage~
+   Small puddles form along the floor, and water drips from the ceiling.  The
+thought of being under a lake or other large body of water is rather
+disturbing.  To the north you see a reflection off from something.    
+~
+46 d 0
+D0
+~
+~
+0 0 4624
+D2
+~
+~
+0 0 4622
+S
+#4624
+An Underground Pond~
+   A small pond fills the entire room here, several ant corpses can be seen
+floating in the dirty water.  A small river flows in from the west, into the
+room, and then exits to the east.    
+~
+46 d 0
+D2
+~
+~
+0 0 4623
+S
+#4625
+A Dark Passage~
+   The air is thin this far down in the tunnel and getting thinner the further
+you travel.  This hallway appears to end just to the east in a large room.  An
+intersection of tunnels is just to the west.    
+~
+46 d 0
+D1
+~
+~
+0 0 4627
+D3
+~
+~
+0 0 4621
+S
+#4626
+A Collapsing Tunnel~
+   The earthen floor gives slightly as you tread upon it.  The ceiling above
+you crumbles slightly and hangs over you, ready to drop at any minute.  The
+tunnel turns to the west where it looks like the slightest pressure on the
+floor could cause a collapse.    
+~
+46 d 0
+D0
+~
+~
+0 0 4621
+D3
+~
+~
+0 0 4628
+S
+#4627
+The End Of The Tunnel~
+   You are at the east end of a tunnel inside the giant anthill.  You can
+faintly hear the sound of ants working somewhere deeper inside.  Looking closer
+at the base of the tunnel you get the impression that this tunnel is used quite
+frequently.  You feel a draft coming from a small hole in the ceiling, bringing
+with it the destinct smell of fresh air, maybe there is a way out.    
+~
+46 d 0
+D3
+~
+~
+0 0 4625
+D4
+Nothing special there...
+~
+undefined~
+0 0 -1
+S
+T 4600
+#4628
+Buried Alive~
+   The dirt and earth sucks you in like quicksand.  A nice little trap for the
+unwary and stupid.  Trying to climb out only buries you further.  Now is a good
+time to either have a friend with summons or a scroll of recall.    
+~
+46 acd 0
+D1
+~
+~
+0 0 -1
+S
+#4629
+Into the Large Tunnel~
+   As you walk down the tunnel more passages and tunnels can be seen.  The
+sounds that could be heard before are even louder now but still sound as if
+they are still far away.  The large tunnel seems to make a turn to the south.
+~
+46 d 0
+D1
+~
+~
+0 0 4619
+D2
+~
+~
+0 0 4630
+S
+#4630
+A Long Tunnel~
+   The sounds and bustle of the main parts of the anthill seem to quiet down in
+this area.  The ants here do not seem to be rushing as much.  The tunnel
+continues north and south.  It is too dark and too long of a distance to see
+where they lead.    
+~
+46 d 0
+D0
+~
+~
+0 0 4629
+D2
+~
+~
+0 0 4631
+S
+#4631
+A Long Tunnel~
+   This part of the tunnel is completely empty, not a single bug in sight.  
+The walls and ceiling appear to be in good shape and this part of the tunnel
+looks very strong and secure.    
+~
+46 cd 0
+D0
+~
+~
+0 0 4630
+D2
+~
+~
+0 0 4632
+S
+#4632
+A Small Room~
+   The long tunnel to the north opens up into a small room.  A few large ants
+go about their business and ignore you.  A lot of commotion to the east
+attracts your attention.    
+~
+46 d 0
+D0
+~
+~
+0 0 4631
+D1
+A large clay door.
+~
+door~
+1 0 4633
+S
+#4633
+The Queen's Chamber~
+   You have entered the Queen's chamber.  The Queen is in charge of the anthill
+and is always heavily guarded.  The room you stand in is the largest you've
+seen.  The walls are made of a hard red clay, and are lined with stones to
+prevent intrusion.    
+~
+46 d 0
+D3
+A large clay door.
+~
+door~
+1 0 4632
+S
+#4634
+A Small Room~
+   This is just another small room that has been dug out by the ants.  They
+seem to be expanding their tunnels for some reason.  A small tunnel leads back
+to the west.  The northern wall of this room is extremely moist and small
+puddles of water are forming in the corners.    
+~
+46 dp 0
+D3
+~
+~
+0 0 4602
+S
+#4635
+An Earthen Tunnel~
+   The ground through which this tunnel was dug has been packed into what looks
+like a typical dirt road.  The constant travelling of the ants has padded it
+down smoothly.  A few light brown rocks just out of the floor, ceiling, and
+walls.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4607
+D3
+~
+~
+0 0 4636
+S
+#4636
+A Small Passage~
+   Continuing along the passage you can see that it makes a sharp bend ahead.
+So you can either go back to the east or go on west and see where that bend in
+the tunnel leads.  The ants seem oblivious to your intrustion so far.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4635
+D3
+~
+~
+0 0 4637
+S
+#4637
+A Bend In The Tunnel~
+   The tunnel curves sharply to the south as it comes against a rocky ledge.  
+To the south you can make out a large room that is in the process of being dug
+out.  Ants can bee seen pushing and pulling the dirt away.    
+~
+46 dp 0
+D1
+~
+~
+0 0 4636
+D2
+~
+~
+0 0 4638
+S
+#4638
+A Dead End Tunnel~
+   The large are before you must be the latest expansion to the anthill.  
+Unfortunately it is unfinished and leaves you with no choice other than to head
+back the way you came.    
+~
+46 d 0
+D0
+~
+~
+0 0 4637
+S
+#4639
+A Small Crevice~
+   You have just walked into a small room that seems to be nothing special
+except that it is slightly cleaner than the rest.  Maybe it is special.  Who
+knows?  A few odd objects are scattered around the room.    
+~
+46 dp 0
+D2
+~
+~
+0 0 4601
+S
+#4698
+Before A Giant Anthill~
+   You have came upon what has to be the largest anthill ever.  It stands
+atleast 20feet high and about 50feet wide.  It is evident that ants have been
+entering and leaving this hill for quite some time.  The hole is large enough
+for the heaviest armor adventurer.    
+~
+46 j 0
+S
+#0
+
+#RESETS
+M 0 4600 30 4600 	(a green worker ant)
+E 1 4601 50 16 	(a feeler from a giant ant)
+O 0 4609 30 4625 	(an ant larvae)
+O 0 4609 30 4629 	(an ant larvae)
+M 0 4601 15 4631 	(a red soldier ant)
+E 1 4612 30 16 	(a red ant's stinger)
+E 1 4611 30 5 	(a leather underlined red plated exoskeleton)
+M 1 4601 15 4631 	(a red soldier ant)
+E 1 4612 30 16 	(a red ant's stinger)
+E 1 4605 30 6 	(a red ant's eye)
+G 1 4606 5 -1 	(a poisoned metasoma)
+M 0 4601 15 4619 	(a red soldier ant)
+E 1 4612 30 16 	(a red ant's stinger)
+E 1 4605 30 0 	(a red ant's eye)
+G 1 4606 5 -1 	(a poisoned metasoma)
+M 0 4699 3 4603 	(a green dominant male ant)
+E 1 4603 50 16 	(an ant's pincher)
+E 1 4608 50 7 	(a pair of exoskeleton leggings)
+E 1 4607 50 10 	(a pair of exoskeleton sleeves.)
+G 1 4613 30 -1 	(a broken red ant's leg)
+O 0 4609 30 4611 	(an ant larvae)
+M 0 4601 15 4611 	(a red soldier ant)
+E 1 4612 30 16 	(a red ant's stinger)
+E 1 4611 30 5 	(a leather underlined red plated exoskeleton)
+M 0 4616 6 4617 	(a green soldier ant)
+E 1 4616 100 16 	(a pair of sharp claws)
+E 1 4607 50 10 	(a pair of exoskeleton sleeves.)
+E 1 4608 50 7 	(a pair of exoskeleton leggings)
+O 0 4609 30 4617 	(an ant larvae)
+O 0 4609 30 4617 	(an ant larvae)
+O 1 4609 30 4617 	(an ant larvae)
+M 0 4600 50 4610 	(a green worker ant)
+E 1 4601 50 16 	(a feeler from a giant ant)
+M 0 4601 15 4610 	(a red soldier ant)
+E 1 4612 30 16 	(a red ant's stinger)
+E 1 4611 30 5 	(a leather underlined red plated exoskeleton)
+M 0 4601 15 4618 	(a red soldier ant)
+E 1 4611 30 5 	(a leather underlined red plated exoskeleton)
+O 0 4609 50 4618 	(an ant larvae)
+M 0 4633 1 4633 	(the green queen ant)
+E 1 4633 1 6 	(an antennae)
+E 1 4602 50 5 	(an exoskeleton shell)
+E 1 4604 50 16 	(a stinger from the queen ant)
+E 1 4607 50 10 	(a pair of exoskeleton sleeves.)
+E 1 4608 50 7 	(a pair of exoskeleton leggings)
+M 0 4616 6 4616 	(a green soldier ant)
+E 1 4616 100 16 	(a pair of sharp claws)
+E 1 4607 50 10 	(a pair of exoskeleton sleeves.)
+E 1 4608 50 7 	(a pair of exoskeleton leggings)
+M 0 4600 30 4605 	(a green worker ant)
+E 1 4601 50 16 	(a feeler from a giant ant)
+M 0 4632 2 4632 	(a huge green soldier ant)
+E 1 4602 50 5 	(an exoskeleton shell)
+E 1 4603 10 16 	(an ant's pincher)
+M 0 4632 2 4632 	(a huge green soldier ant)
+E 1 4602 50 5 	(an exoskeleton shell)
+E 1 4603 10 16 	(an ant's pincher)
+O 0 4610 2 4639 	(some junk)
+O 0 4610 2 4601 	(some junk)
+M 0 4600 50 4615 	(a green worker ant)
+E 1 4602 50 5 	(an exoskeleton shell)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+0
+
+
+#$

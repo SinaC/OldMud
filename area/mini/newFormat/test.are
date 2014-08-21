@@ -1,0 +1,60 @@
+Area 'Test area' {
+  Builders = 'Sinac';
+  Vnums = ( 31000, 31099 );
+  Credits = '{{All} Test area';
+  Security = 1;
+
+//=======================================
+
+
+//=======================================
+Object 31000 {
+  Name = 'test item';
+  ShD = 'a test item';
+  Desc = 'A test item lies here.';
+  ItemType = 'staff';
+  Level = 110;
+  Weight = 5;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 110, 10, 10, 'fireball' );
+  Restriction = ( 0, 'race', 69, 0 );
+  Restriction = ( 0, 'race', 3, 0 );
+}
+Object 31001 {
+  Name = 'new test item';
+  ShD = 'a new test item';
+  Desc = 'A new test item lies here.';
+  ItemType = 'weapon';
+  Level = 110;
+  Weight = 0;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'ranged', 100, 5, 1, 1 );
+  Restriction = ( 0, 'parts', 8, 0 );
+  Restriction = ( 0, 'race', 1, 1 );
+  Affect = ( 'none', -1, 110, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'room', 'healrate', 0, 150 ) );
+  Affect = ( 'none', -1, 110, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'immunities', 1, ('fire') ) );
+}
+
+
+//=======================================
+Room 31000 {
+  Name = 'Test room';
+  Desc = 'You are in an empty room where supreme beings are
+doing some twisted experiments.
+';
+  Sector = 'inside';
+
+}
+
+
+//=======================================
+}
+

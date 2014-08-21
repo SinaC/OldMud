@@ -1,0 +1,4285 @@
+#Style Circle
+#AREADATA
+Name Campus~
+Builders Matrix~
+VNUMs 30100 30199
+Credits {{None}  CAW    Campus~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#30100
+frec~
+the FREC~
+The FREC stands here looking for violence.
+~
+   This large, purpled, mohawked warrior looks quite aggressive.  It is
+probably not something anyone should mess with.    
+~
+bd d 0 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 0
+E
+#30101
+boss~
+the Boss~
+The Boss is standing here looking somewhat bored.
+~
+   This person is bearing up under University pressures quite well and looks as
+if it can cope with anything.    
+~
+cdg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 0
+E
+#30102
+gael~
+the Gael~
+The Gael is here to help you.
+~
+   This person is ready, and willing to help any being in trouble.  Just to top
+things off, the gael is extemely well dressed.    
+~
+cdgh 0 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 0
+E
+#30103
+mob example~
+the Example Mob~
+An Example Mob stands here, exampling.
+~
+   The example mob looks indistinct, as if it hasn't been completely fleshed
+out yet.    
+~
+bdh bdh 100 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#30104
+professor prof~
+the Professor~
+A professor is standing here, glaring at you.
+~
+   As you glance at the professor, it suddenly begins to scream about homework
+and its spatial relationship to you.    
+~
+dg d 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#30105
+security~
+Security~
+Security is lurking in the area, watching for misbehavior.
+~
+   You don't want to misbehave when these guys are around.  In fact you don't
+want to even be around these guys.    
+~
+dfg d -130 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 0
+E
+#30106
+security~
+Security~
+Security is lurking in the area, watching for misbehavior.
+~
+   You don't want to misbehave when these guys are around.  In fact you don't
+want to even be around these guys.    
+~
+dfg d -130 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#30107
+security~
+Security~
+Security is lurking in the area, watching for misbehavior.
+~
+   You don't want to misbehave when these guys are around.  In fact you don't
+want to even be around these guys.    
+~
+dfg d -130 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 2
+E
+#30108
+student constable stucon~
+the Student Constable~
+A Student Constable is protecting the campus from this point.
+~
+   These are also known as StuCons and are recruited from amongst the ranks of
+everyday students of the university.  They are not much more than hired help.
+  
+~
+dg d 130 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 0
+E
+#30109
+student constable stucon~
+the Student Constable~
+A Student Constable is guarding the campus from this point.
+~
+   These are also known as StuCons and are recruited from amongst the ranks of
+everyday students of the university.  They are not much more than hired help.
+  
+~
+dg d 130 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 1
+E
+#30110
+student constable stucon~
+the Student Constable~
+A Student Constable is guarding the campus from this very point right here.
+~
+   These are also known as StuCons and are recruited from amongst the ranks of
+everyday students of the university.  They are not much more than hired help.
+  
+~
+dg d 130 E
+8 19 5 1d1+80 1d2+1
+80 6400
+8 8 2
+E
+#30111
+student~
+the student~
+The student is hurrying off to its next class.
+~
+   This is just your average it university student, the only interests it has
+are classes, work, and other its.    
+~
+cdg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#30112
+student~
+the student~
+The student is rushing off to his next class.
+~
+   This is just your average male university student, the only interests he has
+are classes, work, and other students of the opposite sex (females, you think).
+  
+~
+cdg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+#30113
+student~
+the student~
+The student is scurrying off to her next class.
+~
+   This is just your average female university student, the only interests she
+has are classes, and work.    
+~
+cdg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+#30114
+frosh froshie~
+the froshie~
+This frosh is standing here with a confused expression on its face.
+~
+   You are looking at the everyday run of the mill confused frosh.    
+~
+dgh 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#30115
+frosh froshie~
+the froshie~
+This frosh is standing here with a confused expression on his face.
+~
+   You are looking at the everyday run of the mill confused frosh.    
+~
+dgh 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#30116
+frosh froshie~
+the froshie~
+This frosh is standing here with a confused expression on her face.
+~
+   You are looking at the everyday run of the mill confused frosh.    
+~
+dgh 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#30117
+mary rotte chef~
+a Mary-Rotte chef~
+A Mary-Rotte chef struggles to poison the food quickly.
+~
+   With one hand he fries, with the other he flips the meat (?  ) over, and
+with the other hand he sprinkles some salt into the other hand which is
+holding...  Hey!  Isn't that too many hands?  This guy is good (or maybe he
+isn't...  ).    
+~
+bd 0 -350 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#30118
+coke machine~
+the Coke Machine~
+A Coke Machine hums quietly.
+~
+   This machine is a marvel of engineering.  After receiving the money, it
+quickly fouls up the order and delivers it with a large clanging noise.    
+~
+bdnopr d 0 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 0
+E
+#30119
+frosh froshie~
+the froshie~
+This frosh is lining up here.
+~
+   You are looking at the everyday run of the mill lining-up frosh.    
+~
+dgh 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#30120
+frosh froshie~
+the froshie~
+This frosh is lining up here.
+~
+   You are looking at the everyday run of the mill lining-up frosh.    
+~
+dgh 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#30121
+frosh froshie~
+the froshie~
+This frosh is lining up here with a confused expression on her face.
+~
+   You are looking at the everyday run of the mill confused frosh.    
+~
+dgh 0 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 2
+E
+#30122
+frec~
+the FREC~
+The FREC waits here for violence to come to it.
+~
+   This large, purpled, mohawked warrior looks quite aggressive.  It is
+probably not something anyone should mess with.    
+~
+bcdf d 0 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 0
+E
+#30123
+caf employee~
+a caf employee~
+A caf employee stands here ready to fill your order.
+~
+   As if you'd actually order anything.    
+~
+bd 0 -100 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 0
+E
+#30124
+jock~
+a BIG jock~
+A rather large jock occupies the room.
+~
+   It (he?  ) is quite big.  It (she?  ) looks at you with undisguised
+hunger...    
+~
+dg 0 0 E
+18 17 0 3d3+180 3d3+3
+180 32400
+6 8 0
+E
+#30125
+mosher~
+a mosher~
+A mosher moshes here.  Oh it hit you!
+~
+   This mosher moshes with enthusiasm!    
+~
+bdf d 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 0
+E
+#30126
+mosher~
+a mosher~
+A mosher moshes here.  Oh he hit you!
+~
+   This mosher moshes with enthusiasm!    
+~
+bdf d 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 1
+E
+#30127
+mosher~
+a mosher~
+A mosher moshes here.  Oh she hit you!
+~
+   This mosher moshes with enthusiasm!    
+~
+bdf d 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 2
+E
+#30128
+mailbox mail box~
+the mailbox~
+A friendly mailbox waits for your mail here.
+~
+   This mailbox is a staple in most of Tabrach.  Funny thing though, you've
+never seen one in your life...  Hmmmm.  On the side is emblazoned the word TP
+(must stand for Tabrach Post).    
+~
+bd h 0 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 1
+E
+#30129
+swarm frgo frgos~
+the swarm of frgos~
+A swarm of frgos circles above the building to the west.
+~
+   This creature appears to have the body of a cow with eagle's wings...  How
+strange.    
+~
+bd 0 0 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 0
+E
+#30130
+student~
+the student~
+A student is snoozing here.
+~
+   This is just your average it university student, and hey, it's sleeping too!
+  
+~
+cdg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+4 4 0
+E
+#30131
+student~
+the student~
+A student is furiously taking notes here.
+~
+   This is just your average it university student.    
+~
+cdg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+6 6 0
+E
+#30132
+chris~
+Chris~
+Chris is drooling here.
+~
+   The man before you is tall and stocky.  He is clothed in a stonewashed pair
+of jeans and a purple beret.    
+~
+cdg 0 150 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 1
+E
+#30133
+residence master~
+the Residence Master~
+The Residence Master is presiding over his little world here.
+~
+   The creature before you looks EVIL and SCARY, but you being a hearty
+adventurer are not afraid!  (unless you are less than 15th level ...  That is.
+  
+~
+dfg bd -276 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#30134
+bennie boo ben~
+Bennie Boo~
+Bennie Boo is playing The World of Xeen here.
+~
+   He seems to need help, any ideas?    
+~
+bd 0 298 E
+9 19 4 1d1+90 1d2+1
+90 8100
+6 6 1
+E
+#30135
+bubble man~
+the Bubble Man~
+The Bubble Man is bubbling over.
+~
+   His surface is a nice mixture of colour and light.  It seems to be very thin
+though.    
+~
+bd 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#30136
+chimpster chimp~
+the chimpster~
+A chimp-like being is doing acrobatics here.
+~
+   It looks like some kind of cross between a human and a chimpanzee...  
+That's odd.  Those darned elves ...  They should never have invented gene
+splicing...    
+~
+bd 0 0 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 0
+E
+#30137
+alex~
+Alex~
+Alex is here fleshing out the Example Mob.
+~
+   Alex is working hard at fleshing out the example mob which looks indistinct,
+because it hasn't been completely fleshed out yet.    
+~
+bde bdh 100 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#30138
+steve~
+Steve~
+Steve is working furiously at finishing the wld file so it can be put online.
+~
+   Steve is working hard and it looks like he should be finishing soon.    
+~
+bde bdh 100 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#30139
+bob~
+Bob the storekeeper~
+Bob is looking after his store here.
+~
+   As you look more closely, you realize that Bob is somewhat spaced out.  
+Looking at the sheet in his hand reveals that he is doing inventory.  No wonder
+he is so spaced out.    
+~
+bdnopr 0 200 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#30140
+tuck~
+Mr. Tuck~
+Mr. Tuck is organizing shelves.
+~
+   He seems to be locating things like candy.    
+~
+bdnopr 0 200 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 1
+E
+#30141
+sue~
+Sue, the book-looker-after-er~
+Sue is looking after books here.
+~
+   Actually, there doesn't seem to be any books...  Hmmmmmm.    
+~
+bdnopr 0 200 E
+9 19 4 1d1+90 1d2+1
+90 8100
+8 8 2
+E
+#30142
+bartender~
+the Bartender~
+The Bartender pours drinks several at a time to keep up with the rush.
+~
+   The Bartender looks harried as he tries to keep up with several different
+orders at the same time.  Maybe you should bother him later...    
+~
+bdnopr 0 250 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#30143
+drunk~
+the Drunk~
+A drunk, babbling about something incessantly.
+~
+   The drunk person looks at you and slurs, 'Whatre you lookin' at, bozo?  '
+~
+bd 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 1
+E
+#30144
+Chief FREC~
+Chief FREC~
+Chief FREC orders you around here.
+~
+   It stands tall and proud...  As if being purple with golden hair can make
+anyone proud...    
+~
+cdg dh -300 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 0
+E
+#30145
+golden world copy~
+a copy of Golden World~
+A copy of Golden World lies here.
+~
+   It looks like the student humour newspaper, but it contains nothing to do
+with actual news that you didn't know already.    
+~
+dg t 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#30146
+clock ghost grant hall~
+the ghost of Grant~
+The clock ghost flits about randomly here.
+~
+   The ghost resembles the late Grant Hall.  It seems to be somewhat
+transparent though.    
+~
+bcd bd -100 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 0
+E
+#30147
+wraith~
+a wraith~
+An ethereal wraith-like shape is here.
+~
+   This ghostly creture is grey in colour and has an amorphous shape.    
+~
+bd d -400 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 0
+E
+#0
+
+#OBJECTS
+
+#30100
+key small red~
+a red key~
+A small red key has been left here.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+small red key~
+   It's small, it's red, it's a key.  
+~
+#30101
+key brass~
+a brass key~
+An worn brass key lies idlely on the ground here.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+brass key~
+   The brass key seems worn through years of use.  
+~
+#30102
+oreo~
+an Oreo(tm) cookie~
+A moldy, dust covered Oreo(tm) cookie has been discarded here.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+oreo~
+   It isn't a pretty sight.  You could not bring yourself to eat this!  
+~
+E
+tm trademark~
+   Oreo is a registered trademark of Christie Brown & Co.  A division of Nabisco
+Brands Ltd.  
+~
+#30103
+key small iron~
+a small iron key~
+A small iron key hangs from a hook here.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+small iron key~
+   It has a 'W3625' insribed on it.  
+~
+#30104
+key small iron~
+a small iron key~
+A small iron key lies on a desk here.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+small iron key~
+   It has a 'W2716' insribed on it.  
+~
+#30105
+steak salisbury tray~
+a salisbury steak~
+A tray of Mary Rotte salisbury steak has been left here.~
+~
+19 0 a 0
+2 0 0 1
+2 10 0 0
+E
+salisbury steak tray~
+   It's not steak!  
+~
+#30106
+burger garden~
+a garden burger~
+A Mary Rotte garden burger lies here, lonely.~
+~
+19 0 a 0
+1 0 0 1
+1 8 0 0
+E
+garden burger~
+   You've never seen anything more disgusting in your life.  
+~
+#30107
+eggs fried~
+some fried eggs~
+Some Mary Rotte fried eggs sit here slowly hardening.~
+~
+19 0 a 0
+1 0 0 1
+1 2 0 0
+E
+fried eggs~
+   You're not sure, but you think that they are plastic.  
+~
+#30108
+dish lyonnaise potatoes~
+a dish of lyonnaise potatoes~
+A dish of Mary Rotte lyonnaise potatoes wobbles around here.~
+~
+19 0 a 0
+1 0 0 1
+1 5 0 0
+E
+lyonnaise potatoes dish~
+   What is lyonnaise, anyways?  
+~
+#30109
+calzone~
+a calzone~
+A Mary Rotte calzone cools here.~
+~
+19 0 a 0
+2 0 0 0
+1 10 0 0
+E
+calzone~
+   It's similar to a pizza pop.  It looks vaguely edible.  
+~
+#30110
+barbells~
+a set of barbells~
+A HUGE set of barbells lies here, gathering dust.~
+~
+12 0 a 0
+0 0 0 0
+50 100 0 0
+E
+barbells~
+   They look heavy.  
+~
+#30111
+condom~
+a condom~
+A condom has been carefully placed here.~
+~
+9 g ae 0
+0 0 0 0
+1 5 0 0
+E
+condom~
+   One of the old type...  The ones they give away for free.  
+~
+A
+14 -10
+#30112
+tam~
+a tam~
+A tam is here...~
+~
+9 0 ae 0
+0 0 0 0
+5 1 0 0
+E
+tam~
+   This tam is real ugly.  I mean ugly.  
+~
+A
+4 1
+#30113
+tray blue~
+a blue tray~
+No it couldn't be... a blue tray!~
+~
+9 g aj 0
+10 0 0 0
+1 100 0 0
+E
+blue tray~
+   You can't believe you actually found one.  Blue trays are almost as common as
+talking dogs that speak in Norwegian!  
+~
+#30114
+hairnet~
+a hairnet~
+A hairnet has been thrown away here.~
+~
+9 a ae 0
+1 0 0 0
+1 1 0 0
+E
+hairnet~
+   This thing (blech) must be glowing from the radiation...  
+~
+#30115
+flashlight light~
+a flashlight~
+A long flashlight has been dropped here.~
+~
+5 0 ano 0
+0 2 4 7
+8 150 0 0
+E
+flashlight light~
+   This looks like one of the flashlights Security uses...  Uh-oh...  
+~
+#30116
+jacket yellow~
+a yellow jacket~
+A nice yellow jacket has been carefully hung here.~
+~
+9 gk ak 0
+5 0 0 0
+15 200 0 0
+E
+yellow jacket~
+   This nice, yellow jacket has the word STU-CON emblazoned on the back.  
+~
+#30117
+knife evil~
+an evil knife~
+An evil knife lies on the ground here.~
+~
+5 k an 0
+0 2 5 11
+5 300 0 0
+E
+knife evil~
+   This is an evil knife, pure and simple.  
+~
+#30118
+key silver~
+a small silver key~
+A small silver key lies forgotten here.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+silver key~
+   This small key has only one marking on it, the number BF128.  
+~
+#30119
+key brass~
+a small brass key~
+A small brass key lies forgotten here.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+brass key~
+   This brass key is marked with the number HG34.  
+~
+#30120
+blade darkness~
+the Blade of Darkness~
+A dark, incredibly sharp blade lies on the ground here.~
+~
+5 fgjl an 0
+0 3 7 11
+10 500 0 5
+E
+blade darkness~
+   The blade has a dark aura surrounding it.  It seems to absorb any light that
+dares to stray near it.  
+~
+A
+18 2
+#30121
+cloak twilight~
+Twilight cloak~
+A dark brown-to-black cloak has been left here.~
+~
+9 fgjl ak 0
+6 0 0 0
+11 102 0 0
+#30122
+sword mage bane magebane~
+Magebane~
+An oddly shaped sword lies here.~
+~
+5 abh ano 0
+0 2 9 11
+10 1000 0 0
+E
+mage bane magebane sword~
+   It's shape is very peculiar.  It seems to have a glowing aura.  
+~
+A
+24 2
+A
+12 -50
+#30123
+orb obsidian~
+the obsidian orb~
+An Obsidian orb is emoting darkness here.~
+~
+1 fjk ao 0
+0 0 0 0
+1 100 0 0
+E
+orb obsidian~
+   This Orb looks distinctly evil.  
+~
+A
+12 25
+A
+24 2
+#30124
+gpa golden party armor~
+Golden Party Armor~
+A beautiful Golden jacket has been left here.~
+~
+9 0 ak 0
+8 0 0 0
+22 543 22 0
+E
+gpa golden party armor~
+   This gold leather jacket looks rather beaten up, but it still looks like it
+will last forever.  You can see a crest of sorts on the left breast.  
+~
+E
+crest~
+   The crest seems to portray the numbers 9 and 7.  
+~
+A
+9 2
+#30125
+furry hat~
+a Furry Hat~
+An extremely Furry Hat has been carefully hung on the wall here.~
+~
+9 0 ae 0
+2 0 0 0
+3 133 0 0
+E
+furry hat~
+   This hat is covered with fur and has rather nice ear-flaps.  
+~
+A
+12 5
+#30126
+boots work~
+an old pair of work boots~
+A pair of boots has been left here.~
+~
+9 a ag 0
+4 0 0 0
+10 65 0 0
+E
+work boots~
+   This pair of boots is well worn.  
+~
+#30127
+vest silver~
+a shiny silver vest~
+A nice, shiny, silver vest has been lost here.~
+~
+9 0 ad 0
+3 0 0 0
+20 100 0 0
+E
+silver vest~
+   It's shiny, it's silver ...  What more could you want?  
+~
+#30128
+hairbrush silver hair brush object~
+a lovely silver hairbrush~
+A silver object has been dropped here.~
+~
+22 0 ae 0
+0 0 0 0
+30 143 0 0
+E
+silver hair brush hairbrush~
+   This nice, silver hairbrush is a bit tarnished but still suffices to untangle
+hair.  
+~
+#30129
+extension cord~
+the extension cord~
+A long extension cord stretches to the north and south.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+extension cord~
+   The extension cord was probably made by the twin power-mages Black and Decker
+and seems to stretch off to the horizon.  
+~
+#30130
+extension cord~
+the extension cord~
+A cord comes in from the street and is plugged in an outlet to the east.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+extension cord~
+   The extension cord was probably made by the twin power-mages Black and Decker
+and leads off into the street.  Wonder where it leads?  
+~
+#30131
+extension cord~
+the extension cord~
+An cord comes from the back of the Coke Machine and stretches to the north.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+extension cord~
+   The extension cord was probably made by the twin power-mages Black and Decker
+and seems to stretch off to the northern horizon.  
+~
+#30132
+extension cord~
+the extension cord~
+A long extension cord stretches to the south and into a building to the east.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+extension cord~
+   The extension cord was probably made by the twin power-mages Black and Decker
+and seems to stretch off to the southern horizon and into the building which
+just happens to lie to the east.  
+~
+#30133
+world xeen~
+the World of Xeen(tm)~
+The World of Xeen(tm) game is sitting here.~
+~
+13 0 a 0
+0 0 0 0
+42 123 0 0
+E
+tm trademark~
+   World of Xeen is a registered trademark of New World Computing.  As are the
+Might & Magic games (IV and V).  
+~
+E
+world xeen~
+   This game is a combination of Might & Magic IV and V (tm) and takes up a lot
+of hard drive space.  Almost 42 megabytes in fact!  
+~
+#30134
+sword long longsword~
+a long sword~
+An ordinary long sword gathers dust here.~
+~
+5 0 an 0
+0 1 8 3
+12 600 0 0
+E
+sword long longsword~
+   Looks almost like your generic long sword, but not quite.  
+~
+#30135
+t-square t square death~
+a T-square of Death~
+A T-square has been carelessly discarded here.~
+~
+5 agh an 0
+0 4 6 3
+9 250 0 0
+E
+t-square t square death~
+   This T-square is an extremely sharp weapon, and has been well used.  
+~
+A
+19 -2
+#30136
+apple~
+a pale apple~
+An extremely pale apple sits here.~
+~
+19 0 a 0
+2 0 0 0
+1 3 0 0
+E
+apple~
+   It looks like it didn't get enough sun.  
+~
+#30137
+milk bottle milk~
+a bottle~
+A bottle with a brightly colored label sits here.~
+~
+17 0 a 0
+4 4 10 0
+9 10 0 0
+E
+bottle~
+   This bottle has such greenish glass that you can't see if anything is inside.
+
+~
+#30138
+wine carafe wine~
+a carafe~
+A wooden carafe sits on a table here.~
+~
+17 0 a 0
+8 8 2 0
+13 20 0 0
+E
+carafe~
+   The wooden carafe seems to be some sort of container.  
+~
+#30139
+firebreather glass shotglass firebreather~
+a shotglass~
+A shotglass has been discarded here.~
+~
+17 0 a 0
+2 2 7 0
+7 15 0 0
+E
+glass shot shotglass~
+   This small glass looks like it would be emptied in a drink or two.  
+~
+#30140
+water popcoke coke pop can water~
+a can of PopCoke~
+A can of PopCoke awaits you here, cool and refreshing.~
+~
+17 0 a 0
+1 1 15 0
+1 10 0 0
+E
+popcoke coke pop can~
+   This can is elegantly decorated with garish colours that almost make you
+sick.  They were probably intended to have a similar effect to the drink inside.
+
+~
+#30141
+candy bar~
+a candy bar~
+A candy bar is here!~
+~
+19 0 a 0
+4 0 0 0
+1 3 0 0
+E
+candy bar~
+   This candy is made of the highest standard of chocolate.  It even meets the
+standards of the Candy Man.  
+~
+#30142
+key steel~
+a large steel key~
+A large steel key lies hidden here.~
+~
+18 0 ao 0
+0 0 0 0
+7 1 0 0
+E
+key steel~
+   This large, steel key is very ordinary.  
+~
+#30143
+copy golden world~
+a copy of Golden World~
+A copy of Golden World lies here.~
+~
+13 0 a 0
+0 0 0 0
+1 1 0 0
+E
+copy golden world~
+   It looks like the student humour newspaper, but it contains nothing to do
+with actual news that you didn't know already.  
+~
+#30144
+water bottle water~
+a bottle~
+A large Water Bottle stands in the corner.~
+~
+17 0 0 0
+2000 2000 0 0
+2005 0 0 0
+E
+water bottle~
+   It seems to have water in it and it reminds you of one of the water bottles
+used in hamster's cages.  
+~
+#30145
+key vic~
+the Key to Vic~
+A key elusively lies quite convincingly.~
+~
+18 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+key vic~
+   This key is an effective master of the art of uselessness...  You wonder why
+it is even here.  
+~
+#30146
+computer~
+a computer~
+A computer sits quietly in the corner.~
+~
+13 ab 0 0
+0 0 0 0
+0 0 0 0
+E
+computer screen~
+   The computer is turned on and on the screen you can see:
+  
+0) Exit from DikuMud.
+1) Enter the game.
+2) Enter description.
+3) Change password.
+5) Read History.
+  
+   Make your choice:
+~
+#30147
+letter~
+a letter~
+A letter lies here.~
+~
+13 0 a 0
+0 0 0 0
+1 1 0 0
+E
+letter~
+   This looks like it was postdated a loooong time ago.  Wonder why it hasn't
+been delivered.  
+~
+#30148
+mail~
+some mail~
+A piece of mail is here.~
+~
+13 0 a 0
+0 0 0 0
+1 1 0 0
+E
+mail~
+   This piece of mail has been stamped and dropped into the mailbox and is
+presently awaiting delivery.  
+~
+#30149
+parcel~
+a parcel~
+A large parcel stands here.~
+~
+15 0 a 0
+25 13 30199 0
+10 1 0 0
+E
+parcel~
+   This parcel has been wrapped with brown paper and sealed with Duct Tape.  
+Looks like it's never getting opened again.  
+~
+#30150
+milk dispenser milk~
+a milk dispenser~
+A milk dispenser sits at the back of the auditorium.~
+~
+13 b a 0
+0 0 0 0
+50 1 0 0
+E
+milk dispenser~
+   Darn!  It seems to be broken.  
+~
+#30151
+milk carton white milk~
+a carton of white milk~
+A cool carton of refreshing milk catches your eye.~
+~
+17 0 a 0
+2 2 10 0
+2 20 0 0
+E
+milk carton white~
+   Hey!  It's got that cool picture from those commercials!  
+~
+#30152
+milk chocolate carton milk~
+a carton of chocolate milk~
+A cool carton of refreshing milk catches your eye.~
+~
+17 0 a 0
+2 2 10 0
+2 21 0 0
+E
+milk chocolate choco carton~
+   Hey!  It's got that cool picture from those commercials too!  
+~
+#30153
+map~
+a map of the campus~
+A handy-dandy map of the campus is standing here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+E
+part2~
+   .
+                      |                                   |
+                      |                                   |
+          Ellis - University -- Corry-Mack    Campus - Division
+           Hall     Avenue       Building    Bookstore   Road
+                      |             |            |        |
+                      |             |            |        |
+<--To ------ Campus - Crossroads - C.C -------- C.C. - Division
+< Entrance  Crescent  |             |                    Road
+               |      |             |                     |
+         Mary Rotte - U.A.       Student                 \|/
+          Cafeteria   |          Health                 Wally
+                     \|/         Services               World
+~
+E
+part1~
+   .
+                  To Ghetto
+                     /|\
+                      |
+                      |
+                  University --- The "J"   Jock       Jock Hardy
+                    Avenue        Dock   Hardy Gym      Arena
+                      |            |         |            |
+                      |            |         |            |
+                  University --- Union --- Union ----- Division
+                    Avenue       Street    Street        Road
+                      |                      |            |
+                      |                      |            |
+      Dunning --- University -- Frosty   The Grant     Division
+       Hall         Avenue      Annex   Hall Building    Road
+                      |                                   |
+                      |                                   |
+~
+E
+inscription~
+   The inscription reads:
+
+        i'd rather die than give you control...
+
+~
+E
+map~
+   To see the map, type "look part1" and "look part2".  There is also an
+inscription on the map.  
+~
+#30154
+key ghostly~
+a ghostly key~
+You can see through an object resembling a key.~
+~
+18 f ao 0
+0 0 0 0
+1 1 0 0
+E
+key ghostly~
+   This key is extremely ghostly, and you fear to put it down as you might not
+be able to find it again.  
+~
+#30155
+nothing~
+some nothing~
+.A hidden nothing.~
+~
+1 0 ao 0
+0 0 -1 0
+1 1 0 0
+#30156
+pendulum~
+a pendulum~
+A large pendulum swings here.~
+~
+13 b 0 0
+0 0 0 0
+0 0 0 0
+E
+pendulum plaque~
+   A small plaque on the base reads: This pendulum was donated by the Class of
+'67 Of course....  You do have a little trouble reading this as the pendulum
+swings inches from your head.  
+~
+#30157
+water fountain water~
+a water fountain~
+A drinking fountain is firmly attached to the wall here.~
+~
+17 b 0 0
+200 200 0 0
+205 0 0 0
+E
+fountain water~
+   You can tell it is firmly attached simply by pulling on it.  
+~
+#30158
+chest wooden~
+a wooden chest~
+There is a wooden chest here.~
+~
+15 0 0 0
+500 15 30154 0
+0 0 0 0
+E
+chest wooden~
+   This is your average, every day, run-of-the-mill, wooden chest.  
+~
+#30159
+ledger book~
+a ledger~
+A large book with the word "Ledger" written on it has been forgotten here.~
+~
+2 0 ao 0
+25 38 4 -1
+10 200 0 0
+E
+ledger book~
+   This book is filled with numbers, dates, and strange notation.  It is enough
+to put anyone to sleep.  
+~
+#30160
+chest wooden~
+a wooden chest~
+There is a wooden chest here.~
+~
+15 0 0 0
+500 15 30154 0
+0 0 0 0
+E
+chest wooden~
+   This is your average, every day, run-of-the-mill, wooden chest.  
+~
+#30161
+bag coins gold~
+a bag of coins~
+A small bag filled with coins lies here.~
+~
+20 0 a 0
+1000 0 0 0
+1 1 0 0
+E
+bag coins gold~
+   This bag of coins doesn't look too big.  
+~
+#0
+
+#ROOMS
+
+#30100
+The Western Campus Entrance~
+   This gateway is made of limestone, and covered in ivy.  Beyond the entrance,
+the university stretches as far as the eye can see.  A sign is neatly posted on
+the left pillar of the gateway.  It is made of nicely polished brass.  Because
+of this, it looks rather important (as all signs go).  The road continues east
+and west from your present location.    
+~
+301 c 1
+D1
+Campus Crescent continues to the east.
+~
+~
+0 -1 30101
+E
+info credits~
+   Campus by Matrix and The Wandering Bard
+Copyright 1994 by Curious Areas Workshop
+Campus is a large tongue-in-cheek area loosely based on a Canadian 
+university campus.  Below is a step by step guide that should work 
+for most DikuMuds...
+The campus consists of 232 rooms.  
+  #00 (exit west to the rest of the world)
+  #22 (exit north to the rest of the world)
+  #86 (add a PEACEFUL flag if you have one)
+Edit the following objects:
+  #46 (make the edesc appear as your login screen.)
+  #59
+*
+The mobs in this area were built on a -100 (good) to 100 (bad) armor 
+class range.  Remove the extra '0' if you don't need/want it.
+*
+Here are some recommended specials for the mobs:
+  #04 should be given a sleep spell to cast
+  #47 should be given an undead process.
+
+Zone 301 is linked to the following zones:
+302 Campus                         at 30123 (south) ---> 30236
+302 Campus                         at 30124 (north) ---> 30250
+302 Campus                         at 30126 (east ) ---> 30294
+302 Campus                         at 30126 (west ) ---> 30295
+303 Campus                         at 30129 (west ) ---> 30330
+303 Campus                         at 30130 (east ) ---> 30320
+303 Campus                         at 30130 (south) ---> 30325
+303 Campus                         at 30130 (west ) ---> 30324
+302 Campus                         at 30133 (east ) ---> 30274
+302 Campus                         at 30134 (north) ---> 30276
+302 Campus                         at 30135 (north) ---> 30292
+302 Campus                         at 30135 (west ) ---> 30291
+302 Campus                         at 30136 (east ) ---> 30266
+302 Campus                         at 30140 (south) ---> 30260
+302 Campus                         at 30142 (north) ---> 30201
+
+302 Campus                         at 30142 (east ) ---> 30203
+302 Campus                         at 30199 (up   ) ---> 30200
+~
+S
+#30101
+Campus Crescent~
+   This cobblestone road is not littered in any way, thus displaying the
+conscientious behaviour of the politically correct students (as they all seem
+to be).  The road continues east and west.    
+~
+301 0 1
+D1
+Campus Crescent continues to the east.
+~
+~
+0 -1 30102
+D3
+The gateway can be seen to the west.
+~
+~
+0 -1 30100
+E
+cobblestone stone cobble~
+   The cobblestones are clean.  
+~
+S
+#30102
+Campus Crescent~
+   This cobblestone road is not littered in any way, thus displaying the
+conscientious behaviour of the politically correct students (as they all seem
+to be).  The road continues east and west.  To the north and south, you can see
+dormitories.    
+~
+301 0 1
+D0
+To the north you see Victoria Hall.
+~
+door~
+2 30145 30125
+D1
+Campus Crescent continues to the east.
+~
+~
+0 -1 30103
+D2
+To the south you see Leonard Hall.
+~
+~
+0 -1 30126
+D3
+Campus Crescent continues to the west.
+~
+~
+0 -1 30101
+E
+dorm dormitory dormitories~
+   Well, they're dormitories.  What else can be said?  
+~
+E
+cobblestone stone cobble~
+   The cobblestones are clean.  
+~
+S
+#30103
+Campus Crescent~
+   This cobblestone road is not littered in any way, thus displaying the
+conscientious behaviour of the politically correct students (as they all seem
+to be).  The road continues east and west.  A noxious smell permeates from the
+south.    
+~
+301 0 1
+D1
+Campus Crescent crosses University Avenue to the east.
+~
+~
+0 -1 30104
+D2
+To the south you barely see the Mary Rotte Cafeteria.
+~
+~
+0 -1 30127
+D3
+Campus Crescent continues to the west.
+~
+~
+0 -1 30102
+E
+cobblestone stone cobble~
+   The cobblestones are clean.  
+~
+E
+caf cafeteria~
+   You barely see, through the thick putrid fumes, the Mary Rotte Cafeteria.  
+~
+S
+#30104
+The Crossroads~
+   Campus Crescent meets University Avenue at this very point...  Right here.
+(Thus the name Crossroads.  ) University runs north-south whilst Campus runs
+east-west.    
+~
+301 0 1
+D0
+University Avenue heads off to the north.
+~
+~
+0 -1 30110
+D1
+Campus Crescent runs to the east.
+~
+~
+0 -1 30105
+D2
+To the south, you see University Avenue.
+~
+~
+0 -1 30108
+D3
+To the west, Campus Crescent continues merrily.
+~
+~
+0 -1 30103
+E
+cobblestone stone cobble~
+   There are no cobblestones here!  You feel very silly looking at something
+that is not here.  
+~
+S
+#30105
+Campus Crescent~
+   This cobblestone road is not littered in any way, thus displaying the
+conscientious behaviour of the politically correct students (as they all seem
+to be).  The road continues east and west.  A large building lies south, off
+the road.  You can see another building to the north.    
+~
+301 0 1
+D0
+To the north, lies the Arts faculty building, Corry-Mack.
+~
+~
+0 -1 30134
+D1
+Campus Crescent continues to the east.
+~
+~
+0 -1 30106
+D2
+The Student Health Services building lies off the road to the south.
+~
+~
+0 -1 30131
+D3
+The Crossroads lie to the west.
+~
+~
+0 -1 30104
+E
+cobblestone stone cobble~
+   The cobblestones are clean.  
+~
+E
+building~
+   The buildings seem warm and inviting.  You almost feel like hugging one.  
+~
+S
+#30106
+Campus Crescent~
+   This cobblestone road is not littered in any way, thus displaying the
+conscientious behaviour of the politically correct students (as they all seem
+to be).  The road continues east and west.  The bookstore is to the north.  An
+odd, round-shaped building lies to the south.    
+~
+301 0 1
+D0
+Well, as I said earlier, the bookstore is to the north!  Try looking at it.
+~
+~
+0 -1 30165
+D1
+Campus Crescent ends to the east.
+~
+~
+0 -1 30107
+D2
+The Physics building, Sterling Hall is to the south.
+~
+~
+0 -1 30130
+D3
+Campus Crescent continues to the west.
+~
+~
+0 -1 30105
+E
+cobblestone stone cobble~
+   The cobblestones are still clean.  
+~
+E
+bookstore~
+   The bookstore is a 2-story cubical building, loud noises emanate from the top
+floor.  
+~
+E
+round building~
+   Yes...  It's a round building.  Go figure.  
+~
+S
+#30107
+Division Road~
+   Asphalt pavement lies heinously beneath your feet.  The road continues north
+and south.  A nice cobblestone road leads off to the west.    
+~
+301 0 1
+D0
+Division Road continues north.
+~
+~
+0 -1 30118
+D2
+Division Road continues south.
+~
+~
+0 -1 30119
+D3
+Campus Crescent and its cobblestones are to the west.
+~
+~
+0 -1 30106
+E
+cobblestone stone cobble~
+   It's asphalt, you idiot!  If you want to look at cobblestones, go west.  
+~
+E
+asphalt pavement~
+   It's asphalt.  
+~
+S
+#30108
+University Avenue~
+   This nicely crafted dirt road runs north-south.  It is normally filled with
+students.  An awful fog drifts in from the west.    
+~
+301 0 1
+D0
+University Avenue crosses a cobblestone road to the north.
+~
+~
+0 -1 30104
+D2
+University Avenue continues south.
+~
+~
+0 -1 30109
+D3
+The cafeteria lies to the west.
+~
+~
+0 -1 30128
+E
+cobblestone stone cobble~
+   It's a dirt road.  There are NO cobblestones here, although to the north...
+
+~
+E
+dirt~
+   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
+World Dictionary)
+~
+E
+cafeteria fog~
+   The fog seems to be coming from the Mary Rotte Cafeteria.  
+~
+S
+#30109
+University Avenue~
+   This nicely crafted dirt road runs north-south.  But it ends here.  It is
+normally filled with students.  There is a dormitory to west.    
+~
+301 0 2
+D0
+University Avenue continues to the north.
+~
+~
+0 -1 30108
+D3
+Morris House lies to the west.
+~
+~
+0 -1 30129
+E
+dirt~
+   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
+World Dictionary)
+~
+E
+dormitory dorm~
+   They are student living establishments.  
+~
+S
+#30110
+University Avenue~
+   This nicely crafted dirt road runs north-south.  It is normally filled with
+students.  Buildings lie on either side of the street.    
+~
+301 0 1
+D0
+University Avenue continues to the north.
+~
+~
+0 -1 30111
+D1
+The Arts building, Corry-Mack, lies to the east.
+~
+~
+0 -1 30133
+D2
+University Avenue crosses Campus Crescent to the south.
+~
+~
+0 -1 30104
+D3
+The Engineering building, Ellis Hall, lies to the west.
+~
+~
+0 -1 30132
+E
+cobblestone stone cobble~
+   It's a dirt road.  There are NO cobblestones here, although to the south...
+
+~
+E
+dirt~
+   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
+World Dictionary)
+~
+E
+building buildings~
+   There are two buildings here.  Which one?  
+~
+S
+#30111
+University Avenue~
+   This nicely crafted dirt road runs north-south.  It is normally filled with
+students.  Buildings lie on either side of the street.    
+~
+301 0 1
+D0
+University Avenue continues to the north.
+~
+~
+0 -1 30112
+D1
+The Science building, Frosty Annex, lies to the east.
+~
+~
+0 -1 30136
+D2
+University Avenue continues to the south.
+~
+~
+0 -1 30110
+D3
+The Commerce building, Dunning Hall, lies to the west.
+~
+~
+0 -1 30135
+E
+dirt~
+   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
+World Dictionary)
+~
+E
+building buildings~
+   There are two buildings here.  Which one?  
+~
+S
+#30112
+University Avenue~
+   This nicely crafted dirt road runs north-south.  It is normally filled with
+students.  A road branches off to the east.    
+~
+301 0 1
+D0
+University Avenue continues to the north.
+~
+~
+0 -1 30113
+D1
+Union Street branches off to the east.
+~
+~
+0 -1 30114
+D2
+University Avenue continues to the south.
+~
+~
+0 -1 30111
+E
+dirt~
+   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
+World Dictionary)
+~
+S
+#30113
+University Avenue~
+   This nicely crafted dirt road runs north-south.  It is normally filled with
+students.  To the north you can see several menacing figures.  There is a sign
+here.  Reading it would be beneficial to your health and general well-being.  
+~
+301 0 1
+D0
+Low-income student housing lies to the north.  BEWARE!
+~
+~
+0 -1 30124
+D1
+The student centre, known as the "J" Dock, stands to the east.
+~
+~
+0 -1 30138
+D2
+University Avenue continues to the south.
+~
+~
+0 -1 30112
+E
+dirt~
+   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
+World Dictionary)
+~
+E
+sign warning~
+   The sign says:
+Welcome to the Student Ghetto!
+
+Fine $103.50 for carrying open alcohol in the streets.
+Fine $ 53.75 for excessively loud noises.
+
+ENTER AT YOUR OWN RISK!
+
+~
+E
+building~
+   The student centre lies to the east.  
+~
+S
+#30114
+Union Street~
+   This non-descript road segment runs east-west between University Avenue and
+Division Road.  To the north is the student centre.    
+~
+301 0 1
+D0
+The student centre, known as the "J" Dock, stands to the north.
+~
+~
+0 -1 30137
+D1
+Union Street continues to the east.
+~
+~
+0 -1 30115
+D3
+University Avenue lies to the west.
+~
+~
+0 -1 30112
+E
+non-descript non descript~
+   (No description)
+~
+E
+building~
+   The student centre lies to the north.  
+~
+S
+#30115
+Union Street~
+   This non-descript road segment runs east-west between University Avenue and
+Division Road.  There are buildings on either side of the street.    
+~
+301 0 1
+D0
+The main entrance to the Jock Hardy Gym lies to the north.
+~
+~
+0 -1 30139
+D1
+Division Road lies to the east.
+~
+~
+0 -1 30116
+D2
+The Grant Hall assembly hall is south of here.
+~
+~
+0 -1 30140
+D3
+Union Street continues to the west.
+~
+~
+0 -1 30114
+E
+non-descript non descript~
+   (No description)
+~
+E
+building buildings~
+   There are two buildings here.  Which one?  
+~
+S
+#30116
+Division Road~
+   Asphalt pavement lies heinously beneath your feet.  The road continues
+south.  A non-descript road leads off to the west.  A building lies to the
+north.    
+~
+301 0 1
+D0
+The Jock Hardy Arena is to the north.
+~
+~
+0 -1 30161
+D2
+Division Road continues south.
+~
+~
+0 -1 30117
+D3
+Union Street is to the west.
+~
+~
+0 -1 30115
+E
+building gym arena~
+   The Jock Hardy Arena lies to the north.  
+~
+E
+asphalt pavement~
+   It's asphalt.  
+~
+S
+#30117
+Division Road~
+   Asphalt pavement lies heinously beneath your feet.  The road continues north
+and south.    
+~
+301 0 1
+D0
+Division Road continues north.
+~
+~
+0 -1 30116
+D2
+Division Road continues south.
+~
+~
+0 -1 30118
+E
+asphalt pavement~
+   It's asphalt.  
+~
+E
+zork~
+   What would possess you to look at that?  What is a zork anyways?  
+~
+S
+#30118
+Division Road~
+   Asphalt pavement lies heinously beneath your feet.  The road continues north
+and south.  A building is off to the west.    
+~
+301 0 1
+D0
+Division Road continues north.
+~
+~
+0 -1 30117
+D2
+Division Road continues south.
+~
+~
+0 -1 30107
+D3
+The Campus bookstore lies to the west.
+~
+~
+0 -1 30141
+E
+bookstore building~
+   The bookstore is a 2-story cubical building, loud noises emanate from the top
+floor.  
+~
+E
+asphalt pavement~
+   It's asphalt.  
+~
+S
+#30119
+Division Road~
+   Asphalt pavement lies heinously beneath your feet.  The road continues north
+and south.    
+~
+301 0 3
+D0
+Division Road continues north.
+~
+~
+0 -1 30107
+D2
+Division Road continues south.
+~
+~
+0 -1 30120
+E
+asphalt pavement~
+   It's asphalt.  
+~
+E
+zork~
+   What would possess you to look at that?  What is a zork anyways?  
+~
+S
+#30120
+Division Road~
+   Asphalt pavement lies heinously beneath your feet.  The road continues north
+and south.  A tree has been planted here.    
+~
+301 0 5
+D0
+Division Road continues north.
+~
+~
+0 -1 30119
+D2
+Division Road continues south.
+~
+~
+0 -1 30121
+E
+asphalt pavement~
+   It's asphalt.  
+~
+E
+tree~
+   It has been placed here just to relieve the monotony.  It serves no other
+purpose whatsoever.  
+~
+S
+#30121
+Division Road~
+   Asphalt pavement lies heinously beneath your feet.  The road continues
+north.  A dormitory sits to the east.  Strange that it's so far from everything
+else...    
+~
+301 0 3
+D0
+Division Road continues north.
+~
+~
+0 -1 30120
+D1
+Wally World sits to the east.
+~
+~
+0 -1 30142
+E
+asphalt pavement~
+   It's asphalt.  
+~
+E
+dorm dormitory~
+   This is a rather tall dormitory.  You'd guess that in real life, it's
+probably 11-stories high, but since that would take an absurd amount of time to
+program, you don't think that there are that many floors in this replica of the
+building.  
+~
+S
+#30122
+The Northern Campus Entrance~
+   This gateway is made of limestone, and covered in ivy.  Beyond the entrance,
+the university stretches as far as the eye can see.  A sign is neatly posted on
+the left pillar of the gateway.  It is made of nicely polished brass.  Because
+of this, it looks rather important (as all signs go).  The road continues north
+and south from your present location.    
+~
+301 c 1
+D2
+The Student GHETTO...  Beware!
+~
+~
+0 -1 30123
+E
+sign plaque~
+   The nicely polished brass plaque reads:
+  
+                            University of XXX
+  
+                           ENTER AT YOUR OWN RISK
+~
+E
+gate gateway pillar~
+   The gateway is made of limestone and covered in ivy.  As you already knew
+that you feel rather silly wasting your time looking at it.  There is a sign on
+the left pillar.  
+~
+S
+#30123
+The Ghetto~
+   The area you see ahead of you is low cost student housing, which is quite
+run down, almost into the ground in fact.  You can see many furtive shapes
+moving through the darkness.    
+~
+301 c 4
+D0
+The gateway lies to the north.
+~
+~
+0 -1 30122
+D2
+This is the ghetto, do you really need to know what is south of you?
+~
+~
+0 -1 30236
+S
+#30124
+The Ghetto~
+   The area you see ahead of you is low cost student housing, which is quite
+run down, almost into the ground in fact.  You can see many furtive shapes
+moving through the darkness.    
+~
+301 c 4
+D0
+This is the ghetto, do you really need to know what is north of you?
+~
+~
+0 -1 30250
+D2
+The nice part of University Avenue begins to the south.
+~
+~
+0 -1 30113
+S
+#30125
+Victoria Hall~
+   This is a locked room with no method of entry...  Yet...  The main reason
+for this is the high number of already existing dormitories and it was thought
+that this one wouldn't add anything.    
+~
+301 cd 0
+D2
+Campus Crescent lies to the south.
+~
+door~
+2 30145 30102
+S
+#30126
+Leonard Hall Lobby~
+   This is the lobby of the all-males residence.  To the north you can see
+Campus Crescent.  To both the east and west you can see locked doors.  The
+floor is decorated with rather ugly, puce tiles.  Beside the east door you can
+see an enormous amount of mailboxes.    
+~
+301 d 1
+D0
+The cobblestoned Campus Crescent lies to the north.
+~
+~
+0 -1 30102
+D1
+There is a locked door leading to a stairwell.
+~
+door~
+1 30106 30294
+D3
+There is a locked door leading to a stairwell.
+~
+door~
+1 30105 30295
+E
+mailbox mailboxes~
+   All of the mailboxes are all empty ...  Just like normal you think.  
+~
+E
+tiles floor~
+   The floor is covered with tiles that are so ugly, you have a difficult time
+keeping your lunch down
+~
+S
+#30127
+Mary Rotte Cafeteria Entrance~
+   As you walk through the entrance of the cafeteria, your appetite suddenly
+disappears.  In this entrance, you'll normally find long line-ups to get into
+the cafeteria, but it's incomprehensible why.  The only safe exit is to the
+north, but if you feel courageous enough, you can venture south.  There is a
+door to the west.    
+~
+301 dh 0
+D0
+You long to go north.
+~
+~
+0 -1 30103
+D2
+The dining hall lies to the south... Beware!
+~
+~
+0 -1 30145
+D3
+There is a doorway leading to the kitchen.
+~
+door doorway~
+1 -1 30143
+E
+cafeteria caf~
+   Yes, this is the cafeteria.  
+~
+E
+door doorway~
+   You believe that the doorway leads to the kitchen.  Let's give our
+compliments to the chef...  *grin*
+~
+S
+#30128
+Mary Rotte Cafeteria Entrance~
+   As you walk through the entrance of the cafeteria, your appetite suddenly
+disappears.  In this entrance, you'll normally find long line-ups to get into
+the cafeteria, but it's incomprehensible why.  The only safe exit is to the
+east, but if you feel courageous enough, you can venture west.  There is a door
+to the south.    
+~
+301 dh 0
+D1
+You long to go east.
+~
+~
+0 -1 30108
+D2
+There is a doorway leading to the kitchen.
+~
+door doorway~
+1 -1 30151
+D3
+The dining hall lies to the west... Beware!
+~
+~
+0 -1 30148
+E
+cafeteria caf~
+   Yes, this is the cafeteria.  
+~
+E
+door doorway~
+   You believe that the doorway leads to the kitchen.  Let's give our
+compliments to the chef...  *grin*
+~
+S
+#30129
+Morris House~
+   This large building seems to be another dormitory...  Of sorts.  It is built
+is a style combining Neo-Georgian features with all the advantages of modern
+design.  A hallway shrouded in darkness leads off to the west, and the road is
+to the east.    
+~
+301 cd 0
+D1
+University Avenue lies to the east.
+~
+~
+0 -1 30109
+D3
+This hallway leads into the depths of Morris.
+~
+~
+0 -1 30330
+S
+#30130
+The Entrance To Sterling Hall~
+   This is the entrance to the famed circular building, Sterling Hall.  
+Supposedly, if you walk in one direction long enough, you will get to where you
+want to be.  Exits lead in all cardinal directions.  A footnote has been
+attached to this description.    
+~
+301 d 1
+D0
+Campus Crescent can be seen through the glass doors.
+~
+~
+0 -1 30106
+D1
+The hallway continues east.
+~
+~
+0 -1 30320
+D2
+An opening to the south brings you to the centre of the building.
+~
+~
+0 -1 30325
+D3
+The hallway continues west.
+~
+~
+0 -1 30324
+E
+round circle circular~
+   Yes, it's round.  
+~
+E
+footnote~
+   Yes, believe it or not, this is a reasonably accurate representation of the
+Physics building, Stirling Hall at our university.  The lecture halls are
+numbered in the same manner as represented and it is in fact round, so that you
+can walk in one direction all the way around the building.  
+~
+S
+#30131
+The Student Health Services Entrance~
+   This nice and inviting building does not seem quite so nice and inviting
+anymore now that you can smell the Formeldehyde.  But life has brightened
+substantially, there is a Birth Control Centre to the east and a De-Tox unit to
+the south.  To the north lies a tempting exit to a cobblestone covered street.
+  
+~
+301 cd 0
+D0
+Back to cobblestones, eh?
+~
+~
+0 -1 30105
+D1
+The Birth Control Centre looks mighty inviting doesn't it?
+~
+~
+0 -1 30172
+D2
+The De-Tox unit to the south looks like a good place to rest.
+~
+~
+0 -1 30173
+S
+#30132
+Entrance To Ellis Hall~
+   This entrance is covered in finely wrought carvings depicting great
+engineering events (like the construction of this area) that have taken place
+in XXX's history.  There are two exits, east to the street and west further
+inside the building.    
+~
+301 d 1
+D1
+University Avenue lies to the east.
+~
+~
+0 -1 30110
+D3
+It is too dark to tell what the next room is.
+~
+~
+0 -1 30174
+E
+carvings~
+   These carvings depict the heroic deeds of Matrix and the Wandering Bard.  
+Here they have just defeated the creature known as the Zon File.  
+~
+S
+#30133
+Corry-Mack Building~
+   The Arts faculty building was obviously the brain child of a maze
+enthusiast.  Its twisting halls have absolutely boggled the greatest minds of
+Vernmot...  As well as the not so great minds.  The halls beckon you to the
+east.  University Avenue lies to the west.    
+~
+301 d 0
+D1
+The twisting halls of Corry-Mack call from the east.
+~
+~
+0 -1 30274
+D3
+University Avenue lies to the west.
+~
+~
+0 -1 30110
+E
+halls hallways hall hallway~
+   They are twisting alright.  
+~
+E
+minds mind great greatest~
+   All of whom were probably smarter than you.  
+~
+S
+#30134
+Corry-Mack Hall~
+   The Arts faculty building was obviously the brain child of a maze
+enthusiast.  Its twisting halls have absolutely boggled the greatest minds of
+XXX...  As well as the not so great minds.  The halls beckon you to the
+north.  Campus Crescent is south of here.    
+~
+301 d 0
+D0
+The twisting halls of Corry-Mack lie ahead.
+~
+~
+0 -1 30276
+D2
+Campus Crescent lies to the south.
+~
+~
+0 -1 30105
+E
+halls hallways hall hallway~
+   They are twisting alright.  
+~
+E
+minds mind great greatest~
+   All of whom were probably smarter than you.  
+~
+S
+#30135
+Dunning Hall Lobby~
+   This is the nerve center of the Commerce Department at UNX (University of
+North XXX).  There are two exits.  One to the north which seems to lead to
+a hall of some sort, and on to the west which leads into a large room.    
+~
+301 d 0
+D0
+A hall leads off to the north.
+~
+~
+0 -1 30292
+D1
+University Avenue lies to the east.
+~
+~
+0 -1 30111
+D3
+A large room stands to the east.  What else would it do, sit?
+~
+~
+0 -1 30291
+S
+#30136
+Frosty Annex Entrance Hall~
+   As you walk off the street, you begin to notice how old and decrepit this
+building is.  If perchance you are passing through this room on your way out of
+the building you noticed how old this building seemed quite a long time ago.  
+There are two exits.  One to the road, which happens to lie to the west and the
+exit to the east leads to a long hallway.    
+~
+301 d 2
+D1
+A long hallway leads off in this direction.
+~
+~
+0 -1 30266
+D3
+University Avenue lies immediately to your west.
+~
+~
+0 -1 30111
+S
+#30137
+The Central Annex~
+   This nicely decorated, cavernous room resembles a large meeting hall.  To
+the east you can see the Infobank, and to the west, you can see the Tuck
+Shoppe.  North of you is the back hall with its bank machines, and south is the
+exit to Union Street.  This area is usually rather busy with students as this
+is the University Student Centre.    
+~
+301 d 1
+D0
+To the north you can see the back hall, complete with numerous bank
+machines, but of course you already knew that, didn't you?
+~
+~
+0 -1 30138
+D1
+To the east you can see the Infobank of the University.
+~
+~
+0 -1 30167
+D2
+To the south is the exit onto the street.
+~
+~
+0 -1 30114
+D3
+The Tuck Shoppe is located to your west.
+~
+~
+0 -1 30169
+E
+prawn~
+   You see nothing even remotely resembling that here.  
+~
+S
+#30138
+The Back Hall~
+   This is the back hall of the Student Centre.  You can see a Post Office to
+the north, and a games room to the east.  The Central Annex is located to the
+south whilst the street is located directly to your west.    
+~
+301 d 0
+D0
+You can distinctly see a post office here, it might have a message in it, but
+you are not quite sure.
+~
+~
+0 -1 30170
+D1
+There are electronic sounds coming from the east.
+~
+~
+0 -1 30168
+D2
+The large central annex lies to the south.
+~
+~
+0 -1 30137
+D3
+University Avenue is located just to the west.
+~
+~
+0 -1 30113
+S
+#30139
+Jock Hardy Lobby~
+   Several plaques line the walls, commemorating the great athletic
+achievements of the students and alumni.  Exits branch off in many directions.
+There is a sign here.    
+~
+301 d 1
+D0
+There is a stairway to the north.
+~
+~
+0 -1 30152
+D1
+A long hallway lies to the east.
+~
+~
+0 -1 30160
+D2
+Union Street lies to the south.
+~
+~
+0 -1 30115
+D3
+A long hallway lies to the west.
+~
+~
+0 -1 30153
+E
+plaque plaques~
+   They are rather boring.  A bunch of people you don't know.  
+~
+E
+sign~
+   The sign says:
+
+    Gym           -> North
+    Arena         -> East
+    Locker Rooms  -> West
+    Exit          -> South
+
+~
+S
+#30140
+The Grant Hall Building~
+   This is the entry hall of the Grant Hall Building.  This building is
+lavishly furnished (with only chairs) and is used for important assemblies.  
+The auditorium lies to the south.    
+~
+301 d 0
+D0
+Union Street lies to the north.
+~
+~
+0 -1 30115
+D2
+The auditorium lies to the south.
+~
+~
+0 -1 30260
+S
+#30141
+Campus Bookstore~
+   This shop is filled with over-priced items that every university student
+would want for his, her, or its own home.  Such items as sweatshirts, pants,
+T-shirts, and, of course, over-priced books that can do for presents to the
+rest of the family.  There are two exits, one to the south and one to the east.
+Both exits are well guarded by security to prevent stolen goods from leaving
+the store before being (over-) priced.    
+~
+301 cdh 0
+D1
+Outside you can see Division Road.
+~
+~
+0 -1 30118
+D2
+To the south you can see the entrance to the Campus Pub.
+~
+door~
+1 -1 30165
+E
+sweatshirt sweatshirts pants t-shirt t-shirts books~
+   There is absolutely no point in looking at anything because the prices are
+almost like paying two or three arms and legs to buy something to cover them...
+
+~
+S
+#30142
+Wally World Reception Area~
+   This is the entrance to the fabulous Wally World, located soulfully on East
+Campus, miles away from everything else.  There are three exits from here, west
+to the street and main campus, east to explore the depths of Wally World, and
+north to visit the front office and reception desk.    
+~
+301 d 3
+D0
+This way leads to the reception desk.
+~
+~
+0 -1 30201
+D1
+This leads to the lounge.
+~
+~
+0 -1 30203
+D3
+This leads back to Division Road and the main campus.
+~
+~
+0 -1 30121
+S
+#30143
+The Kitchen~
+   The kitchen is filled with a light mist of smoke rising from the stoves.  
+The food here is mass-produced and cheaply made.  After watching how they cook
+this food you are glad you do not normally eat at the cafeteria.  There is a
+door to the east.    
+~
+301 d 1
+D1
+The doorway leads back out of the kitchen.
+~
+door doorway~
+1 -1 30127
+D2
+The kitchen continues south.
+~
+~
+0 -1 30144
+E
+door doorway~
+   You stare intently at the door.  Its wooden frame enthrals you.  
+~
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+S
+#30144
+The Kitchen~
+   The kitchen is filled with a light mist of smoke rising from the stoves.  
+The food here is mass-produced and cheaply made.  After watching how they cook
+this food you are glad you do not normally eat at the cafeteria.    
+~
+301 d 1
+D0
+The kitchen continues north.
+~
+~
+0 -1 30143
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+S
+#30145
+Dining Hall~
+   The cafeteria dining hall is filled with poor students that are forced to
+eat this food to subsist.  You feel pity upon them as you watch them fill their
+stomachs with this sorry excuse for food.  The dining hall continues east and
+south.  The exit is to the north.    
+~
+301 d 4
+D0
+An unknown force draws you north.
+~
+~
+0 -1 30127
+D1
+The dining hall continues east.
+~
+~
+0 -1 30146
+D2
+The dining hall continues south.
+~
+~
+0 -1 30147
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+E
+students poor~
+   You feel sorry for them.  
+~
+S
+#30146
+Dining Hall~
+   The cafeteria dining hall is filled with poor students that are forced to
+eat this food to subsist.  You feel pity upon them as you watch them fill their
+stomachs with this sorry excuse for food.  The dining hall continues west and
+south.    
+~
+301 d 4
+D2
+The dining hall continues south.
+~
+~
+0 -1 30148
+D3
+The dining hall continues west.
+~
+~
+0 -1 30145
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+E
+students poor~
+   You feel sorry for them.  
+~
+S
+#30147
+Dining Hall~
+   The cafeteria dining hall is filled with poor students that are forced to
+eat this food to subsist.  You feel pity upon them as you watch them fill their
+stomachs with this sorry excuse for food.  The dining hall continues north and
+east.    
+~
+301 d 4
+D0
+The dining hall continues north.
+~
+~
+0 -1 30145
+D1
+The dining hall continues east.
+~
+~
+0 -1 30148
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+E
+students poor~
+   You feel sorry for them.  
+~
+S
+#30148
+Dining Hall~
+   The cafeteria dining hall is filled with poor students that are forced to
+eat this food to subsist.  You feel pity upon them as you watch them fill their
+stomachs with this sorry excuse for food.  The dining hall continues north and
+west.  The exit is to the east.    
+~
+301 d 4
+D0
+The dining hall continues north.
+~
+~
+0 -1 30146
+D1
+An unknown force draws you east.
+~
+~
+0 -1 30128
+D3
+The dining hall continues west.
+~
+~
+0 -1 30147
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+E
+students poor~
+   You feel sorry for them.  
+~
+S
+#30149
+Kitchen~
+   The kitchen is filled with a light mist of smoke rising from the stoves.  
+The food here is mass-produced and cheaply made.  After watching how they cook
+this food you are glad you do not normally eat at the cafeteria.  There is a
+door here.    
+~
+301 d 1
+D1
+The kitchen continues east.
+~
+~
+0 -1 30151
+D2
+There is a storeroom beyond the door to the south.
+~
+door doorway~
+1 -1 30150
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+E
+door doorway~
+   It's a door.  It has a nice steel frame surrounding a metallic door.  
+~
+S
+#30150
+A Storeroom~
+   Stowed away here are different ingredients and packages containing pre-made
+spam and other uninteresting stuff.  But wait!  They keep edible food here too!
+So that's what the staff eats!    
+~
+301 d 1
+D0
+These stairs lead back to the door to the kitchen.
+~
+door doorway~
+1 -1 30149
+E
+food~
+   Well, it's food.  
+~
+E
+spam pre-made packages ingredients uninteresting stuff~
+   It's rather uninteresting.  
+~
+E
+door doorway~
+   It's a door.  It has a nice steel frame surrounding a metallic door.  
+~
+S
+#30151
+Kitchen~
+   The kitchen is filled with a light mist of smoke rising from the stoves.  
+The food here is mass-produced and cheaply made.  After watching how they cook
+this food you are glad you do not normally eat at the cafeteria.  There is a
+door to the north.    
+~
+301 d 1
+D0
+The doorway leads back out of the kitchen.
+~
+door doorway~
+1 -1 30128
+D3
+The kitchen continues west.
+~
+~
+0 -1 30149
+E
+door doorway~
+   You stare intently at the door.  Its wooden frame enthrals you.  
+~
+E
+food~
+   Believe me, you don't want to look at that!  
+~
+S
+#30152
+Stairway~
+   As the title implies, there is a set of stairs here which lead up.    
+~
+301 d 2
+D2
+The main lobby is to the south.
+~
+~
+0 -1 30139
+D4
+The stairs lead up.
+~
+~
+0 -1 30154
+S
+#30153
+Hallway~
+   The hallway leads off west into the locker room, and east into the lobby.  
+
+~
+301 ad 5
+D1
+The main lobby is east.
+~
+~
+0 -1 30139
+D3
+The smell wafting from the room behind the door identifies it as a locker
+room.
+~
+door~
+1 -1 30155
+S
+#30154
+Equipment Room~
+   The equipment room houses various items used to work out and for sports.  
+There is a set of stairs here which lead down.    
+~
+301 d 2
+D3
+The Gym is to the west.
+~
+~
+0 -1 30156
+D5
+The stairs lead down.
+~
+~
+0 -1 30152
+S
+#30155
+Locker Room~
+   The fresh smell of sweat lingers in the locker rooms.  There is a set of
+stairs nearby.    
+~
+301 d 3
+D1
+A hallway branches off to the east.
+~
+door~
+1 -1 30153
+D4
+The stairs lead up.
+~
+~
+0 -1 30156
+S
+#30156
+The Gym~
+   Think big.  Think very big.  Think bigger still.  Well, this gym isn't that
+big, but it's pretty big.  The locker rooms are down the stairs.  The equipment
+room lies to the east.    
+~
+301 d 5
+D0
+The gym continues to the north.
+~
+~
+0 -1 30157
+D1
+The equipment room is to the east.
+~
+~
+0 -1 30154
+D3
+The gym continues to the west.
+~
+~
+0 -1 30159
+D5
+The stairs lead down.
+~
+~
+0 -1 30155
+S
+#30157
+The Gym~
+   Think big.  Think very big.  Think bigger still.  Well, this gym isn't that
+big, but it's pretty big.    
+~
+301 d 5
+D2
+The gym continues to the south.
+~
+~
+0 -1 30156
+D3
+The gym continues to the west.
+~
+~
+0 -1 30158
+S
+#30158
+The Gym~
+   Think big.  Think very big.  Think bigger still.  Well, this gym isn't that
+big, but it's pretty big.    
+~
+301 d 5
+D1
+The gym continues to the east.
+~
+~
+0 -1 30157
+D2
+The gym continues to the south.
+~
+~
+0 -1 30159
+S
+#30159
+The Gym~
+   Think big.  Think very big.  Think bigger still.  Well, this gym isn't that
+big, but it's pretty big.    
+~
+301 d 5
+D0
+The gym continues to the north.
+~
+~
+0 -1 30158
+D1
+The gym continues to the east.
+~
+~
+0 -1 30156
+S
+#30160
+The Hall To The Arena~
+   This hall leads to the arena (that is if you are coming from the lobby).  
+Otherwise, this hall leads to the lobby (from the arena, that is).    
+~
+301 ad 5
+D1
+That is the direction to the arena.
+~
+~
+0 -1 30161
+D3
+This is the direction to the lobby.
+~
+~
+0 -1 30139
+S
+#30161
+Jock Hardy Arena~
+   The arena is about as big as the gym, but it is covered in ICE!  Wheeeee!  
+There is an entrance to the south and a hallway to the west.    
+~
+301 d 0
+D0
+The arena continues to the north.
+~
+~
+0 -1 30162
+D1
+The arena continues to the east.
+~
+~
+0 -1 30164
+D2
+Division Road lies to the south.
+~
+~
+0 -1 30116
+D3
+The hall which leads to the lobby (from here) is west.
+~
+~
+0 -1 30160
+E
+ice covered~
+   Never seen ice before?  Try Canada.  
+~
+S
+#30162
+Jock Hardy Arena~
+   The arena is about as big as the gym, but it is covered in ICE!  Wheeeee!  
+
+~
+301 d 0
+D1
+The arena continues to the east.
+~
+~
+0 -1 30163
+D2
+The arena continues to the south.
+~
+~
+0 -1 30161
+E
+ice covered~
+   Never seen ice before?  Try Canada.  
+~
+S
+#30163
+Jock Hardy Arena~
+   The arena is about as big as the gym, but it is covered in ICE!  Wheeeee!  
+
+~
+301 d 0
+D2
+The arena continues to the south.
+~
+~
+0 -1 30164
+D3
+The arena continues to the west.
+~
+~
+0 -1 30162
+E
+ice covered~
+   Never seen ice before?  Try Canada.  
+~
+S
+#30164
+Jock Hardy Arena~
+   The arena is about as big as the gym, but it is covered in ICE!  Wheeeee!  
+
+~
+301 d 0
+D0
+The arena continues to the north.
+~
+~
+0 -1 30163
+D3
+The arena continues to the west.
+~
+~
+0 -1 30161
+E
+ice covered~
+   Never seen ice before?  Try Canada.  
+~
+S
+#30165
+Campus Pub Stairwell~
+   This stairwell leads up to the ever popular (and ever-loud) Campus Pub.  
+There are also exits to the north and south leading to the Campus Bookstore and
+University Crescent respectively.  The stairwell is quite worn in from all the
+boots trampling up and down it all day (and night).  The exit to the north is
+much less worn but the path to the south has been worn right down.  There is a
+small sign partway up the stairwell.    
+~
+301 d 1
+D0
+The Campus Bookstore is located to the north.
+~
+door~
+1 -1 30141
+D2
+Campus Crescent, and its cobblestones, is just to the south.
+~
+~
+0 -1 30106
+D4
+The Campus Pub is just above your head...just go up the stairs...if you
+can stand the noise that is.
+~
+~
+0 -1 30166
+E
+small sign~
+   The sign reads: NO minors allowed.  
+~
+S
+#30166
+Campus Pub~
+   This is your everyday campus pub with loud music, lots of underagers, lots
+of beer, and the perennial favourite, Moshing.  You find it very difficult to
+move around, so decide to limit yourself to the bar.  There is only one exit...
+The one you entered by (down if you can't remember).    
+~
+301 d 5
+D5
+The only way out is down.
+~
+~
+0 -1 30165
+E
+zorpa~
+   You see nothing special.  Now what is a zorpa anyways?  
+~
+E
+moshing mosh~
+   All you can see is a mass of bodies moving up and down, up and down...  
+~
+S
+#30167
+The Infobank~
+   This is the Infobank of the university.  From previous experience you
+realize that any information will be grossly inaccurate, if truthful at all.  
+You can see a map of the university on the wall as well as a list of the
+student government.  The only exit is the way you came in, but with student
+governments you never know...    
+~
+301 d 0
+D3
+Back to the Central annex.
+~
+~
+0 -1 30137
+D5
+~
+plank~
+1 -1 30171
+E
+map~
+   This map shows absolutely nothing, further proving the value of student
+governments to you.  
+~
+E
+list~
+   The list reads:
+
+        <name scratched out>    President
+        <name scratched out>    Vice-President
+
+Seems as though everyone is claiming ignorance today.
+~
+S
+#30168
+The Games Room~
+   In this room you see many arcade style games, none of which are plugged in.
+In one corner you can see a girl playing the Addams Family Pinball Game.  
+There is only one exit.  (Guess where it is).    
+~
+301 d 0
+D3
+You can still see the central annex from here, there seems to be no getting
+away from it.
+~
+~
+0 -1 30138
+E
+girl pinball addams family~
+   You can see a girl playing the Addams Family Pinball Game in one corner.  
+~
+S
+#30169
+The Tuck Shoppe~
+   This is the place to buy whatever kind of food you are looking for,
+according to the sign all types of food are sold here, all you need to do is
+ask...    
+~
+301 cdh 0
+D1
+You can see the central annex to the east.
+~
+~
+0 -1 30137
+S
+#30170
+The Post Office~
+   This seems to be the standard post office given to any university by the
+wonderful XXX government.  You can tell that it is a university post office
+because of the surplus amount of obscene graffiti upon the walls.  The back
+hall is south of here.    
+~
+301 d 0
+D2
+You can see the back hall from here complete with humming bank machines.
+~
+~
+0 -1 30138
+E
+graffiti~
+   You really don't want to read this!  (if you want to continue reading type
+"look wirt")
+~
+E
+wirt~
+   You really are a sucker for punishment now aren't you?  If you still want to
+read it type "look prawn"
+~
+E
+prawn~
+      You see nothing special.  The Prawn is in excellent condition.  
+~
+S
+#30171
+The Special Hidden Room~
+   This room is completely empty except for the things you can see in it.  The
+only thing of real importance you can see is the plank in the ceiling.    
+~
+301 d 5
+D4
+Back to the Infobank we go.
+~
+plank~
+1 -1 30167
+S
+#30172
+Birth Control Centre~
+   This room is literally plastered with photographs, leaflets, and other birth
+control paraphernalia.  On the table for instance is a stack of pamphlets to be
+handed out to any students who wish to read them.    
+~
+301 cd 0
+D3
+To the west you can see the entrance to the building.
+~
+~
+0 -1 30131
+E
+pamphlet leaflet photograph photo~
+   This portrays various bodily functions and things vaguely related that turn
+even your stomach...  Blech!  
+~
+S
+#30173
+De-Tox Unit~
+   This room seems to be the place where people get "detoxified".  Although it
+smells pretty bad, it wouldn't be a bad idea to remember where this is so that
+you can rest here later.  You find it rather difficult to manoeuvre in here
+because of the large number of drunks on the floor.  The only exit is north.  
+
+~
+301 cd 4
+D0
+Back to the entrance...  out of the bad smells here...
+~
+~
+0 -1 30131
+S
+#30174
+Ellis Hall Lobby~
+   This large room seems to serve as a display area for neat engineering
+devices and awards.  There are four exits.  The east exit will take you out
+towards the street whilst the north and west exits are too dark to see the ends
+of.  The stairs on the south side of the room lead up to the second floor and
+whatever might be up there...    
+~
+301 ad 1
+D0
+You can't tell, it's too dark.
+~
+~
+0 -1 30175
+D1
+The street entrance to the building.
+~
+~
+0 -1 30132
+D3
+You can't tell, it's too dark.
+~
+~
+0 -1 30177
+D4
+You aren't quite sure what could be at the top of the stairs, but it could
+be interesting.
+~
+~
+0 -1 30180
+E
+neat engineering devices~
+   You see lots of neat engineering devices which were used in the real world at
+some point or another.  At least you think they were.  
+~
+E
+award awards~
+   These are awards for various Engineering competitions which the university
+entered at one time or another.  
+~
+S
+#30175
+Hallway~
+   This hallway is non-descript and has two exits.  The eastern exit seems to
+lead into a large room while the southern exit leads, well, south.    
+~
+301 ad 1
+D1
+There seems to be a large room to the east.
+~
+~
+0 -1 30176
+D2
+What did you expect? This exit leads south.
+~
+~
+0 -1 30174
+E
+hallway~
+   The hallway is non-descript, ie it has NO description, so why are you looking
+at it?  
+~
+S
+#30176
+Auditorium~
+   This is the large room you probably saw from the hallway attached to its
+only exit (west).  There are numerous seats arranged like a theatre would be.
+There is a large stage at the east end of the room.    
+~
+301 ad 3
+D3
+The hallway you probably entered from is handily located to the west.
+~
+~
+0 -1 30175
+E
+stage~
+   The stage is located at the west end of the room.  In one corner of the
+stage, there is a hockey stick lying on the ground.  
+~
+E
+hockey stick~
+   This is a hockey stick with illegible writing on it.  On one side there is a
+crest prominently displayed.  
+~
+E
+crest~
+   The crest seems to be the crest belonging to the class of `97.  
+~
+E
+goalie~
+   How did you know it was a goalie stick?  Have you been reading the keywords?
+
+~
+S
+#30177
+Hallway~
+   This non-descript hallway has an exit to the east and one to the west.  
+Unfortunately, you can't see what the exits lead to.  Just before you finish
+looking, you notice a door to the north.    
+~
+301 ad 1
+D0
+This seems to lead to a library.
+~
+door~
+1 -1 30179
+D1
+You still can't see where this leads.
+~
+~
+0 -1 30174
+D3
+You can't see where this exit leads so stop trying to get a sneak preview.
+~
+~
+0 -1 30178
+E
+door~
+   It looks just like every other door you've seen.  
+~
+S
+#30178
+The Back Exit~
+   This corridor comes to a sudden halt here as a door seems to be blocking the
+way to the west.  If you were to go east, though, you would not have a problem
+as the corridor seems to continue that way.    
+~
+301 ad 1
+D1
+The hallway looks to continue in this direction.
+~
+~
+0 -1 30177
+D3
+This leads to a back pathway.
+~
+door~
+2 30101 30187
+S
+#30179
+Library~
+   This library is full of incomprehensible engineering texts.  Included in the
+selection here are textbooks dealing with Geology, Calculus, and Mechanics.  
+What fun it would be to spend an entire day just reading these books!  
+Fortunately you won't be disturbed because there is one exit.  To the south
+there is a door.    
+~
+301 d 0
+D2
+A hallway lies to the south.
+~
+door~
+1 -1 30177
+E
+calculus geology mechanics text textbook texts textbooks~
+   These exciting books are sure to fill one of your days with joy!  
+~
+S
+#30180
+Upper Lobby~
+   This lobby has four exits, East and West, North and the stairwell to the
+south which leads down.  You can't see where the stairwell leads.  For that
+matter you can't see where any of the exits lead.    
+~
+301 ad 1
+D0
+It's too dark to see.
+~
+~
+0 -1 30183
+D1
+It's too dark to see.
+~
+~
+0 -1 30181
+D3
+It's also too dark to see.
+~
+~
+0 -1 30182
+D5
+This, like all the other exits, is to dark to tell what it is.
+~
+~
+0 -1 30174
+S
+#30181
+A Classroom~
+   This classroom is completely deserted.  There are no desks, no chairs, no
+tables, no nothing...  Wait, that would mean something is here, wouldn't it?  
+Alright, there is something, there is an exit to the west.    
+~
+301 acd 1
+D3
+This leads back to the upper lobby.
+~
+~
+0 -1 30180
+S
+#30182
+A Classroom~
+   This classroom is completely deserted.  There are no desks, no chairs, no
+tables, no nothing...  Ok, you caught me again, there is an exit to the east.
+  
+~
+301 acd 1
+D1
+This leads back to the upper lobby.
+~
+~
+0 -1 30180
+S
+#30183
+Hallway~
+   This hallway has three conventional exits and a door.  East, south and west
+are conventional whilst the north wall holds a door.    
+~
+301 ad 1
+D0
+This seems to be an office.
+~
+door~
+1 30100 30186
+D1
+It's too dark to see.
+~
+~
+0 -1 30184
+D2
+It's too dark to see.
+~
+~
+0 -1 30180
+D3
+It's too dark to see.
+~
+~
+0 -1 30185
+S
+#30184
+A Classroom~
+   This classroom is completely deserted.  There are no desks, no chairs, no
+tables, no nothing...  Except the typical exit to the west of course.    
+~
+301 acd 1
+D3
+This leads back to the hallway.
+~
+~
+0 -1 30183
+S
+#30185
+A Classroom~
+   This classroom is completely deserted.  There are no desks, no chairs, no
+tables, no nothing...  Not even an exit to the north, good thing since the
+actual exit is to the east.    
+~
+301 acd 1
+D1
+This leads back to the hallway.
+~
+~
+0 -1 30183
+S
+#30186
+Faculty Office~
+   This room seems to be in shambles, as security has recently apprehended a
+student trying to break in.  A huge desk has been toppled over and now rests
+against a wall.    
+~
+301 ad 1
+D2
+This door leads to the hall.
+~
+door~
+1 30100 30183
+E
+desk huge~
+   It rests against the wall.  
+~
+S
+#30187
+Back Path~
+   This pathway leads off into the distance.  You find yourself wondering what
+could be at the end of it.  To the north the path continues, to the east, a
+door graces the building next to you.    
+~
+301 c 4
+D0
+The pathway continues.
+~
+~
+0 -1 30188
+D1
+This leads into the building.
+~
+door~
+2 30101 30178
+E
+pathway~
+   The path is well worn, but there are no discernible footsteps upon it.  
+~
+E
+building~
+   This is the back side of Ellis Hall, the Engineering building.  
+~
+S
+#30188
+A Pathway~
+   The path continues north-south.    
+~
+301 c 4
+D0
+The path continues.
+~
+~
+0 -1 30189
+D2
+The path approaches a building.
+~
+~
+0 -1 30187
+E
+building~
+   Wait until you can see it better.  
+~
+S
+#30189
+A Pathway~
+   The pathway continues north-south.  To the north you can see a tall, thin
+structure sticking up from the ground.    
+~
+301 c 4
+D0
+The pathway continues.
+~
+~
+0 -1 30190
+D2
+The pathway continues.
+~
+~
+0 -1 30188
+S
+#30190
+Approach To The Greasepole~
+   The path seems to be taking a direct route to the needle-like structure just
+to the north.  To the south the path continues.    
+~
+301 c 4
+D0
+The path begins to lead to a large pit.
+~
+~
+0 -1 30191
+D2
+The path continues.
+~
+~
+0 -1 30189
+S
+#30191
+The Greasepit~
+   The tall, needle-like structure stands right in front of you.  There are two
+ways you can go: to the south on the path, or up the greasepole.    
+~
+301 c 4
+D2
+The path leads off to the south.
+~
+~
+0 -1 30190
+D4
+The pole looms tall in front of you.  The only way up it is obvious...
+Up.
+~
+~
+0 -1 30193
+E
+pole grease greasepole~
+   This pole is covered with grease and looks horrendously hard to climb.  
+~
+S
+#30192
+The Greasepole~
+   SPLASH!!!  Down the pole you slide...  You arrive at the bottom again...  
+As usual the exits are to the south and up.    
+~
+301 c 5
+D2
+The path leads off to the south.  It looks like a good place to go.
+~
+~
+0 -1 30190
+D4
+The pole looms tall in front of you.
+~
+~
+0 -1 30193
+E
+pole grease greasepole~
+   This pole is covered with grease and looks even worse than it did before.  
+~
+S
+#30193
+The Greasepole~
+   The only exits are up and down.    
+~
+301 c 5
+D4
+The pole looms ever high above you.
+~
+~
+0 -1 30194
+D5
+It's a long slide down.
+~
+~
+0 -1 30192
+E
+pole greasepole grease~
+   The pole still looks pretty bad, and things don't seem to be getting better.
+
+~
+S
+#30194
+The Greasepole~
+   The only exits are up and down.    
+~
+301 c 5
+D4
+The pole looms ever high above you.
+~
+~
+0 -1 30195
+D5
+It's a long slide down.
+~
+~
+0 -1 30192
+E
+pole greasepole grease~
+   The pole still looks pretty bad, and things don't seem to be getting better.
+
+~
+S
+#30195
+The Greasepole~
+   The only exits are up and down.    
+~
+301 c 5
+D4
+The pole looms ever high above you.
+~
+~
+0 -1 30192
+D5
+It's a long slide down.
+~
+~
+0 -1 30196
+E
+pole greasepole grease~
+   The pole still looks pretty bad, and things don't seem to be getting better.
+
+~
+S
+#30196
+The Greasepole~
+   The only exits are up and down.    
+~
+301 c 5
+D4
+The pole looms ever high above you.
+~
+~
+0 -1 30197
+D5
+It's a long slide down.
+~
+~
+0 -1 30192
+E
+pole greasepole grease~
+   The pole still looks pretty bad, and things don't seem to be getting better.
+
+~
+S
+#30197
+The Greasepole~
+   The only exits are up and down.    
+~
+301 c 5
+D4
+The pole looms ever high above you.
+~
+~
+0 -1 30198
+D5
+It's a long slide down.
+~
+~
+0 -1 30192
+E
+pole greasepole grease~
+   The pole still looks pretty bad, and things don't seem to be getting better.
+
+~
+S
+#30198
+The Greasepole~
+   The only exits are up and down.    
+~
+301 c 5
+D4
+The pole looms ever high above you.
+~
+~
+0 -1 30192
+D5
+It's a long slide down.
+~
+~
+0 -1 30199
+E
+pole greasepole grease~
+   The pole still looks pretty bad, and things don't seem to be getting better.
+
+~
+S
+#30199
+The Greasepole~
+   The only exits are up and down.    
+~
+301 c 5
+D4
+The pole doesn't loom quite so high above you any more.
+~
+~
+0 -1 30200
+D5
+It's a long slide down.
+~
+~
+0 -1 30192
+E
+pole greasepole grease~
+   The pole still looks pretty bad, and things don't seem to be getting better.
+
+~
+S
+#0
+
+#RESETS
+M 0 30117 7 30143 	(a Mary-Rotte chef)
+E 1 30114 99 6 	(a hairnet)
+E 1 30117 99 16 	(an evil knife)
+G 1 30105 99 99 	(a salisbury steak)
+M 0 30117 7 30143 	(a Mary-Rotte chef)
+E 1 30114 99 6 	(a hairnet)
+E 1 30117 99 16 	(an evil knife)
+G 1 30106 99 99 	(a garden burger)
+M 0 30117 7 30144 	(a Mary-Rotte chef)
+E 1 30114 99 6 	(a hairnet)
+E 1 30117 99 16 	(an evil knife)
+G 1 30107 99 99 	(some fried eggs)
+M 0 30117 7 30149 	(a Mary-Rotte chef)
+E 1 30114 99 6 	(a hairnet)
+E 1 30117 99 16 	(an evil knife)
+G 1 30108 99 99 	(a dish of lyonnaise potatoes)
+M 0 30117 7 30149 	(a Mary-Rotte chef)
+E 1 30114 99 6 	(a hairnet)
+E 1 30117 99 16 	(an evil knife)
+G 1 30105 99 99 	(a salisbury steak)
+M 0 30117 7 30151 	(a Mary-Rotte chef)
+E 1 30114 99 6 	(a hairnet)
+E 1 30117 99 16 	(an evil knife)
+G 1 30109 99 99 	(a calzone)
+M 0 30117 7 30248 	(a Mary-Rotte chef)
+E 1 30114 99 6 	(a hairnet)
+E 1 30117 99 16 	(an evil knife)
+G 1 30109 99 99 	(a calzone)
+M 0 30118 1 30104 	(the Coke Machine)
+G 1 30140 99 99 	(a can of PopCoke)
+M 0 30119 3 30127 	(the froshie)
+M 0 30119 3 30128 	(the froshie)
+M 0 30119 3 30141 	(the froshie)
+M 0 30120 3 30127 	(the froshie)
+M 0 30120 3 30128 	(the froshie)
+M 0 30120 3 30141 	(the froshie)
+M 0 30121 3 30127 	(the froshie)
+M 0 30121 3 30128 	(the froshie)
+M 0 30121 3 30141 	(the froshie)
+M 0 30122 3 30238 	(the FREC)
+E 1 30124 30 12 	(Golden Party Armor)
+E 1 30126 99 8 	(an old pair of work boots)
+E 1 30134 99 16 	(a long sword)
+M 0 30123 4 30127 	(a caf employee)
+E 1 30114 99 6 	(a hairnet)
+G 1 30105 99 99 	(a salisbury steak)
+G 1 30113 20 99 	(a blue tray)
+M 0 30123 4 30128 	(a caf employee)
+E 1 30114 99 6 	(a hairnet)
+G 1 30106 99 99 	(a garden burger)
+G 1 30113 20 99 	(a blue tray)
+M 0 30123 4 30147 	(a caf employee)
+E 1 30114 99 6 	(a hairnet)
+G 1 30108 99 99 	(a dish of lyonnaise potatoes)
+M 0 30123 4 30148 	(a caf employee)
+E 1 30114 99 6 	(a hairnet)
+G 1 30107 99 99 	(some fried eggs)
+M 0 30124 4 30156 	(a BIG jock)
+E 1 30110 99 17 	(a set of barbells)
+M 0 30124 4 30157 	(a BIG jock)
+E 1 30110 99 17 	(a set of barbells)
+M 0 30124 4 30158 	(a BIG jock)
+E 1 30110 99 17 	(a set of barbells)
+M 0 30124 4 30159 	(a BIG jock)
+E 1 30110 99 17 	(a set of barbells)
+M 0 30125 2 30166 	(a mosher)
+M 0 30126 2 30166 	(a mosher)
+M 0 30127 2 30166 	(a mosher)
+M 0 30128 1 30170 	(the mailbox)
+G 1 30147 99 99 	(a letter)
+G 1 30147 99 99 	(a letter)
+G 1 30148 99 99 	(mail)
+G 1 30149 99 99 	(a parcel)
+M 0 30129 2 30111 	(the swarm of frgos)
+M 0 30129 2 30111 	(the swarm of frgos)
+M 0 30133 1 30311 	(the Residence Master)
+M 0 30140 1 30169 	(Mr. Tuck)
+G 1 30140 99 99 	(a can of PopCoke)
+G 1 30141 99 99 	(a candy bar)
+M 0 30141 1 30141 	(Sue, the book-looker-after-er)
+G 1 30111 99 99 	(a condom)
+G 1 30116 99 99 	(a yellow jacket)
+G 1 30126 99 99 	(an old pair of work boots)
+M 0 30142 1 30166 	(the Bartender)
+G 1 30137 99 99 	(a bottle)
+G 1 30138 99 99 	(a carafe)
+G 1 30139 99 99 	(a shotglass)
+M 0 30143 2 30165 	(the Drunk)
+M 0 30143 2 30166 	(the Drunk)
+M 0 30144 1 30288 	(Chief FREC)
+E 1 30124 30 12 	(Golden Party Armor)
+E 1 30126 99 8 	(an old pair of work boots)
+E 1 30135 4 16 	(a T-square of Death)
+O 0 30100 1 30176 	(a red key)
+O 0 30101 1 30186 	(a brass key)
+O 0 30102 5 30150 	(an Oreo(tm) cookie)
+O 0 30111 99 30172 	(a condom)
+O 0 30122 8 30171 	(Magebane)
+O 0 30129 1 30110 	(the extension cord)
+O 0 30129 1 30111 	(the extension cord)
+O 0 30129 1 30112 	(the extension cord)
+O 0 30130 1 30138 	(the extension cord)
+O 0 30131 1 30104 	(the extension cord)
+O 0 30132 1 30113 	(the extension cord)
+O 0 30143 1 30165 	(a copy of Golden World)
+O 0 30143 1 30189 	(a copy of Golden World)
+O 0 30144 1 30307 	(a bottle)
+O 0 30145 1 30125 	(tHE Key to Vic)
+O 0 30153 1 30104 	(the extremely large map of the area you are in)
+D 0 30102 0 2 	(Campus Crescent)
+D 0 30125 2 2 	(Victoria Hall)
+D 0 30126 1 2 	(Leonard Hall Lobby)
+D 0 30126 3 2 	(Leonard Hall Lobby)
+D 0 30127 3 1 	(Mary Rotte Cafeteria Entrance)
+D 0 30143 1 1 	(The Kitchen)
+D 0 30128 2 1 	(Mary Rotte Cafeteria Entrance)
+D 0 30151 0 1 	(Kitchen)
+D 0 30149 2 1 	(Kitchen)
+D 0 30150 0 1 	(A Storeroom)
+D 0 30153 3 1 	(Hallway)
+D 0 30155 1 1 	(Locker Room)
+D 0 30165 0 1 	(Campus Pub Stairwell)
+D 0 30141 2 1 	(Campus Bookstore)
+D 0 30167 5 1 	(The Infobank)
+D 0 30171 4 1 	(The Special Hidden Room)
+D 0 30177 0 1 	(Hallway)
+D 0 30179 2 1 	(Library)
+D 0 30178 3 2 	(The Back Exit)
+D 0 30187 1 2 	(Back Path)
+D 0 30183 0 2 	(Hallway)
+D 0 30186 2 2 	(Faculty Office)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#30100~
+30135
+30136
+30140
+-1
+3.00
+0.10
+-1
+%s I'm sorry but I could not find that particular item.~
+%s Please do not stuff that in my coin slot.~
+%s Please do not stuff that in my coin slot.~
+%s Go away.~
+%s Please insert additional coins.~
+%s That comes to about %d coins.  Have a awesome day, Eh?~
+%s That also comes to %d coins.  Have a cool day, Eh?~
+1
+1
+30118
+0
+30104
+-1
+1
+24
+0
+0
+#30101~
+30136
+30140
+30141
+30152
+30153
+-1
+1.20
+0.80
+-1
+%s I can't find that...it must be out of stock.~
+%s I don't buy from people.~
+%s I don't buy from people.~
+%s I don't buy from people.~
+%s You don't have enough money!  Come back later.~
+%s That will run you %d coins.  Here you are.~
+%s I don't buy.~
+0
+1
+30139
+0
+30245
+-1
+5
+12
+13
+22
+#30102~
+30140
+30141
+-1
+1.20
+1.00
+-1
+%s I'm sorry, I can nae help you there.~
+%s Are you sure you have one of those?~
+%s Dream on, dude!~
+%s How about as a gift?~
+%s Perhaps later, when you've got enough money, my friend.~
+%s That's %d coins.~
+%s Here's %d coins.~
+0
+1
+30140
+0
+30169
+-1
+0
+24
+0
+0
+#30103~
+30116
+30126
+30111
+-1
+6.30
+1.10
+-1
+%s I've never heard of that...what is it?~
+%s I don't see the goods, neighbour.~
+%s I don't buy that junk.~
+%s I'm a little short on the moolah, know what I mean?~
+%s If you come back with more money, I may consider selling it...to you.~
+%s That's %d coins...can I wrap it up for you?~
+%s Here's %d for that.~
+0
+1
+30141
+0
+30141
+-1
+0
+24
+0
+0
+#30104~
+30137
+30138
+30139
+-1
+1.10
+1.00
+-1
+%s How do you mix one of those?~
+%s I don't buy.~
+%s I don't buy.~
+%s I don't buy.~
+%s No bar tabs.  Pay in advance, bub.~
+%s That's %d gold.~
+%s I don't buy.~
+0
+1
+30142
+0
+30166
+-1
+0
+24
+0
+0
+0
+
+
+#$

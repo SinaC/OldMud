@@ -1,0 +1,1085 @@
+#Style Circle
+#AREADATA
+Name God Simplex~
+Builders CircleMUD & Taz~
+VNUMs 1200 1299
+Credits {{None}  CAW    God Simplex~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#1200
+innkeeper~
+the Immortal Innkeeper~
+The Immortal Innkeeper is organizing her books here.
+~
+   She appears to be having no problem tallying things up.  
+~
+abdnopr p 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 2
+E
+#1201
+postmaster master post~
+the Immortal Postmaster~
+The Immortal Postmaster is hard at work here.
+~
+   Scary...  A postal worker...  Working?  
+~
+abdnopr kp 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 2
+E
+#1202
+being amorphous spirit wandering~
+the wandering spirit~
+A strange amorphous being wanders these halls eternally cleaning.
+~
+   This spirit, having lived out its days in the mortal world, now works off its
+final sins by doing menial labour in this realm's purgatory.  In this case,
+those chores seem to be cleaning up after the immortals of the land.  
+~
+acdgnopqr dkps 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+E
+#1203
+malikar twat~
+Malikar the Janitor~
+Malikar the Janitor stands here, looking lost.
+~
+   It looks like Malikar is suffering from a bad concience he must have buggered
+Emershia one time too many.  
+~
+acdgnpr a -1000 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 13
+E
+#1204
+imp~
+the Imp~
+A small imp sits here, grinning devilishly.
+~
+   This small imp is the personal servant of Zemial.  
+~
+cdelnopqr bdhk -1000 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#1205
+bug~
+the bug~
+a nasty little bug is crawling around here, annoying the implementors.
+~
+   You are looking at a nasty little bug, it seems to be consisting of binary
+numbers.  000@r1@n0@r1@n00 00@r1@n00@r1@n0@r1@n @r1@n0@r11111@n0 @r11111111@n
+@r11111111@n @r1@n0@r11111@n0 00@r1@n0@r1@n00@r1@n 00@r1@n00@r1@n00
+~
+dfgnopq np -1000 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 1
+E
+#1206
+frosty little ice cube icecube~
+the frosty little ice cube~
+A frosty little ice cube walks about doing whatever Spector says.
+~
+   It is a little ice cube that Spector has given life to.  It looks like a
+normal ice cube, only now it has little arms and feet made out of ice.  From
+what you can see, it has no eyes, yet it can make it's way about without bumping
+into things.  
+~
+bdenopqr cdefkp 1000 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 0
+E
+#1207
+test mob~
+another test mob~
+Another test mob is waiting to be abused.
+~
+   This test mob has had better days.  
+~
+dh 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#1210
+Dragon~
+a Large Dragon~
+Puff the @gMagic @rDragon
+~
+   A Large Dragon
+~
+dgoq dhr -1000 E
+31 15 -8 6d6+310 5d5+5
+310 96100
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+E
+#1211
+slut~
+Amber Michaels~
+Amber michaels lies on the ground legs wide open waiting for Santa to cum
+~
+   Long slim legs, A perfect pertuding ass and two stress relief mounts on her
+chest that starts up any engine.  
+~
+bcdfnoq djlp -1000 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#1217
+dog puppy peishu~
+a shitzu puppy dog~
+A friendly Shitzu puppy dog named Peishu is playing here.
+~
+   Peishu is a friendly Shitzu puppy dog bred from ancient chinese ancestors he
+has a long line of geneology dating back to the times of Confucius.  He is
+Gina's favorite pet and doesn't look too dangerous.  
+~
+bdegnopr dfk 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 4
+E
+#1267
+color mob~
+@Rtests the color mob@n~
+The color test mob.
+~
+   The color test mob is so colorful.  
+~
+d 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#1299
+test mob~
+the test mob~
+The test mob stands here looking [scared\happy\weird].
+~
+   Test mobs can be whatever you want them to be.  
+~
+d 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#0
+
+#OBJECTS
+
+#1200
+email list staff~
+a list of the staff's emails~
+A list of the staff's emails has been left here.~
+See HELP EMAIL
+~
+12 0 ao 0
+0 0 0 0
+1 1 0 0
+#1201
+pamphlet dg scripts~
+a pamphlet advertising the wonderful world of 'DGscripts'~
+A small pamphlet advertising the wonderful world of 'DGscripts'.~
+~
+5 0 an 0
+50 50 50 0
+0 0 0 0
+E
+pamphlet dg scripts~
+   Are you looking to pour in life into your mobs?  To enliven your rooms?  Or
+just make your objects special?  Well then, come and read the wonderful scrolls
+of wisdom in http://www.  Imaxx.  Net/ thrytis/scripts/ they describe what DG
+scripts are, what are their uses, and of course, how to make them, and they do
+it well!  Dont forget, for optimal results, Use the pages in conjuction with
+TSTAT.  Just type in tstat and a number from 3000 to 3099.  You'll see quite
+well how the scripts are put together.  Have fun with the power of
+(minor)coding!  -The staff.  
+~
+#1202
+scroll~
+a scroll~
+A scroll.~
+~
+2 0 a 0
+1 31 -1 -1
+1 7 0 0
+#1203
+color test object~
+a color test object~
+This is a @Rred@n test object~
+~
+1 0 a 0
+0 0 23 0
+0 0 0 0
+#1204
+wand~
+the wand~
+A test wand~
+~
+3 0 a 0
+1 1 1 31
+0 0 0 0
+#1205
+staff~
+staff~
+Staff~
+~
+4 0 a 0
+1 3 3 31
+0 0 0 0
+#1218
+spring fountain water~
+a spring well~
+A mountain spring bubbles up fresh water here.~
+   Bubbles up fresh spring water that can quench your thirst
+~
+23 0 0 0
+500 500 15 0
+505 0 0 0
+#1221
+near-transparent small garmet~
+the near-transparent, small garmet~
+A pile of sheer silk is here, almost transparent.~
+   The tiny silk dress is cut so thin it is almost transparent, and it doesn't
+look as thought it would cover much.    
+~
+11 0 ad 0
+0 0 0 0
+1 0 0 0
+A
+6 2
+A
+2 1
+#1229
+Couch~
+Smaug's Couch~
+Smaug's Couch is standing here.~
+   Smaug's glamourous couch :-P.  It is made from a soft medal, only found deep
+in the dungeons of hell.  The coushons on the couch are the finest of all
+couschons, the arms of the couch are made from a ferret's pelt.  The legs are
+in the shape of dragons, and are also made from dragon's skin.    
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#1230
+test scroll~
+a torn scroll~
+It looks like a half finished spell~
+(null)~
+2 g ao 0
+12 51 -1 -1
+0 250 10 0
+#1231
+olc manual quackreference~
+the OLC quickreference manual~
+An OLC quickreference manual has been left here.~
+(null)~
+12 0 a 0
+0 0 0 0
+0 0 0 0
+E
+olc manual quickreference~
+Online Creation "OLC"
+If you've been assigned by Zemial to build an area you'll have to
+be familiar with these commands as well as you'll get more specific
+documentation on how the Cruelworld is built.
+These commands can be used to edit different settings.
+redit -----------------> edit the room you are standing in
+redit <virtual room num> edit/create room
+zedit -----------------> edit the zone info for the room you are standing in
+zedit <virtual room num> edit the zone info for that room
+oedit <virtual obj num>  edit/create object
+medit <virtual mob num>  edit/create mobile
+sedit <virtual shop num> edit/create shop
+Please note: You'll have to be assigned a zone number to use OLC.
+Some things that can be changed using the OLC are not supposed to. 
+That includes, but is not limited to, giving mobs GROUP flags, timer
+isn't supposed to be set for anything etc. Refer to the building
+documentation to be on the safe side.
+Manual by Welcor.
+~
+#1266
+Black Staff of Immortality~
+the black staff of immortality~
+A Gigantic Black Staff rests here.~
+~
+4 b ao 0
+30 9999 20 23
+5 0 0 32
+E
+st sta staf staff b bl bla blac black~
+A Huge staff sits here eminating a tremendous power.    
+~
+A
+1 10
+A
+3 10
+A
+2 10
+A
+4 10
+A
+5 10
+A
+6 10
+#1269
+switch~
+a switch from a willow tree~
+A magical switch from a willow tree has carelessly been discarded here.~
+It's a stick.  It's magical.  It also hurts when you beat people with it.
+~
+5 b an 0
+7 10 5 2
+2 10000 0 0
+T 1270
+#1275
+uniform~
+@Ya Builder's Academy uniform@n~
+@YA Builder's Academy uniform has been left here.@n~
+(null)~
+11 0 ad 0
+0 0 0 0
+0 0 0 0
+#1290
+fountain poisoned~
+poisoned fountain~
+A poisoned fountain is here.~
+(null)~
+23 0 0 0
+500 500 0 1
+505 0 0 0
+#1291
+fountain unpoisoned~
+an unpoisoned fountain~
+An unpoisoned fountain is here.~
+(null)~
+23 0 0 0
+500 500 0 0
+505 0 0 0
+#1295
+notebook notes book~
+Elaseth's notebook~
+@nA book entitled "@YElaseth's Notes: A Madwoman's Account@n" lies here.~
+~
+9 0 ao 0
+0 0 0 0
+0 0 0 0
+#1296
+lamp hanukah~
+a hanukah lamp~
+A Hanukah lamp lies here on the floor, all eight candles lit up.~
+(null)~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#1297
+Desk~
+Large desk~
+A large blackened desk~
+(null)~
+15 0 0 0
+20000 3 0 0
+0 0 0 0
+#1298
+firework new year piece~
+a piece of fireworks~
+A piece of fireworks is planted in a champagne bottle.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+T 1297
+E
+bottle champagne~
+The bottle is filled partially with water so it doesn't tilt over.  Someone has
+obviously drunk the champagne first.    
+~
+E
+firework new year piece~
+This large rocket is about to go up! Strange colours will fill the sky!
+~
+#1299
+christmas tree~
+a christmas tree~
+A festive christmas tree is covered in various ornaments and lights.~
+~
+12 0 0 0
+0 0 0 0
+17 0 0 0
+E
+tree christmas~
+The Christmas Tree is nicely decorated, there is a Huge shining star at the
+top.  And colourful lights are hanging from all its branches.    
+~
+#0
+
+#ROOMS
+
+#1200
+The Meeting Room Of The Gods~
+   The meeting room is plain and very simple.  A circular table sits in the
+middle of the room, lit by some unseen light source.  There are many chairs
+around the table, all empty.  The Immortal Board Room is to the north.  There
+is a small exit leading into a rich library to the west.    
+~
+12 d 0
+D0
+The Immortal Board Room can be seen to the north.
+~
+~
+0 -1 1204
+S
+#1201
+The Inn Of The Gods~
+   The Inn of the Gods is a small room, holding only a shelf with many
+small precious stones on it.  When a God comes to rent his belongings,
+his essence is stored in the stones.  The Immortal Board Room is to
+the south.
+~
+12 d 0
+D2
+The Immortal Board Room can be seen to the south.
+~
+~
+0 -1 1204
+S
+#1202
+The Ice Box Of The Gods~
+   The Ice Box is for little boys and girls that cannot play nice. Be good
+and maybe someone will come and get you.
+~
+12 defhk 0
+S
+#1203
+The Gods' Mortal Board Room~
+   Here the Gods have magically created an exact copy of the mortal board
+room.  Any God can easily post and read messages from the mortal board room
+without being seen by any mortals.  The Immortal Board Room is to the west.
+~
+12 d 0
+D3
+The Immortal Board Room can be seen to the west.
+~
+~
+0 -1 1204
+S
+#1204
+The Immortal Board Room~
+   The main hang out of the Gods, the Immortal Board Room is the place to be.
+Gods exchange messages here most every day.  The mortal board room is to the
+east and the meeting room for the gods is to the south.  To the north is the
+Gods' Inn and to the west is a post office for Gods.  There is a large
+staircase leading down to the main temple in the capital of Ilniyr.  In the
+northeast corner you spot a small staircase leading upwards.    
+~
+12 d 0
+D0
+The Gods' Inn can be seen just to the north.
+~
+~
+0 -1 1201
+D1
+The Immortal Board Hall can be seen just to the east.
+~
+~
+0 -1 1290
+D2
+The Gods' Meeting Room is located to the south.
+~
+~
+0 -1 1200
+D3
+The Gods' Post Office is just to the west.
+~
+~
+0 -1 1205
+D4
+There is a small stair in the corner leading up to the social room of
+the Gods.
+~
+~
+0 -1 1206
+S
+#1205
+The Post Office Of The Gods~
+   The Post Office Of The Gods is the same as most Post Offices except that
+it is not as slow.  Even the Postal service knows not to anger the Gods.
+Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
+The Immortal Board Room is to the east.
+~
+12 d 0
+D1
+The Immortal Board Room is just to the east.
+~
+~
+0 -1 1204
+S
+#1206
+The Social Gathering Room~
+   This elegantly decorated room has one simple purpose.  To socialize with
+everyone else around in one central location.
+~
+12 d 0
+D5
+The Immortal Board Room is just down through the floor.  Funny how you
+didn't notice that exit before isn't it?
+~
+~
+0 -1 1204
+S
+#1208
+Welcors ~~~ ~~~ furnace~
+   You seem to be standing in a cave of some sort.  A rather large cave.  
+Actually the cave is so large you think you could just as well be standing
+outside.  The ceiling is so high above you, you can't really make out the
+contours of it.  The sides of the cave are burning.  Had you not felt so
+comfortable, you could easily think you were inside a gigantic fire, looking
+out through the flames.  You realise, with a sudden stab of fear, that you've
+unwittingly stumbled into the home of Welcor, God of Fiery Justice.  You've
+better not be here when he gets back...    
+~
+12 dk 0
+D4
+~
+~
+1 0 1204
+E
+flame wall burning fire~
+   As you study the walls closer, you realise magic keeps the fire alive, and
+it really is HOT.  Reaching out to touch it proves a very bad idea, giving you
+several burn marks on your hand
+~
+E
+Welcor~
+   Even when not here, you sense his presence.    
+~
+S
+#1210
+Smaug's Sanctuary~
+   This is Smaug's Sanctuary, you can either just hang out on the couch and
+regain your health or go off into the void.  Thousands of people have come here
+to hide from players or even mobs, but most come here to chant incantations and
+learn how to heal themselves, just for a brief second :-).  Everywhere you look
+you see a bright light, and the only way out is through a portal.    
+~
+12 dj 0
+E
+none~
+Nothing.
+~
+S
+T 1200
+T 1201
+T 1203
+T 1204
+#1211
+Blackvipers forum of knowledge~
+   Well here we are.  On the board is information that might help you and me
+with our various task.  If you can think of anymore mudmail it to me and i will
+add it to the board.    
+~
+12 0 0
+S
+#1212
+@rA spot of darkness@n~
+   @DBleak darkness engulfs the room, progressively merging the marble floor
+into the black horizon.  A low constant humm roars across the air followed by
+the sound of raindrops hitting the floor and the puddles that have formed.  
+The grey clouds in the sky can be hardly seen except for a small patch right
+above, which quickly turns black and merges into the horizon.  In what seems to
+be the middle of this eternal empty realm, a pillar of light falls gently on a
+small black pillow which seems to be dry and generally unaffected by the rain.
+~
+12 cdgh 2
+E
+pillow~
+Nothing.
+~
+E
+clouds~
+   The clouds are shrouded in darkness except for a small round patch, where
+the pillar of light penetrates.  The clouds there seem to swirl and turn around
+the light, and small lightnings come out of the clouds and hit the top of the
+pillar.    
+~
+E
+floor~
+   The floor is made from small square marble tiles, neatly tucked and pressed
+together.  Most of the marbles are cracked and broken, and suffer from erosion
+due to the constant raining.    
+~
+S
+T 1212
+#1217
+Garrison's Hippie Shack of Love~
+   Always wishing himself a flower child, Garrison has done his best to
+re-create what he thinks a Hippie Hovel should be.  Complete with flowers,
+drugs, and lots of free love, Garrison has created the perfect escape when
+you're tired of the boring ol' hack 'n slash.    
+~
+12 d 0
+S
+#1221
+Nivan's Bedchamber~
+   The billowing, sheer curtains on the wall of this elegant room are
+strawberry red.  The carpet is also red, but instead of the strawberry color of
+the curtains they are the dark red of freshly spilled blood.  The wallpaper is
+so dark of a red it mocks the color of the carpet, being almost black.  
+Sconces holding low-burning candles are spaced at regular intervals along it.
+The room smells sweet.  The main feature of the room is the canopy bed directly
+in the center.  The hangings from the posts are of the same material as the
+curtains, and all of the sheets, blankets, and pillows are different shades of
+red.  Its mahogony is carved masterfully, showing naked sprites playing all
+along the borders of the very large bed.  It doesn't look like the sort of bed
+for sleeping in.    
+~
+12 adfhj 0
+E
+candle sconce wall~
+   The sconces on the wall are brass, and are delicate carvings of beautiful
+men, e ach embracing a low-burning black candle in his bare arms.  The candles
+burn with a gentle red flame.  The wallpaper is so dark a red it is almost
+black, and feels like cloth to the t ouch.  As you look the masterfully crafted
+eyes of the carved sconcemen seem to wink at you.    
+~
+E
+bed sprite post mahogony~
+   The bed is masterfully carved, and if you look closely you might see the
+mark of the best carver in Haven, the carver of the gate.  Naked sprites play
+in somehow erotic poses on a background of woodland, lakes, and streams.  The
+satin pillows are plump and look comfortable, and it looks as though you could
+sink forever in the very soft bed.  It looks comfortable...  But it doesn't
+look like it is used for much sleeping.    
+~
+E
+window curtain~
+The windows here show pictures of different places in the known world, and the silky sheer curtains billow in an unfelt breeze.  Their movements are somehow sensual...
+~
+S
+#1224
+Hiruma's Floating Pentagram~
+   A giant red pentagram lies below you, slowly spinning in different
+directions.  Blood drips from each point of the crimson pentagram, and never
+hits the ground.  All around the star, it seems to be a neverending void.  A
+large throne, covered with many soft furs sits in the middle of the six sided
+star, surrounded in fire.    
+~
+12 eg 0
+D2
+~
+~
+0 0 1204
+S
+#1225
+Floating in Orbit of Ilniyr Within a Spacepod~
+   The spherical space pod has all sorts of electronic equipment blinking and
+beeping.  You can see the world rotating far below you through the space pod's
+window.  A monotone voice announces repeatedly, "Systems nominal.  Awaiting
+command.  " There are all sorts of panels with buttons allowing you to manually
+command the ship, but one panel in particular catches your eye.  A huge red
+button on the panel has the words written under it, "DESTROY PLANET".    
+~
+12 dj 0
+S
+#1226
+A Calming Sea Shore~
+   The grassy plains merge into a rather serene sea shore here.  The crystal
+blue waters gently roll ashore filling the area with a peaceful sound.  In the
+distance, some seagulls are heard.  Such a beautiful place must be where the
+Gods come to relax.  There is a strange mechanical contraption sitting a few
+yards away from the waters.    
+~
+12 0 7
+D3
+~
+~
+0 0 1294
+E
+spacepod~
+It is metal, spherical, and looks really, really cool!.
+~
+S
+#1230
+Radiax's den~
+   You have entered a room which seems to be made from some sort of glass.  No
+matter which direction you look out of, you can see immortals creating new
+lands.  On occasion, you can see a mortal entering the realm, trying to make
+their mark is this world.  Now you can see how the gods know what is going on.
+The room itself is very well decorated.  There is a large fluffy Futon in one
+corner.  It looks like the most comfortable thing you have ever seen.  You
+notice a BLACK BOOK on a nearby table.  This seems to catch your attention and
+your curiosity perks up.    
+~
+12 dehjk 0
+E
+black book~
+   Upon these pages are players that have upset Radiax and will not receive
+help!
+
+Demigod
+Saint
+Angel
+Phoenix
+Alexander
+@w(Maybe you!)@g
+~
+S
+#1233
+Rumble's Room~
+   War is an ugly thing, but not the ugliest of things.  The decayed and
+degraded state of moral and patriotic feeling which thinks that nothing is
+worth war is much worse.  The person who has nothing for which he is willing to
+fight, nothing which is more important than his own personal safety, is a
+miserable creature and has no chance of being free unless made and kept so by
+the exertions of better men than himself.
+John Stuart Mill
+~
+12 d 2
+E
+old glory flag~
+   I fly atop the world's tallest buildings.  I stand watch in America's Halls
+of Justice.  I fly majestically over great institutions of learning.  I stand
+guard with the greatest military power in the world.  Look up and see me!  I
+stand for peace, honor, truth, and justice.  I stand for freedom.  I am
+confident, I am arrogant, I am proud.  When I am flown with my banners, my head
+is a little higher, my colors a little truer, I bow to no one!  I am recognized
+all over the world.  I am worshipped, I am loved, and I am feared!  I have
+fought in every battle of every war for more than 200 years: Gettysburg,
+Shiloh, Appomattox, San Juan Hill, the trenches of France, the Argonne Forest,
+Anzio, Rome, the beaches of Normandy, Guam, Okinawa, Japan, Korea, Vietnam, the
+Persian Gulf, and a score of places long forgotten by all, but those who were
+there with me...  I was there!  I led my Soldiers, Sailors, Airmen, and
+Marines.  I followed them and watched over them.  They loved me.  I was on a
+small hill in Iwo Jima.  I was dirty, battle-worn, and tired.  But my Soldiers
+cheered me!  And I was proud!  I have been soiled, burned, torn, and trampled
+on the streets of countries that I have helped set free.  It does not hurt, for
+I am invincible.  I have also been soiled, burned, torn, and trampled on the
+streets of my own country and, when it is by those whom I have served with in
+battle-it hurts.  But I shall overcome, for I am strong!  I have slipped the
+bonds of Earth and, from my vantage point on the Moon, I stand watch over the
+uncharted new frontiers of Space.  I have been a silent witness to all of
+America's finest hours.  But my finest hour comes when I am torn in strips to
+be used as bandages for my wounded comrades on the field of battle-when I fly
+at half-mast to honor my Soldiers, Sailors, Airmen, and Marines, and-when I lie
+in the trembling arms of a grieving mother, at the gravesite of her fallen son
+or daughter-I am proud.  My name is Old Glory-long may I wave.  Dear God, long
+may I wave.    
+~
+E
+war~
+   War is an ugly thing, but not the ugliest of things.  The decayed and
+degraded state of moral and patriotic feeling which thinks that nothing is
+worth war is much worse.  The person who has nothing for which he is willing to
+fight, nothing which is more important than his own personal safety, is a
+miserable creature and has no chance of being free unless made and kept so by
+the exertions of better men than himself.
+
+John Stuart Mill
+~
+E
+builder~
+  
+There is one timeless way of building.
+  
+It is thousands of years old, and the same today as it has always been.
+  
+   The great traditional buildings of the past, the villages and tents and
+temples in which man feels at home, have always been made by people who were
+very close to the center of this way.  It is not possible to make great
+buildings, or great towns, beautiful places, places where you feel yourself,
+places where you feel alive, except by following this way.  And, as you will
+see, this way will lead anyone who looks for it to buildings which are
+themselves as ancient in their form, as the trees and hills, and as our faces
+are.    
+                                        --The Timeless Way of Building
+~
+E
+oath~
+   I do solemnly swear that I will support and defend the Constitution of the
+United States against all enemies, foreign and domestic, and to bear true faith
+and allegiance to the same that I take this obligation freely, without any
+mental reservation or purpose of evasion, and that I will well and faithfully
+discharge the duties of the office upon which I am about to enter.
+~
+E
+july4~
+   On July 4, 1776, we claimed our independence from England and Democracy was
+born.  Every day thousands leave their homeland to come to the "land of the
+free and the home of the brave" so they can begin their American Dream.  The
+United States is truly a diverse nation made up of dynamic people.  Each year
+on July 4, Americans celebrate that freedom and indepen-dence with barbecues,
+picnics, and family ga-therings.  Through the Internet we are learning about
+and communicat-ing with people of different nations, with different languages
+and different races throughout the world.  Bringing the world closer with
+understanding and knowledge can only benefit all nations.  We invite all
+nations to celebrate with Americans online this Fourth of July.  Happy
+Birthday, America!    
+~
+S
+#1234
+Pool of Images~
+   A broad mosaic walkway wraps around the natural hotsprings in this cavernous
+room.  Three large chandeliers are suspended from the domed ceiling and their
+sparkling light dances on the surface of the bubbling hotsprings.  As you peer
+into the water images begin to form from out of the depths, coalescing into a
+vivid scene.  Your heart begins to pound and your breathing becomes deeper as
+you watch the images taking shape in the turbulent liquid.  Your mouth becomes
+dry as you see yourself in the watery panorama ...  And time stands still for
+just one moment ...  As you see your future in the depths ...    
+~
+12 dj 0
+S
+#1266
+Gatia's Underground Study~
+   This room appears to be built deep into the rock.  Bookshelves line every
+wall and in the far east cormer there is a simple sleeping pallet.  Set into
+the wall near the pallet is a glowing ball that is about the size of a marble.
+It only glows faintly but there are others positioned around the walls so as to
+light the room efficiently.  There is a large writing desk positioned against
+the northern wall.  Upon the table there is a quill and large bottle of ink
+sitting beside a VERY thick book.  The right hand page has a small window type
+picture which is flying around a landscape.    
+~
+12 j 0
+D3
+~
+~
+0 0 1293
+E
+p pa pal pall palle pallet~
+The sleeping pallet is pretty much a indent in the wall large enough to fit a man and/or a woman.
+~
+E
+b bo boo book~
+The book looks about 5 inches thick and is written in a strange dialect.
+~
+E
+d de des desk~
+This Desk is made out of some type of extra-hardened stone, no way it could be natural.
+~
+S
+#1269
+@RElaseth's Oubliette@n~
+   @DThis dungeon's name literally means to forget...  And you were put here to
+be forgotten.  No pleas for mercy can be heard outside the cold stone walls
+that surround you.  There are no exits except from above, and this one is
+securely closed with welded iron.  A shaft of light falls from the grill to
+pierce the darkness and strike you, your only company in this black abyss.  @n
+~
+12 dfk 0
+S
+T 1268
+#1270
+Inside Santa's Love Sponge~
+   All 8 walls of the hexagon room is coloured a different shade of red.  In
+one of the corners stands a large rocket shaped lava lamp, bubbling up blue and
+yellow blobs.  The ceiling and floor of this room is just one big mirror, make
+it possible to see yourself from every angle imaginable.  A shelf housing just
+about every contriception that has every been invented gets pushed along as a
+fresh batch is placed on every morning/afternoon and night.  Without much
+guessing, you can tell Santa is a gift to all women.    
+~
+12 0 9
+S
+#1290
+The Immortal Board Hall~
+   You are standing in a large hall, exits lead off to the board rooms of the
+immortals.  You can enter the hall of builders to the north, to the south are
+the halls of justice, while to the west you can find the immortal board room.
+  
+~
+12 d 0
+D0
+~
+~
+0 0 1291
+D2
+~
+~
+0 0 1293
+D3
+~
+~
+0 0 1204
+S
+#1291
+The Builders' Board Room~
+   The actual Builder's Academy is zone 13 (@RGOTO 1300@n to check it out).
+This zone should be able to teach anyone, no matter how new, the basics of 
+building. It is a work in progress so please bear with me. Remember, making
+God Rooms and Equipment is forbidden.
+~
+12 d 0
+D1
+~
+~
+0 0 1294
+D2
+~
+~
+0 0 1290
+S
+#1292
+The Immortals' Mortal Board Room~
+   Here the Gods have magically created an exact copy of the mortal board room.
+Any God can easily post and read messages from the mortal board room without
+being seen by any mortals.  The Immortal Board Hall is to the west.
+~
+12 0 0
+D3
+~
+~
+0 0 1290
+S
+#1293
+The Halls Of Justice~
+   You are standing in a magnificent marble hall, the only exit is back to the
+north.  Statues of Karileena the goddess of Honour and Justice, are lining the
+walls.  You realize this is where the exalted gods meet to discuss what course of
+action to take against offenders in the realms.    
+~
+12 dj 9
+D0
+~
+~
+0 0 1290
+S
+#1294
+Other Worlds ~
+   You are in a lush field, seemingly somewhere in empty space, a small cobble
+stone trail through the darkness leads west, back to the Builders Board Hall of
+the Builder.  As you look around you see twinkling stars small points of light,
+interrupting the darkness of this place.  Cold and dark as it is, you feel at
+ease and you are overwhelmend by a sense of calm, and clairity, as if from here
+you are able to go anywhere you might want to, even reach out for a star, and
+mold it as you please.    
+~
+12 0 2
+D3
+~
+~
+0 0 1291
+S
+#1297
+Tanto's Sacrificial Grotto~
+   Ebony stalagmites resembling vicious fangs hungryly decend from the ceiling
+of the cave, a soft crimson glow illuminates the cave as if the walls
+themselves were on fire.  The light seems to be more intense toward the back of
+the cave where a huge flames spout from an enormous stone altar of polished
+black granite.    
+~
+12 0 0
+D5
+~
+~
+0 0 1208
+E
+WALLS~
+   Animated shadows, cast by the light of the altar, dance eerily against an
+orange backdrop of reflected flames on the ancient walls around you.  The
+actual surfaces of the walls have blackened from years of absorbing smoke from
+the altar, while a thin, green film oozes slowly down them in a continuous
+stream.    
+~
+E
+ALTAR~
+   You observe a flaming, cyclinder-shaped altar sturdily built from large,
+crimson-colored bricks and mortar.  It seems to have been dug deep into the
+ground like a well.    
+~
+E
+STALAGMITES, CEILING~
+   The ceiling is almost completely covered by jagged stalagmites, formed by
+years of calcium deposits and water gradually dripping in from above.  The
+stalagmites, and the ceiling itself, are coated in soot and ashes from the fire
+raging perpetually in the stone altar.    
+~
+S
+#1298
+Welcors test room 2~
+This is the southernmost test room
+~
+12 0 0
+S
+#0
+
+#RESETS
+R 0 1202 3097 -1 	(a frozen bulletin board)
+O 0 3097 99 1202 	(a frozen bulletin board)
+R 0 1290 3096 -1 	(a social bulletin board)
+O 0 3096 99 1290 	(a social bulletin board)
+R 0 1204 3098 -1 	(a holy bulletin board)
+O 0 3098 99 1204 	(a holy bulletin board)
+R 0 1208 1327 -1 	(a staff bulletin board)
+O 0 1327 15 1208 	(a staff bulletin board)
+R 0 1293 1327 -1 	(a staff bulletin board)
+O 0 1327 10 1293 	(a staff bulletin board)
+M 0 1200 1 1201 	(the Immortal Innkeeper)
+R 0 1294 1328 -1 	(a advertising bulletin board)
+O 0 1328 10 1294 	(a advertising bulletin board)
+R 0 1291 1326 -1 	(a builder's bulletin board)
+O 0 1326 10 1291 	(a builder's bulletin board)
+M 0 1210 1 1210 	(a Large Dragon)
+O 1 1229 1 1210 	(Smaug's Couch)
+O 1 1297 1 1210 	(Large desk)
+M 0 1211 1 1270 	(Amber Michaels)
+M 0 1201 1 1205 	(the Immortal Postmaster)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#1200~
+-1
+1.00
+1.00
+1torch & MAGIC
+9HUM | GLOW | MAGIC
+3
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1204
+0
+1208
+-1
+0
+28
+0
+0
+0
+
+
+#$

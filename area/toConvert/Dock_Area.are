@@ -1,0 +1,1684 @@
+#Style Circle
+#AREADATA
+Name Dock Area~
+Builders Kaan~
+VNUMs 31800 31899
+Credits {{None}  CAW    Dock Area~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#31800
+sailor drunk~
+the drunken sailor~
+A drunken sailor stumbles past you, the fumes all whiskey and vomit.
+~
+   His white and black striped shirt is speckled with the stains from his last
+meal.  The stubble on his face is only overshadowed by the hair which grows out
+of the top of the back of his shirt.    
+~
+dgh 0 0 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31801
+gambler shouting~
+a shouting gambler~
+A gambler is here, shouting at the top of his lungs at the cocks fighting in the street.
+~
+   You want to tell him the cocks don't understand, but then you realize that
+HE would probably not understand.    
+~
+bd 0 100 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#31802
+dead boy~
+a Dead Boy~
+A Dead Boy eyes you evilly.
+~
+   The unwashed boy seems to be eying you rather fiercely.  You don't know what
+you did to offend him but hey, it could be any...  Nothing.    
+~
+dgjm 0 -700 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+BareHandAttack: 13
+E
+#31803
+bloody scythe boy~
+a Bloody Scythe gang member~
+A member of Bloody Scythe eyes you evilly.
+~
+   The unwashed boy seems to be eyeing you rather fiercely.  You don't know
+what you did to offend him but hey, it could be any...  Nothing.    
+~
+dgjm 0 -700 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+BareHandAttack: 13
+E
+#31804
+giant cochroach~
+a giant cochroach~
+A giant cochroach looks about ready to eat you.
+~
+   QUICK!!!  Squish it, before it squishes you!!    
+~
+bdf 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 0
+E
+#31805
+beggar~
+an old beggar~
+A beggar stands here, pleading for a few coins.
+~
+   You see an old dirty beggar with no teeth trying to get coins by passer
+byes.    
+~
+dg 0 0 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 0
+BareHandAttack: 4
+E
+#31806
+Marcko Dead Boy~
+Marcko, the Dead Boy's leader~
+Marcko, gives you a slight smirk.
+~
+   Less dirty than the rest of his disciples, he no less ruthless.  He grins at
+you, almost pleasantly, until he flashes the knife in his hand, in which his
+pleasant smile fades.    
+~
+bdjmor 0 -1000 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+BareHandAttack: 14
+E
+#31807
+Ie Bloody scythe boy~
+Ie, Bloody Scythe's leader~
+Ie, sits here reviewing the days collections.
+~
+   A woman sits before you, ruffling through papers, not bothering to look up
+to see or greet you.  She drops one of her papers onto the floor, as she bends
+down to pick it up she notices your boot and gets up suddenly, preparing for
+your attack.  She taps her boot heel to the ground and a razor juts out the toe
+of her boot.  You sense that this isn't going to be pretty.    
+~
+bdlmor 0 -1000 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+6 6 2
+BareHandAttack: 12
+E
+#31808
+carpenter man worker~
+a carpenter~
+A man is here, hammering on some rounded ship's boards.
+~
+   Bathed in sweat and looking quite the strong type, you can't help but wonder
+what motivates a man who does a job such as this to get up every morning.    
+~
+bd 0 200 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#31809
+foreman shipyard~
+the shipyard foreman~
+The shipyard foreman struts through the room, kicking his workers, telling them to work harder.
+~
+   Complete with his fat cigar, this man is the poster child for alchoholics
+anonymous.    
+~
+bd 0 -400 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31810
+sailor~
+a hard working sailor~
+A hard working sailor struggles along, loaded down with nets and rigging.
+~
+   Poor fella, almost makes you want to help him with his load, but then,
+nahhhh...    
+~
+dg 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31811
+dock master woman~
+the Dockmaster~
+A very self important woman stands here with a clipboard.
+~
+   She supervises and regulates the loading and unloading of cargo and
+passengers to every ship that docks in this cove.    
+~
+dghl 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31812
+assistant~
+the Dockmaster's assistant~
+The Dockmaster's assistant proudly follows along beside her.
+~
+   This little guy looks like he finally found someone bigger than him that
+wouldn't kick his ass, so he's hanging on for dear life.    
+~
+dglm 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31813
+bum~
+a bum~
+A bum lays on a bench, snoring softly.
+~
+   You might even be doing this guy a favor...  One good bop to the noggin and
+he's done.    
+~
+bd 0 200 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#31814
+ticket travel woman receptionist~
+a travel agent~
+A woman sits behind the glass, selling boat tickets.
+~
+   She moves at lightning speed, with the assurance of one who has done her job
+for a long time.    
+~
+bdo 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2
+E
+#31815
+midshipman~
+a midshipman~
+A midshipman passes by you, mumbling something.
+~
+   The man walks with hands in his pockets and head bowed, continually mumbling
+something to himself.  Perhaps he's looking for a bar or a fight, who knows.  
+
+~
+dfg 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+BareHandAttack: 9
+E
+#31816
+pack rat~
+a pack rat~
+A pack rat is sifting through trash.
+~
+   It's a large, fat rat, what else would it be.    
+~
+cdg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+BareHandAttack: 4
+E
+#31817
+Cap'n Darby~
+Cap'n Darby~
+Cap'n Darby is here, fighting.
+~
+   It seems like everytime you see Cap'n Darby, the guy is fighting.  Doesn't
+this old sailor EVER take a break?!?    
+~
+dglnopr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+7 7 1
+BareHandAttack: 13
+E
+#31818
+net weaver~
+the netweaver~
+The netweaver is here, sewing some netting together.
+~
+   He has small, horn rimmed glasses, and a large net draped across his body,
+which he is currently working on.    
+~
+bd 0 500 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+6 6 1
+E
+#31819
+punk street~
+the street punk~
+A street punk is here, getting to throw a set of dice.
+~
+   He looks up and growls.  It must be that no one usually upsets the game.  
+
+~
+bdf 0 -300 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#31820
+sailor drunk sing~
+the singing drunken sailor~
+A sailor is lounging near the piano, singing his heart out.
+~
+   He looks like if he were to let go of the piano, he may not end up on his
+feet still.    
+~
+bd 0 -100 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#31821
+myra madame~
+Madame Myra~
+Madame Myra is here, selling herself and any of her girls for the right price.
+~
+   Large breasted, large assed, and smothered in make-up and perfume, this lady
+is one nasty speciman.    
+~
+bd 0 400 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+#31822
+motel man attendant~
+the motel attendant~
+The man reads his book behind the glass without glancing up.
+~
+   You clear your throat, but he just continues to ignore you.    
+~
+bd 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#31800
+shirt sailors white black~
+a white and black striped sailor's shirt~
+A white and black striped sailor's shirt has been left here.~
+The stains which riddle this shirt are enough to make any land-lubber not want
+to even touch it.    
+~
+9 0 0 0
+6 0 0 0
+0 0 0 20
+#31801
+stubble~
+some prickly chin stubble~
+Some prickly chin stubble is lying in a heap on the floor.~
+Yuck.
+~
+9 0 0 0
+2 0 0 0
+0 0 0 20
+A
+6 1
+#31802
+fistful money~
+a fistful of money~
+A fistful of money is laying here on the ground.~
+~
+20 0 a 0
+50 0 0 0
+50 1 0 1
+E
+fistful money~
+   What the hell are you looking at it for?  Take it!    
+~
+#31803
+sash black~
+a black sash~
+A pile of crumpled black silk is on the ground.~
+~
+9 j ak 0
+4 0 0 0
+1 1 0 20
+E
+sash black~
+   This sash, the mark of a member of the Dead Boys, radiates evil intent.  
+~
+A
+13 15
+#31804
+knuckles spiked~
+a set of spiked knuckles~
+A set of spiked knuckles have been left here.~
+~
+5 j an 0
+3 5 3 9
+1 1 0 20
+E
+knuckles spiked~
+   The deadly looking spikes glisten as the light catches them.  
+~
+#31805
+sash red~
+a red sash~
+A red sash has been left on the floor.~
+This sash, the opposing color to the Dead Boy's black sash, marks the wearer as
+a member of the Bloody Scythe.    
+~
+9 0 0 0
+4 0 0 0
+0 0 0 20
+A
+4 2
+#31806
+wicked scythe~
+a wicked looking scythe~
+A wicked looking scythe lies on the ground.~
+~
+5 no an 0
+3 5 3 3
+1 1 0 20
+E
+wicked scythe~
+   This weapon, although unwieldy, is the token weapon of the Bloody Scythe
+gang.  
+~
+#31807
+rusted knife~
+a rusted knife~
+A rusted knife has been left here.~
+~
+5 n an 0
+1 2 7 14
+1 1 0 10
+E
+rusted knife~
+   It is chipped in many places, worn down to almost a flat edge where it should
+be sharp.  
+~
+#31808
+blade marcko's dagger~
+Marcko's Blade~
+A black knife has been left here.~
+~
+5 adjn an 0
+3 5 8 11
+1 1 0 48
+E
+blade marcko's dagger~
+   Made by an old veteran assassin from the Far Reaches just for Marcko, this
+blade is said to have special powers.  
+~
+A
+18 2
+A
+19 1
+A
+2 -1
+#31809
+ring opal black~
+a black opal ring~
+A black opal ring has been dropped here.~
+~
+11 jl ab 0
+0 0 0 0
+1 1 0 28
+E
+ring opal black~
+   The thing seems to radiate evil and bad intent.  
+~
+A
+1 2
+A
+2 -1
+A
+19 1
+#31810
+boots razor tipped~
+a pair of razor tipped boots~
+A pair of boots have been left here.~
+Looks like these boots were meant for someone who likes to surprise their
+opponent, from the way the blade shoots out the toe.    
+~
+9 bj 0 0
+4 0 0 0
+0 0 0 49
+A
+19 2
+A
+2 1
+A
+1 -2
+#31811
+hammer~
+a hammer~
+A hammer has been left here on the ground.~
+~
+5 o an 0
+2 4 5 7
+1 1 0 22
+E
+hammer~
+   Long wooden handle, strong metal head.  A hammer.  
+~
+#31812
+belt tool carpenter's~
+a carpenter's tool belt~
+A carpenter's tool belt has been dropped here.~
+It has many pouches and loops where one can safely place items for storage.
+~
+15 0 al 0
+100 0 -1 0
+1 1 0 22
+E
+belt tool caprenter's~
+   It has many pouches and loops where one can safely place items for storage.
+
+~
+A
+1 1
+#31813
+cigar stogie fat~
+a fat cigar~
+A fat cigar is on the floor, just begging to be smoked.~
+The business end of the thing looks a bit wet and chewed, but other than that
+it seems perfectly good.    
+~
+12 b 0 0
+0 0 0 0
+0 0 0 0
+A
+4 -2
+A
+10 20
+#31814
+beer gut foreman~
+the foreman's beer gut~
+The foreman's beer gut is lumped in the corner.~
+You are actually considering wearing this nasty thing?
+~
+9 0 0 0
+5 0 0 0
+0 0 0 25
+A
+10 10
+A
+14 -20
+#31815
+sweat coat thin~
+a thin coat of sweat~
+A thin coat of sweat is glooped on the floor.~
+You give it a cursory sniff.  Yep, it's sweat, all right.
+~
+9 0 0 0
+1 0 0 0
+0 0 0 20
+A
+5 1
+A
+4 1
+#31816
+board clip clipboard~
+a clipboard~
+A clipboard is lying face down on the floor.~
+It currently holds no papers of any kind, mus tnot be much harbor traffic at
+this time.    
+~
+12 a 0 0
+0 0 0 0
+0 0 0 25
+A
+19 1
+A
+18 2
+#31817
+locket anchor~
+an anchor shaped locket~
+A necklace of some sort is lying on the ground.~
+You turn it over and read the inscription
+
+To my lovely daughter,
+May the waves of fate always turn the tide in your favor.
+~
+11 b 0 0
+0 0 0 0
+0 0 0 21
+A
+2 2
+A
+5 1
+A
+1 -2
+#31818
+dirk shiny~
+a shiny dirk~
+A shiny dirk has been left here.~
+~
+5 0 an 0
+1 2 3 11
+1 1 0 1
+E
+dirk shiny~
+   Boy, it sure is a shiny little bugger.  
+~
+#31819
+britches pair green~
+a pair of green britches~
+A green pair of britches are crumpled on the floor here.~
+They look like they definately could be in the 'flood' classification.  Wear
+them at your own risk...  My guess is even the non-aggro mobs will attack you
+with these on!    
+~
+9 0 0 0
+5 0 0 0
+0 0 0 11
+A
+6 -2
+A
+9 -5
+#31820
+hat cap'n~
+the Cap'n's hat~
+A sailor's hat is lying here.~
+This thing emminates a strong aura of bad whiskey, bad women, and bad
+personality.  Use it at your own risk.    
+~
+9 b 0 0
+5 0 0 0
+0 0 0 50
+A
+19 1
+A
+18 2
+#31821
+sleeves dolphin skin~
+some dolphin skin sleeves~
+A wad of some sort of animal's skin is on the ground.~
+They look as if they would stretch right over your arms for a snug fit.
+~
+9 0 0 0
+6 0 0 0
+0 0 0 23
+A
+13 25
+#31822
+arm tie~
+a black leather arm tie~
+A thin piece of black leather is here.~
+It is about 9 inches long, frayed at both ends.
+~
+9 0 0 0
+1 0 0 0
+0 0 0 25
+A
+18 2
+#31823
+whip backhand~
+a backhand whip~
+A small whip has been left here.~
+~
+5 0 an 0
+1 2 4 2
+1 1 0 2
+E
+whip backhand~
+   Just the perfect fit in the palm of your hand.  
+~
+#0
+
+#ROOMS
+
+#31800
+Dock Area Zone Description Room~
+Kaan
+Zone 318 is linked to the following zones:
+315 McGintey Business District     at 31801 (north) ---> 31571
+315 McGintey Business District     at 31804 (north) ---> 31573
+322 McGintey Bay                   at 31842 (south) ---> 32273
+322 McGintey Bay                   at 31843 (south) ---> 32275
+322 McGintey Bay                   at 31844 (south) ---> 32277
+322 McGintey Bay                   at 31846 (south) ---> 32271
+322 McGintey Bay                   at 31847 (south) ---> 32269
+322 McGintey Bay                   at 31848 (south) ---> 32267
+
+322 McGintey Bay                   at 31849 (south) ---> 32265
+~
+318 0 0
+S
+#31801
+West Main~
+   The road continues downhill to the south, toward wine, women and drunken
+brawls.  The stench fish and sea-goers gets stronger and stronger with each step
+you take down toward the docks.  To the north is the way into the main business
+section of the City.  
+~
+318 0 0
+D0
+~
+~
+0 0 31571
+D2
+~
+~
+0 0 31802
+S
+#31802
+West Main~
+   You are nearing sea level, which is just south and downhill from where you
+stand.  The repugnant smell of fish and guts, sailors and sweat is still all
+around you, but to your shame you find that you are beginning to get a bit used
+to it.  North leads the way uphill into McGintey's business district.  
+~
+318 0 0
+D0
+~
+~
+0 0 31801
+D2
+~
+~
+0 0 31803
+S
+#31803
+West Main~
+   You have come to the southern end of West Main, where the street stops it's
+travel downhill and south, allowing the Dock Road to take over, which is just
+west from here.  The road heads north, uphill toward the main city section of
+McGintey Cove, or east into a tightly packed alley where a sizable crowd of
+people seem to be gathered around, watching something.  
+~
+318 0 0
+D0
+~
+~
+0 0 31802
+D1
+~
+~
+0 0 31807
+D3
+~
+~
+0 0 31824
+S
+#31804
+East Main~
+   The road heads south at a steep downhill angle, making travel a bit
+difficult, especially with the poor condition if the roads.  To the north is the
+main business section of McGintey Cove.  
+~
+318 0 0
+D0
+~
+~
+0 0 31573
+D2
+~
+~
+0 0 31805
+S
+#31805
+East Main~
+   The road heads steeply downhill toward the docks and all the mariad life
+which seems to frequent that area.  Just south of you is the final step where
+you reach sea level and what looks to be the grubbiest section of any town you
+have ever seen begins.  To the north, the road heads uphill toward the main
+business area for the Cove.  
+~
+318 0 0
+D0
+~
+~
+0 0 31804
+D2
+~
+~
+0 0 31806
+S
+#31806
+East Main~
+   You have reached the bottom of the large hill which runs north from here into
+the main business area.  South of you is mroe of the road, which runs along side
+a very large building, presumably the Boat Station, where one may book passage
+to any of the islands of Dibrova.  West of you is an alley where it looks like a
+sizable crowd has gathered, all intent and yelling at something in their center.
+
+~
+318 0 0
+D0
+~
+~
+0 0 31805
+D2
+~
+~
+0 0 31808
+D3
+~
+~
+0 0 31807
+S
+#31807
+Alley at the Cock Fights~
+   You stand in a cramped alley which is made all the more cramped by all the
+people who have crowded together to watch and bet on these beasts which battle
+on the ground in the center of this man-made ring.  The exits lead east and
+west.  
+~
+318 0 0
+D1
+~
+~
+0 0 31806
+D3
+~
+~
+0 0 31803
+S
+#31808
+East Main~
+   The road runs north and south here.  On your west is the wall of the enormous
+boat station here in McGintey Cove.  The entrance looks to be just south of
+here.  To the east is an old, three story building which looks from this angle
+to be completely abandoned.  
+~
+318 0 0
+D0
+~
+~
+0 0 31806
+D1
+~
+~
+0 0 31850
+D2
+~
+~
+0 0 31809
+S
+#31809
+East Main~
+   You stand on before a huge concrete building which holds the Boat Station
+here in McGintey Cove.  This Boat Station is said to be the largest commercial
+outlet for personal travel overseas in Dibrova.  A great number of people go in
+and come out of this place, many obviously foreigners.  The entrance to the Boat
+Station is to the west and the road runs north and south.  
+~
+318 0 0
+D0
+~
+~
+0 0 31808
+D2
+~
+~
+0 0 31810
+D3
+~
+~
+0 0 31813
+S
+#31810
+East Main~
+   The road continues north and south, a small shop lies just east of you.  To
+the south you can see the very tops of ships' masts that are docked in the
+harbor.  The shop east of here looks to be that of a netweaver's.  
+~
+318 0 0
+D0
+~
+~
+0 0 31809
+D1
+~
+~
+0 0 31812
+D2
+~
+~
+0 0 31811
+S
+#31811
+East Main~
+   Still heading north and south, this road has turned from the easily traveled
+paving to the north to a muddy, sludgy mess that you must literally make an
+effort each time you take a step to lift your foot high enough to clear the mud
+that threathens to ruin your footwear and bog you down.  To the east is a very
+crude looking building, a sign hanging out front with no writing, just a badly
+painted picture of a cracked beer mug on it.  To the west, a narrow, dark alley
+allows limited access.  
+~
+318 0 0
+D0
+~
+~
+0 0 31810
+D1
+~
+~
+0 0 31831
+D2
+~
+~
+0 0 31832
+D3
+~
+~
+0 0 31820
+S
+#31812
+Netweaver~
+   This small shop is festooned with nets of assorted size, color and shape.  
+Most are made for fishing, for those commercial fisherman who supply the town
+with fish to eat.  Some, however, are made for a more deadly purpose, one which
+a player may find quite useful....  
+~
+318 0 0
+D3
+~
+~
+0 0 31810
+S
+#31813
+McGintey Boat Station~
+   Upon entering into this huge hall, the first thing you notice is the rush of
+sound that comes at you from every side.  It seems everyone is trying
+desperately to yell over everyone else to make sure they get the right ticket to
+the right destination.  The next thing you notice is the amount of people who
+seem to have found a home here at the station, on the benches which are rowed
+neatly in the center of the floor.  These benches were obviously intended for
+use by the customers who await the arrival of their boat, but it seems that some
+the lower class, possibly less fortunates have decide that these benches work
+very well as a bed, too.  There are ticket booths to the north and south.  The
+exit is east.  
+~
+318 0 0
+D0
+~
+~
+0 0 31817
+D1
+~
+~
+0 0 31809
+D2
+~
+~
+0 0 31815
+D3
+~
+~
+0 0 31814
+S
+#31814
+McGintey Boat Station~
+   This part of the station is no different from the front section.  Bums and
+screaming people.  Everywhere.  Love it here, yep!  (That WAS sarcasm) There are
+more ticket booths to the north, the south, and the west.  The exit is off to
+the east.  Past more bums.  
+~
+318 0 0
+D0
+~
+~
+0 0 31818
+D1
+~
+~
+0 0 31813
+D2
+~
+~
+0 0 31816
+D3
+~
+~
+0 0 31819
+S
+#31815
+Dibrova Travels~
+   You stand at a glass window with a small hole cut in the bottom center.  A
+sign hangs behind the receptionist, detailing the ports of call for this
+particular travel company.  
+~
+318 0 0
+D0
+~
+~
+0 0 31813
+S
+#31816
+Travels Abroad~
+   You stand at a glass window with a small hole cut in the bottom center.  A
+sign hangs behind the receptionist, detailing the ports of call for this
+particular travel company.  
+~
+318 0 0
+D0
+~
+~
+0 0 31814
+S
+#31817
+Island Escapes~
+   You stand at a glass window with a small hole cut in the bottom center.  A
+sign hangs behind the receptionist, detailing the ports of call for this
+particular travel company.  
+~
+318 0 0
+D2
+~
+~
+0 0 31813
+S
+#31818
+Ocean Adventures~
+   You stand at a glass window with a small hole cut in the bottom center.  A
+sign hangs behind the receptionist, detailing the ports of call for this
+particular travel company.  
+~
+318 0 0
+D2
+~
+~
+0 0 31814
+S
+#31819
+Hodges Travel, Inc.~
+   You stand at a glass window with a small hole cut in the bottom center.  A
+sign hangs behind the receptionist, detailing the ports of call for this
+particular travel company.  
+~
+318 0 0
+D1
+~
+~
+0 0 31814
+S
+#31820
+Narrow Alley~
+   With the Boat Station wall to your north and the wall of a two story brothel
+to your south, this alley is so covered in shadows as to be dark.  It continues
+west into more darkness or allows entrance back onto East Main to the east.  
+~
+318 ai 0
+D1
+~
+~
+0 0 31811
+D3
+~
+~
+0 0 31821
+S
+#31821
+Narrow Alley~
+   The alley stills seems to lead somewhere to the west, but still without
+enough light to see by.  A faint trickle of light comes from the east, where the
+alley opens up into the main street.  
+~
+318 ai 0
+D1
+~
+~
+0 0 31820
+D3
+~
+~
+0 0 31822
+S
+#31822
+Dead End in Narrow Alley~
+   Ahhh, finally some light!  Although, with the light that is available here,
+you may have been better off not seeing.  There is a small, hooded lantern
+casting light on the alley floor where five large punks huddle around a craps
+game they were gambling on.  Notice the word 'WERE' there.  See, you have
+interrupted their game, and they don't seem pleased.  No, not at all.  
+~
+318 a 0
+D0
+~
+door~
+1 0 31823
+D1
+~
+~
+0 0 31821
+S
+#31823
+The HQ of the Bloody Scythe Gang~
+   This place, what appears to be an abandoned warehouse, is home to one of the
+deadliest gangs of thugs in McGintey Cove.  All crime, all prostitution, and all
+illegal gambling activities are controlled from this room.  Well, that is all
+crime, prostitution and gambling that the Dead Boys (McGintey's other gang)
+don't control is controlled from here.  Seems that the Bloody Scythes don't take
+a shine to having unexpected company, either.  Better duck!  
+~
+318 0 0
+D2
+~
+door~
+1 0 31822
+S
+#31824
+Dock Road~
+   You are at the northern end of Dock Road which at this point, isn't anywhere
+near the docks, but leads to them directly.  To the east is West Main street and
+to the south is the way leading to the docks.  
+~
+318 0 0
+D1
+~
+~
+0 0 31803
+D2
+~
+~
+0 0 31825
+S
+#31825
+Dock Road~
+   The road heads south toward the docks where all vessels commercial and
+private are kept when in port.  The sound of the sea begins to be much more
+prevalent as you make your way toward the docks.  The sounds, the smell, and the
+excitement of a busy seaport seems to call to you as you hurry along.  
+~
+318 0 0
+D0
+~
+~
+0 0 31824
+D2
+~
+~
+0 0 31826
+S
+#31826
+Dock Road~
+   The Dock Road continues south toward the docks or north toward a large hill
+which leads up into the main business section of McGintey Cove.  
+~
+318 0 0
+D0
+~
+~
+0 0 31825
+D2
+~
+~
+0 0 31827
+S
+#31827
+Dock Road~
+   Dock Road comes to an intersection on itself just south of you, where it
+splits east and west and runs along the docks where all of the many ships are
+kept while in port.  To the east is a small dirt trail.  It looks to be fairly
+well used, however there is something about it, something slightly unsettling
+that makes you think maybe you'd better not head that way.  Don't you have a
+ship to catch anyway?  
+~
+318 0 0
+D0
+~
+~
+0 0 31826
+D1
+~
+~
+0 0 31828
+D2
+~
+~
+0 0 31848
+S
+#31828
+Dirt Trail~
+   The trail makes a turn to the north, where it leads up to a small wooden
+shack, sittig all by itself in the shadow of this big city.  How in the world
+did this little shack go unnoticed by you when you walked by on Dock Road?  
+~
+318 0 0
+D0
+~
+~
+0 0 31829
+D3
+~
+~
+0 0 31827
+S
+#31829
+In Front of a Shack~
+   You stand before the shack, wondering if it would be a good idea to knock, or
+just walk right in.  There is definately someone home from the sounds you can
+from out here, there are probably quite a few someones home.  They are making a
+loud-assed racket.  You may head south away from the shack or north into it.  
+~
+318 0 0
+D0
+~
+door~
+1 0 31830
+D2
+~
+~
+0 0 31828
+S
+#31830
+HQ for the Dead Boys~
+   These boys are, of course, not dead.  In fact, they are far from it.  They
+seem to have a non-stop party that goes on and on and on.  Almost makes you want
+to join them, but just as you begin to think these party animals might be cool
+to hang out with for a few drunken hours, they turn as one and decide that
+kicking your ass would be more fun than the beer for a while.  Hey, you know,
+You Gotta Fight...  For Your Right...  
+~
+318 0 0
+D2
+~
+door~
+1 0 31829
+S
+#31831
+The Cracked Mug~
+   A gaggle of sailors all huddle around an old battered piano, most of them
+drunker than drunk can be.  They all sing along in off-keys to an off-key tune
+played by a sailor who probably has never touched a piano before in his life.  
+Seems like a harmless enough place to come in and have a drink or two...  
+~
+318 d 0
+D3
+~
+~
+0 0 31811
+S
+#31832
+East Main~
+   East Main heads south toward the docks, which you can faintly see in the
+distance now.  A wide road heads off to your east, past a bar and a warehouse.
+To the west is nicely kept house decorated in pastel colors.  For some reason,
+there are a number of women leaning on the front balcony, smiling and waving.  
+Hm, you must look extra good today or something!  
+~
+318 0 0
+D0
+~
+~
+0 0 31811
+D1
+~
+~
+0 0 31834
+D2
+~
+~
+0 0 31839
+D3
+~
+~
+0 0 31833
+S
+#31833
+Myra's House of Ill Repute~
+   Madame Myra hosts the only business of this nature in this town, thereby
+granting her the luxury of picking and choosing her custom, not to mention her
+price.  A sign on the wall catches your eye.  
+~
+318 d 0
+D1
+~
+~
+0 0 31832
+S
+#31834
+Warehouse Road~
+   The road runs along a couple of large warehouses which seem for the most part
+unused or at least, unguarded.  One lies directly south from you and the other
+just northeast.  To the west is East Main.  
+~
+318 0 0
+D1
+~
+~
+0 0 31835
+D2
+~
+~
+0 0 31840
+D3
+~
+~
+0 0 31832
+S
+#31835
+Warehouse Road~
+   The road runs east and west from here, dead ending just east at a large,
+empty looking house.  To the north is the entrance to a large warehouse.  
+~
+318 0 0
+D0
+~
+~
+0 0 31838
+D1
+~
+~
+0 0 31836
+D3
+~
+~
+0 0 31834
+S
+#31836
+Warehouse Road~
+   The road ends here, warehouse walls to the north and south with no entrances,
+and an old, empty looking house to the east.  To the west the street heads
+toward East Main and the docks.  
+~
+318 0 0
+D1
+~
+~
+0 0 31837
+D3
+~
+~
+0 0 31835
+S
+#31837
+Abandoned Building~
+   This ransacked home must have been the home of either the owner of these
+warehouses or teh place where the guard lived who watched over them.  It makes
+little difference who lived here then, because the house has been completely
+gutted by the various hoodlums and punks of the town.  It also looks as if it
+could be a favorite of some of the squatters of this town.  The exit lies west.
+
+~
+318 d 0
+D3
+~
+~
+0 0 31836
+S
+#31838
+Warehouse~
+   A few crates lay scattered throughout the room, all of them seem to have the
+appearance of having been left here for quite some time.  Never hurts to check,
+though...  
+~
+318 d 0
+D2
+~
+~
+0 0 31835
+S
+#31839
+East Main~
+   East Main runs south into Dock Road, the road which runs east to west along
+the docks where all vessels are required to tie up when in port.  To the west is
+a small motel which offers vacancy, however it does look as if it would most
+probably be a favorite hangout for sailors and call girls, not the affluent
+qworld traveller type like yourself.  
+~
+318 0 0
+D0
+~
+~
+0 0 31832
+D2
+~
+~
+0 0 31842
+D3
+~
+~
+0 0 31841
+S
+#31840
+Warehouse~
+   Boxes and crates litter the floor.  Your footsteps echo hollowly in this huge
+building, convincing you that you are most probably alone in this place.  A
+quick search might reveal a prize or two.  
+~
+318 d 0
+D0
+~
+~
+0 0 31834
+S
+#31841
+Roach Motel~
+   There is a door in the east wall, presumably leading to the rooms where one
+might rest for the night.  A man sits behind a thick plate of glass reading a
+small pamphlet and ignoring you.  It seems if you want any help, you'll have to
+ask for it.  
+~
+318 d 0
+D1
+~
+~
+0 0 31839
+S
+#31842
+Dock Road~
+   You stand on the Dock Road which runs east to west along McGintey's docks.  
+To the south is Dock 5, designated for pleasure crafts and commercial travel.  
+To your north East Main heads up toward the main business district of McGinety
+Cove.  
+~
+318 0 0
+D0
+~
+~
+0 0 31839
+D1
+~
+~
+0 0 31843
+D2
+~
+~
+0 0 32273
+D3
+~
+~
+0 0 31846
+S
+#31843
+Dock Road~
+   You stand on the Dock Road which runs east to west along McGintey's docks.  
+To the south is Dock 6, designated for pleasure crafts only.  To your north is
+the wall of a large warehouse, the entrance to which must be on another side.  
+~
+318 0 0
+D1
+~
+~
+0 0 31844
+D2
+~
+~
+0 0 32275
+D3
+~
+~
+0 0 31842
+S
+#31844
+Dock Road~
+   You stand on teh Dock Road which runs east to west along McGintey's docks.  
+To the south is Dock 7, the last of seven docks, this one designated as pleasure
+crafts only.  The shipyard lies to the east or you may head west back along the
+Dock Road.  
+~
+318 0 0
+D1
+~
+~
+0 0 31845
+D2
+~
+~
+0 0 32277
+D3
+~
+~
+0 0 31843
+S
+#31845
+Shipyard~
+   This is where the boats of McGintey Cove are made and repaired.  Hard working
+men work round the clock to make sure that the commerce and trade which this
+great city depends so much on does not come to a halt.  
+~
+318 0 0
+D3
+~
+~
+0 0 31844
+S
+#31846
+Dock Road~
+   You stand on the Dock Road which runs east and west along McGintey's docks.
+To the south is Dock 4 which is designated as commercial travel only.  
+~
+318 0 0
+D1
+~
+~
+0 0 31842
+D2
+~
+~
+0 0 32271
+D3
+~
+~
+0 0 31847
+S
+#31847
+Dock Road~
+   You stand on the Dock Road which runs east and west along McGintey's docks.
+To the south is Dock 3 which is designated as commercial travel only.  
+~
+318 0 0
+D1
+~
+~
+0 0 31846
+D2
+~
+~
+0 0 32269
+D3
+~
+~
+0 0 31848
+S
+#31848
+Dock Road~
+   You stand on the Dock Road which runs east and west along McGintey's docks.
+To the south is Dock 2 which is designated as commercial travel and commercial
+business.  To the north, Dock Road runs toward a large hill that leads up into
+the main business section of the Cove.  
+~
+318 0 0
+D0
+~
+~
+0 0 31827
+D1
+~
+~
+0 0 31847
+D2
+~
+~
+0 0 32267
+D3
+~
+~
+0 0 31849
+S
+#31849
+Dock Road~
+   You have come to the western end of Dock Road, where the only exit besides
+the way you came os south, onto Dock 1, designated as commercial business crafts
+only.  
+~
+318 0 0
+D1
+~
+~
+0 0 31848
+D2
+~
+~
+0 0 32265
+S
+#31850
+A Garbage Littered Hallway~
+   You stand just inside a building that appears to have been some sort of
+housing project in it heyday.  There are doors both north and south of you -
+both of them are closed at this time.  Of course, the doors don't look like they
+would do much to keep anyone in or out of the rooms beyond.  They are all nasty
+and corroded, most of the wood peeling away in strips.  The hallway heads east
+into more filth, best to watch your step, there is no light and you could trip
+on some garbage.  
+~
+318 d 0
+D1
+~
+~
+0 0 31851
+D3
+~
+~
+0 0 31808
+S
+#31851
+Bottom Floor of an Old Apartment Building~
+   This place appears to have been abandoned quite some time ago - like years -
+but you never know.  There are doors to the east, south and north from where you
+stand now.  The hallway leads west toward the doorless entrance out onto East
+Main.  Was that a -clunk!  - you just heard from one of the levels above?  
+~
+318 d 0
+D3
+~
+~
+0 0 31850
+S
+#0
+
+#RESETS
+D 0 31822 0 1 	(Dead End in Narrow Alley)
+M 0 31819 3 31822 	(the street punk)
+E 1 31822 50 10 	(a black leather arm tie)
+M 0 31819 3 31822 	(the street punk)
+E 1 31822 50 10 	(a black leather arm tie)
+M 0 31819 3 31822 	(the street punk)
+E 1 31822 50 10 	(a black leather arm tie)
+M 0 31817 1 31848 	(Cap'n Darby)
+E 1 31820 50 6 	(the Cap'n's hat)
+E 1 31821 50 10 	(some dolphin skin sleeves)
+E 1 31823 50 16 	(a backhand whip)
+M 0 31805 1 31848 	(an old beggar)
+M 0 31811 1 31846 	(the Dockmaster)
+G 1 31816 50 -1 	(a clipboard)
+E 1 31817 50 3 	(an anchor shaped locket)
+M 0 31812 1 31846 	(the Dockmaster's assistant)
+E 1 31818 50 16 	(a shiny dirk)
+E 1 31819 50 7 	(a pair of green britches)
+D 0 31823 2 1 	(The HQ of the Bloody Scythe Gang)
+M 0 31807 1 31823 	(Ie, Bloody Scythe's leader)
+E 1 31805 50 13 	(a red sash)
+E 1 31806 50 16 	(a wicked looking scythe)
+E 1 31810 50 8 	(a pair of razor tipped boots)
+M 0 31803 5 31823 	(a Bloody Scythe gang member)
+E 1 31805 50 13 	(a red sash)
+E 1 31807 50 16 	(a rusted knife)
+M 0 31803 5 31823 	(a Bloody Scythe gang member)
+E 1 31805 50 13 	(a red sash)
+E 1 31807 50 16 	(a rusted knife)
+M 0 31808 3 31845 	(a carpenter)
+E 1 31811 50 17 	(a hammer)
+E 1 31812 5013 13 	(a carpenter's tool belt)
+M 0 31808 3 31845 	(a carpenter)
+E 1 31811 50 17 	(a hammer)
+E 1 31812 50 13 	(a carpenter's tool belt)
+M 0 31808 3 31845 	(a carpenter)
+E 1 31811 50 17 	(a hammer)
+E 1 31812 50 13 	(a carpenter's tool belt)
+M 0 31809 1 31845 	(the shipyard foreman)
+G 1 31813 50 -1 	(a fat cigar)
+E 1 31814 50 12 	(the foreman's beer gut)
+M 0 31800 5 31824 	(the drunken sailor)
+E 1 31800 5 5 	(a white and black striped sailor's shirt)
+E 1 31801 5 6 	(some prickly chin stubble)
+M 0 31803 3 31824 	(a Bloody Scythe gang member)
+E 1 31805 50 13 	(a red sash)
+D 0 31829 0 1 	(In Front of a Shack)
+M 0 31806 1 31829 	(Marcko, the Dead Boy's leader)
+E 1 31808 1 16 	(Marcko's Blade)
+E 1 31809 1 2 	(a black opal ring)
+M 0 31802 5 31829 	(a Dead Boy)
+E 1 31803 5 13 	(a black sash)
+E 1 31804 5 16 	(a set of spiked knuckles)
+M 0 31802 5 31829 	(a Dead Boy)
+E 1 31803 5 13 	(a black sash)
+E 1 31804 5 16 	(a set of spiked knuckles)
+D 0 31830 2 1 	(HQ for the Dead Boys)
+M 0 31801 3 31807 	(a shouting gambler)
+G 1 31802 3 -1 	(a fistful of money)
+M 0 31801 3 31807 	(a shouting gambler)
+G 1 31802 3 -1 	(a fistful of money)
+M 0 31801 3 31807 	(a shouting gambler)
+G 1 31802 3 -1 	(a fistful of money)
+M 0 31800 5 31802 	(the drunken sailor)
+E 1 31800 5 5 	(a white and black striped sailor's shirt)
+E 1 31801 5 6 	(some prickly chin stubble)
+M 0 31802 3 31826 	(a Dead Boy)
+M 0 31800 5 31826 	(the drunken sailor)
+E 1 31800 5 5 	(a white and black striped sailor's shirt)
+M 0 31800 5 31834 	(the drunken sailor)
+E 1 31800 5 5 	(a white and black striped sailor's shirt)
+M 0 31800 5 31804 	(the drunken sailor)
+E 1 31800 5 5 	(a white and black striped sailor's shirt)
+M 0 31815 3 31839 	(a midshipman)
+M 0 31816 3 31839 	(a pack rat)
+M 0 31810 3 31835 	(a hard working sailor)
+M 0 31802 3 31836 	(a Dead Boy)
+M 0 31803 3 31810 	(a Bloody Scythe gang member)
+M 0 31802 3 31808 	(a Dead Boy)
+M 0 31816 3 31805 	(a pack rat)
+M 0 31810 3 31801 	(a hard working sailor)
+M 0 31822 1 31841 	(the motel attendant)
+M 0 31804 1 31841 	(a giant cochroach)
+M 0 31821 1 31833 	(Madame Myra)
+M 0 31820 3 31831 	(the singing drunken sailor)
+M 0 31820 3 31831 	(the singing drunken sailor)
+M 0 31820 3 31831 	(the singing drunken sailor)
+M 0 31818 1 31812 	(the netweaver)
+M 0 31814 5 31819 	(a travel agent)
+M 0 31814 5 31818 	(a travel agent)
+M 0 31814 5 31817 	(a travel agent)
+M 0 31814 5 31816 	(a travel agent)
+M 0 31814 5 31815 	(a travel agent)
+M 0 31813 2 31813 	(a bum)
+M 0 31813 2 31814 	(a bum)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

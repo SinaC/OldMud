@@ -1,0 +1,2531 @@
+#Style Circle
+#AREADATA
+Name Army Encampment~
+Builders Kaan~
+VNUMs 32400 32499
+Credits {{None}  CAW    Army Encampment~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#32400
+cow~
+a cow~
+A fat cow stand here chewing her cud.
+~
+   She may not be the most hygenic animal, but she sure has a good load of fat
+meat on her!  And look at them tits!    
+~
+bdnq 0 0 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 2
+BareHandAttack: 6
+E
+#32401
+bull~
+the mean bull~
+A mean bull stamps it feet and snorts at you.
+~
+   Papa always said make sure you never get behind an angry bull.  Also said
+never get in front of one.  So where does that leave?    
+~
+bdfnq 0 -200 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+BareHandAttack: 9
+E
+#32402
+horse war~
+a war horse~
+A proud war horse tosses its head whinnies.
+~
+   This large animal is trained to hate every human except the one who rides
+him.  Beware his kicking hooves!    
+~
+bdfnpq 0 0 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+BareHandAttack: 6
+E
+#32403
+horse work~
+a sturdy work horse~
+A sturdy work horse grazes the tall grass.
+~
+   It takes almost no notice of you, just continues on with it's lunch.    
+~
+bdnp 0 0 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 2
+BareHandAttack: 5
+E
+#32404
+forge master smith~
+the Forgemaster~
+The Forgemaster stands near the fire directing his workers in their labors.
+~
+   He is quite large with tree-trunk arms.  He is definately not someone to
+trifle with even on one of his bad days.    
+~
+dg 0 300 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+#32405
+smithy sweating~
+the sweating smithy~
+A sweating smithy soldier pumps the coals with a bellows.
+~
+   The sweat drips from his bare back as makes sure that the fire does not get
+low.    
+~
+dg 0 200 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+E
+#32406
+smithy soldier sweating~
+the smithy~
+A smithy pounds away at a piece of metal, shaping it into a usable piece.
+~
+   His muscles bulge and the hammer rings.  This guy could do commercials.    
+~
+dg 0 350 E
+19 17 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+E
+#32407
+tanner soldier~
+a tanner~
+A soldier works diligently at tanning hides.
+~
+   He wipes his sweating brow and gives a smile.  At least he seems to enjoy
+his work a bit.    
+~
+dg 0 400 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+E
+#32408
+soldier sweating grunting~
+the sweating soldier~
+A soldier grunts as he lifts a bale of hay up onto the stack.
+~
+   He is sweating from most every pore in his body - it does not appear that he
+is enjoying his labors.    
+~
+dg 0 100 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#32409
+soldier brander~
+a brander~
+A soldier is here branding the cattle and the horses of the Eastern Army.
+~
+   He stands with a sly grin on his face, as if he might enjoy his work just a
+bit too much.    
+~
+cdg 0 -100 E
+19 17 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+E
+#32410
+soldier rustler~
+a rustler~
+A soldier rustles a cow into a prone position so that the brander might place his mark.
+~
+   He looks strong enough to wrestle an ox - indeed he often does.    
+~
+dg 0 300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#32411
+soldier footman~
+a footman~
+A footman trudges wearily back toward the barracks tents.
+~
+   His job is done for the day and he is quite glad of it!    
+~
+dg 0 300 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#32412
+soldier general tso~
+General Tso~
+General Tso walks among his troops, a look of disapproval fixed upon his face.
+~
+   Tso appears the type that would never be satisfied no matter what the length
+a soldier might go to to obtain his approval.    
+~
+dg 0 200 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#32413
+soldier patrolman~
+a patrolman~
+A patrolman walks his rounds, watching for signs of invasion.
+~
+   He does not appear all that concerned about invaders as he drearily walks
+his rounds.    
+~
+dg 0 600 E
+21 17 -2 4d4+210 3d3+3
+210 44100
+8 8 1
+E
+#32414
+soldier scout~
+an army scout~
+An army scout walks lithely through the camp.
+~
+   He moves with a sinous grace that speaks well of his abilities in the
+forest.    
+~
+dg 0 700 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 1
+E
+#32415
+surgeon soldier~
+the surgeon~
+The camp surgeon is here tending to the wounded.
+~
+   He is a very energetic young man, fully trained by the Eastern Army's best
+surgeons.    
+~
+dg 0 600 E
+17 18 0 3d3+170 2d2+2
+170 28900
+8 8 1
+E
+#32416
+medic soldier~
+the medic~
+A medic bustles along self-importantly.
+~
+   He gives you a look and sees that you don't appear hurt.  He then pointedly
+ignores you and continues on.    
+~
+dg 0 100 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#32417
+marksman soldier~
+the marksman~
+A marksman keeps a keen eye out for trouble.
+~
+   He looks a bit startled at your intrusion, but quickly recovers seeing that
+you are not the enemy and goes back to watching out the peepholes.    
+~
+bdg 0 400 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+E
+#32418
+soldier wounded~
+a wounded soldier~
+A wounded soldier limps past.
+~
+   He gives you a curt nod and then continues on his way.    
+~
+dg 0 600 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 1
+E
+#32419
+officer soldier cavalry~
+a cavalry officer~
+An off-duty cavalry officer walks past.
+~
+   He has that odd gait that suggests that more of his time is spent in the
+saddle than on his feet.    
+~
+dg 0 300 E
+23 17 -3 4d4+230 3d3+3
+230 52900
+8 8 1
+E
+#32420
+soldier~
+the water boy~
+A young soldier is here filling his water pails to carry them up to the mess tent.
+~
+   He grumbles under his breath as he works, feeling that his position in the
+Army's ranks are very unfair.    
+~
+dg 0 600 E
+12 18 2 2d2+120 2d2+2
+120 14400
+8 8 1
+E
+#32421
+soldier squatting~
+the squatting soldier~
+A soldier looks up in shock as you enter into this small and private area with him.
+~
+   He clutches to the sides of the seat, wondering just what sort of person
+would intrude on one in such a place!    
+~
+dg 0 800 E
+16 18 0 3d3+160 2d2+2
+160 25600
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#32400
+chair~
+a chair~
+There is a chair that has been left in the center of the floor.~
+Nothing.
+~
+12 0 0 0
+0 0 0 0
+0 0 0 1
+E
+chair~
+   It is a very uncomfortable looking piece of furniture which is designed to
+keep the user not only awake, but on their feet at most times.    
+~
+#32401
+hammer heavy~
+a heavy iron hammer~
+A heavy iron hammer has been left here.~
+Nothing.
+~
+5 0 an 0
+3 5 3 7
+13 10 0 20
+A
+1 2
+A
+19 1
+#32402
+iron branding~
+a branding iron~
+A steaming branding iron has been dropped here.~
+~
+5 0 ano 0
+3 3 5 1
+7 10 0 16
+A
+4 2
+#32403
+papers command~
+a set of official command papers~
+A set of official command papers have been left here.~
+Nothing.
+~
+2 b ao 0
+1 36 -1 -1
+3 10 0 1
+#32404
+arrows~
+a bundle of arrows~
+A bundle of arrows are stacked neatly here.~
+~
+5 0 o 0
+1 2 3 1
+3 10 0 1
+#32405
+pot boiling pitch~
+a pot full of pitch~
+A pot full of pitch for boiling is waiting for a war.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 21
+#32406
+ram battering~
+a battering ram~
+A stack of battering rams await times of war and siege.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#32407
+rations military~
+a bundle of military rations~
+A bundle of military rations have been dropped here.~
+~
+19 0 a 0
+12 0 0 0
+4 10 0 1
+#32408
+sabre proud~
+a proud sabre~
+A very ornate, proud sabre has been left here.~
+~
+5 ag an 0
+3 5 4 3
+7 10 0 24
+A
+3 2
+#32409
+knife cavalry~
+a cavalry knife~
+A cavalry knife has been dropped here.~
+~
+5 0 an 0
+2 3 7 11
+4 10 0 21
+A
+19 2
+A
+2 2
+#32410
+rope~
+a coil of rope~
+A coil of rope has been dropped here.~
+~
+12 0 a 0
+0 0 0 0
+4 10 0 1
+#32411
+picks lock~
+a set of lock picks~
+A set of lock picks have been left here.~
+~
+12 0 ao 0
+0 0 0 0
+6 10 0 21
+A
+2 2
+#32412
+spyglass glass~
+a spyglass~
+A spyglass has been left here.~
+~
+12 0 a 0
+0 0 0 0
+5 10 0 19
+A
+5 2
+#32413
+kit first aid~
+a first aid kit~
+A first aid kit has been left here.~
+~
+3 b ao 0
+20 3 3 15
+5 10 0 1
+#32414
+kit medic~
+a medic's kit~
+A medic's kit has been left here.~
+~
+4 0 ao 0
+20 5 5 16
+6 10 0 1
+#32415
+crutch~
+a crutch~
+A crutch has been left here.~
+~
+11 0 ao 0
+0 0 0 0
+4 10 0 10
+A
+14 -20
+A
+10 20
+#32416
+badge honor~
+a Badge of Honor~
+A shiny badge has been left here.~
+~
+11 0 alm 0
+0 0 0 0
+3 10 0 10
+A
+5 2
+#32417
+stretcher~
+a stretcher~
+A stretcher lies rolled up on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+10 10 0 1
+A
+10 20
+#32418
+duffel military~
+a military issue duffel~
+A military issue duffel has been left here.~
+~
+15 0 a 0
+300 1 -1 0
+4 10 0 10
+#32419
+medals slew~
+a slew of medals~
+A slew of medals have been left here.~
+~
+11 0 ad 0
+0 0 0 0
+5 10 0 24
+A
+5 2
+A
+4 1
+#32420
+visor steel~
+a steel visor~
+A steel visor has been left here.~
+~
+9 a ae 0
+7 0 0 0
+4 10 0 20
+A
+19 2
+A
+18 1
+#32421
+pump bellows~
+a bellows pump~
+A bellows pump has been left here.~
+~
+12 0 ao 0
+0 0 0 0
+13 10 0 15
+A
+19 2
+#32423
+ring heavy bronze~
+a heavy bronze ring~
+A heavy bronze ring has been left here.~
+~
+9 a ab 0
+2 0 0 0
+8 10 0 20
+A
+18 1
+A
+19 2
+#32424
+pitchfork fork~
+a pitchfork~
+A pitchfork has been left here.~
+~
+5 0 an 0
+0 3 5 14
+6 10 0 14
+#32425
+apron leather stained~
+a stained leather apron~
+A stained leather apron has been left here.~
+~
+9 0 al 0
+5 0 0 0
+5 10 0 1
+#32426
+water pail water~
+a metal pail~
+A metal pail lies here on its side.~
+~
+17 0 a 0
+20 0 0 0
+4 10 0 0
+#32427
+milk jug milk~
+a jug of cold milk~
+A jug of cold milk has been left here.~
+~
+17 0 a 0
+10 10 10 0
+15 10 0 0
+#32428
+meat slab frozen~
+a slab of frozen meat~
+A slab of frozen meat hangs here on a hook.~
+~
+12 0 a 0
+0 0 0 0
+10 10 0 0
+#32429
+fruit dried~
+some dried fruits~
+Some dried fruits are laying the ground.~
+~
+19 0 a 0
+5 0 0 0
+3 10 0 0
+#32430
+rations soldier's~
+some soldier's rations~
+Some soldier's rations are stacked here in a pile.~
+~
+19 0 a 0
+10 0 0 0
+4 10 0 0
+#0
+
+#ROOMS
+
+#32400
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes which are manned
+twenty-eight hours a day.  The main section of the camp lies east of here along
+a roadway, the main highway through the gates to the west.  
+~
+324 0 0
+D0
+~
+~
+0 0 32401
+D1
+~
+~
+0 0 32440
+D2
+~
+~
+0 0 32427
+D3
+~
+~
+0 0 32610
+E
+credits info~
+Army Encampment by Kaan
+
+Zone 324 is linked to the following zones:
+326 Army Perimeter                 at 32400 (west ) ---> 32610
+326 Army Perimeter                 at 32414 (east ) ---> 32640
+~
+S
+#32401
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 d 0
+D0
+~
+~
+0 0 32402
+D2
+~
+~
+0 0 32400
+E
+scorecards~
+   The cards all have been filled in with the judges evaluations of today's
+combata nts.  It seems that Sparticus is having a good day.  
+~
+E
+pencils pencil~
+   An ordinary number 2 lead pencil.  Judging by the teeth marks on the shaft,
+the user should see a dentist very soon!  
+~
+S
+#32402
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 d 0
+D0
+~
+~
+0 0 32403
+D2
+~
+~
+0 0 32401
+D4
+~
+~
+0 0 32439
+S
+#32403
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D0
+~
+~
+0 0 32404
+D2
+You see a small hallway that leads to a larger area.
+~
+~
+0 -1 32402
+E
+seats benches~
+   The benches are made of rough cut lumber that has dried and split over time.
+You would probably get splinters if sat on them.  The words "BURT WAS HERE" have
+been carved into one of the benches with exquisite care.  
+~
+S
+#32404
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  The Walk turns north and east at this point, following the natural slope
+of the valley.  
+~
+324 0 0
+D1
+There is an acrid smell coming from that direction.
+~
+~
+0 -1 32405
+D2
+~
+~
+0 0 32403
+D4
+~
+~
+0 0 32438
+E
+marks scratches~
+   They look like they form the words "Onivel Cinemod Semaj" But you could be
+mistaken.  
+~
+S
+#32405
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D1
+Through the clouds of dust, you can make out a passable road.
+~
+road~
+0 -1 32406
+D3
+~
+~
+0 0 32404
+E
+gate~
+   The gate has been permanently rusted shut and is further secured by a large
+chain and padlock.  Don't even bother THINKING about trying to open it.  
+~
+S
+#32406
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 0 0
+D1
+~
+~
+0 0 32407
+D3
+~
+~
+0 0 32405
+D4
+~
+~
+0 0 32437
+E
+swords weapons armor halberds whips~
+   Titus has enough hardware in here to outfit a large army.  Maybe that's why
+he has a lucrative contract to sell weapons to the emperor's armies for
+outrageous prices.  
+~
+E
+sign~
+   The sign has a note posted on it.  It reads:
+
+     List   - Tells you what I have to sell.
+     Buy    - Tells me what you want to buy.
+     Value  - Tells you what I will pay for an item.
+     Sell   - Tells me you will sell that item, to me.
+
+~
+S
+#32407
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D1
+~
+~
+0 0 32408
+D3
+~
+~
+0 0 32406
+E
+weapons swords crates armor weapon sword crate~
+   There are literally thousands of each.  Take your pick.  
+~
+S
+#32408
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 0 0
+D1
+~
+~
+0 0 32409
+D3
+~
+~
+0 0 32407
+D4
+~
+~
+0 0 32436
+E
+landscape country~
+   You can see the entire city of Rome from here.  The buildings housing the
+Roman government are to the east.  To the south east, off in the distance, is
+the massive aqueduct and further in that direction lies the Mountain of the
+Gods.  
+~
+S
+#32409
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D1
+There is a large oval dirt-track in that direction.
+~
+~
+0 -1 32410
+D3
+~
+~
+0 0 32408
+E
+gladiator~
+   He is a big muscular man with lots of armor.  He sizes you up and decides
+that you aren't worth his time or trouble.  
+~
+E
+driver~
+   The driver is too busy changing a wheel on his chariot to notice you.  
+~
+E
+chariot~
+   You see a two wheeled open cart which is obviously meant to be pulled by
+horses.  The flaming paint-job and the large "01" stenciled on the side identify
+the chariot as belonging to Drucilis "Lightning-whip" Octavious, a favorite
+driver of the masses.  
+~
+E
+coach trainer~
+   The coach tells you "Stop bothering my athletes and get lost!  "
+~
+S
+#32410
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  The Walk turns south and west at this point, following the natural slope
+of the valley.  
+~
+324 0 0
+D2
+~
+~
+0 0 32411
+D3
+~
+~
+0 0 32409
+D4
+~
+~
+0 0 32435
+E
+gladiator~
+   He is in the final stages of a charge against his opponent....  THUD!  
+CLANG!  CRASH!!!!....  Judging from the blood and the amount of distance that
+now separates the gladiators head from the rest of his body, you can safely
+assume that this was the final combat of his life.  
+~
+S
+#32411
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 d 0
+D0
+~
+~
+0 0 32410
+D2
+~
+~
+0 0 32412
+E
+leech leeches~
+   DISGUSTING!  Each is about the size of matchbox and very slimy.  You are VERY
+glad that you have access to a cleric!  
+~
+S
+#32412
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 0 0
+D0
+~
+~
+0 0 32411
+D2
+It is difficult to see through the haze and dust.
+~
+~
+0 -1 32413
+D4
+~
+~
+0 0 32434
+S
+#32413
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 d 0
+D0
+A dusty road lies to the north.
+~
+~
+0 -1 32412
+D2
+You hazard a guess that a bedroom lies in that direction.
+~
+~
+0 -1 32414
+E
+furnishings furniture~
+   The furniture that you see is very simple and plain.  It is made of rough
+hewn wood and fastened together with nails.  It looks very uncomfortable.  
+~
+S
+#32414
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  You may enter into the
+main section of the camp to west - the east gate lies just east of here.  
+~
+324 0 0
+D0
+You see the living quarters to the north.
+~
+~
+0 -1 32413
+D1
+~
+gate~
+1 0 32640
+D2
+~
+~
+0 0 32415
+D3
+~
+~
+0 0 32477
+E
+laundry wash clothing~
+   It smells of sweat and is covered with mud.  
+~
+S
+#32415
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D0
+~
+~
+0 0 32414
+D2
+~
+~
+0 0 32416
+S
+#32416
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 0 0
+D0
+~
+~
+0 0 32415
+D2
+~
+~
+0 0 32417
+D4
+~
+~
+0 -1 32433
+S
+#32417
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D0
+~
+~
+0 0 32416
+D2
+~
+~
+0 0 32418
+S
+#32418
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  The Walk turns north and west here, following the natural curve of the
+valley's floor.  
+~
+324 0 0
+D0
+~
+~
+0 0 32417
+D3
+An acrid, almost medicinal smell is coming from that direction.
+~
+~
+0 -1 32419
+D4
+~
+~
+0 0 32432
+E
+statue caligula~
+   A larger than life stone statue of Caligula, the Mad Emperor looks at you.  
+It looks like it is holding a phallus.  
+~
+S
+#32419
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D1
+The highway continues to the east.
+~
+~
+0 -1 32418
+D3
+The highway continues to the west.
+~
+~
+0 -1 32420
+S
+#32420
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 0 0
+D1
+~
+~
+0 0 32419
+D3
+The living quarters lie in that direction.  Why don't you stop pussyfooting
+around and go that way??!!  Please?
+~
+~
+0 -1 32421
+D4
+~
+~
+0 0 32431
+E
+hole toilet~
+   You walk over to the hole and see that there is a large turd floating in a
+pool black water about 2 feet below the surface of the ground.  As you lean
+closer to get a better look, your nose catches a concentrated dose of the
+fragrant aroma wafting upwards.  Your stomach decides that it has had enough of
+this shoddy treatment and you puke until it is empty.  
+~
+E
+roll paper~
+   Hey!!  This is first-class stuff!!  - White Cloud brand with lotion.  The
+roll is about half-used.  
+~
+S
+#32421
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D1
+~
+~
+0 0 32420
+D3
+~
+~
+0 0 32422
+S
+#32422
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 0 0
+D1
+~
+~
+0 0 32421
+D3
+The seating gets much fancier and elegant in that direction.
+~
+elegant~
+0 -1 32423
+D4
+~
+~
+0 0 32430
+S
+#32423
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D1
+~
+~
+0 0 32422
+D3
+~
+~
+0 0 32424
+S
+#32424
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  The Walk turns north and east here, following the natural curve of the
+valley's floor.  
+~
+324 0 0
+D0
+You see rows upon rows of dilapidated wooden bleachers.
+~
+~
+0 -1 32425
+D1
+Nero Drive lies in that direction.
+~
+~
+0 -1 32423
+D4
+~
+~
+0 0 32429
+E
+statue tiberius~
+   The statue of Tiberius, made of iron, stands here.  
+~
+S
+#32425
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D0
+You see hundreds, if not thousands of people.
+~
+~
+0 -1 32426
+D2
+~
+~
+0 0 32424
+E
+cashbox~
+   It's a shame that the exchange rate for Roman money is so low.  What amounts
+to a fortune in Rome isn't even worth one gold coin.  The contents of the box
+add up to about ....  Well forget it.  It isn't worth your time or trouble to
+carry it around.  
+~
+S
+#32426
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes, one of which is right
+here.  Entry into the tower is by a tall ladder which climbs to the floor of the
+tower.  
+~
+324 0 0
+D0
+~
+~
+0 0 32427
+D2
+It looks like a Nobleman's estate.  We are talking RICH nobleman's estate.
+~
+estate house~
+0 -1 32425
+D4
+~
+~
+0 0 32428
+E
+structure~
+   That would probably be the Coliseum.  There are a few good matches scheduled
+for today.  
+~
+S
+#32427
+The Guard Walk~
+   This is the outer ring of the Army's main encampment where patrols keep a
+constant vigil, watching for signs of hostile intruders.  At regularly spaced
+intervals, there are guard towers for lookout purposes.  
+~
+324 0 0
+D0
+You see a paved road in the distance.
+~
+~
+0 -1 32400
+D2
+You see an incredible house off in the distance.
+~
+~
+0 -1 32426
+E
+Venus~
+   Venus, the Roman goddess of beauty and knowledge is displayed in a all of her
+splendor.  
+~
+E
+Jupiter~
+   A statue made of pure gold depicts Zeus sitting on his throne.  The throne
+looks like it is made of silver.  
+~
+E
+Neptune~
+   The statue of Neptune is made of pure jade and is holding a crystal trident.
+It is sitting in the center of a small pond which has hundreds of beautiful fish
+swimming in it.  
+~
+E
+trees tree shrubs shrub plants plant~
+   All of the plants, trees and shrubs are perfectly trimmed, without so much as
+a dead leaf anywhere to be seen.  You welcome the shade that they give from the
+harsh sun above.  
+~
+S
+#32428
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32426
+E
+floor tile~
+   Very expensive!  A lot of master craftsmen labored long and hard to produce
+such a work of art.  
+~
+E
+windows~
+   They are intricate and the scenes that they depict cast honor on several of
+the gods.  
+~
+E
+furniture~
+   You hope to eventually be able to own a piece of furniture just like these
+someday.  These are only dreams, of course.  
+~
+S
+#32429
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32424
+E
+gate~
+   The gate is made of solid iron and is well maintained.  
+~
+E
+road~
+   The road is wide and very muddy.  
+~
+S
+#32430
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32422
+S
+#32431
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32420
+S
+#32432
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32418
+E
+vendor vendors~
+   There are several sidewalk vendors here, selling fresh fruits and vegetables,
+home baked goods, fine jewelry and other items.  Most of the items for sale are
+of very high quality.  
+~
+E
+aqueduct~
+   To the southeast, off in the distance, stands a large stone structure that is
+used to channel water into the city.  
+~
+S
+#32433
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32416
+S
+#32434
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32412
+S
+#32435
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32410
+S
+#32436
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32408
+E
+desk~
+   The desk is made of solid walnut and gold inlay.  It is exquisitely carved
+with superior craftsmanship, the likes of which has rarely been seen.  It was
+probably brought to Rome from Gaul.  
+~
+E
+documents decrees paperwork document decree papers paper~
+   The documents are all written on reed scrolls made in Egypt and have been
+sealed with wax.  
+~
+E
+bookcase books~
+   The books are very old and contain the wisdom of wise men from throughout the
+entire Roman empire.  They appear to be collecting dust.  
+~
+E
+flowers plants flower plant~
+   The plants contribute to a very relaxing atmosphere.  
+~
+S
+#32437
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32406
+S
+#32438
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32404
+S
+#32439
+Guard Tower~
+   There is little in the way of comfort here.  The walls are made of thick wood
+slats, arrow and peep holes cut and left open at eye level.  The entire space is
+roughly five foot by five foot, tightly cramped and uncomfortable.  
+~
+324 d 0
+D5
+~
+~
+0 0 32402
+E
+crowds people~
+   It looks like some kind of bizarre or festival is occurring to the west.  
+There are hundreds of people of all classes shopping, talking or eating.  
+~
+S
+#32440
+Roadway~
+   This hard-packed road runs into the center of the camp, which branches
+leading north and south toward the smithy and the farming area.  
+~
+324 c 0
+D0
+~
+~
+0 0 32443
+D1
+~
+~
+0 0 32441
+D2
+~
+~
+0 0 32454
+D3
+You can see a busy street in that direction.
+~
+~
+0 -1 32400
+E
+telescope~
+   If it were operational, it would offer a spectacular view of the Mountain of
+the Gods.  Unfortunately, it appears to have been vandalized.  
+~
+E
+aqueduct~
+   The aqueduct is a massive stone structure that channels water into Rome from
+the Mountain of the Gods.  During the rainy season, it is filled to the top.  
+However, due to recent drought, the water level appears to be very low.  
+~
+E
+sign~
+   ********************************************
+   *                                          *
+   *      The Roman Aqueduct and Mountain     *
+   *           Observation Platform           *
+   *                                          *
+   *       Designed and built by the Froboz   *
+   *            Magic Platform Company        *
+   *                                          *
+   ********************************************
+~
+S
+#32441
+Roadway~
+   The roadway continues its way deeper into the main area of the encampent,
+running east for some ways.  There is a large hay barn just to the south, fenced
+off so that entry must be from another direction.  A small wooden hut lies just
+north of here, its door also on another side.  
+~
+324 0 0
+D1
+You see more aqueduct.
+~
+~
+0 -1 32442
+D3
+You see more aqueduct.
+~
+~
+0 -1 32440
+E
+slime algae~
+   Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of its
+way to drip on you.  
+~
+S
+#32442
+Roadway~
+   Just east of here is the Parade Grounds where the troops march on days of
+graduation, tradition, or other such ceremony.  The trail sections off to the
+north and south, heading toward the barracks area and the mess tent.  
+~
+324 0 0
+D0
+~
+~
+0 0 32445
+D1
+~
+~
+0 0 32467
+D2
+~
+~
+0 0 32456
+D3
+You see the south gate through the door.
+~
+~
+0 -1 32441
+E
+fog mist~
+   This is some really strange stuff!  You have never seen anything this color
+before.  Your legs are totally obscured from the knee down.  
+~
+E
+sign~
+   The sign has a note posted on it.  It reads:
+
+     List   - Tells you what I have to sell.
+     Buy    - Tells me what you want to buy.
+     Value  - Tells you what I will pay for an item.
+     Sell   - Tells me you will sell that item, to me.
+
+~
+S
+#32443
+Roadway~
+   The road is a bit more narrow here, but still certainly wide enought to
+accomodate a wagon's width.  To the east is a small wood hut with smoke rising
+from a thin chimney along the side.  North is another wood building, but one
+which is somewhat larger than the hut to the east.  A large amount of ringing
+noise can be heard from that building, where smoke also rises from.  
+~
+324 0 0
+D0
+~
+~
+0 0 32446
+D1
+There is a sign on the door that says:  MUNICIPAL COURT OF ROME.  It appears
+to be open.
+~
+~
+0 -1 32444
+D2
+The foyer is directly to the south.
+~
+~
+0 -1 32440
+S
+#32444
+The Tanner~
+   Hides from various beasts, mostly deer and cow, are stretched out on tanning
+rods being cured for use as armor or clothing.  The place is intensely warm due
+to the fact that it is so small an area and a fire blazes in a wood stove
+constantly.  
+~
+324 d 0
+D3
+~
+~
+0 0 32443
+S
+#32445
+Roadway~
+   The soldiers' main barracks lies north from here, the trail well tended and
+free of debris.  The higher ranking officers must be big sticklers for the
+troops to keep their area clean.  
+~
+324 0 0
+D0
+~
+~
+0 0 32449
+D2
+~
+~
+0 0 32442
+E
+stairs stairway steps~
+   The stairs are immaculately polished and made of white marble.  
+~
+E
+statue statues~
+   There is really nothing noteworthy about them.  
+~
+S
+#32446
+Smithy~
+   This large room houses the main smithy and armory for the entire army.  A
+team of smiths work daily to keep armor and weapons in good condition, not to
+mention making new items for new recruits.  A fire blazes in a huge fireplace,
+various implements of the trade inside.  
+~
+324 d 0
+D0
+The general store lies in that direction.
+~
+~
+0 -1 32447
+D1
+There is what appears to be a large gate in that direction.
+~
+~
+0 -1 32448
+D2
+~
+~
+0 0 32443
+E
+stone structure aqueduct~
+   You see a massive stone structure, built several centuries ago, that is used
+to channel water into the city.  
+~
+E
+mountain~
+   Off to the southwest, you can see a huge mountain that is partially obscured
+by the haze.  It is rumored that the gods reside there and protect the city.  
+~
+S
+#32447
+Armor Cache~
+   This is where the smiths which the Army has trained keep their surpus goods
+and dented or broken pieces of armor.  Most of the items here are in fine shape,
+there are not many broken pieces due to the fact that it is peace-time.  
+~
+324 d 0
+D2
+~
+~
+0 0 32446
+S
+#32448
+Weapon Cache~
+   This is where the smiths which the Army has trained keep their surpus goods
+and dented or broken weapons.  Most of the items here are in fine shape, there
+are not many broken pieces due to the fact that it is peace-time.  
+~
+324 d 0
+D3
+The aqueduct continues.
+~
+~
+0 -1 32446
+E
+slime algae~
+   Due to the availability of moisture and nutrients, a green viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of its
+way to drip on you.  
+~
+S
+#32449
+Roadway~
+   The main fire pit and social area for the soldiers of the army lies just
+north, encircled by rows and rows of long grey tents where the soldiers sleep.
+To the south is the main road through the camp.  
+~
+324 0 0
+D0
+~
+~
+0 0 32451
+D2
+~
+~
+0 0 32445
+E
+workbench workbenches tubes beakers crucibles dishes~
+   These are all tools of great power.  You cannot even begin to understand what
+any of this stuff does.  
+~
+E
+cinders ashes pile~
+   The ashes are a very fine grayish white powder that seems to be the only
+worldly remains of Froboz's "test specimens".  
+~
+S
+#32450
+Barracks Tent~
+   This tent holds row upon row of single beds, more aptly called cots, where
+the lower rank soldiers of the camp make their home.  A footlocker stands at the
+foot of each bed, everything inside of the tent, including the dirt floor, is
+spotlessly clean.  
+~
+324 d 0
+D1
+~
+~
+0 0 32451
+E
+bench stand box jury~
+   You see large wooden structures that are designed to separate the judge, jury
+and witnesses from the rest of the courtroom.  They are made of polished oak and
+are strictly functional.  
+~
+E
+seal~
+   The seal of the emperor is mounted above the judge's stand.  
+~
+S
+#32451
+Fire Pit~
+   This is the main area of the soldiers' section of the camp.  It is kept
+relatively free of debris or grunge, the pit always fresh dug, the ground raked
+and smooth.  Long grey barracks tents lie to the north, east and west.  
+~
+324 0 0
+D0
+~
+~
+0 0 32453
+D1
+~
+~
+0 -1 32452
+D2
+~
+~
+0 0 32449
+D3
+The clay street leads into the city.
+~
+~
+0 -1 32450
+E
+spires towers~
+   There are two tall spires on either side of the gate and are constantly
+manned by the city guards.  They are made of stone and stand about 40 feet tall.
+
+~
+E
+gate~
+   The gate is fabricated from iron and has been designed to keep intruders out
+of the city.  
+~
+S
+#32452
+Barracks Tent~
+   This tent holds row upon row of single beds, more aptly called cots, where
+the lower rank soldiers of the camp make their home.  A footlocker stands at the
+foot of each bed, everything inside of the tent, including the dirt floor, is
+spotlessly clean.  
+~
+324 d 0
+D3
+~
+~
+0 0 32451
+E
+trail~
+   The mountain trail is a little muddy, due to the recent rains.  
+~
+S
+#32453
+Barracks Tent~
+   This tent holds row upon row of single beds, more aptly called cots, where
+the lower rank soldiers of the camp make their home.  A footlocker stands at the
+foot of each bed, everything inside of the tent, including the dirt floor, is
+spotlessly clean.  
+~
+324 d 0
+D2
+~
+~
+0 0 32451
+S
+#32454
+Roadway~
+   The road is still wide here, bit a bit less solid as it leads the way into
+the farming area.  There is a large hay barn packed to the rafters to the east -
+teh army must keep it in high supply during times of peace.  The road continues
+to the south toward a large circular, fenced area where warhorses neigh and
+whinny, tossing their mighty heads.  
+~
+324 0 0
+D0
+The aqueduct continues.
+~
+~
+0 -1 32440
+D1
+The aqueduct continues.
+~
+~
+0 -1 32455
+D2
+The aqueduct continues.
+~
+~
+0 -1 32457
+E
+slime algae~
+   Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered the everything with a slippery coating.  It seems to go out of
+its way to drip on you.  
+~
+S
+#32455
+Hay Barn~
+   There is not much to say about this large, open sided barn.  Tall poles run
+up roughly thirty feet into the air supporting a tin ceiling which serves to
+keep the hay beneath dry.  The hay reaches all the way to the ceiling and would
+undoubtedly reach beyond were it given the opportunity.  
+~
+324 0 0
+D3
+The courtroom lies in that direction.
+~
+door~
+0 12106 32454
+E
+tombs books~
+   The books are very large and filled with Roman legal precedent.  
+~
+E
+papers documents~
+   There are hundreds of pages of petitions, lawsuits and court orders sitting
+on the desk.  One particularly interesting case involves a nobleman, a slave and
+a roll of toilet paper.  
+~
+S
+#32456
+Mess Tent~
+   This large, open-sided tent houses rows of long wooden tables used by the
+soldiers during meal times.  The tent itself sits dead center of the roadway,
+the road picking up again just south of the tent, ending at a couple of
+decent-sized wood outbuildings.  
+~
+324 0 0
+D0
+~
+~
+0 0 32442
+D2
+~
+~
+0 0 32462
+E
+tree trees vegetation~
+   All of the vegetation is lush, green and in full bloom.  You wish that you
+could take the time to stop and enjoy it properly.  
+~
+E
+trail path~
+   The path is a little muddy, possibly due to a recent thundershower.  
+~
+S
+#32457
+Roadway~
+   The roadway ends at a gate which seperates the corral from the open area of
+the camp.  The mighty steeds inside neigh and whinny in protest, running in
+circle and tossing their heads.  To the east is a large barn.  
+~
+324 0 0
+D0
+The aqueduct continues.
+~
+~
+0 -1 32454
+D1
+The aqueduct continues.
+~
+~
+0 -1 32458
+D2
+You see a gorgeous valley.
+~
+door~
+1 -1 32459
+E
+slime algae~
+   Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of its
+way to drip on you.  
+~
+S
+#32458
+Barn~
+   This place is full of various implements for caring for the steeds of the
+cavalry and for doing the work that the cowboys of the army are responsible for.
+There are a few stalls off in the far east corner of the barn where it appears
+the best of the best of the Army's steeds are kept.  
+~
+324 d 0
+D3
+~
+~
+0 0 32457
+E
+stream brook~
+   A stream of the clearest, cleanest water that you have ever seen winds its
+way through the valley.  
+~
+E
+fish~
+   A variety of species swims peacefully in the cool, clear water.  
+~
+E
+trees fruit~
+   The fruit trees, nourished by the fertile ground at the edge of the stream
+and sustained by the brilliant sunshine, line the banks of the stream and are
+laden with fruit.  
+~
+S
+#32459
+Corral~
+   Horses run around you in a frenzy, their trained senses to first lash out and
+kick any man who is not their usual rider.  Best to get out of this area quickly
+before you get trampled!  
+~
+324 0 0
+D0
+~
+door~
+1 0 32457
+D1
+~
+~
+0 0 32460
+D2
+~
+~
+0 0 32461
+E
+trees~
+   The trees are old and tower hundreds of feet above the ground.  If you stand
+still and listen carefully, you can hear the birds singing.  
+~
+S
+#32460
+Branding Block~
+   There is a large firepit here, irons laying with their business ends in the
+pit.  A large wooden block is here to aid the branders in keeping the animals
+still while branding them with the mark of the Eatern Army/f
+~
+324 0 0
+D3
+~
+~
+0 0 32459
+E
+cells cell~
+   You can see small and very cramped cells which are filthy.  You shiver and
+vow to never do anything that would cause you to become a resident.  
+~
+S
+#32461
+Livestock Pasture~
+   This area is fenced in as well, but not as potentially hazardous as that just
+north of here.  The animals here are all cow, well fed and lazy.  They are the
+main meat, milk and leather supply for the army and so are well tended.  The
+ground is strewn with all sorts of surprises - it might be best to watch one's
+step!  
+~
+324 0 0
+D0
+~
+~
+0 0 32459
+S
+#32462
+Roadway~
+   The road ends here at a couple of wooden buildings.  There are rickety doors
+on both, one to the east and one south, neither of them appear to be locked.  
+~
+324 0 0
+D0
+~
+~
+0 0 32456
+D1
+~
+door~
+1 -1 32463
+D2
+~
+door~
+1 0 32464
+E
+sign~
+   The sign has a note posted on it.  It reads: List - Tells you what I have to
+sell.  Buy - Tells me what you want to buy.  Value - Tells you what I will pay
+for an item.  Sell - Tells me you will sell that item, to me.  
+~
+S
+#32463
+Dry Storage~
+   This is where all non-perishable foodstuffs are kept by the Army.  Sacks of
+flour, loads of dried fruits and canned goods are stacked neatly on shelves and
+on pallets all over the floor.  
+~
+324 d 0
+D3
+~
+door~
+1 0 32462
+E
+sign~
+   The sign has a note posted on it.  It reads:
+ 
+     List   - Tells you what I have to sell.
+     Buy    - Tells me what you want to buy.
+     Value  - Tells you what I will pay for an item.
+     Sell   - Tells me you will sell that item, to me.
+~
+S
+#32464
+Cold Storage~
+   The foodstuffs stored in this building are those which must be kept chilled -
+milk from the cattle, meats which are kept cold until consumed by the soldiers
+are all kept on ice here.  
+~
+324 d 0
+D0
+~
+door~
+1 0 32462
+S
+#32465
+Footman's Training Grounds~
+   Soldiers in the Eastern Army get to know this field well, indeed.  Whether a
+footman or member of the cavalry, every soldier learns to march here in
+formation and does horrendous hours of physical training which is required of
+every soldier in the army.  To the east is the cavalry fields where the cavalry
+officers might train in their riding and horseman's skills to better their
+performance on the field of battle.  
+~
+324 0 0
+D1
+~
+~
+0 -1 32479
+D2
+~
+~
+0 0 32466
+S
+#32466
+Grandstands~
+   The stands rise close to forty feet into the air, rows and rows of bleacher
+seats available for spectators to sit and watch any ceremony or event which may
+be taking place in the Parade Grounds just south of here.  To the north behind
+the stands is the practice field, a much less used place where trainees go
+through their drills in hopes of perfection when marching on the opulent Parade
+Grounds.  
+~
+324 0 0
+D0
+~
+~
+0 0 32465
+D2
+~
+~
+0 0 32467
+S
+#32467
+Parade Grounds~
+   The grass here is well kept, tended by the newer recruits so that when they
+obtain rank and become recognized as more than just pukes they might have a
+place where they can proudly march for their superiors.  A large grandstands
+lies just north of the grounds where spectators may view events which take place
+and the higher ranks may give praise to those who have done a job well.  
+~
+324 0 0
+D0
+~
+~
+0 0 32466
+D1
+You see a great desert.
+~
+~
+0 -1 32469
+D3
+The might clay road leads off in this direction.
+~
+~
+0 -1 32442
+S
+#32468
+Strategies~
+   A long, low table spreads out the length of the room with low stools all
+around it.  Maps and charts are stacked in neat piles in corners of the table,
+writing implements before each stool.  
+~
+324 d 0
+D2
+~
+~
+0 -1 32469
+S
+#32469
+Roadway~
+   The roadway bends a bit here, heading south and then east toward the eastern
+perimeter of the camp.  To the north is a large blue tent, the banner of the
+Eastern Army proudly flying from its summit.  To the east is an even larger tent
+of the same blue fabric, the flag of the Army also atop its summit along with
+the crest of the General.  
+~
+324 0 0
+D0
+~
+~
+0 0 32468
+D1
+~
+~
+0 0 32476
+D2
+~
+~
+0 0 32470
+D3
+~
+~
+0 0 32467
+S
+#32470
+Roadway~
+   The main roadway twists back east toward the eastern-most exit of the camp.
+To the south is another section of the roadway where you can see a few small
+wood huts, presumably outhouses, along the side of the road before it ends at a
+stream.  
+~
+324 0 0
+D0
+~
+~
+0 0 32469
+D1
+~
+~
+0 0 32475
+D2
+~
+~
+0 0 32471
+S
+#32471
+Roadway~
+   There are a row of smelly wooden huts along the east side of the trail, to
+the south is a stream roughly two feet in width, maybe two feet deep.  
+Obviously, this where the army gets its main water supply.  
+~
+324 0 0
+D0
+~
+~
+0 0 32470
+D1
+~
+~
+0 0 32480
+D2
+~
+~
+0 0 32472
+S
+#32472
+Roadway~
+   One of the latrines stands open to the east, the stream itself just to the
+south.  The fresh, cool scent of the water running over the rocks constrasts so
+strongly with the smell of the latrine that it almost seems an affront to
+nature.  
+~
+324 0 0
+D0
+~
+~
+0 0 32471
+D1
+~
+door~
+1 0 32474
+D2
+~
+~
+0 0 32473
+S
+#32473
+Stream~
+   The water is very cold, so cold as to numb flesh.  It is very pure and crisp,
+however, which is the main reason why the army chose this valley over many
+others that they might have picked.  
+~
+324 0 0
+D0
+~
+~
+0 0 32472
+S
+#32474
+Latrines~
+   This is more or less a three foot by three foot box with a small wooden
+platform built at the east side.  A hole has been cut into the top of the
+platform allowing soldiers a place to rest their rump where they may relieve any
+excess bowel pressures.  It truly stinks like shit in here.  
+~
+324 d 0
+D3
+~
+door~
+1 0 32472
+S
+#32475
+Roadway~
+   The roadway runs east toward the east gate of the encampment.  You may exit
+the camp just east of here or head into the main camp area to the west.  
+~
+324 0 0
+D1
+~
+~
+0 0 32477
+D3
+~
+~
+0 0 32470
+S
+#32476
+General's Tent~
+   The accomodations of this tent are luxurious compared to that of the common
+foot soldier's tents.  It is not, however, a place which one might call
+comfortable.  There is a bed here, only slightly larger than those found in the
+barracks tents and the small table which doubles as a desk is only large enough
+for two men at the most to eat upon it.  
+~
+324 d 0
+D3
+~
+~
+0 0 32469
+S
+#32477
+Roadway~
+   The eastern gate to the army is just east of here.  To the north is a
+tremendous wood pile which is fed daily by the logging teams of the army.  
+Soldiers work constantly at cutting and shaping the wood for whatever needs the
+Army may have.  
+~
+324 c 0
+D0
+~
+~
+0 0 32478
+D1
+~
+~
+0 0 32414
+D3
+~
+~
+0 0 32475
+S
+#32478
+Lumber Yard~
+   This huge pile of wood holds all manner of shapes, types and sizes of wood
+which has been cut by the logging crews for the army.  Soldiers work around the
+clock at keeping enough wood available for the cook fires and the tents where
+soldier sleep.  
+~
+324 0 0
+D2
+~
+~
+0 0 32477
+S
+#32479
+Cavalry Fields~
+   The ground beneath your feet is trampled and wet, strewn with divots ripped
+from the earth by the thundering hooves of warhorses.  To the west is the
+footman's training area, a large blue tent blocks any passage south.  
+~
+324 0 0
+D3
+~
+~
+0 0 32465
+S
+#32480
+Medical Tent~
+   A piece of strong fabric covers the floor of this tent to keep germs at bay,
+all linens are clean and sanitary.  For being in the middle of a camp, having
+only this tent for shelter, this is quite a facility.  
+~
+324 0 0
+D3
+~
+~
+0 0 32471
+S
+#0
+
+#RESETS
+M 0 32408 1 32455 	(the sweating soldier)
+E 1 32423 99 2 	(a heavy bronze ring)
+E 1 32424 50 16 	(a pitchfork)
+D 0 32414 1 1 	(The Guard Walk)
+D 0 32463 3 1 	(Dry Storage)
+O 0 32429 2 32463 	(some dried fruits)
+O 0 32430 1 32463 	(some soldier's rations)
+D 0 32464 0 1 	(Cold Storage)
+O 0 32427 2 32464 	(a jug of cold milk)
+O 0 32428 1 32464 	(a slab of frozen meat)
+M 0 32416 2 32462 	(the medic)
+G 1 32414 50 -1 	(a medic's kit)
+D 0 32462 1 1 	(Roadway)
+D 0 32462 2 1 	(Roadway)
+D 0 32457 2 1 	(Roadway)
+M 0 32402 5 32459 	(a war horse)
+M 0 32403 7 32459 	(a sturdy work horse)
+D 0 32459 0 1 	(Corral)
+M 0 32416 2 32472 	(the medic)
+G 1 32414 50 -1 	(a medic's kit)
+D 0 32472 1 1 	(Roadway)
+M 0 32421 1 32474 	(the squatting soldier)
+D 0 32474 3 1 	(Latrines)
+M 0 32420 1 32473 	(the water boy)
+G 1 32426 100 -1 	(a metal pail)
+O 0 32405 3 32478 	(a pot full of pitch)
+O 0 32406 2 32478 	(a battering ram)
+R 0 32429 32400 -1 	(a chair)
+O 0 32400 12 32429 	(a chair)
+M 0 32417 12 32429 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+O 0 32404 4 32429 	(a bundle of arrows)
+R 0 32432 32400 -1 	(a chair)
+O 0 32400 12 32432 	(a chair)
+M 0 32417 12 32432 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+O 0 32404 4 32432 	(a bundle of arrows)
+R 0 32436 32400 -1 	(a chair)
+O 0 32400 12 32436 	(a chair)
+M 0 32417 12 32436 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+O 0 32404 4 32436 	(a bundle of arrows)
+R 0 32439 32400 -1 	(a chair)
+O 0 32400 12 32439 	(a chair)
+M 0 32417 12 32439 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+O 0 32404 4 32439 	(a bundle of arrows)
+R 0 32438 32400 -1 	(a chair)
+O 0 32400 12 32438 	(a chair)
+M 0 32417 12 32438 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+R 0 32437 32400 -1 	(a chair)
+O 0 32400 12 32437 	(a chair)
+M 0 32417 12 32437 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+R 0 32435 32400 -1 	(a chair)
+O 0 32400 12 32435 	(a chair)
+M 0 32417 12 32435 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+R 0 32434 32400 -1 	(a chair)
+O 0 32400 12 32434 	(a chair)
+M 0 32417 12 32434 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+R 0 32433 32400 -1 	(a chair)
+O 0 32400 12 32433 	(a chair)
+M 0 32417 12 32433 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+R 0 32431 32400 -1 	(a chair)
+O 0 32400 12 32431 	(a chair)
+M 0 32417 12 32431 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+R 0 32430 32400 -1 	(a chair)
+O 0 32400 12 32430 	(a chair)
+M 0 32417 12 32430 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+R 0 32428 32400 -1 	(a chair)
+O 0 32400 12 32428 	(a chair)
+M 0 32417 12 32428 	(the marksman)
+G 1 32412 100 -1 	(a spyglass)
+M 0 32419 3 32479 	(a cavalry officer)
+E 1 32409 50 16 	(a cavalry knife)
+M 0 32418 2 32470 	(a wounded soldier)
+G 1 32415 50 -1 	(a crutch)
+E 1 32416 100 5 	(a Badge of Honor)
+M 0 32418 2 32465 	(a wounded soldier)
+G 1 32415 50 -1 	(a crutch)
+E 1 32416 50 5 	(a Badge of Honor)
+M 0 32411 3 32449 	(a footman)
+E 1 32418 50 17 	(a military issue duffel)
+M 0 32411 3 32441 	(a footman)
+E 1 32418 50 17 	(a military issue duffel)
+M 0 32414 5 32445 	(an army scout)
+G 1 32407 100 -1 	(a bundle of military rations)
+G 1 32411 100 -1 	(a set of lock picks)
+M 0 32414 5 32417 	(an army scout)
+G 1 32407 100 -1 	(a bundle of military rations)
+G 1 32411 100 -1 	(a set of lock picks)
+M 0 32414 5 32409 	(an army scout)
+G 1 32411 100 -1 	(a set of lock picks)
+G 1 32407 100 -1 	(a bundle of military rations)
+M 0 32413 7 32402 	(a patrolman)
+E 1 32420 100 6 	(a steel visor)
+M 0 32413 7 32420 	(a patrolman)
+E 1 32420 100 6 	(a steel visor)
+M 0 32415 1 32480 	(the surgeon)
+G 1 32413 50 -1 	(a first aid kit)
+O 0 32417 2 32480 	(a stretcher)
+M 0 32412 1 32476 	(General Tso)
+E 1 32408 50 16 	(a proud sabre)
+E 1 32419 50 5 	(a slew of medals)
+G 1 32403 50 -1 	(a set of official command papers)
+M 0 32409 1 32460 	(a brander)
+E 1 32402 50 16 	(a branding iron)
+M 0 32410 1 32460 	(a rustler)
+G 1 32410 50 -1 	(a coil of rope)
+M 0 32407 1 32444 	(a tanner)
+M 0 32404 1 32446 	(the Forgemaster)
+E 1 32401 50 16 	(a heavy iron hammer)
+E 1 32425 50 13 	(a stained leather apron)
+M 0 32405 1 32446 	(the sweating smithy)
+E 1 32421 50 17 	(a bellows pump)
+M 0 32406 1 32446 	(the smithy)
+M 0 32400 6 32461 	(a cow)
+M 0 32401 3 32461 	(the mean bull)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

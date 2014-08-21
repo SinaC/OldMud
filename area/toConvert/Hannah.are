@@ -1,0 +1,1975 @@
+#Style Circle
+#AREADATA
+Name Hannah~
+Builders Rhunter~
+VNUMs 12500 12599
+Credits {{None}  CAW    Hannah~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#12500
+great oaken tree~
+the great oaken tree~
+A large ancient tree is here, wavering in the breeze.
+~
+   Before you stands an ancient tree.  Its bark has been petrified over time and
+there appears to be a hole in the trunk, possibly a nest of sorts.  
+~
+bd 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+E
+#12501
+soldier hannah~
+the Hannah soldier~
+A Hannah soldier toils away at cleaning up the streets.
+~
+   He is loading a cart with dead bodies and other debris.  He is vary wary of
+trouble and keeps an eye peeled to his surroundings, waiting for another attack.
+
+~
+dg 0 500 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#12502
+city guard~
+the hannah city guard~
+A hannah city guard stands here, trying to prevent bloodshed.
+~
+   It is this mans job to clean up the streets of all the monsters that have
+imperiled the city.  Until this is done the remainder of the townspeople have
+taken refuge in the temple.  
+~
+dg 0 600 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+Str: 25
+Dex: 20
+Int: 12
+Wis: 12
+E
+#12503
+orc~
+a disgusting orc~
+A disgusting orc wanders the streets here.
+~
+   This small yellow humanoid has small horns sticking out of its head and a pig
+snout.  He roams the streets looking for something to pillage or rape.  
+~
+dg 0 -500 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+Str: 18
+Dex: 18
+Int: 25
+Wis: 25
+E
+#12504
+looter thiefing~
+a thiefing looter~
+A thief sulks along the street looting the abandoned homes.
+~
+   This looter is taking advantage of the city's downfall and has amassed a
+large sack of goodies.  
+~
+dg 0 -500 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+E
+#12505
+john~
+John~
+John the shopkeeper sits here.
+~
+   Before you stands a very large muscular man.  He seems very friendly as he
+smiles then returns to his work.  You have heard a few people in the temple say
+he used to be one of the Kings most elite guards.  He truly must have been a
+fierce opponent in battle if the rumors are true.  
+~
+bdo 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#12506
+doctor~
+a doctor~
+A doctor was busy performing an amputation before you interrupted him.
+~
+   He looks at you, wondering why you would intrude upon all those poor people.
+He tries to ignore you and get back to his work.  
+~
+bd 0 400 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#12507
+troll crazed~
+a crazed troll~
+A crazed troll charges anything that moves.
+~
+   This tall brown beast has gone berserk and is looking for some blood.  
+~
+dgq u -500 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#12508
+goblin smelly~
+a smelly goblin~
+A goblin can be smelled before you even see him.
+~
+   This greenish beast is covered in filth.  Snot oozes from its nose.  Spit
+drools from its mouth.  
+~
+dg 0 -500 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#12509
+girl crying~
+a crying girl~
+A small girl weeps at the loss of her family.
+~
+   Her faced is smudged and filthy from wiping away her tears with grubby hands.
+She looks up at you pitifully.  
+~
+dg 0 1000 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#12510
+homeless woman~
+a homeless woman~
+A woman who lost her home and husband in the battle.
+~
+   She is one of the few survivors of the battle.  She mourns the loss of her
+home and husband.  
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#12511
+broken man~
+a broken man~
+A man weeps in misery at the loss of everything he has ever known.
+~
+   He has given up on life, everything he had is now gone, taken away from him.
+He just wants to know why.  
+~
+dg 0 100 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#12512
+stray dog~
+a stray dog~
+A stray dog runs around the temple looking for its owners.
+~
+   The dogs fur is matted and filthy.  Its been running the streets for a while
+now.  
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+E
+#12513
+lost boy~
+a lost boy~
+A boy is lost, from his family and friends. 
+~
+   He sucks his thumb innocently looking for a friend.  
+~
+dg 0 1000 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#12562
+atropos~
+Atropos~
+Atropos is here selling baked items.
+~
+   He smiles at your patronage and claps his hands together causing a spray of
+flower everwhere.  Atropos says, 'What can I get ya today?  '
+~
+bdo 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#12564
+Elina~
+Elina~
+Elina is here greeting you.
+~
+   She smiles warmly and looks like she really wants to help.  
+~
+bd 0 600 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+E
+#12566
+taber man short fat~
+Taber the shopkeeper~
+A short fat man with a bloody apron on stands here smiling.
+~
+   You see a short fat man before you.  He is holding a large meat cleaver and
+his blood-stained apron makes him appear at first like a common criminal.  He
+sets his cleaver down and beams a smile at you as he begins to show you his cuts
+of meat.  
+~
+bdo 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#12569
+ascepleptous~
+ascepleptous~
+Ascepleptous the healer is here, tending to the wounded.
+~
+   He has a gentle hand and friendly smile as he gives aid to those in need.  
+~
+bdmo 0 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#12597
+the elite guard~
+an elite temple guard~
+An elite temple guard is here.
+~
+   Ther guard has worked his way through the ranks from a mere soldier to his
+present day exulted position as an elite guard.  She seems very proud of
+herself.  
+~
+bd 0 800 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+E
+#12598
+temple guard~
+a temple guard~
+A big temple guard is here.
+~
+   The temple guards were the ones that held the monsters at bay from entering
+the temple and slaughtering the entire city.  They are very respected.  
+~
+dg 0 600 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+Str: 25
+Dex: 25
+Int: 12
+Wis: 12
+E
+#0
+
+#OBJECTS
+
+#12500
+hannah key~
+a key~
+A golden key to the gates of hannah is lying here~
+~
+18 cd a 0
+0 0 0 0
+1 1 0 0
+#12501
+temple sword~
+an elite temple guard sword~
+A black temple guard's sword is here.~
+~
+5 g an 0
+6 2 13 3
+18 135 13 0
+A
+18 3
+#12502
+moki bird feather~
+a golden moki bird feather~
+A golden moki bird feather is here.~
+~
+3 0 ao 0
+12 10 10 -1
+1 1 0 0
+T 12500
+#12503
+lamb chop~
+a lamb chop~
+A cooked lamb chop was left here, uneaten.~
+~
+19 0 a 0
+5 0 0 0
+1 10 0 0
+#12504
+granite fountain~
+a granite fountain~
+A fountain, carved from a single block of granite, bubbles merrily here.~
+~
+23 0 0 0
+500 500 15 0
+0 0 0 0
+#12505
+golden orb~
+a golden orb~
+A golden orb is floating about here.~
+~
+1 0 ao 0
+0 0 -1 0
+2 60 6 0
+#12507
+amputating saw~
+an amputating saw~
+A saw used to amputate limbs is here covered in blood.~
+~
+5 0 an 0
+0 3 5 4
+6 240 24 0
+#12508
+side beef~
+a side of beef~
+A side of beef hangs on a hook.~
+~
+19 0 a 0
+10 0 0 0
+15 20 5 0
+#12509
+pastry~
+a small pastry~
+A small pastry lathered with butter is attracting flies.~
+~
+19 0 a 0
+2 0 0 0
+1 15 3 0
+#12510
+croissant~
+a fluffly croissant~
+A fluffy croissant is collecting dust.~
+~
+19 0 a 0
+1 0 0 0
+1 14 4 0
+#12511
+thieves dagger~
+a thieves dagger~
+A dagger belonging to some thief tribes lay here.~
+~
+5 0 an 0
+5 1 10 14
+1 50 5 0
+#12512
+soldiers lance~
+a soldiers lance~
+A soldiers lance is propped up here.~
+~
+5 0 an 0
+4 2 12 12
+10 500 50 0
+#12520
+moki bird feather~
+a golden moki bird feather~
+A golden moki bird feather is here.~
+~
+3 0 ao 0
+12 10 10 -1
+1 1000 0 0
+T 12500
+#12521
+moki bird feather~
+a golden moki bird feather~
+A golden moki bird feather is here.~
+~
+13 0 ao 0
+0 0 0 0
+1 1000 0 0
+T 12500
+#12522
+moki bird feather~
+a golden moki bird feather~
+A golden moki bird feather is here.~
+~
+13 0 ao 0
+0 0 0 0
+1 1000 0 0
+T 12500
+#12552
+silver key hannah~
+a silver key~
+A key of brilliant silver is here.~
+~
+18 c a 0
+0 0 0 0
+1 1 0 0
+#12562
+bread pound~
+a pound of bread~
+A large pound of bread is here.~
+~
+19 0 a 0
+8 0 0 0
+1 5 1 0
+#12567
+beef cutlet~
+a beef cutlet~
+A big beef cutlet is here, waiting to be eaten.~
+~
+19 0 a 0
+20 0 0 0
+2 200 20 0
+#12568
+Hannah pack~
+a pack~
+A pack with the seal of Hannah is here.~
+~
+15 0 a 0
+80 0 -1 0
+9 120 12 0
+#12569
+bandages~
+some bloody bandages~
+A few strips of blooded cloth lies here.~
+~
+12 0 a 0
+0 0 0 0
+1 10 0 0
+#12570
+recall scroll~
+a scroll of recall~
+A fine looking scroll lies on the grouns here.~
+~
+2 g a 0
+12 42 -1 -1
+1 150 14 0
+#12599
+oaken boots~
+a pair of oaken boots~
+A pair of heavy oaken boots are here.~
+~
+9 g ag 0
+2 0 0 0
+12 60 6 0
+A
+18 2
+#0
+
+#ROOMS
+
+#12500
+At the gates of the Grand City of Hannah~
+   You have come to the entrance of the Grand City of Hannah.  The iron gates
+are rusted but still look sturdy.  You hear grunting noises and high pitched
+shrills coming from within the city.  You think to yourself that you need to be
+ready for anything as you enter the gates.  An old sign is here, depicting a
+map of the city.
+~
+125 c 1
+D0
+Nothing.
+~
+gateway~
+1 12500 12501
+E
+map sign~
+   +---------------+
+   |###############|
+   |#------#------#|
+   |#------#------#|
+   |#------#------#|
+   |########^######|
+   |#------#------#|
+   |#------#------#|
+   |#------#------#|
+   |###############|
+   +-------#-------+
+~
+E
+credits info~
+   Builders  : Rhunter
+Zone         : 125 Hannah
+Began        : 1999
+Player Level : 7-10
+Rooms        : 75
+Mobs         : 20
+Objects      : 22
+Shops        : 4
+Triggers     : 1
+Theme        : A city that was slaughtered by orcs, goblins, and trolls.
+Notes        : The remaining citizens are hiding out in the temple while the 
+               city guards are trying to clean up the streets.  
+ 
+Zone: 125 was linked to the following zones:
+106 Elcardo                        at 12500 (south) ---> 10657
+~
+S
+#12501
+Intersection of Trenton Avenue and Main Street.~
+   You have entered what was once the great city of Hannah.  Main street leads
+to the north, while Trenton avenue leads east and west
+~
+125 0 1
+D0
+~
+~
+0 0 12502
+D1
+~
+~
+0 0 12519
+D2
+~
+gateway~
+1 12500 12500
+D3
+~
+~
+0 0 12518
+S
+#12502
+Main Street~
+   You are walking along the main street of the City of Hannah.  As you look at
+the beautifully designed buildings which line the street, you expect hundreds
+of townspeople to appear going about their daily chores.    
+~
+125 0 0
+D0
+~
+~
+0 0 12503
+D2
+~
+~
+0 0 12501
+S
+#12503
+Main Street~
+   You are walking along the main street of the City of Hannah.  As you look at
+the beautifully designed buildings which line the street, you expect hundreds
+of townspeople to appear going about their daily chores.    
+~
+125 0 0
+D0
+~
+~
+0 0 12504
+D2
+~
+~
+0 0 12502
+S
+#12504
+Temple Square~
+   You have reached the center most part of the city of Hannah.  Beautifully
+designed shops and marketplaces line the streets.  Although they are in ruins
+you can tell that someone took a lot of time designing and building them.  As
+you sit back and sip the cool, clear water from the fountain you silently
+wonder to yourself what kind of barbarians would destroy such a lovely place.
+~
+125 0 0
+D0
+~
+~
+0 0 12505
+D1
+~
+~
+0 0 12532
+D2
+~
+~
+0 0 12503
+D3
+~
+~
+0 0 12533
+D4
+~
+~
+0 0 12528
+S
+#12505
+Main Street~
+   You are walking along the main street of the City of Hannah.  As you look at
+the beautifully designed buildings which line the street, you expect hundreds
+of townspeople to appear going about their daily chores.    
+~
+125 0 0
+D0
+~
+~
+0 0 12506
+D2
+~
+~
+0 0 12504
+S
+#12506
+Main Street~
+   You are walking along the main street of the City of Hannah.  As you look at
+the beautifully designed buildings which line the street, you expect hundreds
+of townspeople to appear going about their daily chores.    
+~
+125 0 0
+D0
+~
+~
+0 0 12507
+D2
+~
+~
+0 0 12505
+S
+#12507
+Intersection of Main Street and High Street~
+   You have come upon yet another intersection.  To the south you see main
+street and the Temple of Hannah.  High Street runs east and west from here.  
+You are still amazed at the carnage that must have taken place here a long time
+age as skeletal remains are shoveled up into large piles everywhere.  Someone
+or something must really care about this city to be working so hard to clean
+it.    
+~
+125 0 0
+D1
+~
+~
+0 0 12529
+D2
+~
+~
+0 0 12506
+D3
+~
+~
+0 0 12508
+S
+#12508
+High Street~
+   You are walking along the northern most street in the City of Hannah.  The
+area is a total disaster scene.  Armor and skeletal remains are strewn about.
+It looks as if whatever battle happened here focused through this area.    
+~
+125 0 0
+D1
+~
+~
+0 0 12507
+D3
+~
+~
+0 0 12509
+S
+#12509
+High Street~
+   You are walking along the northern most street in the City of Hannah.  The
+area is a total disaster scene.  Armor and skeletal remains are strewn about.
+It looks as if whatever battle happened here focused through this area.    
+~
+125 0 0
+D1
+~
+~
+0 0 12508
+D3
+~
+~
+0 0 12510
+S
+#12510
+Intersection of Onyx Avenue and High Street  ~
+   You have come to a large vacated intersection.  Debris lays about everywhere
+and the area is a total wreck.  A sign here reads that Onyx Avenue leads to the
+south while High Street leads east.    
+~
+125 0 0
+D1
+~
+~
+0 0 12509
+D2
+~
+~
+0 0 12511
+S
+#12511
+Onyx Avenue~
+   You are walking along an avenue carved of pure onyx.  Even though it is in
+disrepair you can tell at one time this was a grand avenue.  You walk carefully
+as the onyx is very slick.    
+~
+125 0 0
+D0
+~
+~
+0 0 12510
+D2
+~
+~
+0 0 12512
+S
+#12512
+Onyx Avenue~
+   You are walking along an avenue carved of pure onyx.  Even though it is in
+disrepair you can tell at one time this was a grand avenue.  You walk carefully
+as the onyx is very slick.    
+~
+125 0 0
+D0
+~
+~
+0 0 12511
+D2
+~
+~
+0 0 12513
+S
+#12513
+Onyx Avenue~
+   You are walking along an avenue carved of pure onyx.  Something is different
+here than any other area along the avenue.  As you look around you notice a
+hidden alley to the east.    
+~
+125 0 0
+D0
+~
+~
+0 0 12512
+D1
+~
+~
+0 0 12534
+D2
+~
+~
+0 0 12514
+S
+#12514
+Onyx Avenue~
+   You are walking along an avenue carved of pure onyx.  Even though it is in
+disrepair you can tell at one time this was a grand avenue.  You walk carefully
+as the onyx is very slick.    
+~
+125 0 0
+D0
+~
+~
+0 0 12513
+D2
+~
+~
+0 0 12515
+S
+#12515
+Onyx Avenue~
+   You are walking along an avenue carved of pure onyx.  Even though it is in
+disrepair you can tell at one time this was a grand avenue.  You walk carefully
+as the onyx is very slick.    
+~
+125 0 0
+D0
+~
+~
+0 0 12514
+D2
+~
+~
+0 0 12516
+S
+#12516
+Intersection of Onyx Avenue and Trenton Street~
+   You have come upon a desolate intersection.  A lonely sign reads that Onyx
+Avenue leads to the north as Trenton Avenue leads to the east.    
+~
+125 0 0
+D0
+~
+~
+0 0 12515
+D1
+~
+~
+0 0 12517
+S
+#12517
+Trenton Avenue~
+   You are walking along a crumbling avenue.  It appears someone or something
+is trying to clean up the area as several large piles of debris are swept up
+into heaps of trash.    
+~
+125 0 0
+D1
+~
+~
+0 0 12518
+D3
+~
+~
+0 0 12516
+S
+#12518
+Trenton Avenue~
+   You are walking along a crumbling avenue.  It appears someone or something
+is trying to clean up the area as several large piles of debris are swept up
+into heaps of trash.    
+~
+125 0 0
+D1
+~
+~
+0 0 12501
+D3
+~
+~
+0 0 12517
+S
+#12519
+Trenton Avenue~
+   You are walking along a crumbling avenue.  It appears someone or something
+is trying to clean up the area as several large piles of debris are swept up
+into heaps of trash.    
+~
+125 0 0
+D1
+~
+~
+0 0 12520
+D3
+~
+~
+0 0 12501
+S
+#12520
+Trenton Avenue~
+   You are walking along a crumbling avenue.  It appears someone or something
+is trying to clean up the area as several large piles of debris are swept up
+into heaps of trash.    
+~
+125 0 0
+D1
+~
+~
+0 0 12521
+D3
+~
+~
+0 0 12519
+S
+#12521
+Intersection of Trenton Avenue and Plexus Street~
+   You have come upon what appears to have once been a busy intersection.  A
+sign says that Plexus Avenue leads to the north while Trenton Avenue leads
+west.    
+~
+125 0 0
+D0
+~
+~
+0 0 12522
+D3
+~
+~
+0 0 12520
+S
+#12522
+Plexus Street~
+   This avenue appears to be a lot cleaner than the rest.  Some of the shops
+and restaurants that line the street seem to have been cleaned up and look as
+if you could start a business here.  Whomever has been working here has
+obviously spent many a day here.    
+~
+125 0 0
+D0
+~
+~
+0 0 12523
+D2
+~
+~
+0 0 12521
+S
+#12523
+Plexus Street~
+   This avenue appears to be a lot cleaner than the rest.  Some of the shops
+and restaurants that line the street seem to have been cleaned up and look as
+if you could start a business here.  Whomever has been working here has
+obviously spent many a day here.    
+~
+125 0 0
+D0
+~
+~
+0 0 12524
+D2
+~
+~
+0 0 12522
+S
+#12524
+Plexus Street~
+   You are traveling along Plexus Street but you notice something different.  
+As you look around the area you suddenly notice a hidden alley to the west.  
+
+~
+125 0 0
+D0
+~
+~
+0 0 12525
+D2
+~
+~
+0 0 12523
+D3
+~
+~
+0 0 12531
+S
+#12525
+Plexus Street~
+   This avenue appears to be a lot cleaner than the rest.  Some of the shops
+and restaurants that line the street seem to have been cleaned up and look as
+if you could start a business here.  Whomever has been working here has
+obviously spent many a day here.    
+~
+125 0 0
+D0
+~
+~
+0 0 12526
+D2
+~
+~
+0 0 12524
+S
+#12526
+Plexus Street~
+   This avenue appears to be a lot cleaner than the rest.  Some of the shops
+and restaurants that line the street seem to have been cleaned up and look as
+if you could start a business here.  Whomever has been working here has
+obviously spent many a day here.    
+~
+125 0 0
+D0
+~
+~
+0 0 12527
+D2
+~
+~
+0 0 12525
+S
+#12527
+Intersection of High Street and Plexus Avenue~
+   You have come upon another intersection.  This one isn't as large as all the
+other intersections but it still looks as if it were well used.  A sign here
+says High Street leads to the west while Plexus Avenue leads south.    
+~
+125 0 0
+D2
+~
+~
+0 0 12526
+D3
+~
+~
+0 0 12530
+S
+#12528
+Entrance to the Temple~
+   You have entered the Temple of Hannah.  This room looks completely untouched
+as if the carnage that happened to the town never happened.  Whomever attacked
+this town obviously did not reach this area.  You are startled to hear voices.
+Human voices coming from further within the temple!    
+~
+125 cd 0
+D0
+~
+~
+0 0 12595
+D5
+~
+~
+0 0 12504
+S
+#12529
+High Street~
+   You are walking along the northern most street in the City of Hannah.  The
+area is a total disaster scene.  Armor and skeletal remains are strewn about.
+It looks as if whatever battle happened here focused through this area.    
+~
+125 0 0
+D1
+~
+~
+0 0 12530
+D3
+~
+~
+0 0 12507
+S
+#12530
+High Street~
+   You are walking along the northern most street in the City of Hannah.  The
+area is a total disaster scene.  Armor and skeletal remains are strewn about.
+It looks as if whatever battle happened here focused through this area.    
+~
+125 0 0
+D1
+~
+~
+0 0 12527
+D3
+~
+~
+0 0 12529
+S
+#12531
+A dark, hidden alley  ~
+   You have entered an area that you probably shouldn't have.  It is very dark
+here and you hear all kinds of weird noises.    
+~
+125 a 0
+D1
+~
+~
+0 0 12524
+D3
+~
+~
+0 0 12532
+S
+#12532
+A dark, hidden alley  ~
+   You have entered an area that you probably shouldn't have.  It is very dark
+here and you hear all kinds of weird noises.    
+~
+125 a 0
+D1
+~
+~
+0 0 12531
+D3
+~
+~
+0 0 12504
+S
+#12533
+A dark, hidden alley  ~
+   You have entered an area that you probably shouldn't have.  It is very dark
+here and you hear all kinds of weird noises.    
+~
+125 a 0
+D1
+~
+~
+0 0 12504
+D3
+~
+~
+0 0 12534
+S
+#12534
+A dark, hidden alley  ~
+   You have entered an area that you probably shouldn't have.  It is very dark
+here and you hear all kinds of weird noises.    
+~
+125 ac 0
+D1
+~
+~
+0 0 12533
+D3
+~
+~
+0 0 12513
+S
+#12535
+A hall in the Temple~
+   Pictures of ex-mayors line the walls.  A few townspeople wonder around here
+chatting with one another.  You notice that the hallway ends in the next room
+and splits off into two directions.    
+~
+125 d 0
+D0
+~
+~
+0 0 12536
+D2
+~
+~
+0 0 12596
+S
+#12536
+An intersection inside the Temple of Hannah~
+   Townspeople walk about and you notice a few guards here and there.  People
+glance at you as they walk past.  You notice several holy men standing in a
+small circle chanting.  The hallway leads to the east and west from here.    
+~
+125 d 0
+D1
+~
+~
+0 0 12540
+D2
+~
+~
+0 0 12535
+D3
+~
+~
+0 0 12537
+S
+#12537
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12536
+D3
+~
+~
+0 0 12538
+S
+#12538
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12537
+D3
+~
+~
+0 0 12539
+S
+#12539
+A corner in a hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D0
+~
+~
+0 0 12547
+D1
+~
+~
+0 0 12538
+S
+#12540
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D0
+~
+~
+0 0 12541
+D1
+~
+~
+0 0 12559
+D3
+~
+~
+0 0 12536
+S
+#12541
+A beautifully manicured courtyard~
+   Large rose bushes line the walkway as small birds chirp around the
+courtyard.  A row of benches sit on either side of the walkway as citizens of
+the town sit about talking with each other.  You notice a shaded empty bench
+beneath a large pin oak tree that looks like a nice place to take a break.    
+~
+125 d 0
+D0
+~
+~
+0 0 12542
+D2
+~
+~
+0 0 12540
+S
+#12542
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D0
+~
+~
+0 0 12560
+D1
+~
+~
+0 0 12548
+D2
+~
+~
+0 0 12541
+D3
+~
+~
+0 0 12543
+S
+#12543
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12542
+D3
+~
+~
+0 0 12544
+S
+#12544
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12543
+D3
+~
+~
+0 0 12545
+S
+#12545
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12544
+D3
+~
+~
+0 0 12546
+S
+#12546
+A corner in the hallway in the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12545
+D2
+~
+~
+0 0 12547
+S
+#12547
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D0
+~
+~
+0 0 12546
+D2
+~
+~
+0 0 12539
+S
+#12548
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12549
+D3
+~
+~
+0 0 12542
+S
+#12549
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12550
+D3
+~
+~
+0 0 12548
+S
+#12550
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12551
+D3
+~
+~
+0 0 12549
+S
+#12551
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12552
+D3
+~
+~
+0 0 12550
+S
+#12552
+A corner in the hallway in the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D2
+~
+~
+0 0 12553
+D3
+~
+~
+0 0 12551
+S
+#12553
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D0
+~
+~
+0 0 12552
+D2
+~
+~
+0 0 12554
+S
+#12554
+A corner in the hallway in the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D0
+~
+~
+0 0 12553
+D3
+~
+~
+0 0 12555
+S
+#12555
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12554
+D3
+~
+~
+0 0 12556
+S
+#12556
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12555
+D3
+~
+~
+0 0 12557
+S
+#12557
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12556
+D3
+~
+~
+0 0 12558
+S
+#12558
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12557
+D3
+~
+~
+0 0 12559
+S
+#12559
+A grand hallway inside the Temple of Hannah~
+   Large chandeliers hang from vaulted ceilings here dimly lighting the area.
+As you walk along the plush red carpets mingling with the townspeople, you hear
+people laughing and chatting as if they are completely relaxed.    
+~
+125 d 0
+D1
+~
+~
+0 0 12558
+D3
+~
+~
+0 0 12540
+S
+#12560
+Temple Hannah Market Place~
+   Citizens and peasants move about the area laughing and socializing as they
+attend to their daily chores.  The air is filled with the smell of freshly
+baked bread coming from the bakery in the near-vicinity.    
+~
+125 d 0
+D0
+~
+~
+0 0 12561
+D2
+~
+~
+0 0 12542
+S
+#12561
+Temple Hannah Market Place~
+   Citizens and peasants move about the area laughing and socializing as they
+attend to their daily chores.  The air is filled with the smell of freshly
+baked bread coming from the bakery in the near-vicinity.    
+~
+125 d 0
+D0
+~
+~
+0 0 12563
+D1
+~
+~
+0 0 12562
+D2
+~
+~
+0 0 12560
+S
+#12562
+Hannah Bakery~
+   You have entered a nicely decorated bakery.  Loaves of breads are displayed
+around the bakery in a caring way.  You see a large case filled with cookies
+and other sweet baked goods.  Mikel the baker smiles at you and asks if he may
+help you.    
+~
+125 cd 0
+D3
+~
+~
+0 0 12561
+S
+#12563
+Temple Hannah Market Place~
+   Citizens and peasants move about the area laughing and socializing as they
+attend to their daily chores.  The air is filled with the smell of freshly
+baked bread coming from the bakery in the near-vicinity.    
+~
+125 d 0
+D0
+~
+~
+0 0 12565
+D2
+~
+~
+0 0 12561
+D3
+~
+~
+0 0 12564
+S
+#12564
+Temporary Housing~
+   Since the city was ransacked everyone has taken up temporary refuge in the
+temple.  Bunks line the walls and mattresses litter the floors.    
+~
+125 cd 0
+D1
+~
+~
+0 0 12563
+S
+#12565
+Temple Hannah Market Place~
+   Citizens and peasants move about the area laughing and socializing as they
+attend to their daily chores.  The air is filled with the smell of freshly
+baked bread coming from the bakery in the near-vicinity.    
+~
+125 d 0
+D0
+~
+~
+0 0 12566
+D2
+~
+~
+0 0 12563
+S
+#12566
+Temple Hannah Market Place~
+   Citizens and peasants move about the area laughing and socializing as they
+attend to their daily chores.  The air is filled with the smell of freshly
+baked bread coming from the bakery in the near-vicinity.    
+~
+125 cd 0
+D0
+~
+~
+0 0 12569
+D1
+~
+~
+0 0 12568
+D2
+~
+~
+0 0 12565
+D3
+~
+~
+0 0 12567
+S
+#12567
+Taber's Butcher Shop~
+   Large cabinets display juicy cuts of the finest meats you've ever seen.  
+You notice a short fat man with a bloodstained apron on put down a large
+cleaver and approach you smiling.  He uncovers another cabinet and asks if he
+may help you in any way.    
+~
+125 d 0
+D1
+~
+~
+0 0 12566
+S
+#12568
+Temple of Hannah General Store and Goods~
+   You have entered a large general store.  Lots of new equipment hangs about
+the walls as if begging you to buy it.  The shopkeeper turns and smiles at you
+then returns to his work.    
+~
+125 d 0
+D3
+~
+~
+0 0 12566
+S
+#12569
+Temple of Hannah Health Services ~
+   You have entered a room full of sick and injured people.  Teams of doctors
+and nurses move about the room at a rapid pace trying to treat everyone.  It is
+very cool here and although it is hectic you feel like you start to relax a
+little.    
+~
+125 d 0
+D2
+~
+~
+0 0 12566
+S
+#12595
+Check Station in the Temple~
+   You have been stopped at a guard post.  Fierce looking warriors stand here
+checking people as the pass through.  You notice one poor soul who was trying
+to sneak a weapon in brutally beaten and slain before you.  Suddenly one of the
+warriors turn towards you and motions you forward.  Several more guards enter
+the room from the guard barracks to the east.    
+~
+125 d 0
+D0
+~
+~
+0 0 12597
+D1
+~
+~
+0 0 12598
+D2
+~
+~
+0 0 12528
+S
+#12596
+A hall in the Temple~
+   Pictures of ex-mayors line the walls.  A few townspeople wonder around here
+chatting with one another.  You notice that the hallway ends in the next room
+and splits off into two directions.    
+~
+125 d 0
+D0
+~
+~
+0 0 12535
+D2
+~
+~
+0 0 12597
+S
+#12597
+A hall in the Temple~
+   Large picture windows line this hallway.  This is the first time you've been
+able to see the destruction that has occurred in the city.  The town is in
+complete ruins.  As you look below you see Assassins attacking Korreds and orcs
+wondering aimlessly through out town.  You wonder to yourself if this town will
+ever be the way it once was.    
+~
+125 d 0
+D0
+~
+~
+0 0 12596
+D2
+~
+~
+0 0 12595
+S
+#12598
+Temple Guards' Barracks~
+   Beds full of slumbering guards line the walls as several guards walk around
+tending to their daily business.  You notice an arena at the far end of the
+barracks where several guards are sparring with each other.  A guard notices
+you and start to move towards you.    
+~
+125 d 0
+D3
+~
+~
+0 0 12595
+S
+#0
+
+#RESETS
+D 0 12500 0 2 	(At the gates of the Grand City of Hannah)
+M 0 12500 1 12500 	(the great oaken tree)
+E 1 12599 100 8 	(a pair of oaken boots)
+E 1 12500 99 17 	(a key)
+M 0 12506 1 12569 	(a doctor)
+G 1 12507 99 -1 	(an amputating saw)
+M 0 12569 1 12569 	(ascepleptous)
+G 1 12569 100 -1 	(some bloody bandages)
+G 1 12570 100 -1 	(a scroll of recall)
+M 0 12501 10 12501 	(the Hannah soldier)
+G 1 12512 99 -1 	(a soldiers lance)
+D 0 12501 2 2 	(Intersection of Trenton Avenue and Main Street.)
+M 0 12502 10 12501 	(the hannah city guard)
+M 0 12503 10 12501 	(a disgusting orc)
+M 0 12501 10 12501 	(the Hannah soldier)
+E 1 12502 10 17 	(a golden moki bird feather)
+G 1 12505 100 -1 	(a golden orb)
+M 0 12513 2 12557 	(a lost boy)
+M 0 12513 2 12549 	(a lost boy)
+M 0 12511 2 12549 	(a broken man)
+M 0 12512 2 12543 	(a stray dog)
+M 0 12512 2 12558 	(a stray dog)
+M 0 12511 2 12537 	(a broken man)
+M 0 12510 2 12551 	(a homeless woman)
+M 0 12510 2 12546 	(a homeless woman)
+M 0 12598 7 12546 	(a temple guard)
+M 0 12509 3 12548 	(a crying girl)
+M 0 12509 3 12544 	(a crying girl)
+M 0 12509 3 12540 	(a crying girl)
+M 0 12508 10 12533 	(a smelly goblin)
+M 0 12504 10 12533 	(a thiefing looter)
+G 1 12511 99 -1 	(a thieves dagger)
+G 1 12568 99 -1 	(a pack)
+M 0 12508 10 12532 	(a smelly goblin)
+M 0 12504 10 12532 	(a thiefing looter)
+G 1 12511 99 -1 	(a thieves dagger)
+G 1 12568 99 -1 	(a pack)
+M 0 12508 10 12522 	(a smelly goblin)
+M 0 12508 10 12526 	(a smelly goblin)
+M 0 12507 10 12526 	(a crazed troll)
+M 0 12508 10 12509 	(a smelly goblin)
+M 0 12501 10 12509 	(the Hannah soldier)
+G 1 12512 99 -1 	(a soldiers lance)
+M 0 12508 10 12515 	(a smelly goblin)
+M 0 12501 10 12515 	(the Hannah soldier)
+G 1 12512 99 -1 	(a soldiers lance)
+M 0 12503 10 12515 	(a disgusting orc)
+M 0 12507 10 12503 	(a crazed troll)
+M 0 12507 10 12505 	(a crazed troll)
+M 0 12507 10 12516 	(a crazed troll)
+M 0 12502 10 12516 	(the hannah city guard)
+M 0 12507 10 12510 	(a crazed troll)
+M 0 12507 10 12521 	(a crazed troll)
+M 0 12501 10 12521 	(the Hannah soldier)
+G 1 12512 99 -1 	(a soldiers lance)
+M 0 12501 10 12517 	(the Hannah soldier)
+G 1 12512 99 -1 	(a soldiers lance)
+M 0 12501 10 12513 	(the Hannah soldier)
+G 1 12512 99 -1 	(a soldiers lance)
+M 0 12503 10 12513 	(a disgusting orc)
+R 0 12504 12504 -1 	(a granite fountain)
+O 0 12504 1 12504 	(a granite fountain)
+M 0 12504 10 12534 	(a thiefing looter)
+G 1 12511 99 -1 	(a thieves dagger)
+G 1 12568 99 -1 	(a pack)
+M 0 12504 10 12531 	(a thiefing looter)
+G 1 12511 99 -1 	(a thieves dagger)
+G 1 12568 99 -1 	(a pack)
+M 0 12505 1 12568 	(John)
+G 1 12511 99 -1 	(a thieves dagger)
+G 1 12501 99 -1 	(an elite temple guard sword)
+G 1 12568 100 -1 	(a pack)
+M 0 12562 1 12562 	(Atropos)
+G 1 12510 99 -1 	(a fluffly croissant)
+G 1 12509 99 -1 	(a small pastry)
+G 1 12562 100 -1 	(a pound of bread)
+M 0 12566 1 12567 	(Taber the shopkeeper)
+G 1 12508 99 -1 	(a side of beef)
+G 1 12503 99 -1 	(a lamb chop)
+G 1 12567 100 -1 	(a beef cutlet)
+M 0 12501 10 12524 	(the Hannah soldier)
+M 0 12503 10 12524 	(a disgusting orc)
+M 0 12598 7 12598 	(a temple guard)
+M 0 12598 7 12566 	(a temple guard)
+M 0 12598 7 12554 	(a temple guard)
+M 0 12598 7 12552 	(a temple guard)
+M 0 12598 7 12539 	(a temple guard)
+M 0 12597 2 12595 	(an elite temple guard)
+G 1 12501 99 -1 	(an elite temple guard sword)
+M 0 12597 2 12595 	(an elite temple guard)
+G 1 12552 10 -1 	(a silver key)
+G 1 12501 99 -1 	(an elite temple guard sword)
+M 0 12564 1 12564 	(Elina)
+M 0 12501 10 12527 	(the Hannah soldier)
+M 0 12503 10 12527 	(a disgusting orc)
+M 0 12503 10 12529 	(a disgusting orc)
+M 0 12502 10 12508 	(the hannah city guard)
+M 0 12503 10 12508 	(a disgusting orc)
+M 0 12503 10 12518 	(a disgusting orc)
+M 0 12502 10 12507 	(the hannah city guard)
+M 0 12502 10 12514 	(the hannah city guard)
+M 0 12502 10 12514 	(the hannah city guard)
+M 0 12502 10 12502 	(the hannah city guard)
+M 0 12501 10 12511 	(the Hannah soldier)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#12500~
+12569
+12570
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+7
+12569
+0
+12569
+-1
+0
+28
+0
+0
+#12562~
+12562
+12509
+12510
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s I'm not interested!~
+%s Not interested!~
+%s I can't afford that!~
+%s Go make some money first.~
+%s Lets see, that's %d coins.~
+%s That'll be %d coins for ya, good deal eh?~
+0
+3
+12562
+0
+12562
+-1
+0
+28
+0
+0
+#12567~
+12567
+12503
+12508
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+12566
+0
+12567
+-1
+0
+28
+0
+0
+#12568~
+12568
+12511
+12501
+-1
+1.00
+1.00
+-1
+%s A what?~
+%s I don't buy, only sell.~
+%s I don't buy, only sell.~
+%s Out of cash.~
+%s You need money idiot.~
+%s That's %d, thank you.~
+%s I'll give you %d coins for that.~
+0
+3
+12505
+0
+12568
+-1
+0
+28
+0
+0
+0
+
+
+#$

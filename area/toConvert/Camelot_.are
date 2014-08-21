@@ -1,0 +1,1078 @@
+#Style Circle
+#AREADATA
+Name Camelot ~
+Builders Rumble~
+VNUMs 700 799
+Credits {{None}  CAW    Camelot ~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#700
+merchant~
+a merchant~
+A merchant is trying to you sell you something.
+~
+   A merchant forces a smile and walks up to you like you are his best friend.
+He immediately begins his speech on all the fine wares he could sell you...  
+For the right price of course.    
+~
+cdg k 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 9
+E
+#701
+border guard~
+a border guard~
+This guard is protecting the outskirts of the city from attack.
+~
+   A veteran warrior, this guard was enlisted by the city to protect it from
+attack.    
+~
+bdmpqr k 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#702
+outpost commander~
+the commander~
+The outpost commander is here, safe in the respect of her men.
+~
+   The outpost commander is a hardened, grizzled veteran with the cunning that
+comes from a life of leading men in endless battle.    
+~
+bdl dfk 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+BareHandAttack: 3
+E
+#703
+trader~
+a trader~
+A trader tries to barter with you.
+~
+   He immediately starts telling you the value of every item you carry and
+explains to you how he could trade you some much better equipment for a small
+few or an extra item or two.    
+~
+dg k 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 12
+E
+#704
+hermit~
+a hermit~
+A hermit looks nervous with all these people around.
+~
+   This guy spends his life living alone in the wilderness, it's a wonder he
+can survive.    
+~
+dgh k 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 7
+E
+#705
+patrolman~
+a patrolman~
+A patrolman is keeping an eye out for any trouble.
+~
+   One of the many protectors of the city, his job is to protect the outskirts
+of the city and give warning in case of trouble.    
+~
+dg k 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 13
+E
+#706
+warden~
+a warden~
+A warden is patrolling the outskirts of the city.
+~
+   He looks more like he's seen his fair share of action in his time.  He looks
+at you suspiciously.    
+~
+dg k 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 6
+E
+#707
+woodsman~
+a woodsman~
+A woodsman walks by, he needs a shower, Bad!
+~
+   Born and raised in the woods, he looks like more a part of the wilderness
+than most animals you've seen.    
+~
+dfgh k 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 9
+E
+#708
+guard~
+a guard~
+A guard is standing watch here.
+~
+   He looks very well trained.    
+~
+bdl cfk 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+BareHandAttack: 10
+E
+#709
+woodswoman~
+a woodswoman~
+A woodswoman is looking for a woodsman to nag.
+~
+   She looks upset about something.    
+~
+dg km 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+BareHandAttack: 8
+E
+#710
+messenger~
+a messenger~
+A messenger runs by on an errand.
+~
+   He looks fit from running on all those errands.    
+~
+cdg k 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+BareHandAttack: 13
+E
+#711
+scoundrel~
+a scoundrel~
+This scoundrel is looking for some easy prey.
+~
+   She lives off the misfortune of others.  She looks at you warily.    
+~
+dgq bdfkt 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+BareHandAttack: 13
+E
+#0
+
+#OBJECTS
+
+#700
+useless trinkets~
+some useless trinkets~
+A lot of useless trinkets, nothing of value.~
+~
+13 0 a 0
+0 0 0 0
+8 100 0 0
+E
+useless trinkets~
+   Bits of discarded metal have been strung together by a piece of twine, too
+heavy to wear, but light enough to carry.    
+~
+#701
+tempered broadsword sword~
+a tempered broadsword~
+A large tempered broadsword was left here.~
+~
+5 g an 0
+6 2 12 3
+8 400 40 0
+E
+tempered silver broadsword~
+   The fine blade of silver looks magnificently crafted and forged.  The hilt
+is protected by a silver wire mesh that wraps around the wielders entire hand.
+  
+~
+A
+18 1
+#702
+silver chain armor~
+some silver chain armor~
+Some chain armore of silver is lying here.~
+~
+9 g ad 0
+4 0 0 0
+8 400 40 0
+E
+silver chain armor~
+   Links of silver chain have been woven into this fine vest meant to be worn
+on the body.  It is in pristine condition and looks to offer a good level of
+protection.    
+~
+A
+1 1
+#703
+silver wristguard~
+a silver wristguard~
+Someone left a silver wristguard here.~
+~
+9 g am 0
+1 0 0 0
+8 340 34 0
+E
+silver wristguard~
+   A thick band of silver looking to fit around a wrist.  It is superbly
+crafted, with engravings of a snake winding around the bracelet, eating it's
+own tail in an endless cycle.    
+~
+A
+19 1
+#704
+crystal clear stream~
+a crystal clear stream~
+A crystal clear stream gently flows by you.~
+~
+23 0 0 0
+500 500 15 0
+505 0 0 0
+E
+stream crystal clear~
+   You can peer to the bottom of the clear stream, it flows gently over a bed
+of rock and sand.  It looks untainted and refreshing.    
+~
+#705
+silver link chain belt~
+a belt of silver chain links~
+A belt of silver chain links was left here.~
+~
+9 h al 0
+2 0 0 0
+5 100 10 0
+E
+silver link chain belt~
+   The links of silver have been placed over a leather belt that could easily
+fit around the waist.    
+~
+A
+2 -1
+#706
+silver shield~
+a silver shield~
+A silver shield with the crest of Camelot engraved on the front.~
+~
+9 g aj 0
+3 0 0 0
+12 500 50 0
+E
+silver shield~
+   The crest of Camelt adorns both sides of this sturdy shield.  The weight is
+encumbering, but bareable.    
+~
+A
+5 1
+#707
+silver trimmmed coat~
+a silver trimmed coat~
+A fine coat trimmed with silver.~
+~
+9 0 ak 0
+2 0 0 0
+3 3 0 0
+E
+silver trimmed coat~
+   A fine hooded woolen coat with wide sleeves that are trimmed with silver.  
+It can be worn over almost anything, a good way to conceal heavy, bulky armor.
+  
+~
+#708
+silver bracers pair~
+a pair of silver bracers~
+A pair of silver bracers.~
+~
+9 0 ai 0
+4 0 0 0
+5 150 15 0
+E
+pair silver bracers~
+   A shiny pair of silver bracers that can be worn upon the arms.  They are
+well made and should offer good protection.    
+~
+#709
+set silver gauntlets~
+a set of silver gauntlets~
+A set of silver gauntlets engraved with the crest of Camelot.~
+~
+9 g ah 0
+4 0 0 0
+5 200 25 0
+E
+set silver gauntlets~
+   The crest of Camelot is engraved on the palm of these fine gauntlets of
+steel.  The fingers are jointed and allow for good movement and flexibility.  
+~
+A
+5 1
+#710
+set silver boots~
+a set of silver boots~
+A set of silver boots with the crest of Camelot.~
+~
+9 0 ag 0
+4 0 0 0
+5 150 15 0
+E
+silver set boots~
+   A set of sturdy silver boots engraved with the crest of Camelot.  The are
+slightly worn but still in excellent condition.    
+~
+#711
+set silver greaves~
+a set of silver greaves~
+A set of silver greaves with the crest of Camelot on them.~
+~
+9 0 af 0
+4 0 0 0
+4 120 12 0
+E
+set silver greaves~
+   A set of silver greaves with the crest of Camelot engraved on them appear to
+be in excellent condition and design.    
+~
+#712
+fine silver helm~
+a fine silver helm~
+A fine silver helm with the crest of Camelot on the forehead.~
+~
+9 0 ae 0
+4 0 0 0
+5 150 15 0
+E
+fine silver helm~
+   The helms polished surface gleams around the crest of Camelot embossed upon
+the front.  Made of pure silver the helm is in excellent condition.    
+~
+#713
+silver chain~
+a silver chain~
+A silver chain made from small links with the crest of Camelot hanging from it.~
+~
+9 0 ac 0
+1 0 0 0
+5 150 15 0
+E
+silver chain~
+   A silver chain with a medallion hanging from it that resembles the crest of
+Camelot.  The chain is made up of fine links about the size of a copper.    
+~
+#714
+silver ring~
+a silver ring~
+A silver ring with the crest of Camelot upon it.~
+~
+12 0 ab 0
+0 0 0 0
+3 90 9 0
+E
+silver ring~
+   The crest of camelot is engraved on the surface of the ring with the sword
+of excalibur circling behind it.  The ring is made of solid silver and is in
+good condition.    
+~
+#715
+silver sceptre~
+a silver sceptre~
+A silver sceptre with the crest of Camelot upon it.~
+~
+1 gk ao 0
+0 0 -1 0
+4 500 50 0
+E
+silver sceptre~
+   The crest of camelot is embossed in gold upon the face of this silver
+sceptre.  It looks extremely valuable and glows slightly, emitting enough light
+to see by.    
+~
+A
+17 -6
+#716
+stone fountain~
+the stone fountain~
+A fountain of stone depicting three bare-breasted women pouring water out of jugs.~
+~
+23 0 0 0
+500 500 0 0
+505 0 0 0
+E
+stone fountain~
+   The white stone is remarkably smooth and finely detailed.  From a distance
+the three woman almost look real, extremely pale, but real.  The water is clear
+and rushes out from the jugs the women hold and down three tiers of large bowls
+filled with water.    
+~
+#0
+
+#ROOMS
+
+#700
+Camelot Zone Description Room~
+   Builder   : Rumble
+Zone         : 7 Camelot
+Related Zones: 16 Camelot II, 17 Camelot III
+Began        : 1997, one of my first zones.
+Player Level : 20-30
+Rooms        : 26
+Mobs         : 12
+Objects      : 17
+Shops        : 0
+Triggers     : 0
+Theme        : Medieval
+Plot         : The zone is based off the theme of Camelot. Based off the theme 
+               of Camelot, king arthur, the knights, the round table merlin, 
+               etc. Only reachable by teleport. Originally started with zone 16
+               and 17, ran out of room so also used a few rooms in zone 7. zone 
+               7 is now used for extra rooms where needed.
+
+LOOK LINKS
+~
+7 j 0
+E
+links credits info~
+   Zone 7 is linked to the following zones:
+ 16 Camelot II                     at   775 (north) --->  1600
+ 17 Camelot III                    at   775 (south) --->  1700
+ 16 Camelot II                     at   777 (north) --->  1602
+ 17 Camelot III                    at   777 (south) --->  1702
+ 16 Camelot II                     at   778 (north) --->  1603
+ 17 Camelot III                    at   778 (south) --->  1703
+ 16 Camelot II                     at   779 (north) --->  1604
+ 17 Camelot III                    at   779 (south) --->  1704
+ 16 Camelot II                     at   780 (north) --->  1605
+ 17 Camelot III                    at   780 (south) --->  1705
+ 17 Camelot III                    at   781 (south) --->  1706
+ 17 Camelot III                    at   782 (south) --->  1707
+ 17 Camelot III                    at   783 (south) --->  1708
+ 16 Camelot II                     at   784 (north) --->  1609
+ 17 Camelot III                    at   784 (south) --->  1709
+ 16 Camelot II                     at   785 (north) --->  1648
+ 16 Camelot II                     at   786 (north) --->  1611
+ 17 Camelot III                    at   786 (south) --->  1711
+ 16 Camelot II                     at   787 (north) --->  1612
+ 17 Camelot III                    at   788 (south) --->  1713
+ 16 Camelot II                     at   789 (north) --->  1614
+ 16 Camelot II                     at   790 (north) --->  1615
+ 17 Camelot III                    at   790 (south) --->  1715
+ 17 Camelot III                    at   792 (south) --->  1717
+ 17 Camelot III                    at   793 (south) --->  1718
+ 17 Camelot III                    at   794 (south) --->  1719
+ 16 Camelot II                     at   795 (north) --->  1644
+ 17 Camelot III                    at   795 (south) --->  1720
+ 16 Camelot II                     at   799 (north) --->  1624
+ 17 Camelot III                    at   799 (south) --->  1724
+
+~
+S
+#775
+The Forest Arden~
+   Before you stretches the vast forest Arden, consisting of towering oaks 
+and unknown wildlife.  A path leads north and south into the forest.  There 
+is a guilded plaque affixed to a boulder.    
+~
+7 0 0
+D0
+~
+~
+0 0 1600
+D2
+~
+~
+0 0 1700
+D3
+~
+~
+0 0 796
+E
+plaque~
+   Let it be known that Arthur, King of the Britains seeks to form the company
+of the Round Table.  All knights of valor and virtue are summoned to this
+august company in Camelot.    
+~
+S
+#776
+Entrance~
+   You look around in amazement at the fine stonecraft and workmanship that
+must have been used to build this castle.  A portcullis towers above you,
+several guards look at you distrustfully but don't block your path.  A small
+boat waits to return you to the shore.    
+~
+7 0 0
+D1
+~
+~
+0 0 798
+D3
+~
+~
+0 0 777
+S
+#777
+Courtyard~
+   The castle opens out infront of you.  You stand in a large courtyard with
+several people hustling about their daily business.  The courtyard extends 
+in all directions except to the east which leads to the gate of the castle.  
+A steady flow of peasants merchants and a few nobles pass around you as you 
+look around like an idiot.    
+~
+7 0 0
+D0
+~
+~
+0 0 1602
+D1
+~
+~
+0 0 776
+D2
+~
+~
+0 0 1702
+D3
+~
+~
+0 0 778
+S
+#778
+Courtyard~
+   You stand in the center of the courtyard, it continues in all 
+directions.  Everyone seems to be looking at you strangely, as if you don't 
+belong here.  A knight strolls through the courtyard and you notice all the 
+peasants and merchants stare at his back after he passes with a look of 
+hate.  Must be the people aren't happy with their ruler.    
+~
+7 0 0
+D0
+~
+~
+0 0 1603
+D1
+~
+~
+0 0 777
+D2
+~
+~
+0 0 1703
+D3
+~
+~
+0 0 779
+S
+#779
+Courtyard~
+   The people seem to be rather rude as they elbow you out of their way as 
+you stand taking in the impressive scenery.  A couple of beggars look at you
+imploringly, everyone else is ignoring them.  To the west you can enter into
+the castle itself.    
+~
+7 0 0
+D0
+~
+~
+0 0 1604
+D1
+~
+~
+0 0 778
+D2
+~
+~
+0 0 1704
+D3
+~
+~
+0 0 780
+S
+#780
+Main Hall~
+   You enter the castle and it seems you can feel the weight of the stones
+surrounding you settle on your shoulders.  The hall is well lit with torches
+lining the wide hallway.  Tapestries of battles and portraits of rulers line
+each wall.  You can continue deeper into the castle to the west or to the
+courtyard to the east.    
+~
+7 0 0
+D0
+~
+~
+0 0 1605
+D1
+~
+~
+0 0 779
+D2
+~
+~
+0 0 1705
+D3
+~
+~
+0 0 781
+S
+#781
+Audience Chamber~
+   You look around the vast room, dozens of chairs form a semicircle 
+around a throne to the south.  This must be where the ruler dictates his 
+leadership from.  The room only has a few people in it.  None of them look 
+like they are of any one of importance.    
+~
+7 0 0
+D1
+~
+~
+0 0 780
+D2
+~
+~
+0 0 1706
+D3
+~
+~
+0 0 782
+S
+#782
+Audience Chamber~
+   You weave your way through the numerous chairs.  To the south the floor
+slopes down to a intracate throne plated in gold.  A page shoulders you 
+out of the way as he runs one of his errands.  Further to the east and west 
+you see exits, or you can approach the throne to the south.    
+~
+7 0 0
+D1
+~
+~
+0 0 781
+D2
+~
+~
+0 0 1707
+D3
+~
+~
+0 0 783
+S
+#783
+Audience Chamber~
+   This large chamber is supported by several columns, chairs are crowded
+together in rows, all facing the throne to the south.  Several colorfully
+dressed nobles are discussing important matters amongst themselves, even a 
+few are involved in heated discussions.  Probably just the usual bickering 
+about who owns what land.    
+~
+7 0 0
+D1
+~
+~
+0 0 782
+D2
+~
+~
+0 0 1708
+D3
+~
+~
+0 0 784
+S
+#784
+Cobblestone Road~
+   This is where the castle is split in half, making this wall a second line of
+defense if the castle is ever sieged.  You realize the area you just came
+through was the poor quarter and to the west is where the richer half of the
+castle must live.    
+~
+7 0 0
+D0
+~
+~
+0 0 1609
+D1
+~
+~
+0 0 783
+D2
+~
+~
+0 0 1709
+D3
+~
+~
+0 0 785
+S
+#785
+Cobblestone Road~
+   You walk through the pass cut through the wall and stare in awe at the
+castle before you.  Everything is made of some kind of white stone and shines
+brightly in the light.  Massive blocks are fit tightly together forming the
+walls and buildings infront of you.  To the west you see a fountain.  A statue
+of Uther Pendragon is here.    
+~
+7 0 0
+D0
+a door
+~
+door~
+1 0 1648
+D1
+~
+~
+0 0 784
+D3
+~
+~
+0 0 786
+S
+#786
+Cobblestone Road~
+   A large intricate fountain is gurgling softly here.  To the north you see
+several rich looking nobles and their servants.  South you guess from the 
+smell must be the stables.  The road continues east and west.    
+~
+7 0 0
+D0
+~
+~
+0 0 1611
+D1
+~
+~
+0 0 785
+D2
+~
+~
+0 0 1711
+D3
+~
+~
+0 0 787
+S
+#787
+Cobblestone Road~
+   You stand on a cobblestone road inside the great walls of Camelot.  
+Pinnons fly from high towers and the buildings gleam of white stone.  
+The Road contiues east and west with the knight's quarters to the north.    
+~
+7 0 0
+D0
+~
+~
+0 0 1612
+D1
+~
+~
+0 0 786
+D3
+~
+~
+0 0 788
+S
+#788
+Cobblestone Road~
+   The high walls tower above you, made from a gleaming white stone.  The
+blocks are huge, it must have taken a great engine to hoist them.  Pennons 
+snap in the breeze from the many towers of Camelot.  You hear some giggling 
+coming from the building to the south.    
+~
+7 0 0
+D1
+~
+~
+0 0 787
+D2
+~
+~
+0 0 1713
+D3
+~
+~
+0 0 789
+S
+#789
+Cobblestone Road~
+   The white walls of the castle are almost blinding, the flags and penants
+snap in the wind, everything looks perfect, except for the fact that the
+general mood in the castle seem to be depressing.  You hear some rough 
+housing to the north.  A tall fence to the south blocks the view in that 
+direction.  Sounds like someone is riding horses.    
+~
+7 0 0
+D0
+~
+~
+0 0 1614
+D1
+~
+~
+0 0 788
+D3
+~
+~
+0 0 790
+S
+#790
+Knight's Way~
+   A steady stream of traffic is coming and going to the south You hear a 
+loud crash to the south, followed by a little cheering.  A large statue 
+sits in the middle of the street.    
+~
+7 0 0
+D0
+~
+~
+0 0 1615
+D1
+~
+~
+0 0 789
+D2
+~
+~
+0 0 1715
+D3
+~
+~
+0 0 791
+S
+#791
+Cobblestone Road~
+   The high walls tower above you, made from a gleaming white stone.  The
+blocks are huge, it must have taken a great engine to hoist them.  Pennons 
+snap in the breeze from the many towers of Camelot.  The road exits to the 
+east and west.    
+~
+7 0 0
+D1
+~
+~
+0 0 790
+D3
+~
+~
+0 0 792
+S
+#792
+Cobblestone Road~
+   You stand under the open sky in Camelot.  Flags and banners snap in the
+fresh breeze.  You can either head east or west along the road or exit to 
+the south into a small peaceful building.    
+~
+7 0 0
+D1
+~
+~
+0 0 791
+D2
+~
+~
+0 0 1717
+D3
+~
+~
+0 0 793
+S
+#793
+Cobblestone Road~
+   The glamour of camelot starts to fade as you meet all of the people, 
+most of which are just plain rude to you.  The towers don't look so tall 
+and the walls don't seem to gleam like they did when you first saw them.  
+Camelot seems to be dying.    
+~
+7 0 0
+D1
+~
+~
+0 0 792
+D2
+~
+~
+0 0 1718
+D3
+~
+~
+0 0 794
+S
+#794
+Cobblestone Road~
+   The towers to the north cover you in shadows, the people of camelot 
+walk by like prisoners heading to their execution.  They all seem to have 
+lost hope.  To the south you hear some raucious laughter, someone seems to 
+still be having a good time.    
+~
+7 0 0
+D1
+~
+~
+0 0 793
+D2
+~
+~
+0 0 1719
+D3
+~
+~
+0 0 795
+S
+#795
+West Lane~
+   A gate just to the west is boarded up and doesn't look to have been 
+used in a long time.  Must be the castle is preparing for a siege and only 
+has the men to guard one gate.  You start to wonder if you should be 
+sticking around.    
+~
+7 0 0
+D0
+~
+~
+0 0 1644
+D1
+~
+~
+0 0 794
+D2
+~
+~
+0 0 1720
+S
+#796
+Boat Launch~
+   You stand on the beach of a massive lake.  A long narrow boat is tied 
+up to a small dock here.  A cloaked figure is sitting in the back, holding 
+a long pole.  This boat must be a ferry between the shore and some unseen 
+destination through the fog to the west.    
+~
+7 0 0
+D1
+~
+~
+0 0 775
+D3
+~
+~
+0 0 797
+S
+#797
+The Lake~
+   The boat slowly moves across the rough surface of the lake, a strong wind
+blows from the north but not enough to dispell the fog.  The owner of the 
+boat slowly pushes the boat westward with his pole.  You still can't see 
+what lies ahead.    
+~
+7 0 0
+D1
+~
+~
+0 0 796
+D3
+~
+~
+0 0 798
+S
+#798
+The Lake~
+   The fog slowly parts and you see land ahead, actually it looks to be an
+island.  You're jaw drops as a massive castle fades into existence as the 
+fog parts, you can't see the top of it through the fog.    
+~
+7 c 0
+D1
+~
+~
+0 0 797
+D3
+~
+~
+0 0 776
+S
+#799
+Open Field~
+   The Field continues north and south with no end in sight.  Due east 
+stands the massive castle resting in the middle of the lake on a small 
+sland.  The sky looks darker to the north and you catch a scent of death 
+and decay from a gust of wind in that direction.    
+~
+7 0 0
+D0
+~
+~
+0 0 1624
+D2
+~
+~
+0 0 1724
+S
+#0
+
+#RESETS
+R 0 786 716 -1 	(the stone fountain)
+O 0 716 1 786 	(the stone fountain)
+M 0 706 8 786 	(a warden)
+E 1 703 14 14 	(a silver wristguard)
+M 0 700 8 791 	(a merchant)
+E 1 709 99 9 	(a set of silver gauntlets)
+M 0 711 2 781 	(a scoundrel)
+E 1 708 99 10 	(a pair of silver bracers)
+M 0 710 2 779 	(a messenger)
+E 1 710 99 8 	(a set of silver boots)
+E 1 713 99 4 	(a silver chain)
+M 0 709 1 797 	(a woodswoman)
+E 1 714 99 2 	(a silver ring)
+M 0 708 6 776 	(a guard)
+E 1 707 100 12 	(a silver trimmed coat)
+E 1 706 11 11 	(a silver shield)
+M 0 708 6 784 	(a guard)
+E 1 706 11 11 	(a silver shield)
+E 1 707 12 12 	(a silver trimmed coat)
+M 0 708 6 795 	(a guard)
+E 1 707 12 12 	(a silver trimmed coat)
+E 1 706 11 11 	(a silver shield)
+M 0 707 1 796 	(a woodsman)
+E 1 705 14 13 	(a belt of silver chain links)
+M 0 705 8 783 	(a patrolman)
+E 1 703 14 14 	(a silver wristguard)
+M 0 705 8 788 	(a patrolman)
+E 1 703 99 14 	(a silver wristguard)
+M 0 704 1 775 	(a hermit)
+M 0 703 8 793 	(a trader)
+G 1 700 99 -1 	(some useless trinkets)
+M 0 703 8 780 	(a trader)
+G 1 700 99 -1 	(some useless trinkets)
+M 0 702 1 799 	(the commander)
+E 1 702 5 5 	(some silver chain armor)
+M 0 701 2 799 	(a border guard)
+E 1 715 99 17 	(a silver sceptre)
+E 1 701 16 16 	(a tempered broadsword)
+R 0 799 704 -1 	(a crystal clear stream)
+O 0 704 1 799 	(a crystal clear stream)
+M 0 700 8 777 	(a merchant)
+D 0 785 0 1 	(Cobblestone Road)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+0
+
+
+#$

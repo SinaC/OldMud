@@ -1,0 +1,1557 @@
+#Style Circle
+#AREADATA
+Name Farmlands~
+Builders Kaan~
+VNUMs 26300 26399
+Credits {{None}  CAW    Farmlands~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#26300
+ernie farmer~
+Ernie~
+Ernie the farmer stands here, welcoming you to his home.
+~
+   Ernie looks like your typical country farmland hick, complete with cowhide
+jacket and rubber boots.  
+~
+bd 0 200 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#26301
+sandy wife~
+Sandy~
+Ernie's wife, Sandy, stands proudly with her husband.
+~
+   She ain't much of a looker, but for a farmer's wife, she'll do.  
+~
+bd 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 2
+E
+#26302
+patty daughter~
+Patty~
+Ernie's daughter, Patty, is here milking a cow.
+~
+   Wow, they sure make farm girls just right.  Think she's eighteen?  
+~
+bd 0 200 E
+5 20 7 1d1+50 1d2+0
+50 2500
+6 6 2
+E
+#26303
+tramp man~
+the tramp~
+A man is here, bedded down in the hay, obviously a tramp looking for a free day's rest.
+~
+   Patchwork clothes of every color and size, this man is your typical roaming
+loser.  
+~
+bd 0 100 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#26304
+cow~
+a cow~
+A cow patiently waits to be milked here.
+~
+   Moo.  
+~
+bd 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+BareHandAttack: 6
+E
+#26305
+girschwyn farmer~
+Girschwyn~
+Girschwyn relaxes in his favorite chair near the fire.
+~
+   He looks a bit old, but just the same, very fit.  
+~
+bdh 0 200 E
+5 20 7 1d1+50 1d2+0
+50 2500
+6 6 1
+E
+#26306
+farmhand hand~
+the farmhand~
+A farmhand is here, busy at work.
+~
+   Looks like this guy spends most of his day rolling in dirt and sweating.  
+~
+bdh 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#26307
+tractor~
+a tractor~
+A tractor sits in the middle of the field, looking quite unused.
+~
+   Big, green and mean - that's this tractor's story.  
+~
+bd 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 0
+BareHandAttack: 6
+E
+#26308
+stableman man~
+a stableman~
+A stableman works with the horses here.
+~
+   Dusty and musty, grubby and nasty, this guy LIVES for his job.  
+~
+bdh 0 300 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 1
+E
+#26309
+krandle farmer~
+Krandle~
+Krandle is here, chewin' on a piece of straw.
+~
+   Krandle has that look of a man always squinting into the sun, even at night.
+His face is leathered and wrinkly from the sun.  
+~
+bdh 0 300 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#26310
+erik son fisherman~
+Erik~
+Erik sits here on the dock, doing a bit of fishing.
+~
+   No doubt Krandle, Erik's father, would throw a fit if he knew Erik was
+fishing and not doing his chores.  
+~
+bdh 0 400 E
+5 20 7 1d1+50 1d2+0
+50 2500
+6 6 1
+E
+#26311
+frog~
+a frog~
+A frog is here, relaxing in the sun and water.
+~
+   Riddip.  
+~
+bdg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#26313
+deer~
+a deer~
+A deer is standing here, frozen in fear by your presence.
+~
+   A beautiful doe, this beautiful creature nearly brings tears to your eyes by
+it's stunning perfection.  
+~
+bdh 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#26314
+suzarre woman~
+Suzarre the Pig Woman~
+Suzarre the Pig Woman stands here... she looks a LOT like Kathy Bates.
+~
+   She's your number one fan....  
+~
+bd 0 -200 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 2
+E
+#26315
+pig~
+a pig~
+A pig is here, stinking and dirty.
+~
+   Oink.  
+~
+bd 0 0 E
+4 20 7 0d0+40 1d2+0
+40 1600
+8 8 0
+E
+#26316
+chicken~
+a chicken~
+A chicken struts around the yard, hoping for some seeds.
+~
+   Cluck.  
+~
+bd 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#26317
+slopper man~
+the slopper~
+A man is here, sloppin' the pigs.
+~
+   Grubby old man, looks like he really gets into his work.  
+~
+bd 0 500 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#26318
+feeder man~
+a feeder~
+A man is here, feeding the chickens.
+~
+   With his long, beak-like nose and strange walk, this man has become his work.
+
+~
+bd 0 500 E
+6 19 6 1d1+60 1d2+1
+60 3600
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#26300
+water pail water~
+a pail~
+A small metal pail is lying here on the floor.~
+~
+17 0 a 0
+20 20 0 0
+20 150 0 0
+E
+water pail water~
+   Looks to be a very sturdy little pail.  
+~
+#26301
+bag patchwork~
+ a patchwork bag~
+A patchwork bag lies on the ground here.~
+~
+15 0 a 0
+500 0 -1 0
+2 1 0 0
+E
+bag patchwork~
+   Looks like a bag which has seen a great many years.  
+~
+#26302
+boots rubber~
+a pair of rubber boots~
+A pair of rubber boots have been left here.~
+~
+9 0 ag 0
+4 0 0 0
+2 1 0 0
+E
+boots rubber~
+   I would be VERY careful not to touch the bottoms of those.  
+~
+#26303
+jacket cowhide~
+a cowhide jacket~
+A cowhide jacket has been left here.~
+~
+9 0 ak 0
+7 0 0 0
+2 1 0 0
+E
+jacket cowhide~
+   Looks VERY manly, strong, even.  
+~
+#26304
+hat floppy cloth~
+a floppy cloth hat~
+A floppy cloth hat has been tossed on the ground here.~
+~
+9 0 ae 0
+5 0 0 0
+2 1 0 0
+E
+hat floppy cloth~
+   You have to wonder which side is the front with this raggety piece of cloth.
+
+~
+#26305
+cloak patchwork~
+a patchwork cloak~
+A patchwork cloak lies here, discarded.~
+~
+9 a ak 0
+6 0 0 0
+2 1 0 0
+E
+cloak patchwork~
+   Looks as if this cloak has been worn many a year, over many a road.  
+~
+A
+5 2
+A
+13 -10
+#26306
+dress flowered~
+a flowered dress~
+A flowered dress has been tossed away in a corner.~
+~
+9 0 ad 0
+5 0 0 0
+2 79 0 0
+E
+dress flowered~
+   The dress is made from fine fabric and fits very tightly.  Real plain jane
+farmer's daughter type clothing here.  
+~
+A
+6 2
+#26307
+stool~
+a stool~
+A milking stool sits here.~
+~
+12 0 ao 0
+0 0 0 0
+1 1 0 0
+E
+stool~
+   Small, wood, and rickety - three legs, be careful.  
+~
+A
+11 5
+#26308
+piano~
+a piano~
+A piano sits in the middle of the floor, looking very lonely.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+piano~
+   Looks as if the keys haven't been touched in years.  
+~
+#26309
+whip horse~
+a horse whip~
+A horse whip has been left here.~
+~
+5 0 an 0
+0 3 5 2
+2 1 0 0
+E
+whip horse~
+   It is made of brown leather.  Looks like a sex toy more than a horse whip!  
+~
+#26310
+rope~
+some rope~
+A pile of rope has been left here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#26311
+boots riding~
+a pair of riding boots~
+A pair of riding boots have been left here.~
+~
+9 0 ag 0
+4 0 0 0
+2 1 0 0
+E
+boots riding~
+   Spurs and all, these are a FINE pair of boots.  
+~
+A
+2 2
+#26312
+hat horseman~
+a horseman's hat~
+A horseman's hat has been left here.~
+~
+9 0 ae 0
+9 0 0 0
+2 1 0 0
+E
+hat horseman~
+   Kind of makes you look like Indiana Jones.  Maybe even better than that.  
+~
+#26313
+straw piece~
+a piece of straw~
+A piece of straw has been left here.~
+~
+9 0 a 0
+1 0 0 0
+1 1 0 0
+E
+straw piece~
+   It's all chewed at one end, maybe you should wash it first...  
+~
+#26314
+pants rawhide~
+a pair of rawhide pants~
+A pair of rawhide pants have been left here.~
+~
+9 0 af 0
+7 0 0 0
+2 1 0 0
+E
+pants rawhide~
+   They look really stiff and uncomfortable, but then it's better than being
+naked.  
+~
+#26315
+scythe~
+a scythe~
+A field scythe is laying on the floor.~
+~
+5 0 an 0
+0 2 7 3
+1 1 0 0
+E
+scythe~
+   Not quite as cool as the Grim Reaper's, but cool just the same.  
+~
+#26316
+stone skipping~
+a skipping stone~
+A round, flattened stone is here.~
+~
+12 a ao 0
+0 0 0 0
+1 1 0 0
+E
+stone skipping ~
+   Looks like it would be a great candidate for a skipper.  
+~
+A
+5 2
+#26317
+pole fishing bamboo~
+a bamboo fishing pole~
+A bamboo fishing pole has been left here.~
+~
+12 0 a 0
+0 0 0 0
+1 1 0 0
+E
+pole fishing bamboo~
+   A simple branch of bamboo with some string and a hook tied to it.  
+~
+#26318
+hat straw~
+a straw hat~
+A straw hat has been left here.~
+~
+9 0 ae 0
+5 0 0 0
+2 1 0 0
+E
+hat straw~
+   Big huge brim, looks like it would DEFINATELY keep the sun out of your eyes.
+
+~
+#26319
+boots steel toed rubber~
+some steel-toed boots~
+Some steel-toed, rubber boots are here.~
+~
+9 0 ag 0
+4 0 0 0
+2 300 0 0
+E
+boots steel toed rubber~
+   A shudder goes down your spine as you just think about being kicked by these
+heavy steel montrosities.  They are made from rugged leather hide and the toes
+are capped with solid steel.  They look like they could do some serious groin
+damage, if implemented properly.  
+~
+#0
+
+#ROOMS
+
+#26300
+Outside the West Gate~
+   You stand just outside the west gate of Jareth, fabled city of freedom and
+equality.  The Western Road runs west from here into farmlands.  To the north is
+a deep, tangled forest.  
+~
+263 0 2
+D1
+~
+~
+0 0 25756
+D3
+~
+~
+0 0 26301
+E
+credits~
+   *Farmlands of Jareth
+*Written by Kaan for Dibrova
+This zone was made as a connector to other zones, a basic filler zone full
+of low level mobs and eq.  DragonSpyre, the Corn Maize, the Sinister Forest,
+Jher, and Ofingia all connect off this zone on Dibrova.  It is not a
+particularly stand-out zone, but is a decent enough connector zone.
+
+
+Zone 263 is linked to the following zones:
+257 Jareth Main City               at 26300 (east ) ---> 25756
+~
+S
+#26301
+Western Road~
+   Just west of you is a fork in the road, which splits northwest and southwest
+from the main road.  East of you is the entrance to the city of Jareth.  
+~
+263 0 2
+D1
+~
+~
+0 0 26300
+D3
+~
+~
+0 0 26302
+S
+#26302
+Western Fork~
+   The road forks here, heading north and south, both directions turning west
+again immediately.  It looks as if the northern path heads toward the mountains
+and some deep forest, while the southern road heads deep into the farmlands
+outside Jareth.  East is the entrance to the city.  
+~
+263 0 0
+D0
+~
+~
+0 0 26349
+D1
+~
+~
+0 0 26301
+D2
+~
+~
+0 0 26304
+S
+#26303
+DragonTooth Road~
+   Currently under construction - comr bsck soon!  
+~
+263 0 0
+D2
+~
+~
+0 0 26302
+S
+#26304
+Western Road~
+   The road heads west into the farmlands which feed most of Jareth.  Northeast
+from here, you see the gates to the city of Jareth.  To the south begins a long,
+dusty trail which heads out into a very desolate looking plains area.  
+~
+263 0 2
+D0
+~
+~
+0 0 26302
+D3
+~
+~
+0 0 26305
+S
+#26305
+Western Road~
+   The road runs east and west from here, with farmsteads lying to the west.  
+It seems that this road must be a well policed area, judging from the traffic
+passing you by, all with almost no regard for their safety, as if the last thing
+on their mind would be that they might be waylaid or attacked.  Northeast from
+here, you see the gates to Jareth, west the road continues toward a large lake
+and the many farms of this area.  
+~
+263 0 2
+D1
+~
+~
+0 0 26304
+D3
+~
+~
+0 0 26306
+S
+#26306
+Western Road~
+   The road runs east and west from here.  To the north, a small farm lies
+nestled in a large pasture.  From the smell of it, it must be a dairy farm.  
+~
+263 0 2
+D0
+~
+~
+0 0 26307
+D1
+~
+~
+0 0 26305
+D3
+~
+~
+0 0 26310
+S
+#26307
+Dairy Farm~
+   As you enter through the wood gates which keeps the cows from running away,
+you realize that if you plan to stay here for any length of time, you will need
+to watch your step very carefully.  A barn lies to your north, to the south is
+the main Western Road.  
+~
+263 0 0
+D0
+~
+~
+0 0 26308
+D2
+~
+~
+0 0 26306
+S
+#26308
+Hay Barn~
+   Aaaahhh-Chooo!  The hay from this place makes your eyes itch and your nose
+run.  A few stalls lie along the east wall for milking, and a ladder leads up
+into the loft.  
+~
+263 0 0
+D2
+~
+~
+0 0 26307
+D4
+~
+~
+0 0 26309
+S
+#26309
+Hay Loft~
+   The hay and dust and heat of this room makes it almost hard for you to
+breathe.  Hay lies stacked neatly on the west side of this room, ready to feed
+the cows with.  
+~
+263 0 0
+D5
+~
+~
+0 0 26308
+S
+#26310
+Western Road~
+   The roads runs east and west throught the many farmsteads of this area.  To
+the west, you see a large lake, and to the south a dirt driveway leads to a
+large farmhouse.  
+~
+263 0 2
+D1
+~
+~
+0 0 26306
+D2
+~
+~
+0 0 26311
+D3
+~
+~
+0 0 26318
+S
+#26311
+Driveway~
+   This dirt drive leads south to a huge horse farm.  This must be where all the
+horses for the city are raised, bred and sold at market.  The drive leads south
+to the farm itself or you may head north onto the Western Road.  
+~
+263 0 0
+D0
+~
+~
+0 0 26310
+D2
+~
+~
+0 0 26312
+S
+#26312
+Driveway~
+   The drive leads south to a large dirt court in front of the home and barn of
+Girschwyn the Horseman.  To the north drive continues until it T's off on the
+Western Road.  
+~
+263 0 0
+D0
+~
+~
+0 0 26311
+D2
+~
+~
+0 0 26313
+S
+#26313
+Dirt Court~
+   This dirt court is used mainly for the loading and unloading of the many fine
+steeds Girschwyn sells to his customers.  A large barn lies to the north,
+Girschwyn's home lies to the west and the fields lie directly south.  
+~
+263 0 0
+D0
+~
+~
+0 0 26312
+D1
+~
+~
+0 0 26314
+D2
+~
+~
+0 0 26316
+D3
+~
+~
+0 0 26317
+S
+#26314
+Barn~
+   This huge edifice holds stall upon stall for the many horses Girschwyn and
+his team of professional stablemen raise and train.  To the south is the
+entrance to the fields, and west leads out into the dirt court.  
+~
+263 d 0
+D2
+~
+~
+0 0 26315
+D3
+~
+~
+0 0 26313
+S
+#26315
+Pasture~
+   This pasture seems to go on forever.  All around you horses graze or sleep,
+almost all of them seem to be of fine, quality stock.  Better watch out, though,
+if Farmer Girschwyn finds you here, he may get the wrong idea.  To the east is a
+huge field of corn which you may enter into.  Be careful, though, it looks like
+it would be pretty easy to get lost in there.  
+~
+263 0 2
+D0
+~
+~
+0 0 26314
+D3
+~
+~
+0 0 26316
+S
+#26316
+Pasture~
+   This field is so immense, you cannot see the end of it to the south.  Horses
+graze or sleep everywhere and anywhere.  To the north is the dirt court, and
+east is more field.  
+~
+263 0 2
+D0
+~
+~
+0 0 26313
+D1
+~
+~
+0 0 26315
+S
+#26317
+Girschwyn's Home~
+   This house is not the opulent horse baron's house you would have expected
+from a rich horse trader like Girschwyn.  Instead, it is a comfortable country
+home, complete with worn couches and an old fireplace, which is currently not
+lit.  The exit from this fine home is to the east.  
+~
+263 d 0
+D1
+~
+~
+0 0 26313
+E
+play~
+   You punch out an old tune about a boy named Johnny B Good.  You rock!  
+~
+S
+#26318
+Western Road~
+   The road heads east through the many farms of Jareth city limits.  To the
+west is the shore of a huge lake.  The path seems to split, heading around the
+lake in both directions.  
+~
+263 0 2
+D1
+~
+~
+0 0 26310
+D3
+~
+~
+0 -1 26319
+S
+#26319
+Lake's Edge~
+   The road splits off here, going it's seperate ways around the lake, one split
+heading north, one heading south.  The trail also heads east through the fertile
+farmlands of Jareth.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26336
+D1
+~
+~
+0 -1 26318
+D2
+~
+~
+0 -1 26320
+S
+#26320
+Lake's Edge~
+   The road heads west and north from here, around the lake.  You see a farm to
+the southwest.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26319
+D3
+~
+~
+0 -1 26321
+S
+#26321
+Lake's Edge~
+   The road heads east and west from here.  Just west of you, a dock juts out
+into the lake.  Across the road from the dock is farmstead, with rows upon rows
+of wheat and corn growing in the fields just south of here.  
+~
+263 0 2
+D1
+~
+~
+0 -1 26320
+D3
+~
+~
+0 -1 26322
+S
+#26322
+Lake's Edge at the Dock~
+   A dock runs out into the water just north of you, most probably used for
+fishing.  Just south of you is a moderate-sized farmstead.  The road runs east
+and west from here.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26323
+D1
+~
+~
+0 -1 26321
+D2
+~
+~
+0 -1 26324
+D3
+~
+~
+0 -1 26328
+S
+#26323
+Dock~
+   This small wooden dock seems just a bit too rickety for you to feel all that
+comfortable.  Doesn't seem to bother Erik, though, the little guy seems
+perfectly content here, swaying on this old construct.  
+~
+263 0 2
+D2
+~
+~
+0 -1 26322
+S
+#26324
+Farmstead~
+   This average sized, fenced-in farm yard holds the machinery and animals
+needed to plow, plant, mow the fields which this farm is responsible for
+maintaining.  South and east of you are wheat and corn fields, respectively.  
+Just west of you is a house.  The road is just north of you.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26322
+D1
+~
+~
+0 -1 26325
+D2
+~
+~
+0 -1 26326
+D3
+~
+~
+0 -1 26327
+S
+#26325
+Corn Field~
+   Row upon row of corn surrounds you.  The leaves tickle you as you brush by
+them, the stalks swaying gently with the breeze.  
+~
+263 0 2
+D3
+~
+~
+0 -1 26324
+S
+#26326
+Wheat Field~
+   Looks as is the wheat crop has already been harvested for this year.  The
+ground, strewn with mud and leaves, looks as if it has seen some large machinery
+come through lately.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26324
+S
+#26327
+Farm House~
+   This single story, one room home holds the main dining table, bunks, and
+cooking facilities for Krandle and all of his farmhands.  Looks as if the wheat
+and corn industry may not be the most profitable one in Jareth.  
+~
+263 d 0
+D1
+~
+~
+0 -1 26324
+S
+#26328
+Lake's Edge~
+   The road runs east and west from here, around the lake.  A farm lies just
+southeast of you, to the northeast you see a dock which leads out into the lake.
+
+~
+263 0 2
+D1
+~
+~
+0 -1 26322
+D3
+~
+~
+0 -1 26329
+S
+#26329
+Lake's Edge~
+   The road turns here, heading north and east around the lake.  Just north of
+here, the road splits off from the lake and heads west into the farmlands.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26330
+D1
+~
+~
+0 -1 26328
+S
+#26330
+Lake's Edge~
+   The road splits here, heading north and south around the lake, but also
+heading off west into more farmland.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26331
+D2
+~
+~
+0 -1 26329
+D3
+~
+~
+0 -1 26337
+S
+#26331
+Lake's Edge~
+   The road makes a turn, following the lake shore, heading east and south.  To
+the south you see that the road splits away from it's course around the lake and
+heads west out into farmland.  
+~
+263 0 2
+D1
+~
+~
+0 -1 26332
+D2
+~
+~
+0 -1 26330
+S
+#26332
+Lake's Edge~
+   The road continues to twist and turn it's way around the lake shore.  You may
+continue north and west from here.  Strangely enough, a path seems to lead right
+into the water, and it looks as if the path continues on into the depths of the
+lake.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26333
+D3
+~
+~
+0 -1 26331
+S
+#26333
+Lake's Edge~
+   The road turns again, running along the lake's edge.  You may head east or
+south from your current locale.  
+~
+263 0 2
+D1
+~
+~
+0 -1 26334
+D2
+~
+~
+0 -1 26332
+S
+#26334
+Lake's Edge~
+   The road makes another turn here, allowing passage west and south from here.
+You think you may see a small path leading north throught the high grass and
+into the forest, but you can't be sure.  
+~
+263 0 2
+D0
+~
+~
+0 0 26348
+D2
+~
+~
+0 -1 26335
+D3
+~
+~
+0 -1 26333
+S
+#26335
+Lake's Edge~
+   The road turns again, heading north and east.  The lake you are following
+along seems quite large, and across on the opposite shore, you think you may see
+a bit of aqueduct work.  This lake is most probably the water source for most of
+the farmers in the area.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26334
+D1
+~
+~
+0 -1 26336
+S
+#26336
+Lake's Edge~
+   The road follows the shore of this large lake, twisting and turning as the
+lake's edge demands.  You may head west or south from here.  To the south, you
+see that the road splits away from it's travels around the lake and heads east
+into the country.  
+~
+263 0 2
+D2
+~
+~
+0 -1 26319
+D3
+~
+~
+0 -1 26335
+S
+#26337
+Western Road~
+   The road runs west, heading out of the farmlands and into a more damp climate
+region.  East of you, the road splits, following around a large lake's edge.  
+To the north, you see the last farmstead on this western edge of Jareth's City
+Limits.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26338
+D1
+~
+~
+0 -1 26330
+D3
+~
+~
+0 -1 26342
+S
+#26338
+Farm~
+   The rickety, unpainted wooden fence surrounding this yard looks as if it has
+seen better days, assuredly.  The yard is littered with debris, some of which
+you probably should not even try guessing it's origin, and the smell - whoa.  
+There is a barn north of here, it's rickety walls barely standing.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26339
+D2
+~
+~
+0 -1 26337
+S
+#26339
+Smelly Barn~
+   Better hope you didn't wear you blue suede shoes, pal, because they are now
+black suede shoes if you did.  The amount of excrement piled everywhere in this
+barn makes keeping your feet clean an impossibility.  West of you is a pig yard
+and east is the chicken yard.  South exits into open, clean air.  
+~
+263 0 2
+D1
+~
+~
+0 -1 26340
+D2
+~
+~
+0 -1 26338
+D3
+~
+~
+0 -1 26341
+S
+#26340
+Chicken Yard~
+   The yard here is so cluttered with chickens clucking around your feet, you
+almost trip and fall.  All the chickens cluster around you, waiting for you to
+throw them some seeds.  
+~
+263 0 2
+D3
+~
+~
+0 -1 26339
+S
+#26341
+Pig Wallows~
+   This disgusting, soupy mess that is called a pig's home is beyond gross.  
+The pigs here roll on their back in shallow puddles, looking as pigs in...  
+Well, you know.  Kind of makes you glad you never decided to be a farmer, eh?  
+~
+263 0 2
+D1
+~
+~
+0 -1 26339
+S
+#26342
+Western Road~
+   The road heads east and west.  To your east, Jareth's many farmlands can be
+entered, leading eventually the city itself.  West of you the unknown begins.  
+The land on either side of the road seems to be getting a bit more soft and wet,
+as if you may be coming into a swampy region.  
+~
+263 0 2
+D1
+~
+~
+0 -1 26337
+D3
+~
+~
+0 -1 26343
+S
+#26343
+Western Road~
+   The road still heads to the east and west from here, however there is a small
+path leading through some twisty, gnarled trees to your north.  
+~
+263 0 2
+D0
+~
+~
+0 -1 26345
+D1
+~
+~
+0 -1 26342
+D3
+~
+~
+0 -1 26344
+S
+#26344
+Western Road~
+   The road runs east to west from you.  To the east you can see a few
+farmsteads dotting the countryside, where the land flattens out and allows for
+that sort of work to be done.  The way west leads toward the ever-present Dragon
+Tooth Mountains, which seem to surround this whole land.  
+~
+263 0 2
+D1
+~
+~
+0 -1 26343
+D3
+~
+~
+0 -1 26346
+S
+#26345
+Murky Path~
+   This path does not seem all too dry or friendly, nor do the trees which begin
+to be more prevalent the farther north you go.  The way becomes darker from the
+trees that seem to close in around the path and your senses scream at you to go
+back.  
+~
+263 0 3
+D2
+~
+~
+0 -1 26343
+S
+#26346
+Western Road~
+   Further and further into the mountains you travel, the maples and oaks of the
+farmlands giving way to evergreens and more versatile shrubbery.  The path
+continues it's way west and east from you and a small offshoot heads south as
+well.  
+~
+263 0 5
+D1
+~
+~
+0 -1 26344
+D2
+~
+~
+0 0 26350
+D3
+~
+~
+0 0 26352
+S
+#26347
+Gnarled and Twisty Path~
+   This zone not yet complete - come again soon!  
+~
+263 0 3
+D2
+~
+~
+0 -1 26345
+S
+#26348
+Small Dark Path~
+   The path immediately leaves behind the cheery farmland and lake area to the
+south, becoming completely enclosed by trees and tall growth.  It heads north
+deeper into the dark forest, but a word to the wise, south looks much more safe
+and inviting.  
+~
+263 ag 3
+D2
+~
+~
+0 0 26334
+S
+#26349
+Thinning Trail~
+   The trail all but disappears almost immediately as you begin your way north
+toward the forest just ahead.  You begin to feel the beginnings of a very bad
+feeling in your gut, one that can only be described as terror, the kind of
+terror that only nameless, faceless unknowns can inspire.  Your gut tells you
+that ahead lies trouble, pain, and possibly death.  The lake and the farmlands
+south of you begin to look very friendly through the trees, now.  This is your
+chance to turn back...  
+~
+263 0 3
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 26302
+S
+#26350
+Rocky Path~
+   This is barely sutable to be called a path at all, as you can hardly make it
+through the jumble of rocks and boulder which litter the way.  Just south of you
+it looks as if the path may come to a dead end.  The mountain wall rises
+alongside you to the east high into the clouds.  There is a crack in the
+mountain face just east of here.  
+~
+263 0 5
+D0
+~
+~
+0 0 26346
+D1
+~
+~
+0 0 26301
+D2
+~
+~
+0 0 26351
+S
+#26351
+A Dead End Path~
+   The path has come to a dead end before a huge boulder set into the side of a
+tall rocky cliff.  The only apparent way out of here is north, the way you came
+from .
+~
+263 0 5
+D0
+~
+~
+0 0 26350
+D2
+~
+boulder~
+1 0 26300
+S
+#26352
+Western Road~
+   More and more, evidence of mountain country becomes evident the farther west
+you travel.  The road is now more loose stones and pebbles scattered over large
+rocks and boulders rather than the hard packed dirt that was the road back in
+the farmlands.  You see that the road crosses a natural bridge to the west, both
+sides of the road sloping steeply down in forestlands.  There have been no rails
+erected so you probably should watch your step.  And watch for loose gravel!  
+~
+263 0 5
+D1
+~
+~
+0 0 26346
+D3
+~
+~
+0 0 26353
+S
+#26353
+Western Road~
+   You stand at the eastern end of the long natural bridge that spans either
+side of a deep, dark forest.  A forest who's floor lies close to five hundred
+feet below where you now stand.  The way to the west looks precarious, at best,
+the east looks much more safe.  Do you REALLY think you need to go west?  
+~
+263 0 5
+D1
+~
+~
+0 0 26352
+D3
+~
+~
+0 0 26354
+S
+#26354
+Western Road~
+   You stand on this sliver of rock jutting up from the forest floor, the road
+just wide enough for one cart.  You look to either side and try and suppress the
+shiver that threatens to run through your body and knock your balance off
+kilter.  Of course, most of the terror you feel is in your head, you have a good
+three feet of width, you still feel very uneasy about your current location and
+situation.  Amazingly, you see that there is some sort of trail leading down the
+north and south sides of the cliff, way down deep into the dark forests below.
+You would have to be insane to try and climb down that 'trail'!  
+~
+263 0 5
+D0
+~
+~
+0 0 26300
+D1
+~
+~
+0 0 26353
+D3
+~
+~
+0 0 26355
+S
+#26355
+Western Road~
+   You stand high above the rest of the world, or so it seems, standing here on
+this jut of rock that rises up from the forests below.  To the east the rock
+walkway heads toward safe, lush ground which heads toward Jareth's farmlands.  
+To the west the walkway leads you deeper into a mountainous region, a region
+which is, to your knowledge, largely unexplored.  
+~
+263 0 0
+D1
+~
+~
+0 0 26354
+D3
+~
+~
+0 0 26356
+S
+#26356
+Western Road~
+   Just west of you is solid, safe ground, but here, where you now stand, is
+definately NOT solid safe ground.  You stand on a tall rock walkway which spans
+between two cliff faces roughly five hundred feet apart.  The walkway runs east
+toward the far face which seems lush with vegetation and life.  The western
+face, which you stand very close to now, seems to be the exact opposite of the
+eastern face.  Jumbled rock and scree litter the ground near the walkway's
+start, but no trace of greenery can you see anywhere.  Looking down, you see
+that the walkway spans over very large and very dark forests, one on either
+side.  Caution might be advised when crossing this bridge.  
+~
+263 0 5
+D1
+~
+~
+0 0 26355
+D3
+~
+~
+0 0 26357
+S
+#26357
+Western Road~
+   You stand at the western-most end of a narrow rock walkway which spans the
+length of a huge dark forest, miles beneath it's top.  It looks safe enough for
+crossing, but caution might be a good idea when attempting to traverse this
+precarious bridge.  
+~
+263 0 5
+D1
+~
+~
+0 0 26356
+S
+#0
+
+#RESETS
+M 0 26314 1 26339 	(Suzarre the Pig Woman)
+E 1 26318 1 6 	(a straw hat)
+E 1 26319 500 8 	(some steel-toed boots)
+D 0 26351 2 1 	(A Dead End Path)
+M 0 26311 5 26328 	(a frog)
+M 0 26311 5 26321 	(a frog)
+M 0 26311 5 26335 	(a frog)
+M 0 26311 5 26332 	(a frog)
+M 0 26311 5 26330 	(a frog)
+M 0 26316 2 26340 	(a chicken)
+M 0 26316 2 26340 	(a chicken)
+M 0 26318 1 26340 	(a feeder)
+M 0 26315 3 26341 	(a pig)
+M 0 26315 3 26341 	(a pig)
+M 0 26315 3 26341 	(a pig)
+M 0 26317 1 26341 	(the slopper)
+M 0 26309 1 26324 	(Krandle)
+G 1 26313 1 -1 	(a piece of straw)
+E 1 26314 1 7 	(a pair of rawhide pants)
+E 1 26315 1 16 	(a scythe)
+M 0 26311 1 26325 	(a frog)
+M 0 26310 1 26323 	(Erik)
+E 1 26316 1 17 	(a skipping stone)
+G 1 26317 1 -1 	(a bamboo fishing pole)
+M 0 26303 1 26309 	(the tramp)
+G 1 26301 1 -1 	( a patchwork bag)
+E 1 26304 1 6 	(a floppy cloth hat)
+E 1 26305 1 12 	(a patchwork cloak)
+M 0 26307 1 26315 	(a tractor)
+M 0 26306 2 26316 	(the farmhand)
+M 0 26306 2 26314 	(the farmhand)
+M 0 26305 1 26317 	(Girschwyn)
+E 1 26309 1 16 	(a horse whip)
+E 1 26310 1 17 	(some rope)
+E 1 26311 1 8 	(a pair of riding boots)
+E 1 26312 1 6 	(a horseman's hat)
+M 0 26302 1 26308 	(Patty)
+G 1 26300 1 -1 	(a pail)
+E 1 26306 1 5 	(a flowered dress)
+M 0 26304 4 26308 	(a cow)
+M 0 26300 1 26307 	(Ernie)
+E 1 26302 1 8 	(a pair of rubber boots)
+E 1 26303 1 12 	(a cowhide jacket)
+M 0 26301 1 26307 	(Sandy)
+R 0 26308 26307 -1 	(a stool)
+O 1 26307 1 26308 	(a stool)
+R 0 26317 26308 -1 	(a piano)
+O 1 26308 1 26317 	(a piano)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

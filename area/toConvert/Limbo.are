@@ -1,0 +1,1995 @@
+#Style Circle
+#AREADATA
+Name Limbo~
+Builders DikuMUD~
+VNUMs 0 99
+Credits {{None}  CAW    Limbo~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#1
+Puff dragon fractal~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+   Is that some type of differential curve involving some strange, and unknown
+calculus that she seems to be made out of?  
+~
+bdnopqr dkp 1000 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+BareHandAttack: 12
+E
+T 1333
+#2
+cleric healer~
+the healer~
+A healer in a white luminescent robe is tending to the wounded.
+~
+   Nothing.  This beautiful woman at one time used to piously offer her healing
+skills to any in need.  But times are rough and now she can only afford to help
+those that are just starting their adventures.  Type 'heal' to see what services
+she offers.  
+~
+abdnopr 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+#3
+questmaster~
+the questmaster~
+The questmaster is waiting for a brave adventurer to step forth.
+~
+   Many adventurers come here to seek glory by attempting to solve the quests
+given to them by this old man.  The quests are not easy, sometimes nearly
+impossible.  But they will always be a challenge.  The questmaster looks at you
+and says, 'help autoquest should show you all you need to know'.  
+~
+bdnopr 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#4
+healer~
+the healer~
+A healer in a white luminescent robe is tending to the wounded.
+~
+   This beautiful woman at one time used to piously offer her healing skills to
+any in need.  But times are rough and now she can only afford to help those that
+are just starting their adventures.  Type 'heal' to see what services she
+offers.  Type 'heal <spell>' to buy one of her spells.  
+~
+bdnopqr 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+#5
+jack russell~
+Jack Russell~
+Jack Russell hunts with his dogs.
+~
+   The Jack Russell takes its name from the Reverend John Russell who bred one
+of the finest strains of terriers for working fox in Devonshire, England in the
+mid-to-late 1800's.  Rev.  Russell (1795-1883), apart from his church
+activities, had a passion for fox hunting and the breeding of fox hunting dogs
+he is also said to be a rather flamboyant character, probably accounting for his
+strain of terrier's notability and the name of our terrier today.  
+~
+d 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+#6
+john russell~
+John Russell~
+John Russell seems to have lost his dog.
+~
+   John Russell maintained his strain of fox terriers bred strictly for working,
+and the terrier we know of today as the Jack Russell is much the same as the
+pre-1900's fox terrier.  The Jack Russell has survived the changes that have
+occured in the modern-day Fox Terrier because it has been preserved by working
+terrier enthusiasts in England for more than 100 years.  
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#7
+jack russell terrier~
+the Jack Russell terrier~
+A Jack Russell terrier is following a scent.
+~
+   Jack Russell Terriers are a type, or strain, of working terrier they are not
+purebred in the sense that they have a broad genetic make-up, a broad standard,
+and do not breed true to type.  You will see different "types" of JRTs, from
+long-bodied, short, crooked legs to a more proportioned length of body and
+longer legs.  This is a result of having been bred strictly for hunting since
+their beginning in the early 1800's, and their preservation as a working breed
+since.  
+~
+bd 0 0 E
+34 15 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#8
+wishbone~
+Wishbone~
+Wishbone begins yet another adventure.
+~
+   Wishbone is a Jack Russell Terrier played by a dog named Soccer.  This
+adorable little actor has his own series on PBS and gets credit for introducing
+children to over 40 stories from classic literature.  Wishbone became so popular
+after his series started in 1994 that he now has his own line of children's
+books and plush toys.  
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#9
+sick looking dog~
+a sick looking dog~
+A sick looking dog gags on something in its mouth.
+~
+   The dog is unkept and unhealthy.  It does not look like it has been eating
+very well.  
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+T 95
+#10
+clone~
+the clone~
+A boring old clone is standing here.
+~
+   This clone is nothing to look at.  No, really, it is quite boring.  
+~
+bdnopr 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#11
+zombie undead humanoid~
+the zombie~
+A strange humanoid is here.  How odd, its flesh seems to be falling off!
+~
+   This strange humanoid is moving rather slowly, and appears to be a corpse, a
+walking corpse!  It must be a zombie or something of the sort.  
+~
+bdnopr 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+BareHandAttack: 7
+E
+#12
+moose eddie~
+Moose, the Jack Russel Terrier~
+Moose is lounging about enjoying his fame.
+~
+   Moose is the name of the cute little Jack Russell Terrier who became famous
+when he landed the role of Eddie in the TV show Frasier.  Moose is also a
+leading star in the movie My Dog Skip and is known for his performances
+throughout the U.  S.  Currently Moose lives in Los Angeles with two of his
+sons, Enzo and Moosie.  
+~
+bd 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#13
+kind soul~
+a kind soul~
+A very kind and caring soul is here looking out for those who need it.
+~
+   She immediately reminds you of your mother.  Constantly worrying about
+everyone and everything.  She is always around to help out those who have hit
+hard times and need a little boost.  
+~
+bdnopqr 0 0 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+T 94
+#19
+aerial servant shape~
+the aerial servant~
+An amorphous shape is floating in the air.
+~
+   As you stare at this amorphous shape, it begins to appear to take the shape
+of a cloud-like humanoid.  
+~
+bdnopr 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#20
+elemental~
+the elemental~
+An elemental is standing patiently here.
+~
+   This creature is the essence of the elements, and appears to be waiting
+patiently for something to occur.  
+~
+bdnopr 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#98
+travelling saleswoman woman~
+the travelling saleswoman~
+This saleswoman is laden with gagdets and gizmos that are outrageously priced.
+~
+   A combination of good business sense, charming personality, and good looks
+has made her a success at pushing useless products on uneducated buyers.  Only
+on a rare occasion does she sell anything useful.  
+~
+bd 0 0 E
+33 15 -9 6d6+330 5d5+5
+330 108900
+8 8 2
+E
+T 98
+#99
+death reaper~
+Death~
+Death the Grim Reaper is observing you silently from empty eye sockets.
+~
+   The dark-robed skeletal figure radiates an unendurable coldness.  
+~
+bdelnopqr dfhkp 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#0
+
+#OBJECTS
+
+#1
+wings~
+a pair of wings~
+A pair of wings is sitting here.~
+~
+9 0 ae 0
+6 0 0 0
+1 0 0 0
+#2
+fire ball fireball~
+a fireball~
+A fireball lies here burning.~
+~
+13 0 ao 0
+0 0 0 0
+1 0 0 0
+#3
+ruby red slippers~
+a pair of ruby slippers~
+A pair of ruby slippers lies here.~
+~
+13 0 ag 0
+0 0 0 0
+1 0 0 0
+#4
+emails listing~
+an email listing of the gods~
+The email listing of the gods is pinned against the wall.~
+
+Name                 Email                      ICQ #               
+
+Welcor               welcor@@dune.net           18755607
+Rumble               rumble@@dune.net           100121659          
+Fyre                 fyre@@dune.net
+Relsqui              elsabett@@aol.com
+Radiax               radiax01@@msn.com 
+~
+16 0 a 0
+0 0 0 0
+1 0 0 30
+#5
+foraged berries~
+some foraged berries~
+A few discolored berries that someone foraged.~
+~
+19 0 a 0
+6 0 0 0
+1 10 0 0
+E
+berries foraged~
+   These blue, red, and even green berries look edible.  Though you do wonder
+about all those stories of poisonous berries out in the woods.  These don't
+smell bitter, so they must be fine.    
+~
+#6
+greens forage~
+some foraged greens~
+Someone has foraged some greens to eat, but just left them here.~
+~
+19 0 a 0
+4 0 0 0
+1 20 0 0
+E
+foraged greens~
+   An assortment of leaves and grasses that look rather bland.  But if you had
+to a person could survive off this meager cuisine.  After all, how do you think
+all these animals live out here.    
+~
+#7
+foraged roots~
+some foraged roots~
+A pile of roots that someone collected for dinner.~
+~
+19 0 a 0
+8 0 0 0
+2 30 0 0
+E
+roots foraged~
+   Tubular roots of varying sizes and colors.  They look very edible.  Some of
+them are known to even taste good!  You recognize on of a purplish hue that is
+extremely sweet and is actually considered a delicacy in some parts.    
+~
+#8
+foraged bark~
+some foraged bark~
+A pile of bark is stacked neatly infront of you.~
+~
+19 0 a 0
+3 0 0 0
+3 15 0 0
+E
+foraged bark~
+   Now this is gross!  It must be desperate times when you have to turn to
+eating tree bark.  This stuff is still green luckily so it has some moisture to
+it.  But you really aren't going to eat this are you?    
+~
+#9
+foraged nuts~
+some foraged nuts~
+Half a dozen nuts are lined up perfectly on the ground.~
+~
+19 0 a 0
+5 0 0 0
+1 10 0 0
+E
+nuts foraged~
+   A variety of nuts that are very hard to come by.  Various animals hoard
+these in their lairs, so if you are lucky enough to come across some then you
+can just go nutty!    
+~
+#10
+waybread bread~
+a waybread~
+Some waybread has been put here.~
+~
+19 0 a 0
+24 0 0 0
+1 50 0 0
+E
+waybread bread~
+The waybread is the traditional feed of elves when travelling, they
+call it lembas.  It is said to refresh the weary traveler greatly.
+~
+#11
+water spring water~
+the spring~
+Fresh water is bubbling up from a spring.~
+~
+23 0 0 0
+100 100 0 0
+105 0 0 0
+#12
+staff sanctum~
+the Staff of Sanctum~
+The Staff of Sanctum stands here waiting to be taken up by those who are worthy.~
+~
+5 0 ano 0
+5000 500 50 7
+20 0 0 30
+T 13
+#13
+Ferret's black book~
+the little black book~
+A little black book is sitting here calling your name.~
+~
+12 bgi 0 0
+0 0 0 0
+0 0 0 0
+E
+book~
+Upon these pages are players that have upset Ferret and will not receive help!
+
+
+Demigod
+Saint
+Angel
+Phoenix
+Alexander
+&w(Maybe you!)&y
+~
+#14
+pile stool steaming~
+a steaming pile of stool~
+A steaming pile of stool has recently been deposited here.~
+~
+19 0 a 0
+0 0 0 0
+1 1 0 0
+#20
+portal gate gateway~
+a shimmering portal~
+A shimmering portal hovers here forming a gateway to another place and time.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#21
+sword quest War's Blood~
+<-=War's Blood=->~
+The sword of kings awaits a hero to wield it.~
+~
+5 abdgimnoq ano 0
+8 10 5 3
+1 1000000 0 30
+E
+sword quest war's blood~
+   The blade of this beautiful weapon is inlaid with tiny wavelets.  The guard
+extends far out from the basket hilt, guarding the wielder from all attacks.  
+Engraved across the blade are these words.  "Seek not death.  Seek not triumph.
+Seek wisdom, honor, and truth.  For I wield the spirit of my wielder, and blood
+of heroes never dies.  " These words are written in golden runes across the
+polished steel of the blade.  War's blood is given only to those warriors meant
+for greatness.  Remember, the sword wields the spirit of its master.    
+~
+A
+18 8
+A
+19 8
+A
+1 4
+A
+2 4
+A
+5 4
+A
+17 -20
+#22
+Shadow Stealer dagger quest~
+shadow stealer~
+A piece of deepest midnight calls to you here.~
+~
+5 bdgmnpq ano 0
+10 9 5 11
+1 1000000 0 30
+E
+shadow stealer dagger quest~
+This long, thin dagger is made of the blackest metal you have ever seen.  It
+seems to devour all the light in its vicinity, making it appear as if it were a
+part of the very night.  As you look at the blade and hilt, you can make out an
+inscription which travels from the point of the weapon, to its ornately
+engraved pommel.  "Who so ever would let blood for love, who so ever would make
+war upon death, who so ever would give their life to love, make war with my
+darkness.  " Wield this fabled blade of lost love, and become one with the
+shadows.    
+~
+A
+2 6
+A
+14 80
+A
+18 9
+A
+19 6
+A
+6 3
+A
+21 -5
+#23
+staff spellfire quest~
+the staff of spellfire~
+A burning staff of magical power floats in the air under its own power.~
+Nothing.
+~
+5 abdfginopq ano 0
+6 2 25 7
+1 1000000 0 30
+E
+staff spellfire quest~
+   Wrought of the pure weave, bound by mortal spells, wielded by only the
+highest of sorcerers, this staff is a burning rod of pure magic.  The white
+flame that gives it substance flickers and flares as you watch, threatening to
+break its magical wards and devour its surroundings.  As you hold this weapon,
+these words are burned into your mind.  "From the flash to the flame, my light
+shall guide the wizardry with wisdom.  From the beginning to the end, there
+will I be; to weave the one force eternal.  "
+~
+A
+4 3
+A
+3 6
+A
+24 -8
+A
+18 6
+A
+12 100
+A
+19 6
+#24
+mace quest divine blessing~
+the mace of divine blessing~
+A gift from the gods is here seeking a worthy mortal.~
+~
+5 abdgimopq ano 0
+10 5 9 7
+1 1 0 30
+E
+mace quest divine blessing~
+This heavy iron mace hums with suppressed power.  Its surface is engraved with
+thousands of tiny runes of all the deities that have ever been and ever will
+be.  Written across the flanges of the head are these words, "Let faith be the
+beginning.  Let the body be its instrument.  Let divinity flow through the
+wielder of my force.  Believe and be blessed.  "
+~
+A
+4 6
+A
+3 3
+A
+18 8
+A
+19 6
+A
+12 80
+A
+13 50
+#25
+silver bow quest~
+the silver bow of the light.~
+A mighty force for good seeks a champion of the light.~
+~
+5 abdgiklq ano 0
+10 6 10 14
+1 1000000 0 30
+E
+silver bow quest light~
+Resplendent as the sun, this bow of pure silver seems to exude purity and
+goodness.  The bow itself is a shaft of pure silver, inscribed with sunbursts
+and lightning bolts.  Its string is a thread of purest white light that
+shimmers as you look at it.  No arrow is needed for this mighty weapon.  Its
+wielder need never carry a quiver.  If you listen closely, you can hear the
+weapon humming with its own energy.  If you listen long enough you might here
+these words in its song.  "Let light banish darkness.  Let Hope banish fear.  
+I am the herald of the end.  Where I strike, only light remains.  "
+~
+A
+12 100
+A
+13 50
+A
+18 10
+A
+19 8
+A
+17 -30
+A
+20 -9
+#26
+spear balance quest~
+--the-spear-of-balance-->~
+The greatest symbol of balance seeks the hearts of evil and good alike.~
+~
+5 abdgjkq ano 0
+10 10 6 11
+1 1000000 0 30
+E
+spear quest balance~
+The Lance of heroes.  The spear of mortal man.  The shaft of this legendary
+pike is carved from the wood of the tree of life.  Though separated from the
+tree that gave it life, the wood is a living, thinking entity.  Full 6 feet in
+length, the shaft's wood is smooth and unbroken by any scratch or mark.  The
+head of the spear is a huge dragon's fang, rumored to be from the mouth of the
+god Balm himself.  Etched in runes across the head of the spear are these
+words.  "Find gray where only black and white were before.  Seek truth where
+others seek good and evil.  Bring justice through the scales of balance.  Then
+may you wield the truth that is my gift.  "
+~
+A
+12 75
+A
+13 75
+A
+18 9
+A
+19 9
+A
+21 -9
+A
+17 -25
+#27
+axe quest doomslaying~
+the axe of doomslaying~
+The axe meant to end all that is good in the realms floats here seeking a head to remove.~
+~
+5 bdgjlq ano 0
+10 12 5 3
+1 1000000 0 30
+E
+axe doomslaying quest~
+Darkest midnight, purest evil, death embodied.  This weapon is the end of all
+that is good.  Made only of shadows and the taint that is the most obscene
+corruption, the head of this axe is jagged and spiked.  The blade is balanced
+by a wicked spike giving this ancient weapon the look of a warped headsman's
+axe.  No light seems to reach it, no living thing seeks its touch.  Tendrils of
+sickly smoke rise from the blade tainting your thoughts and the very air around
+you.  It calls you, it draws you.  "Wield me, worship me, watch me take the
+blood of the pure.  Become one with my taint.  Feel the foulness fermenting
+your soul.  Accept evil, accept the shadow.  Wield me and become death.  
+Become immortal.  "
+~
+A
+18 8
+A
+19 10
+A
+12 50
+A
+13 100
+A
+1 6
+A
+2 6
+#28
+cap quickling quest~
+the cap of quickling~
+A small cap of the faerie folk seeks the grasp of a true quickling.~
+~
+11 dfgq ae 0
+0 0 0 0
+1 0 0 30
+E
+cap quickling quest~
+This small green cap is made of a fine velvet lined with silk.  It's material
+seems to conform to your touch, as if trying to accommodate itself to your
+grasp.  Its only distinctive feature is a emerald studded silver stickpin
+jutting jauntily out of the front of the cap.  A peace of silk ribbon forms a
+band around the inside of the brim.  These words have been embroidered into the
+cap's material.  "The world is a wonder.  A wonder to wander.  To wander the
+wonderful world.  That is the life of a sprite.  Come my brothers, for much is
+lost that we may find.  Come my sisters, for many are lost that we may love.  
+Happiness is a laugh away.  Live and laugh and love; that is joy.  "
+~
+A
+6 8
+A
+12 80
+A
+14 100
+A
+24 -5
+A
+18 6
+A
+3 5
+#29
+armbands midnight sun land quest~
+the armbands of the land of the midnight sun~
+The symbol of trollish heroes awaits the next leader of the tribes.~
+~
+9 bdgiq ai 0
+30 0 0 0
+1 0 0 30
+E
+armbands land midnight sun quest~
+These huge bands of red metal are scratched and marked from years of battle and
+blood.  Crude markings cover their surface, chronicling the history of the
+trollish race in gory detail.  Marked in magical runes on the inside of each
+band are these words.  "Breaking bones, bringing blood, battering battle, bless
+me brothers, My eyes see red, my claws drip scarlet, and my soul is crimsoned
+with the blood of the hunt.  We will triumph, for there is no cure for death.
+"
+~
+A
+1 5
+A
+2 5
+A
+5 5
+A
+13 100
+A
+18 5
+A
+19 8
+#30
+star man quest~
+the star of man~
+The light of humanity guides you onward here.~
+~
+1 abdgq ao 0
+0 0 -1 0
+2 0 0 30
+E
+star man quest~
+This beautiful gem was mined from the center of the mountain from which the
+stone of Sanctus's walls is constructed.  It pulses with the glow of true
+magic.  Carved by the finest craftsman, enchanted by the most powerful wielders
+of the magical arts, This stone was made for the greatest of the human race.  
+Look into its depths, and see all the souls of mortal man.  It has no peer, no
+equal, and has yet to be classified by dwarven miners or gnomish scholars.  
+The human who holds it holds the light of all humanity in their grasp.    
+~
+A
+12 50
+A
+13 50
+A
+18 7
+A
+19 7
+A
+14 50
+A
+21 -5
+#31
+shield quest wyrmguard~
+{WyrmGuard}~
+The protection of dragon-kind seeks the next hero of the wryms.~
+~
+9 abdgq aj 0
+35 0 0 0
+5 15000 0 30
+E
+shield quest wyrmguard~
+Torn from Balm's breast, this scale has been shaped into a shield of unrivaled
+strength and beauty.  Its diamond shape expands and shapes itself to protect
+any dragon who bears it, from the youngest of hatchlings, to the most ancient
+of wyrms.  The shield shimmers and wavers with all the colors of the rainbow.
+In its shimmering depths can be seen all the colors of every dragon that has
+ever come to pass.  Magical runes circle the shield's rim.  "Come wind, come
+fire.  Come Thunder come rain.  My bearer need never fear.  Come giants to
+dual.  My roar of triumph will be the last you ever hear.  "
+~
+A
+23 -10
+A
+17 -20
+A
+18 8
+A
+19 8
+A
+12 100
+A
+3 6
+#32
+heartguard armor quest~
+-<HeartGuard>-~
+The pride of the dwarven race lies here unused.~
+~
+9 bdgiq ad 0
+45 0 0 0
+10 1000000 0 30
+E
+heartguard armor quest~
+This armor has been forged from the purest iron that can be found in mortal
+realms.  Its surface has been polished time and time again till it gleams with
+dark perfection.  The finest dwarven smiths have placed all their knowledge in
+its making.  The most hallowed dwarven priests have gifted this armor with
+their blessing.  It has no peer, no equal.  Inscribed on the armor's
+breastplate are these words: "To march to the clang of the hammer.  To be
+cooled by the whistling wind of the whirling axe.  Come foe, come fool; Break
+yourself on the rock of the dwarf.  Eternal wealth awaits, and we will not be
+denied.  "
+~
+A
+13 100
+A
+13 100
+A
+1 6
+A
+17 -20
+A
+18 6
+A
+19 6
+#33
+scholar's guide jeweler's loop quest~
+=Scholar's Guide=~
+The Guide to all Gnomish knowledge hums here quietly.~
+~
+11 abdgq aco 0
+0 0 0 0
+3 1000000 0 30
+E
+scholar's guide jeweler's loop quest~
+You are looking at what could quite possibly be one of the most beautiful
+peaces of artistry ever made.  This finely crafted jeweler's loop is suspended
+from a chain of golden links.  The loop itself is a perfectly made combination
+of grounned glass, perfectly crafted silver, and precision gnomish workmanship.
+It is so simple as to be elegant.  A tiny plaque hangs from the chain that
+suspends the loop.  "To you who would sacrifice for life, join me.  To you who
+would become a slave to wonder, hold me.  To you who seek riches through
+learning, I am yours.  "
+~
+A
+3 6
+A
+12 100
+A
+12 100
+A
+18 6
+A
+4 3
+A
+24 -5
+#34
+boots strider quest~
+the boots of the strider~
+The companions to the wanderlust sit here waiting for travel.~
+~
+9 bdgq ag 0
+25 0 0 0
+5 1000000 0 30
+E
+boots strider quest~
+These fine boots have been made from the hides of monsters and beasts the world
+over.  They are unadorned, black suede leather, with a thick soul and steel
+toe.  The stitching that holds them together is so fine as to be invisible.  
+As you look at them words enter your mind.  "Trip over mountain.  Stride over
+sea.  Travel across desert.  Run between the forest trees.  Be bold, be brave.
+Be unfettered.  Let us run the world over.  You and me.  "
+~
+A
+14 100
+A
+14 100
+A
+5 5
+A
+22 -8
+A
+20 -8
+A
+2 5
+#35
+battleaxe dragonbane quest~
+<*}The Battleaxe Of Dragonbane{*>~
+The bane of all wyrmkin seeks the heart of a dragon.~
+~
+5 abdgiq ano 0
+15 11 6 3
+10 1000000 0 30
+E
+battleaxe dragonbane quest~
+There is no greater weapon in mortal hands.  This is an instrument of death.  
+The two-headed axe was meant for the hands of a giant.  The shaft and hilt of
+this mighty blade are formed from a gray stone that can never be chipped or
+broken.  The head of the weapon is formed from two massive pieces of obsidian
+Shaped like diamonds side by side.  However this vicious object has but one
+purpose.  Etched into the two heads of the axe are these words.  "Slash, slice,
+swerve and swipe.  Dodge, duck, down and up.  I draw the blood of the week.  
+Thunder marks my strike.  Lightning shines when I am drawn.  I am the storm to
+end all.  I am the dragonbane.  "
+~
+A
+18 10
+A
+19 10
+A
+13 100
+A
+23 -5
+A
+24 -5
+A
+17 -30
+#36
+cloak Elven court quest~
+the cloak of the elven court~
+A heavy cloak of brown and green is hear for the next elven king.~
+~
+9 dgq ack 0
+30 0 0 0
+4 1000000 0 30
+E
+cloak elven court quest~
+A heavy, richly embroidered cloak of green and brown.  It's color changes as
+you move, blending in with the world around you.  A simple wooden clasp holds
+it together at the neck.  It would be like any other nobleman's traveling cloak
+were it not for one thing.  Laced with thread so fine it almost isn't there,
+the symbol of the Elvin court is sewn over the breast of the cloak.  This is
+the garment of the Elvin court.  Its bearers are the pride of their race.  
+Only 6 heroes have ever been worthy to wear such a mark of honor.    
+~
+A
+12 100
+A
+13 100
+A
+14 100
+A
+2 6
+A
+3 4
+A
+17 -20
+#37
+Gloves kindred quest~
+-Gloves of the Kindred-~
+Some fine gloves sit hear itching to grab something.~
+~
+11 dgq ah 0
+0 0 0 0
+3 1000000 0 30
+E
+gloves kindred quest~
+A set of lithe leather riding gloves.  The leather is so thin as to almost not
+be there.  The palm and fingertip of each glove are padded with a lining of
+cloth to protect the wearer's hand against harm.  Looking at these tiny gloves
+you wonder what keeps them from just tearing at the slightest pressure.    
+~
+A
+13 100
+A
+14 100
+A
+2 6
+A
+18 10
+A
+22 -8
+A
+21 -8
+#38
+gem sanctum~
+a gem of sanctum~
+One of the lost treasures of Sanctum is here.~
+~
+4 a ao 0
+30 1 1 26
+1 1000 0 0
+E
+gem sanctum~
+This is one of the treasures from the hordes of the city of Sanctum.    
+~
+#39
+staff curative~
+a curative staff~
+A staff used by the healers of Sanctum is here.~
+~
+4 b ao 0
+30 1 1 43
+1 1000 0 0
+E
+curative staff~
+This beautiful staff is used by the healers of sanctum.    
+~
+#40
+runestone sanctum church~
+a runestone of Sanctum~
+A runestone of the church of Sanctum has been left here.~
+~
+4 b ao 0
+30 1 1 36
+1 1000 0 0
+E
+runestone Sanctum church~
+This is one of the runestones used by the priests of Sanctum in their duties.
+  
+~
+#41
+Bell sanctum freedom~
+the bell of Sanctum's freedom~
+The symbol of Sanctum's freedom waits to be returned to its city.~
+Nothing.
+~
+4 b ao 0
+30 1 1 39
+1 1000 0 0
+E
+bell sanctum's freedom~
+This is the bell that represents the freedom of the city of Sanctum.
+~
+#42
+hammer Sanctum~
+the hammer of Sanctum~
+The hammer used to ring Sanctum's mighty bell is here.~
+~
+4 ab ao 0
+30 1 1 3
+1 1000 0 0
+E
+hammer Sanctum~
+This is the hammer used to ring the bell of freedom in the church of Sanctum.
+  
+~
+#43
+Guards Eternal Flame quest~
+<-*Guards Of The Eternal Flame*->~
+The spirit of Wyvern Rulers seeks a new Guardian of the flames.~
+~
+9 adfgq af 0
+30 0 0 0
+5 1000000 0 30
+E
+guards eternal flame quest~
+Guardians of history, heroes of legend, Ancients of elder years.  These are the
+Guards worn by those chosen to rule all of Drake kind.  The material that forms
+them glows and smokes like living flame.  However, it is cool to the touch,
+forming an impenetrable barrier against all attacks.  These leggings seem to
+shimmer before your very eyes, fact or fiction, they look as though they could
+vanish at any turn.  Looking deep into the fire that is their strength you see
+these words in yellow and red flame.  "Drawn from the depths.  Delivered from
+death.  Directed by Divinity.  I am the truth.  The light.  The guardian of
+hope and the future.  Find comfort in my flames.  Find strength in my touch.  
+For with me, Lies all that is to come.  "
+~
+A
+14 80
+A
+13 80
+A
+12 80
+A
+18 6
+A
+19 6
+A
+6 6
+#80
+paintball gun red~
+a red paintball gun~
+A red paintball gun was abandoned here.~
+~
+12 0 a 0
+0 0 0 0
+1 50 0 0
+T 97
+#81
+paintball gun blue~
+a blue paintball gun~
+A blue paintball gun was abandoned here.~
+~
+12 0 a 0
+0 0 0 0
+1 50 0 0
+T 96
+#82
+teleporter~
+the teleporter~
+A teleporter~
+~
+12 0 a 0
+0 0 0 0
+10 1 0 0
+T 99
+T 380
+#83
+board~
+a board~
+A board is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#84
+email board~
+the email board~
+A board listing the immortals emails is foating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#85
+implementor board~
+the implementors board~
+A very important implementors board is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#86
+board~
+Ferret's board~
+Ferret's board is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#87
+lightwing's board~
+lightwing's board~
+Lightwing's board is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#88
+high order board~
+the High Order board~
+The board of the High Order is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#89
+board~
+Balm's board~
+Balm's board floats here amidst the stars.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#90
+fyres board~
+Fyres board~
+Fyres board is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#91
+quest board~
+the quest board~
+The Quest board has been nailed to the wall for the posting of quest information.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#92
+builders board~
+the Builders board~
+The Builders board for discussions on world building is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#93
+board~
+the warriors board~
+The warriors board has been posted here to allow fellow fighters to communicate.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#94
+clerics board~
+the clerics board~
+A bulletin board for clerics to keep in touch with each other.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#95
+thieves board~
+the thieves board~
+A board for thieves to relate their current plots and schemes is hidden here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#96
+mages board~
+the mages board~
+A board for mages to post to others in their class is glowing brightly here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#97
+board~
+a board~
+Silverking's board is floating here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#98
+board~
+Rumble's Board~
+Rumble's Board floats a few feet off the ground, spinning slowly.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#99
+scythe death~
+the Scythe of Death~
+The Scythe of Death rests heavily on the ground.~
+~
+5 jkmno an 0
+0 5 10 5
+40 10000 0 30
+E
+scythe death~
+It is a very heavy scythe.  The grey handle is made from hard wood and the
+long iron blade is completely smooth from countless years of use.  It feels
+cold to the touch.
+~
+#0
+
+#ROOMS
+
+#1
+Limbo~
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+~
+0 d 1
+D5
+A strange portal in the floor is the only exit.
+~
+~
+0 0 100
+S
+#2
+The Jack Russell Terrier~
+   The Jack Russell is a happy, bold, energetic dog they are extremely loyal,
+intelligent and assertive.  Their greatest attribute is their working ability,
+closely followed by their excellent qualities as a companion.  A Jack Russell
+can be equally contented bolting a fox or chasing a toy in your living room, or
+equally adept at killing a sock in the living room or a rat in your barn.  
+Their funny antics will continually amuse you, their intelligence seems to know
+no bounds and their assertive nature and boundless energy can at times be
+overwhelming.    
+
+   The unique personality of this feisty little terrier is capturing the hearts 
+of many, but they are not a dog for everyone.
+~
+0 0 0
+D0
+~
+~
+0 0 3
+S
+#3
+Jack Russells~
+   ..are first and foremost hunting dogs. The traits and skills that 
+make them excellent hunting dogs (i.e., digging, barking, aggressive 
+nature, ability to follow scent) are often interpreted as bad habits 
+that cause people to give them up. 
+   ..are bred to go underground, following scent to locate and bark 
+at quarry until they are dug down to or the quarry bolts. If they do 
+not have an outlet for their natural instincts, they will invent new 
+and fun jobs for themselves, which frequently include guardian of the 
+world and/or their possessions and family, chasing cars, hunting 
+birds, bugs or leaves, or endlessly digging in the soil. 
+   ..are a big dog in a little body. They have the same need (or 
+more!) for exercise as a much larger dog... and the mentality to 
+match -- they think they are at least 150 pounds, and are fearless, 
+often challenging other dogs three times their size. 
+   ..are often aggressive with other dogs. Same-sex aggression and 
+aggression towards other breeds of dogs is well documented with this 
+terrier. It is strongly recommended that no more than two Jack 
+Russells (of opposite sex only) ever be permitted to stay together 
+unattended. 
+   ..are NOT a non-shedding breed! All coat types shed! Smooth coats 
+shed the most, dropping hair continuously year round. Rough coats 
+maintain the guard and dead coat, requiring manual shedding a few 
+times a year. The broken coat is an intermediary coat, between the 
+two types. 
+   ..require firm, consistent discipline. They are extremely 
+intelligent, continue to test their limits throughout their life. 
+More often than not, train their owners before the owner knows what 
+has happened! This ability to train their owners can include displays 
+of aggressive behavior. Their assertive nature must be understood and 
+handled properly! 
+~
+0 0 0
+D0
+~
+~
+0 0 4
+D2
+~
+~
+0 0 2
+S
+#4
+Jack Russells~
+   ..can become very possessive of their owner or a favorite member 
+of the family or of what they consider to be their personal property 
+if allowed to do so to the point of showing aggressive protective 
+behavior that must be controlled from an early age. 
+   ..are commonly known to harass, injure or kill other small pets, 
+such as cats, birds, rabbits, mice, rats, etc., simply due to their 
+strong natural hunting instinct. Raising a puppy with a cat does not 
+guarantee the cat's life-long safety! 
+   ..remain active well into their 15-year-plus life span; their need 
+for activity and desire to hunt continues for their entire lifetime. 
+Untrained, unsupervised dogs rarely meet their life expectancy. 
+   ..require at least basic obedience training. The dog's life may 
+depend on it! Even well trained dogs will be tempted to chase 
+something interesting, or even disappear into a hole while you are 
+not looking. Off-lead is always a dangerous situation for a Jack 
+Russell unless in a safe environment with experienced JR owners. 
+   ..absolutely need a securely fenced yard! Jack Russells will roam 
+due to their hunting instincts.... even if left in an unsecured for a 
+few minutes! You can let them out every day for three years with no 
+trouble....but one day they will disappear and may never come back. 
+Many JR's have been killed by cars by darting into the road in 
+pursuit of a squirrel, cat, etc. They can also dig under, climb or 
+jump over fences; some can climb trees and any height chain link 
+fencing. 
+   ..can be very destructive if left unattended and unemployed! Most 
+behavioral problems are due to a lack of companionship, discipline, 
+activity and exercise. If you've only seen perfect, well-behaved 
+JR's, they are ones that were lucky enough to be exercised, well 
+socialized, and trained. 
+~
+0 0 0
+D0
+~
+~
+0 0 5
+D2
+~
+~
+0 0 3
+S
+#5
+Jack Russells~
+   ..are country dogs. When made to live in a city or suburban-type 
+environment, their needs and instincts do not change. It would be 
+unreasonable to expect them to be anything other than what they are 
+genetically bred to be -- a serious hunting dog. Your lifestyle must 
+be adjusted to meet their needs; they must have jobs to perform -- 
+an outlet for their considerable energy and intelligence. 
+   ..are NOT recommended as apartment or condo dogs. They need a 
+great deal of exercise and outdoor activity, and are usually too loud 
+for such high-density living. They need room to run; leash walking 
+does not satisfy their boundless energy. Unless your schedule permits 
+many hours at home and a lot of outdoor activity, with a safe place 
+the terrier can run, this is not the dog for you. MANY rescues come 
+from apartments, condos, or homes where the owners work away from the 
+home for long periods of time. 
+   ..will NOT TOLERATE even unintended mistreatment from a child. 
+They will not put up with typical child handling such as pulling of 
+ears, tails, etc., or taking or "sharing" of the dog's bones, food, 
+toys, etc. They are very assertive and demanding, and never still... 
+jumping all over whoever will allow it. Jack Russells are not 
+recommended for households with children under the age of six unless 
+you are previously experienced with this feisty little bundle of 
+energy. 
+   ..require a long-term commitment to obedience, activity, exercise 
+and entertainment... their unique character, intelligence and high 
+energy level can frustrate you, will undoubtedly entertain you, and 
+can bring you great joy (when they're happy!) or great grief (when 
+they're not!). If this type of relationship does not appeal to you, 
+then consider another breed. Jack Russell Terriers are always a work 
+in progress! 
+~
+0 0 0
+D0
+~
+~
+0 0 6
+D2
+~
+~
+0 0 4
+S
+#6
+A Hunting Dog~
+   While adaptable to a variety of environments, they are first and 
+foremost bred to be hunting dogs. City or apartment living, or a 
+confined or sedate lifestyle, do not meet the needs of a Jack 
+Russell. These little dogs require what may seem to be an 
+extraordinary amount of human attention, outdoor activity, exercise, 
+discipline and an understanding and acceptance of their hunting 
+nature. They have been known to train their owners more often than 
+not. 
+   Jack Russells can be very aggressive with other dogs, and in fact 
+more than two should never be kept together unattended. There have 
+been many instances of terriers being hurt, even killed, by their 
+fellow terriers; even young pups over the age of eight weeks must be 
+carefully monitored. It is imperative that prospective Jack Russell 
+owners understand this part of the terrier's nature. Special 
+facilities and handing are absolutely necessary when owning a Jack 
+Russell, and especially when owning two or more Jack Russells. Their 
+natural hunting instinct also brings out aggression towards other 
+small animals such as cats, gerbils, guinea pigs, etc. 
+~
+0 0 0
+D0
+~
+~
+0 0 7
+D2
+~
+~
+0 0 5
+S
+#7
+A Hunting Dog~
+   It is said that the courage of the Jack Russell is never in doubt;
+surely a true statement, as they have often been known to take on an 
+adversary twice (or more) their size. They require firm, consistent, 
+responsible handing; they are very intelligent, determined and bold 
+(sometimes to the point of abandon, which could be fatal). 
+   While outdoor activity and exercise is essential, the Jack Russell 
+should never be permitted to roam unattended, even in the most remote 
+country setting. The Jack Russell is, above all, a hunting dog- and 
+will go to ground at every given opportunity, to any quarry-they are 
+afraid of nothing. Many a Jack Russell has been known to stay in an 
+active earth for days, even weeks, without food or water because of 
+the strong instinct bred into them to stay with their quarry. It can 
+be very frightening experience to lose your terrier and an impossible 
+situation to the untrained owner inexperienced in earthwork; the 
+results could be tragic.
+~
+0 0 0
+D0
+~
+~
+0 0 8
+D2
+~
+~
+0 0 6
+S
+#8
+A Family Pet~
+   The Jack Russell can make a terrific family pet, and gets along 
+well with well behaved children. One of the Jack Russell's most 
+surprising qualities is a kind and gentle nature. He is usually 
+friendly with small children, provided the child understands how to 
+properly handle the terrier. Having the natural assertive terrier 
+characteristics, however, the Jack Russell will not put up with even 
+unintended abusive nature from a child. This should be carefully 
+considered, particularly with children under the age of six. 
+   The Jack Russell has been a popular breed in England for many years, 
+and is now attracting a variety of followers with varied interests 
+around the world. The Jack Russell does require special handling, and 
+there is special information to determine if the Jack Russell Terrier 
+is the right dog for you. 
+   The Jack Russell is a very special breed; it has been kept sound, 
+functional, intelligent and relatively unchanged because of responsible 
+people who have cared about its heritage. 
+~
+0 0 0
+D0
+~
+~
+0 0 16
+D1
+~
+~
+0 0 9
+D2
+~
+~
+0 0 7
+D3
+~
+~
+0 0 12
+S
+#9
+The Marvelous Crate~
+   Any wild canine will secure a small, snugly fitting space to call
+its own. This space represents security to the dog. In its den, it
+cannot be attacked or bothered, so it is able to relax fully. This
+instinctive desire for a secure den is the basis of the psychology
+behind using a crate as a training aid. Once the pet owner has
+overcome his own prejudice against "caging" a pet and accepted the
+sound reasoning behind crate-training, the owner and his dog can
+begin to enjoy the benefits of the marvelous crate. 
+To accustom your dog to its new crate, prop open the door and allow
+the dog to explore the confines of the crate. Placing food or a
+favorite object inside will encourage it to step in. When the dog is
+comfortable, close the door and keep it confined for about 5 or 10
+minutes. When you let the dog out, do it unceremoniously. Releasing
+the dog should not be a major production. 
+   Each time you put the dog in the crate, increase the time it is
+confined. Eventually, the dog can be confined for up to four hours at
+a time. If the crate also serves as the dog's bed, it can be left
+crated throughout the night. Don't overuse the crate, though. Both
+you are your dog should think of it as a safe haven, not as a prison. 
+   Using the soothing effect of the crate to convey to your dog that it
+is bedtime. Many dogs will learn to go directly to their crates when
+they are ready to call it a day. Often, the use of a crate will
+convince a restless dog to stop howling at the moon or barking at
+every little sound, allowing their owners to sleep through the night
+undisturbed. 
+~
+0 0 0
+D1
+~
+~
+0 0 10
+D3
+~
+~
+0 0 8
+S
+#10
+The Marvelous Crate~
+   Many dogs receive their meals in their crates. Finicky eaters are
+made to concentrate on the food that is offered and, as a result,
+overcome their eating problems. For the owners of more than one dog,
+the crate serves as a way to regulate the food intake of each dog. If
+dogs in the same household have different diets, crate feeding is
+almost essential. It can also make mealtimes less stressful if you
+have a dominant dog that tries to keep the others in the household
+away from the food bowls. 
+   Housebreaking is made easier when the wise owner relies on the help
+of a crate. Until the dog is dependably housetrained, it should not
+be given the opportunity to make a mistake. A healthy dog will not
+soil its den -- the place where it sleeps. If the crate is the right
+size for your dog -- allowing just enough room to stand up and turn
+around, it will not soil its crate. If you purchase a crate for a
+puppy based on the size of the mature dog, you may need to block off
+one end to keep the puppy from sleeping in one corner and using the
+other for elimination. 
+   Any time you cannot keep a close watch on the puppy, kindly place it
+in its crate. When the dog eliminates at the proper time, reward it.
+With the assistance of a crate, housetraining can be almost painless
+for you and your puppy. 
+   The crate is a safety seat for a traveling dog. You may know that
+shipping a dog requires a crate, but do you realize that a crate in
+your car serves, as a seatbelt would, to protect your dog in the
+event of an accident? A dog thrown out of the car or through a
+windshield has little chance of surviving. In the event you or a
+passenger need medical care during an accident, a crate will keep the
+dog from "guarding" you from paramedics. 
+~
+0 0 0
+D1
+~
+~
+0 0 11
+D3
+~
+~
+0 0 9
+S
+#11
+The Marvelous Crate~
+   If you need to ship your dog by air, the task will be much easier if
+the dog is already used to its crate. A crate-trained dog is relaxed
+and less likely to need sedation for traveling. Avoiding sedatives
+removes one of the major risks of air travel for dogs, and your dog
+will be alert and happy when it lands, 
+   When you travel and have to leave your dog behind, the caretaker
+will have a much easier time caring for a crate- trained dog or she
+will appreciate being able to confine the dog for rest periods and
+when the dog is dangerously underfoot. Your dog will also enjoy being
+able to take its crate (and a little bit of home) with it if it must
+spend time in a strange place. 
+   No untrained dog should be given the run of the house while its
+owner is away. This is not only foolhardy from the standpoint of
+protecting your belongings but also from the standpoint of protecting
+the dog. An untrained dog could chew through an electrical cord, get
+trapped under a piece of furniture it has upset, or be poisoned or
+choked by a piece of trash. 
+   Use a crate to protect the untrained dog from itself. Of course,
+this means you will have to limit your time away from home. A puppy
+must be taken out at regular intervals to exercise and take care of
+business. 
+   If your dog becomes ill or needs surgery, confinement in a crate
+will assure it the extra rest it needs during the recovery period.
+The wonderful crate can serve as a hospital bed too. 
+   In dozens of different ways, the addition of a crate means better
+care for your dog. It reinforces consistency in training. It helps
+the dog feel more secure. It makes having strangers in the house less
+hectic. It makes travel safer and more comfortable. It makes bringing
+up a puppy as easy as it can be. Once you have experienced the
+benefits of crate- training your dog, you will question how you ever
+lived without that marvelous crate.
+~
+0 0 0
+D3
+~
+~
+0 0 10
+S
+#12
+House Breaking~
+   Housebreaking in theory is very simple. It is finding a means of
+preventing the puppy from doing his duties in the house and giving
+him only an opportunity to do it outside. A dog is a strong creature
+of habit and because he learns by association, he will soon know
+there is no other place to relieve himself but the great outdoors. 
+   Determine if it is physical or a mental problem. To check if
+physical problem, see your vet (especially if your previously well-
+behaved dog has begun housesoiling).
+   Give your Jack Russell plenty of exercise. Exercise is not a luxury
+to a JR, it's a MUST. 
+   Examine the type and quality of the food you are feeding your
+terrier. Is it a good quality food? It may have too much soy or corn. 
+Are you allowing free choice feeding (i.e., is there always food
+out?). This is usually not a good practice. Feed puppies three times
+a day and adults twice a day. After 10 to 15 minutes, withdraw the
+food. 
+   Do not give the puppy any food after 6 P.M. It takes a dog about 6
+hours to digest his food and have an elimination as a result of that
+meal. Any food after 6:00 PM may give him an unexpected urge after he
+is put to bed. 
+   Always get your dog outside after feeding!  
+   Are you using a crate to help to train the puppy? Take advantage of
+a very natural instinct of the dog -- his desire to keep his sleeping
+quarters clean - ie: not to mess his bed. 
+   Always have fresh clean water available during the day. If your dog
+is inclined to night soil or urinate in the house, use a crate for
+the night. Do not overcrate or use the crate for punishment. Make it
+comfortable for the dog. 
+   Get your dog outside to relieve itself on a regular basis. Don't
+forget how important it is to praise a Jack Russell. They are very
+praise oriented. 
+   Are you giving the dog the complete run of the house? It might be
+better to restrict the area of the house free to the dog. 
+~
+0 0 0
+D1
+~
+~
+0 0 8
+D3
+~
+~
+0 0 13
+S
+#13
+House Breaking~
+   It helps to train a JR to soil and urinate in the same small area.
+Have a specific area that the dog is taken to relieve itself. They
+will catch on more quickly. 
+  The first thing in the morning pick the puppy up and take him
+outside to relieve himself. 
+   In spite of a rigid routine, your pup may have an occasional
+accident during his periods of freedom. Here is where correction is
+necessary. If you catch him in the act, with a loud "NO" put him
+outside at once. Remember, a dog learns by association and in
+connection with any act of wrong doing, he must receive some form of
+discomfort in order to learn that he has done wrong. However, you
+must catch him in the act - it does absolutely no good to punish him
+for a mistake he has made an hour or even five minutes earlier. 
+   Escort the dog to the same outdoor location every 3 hours (familiar
+smells stimulate elimination) and soon after it eats naps or plays.
+Give the dog a few minutes to take care of its business. Use verbal
+encouragement. 
+   When your dog "does its stuff", lavish it with praise immediately
+then bring it inside and give it a small food treat. 
+   If your dog doesn't "go" outside during the alloted time, bring it
+indoors for 15 minutes and then return to the appointed spot and try
+again. 
+   When an intact male lifts his leg on the sofa, remember that urine
+marking is a hormonally driven urge rather than brazen disobedience. 
+Many young females ourgrow submissive urination. Well-trained dogs 
+suffering from separation anxiety may become so upset when left alone 
+that they may defecate or urinate all over the house.
+~
+0 0 0
+D1
+~
+~
+0 0 12
+D3
+~
+~
+0 0 14
+S
+#14
+Submissive Urination~
+   To begin with, submissive urination is not a house-training problem.
+A weak bladder causes it when the dog is excited or frightened. That
+is why it is seen most often in younger dogs. Submissive urination
+occurs in both male and female dogs, but is more common in the
+latter. These two forms of urination are easily diagnosed depending
+on the context of which they occur. Submissive urination occurs when
+a dog feels threatened, such as when it is being punished or verbally
+scolded, or when someone is reaching for it from a dominant posture
+(direct eye contact, leaning forward over the dog, etc.). Excitement
+urination occurs most often during greetings and play and is not
+accompanied by submissive posturing. There are several things that
+the owner can do to help stop both of these behaviors. 
+~
+0 0 0
+D1
+~
+~
+0 0 13
+D3
+~
+~
+0 0 15
+S
+#15
+Submissive Urination~
+   No punishment or scolding should be used. It will only make the
+problem worse! Keep greetings low-key when returning home. Avoid 
+approaching the dog in a dominant posture by:
+   Avoiding direct eye contact. Dogs assume that direct eye contact 
+is a challenge. For a submissive dog, even a moment's eye contact 
+can be intolerable. 
+   Bending down to the dog's level rather than leaning over to pet 
+   Petting from under the chin rather than on top of the head. 
+Dominant dogs often display their control by placing their neck or 
+a paw over another dog's neck or shoulders. When a human pats a 
+dog on the head, a submissive dog perceives it as a display of 
+dominance. 
+   Encourage and reward postures and behaviors that are exclusive of
+urination. In other words, give them something else to do rather than
+rolling over and urinating on the floor. 
+   Ignore the dog until it is calm. This may prevent urination. If this
+does work, you can try adding some very calm words of greeting and
+gradually add physical affection over the next few minutes. After the
+physical affection, if your JRT still has not urinated, tell him/her
+"good boy/girl" and give them a treat. 
+   Submissive and excitement urination may resolve on their own as the
+dog matures, if it is not made worse with punishment or inadvertent
+reinforcement. After trying these suggestions out a couple of times,
+if you are still having a problem with submissive/excitement
+urination I would suggest that you have your veterinarian check the
+animal to rule out any urinary tract infections. 
+~
+0 0 0
+D1
+~
+~
+0 0 14
+S
+#16
+General Training~
+   Begin training your Jack Russell Terrier early (not too early - 
+your puppy's breeder should not allow you to take a puppy home before 
+it is 8 weeks of age). 
+   You must be the dominant member of the household. If not, your
+terrier will assert itself as the head of your household. Do not let
+this happen. 
+   Start training when the puppy comes home for the first time 
+Be consistent! If not, you will confuse your terrier. 
+   Use positive re-enforcement techniques if possible; reward good
+behavior; ignore bad 
+   Attend a obedience (i.e., puppy kindergarden) class (to socialize
+your puppy) 
+   Teach your terrier to listen to you. It may save its life. 
+   Teach your terrier bed manners - don't allow a JR to growl or snap
+at you if it sleeps with you in your bed. This is a display of
+dominant behavior, often misinterpreted as a rude bed dog. Make your
+JR sleep in its own bed for a few nights if it exhibits this behavior. 
+You might try using a ticking clock in the puppy's bed to simulate
+the heartbeat of its mother. This helps it to sleep until it gets
+used to the new surroundings. 
+   NEVER keep more than two Jack Russells in one area when you are not
+home to offer leadership and protection to them. 
+   NEVER keep puppies with adult dogs who may grow tired of their
+youthful exhausting mouthy play 
+~
+0 0 0
+D0
+~
+~
+0 0 19
+D1
+~
+~
+0 0 18
+D2
+~
+~
+0 0 8
+D3
+~
+~
+0 0 17
+S
+#17
+Aggression~
+   Most behavioral problems are due to a lack of companionship,
+discipline, activity and exercise. 
+   A Jack Russell Terrier that bites can be a big problem. You must
+stop this behavior before it becomes dangerous. 
+   Don't allow your Jack Russell to win any games of aggression. The
+outcome could certainly send the wrong message to him. 
+   Exercise, exercise, exercise! A tired dog seldom want to pick a
+fight. 
+   Never put your hands between two fighting terriers 
+   Jack Russells are often aggressive with other dogs. Same-sex
+aggression and aggression towards other breeds of dogs is well
+documented with this terrier. It is strongly recommended that no more
+than two Jack Russells (of opposite sex only) ever be permitted to
+stay together unattended. 
+   Jack Russells require firm, consistent discipline. They are
+extremely intelligent, continue to test their limits throughout their
+life. 
+   Jack Russells can become very possessive of their owner or a
+favorite member of the family or of what they consider to be their
+personal property if allowed to do so to the point of showing
+aggressive protective behavior that must be controlled from an early
+age. 
+   Jack Russells can be very destructive if left unattended and
+unemployed! Most behavioral problems are due to a lack of
+companionship, discipline, activity and exercise. If you've only seen
+perfect, well-behaved JR's, they are ones that were lucky enough to
+be exercised, well socialized, and trained. 
+   For serious canine aggression and/or canine behavior that causes you
+to fear that you or someone else is in danger, contact a qualified
+animal behaviorist 
+~
+0 0 0
+D1
+~
+~
+0 0 16
+S
+#18
+Nipping and Biting~
+   Nipping and biting is how a puppy explores its world and learns 
+its boundaries. When you allow a puppy to nip or bite at you, or your
+clothes, without an appropriate correction or consequences, you are
+actually teaching this youngster that it is acceptable behavior. Not
+a good idea in the long run! 
+   Time outs are great, they really teach the puppy that if they can't
+play nicely, they can't play at all! When I have puppies that bite I
+have found two types of corrections that work well for me. I don't
+recommend hitting a puppy or holding a puppy's mouth closed for
+biting, rather, putting your hand OVER their muzzle and just pushing
+her lips into the teeth, if they exert pressure downward, they only
+end up biting themselves. This does two things: it gives them a
+correction, and simulates another dog putting its mouth over their
+muzzle. This mimics a common sign of dominance among canines,
+allowing you to reemphasize your dominance over them! I also will use
+a little pinch on the lip as a correction. With both corrections, I
+give a verbal correction "No bite" and when they stop, I praise them.
+With perseverance and patience, you will eventually be able to give
+only a verbal correction and have them stop. With puppies, it is
+often a good idea to quickly distract them with an appropriate chew
+toy so they don't go right back to "finger attack" mode! 
+   If the corrections don't seem to work, then give time out, because
+they are either too wound up or too tired and need a nap! It might
+seem endless, but keep up the corrections you need to win this
+battle! Be persistent and they'll soon learn that nipping isn't such
+a fun game after all! 
+~
+0 0 0
+D3
+~
+~
+0 0 16
+S
+#19
+The Bend~
+   The room has the smell of feces to it coming from a breeze to the east.  
+~
+0 0 0
+D1
+~
+~
+0 0 20
+D2
+~
+~
+0 0 16
+S
+#20
+Stool Eating~
+   There can be several causes of stool eating (also known as
+Copropagia) in dogs. 
+   Terriers fed diets they can't properly digest will eat their stool
+because they consider it semidigested food rather than waste. Dogs
+will also eat the stool of other animals whose waste displays
+similarly appealing characteristics. 
+   A change in diet will possibly solve this problem. 
+   Owners can become obsessed with a dog's stool (due to a medical
+problem or when the owner takes a heavy handed, highly emotional
+approach to housebreaking). Your terrier may eat the stool to avoid
+dealing with your response to it. 
+   It's best to put your emotions on hold and seek to identify and
+eliminate the real cause of the behavior rather than merely eliminate
+the behavior itself.
+~
+0 0 0
+D3
+~
+~
+0 0 19
+S
+#99
+The Realm Of The Dead~
+   You are standing on an immense, grey stone floor that stretches as far
+as you can see in all directions.  Rough winds plunging from the dark,
+starless sky tear savagely at your fragile body.
+~
+0 dj 0
+D0
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+D1
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+D2
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+D3
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+E
+sky winds~
+Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
+floor~
+The stone floor is the same shade of grey as the sky and is completely plain
+and unscratched.  It is probably too hard for anything to leave as much as a
+scratch on it.
+~
+S
+#0
+
+#RESETS
+O 0 14 1 20 	(a steaming pile of stool)
+M 0 9 1 20 	(a sick looking dog)
+M 0 12 1 11 	(Moose, the Jack Russel Terrier)
+M 0 8 1 16 	(Wishbone)
+M 0 7 1 6 	(the Jack Russell terrier)
+M 0 6 1 4 	(John Russell)
+M 0 5 1 2 	(Jack Russell)
+M 0 1 1 1 	(Puff)
+M 0 99 1 99 	(Death)
+E 1 99 1 16 	(the Scythe of Death)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#0~
+82
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+98
+0
+3001
+-1
+0
+28
+0
+0
+0
+
+
+#$

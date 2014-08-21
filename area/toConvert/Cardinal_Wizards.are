@@ -1,0 +1,1084 @@
+#Style Circle
+#AREADATA
+Name Cardinal Wizards~
+Builders Unknown~
+VNUMs 17500 17599
+Credits {{None}  CAW    Cardinal Wizards~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#17500
+east wizard Shadimar~
+Shadimar~
+Shadimar, the Wizard of the East stands here.
+~
+   The Wizard of the East is a small wizened figure with a long, white beard.  
+His thin, stick-like limbs and torso look frail, but for some reason give a
+formidable impression of strength.  
+~
+abd h 0 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+BareHandAttack: 12
+Int: 18
+Wis: 18
+E
+#17501
+large squid~
+the large squid~
+A large squid rests just beneath the surface of the water here.
+~
+   This squid is absolutely huge!  It's almost half the size of a man,
+discounting the tentacles, and it looks hungry.  Not to mention dangerous.  
+~
+bdfm 0 125 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+BareHandAttack: 1
+E
+T 17500
+#17502
+lesser Kraken squid~
+the lesser Kraken~
+A lesser Kraken is here, eyeing you with hunger.
+~
+   The lesser Kraken is two-thirds the length of a man, diregarding the
+tentacles.  Which is hard to do, due to the sharp, claw-like tip on on the end
+of all eight limbs.  
+~
+bdfm 0 225 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+BareHandAttack: 14
+E
+T 17500
+#17503
+Kraken squid~
+a Kraken~
+A Kraken swims here, growling menacingly.
+~
+   The Kraken is massive, larger than a man and with powerful stingers on the
+end of each tentacle.  
+~
+bdfm 0 300 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+BareHandAttack: 1
+E
+T 17500
+#17504
+greater Kraken squid~
+a greater Kraken~
+A greater Kraken lurks in these waters. Watch out!!!!
+~
+   This monster of a squid fills the waters infront of you.  The tentacles are
+too long to see in your field of vision to estimate its size.  You notice the
+little beady eyes looking back at you, and the large beak opening and closing in
+anticipation.  
+~
+bdfm 0 410 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+BareHandAttack: 6
+E
+T 17500
+#17505
+water elemental~
+the Water Elemental~
+A Water Elemental stands before you, rippling to faint vibrations.
+~
+   The Water Elemental is a vaguely man shaped statue of liquid water.  It may
+be liquid, but it looks tough.  
+~
+bdfm 0 410 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+E
+T 17501
+#17506
+Trilless sorceress north northern~
+Trilless~
+Trilless the Northern Sorceress is here, radiating goodness and well-being.
+~
+   An aged woman, Trilless has long grey-white hair and pale, wrinkled skin.  
+She wears white robes, and she gives forth an aura of purity and goodness.  The
+only splash of color in her form is her eyes, which are a shade of piercing
+electric blue.  
+~
+bdi dfghm 1000 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 2
+BareHandAttack: 12
+Int: 15
+Wis: 15
+E
+#17507
+guard guardian light~
+the Light Guardian~
+The Light Guardian stands here, glowing with intense light.
+~
+   A glowing figure in brightly luminous armour, the Light Guardian looks to be
+a formidable foe.  
+~
+bdm 0 1000 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+BareHandAttack: 3
+Str: 18
+Dex: 18
+Int: 5
+Wis: 5
+E
+#17508
+sentinel Dark guard~
+the Dark Sentinel~
+A Dark Sentinel watches vigilantly, sucking light from the room.
+~
+   The black, light-absorbing armour of the Dark Sentinel draws you in, and it
+becomes an effort not to fall over.  
+~
+bdm n -1000 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+Str: 18
+Dex: 18
+Int: 5
+Wis: 5
+E
+#17509
+Shadimar spectre~
+Shadimar's Spectre~
+Shadimar's Spectre floats here, glowing with faint grey light.
+~
+   This is not the true Shadimar, it is but a pale vision of him.  You can see
+the background through the Spectre's form.  
+~
+bd 0 0 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+BareHandAttack: 12
+E
+T 17504
+#17510
+Carcophan Spectre~
+Carcophan's Spectre~
+Carcophan's Spectre floats here, absorbing the little light availible.
+~
+   This spectre of carcophan is just as evil as the man in real life.  He now
+must haunt these halls looking for revenge on the one that sent him to hell, or
+at least this eternal limbo.  
+~
+bd dfk 0 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 1
+E
+T 17511
+#17511
+Carcophan south southern Wizard Evil~
+Carcophan~
+Carcophan the Southern Wizard stands here, radiating pure evil.
+~
+   If it wasn't for his aura of darkness, Carcophan could merely be a genteel
+old man with salt-and-peppered hair and a dignified stance.  But the dark
+flowing robes and occolt sigils adorning them let you know that this is not
+someone to be trifled with.  
+~
+bdj hn -1000 E
+22 17 -3 4d4+220 3d3+3
+220 48400
+8 8 1
+BareHandAttack: 12
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+E
+T 17513
+T 17515
+#17512
+inverse salamander~
+the inverse Salamander~
+An inverse salamander crouches into the ground here, absorbing light and heat.
+~
+   According to legend and myth, the Salamander is supposed to be a being of
+fire and light.  The reptillian form you see before you looks to be the exact
+opposite, as it sucks the light and warmth from the room with its dark, liquid
+eyes.  
+~
+bdm 0 -900 E
+18 17 0 3d3+180 3d3+3
+180 32400
+8 8 0
+BareHandAttack: 8
+E
+T 17514
+#0
+
+#OBJECTS
+
+#17500
+scroll Shadimar quest~
+Shadimar's quest scroll~
+An important-looking scroll is lying here.~
+~
+18 c a 0
+0 0 0 0
+1 50 0 0
+E
+scroll~
+   Greetings, adventurer!
+   I have hoped for many years that one such as you would come! I have great 
+need of your aid to help me in my plight. I am the Eastern Wizard, one of the 
+two Wizardly champions of Neutrality.
+   My counterpart, Tokar of the West, has been kidnapped by Carcophan, the evil 
+Wizard of the South and Trilless, the Northen Sorceress of Good. The two locked 
+him away behind two doors, and each has a key.
+   Tokar's enslavement has weakened me severely, and whilst he is trapped I am 
+far too weak to challenge both Carcophan and Trilless on my own.
+   Without you to stop them, Carcophan and Trilless will battle throughout 
+eternity and eventually all the balance that Tokar and I have spent our lives 
+trying to achieve will come to nothing. I beg you for your aid in this.
+   If you accept this duty from me, go to the northern wall. There is a hidden 
+door in the stone of the cliff, which can be unlocked magically with this 
+scroll in your possession.
+   Beyond the door, you will find an entrance to the Wizard's Mansion, and from 
+there you can find both Trilless and Carcophan. But beware, both are well 
+guarded, and you would do well to buy equipment from me for your quest.
+   I wish you luck, my friend. You'll need it.
+- Shadimar
+~
+#17501
+fire wand~
+a fire wand~
+A firey wand lies on the ground here, warming the area slightly.~
+~
+3 agi ao 0
+12 1 1 -1
+3 1000 100 0
+E
+wand~
+   The wand looks like a silver of liquid fire, frozen and carved into a form
+that can be easily held by your hand.    
+~
+#17502
+black void wand~
+a void wand~
+A void wand lies here, absorbing the light and the warmth.~
+~
+3 gj ao 0
+12 5 5 -1
+3 800 80 0
+E
+void~
+   The wand looks as if a hole has been cut in the fabric of reality and it is
+allowing the blackness beyond to show through.  It sucks the light and warmth
+from the room, and gives off a nearly suffocating odour of vile evil.    
+~
+#17503
+inscription~
+an inscription~
+An inscription is carved into the wall here.~
+~
+16 0 0 0
+0 0 0 0
+0 0 0 0
+E
+inscription~
+   Good friend,
+   At great expense to myself I have sent you this warning. Trilless the 
+Northern Sorceress defends herself with strong creatures of the deep and 
+raging waters. Once you enter her river, it will sweep you forth with no 
+respite.
+   I strongly advise against taking the Northern Sorceress's river without 
+proper preparations. She is well defended, and if underprepared you will 
+surely perish.
+   -Shadimar
+~
+#17504
+trickle~
+a trickle of water~
+A trickle of clean water runs down the wall here.~
+~
+23 0 0 0
+500 500 0 0
+505 0 0 0
+E
+trickle~
+   Closer examination shows that a trickle of clean water does in fact run down
+the wall here.  What's the matter?  Don't you trust the long description?    
+~
+#17505
+lesser Kraken spike~
+a lesser Kraken's spike~
+A lesser Kraken's spike bobs in a rock pool here.~
+~
+12 g ano 0
+0 0 0 0
+5 50 5 0
+E
+spike~
+   The lesser Kraken's spike is long and sharp.    
+~
+#17506
+glow glowing white potion~
+a glowing white potion~
+A glowing white potion is on the ground here.~
+~
+10 0 a 0
+12 36 -1 -1
+3 1000 100 0
+#17509
+Trilless bracelet white~
+Trilless' white bracelet~
+A small white bracelet hovers half an inch above the ground here, rotating gently.~
+~
+11 g am 0
+0 0 0 0
+1 1000 130 0
+A
+1 -1
+A
+12 10
+#17510
+sanctuary glyph Trilless~
+Trilless' sanctuary glyph~
+A small white glyph lies on the ground here.~
+~
+18 abcgi ao 0
+0 0 0 0
+3 120 12 0
+#17511
+white blade Tranquil~
+Tranquil~
+A white blade rests here, shining brightly. It has the word 'Tranquil' etched along the blade.~
+~
+12 gkl an 0
+0 0 0 0
+10 950 120 0
+#17512
+black blade Ristoril~
+Ristoril~
+A blade of pure blackness lies here, absorbing the light. It has the word 'Ristoril' etched across the blade.~
+~
+12 gjl an 0
+0 0 0 0
+10 300 30 0
+#17513
+sigil darkness~
+a sigil of darkness~
+A dark sigil is here, glowing with a dark aura of magic.~
+~
+18 cg ao 0
+0 0 0 0
+3 150 15 0
+#17514
+carcophans black bracelet~
+Carcophan's black bracelet~
+A dark bracelet lies on the ground here, consuming light and warmth.~
+~
+11 g am 0
+0 0 0 0
+5 350 40 0
+A
+13 -25
+A
+12 50
+#17515
+staff night carcophan~
+Carcophan's Staff of Night~
+A black staff is waiting for someone to pick it up.~
+~
+5 gp an 0
+4 3 8 5
+8 40 4 0
+E
+staff night carcophan~
+   The staff is made from a strange black material that must have been
+magically enhanced.  It is far too light for it's size.  An inscription is
+written along the handle in a language that you have never seen before.    
+~
+#0
+
+#ROOMS
+
+#17500
+The Cardinal Wizards Zone Description Room~
+   Builder   : 
+Zone         : 175 Cardinal Wizards
+Began        : 2000
+Player Level : 18-22
+Rooms        : 27
+Mobs         : 13
+Objects      : 14
+Shops        : 1
+Triggers     : 16
+Theme        : A wizards castle with riddles.
+Notes        : This is not an easy zone. The riddles are very tough and I doubt
+               many people will be able to complete them. So the prize should
+               be worthwhile. I'm sure the word will get out as soon as someone
+               guesses them though.
+Links        : 01s, 25w
+~
+175 dj 0
+D5
+~
+~
+0 0 17501
+S
+#17501
+A Gravel Path~
+   The path beneath you is made of loose gravel, and travels both north and
+east.  To the north a large complex is visible, with a tower peaking into the
+sky to the northwest.  To the south lies a granite castle.    
+~
+175 0 0
+D0
+~
+~
+0 0 17502
+D3
+~
+~
+0 0 17526
+S
+#17502
+A Dead End~
+   The path halts suddenly here at the base of what at first glance looks like
+a cliff.  But upon closer examination, the cliff is revealed to be part of a
+wall that extends to the east and west as far as the eye can see.    
+~
+175 0 0
+D0
+   Looking closer at the sheer wall before you, it becomes obvious that there
+is a finely constructed door here, designed to merge seamlessly into the
+northern wall.    
+~
+door hidden~
+2 17500 17503
+D2
+~
+~
+0 0 17501
+S
+#17503
+The Wizard's Mansion~
+   You are in a richly decorated room, with thick carpet under your feet and
+tapestries hanging from the walls.  To the west lies a staircase, and to the
+east you can hear the gurgling of water.  On the north wall hangs a curious
+quicksilver mirror.    
+~
+175 d 0
+D0
+The mirror is a grey stone frame the size of a door set against the wall. Within it, a vertical pool of quicksilver ripples gently, held in place by some magical means.
+~
+~
+0 0 17515
+D1
+~
+~
+0 0 17504
+D2
+From this side, the door is clearly visible,
+but the way the edge of the door merges with
+the frame suggests that from the other side
+the door is well hidden.
+
+~
+door hidden~
+2 17500 17502
+D3
+To the west lies the base of a staircase.
+~
+~
+0 0 17516
+E
+mirror~
+   The mirror is a grey stone frame the size of a door set against the wall.  
+Within it, a vertical pool of quicksilver ripples gently, held in place by some
+magical means.    
+~
+S
+#17504
+An Indoor River~
+   The carpet here comes to an abrupt halt as some hidden mechanism pumps
+water into the hallway and sends it flowing to the east, where it quickly
+becomes rapid and hostile.  On the north wall is a large tapestry, which
+appears suspiciously door-like.    
+~
+175 d 0
+D0
+The brilliant tapestry is a rich and colorful depiction of a violent clash of four armies, each led by it's own Wizardly commander. It is so realistic, it could almost be moving.
+
+It is also suspiciously door-shaped.
+
+~
+tapestry~
+1 0 17505
+D1
+An inexplicable river begins to the east, and continues down the hallway and out of sight.
+~
+~
+0 0 17506
+D3
+~
+~
+0 0 17503
+S
+#17505
+A Tight Space~
+   You are in a tight space behind a tapestry.  It is cramped, cold, dark, and
+smells of moist, moldy stone.  The only thing of intrest is an inscription on
+the wall.    
+~
+175 adi 0
+D2
+From behind, the tapestry is merly thick cloth.
+
+~
+tapestry~
+1 0 17504
+S
+#17506
+The River Quickens~
+   The absurd indoor river quickens now, and you realise that you cannot hope
+to make your way back upstream.  The brick walls around you become coarse and
+poorly cut as you move downstream.    
+~
+175 dg 6
+D1
+To the east, the indoor river turns towards the north.
+~
+grate grating~
+0 0 17507
+S
+#17507
+A Bend in the River~
+   Here the river bends, and continues onwards to the north.  The walls
+continue to deteriorate closer towards that of a cavern, and you can see what
+looks like daylight ahead to the north.    
+~
+175 d 0
+D0
+The river continues on to the north, and you see daylight ahead.
+~
+undefined~
+0 0 17508
+S
+#17508
+The River Continues~
+   The river continues onwards to the north from here, and you can definitely
+see what looks like the exit of a cave's mouth up ahead.  The walls have
+degenerated into uncut stone.    
+~
+175 d 6
+D0
+To the north lies the exit from the hallway (tunnel?) you are in, and the river turns to the east.
+~
+~
+0 0 17509
+S
+#17509
+A Bend to the East~
+   You leave the cave entrance only to find yourself outside in the wilderness.
+However, the banks of the river are too steep to climb, and you are forced
+along a tight bend to the east.    
+~
+175 0 6
+D1
+To the east, the river pours into a lake.
+~
+~
+0 0 17510
+S
+#17510
+Out on the Lake~
+   The river pours into a lake here, and the water stills.  To the north lies a
+shimmering white light, and far to the east you can see a door-sized mirror
+hovering vertically above the water.    
+~
+175 0 6
+D0
+To the north the flickering white light grows stronger. It seems to be congregating about a point.
+~
+~
+0 0 17511
+D1
+~
+~
+0 0 17512
+D3
+The river flows into the lake to the west.
+~
+~
+0 0 17514
+S
+#17511
+Trilless's Sanctuary.~
+   You are surrounded by a shimmering white light in all directions but down.
+Beneath you, water laps gently through the void of brightness, and to the south
+you hear the sounds of a lake.  To the west, you can hear the muffled bickering
+of two guards.    
+~
+175 0 6
+D2
+~
+~
+0 0 17510
+D3
+To the west, Trilless' Sanctuary glows as brightly as in every other direction. Yet from the west also comes the muffled sounds of voices.
+~
+sanctuary door~
+2 17510 17513
+S
+#17512
+The Mirror on the Lake~
+   To the south rises a large ivory doorframe, carved with ethereal runes and
+symbols.  Within the frame ripples quicksilver, and your warped reflection
+stares back at you.  The mirror could be easily walked through.    
+~
+175 0 6
+D2
+The mirror completely restricts your sight to what may possibly lie beyond.
+~
+~
+0 0 17515
+D3
+~
+~
+0 0 17510
+S
+#17513
+The Guardian Room~
+   But for the four exits, this room is completly and utterly bare.  In each of
+the four cardinal directions lies a door, and only the northern is even
+remotely earthly in appearance.  The west wall has a carved obsidian doorframe
+attached, pure blackness inside.  The east is the inverse of the first, a
+carved ivory frame with glowing white light.  The south has a grey stone frame,
+and liquid quicksilver ripples gently on the surface.    
+~
+175 d 0
+D1
+To the east, a doorframe surrounds a flat, flickering window of white light.
+~
+sanctuary~
+2 17510 17511
+D2
+Nothing.
+The mirror completely restricts your sight to what may possibly lie beyond.
+~
+~
+0 0 17503
+D3
+A carved obsidian doorframe surrounds a rectangle of pure darkness.
+
+~
+darkness~
+1 0 17522
+S
+#17514
+The Flowing River~
+   The river soon turns out to become to powerful an opponent to battle, and it
+unceremoniously forces you back to the east.    
+~
+175 0 6
+D1
+The lake opens before you to the east.
+~
+~
+0 0 17510
+S
+#17515
+Inside the Mirror~
+   Nothing but rippling liquid reflection makes up the existence of the world.
+Beneath your feet, up above, and to either side all you can see is your own
+reflection, warped into odd contorted shapes.    
+~
+175 d 0
+D2
+To the south, the mirror thins and the faint impression of a room can be seen behind the reflection.
+~
+~
+0 0 17503
+S
+#17516
+The Base of the Stairs~
+   The room around you is rich, luxuriant, and very, very black.  A stairwell
+leads upwards into the level above, and a small sign is attached to the rail.
+To the east you can see the entrance to the wizards mansion.    
+~
+175 0 0
+D1
+The entrance to the Wizard's Mansion lies to the east.
+~
+~
+0 0 17503
+D4
+The stairwell winds upwards above you into a foyer.
+~
+~
+0 0 17517
+E
+read sign~
+   My Tower of Evil lies above.  All tresspassers will be killed on sight.  
+Turn back now, or face my wrath.  
+
+- Carcophan
+~
+S
+#17517
+The Foyer of the Tower~
+   You are in a foyer.  The floor, walls, and ceiling..  Are black, with the
+occasional blood red splash of a rug or a tapestry.  There is a desk to the
+west that you could easily fit behind.  The stairwell continues up before
+coming to an abrubt halt at the ceiling
+~
+175 d 0
+D0
+~
+~
+1 0 -1
+D3
+~
+~
+0 0 17518
+D4
+There is a small porthole covering the ascent of the stairwell. On it is written the following words:
+
+"I am the end of every life,
+and the beggining of every end.
+What am I?"
+
+~
+porthole~
+0 0 17519
+D5
+~
+~
+0 0 17516
+E
+porthole~
+   There is an inscription written on the porthole:
+
+"I am the end of every life,
+and the beggining of every end.
+What am I?"
+~
+S
+T 17502
+#17518
+Behind the Desk~
+   The desk is cluttered with papers and records, but nothing is of exceptional
+notice here.    
+~
+175 d 0
+D1
+~
+~
+0 0 17517
+S
+T 17505
+#17519
+Outside~
+   The porthole at your feet is surrounded as far as the eye can see by a vast
+desert in the grips of eternal night.  The stars and moon provide enough light
+to see by.  Before you lies a rock carved with what looks like crude poetry.  
+You see no reason to explore the desert.  It's absolutely empty as far as the
+eye can see, and probably further.    
+~
+175 d 0
+D0
+~
+~
+0 0 17519
+D1
+~
+~
+0 0 17519
+D2
+~
+~
+0 0 17519
+D3
+~
+~
+0 0 17519
+D5
+The inscription on the porthole reads:
+
+"This way is now barred to you,
+You, my friend, cannot come through."
+
+~
+porthole~
+0 0 17517
+E
+look porthole~
+   The inscription on the porthole reads:
+
+"This way is now barred to you,
+You, my friend, cannot come through."
+~
+E
+rock stone poetry~
+   "_____ smother light,
+Black bleak land,
+Done with bright,
+Do in dark,
+Smother tight,
+Dark and hide,
+Foolsie sight,
+Stay inside,
+Fear the _____,
+Call the Dark!
+Call the Black!
+Bringsie forth,
+I call it back!"
+ 
+- Trickster
+~
+S
+T 17506
+T 17503
+T 17507
+#17520
+The Forge.~
+   This room looks to be an oversized forge.  An anvil larger then you are
+stands in the center of the room, and several huge smithy weapons adorn the
+walls.  The chimeny to the forge looks safe to climb, but a large grate blocks
+your path upwards.    
+~
+175 0 0
+D4
+The grate is huge, thick and immovable. There is writing here:
+
+"If this riddle you wish to solve,
+Five keys you need to find,
+Look for them all in your forge's anvil,
+And you will find they be of like kind."
+
+~
+grate~
+0 0 17521
+E
+grate door plaque poetry~
+   The grate is huge, thick and immovable.  There is writing here:
+
+"If this riddle you wish to solve,
+Five keys you need to find,
+Look for them all in your forge's anvil,
+And you will find they be of like kind."
+~
+E
+anvil~
+   Upon close inspection you find the following is engraved into the metal:
+
+"abcdefghijklmnopqrstuvwkyz."
+~
+S
+T 17508
+#17521
+The Windy Chimney~
+   By some trick of placement, a gale blows up the chimney from below.  The
+rushing air howls and wails, pulling and pushing at anything not fixed to the
+wall.  Above you is another grate, with a plaque fixed in the center.    
+~
+175 0 0
+D5
+The grate can only open inwards, and if it did so it would crush you. Probably better not to mess with it.
+
+~
+grate~
+0 0 17520
+E
+plaque grate riddle poem~
+   Lipless cries,
+Mouthless mutters,
+Toothless shrieks,
+Wingless flutters.
+~
+S
+T 17509
+T 17510
+#17522
+Deeper Within the Darkness~
+   You are surrounded on all sides by deep, black, malign darkness.  You can
+see nothing whatsoever beyond the outer limit of your light's glow.  But to the
+south you can hear an echo, as if there is more space in that direction than in
+the others.    
+~
+175 ad 0
+D1
+To the east the darkness grows more solid. An echo can be heard far off in this direction.
+
+~
+darkness~
+1 17513 17513
+D2
+~
+~
+0 0 17523
+D3
+~
+darkness~
+1 0 17524
+S
+T 17512
+#17523
+Within the Darkness~
+   You are surrounded on all sides by deep, black, malign darkness.  You can
+see nothing whatsoever beyond the outer limit of your light's glow.  But to the
+north you can hear an echo, as if there is more space in that direction than in
+the others.    
+~
+175 ad 0
+D0
+~
+~
+0 0 17522
+S
+#17524
+Carcophan's Study~
+   You are standing inside what looks to be a large tent in the middle of a
+desert.  A small fire burns giving off light, and comfortable pillows lie
+scattered across the ground.  There is a desk in one corner, with papers and
+pens scattered across it.    
+~
+175 0 0
+D1
+~
+darkness~
+1 0 17522
+S
+#17525
+Before a Cliff Face~
+   The gravel path continues east and west along the cliff face that towers
+above you, too steep to climb.  It stretches to the east and west just north of
+the path.    
+~
+175 0 0
+D1
+~
+~
+0 0 17526
+S
+#17526
+Before a Cliff Face~
+   The gravel path looks out of place at the base of this cliff with an open
+field to the south.  A turn in the path can be seen to the east while the city
+of Elcardo is visible to the west.    
+~
+175 0 0
+D1
+~
+~
+0 0 17501
+D3
+~
+~
+0 0 17525
+S
+#0
+
+#RESETS
+D 0 17524 1 1 	(Carcophan's Study)
+M 0 17512 2 17524 	(the inverse Salamander)
+M 0 17512 2 17524 	(the inverse Salamander)
+M 0 17511 1 17524 	(Carcophan)
+E 1 17513 100 17 	(a sigil of darkness)
+E 1 17514 100 14 	(Carcophan's black bracelet)
+E 1 17515 99 16 	(Carcophan's Staff of Night)
+D 0 17513 3 2 	(The Guardian Room)
+D 0 17513 1 2 	(The Guardian Room)
+M 0 17508 1 17513 	(the Dark Sentinel)
+E 1 17512 100 16 	(Ristoril)
+M 0 17507 1 17513 	(the Light Guardian)
+E 1 17511 100 16 	(Tranquil)
+M 0 17503 2 17508 	(a Kraken)
+M 0 17502 3 17507 	(the lesser Kraken)
+E 1 17505 50 16 	(a lesser Kraken's spike)
+M 0 17501 5 17506 	(the large squid)
+D 0 17522 3 2 	(Deeper Within the Darkness)
+D 0 17522 1 2 	(Deeper Within the Darkness)
+M 0 17510 1 17522 	(Carcophan's Spectre)
+D 0 17521 5 2 	(The Windy Chimney)
+D 0 17520 4 2 	(The Forge.)
+M 0 17509 1 17518 	(Shadimar's Spectre)
+D 0 17519 5 2 	(Outside)
+D 0 17517 4 2 	(The Foyer of the Tower)
+D 0 17511 3 2 	(Trilless's Sanctuary.)
+M 0 17505 3 17511 	(the Water Elemental)
+M 0 17505 3 17511 	(the Water Elemental)
+M 0 17506 1 17511 	(Trilless)
+E 1 17509 100 15 	(Trilless' white bracelet)
+E 1 17510 50 17 	(Trilless' sanctuary glyph)
+M 0 17505 3 17510 	(the Water Elemental)
+M 0 17500 1 17502 	(Shadimar)
+G 1 17500 10 -1 	(Shadimar's quest scroll)
+G 1 17506 100 -1 	(a glowing white potion)
+G 1 17501 10 -1 	(a fire wand)
+G 1 17502 10 -1 	(a void wand)
+D 0 17502 0 2 	(A Dead End)
+M 0 17504 1 17509 	(a greater Kraken)
+D 0 17504 0 1 	(An Indoor River)
+R 0 17504 17504 -1 	(a trickle of water)
+O 0 17504 10 17504 	(a trickle of water)
+D 0 17505 2 1 	(A Tight Space)
+O 0 17503 1 17505 	(an inscription)
+D 0 17503 2 2 	(The Wizard's Mansion)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#17500~
+17500
+-1
+1.00
+1.00
+10
+3
+1
+2
+8
+18
+6
+4
+12
+-1
+%s Your eyes fool you child. I have that item not.~
+%s You have that item not, child.~
+%s I have no need of that item.~
+%s I apologise, but I have not the coin for such an item.~
+%s Unfortunately, you have not enough money.~
+%s You may have it. My price is %d coins.~
+%s Thankyou! Here is %d coins for your trouble.~
+0
+2
+17500
+0
+17502
+-1
+0
+28
+0
+0
+0
+
+
+#$

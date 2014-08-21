@@ -1,0 +1,2950 @@
+#Style Circle
+#AREADATA
+Name Keep of Baron Westlawn~
+Builders Kaan~
+VNUMs 30900 30999
+Credits {{None}  CAW    Keep of Baron Westlawn~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#30900
+guardsman man~
+a guardsman~
+A guardsman stands at ease near the barrier, casually watching your arrival.
+~
+   The guardsman looks at you with a mixture of curiousity and mild animosity.
+Seeing that you wear no colors for any of the Barons, he is not sure what to
+make of you.    
+~
+bdelm 0 500 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30901
+tradesman man~
+a tradesman~
+A tradesman laden down with barrels of Westlawn's finest trudges past.
+~
+   The man must have traveled some distance to get the brew that only Westlawn
+can make so well.  He carries the barrels, one on each shoulder, a bead of
+sweat running down the bridge of his nose.    
+~
+cdg 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#30902
+serf worker~
+a serf worker~
+A man with a crude wheel barrow works on the road.
+~
+   The road being so rutted and in poor shape, it requires constant attention
+from the workers of the area.  The serf carts dirt from dry areas onto the
+road, trying to dry up the areas of the road that are muddiest.    
+~
+bdm 0 300 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#30903
+muddy little boy~
+a muddy little boy~
+A little boy covered in mud and filth plays with a pile of mud.
+~
+   He smiles up at you with a beguiling twinkle in his eye.  How could he know
+that his life is less than perect with such a fine pile of mud right outside
+his front door?    
+~
+bd 0 400 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#30904
+sad little girl~
+a sad little girl~
+A little girl stands forlornly at the door to her family's hut.
+~
+   The poor dear does not wish to step off the doorstep because she knows she
+will instantly be a mess from the muddy yard, but she does not wish to stay
+indoors all day.    
+~
+bd 0 600 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#30905
+serf man~
+a serf~
+A man makes his way home after a long day's work.
+~
+   He is filthy, covered in dirt and grime that seems almost a pigment to his
+skin rather than a covering of extra mess.    
+~
+dg 0 700 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30906
+wizened old woman~
+a wizened old woman~
+An old woman with a wrinkled and careworn face stands outside her hovel.
+~
+   Her eyes perpetually squint from the sun, her face pinched and leathery as
+she watches the children at play.    
+~
+bd 0 400 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#30907
+young child~
+a young child~
+A young child plays outside his home under the watchful eyes of his mother.
+~
+   He is a dirty, filthy child - a child of the dregs, who's lot it is in life
+to do nothing but labor for others.    
+~
+bd 0 600 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30908
+gilsby innkeep man servant~
+Gilsby~
+An old man stands behind the bar slowly and deliberately serving drinks and food.
+~
+   Gilsby was in the service of the old Baron, Westlawn's father for many years
+before Westlawn took on the mantle of Baron.  Gilsby has seen them come and
+seen them go and holds within his old head many secrets to the keep and the
+surrounding area.    
+~
+bdo 0 800 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#30909
+tired man~
+a tired-looking man~
+A tired-looking man leans on a table, tiredly sipping at his ale.
+~
+   He sits at a chair at a table, both elbows propped up on the table, slumped
+over with all his weight on those elbows.    
+~
+bd 0 400 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#30910
+man beady eyes secretive~
+a secretive man~
+A man leans against the far side of the bar, his eyes trained upon you.
+~
+   It is his eyes, those secretive eyes, that give you pause when you look his
+way.  He is certainly not one of the serfs of the area, and does not wear the
+red of Baron Westlawn.    
+~
+bdnoq 0 -400 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#30911
+woman servant serf~
+a worn-looking woman~
+A woman sits upon a barrel working the leather of a harness.
+~
+   Her wrinkled hands move with strength and fluidity which belies the image
+she presents upon first look.    
+~
+bd 0 600 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 2
+E
+#30912
+little boy playing~
+a little boy~
+A little boy plays on the stacks of hay, laughing in delight.
+~
+   He climbs high up into the heights of the hay stacks, looking down every
+once in a while to assure himself that he is truly ascending.    
+~
+bd 0 800 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 1
+E
+#30913
+little girl~
+a little girl~
+A little girl coquettishly tries to act as if she isn't chasing the boy.
+~
+   She nonchalantly climbs the stacks after the boy, trying to make it appear
+that all of this hay climbing is foolish and beneath her, but she never takes
+her eyes of the boy and there is a slight smile at the corners of her mouth.  
+
+~
+bd 0 700 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#30914
+cow old~
+an old, sagging cow~
+An old cow with sagging udders lazily wanders the field.
+~
+   Its tail swishes back and forth, lazily swatting the flies that buzz about.
+  
+~
+bd 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 0
+E
+#30915
+nag mare old~
+an old nag~
+An old nag slowly makes its way around the area, looking for fresh grass.
+~
+   Her back is bowed in the center, her coat patched and in poor condition.  
+
+~
+bd 0 0 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#30916
+local man fishing~
+a local~
+One of the locals sits on the bridge's edge with a fishing pole.
+~
+   He idly dangles his legs over the side, swinging them lazily as the day
+passes.  It doesn't appear that he really cares whether or not he catches
+anything, he is just enjoying the quiet.    
+~
+bd 0 600 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30917
+woman basket~
+a woman carrying a basket~
+A woman hoists a large wicker basket on one shoulder, carrying it through the yard.
+~
+   She walks slightly bent over to one side, the contents of the basket
+obviously heavy and awkward.    
+~
+dg 0 500 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#30918
+man keg~
+a man rolling a keg~
+A man pushes a wooden keg through the keep, taking it to another room.
+~
+   This man is one of Westlawn's many servants whose main job it is to make
+sure that the dining and kitchen area is always well-stocked with ale.    
+~
+dg 0 600 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#30919
+watchman soldier~
+a watchman~
+A soldier stands at post, scanning the horizon for any signs of invasion.
+~
+   His keen eyes do not for one moment waver from their incessant scanning of
+the lands around the keep.  If this man fails in his job, many people could
+die.    
+~
+bdelnopq 0 500 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#30920
+soldier man~
+a soldier~
+A soldier tromps about the keep, stepping in clean rythym even though he is alone.
+~
+   All of Westlawn's men have been trained so well that they continue to march
+in formation even when there is no formation.    
+~
+cdglm 0 500 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#30921
+soldier guard finest~
+one of Westlawn's Elite~
+A soldier wearing the sigil of an Elite strides past.
+~
+   Westlawn's Elite are feared throughout the realm by all Barons and common
+folk alike.  They have been trained in the arts of battle to such a degree as
+to be masters, respected as the best in nearly every fight.    
+~
+deglmq 0 700 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#30922
+jerrod swordsman elite captain~
+Jerrod~
+People stand aside as Jerrod, the captain of the Elite, makes his way through.
+~
+   Jerrod smiles and nods as he passes by, his face set in an expression of
+open kindness.  The people who he smiles at, however, smile nervously back,
+hoping not to offend in any way.  Jerrod is never petty or unkind to the common
+folk of the keep or the surrounding land, but the stories of his tirades on his
+men are legendary - thus the reason for the wide berth that people give when he
+passes.    
+~
+dglmn 0 700 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#30923
+raggedy commoner~
+a raggedy commoner~
+A raggedy commoner walks past.
+~
+   He is nondescript in nearly every way possible.  His clothes are those of a
+common man's - brown jerkin with a pair of sandals.    
+~
+dg 0 200 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30924
+foreman man boss~
+the foreman~
+The foreman of the farm crew stands scribbling in a clipboard.
+~
+   He is probably the only man in the immediate area who is not covered in mud
+and filth from head to toe.    
+~
+bd 0 100 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#30925
+donld smithy~
+Donld~
+Donld the smithy pounds away at his anvil.
+~
+   He is tall and lean, well muscled but not huge like many stereotypical
+smiths of the area.  He looks up at you without stopping pounding, winks with a
+sligh smile, and goes back to concentrating on his anvil.    
+~
+bdlnopq 0 800 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#30926
+Westlawn Baron~
+the Baron Westlawn~
+The Baron Westlawn is here, talking with Donld.
+~
+   He is not a particularly large or imposing man, he is simply a man.  He is
+better than average looking, about six foot even in height and carries himself
+with a strong dignity.    
+~
+bdl 0 750 E
+30 15 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+E
+#30927
+serving wench~
+a serving wench~
+A serving wench moves about the keep, performing her duties.
+~
+   She is dressed in a very fetching homespun dress that amplifies her bosoms
+to the full extent.  Her hair is done up high in a nest of sorts, stray wisps
+falling about her face.    
+~
+dg 0 600 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#30928
+cook~
+a cook~
+A cook hustles about the kitchen, staying clear of Salida's spoon.
+~
+   He is dressed in a white kitchen-workers outfit, stained and nastified by
+the many juices and fluids of the food he prepares.    
+~
+bd 0 400 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30929
+cook~
+a cook~
+A cook works feverishly at scrubbing the pots and pans for the next meal.
+~
+   She is up to her elbows in dirty dish water, her face covered in a sheen of
+sweat and grime.  But she is smiling.  Who can understand women?    
+~
+bd 0 300 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#30930
+salida chief cook~
+Salida~
+Salida booms orders in her huge voice, her large wooden spoon held at ready.
+~
+   Anyone who has frequented the kitchen at all knows to stay clear of this big
+woman's spoon and the lashings it will endow.  Just the same, she runs a great
+kitchen with great food.    
+~
+bd 0 -50 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 2
+E
+#30931
+pig stray~
+a stray pig~
+A stray pig runs about the yard, snorting and oinking.
+~
+   From the looks of it, this nasty creature couldn't be happier as it rolls
+and twists about in the mud.    
+~
+bd 0 0 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 0
+E
+#30932
+old man serf~
+an old man~
+An old man, one of the original serfs of the area, lounges on the floor.
+~
+   He looks up at you pitifully with pain-filled eyes, silently beseeching that
+you let him alone.    
+~
+bd 0 0 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 1
+E
+#30933
+stableman man servant~
+a stableman~
+One of Westlawn's servants tends to the horses.
+~
+   He is a younger lad - possibly fourteen or fifteen years of age - who wishes
+to make a go at becoming one of the Elite.  All of the younger generation here
+at Warrior's Keep have that same desire - to one day be a proud warrior who
+fights at the Baron's side.    
+~
+bd 0 600 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#30934
+roscoe chief stablemaster  horse breaker~
+Roscoe~
+Roscoe, the chief stablemaster and horsebreaker, leans on the fence.
+~
+   He chews a piece of straw slowly, deliberately, as he watches one of the
+newest of the steeds trot about the field.    
+~
+bd 0 0 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#30935
+lounging soldier~
+a lounging soldier~
+A soldier lounges on a cot, taking a break before he goes on watch.
+~
+   He stares up at the ceiling, not really paying any attention to anything at
+all.    
+~
+bd 0 200 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#30936
+child mischievous~
+a mischievous child~
+A mischievous child darts through the kitchen, stealing any scraps she can find.
+~
+   She somehow stays just of reach from Salida's spoon, winking slyly and
+dodging around piles of pots and pans.    
+~
+bd 0 500 E
+25 16 -5 5d5+250 4d4+4
+250 62500
+8 8 2
+E
+#30937
+noble man conniving~
+a secretive noble~
+A noble whispers quietly to the others gathered around him.
+~
+   He has a look of confidentiality about him - as if what he whispers is of
+great import and groundbreaking news.    
+~
+bd 0 -200 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#30938
+young noble~
+a young noble~
+A young noble listens as the secretive one whispers.
+~
+   The young man looks quite open and trusting - perhaps too trusting.  He
+listens raptly, nodding every now and again to what is being said.    
+~
+bd 0 800 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#30939
+haughty noble~
+a haughty noble~
+A haughty noble listens to it all with an air of disdain.
+~
+   He frequently rolls his eyes, looking for all the world as if he couldn't
+disagree more or be more bored - but he doesn't leave.    
+~
+bd 0 200 E
+29 16 -7 5d5+290 4d4+4
+290 84100
+8 8 1
+E
+#30940
+bold noblewoman~
+a bold noblewoman~
+A noblewoman stands boldly with the men, taking her chances at being laughed out.
+~
+   She holds her head defiantely, listening only slightly to what the noble
+whispers, worried more about her status being called down.    
+~
+bd 0 100 E
+26 16 -5 5d5+260 4d4+4
+260 67600
+8 8 2
+E
+#30941
+visiting merchant~
+a visiting merchant~
+A visiting merchant walks through the yard, enjoying some time to himself.
+~
+   He carries most of what he owns in a bag slung over one shoulder - the rest
+must be stashed away somewhere in one of the guest rooms.    
+~
+dg 0 300 E
+27 16 -6 5d5+270 4d4+4
+270 72900
+8 8 1
+E
+#30942
+bud alemaster~
+Bud~
+Bud, the alemaster of the keep, brews his finest.
+~
+   Some people carry pride in themselves at being very fast, some are proud of
+their ability to fight, others love the adevnture of learning new spells.  Bud
+is proud of one thing only - the man loves his beer.  Crisp and clean, alway
+cold-filtered, never heat pasturized.    
+~
+bd 0 1000 E
+28 16 -6 5d5+280 4d4+4
+280 78400
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#30900
+breastplate plate red steel~
+a red steel breastplate~
+A red steel breastplate lies discarded on the ground.~
+~
+9 0 ad 0
+0 0 0 0
+11 100 0 20
+A
+13 25
+A
+19 3
+A
+3 -2
+#30901
+plate face red steel~
+a red steel face plate~
+A red steel face plate lies on the ground.~
+~
+9 0 ae 0
+5 0 0 0
+5 100 0 20
+A
+1 3
+A
+13 30
+#30902
+guardsman's sword red steel~
+a guardsman's sword~
+A guardsman's sword has been dropped here.~
+~
+5 0 an 0
+0 4 5 3
+8 100 0 20
+A
+19 4
+A
+18 3
+A
+2 -3
+#30903
+beer barrel beer~
+a barrel~
+A barrel of beer lies on the ground.~
+~
+17 0 ao 0
+75 75 1 0
+50 20 0 1
+#30904
+wheel barrow~
+a wheel barrow~
+A wheel barrow lies at the side of the road.~
+~
+15 0 ao 0
+400 0 -1 0
+18 10 0 1
+#30905
+shovel~
+a shovel~
+A shovel has been left on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+4 250 0 1
+#30906
+beads string~
+a string of beads~
+A string of beads have been dropped here.~
+~
+12 0 ac 0
+0 0 0 0
+4 100 0 20
+A
+3 1
+A
+13 -20
+#30907
+ale pint westlawn ale~
+a pint of Westlawn's Ale~
+A pint of container has been left on the ground.~
+~
+17 0 ao 0
+4 4 3 0
+9 8 0 1
+#30908
+water jar water~
+a jar of water~
+A clear jar has been left here.~
+~
+17 0 ao 0
+4 4 0 0
+9 3 0 1
+#30909
+steak platter~
+a steak platter~
+A steak platter lies on the ground.~
+~
+19 0 ao 0
+6 0 0 0
+3 11 0 1
+#30910
+paper wadded piece~
+a wadded up piece of paper~
+A wadded up piece of paper lies on the ground.~
+~
+12 b ao 0
+0 0 0 0
+1 10 0 25
+E
+paper~
+   To you my love, my dear Landestine -
+
+I have written you this very same letter a thousand times, rewriting and
+throwing away the same words time after time. I do not know why I find
+myself always writing the same thing over and over, knowing that our
+love is as futile as the attempted peace talks which go on between the
+Barons.
+
+I know that you have your realm and your people to consider, and I realize
+who I am - naught but a lowly servant, and an old one now - but even so,
+I cannot stop the hunger for your touch which still burns as strong as it
+did so many years ago.
+
+One day, when all is settled and no one can get hurt anymore, our love will
+have its chance and you and I will live in blissful peace.
+I know it in my heart.
+
+Yours -
+
+Gilsby
+~
+A
+5 3
+A
+4 1
+#30911
+cloak jet black~
+a jet-black cloak~
+A jet-black cloak lies in a ball on the ground.~
+~
+9 a ak 0
+9 0 0 0
+7 1000 0 26
+A
+12 40
+A
+3 2
+A
+1 -3
+#30912
+etched staff~
+an etched staff~
+An etched staff has been left on the ground.~
+~
+4 a ao 0
+30 3 3 3
+6 100 0 0
+A
+19 3
+A
+18 2
+A
+13 -30
+#30913
+rune thumb~
+a glowing thumb rune~
+A glowing thumb rune lies on the ground.~
+~
+11 a ab 0
+0 0 0 0
+3 103 0 25
+A
+19 2
+A
+18 1
+A
+13 35
+#30914
+harness leather~
+a leather harness~
+A leather harness lies coiled on the ground.~
+~
+9 0 aco 0
+6 0 0 0
+6 50 0 23
+A
+13 30
+#30915
+pole fishing~
+a fishing pole~
+A fishing pole lies tossed aside.~
+~
+12 0 ao 0
+0 0 0 0
+3 10 0 1
+#30916
+shiney lure~
+a shiny lure~
+A small shiny lure lies glinting on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+1 10 0 1
+#30917
+basket wicker~
+a wicker basket~
+A wicker basket has been left here.~
+~
+15 0 ao 0
+300 5 -1 0
+5 10 0 1
+#30918
+belt might~
+the Belt of Supreme Might~
+A glowing belt lies thrown to the ground.~
+~
+9 0 al 0
+7 0 0 0
+6 100 0 21
+A
+1 3
+A
+19 4
+A
+18 -3
+#30919
+shield sorcery~
+the Shield of Sorcery~
+A small, glowing purple shield lies on the ground.~
+~
+9 0 aj 0
+10 0 0 0
+6 1000 0 32
+A
+13 35
+A
+18 2
+A
+19 -3
+#30920
+beer keg beer~
+a keg of beer~
+A keg of beer of beer lies on its side.~
+~
+17 0 ao 0
+100 100 1 0
+50 56 0 1
+#30921
+eyepiece glass~
+a glass eyepiece~
+An odd-shaped glass eyepiece has been dropped.~
+~
+11 a ae 0
+0 0 0 0
+3 100 0 20
+A
+13 30
+#30922
+charm elite~
+an elite charm~
+An elite charm hangs from a red steel chain, dropped upon the floor.~
+~
+11 a ac 0
+0 0 0 0
+4 10 0 21
+A
+17 -3
+A
+19 4
+A
+18 2
+#30923
+sword red steel short~
+a red steel short sword~
+A red steel short sword has been left here.~
+~
+5 b an 0
+0 4 7 14
+8 400 0 23
+A
+18 4
+A
+19 3
+A
+1 -2
+#30924
+boots bladed pair~
+a pair of bladed boots~
+A pair of bladed boots have been left on the floor.~
+~
+9 0 ag 0
+8 0 0 0
+9 300 0 25
+A
+19 4
+A
+18 2
+A
+13 -35
+#30925
+blade titanium~
+a titanium blade~
+A beautiful titanium blade has been somehow left behind.~
+~
+5 a an 0
+0 6 6 3
+10 500 0 25
+A
+18 5
+A
+19 4
+A
+13 -45
+#30926
+mantle red~
+a red mantle~
+A red mantle lies on the ground, waiting to be worn.~
+~
+11 a ak 0
+0 0 0 0
+7 154 0 25
+A
+18 3
+A
+19 2
+A
+3 2
+#30927
+red clasp~
+a red clasp~
+A red clasp has been dropped to the ground.~
+~
+11 a am 0
+0 0 0 0
+3 300 0 25
+A
+17 -4
+A
+13 35
+A
+3 2
+#30928
+clipboard board~
+a clipboard~
+A clipboard has been left here.~
+~
+16 0 ao 0
+0 0 0 0
+4 10 0 1
+#30929
+hammer forgeman's~
+a forgeman's hammer~
+A huge forgeman's hammer lies on the ground.~
+~
+5 0 an 0
+0 6 8 7
+14 100 0 21
+A
+19 4
+A
+1 3
+A
+18 -2
+#30930
+guard brass eye~
+a brass eye guard~
+A brass eye guard has been dropped on the ground.~
+~
+9 a ae 0
+4 0 0 0
+4 100 0 23
+A
+13 35
+A
+2 2
+#30931
+anvil~
+an iron anvil~
+An iron anvil sits squarely in the center of the floor.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#30932
+guards forearm arm~
+a set of leather forearm guards~
+A set of leather forearm guards lie on the ground.~
+~
+9 mn ai 0
+7 0 0 0
+6 100 0 25
+A
+19 3
+A
+18 3
+A
+13 20
+#30933
+red steel ring~
+a red steel ring~
+A red steel ring had been dropped on the ground.~
+~
+11 ak ab 0
+0 0 0 0
+2 300 0 25
+A
+19 5
+A
+18 -4
+A
+13 -20
+#30934
+ring plain red steel~
+a plain red steel ring~
+A plain red steel ring lies on the ground.~
+~
+11 k ab 0
+0 0 0 0
+3 400 0 25
+A
+17 -3
+A
+18 4
+A
+2 2
+#30935
+leggings red chainmail~
+a pair of red chainmail leggings~
+A pair of red chainmail leggings lie on the ground.~
+~
+9 ak af 0
+9 0 0 0
+9 1000 0 25
+A
+19 5
+A
+18 5
+A
+1 -5
+#30936
+spoon large wooden~
+a large wooden spoon~
+A large wooden spoon has been left on the ground.~
+~
+12 0 ao 0
+0 0 0 0
+3 1 0 1
+#30937
+straw piece~
+a piece of straw~
+A piece of straw lies thrown to the ground.~
+~
+12 0 ao 0
+0 0 0 0
+1 1 0 1
+#30938
+boots thick leather~
+a pair of thick leather boots~
+A pair of thick leather boots lie on the ground.~
+~
+9 a ag 0
+6 0 0 0
+8 100 0 27
+A
+5 2
+A
+19 2
+A
+18 2
+#30939
+hat wide brimmed tall~
+a tall, wide-brimmed hat~
+A tall, wide-brimmed hat lies thrown to the ground.~
+~
+9 0 ae 0
+4 0 0 0
+5 300 0 28
+A
+19 4
+A
+18 2
+A
+5 1
+#0
+
+#ROOMS
+
+#30900
+Guard Post~
+   The wooden barrier that bars progress south along the road to Westlawn's is
+not formidable enough to truly keep people off Westlawn's property.  Indeed -
+were it not for the guards which are stationed here, one could easily ride off
+the road and go around.  
+~
+309 0 0
+D2
+~
+~
+0 0 30901
+E
+credits~
+*The Warrior Keep of Baron Westlawn
+*Written by Kaan for Dibrova
+Level: 55 - 80
+90 rooms
+42 mobs
+40 objs
+Connector zones: The King's Highway
+This is one of eight main baronies that lie within the open plains
+area that the King's Highway runs through. The main exports of this
+Baron's land are beer and horses. He is a warrior baron to the core,
+his soldiers finely tuned and he himself a fine warrior who could
+drink any man under the table.
+~
+S
+#30901
+Road Through Westlawn's Fields~
+   Tall, waving crops line both sides of the road, the main export of this area
+being grain, since it is so easy to grow.  Westlawn is a known brawler and
+tactician, farming is not exactly his strong point - the running part of his
+estate that he leaves to be tended by his servants.  
+~
+309 0 0
+D0
+~
+~
+0 0 30900
+D2
+~
+~
+0 0 30902
+S
+#30902
+Road Through Westlawn's Fields~
+   The road runs through the center of Westlawn's property which is mainly used
+for the growing of grains and barley.  Not only are these two crops easy to grow
+for a man who knows next to nothing about farming, but they are essential to two
+parts of Baron Westlawn's life that he does know quite a lot about - horses and
+drinking.  The King's Highway lies north of here, the way into Westlawn's estate
+lies south.  
+~
+309 0 0
+D0
+~
+~
+0 0 30901
+D2
+~
+~
+0 0 30903
+S
+#30903
+Road Through Westlawn's Fields~
+   Just to the south lies the area of Westlawn's property which he has given
+over to the servants he employs which work his fields.  They are the common folk
+of the area, the people who scratch a bare living from the coffers of the Baron,
+but are not in any way mistreated and of course may leave of their own volition
+at any time.  To the north is the main highway.  
+~
+309 0 0
+D0
+~
+~
+0 0 30902
+D2
+~
+~
+0 0 30904
+S
+#30904
+A Muddy, Rutted Section of the Road~
+   The homes of the many common folk who live here on Westlawn's estate lie to
+the west, their shoddy hovels and crude huts looking dirty and ill-kept.  The
+road also takes a turn for the worse at this point, the evidence of much traffic
+and little upkeep obvious due to the many potholes and ruts in it.  The road
+travels north and south.  
+~
+309 0 0
+D0
+~
+~
+0 0 30903
+D2
+~
+~
+0 0 30905
+D3
+~
+~
+0 0 30917
+S
+#30905
+Rutted Roadway~
+   The road continues north and south, the ruts of wagons and horse hooves
+making it very bumpy and hard to travel.  The road is also perpetually wet from
+the slops and waste of the folk who live in the area on the west side of the
+road.  The road runs south toward a large barn or north toward the highway.  
+~
+309 0 0
+D0
+~
+~
+0 0 30904
+D2
+~
+~
+0 0 30906
+D3
+~
+~
+0 0 30918
+S
+#30906
+Muddy Roadway~
+   The mud from the yards of the huts and shacks which lie west of here has
+spilled out into the roadway, making it very soft and hard to travel upon.  It
+does not appear that any effort is taken in the upkeep of the road or the hovels
+which lie to the west.  The road continues north and south.  
+~
+309 0 0
+D0
+~
+~
+0 0 30905
+D2
+~
+~
+0 0 30907
+D3
+~
+~
+0 0 30919
+S
+#30907
+Worn Roadway~
+   The road continues past the homes of the less fortunate in this area, the
+hovels and shacks of the poor folk who work dawn until dusk to keep the crops
+plentiful.  To the south is a large red barn, is paint flaking away, the walls
+partially askew from poor craftsmanship.  
+~
+309 0 0
+D0
+~
+~
+0 0 30906
+D2
+~
+~
+0 0 30908
+D3
+~
+~
+0 0 30920
+S
+#30908
+Worn Roadway~
+   It seems that you stand in the middle of 'town'.  On the east side of the
+road is a shoddy building, its walls made from scrap wood, the windows paneless
+and barely square by any means.  Continuous sound comes from the inside of the
+building, though, suggesting it to be an inn or tavern for the locals.  On the
+west side are more of the homes of the commoners and to the south the road bends
+to the east.  
+~
+309 0 0
+D0
+~
+~
+0 0 30907
+D1
+~
+door~
+1 0 30916
+D2
+~
+~
+0 0 30909
+D3
+~
+~
+0 0 30921
+S
+#30909
+Muddy Bend~
+   The road bends to the east around the inn to the northeast and the barn to
+the south.  Entrance into the barn lies just to the south, the large front door
+slightly crooked on its slider.  To the west is a fenced in pasture where a few
+sickly-looking cows wander about.  
+~
+309 0 0
+D0
+~
+~
+0 0 30908
+D1
+~
+~
+0 0 30910
+D2
+~
+~
+0 0 30927
+S
+#30910
+Twisting Road~
+   The road angles west and south through the Baron's estate, the keep now
+visible to the southeast.  To the west is the place of the common folk, where
+they live and work.  There is a rackety wooden door in the wall of the inn on
+the north side of the road.  
+~
+309 0 0
+D0
+~
+door~
+1 0 30916
+D2
+~
+~
+0 0 30911
+D3
+~
+~
+0 0 30909
+S
+#30911
+Twisting Road~
+   The road twists and turns through the land which is owned by Baron Westlawn.
+Exits lie to the north and east.  To the east, the road runs over a bridge which
+spans a small river.  
+~
+309 0 0
+D0
+~
+~
+0 0 30910
+D1
+~
+~
+0 0 30912
+S
+#30912
+Rickety Bridge~
+   The bridge which crosses the water below is certainly wide enough to
+accomodate heavy traffic, but whether or not it could hold the heavy traffic
+which might cross over it is another story.  It groans and creaks with your
+crossing, slightly shaking as you move about on it.  The road bends to the south
+and west.  
+~
+309 0 0
+D2
+~
+~
+0 0 30913
+D3
+~
+~
+0 0 30911
+S
+#30913
+Muddy Road Before the Keep~
+   The keep of Baron Westlawn lies to the east, a crudely imposing structure
+which does not appear to be in any sort of disrepair but is certainly not
+pleasing to the eye.  It is one of those great examples of function over form.
+To the north is a bridge and the road which leads back to the main highway.  
+~
+309 0 0
+D0
+~
+~
+0 0 30912
+D1
+~
+~
+0 0 30914
+S
+#30914
+Before the Keep~
+   The tall, wood-timbered walls which surround the keep look extremely strong
+and rough.  The entire feel to this place is one of raw strength, of bold valor.
+Quite fitting for the home of the warrior Baron.  
+~
+309 c 0
+D1
+~
+~
+0 0 30915
+D3
+~
+~
+0 0 30913
+S
+#30915
+Inner Yard~
+   People move and bustle all about this place in a general buzz of activity.  
+Westlawn must not be much of a fan of lazy or slow movers because no one looks
+as if they are taking their time, but walking about with a steady stride, with
+purpose.  This inner yard is completely walled in, the only doors are the one
+which lies just to the west, the exit, and one other which is built into the
+eastern wall a short distance away.  
+~
+309 0 0
+D0
+~
+~
+0 0 30931
+D1
+~
+~
+0 0 30933
+D2
+~
+~
+0 0 30934
+D3
+~
+~
+0 0 30914
+S
+#30916
+The Fireside Inn~
+   This is one of the most nasty smelling inns you ever have had occasion to
+visit.  There is a layer of grime, mud and grease on the floor which makes
+footing relatively dangerous and a coating of dirt on every table.  A bar lies
+on the east wall, behind which a man in a grubby smock serves drinks and food.
+
+~
+309 d 0
+D2
+~
+door~
+1 0 30910
+D3
+~
+door~
+1 0 30908
+S
+#30917
+Mud Yard~
+   The entire row of homes which lie here and to the south are fronted by a
+muddy, sludged-out yard where the children can play.  Most of the time for these
+folk is spent harvesting or doing the general labor of the fields, however there
+are some days when Westlawn declares a free day and then the fun begins.  This
+small area - this place of mud and grime - is where that fun is had.  
+~
+309 0 0
+D1
+~
+~
+0 0 30904
+D2
+~
+~
+0 0 30918
+D3
+~
+door~
+1 0 30922
+S
+#30918
+Mud Yard~
+   The entire row of homes which lie here and to the south are fronted by a
+muddy, sludged-out yard where the children can play.  Most of the time for these
+folk is spent harvesting or doing the general labor of the fields, however there
+are some days when Westlawn declares a free day and then the fun begins.  This
+small area - this place of mud and grime - is where that fun is had.  
+~
+309 0 0
+D0
+~
+~
+0 0 30917
+D1
+~
+~
+0 0 30905
+D2
+~
+~
+0 0 30919
+D3
+~
+~
+0 0 30923
+S
+#30919
+Mud Yard~
+   The entire row of homes which lie here and to the south are fronted by a
+muddy, sludged-out yard where the children can play.  Most of the time for these
+folk is spent harvesting or doing the general labor of the fields, however there
+are some days when Westlawn declares a free day and then the fun begins.  This
+small area - this place of mud and grime - is where that fun is had.  
+~
+309 0 0
+D0
+~
+~
+0 0 30918
+D1
+~
+~
+0 0 30906
+D2
+~
+~
+0 0 30920
+D3
+~
+door~
+1 0 30924
+S
+#30920
+Mud Yard~
+   The entire row of homes which lie here and to the south are fronted by a
+muddy, sludged-out yard where the children can play.  Most of the time for these
+folk is spent harvesting or doing the general labor of the fields, however there
+are some days when Westlawn declares a free day and then the fun begins.  This
+small area - this place of mud and grime - is where that fun is had.  
+~
+309 0 0
+D0
+~
+~
+0 0 30919
+D1
+~
+~
+0 0 30907
+D2
+~
+~
+0 0 30921
+D3
+~
+~
+0 0 30925
+S
+#30921
+Mud Yard~
+   The entire row of homes which lie here and to the south are fronted by a
+muddy, sludged-out yard where the children can play.  Most of the time for these
+folk is spent harvesting or doing the general labor of the fields, however there
+are some days when Westlawn declares a free day and then the fun begins.  This
+small area - this place of mud and grime - is where that fun is had.  A
+fenced-in area to the south is where the cows are kept.  They provide the milk
+not only for the keep, but for these folk as well.  
+~
+309 0 0
+D0
+~
+~
+0 0 30920
+D1
+~
+~
+0 0 30908
+D3
+~
+~
+0 0 30926
+S
+#30922
+Hovel~
+   This small, one room home holds all that a family might own within.  The
+floors are of wood planking, rough hewn and full of potential splinters and
+covered in the mud that gets tracked in from the yard outside.  A small table is
+pushed against the far wall, rows of low cots line the floors along the opposite
+wall.  
+~
+309 d 0
+D1
+~
+door~
+1 0 30917
+S
+#30923
+Hut~
+   The walls of this crude shelter are made from the leftovers of the crops
+which are grown about the area.  There is not much in the way of woodlands, as
+most the wooded areas have been cut down to provide more room for growing crops
+for the Barons.  Gaps in the walls and ceiling make it only slightly better than
+being outside - a steady breeze flows through.  
+~
+309 0 0
+D1
+~
+~
+0 0 30918
+S
+#30924
+Shack~
+   This small wooden home is actually considered to be of high standards for
+this area.  The walls are all quite solid and without gaps, the flooring is
+smooth and covered in wood.  There are even sections where private areas can be
+had by the people who live here.  
+~
+309 d 0
+D1
+~
+door~
+1 0 30919
+S
+#30925
+Canvas and Straw Hut~
+   This is almost more of tepee than a hut at all, but it does serve its purpose
+quite well.  The walls are all covered in thick canvas which holds out against
+wind and rain and provides adequate cover for privacy.  
+~
+309 d 0
+D1
+~
+~
+0 0 30920
+S
+#30926
+Hovel~
+   This is the home of all the men of the area with no families who have no
+other place to go.  There are no beds, just open floor space.  The only piece of
+furniture in the room is a low table which may be used by sitting on the floor.
+
+~
+309 d 0
+D1
+~
+~
+0 0 30921
+S
+#30927
+Barn~
+   The musty smell of the place assaults your nostrils immediately upon entry,
+the old, open smell of a barn so distinct as to be a scent all its own.  
+Harnesses and tools for harvesting lie about the place, all in surprising order.
+The main exit lies to the north, a wide set of double doors open to the west.  
+~
+309 d 0
+D0
+~
+~
+0 0 30909
+D3
+~
+~
+0 0 30928
+S
+#30928
+Hay Barn~
+   Piles of tight bales lie in neat stacks all about this section of the barn.
+A door leads east into the main section of the barn, another leading north out
+into the cow pasture.  
+~
+309 cd 0
+D0
+~
+~
+0 0 30929
+D1
+~
+~
+0 0 30927
+S
+#30929
+Cow Pasture~
+   This is a small area where the few cows that are used specifically for
+milking are kept.  It would be a good idea to watch your step here, as there are
+quite a few small greenish-brown piles laying about.  To the east of this
+pasture is the roadway, a fence blocking the way onto the road and to the north
+is the common folks' area where their homes and muddy yards lay.  
+~
+309 0 0
+D2
+~
+~
+0 0 30928
+D3
+~
+~
+0 0 30930
+S
+#30930
+Cow Pasture~
+   This is a small area where the few cows that are used specifically for
+milking are kept.  It would be a good idea to watch your step here, as there are
+quite a few small greenish-brown piles laying about.  To the east of this
+pasture is the roadway, a fence blocking the way onto the road and to the north
+is the common folks' area where their homes and muddy yards lay.  
+~
+309 0 0
+D1
+~
+~
+0 0 30929
+S
+#30931
+Inner Yard~
+   All manner of activities go on in this main outer section of the keep.  
+Children play in the relative safety of the walls of the keep, men and women go
+about their business and the higher nobles of the area talk business amongst
+themselves in what they feel is a sort of seclusion in the southeast corner.  
+~
+309 0 0
+D1
+~
+~
+0 0 30932
+D2
+~
+~
+0 0 30915
+S
+#30932
+Inner Yard~
+   All manner of activities go on in this main outer section of the keep, the
+place where most of those who live within these walls come to stretch out or
+take a break.  Most of the comings and goings within the keep require travel
+through this section, so traffic is usually quite brisk.  
+~
+309 0 0
+D1
+~
+~
+0 0 30936
+D2
+~
+~
+0 0 30933
+D3
+~
+~
+0 0 30931
+S
+#30933
+Inner Yard~
+   The Baron's people hustle about you, doing their daily tasks or enjoying some
+spare time in the outdoors.  Exits from the yard lie directly east and directly
+west from where you stand.  
+~
+309 0 0
+D0
+~
+~
+0 0 30932
+D1
+~
+~
+0 0 30937
+D2
+~
+~
+0 0 30935
+D3
+~
+~
+0 0 30915
+S
+#30934
+Inner Yard~
+   The rough wooden outer wall of the keep runs along the west side of the
+courtyard and meets with a very solid and well-constructed wall of stone and
+mortar on the south side.  There is no door in the wall, but it is obvious that
+beyond that mortar wall lies the innards of the keep.  
+~
+309 0 0
+D0
+~
+~
+0 0 30915
+D1
+~
+~
+0 0 30935
+S
+#30935
+Inner Yard~
+   The entire inner yard is surrounded by the walls of the keep, a protective
+barrier against marauders and the possibility that another baron might try to
+attack Westlawn to gain control of his land and holdings.  This yard is where
+all the people who live on Westlawn's land come in times of strife or bad
+weather, to stay together in number and relative safety.  
+~
+309 0 0
+D0
+~
+~
+0 0 30933
+D1
+~
+~
+0 0 30938
+D3
+~
+~
+0 0 30934
+S
+#30936
+Inner Yard~
+   The entire inner yard is surrounded by the walls of the keep, a protective
+barrier against marauders and the possibility that another baron might try to
+attack Westlawn to gain control of his land and holdings.  This yard is where
+all the people who live on Westlawn's land come in times of strife or bad
+weather, to stay together in number and relative safety.  
+~
+309 0 0
+D2
+~
+~
+0 0 30937
+D3
+~
+~
+0 0 30932
+S
+#30937
+Inner Yard~
+   A set of double doors lead east into the main section of the keep, the only
+doors which allow access as far you can see from looking around at the walls of
+this yard.  The exit to the keep lies directly west, a short walk across the
+yard from you.  
+~
+309 0 0
+D0
+~
+~
+0 0 30936
+D1
+~
+door~
+1 0 30939
+D2
+~
+~
+0 0 30938
+D3
+~
+~
+0 0 30933
+S
+#30938
+Inner Yard~
+   This is the southeastern corner of the yard, where most of major business
+deals are made by the local nobles of the area.  It is said that any word
+uttered within the confines of the inner keep can be and are heard by Westlawn,
+so most of the bargains which are made are done outdoors in this very area.  
+~
+309 0 0
+D0
+~
+~
+0 0 30937
+D3
+~
+~
+0 0 30935
+S
+#30939
+Wide Hallway~
+   The hallway is a high, arched affair made from stone and mortar.  It rises at
+least fifteen feet at its highest point, twelve at the lowest along the walls.
+The floor is dented and gouged from the tread of many hooves upon it - it seems
+that the Baron has no qualms about leading his fine steeds through this section
+of his home.  The hall meets with another hall just to the east, the courtyard
+lies to the west through a set of heavy double doors.  
+~
+309 d 0
+D1
+~
+~
+0 0 30940
+D3
+~
+door~
+1 0 30937
+S
+#30940
+The Main Hall~
+   This is a wide, clean area of the keep which runs north to south through the
+largest section of the keep.  A door lies to the east, leading into the Baron's
+stable area.  A hall lies to the west leading toward the courtyard.  
+~
+309 d 0
+D0
+~
+~
+0 0 30941
+D1
+~
+door~
+1 0 30954
+D2
+~
+~
+0 0 30942
+D3
+~
+~
+0 0 30939
+S
+#30941
+The Main Hall~
+   The hall runs north to south past doors in the center and in the north and
+south ends.  At either end of the hall, it curves westward, out of sight.  
+~
+309 d 0
+D0
+~
+~
+0 0 30944
+D2
+~
+~
+0 0 30940
+S
+#30942
+The Main Hall~
+   The hall runs north to south past doors in the center and in the north and
+south ends.  At either end of the hall, it curves westward, out of sight.  
+~
+309 d 0
+D0
+~
+~
+0 0 30940
+D2
+~
+~
+0 0 30943
+S
+#30943
+South End of the Main Hall~
+   There are thick wooden doors set into the east and south walls, doors bound
+by lengths of iron which look as strong as any piece of rough iron.  On the
+western wall is another wooden door, hoever it does not appear to hold behind it
+anything of true worth, as it is not as thick and strong-looking as the other
+two doors.  
+~
+309 d 0
+D0
+~
+~
+0 0 30942
+D1
+~
+door~
+1 0 30953
+D3
+~
+door~
+1 0 30950
+D5
+~
+door~
+1 0 30955
+S
+#30944
+Entrance into the Dining Hall~
+   Just west of here is the start of an enormous feastng hall, or more aptly
+what would be called a mess hall in this place.  A thick, wooden table runs the
+entire length of the hall, one which could easily seat a score and a half of men
+at dinner and then some.  There are nightly feasts here at this table, feasts
+that everyone in the keep is invited to and usually attend.  Much revelry,
+singing and baudy jokes are told throughout the evenings - a favorite past time
+of the Baron's.  On the east wall is the door into the kitchen, where wonderful
+smells emanate all day long - there is always something cooking in this place.
+
+~
+309 d 0
+D1
+~
+door~
+1 0 30949
+D2
+~
+~
+0 0 30941
+D3
+~
+~
+0 0 30945
+D4
+~
+door~
+1 0 30963
+S
+#30945
+Hall of Feasting~
+   A thick, wooden table runs the entire length of the hall, one which could
+easily seat a score and a half of men at dinner and then some.  There are
+nightly feasts here at this table, feasts that everyone in the keep is invited
+to and usually attend.  Much revelry, singing and baudy jokes are told
+throughout the evenings - a favorite past time of the Baron's.  
+~
+309 d 0
+D1
+~
+~
+0 0 30944
+D3
+~
+~
+0 0 30946
+S
+#30946
+Hall of Feasting~
+   A thick, wooden table runs the entire length of the hall, one which could
+easily seat a score and a half of men at dinner and then some.  There are
+nightly feasts here at this table, feasts that everyone in the keep is invited
+to and usually attend.  Much revelry, singing and baudy jokes are told
+throughout the evenings - a favorite past time of the Baron's.  
+~
+309 d 0
+D1
+~
+~
+0 0 30945
+D3
+~
+~
+0 0 30947
+S
+#30947
+Hall of Feasting~
+   A thick, wooden table runs the entire length of the hall, one which could
+easily seat a score and a half of men at dinner and then some.  There are
+nightly feasts here at this table, feasts that everyone in the keep is invited
+to and usually attend.  Much revelry, singing and baudy jokes are told
+throughout the evenings - a favorite past time of the Baron's.  
+~
+309 d 0
+D1
+~
+~
+0 0 30946
+D3
+~
+~
+0 0 30948
+S
+#30948
+The Head of the Table~
+   This is the Baron's spot at the table.  He had it purposely designed that he
+could make a grand entrance to his seat of honor on a nightly basis, walking
+slowly and deliberately past all who would dine at his table.  His chair is, of
+course, slightly raised from the rest of the chairs at the table - not that he
+needs the height.  Rumor has it, the baron is close to seven feet in height.  
+~
+309 d 0
+D1
+~
+~
+0 0 30947
+S
+#30949
+The Kitchen~
+   This huge room is in a perpetual state of panic, what with the known appetite
+of Baron Westlawn and all.  There are three seperate brick ovens which are
+always lit and running, always cooking something at all times - even in the dead
+of night.  Cooks run here and there, constantly making sure that nothing burns
+and nothing spoils.  
+~
+309 d 0
+D3
+~
+door~
+1 0 30944
+S
+#30950
+Soldier's Barracks~
+   All of the single men who are part of the Baron's barbaric fighting force are
+given quarters in this large room.  There are bunks lined in straight, perfect
+rows, all of them clean and crisp.  The baron always makes it a point to stop
+into this room at least once a day so that he might make sure that no soldier of
+his lives like a pig.  There are severe penalties for slovenly behavior.  
+~
+309 d 0
+D1
+~
+door~
+1 0 30943
+D3
+~
+~
+0 0 30951
+S
+#30951
+Soldier's Barracks~
+   All of the single men who are part of the Baron's barbaric fighting force are
+given quarters in this large room.  There are bunks lined in straight, perfect
+rows, all of them clean and crisp.  The baron always makes it a point to stop
+into this room at least once a day so that he might make sure that no soldier of
+his lives like a pig.  There are severe penalties for slovenly behavior.  
+~
+309 d 0
+D1
+~
+~
+0 0 30950
+D3
+~
+~
+0 0 30952
+S
+#30952
+Soldier's Barracks~
+   All of the single men who are part of the Baron's barbaric fighting force are
+given quarters in this large room.  There are bunks lined in straight, perfect
+rows, all of them clean and crisp.  The baron always makes it a point to stop
+into this room at least once a day so that he might make sure that no soldier of
+his lives like a pig.  There are severe penalties for slovenly behavior.  
+~
+309 d 0
+D1
+~
+~
+0 0 30951
+S
+#30953
+Arms Cache and Smithy~
+   Donold works tirelessly, day after day making sure that all existing weapons
+and armor are kept in perfect condition.  On top of that chore, me crafts all
+metal-work within the keep, shoes horses and crafts new weapons for the Baron to
+test out.  Donold is not Westlawn's right-hand man but he is damn near close.  
+~
+309 d 0
+D3
+~
+door~
+1 0 30943
+S
+#30954
+Outer Antechamber~
+   Strange that guards would be posted here, already within the keep and at a
+place which a person must already have made through all others in the keep.  
+The general's horses are a matter of pride for him, such strong pride that he
+guards them jealously from intruders.  
+~
+309 d 0
+D1
+~
+door~
+1 0 30969
+D3
+~
+door~
+1 0 30940
+S
+#30955
+Cellar~
+   All manner of dry storage is kept deep within the lower reaches of the
+Baron's keep.  The ground down here is damp and earthy, the smell of the entire
+place musty and raw.  There is not much light except that which you may have
+brought with you.  
+~
+309 ad 0
+D2
+~
+~
+0 0 30956
+D3
+~
+~
+0 0 30960
+D4
+~
+door~
+1 0 30943
+S
+#30956
+Cellar~
+   All manner of dry storage is kept deep within the lower reaches of the
+Baron's keep.  The ground down here is damp and earthy, the smell of the entire
+place musty and raw.  There is not much light except that which you may have
+brought with you.  
+~
+309 ad 0
+D0
+~
+~
+0 0 30955
+D3
+~
+~
+0 0 30957
+S
+#30957
+Cellar~
+   All manner of dry storage is kept deep within the lower reaches of the
+Baron's keep.  The ground down here is damp and earthy, the smell of the entire
+place musty and raw.  There is not much light except that which you may have
+brought with you.  
+~
+309 ad 0
+D0
+~
+~
+0 0 30960
+D1
+~
+~
+0 0 30956
+D3
+~
+~
+0 0 30958
+S
+#30958
+Cellar~
+   All manner of dry storage is kept deep within the lower reaches of the
+Baron's keep.  The ground down here is damp and earthy, the smell of the entire
+place musty and raw.  There is not much light except that which you may have
+brought with you.  
+~
+309 ad 0
+D0
+~
+~
+0 0 30959
+D1
+~
+~
+0 0 30957
+S
+#30959
+Cellar~
+   All manner of dry storage is kept deep within the lower reaches of the
+Baron's keep.  The ground down here is damp and earthy, the smell of the entire
+place musty and raw.  There is not much light except that which you may have
+brought with you.  
+~
+309 ad 0
+D1
+~
+~
+0 0 30960
+D2
+~
+~
+0 0 30958
+S
+#30960
+Cellar~
+   All manner of dry storage is kept deep within the lower reaches of the
+Baron's keep.  The ground down here is damp and earthy, the smell of the entire
+place musty and raw.  There is not much light except that which you may have
+brought with you.  
+~
+309 ad 0
+D1
+~
+~
+0 0 30955
+D2
+~
+~
+0 0 30957
+D3
+~
+~
+0 0 30959
+S
+#30961
+Watch Post on the Battlements~
+   A spot for a sentry to view the land of the Baron has been made upon these
+upper rampartes, a great line of visibility in every direction.  A large gong
+has been placed here to be sounded during times when enemies are spotted.  
+~
+309 0 0
+D1
+~
+~
+0 0 30962
+S
+#30962
+On the Battlements~
+   You stand atop the thick wooden wall of the keep, high above the ground.  A
+guard post lies just west of here, the battelments allow access to the east and
+west.  
+~
+309 0 0
+D1
+~
+~
+0 0 30963
+D3
+~
+~
+0 0 30961
+S
+#30963
+On the Battlements~
+   Paths along the top of the wall of the keep lie to the west and south from
+here.  They are really nothing more than narrow wooden planking hammered down on
+top of the thick timbers which are the walls of the keep.  
+~
+309 0 0
+D2
+~
+~
+0 0 30964
+D3
+~
+~
+0 0 30962
+D5
+~
+door~
+1 0 30944
+S
+#30964
+On the Battlements~
+   The path along the top of the wall of the keep lies to the north and south
+from here.  They are really nothing more than narrow wooden planking hammered
+down on top of the thick timbers which are the walls of the keep.  
+~
+309 0 0
+D0
+~
+~
+0 0 30963
+D2
+~
+~
+0 0 30965
+S
+#30965
+On the Battlements~
+   The path along the top of the wall of the keep lies to the north and south
+from here.  They are really nothing more than narrow wooden planking hammered
+down on top of the thick timbers which are the walls of the keep.  
+~
+309 0 0
+D0
+~
+~
+0 0 30964
+D2
+~
+~
+0 0 30966
+S
+#30966
+On the Battlements~
+   Paths along the top of the wall of the keep lie to the west and north from
+here.  They are really nothing more than narrow wooden planking hammered down on
+top of the thick timbers which are the walls of the keep.  
+~
+309 0 0
+D0
+~
+~
+0 0 30965
+D3
+~
+~
+0 0 30967
+S
+#30967
+On the Battlements~
+   Just to the west is a guard's post where there is always someone on duty.  
+To the east is the long wooden walkway which spans the upper level of the keep.
+
+~
+309 0 0
+D1
+~
+~
+0 0 30966
+D3
+~
+~
+0 0 30968
+S
+#30968
+At a Guard Post on the Battlements~
+   This is nothing more than a cleared space of about four foot by four foot
+which affords a generous view of the lands in every direction.  A huge gong has
+been hung on the south wall of the place, to be rung in times of danger so that
+the population of the keep may know to mobilize.  
+~
+309 0 0
+D1
+~
+~
+0 0 30967
+S
+#30969
+Training Fields~
+   This area is used as a dual-purpose spot where the soldiers of the Baron's
+army are trained in the arts of battle and as a place where the legendary steeds
+raised by the Baron are trained and tamed.  The entire place is ringed by a
+clean white-painted fence, stables lie on the north and south sides of the
+field, another field lies to the east.  
+~
+309 0 0
+D0
+~
+~
+0 0 30970
+D1
+~
+~
+0 0 30974
+D2
+~
+~
+0 0 30975
+D3
+~
+door~
+1 0 30954
+S
+#30970
+Training Fields~
+   This area is used as a dual-purpose spot where the soldiers of the Baron's
+army are trained in the arts of battle and as a place where the legendary steeds
+raised by the Baron are trained and tamed.  To the north is the entrance into
+one of the Baron's stables, the field lies wide open to the east and south.  
+~
+309 0 0
+D0
+~
+door~
+1 0 30984
+D1
+~
+~
+0 0 30971
+D2
+~
+~
+0 0 30969
+S
+#30971
+Training Fields~
+   This area is used as a dual-purpose spot where the soldiers of the Baron's
+army are trained in the arts of battle and as a place where the legendary steeds
+raised by the Baron are trained and tamed.  A stable lies to the north of you,
+the entrance a bit to the west.  To the far east is another field where more
+horses can be seen grazing and idling.  
+~
+309 0 0
+D1
+~
+~
+0 0 30972
+D2
+~
+~
+0 0 30974
+D3
+~
+~
+0 0 30970
+S
+#30972
+Training Fields~
+   This is the training field for the troops and mounts of the army that
+Westlawn commands.  The fence which rings this place runs along north to south
+on your east side, another smaller fenced in area over there.  
+~
+309 0 0
+D2
+~
+~
+0 0 30973
+D3
+~
+~
+0 0 30971
+S
+#30973
+Training Fields~
+   At this east end of the training field, the fence block the way east.  A gate
+allows entry east into a larger, more open field that appears less used - or at
+least less trampled.  The keep entrance lies straight west.  
+~
+309 0 0
+D0
+~
+~
+0 0 30972
+D1
+~
+door~
+1 0 30980
+D2
+~
+~
+0 0 30977
+D3
+~
+~
+0 0 30974
+S
+#30974
+Training Fields~
+   You stand in the center of a fair-sized field used for the training of
+Westlawn's many steeds and the men who ride them.  The ground is quite trampled
+and free of grass for the most part, only patches of green can be seen here.  
+~
+309 0 0
+D0
+~
+~
+0 0 30971
+D1
+~
+~
+0 0 30973
+D2
+~
+~
+0 0 30976
+D3
+~
+~
+0 0 30969
+S
+#30975
+Training Fields~
+   You stand in a fair-sized field used for the training of Westlawn's many
+steeds and the men who ride them.  The ground is quite trampled and free of
+grass for the most part, only patches of green can be seen here.  The door to
+one of Westlawn's stables lies to the south.  
+~
+309 0 0
+D0
+~
+~
+0 0 30969
+D1
+~
+~
+0 0 30976
+D2
+~
+door~
+1 0 30987
+S
+#30976
+Training Fields~
+   You stand in a fair-sized field used for the training of Westlawn's many
+steeds and the men who ride them.  The ground is quite trampled and free of
+grass for the most part, only patches of green can be seen here.  
+~
+309 0 0
+D0
+~
+~
+0 0 30974
+D1
+~
+~
+0 0 30977
+D3
+~
+~
+0 0 30975
+S
+#30977
+Training Fields~
+   You stand in a fair-sized field used for the training of Westlawn's many
+steeds and the men who ride them.  The ground is quite trampled and free of
+grass for the most part, only patches of green can be seen here.  
+~
+309 0 0
+D0
+~
+~
+0 0 30973
+D3
+~
+~
+0 0 30976
+S
+#30978
+Outpasture~
+   Most of Westlawn's steeds are kept here for the length of their stay on his
+estates.  It is a vast field, lush with thick grass, and well-tended by
+Westlawn's servants so that the steeds never run short on food.  The keep lies
+to the west, through another field.  To the east is the long, open fields which
+Westlawn farms to keep his estate financially sound.  Beyond those fields are
+the tall, dark trees of the Kailaani Forest - the place from where they say no
+man ever returns.  
+~
+309 0 0
+D1
+~
+~
+0 0 30979
+D2
+~
+~
+0 0 30980
+S
+#30979
+Outpasture~
+   Most of Westlawn's steeds are kept here for the length of their stay on his
+estates.  It is a vast field, lush with thick grass, and well-tended by
+Westlawn's servants so that the steeds never run short on food.  The keep lies
+to the west, through another field.  To the east is the long, open fields which
+Westlawn farms to keep his estate financially sound.  
+~
+309 0 0
+D2
+~
+~
+0 0 30981
+D3
+~
+~
+0 0 30978
+S
+#30980
+Outpasture~
+   Most of Westlawn's steeds are kept here for the length of their stay on his
+estates.  It is a vast field, lush with thick grass, and well-tended by
+Westlawn's servants so that the steeds never run short on food.  The keep lies
+to the west, through another field.  To the east is the long, open fields which
+Westlawn farms to keep his estate financially sound.  Beyond those fields are
+the tall, dark trees of the Kailaani Forest - the place from where they say no
+man ever returns.  
+~
+309 0 0
+D0
+~
+~
+0 0 30978
+D1
+~
+~
+0 0 30981
+D2
+~
+~
+0 0 30982
+D3
+~
+door~
+1 0 30973
+S
+#30981
+Outpasture~
+   Most of Westlawn's steeds are kept here for the length of their stay on his
+estates.  It is a vast field, lush with thick grass, and well-tended by
+Westlawn's servants so that the steeds never run short on food.  The keep lies
+to the west, through another field.  To the east is the long, open fields which
+Westlawn farms to keep his estate financially sound.  
+~
+309 0 0
+D0
+~
+~
+0 0 30979
+D2
+~
+~
+0 0 30983
+D3
+~
+~
+0 0 30980
+S
+#30982
+Outpasture~
+   Most of Westlawn's steeds are kept here for the length of their stay on his
+estates.  It is a vast field, lush with thick grass, and well-tended by
+Westlawn's servants so that the steeds never run short on food.  The keep lies
+to the west, through another field.  To the east is the long, open fields which
+Westlawn farms to keep his estate financially sound.  Beyond those fields are
+the tall, dark trees of the Kailaani Forest - the place from where they say no
+man ever returns.  
+~
+309 0 0
+D0
+~
+~
+0 0 30980
+D1
+~
+~
+0 0 30983
+S
+#30983
+Outpasture~
+   Most of Westlawn's steeds are kept here for the length of their stay on his
+estates.  It is a vast field, lush with thick grass, and well-tended by
+Westlawn's servants so that the steeds never run short on food.  The keep lies
+to the west, through another field.  To the east is the long, open fields which
+Westlawn farms to keep his estate financially sound.  
+~
+309 0 0
+D0
+~
+~
+0 0 30981
+D3
+~
+~
+0 0 30982
+S
+#30984
+North Stables~
+   The most valuable steeds are kept here, the ones which have been trained,
+broken and are ready for either battle or market.  The Baron keeps all of his
+steeds in perfect health, all of them ready to be either sold to highest bidder
+or rode into battle at a moment's notice.  
+~
+309 d 0
+D1
+~
+~
+0 0 30985
+D2
+~
+door~
+1 0 30970
+S
+#30985
+North Stables~
+   Stalls line the walls on both the north and south walls, horses tethered
+within.  Sacks of grain and brushes for combing lie on the ground in neat piles
+just outside the doors - all of which are used daily.  
+~
+309 d 0
+D1
+~
+~
+0 0 30986
+D3
+~
+~
+0 0 30984
+S
+#30986
+North Stables~
+   Stalls line the walls on both the north and south walls, horses tethered
+within.  Sacks of grain and brushes for combing lie on the ground in neat piles
+just outside the doors - all of which are used daily.  
+~
+309 d 0
+D3
+~
+~
+0 0 30985
+S
+#30987
+South Stables~
+   This is the stables where the more difficult steeds are kept until broken.  
+The steeds which are kept in this stable are considered to be of the finest
+quality, but have the worst attitude of the steeds that Westlawn owns, and so
+are seperated from the general population.  The noise in here is tremendous, as
+are the steeds which stand proudly behind the stall doors.  
+~
+309 d 0
+D0
+~
+door~
+1 0 30975
+D1
+~
+~
+0 0 30988
+S
+#30988
+South Stables~
+   This is the stables where the more difficult steeds are kept until broken.  
+The steeds which are kept in this stable are considered to be of the finest
+quality, but have the worst attitude of the steeds that Westlawn owns, and so
+are seperated from the general population.  The noise in here is tremendous, as
+are the steeds which stand proudly behind the stall doors.  
+~
+309 d 0
+D1
+~
+~
+0 0 30989
+D3
+~
+~
+0 0 30987
+S
+#30989
+South Stables~
+   This is the stables where the more difficult steeds are kept until broken.  
+The steeds which are kept in this stable are considered to be of the finest
+quality, but have the worst attitude of the steeds that Westlawn owns, and so
+are seperated from the general population.  The noise in here is tremendous, as
+are the steeds which stand proudly behind the stall doors.  
+~
+309 d 0
+D3
+~
+~
+0 0 30988
+S
+#0
+
+#RESETS
+M 0 30900 2 30900 	(a guardsman)
+E 1 30900 100 5 	(a red steel breastplate)
+E 1 30901 100 8 	(a red steel face plate)
+E 1 30902 100 16 	(a guardsman's sword)
+M 0 30900 2 30900 	(a guardsman)
+E 1 30900 100 5 	(a red steel breastplate)
+E 1 30901 100 8 	(a red steel face plate)
+E 1 30902 100 16 	(a guardsman's sword)
+D 0 30939 3 1 	(Wide Hallway)
+M 0 30942 1 30957 	(Bud)
+M 0 30941 1 30936 	(a visiting merchant)
+M 0 30940 1 30938 	(a bold noblewoman)
+M 0 30939 1 30938 	(a haughty noble)
+M 0 30938 0 30938 	(a young noble)
+M 0 30937 1 30938 	(a secretive noble)
+M 0 30930 1 30949 	(Salida)
+E 1 30936 100 16 	(a large wooden spoon)
+M 0 30929 1 30949 	(a cook)
+M 0 30928 1 30949 	(a cook)
+D 0 30949 3 1 	(The Kitchen)
+M 0 30936 1 30949 	(a mischievous child)
+M 0 30935 1 30951 	(a lounging soldier)
+M 0 30934 1 30979 	(Roscoe)
+G 1 30937 1 -1 	(a piece of straw)
+E 1 30938 100 8 	(a pair of thick leather boots)
+E 1 30939 100 6 	(a tall, wide-brimmed hat)
+M 0 30933 3 30986 	(a stableman)
+M 0 30933 3 30988 	(a stableman)
+M 0 30932 1 30923 	(an old man)
+M 0 30931 1 30918 	(a stray pig)
+M 0 30927 3 30944 	(a serving wench)
+D 0 30944 4 1 	(Entrance into the Dining Hall)
+D 0 30944 1 1 	(Entrance into the Dining Hall)
+M 0 30927 3 30946 	(a serving wench)
+M 0 30927 3 30948 	(a serving wench)
+O 0 30931 1 30953 	(an iron anvil)
+M 0 30926 1 30953 	(the Baron Westlawn)
+E 1 30933 100 1 	(a red steel ring)
+E 1 30934 100 2 	(a plain red steel ring)
+E 1 30935 100 7 	(a pair of red chainmail leggings)
+M 0 30925 1 30953 	(Donld)
+E 1 30932 100 10 	(a set of leather forearm guards)
+E 1 30929 100 16 	(a forgeman's hammer)
+E 1 30930 100 8 	(a brass eye guard)
+D 0 30953 3 1 	(Arms Cache and Smithy)
+M 0 30924 1 30927 	(the foreman)
+G 1 30928 1 -1 	(a clipboard)
+M 0 30911 1 30927 	(a worn-looking woman)
+G 1 30914 100 -1 	(a leather harness)
+M 0 30923 1 30935 	(a raggedy commoner)
+M 0 30921 5 30954 	(one of Westlawn's Elite)
+E 1 30924 100 8 	(a pair of bladed boots)
+E 1 30923 100 16 	(a red steel short sword)
+E 1 30922 100 3 	(an elite charm)
+D 0 30954 1 1 	(Outer Antechamber)
+D 0 30954 3 1 	(Outer Antechamber)
+M 0 30921 5 30934 	(one of Westlawn's Elite)
+E 1 30922 100 3 	(an elite charm)
+E 1 30923 100 16 	(a red steel short sword)
+E 1 30924 100 8 	(a pair of bladed boots)
+M 0 30922 1 30933 	(Jerrod)
+E 1 30925 100 16 	(a titanium blade)
+E 1 30926 100 12 	(a red mantle)
+E 1 30927 100 3 	(a red clasp)
+M 0 30921 5 30941 	(one of Westlawn's Elite)
+E 1 30922 100 3 	(an elite charm)
+E 1 30923 100 16 	(a red steel short sword)
+E 1 30924 100 8 	(a pair of bladed boots)
+M 0 30920 6 30940 	(a soldier)
+E 1 30902 100 16 	(a guardsman's sword)
+E 1 30901 100 8 	(a red steel face plate)
+E 1 30900 100 5 	(a red steel breastplate)
+D 0 30940 1 1 	(The Main Hall)
+M 0 30920 6 30937 	(a soldier)
+E 1 30900 100 5 	(a red steel breastplate)
+E 1 30902 100 16 	(a guardsman's sword)
+D 0 30937 1 1 	(Inner Yard)
+M 0 30920 6 30966 	(a soldier)
+E 1 30901 100 8 	(a red steel face plate)
+E 1 30900 100 5 	(a red steel breastplate)
+E 1 30902 100 16 	(a guardsman's sword)
+M 0 30919 2 30968 	(a watchman)
+E 1 30921 100 17 	(a glass eyepiece)
+E 1 30900 100 5 	(a red steel breastplate)
+E 1 30901 100 8 	(a red steel face plate)
+M 0 30919 2 30961 	(a watchman)
+E 1 30921 100 8 	(a glass eyepiece)
+E 1 30900 100 5 	(a red steel breastplate)
+E 1 30901 100 17 	(a red steel face plate)
+M 0 30918 1 30932 	(a man rolling a keg)
+G 1 30920 100 -1 	(a keg of beer)
+M 0 30917 1 30915 	(a woman carrying a basket)
+G 1 30917 100 -1 	(a wicker basket)
+P 1 30918 100 30917 	(the Belt of Supreme Might)
+P 1 30919 100 30917 	(the Shield of Sorcery)
+M 0 30916 1 30912 	(a local)
+G 1 30915 100 -1 	(a fishing pole)
+G 1 30916 100 -1 	(a shiny lure)
+M 0 30915 1 30930 	(an old nag)
+M 0 30914 1 30929 	(an old, sagging cow)
+M 0 30913 1 30928 	(a little girl)
+M 0 30912 1 30928 	(a little boy)
+M 0 30910 1 30916 	(a secretive man)
+E 1 30911 100 12 	(a jet-black cloak)
+E 1 30912 100 17 	(an etched staff)
+E 1 30913 100 2 	(a glowing thumb rune)
+M 0 30909 1 30916 	(a tired-looking man)
+G 1 30907 1000 -1 	(a pint of Westlawn's Ale)
+M 0 30908 1 30916 	(Gilsby)
+G 1 30907 1000 -1 	(a pint of Westlawn's Ale)
+G 1 30908 1000 -1 	(a jar of water)
+E 1 30910 100 17 	(a wadded up piece of paper)
+G 1 30909 1000 -1 	(a steak platter)
+D 0 30916 2 1 	(The Fireside Inn)
+D 0 30916 3 1 	(The Fireside Inn)
+M 0 30907 1 30920 	(a young child)
+M 0 30906 1 30921 	(a wizened old woman)
+G 1 30906 100 -1 	(a string of beads)
+M 0 30905 1 30908 	(a serf)
+D 0 30908 1 1 	(Worn Roadway)
+M 0 30904 1 30919 	(a sad little girl)
+D 0 30919 3 1 	(Mud Yard)
+M 0 30903 1 30917 	(a muddy little boy)
+D 0 30917 3 1 	(Mud Yard)
+M 0 30902 1 30904 	(a serf worker)
+G 1 30905 100 -1 	(a shovel)
+O 0 30904 1 30904 	(a wheel barrow)
+M 0 30901 1 30901 	(a tradesman)
+G 1 30903 100 -1 	(a barrel)
+D 0 30987 0 1 	(South Stables)
+D 0 30975 2 1 	(Training Fields)
+D 0 30984 2 1 	(North Stables)
+D 0 30970 0 1 	(Training Fields)
+D 0 30973 1 1 	(Training Fields)
+D 0 30980 3 1 	(Outpasture)
+D 0 30969 3 1 	(Training Fields)
+D 0 30963 5 1 	(On the Battlements)
+D 0 30943 5 1 	(South End of the Main Hall)
+D 0 30943 1 1 	(South End of the Main Hall)
+D 0 30943 3 1 	(South End of the Main Hall)
+D 0 30955 4 1 	(Cellar)
+D 0 30950 1 1 	(Soldier's Barracks)
+D 0 30924 1 1 	(Shack)
+D 0 30922 1 1 	(Hovel)
+D 0 30910 0 1 	(Twisting Road)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

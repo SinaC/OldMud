@@ -1,0 +1,1331 @@
+Area 'Drow City' {
+  Builders = 'None';
+  Vnums = ( 5100, 5199 );
+  Credits = '{{15 25} Drkside Drow City';
+  Security = 7;
+
+//=======================================
+Mobile 5100 {
+  Name = 'oldstyle goblin slave';
+  ShD = 'the goblin slave';
+  LnD = 'A goblin slave lies here asleep.
+';
+  Desc = 'The defenseless goblin begs for mercy.
+';
+  Race = 'goblin';
+  Alignment = -450;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 2, 6, 10 );
+  Mana = ( 0, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 4, 0 );
+  ACs = ( 9, 9, 9, 10 );
+  Position = ( 'sleeping', 'sleeping' );
+  Sex = 'male';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Goblin';
+}
+Mobile 5101 {
+  Name = 'oldstyle drow commoner';
+  ShD = 'the drow commoner';
+  LnD = 'A drow commoner walks on guard duty.
+';
+  Desc = 'I doubt he is the type to give directions.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 10;
+  Hitroll = 0;
+  Hit = ( 2, 7, 121 );
+  Mana = ( 5, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 4, 2 );
+  ACs = ( 1, 1, 1, 8 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 15;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 5102 {
+  Name = 'oldstyle drow noble warrior';
+  ShD = 'the drow warrior noble';
+  LnD = 'The drow warrior noble stands here guarding his home.
+';
+  Desc = 'He looks pissed off!
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 14;
+  Hitroll = 0;
+  Hit = ( 2, 10, 190 );
+  Mana = ( 7, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 12, 3 );
+  ACs = ( -1, -1, -1, 8 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 5103 {
+  Name = 'oldstyle drow noble mage';
+  ShD = 'the drow mage noble';
+  LnD = 'The drow mage noble is here protecting his home.
+';
+  Desc = 'The mage prepares to cast a spell ... at you!!
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 0;
+  Hit = ( 2, 10, 190 );
+  Mana = ( 15, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 10, 3 );
+  ACs = ( -1, -1, -1, 5 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 100;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_mage';
+}
+Mobile 5104 {
+  Name = 'oldstyle drow priestess';
+  ShD = 'the drow priestess';
+  LnD = 'The drow priestess is here shouting orders.
+';
+  Desc = 'I wouldn\'t want go get on her bad side!
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 17;
+  Hitroll = 0;
+  Hit = ( 3, 9, 258 );
+  Mana = ( 17, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 6, 4 );
+  ACs = ( -3, -3, -3, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 200;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_cleric';
+}
+Mobile 5105 {
+  Name = 'oldstyle drow master';
+  ShD = 'The drow master';
+  LnD = 'The drow master stares at you angrily.
+';
+  Desc = 'The drow master is ALWAYS ready for a fight.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 90;
+  Hitroll = 0;
+  Hit = ( 4, 10, 360 );
+  Mana = ( 10, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 4, 5 );
+  ACs = ( -5, -5, -5, 7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 500;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 5106 {
+  Name = 'oldstyle drow weapons master';
+  ShD = 'The weapons master';
+  LnD = 'The drow weapons master is here shadow boxing.
+';
+  Desc = 'He definitely knows his way around in combat.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 0;
+  Hit = ( 5, 10, 450 );
+  Mana = ( 11, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 6, 6 );
+  ACs = ( -6, -6, -6, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 750;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 5107 {
+  Name = 'oldstyle drow matron mother';
+  ShD = 'the matron mother';
+  LnD = 'The matron mother of the house is standing here.
+';
+  Desc = 'She looks really pissed off!
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 24;
+  Hitroll = 0;
+  Hit = ( 5, 10, 500 );
+  Mana = ( 12, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 10, 6 );
+  ACs = ( -6, -6, -6, 6 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 1500;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 5108 {
+  Name = 'oldstyle drow matron mother';
+  ShD = 'the matron mother';
+  LnD = 'The matron mother of the 1st house is waiting for you.
+';
+  Desc = 'She looks like she is about to rip your head off and eat it.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 26;
+  Hitroll = 0;
+  Hit = ( 5, 10, 600 );
+  Mana = ( 26, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 10, 7 );
+  ACs = ( -7, -7, -7, 5 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 1500;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_cast_cleric';
+}
+Mobile 5109 {
+  Name = 'oldstyle yochlol';
+  ShD = 'the yochlol';
+  LnD = 'A yochlol forms out of a swirling mist.
+';
+  Desc = 'The yochlol is not in a good mood.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 35;
+  Hitroll = 0;
+  Hit = ( 10, 10, 1300 );
+  Mana = ( 17, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 7, 11 );
+  ACs = ( -11, -11, -11, 5 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 1500;
+  Size = 'medium';
+  Faction = 'Common';
+  Special = 'spec_breath_any';
+}
+Mobile 5110 {
+  Name = 'oldstyle drow guard';
+  ShD = 'the drow guard';
+  LnD = 'The drow guard is here staring at you ominously.
+';
+  Desc = 'The drow guard blends so well with his environment, you barely see his form.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 12;
+  Hitroll = 0;
+  Hit = ( 2, 10, 150 );
+  Mana = ( 6, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 10, 3 );
+  ACs = ( 0, 0, 0, 8 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 250;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 5111 {
+  Name = 'oldstyle drow scout';
+  ShD = 'the drow scout';
+  LnD = 'The drow scout is here sneaking among the shadows.
+';
+  Desc = 'The drow scout blends so well with her environment, you barely see her form.
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 11;
+  Hitroll = 0;
+  Hit = ( 2, 8, 134 );
+  Mana = ( 5, 9, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 10, 2 );
+  ACs = ( 1, 1, 1, 8 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+}
+Mobile 5112 {
+  Name = 'Mage Guildmaster';
+  ShD = 'a Master Arcanist';
+  LnD = 'A Master Arcanist is here, wrapped in darkness.
+';
+  Desc = '';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 99;
+  Hitroll = 0;
+  Hit = ( 1, 10, 5000 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 0, 0, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+}
+Mobile 5113 {
+  Name = 'Dark Cleric';
+  ShD = 'a Dark Cleric';
+  LnD = 'A Dark Cleric sits here, immersed in prayer.
+';
+  Desc = '';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 99;
+  Hitroll = 0;
+  Hit = ( 1, 4, 5000 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 0, 0, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+}
+Mobile 5116 {
+  Name = 'Dark Blademaster';
+  ShD = 'Ibin the Dark';
+  LnD = 'Ibin, the Dark Blademaster, stands here.
+';
+  Desc = '';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 99;
+  Hitroll = 0;
+  Hit = ( 1, 10, 8000 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 0, 0, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+  Forms = ('edible', 'sentient', 'biped', 'mammal');
+  Parts = ('head', 'arms', 'legs', 'heart', 'brains', 'guts', 'hands', 'feet', 'fingers', 'ear', 'eye');
+}
+
+
+//=======================================
+Object 5100 {
+  Name = 'longsword commoner';
+  ShD = 'a commoner\'s longsword';
+  Desc = 'A commoner\'s longsword made of adamantite has been left here.';
+  ItemType = 'weapon';
+  Level = 11;
+  Weight = 20;
+  Cost = 910;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 2, 6, 'slash', ('none') );
+  Affect = ( 'none', -1, 11, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+  Affect = ( 'none', -1, 11, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 1 ) );
+}
+Object 5101 {
+  Name = 'longsword noble';
+  ShD = 'a noble\'s longsword';
+  Desc = 'A drow noble\'s longsword made of adamantite lies here.';
+  ItemType = 'weapon';
+  Level = 15;
+  Weight = 10;
+  Cost = 1510;
+  Material = 'oldstyle';
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 2, 7, 'slash', ('none') );
+  Affect = ( 'none', -1, 15, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+  Affect = ( 'none', -1, 15, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 5102 {
+  Name = 'whip snake two-headed';
+  ShD = 'a snake headed whip';
+  Desc = 'A whip with two snakes heads lies here.';
+  ItemType = 'weapon';
+  Level = 11;
+  Weight = 10;
+  Cost = 920;
+  Material = 'oldstyle';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'whip', 2, 6, 'whip', ('twohands') );
+  Affect = ( 'none', -1, 11, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+  Affect = ( 'none', -1, 11, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 5103 {
+  Name = 'whip snake three-headed';
+  ShD = 'a snake headed whip';
+  Desc = 'A whip with three snake heads has been left here.';
+  ItemType = 'weapon';
+  Level = 15;
+  Weight = 10;
+  Cost = 1020;
+  Material = 'oldstyle';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'whip', 2, 7, 'whip', ('none') );
+  Affect = ( 'none', -1, 15, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+  Affect = ( 'none', -1, 15, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 5104 {
+  Name = 'whip snake four-headed';
+  ShD = 'a snake headed whip';
+  Desc = 'A whip with four snake heads has been left here.';
+  ItemType = 'weapon';
+  Level = 24;
+  Weight = 10;
+  Cost = 1530;
+  Material = 'oldstyle';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'whip', 4, 5, 'whip', ('none') );
+  Affect = ( 'none', -1, 24, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+  Affect = ( 'none', -1, 24, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 5105 {
+  Name = 'longsword black';
+  ShD = 'a black longsword';
+  Desc = 'A black longsword has been carelessly left here.';
+  ItemType = 'weapon';
+  Level = 21;
+  Weight = 0;
+  Cost = 2100;
+  Material = 'adamantite';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 3, 6, 'slash', ('none') );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 5106 {
+  Name = 'whip snake five-headed';
+  ShD = 'a snake headed whip';
+  Desc = 'A whip with five snake heads is lying here.';
+  ItemType = 'weapon';
+  Level = 14;
+  Weight = 0;
+  Cost = 10;
+  Material = 'oldstyle';
+  ExtraFlags = ('glow', 'magic', 'antigood');
+  WearFlags = ('take', 'wield');
+  Values = ( 'whip', 3, 6, 'whip', ('none') );
+  Affect = ( 'none', -1, 14, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, -1 ) );
+  Affect = ( 'none', -1, 14, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, -1 ) );
+}
+Object 5107 {
+  Name = 'whip snake six-headed';
+  ShD = 'a snake headed whip';
+  Desc = 'A whip with six snake heads has been dropped here.';
+  ItemType = 'weapon';
+  Level = 13;
+  Weight = 0;
+  Cost = 0;
+  Material = 'oldstyle';
+  ExtraFlags = ('glow', 'magic', 'antigood');
+  WearFlags = ('take', 'wield');
+  Values = ( 'whip', 4, 5, 'whip', ('none') );
+  Affect = ( 'none', -1, 13, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, -2 ) );
+  Affect = ( 'none', -1, 13, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, -2 ) );
+}
+Object 5108 {
+  Name = 'bracer iron';
+  ShD = 'an iron bracer';
+  Desc = 'An iron bracer has been dropped here.';
+  ItemType = 'armor';
+  Level = 15;
+  Weight = 30;
+  Cost = 1150;
+  Material = 'oldstyle';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'wrist');
+  Values = ( 4, 7, 7, 2, 0 );
+}
+Object 5109 {
+  Name = 'gauntlets iron';
+  ShD = 'a pair of gauntlets';
+  Desc = 'A pair of gauntlets has been dropped here.';
+  ItemType = 'armor';
+  Level = 17;
+  Weight = 20;
+  Cost = 3600;
+  Material = 'oldstyle';
+  ExtraFlags = ('glow');
+  WearFlags = ('take', 'hands');
+  Values = ( 5, 5, 5, 0, 0 );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 2 ) );
+}
+Object 5110 {
+  Name = 'wand blue silver';
+  ShD = 'a silvery blue wand';
+  Desc = 'A silvery blue wand has been dropped in the dirt.';
+  ItemType = 'wand';
+  Level = 9;
+  Weight = 10;
+  Cost = 1550;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 10, 3, 3, 'lightning bolt' );
+}
+Object 5111 {
+  Name = 'helmet helm';
+  ShD = 'a small helmet';
+  Desc = 'A small helmet lies up against a rock.';
+  ItemType = 'armor';
+  Level = 16;
+  Weight = 50;
+  Cost = 3300;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'head');
+  Values = ( 4, 4, 4, 0, 0 );
+  Affect = ( 'none', -1, 16, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, 2 ) );
+}
+Object 5112 {
+  Name = 'ring ruby';
+  ShD = 'a small ruby ring';
+  Desc = 'A small ruby ring lies in the dirt.';
+  ItemType = 'jewelry';
+  Level = 25;
+  Weight = 10;
+  Cost = 980;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'finger');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 1 ) );
+  Affect = ( 'none', -1, 25, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 25 ) );
+}
+Object 5113 {
+  Name = 'dagger sacrificial';
+  ShD = 'a spider shaped dagger';
+  Desc = 'A dagger with spider leg shaped blades lies on the ground.';
+  ItemType = 'weapon';
+  Level = 30;
+  Weight = 20;
+  Cost = 3300;
+  Material = 'oldstyle';
+  ExtraFlags = ('magic', 'antigood');
+  WearFlags = ('take', 'wield');
+  Values = ( 'dagger', 4, 6, 'stab', ('none') );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 3 ) );
+  Affect = ( 'none', -1, 30, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 3 ) );
+}
+Object 5114 {
+  Name = 'hat green';
+  ShD = 'a small bright green hat';
+  Desc = 'A small bright green hat lies in the dirt.';
+  ItemType = 'armor';
+  Level = 12;
+  Weight = 10;
+  Cost = 1180;
+  Material = 'oldstyle';
+  ExtraFlags = ('nodrop');
+  WearFlags = ('take', 'head');
+  Values = ( 4, 5, 5, 0, 0 );
+  Affect = ( 'none', -1, 12, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -2 ) );
+}
+Object 5115 {
+  Name = 'Hellish mirror';
+  ShD = 'a dark, ancient mirror';
+  Desc = 'A dark, ancient mirror stands here.';
+  ItemType = 'portal';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'unknown';
+  ExtraFlags = ('glow');
+  Values = ( 10000, ('none'), ('none'), 3472 );
+  ExtraDescr = ( 'mirror', 'A mirror stands here, covered with dark runes and depictions of Hell.
+');
+}
+
+
+//=======================================
+Room 5120 {
+  Name = 'Mage\'s Academy';
+  Desc = 'The mages academy is fairly well decorated see that the drow prefer magic
+over physical power greatly.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Guilds = ('mage');
+  Exit = ( 2, '', '', ('door'), -1, 5121 );
+  Reset = ( 'M', 5112, 1, 1 );
+
+}
+Room 5121 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street going eastward. To the north is
+a building.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5120 );
+  Exit = ( 1, '', '', ('none'), 0, 5123 );
+  Exit = ( 2, '', '', ('none'), 0, 5122 );
+  Exit = ( 3, '', '', ('none'), 0, 5117 );
+
+}
+Room 5122 {
+  Name = 'Slave Chamber';
+  Desc = 'The room is in shambles. Straw is strewn all about the room as beds for the
+unfortunate creatures who have fallen prey to drow imperialism.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5121 );
+  Exit = ( 1, '', '', ('none'), 0, 5101 );
+  Reset = ( 'M', 5100, 15, 15 );
+
+}
+Room 5123 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street leading west and south. To the
+north is a relatively small house.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5124 );
+  Exit = ( 2, '', '', ('none'), 0, 5101 );
+  Exit = ( 3, '', '', ('none'), 0, 5121 );
+
+}
+Room 5124 {
+  Name = '4th house';
+  Desc = 'You stand inside the 4th house of the city. Its inner courtyard is rather
+dull by drow standards and rather small as well.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5125 );
+  Exit = ( 2, '', '', ('door'), -1, 5123 );
+  Reset = ( 'M', 5102, 4, 1 );
+  Reset = ( 'E', 5101, 0, 'wielded' );
+  Reset = ( 'M', 5103, 4, 1 );
+  Reset = ( 'E', 5102, 0, 'wielded' );
+  Reset = ( 'M', 5104, 4, 1 );
+  Reset = ( 'E', 5103, 0, 'wielded' );
+
+}
+Room 5125 {
+  Name = 'Throne Room';
+  Desc = 'The throne room is basically similar to the inner courtyard in regards
+to decor. there is a small throne behind the altar but that is about it.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), 0, 5124 );
+  Reset = ( 'M', 5107, 3, 1 );
+  Reset = ( 'E', 5104, 0, 'wielded' );
+  Reset = ( 'G', 5114, 0 );
+
+}
+Room 5126 {
+  Name = 'Entrance Way';
+  Desc = 'You stand in the entrance way to the temple which opens up to the north
+into a large hallway going east and west. Small statues of spiders line the
+entrance way\'s walls.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5127 );
+  Exit = ( 4, '', '', ('none'), 0, 5119 );
+
+}
+Room 5127 {
+  Name = 'Hallway';
+  Desc = 'You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+To the north is a obsidian stairway.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5135 );
+  Exit = ( 1, '', '', ('none'), 0, 5128 );
+  Exit = ( 2, '', '', ('none'), 0, 5126 );
+  Exit = ( 3, '', '', ('none'), 0, 5131 );
+
+}
+Room 5128 {
+  Name = 'Long Hallway';
+  Desc = 'You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5129 );
+  Exit = ( 3, '', '', ('none'), 0, 5127 );
+
+}
+Room 5129 {
+  Name = 'Long Hallway';
+  Desc = 'You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+To the north is a door.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5150 );
+  Exit = ( 1, '', '', ('none'), 0, 5130 );
+  Exit = ( 3, '', '', ('none'), 0, 5128 );
+
+}
+Room 5130 {
+  Name = 'Long Hallway';
+  Desc = 'You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5134 );
+  Exit = ( 3, '', '', ('none'), 0, 5129 );
+
+}
+Room 5131 {
+  Name = 'Long Hallway';
+  Desc = 'You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5127 );
+  Exit = ( 3, '', '', ('none'), 0, 5132 );
+
+}
+Room 5132 {
+  Name = 'Long Hallway';
+  Desc = 'You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+To the south is a door.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5131 );
+  Exit = ( 2, '', '', ('door'), -1, 5133 );
+  Exit = ( 3, '', '', ('none'), 0, 5134 );
+
+}
+Room 5133 {
+  Name = 'Warrior\'s Barracks';
+  Desc = 'The room is a complete mess. None of the beds are made, clothes and other
+items have been left all about the room. Well drow warriors never were known
+for neatness.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5132 );
+  Reset = ( 'M', 5101, 10, 5 );
+  Reset = ( 'E', 5100, 0, 'wielded' );
+
+}
+Room 5134 {
+  Name = 'Long Hallway';
+  Desc = 'You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5132 );
+  Exit = ( 3, '', '', ('none'), 0, 5130 );
+
+}
+Room 5135 {
+  Name = 'Grand Stairway';
+  Desc = 'You are standing at the bottom of a giant obsidian and adamantite
+stairway. The edges are trimmed with gold.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5127 );
+  Exit = ( 4, '', '', ('none'), 0, 5136 );
+
+}
+Room 5136 {
+  Name = 'Grand Hallway';
+  Desc = 'You are standing in the middle of a grand hallway. The walls are
+of the purest adamantite with gold trim. Mosaics line the walls.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5138 );
+  Exit = ( 1, '', '', ('door'), -1, 5137 );
+  Exit = ( 5, '', '', ('none'), 0, 5135 );
+
+}
+Room 5137 {
+  Name = 'Mage\'s Barracks';
+  Desc = 'The mage\'s living quarters is rather clean with the exception of a few
+used component containers. It is rather well decorated as well. Cots line the
+floor for the mages to sleep on. the only door is to the west.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('door'), -1, 5136 );
+
+}
+Room 5138 {
+  Name = 'Grand Hallway';
+  Desc = 'You are walking down a grand hallway, heavily decorated with adamantite
+and gold. To the north the hall goes down a flight of stairs while a door is
+too the west.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5136 );
+  Exit = ( 3, '', '', ('door'), -1, 5139 );
+  Exit = ( 5, '', '', ('none'), 0, 5140 );
+
+}
+Room 5139 {
+  Name = 'Cleric\'s Barracks';
+  Desc = 'The bed chamber is brightly decorated with spider shaped statues, murals
+and the like. Large beds line the floor making this a comfortable room to live
+in.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('door'), -1, 5138 );
+
+}
+Room 5140 {
+  Name = 'Grand Stairway';
+  Desc = 'You are climbing a set of obsidian stairs surrounded by adamantite walls.
+To the north are a set of large golden doors.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5141 );
+  Exit = ( 4, '', '', ('none'), 0, 5138 );
+
+}
+Room 5141 {
+  Name = 'Main Chamber';
+  Desc = 'This is the south side of a large auditorium used for services by the
+drow priestesses. In the center is a large sacrificial pit and beyond that is
+an altar.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5142 );
+  Exit = ( 2, '', '', ('door'), -1, 5140 );
+  Exit = ( 3, '', '', ('none'), 0, 5144 );
+
+}
+Room 5142 {
+  Name = 'Eastern side of Chamber';
+  Desc = 'You are on the eastern side of the chamber overlooking the pit. To the east
+is a door while to the north is an altar.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5145 );
+  Exit = ( 1, '', '', ('door'), -1, 5146 );
+  Exit = ( 2, '', '', ('none'), 0, 5141 );
+
+}
+Room 5143 {
+  Name = 'Sacrificial Pit';
+  Desc = 'A you climb down into the pit thousands of spiders cover you tearing your
+body to shreds.
+
+Lloth thanks you for your sacrifice.
+
+You\'ve fallen, and you can\'t get up!!!
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+
+}
+Room 5144 {
+  Name = 'Western side of Chamber';
+  Desc = 'You are on the western side of the main chamber overlooking a sacrificial
+pit. To the north is an altar.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5145 );
+  Exit = ( 2, '', '', ('none'), 0, 5141 );
+
+}
+Room 5145 {
+  Name = 'The Altar';
+  Desc = 'You are standing in front of a highly and freshly bloodstained altar.
+Engraved on the top of the altar is a giant spider with a human head. Looking
+down from the altar you see a large sacrificial pit.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5148 );
+  Exit = ( 1, '', '', ('none'), 0, 5142 );
+  Exit = ( 3, '', '', ('none'), 0, 5144 );
+  Exit = ( 5, '', '', ('none'), 0, 5143 );
+
+}
+Room 5146 {
+  Name = 'Slave Cells';
+  Desc = 'This is the main room to the cell chambers for the slaves to be
+sacrificed. You notice there are no guards around.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5147 );
+  Exit = ( 3, '', '', ('none'), 0, 5142 );
+
+}
+Room 5147 {
+  Name = 'Slave Pen';
+  Desc = 'Rotten meat and breads lie about the floor while shackles hang from the
+walls. The room wreaks of death. You almost become nauseous and decide to leave
+the room since you were obviously too late to save the slave.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('door'), -1, 5146 );
+
+}
+Room 5148 {
+  Name = 'Dais';
+  Desc = 'You stand upon a dais behind the altar. Above you is a enormous illusion
+of a female drow turning into a giant spider and back again. There is a door
+to the west.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5145 );
+  Exit = ( 3, '', '', ('door'), -1, 5149 );
+  Reset = ( 'M', 5109, 1, 1 );
+  Reset = ( 'E', 5113, 0, 'wielded' );
+
+}
+Room 5149 {
+  Name = 'The Treasury';
+  Desc = 'This is obviously only a temporary storage place for the collected
+treasure being rather bare.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('door'), -1, 5148 );
+
+}
+Room 5150 {
+  Name = 'Weaponsmaster\'s Chamber';
+  Desc = 'This one person bedchamber is very elegant. The owner must be held in high
+to get this kind of treatment.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('door'), -1, 5129 );
+  Reset = ( 'M', 5106, 2, 1 );
+  Reset = ( 'E', 5105, 0, 'wielded' );
+  Reset = ( 'E', 5109, 0, 'hands' );
+
+}
+Room 5151 {
+  Name = 'Thieves academy';
+  Desc = '';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Guilds = ('thief');
+  Exit = ( 0, '', '', ('none'), 0, 5106 );
+  Reset = ( 'M', 5105, 1, 1 );
+
+}
+Room 5100 {
+  Name = 'City Entrance';
+  Desc = 'You are at the entrance to a small underground city. A great adamantite
+gate lies open to the west allowing entrance into the city.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'gate', 'A large adamantite gate with giant spider shaped emblems stands here.
+');
+  ExtraDescr = ( 'hole', 'A small hole that looks to have been sealed at one time.
+');
+  Exit = ( 3, 'A huge gate opens to the west allowing entrance into the city.', 'gate', ('none'), 0, 5101 );
+  Exit = ( 4, 'A small hole in the ceiling leads up into darkness.', 'door', ('door', 'closed'), -1, 1 );
+
+}
+Room 5101 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate street going north-south. A large gate
+lies to the east while a building lies to the west.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5123 );
+  Exit = ( 1, '', '', ('none'), 0, 5100 );
+  Exit = ( 2, '', '', ('none'), 0, 5102 );
+  Exit = ( 3, '', '', ('none'), 0, 5122 );
+  Reset = ( 'M', 5106, 2, 1 );
+  Reset = ( 'E', 5105, 0, 'wielded' );
+
+}
+Room 5102 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street going north and west.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5101 );
+  Exit = ( 3, '', '', ('none'), 0, 5103 );
+
+}
+Room 5103 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street going east-west. A large house
+stands to the south.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5102 );
+  Exit = ( 2, '', '', ('none'), 0, 5104 );
+  Exit = ( 3, '', '', ('none'), 0, 5106 );
+
+}
+Room 5104 {
+  Name = '3rd House';
+  Desc = 'You stand inside the 3rd house of the city; it is fairly well decorated
+by drow standards having a few statues, murals and such. A door leads to the
+south.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5103 );
+  Exit = ( 2, '', '', ('door'), -1, 5105 );
+  Reset = ( 'M', 5102, 4, 1 );
+  Reset = ( 'E', 5101, 0, 'wielded' );
+  Reset = ( 'M', 5103, 4, 1 );
+  Reset = ( 'E', 5102, 0, 'wielded' );
+  Reset = ( 'M', 5104, 4, 1 );
+  Reset = ( 'E', 5103, 0, 'wielded' );
+
+}
+Room 5105 {
+  Name = 'Throne Room';
+  Desc = 'The throne room of the 3rd house is about as decorated as the inner
+courtyard except with a blood covered altar in the center of the room.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5104 );
+  Reset = ( 'M', 5107, 3, 1 );
+  Reset = ( 'E', 5104, 0, 'wielded' );
+  Reset = ( 'E', 5111, 0, 'head' );
+
+}
+Room 5106 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street going east-west. To the north
+is a large building.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5118 );
+  Exit = ( 1, '', '', ('none'), 0, 5103 );
+  Exit = ( 2, '', '', ('none'), 0, 5151 );
+  Exit = ( 3, '', '', ('none'), 0, 5107 );
+
+}
+Room 5107 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street leading north and east. To the
+south is an extremely large house.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5110 );
+  Exit = ( 1, '', '', ('none'), 0, 5106 );
+  Exit = ( 2, '', '', ('none'), 0, 5108 );
+
+}
+Room 5108 {
+  Name = '2nd House';
+  Desc = 'You stand inside the 2nd house of the city. The room is highly decorated
+with statues of spiders and murals everywhere.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5107 );
+  Exit = ( 3, '', '', ('door'), -1, 5109 );
+  Reset = ( 'M', 5102, 4, 1 );
+  Reset = ( 'E', 5101, 0, 'wielded' );
+  Reset = ( 'M', 5103, 4, 1 );
+  Reset = ( 'E', 5102, 0, 'wielded' );
+  Reset = ( 'M', 5104, 4, 1 );
+  Reset = ( 'E', 5103, 0, 'wielded' );
+
+}
+Room 5109 {
+  Name = 'Throne Room';
+  Desc = 'The throne room of the 2nd house is just a little more decorative than
+the inner courtyard having an altar in the center of the room.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('door'), -1, 5108 );
+  Reset = ( 'M', 5107, 3, 1 );
+  Reset = ( 'E', 5104, 0, 'wielded' );
+  Reset = ( 'E', 5108, 0, 'arms' );
+
+}
+Room 5110 {
+  Name = 'Main Gate';
+  Desc = 'You are at the entrance to the 1st house of the city. A large gate, almost
+as big and elegant as the one at the entrance to the city, stands here.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5114 );
+  Exit = ( 2, '', '', ('none'), 0, 5107 );
+  Exit = ( 3, 'A large gate lies to the west.', 'gate', ('door'), -1, 5111 );
+
+}
+Room 5111 {
+  Name = '1st House';
+  Desc = 'You stand in the inner courtyard of the 1st and largest house in the city.
+The room is extremely large and decorative. Mural and paintings hang on the
+walls depicting some battles and a spider queen.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('door'), -1, 5110 );
+  Exit = ( 3, '', '', ('none'), 0, 5112 );
+  Reset = ( 'M', 5102, 4, 1 );
+  Reset = ( 'E', 5101, 0, 'wielded' );
+  Reset = ( 'M', 5103, 4, 1 );
+  Reset = ( 'E', 5102, 0, 'wielded' );
+  Reset = ( 'M', 5104, 4, 1 );
+  Reset = ( 'E', 5103, 0, 'wielded' );
+
+}
+Room 5112 {
+  Name = 'Throne Room';
+  Desc = 'The throne room of the 1st house is in one word...awesome. It is so
+horrifying it is almost beautiful.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('door'), -1, 5113 );
+  Exit = ( 1, '', '', ('none'), -1, 5111 );
+
+}
+Room 5113 {
+  Name = 'Main Chamber';
+  Desc = 'This is the council chamber for the Matron Mother herself. A huge table
+and chairs surrounding it sits in the center of the room.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('door'), -1, 5112 );
+  Reset = ( 'M', 5108, 1, 1 );
+  Reset = ( 'E', 5104, 0, 'wielded' );
+  Reset = ( 'E', 5112, 0, 'lfinger' );
+  Reset = ( 'O', 5115 );
+
+}
+Room 5114 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street leading north-south and east.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5115 );
+  Exit = ( 1, '', '', ('none'), 0, 5117 );
+  Exit = ( 2, '', '', ('none'), 0, 5110 );
+
+}
+Room 5115 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street leading south. A building is
+to the west.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5114 );
+  Exit = ( 3, '', '', ('door'), -1, 5116 );
+
+}
+Room 5116 {
+  Name = 'Cleric Academy';
+  Desc = 'This is the most lavish of the academies being that it is for the clerics.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Guilds = ('cleric');
+  Exit = ( 1, '', '', ('door'), -1, 5115 );
+  Reset = ( 'M', 5113, 1, 1 );
+
+}
+Room 5117 {
+  Name = 'City street';
+  Desc = 'You walk along a highly ornate city street going east-west. To the north
+is a giant temple.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'The entrance to the temple of Lloth.', '', ('door'), -1, 5119 );
+  Exit = ( 1, '', '', ('none'), 0, 5121 );
+  Exit = ( 3, '', '', ('none'), 0, 5114 );
+
+}
+Room 5118 {
+  Name = 'Warrior\'s Academy';
+  Desc = 'This looks more like a barracks than a school.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5106 );
+  Reset = ( 'M', 5116, 1, 1 );
+
+}
+Room 5119 {
+  Name = 'Entrance to the Temple of Lloth';
+  Desc = 'The temple is the largest building in the city. Even it\'s doors are beyond
+imagination. Inside of the temple entrance, the walls are made of gold and
+adamantite.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('door'), -1, 5117 );
+  Exit = ( 5, '', '', ('none'), 0, 5126 );
+
+}
+
+
+//=======================================
+}
+

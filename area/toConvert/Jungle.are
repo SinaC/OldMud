@@ -1,0 +1,632 @@
+#Style Circle
+#AREADATA
+Name Jungle~
+Builders Makira~
+VNUMs 29500 29599
+Credits {{None}  CAW    Jungle~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#29500
+lion~
+a realy fierce looking lion~
+A nasty looking lion stands here!
+~
+   All teeth and fur, it could rip you apart in a few seconds!  Just hope it is
+not realy hungry!    
+~
+defgl 0 0 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+BareHandAttack: 9
+E
+#29501
+guard native~
+a gate guard~
+A gate guard stands here.
+~
+   Dressed in animal furs, and smelling like he has not washed in a month, you
+can tell that you have stumbled on a rather uncivilised person!    
+~
+bdfn d 0 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#29502
+cannibal~
+a cannibal~
+A cannibal stands here looking hungry!
+~
+   Looks a little like the guards that were on the gate, but with one
+differance.  This guy has bits of meat and blood all over him.  Guess where it
+came from!    
+~
+bdflm 0 -100 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+BareHandAttack: 11
+E
+#29503
+cannibal~
+a happy cannibal~
+A happy cannibal stands here.
+~
+   This cannibal is real happy because he has just got the last bit of meat
+from a sweet young girl who stumbled into the camp!    
+~
+bdfl 0 -200 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 1
+E
+#29504
+meal woman~
+a woman~
+The next meal cowers on the floor.
+~
+   She looks like she has been in here for days just waiting to be eaten!  You
+could put her out of her misery!    
+~
+bdh 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 2
+E
+#29505
+woman cannibal~
+a cannibal woman~
+A cannibal woman looks at you lustfully!
+~
+   Eeew!  How gross!  You can see little insects running all over her body.  
+She looks worse than the male cannibal's do, and that is saying something!    
+~
+bdh 0 0 E
+11 19 3 2d2+110 1d2+1
+110 12100
+8 8 2
+E
+#29506
+chief cannibal~
+the cannibal chief~
+The cannibal chief looks very annoyed at your intrusion!
+~
+   This guy looks realy mean!  Maybe you have walked in on the middle of a
+meal.  Just hope that you don't end up as the next course!    
+~
+bdflm h -300 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#29507
+snake~
+a tree snake~
+A greater climbing tree snake slithers here!
+~
+   This snake looks mean, no doubt about it.  Watch out for the fangs!    
+~
+bdflm 0 -50 E
+15 18 1 3d3+150 2d2+2
+150 22500
+8 8 0
+BareHandAttack: 4
+E
+#29508
+monkey small~
+a small monkey~
+A small monkey plays with himself!
+~
+   Awwww how cute!  It's scratching it balls!  KILL IT!!!!!    
+~
+cdghm 0 0 E
+5 20 7 1d1+50 1d2+0
+50 2500
+8 8 0
+BareHandAttack: 7
+E
+#29509
+ape~
+a large ape~
+A large ape stands here.
+~
+   Hairy, smell, and not nice to look at.  Maybe you should leave it alone?  
+
+~
+bcdnp 0 0 E
+13 18 2 2d2+130 2d2+2
+130 16900
+8 8 1
+BareHandAttack: 6
+E
+#29510
+a female ape~
+a femal ape~
+A female ape jumps about wildly!
+~
+   She looks the same as the large apes realy.  Smelly dirty, and horible.    
+~
+bcdh 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+BareHandAttack: 4
+E
+#29511
+ape chief~
+the ape chief~
+The ape chief looks at you and roars!!
+~
+   Like the other apes, but bigger, meaner, and a whole lot smellier!    
+~
+bdemnopr dh -20 E
+20 17 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+BareHandAttack: 5
+E
+#0
+
+#OBJECTS
+
+#29500
+spear~
+a spear~
+A rather unremarkable spear lays here.~
+~
+5 hno an 0
+3 3 3 11
+4 1000 0 0
+#29501
+fire~
+a large fire~
+A large fire burns very brightly!~
+~
+15 a 0 0
+1000 0 -1 0
+0 0 0 0
+E
+fire~
+   Hey, watch it, this thing is realy hot!  
+~
+#29502
+heart~
+a human heart~
+A human heart still beats slowly as it sits on the floor!~
+~
+18 bc a 0
+0 0 0 0
+2 1 0 0
+E
+heart~
+   Urrgh!  It still beats in you hand!  What strange magic could do this?  
+~
+#29503
+bones~
+a pile of bones~
+A pile of bones rests on the ground.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+bones~
+   WooWoo!  Human bones!  Lots of em to!  Must of been a good meal.  
+~
+#29504
+meat human~
+a slab of meat~
+A slab of meat that look a little leg shaped sits on the floor.~
+~
+19 0 a 0
+12 0 0 0
+2 20 0 0
+E
+leg~
+   Ha!  A human leg!  Oyur not realy gonna eat this are you?  
+~
+#29505
+fur skin~
+some animal fur~
+An animal skin lays here.~
+~
+11 0 ad 0
+0 0 0 0
+9 200 0 5
+E
+fur~
+   Well, its like furry!  Probably from a lion.  
+~
+A
+19 1
+A
+18 1
+A
+17 -4
+#29506
+bone large~
+a large bone club~
+A large club made from bone rests here.~
+~
+5 dhj an 0
+5 6 6 6
+5 300 0 0
+A
+1 2
+A
+3 -2
+A
+4 -2
+#29507
+teeth necklace~
+a tooth necklace~
+A necklace made of teeth rests here.~
+~
+11 b aco 0
+0 0 0 0
+6 500 0 0
+A
+13 20
+A
+19 2
+A
+18 -1
+#29508
+branch~
+a branch~
+A small branch rests here.~
+~
+13 0 a 0
+0 0 0 0
+5 1 0 0
+E
+branch~
+   Made of wood!  What did you expect :)-
+~
+#29509
+skull crystal~
+a crystal skull~
+A crystal skull sits unattended!~
+~
+1 a ao 0
+0 0 -1 0
+10 300 0 0
+E
+skull crystal~
+   The skull seems to be made out of an unknow crystal!  Wonder what it is?!?  
+~
+A
+4 1
+A
+3 1
+A
+12 30
+#29510
+water fountain water~
+a fountain~
+A nice looking fountain sprays water about.~
+~
+23 b 0 0
+500 500 0 0
+10000004 0 0 0
+#0
+
+#ROOMS
+
+#29500
+The start of the jungle~
+   Going by the trees, you appear to have left the forest and entered a jungle!
+There are exotic trees and plants that you have never seen anywhere before.  
+~
+295 0 3
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 29501
+E
+credits info~
+   Um, ok just a small zone, with only 16 rooms, 12 mobs, and 10 objects. It
+is based on a jungle, and was designed to join to a forest area at room
+1000
+ 
+It is not finished, I started building it for a Mud that never realy got
+of the ground, so I thought I would tidy it up a little and upload it to
+the circleMud ftp site.  If you want to use it as it is, or even add more
+to it, feel free to do so.  If you use it just send me a quick E-mail to
+let me know.
+ 
+Martin Winning,
+iwinning@@proweb.co.uk
+ 
+p.s  If you are looking for a builder, I need somewhere to build :)-
+     gimmie a mail at the above address. 
+~
+S
+#29501
+Deeper into the jungle~
+   As you go deeper into the jungle you start to hear sounds of strange animals
+comming from all around you, and someone somewhere is beating some drums.  
+Hope the natives are friendly!    
+~
+295 0 3
+D0
+~
+~
+0 0 29500
+D2
+~
+~
+0 0 29502
+S
+#29502
+Deeper in to the jungle~
+   You are standing at a joining of 4 paths.  North heads back out of the
+jungle, east appears to lead down a small trail from which the sound of drums
+can be heard, west heads in to some thicker trees 
+~
+295 0 3
+D0
+~
+~
+0 0 29501
+D1
+~
+~
+0 0 29503
+D3
+~
+~
+0 0 29509
+S
+#29503
+On a small trail~
+   You are on a small trail leading away from the main path through the jungle.
+To the east the sound of drums are getting very loud. Maybe you should turn
+back and go and get some help before you go any further!
+~
+295 0 3
+D1
+~
+~
+0 0 29504
+D3
+~
+~
+0 0 29502
+S
+#29504
+The gate to the camp~
+   This is what looks like the gate to a small camp.  It could be a good place
+to rest for a while, but the skulls that are stuck on the end of spears tell
+you different!    
+~
+295 0 3
+D1
+~
+gate~
+1 0 29505
+D3
+~
+~
+0 0 29503
+S
+#29505
+In the camp~
+   Yikes!  You have walked right into a cannibals camp!  There are bones laying
+all over the place, some of them are obviously human!  It looks like you just
+missed a big feast. Maybe you should leave before they make you the guest of
+honour at the next one!
+~
+295 0 3
+D0
+~
+~
+0 0 29507
+D1
+~
+~
+0 0 29506
+D2
+~
+door~
+2 29502 29508
+D3
+~
+gate~
+1 0 29504
+S
+#29506
+The food store~
+   There are hooks dangling from the roof wich look like they are used to store
+meat, but what sort of meat? Use you imagination!
+~
+295 0 0
+D3
+~
+~
+0 0 29505
+S
+#29507
+The womans room~
+   You have walked in to what must be the room where the cannibals keep their
+women when they are out hunting.  There are animal skins waiting to be made
+into clothes for the cannibals, and a few items of high cannibal fashion!
+~
+295 0 0
+D2
+~
+~
+0 0 29505
+S
+#29508
+The chiefs room~
+   This is obviously the room of the chief of the cannibals.  There are animal
+skins on the wall with crude paintings on them. Could be worth a bit!
+~
+295 0 0
+D0
+Nothing.
+~
+door~
+2 29502 29505
+S
+#29509
+To the monkeys!~
+   The trees seem to be getting a little thicker the further west you go.  
+There are vines hanging down from some of the trees that look like you could
+climb up.
+~
+295 c 3
+D1
+~
+~
+0 0 29502
+D3
+~
+~
+0 0 29513
+D4
+~
+~
+0 0 29510
+S
+#29510
+In the trees~
+   Wow, these trees are high!  You think you can almost see Midgaard from up
+here! Wonder if there are any animals living up here?
+~
+295 0 3
+D0
+~
+~
+0 0 29511
+D5
+~
+~
+0 0 29509
+S
+#29511
+In the trees~
+   As you jump over to this tree you nearly fall down!  The trees look less
+stable in the trees around you, maybe you should go back down.  You also notice
+what looks like a bit of snake skin hanging from a branch. Wonder where its
+owner is?
+~
+295 0 3
+D0
+~
+~
+0 0 29512
+D2
+~
+~
+0 0 29510
+S
+#29512
+In the trees~
+   It looks like you have just walked in to a nest of greater climbing tree
+snakes! Watch out, they could be poison in them there fangs!
+~
+295 0 3
+D2
+~
+~
+0 0 29511
+S
+#29513
+Close to the monkeys~
+   The sound of many animals is getting louder the further east you go.  It
+sounds like all the apes from the jungle are having some sort of a meeting!
+This has got to be worth a look at.
+~
+295 0 3
+D1
+~
+~
+0 0 29509
+D3
+~
+~
+0 0 29514
+S
+#29514
+The meeting room~
+   This would appear to be the meeting place for all the apes.  It looks like
+they have one hell of a party at these meetings, judging from all the junk
+left around.
+~
+295 0 3
+D0
+~
+~
+0 0 29515
+D1
+~
+~
+0 0 29513
+S
+#29515
+North of the meeting place~
+   This looks like somewhere the apes can come to rest after a big meet.  
+There are some comfy looking leaves to rest on, and a nice fountain in the
+corner of the room.
+~
+295 0 0
+D2
+~
+~
+0 0 29514
+S
+#0
+
+#RESETS
+D 0 29508 0 2 	(The chiefs room)
+M 0 29506 1 29508 	(the cannibal chief)
+E 1 29506 1 16 	(a large bone club)
+E 1 29507 1 3 	(a tooth necklace)
+O 0 29508 5 29514 	(a branch)
+M 0 29509 3 29514 	(a large ape)
+M 0 29510 3 29514 	(a femal ape)
+M 0 29511 1 29514 	(the ape chief)
+E 1 29509 2 0 	(a crystal skull)
+O 0 29510 1 29515 	(a fountain)
+M 0 29509 1 29515 	(a large ape)
+M 0 29510 1 29515 	(a femal ape)
+M 0 29508 4 29513 	(a small monkey)
+M 0 29507 4 29512 	(a tree snake)
+D 0 29505 3 1 	(In the camp)
+O 0 29501 1 29505 	(a large fire)
+P 1 29502 1 29501 	(a human heart)
+M 0 29502 2 29505 	(a cannibal)
+E 1 29500 2 16 	(a spear)
+M 0 29503 2 29505 	(a happy cannibal)
+E 1 29500 2 16 	(a spear)
+O 0 29503 1 29505 	(a pile of bones)
+D 0 29505 2 2 	(In the camp)
+M 0 29505 4 29507 	(a cannibal woman)
+O 0 29505 2 29507 	(some animal fur)
+O 0 29504 2 29506 	(a slab of meat)
+M 0 29504 1 29506 	(a woman)
+M 0 29501 4 29504 	(a gate guard)
+E 1 29500 4 16 	(a spear)
+D 0 29504 1 1 	(The gate to the camp)
+M 0 29500 4 29501 	(a realy fierce looking lion)
+S
+
+
+#SHOPS
+
+0
+
+
+#$

@@ -1,0 +1,156 @@
+Area 'Ofcol' {
+  Builders = 'None';
+  Vnums = ( 5500, 5599 );
+  Credits = '{{ All } Alfa    Ofcol';
+  Security = 9;
+
+//=======================================
+
+
+//=======================================
+
+
+//=======================================
+Room 5550 {
+  Name = 'Village street';
+  Desc = 'You stand at the small village street in Ofcol.
+From here you see small houses and only few people.
+North of here the village street continues up to the small
+square where some people are gathered as always.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You look up the village street noticing nothing special at all.
+', '', ('none'), -1, 5551 );
+  Exit = ( 2, 'The wide road leads south here towards the T-crossing.
+', '', ('none'), -1, 314 );
+  Reset = ( 'M', 303, 5, 3 );
+
+}
+Room 5551 {
+  Name = 'Village street';
+  Desc = 'You are standing on the village street of Ofcol.
+East from here is a small alley and north you enter the village
+square. Towards the south you can leave Ofcol.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'The village square is as usual not overcrowded.
+', '', ('none'), -1, 5552 );
+  Exit = ( 1, 'The small alley looks relative peaceful.
+', '', ('none'), -1, 5553 );
+  Exit = ( 2, 'You see the village street eventually becoming the wide road.
+', '', ('none'), -1, 5550 );
+
+}
+Room 5552 {
+  Name = 'Village square';
+  Desc = 'The village square is a place where inhabitants of Ofcol gather
+to talk, trade and sell items and just have a good time.
+You see a small shop to the west and the local inn to the north.
+If you leave south you go to village street.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 0, 'You see a local inn called \'The Ofcol Local Inn\'. Looks nice.
+', '', ('none'), -1, 5556 );
+  Exit = ( 2, 'You see the village street of Ofcol.
+', '', ('none'), -1, 5551 );
+  Exit = ( 3, 'A small shop with the sign \'Luxan\'s Mixed goods\' hanging in front of it.
+', '', ('none'), -1, 5555 );
+  Reset = ( 'M', 304, 5, 3 );
+  Reset = ( 'E', 3020, 0, 'wielded' );
+
+}
+Room 5553 {
+  Name = 'The small alley';
+  Desc = 'You are in a small, quiet alley.  From here you see the village street
+to the west and a small room lies to the south.
+';
+  Sector = 'city';
+  MaxSize = 'giant';
+  Exit = ( 1, 'You see a big intersection.
+', '', ('none'), 0, 601 );
+  Exit = ( 2, 'It looks like the future site of a training room.
+', '', ('none'), -1, 5554 );
+  Exit = ( 3, 'You notice nothing but the village street.
+', '', ('none'), -1, 5551 );
+  Reset = ( 'M', 304, 5, 3 );
+
+}
+Room 5554 {
+  Name = 'The future training room';
+  Desc = 'This is the future site of a training room.  The only exit is north
+leading to the small alley.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, 'You are able to see the small alley, really not very interesting.
+', '', ('none'), -1, 5553 );
+
+}
+Room 5555 {
+  Name = 'Luxan\'s mixed shop';
+  Desc = 'You are standing in a small shop, filled with all kinds of goods.
+Here you might be able to find just the thing you\'re looking for.
+The only exit is east to village square.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, 'The village square is as usual not overcrowded.
+', '', ('none'), -1, 5552 );
+  Reset = ( 'M', 306, 1, 1 );
+  Reset = ( 'G', 304, 0 );
+  Reset = ( 'G', 3030, 0 );
+
+}
+Room 5556 {
+  Name = 'The Local Inn';
+  Desc = 'You are in the local inn, where the peaceful citizens of Ofcol
+gather to have a drink or 5 if they have dry throats.
+You can\'t help thinking that Ofcol is a dry city, when you see the
+many people here.
+The only exit is south to the village square.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, 'The village square is as usual not overcrowded.
+', '', ('none'), -1, 5552 );
+  Reset = ( 'M', 303, 5, 3 );
+  Reset = ( 'M', 308, 1, 1 );
+  Reset = ( 'G', 3000, 0 );
+  Reset = ( 'G', 3001, 0 );
+
+}
+Room 5577 {
+  Name = 'Ravan\'s hideout';
+  Desc = 'This place is a small, cosy place where no one disturbs you all
+the time. The room has little decoration except for some pictures
+on the wall.
+You notice that there are no exits from this room.
+';
+  Sector = 'inside';
+  Flags = ('no_mob');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'pictures picture decoration', 'These pictures show the friend\'s and foe\'s of Ravan.
+They are easy to separate, as most of the foe\'s have the letters
+R.I.P. inscripted underneath them.
+');
+  ExtraDescr = ( 'foe foes enemies', 'There is only one picture yet... Dim.
+It pictures him hanging from a gallow, north of the town.
+It has the letters R.I.P. inscripted underneath.
+');
+  ExtraDescr = ( 'friend friends', 'The list include such prominent names as : God, Lottie, Kurgan,
+Ezzard, Mike, Sprocket and Stormbringer.
+');
+  Reset = ( 'M', 350, 1, 1 );
+
+}
+
+
+//=======================================
+}
+

@@ -1,0 +1,2034 @@
+#Style Circle
+#AREADATA
+Name Elcardo~
+Builders Daiko~
+VNUMs 10600 10699
+Credits {{None}  CAW    Elcardo~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#10602
+priest~
+the Elcardorian priest~
+An Elcardorian orthodox priest stands here with a stern look on his face.
+~
+   At first sight, he's not the kind of priest you want to leave your children
+with.  Than again, with the aura of calmness oozing out of him.  Maybe taking a
+rest next to him would not be such a big risk.  
+~
+bdnopr h 1000 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+BareHandAttack: 12
+Str: 3
+Dex: 3
+Int: 3
+Wis: 3
+E
+#10603
+executioner~
+the executioner~
+The Executioner stands here waiting for his next beheading.
+~
+   A black hood covers his entire face.  Three holes have been cut out of the
+dark cloth.  The eyes peering out behind the mask look to be slightly crazed and
+definitely blood thirsty.  
+~
+bdefnopqr cdefhmn 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 6
+Str: 20
+Dex: 20
+Int: 20
+Wis: 20
+E
+#10605
+suncas rebel foot soldier~
+a Suncas rebel foot soldier~
+A rebel from the Suncas clan looks at you, paranoia in his eyes.
+~
+   No more than a boy this teenager stands before you waiting for the overthrow
+of the Elcardian Empire.  No more than a boy this teenager stands before you
+waiting for the overthrow of the Elcardorian Empire.  
+~
+cdglm 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 7 1
+E
+#10606
+elite Suncas rebel soldier~
+an elite Suncas rebel soldier~
+An elite Suncas rebel soldier is standing here.
+~
+   This grizzled veteran looks more like a mercenary than a soldier.  Wich in
+fact may actually be the case.  The Suncas rebels have been known to hire help
+when they need it.  
+~
+cdgln 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+E
+#10607
+suncas rebel commando~
+a rebel commando~
+A rebel commando from the Suncas clan stands here.
+~
+   Scars seem to cover this middle-aged man from head to toe.  He appears to be
+missing a few fingers and he walks with a favoring to his left leg.  
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#10608
+rebel leader Sujin Suncas~
+Sujin Suncas~
+The rebel leader Sujin Suncas is sitting here.
+~
+   The mastermind behind the latest attempt at overthrowing the Mayor.  He is
+young, but a brilliant fire burns in his eyes that some people would call
+craziness, but he calls eccentricity.  He is the motivation behind all the
+rebels.  
+~
+bdjnopqr 0 -350 E
+10 19 4 2d2+100 1d2+1
+100 10000
+6 8 1
+E
+#10609
+elcardorian infantry~
+an Elcardorian infantry man~
+An Elcardorian infantry man stands here.
+~
+   This grunt has no purpose other than to sacrifice his life for his army, and
+maybe take a few enemies out in the pursuit of that end.  He is heavily muscled
+and adequately trained.  
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#10610
+officer elcardorian military~
+an Elcardorian military officer~
+An officer of the Elcardorian military guards his township here.
+~
+   He holds himself with an air of authority.  A hard look in his eyes shows his
+years of experience and training.  He has probably led more men into battle than
+you've ever met.  
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#10611
+elcardorian military captain~
+an elcardorian military captain~
+An Elcardorian military captain struts his sword around here.
+~
+   The Captain is in charge of keeping the peace by order of the Mayor.  It is
+the Captain's responsibility that everyone within the city behaves.  More often
+than not this includes crushing any rebel uprisings.  
+~
+dgi hk 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#10613
+sick dying man~
+a sick and dying man~
+A man is slowly dying from loss of blood.
+~
+   Wounds cover his body.  Some from whips, others from jagged blades, and still
+others from piercing weapons and hot brands.  This poor soul looks to have been
+broken with pain to spill his guts and tell his story.  
+~
+bd 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+2 6 1
+E
+#10614
+grandfather sunshine~
+grandfather sunshine~
+Grandfather sunshine is here tending the cash.
+~
+   His beaming smile seems to brighten everyone's day.  The typical elderly
+grandfather he looks very trusting and kind.  White hair, beard, and mustache
+give him a jovial look.  
+~
+bcdnpr 0 10 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+E
+#10615
+political prisoner parliaments elcardorian~
+a political prisoner~
+A member of the Elcardorian parliaments stands before you, now as a prisoner.
+~
+   At one time this guy used to stick his nose up in the air believing that he
+was above the law because of his position he held within the government.  Now he
+has been humbled by chains and torture.  
+~
+bd 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#10616
+suncas prison guard~
+a Suncas prison guard~
+The Suncas prison guard is here making sure that no one leaves the dungeons.
+~
+   He looks tired and inept.  The monotony of his job has caused him to become
+bored and lax.  Of course so few of the prisoners stay long enough down here to
+even attempt to escape so a guard is more for looks than need.  
+~
+dglmnopqr hk 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+E
+#10617
+panhandler bum begger~
+a panhandler~
+A panhandler broke off his ass, begging for your charity is sitting here.
+~
+   This poor lady has seen better days.  At least she is begging and not selling
+her soul body.  That will probably come later.  She looks up at you with those
+pitiful puppy-dog eyes trying to find a little sympathy.  
+~
+bd 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+6 6 2
+E
+#10632
+brack~
+Brack, the weaponsmith~
+Brack, the weaponsmith displays his creations with pride.
+~
+   The burly man resembles the anvil that he pounds upon.  Blunt is about the
+only word to describe him.  He definitely knows his metal-working though.  He
+holds his tools and works the forge with a love for the craft that only the
+gifted can possess.  
+~
+bd h 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+Str: 20
+Dex: 20
+Int: 15
+Wis: 15
+E
+#10633
+penny teller~
+Penny, the bank teller~
+Penny, the bank teller is handling some money.
+~
+   A strange gleam flickers in her eyes as she counts out some coins behind the
+counter.  She does not look like the kind of person you would want to trust your
+fortune with.  She immediately puts on a facade when she realizes you are
+staring.  
+~
+bd 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+Str: 10
+Dex: 10
+Int: 20
+Wis: 20
+E
+#10634
+tring armourer~
+Tring, the armourer~
+Tring, the armourer pounds away at a stubborn cast.
+~
+   Elcardorian armour has been known for its strength and durability around the
+realm.  It is just about as famous as its outrageous prices.  This stocky old
+man makes some of the finest in the city, and he prices it that way too.  
+~
+bd h 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+Str: 20
+Dex: 20
+Int: 20
+Wis: 20
+E
+T 10600
+#10635
+mayor's wife~
+the mayor's wife~
+The mayor's wife is here hinting at you to leave.
+~
+   They say behind every great man there is a woman, and she is one of those
+women.  She has long black here with green eyes and looks deceivingly frail.  
+~
+bd 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#10636
+elcardorian mayor~
+the Elcardorian Mayor~
+Coughing in bed, the Elcadorian mayor really doesn't want to fight any more.
+~
+   This once powerful man has withered away into almost nothing.  His strength
+and will has been drained from him.  Too bad it will soon be too late for you to
+know what happened to him.  
+~
+bd h 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+5 5 1
+Str: 5
+Dex: 5
+Int: 5
+Wis: 5
+E
+#10637
+grandmother sunshine~
+grandmother sunshine~
+Grandmother sunshine is here baking goodies.
+~
+   Her mere presence brightens the room.  She treats everyone like a long lost
+grandson and immediately makes you feel at home.  Her kindness and sincerity
+puts you to ease immediately.  The cookies she is baking smell delicious.  
+~
+bcdnopr 0 1000 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+E
+#10638
+grocer elcardorian~
+the elcardorian grocer~
+The grocer of Elcardo smiles at you in hopes of a sale.
+~
+   His bussiness continues to do well no matter who is fighting who, or who is
+running what.  The grocer could care less about rebels.  As long as people need
+food and suppies, he's happy.  
+~
+bd h 1000 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+Str: 15
+Dex: 25
+Int: 25
+Wis: 10
+E
+#10639
+lara~
+Lara~
+Lara is here looking you up and down.
+~
+   Rumors state that Lara was an outcast from a far distant city of mages.  She
+was caught up in some horrible feud and had no choice but to flee.  So she setup
+shop in Elcardo and seems happy and successful with the change.  
+~
+bcdnopr 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 2
+Str: 15
+Dex: 20
+Int: 20
+Wis: 20
+E
+#10640
+Shape Dark Hooded Man~
+a Shadowy figure~
+A dark hooded man roams the streets
+~
+   You can see almost nothing about this man because his black cloak covers him
+fully.  Just between the opening of the coat, a glint of steel catches your
+eyes.  Odds are this man would like to be left alone.  He is almost certainly a
+rebel which is apperant by the symbol on the head hilt of the dagger.  Who is he
+stalking?  
+~
+cdg 0 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#10601
+altar~
+a large altar~
+An altar stands tall at the back of the room~
+~
+8 a 0 0
+0 0 0 0
+0 0 0 0
+#10602
+quarterstaff flame hardened~
+a flame hardened quarterstaff~
+A nicely burnt quarterstaff is lying here.~
+~
+5 j an 0
+4 3 6 6
+5 25 2 0
+#10603
+spear cast iron rebel~
+a cast iron rebel spear~
+A long thin shaft with a sharpened tip lies here.~
+~
+5 jmn an 0
+4 3 5 15
+7 350 35 0
+#10604
+marble fountain~
+a fountain~
+A large marble fountain is here in the middle of the square.~
+~
+23 0 0 0
+500 500 0 0
+0 0 0 0
+#10605
+elcadorian cross~
+a wooden orthodox Elcardorian cross~
+A blood coated cross is here, someone must have slain the owner.~
+~
+12 b ac 0
+0 0 0 0
+5 25 2 0
+A
+19 1
+#10606
+pole arm~
+a long iron bladed pole arm~
+A badly finished pole arm with a hefty blade on the end.~
+~
+5 jmn an 0
+4 4 5 3
+8 400 40 0
+#10607
+suncas bodyplate~
+a forged Suncas bodyplate~
+A roughly shaped forged bodyplate lays here with the symbol of Suncas on it.~
+~
+9 j ad 0
+6 0 0 0
+20 1000 100 0
+#10608
+suncas kilt cloth~
+a Suncas cloth kilt~
+A protective kilt lays here with the symbol of Suncas on it.~
+~
+9 j al 0
+2 0 0 0
+7 7 0 0
+#10609
+suncas banded wristguard~
+a Suncas banded wristguard~
+A ring made of forged iron lays here with the symbol of Suncas embossed in it.~
+~
+9 j am 0
+1 0 0 0
+6 300 30 0
+#10610
+suncas tin plated leather helmet~
+a Suncas tin scaled leather helmet~
+An tin scaled leather helmet is here, seemingly collasped into itself.~
+~
+9 j ae 0
+4 0 0 0
+10 100 10 0
+#10611
+sandal suncas rebel~
+a pair of Suncas untanned leather sandals~
+A pair of sandals made from untanned leather lies here.~
+~
+9 j ag 0
+1 0 0 0
+3 30 3 0
+#10612
+elcadorian military sword~
+a two-handed Elcardorian military sword~
+A crudely fashioned two-handed military sword is lying here.~
+~
+5 k an 0
+6 3 8 3
+20 1000 100 0
+#10613
+longsword elcardorian military~
+an Elcardorian military longsword~
+A well-made longsword is lying here with the Elcardorian badge on it.~
+~
+5 k an 0
+6 3 6 3
+14 700 70 0
+#10614
+rapier military elcardorian~
+an Elcardorian military rapier~
+A finely polished silver edged rapier is lying here.~
+~
+5 0 an 0
+5 2 5 14
+5 250 25 0
+#10615
+platinum Elcardorian sceptre~
+a platinum Elcardorian sceptre~
+A sceptre belonging to the late mayor of Elcardo lays here now, unwanted.~
+~
+1 gklp ao m
+0 0 -1 0
+2 600 60 0
+A
+12 15
+#10616
+military combat plate elcardorian~
+an Elcardorian military combat plate~
+An awkwardly shaped plate lays here collecting dust.~
+~
+9 gk ad 0
+5 0 0 0
+15 750 75 0
+A
+13 15
+#10617
+elcardorian military shin guard~
+an Elcardorian military shin guard~
+Some plates of bent metal lay here, looking like they belong to the military.~
+~
+9 kl af 0
+7 0 0 0
+16 800 80 0
+#10618
+arm plate elcardorian military~
+some Elcardorian military arm plates~
+Some plates of raw metal have been tossed here.~
+~
+9 0 ai 0
+7 0 0 0
+10 500 50 0
+#10619
+cloak elcardorian~
+a blue elcardorian cloak~
+A cloth of soft blue material lies on the ground.~
+~
+9 kp ak 0
+2 0 0 0
+1 10 1 0
+#10620
+shield elcardorian~
+a leather underlined Elcardorian shield~
+A piece of metal plate with Elcardorian decorations lies here on the ground.~
+~
+9 kmno aj 0
+8 0 0 0
+23 150 11 0
+#10621
+helmet elcardorian~
+a full faced Elcardorian helmet~
+A large alloy helmet lays here on the ground.~
+~
+9 ko ae 0
+8 0 0 0
+15 750 75 0
+#10622
+axe executioner~
+a tempered bladed executioner's axe~
+A huge axe is lying here stuck one sided into the ground.~
+~
+5 bgjmno an 0
+1 4 7 3
+30 267 26 0
+A
+18 -1
+A
+19 3
+#10623
+noose~
+a rope noose~
+Circular pieces of rope lie here on the ground.~
+~
+11 h a 0
+0 0 0 0
+2 2 0 0
+A
+13 -50
+A
+12 -50
+A
+14 -50
+#10624
+torture rack~
+a torture rack~
+A torture rack stands here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+torture rack~
+   An old and blood stained sticky torture rack buckles up and ready to split
+the next victim.    
+~
+#10625
+cast iron shackles~
+a pair of cast iron shackles~
+A pair of cast iron shackles lay here on the floor.~
+~
+9 egh am 0
+2 0 0 0
+15 750 75 0
+A
+17 -10
+#10626
+parliament ring~
+a parliament ring~
+A solid gold ring lies here.~
+~
+12 gk ab 0
+0 0 0 0
+1 950 100 0
+E
+ring gold~
+   The ring is engraved symbol of Elcardo.  
+~
+A
+17 -5
+#10627
+wire barbed whip~
+a barb wire whip~
+A coil of barb wire lays here on the ground with a handle on the end.~
+~
+5 hj an 0
+7 5 4 2
+1 20 2 0
+#10628
+cinnamon danish~
+a cinnamon danish~
+A soil covered cinnamon danish is here on the ground.~
+~
+19 0 a 0
+2 0 0 0
+1 120 12 0
+#10629
+savoury muffins~
+a savoury muffin~
+A crumbled muffin has been dropped here.~
+~
+19 0 a 0
+1 0 0 0
+1 170 17 0
+#10630
+cheese bun~
+a cheese bun~
+A bun coated with tasty cheese has been left here.~
+~
+19 0 a 0
+3 0 0 0
+1 170 17 0
+#10631
+ebony vial jar~
+an ebony vial~
+A dark glass jar lies here.~
+~
+10 0 a 0
+12 29 -1 -1
+2 300 30 0
+#10632
+blue waters~
+a jar of blue waters~
+An empty looking jar lays here.~
+~
+10 0 a 0
+12 -1 -1 -1
+4 180 20 0
+#10633
+bright yellow gel jar~
+a jar containing bright yellow gel~
+A jar glowing in bright yellow sits here.~
+~
+10 0 a 0
+12 -1 -1 -1
+5 160 16 0
+#10634
+cherry tube~
+a cherry coloured tube~
+A long cherry coloured test tube lays here.~
+~
+10 0 a 0
+12 21 -1 -1
+4 170 17 0
+#10635
+ring suncas authority~
+an authority ring of the Suncas clan~
+A symbol of authority and power sits in a ring lying here in the middle of the room.~
+~
+12 jlm ab 0
+0 0 0 0
+1 495 55 0
+#10636
+backpack lamb skin~
+a lamb skin backpack~
+A backpack either made or covered of lamb skin lays here.~
+~
+15 0 ak 0
+100 0 -1 0
+15 75 7 0
+#10637
+torch~
+a kerosene soaked torch~
+A kerosene soaked torch reeks.~
+~
+1 0 ao 0
+0 0 10 0
+3 15 1 0
+#10638
+waterskin buffalo water~
+a buffalo waterskin~
+A small buffalo waterskin is leaking onto the ground.~
+~
+17 0 a 0
+20 20 0 0
+25 50 5 0
+#10639
+null gravity potion~
+a null gravity potion~
+A small jar is here floating in the middle of the room.~
+~
+10 0 a 0
+12 -1 -1 -1
+1 500 50 0
+#10640
+bank~
+bank~
+A vault for collection and deposits is here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#10641
+Dagger~
+an assasins dagger~
+A long slender dagger is lying here~
+~
+5 n an 0
+5 4 4 14
+1 100 10 0
+#0
+
+#ROOMS
+
+#10600
+Elcardo Zone Description Room~
+   Builder   : Daiko
+Zone         : 106 Elcardo
+Began        : 1999
+Player Level : 7-14
+Rooms        : 58
+Mobs         : 23
+Objects      : 41
+Shops        : 5
+Triggers     : 1
+Theme        : Elcardo, a small city, where the mayor has become ill. Suncas 
+   rebels are trying to take over the town. Their leader is sujin suncas.
+Notes        : Since the mayor of elcardo is very sick the citizens are not 
+   being looked after as they should, many rebel and start their own little 
+   groups within the city.  
+Zone: 106 was linked to the following zones:
+200 Western Highway                at 10609 (south) ---> 20025
+175 The Cardinal Wizards           at 10613 (east ) ---> 17525
+125 Hannah                         at 10657 (north) ---> 12500
+~
+106 j 0
+S
+#10601
+Cathedral Altar~
+   This is the Cathedral of Elcardo.  The glowing altar stands before you.  The
+room is very dimly lit from the blood red candles which lie before you.  The
+candles appear to be made out of some sort of fat.    
+~
+106 d 0
+D2
+~
+~
+0 0 10602
+S
+#10602
+Inside the Elcardo Cathedral~
+   As you enter the Elcardo Cathedral a holy feeling enriches your body.  The
+room is well lit by over a thousand holy white candles.  On the far wall in
+front of you there hangs a large cross.  The friendly Healer stands here
+reading a book that appears to be the bible.    
+~
+106 d 0
+D0
+~
+~
+0 0 10601
+D2
+~
+~
+0 0 10603
+S
+#10603
+Outside the Elcardorian Cathedral~
+   You are at the main doors of the cathedral.  The doors are made out of a
+thick oak.  There are small designs all over the door, the designs appear
+to be from many years ago.  Standing right in front of the main doors is the
+Executioner guarding the door quite well and watching each and every person
+that is planning on entering the cathedral.    
+~
+106 d 0
+D0
+~
+~
+0 0 10602
+D2
+~
+~
+0 0 10604
+S
+#10604
+Cathedral Square~
+   This area of the cathedral is out in the open.  The nice fresh air blows by
+you.  You can hear the sound of trickling water from a few steps in front of
+you.  The big marble fountain flows crystal clear water right in front of you.
+~
+106 0 0
+D0
+~
+~
+0 0 10603
+D2
+~
+~
+0 0 10605
+S
+#10605
+Peddler's Square~
+   People rush by you left and right as you stand in the intersection of
+Peddler's Way.  The smell of freshly baked bread breezes by your nose.  In the
+distance you can see the Executioner guarding the cathedral.  A panhandler begs
+the passersby for money.  Some actually feel sorry for the worthless bum.    
+~
+106 0 0
+D0
+~
+~
+0 0 10604
+D1
+~
+~
+0 0 10610
+D2
+~
+~
+0 0 10606
+D3
+~
+~
+0 0 10614
+S
+#10606
+Intersection to the Guild Halls~
+   You stand in the middle of Guild row, wondering which way to go, spell
+casters to the east or fighters to the west.  Mages and sorcerers of all kinds
+rush by.  A large hulky Barbarian almost knocks you over.  In the distance you
+see a strange glowing, It seems to be coming from the spell casting area.  To
+the east you feel a strong magical presence, and to the west you can smell the
+sweat of hard work.    
+~
+106 0 0
+D0
+~
+~
+0 0 10605
+D1
+~
+~
+0 0 10618
+D2
+~
+~
+0 0 10607
+D3
+~
+~
+0 0 10621
+S
+#10607
+Citizens Square~
+   This is the poor part of Elcardo.  Small dirty poor children run past you
+screaming their heads off.  Poor men sit all over the roads begging for money
+it really is a sin.  It is very strange, the rest of the city is well off money
+wise but as soon as you get here it is very poor.    
+~
+106 0 0
+D0
+~
+~
+0 0 10606
+D1
+~
+~
+0 0 10627
+D2
+~
+~
+0 0 10608
+D3
+~
+~
+0 0 10623
+S
+#10608
+Inside the South Gate of Elcardo~
+   The normal citizens aren't allowed in this part of the town unless they are
+leaving.  The gate is only available in the day time because it is always
+locked up for the night.  Two large Elcardo Knights stand here guarding the
+gate with their lives.  You can hear children playing from up the road.  The
+gate is made out of steel.  It looks almost impossible to break in to the city.
+~
+106 0 0
+D0
+~
+~
+0 0 10607
+D2
+~
+~
+0 0 10609
+S
+#10609
+Outside the South Gate of Elcardo~
+   A massive steel gate rests just to the north.  The city of Elcardo held
+beyond the gate and walls.  You remember rumors of the city being overthrown by
+a new political faction.  But who listens to politics.  "Poli" meaning many,
+"tics" meaning blood sucking insects.    
+~
+106 0 3
+D0
+~
+~
+0 0 10608
+S
+#10610
+Peddler's Road~
+   The streets are paved with a fine marble, much better looking then other
+city's that you've seen.  The clanging of metal rings in your ears, it seems to
+be comming from the north.  There is a bank close to the south.    
+~
+106 0 0
+D0
+~
+~
+0 0 10632
+D1
+~
+~
+0 0 10611
+D2
+~
+~
+0 0 10633
+D3
+~
+~
+0 0 10605
+S
+#10611
+Peddler's Road~
+   Tall strong men brush by you, swords hanging at their waists.  They must be
+going to the Armor Shop which is to the north of where you are standing.  To
+the south you see a strange hut.    
+~
+106 0 0
+D0
+~
+~
+0 0 10634
+D1
+~
+~
+0 0 10612
+D2
+~
+~
+0 0 10635
+D3
+~
+~
+0 0 10610
+S
+#10612
+Inside the East Gate of Elcardo~
+   The steel gates are held shut by two Elcardo Knights which are guarding the
+exit.  The Elcardorian leaders try to keep strict control through the use of
+the knights and soldiers.  But, with rumors of the Mayor falling ill many
+rebels have begun to combine forces within the city walls.    
+~
+106 0 0
+D1
+~
+~
+0 0 10613
+D3
+~
+~
+0 0 10611
+S
+#10613
+Outside the East Gate of Elcardo~
+   The city of Elcardo is to the west through a set of guarded steel gates.  
+You have been told that the city is in turmoil and on the verge of a collapse,
+or possible overthrowing.  Many cunning politicians have plans for this city.
+A gravel path continues east out the gate.  The north is blocked by a tall
+cliff face.    
+~
+106 0 3
+D3
+~
+~
+0 0 10612
+S
+#10614
+Peddler's Road~
+   A strong scent gets your attention right away.  The smell of biscuits, bread
+and home-made cookies comes from the north.  You definately want to check this
+place out.  To the south you see a small shop and a sign with the words Elcaro
+Grocer on it.    
+~
+106 0 0
+D0
+~
+~
+0 0 10637
+D1
+~
+~
+0 0 10605
+D2
+~
+~
+0 0 10638
+D3
+~
+~
+0 0 10615
+S
+#10615
+Peddler's Road~
+   Little elf-like people walk by you left and right, You wonder why...  Then
+you realize that the Magic shop is directly in front of you to the south.  
+There is a small sign here that says the words, Lara's Magic supplies.    
+~
+106 0 0
+D0
+~
+~
+0 0 10639
+D1
+~
+~
+0 0 10614
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 10616
+S
+#10616
+Inside the West Gate of Elcardo~
+   The whispers of treachery and deciept fill the city streets and every
+passerby looks at you warily.  Everyone in the city just wants peace, but the
+Mayor has failed to maintain order and the revolts have begun.  Revolutionists
+are coming forth.    
+~
+106 0 0
+D1
+~
+~
+0 0 10615
+D3
+~
+~
+0 0 10617
+S
+#10617
+Outside the West Gate of Elcardo~
+   Through the gates to the east you can see the infamous city of Elcardo.  
+The city is known for its unstable government.  The current Mayor has fallen
+ill and rumors abound.  Everything from him being poisoned to an illness sent
+from the Gods because of the Mayor's betrayal to the upkeep of the citizens.  
+A thick forest can be seen to the west.    
+~
+106 0 3
+D1
+~
+~
+0 0 10616
+D3
+~
+~
+0 0 10655
+S
+#10618
+Guild Halls~
+   This is the spellcaster side of the guild halls.  You will find no fighter
+guilds in this section.  To the north is the Cleric guildmaster and to the
+south is the Paladin guildmaster.  Signs are placed over both doors stating
+that the guilds are closed.    
+~
+106 0 0
+D1
+~
+~
+0 0 10619
+D3
+~
+~
+0 0 10606
+S
+#10619
+Guild Halls~
+   Continuing on the spellcaster side of the halls you see a dark dreary guild,
+it must be the Vampire guild that is to the north.  More elves walk in and out
+of the guild to the south, shall you take a closer look at the Mage guild.  
+Signs are placed over both doors stating that the guilds are closed.    
+~
+106 0 0
+D1
+~
+~
+0 0 10620
+D3
+~
+~
+0 0 10618
+S
+#10620
+Guild Halls~
+   To the south you see a strange guild, its more like a Grove then a guild.  
+You automatically assume that it is the Druid guild.  Meanwhile, to the north
+you hear strange sounds unlike the other guilds.  The Psionicist guild is to
+the north.  Signs are placed over both doors stating that the guilds are
+closed.    
+~
+106 0 0
+D3
+~
+~
+0 0 10619
+S
+#10621
+Guild Halls~
+   You sense a strong presence of evil when you step in front of this guild.  
+Shadows are everywhere and you can almost feel the fear rising in your throat.
+To the south you can make out the entrance to the Thieves guild in the dim
+light.  North of here is the Warriors Guild.  To the east is the safety and
+comfort of the Guild Halls.  Signs are placed over both doors stating that the
+guilds are closed.    
+~
+106 0 0
+D1
+~
+~
+0 0 10606
+D3
+~
+~
+0 0 10622
+S
+#10622
+Guild Halls~
+   The sounds of combat and training combined with yelling come all around you.
+It may be loud and not very peaceful but you feel strangly good that you are
+here.  The Barbarian guild is to the north.  But as you turn your head towards
+the south a peaceful feeling fills you body.  The Ranger guild is to the south.
+Signs are placed over both doors stating that the guilds are closed.    
+~
+106 0 0
+D1
+~
+~
+0 0 10621
+S
+#10623
+Citizens Street~
+   The citizens of Elcardo have grown up in a very poor state.  But do not let
+their poverty fool you, they have spent much time training in combat since the
+city requires all citizens to serve in the army.  Decrepit looking shacks are
+closed and boarded up to the north and south of you.    
+~
+106 0 0
+D1
+~
+~
+0 0 10607
+D3
+~
+~
+0 0 10624
+S
+#10624
+Citizens Street~
+   Children run past you, high on sugar, or so you think.  It is very loud in
+this part of Elcardo, much louder then the other parts.  If it is not the
+screaming children that deafens you it is the mothers yelling for or at their
+children.  More shacks are to the north and south.    
+~
+106 0 0
+D1
+~
+~
+0 0 10623
+D3
+~
+~
+0 0 10625
+S
+#10625
+Citizens Street~
+   Children beg for money all around you.  It is not often they see someone as
+rich as you in their neighborhood.  You are quite annoyed that all these
+children are pulling at your clothes and digging in your pockets.  To the north
+and south are the shacks that these children live in.    
+~
+106 0 0
+D1
+~
+~
+0 0 10624
+D3
+~
+~
+0 0 10626
+S
+#10626
+Dead End~
+   To the north you see two teenage children guarding a shack which is
+reasonably nicer then the rest.  The children are each holding a spear and have
+body paint around their eyes and on their cheeks.  Each one with a look of hate
+and disgust on their face.  Shall you enter...    
+~
+106 0 0
+D0
+~
+~
+0 0 10641
+D1
+~
+~
+0 0 10625
+S
+#10627
+Pathway to the Saloon~
+   You are on the path towards the old Elcardo Saloon, a popular hangout for
+all those old Elcaro Knights.  But watch out, they are quite bitter with their
+old age.  The Saloon is a great place to glean the latest gossip from the
+locals.    
+~
+106 0 0
+D1
+~
+~
+0 0 10628
+D3
+~
+~
+0 0 10607
+S
+#10628
+Entrance to the Saloon~
+   A short, very short, man is here letting people in and tossing people out of
+the Saloon.  He doesnt look very intimidating at all.  But, he must be
+qualified or he wouldn't have the job and be able to handle the soldiers and
+rebels.    
+~
+106 0 0
+D1
+~
+~
+0 0 10629
+D3
+~
+~
+0 0 10627
+S
+#10629
+Inside the Elcardo Saloon~
+   The room is filled with the smell of old cigars and pipes.  You feel as if
+you were ten years old considering everyone in the room is at least twice your
+age.  It is quite hard to breathe in here but these old timers are very use to
+it.  You notice an odd back room with a sign on the door to the east saying Do
+Not Enter.    
+~
+106 d 0
+D1
+~
+~
+0 0 10630
+D3
+~
+~
+0 0 10628
+S
+#10630
+Center of the Saloon~
+   An elderly man is playing a piano in the corner of the room.  Retired
+Elcardo knights and soldiers play cards all around you and reminisce about the
+olden days.  Not quite the spot you find exciting but you wonder what is going
+on in that back room.  An old veteran flashes his gums at you.  The back room is
+close to the north.    
+~
+106 d 0
+D0
+~
+~
+0 0 10631
+D3
+~
+~
+0 0 10629
+S
+#10631
+The Back Room~
+   The room is very dim, A few candles are lit on the walls.  This is where
+many of the different rebellious factions in the city meet.  They sometimes
+work together, sometimes oppose each other.  It all depends which they think is
+most beneficial.    
+~
+106 ad 0
+D2
+~
+~
+0 0 10630
+S
+#10632
+The Armor Shop~
+   The walls are tarnished black from soot.  The sounds of clanging metal comes
+from a large man perfecting a silver sword.  The smell of his sweat is enough
+to change your mind from entering this shop again, You should purchase your
+weapon and get out as fast as possible.    
+~
+106 d 0
+D1
+~
+~
+0 0 10634
+D2
+~
+~
+0 0 10610
+S
+#10633
+The Bank of Elcardo~
+   The bank is very clean and it feels very peaceful.  There are many plaques
+on the walls all of which say something good about the city of Elcardo.  Quite
+the rich looking establishment it is.    
+~
+106 d 0
+D0
+~
+~
+0 0 10610
+S
+#10634
+The weapon shop~
+   The armoury has a wide assortment of armours on the walls and in the
+windows.  You see helmets, shields and chain shirts to name a few.  To the
+south is the main street.    
+~
+106 d 0
+D2
+~
+~
+0 0 10611
+D3
+~
+~
+0 0 10632
+S
+#10635
+Mayor's Hut~
+   You are having a hard time believing that this little hut belongs to the
+Mayor of the city.  A middle-aged women informs you that the Mayor is sick in
+bed and is taking no visitors.  You should leave.  To the south is a closed
+wooden door with the words "Do Not Disturb" on it.    
+~
+106 cd 0
+D0
+~
+~
+0 0 10611
+D2
+~
+door~
+1 0 10636
+S
+#10636
+Inside the Mayor's room~
+   The inside of the Mayor's room is quite impressive.  A tall four post bed
+fills the center of the room.  An ornately carved dresser and desk cover the
+western wall.  A light fragrance attempts to cover the smell of death in the
+room.    
+~
+106 d 0
+D0
+~
+door~
+1 0 10635
+S
+#10637
+Grandma's Diner~
+   This is a very small diner, but it is one of the most comfortable places
+you've ever been in your life.  Directly behind the counter you see an elderly
+man playing with an antique cash register.  In the kitchen you see a little old
+lady baking cookies and other goodies.  You know you wanna have some.    
+~
+106 d 0
+D2
+~
+~
+0 0 10614
+S
+#10638
+Elcardo Grocer~
+   You are inside the general store.  All sorts of items are stacked on shelves
+behind the counter, safely out of your reach.  None of the items seem to be of
+special interest, just your everyday requirements.    
+~
+106 d 0
+D0
+~
+~
+0 0 10614
+S
+#10639
+Lara's Magic Supplies~
+   The shop is quite small compared to the others.  Shelves are filled with
+mason jars with pig eyes, cow tongues, and chicken brains.  It is not the most
+pleasant sight in the world.  Lara is quite the odd looking individual, wearing
+all black with the Skull of Hakanda around here neck.    
+~
+106 cd 0
+D2
+~
+~
+0 0 10615
+S
+#10641
+Inside the Shack~
+   You are in the main entrance to the poor shack that was being guarded by two
+teenage kids.  What could they possibly be guarding you wonder.  There are
+doors to the west and east of you and also a large solid stone door to the
+north.    
+~
+106 d 0
+D0
+A large solid stone door.
+~
+solid stone door~
+1 0 10645
+D1
+~
+~
+0 0 10643
+D2
+~
+~
+0 0 10626
+D3
+~
+~
+0 0 10642
+S
+#10642
+Poor Barracks~
+   There are bunk beds all around you.  Extra spears and other weapons lie in
+the corner of the room.  Some teenage children are sleeping in the bunks while
+some are choosing a weapon.  Should You really be here...    
+~
+106 0 0
+D1
+~
+~
+0 0 10641
+S
+#10643
+Poor Barracks~
+   Bunk beds everywhere, clothes neatly folded in seperate piles.  These
+children look very tired and look as though they are far over-worked.  A Young
+child quietly crys on a bunk to your left, all he really needs is some comfort.
+An open hatch leads down.    
+~
+106 cd 0
+D3
+~
+~
+0 0 10641
+D5
+~
+~
+0 0 10644
+S
+#10644
+An Empty Room~
+   The room is very VERY small and there is almost nothing in it.  The walls
+are very dirty and the floor is made of dirt.  A shudder goes through your
+spine, You can sense the hatred in this place.    
+~
+106 ad 0
+D4
+~
+~
+0 0 10643
+D5
+~
+~
+0 0 10646
+S
+#10645
+Chambers of Sujin Suncas~
+   The rebel headquarters run by Sujin Suncas is more run-down than would be
+expected.  It appears he lacks the financial support to carry out a successful
+rebellion.  Rebellions never last very long once people start starving.  
+Perhaps that is the Mayor's strategy.  A few wooden chairs are placed around an
+empty table.    
+~
+106 ad 0
+D2
+A solid stone door.
+~
+door~
+1 0 10641
+S
+#10646
+Entrance to the Dungeon~
+   The smell of old bones and rotting flesh fills your nose.  There are puddles
+of a brownish liquid on the floor and stains of blood on the walls.  The sound
+of moaning rings through-out the dungeon.    
+~
+106 ad 0
+D0
+~
+~
+0 0 10649
+D1
+~
+~
+0 0 10648
+D3
+~
+~
+0 0 10647
+D4
+~
+~
+0 0 10644
+S
+#10647
+Death Chamber~
+   This cramped room has a very strong odor of decay to it.  It is not pleasant
+at all.  You wonder why the citizens of Elcardo would allow people to be
+imprisoned down here in the dungeons.    
+~
+106 ad 0
+D1
+~
+~
+0 0 10646
+S
+#10648
+Torture Room~
+   Strange devices used for torture are scattered all around the room.  Why
+would they torture people in a dungeon, Sick SICK people.  It appears that
+there are some bodies still alive in here.    
+~
+106 ad 0
+D3
+~
+~
+0 0 10646
+S
+#10649
+Dungeon Hallway~
+   You do not feel safe at all when you are down here all alone.  There are a
+few small candles mounted on the dungeon walls just enough light to see your
+own hands but thats about the only thing visible.  A gaping hole in the dungeon
+floor to the west looks bottomless.    
+~
+106 0 0
+D0
+~
+~
+0 0 10651
+D2
+~
+~
+0 0 10646
+D3
+~
+~
+0 0 10650
+S
+#10650
+Body Count~
+   FALLING, FELL, DEAD!  Should have read the room descriptions.    
+~
+106 abcfh 0
+S
+#10651
+Dungeon Hallway~
+   There are rooms and chambers to the left and right of you, this way and that
+way.  You do not feel safe at all when you are down here all alone.  There are
+a few small candles mounted on the dungeon walls just enough light to see your
+own hands but thats about the only thing visible.    
+~
+106 d 0
+D0
+~
+~
+0 0 10654
+D1
+~
+~
+0 0 10653
+D2
+~
+~
+0 0 10649
+D3
+~
+~
+0 0 10652
+S
+#10652
+A Black Cell~
+   This is a the scariest room of all.  There is no light AT ALL.  You can feel
+your heart pounding as you look around the room trying to see if something is
+here...  Is alive.    
+~
+106 ad 0
+D1
+~
+~
+0 0 10651
+S
+#10653
+Suncas Jail Cell.~
+   This large room with earthen walls has been equipped with shackles for both
+hands and feet.  They seem to have been driven into the walls on long steel
+poles.  A few leg shackles are scattered about the center of the room.  This
+appears to be a jail cell for prisoners.    
+~
+106 ad 0
+D3
+~
+~
+0 0 10651
+S
+#10654
+The Guard Room~
+   Blood and guts are all over the floor and walls in this room.  It looks as
+though a few prisoners escaped and came after the guards.  It is even more
+gross that part of the guts have been eaten.  They must not feed the prisoners
+very well.    
+~
+106 d 0
+D2
+~
+~
+0 0 10651
+S
+#10655
+A Path between Hannah and Elcardo~
+   Forests surround you, but to the east you can just make out the city of
+Elcardo.  While to the west and north some you have heard lies the city of
+Hannah.  The path looks relatively empty, and unused here.    
+~
+106 0 0
+D1
+~
+~
+0 0 10617
+D3
+~
+~
+0 0 10656
+S
+#10656
+A Path between Hannah and Elcardo~
+   This well travelled path links the cities of Elcardo and Hannah.  The two
+cities were once strong allies until the City of Hannah started having problems
+with strange creatures storming the city walls.  All communication between the
+cities has been cut off for some time now.    
+~
+106 0 0
+D0
+~
+~
+0 0 10657
+D1
+~
+~
+0 0 10655
+S
+#10657
+Before the City of Hannah~
+   Just to the north can be seen a pair of barred and rusted gates, the gates
+have been closed for a long time and rumours of the city within being destroyed
+or deserted abound.  The city walls stretching to the east and west are crumbled
+in some places, even torn down.  
+~
+106 0 0
+D2
+~
+~
+0 0 10656
+S
+#0
+
+#RESETS
+M 0 10608 1 10645 	(Sujin Suncas)
+E 1 10609 99 15 	(a Suncas banded wristguard)
+E 1 10635 1 1 	(an authority ring of the Suncas clan)
+E 1 10609 99 14 	(a Suncas banded wristguard)
+M 0 10634 1 10632 	(Tring, the armourer)
+G 1 10621 99 -1 	(a full faced Elcardorian helmet)
+G 1 10620 99 -1 	(a leather underlined Elcardorian shield)
+G 1 10618 99 -1 	(some Elcardorian military arm plates)
+G 1 10617 99 -1 	(an Elcardorian military shin guard)
+G 1 10616 99 -1 	(an Elcardorian military combat plate)
+M 0 10610 5 10604 	(an Elcardorian military officer)
+E 1 10613 5 16 	(an Elcardorian military longsword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+E 1 10617 30 7 	(an Elcardorian military shin guard)
+E 1 10618 20 10 	(some Elcardorian military arm plates)
+R 0 10604 10604 -1 	(a fountain)
+O 0 10604 1 10604 	(a fountain)
+M 0 10640 1 10604 	(a Shadowy figure)
+E 1 10641 1 16 	(an assasins dagger)
+R 0 10633 10640 -1 	(bank)
+O 0 10640 1 10633 	(bank)
+M 0 10633 1 10633 	(Penny, the bank teller)
+M 0 10632 1 10634 	(Brack, the weaponsmith)
+G 1 10613 25 -1 	(an Elcardorian military longsword)
+G 1 10614 10 -1 	(an Elcardorian military rapier)
+M 0 10638 1 10638 	(the elcardorian grocer)
+G 1 10637 99 -1 	(a kerosene soaked torch)
+G 1 10638 99 -1 	(a buffalo waterskin)
+G 1 10636 100 -1 	(a lamb skin backpack)
+D 0 10636 0 1 	(Inside the Mayor's room)
+M 0 10636 1 10636 	(the Elcardorian Mayor)
+E 1 10615 1 17 	(a platinum Elcardorian sceptre)
+M 0 10639 1 10639 	(Lara)
+G 1 10631 100 -1 	(an ebony vial)
+G 1 10632 100 -1 	(a jar of blue waters)
+G 1 10633 100 -1 	(a jar containing bright yellow gel)
+G 1 10634 100 -1 	(a cherry coloured tube)
+G 1 10639 100 -1 	(a null gravity potion)
+M 0 10637 1 10637 	(grandmother sunshine)
+M 0 10614 1 10637 	(grandfather sunshine)
+G 1 10628 100 -1 	(a cinnamon danish)
+G 1 10629 100 -1 	(a savoury muffin)
+G 1 10630 100 -1 	(a cheese bun)
+M 0 10605 10 10605 	(a Suncas rebel foot soldier)
+E 1 10602 5 16 	(a flame hardened quarterstaff)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10611 15 8 	(a pair of Suncas untanned leather sandals)
+M 1 10606 10 10605 	(an elite Suncas rebel soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10603 10 16 	(a cast iron rebel spear)
+E 1 10610 10 6 	(a Suncas tin scaled leather helmet)
+E 1 10611 15 8 	(a pair of Suncas untanned leather sandals)
+M 0 10617 1 10605 	(a panhandler)
+M 0 10616 2 10654 	(a Suncas prison guard)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10607 15 5 	(a forged Suncas bodyplate)
+E 1 10610 5 6 	(a Suncas tin scaled leather helmet)
+E 1 10627 1 16 	(a barb wire whip)
+M 0 10615 2 10653 	(a political prisoner)
+E 1 10626 2 1 	(a parliament ring)
+E 1 10625 2 7 	(a pair of cast iron shackles)
+M 0 10615 2 10653 	(a political prisoner)
+E 1 10626 2 1 	(a parliament ring)
+E 1 10625 2 7 	(a pair of cast iron shackles)
+M 0 10613 4 10648 	(a sick and dying man)
+M 0 10613 4 10648 	(a sick and dying man)
+M 0 10613 4 10648 	(a sick and dying man)
+M 0 10613 4 10648 	(a sick and dying man)
+O 0 10624 1 10648 	(a torture rack)
+M 0 10603 1 10647 	(the executioner)
+E 1 10622 1 16 	(a tempered bladed executioner's axe)
+E 1 10623 10 3 	(a rope noose)
+D 0 10635 2 1 	(Mayor's Hut)
+M 0 10635 1 10635 	(the mayor's wife)
+M 0 10611 2 10603 	(an elcardorian military captain)
+E 1 10614 2 16 	(an Elcardorian military rapier)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+E 1 10617 30 7 	(an Elcardorian military shin guard)
+E 1 10618 20 10 	(some Elcardorian military arm plates)
+E 1 10619 5 12 	(a blue elcardorian cloak)
+E 1 10621 5 6 	(a full faced Elcardorian helmet)
+M 0 10607 5 10608 	(a rebel commando)
+E 1 10608 5 13 	(a Suncas cloth kilt)
+E 1 10606 4 16 	(a long iron bladed pole arm)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+E 1 10607 3 12 	(a forged Suncas bodyplate)
+E 1 10602 20 17 	(a flame hardened quarterstaff)
+M 0 10610 5 10610 	(an Elcardorian military officer)
+E 1 10613 5 16 	(an Elcardorian military longsword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+E 1 10617 30 7 	(an Elcardorian military shin guard)
+E 1 10618 20 10 	(some Elcardorian military arm plates)
+M 0 10610 5 10616 	(an Elcardorian military officer)
+E 1 10613 5 16 	(an Elcardorian military longsword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+E 1 10617 30 7 	(an Elcardorian military shin guard)
+E 1 10618 20 10 	(some Elcardorian military arm plates)
+M 0 10609 10 10623 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10609 10 10630 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10609 10 10618 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10609 10 10620 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10609 10 10607 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10605 10 10607 	(a Suncas rebel foot soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10602 10 16 	(a flame hardened quarterstaff)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+M 0 10609 10 10615 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10605 10 10615 	(a Suncas rebel foot soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10602 10 16 	(a flame hardened quarterstaff)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+M 0 10609 10 10617 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10605 10 10617 	(a Suncas rebel foot soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10602 10 16 	(a flame hardened quarterstaff)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+M 0 10609 10 10612 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10609 10 10613 	(an Elcardorian infantry man)
+E 1 10612 10 16 	(a two-handed Elcardorian military sword)
+E 1 10616 30 5 	(an Elcardorian military combat plate)
+E 1 10620 30 11 	(a leather underlined Elcardorian shield)
+M 0 10606 5 10627 	(an elite Suncas rebel soldier)
+E 1 10608 5 13 	(a Suncas cloth kilt)
+E 1 10603 5 16 	(a cast iron rebel spear)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+E 1 10620 5 11 	(a leather underlined Elcardorian shield)
+M 0 10606 5 10624 	(an elite Suncas rebel soldier)
+E 1 10608 5 13 	(a Suncas cloth kilt)
+E 1 10603 5 16 	(a cast iron rebel spear)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+E 1 10620 5 11 	(a leather underlined Elcardorian shield)
+M 0 10605 10 10625 	(a Suncas rebel foot soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10602 10 16 	(a flame hardened quarterstaff)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+M 0 10605 10 10641 	(a Suncas rebel foot soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10602 10 16 	(a flame hardened quarterstaff)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+M 0 10605 10 10611 	(a Suncas rebel foot soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10602 10 16 	(a flame hardened quarterstaff)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+M 0 10605 10 10606 	(a Suncas rebel foot soldier)
+E 1 10608 15 13 	(a Suncas cloth kilt)
+E 1 10602 10 16 	(a flame hardened quarterstaff)
+E 1 10611 10 8 	(a pair of Suncas untanned leather sandals)
+O 0 10601 1 10601 	(a large altar)
+M 0 10602 1 10601 	(the Elcardorian priest)
+E 1 10605 1 4 	(a wooden orthodox Elcardorian cross)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+#10600~
+10631
+10632
+10633
+10634
+10639
+-1
+1.20
+0.30
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10639
+256
+10639
+-1
+0
+28
+0
+0
+#10601~
+10627
+10628
+10629
+10630
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10614
+0
+10637
+-1
+0
+28
+0
+0
+#10602~
+10636
+10637
+10638
+-1
+1.00
+0.30
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s Ke?!~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10638
+0
+10638
+-1
+0
+28
+0
+0
+#10603~
+10616
+10617
+10618
+10620
+10621
+-1
+1.00
+0.30
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10634
+0
+10632
+-1
+0
+28
+0
+0
+#10604~
+10613
+10614
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+10632
+0
+10634
+-1
+0
+28
+0
+0
+0
+
+
+#$

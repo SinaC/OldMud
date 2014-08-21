@@ -1,0 +1,4616 @@
+Area 'Kerofk' {
+  Builders = 'None';
+  Vnums = ( 5600, 5799 );
+  Credits = '{{ 5  25} C.A.W   Kerofk';
+  Security = 9;
+
+//=======================================
+Mobile 5600 {
+  Name = 'MouseRider';
+  ShD = 'MouseRider';
+  LnD = 'MouseRider sits on his throne here, his head in his hands.
+';
+  Desc = 'MouseRider is the greatest mortal sage ever.  He is also a most
+troubled man, knowing things you couldn\'t even guess at.  You wonder
+how he could have all that knowledge and not want power.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 8;
+  Hitroll = 20;
+  Hit = ( 2, 20, 60 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 4, 3 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 20;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Program = 'mob5600';
+}
+Mobile 5601 {
+  Name = 'Sentinel Beast';
+  ShD = 'the Sentinel Beast';
+  LnD = 'The Sentinel Beast\'s eyes glow chaotically as it attacks!
+';
+  Desc = 'The Sentinel Beast is somewhat reminiscent of a wolf if you ignore the
+multi-colored glowing eyes, the horns, the six inch long claws...
+';
+  Race = 'wolf';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 20;
+  Hitroll = 0;
+  Hit = ( 5, 10, 300 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 5, 6, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+  DamType = 'pound';
+}
+Mobile 5602 {
+  Name = 'Leonna';
+  ShD = 'Leonna';
+  LnD = 'Leonna, guildmaster of the Mages\' Guild of Kerofk, greets you.
+';
+  Desc = 'Leonna seems to be a nice, fun-loving woman.  Obviously she became
+guildmaster due more to her personality than her wizardly power.  Her
+powers are no small matter, however; she is still one of the best
+mages in the city.
+';
+  Race = 'human';
+  Alignment = 700;
+  Etho = 'neutral';
+  Level = 24;
+  Hitroll = 0;
+  Hit = ( 5, 10, 600 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 6, 10 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 10000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Special = 'spec_cast_mage';
+}
+Mobile 5603 {
+  Name = 'Bookstore Owner';
+  ShD = 'the Bookstore Owner';
+  LnD = 'The Bookstore Owner looks up from a paperback as you come in.
+';
+  Desc = 'The Bookstore Owner looks very bored in his job here.  From the way
+his fingers twitch and his eyes dart, you wonder if he really is what
+he appears...
+';
+  Race = 'human';
+  Alignment = -500;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 2;
+  Hit = ( 6, 10, 390 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 10 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 7000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Shop = ( (), 100, 100, 0, 23 );
+}
+Mobile 5604 {
+  Name = 'Seobagn Thieves Thief Guildmaster';
+  ShD = 'Seobagn';
+  LnD = 'The Thieves\' Guildmaster, Seobagn, watches you with narrowed eyes.
+';
+  Desc = 'Seobagn snickers at you while he spins a coin around his fingers with
+practised ease.  You wonder if its your coin.
+';
+  Race = 'human';
+  Alignment = -800;
+  Etho = 'neutral';
+  Level = 24;
+  Hitroll = 0;
+  Hit = ( 3, 10, 490 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 6, 10 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 15000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5605 {
+  Name = 'Bartender';
+  ShD = 'the Bartender';
+  LnD = 'The Bartender pours drinks several at a time to keep up with the rush.
+';
+  Desc = 'The Bartender looks harried as he tries to keep up with several
+different orders at the same time.  Maybe you should bother him
+later...
+';
+  Race = 'human';
+  Alignment = 250;
+  Etho = 'neutral';
+  Level = 14;
+  Hitroll = 8;
+  Hit = ( 4, 4, 160 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 4577;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Shop = ( (), 100, 100, 0, 23 );
+}
+Mobile 5606 {
+  Name = 'Barmaid';
+  ShD = 'the Barmaid';
+  LnD = 'The barmaids rush about delivering drinks and taking orders.
+';
+  Desc = 'The barmaid looks at you with a tired glance as she struggles to keep
+up with the thirsty populace.  
+\'What do you want?\' she asks while pulling out an order pad.
+';
+  Race = 'human';
+  Alignment = 100;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 16;
+  Hit = ( 1, 10, 60 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 4, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 50;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5607 {
+  Name = 'drunk person';
+  ShD = 'the Drunk';
+  LnD = 'A drunk person is here, babbling about something incessantly.
+';
+  Desc = 'The drunk person looks at you and slurs, \'Whatre you lookin\' at,
+bozo?\'
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 4;
+  Hitroll = 19;
+  Hit = ( 5, 10, 50 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 300;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5608 {
+  Name = 'lucky gambler';
+  ShD = 'the Gambler';
+  LnD = 'A lucky gambler is here, striking it rich!
+';
+  Desc = 'The lucky gambler looks at you and snickers.  Poor Boy!
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 12;
+  Hitroll = 6;
+  Hit = ( 3, 4, 147 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 3500;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5609 {
+  Name = 'dealer';
+  ShD = 'the Dealer';
+  LnD = 'The dealer sets out a new hand for all to play.
+';
+  Desc = 'The dealer looks at you flatly and says, \'Are you in or out?\'  He
+really doesn\'t seem to care one way or another.
+';
+  Race = 'human';
+  Alignment = 200;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 2;
+  Hit = ( 6, 10, 390 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 2000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5610 {
+  Name = 'Ben Benzaldehyde';
+  ShD = 'Ben';
+  LnD = 'Ben counts his money, ignoring you completely.
+';
+  Desc = 'Benzaldehyde is a big man, reminding you of some elephants you\'ve
+seen.  His eyes light up while he counts his money--a man possessed by
+his greed.
+';
+  Race = 'human';
+  Alignment = -785;
+  Etho = 'neutral';
+  Level = 24;
+  Hitroll = 0;
+  Hit = ( 10, 10, 400 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 6, 4 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 20000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5611 {
+  Name = 'Ginger shopkeeper';
+  ShD = 'the Shopkeeper';
+  LnD = 'The shopkeeper smiles at you as you enter her store.
+';
+  Desc = 'The shopkeeper here is the legendary Bob\'s wife Ginger.  She welcomes
+you to her establishment and invites you to browse as long as you
+wish.
+';
+  Race = 'human';
+  Alignment = 900;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 0;
+  Hit = ( 6, 10, 390 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 5000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Shop = ( ('armor'), 100, 100, 0, 23 );
+}
+Mobile 5612 {
+  Name = 'unlucky gambler';
+  ShD = 'the Gambler';
+  LnD = 'An unlucky gambler struggles to hold back tears as his money disappears.
+';
+  Desc = 'The unlucky gambler just doesn\'t say a word, he just keeps putting the
+money down, hoping to at least break even.  It doesn\'t even look like
+he\'s got a chance.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 12;
+  Hitroll = 12;
+  Hit = ( 10, 10, 100 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 7, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 100;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5613 {
+  Name = 'citizen';
+  ShD = 'the Citizen';
+  LnD = 'A citizen is here, debating politics with anyone who will listen.
+';
+  Desc = 'The citizen seems very upset about something.  You\'re not sure exactly
+what, but he seems anxious to tell you.  The more he talks, the more
+your attention wanders until you\'re ready to go.
+';
+  Race = 'human';
+  Alignment = 350;
+  Etho = 'neutral';
+  Level = 8;
+  Hitroll = 13;
+  Hit = ( 3, 4, 95 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 4, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 500;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5614 {
+  Name = 'receptionist wife';
+  ShD = 'the Receptionist';
+  LnD = 'The receptionst smiles and offers you a room.
+';
+  Desc = 'Myrama is all smiles as you look at her.  She is bright, witty, and
+the only reason why Kell is so successful.  Myrama is truly marvelous!
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 20;
+  Hit = ( 1, 4, 0 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 4, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5615 {
+  Name = 'herbalist shopkeeper';
+  ShD = 'the Herbalist';
+  LnD = 'The herbalist is here, reading to her plants.
+';
+  Desc = 'The herbalist is an ancient woman, but she still seems spry and
+sharp-minded when it comes to plants.  You\'ve no doubt this woman is
+an expert in her field.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 0;
+  Hit = ( 6, 10, 390 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 5000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Shop = ( ('potion'), 60, 100, 0, 23 );
+}
+Mobile 5616 {
+  Name = 'lawyer';
+  ShD = 'the Lawyer';
+  LnD = 'The lawyer is here, ready to lie his tongue out.
+';
+  Desc = 'The lawyer looks at you, ready to spot anything he can sue you for.
+This has got to be one of the most loathesome mobs in the whole mud!
+';
+  Race = 'human';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 14;
+  Hitroll = 3;
+  Hit = ( 3, 10, 150 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 3 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 10000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5617 {
+  Name = 'secretary';
+  ShD = 'the Secretary';
+  LnD = 'The secretary pops his gum and asks you what you want.
+';
+  Desc = 'The secretary is a bored, out-of-place looking man, until you spot the
+hidden daggers in his sleeve, boot, shirt, down his back, etc.  (not
+too good at hiding them, is he?).  Obviously, this man is here more to
+protect the mayor than to do office work.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 24;
+  Hitroll = 0;
+  Hit = ( 5, 10, 450 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 20000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5618 {
+  Name = 'mayor kell';
+  ShD = 'Kell';
+  LnD = 'Mayor Kell greets you into his office with a welcoming hand.
+';
+  Desc = 'The mayor seems happy to see you, even though you interrupted his
+putting practice.  He sits you down, offers you a drink, and asks what
+he can do for you.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 20;
+  Hit = ( 1, 6, 3 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 4, 3 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 500;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5619 {
+  Name = 'council guard';
+  ShD = 'the Council Guard';
+  LnD = 'The Council Guards look ready to rip you apart if you disturb the meeting.
+';
+  Desc = 'The Council Guards are impressive.  As you look upon their pikes and
+plate armor, a little part of your brain start screaming about how
+you\'d be crazy to mess with them.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 0;
+  Hit = ( 5, 30, 161 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 5, 8 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 1000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5620 {
+  Name = 'council members';
+  ShD = 'the Council Member';
+  LnD = 'The council member looks quite upset as you interrupt them!
+';
+  Desc = 'The council member is not just another politician...he can fight, too!
+';
+  Race = 'human';
+  Alignment = 350;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 6;
+  Hit = ( 3, 6, 180 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 8000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5621 {
+  Name = 'jailer';
+  ShD = 'the Jailer';
+  LnD = 'The jailer reads his newspaper while sitting in his chair.
+';
+  Desc = 'The jailer looks bored, as if he was in a Fortran class.  That
+bored...really!
+';
+  Race = 'human';
+  Alignment = 100;
+  Etho = 'neutral';
+  Level = 10;
+  Hitroll = 11;
+  Hit = ( 3, 5, 120 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 6, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 3000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5622 {
+  Name = 'prisoner';
+  ShD = 'the Prisoner';
+  LnD = 'A prisoner here has given up all hopes of escape.
+';
+  Desc = 'The prisoner looks up at you weakly and mumbles, 
+\'I am not a number!\'  He gasps and looks dejected again.
+';
+  Race = 'human';
+  Alignment = -500;
+  Etho = 'neutral';
+  Level = 2;
+  Hitroll = 19;
+  Hit = ( 3, 5, 20 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 6, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5623 {
+  Name = 'innguard guard';
+  ShD = 'the Innguard';
+  LnD = 'A innguard is here, ready to fight off some marauding hordes.
+';
+  Desc = 'The innguard looks fearless and ready to defend the patrons of the
+Fortress at a moments notice.
+';
+  Race = 'human';
+  Alignment = 600;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 0;
+  Hit = ( 5, 30, 161 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 5, 8 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 20000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5624 {
+  Name = 'Jenk';
+  ShD = 'Jenk';
+  LnD = 'Jenk is here, ready to sell you anything!
+';
+  Desc = 'Jenk is a lowdown no good shopkeeper who\'ll sell anything to make a
+gold!  He\'s corrupt, greedy, and you\'re kind of man!
+';
+  Race = 'human';
+  Alignment = -500;
+  Etho = 'neutral';
+  Level = 25;
+  Hitroll = 0;
+  Hit = ( 6, 10, 590 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 18 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Shop = ( ('weapon'), 50, 100, 0, 23 );
+}
+Mobile 5625 {
+  Name = 'black marketeer';
+  ShD = 'the Black Marketeer';
+  LnD = 'The black marketeer is here ready to sell you anything you want.
+';
+  Desc = 'The black marketeer has set up shop in Jenk\'s place to sell just what
+you need...  Now what is it that you need?
+';
+  Race = 'human';
+  Alignment = -750;
+  Etho = 'neutral';
+  Level = 25;
+  Hitroll = 0;
+  Hit = ( 7, 10, 700 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 6, 15 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5626 {
+  Name = 'priest';
+  ShD = 'the Priest';
+  LnD = 'A priest is here, performing his absolutions.
+';
+  Desc = 'The priest looks like a kindly man who has seen too much suffering for
+one life.  He now devotes his life to Tirluas, hoping to one day ascend to
+immortality.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 7;
+  Hitroll = 14;
+  Hit = ( 3, 5, 83 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 4, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 10;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5627 {
+  Name = 'high priest guildmaster';
+  ShD = 'the High Priest';
+  LnD = 'The High Priest is here, glowing with the benevolence of AO.
+';
+  Desc = 'The High Priest will be ascending to Tirluas soon, and now his entire
+body glows with the same light as his soul.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 24;
+  Hitroll = 0;
+  Hit = ( 4, 6, 483 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 8, 4 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 10000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5628 {
+  Name = 'sergeant recruiting';
+  ShD = 'the Sergeant';
+  LnD = 'The recruiting sergeant tries to make you sign his forms.
+';
+  Desc = 'The recruiting sergeant has seen the world.  Now he\'s trying to make
+you do the same.  ARGH!!! Resist!  Resist!!
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 23;
+  Hitroll = 0;
+  Hit = ( 6, 10, 390 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 8, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 2000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5629 {
+  Name = 'captain guard';
+  ShD = 'the Captain';
+  LnD = 'The Captain of the Guard salutes you with his epee.
+';
+  Desc = 'The Captain has a true love of civilized fighting.  He raises his
+eyebrow to you...shall we have a go at it?
+';
+  Race = 'human';
+  Alignment = 200;
+  Etho = 'neutral';
+  Level = 25;
+  Hitroll = 0;
+  Hit = ( 6, 10, 490 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 4 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 20000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5630 {
+  Name = 'beggar';
+  ShD = 'the Beggar';
+  LnD = 'A beggar sits here, waiting for handouts.
+';
+  Desc = 'The beggar looks up at you with sad eyes.  However, you notice
+something shiny clenched in his hand...  What is he hiding?
+';
+  Race = 'human';
+  Alignment = 900;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 20;
+  Hit = ( 1, 4, 1 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 4, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 10;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5631 {
+  Name = 'citizen';
+  ShD = 'the Citizen';
+  LnD = 'A citizen is here, waiting in line.
+';
+  Desc = 'The citizen looks at you with a flat stare.  You can see he\'s
+wondering if you\'ll butt in line.
+';
+  Race = 'human';
+  Alignment = 100;
+  Etho = 'neutral';
+  Level = 9;
+  Hitroll = 12;
+  Hit = ( 2, 6, 109 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 5, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 500;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5632 {
+  Name = 'citizen';
+  ShD = 'the Citizen';
+  LnD = 'A citizen of Kerofk is here, going about his business.
+';
+  Desc = 'This citizen really doesn\'t have time to fool around with adventurers;
+he has too much to do.
+';
+  Race = 'human';
+  Alignment = 100;
+  Etho = 'neutral';
+  Level = 9;
+  Hitroll = 12;
+  Hit = ( 2, 6, 109 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 5, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 500;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5633 {
+  Name = 'militia guard';
+  ShD = 'the Militia Man';
+  LnD = 'A militia guard is here keeping the peace.
+';
+  Desc = 'The militia guardsman looks very well trained, for a citizen.
+';
+  Race = 'human';
+  Alignment = 500;
+  Etho = 'neutral';
+  Level = 13;
+  Hitroll = 8;
+  Hit = ( 2, 12, 130 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 2000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5634 {
+  Name = 'Kervin';
+  ShD = 'Kervin';
+  LnD = 'Kervin the wandering mage is well, ...wandering here.
+';
+  Desc = 'Kervin is very odd looking....  He has a big unkempt shock of white
+hair that stick straight up and wears an electric blue robe to hide
+the rest of his features.
+';
+  Race = 'human';
+  Alignment = 700;
+  Etho = 'neutral';
+  Level = 25;
+  Hitroll = 0;
+  Hit = ( 5, 10, 600 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 8, 6 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 35000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Special = 'spec_cast_mage';
+}
+Mobile 5635 {
+  Name = 'gateguard';
+  ShD = 'the Gateguard';
+  LnD = 'The gateguard is here, guarding the gate.
+';
+  Desc = 'The guard guard looks at you and enunciates very clearly,
+\'Guard guard guard guard guard guard guard guard guard.\'
+	(looks like he got the right job!)
+';
+  Race = 'human';
+  Alignment = 400;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 6;
+  Hit = ( 3, 6, 180 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 5000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5636 {
+  Name = 'bright light';
+  ShD = 'the Bright Light';
+  LnD = 'A bright shining light here nearly blinds you!
+';
+  Desc = 'You try to look closer at the light and nearly burn your retinas clear
+off.  That wasn\'t too bright now, was it?
+';
+  Race = 'unique';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 18;
+  Hitroll = 3;
+  Hit = ( 1, 1, 400 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 6, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Neutral';
+  DamType = 'pound';
+}
+Mobile 5637 {
+  Name = 'guardian wisp';
+  ShD = 'the Guardian Wisp';
+  LnD = 'Some guardian wisps here attack!
+';
+  Desc = 'The wisp is made up of clammy, misty air, and a bad attitude.
+';
+  Race = 'unique';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 18;
+  Hitroll = 0;
+  Hit = ( 1, 1, 199 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 1, 1, 19 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Neutral';
+  DamType = 'pound';
+}
+Mobile 5638 {
+  Name = 'orb';
+  ShD = 'the Orb';
+  LnD = 'The orb glows with a pure white light.
+';
+  Desc = 'The orb is pure crystal and shines with a bright aura.  This is surely
+the object of your quest!
+';
+  Race = 'unique';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 28;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1200 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 6 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Neutral';
+  DamType = 'pound';
+}
+Mobile 5639 {
+  Name = 'liche mouserider';
+  ShD = 'the Liche';
+  LnD = 'The liche that was MouseRider curses you horribly!
+';
+  Desc = 'This liche was once the troubled MouseRider.  Now he has finally
+lunged for power and achieved it, making him immortal.  Will you be
+able to stop him?
+';
+  Race = 'lich';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 30;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1499 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 8, 5 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 200000;
+  Size = 'medium';
+  Faction = 'Undead';
+  DamType = 'pound';
+}
+Mobile 5640 {
+  Name = 'storm demon';
+  ShD = 'the Storm Demon';
+  LnD = 'The storm demons attack on the Liche\'s order!
+';
+  Desc = 'The demons are spindly with great bats wings and glowing blue eyes.
+They are twisted things not of nature.  They attack!
+';
+  Race = 'unique';
+  Alignment = -900;
+  Etho = 'neutral';
+  Level = 10;
+  Hitroll = 0;
+  Hit = ( 1, 1, 199 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 6, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Neutral';
+  DamType = 'pound';
+}
+Mobile 5641 {
+  Name = 'Tiersten vampire';
+  ShD = 'Tiersten';
+  LnD = 'Tiersten looks at you with angry eyes and bared fangs!
+';
+  Desc = 'Tiersten, the patriarch of this odd, odd, family, turns out to be a
+vampire.  And a demonologist to boot!  He growls incoherently at you
+as he attacks!
+';
+  Race = 'vampire';
+  Alignment = -1000;
+  Etho = 'neutral';
+  Level = 26;
+  Hitroll = 0;
+  Hit = ( 1, 1, 499 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 4 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 15000;
+  Size = 'medium';
+  Faction = 'Undead';
+  DamType = 'pound';
+  Special = 'spec_cast_mage';
+}
+Mobile 5642 {
+  Name = 'Edimmu';
+  ShD = 'the Edimmu';
+  LnD = 'A mist-like being stabs at you with a tendril!
+';
+  Desc = 'There doesn\'t seem to be much to look at, besides the coiling mist
+attacking you!
+';
+  Race = 'unique';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 20;
+  Hitroll = 0;
+  Hit = ( 1, 1, 249 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 6, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Neutral';
+  DamType = 'pound';
+}
+Mobile 5643 {
+  Name = 'Sosivia';
+  ShD = 'Sosivia';
+  LnD = 'Sosivia stands here, lost in daydreams.
+';
+  Desc = 'Sosivia struggles to hold onto her artist\'s soul, in spite of her
+family.  She is a beautiful woman that you wish you could take away
+from all this.
+';
+  Race = 'human';
+  Alignment = 1000;
+  Etho = 'neutral';
+  Level = 12;
+  Hitroll = 9;
+  Hit = ( 1, 1, 149 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 7, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 10000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5644 {
+  Name = 'Celia';
+  ShD = 'Celia';
+  LnD = 'Celia sneers at you...Sneer!  Sneer!
+';
+  Desc = 'Celia is Talbot and Korino\'s sister, and Sosivia\'s mother.  She is the
+head of the household as far as you can tell, and leeches onto the
+power with a death-grip.  What a horrible woman!
+';
+  Race = 'human';
+  Alignment = -600;
+  Etho = 'neutral';
+  Level = 16;
+  Hitroll = 5;
+  Hit = ( 1, 1, 199 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 20000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Special = 'spec_cast_mage';
+}
+Mobile 5645 {
+  Name = 'Talbot';
+  ShD = 'Talbot';
+  LnD = 'Talbot spars with his brother Korino here.
+';
+  Desc = 'Talbot has a permanent sneer on his face.  He barely glances at you as
+he beats his brother\'s sword back to take a vicious swipe...
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 6;
+  Hit = ( 1, 1, 189 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 15000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5646 {
+  Name = 'Korino';
+  ShD = 'Korino';
+  LnD = 'Korino spars with his brother Talbot here.
+';
+  Desc = 'Korino looks at you with barely disguised contempt as he parries
+Talbot\'s blow and ripostes around...
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 6;
+  Hit = ( 1, 1, 189 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 15000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5647 {
+  Name = 'Fleecem Bungle';
+  ShD = 'Bungle Fleecem';
+  LnD = 'Bungle Fleecem, esquire, looks at you expectantly.
+';
+  Desc = 'He smiles, leans back, and tries to look bored to cover that vulturous
+attitude.  He doesn\'t quite succeed; he IS a lawyer, after all.
+';
+  Race = 'human';
+  Alignment = -600;
+  Etho = 'neutral';
+  Level = 14;
+  Hitroll = 7;
+  Hit = ( 3, 5, 170 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 8000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5648 {
+  Name = 'digger gravedigger';
+  ShD = 'the gravedigger';
+  LnD = 'A gravedigger works away the nightshift here.
+';
+  Desc = 'He looks tired and dirty.  A glare out of the corner of his eye, and
+he dismisses you easily.  He doesn\'t seem to care one whit about you.
+';
+  Race = 'human';
+  Alignment = 200;
+  Etho = 'neutral';
+  Level = 9;
+  Hitroll = 12;
+  Hit = ( 3, 5, 108 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 7, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 300;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5649 {
+  Name = 'citizen';
+  ShD = 'the Citizen';
+  LnD = 'A citizen of Kerofk is here, going about her business.
+';
+  Desc = 'This citizen really doesn\'t have time to fool around with adventurers;
+she has far too much to do.
+';
+  Race = 'human';
+  Alignment = 100;
+  Etho = 'neutral';
+  Level = 9;
+  Hitroll = 12;
+  Hit = ( 2, 6, 109 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 5, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 500;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5650 {
+  Name = 'hellhounds hounds hell hell-hounds';
+  ShD = 'a hellhound';
+  LnD = 'A hellhound looks at you with hunger.
+';
+  Desc = 'It\'s hide is a deep brownish-red hue, but its eyes are the most
+noticeable about this magnificent beast.  Red within red eyes, with
+tiny pupils of black in the center.
+';
+  Race = 'dog';
+  Alignment = -500;
+  Etho = 'neutral';
+  Level = 18;
+  Hitroll = 13;
+  Hit = ( 3, 5, 220 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 8, 0 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+  DamType = 'pound';
+}
+Mobile 5651 {
+  Name = 'goblin';
+  ShD = 'a goblin';
+  LnD = 'A goblin launches into a frenzied attack!
+';
+  Desc = 'You see the bloodlust in its eyes, and know there\'s no reasoning with
+this creature...
+';
+  Race = 'goblin';
+  Alignment = -600;
+  Etho = 'neutral';
+  Level = 10;
+  Hitroll = 5;
+  Hit = ( 3, 5, 120 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 5, 3 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Goblin';
+  DamType = 'pound';
+}
+Mobile 5652 {
+  Name = 'Farmer';
+  ShD = 'the Farmer';
+  LnD = 'The farmer sells her lackluster with all the excitement it warrants.
+';
+  Desc = 'She looks wearied, but keeps hanging in there!
+';
+  Race = 'human';
+  Alignment = 200;
+  Etho = 'neutral';
+  Level = 18;
+  Hitroll = 13;
+  Hit = ( 3, 5, 220 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 6, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 6000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Shop = ( (), 100, 100, 0, 23 );
+}
+Mobile 5653 {
+  Name = 'Receptionist';
+  ShD = 'the Receptionist';
+  LnD = 'A receptionist stands in front of you, waiting to help you.
+';
+  Desc = 'She looks at you happily, and pushes a ledger at you.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 18;
+  Hitroll = 13;
+  Hit = ( 3, 5, 250 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 5, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'female';
+  Wealth = 4000;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+}
+Mobile 5654 {
+  Name = 'Bartender';
+  ShD = 'the Bartender';
+  LnD = 'The Bartender pours drinks several at a time to keep up with the rush.
+';
+  Desc = 'The Bartender looks harried as he tries to keep up with several
+different orders at the same time.  Maybe you should bother him
+later...
+';
+  Race = 'human';
+  Alignment = 250;
+  Etho = 'neutral';
+  Level = 14;
+  Hitroll = 8;
+  Hit = ( 4, 4, 160 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 8, 2 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'male';
+  Wealth = 4577;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Shop = ( (), 100, 100, 0, 23 );
+}
+
+
+//=======================================
+Object 5600 {
+  Name = 'white glove';
+  ShD = 'a white glove';
+  Desc = 'There is a small white glove on the ground here.';
+  ItemType = 'wand';
+  Level = 12;
+  Weight = 1;
+  Cost = 10000;
+  Material = 'cloth';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 15, 25, 25, 'identify' );
+  ExtraDescr = ( 'white glove', 'This white glove looks rather like its worth no protection
+what-so-ever.
+');
+}
+Object 5601 {
+  Name = 'crystal shard';
+  ShD = 'a crystal shard';
+  Desc = 'There is a tiny piece of broken crystal on the ground.';
+  ItemType = 'armor';
+  Level = 8;
+  Weight = 2;
+  Cost = 750;
+  Material = 'crystal';
+  ExtraFlags = ('glow');
+  WearFlags = ('take', 'hold');
+  Values = ( 3, 3, 0, 0, 0 );
+  Affect = ( 'none', -1, 8, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 35 ) );
+}
+Object 5602 {
+  Name = 'book dragons';
+  ShD = 'the book of dragons';
+  Desc = 'There is a book here with a scaled cover.';
+  ItemType = 'wand';
+  Level = 14;
+  Weight = 10;
+  Cost = 7500;
+  Material = 'paper';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 18, 3, 3, 'fireball' );
+  ExtraDescr = ( 'book dragons', 'This book has so much information about dragons it would take
+you weeks to decide what you wanted to read...
+');
+}
+Object 5603 {
+  Name = 'robe liche';
+  ShD = 'the robe of the Liche';
+  Desc = 'A partly rotted robe lies in the corner.';
+  ItemType = 'armor';
+  Level = 13;
+  Weight = 5;
+  Cost = 15000;
+  Material = 'cloth';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'about');
+  Values = ( 5, 0, 0, 5, 0 );
+  Affect = ( 'none', -1, 13, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 4 ) );
+  Affect = ( 'none', -1, 13, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'constitution', 0, -2 ) );
+  ExtraDescr = ( 'robe liche', 'This robe looks like it once belonged to something dead.
+Maybe you shouldn\'t keep it.
+');
+}
+Object 5604 {
+  Name = 'epee';
+  ShD = 'an epee';
+  Desc = 'A nice looking epee lies here, begging to be picked up.';
+  ItemType = 'weapon';
+  Level = 20;
+  Weight = 12;
+  Cost = 25000;
+  Material = 'iron';
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 12, 2, 'slash', ('none') );
+  Affect = ( 'none', -1, 20, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 2 ) );
+}
+Object 5605 {
+  Name = 'powwee';
+  ShD = 'a powwee';
+  Desc = 'There is a strange blue spiraled fruit on the ground here.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 3;
+  Cost = 12;
+  Material = 'food';
+  WearFlags = ('take');
+  Values = ( 4, 0, false );
+  ExtraDescr = ( 'powwee', 'This fruit tastes something like apples with peanut better spread on.
+');
+}
+Object 5606 {
+  Name = 'war ribbon';
+  ShD = 'a war ribbon';
+  Desc = 'There is a coiled up piece of ribbon here.';
+  ItemType = 'weapon';
+  Level = 20;
+  Weight = 11;
+  Cost = 4000;
+  Material = 'cloth';
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 8, 3, 'stab', ('none') );
+  Affect = ( 'none', -1, 20, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 4 ) );
+  Affect = ( 'none', -1, 20, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, -4 ) );
+  ExtraDescr = ( 'war ribbon', 'This weapon is certainly one of the more exotic you\'ve seen: a coiled
+up piece of incredibly sharp metal used to coil around an opponent\'s 
+limb and rip off as much flesh as possible.
+');
+}
+Object 5607 {
+  Name = 'zucchini';
+  ShD = 'a zucchini';
+  Desc = 'A pale, light green zucchini.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 2;
+  Cost = 6;
+  Material = 'food';
+  WearFlags = ('take', 'hold');
+  Values = ( 4, 0, false );
+  ExtraDescr = ( 'zucchini', 'It looks rather sickly, as if it didn\'t get enough sun.
+');
+}
+Object 5608 {
+  Name = 'manual protection';
+  ShD = 'a manual of protection';
+  Desc = 'There is a thin manual with big red letters here.';
+  ItemType = 'wand';
+  Level = 4;
+  Weight = 5;
+  Cost = 70;
+  Material = 'paper';
+  WearFlags = ('take', 'hold');
+  Values = ( 1, 3, 3, 'armor' );
+  ExtraDescr = ( 'manual protection', 'As you read the manual, you begin to realize that its better NOT
+to get hit during a fight...
+');
+}
+Object 5609 {
+  Name = 'brochure';
+  ShD = 'a travel brochure';
+  Desc = 'There is a travel brochure here, inviting you to see the sights.';
+  ItemType = 'wand';
+  Level = 7;
+  Weight = 0;
+  Cost = 7;
+  Material = 'paper';
+  WearFlags = ('take', 'hold');
+  Values = ( 8, 1, 1, 'teleport' );
+  ExtraDescr = ( 'brochure', 'Hey you know, now that you think of it, there\'s a lot of places
+you haven\'t been...this is the perfect opportunity!
+');
+}
+Object 5610 {
+  Name = 'bird perch plate';
+  ShD = 'a plate bird perch';
+  Desc = 'There is some sort of bird perch here, attached to something metal.';
+  ItemType = 'armor';
+  Level = 11;
+  Weight = 12;
+  Cost = 10000;
+  Material = 'unknown';
+  ExtraFlags = ('nodrop');
+  WearFlags = ('take', 'arms');
+  Values = ( 7, 5, 4, 0, 0 );
+  Affect = ( 'none', -1, 11, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, -3 ) );
+  ExtraDescr = ( 'bird perch plate', 'This is a bird perch made to affix to the shoulder plate of some
+armor.  You don\'t have a clue why.
+');
+}
+Object 5611 {
+  Name = 'arbalest';
+  ShD = 'an arbalest';
+  Desc = 'There is an arbalest here, nearly as tall as you!';
+  ItemType = 'weapon';
+  Level = 17;
+  Weight = 24;
+  Cost = 20000;
+  Material = 'iron';
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 5, 6, 'pierce', ('none') );
+  Affect = ( 'none', -1, 17, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 5612 {
+  Name = 'target armor';
+  ShD = 'a suit of target armor';
+  Desc = 'There is a light set of armor here, with a big bulls-eye painted on 
+the front...';
+  ItemType = 'armor';
+  Level = 10;
+  Weight = 15;
+  Cost = 3600;
+  Material = 'leather';
+  ExtraFlags = ('hum', 'magic');
+  WearFlags = ('take', 'body');
+  Values = ( 8, 5, 3, 5, 0 );
+  Affect = ( 'none', -1, 10, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 2 ) );
+  Affect = ( 'none', -1, 10, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 3 ) );
+}
+Object 5613 {
+  Name = 'quick sheathe';
+  ShD = 'a quick sheathe';
+  Desc = 'There is a nice-looking break-away sheathe discarded here.';
+  ItemType = 'armor';
+  Level = 11;
+  Weight = 10;
+  Cost = 5000;
+  Material = 'unknown';
+  WearFlags = ('take', 'waist');
+  Values = ( 4, 3, 4, 1, 0 );
+  Affect = ( 'none', -1, 11, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 1 ) );
+}
+Object 5614 {
+  Name = 'tin can worms nightcrawlers';
+  ShD = 'a tin of nightcrawlers';
+  Desc = 'There is a tin can of worms lying here.';
+  ItemType = 'food';
+  Level = 4;
+  Weight = 5;
+  Cost = 4;
+  Material = 'tin';
+  WearFlags = ('take');
+  Values = ( 2, 0, false );
+}
+Object 5615 {
+  Name = 'amulet';
+  ShD = 'an amulet of Kerofk';
+  Desc = 'There is a valuable amulet inscribed with Kerofk\'s symbol here.';
+  ItemType = 'armor';
+  Level = 10;
+  Weight = 5;
+  Cost = 30000;
+  Material = 'stone';
+  ExtraFlags = ('glow', 'invis', 'magic');
+  WearFlags = ('take', 'neck');
+  Values = ( 5, 4, 3, 2, 0 );
+  Affect = ( 'none', -1, 10, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 20 ) );
+}
+Object 5616 {
+  Name = 'eagle pendant';
+  ShD = 'an eagle pendant';
+  Desc = 'There is a pendant in the shape of an eagle here.';
+  ItemType = 'armor';
+  Level = 15;
+  Weight = 7;
+  Cost = 25000;
+  Material = 'ebony';
+  ExtraFlags = ('glow', 'invis', 'magic');
+  WearFlags = ('take', 'neck');
+  Values = ( 3, 2, 2, 3, 0 );
+  Affect = ( 'none', -1, 15, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 10 ) );
+  Affect = ( 'none', -1, 15, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'dexterity', 0, 3 ) );
+}
+Object 5617 {
+  Name = 'fly lure';
+  ShD = 'a fly lure';
+  Desc = 'There is a small fishing lure here.';
+  ItemType = 'trash';
+  Level = 5;
+  Weight = 0;
+  Cost = 10;
+  Material = 'unknown';
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 5618 {
+  Name = 'dusk basil';
+  ShD = 'a dusk of basil';
+  Desc = 'You see a small dusk of an herb here.';
+  ItemType = 'wand';
+  Level = 4;
+  Weight = 0;
+  Cost = 5000;
+  Material = 'herb';
+  WearFlags = ('take', 'hold');
+  Values = ( 9, 1, 1, 'bless' );
+}
+Object 5619 {
+  Name = 'fern seed';
+  ShD = 'a fern seed';
+  Desc = 'You see a very tiny seed here.';
+  ItemType = 'wand';
+  Level = 3;
+  Weight = 0;
+  Cost = 3000;
+  Material = 'herb';
+  WearFlags = ('take', 'hold');
+  Values = ( 4, 1, 1, 'invisibility' );
+}
+Object 5620 {
+  Name = 'clump hemlock';
+  ShD = 'a clump of hemlock';
+  Desc = 'There is a clump of hemlock lying on the ground.';
+  ItemType = 'wand';
+  Level = 4;
+  Weight = 0;
+  Cost = 4000;
+  Material = 'unknown';
+  ExtraFlags = ('glow');
+  WearFlags = ('take', 'hold');
+  Values = ( 5, 1, 1, 'blindness' );
+}
+Object 5621 {
+  Name = 'leaf betony';
+  ShD = 'a betony leaf';
+  Desc = 'A small bright green leaf lies on the ground.';
+  ItemType = 'wand';
+  Level = 7;
+  Weight = 0;
+  Cost = 7500;
+  Material = 'herb';
+  WearFlags = ('take', 'hold');
+  Values = ( 7, 1, 1, 'sleep' );
+}
+Object 5622 {
+  Name = 'crown elder berries';
+  ShD = 'a crown of elder berries';
+  Desc = 'A ring of red berries lies here.';
+  ItemType = 'armor';
+  Level = 5;
+  Weight = 0;
+  Cost = 2000;
+  Material = 'fruit';
+  WearFlags = ('take', 'head');
+  Values = ( 0, 0, 0, 1, 0 );
+  Affect = ( 'none', -1, 5, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, -5 ) );
+}
+Object 5623 {
+  Name = 'guild key';
+  ShD = 'a guild key';
+  Desc = 'There is a small green key on the floor.';
+  ItemType = 'key';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'iron';
+  WearFlags = ('take', 'hold');
+  Values = ( 1052, 0, 0, 0, 0 );
+}
+Object 5624 {
+  Name = 'blank key';
+  ShD = 'a blank key';
+  Desc = 'There is a blank key here.';
+  ItemType = 'key';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'iron';
+  WearFlags = ('take', 'hold');
+  Values = ( 1048, 0, 0, 0, 0 );
+}
+Object 5625 {
+  Name = 'odd scroll';
+  ShD = 'an odd scroll';
+  Desc = 'There is an odd-looking scroll here.';
+  ItemType = 'key';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'paper';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 1003, 0, 0, 0, 0 );
+}
+Object 5626 {
+  Name = 'jailer\'s key';
+  ShD = 'a jailer\'s key';
+  Desc = 'There is a jailer\'s key here.';
+  ItemType = 'key';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'iron';
+  WearFlags = ('take', 'hold');
+  Values = ( 1062, 0, 0, 0, 0 );
+}
+Object 5627 {
+  Name = 'flaming sword';
+  ShD = 'a flaming sword';
+  Desc = 'There is a sword here with a blade of red.';
+  ItemType = 'weapon';
+  Level = 19;
+  Weight = 12;
+  Cost = 18000;
+  Material = 'fire';
+  ExtraFlags = ('glow', 'magic', 'antievil');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 4, 3, 'slash', ('flaming') );
+  Affect = ( 'none', -1, 19, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -8 ) );
+}
+Object 5628 {
+  Name = 'dreamblade blade';
+  ShD = 'the dreamblade';
+  Desc = 'A sword lies here with a shifting blade that hurts your eyes.';
+  ItemType = 'weapon';
+  Level = 12;
+  Weight = 0;
+  Cost = 50000;
+  Material = 'energy';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 1, 8, 'slash', ('none') );
+  Affect = ( 'none', -1, 12, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 10 ) );
+  ExtraDescr = ( 'dreamblade blade', 'The inscription on the pommel reads,
+\'Strike True\'
+');
+}
+Object 5629 {
+  Name = 'chimaera cloak';
+  ShD = 'a chimaera cloak';
+  Desc = 'You spot a cloak out of the corner of your eye.';
+  ItemType = 'armor';
+  Level = 12;
+  Weight = 15;
+  Cost = 25000;
+  Material = 'cloth';
+  WearFlags = ('take', 'about');
+  Values = ( 3, 1, 2, 0, 0 );
+  Affect = ( 'none', -1, 12, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 2 ) );
+}
+Object 5630 {
+  Name = 'jerkin';
+  ShD = 'a magic jerkin';
+  Desc = 'There is a nice looking shirt here.';
+  ItemType = 'armor';
+  Level = 9;
+  Weight = 3;
+  Cost = 36000;
+  Material = 'cloth';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'body');
+  Values = ( 7, 2, 0, 1, 0 );
+}
+Object 5631 {
+  Name = 'space warp wand space-warp';
+  ShD = 'the space-warp wand';
+  Desc = 'A wand might be here.';
+  ItemType = 'container';
+  Level = 20;
+  Weight = 1;
+  Cost = 50000;
+  Material = 'energy';
+  ExtraFlags = ('magic');
+  WearFlags = ('take');
+  Values = ( 10, ('closeable'), 0, 500, 0 );
+}
+Object 5632 {
+  Name = 'elite sword';
+  ShD = 'an elite sword';
+  Desc = 'A beautiful sword has been discarded here.';
+  ItemType = 'weapon';
+  Level = 15;
+  Weight = 9;
+  Cost = 8000;
+  Material = 'iron';
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 2, 8, 'slash', ('none') );
+}
+Object 5633 {
+  Name = 'amulet protection';
+  ShD = 'an amulet of protection';
+  Desc = 'An amulet is here, not wanted by anybody.';
+  ItemType = 'armor';
+  Level = 17;
+  Weight = 1;
+  Cost = 7500;
+  Material = 'iron';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'neck');
+  Values = ( 8, 5, 6, 1, 0 );
+}
+Object 5634 {
+  Name = 'staff memory';
+  ShD = 'the memory staff';
+  Desc = 'A staff stands against the wall here.';
+  ItemType = 'light';
+  Level = 11;
+  Weight = 10;
+  Cost = 7000;
+  Material = 'wood';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 999 );
+  Affect = ( 'none', -1, 11, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 1 ) );
+}
+Object 5635 {
+  Name = 'flail';
+  ShD = 'a flail';
+  Desc = 'A sharp-looking flail is here.';
+  ItemType = 'weapon';
+  Level = 21;
+  Weight = 10;
+  Cost = 6000;
+  Material = 'steel';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'flail', 4, 7, 'blast', ('none') );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 2 ) );
+}
+Object 5636 {
+  Name = 'painting';
+  ShD = 'a painting';
+  Desc = 'A painting of the goddess of healing hangs here.';
+  ItemType = 'wand';
+  Level = 9;
+  Weight = 15;
+  Cost = 5000;
+  Material = 'paper';
+  ExtraFlags = ('magic', 'antievil');
+  WearFlags = ('take', 'hold');
+  Values = ( 10, 5, 5, 'cure critical' );
+  ExtraDescr = ( 'painting art arla', 'This is a painting of Arla, goddess of healing. 
+There seems to be no artist\'s signiture, however.
+');
+}
+Object 5637 {
+  Name = 'axe';
+  ShD = 'an axe';
+  Desc = 'A big axe is here.';
+  ItemType = 'weapon';
+  Level = 21;
+  Weight = 14;
+  Cost = 9000;
+  Material = 'iron';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 4, 6, 'slash', ('none') );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 4 ) );
+  Affect = ( 'none', -1, 21, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, -1 ) );
+}
+Object 5638 {
+  Name = 'talisman hope';
+  ShD = 'a talisman of hope';
+  Desc = 'A talisman lies here, filleted in gold.';
+  ItemType = 'armor';
+  Level = 4;
+  Weight = 1;
+  Cost = 5200;
+  Material = 'gold';
+  ExtraFlags = ('glow', 'magic');
+  WearFlags = ('take', 'neck');
+  Values = ( 4, 2, 2, 1, 0 );
+  Affect = ( 'none', -1, 4, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 10 ) );
+}
+Object 5639 {
+  Name = 'armor living blob';
+  ShD = 'a blob of living armor';
+  Desc = 'A blob of something that pulses slightly is lumped here.';
+  ItemType = 'armor';
+  Level = 15;
+  Weight = 5;
+  Cost = 4500;
+  Material = 'flesh';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'body');
+  Values = ( 5, 6, 2, 3, 0 );
+  Affect = ( 'none', -1, 15, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'saving throw', 0, 2 ) );
+  ExtraDescr = ( 'armor living blob', 'It seems to be rather cohesive, and feels dry to the touch.
+It grips your finger firmly as you poke it.  You wonder WHO
+would want such a thing.
+');
+}
+Object 5640 {
+  Name = 'apple';
+  ShD = 'a pale apple';
+  Desc = 'An extremely pale apple sits here.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 1;
+  Cost = 3;
+  Material = 'fruit';
+  WearFlags = ('take');
+  Values = ( 2, 0, false );
+  ExtraDescr = ( 'apple', 'It looks like it didn\'t get enough sun.
+');
+}
+Object 5641 {
+  Name = 'potato potatoe';
+  ShD = 'a potato';
+  Desc = 'A potato sits here, eyeing you.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 1;
+  Cost = 2;
+  Material = 'food';
+  WearFlags = ('take');
+  Values = ( 4, 0, false );
+  ExtraDescr = ( 'potato potatoe', 'Looks like a potatoe^H.
+');
+}
+Object 5642 {
+  Name = 'onion';
+  ShD = 'an onion';
+  Desc = 'You can smell that onion from here!';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 1;
+  Cost = 1;
+  Material = 'food';
+  WearFlags = ('take');
+  Values = ( 1, 0, false );
+  ExtraDescr = ( 'onion', 'That\'s a pretty strong onion!
+');
+}
+Object 5643 {
+  Name = 'plate breast';
+  ShD = 'a breast plate';
+  Desc = 'A steel breast plate lies here.';
+  ItemType = 'armor';
+  Level = 11;
+  Weight = 15;
+  Cost = 1000;
+  Material = 'steel';
+  WearFlags = ('take', 'body');
+  Values = ( 6, 7, 3, -1, 0 );
+}
+Object 5644 {
+  Name = 'cap steel round';
+  ShD = 'a round, steel cap';
+  Desc = 'A round, steel cap lies here, discarded.';
+  ItemType = 'armor';
+  Level = 7;
+  Weight = 5;
+  Cost = 100;
+  Material = 'steel';
+  WearFlags = ('take', 'head');
+  Values = ( 4, 2, 0, 3, 0 );
+}
+Object 5645 {
+  Name = 'leggings chain';
+  ShD = 'a pair of chain leggings';
+  Desc = 'A pair of chain leggings are piled here.';
+  ItemType = 'armor';
+  Level = 7;
+  Weight = 20;
+  Cost = 600;
+  Material = 'iron';
+  WearFlags = ('take', 'legs');
+  Values = ( 5, 3, 1, 0, 0 );
+}
+Object 5646 {
+  Name = 'chest';
+  ShD = 'a chest';
+  Desc = 'An ornate looking chest sits here.';
+  ItemType = 'container';
+  Level = 0;
+  Weight = 50;
+  Cost = 500;
+  Material = 'wood';
+  Values = ( 200, ('closeable', 'closed'), 0, 0, 0 );
+}
+Object 5647 {
+  Name = 'well';
+  ShD = 'a well';
+  Desc = 'A well sits in the center of the intersection here.';
+  ItemType = 'drinkcontainer';
+  Level = 0;
+  Weight = 1000;
+  Cost = 1;
+  Material = 'nothingness';
+  Values = ( 5000, 5000, 'water', false );
+  ExtraDescr = ( 'well', 'It goes deep, deep, deep into the ground.  There\'s a grate overtop
+to keep people from throwing trash down inside it.
+');
+}
+Object 5648 {
+  Name = 'bottle';
+  ShD = 'a bottle';
+  Desc = 'A bottle with a brightly colored label sits here.';
+  ItemType = 'drinkcontainer';
+  Level = 3;
+  Weight = 1;
+  Cost = 10;
+  Material = 'glass';
+  WearFlags = ('take');
+  Values = ( 4, 4, 'beer', false );
+}
+Object 5649 {
+  Name = 'carafe';
+  ShD = 'a carafe';
+  Desc = 'A wooden carafe sits on a table here.';
+  ItemType = 'drinkcontainer';
+  Level = 5;
+  Weight = 1;
+  Cost = 20;
+  Material = 'wood';
+  WearFlags = ('take');
+  Values = ( 8, 8, 'red wine', false );
+}
+Object 5650 {
+  Name = 'glass shot shotglass';
+  ShD = 'a shotglass';
+  Desc = 'A shotglass has been discarded here.';
+  ItemType = 'drinkcontainer';
+  Level = 4;
+  Weight = 1;
+  Cost = 15;
+  Material = 'glass';
+  WearFlags = ('take');
+  Values = ( 2, 2, 'firebreather', false );
+}
+Object 5651 {
+  Name = 'sword long';
+  ShD = 'a long sword';
+  Desc = 'A long sword has been left here.';
+  ItemType = 'weapon';
+  Level = 12;
+  Weight = 50;
+  Cost = 610;
+  Material = 'steel';
+  Condition = 90;
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 4, 5, 'slash', ('none') );
+}
+
+
+//=======================================
+Room 5600 {
+  Name = 'MouseRider\'s Temple';
+  Desc = 'The inside of this temple is austere yet majestic.  The pillars of
+marble sweep up to the ceiling, melting into the dome overhead without
+a seam.  A blazing red carpet leads from the entrance to the throne in
+the center of the room.  This is truly the home of a great sage!
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'throne', 'Its nice, for a chair, but drab, for a throne.
+');
+  Exit = ( 0, '', '', ('none'), -1, 5601 );
+  Exit = ( 2, '', '', ('none'), -1, 5602 );
+  Reset = ( 'M', 5600, 1, 1 );
+  Reset = ( 'E', 5600, 0, 'hands' );
+  Reset = ( 'O', 5646 );
+
+}
+Room 5601 {
+  Name = 'MouseRider\'s Bedroom';
+  Desc = 'This can hardly be a bedroom--this is a room so spartan surely no
+human could spend any time here at all!  There is a small pallet in
+one corner, with a chair and a paper-stand next to it.  A small lamp
+lights up that small area, leaving the rest of the room enshrouded in
+darkness.  In the gloom to the west, you can barely make out a large
+steel door.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'door west', 'This door seems welded shut.  You\'ll never open it!
+');
+  Exit = ( 2, '', '', ('none'), -1, 5600 );
+
+}
+Room 5602 {
+  Name = 'Plaza of Kerofk';
+  Desc = 'This is the center of Kerofk, physically and culturally.  Many
+people are here, milling about and standing in line to enter the great
+white temple to your north.  To the south is a smaller blue temple,
+its doors locked by great bands of magic.  Several people glare at
+you, wondering if you\'re going to cut through the line.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5600 );
+  Exit = ( 1, '', '', ('none'), -1, 5604 );
+  Exit = ( 2, '', 'gates', ('door', 'closed', 'locked', 'pickproof'), 5625, 5603 );
+  Exit = ( 3, '', '', ('none'), -1, 5625 );
+  Reset = ( 'M', 5631, 4, 4 );
+  Reset = ( 'M', 5631, 4, 4 );
+  Reset = ( 'M', 5631, 4, 4 );
+  Reset = ( 'M', 5631, 4, 4 );
+
+}
+Room 5603 {
+  Name = 'The Blue Temple';
+  Desc = 'You enter the temple, looking around with wonder at the dusty
+monument\'s interior.  From the carvings and inscriptions, you guess
+that it was built by elves and dwarves together during a peaceful age
+long ago.  Dust covers almost everything, especially the stairs
+leading down into the earth by the nave.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'gates', ('door', 'closed', 'locked'), 5625, 5602 );
+  Exit = ( 5, '', '', ('none'), -1, 5700 );
+  Reset = ( 'M', 5601, 1, 1 );
+
+}
+Room 5604 {
+  Name = 'Center Road, East';
+  Desc = 'This road is very busy with traffic.  It seems that all the
+citizens of Kerofk are here, bustling and jostling each other in an
+attempt to get all they have to do done as fast as possible.  Bump Oof
+Excuse Me!  There is a Mage\'s Guild to the north.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5649 );
+  Exit = ( 1, '', '', ('none'), -1, 5605 );
+  Exit = ( 3, '', '', ('none'), -1, 5602 );
+
+}
+Room 5605 {
+  Name = 'Intersection';
+  Desc = 'This is the intersection of Citizen Road and Center Road.  The
+pedestrians file past each other with practiced ease.  You have no
+clue how to get across...  Wait, there\'s an opening!  Sprint, Turn,
+Jab!  Run, Run, Run...  you\'re across! You look up at the never-ending
+twilight and wonder how so many people could bear to live here.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5618 );
+  Exit = ( 1, '', '', ('none'), -1, 5606 );
+  Exit = ( 2, '', '', ('none'), -1, 5613 );
+  Exit = ( 3, '', '', ('none'), -1, 5604 );
+
+}
+Room 5606 {
+  Name = 'Center Road, East';
+  Desc = 'The stars shine down on you blindly as you walk down Citizen\'s
+Road, and for a moment you forget what kind of strange place you\'re
+in.  A flowerbox filled with wilted flowers brings you back to
+reality; this city hasn\'t seen the sun for decades...
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5608 );
+  Exit = ( 3, '', '', ('none'), -1, 5605 );
+
+}
+Room 5607 {
+  Name = 'The Red Card';
+  Desc = 'This place is a dirty ugly scroungy disgusting gambling parlor for
+the lowest of classes.  The doors to the Red Card are perpetually
+open, to let the place air out.  Tired waitresses take orders in a
+bored fashion, and then hasten to fill them before the customers
+leave.  Something crunches under your step, and you\'re afraid to look
+down to see what it was....stay awhile?
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5619 );
+  Reset = ( 'M', 5608, 3, 3 );
+  Reset = ( 'M', 5609, 4, 4 );
+  Reset = ( 'M', 5609, 4, 4 );
+  Reset = ( 'M', 5612, 5, 5 );
+  Reset = ( 'M', 5612, 5, 5 );
+
+}
+Room 5608 {
+  Name = 'Intersection at the Cliff\'s Edge';
+  Desc = 'This is the intersection of Cliffside Road, and Center Road.  
+   Cliffside?
+   About fifteen feet ahead of you there is a sheer precipice that
+drops down about a thousand feet into the dark ocean.  You don\'t think
+it would be a good idea to step off, but you\'ve already guessed that,
+haven\'t you?
+   Cliffside Road runs north and south from here.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5614 );
+  Exit = ( 2, '', '', ('none'), -1, 5609 );
+  Exit = ( 3, '', '', ('none'), -1, 5606 );
+
+}
+Room 5609 {
+  Name = 'Cliffside Road, South';
+  Desc = 'This looks like an interesting spot.
+   As you hug the buildings to keep away from the thousand foot drop
+to your east (that would surely KILL you), you notice a large casino
+establishment named \'The Edge of Luck\' to the west.  Strangely enough,
+the citzenry of Kerofk walk up and down the street, almost oblivious to
+the incredible drop mere feet away.
+   Cliffside Road continues North and South.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5608 );
+  Exit = ( 2, '', '', ('none'), -1, 5610 );
+  Exit = ( 3, '', '', ('none'), -1, 5641 );
+
+}
+Room 5610 {
+  Name = 'Intersection at the Cliff\'s Edge';
+  Desc = 'Here is where Cliffside Road and Moon Gate Road meet: at the edge
+of a cliff.  You feel distinctly uncomfortable as you look down at the
+thousand-foot drop and think it would not be very wise to go any
+further east.  Northwards is Cliffside Road, to the west is Moon Gate
+Road, and to the east a vast expanse of stars shine over the dark
+ocean below.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5609 );
+  Exit = ( 3, '', '', ('none'), -1, 5611 );
+
+}
+Room 5611 {
+  Name = 'Moon Gate Road, East';
+  Desc = 'You near the end of Moon Gate Road, and ahead you spot a sharp
+dropoff aways to the east.  A large building to the south has a
+picture of a trout in full plate hanging out front.  \'Bob\'s Armoury
+and Tackle\' it proclaims.  Armoury? Tackle Shop?!?  How curious!
+   Moon Gate Road continues to the east and west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5610 );
+  Exit = ( 2, '', '', ('none'), -1, 5643 );
+  Exit = ( 3, '', '', ('none'), -1, 5612 );
+
+}
+Room 5612 {
+  Name = 'Intersection';
+  Desc = 'Moon Gate Road and Citizen\'s Road intersect here.  Many citizens
+walk about under the starlight here, in a hurry to get to shops, their
+homes, to work, et cetera.  Citizen\'s Road is to the north, Moon Gate
+Road continues east and west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5613 );
+  Exit = ( 1, '', '', ('none'), -1, 5611 );
+  Exit = ( 3, '', '', ('none'), -1, 5626 );
+
+}
+Room 5613 {
+  Name = 'Citizen\'s Road, South';
+  Desc = 'Many private houses line this road:  this is obviously the residential
+district. It suddenly strikes you how orderly this city is planned...
+done that way on purpose?  Well, it doesn\'t look like there\'s anything
+interesting here, but the road continues north and south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5605 );
+  Exit = ( 2, '', '', ('none'), -1, 5612 );
+
+}
+Room 5614 {
+  Name = 'Cliffside Road, North';
+  Desc = 'Say, there\'s a bustling tavern to the west called, \'The
+Cliffhanger\'!  Aptly named, too, since its oh...about 5 feet away from
+the cliff\'s edge.  That cliff looks kind of dangerous actually.  The
+Cliffhanger looks good, though.
+   Cliff Side Road continues to the north and south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5615 );
+  Exit = ( 2, '', '', ('none'), -1, 5608 );
+  Exit = ( 3, '', '', ('none'), -1, 5646 );
+
+}
+Room 5615 {
+  Name = 'Intersection at the Cliff\'s Edge';
+  Desc = 'This is an unearthly scene: the stars shining down pale light upon
+this intersection of Cliffside Road and Star Gate Road, the thousand
+foot drop off just to your east with the ocean below.  Hmm...something
+tells you not to go east...must be that brain thing, eh?
+   Cliffside road leads south, Star Gate Road leads west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5614 );
+  Exit = ( 3, '', '', ('none'), -1, 5616 );
+
+}
+Room 5616 {
+  Name = 'Star Gate Road, East';
+  Desc = 'This area is strangely quiet for such a bustling city.  The stars
+shine down as you look around for the source of the silence.  Ah,
+there\'s a bookstore/library to your north!  Moon Gate Road continues
+to the east and west as well.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5647 );
+  Exit = ( 1, '', '', ('none'), -1, 5615 );
+  Exit = ( 3, '', '', ('none'), -1, 5617 );
+
+}
+Room 5617 {
+  Name = 'Intersection';
+  Desc = 'Star Gate Road and Citizen\'s Road meet here where many people walk
+around and do their business.  Looks like there\'s some private homes
+on Citizen\'s Road to your south, and Star Gate Road continues to the
+east and west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5616 );
+  Exit = ( 2, '', '', ('none'), -1, 5618 );
+  Exit = ( 3, '', '', ('none'), -1, 5619 );
+
+}
+Room 5618 {
+  Name = 'Citizen\'s Road, North';
+  Desc = 'Private homes line this street, but all seem to keep their distance
+from one mighty mansion to your west.  Its vine-encrusted walls and
+sagging demeanor seem to eminate an air of death and decay and
+cliche\'s.  Could anyone possibly live in there?
+   Citizen\'s Road continues north and south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5617 );
+  Exit = ( 2, '', '', ('none'), -1, 5605 );
+  Exit = ( 3, '', '', ('none'), -1, 5678 );
+
+}
+Room 5619 {
+  Name = 'Star Gate Road, East';
+  Desc = 'Star Gate Road continues on, towards a steep cliff to the east.
+Southwards is a rather dingy looking gambling parlor called \'The Red
+Card\'.  The smell wafting out its doors is enough to make a dead man
+turn away in disgust...how about you?
+   Star Gate Road continues to the east and west
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5617 );
+  Exit = ( 2, '', '', ('none'), -1, 5607 );
+  Exit = ( 3, '', '', ('none'), -1, 5620 );
+
+}
+Room 5620 {
+  Name = 'Star Gate Road';
+  Desc = 'The hustle and bustle of Star Gate Road dies down a little here,
+but not by much.  To the north is a large farmer\'s stand where a lot
+of the citizenry seem to be going in and out of.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5752 );
+  Exit = ( 1, '', '', ('none'), -1, 5619 );
+  Exit = ( 3, '', '', ('none'), -1, 5621 );
+
+}
+Room 5621 {
+  Name = 'Star Gate Road, West';
+  Desc = 'The nighttime stars shine down on the establishment to your south,
+making all the glitter and metal attached to it shine spectacularly.
+The sign says, \'Kell\'s House\'.  You hear many voices talking and
+laughing inside; it\'s obviously a tavern or an inn, and popular to
+boot.
+   Star Gate Road continues east and west
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5620 );
+  Exit = ( 2, '', '', ('none'), -1, 5663 );
+  Exit = ( 3, '', '', ('none'), -1, 5622 );
+
+}
+Room 5622 {
+  Name = 'Intersection';
+  Desc = 'Business Road joins Star Gate Road here.  Small shops line the
+street to your south while Star Gate Road continues on its way east
+and west.
+
+   There is an odd feeling of power to your north.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5675 );
+  Exit = ( 1, '', '', ('none'), -1, 5621 );
+  Exit = ( 2, '', '', ('none'), -1, 5623 );
+  Exit = ( 3, '', '', ('none'), -1, 5637 );
+
+}
+Room 5623 {
+  Name = 'Business Road, North';
+  Desc = 'A lovely smell wafts across the street here, coming from the open
+doors of the herbalist\'s shop to your east.  A variety of plants are
+arrayed outside its doors under heavy lamplight, and a sign proclaims
+assorted types of herbs on special today.
+   Business Road continues north and south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5622 );
+  Exit = ( 1, '', '', ('none'), -1, 5654 );
+  Exit = ( 2, '', '', ('none'), -1, 5624 );
+
+}
+Room 5624 {
+  Name = 'Intersection';
+  Desc = 'There are just too many people here at the intersection of Center
+Road and Business Road!  Too many people, walking around hurriedly.
+You hustle to avoid getting bumped over only to nearly get pushed
+over.  Your reflexes save you, but you feel you better get out of this
+intersection soon.
+   Center Road is east-west, Business road is north-south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5623 );
+  Exit = ( 1, '', '', ('none'), -1, 5625 );
+  Exit = ( 2, '', '', ('none'), -1, 5630 );
+  Exit = ( 3, '', '', ('none'), -1, 5638 );
+
+}
+Room 5625 {
+  Name = 'Center Road, West';
+  Desc = 'Center Road is a madhouse of people bumping into other people,
+including you!  One of the main attractions here is the Town Hall to
+the north, which holds the city\'s jail, courtroom, and council
+chambers, not to mention Mayor Kell\'s office.  To the east you see a
+huge white temple with a line outside, and a smaller blue temple.
+   Center Road continues east and west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5655 );
+  Exit = ( 1, '', '', ('none'), -1, 5602 );
+  Exit = ( 3, '', '', ('none'), -1, 5624 );
+
+}
+Room 5626 {
+  Name = 'Moon Gate Road, East';
+  Desc = 'This is Moon Gate Road, which runs from Moon Gate all the way to
+the cliff.  There is a tiny keep to your north, with an inn sign out
+front.  The keep looks like it was built to withstand floods,
+earthquakes, and even acts of God!
+   Moon Gate Road continues east and west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5644 );
+  Exit = ( 1, '', '', ('none'), -1, 5612 );
+  Exit = ( 3, '', '', ('none'), -1, 5627 );
+
+}
+Room 5627 {
+  Name = 'Moon Gate Road';
+  Desc = 'Here\'s something you weren\'t expecting in a city this size: a
+vacant lot to your south.  Also, Moon Gate Road continues east-west.
+The air seems to crackle with energy here, but you can find no source
+for such power.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5626 );
+  Exit = ( 2, '', '', ('none'), -1, 5673 );
+  Exit = ( 3, '', '', ('none'), -1, 5628 );
+
+}
+Room 5628 {
+  Name = 'Moon Gate Road, West';
+  Desc = 'The starlight gives this section of Moon Gate Road a strangely
+surreal aspect, as if something were missing you can\'t put your finger
+on.  There\'s a few shops along this road, but they don\'t look terribly
+interesting under this aspect.  Looking around, you notice the
+entrance to the city graveyard to the south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5627 );
+  Exit = ( 2, '', '', ('none'), 0, 5748 );
+  Exit = ( 3, '', '', ('none'), -1, 5629 );
+
+}
+Room 5629 {
+  Name = 'Intersection';
+  Desc = 'Moon Gate Road intersects Business Road here, making this a hectic
+area as people go about their business.  Along Business Road to the
+north you see many types of different shops lining the street, and
+Moon Gate Road continues east-west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5630 );
+  Exit = ( 1, '', '', ('none'), -1, 5628 );
+  Exit = ( 3, '', '', ('none'), -1, 5631 );
+
+}
+Room 5630 {
+  Name = 'Business Road, South';
+  Desc = 'Shops line this road , some open and some closed.  Northwards you
+see the intersection of of Center Road and Business Road, and
+southwards is another intersection--Business Road and Moon Gate Road.
+   There is a shop to the west, a dirty sign proclaiming it \'OPEN\'.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5624 );
+  Exit = ( 2, '', '', ('none'), -1, 5629 );
+  Exit = ( 3, '', '', ('none'), 0, 5747 );
+
+}
+Room 5631 {
+  Name = 'Moon Gate Road, West';
+  Desc = 'An enterprising merchant has set up shop just to your south, the
+sign proclaiming, \'Jenk\'s Place\' in a hundred point font.  It seems to
+be some sort of \'catch-all\' general store.  Also, Moon Gate Road
+continues east towards the cliff, and west towards the actual Moon
+Gate.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5629 );
+  Exit = ( 2, '', '', ('none'), -1, 5639 );
+  Exit = ( 3, '', '', ('none'), -1, 5632 );
+
+}
+Room 5632 {
+  Name = 'Intersection';
+  Desc = 'You breathe the chill night air and look around at the passing
+citizenry just inside one of the city\'s gates here.  This city sure
+has some bustle to it...must be all that night life!  Feeling pleased
+at your prospects, you look around for something to do...
+   Wall Side Road leads north, Moon Gate Road leads east.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5633 );
+  Exit = ( 1, '', '', ('none'), -1, 5631 );
+  Exit = ( 3, '', '', ('none'), -1, 5677 );
+
+}
+Room 5633 {
+  Name = 'Wall Side Road, South';
+  Desc = 'All the buildings in this area are semi-destroyed, victims of a
+raid or war it seems.  There are some signs of construction about, but
+it seems that there is no great need for more buildings right now.
+   Wall Side Road continues north and south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5634 );
+  Exit = ( 2, '', '', ('none'), -1, 5632 );
+
+}
+Room 5634 {
+  Name = 'Intersection';
+  Desc = 'Center Road starts here, running deep into the heart of Kerofk.
+You see all sorts of large buildings down its length, including a big
+white temple structure along the north side far to the east, with a
+smaller blue temple across the street from it.  With all of the grand
+architecture, and the majesty of the starry skies above, you know this
+is a sight you\'ll never forget.
+   Center Road leads east, Wall Side Road continues north-south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5635 );
+  Exit = ( 1, '', '', ('none'), -1, 5638 );
+  Exit = ( 2, '', '', ('none'), -1, 5633 );
+  Reset = ( 'O', 5647 );
+  Reset = ( 'O', 5647 );
+
+}
+Room 5635 {
+  Name = 'Wall Side Road, North';
+  Desc = 'This is Wall Side Road, named such for its proximity to...the
+city\'s wall.  To your east is a recruiting office for the city militia
+of Kerofk.  Wall Side Road continues north and south.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5636 );
+  Exit = ( 1, '', '', ('none'), -1, 5671 );
+  Exit = ( 2, '', '', ('none'), -1, 5634 );
+
+}
+Room 5636 {
+  Name = 'Intersection';
+  Desc = 'You enter the city proper with the sounds of the bustling crowds
+surrounding you.  Some people seem to be doing their morning business,
+others seem to be getting ready for bed...it must be strange to live
+in a world of eternal twilight.  A street sign informs you that this
+is Wall Side Road running south from here, and Star Gate Road leads
+away to the east.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5637 );
+  Exit = ( 2, '', '', ('none'), -1, 5635 );
+  Exit = ( 3, '', '', ('none'), -1, 5676 );
+
+}
+Room 5637 {
+  Name = 'Star Gate Road, West';
+  Desc = 'Kerofk\'s citizenry walk around, barely noticing as you walk down
+this busy street between and through them.  It seems that they\'re used
+to adventurers, or just don\'t care. Star Gate Road continues east and
+west, intersecting Business Road and Wall Side Road respectively.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5622 );
+  Exit = ( 3, '', '', ('none'), -1, 5636 );
+
+}
+Room 5638 {
+  Name = 'Center Road, West';
+  Desc = 'Center Road is lined with grand buildings up and down its entire
+length; for instance, a huge temple of Tirluas lies to the south.  Even
+for a temple, this building is big!  Perhaps it would be worth a look
+around?
+   Center Road continues to the east and west.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5624 );
+  Exit = ( 2, '', '', ('none'), -1, 5669 );
+  Exit = ( 3, '', '', ('none'), -1, 5634 );
+
+}
+Room 5639 {
+  Name = 'Jenk\'s Place';
+  Desc = 'This store is such a crazy confusion of items for sale you can
+hardly figure out where to start looking.  You feel you could find
+EXACTLY what you\'ve been looking for, if only you had enough time to
+look for it...
+   As greediness lights your brain, you notice all of the concealed
+crossbows around the room.  Maybe it wouldn\'t be a hot idea to try
+tosteal something after all...
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5631 );
+  Exit = ( 1, 'This is a big metal door with a sign hung on it saying, \'KEEP OUT!\'  
+', 'door', ('door', 'closed'), 5626, 5640 );
+  Reset = ( 'M', 5624, 1, 1 );
+  Reset = ( 'G', 5611, 0 );
+  Reset = ( 'G', 5612, 0 );
+  Reset = ( 'G', 5613, 0 );
+  Reset = ( 'G', 5610, 0 );
+
+}
+Room 5640 {
+  Name = 'The Back Room';
+  Desc = 'This room is small, close, and quiet.  There are no windows, only
+the one entrance you came through, and virtually nothing else but for a
+rickety table, a worn chair and a lantern hanging from the ceiling.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', 'door', ('door', 'closed'), -1, 5639 );
+  Reset = ( 'M', 5625, 1, 1 );
+  Reset = ( 'E', 5631, 0, 'hold' );
+
+}
+Room 5641 {
+  Name = 'The Edge of Luck';
+  Desc = 'A blast of sound and music assault you as you enter this gambling
+parlor.  This is a high class place, where the rich and idle of Kerofk
+go to blow off steam and lose lots of money.  The whole place is
+decorated in shades of red, and most of the windows face the nearby
+cliff-- evidently to give the gamblers within that feeling of danger.
+The elegance is fabulous, and you feel as if you might want to join
+in.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5609 );
+  Exit = ( 3, '', '', ('none'), -1, 5642 );
+  Reset = ( 'M', 5608, 3, 3 );
+  Reset = ( 'M', 5608, 3, 3 );
+  Reset = ( 'M', 5609, 4, 4 );
+  Reset = ( 'M', 5609, 4, 4 );
+  Reset = ( 'M', 5612, 5, 5 );
+  Reset = ( 'M', 5612, 5, 5 );
+  Reset = ( 'M', 5612, 5, 5 );
+
+}
+Room 5642 {
+  Name = 'Benzaldehyde\'s Office';
+  Desc = 'This office is quite opulent.  The huge ebony desk in front of you
+completely dominates the room.  The desk is cluttered as the mind is
+sharp; Benzaldehyde is no fool.  A few pictures on the wall of family
+members show that Ben might have a nice side, but you suspect that
+they are there just for show.  A few vicious exotic weapons are also
+hanging up, looking very sharp.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'weapons', 'A closer examinations reveal the weapons are all junk.
+');
+  ExtraDescr = ( 'pictures', 'With a closer look, you realize the pictures are all of someone else\'s
+family.
+');
+  Exit = ( 1, '', '', ('none'), -1, 5641 );
+  Reset = ( 'M', 5610, 1, 1 );
+  Reset = ( 'E', 5637, 0, 'wielded' );
+
+}
+Room 5643 {
+  Name = 'Bob\'s Armoury and Tackle';
+  Desc = 'This place has to be the WEIRDEST shop you\'ve ever been in.
+Fishing poles and halberds decorate the walls.  Breast plates stacked
+with cups of nightcrawlers on top.  Bow strings and fishing line, etc,
+etc, etc.  The shopkeeper has made this nightmare somewhat homey,
+though, with doileys and pictures scattered about in a pleasing
+display.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5611 );
+  Reset = ( 'M', 5611, 1, 1 );
+  Reset = ( 'G', 5614, 0 );
+  Reset = ( 'G', 5617, 0 );
+  Reset = ( 'G', 5643, 0 );
+  Reset = ( 'G', 5644, 0 );
+  Reset = ( 'G', 5645, 0 );
+
+}
+Room 5644 {
+  Name = 'The Fortress';
+  Desc = 'Wow! This place is better defended that some castles you\'ve seen.
+In case Kerofk ever falls, this place will surely be the last to go,
+for this inn lives up to its name: 15 foot high walls, crenellations,
+arrow slits...its a remarkable bit of engineering.  As you walk in,
+you notice that everyone here is carrying some sort of weapon, and
+carry themselves like they know how to use it.  Seems like a fairly
+safe place!
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5626 );
+  Exit = ( 4, '', '', ('none'), -1, 5645 );
+  Reset = ( 'M', 5623, 2, 2 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5623, 2, 2 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+
+}
+Room 5645 {
+  Name = 'The Reception Area';
+  Desc = 'Here\'s where the private rooms of the Fortress are.  Steel doors
+leading to bedrooms line the halls, each with a lock bigger than your
+clenched fist.  A sign here proclaims the safeties of the fortress,
+including \'Barred Windows, and Guards You Can Really Count On!\'  A
+small desk is here, a bored receptionist behind it.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, '', '', ('none'), -1, 5644 );
+  Reset = ( 'M', 5653, 1, 1 );
+
+}
+Room 5646 {
+  Name = 'The CliffHanger';
+  Desc = 'This drinking establishment is placed a little too close to the
+edge of the cliff for your own comfort--about five feet close!  You
+briefly pray to Tirluas, asking for no earthquakes in the immediate
+future.  As you look around, you see lots of people passed out on the
+floor--this is obviously a lower class dive.  The room is dark, the
+people sweaty, the barmaids tired, and you want a drink.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5614 );
+  Reset = ( 'M', 5605, 1, 1 );
+  Reset = ( 'G', 5648, 0 );
+  Reset = ( 'G', 5649, 0 );
+  Reset = ( 'G', 5650, 0 );
+  Reset = ( 'M', 5606, 5, 5 );
+  Reset = ( 'M', 5606, 5, 5 );
+  Reset = ( 'M', 5607, 5, 5 );
+  Reset = ( 'M', 5607, 5, 5 );
+  Reset = ( 'M', 5607, 5, 5 );
+
+}
+Room 5647 {
+  Name = 'The Bookstore';
+  Desc = 'Shelves fill this store with books to the brimming.  Tomes on cats,
+rats, plates, grates, mages, cages, stages, swords, hoards, dragons,
+goats, moats, croats, money, honey, spells, bells, Hell, smells, and
+on and on and on!  You think that you might be able to find something
+interesting here...
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5616 );
+  Exit = ( 3, '', 'bookcase', ('door', 'closed'), 5624, 5648 );
+  Reset = ( 'M', 5603, 1, 1 );
+  Reset = ( 'G', 5602, 0 );
+  Reset = ( 'G', 5608, 0 );
+  Reset = ( 'G', 5609, 0 );
+  Reset = ( 'G', 3052, 0 );
+  Reset = ( 'G', 3050, 0 );
+
+}
+Room 5648 {
+  Name = 'Thieves Guild';
+  Desc = 'The open hidden panel behind you seems to shed no light in here,
+and you find yourself in complete darkness.  You feel the presence of
+someone in the room with you--was that a finger on your purse?!?
+Quick!  Make a light!
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Guilds = ('thief');
+  Exit = ( 1, '', 'bookcase', ('door', 'closed'), 5624, 5647 );
+  Reset = ( 'M', 5604, 1, 1 );
+
+}
+Room 5649 {
+  Name = 'Mages\' Guild, Entrance';
+  Desc = 'This is a nice, spacious area, filled with bright lights to keep
+the eternal twilight outside at bay.  There are three doors leading
+deeper into the guild: the east marked, \'Library\', the north marked,
+\'Leonna\'s Office\', and the west marked, \'Storeroom\'.  You can\'t but help to
+feel that this is a SMALL guild for such a large city...
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'north door', ('door', 'closed'), -1, 5651 );
+  Exit = ( 1, '', 'east door', ('door', 'closed'), -1, 5653 );
+  Exit = ( 2, '', '', ('none'), -1, 5604 );
+  Exit = ( 3, '', 'west door', ('door', 'closed', 'locked'), 5623, 5652 );
+
+}
+Room 5650 {
+  Name = 'The Kerofk MobChute';
+  Desc = 'This room delivers mobs randomly around the city, and should not be
+reachable to player characters.  Thanks to Locke of Cthulhu mud for
+use of this idea!
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5625 );
+  Exit = ( 1, '', '', ('none'), 0, 5613 );
+  Exit = ( 2, '', '', ('none'), 0, 5608 );
+  Exit = ( 3, '', '', ('none'), 0, 5616 );
+  Exit = ( 4, '', '', ('none'), 0, 5637 );
+  Exit = ( 5, '', '', ('none'), 0, 5634 );
+  Reset = ( 'M', 5632, 4, 4 );
+  Reset = ( 'M', 5632, 4, 4 );
+  Reset = ( 'M', 5632, 4, 4 );
+  Reset = ( 'M', 5632, 4, 4 );
+  Reset = ( 'M', 5649, 4, 4 );
+  Reset = ( 'M', 5649, 4, 4 );
+  Reset = ( 'M', 5649, 4, 4 );
+  Reset = ( 'M', 5649, 4, 4 );
+
+}
+Room 5651 {
+  Name = 'Leonna\'s Office';
+  Desc = 'This is Guildmistress Leonna\'s office.  It is bright and cheery,
+with a roaring fire in a fireplace and several songbirds in cages
+providing color.  Her desk is spotless but for some work she was just
+at a moment ago.  Black satin-covered chairs are arranged for comfort
+of her guests, and you have a sudden urge to just sit and rest snd
+perhaps talk a bit.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Guilds = ('mage');
+  Exit = ( 2, '', 'door', ('door', 'closed'), -1, 5649 );
+  Reset = ( 'M', 5602, 1, 1 );
+  Reset = ( 'E', 5630, 0, 'body' );
+  Reset = ( 'E', 5627, 0, 'wielded' );
+  Reset = ( 'E', 5623, 0, 'hold' );
+
+}
+Room 5652 {
+  Name = 'Mages\' Guild Storeroom';
+  Desc = 'The Mage\'s Guild of Kerofk store their supplies here.  There are
+neat stacks of blank scrolls, quills, ink, unenchanted wands and
+staves, empty vials, and everything else the professional mage could
+want.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', 'door', ('door', 'closed', 'locked'), 5623, 5649 );
+  Reset = ( 'O', 5629 );
+  Reset = ( 'O', 5628 );
+
+}
+Room 5653 {
+  Name = 'The Mages\' Library';
+  Desc = 'The first thing you notice about this room, (other than the
+countless number of books inside), is the fact that the inside of this
+room couldn\'t possible fit into the building.  Hmm, you never can tell
+with those mages.  The books seem very well organized by the \'Tewey
+Teleportation System\', another one of those mage gimmicks.  You wonder
+what you\'d like to read.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', 'door', ('door', 'closed'), -1, 5649 );
+
+}
+Room 5654 {
+  Name = 'The Herbalist\'s Shoppe';
+  Desc = 'A wonderful smell wafts from the inside of this shop as you enter.
+What a beautiful place!  Freshly cut flowers decorate every nook and
+cranny, while small pots of herbs bubble faintly over candles.
+Extremely bright lanterns keep the place perpetually lit and the
+plants healthy.  You feel perfectly at home here, and the atmosphere
+is such that you can hardly pull yourself away...
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), -1, 5623 );
+  Reset = ( 'M', 5615, 1, 1 );
+  Reset = ( 'G', 5618, 0 );
+  Reset = ( 'G', 5619, 0 );
+  Reset = ( 'G', 5620, 0 );
+  Reset = ( 'G', 5621, 0 );
+  Reset = ( 'G', 5622, 0 );
+
+}
+Room 5655 {
+  Name = 'Town Hall--Entrance';
+  Desc = 'Organized Madness.  There are people going every which way here, up
+across, over, under, through!  Deliveries, messages, visits,
+appointments, WHEW!  You\'re suddenly glad you don\'t work here!
+
+	   There\'s a directory sign:
+		Up-Mayor Kell
+		Down-Jails
+		North-Courtroom
+		West-Council Chambers
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5658 );
+  Exit = ( 2, '', '', ('none'), -1, 5625 );
+  Exit = ( 3, '', '', ('none'), -1, 5659 );
+  Exit = ( 4, '', '', ('none'), -1, 5656 );
+  Exit = ( 5, '', '', ('none'), -1, 5661 );
+
+}
+Room 5656 {
+  Name = 'Outer Office';
+  Desc = 'This is a nice-looking office, with a big receiving desk in the
+middle.  The secretary\'s desk is a mess of unfinished work, and the
+wastecan looks full to the brimming.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5657 );
+  Exit = ( 5, '', '', ('none'), -1, 5655 );
+  Reset = ( 'M', 5617, 1, 1 );
+
+}
+Room 5657 {
+  Name = 'Mayor Kell\'s Office';
+  Desc = 'Mayor Kell\'s office is very homey.  There are some plush chairs, a
+nice desk with a well-worn groove where someone puts their feet up
+undoubtedly, pictures of friends and family on the walls, and other
+touches of a well lived-in office.  There is also a well stocked bar
+here, probably stocked by Kell\'s own tavern in the northern part of
+town.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5656 );
+  Reset = ( 'M', 5618, 1, 1 );
+
+}
+Room 5658 {
+  Name = 'Courtroom';
+  Desc = 'Here\'s where the judges dispense the decisions of Kerofk upon the
+general populace. At the moment there is no court case going on, but
+it looks like they are setting up for one soon.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5655 );
+  Reset = ( 'M', 5616, 2, 2 );
+  Reset = ( 'M', 5616, 2, 2 );
+
+}
+Room 5659 {
+  Name = 'Outer Chamber';
+  Desc = 'This is a small anteroom outside the Council Chambers.  The
+paneling is wood grain, the guards are big.  Waiting might be a good
+idea...
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5655 );
+  Exit = ( 3, '', 'door', ('door', 'closed'), -1, 5660 );
+  Reset = ( 'M', 5619, 2, 2 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5619, 2, 2 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+
+}
+Room 5660 {
+  Name = 'Inner Chamber';
+  Desc = 'Now you\'ve done it!  You\'ve interrupted a Council Session!  You\'ll
+never work in this town again!  What?!?  You don\'t work here?  Guards,
+ATTACK!!!
+
+   There is a big round table here with 6 seats.  Otherwise, this room
+seems plain, to minimize the distractions upon the Council Members.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'table', 'You notice a small engraving on one side:
+		\'Amanda was here.\'
+');
+  Exit = ( 1, '', 'door', ('door', 'closed'), -1, 5659 );
+  Reset = ( 'M', 5620, 7, 7 );
+  Reset = ( 'M', 5620, 7, 7 );
+  Reset = ( 'M', 5620, 7, 7 );
+  Reset = ( 'M', 5620, 7, 7 );
+  Reset = ( 'M', 5620, 7, 7 );
+  Reset = ( 'M', 5620, 7, 7 );
+  Reset = ( 'M', 5620, 7, 7 );
+
+}
+Room 5661 {
+  Name = 'Jailer\'s Room';
+  Desc = 'A small clean room.  There is a comfortable easy chair and a key
+hook on the wall.  In one corner near the chair, there is a pile of
+discarded newspapers.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'chair', 'There\'s a tag on it: \'Laz-E-Goblin\'
+');
+  ExtraDescr = ( 'newspaper', 'Seems all it is is war news.  How boring!
+');
+  Exit = ( 1, '', 'door', ('door', 'closed', 'locked'), 5626, 5662 );
+  Exit = ( 4, '', '', ('none'), -1, 5655 );
+  Reset = ( 'M', 5621, 1, 1 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'G', 5626, 0 );
+
+}
+Room 5662 {
+  Name = 'Cells';
+  Desc = 'AT LAST!  A jail cell thats not damp, musty, smelly and
+cold... its only damp, musty and cold--they must air this place out
+every once in a while.  There is a bit of grime here, but most of its
+associated with the prisoner...
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', 'door', ('door', 'closed', 'locked'), 5626, 5661 );
+  Reset = ( 'M', 5622, 1, 1 );
+
+}
+Room 5663 {
+  Name = 'Kell\'s House';
+  Desc = 'This is Kell\'s House, the mayor of Kerofk.  To the east is the
+tavern he and his family run, and to the south is the reception area
+for the inn part of this establishment.  Somehow, this place manages
+to feel homey and efficient, as well as giving people a place to meet.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5621 );
+  Exit = ( 1, '', '', ('none'), -1, 5665 );
+  Exit = ( 2, '', '', ('none'), -1, 5664 );
+
+}
+Room 5664 {
+  Name = 'Reception';
+  Desc = 'Kell\'s wife, Myrama, greets you with a smile.  The rooms here are
+big and clean, and you\'ll never have a more comfortable stay than at
+Kell\'s House.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5663 );
+  Reset = ( 'M', 5614, 1, 1 );
+
+}
+Room 5665 {
+  Name = 'Kell\'s Tavern';
+  Desc = 'Here is the tavern area of Kell\'s House.  Many people are here,
+talking about everything from politics to hunting.  Is seems as if
+this is more of a thinker\'s bar than a drinker\'s, however.  The
+barmaids seem efficient, though, and the bar is very well stocked.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), -1, 5663 );
+  Reset = ( 'M', 5654, 1, 1 );
+  Reset = ( 'G', 5648, 0 );
+  Reset = ( 'G', 5649, 0 );
+  Reset = ( 'G', 5650, 0 );
+  Reset = ( 'M', 5606, 5, 5 );
+  Reset = ( 'M', 5606, 5, 5 );
+  Reset = ( 'M', 5606, 5, 5 );
+  Reset = ( 'M', 5607, 5, 5 );
+  Reset = ( 'M', 5607, 5, 5 );
+  Reset = ( 'M', 5613, 2, 2 );
+  Reset = ( 'M', 5613, 2, 2 );
+
+}
+Room 5668 {
+  Name = 'The Kerofk MobChute';
+  Desc = 'This room delivers mobs randomly around the city, and should not be
+reachable to player characters.  Thanks to Locke of Cthulhu mud for
+use of this idea!
+';
+  Sector = 'inside';
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5624 );
+  Exit = ( 1, '', '', ('none'), 0, 5605 );
+  Exit = ( 2, '', '', ('none'), 0, 5617 );
+  Exit = ( 3, '', '', ('none'), 0, 5622 );
+  Exit = ( 4, '', '', ('none'), 0, 5629 );
+  Exit = ( 5, '', '', ('none'), 0, 5612 );
+  Reset = ( 'M', 5630, 1, 1 );
+  Reset = ( 'G', 5624, 0 );
+  Reset = ( 'M', 5633, 6, 6 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5633, 6, 6 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5633, 6, 6 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5633, 6, 6 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5633, 6, 6 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5633, 6, 6 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5634, 1, 1 );
+  Reset = ( 'E', 5606, 0, 'wielded' );
+  Reset = ( 'E', 5639, 0, 'body' );
+
+}
+Room 5669 {
+  Name = 'Temple of Kerofk';
+  Desc = 'A familiar sight!  The altar of Tirluas is decorated with the usual
+array of eagles in flight, and other signs of the god\'s power.  The
+statue stands proud...an aura around one upheld hand, the other
+holding an open book.  To the west are the living areas of the Priests
+of Tirluas, but you think those are restricted to the devout.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'statue', 'Upon closer inspection, you notice the statue is sticking his
+tongue out at you...
+');
+  Exit = ( 0, '', '', ('none'), -1, 5638 );
+  Exit = ( 3, '', '', ('none'), -1, 5670 );
+  Reset = ( 'M', 5626, 2, 2 );
+  Reset = ( 'M', 5626, 2, 2 );
+
+}
+Room 5670 {
+  Name = 'Living Area';
+  Desc = 'Small pallets are laid about in an orderly fashion for the priests.
+a small stool and writing desk is in one corner, a old looking man
+working quietly behind it.  A window lets dim light in to supplement
+the lanterns hanging on the brick walls.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Guilds = ('cleric');
+  Exit = ( 1, '', '', ('none'), -1, 5669 );
+  Reset = ( 'M', 5627, 1, 1 );
+
+}
+Room 5671 {
+  Name = 'Recruiting Office';
+  Desc = 'This office is clean and spacious.  A big desk faces the door, with
+a grizzled sergeant behind it.  He turns the paperwork in front of him
+around for you... \'Name, Race, Sex, Age, Address...\'.  Behind him you
+see the office of the Captain of the Guard.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5672 );
+  Exit = ( 3, '', '', ('none'), -1, 5635 );
+  Reset = ( 'M', 5628, 1, 1 );
+  Reset = ( 'E', 5604, 0, 'wielded' );
+
+}
+Room 5672 {
+  Name = 'Captain\'s Office';
+  Desc = 'This man\'s office is a testimonial to battle.  Exotic weapons that
+you\'ve never seen before line the walls, and you notice some
+bloodstains on the floor.  A large area in the center is bared,
+allowing sparring room.
+You can practice here !
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors', 'safe');
+  MaxSize = 'giant';
+  Guilds = ('warrior');
+  Exit = ( 3, '', '', ('none'), -1, 5671 );
+  Reset = ( 'M', 5629, 1, 1 );
+  Reset = ( 'E', 5604, 0, 'wielded' );
+
+}
+Room 5673 {
+  Name = 'Vacant Lot';
+  Desc = 'There\'s a large flattened area in the middle of this lot.  You get the
+eerie feeling that something SHOULD be here, but isn\'t.  How Odd!
+Moon Gate Road is to the north.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5627 );
+
+}
+Room 5674 {
+  Name = 'History of Kerofk';
+  Desc = 'This is an \'accidental room\', provided only for room continuity.
+   And so, the history of Kerofk...
+   The city of Kerofk originated in the mind of Builder_5, as a major
+city for use in a role-playing game he was running at the time (a
+heavily modified version of Powers & Perils--a very out-of-print
+Avalon Hill game).  Amanda Eterniale was a player in this game, and
+loved the city.
+   About this time, Amanda received an invitation to build on the
+now-defunct AlbertMUD.  She was taught how to build by an imp
+named MJPrime there, and her first creation was the city of Kerofk,
+in honor of Builder_5\'s game.
+   AlbertMUD died in a fairly nasty manner, and about half a year
+later, Amanda convinced one of the imps to email her her areas.  She
+gave them to Builder_5, smiled, and said,
+   "Edit these?  Please?"
+   Builder_5 took the better part of 3 months to edit, fix, and convert
+these files into a version more suitable for a public release.  This
+is what you have now.
+   Both of us hope you enjoy this area, over a year in the making...
+	Amanda Eterniale			Builder_5
+';
+  Sector = 'city';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+
+}
+Room 5675 {
+  Name = 'Shrine to the Emperor';
+  Desc = 'This is a very historical spot for the people of Kerofk, where the
+wizard Rand entered this realm through the \'dimension portal\' he made,
+and later went on to found this city. A giant slab of earth lies
+toppled over here, a strange eye-shaped stone embedded in it pointing
+at the sky.  A strange thrum of power in the background raises your
+hackles...remnants and echoes of Rand\'s power, evidently.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'stone eye shaped eye-shaped', 'Now that you examine it closer, it really does seem to be a carved
+stone eye, worn smooth by time and the elements.  It feels strangely
+warm to the touch, and you feel a tingling as you pass your hand above
+it...
+');
+  Exit = ( 2, '', '', ('none'), -1, 5622 );
+
+}
+Room 5676 {
+  Name = 'Star Gate';
+  Desc = 'This small gate seems to be the main entrance for the farmers
+entering the city with their produce.  Guards wave everyone through
+without a second glance.  There is a big sign here that you might want
+to read.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'sign', 'ADVENTURERS!!!!
+
+I need a party of brave souls to enter the blue temple and destroy the
+evil orb inside.  I shall pay well for the deed!!!  Please stop by my
+temple and get the magic scroll used for entering the foul area if you
+are powerful enough to withstand the trials!!!
+--MouseRider, sage of Kerofk.
+');
+  Exit = ( 1, '', '', ('none'), 0, 5636 );
+  Exit = ( 3, '', '', ('none'), 0, 5740 );
+  Reset = ( 'M', 5635, 4, 4 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5635, 4, 4 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+
+}
+Room 5677 {
+  Name = 'Moon Gate';
+  Desc = 'This is Moon Gate, the main entrance to Kerofk and VERY well
+defended.  The guards look at you suspiciously, but let you by with
+little or no hassle. There is also a big sign here that you may want
+to read.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'sign', 'ADVENTURERS!!!
+
+I need a party of brave souls to enter the blue temple and destroy the
+evil orb within.  I shall pay thee well for the deed!  Please stop by
+my temple and get the magic scroll used for entering the foul area, if
+you are powerful enough to withstand its trials!!!  
+--MouseRider, sage of Kerofk.
+');
+  Exit = ( 1, '', '', ('none'), 0, 5632 );
+  Exit = ( 3, '', '', ('none'), 0, 5735 );
+  Reset = ( 'M', 5635, 4, 4 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+  Reset = ( 'M', 5635, 4, 4 );
+  Reset = ( 'E', 5651, 0, 'wielded' );
+
+}
+Room 5678 {
+  Name = 'Front Yard';
+  Desc = 'This, the front yard of the terrible mansion, seems to be more like
+a jungle than your normal, cultured lawn.  It\'s obvious that this area
+has not been kept up in many years, decades even! The front door lies
+ever-so-slightly ajar, seemingly to beckon the wary to enter.  The
+strange feelings you\'re getting you can\'t seem to attribute to horror
+or evil, so why push your luck?
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5618 );
+  Exit = ( 3, '', '', ('none'), -1, 5679 );
+
+}
+Room 5679 {
+  Name = 'Foyer';
+  Desc = 'Deep crevices rack the walls here, leaving holes big enough for
+something quite nasty to live in.  The front door creaks behind you,
+and you whirl about, expecting it to slam shut.  It doesn\'t and you
+feel kind of silly.  \'No one lives here,\' you say to yourself quietly,
+just as footsteps upstairs sound...
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5678 );
+  Exit = ( 3, '', '', ('none'), -1, 5680 );
+
+}
+Room 5680 {
+  Name = 'Main Hall';
+  Desc = 'This is an old, dusty room.  The patterns of filth on the floor
+indicate that several people have inhabited this house still, fairly
+recently in fact.  A once-ornate grand stairway leads up to the second
+floor, and below it\'s peak is a set of cracked glass doors that open
+up into the backyard.  The hall of the house leads north-south,
+gaining access to some of the interior rooms.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5686 );
+  Exit = ( 1, '', '', ('none'), -1, 5679 );
+  Exit = ( 2, '', '', ('none'), -1, 5689 );
+  Exit = ( 3, '', '', ('none'), -1, 5681 );
+  Exit = ( 4, '', '', ('none'), -1, 5691 );
+
+}
+Room 5681 {
+  Name = 'Back Yard';
+  Desc = 'The backyard is even more overgrown than the front yard.  Here and
+there once-white benches poke up out of the tall grasses, testament to
+better times.  You feel a lot more comfortable here than you were
+inside the house, although there is a looming presence from the garden
+area opening up to your west.  A slight stench of decay passes over
+you, and you consider going back inside the house to your east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5680 );
+  Exit = ( 3, '', '', ('none'), -1, 5682 );
+
+}
+Room 5682 {
+  Name = 'Entrance to the Garden';
+  Desc = 'Starlight gives this ill-seeming garden illumination, the dim
+twinkling giving the illusion of movement to the plantlife within.
+All around you vines crawl up decaying trellises and the other
+vegetation grows out of control, untended.  You hear a gentle swishing
+of water to a northernly direction, and you can go deeper into the
+garden to the east, but you definitely think going west might be the
+best idea...
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5683 );
+  Exit = ( 1, '', '', ('none'), -1, 5681 );
+  Exit = ( 3, '', '', ('none'), -1, 5685 );
+
+}
+Room 5683 {
+  Name = 'Fountain Area';
+  Desc = 'Unpruned trees block out what little light there was outside the
+garden in this close area.  A small fountain/pool of tarnished marble
+sits in the center, with scum and algae covering its surface.  Small
+creatures flit deep in its depths, and you are not sure you want to
+know exactly what they are.
+   You can head south, to the garden\'s entrance, or west, to a more
+open area in the garden.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5682 );
+  Exit = ( 3, '', '', ('none'), -1, 5684 );
+
+}
+Room 5684 {
+  Name = 'In the Garden';
+  Desc = 'Here the garden looks dark and ominous, yet strangely beautiful.
+An easel has been set up here, and some art supplies lie on the
+ground, waiting to be used.  Faint light trickles down through the
+leaves like water on this scene, and you feel strangely at peace with
+the garden, recognizing it for the single growing entity it is.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5683 );
+  Exit = ( 2, '', '', ('none'), -1, 5685 );
+  Reset = ( 'M', 5643, 1, 1 );
+  Reset = ( 'E', 5638, 0, 'neck1' );
+
+}
+Room 5685 {
+  Name = 'In the Garden';
+  Desc = 'Ugh! The garden is absolutely dead here!  Fumes from the decaying
+plant matter make you dizzy and nauseous.  What ever killed the plants
+you want no part of.  Perhaps leaving post-haste would be wise.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5684 );
+  Exit = ( 1, '', '', ('none'), -1, 5682 );
+
+}
+Room 5686 {
+  Name = 'Hallway';
+  Desc = 'This hallway was once tapestried in beautiful colors, and well-
+illuminated by the lamps on the walls.  Now the tapestries are
+thread-worn and moth-eaten and most the lamps have disappeared,
+leaving dark holes in the walls.  There is a door to your left and one
+to your right, both slightly ajar.  A window to your north looks out
+to an alley behind a gambling parlor, and to the south is the main
+room of the mansion.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5687 );
+  Exit = ( 2, '', '', ('none'), -1, 5680 );
+  Exit = ( 3, '', '', ('none'), -1, 5688 );
+
+}
+Room 5687 {
+  Name = 'Sitting Room';
+  Desc = 'Lots of extremely old, plush chairs sit about here.  A few tables
+covered with doilies are scattered about, and a large hutch filled
+with ancient cracked china stands against the north wall.  This looks
+like one of those rooms that are just for show and not for everyday
+use.  However, the thick layer of dust covering everything belies the
+neatness of the arrangement of furniture.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), -1, 5686 );
+
+}
+Room 5688 {
+  Name = 'A Trashed Room';
+  Desc = 'This room looked to be a library once.  Now all the furniture has
+been moved out but for the bookshelves, which are now falling apart.
+It looks like a great deal of violence has occurred in this room, as
+if thousands of fights have occurred here over the years.  You wonder
+who could be capable of such wanton destruction.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5686 );
+  Reset = ( 'M', 5645, 1, 1 );
+  Reset = ( 'E', 5632, 0, 'wielded' );
+  Reset = ( 'M', 5646, 1, 1 );
+  Reset = ( 'E', 5632, 0, 'wielded' );
+
+}
+Room 5689 {
+  Name = 'Hallway';
+  Desc = 'This section off the interior hallway looks well trodden from the
+tracks in the dust on the floor.  There are doors to the east and
+west, and northwards is the main room of the mansion.  A window once
+graced the south end of this hallway, but it has since been boarded up
+from the outside.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5680 );
+  Exit = ( 1, '', '', ('none'), -1, 5690 );
+  Exit = ( 3, '', '', ('none'), -1, 5692 );
+
+}
+Room 5690 {
+  Name = 'Dining Room';
+  Desc = 'This was once a grand dining hall.  Now the great oak table has
+been completely broken and leaned up against one wall to make room for
+a small folding table and a few chairs taking its place.  Obviously
+the current owners of this mansion don\'t care much about this place to
+let it fall into ruin so.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), -1, 5689 );
+
+}
+Room 5691 {
+  Name = 'Second Floor Hallway';
+  Desc = 'This is the hallway at the top of the stairs, that leads
+north-south.  Doors line the hallway in both directions, and you can
+go down to the main room.  A big, ten foot tall window on the west
+wall of the stairwell seemed to have been a stained-glass window once,
+but has been worn and cracked by time to just be shards of colored
+glass that doesn\'t even keep the wind out.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5695 );
+  Exit = ( 2, '', '', ('none'), -1, 5693 );
+  Exit = ( 5, '', '', ('none'), -1, 5680 );
+  Reset = ( 'M', 5644, 1, 1 );
+  Reset = ( 'E', 5633, 0, 'neck1' );
+  Reset = ( 'E', 5634, 0, 'hold' );
+
+}
+Room 5692 {
+  Name = 'Kitchen';
+  Desc = 'As all the other rooms in this house, this kitchen has been mostly
+destroyed by time and inconsideration by the current owners.  There is
+still some fresh food lying about, but a rotten smell fills the air,
+and you see small insects scuttling about in the trash on the floor.
+The one thing that is sure is that you don\'t want to eat anything that
+was prepared here!
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5689 );
+
+}
+Room 5693 {
+  Name = 'Hallway';
+  Desc = 'This hallway ends short to allow the fireplace in the kitchen to
+reach the roof.  A single door is set in the east wall, and the hall
+leads north to where the stairwell leads down.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5691 );
+  Exit = ( 1, '', '', ('none'), -1, 5694 );
+
+}
+Room 5694 {
+  Name = 'Bedroom';
+  Desc = 'This bedroom has been made up for two people.  There are bunk beds
+in the center of the room, and different sets of run-down furniture on
+each side.  On the right is a rather neat desk, chair, a chest of
+drawers, and on the left there is just a mess of clothes, papers,
+books, and half-eaten food.  There isn\'t much interesting here,
+though.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), -1, 5693 );
+
+}
+Room 5695 {
+  Name = 'Hallway';
+  Desc = 'This hall leads to the northern part of the second floor, where two
+bedrooms lead off to the east and west.  There is nothing remotely
+interesting here, since the general decrepency of the house is now no
+longer \'new\' to you.  Another window looks out over top a gambling
+parlor to the north, where you see several low-life types walking and
+staggering in and out.  The starlight filtering in through the window
+makes this hall a bit more illuminated than the rest of the house.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5696 );
+  Exit = ( 2, '', '', ('none'), -1, 5691 );
+  Exit = ( 3, '', '', ('none'), -1, 5697 );
+
+}
+Room 5696 {
+  Name = 'Guest Bedroom';
+  Desc = 'This is a tiny little room, about 6 feet square and containing only
+a small bed, a small night-table and a stepladder leaning against the
+wall in one corner.  A lot of disturbed dust on the floor makes you
+wonder what this room is being used for, since it is obvious no one
+has used the bed for a _long_ time.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), -1, 5695 );
+  Exit = ( 4, '', 'trapdoor', ('door', 'closed'), -1, 5698 );
+
+}
+Room 5697 {
+  Name = 'Bedroom';
+  Desc = 'You would guess that a young woman lives in this room, from the
+quality and newness of the clothes that are stacked neatly in the open
+hope-chest, and the different cosmetics lined up on a shelf just below
+a mirror on the far wall.  A small sleeping pallet lies rolled-up on
+the floor neatly, and you notice that there is hardly any dust
+anywhere in this room, making it seem somewhat \'fresh\' despite the
+run-down-ness of the rest of the household.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5695 );
+
+}
+Room 5698 {
+  Name = 'Attic';
+  Desc = 'This is the attic of the house.  There are shelves built into the
+sides of the roof all around with strange objects floating in jars
+stacked on them.  The smell of formaldehyde is very strong here and
+you begin to feel faint.  There\'s a door built into a partition to the
+south...maybe you can make it...
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  ExtraDescr = ( 'jar jars', 'Um, the more you look at this jar, the more the thing floating
+inside begins to look at a piece of human anatomy.  *urp* You are
+beginning to feel _very_ ill.
+');
+  Exit = ( 2, '', 'door', ('door', 'closed'), -1, 5699 );
+  Exit = ( 5, '', 'trapdoor', ('door', 'closed'), -1, 5696 );
+
+}
+Room 5699 {
+  Name = 'Bedroom';
+  Desc = 'Something smells quite dead here.
+   There is a queen-sized bed taking up most of this small attic
+room. Some clothes are spread about in disorder and the bed isn\'t
+made.  A single chair is pulled up to a writing desk, where it looks
+like someone works frequently.  Up here it is very chill, much colder
+than it is outside.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5698 );
+  Reset = ( 'M', 5641, 1, 1 );
+  Reset = ( 'E', 5635, 0, 'wielded' );
+  Reset = ( 'O', 5636 );
+  Reset = ( 'M', 5642, 1, 1 );
+
+}
+Room 5700 {
+  Name = 'Entrance to the Blue Trials';
+  Desc = 'You enter the musty area beneath the blue temple and stop in awe.
+The stonework here is simply incredible--a combination of dwarven
+stonemanship and elven artistry.  On the wall there is an inscription:
+
+\'Only those who brave the elder beasts may arrive safely at the orb.\'
+
+   There is a door to the east.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', 'door', ('door', 'closed'), -1, 5701 );
+  Exit = ( 4, '', '', ('none'), -1, 5603 );
+
+}
+Room 5701 {
+  Name = 'Passageway';
+  Desc = 'It seems that door you just passed through disappeared behind you!
+The only way to go is forward, then, deeper into the passages.  You\'re
+not sure if you feel comfortable about this...
+
+   The passage continues south.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5702 );
+
+}
+Room 5702 {
+  Name = 'Passageway';
+  Desc = 'Blank passageway, with bricks set so close together that any mason
+spotting such work would keel over in disbelief.  The passage
+continues westwards, and back to the north.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5701 );
+  Exit = ( 3, '', '', ('none'), -1, 5703 );
+
+}
+Room 5703 {
+  Name = 'Passageway';
+  Desc = 'Another door is here, and you have a sneaking suspicion this one
+might disappear as well once you pass through.  The passageway leads
+east back the way you came, and the door is to your south.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5702 );
+  Exit = ( 2, '', 'door', ('door', 'closed'), -1, 5704 );
+
+}
+Room 5704 {
+  Name = 'Octagonal Room';
+  Desc = 'As you enter, you see a bright light spinning in the center of this
+octagonal room.  Also, there are many bones of prior adventurers
+strewn about.  Unfortunately, the door DID disappear behind you
+again...  the only way out is east.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', 'door', ('door', 'closed'), -1, 5705 );
+  Reset = ( 'M', 5636, 1, 1 );
+
+}
+Room 5705 {
+  Name = 'Passageway';
+  Desc = 'Back into passageway, and, once again, the door has disappeared
+behind you.  The only way to go is north.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5706 );
+
+}
+Room 5706 {
+  Name = 'Passageway';
+  Desc = 'Once again you find yourself up against a normal-seeming door in
+the north wall.  The passageway leads a little way south, and then
+runs up against a dead end.  One way to go, again.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5707 );
+  Exit = ( 2, '', '', ('none'), -1, 5705 );
+
+}
+Room 5707 {
+  Name = 'Trial';
+  Desc = 'This is a large rectangular room with three exits, doors to the
+north, east and west.  The door you\'ve come from has...disappeared!
+You are not surprised, however.  There are some strange scuff marks on
+the floor, and you\'d swear that discoloration is an old bloodstain.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'north', ('door', 'closed'), -1, 5711 );
+  Exit = ( 1, '', 'east', ('door', 'closed'), -1, 5709 );
+  Exit = ( 3, '', 'west', ('door', 'closed'), -1, 5708 );
+  Reset = ( 'M', 5637, 2, 2 );
+  Reset = ( 'M', 5637, 2, 2 );
+
+}
+Room 5708 {
+  Name = 'Passageway';
+  Desc = 'The door behind you has disappeared, and you sigh.  This is getting
+old.  This is just a tiny room with a door to the south.  You feel you
+know that door already.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', 'door', ('door', 'closed'), -1, 5701 );
+
+}
+Room 5709 {
+  Name = 'Passageway';
+  Desc = 'The door behind you melds into the stone walls without a trace.
+Whomever wasted the magical energies to these doors certainly had
+flair, if not a sense of humor.
+   The passage continues southward.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5710 );
+
+}
+Room 5710 {
+  Name = 'Passageway';
+  Desc = 'You\'ve come to the end of the passage here.  But, instead of a
+door, its a trapdoor!  The excitement is palpable; a change of pace,
+perhaps?
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5709 );
+  Exit = ( 5, '', 'trapdoor', ('door', 'closed'), -1, 5702 );
+
+}
+Room 5711 {
+  Name = 'Passageway';
+  Desc = 'Here the passageway has two alcoves on the sides, each with a statue
+of some forgotten god.  The plaques have rusted away so you can\'t even
+read the names.  Probably these were devotions to Gods whose time was
+over and whose followers deserted.  There is a trapdoor in the floor
+beyond them: the only way to go.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, '', 'trapdoor', ('door', 'closed'), -1, 5712 );
+
+}
+Room 5712 {
+  Name = 'Passageway';
+  Desc = 'You drop from the now-vanishing trapdoor above to this new passage.
+It runs to the east.  You begin to wonder if you\'ll ever see Kerofk
+again...  this maze is awful!
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5713 );
+
+}
+Room 5713 {
+  Name = 'Passageway';
+  Desc = 'The passage continues to the east and west out of your small circle
+of light in either direction.  There seems to be nothing interesting
+here, just stonework and you.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5714 );
+  Exit = ( 3, '', '', ('none'), -1, 5712 );
+
+}
+Room 5714 {
+  Name = 'End of the Passageway';
+  Desc = 'The passageway ends here, with a door in the northern wall.  The
+passage seems still and eerie.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5715 );
+  Exit = ( 3, '', '', ('none'), -1, 5713 );
+
+}
+Room 5715 {
+  Name = 'Second Trial';
+  Desc = 'Here are two doors, north and east.  The door you came through is
+gone like chaff in the wind.  There\'s no clue as to which door is the
+correct one to exit by, and you wonder if this is merely a test of
+guess.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'north', ('door', 'closed'), -1, 5717 );
+  Exit = ( 1, '', 'east', ('door', 'closed'), -1, 5716 );
+
+}
+Room 5716 {
+  Name = 'Passageway';
+  Desc = 'You feel this was the wrong decision, somehow.  There are two
+\'nests\' here, for the lack of a better word, looking recently used.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', 'door', ('door', 'closed'), -1, 5701 );
+  Reset = ( 'M', 5650, 2, 2 );
+  Reset = ( 'M', 5650, 2, 2 );
+
+}
+Room 5717 {
+  Name = 'Passageway';
+  Desc = 'You feel you have made the right decision, somehow.  The door
+behind you has vanished, but the passageway leads away to the north.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5718 );
+
+}
+Room 5718 {
+  Name = 'Passageway';
+  Desc = 'Here is a door to the north.  A plaque next to it reads, \'The Trial of
+Defense!\'.  You get a BAD feeling about this room ahead.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5719 );
+  Exit = ( 2, '', '', ('none'), -1, 5717 );
+
+}
+Room 5719 {
+  Name = 'Trial of Defense!';
+  Desc = 'This is a small close room, with a door exact opposite from where
+you entered.  The door behind you is conveniently gone.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5720 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+  Reset = ( 'M', 5651, 10, 10 );
+
+}
+Room 5720 {
+  Name = 'Passageway (Again!)';
+  Desc = 'You feel relief pass over you for a moment.  This place looks to be
+a nice, safe place to rest if you\'ve ever seen one.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5721 );
+
+}
+Room 5721 {
+  Name = 'Passageway';
+  Desc = 'Now you are in a twisty set of passageways, and feel rather lost!
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5722 );
+  Exit = ( 3, '', '', ('none'), -1, 5720 );
+
+}
+Room 5722 {
+  Name = 'Passageway';
+  Desc = 'Now you are in a twisty set of passageways, and feel rather lost!
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5721 );
+  Exit = ( 1, '', '', ('none'), -1, 5723 );
+
+}
+Room 5723 {
+  Name = 'Passageway';
+  Desc = 'Now you are in a twisty set of passageways, and feel rather lost!
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5724 );
+  Exit = ( 3, '', '', ('none'), -1, 5722 );
+
+}
+Room 5724 {
+  Name = 'Passageway\'s End';
+  Desc = 'You seem to have come to the end of the twisty passageways, with no
+discernable exit.  Could there be something hidden here?
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), -1, 5725 );
+
+}
+Room 5725 {
+  Name = 'Trial of Persistence';
+  Desc = 'In this plain, square room, there are four doors, each at a corner
+of the compass.  They all look exactly the same, and for a moment you
+feel confused.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'north', ('door', 'closed'), -1, 5727 );
+  Exit = ( 1, '', 'east', ('door', 'closed'), -1, 5726 );
+  Exit = ( 2, '', 'south', ('door', 'closed'), -1, 5726 );
+  Exit = ( 3, '', 'west', ('door', 'closed'), -1, 5726 );
+
+}
+Room 5726 {
+  Name = 'Passageway';
+  Desc = 'You feel you have chosen the wrong exit, but there seems to be a
+hole in the floor as the only exit.  Odd...
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, '', '', ('none'), -1, 5720 );
+
+}
+Room 5727 {
+  Name = 'Passageway';
+  Desc = 'The passageway leads away to the north, and you feel you have
+chosen correctly again.  What luck!
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5728 );
+
+}
+Room 5728 {
+  Name = 'Passageway';
+  Desc = 'There is a door to your north, with a plaque that says, 
+		   \'The Trial of Death!\'
+
+   Uh-oh.  You wonder if you\'ve a scroll of recall...
+';
+  Sector = 'inside';
+  Flags = ('dark', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5729 );
+  Exit = ( 2, '', '', ('none'), -1, 5727 );
+
+}
+Room 5729 {
+  Name = 'Killed by Arrow Traps!';
+  Desc = 'Suddenly thousands of arrows pepper your body...  Turning you into a
+giant pincushion!!!  
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5730 );
+
+}
+Room 5730 {
+  Name = 'Alcove';
+  Desc = 'Up ahead, you see a bright light, much brighter than most mundane
+light sources you\'ve seen.  It seems to be coming from a small globe
+in the next room, resting on a pedestal.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5731 );
+
+}
+Room 5731 {
+  Name = 'Pedestal of the Orb!';
+  Desc = 'This is a large square room.  All around on the walls there are
+friezes of dwarves and elves, pictured worshiping the very orb that
+hovers above the pedestal in the middle of this very room.  The
+pedestal is pure gold, and the orb hovers above it, humming and
+glowing with such radiance you can barely see its form.  This, then,
+is the object of your quest.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5732 );
+  Reset = ( 'M', 5638, 1, 1 );
+  Reset = ( 'E', 5601, 0, 'hold' );
+
+}
+Room 5732 {
+  Name = 'Temple of MouseRider';
+  Desc = 'Here you are again at the Temple of MouseRider, through a bizarre
+twist of space.  The main entrance seems to be gone, however...
+   MouseRider is clutching one of the shards of the destroyed orb.  He
+laughs evilly as he takes a vicious dagger and disembowls himself,
+spilling organs all over his feet and the floor.
+   \'Fools!\'  he cries, \'I am now an immortal, I am now a liche!!\'  He
+laughs, and directs his minions to attack!
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', 'door', ('door', 'closed'), -1, 5733 );
+  Reset = ( 'M', 5639, 1, 1 );
+  Reset = ( 'E', 5603, 0, 'about' );
+  Reset = ( 'O', 5646 );
+  Reset = ( 'M', 5640, 2, 2 );
+  Reset = ( 'M', 5640, 2, 2 );
+
+}
+Room 5733 {
+  Name = 'Void';
+  Desc = 'Mouserider\'s bedroom is gone.  You float in space, and several
+objects wink into being around you.  A reward from the gods, perhaps?
+ 
+   A rift opens in space below you, and you spot the street outside
+the White Temple in Kerofk.  A voice booms around you:
+
+   "Take these toys, and remember this:  don\'t expect plot continuity
+from a mud!"  You feel relief.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 5, '', '', ('none'), -1, 5602 );
+  Reset = ( 'O', 5615 );
+  Reset = ( 'O', 5616 );
+
+}
+Room 5734 {
+  Name = 'View of a City';
+  Desc = 'Incredible! From this vantage point you see a huge city to your
+east, large enough to hold thousands of people.  Great walls encircle
+the city, no doubt to keep the marauding monsters at bay.  The city is
+in a VERY defensible spot in that over half its length is sprawled
+along the edge of a cliff.  Beyond the cliff you see a dark ocean,
+reflecting the starlight above very feebly.  The road continues west
+down the rise, and east, towards the city on the edge.
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5735 );
+  Exit = ( 3, '', '', ('none'), 0, 5741 );
+
+}
+Room 5735 {
+  Name = 'Near the City';
+  Desc = 'You are very near the city now.  There is a great gate to your
+east, with guards slowly letting people in and out.  The walls
+surrounding the city seem impassable, but several scorch marks along
+its length tells a different stories about war and raids.  To your
+west is a rise where you may get a better vantage point of the city.
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5677 );
+  Exit = ( 3, '', '', ('none'), -1, 5734 );
+
+}
+Room 5736 {
+  Name = 'Dirt Road';
+  Desc = 'The road travels north-south here along the side of the mountains.
+To the north you see some cultivated fields, and to the south a fork
+in the road.  The sky above seems eerie, especially to the west where
+the glow of the normal sky brightens the horizon...
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), -1, 5737 );
+  Exit = ( 2, '', '', ('none'), 0, 5741 );
+
+}
+Room 5737 {
+  Name = 'Turn in the Road';
+  Desc = 'The road turns here to the east.  Around you you see small cultivated 
+fields, tended by farmers who seem paranoid and quick.  The vegetables
+they are harvesting seem pale and lifeless by your standards, with a few 
+you\'ve never seen the likes of before.  From several burned out shells of 
+houses you guess the farmers just try to grow what they can before the
+city is put under siege again.
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5738 );
+  Exit = ( 2, '', '', ('none'), -1, 5736 );
+
+}
+Room 5738 {
+  Name = 'A City on the Edge';
+  Desc = 'From here you see a great walled city from the side.  Only half is 
+walled, the other half sprawled directly on the edge of a great cliff 
+which drops down into a dark ocean below.  To the east you see a small 
+gate in the city, which farmers are going into and out of sporadically.
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5739 );
+  Exit = ( 3, '', '', ('none'), -1, 5737 );
+
+}
+Room 5739 {
+  Name = 'Fields near a City';
+  Desc = 'There are some more small fields here, and more burned out houses.
+From the smell of charred wood and the sounds of fresh construction,
+you guess that the last raze didn\'t happen long ago...
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), -1, 5740 );
+  Exit = ( 3, '', '', ('none'), -1, 5738 );
+
+}
+Room 5740 {
+  Name = 'Near a City';
+  Desc = 'There is small gate to your east where guards let farmers into and
+out of the city with their produce.  The walls seem indestructible,
+but scorch marks along its length tell a different story...
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5676 );
+  Exit = ( 3, '', '', ('none'), -1, 5739 );
+
+}
+Room 5741 {
+  Name = 'Dirt Road';
+  Desc = 'The road you stand on forks several directions here, one leading to
+the north out of sight in the starlit sky, one leading up a hill to
+the east, and towards the mountains to the west.
+   It seems very quiet and peaceful here.  A breeze caresses your face.
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5736 );
+  Exit = ( 1, '', '', ('none'), 0, 5734 );
+  Exit = ( 3, '', '', ('none'), 0, 5742 );
+
+}
+Room 5742 {
+  Name = 'Dirt Road';
+  Desc = 'The road continues east and west from here.  To the west you see
+brightness seeping over and between the mountains.  Eastwards the
+strange, unnatural night sky spreads over anything, its permanent
+stars lighting the landscape with an eerie glow.
+';
+  Sector = 'field';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5741 );
+  Exit = ( 3, '', '', ('none'), 0, 5743 );
+
+}
+Room 5743 {
+  Name = 'Dirt Road';
+  Desc = 'You are standing in the foothills before the mountains.  A road
+leads away under the starry sky to the east, and a mountain pass
+heads up and through to the north.  The scenery on this side of the
+mountains seems bleak and lifeless, probably due to the lack of sun.
+';
+  Sector = 'hills';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5744 );
+  Exit = ( 1, '', '', ('none'), 0, 5742 );
+
+}
+Room 5744 {
+  Name = 'Mountain Pass';
+  Desc = 'The mountain pass leads up to the west, and downwards to the south.
+There seems to be a strange half twilight farther to the west, casting
+an eerie glow over the stones and shrubberies around.  You can see a 
+large dark plain to the east that the sun never seems to have shone
+upon, making it appear to be otherworldly somehow...
+';
+  Sector = 'hills';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5743 );
+  Exit = ( 3, '', '', ('none'), 0, 5745 );
+
+}
+Room 5745 {
+  Name = 'Mountain Pass';
+  Desc = 'You are standing at the apex of the mountain pass, the normal
+sky to your west, and the strange night sky to your east.  The edge
+of the night is clearly delineated above you...a sharp edge separating
+night from normal, as it were.  Very odd...you wonder what could be
+causing this unnatural darkness.
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5744 );
+  Exit = ( 2, '', '', ('none'), 0, 5746 );
+
+}
+Room 5746 {
+  Name = 'Mountain Pass';
+  Desc = 'The mountains rise up here, the small pass you are on wending
+its way up to the north.  The sky seems dark above the mountains,
+as if the mountains were a dividing line keeping back the night.
+The pass also leads back down to the
+';
+  Sector = 'hills';
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5745 );
+  Exit = ( 2, '', '', ('none'), 0, 1 );
+
+}
+Room 5747 {
+  Name = 'Fleecem and Son';
+  Desc = 'This is a small, hole in the wall office, lined with boxes
+and crates of paper and files.  An old, beaten-up desk stands
+near the door, very much on its last legs.  The air is thick
+and humid, the decorations too garish, the space is too crowded.
+A name plaque on the desk says \'Bungle Fleecem, Esq.\'
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5630 );
+  Reset = ( 'M', 5647, 1, 1 );
+
+}
+Room 5748 {
+  Name = 'Graveyard Entrance';
+  Desc = 'You stand on a path in an eerie graveyard.  An archway leads north
+to Moon Gate Road, and the path continues to the east and south.  In
+the gloom of night and the twinkling stars above, the tombstones seem
+to take a life of their own in a storybook way.  You don\'t think it
+would be the kind of storybook you would be interested in...
+';
+  Sector = 'city';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5628 );
+  Exit = ( 1, '', '', ('none'), 0, 5749 );
+  Exit = ( 2, '', '', ('none'), 0, 5751 );
+
+}
+Room 5749 {
+  Name = 'Graveyard';
+  Desc = 'This path leads through the graveyard south and west.  You notice
+several graves have been disturbed here, and one grave has been entirely
+dug up.  The bones of a dead dwarf lie exposed at the bottom of the 
+grave, its hands seemingly to clutch at the sky.  The tombstone at
+the head of the grave is completely unreadable.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5750 );
+  Exit = ( 3, '', '', ('none'), 0, 5748 );
+
+}
+Room 5750 {
+  Name = 'Graveyard';
+  Desc = 'You stand in the south-east corner of the graveyard.  The tombstones
+here are old and weathered by age and elements.  Some are toppled over.
+Some grass grows sparsely around the rocks, paled by the lack of sun.
+In this area, you feel the peace of death, instead of the decay usually
+associated with graveyards.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5749 );
+  Exit = ( 3, '', '', ('none'), 0, 5751 );
+  Reset = ( 'M', 5648, 1, 1 );
+
+}
+Room 5751 {
+  Name = 'Graveyard';
+  Desc = 'The earth here has been freshly turned up, the graves recent.
+The headstones tell tale of faithful wives and brave husbands, 
+meeting their ends with dignity and aplomb.  Two pits are dug
+near the wall for a burial yet to take place.  You feel strangely
+chilled by the night air...
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 5748 );
+  Exit = ( 1, '', '', ('none'), 0, 5750 );
+
+}
+Room 5752 {
+  Name = 'Farmer\'s Stand';
+  Desc = 'A few wooden stands here are filled with fruits and vegetables
+grown under this endless night sky.  This place seems to get good
+business, but not enthusiastic customers.  You can understand why from
+the quality of the wares.
+';
+  Sector = 'inside';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 5620 );
+  Reset = ( 'M', 5652, 1, 1 );
+  Reset = ( 'G', 5605, 0 );
+  Reset = ( 'G', 5607, 0 );
+  Reset = ( 'G', 5640, 0 );
+  Reset = ( 'G', 5641, 0 );
+  Reset = ( 'G', 5642, 0 );
+
+}
+
+
+//=======================================
+}
+

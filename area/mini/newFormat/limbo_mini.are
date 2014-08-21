@@ -1,0 +1,1838 @@
+Area 'Limbo' {
+  Builders = 'None';
+  Vnums = ( 1, 99 );
+  Credits = '{{None } Diku    Limbo';
+  Security = 9;
+  Flags = ('noteleport');
+
+//=======================================
+Mobile 1 {
+  Name = 'zombie';
+  ShD = 'a zombie';
+  LnD = 'A zombie is here, slaving away for his master.
+';
+  Desc = 'This zombie has a blank look on its face. Rest assured, it wouldn\'t stir if
+you held a knife to its throat.
+';
+  Race = 'zombie';
+  Alignment = -1000;
+  Etho = 'lawful';
+  Level = 45;
+  Hitroll = 0;
+  Hit = ( 25, 10, 3000 );
+  Mana = ( 4, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 4, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Undead';
+  DamType = 'punch';
+  Material = 'flesh';
+}
+Mobile 2 {
+  Name = 'mount pony';
+  ShD = 'a pony';
+  LnD = 'A pony is here.
+';
+  Desc = 'You see a small brown pony.
+';
+  Race = 'horse';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 5;
+  Hitroll = 0;
+  Hit = ( 3, 22, 96 );
+  Mana = ( 5, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 2, 3, 3 );
+  ACs = ( 6, 6, 6, 10 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+  DamType = 'smash';
+  Material = 'flesh';
+  Program = 'mount';
+}
+Mobile 3 {
+  Name = 'mount donkey';
+  ShD = 'a donkey';
+  LnD = 'A donkey is here.
+';
+  Desc = 'You see a dark grey donkey.
+';
+  Race = 'horse';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 15;
+  Hitroll = 0;
+  Hit = ( 5, 30, 161 );
+  Mana = ( 15, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 5, 8 );
+  ACs = ( 0, 0, 0, 5 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+  Material = 'flesh';
+  Program = 'mount';
+}
+Mobile 4 {
+  Name = 'mount horse';
+  ShD = 'a horse';
+  LnD = 'A horse is here.
+';
+  Desc = 'You see a light brown horse.
+';
+  Race = 'horse';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 25;
+  Hitroll = 0;
+  Hit = ( 8, 50, 200 );
+  Mana = ( 25, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 5, 5, 12 );
+  ACs = ( -5, -5, -5, 2 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+  DamType = 'smash';
+  Material = 'flesh';
+  Program = 'mount';
+}
+Mobile 5 {
+  Name = 'mount camel';
+  ShD = 'a camel';
+  LnD = 'A camel is here.
+';
+  Desc = 'You see a camel.
+';
+  Race = 'horse';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 35;
+  Hitroll = 0;
+  Hit = ( 10, 80, 500 );
+  Mana = ( 35, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 5, 7, 18 );
+  ACs = ( -12, -12, -12, -1 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'large';
+  Faction = 'Animal';
+  DamType = 'smash';
+  Material = 'flesh';
+  Program = 'mount';
+}
+Mobile 6 {
+  Name = 'mount elephant';
+  ShD = 'an elephant';
+  LnD = 'An elephant is here.
+';
+  Desc = 'You see a huge elephant.
+';
+  Race = 'horse';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 45;
+  Hitroll = 0;
+  Hit = ( 10, 100, 600 );
+  Mana = ( 45, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 5, 8, 20 );
+  ACs = ( -18, -18, -18, -4 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'huge';
+  Faction = 'Animal';
+  DamType = 'charge';
+  Material = 'flesh';
+  Program = 'mount';
+}
+Mobile 7 {
+  Name = 'mount griffon';
+  ShD = 'a griffon';
+  LnD = 'A griffon flies here.
+';
+  Desc = 'You see a beautiful griffon.
+';
+  Race = 'griffon';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 55;
+  Hitroll = 0;
+  Hit = ( 10, 200, 1200 );
+  Mana = ( 50, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 6, 10, 30 );
+  ACs = ( -24, -24, -24, -7 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'large';
+  Faction = 'Animal';
+  DamType = 'peck';
+  Material = 'flesh';
+  Program = 'mount';
+}
+Mobile 8 {
+  Name = 'dragon mount';
+  ShD = 'a dragon';
+  LnD = 'A huge green dragon is here.
+';
+  Desc = '';
+  Race = 'dragon';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 65;
+  Hitroll = 0;
+  Hit = ( 50, 10, 9500 );
+  Mana = ( 65, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 6, 12, 40 );
+  ACs = ( -30, -30, -30, -10 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'huge';
+  Faction = 'Dragon';
+  Material = 'flesh';
+  Program = 'mount';
+  Special = 'spec_breath_any';
+}
+Mobile 9 {
+  Name = 'familiar';
+  ShD = '(no short description)';
+  LnD = '(no long description)
+';
+  Desc = '';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 0;
+  Hitroll = 0;
+  Hit = ( 0, 0, 0 );
+  Mana = ( 0, 0, 0 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 5, 7, 5 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Common';
+  DamType = 'pound';
+  Forms = ('sentient');
+}
+Mobile 20 {
+  Name = 'golem lesser';
+  ShD = 'a lesser golem';
+  LnD = 'A lesser golem is here.
+';
+  Desc = '';
+  Race = 'unique';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1 );
+  Mana = ( 1, 1, 1 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 10, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Neutral';
+  DamType = 'crush';
+  Material = 'clay';
+}
+Mobile 21 {
+  Name = 'greater golem';
+  ShD = 'a great golem';
+  LnD = 'A greater golem is here.
+';
+  Desc = '';
+  Race = 'unique';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1 );
+  Mana = ( 1, 1, 1 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 10, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'large';
+  Faction = 'Neutral';
+  DamType = 'crush';
+  Material = 'clay';
+}
+Mobile 22 {
+  Name = 'skeleton';
+  ShD = 'a skeleton';
+  LnD = 'A skeleton stands here, awaiting his masters command.
+';
+  Desc = 'The bones of this undead are pristine clean and move with an impossible life of their own. Small burning points of red reside within the eye sockets, gleaming with dark magic.
+';
+  Race = 'skeleton';
+  Alignment = -1000;
+  Etho = 'lawful';
+  Level = 45;
+  Hitroll = 5;
+  Hit = ( 25, 10, 3000 );
+  Mana = ( 4, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 4, 1 );
+  ACs = ( -10, -10, -10, -10 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Undead';
+  DamType = 'pound';
+  Program = 'createdSkeleton';
+}
+Mobile 23 {
+  Name = 'mummy mummie';
+  ShD = 'a mummy';
+  LnD = 'A disgusting bloddy mummy is here.
+';
+  Desc = 'The tattered and bloddy remains of a corpse is here bound together by ragger bits of cloth. A dark set of hollow eyes stare back at you menacingly.
+';
+  Race = 'mummy';
+  Alignment = -1000;
+  Etho = 'lawful';
+  Level = 45;
+  Hitroll = 5;
+  Hit = ( 25, 10, 3000 );
+  Mana = ( 4, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 6, 7, 1 );
+  ACs = ( -12, -12, -12, -12 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Undead';
+  DamType = 'pound';
+  Material = 'flesh';
+}
+Mobile 24 {
+  Name = 'flesh golem';
+  ShD = 'a flesh golem';
+  LnD = 'A disgusting mass of stitched flesh stands here.
+';
+  Desc = 'The product of some twisted mage who has been tampering with the powers of necromancy. This horrible being is not quite alive, yet also not dead.
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1 );
+  Mana = ( 1, 1, 1 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 10, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'small';
+  Faction = 'Common';
+  DamType = 'crush';
+  Material = 'flesh';
+  Forms = ('edible', 'sentient', 'mammal');
+}
+Mobile 25 {
+  Name = 'mirror image';
+  ShD = 'a mirror image of %s';
+  LnD = 'A mirror image of %s stands here.
+';
+  Desc = 'A mirror image of %s
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1 );
+  Mana = ( 1, 1, 1 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 10, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'small';
+  Faction = 'Common';
+  DamType = 'crush';
+  Material = 'flesh';
+  Program = 'mirrorImage';
+  Forms = ('edible', 'sentient', 'mammal');
+}
+Mobile 26 {
+  Name = 'animated %s';
+  ShD = '(Animated) %s';
+  LnD = '(Animated) %s stands here.
+';
+  Desc = '(Animated) %s
+';
+  Race = 'human';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1 );
+  Mana = ( 1, 1, 1 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 10, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'small';
+  Faction = 'Common';
+  DamType = 'crush';
+  Material = 'flesh';
+  Forms = ('edible', 'sentient', 'mammal');
+}
+Mobile 27 {
+  Name = 'shadow';
+  ShD = 'a shadow';
+  LnD = 'A shadow is here, slaving away for his master.
+';
+  Desc = 'A risen corpse\'s shadow serves his master.
+';
+  Race = 'unique';
+  Alignment = -1000;
+  Etho = 'lawful';
+  Level = 45;
+  Hitroll = 0;
+  Hit = ( 25, 10, 3000 );
+  Mana = ( 4, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 4, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Neutral';
+  DamType = 'punch';
+  Material = 'nothing';
+}
+Mobile 28 {
+  Name = 'steed mount';
+  ShD = 'a steed';
+  LnD = 'A steed is here.
+';
+  Desc = 'A magical steed is here.
+';
+  Race = 'horse';
+  Alignment = 0;
+  Etho = 'lawful';
+  Level = 45;
+  Hitroll = 0;
+  Hit = ( 25, 10, 3000 );
+  Mana = ( 4, 10, 100 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 4, 4, 1 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'medium';
+  Faction = 'Animal';
+  DamType = 'beating';
+  Material = 'nothing';
+  Program = 'mount';
+}
+Mobile 30 {
+  Name = 'elemental familiar';
+  ShD = 'an elemental';
+  LnD = 'An elemental is here.
+';
+  Desc = '';
+  Race = 'unique';
+  Alignment = 0;
+  Etho = 'neutral';
+  Level = 1;
+  Hitroll = 0;
+  Hit = ( 1, 1, 1 );
+  Mana = ( 1, 1, 1 );
+  Psp = ( 0, 0, 0 );
+  Damage = ( 3, 10, 12 );
+  ACs = ( 0, 0, 0, 0 );
+  Position = ( 'standing', 'standing' );
+  Sex = 'neutral';
+  Wealth = 0;
+  Size = 'large';
+  Faction = 'Neutral';
+  DamType = 'crush';
+  Material = 'clay';
+  Classes = ('warrior');
+  Program = 'summonedElemental';
+}
+
+
+//=======================================
+Object 1 {
+  Name = 'coin silver gcash';
+  ShD = 'a silver coin';
+  Desc = 'One miserable coin is here';
+  ItemType = 'money';
+  Level = 0;
+  Weight = 10;
+  Cost = 0;
+  Material = 'silver';
+  WearFlags = ('take');
+  Values = ( 1, 0 );
+}
+Object 2 {
+  Name = 'coin gold gcash';
+  ShD = 'a gold coin';
+  Desc = 'One valuable gold coin.';
+  ItemType = 'money';
+  Level = 0;
+  Weight = 10;
+  Cost = 0;
+  Material = 'gold';
+  WearFlags = ('take');
+  Values = ( 0, 1 );
+}
+Object 3 {
+  Name = 'coins gold gcash';
+  ShD = '%d gold coins';
+  Desc = 'A pile of gold coins.';
+  ItemType = 'money';
+  Level = 0;
+  Weight = 10;
+  Cost = 0;
+  Material = 'gold';
+  WearFlags = ('take');
+  Values = ( 0, 0 );
+}
+Object 4 {
+  Name = 'coins silver gcash';
+  ShD = '%d silver coins';
+  Desc = 'A pile of silver coins.';
+  ItemType = 'money';
+  Level = 0;
+  Weight = 10;
+  Cost = 0;
+  Material = 'silver';
+  WearFlags = ('take');
+  Values = ( 0, 0 );
+}
+Object 5 {
+  Name = 'coins silver gold gcash';
+  ShD = '%d silver coins and %d gold coins';
+  Desc = 'A pile of coins.';
+  ItemType = 'money';
+  Level = 0;
+  Weight = 10;
+  Cost = 0;
+  Material = 'gold';
+  WearFlags = ('take');
+  Values = ( 0, 0 );
+}
+Object 9 {
+  Name = 'warp stone';
+  ShD = 'a warp stone';
+  Desc = 'A warp stone floats in the air.';
+  ItemType = 'warpstone';
+  Level = 39;
+  Weight = 20;
+  Cost = 12345;
+  Material = 'stone';
+  ExtraFlags = ('glow', 'hum', 'magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 10 {
+  Name = 'corpse';
+  ShD = 'the corpse of %s';
+  Desc = 'The corpse of %s is lying here.';
+  ItemType = 'npccorpse';
+  Level = 0;
+  Weight = 1000;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 1, 0 );
+}
+Object 11 {
+  Name = 'corpse';
+  ShD = 'the corpse of %s';
+  Desc = 'The corpse of %s is lying here.';
+  ItemType = 'pccorpse';
+  Level = 0;
+  Weight = 1000;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  ExtraFlags = ('nopurge');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 1, 0 );
+}
+Object 12 {
+  Name = 'head';
+  ShD = 'the head of %s';
+  Desc = 'The severed head of %s is lying here.';
+  ItemType = 'trash';
+  Level = 0;
+  Weight = 50;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 13 {
+  Name = 'heart';
+  ShD = 'the heart of %s';
+  Desc = 'The torn-out heart of %s is lying here.';
+  ItemType = 'food';
+  Level = 0;
+  Weight = 20;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  WearFlags = ('take');
+  Values = ( 16, 16, false );
+}
+Object 14 {
+  Name = 'arm';
+  ShD = 'the arm of %s';
+  Desc = 'The sliced-off arm of %s is lying here.';
+  ItemType = 'food';
+  Level = 0;
+  Weight = 50;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  WearFlags = ('take');
+  Values = ( 20, 20, false );
+}
+Object 15 {
+  Name = 'leg';
+  ShD = 'the leg of %s';
+  Desc = 'The sliced-off leg of %s is lying here.';
+  ItemType = 'food';
+  Level = 0;
+  Weight = 50;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  WearFlags = ('take');
+  Values = ( 20, 20, false );
+}
+Object 16 {
+  Name = 'guts entrails';
+  ShD = 'the guts of %s';
+  Desc = 'A steaming pile of %s\'s entrails is lying here.';
+  ItemType = 'food';
+  Level = 0;
+  Weight = 20;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  WearFlags = ('take');
+  Values = ( 5, 5, true );
+}
+Object 17 {
+  Name = 'brains brain';
+  ShD = 'the brains of %s';
+  Desc = 'The splattered brains of %s are lying here.';
+  ItemType = 'food';
+  Level = 0;
+  Weight = 20;
+  Cost = 0;
+  Material = 'meat';
+  Condition = 25;
+  WearFlags = ('take');
+  Values = ( 10, 10, false );
+}
+Object 20 {
+  Name = 'mushroom';
+  ShD = 'a Magic Mushroom';
+  Desc = 'A delicious magic mushroom is here.';
+  ItemType = 'food';
+  Level = 0;
+  Weight = 10;
+  Cost = 0;
+  Material = 'food';
+  WearFlags = ('take');
+  Values = ( 8, 8, false );
+}
+Object 21 {
+  Name = 'ball light';
+  ShD = 'a bright ball of light';
+  Desc = 'A bright ball of light shimmers in the air.';
+  ItemType = 'light';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('glow', 'nocond');
+  WearFlags = ('take');
+  Values = ( 999 );
+}
+Object 22 {
+  Name = 'spring';
+  ShD = 'a magical spring';
+  Desc = 'A magical spring flows from the ground here.';
+  ItemType = 'fountain';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'water';
+  ExtraFlags = ('magic');
+  Values = ( 100000, 100000, 'water' );
+}
+Object 23 {
+  Name = 'disc disk floating black';
+  ShD = 'a floating disc';
+  Desc = 'A floating black disc hangs in the air.';
+  ItemType = 'container';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('magic', 'noremove', 'rotdeath', 'meltdrop', 'burnproof', 'nouncurse', 'nocond');
+  WearFlags = ('take', 'wearfloat');
+  Values = ( 0, ('puton'), 0, 0, 0 );
+}
+Object 24 {
+  Name = 'shelter tent magical';
+  ShD = 'a magical tent';
+  Desc = 'A magical tent is here.';
+  ItemType = 'furniture';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('magic');
+  Values = ( 1, 1000, ('rest_in', 'sleep_in'), 100, 100 );
+}
+Object 25 {
+  Name = 'gate portal';
+  ShD = 'a shimmering gate';
+  Desc = 'A shimmering black gate rises from the ground, leading to parts unknown.';
+  ItemType = 'portal';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'shadow';
+  ExtraFlags = ('magic', 'nopurge', 'nolocate');
+  Values = ( 0, ('none'), ('none'), 0 );
+}
+Object 26 {
+  Name = 'mystery sword';
+  ShD = 'a Sword of {rM{gy{bs{mt{ce{yr{ry{x';
+  Desc = 'A great sword lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 10;
+  Cost = 10000;
+  Material = 'platinum';
+  ExtraFlags = ('glow', 'hum', 'staydeath', 'nodrop', 'nouncurse', 'nolocate', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 0, 0, 'wrath', ('sharp') );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 2 ) );
+}
+Object 27 {
+  Name = 'ring mystery';
+  ShD = 'a Ring of {rM{gy{bs{mt{ce{yr{ry{x';
+  Desc = 'A great ring lies here.';
+  ItemType = 'armor';
+  Level = 0;
+  Weight = 1;
+  Cost = 1000000;
+  Material = 'platinum';
+  ExtraFlags = ('hum', 'staydeath', 'magic', 'nodrop', 'nouncurse', 'nolocate', 'nocond');
+  WearFlags = ('take', 'finger');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'affects2', 1, ('water_breath') ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 50 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 50 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 25 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 25 ) );
+}
+Object 28 {
+  Name = 'amulet mystery';
+  ShD = 'a Amulet of {rM{gy{bs{mt{ce{yr{ry{x';
+  Desc = 'A great amulet lies here.';
+  ItemType = 'armor';
+  Level = 0;
+  Weight = 5;
+  Cost = 1000000;
+  Material = 'platinum';
+  ExtraFlags = ('hum', 'staydeath', 'magic', 'nodrop', 'nouncurse', 'nolocate', 'nocond');
+  WearFlags = ('take', 'neck');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'affects2', 1, ('walk_on_water') ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'mana', 0, 50 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hp', 0, 50 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 25 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 25 ) );
+}
+Object 29 {
+  Name = 'quest shield mystery';
+  ShD = 'a Shield of {rM{gy{bs{mt{ce{yr{ry{x';
+  Desc = 'A great shield lies here.';
+  ItemType = 'armor';
+  Level = 0;
+  Weight = 10;
+  Cost = 1000000;
+  Material = 'platinum';
+  ExtraFlags = ('hum', 'staydeath', 'magic', 'nodrop', 'nouncurse', 'nolocate', 'nocond');
+  WearFlags = ('take', 'shield');
+  Values = ( 0, 0, 0, 0, 0 );
+  Restriction = ( 1, 'shield block', 50, 0 );
+Upgrade = ( 'enhanced damage', 50 );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 25 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 25 ) );
+}
+Object 30 {
+  Name = 'dummy object';
+  ShD = 'a dummy object';
+  Desc = 'Dummy object is used for loading non-existent objects';
+  ItemType = 'trash';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'unknown';
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 31 {
+  Name = 'weird decanter';
+  ShD = 'a Decanter of Endless Water';
+  Desc = 'A great decanter lies here.';
+  ItemType = 'drinkcontainer';
+  Level = 0;
+  Weight = 5;
+  Cost = 500000;
+  Material = 'platinum';
+  ExtraFlags = ('hum', 'staydeath', 'magic', 'nodrop', 'nouncurse', 'nolocate', 'nocond');
+  WearFlags = ('take');
+  Values = ( 1000, 1000, 'water', false );
+}
+Object 32 {
+  Name = 'token pearl';
+  ShD = 'Blink\'s {yPearl{x';
+  Desc = 'Blink\'s {yPearl{x lies here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nosac', 'nolocate', 'noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 33 {
+  Name = 'token book';
+  ShD = 'Seytan\'s {rMagic Book{x';
+  Desc = 'Seytan\'s {rBook{x lies here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nosac', 'nolocate', 'noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 34 {
+  Name = 'token mirror';
+  ShD = 'Sarci\'s {cMirror{x';
+  Desc = 'Sarci\'s {cMirror{x lies here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nosac', 'nolocate', 'noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 35 {
+  Name = 'token armor';
+  ShD = 'Sinac\'s {mArmor{x';
+  Desc = 'Sinac\'s {mArmor{x lies here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nosac', 'nolocate', 'noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 36 {
+  Name = 'token gloves';
+  ShD = 'Indian\'s {gGloves{x';
+  Desc = 'Indian\'s {gGloves{x lies here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nosac', 'nolocate', 'noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 37 {
+  Name = 'campfire';
+  ShD = 'a campfire';
+  Desc = 'A campfire lies here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('glow', 'nocond');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 38 {
+  Name = 'Ice Knife';
+  ShD = 'An {bice knife{x';
+  Desc = 'A shimmering {bice knife{x lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('glow', 'nodrop', 'rotdeath', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'dagger', 0, 0, 'frbite', ('frost') );
+}
+Object 39 {
+  Name = 'Flame Blade';
+  ShD = 'A {rflame blade{x';
+  Desc = 'A glowing {rflame blade{x lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nodrop', 'rotdeath', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 0, 0, 'flbite', ('flaming') );
+}
+Object 40 {
+  Name = 'cloak sanctuary mystery weird quest';
+  ShD = 'a Cloak of {rM{gy{bs{mt{ce{yr{ry{x';
+  Desc = 'A shimmering cloak lies here.';
+  ItemType = 'armor';
+  Level = 0;
+  Weight = 10;
+  Cost = 50000;
+  Material = 'platinum';
+  ExtraFlags = ('glow', 'hum', 'staydeath', 'nodrop', 'nouncurse', 'donated', 'nolocate', 'nocond');
+  WearFlags = ('take', 'about');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'affects', 1, ('regeneration') ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'dexterity', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'constitution', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 20 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 20 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'affects', 1, ('sanctuary') ) );
+}
+Object 41 {
+  Name = 'token box';
+  ShD = 'Roland\'s {cBox{x';
+  Desc = 'Roland\'s {cBox{x lies here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nosac', 'nolocate', 'noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 42 {
+  Name = 'holy sword';
+  ShD = 'an {Wholy{x sword';
+  Desc = 'An {Wholy{x sword lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nodrop', 'rotdeath', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 0, 0, 'divine', ('holy') );
+}
+Object 43 {
+  Name = 'unholy blade';
+  ShD = 'an {Dunholy{x blade';
+  Desc = 'An {Dunholy{x blade lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('nodrop', 'rotdeath', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 0, 0, 'drain', ('vampiric') );
+}
+Object 44 {
+  Name = 'breastplate mystery weird quest';
+  ShD = 'a Breastplate of {rM{gy{bs{mt{ce{yr{ry{x';
+  Desc = 'A shining breastplate lies here.';
+  ItemType = 'armor';
+  Level = 0;
+  Weight = 10;
+  Cost = 50000;
+  Material = 'platinum';
+  ExtraFlags = ('glow', 'hum', 'staydeath', 'nodrop', 'nouncurse', 'donated', 'nolocate', 'nocond');
+  WearFlags = ('take', 'body');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'dexterity', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'constitution', 0, 1 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 20 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 20 ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'affects', 1, ('haste') ) );
+  Affect = ( 'none', -1, 0, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'affects', 1, ('pass_door') ) );
+}
+Object 50 {
+  Name = 'yo-yo';
+  ShD = 'your yo-yo';
+  Desc = 'Oxtal\'s yo-yo lies here';
+  ItemType = 'weapon';
+  Level = 10;
+  Weight = 2;
+  Cost = 300;
+  Material = 'unknown';
+  ExtraFlags = ('nouncurse');
+  WearFlags = ('take', 'wield');
+  Values = ( 'flail', 3, 6, 'cleave', ('none') );
+  Affect = ( 'none', -1, 10, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'dexterity', 0, 2 ) );
+}
+Object 51 {
+  Name = 'MournBlade';
+  ShD = 'mournblade';
+  Desc = 'You see mournblade... This sword is NOT for you';
+  ItemType = 'weapon';
+  Level = 108;
+  Weight = 100;
+  Cost = 800000;
+  Material = 'energy';
+  ExtraFlags = ('hum', 'dark', 'evil', 'rotdeath', 'burnproof', 'donated', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'sword', 54, 20, 'drain', ('frost', 'vampiric', 'sharp', 'vorpal', 'shocking', 'poison') );
+}
+Object 52 {
+  Name = 'sword belt';
+  ShD = 'a sword belt';
+  Desc = 'This Is The plowshare of Mournblade';
+  ItemType = 'container';
+  Level = 108;
+  Weight = 20;
+  Cost = 100000;
+  Material = 'unknown';
+  ExtraFlags = ('glow', 'bless', 'rotdeath', 'burnproof');
+  WearFlags = ('take', 'waist');
+  Values = ( 1000, ('none'), 0, 100, 0 );
+  Affect = ( 'none', -1, 108, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'AC', 0, -30 ) );
+}
+Object 60 {
+  Name = 'steak';
+  ShD = 'a steak';
+  Desc = 'A steak';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'unknown';
+  WearFlags = ('take');
+  Values = ( 0, 0, false );
+}
+Object 61 {
+  Name = 'pill';
+  ShD = 'a pill';
+  Desc = 'A little pill lies here on the ground.';
+  ItemType = 'pill';
+  Level = 1;
+  Weight = 5;
+  Cost = 0;
+  Material = 'unknown';
+  ExtraFlags = ('magic');
+  WearFlags = ('take');
+  Values = ( 0, 'none', 'none', 'none', 'none' );
+}
+Object 62 {
+  Name = 'a small piece of mithril';
+  ShD = 'a small piece of mithril';
+  Desc = 'A small black piece of metal lies here.';
+  ItemType = 'component';
+  Level = 1;
+  Weight = 20;
+  Cost = 5000;
+  Material = 'unknown';
+  WearFlags = ('take');
+  Values = ( 'mithril', 'none', 'none', 'none', 'none' );
+}
+Object 63 {
+  Name = 'a blade soulblade soul';
+  ShD = 'a soulblade';
+  Desc = 'A blade made with souls.';
+  ItemType = 'weapon';
+  Level = 1;
+  Weight = 20;
+  Cost = 0;
+  Material = 'unknown';
+  ExtraFlags = ('dark', 'magic', 'nodrop', 'antigood', 'nouncurse', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 0, 0, 'drain', ('vampiric', 'sharp') );
+}
+Object 64 {
+  Name = 'berry small a';
+  ShD = 'a small {rred{x berry';
+  Desc = 'A tiny {rred{x berry lies here.';
+  ItemType = 'food';
+  Level = 1;
+  Weight = 5;
+  Cost = 5;
+  Material = 'unknown';
+  ExtraFlags = ('nocond');
+  WearFlags = ('take');
+  Values = ( 20, 20, false );
+}
+Object 65 {
+  Name = 'skeleton';
+  ShD = 'a skeleton';
+  Desc = 'A rotting skeleton lies here.';
+  ItemType = 'npccorpse';
+  Level = 1;
+  Weight = 240;
+  Cost = 0;
+  Material = 'bone';
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 2, 0 );
+}
+Object 66 {
+  Name = 'spider web';
+  ShD = 'A sticky piece of spider web';
+  Desc = 'A sticky piece of spider web lies on the floor.';
+  ItemType = 'component';
+  Level = 1;
+  Weight = 5;
+  Cost = 300;
+  WearFlags = ('take');
+  Values = ( 'spider_web', 'none', 'none', 'none', 'none' );
+}
+Object 71 {
+  Name = 'sphere hovering';
+  ShD = 'an hovering sphere';
+  Desc = 'An hovering sphere hangs in the air.';
+  ItemType = 'container';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('magic', 'noremove', 'rotdeath', 'meltdrop', 'burnproof', 'nouncurse', 'noident', 'nocond');
+  WearFlags = ('take', 'wearfloat');
+  Values = ( 0, ('puton'), 0, 0, 0 );
+}
+Object 72 {
+  Name = 'holy symbol';
+  ShD = 'an holy symbol';
+  Desc = 'An holy symbol is here.';
+  ItemType = 'treasure';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'iron';
+  ExtraFlags = ('noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 73 {
+  Name = 'mystic boat';
+  ShD = 'a mystic boat';
+  Desc = 'A mystic boat lies on the ground.';
+  ItemType = 'boat';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  Material = 'energy';
+  ExtraFlags = ('noident');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 74 {
+  Name = 'spiritual hammer';
+  ShD = 'A {ySpiritual Hammer{x';
+  Desc = 'A shimmering hammer lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 50;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('glow', 'nodrop', 'rotdeath', 'nouncurse', 'noident', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 0, 0, 'pound', ('weighted') );
+}
+Object 75 {
+  Name = 'mind blade';
+  ShD = 'A {cMind Blade{x';
+  Desc = 'A humming blade lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 25;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('glow', 'nodrop', 'rotdeath', 'nouncurse', 'noident', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'exotic', 0, 0, 'slice', ('sharp') );
+}
+Object 76 {
+  Name = 'oaken staff gift nature';
+  ShD = 'An {gOaken Staff{x';
+  Desc = 'An oaken staff lies here.';
+  ItemType = 'weapon';
+  Level = 0;
+  Weight = 25;
+  Cost = 0;
+  Material = 'platinum';
+  ExtraFlags = ('glow', 'nodrop', 'rotdeath', 'nouncurse', 'noident', 'nocond');
+  WearFlags = ('take', 'wield');
+  Values = ( 'staff(weapon)', 0, 0, 'pound', ('twohands', 'weighted') );
+}
+Object 77 {
+  Name = 'empty potion';
+  ShD = 'An empty potion';
+  Desc = 'An potion lies here.';
+  ItemType = 'potion';
+  Level = 1;
+  Weight = 10;
+  Cost = 100;
+  Material = 'glass';
+  ExtraFlags = ('magic');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 'none', 'none', 'none', 'none' );
+}
+Object 78 {
+  Name = 'arrow';
+  ShD = 'An arrow';
+  Desc = 'An arrow lies here.';
+  ItemType = 'weapon';
+  Level = 1;
+  Weight = 5;
+  Cost = 0;
+  Material = 'wood';
+  WearFlags = ('take');
+  Values = ( 'arrow', 0, 0, 'pierce', ('none') );
+}
+Object 79 {
+  Name = 'bow';
+  ShD = 'A bow';
+  Desc = 'A bow lies here.';
+  ItemType = 'weapon';
+  Level = 1;
+  Weight = 5;
+  Cost = 0;
+  Material = 'wood';
+  Program = 'objtest2';
+  ExtraFlags = ('glow');
+  WearFlags = ('take', 'wield');
+  Values = ( 'ranged', 100, 10, 2, 3 );
+}
+Object 80 {
+  Name = 'map maze battlefield';
+  ShD = 'the map of the battlefield';
+  Desc = 'A rolled map is here.';
+  ItemType = 'map';
+  Level = 101;
+  Weight = 1;
+  Cost = 0;
+  Material = 'paper';
+  WearFlags = ('take', 'hold');
+  Values = ( 1, 0, 0, 0, 0 );
+  ExtraDescr = ( 'map', '               
+ *--*  *  *  * 
+ |     |  |  | 
+ *  *--*  *--* 
+ |  |     |    
+ *--*  *  *--* 
+ |     |     | 
+ *--*  *--*--* 
+ |        |    
+ *--*--*--*--* 
+
+  *    represents rooms.
+  - |  represents passages.
+');
+}
+Object 81 {
+  Name = 'vine ropelike';
+  ShD = 'a ropelike vine';
+  Desc = '{gWild vines{x has grown in the ground.';
+  ItemType = 'rope';
+  Level = 0;
+  Weight = 0;
+  Cost = 0;
+  ExtraFlags = ('magic');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 88 {
+  Name = 'ropelike vine';
+  ShD = 'a ropelike vine';
+  Desc = 'A thick, ropelike vine dangles from one of the trees, disappearing
+into the leafy foliage.';
+  ItemType = 'rope';
+  Level = 1;
+  Weight = 1;
+  Cost = 0;
+  Material = 'vine';
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 89 {
+  Name = 'reward crystal ball token';
+  ShD = 'A Crystal Reward Token';
+  Desc = 'A Crystal Reward Token is here.';
+  ItemType = 'trash';
+  Level = 1;
+  Weight = 1;
+  Cost = 1;
+  ExtraFlags = ('nodrop', 'noremove', 'nopurge', 'nosac', 'nouncurse', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take');
+  Values = ( 0, 0, 0, 0, 0 );
+}
+Object 90 {
+  Name = 'crystal ball one';
+  ShD = 'a small crystal ball with a I engraved';
+  Desc = 'A small crystal ball lies on the ground.';
+  ItemType = 'gem';
+  Level = 1;
+  Weight = 1;
+  Cost = 500;
+  Material = 'crystal';
+  Program = 'crystalBall';
+  ExtraFlags = ('nopurge', 'unique', 'nosac', 'burnproof', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'strength', 0, 2 ) );
+}
+Object 91 {
+  Name = 'crystal ball two';
+  ShD = 'a small crystal ball with a II engraved';
+  Desc = 'A small crystal ball lies on the ground.';
+  ItemType = 'gem';
+  Level = 1;
+  Weight = 1;
+  Cost = 500;
+  Material = 'crystal';
+  Program = 'crystalBall';
+  ExtraFlags = ('nopurge', 'unique', 'nosac', 'burnproof', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'intelligence', 0, 2 ) );
+}
+Object 92 {
+  Name = 'crystal ball three';
+  ShD = 'a small crystal ball with a III engraved';
+  Desc = 'A small crystal ball lies on the ground.';
+  ItemType = 'gem';
+  Level = 1;
+  Weight = 1;
+  Cost = 500;
+  Material = 'crystal';
+  Program = 'crystalBall';
+  ExtraFlags = ('nopurge', 'unique', 'nosac', 'burnproof', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'wisdom', 0, 2 ) );
+}
+Object 93 {
+  Name = 'crystal ball four';
+  ShD = 'a small crystal ball with a IV engraved';
+  Desc = 'A small crystal ball lies on the ground.';
+  ItemType = 'gem';
+  Level = 1;
+  Weight = 1;
+  Cost = 500;
+  Material = 'crystal';
+  Program = 'crystalBall';
+  ExtraFlags = ('nopurge', 'unique', 'nosac', 'burnproof', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'dexterity', 0, 2 ) );
+}
+Object 94 {
+  Name = 'crystal ball five';
+  ShD = 'a small crystal ball with a V engraved';
+  Desc = 'A small crystal ball lies on the ground.';
+  ItemType = 'gem';
+  Level = 1;
+  Weight = 1;
+  Cost = 500;
+  Material = 'crystal';
+  Program = 'crystalBall';
+  ExtraFlags = ('nopurge', 'unique', 'nosac', 'burnproof', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'constitution', 0, 2 ) );
+}
+Object 95 {
+  Name = 'crystal ball six';
+  ShD = 'a small crystal ball with a VI engraved';
+  Desc = 'A small crystal ball lies on the ground.';
+  ItemType = 'gem';
+  Level = 1;
+  Weight = 1;
+  Cost = 500;
+  Material = 'crystal';
+  Program = 'crystalBall';
+  ExtraFlags = ('nopurge', 'unique', 'nosac', 'burnproof', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'hitroll', 0, 15 ) );
+}
+Object 96 {
+  Name = 'crystal ball seven';
+  ShD = 'a small crystal ball with a VII engraved';
+  Desc = 'A small crystal ball lies on the ground.';
+  ItemType = 'gem';
+  Level = 1;
+  Weight = 1;
+  Cost = 500;
+  Material = 'crystal';
+  Program = 'crystalBall';
+  ExtraFlags = ('nopurge', 'unique', 'nosac', 'burnproof', 'nolocate', 'noident', 'nocond');
+  WearFlags = ('take', 'hold');
+  Values = ( 0, 0, 0, 0, 0 );
+  Affect = ( 'none', -1, 1, 0, ('nondispellable', 'permanent', 'inherent'),
+            ( 'char', 'damroll', 0, 15 ) );
+}
+Object 97 {
+  Name = 'puddle pool blood';
+  ShD = 'a puddle of blood';
+  Desc = 'A puddle of {rblood{x is on the ground.';
+  ItemType = 'fountain';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'unknown';
+  Values = ( 50, 50, 'blood' );
+}
+Object 98 {
+  Name = 'window';
+  ShD = 'a window';
+  Desc = 'A window to the Temple of Altar.';
+  ItemType = 'window';
+  Level = 1;
+  Weight = 0;
+  Cost = 0;
+  Material = 'unknown';
+  Values = ( 3001 );
+}
+
+
+//=======================================
+Room 1 {
+  Name = 'The Void';
+  Desc = 'You are floating in nothing.
+';
+  Sector = 'city';
+  Flags = ('no_mob', 'indoors');
+  MaxSize = 'giant';
+
+}
+Room 2 {
+  Name = 'Limbo';
+  Desc = 'You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+';
+  Sector = 'city';
+  Flags = ('indoors');
+  MaxSize = 'giant';
+  Exit = ( 4, '', '', ('none'), -1, 3001 );
+
+}
+Room 3 {
+  Name = 'The Battlefield Waiting Room';
+  Desc = 'You are in a large room. You are waiting the closing of the battlefield.
+There is no exit.
+';
+  Sector = 'inside';
+  Flags = ('no_mob', 'indoors', 'safe', 'no_recall', 'law');
+  MaxSize = 'giant';
+
+}
+Room 4 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 5 );
+  Exit = ( 2, '', '', ('none'), 0, 9 );
+  Reset = ( 'Z', 5, 5, 80 );
+
+}
+Room 5 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), 0, 4 );
+
+}
+Room 6 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 11 );
+
+}
+Room 7 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 12 );
+
+}
+Room 8 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 13 );
+
+}
+Room 9 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 4 );
+  Exit = ( 2, '', '', ('none'), 0, 14 );
+
+}
+Room 10 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 11 );
+  Exit = ( 2, '', '', ('none'), 0, 15 );
+
+}
+Room 11 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 6 );
+  Exit = ( 3, '', '', ('none'), 0, 10 );
+
+}
+Room 12 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 7 );
+  Exit = ( 1, '', '', ('none'), 0, 13 );
+  Exit = ( 2, '', '', ('none'), 0, 17 );
+
+}
+Room 13 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 8 );
+  Exit = ( 3, '', '', ('none'), 0, 12 );
+
+}
+Room 14 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 9 );
+  Exit = ( 1, '', '', ('none'), 0, 15 );
+  Exit = ( 2, '', '', ('none'), 0, 19 );
+
+}
+Room 15 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 10 );
+  Exit = ( 3, '', '', ('none'), 0, 14 );
+
+}
+Room 16 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 21 );
+
+}
+Room 17 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 12 );
+  Exit = ( 1, '', '', ('none'), 0, 18 );
+
+}
+Room 18 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 2, '', '', ('none'), 0, 23 );
+  Exit = ( 3, '', '', ('none'), 0, 17 );
+
+}
+Room 19 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 14 );
+  Exit = ( 1, '', '', ('none'), 0, 20 );
+  Exit = ( 2, '', '', ('none'), 0, 24 );
+
+}
+Room 20 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), 0, 19 );
+
+}
+Room 21 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 16 );
+  Exit = ( 1, '', '', ('none'), 0, 22 );
+
+}
+Room 22 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 23 );
+  Exit = ( 2, '', '', ('none'), 0, 27 );
+  Exit = ( 3, '', '', ('none'), 0, 21 );
+
+}
+Room 23 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 18 );
+  Exit = ( 3, '', '', ('none'), 0, 22 );
+
+}
+Room 24 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 19 );
+  Exit = ( 1, '', '', ('none'), 0, 25 );
+
+}
+Room 25 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 26 );
+  Exit = ( 3, '', '', ('none'), 0, 24 );
+
+}
+Room 26 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 1, '', '', ('none'), 0, 27 );
+  Exit = ( 3, '', '', ('none'), 0, 25 );
+  Reset = ( 'O', 98 );
+
+}
+Room 27 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 0, '', '', ('none'), 0, 22 );
+  Exit = ( 1, '', '', ('none'), 0, 28 );
+  Exit = ( 3, '', '', ('none'), 0, 26 );
+
+}
+Room 28 {
+  Name = 'A room';
+  Desc = 'You are in the battlefield.
+';
+  Sector = 'inside';
+  Flags = ('no_recall', 'arena');
+  MaxSize = 'giant';
+  Exit = ( 3, '', '', ('none'), 0, 27 );
+
+}
+Room 50 {
+  Name = 'Rebirth Room';
+  Desc = 'You are floating in nothing.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors', 'no_recall', 'nospell', 'noscan');
+  MaxSize = 'giant';
+
+}
+Room 51 {
+  Name = 'Remort Room';
+  Desc = 'You are floating in nothing.
+';
+  Sector = 'inside';
+  Flags = ('dark', 'no_mob', 'indoors', 'no_recall', 'nospell', 'noscan');
+  MaxSize = 'giant';
+
+}
+Room 99 {
+  Name = 'The Battlefield Waiting Room';
+  Desc = 'You are in the battlefield waiting room.
+';
+  Sector = 'inside';
+  Flags = ('no_mob');
+  MaxSize = 'giant';
+
+}
+
+
+//=======================================
+}
+

@@ -1,0 +1,1525 @@
+#Style Circle
+#AREADATA
+Name Duke Kalithorn's Keep~
+Builders Destiny~
+VNUMs 8600 8699
+Credits {{None}  CAW    Duke Kalithorn's Keep~
+Security 9
+Flags 0
+End
+
+
+#MOBILES
+
+#8601
+rat~
+a rat~
+A rat is chewing on an moldy piece of bread here.
+~
+   A rat is a small, black, greasy looking rodent with a tiny twitching nose.  
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+6 8 0
+BareHandAttack: 4
+E
+#8602
+moth~
+a moth~
+A dusty white moth beats her wings here.
+~
+   No longer than the first joint of a human finger, this tiny moth flits about
+looking for more cutains to chew upon.  
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#8603
+rat black~
+a rat~
+A rat is wiggling beneath the covers here.
+~
+   The rat is a fairly large black rodent with shiny black whiskers and a foul
+odor about him.  
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+E
+#8604
+rat~
+a small rat~
+A small rat is here, nibbling on something.
+~
+   This rat is a tiny specimen considering what else is roaming about this Keep.
+His eyes are shiny black and his coat is of a dark brown color.  
+~
+dg 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 0
+BareHandAttack: 4
+E
+#8605
+bandit~
+a bandit~
+A bandit is sleeping on the floor here.
+~
+   His skin is covered by about three layers of grime and has various scars all
+over his face.  The bandits clothing is ripped and riddled with lice and food.
+
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+5 8 1
+BareHandAttack: 11
+E
+#8606
+female bandit~
+a female bandit~
+A female bandit is here, looking for something to wear.
+~
+   This young woman is half dressed in one of Lady Kalithorn's old dusty
+dresses.  The dress has been ripped at the hem and is missing a sleeve.  The
+young woman is rummaging through her closet for a better one.  
+~
+bdg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 2
+BareHandAttack: 8
+E
+#8607
+bat~
+a bat~
+A bat is flapping about here.
+~
+   It looks like a flying rat!  
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 2
+E
+#8608
+mouse small grey~
+a mouse~
+A mouse is running about here, looking for a scrap of food.
+~
+   Small and grey this mouse looks a little on the thin side.  Its whiskers
+twitch quickly and it blinks rapidly.  
+~
+dg 0 0 E
+3 20 8 0d0+30 1d2+0
+30 900
+8 8 0
+E
+#8609
+stone guardian~
+the stone guardian~
+A stone guardian is fixed into the wall here.
+~
+   The guardian appears to be made of a chiseled marble.  A wonderous hand has
+chiseled out a most imposing carving.  The guardian's stone delinated muscles
+seem to quiver and its eyes almost shift.  Whomever set them here must have
+something to protect...  
+~
+bdglnpr 0 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 0
+BareHandAttack: 5
+E
+#8610
+Grand Duke Kalithorn~
+Grand Duke Kalithorn~
+Grand Duke Kalithorn is here, plotting his revenge.
+~
+   Clad in a long tunic and matching brown hose, Grand Duke Kalithorn is bent
+over his desk scribbling and mumbling to himself about his ultimate revenge upon
+the bandits who took his wife.  
+~
+bdgnpr h 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+6 8 1
+BareHandAttack: 3
+E
+#8611
+bandit man~
+a wandering bandit~
+A wandering bandit is here, staring off into the distance.
+~
+   Unshaved, scarred and generally unappealing to look at, a bandit, grins
+broadly as he stares off into the distance.  
+~
+dg 0 0 E
+10 19 4 2d2+100 1d2+1
+100 10000
+8 8 1
+BareHandAttack: 3
+E
+#8613
+dirty man bandit~
+a dirty bandit~
+A dirty bandit is standing here.
+~
+   Looks like this fella hasn't washed in a loooong time.  His stench alone
+could kill.  
+~
+dg 0 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+BareHandAttack: 13
+E
+#8614
+bandit man leader~
+the bandit leader~
+The leader of the bandits is here, writing something down.
+~
+   This bandit is at least somewhat clean as compared to the rest of the
+riff-raff.  His hair is bound back with a leather fillip and he appears to be
+writing something down in a notebook.  
+~
+bdgnpr 0 0 E
+14 18 1 2d2+140 2d2+2
+140 19600
+8 8 1
+BareHandAttack: 2
+E
+#8615
+young bandit~
+a young bandit~
+A young bandit is sneaking about here.
+~
+   This small, lanky bandit is hardly old enough to have hair on his face, yet
+he walks with the confidence of a much older individual.  The calluses on his
+hands prove that he knows his way around a sword.  
+~
+dgmn 0 0 E
+7 19 5 1d1+70 1d2+1
+70 4900
+8 8 1
+E
+#0
+
+#OBJECTS
+
+#8601
+swan~
+ceramic swan~
+A small ceramic swan sits here.~
+~
+15 0 0 0
+10 1 -1 0
+0 0 0 0
+E
+swan ceramic~
+   This small ceramic swan has a gently curving neck and slightly raised wings.
+The bill has been dipped in gold and the feathers are lightly brushed with gold
+as well.  There seems to be an opening between the slightly raised wings.    
+~
+#8602
+small key~
+a small key~
+A small gold key shines here.~
+~
+18 ac a 0
+0 0 0 0
+1 50 5 0
+E
+small gold key~
+   This small golden key has a singular word written upon it.  'home'
+~
+#8603
+small dagger~
+a small dagger~
+A small dagger is laying here.~
+~
+5 0 an 0
+5 1 5 11
+1 40 4 0
+#8610
+spider key~
+a spidery key~
+A silver spider shaped key is laying in the dust here.~
+~
+18 c a 0
+0 0 0 0
+1 50 5 0
+E
+silver small spider~
+   A small spider that appears to have been cast in solid silver.    
+~
+#8611
+picture Emily~
+a picture of emily~
+A tattered and faded picture lays on the floor here.~
+~
+2 0 a k
+12 1 -1 -1
+2 2 0 0
+E
+picture emily tattered faded~
+   Emily smiles out from this faded picture.  Her long curly chocolate colored
+hair has been painstakingly arranged and her features are astonishingly
+beautiful.    
+~
+#8612
+rusty short sword~
+a rusty short sword~
+A short sword is rusting here.~
+~
+5 0 an 0
+5 2 4 3
+2 100 10 0
+#8613
+dirty bracers~
+a pair of dirty bracers~
+Something dirty is laying here.~
+~
+9 0 ai 0
+2 0 0 0
+2 80 8 0
+#8614
+dresser~
+an old wooden dresser~
+An old wooden dresser is standing here, shakily.~
+~
+15 0 0 0
+100 1 -1 0
+0 0 0 0
+#8615
+long black whip~
+a long black whip~
+A long whip lays curled up here.~
+~
+5 p an 0
+7 3 4 2
+5 50 5 0
+#8616
+rock-shaped key~
+a rock-shaped key~
+An oddly shaped rock has been tossed away here.~
+~
+18 ce ao 0
+0 0 0 0
+2 100 10 0
+E
+stone rock odd~
+   Marked with various small knobs and rods, this rock is much different from
+the others that lay about on the ground.    
+~
+#8617
+formation~
+a rock formation~
+A rock formation is laying here, waiting~
+~
+15 0 0 0
+100 1 -1 0
+0 0 0 0
+E
+formation rock stone~
+   This largish rock formation rests at the end of the dirt path.  Some rocks
+are smooth while others are pockmarked with holes and divots where minerals
+have washed away.  There is a small hole between two of the smaller rocks.    
+~
+#8618
+bandit journal~
+a journal of the bandit~
+A bandit's journal lays open on the ground here.~
+~
+2 ch a 0
+12 2 -1 -1
+5 50 5 0
+E
+journal bandit~
+   I have traveled far in these last few months with little success in my
+ventures.  Even now, my comrades are investigating the ruins of Kalithorn's
+Keep in hopes of finding treasure or something that we can live off of for a
+while.  I found a strange book today with runes such as i have never seen.  I
+have copied them into this journal so that I may study them further.  I believe
+they are some kind of spell that will transport me to another place in this
+world, but I am unsure.    
+~
+#8619
+desk~
+a desk~
+A grand oaken desk is standing here.~
+~
+15 0 0 0
+1000 1 -1 0
+0 0 0 0
+E
+oaken desk~
+   This old oaken roll-top desk has seen many, many years of use.    
+~
+#8620
+piece jade~
+a piece of jade~
+A small sliver of jade is laying on the ground here.~
+~
+8 cd a 0
+0 0 0 0
+2 250 25 0
+E
+small jade~
+   This small piece of jade has been smoothed out to perfection by some loving
+hand.    
+~
+#0
+
+#ROOMS
+
+#8600
+Destiny's Zone Description Room~
+   Builder   : Destiny
+Zone         : 86 Duke Kalithorn's Keep
+Began        : 
+Player Level : 3-14
+Rooms        : 45
+Mobs         : 14
+Objects      : 14
+Shops        : 0
+Triggers     : 0
+Plot         : This will be the Keep of Grand Duke Kalithorn (it can be renamed
+   to fit into the mud..it was just something I came up with) a mercenary 
+   turned politician/good guy after his wife was kidnapped by bandits. The Duke 
+   swore that he would not rest until his wife was found and the bandits 
+
+   punished.so he is 'haunting' (for lack of a better word) the Keep.
+Links        : 60s, 01w
+Notes        : Within a forest or perhaps a little set back from a main road.
+   Neutral to slightly evil. Most of the mobs would be rats, bats and sprites 
+   which would be the evil aligned mobs. Kalithorn and his undead guards and
+   sentinels would be of neutral align. LOOK ZEDIT
+~
+86 j 0
+E
+zedit~
+   8603
+0 - Set door north as closed.
+04
+0 - Set door east as closed.
+1 - Set door south as closed.
+05
+0 - Load a bat [8607], Max : 5
+1 - Load a rat [8603], Max : 10
+06
+0 - Load a rat [8601], Max : 10
+07
+0 - Load a bat [8607], Max : 2
+08
+0 - Set door north as locked.
+1 - Load ceramic swan [8601], Max : 1
+2 -  then Put a small key [8602] in ceramic swan [8601], Max : 1
+09
+0 - Load a bat [8607], Max : 5
+10
+0 - Load a bat [8607], Max : 5
+14
+0 - Set door west as closed.
+16
+0 - Load a moth [8602], Max : 2
+20
+0 - Load a bat [8607], Max : 5
+21
+0 - Load the stone guardian [8609], Max : 10
+23
+0 - Load formation [8617], Max : 1
+1 -  then Put a rock-shaped key [8616] in formation [8617], Max : 1
+2 - Load a young bandit [8615], Max : 5
+24
+0 - Set door east as closed.
+1 - Set door west as closed.
+25
+0 - Set door up as closed.
+26
+0 - Load the bandit leader [8614], Max : 1
+1 -  then Equip with a long black whip [8615], Wielded, Max : 2
+2 -  then Give it a bandit's journal [8618], Max : 2
+3 - Load a young bandit [8615], Max : 5
+31
+0 - Load a rat [8601], Max : 2
+1 - Load a moth [8602], Max : 2
+2 - Load the stone guardian [8609], Max : 10
+34
+0 - Load a rat [8603], Max : 10
+39
+0 - Load a mouse [8608], Max : 2
+1 - Load a bat [8607], Max : 2
+2 - Load the stone guardian [8609], Max : 10
+40
+0 - Load the stone guardian [8609], Max : 2
+41
+0 - Load the stone guardian [8609], Max : 2
+1 -  then Give it a spidery key [8610], Max : 2
+46
+0 - Load a rat [8603], Max : 2
+47
+0 - Set door east as closed.
+48
+0 - Load a small rat [8604], Max : 3
+50
+0 - Load the stone guardian [8609], Max : 2
+1 - Load a mouse [8608], Max : 2
+51
+0 - Load the stone guardian [8609], Max : 2
+1 - Load a mouse [8608], Max : 2
+52
+0 - Load the stone guardian [8609], Max : 20
+53
+0 - Load Grand Duke Kalithorn [8610], Max : 1
+1 -  then Equip with a picture of emily [8611], Held, Max : 1
+2 - Load the stone guardian [8609], Max : 2
+3 - Load a desk [8619], Max : 1
+4 -  then Put a piece of jade [8620] in a desk [8619], Max : 100
+56
+0 - Load a wandering bandit [8611], Max : 10
+1 -  then Equip with a rusty short sword [8612], Held, Max : 10
+57
+0 - Load a bandit [8605], Max : 2
+1 -  then Equip with a small dagger [8603], Wielded, Max : 3
+2 - Load a dirty bandit [8613], Max : 5
+3 -  then Equip with a pair of dirty bracers [8613], Worn on arms, Max : 10
+58
+0 - Load a female bandit [8606], Max : 2
+1 - Load a rat [8601], Max : 5
+~
+S
+#8601
+A Dirt Road~
+   The trees part just north revealing an even smaller dirt road.  The road
+casually winds up the steep hill to a dark appearing Keep atop the hill.  
+Ravens call from the nearby trees and smoke can be seen to the north.  While a
+small muddy trail leads off to the west.    
+~
+86 a 4
+D0
+   The trees slowly inch back, revealing more of the road to the north.    
+~
+~
+0 0 8602
+D2
+~
+~
+0 0 8659
+E
+smoke~
+   Charcoal grey smoke rises straight and true from some chimney set deep into
+the heart of the Keep.    
+~
+S
+#8602
+A Dirt Road~
+   The small dirt path ends at the rusty remains of a once gilded fence.  The
+gates are half buried in the dust of the path and small vines have overtaken
+the spokes.  The vines have twined themselves tightly but do not hinder
+movement to the north.  The path also curves to the east and fades as it slopes
+down the steep hill.    
+~
+86 a 4
+D0
+   This old rusted wrought iron fence lays open to the north.    
+~
+door weathered wooden~
+1 0 8603
+D1
+   This small dirth path curves gently down a semi-steep hill to some sort of
+clearing.    
+~
+~
+0 0 8612
+D2
+   A dirt road twists off into the woods.    
+~
+~
+0 0 8601
+E
+fence gate ~
+   Old and weathered this wrought iron fence and its gate have seen many'a
+traveller.    
+~
+S
+#8603
+Before the Keep~
+   The rusty gates give way to a dark, imposing keep.  The weathered wooden
+doors hang on their hinges, neither inviting nor imparing entrance.  Thick dust
+lays everywhere and spiderwebs fill the corners dampening the sounds that come
+from deep within the keep.    
+~
+86 a 2
+D0
+   This old weather beaten wooden door barely keeps the weather and critters
+out.    
+~
+wooden weathered door~
+1 0 8604
+D2
+   A wrought iron fence leads out to a dirt path.    
+~
+~
+0 0 8602
+S
+#8604
+The Foyer~
+   Stepping into the foyer the smell of decay and dust is evident.  Pictures
+half hang on the walls and the curtains of the once grand windows lay in
+shambles.  Broken glass and the dusty remains of a pair of french doors are to
+the east.  The hallway continues on to the north.    
+~
+86 a 0
+D0
+   A small hallway continues on to the north.    
+~
+~
+0 0 8605
+D1
+   These french doors are rusty and barely holding themselves up.  They hang
+langerously from their hinges and groan with each passing breeze.    
+~
+french door~
+1 0 8614
+D2
+   Weather beaten and cracked this door barely blocks the critters that skitter
+about here from getting inside.    
+~
+wooden door weathered~
+1 0 8603
+S
+#8605
+Short Hallway~
+   This narrow hallway passes between the foyer and the once beautiful gentle
+curving stairway to the north.  Cobwebs and the chittering of the mice fill the
+hallway along with a nasty draft from the foyer.    
+~
+86 a 0
+D0
+~
+~
+0 0 8606
+D2
+~
+~
+0 0 8604
+S
+#8606
+Stairway~
+   A magnificent stairway leads upwards into the darkness of the keep here.  
+The marble is scratched and pockmarked with age but the stairs seem relatively
+safe.  The walls along the staircase are unevenly covered with gaudy striped
+wallpaper and the bannister is unsteady.  The hallway runs south from here and
+a large dining room is to the east.    
+~
+86 0 0
+D1
+   Travel eastward leads into the Dining Room.    
+~
+~
+0 0 8616
+D2
+   The hallway continues on in this direction.    
+~
+~
+0 0 8605
+D4
+   Ascending the staircase leads to a second floor, which is dark and
+foreboding.    
+~
+~
+0 0 8607
+S
+#8607
+Upstairs~
+   Atop the staircase lay two hallyways and a small alcove to the north.  One
+hallway extends to the east and the other to the west.  The scent of decay and
+rotting wood is stronger to the west, while a faint light seems to flicker to
+the east.    
+~
+86 a 0
+D0
+   A small alcove is nestled into the wall.    
+~
+~
+0 0 8608
+D1
+   A long, dark, hallway stretches out this way.    
+~
+~
+0 0 8617
+D3
+   A long dark hallway extends out this way.    
+~
+~
+0 0 8699
+D5
+   The stairs descend in this direction.    
+~
+~
+0 0 8606
+S
+#8608
+Alcove~
+   A huge, full-length mirror once hung from this crumbled alcove wall.  An
+enormous crack runs diagonally from the top left corner downwards to the bottom
+right corner, strangely doubling every image.  Along the gaudy golden frame
+there are many, many cracks and dents and the bottom left forner of the mirror
+has been broken off.  The wall paper had long ago cracked and peeled off the
+western wall, but the eastern wall still holds a small wooden shelf with a few
+cobweb covered books.    
+~
+86 a 0
+D0
+   This mirror is more than meets the shattered eye.    
+~
+mirror ~
+1 8602 8609
+D2
+   The hallway is dark and the faint outline of a bannister can barely be seen.
+  
+~
+~
+0 0 8607
+E
+mirror cracked corner~
+   A faint moldy, damp smell greets your nostrils as you bend closer.  Your
+image distorts further until you are nothing but a blur.    
+~
+E
+shelf~
+   A small wooden shelf hangs precariously from the faded and papered wall.  A
+few books, encrusted with cobwebs still remain.  Arms and Armour, The Armilana
+Defense to name a few.  There is a small cermaic swan on the top shelf that
+almost escaped your notice.    
+~
+S
+#8609
+Dim Flight of Stairs~
+   The mirror slides closed with an awful grating sound and all that is left is
+a long, slippery flight of badly made stairs.  Rats squeal somewhere far below,
+echoing hollowly in the empty space between.    
+~
+86 a 0
+D2
+~
+~
+1 8602 8608
+D5
+~
+~
+0 0 8610
+S
+#8610
+Dim Flight of Stairs~
+   The squeals and chitters of the rats are becoming closer and less hollow as
+the descent continues.  The moist smell of mildew and hundred year old mold is
+tart and hangs in the air like a miasma.  The walls are uneven and have a rough
+finish to them.    
+~
+86 a 0
+D4
+~
+~
+0 0 8609
+D5
+~
+~
+0 0 8620
+S
+#8611
+Dirt Path~
+   The trees are tall and have grown quite close together here.  Birds chirp
+and fill the air with the rustling of their feathers.  The path leads in two
+directions the east and west.  Tall hedges and a wrought iron fence prevent
+movement to the north and south.    
+~
+86 g 2
+D1
+   A dirt path winds along in this direction.    
+~
+~
+0 0 8622
+D3
+   A dirt path wanders in this direction.    
+~
+~
+0 0 8601
+S
+#8612
+Old Courtyard~
+   The path ends at the remains of an old stone courtyard.  The stones are
+cracked and piled to about waist height.  The dark stone facing of the Keep
+looms nearby and an old balcony can be seen just above the first floor windows.
+The trees have grown in about the old courtyard making travel in all directions
+impossible, save to the west.    
+~
+86 a 2
+D3
+~
+~
+0 0 8602
+S
+#8614
+The Grand Room~
+   This room was once the grand ballroom but now it is strewn with the remains
+of broken glass and wooden furniture.  The ceiling and walls are covered with
+cobwebs and flaking paint.  A hardwood table stands against the eastern wall
+with a massive candelabra at its center it, too, is tangled with cobwebs.  
+There is a bland looking door to the east and an open archway to the north.  
+The foyer is to the west.    
+~
+86 a 0
+D0
+   A beautiful archway continues on to the north.    
+~
+~
+0 0 8615
+D1
+   A small white painted door leads to the east.    
+~
+door~
+1 0 8624
+D3
+   A pair of weathered french doors lead back toward the foyer.    
+~
+french door~
+1 0 8604
+S
+#8615
+An Open Archway~
+   This grand archway was once gilded over with fine ornaments and hand painted
+designs, now it is flaking and faded.  Cobwebs hang like thin curtains from
+different points on the archway.  A small breath of air causes the cobwebs to
+shimmer and part for a moment.  There is a hazy light coming from the north and
+the grand ballroom is to the south.    
+~
+86 a 0
+D0
+   The Dining Room is just north of here.    
+~
+~
+0 0 8616
+D2
+   The grand ballroom is to the south.    
+~
+~
+0 0 8614
+S
+#8616
+Dining Room~
+   A huge oak and wrought iron table runs the length of this room.  Candlabras
+line the center of the tattered and moth eaten table linens.  Rat chewed chairs
+are perfectly placed at even intervals along the table.  Tremendous amounts of
+fabric lay in heaps along the outer walls and windows they, too, are chewed and
+moth eaten.  There is an intricate design on the eastern wall while another
+archway leads to the west.    
+~
+86 a 0
+D2
+   An open archway leads south to the grand ballroom.    
+~
+~
+0 0 8615
+D3
+   This archway opens up to a flight of slightly decreped stairs.    
+~
+~
+0 0 8606
+E
+intricate design~
+   This design is a complicated pattern of silver and wrought iron.  Curiously
+though it doesn't seem as rusted or faded as the rest of the Keep.    
+~
+S
+#8617
+Eastern Wing~
+   This hallway is clogged with dust and debris.  Torn paintings and broken
+pottery are strewn across the once beautiful hardwood floors and the thick
+striped wallpaper is peeling in great rends from the walls themselves.  Doors
+line this hallway and a faint light shines beneath the eastern most door.    
+~
+86 a 0
+D1
+   The hallway continues on into the darkness.    
+~
+~
+0 0 8627
+D3
+   The faint outline of stairs can be seen in this direction.    
+~
+~
+0 0 8607
+S
+#8620
+Bottom of the Stairs~
+   A giant curved doorway bars travel to the east.  It's surface is covered
+with strange symbols and bears a giagantic replica of the Grand Duke's coat of
+arms.  Large barrels lay stacked neatly next to the huge door and the rest of
+the floor is riddled with pockmarks and rat droppings.    
+~
+86 a 0
+D1
+~
+~
+0 0 8621
+D4
+~
+~
+0 0 8610
+E
+inscriptions doorway curved~
+   Strange runes cover the entire surface of the door frame.  The runes
+themselves are unintelligable but their mere presence seems to be a warning of
+what lays beyond.    
+~
+S
+#8621
+Caverns Beneath the Keep~
+   A long twisting pathway runs off into the darkness.  The scent of water
+grows stronger here and the rough hewn walls are covered with an unhealthy
+looking slime.  The caverns seem to extend deep into the earth beneath the Keep
+to the east.    
+~
+86 a 0
+D1
+~
+~
+0 0 8631
+D3
+~
+~
+0 0 8620
+S
+#8622
+Dirt Path~
+   The trees spread out a little allowing for small breezes to rustle through
+the leaves and sway some of the lighter branches along this dirt path.  A break
+in the foliage appears to the north and the dirt path continues on to the west.
+  
+~
+86 a 2
+D0
+   A small clearing lays beyond the tree break.    
+~
+~
+0 0 8623
+D3
+   The dirth path continues back this way.    
+~
+~
+0 0 8611
+S
+#8623
+End of the Dirt Path~
+   The dirt path abruptly ends here in the midst of the forest surrounding
+Grand Duke Kalithorn's Keep.  In every direction trees block the view and low
+growing raspberr and prickly rose bushes block further travel.  A small rock
+formation lay at the very edge of the path.    
+~
+86 aeg 2
+D2
+   A dirt path continues on in this direction.    
+~
+~
+0 0 8622
+D5
+   A large stone formation rests at the end of this path.  Curious holes and
+notches have been etched into the largest rock in the formation.    
+~
+formation stone hole notch door~
+2 8616 8625
+S
+#8624
+Butler's Pantry~
+   This is a small pantry which holds the dry goods for the kitchens.  The
+shelves are still fully stocked, but covered in three inches of dust and other
+assorted debris.  There is a small door to the east and west.    
+~
+86 a 0
+D1
+   Another white painted double hinged door leads toward the kitchens.    
+~
+white door hinged double~
+1 0 8634
+D3
+   A bland looking door leads back to the grand room.    
+~
+bland white door~
+1 0 8614
+S
+#8625
+Underground~
+   The heavy smell of fresh earth hangs in the air.  There are no sounds to be
+heard.  Thick wooden support posts keep the earth from caving into this small
+tunnel that leads forever downwards.  There is a wooden ladder that leads down
+and up.  
+~
+86 a 5
+D4
+   There is a large stone door above.    
+~
+stone door formation~
+1 8616 8623
+D5
+   The ladder extends down into the darkness of the earth.    
+~
+~
+0 0 8626
+E
+keg~
+   One of the two kegs is open and contains beer and a floating rat.  Eww!    
+~
+S
+#8626
+Bandit's Lair~
+   The earth has been cut away here to make a small room for the bandit's
+hide-a-way.  Bits of meat and pallets are strewn about here and the smell of
+the earth is overpowered by the rank stench of body odor.  Two kegs lay along
+the outer most wall between two thick wooden supports.    
+~
+86 a 0
+D4
+~
+~
+0 0 8625
+S
+#8627
+Eastern Wing~
+   The hardwood floor is scratched is this section of the eastern wing.  
+Pieces of glass and pottery grind underfoot and a huge urn lays shattered in
+its display alove along the northern wall.  Doors hang open to the north and
+south and the hallway continues on to the east.    
+~
+86 a 0
+D0
+   This sturdy looking oak door appears to be jammed shut.    
+~
+sturdy oak door~
+0 0 -1
+D1
+   The hallway continues on into the darkness.    
+~
+~
+0 0 8637
+D2
+   Large boards of weathered wood block this doorway.    
+~
+~
+0 0 -1
+D3
+   The hallway lightens in this direction.    
+~
+~
+0 0 8617
+E
+door oak sturdy~
+   This sturdy oak door appears to be jammed shut
+~
+S
+#8631
+Caverns~
+   The cavern walls are slick with slime and the floor itself is deeply scarred
+with pockmarks from falling water.  Stalagmites have grown down from the
+ceiling making travel difficult, but by no means impossible.  An odd hollow
+sound comes from deep within the carverns.    
+~
+86 a 0
+D1
+~
+~
+0 0 8641
+D3
+~
+~
+0 0 8621
+S
+#8634
+The Kitchens~
+   A massive blackened stove is set into the back wall of the kitchen.  Waist
+hight wooden tables run lengthwise, presumably for servants to prepare the food
+upon.  The rough stone walls are smeared with grease and soot from the years of
+cooking that occurred here.  A few platters piled with dust and rat droppings
+are scattered about this place.  The sole exit is to the west.    
+~
+86 a 0
+D3
+   This small white double hinged door leads out to the pantry.    
+~
+door~
+1 0 8624
+S
+#8636
+Sitting Room~
+   This must have been Lady Kalithorn's sitting room.  The pink drapes are moth
+eaten and lay in a heap at the base of the row of windows along the southern
+wall.  Chairs and small couches have been overturned and chewed to near pieces.
+An antique loom and its chair lay in fair condition against the western most
+wall while a grand harp rests in its stand in the middle of the sitting room.
+  
+~
+86 a 0
+D0
+~
+~
+0 0 8637
+E
+harp grand~
+   This grand harp stands one human man-height tall.  Alas, the strings have
+been snapped and lay uselessly against the floor.    
+~
+S
+#8637
+Eastern Wing~
+   Most of the hallway here has been ravaged by the elements and animals of the
+wilderness.  Evidence of chewing and small piles of rat droppings are
+everywhere.  Most of the walls have been stripped of their original wallpaper
+and the bare lath remains to be seen.  The door to the north has completely
+caved inwards and the frame is covered with a heavy spidery webbing, preventing
+passage.  There is an old oak door to the south and a faint light comes from
+beneath the eastern most door.    
+~
+86 a 0
+D1
+   The hallway ends in a stout paneled doorway.    
+~
+~
+0 0 8647
+D2
+   There is a faint light coming from this direction.    
+~
+~
+0 0 8636
+D3
+   The hallway recedes into the darkness.    
+~
+~
+0 0 8627
+S
+#8639
+Dead End~
+   This end of the cavern is extremely rough and unfinished.  The wall is
+covered with a reddish-green ooze and the water has pooled deeply at the far
+end of the passage.    
+~
+86 a 0
+D0
+~
+~
+0 0 8640
+S
+#8640
+Deeper Within the Caverns~
+   The whistling hollow sound is almost a dull roar as the cavern ahead opens
+up into a large anti-chamber.  Bones of unknown origin lay strewn about.  A few
+are reclining against the rough walls while others lay twisted and broken on
+the cavern floor.  Two exits are visible, one to the east and the other to the
+south.    
+~
+86 a 0
+D0
+~
+fence gate iron~
+1 0 8641
+D1
+~
+~
+0 0 8650
+D2
+~
+~
+0 0 8639
+S
+#8641
+Caverns~
+   The floor gently begins to slope into the earth here.  Pools of stagnant
+water fill the many holes in the floor and the same unhealthy looking slime
+coats the walls.  The hollow sound can still be heard whistling through the
+caverns.  There is an old wrought iron fence barring passage to the south.    
+~
+86 a 0
+D2
+   This is an old but strong wrought iron fence that reaches from floor to
+ceiling.  There seems to be a strangely shaped lock on the far right side of
+the gate.    
+~
+wrought iron old fence~
+1 8610 8640
+D3
+~
+~
+0 0 8631
+E
+fence wrought iron~
+   This fence reaches from the somewhat dry cavern floor straight to the
+ceiling.  There is a large spider-shaped lock on the far right bar.    
+~
+S
+#8646
+Servants Quarters~
+   Bunk beds made from stout wrist thick poles of wood stand in the far corners
+of this small room.  The pallets are made of planks of pitted and rotten wood
+with rat chewed bits of cloth over them.  Tattered blankets hang over the sides
+of each bunk and a moth eaten, ratty bed sheet covers the sole window on the
+southern wall.  A small wash basin lays atop a rough, handmade dresser which is
+missing its drawers in the eastern corner of the room.    
+~
+86 a 0
+D0
+~
+~
+0 0 8647
+E
+dresser wooden~
+   This old wooden dresser had four drawers in which the servants stored their
+meager clothing and uniforms.  However, only the top drawer reamins in tact
+after all this time.    
+~
+E
+basin wash~
+   This old and worm metallic basin couldn't hold water if it wanted too.    
+~
+S
+#8647
+Eastern Wing~
+   More smashed pots and ripped paintings litter the floor and walls in this
+section of the eastern wing The sound of the vermin shifting about is absent
+and the scent of rotting food and unwashed bodies hangs in the air.  Doors to
+the north and south have splashes of blood upon their surfaces and a faint
+light flickers underneath the paneled door to the east.    
+~
+86 a 0
+D0
+   The putrid scent of decay wafts in from the north.    
+~
+~
+0 0 8648
+D1
+   These ornately paneled thick wooden doors must be at least four handlengths
+wide.  The silvery doorknobs are a little tarnished.    
+~
+paneled door bedroom~
+1 0 8657
+D2
+   A small room is to the south.    
+~
+~
+0 0 8646
+D3
+~
+~
+0 0 8637
+S
+#8648
+Wash Room~
+   Bits of blood soaked clothing hang over almost every surface of this once
+white-washed bathing chamber.  The faucet drips continuously into a puddle of
+dingy looking water.  The mirrors have been smashed to bits and the bathing
+curtain that surrounded the clawfoot tub is torn in half.  The chamber pot has
+been used beyond its capacity more than once and lays in the furthest corner of
+the bathing room, seething with maggots.    
+~
+86 0 0
+D2
+~
+~
+0 0 8647
+S
+#8650
+Caverns~
+   The air is growing heavier with the scent of running water.  The murky
+mildew smell has receeded some and thankfully the walls no longer drip with
+slime.  The hollow sound eminates from a cavern not to far ahead as the sound
+has grown in both tone and pitch.    
+~
+86 a 0
+D1
+~
+~
+0 0 8651
+D3
+~
+~
+0 0 8640
+S
+#8651
+Caverns~
+   The floor of the cavern is getting softer with each passing cavern.  The
+scent of running water is a refreshing break from the damp murkiness of the
+caverns.  The walls here do not drip with slime, but rather trickle a steady
+flow of water over the calcified rocks and weave a trail toward the next
+cavern.    
+~
+86 a 0
+D1
+~
+~
+0 0 8652
+D3
+~
+~
+0 0 8650
+S
+#8652
+Caverns~
+   The scent of water and the hollow rushing sound are getting stronger and
+stronger with each passing cavern.  The walls are covered with yellowish-white
+calcium deposits and the floor, as well, is marked with tiny rivulets of the
+same deposit.    
+~
+86 a 0
+D1
+~
+~
+0 0 8653
+D3
+~
+~
+0 0 8651
+S
+#8653
+Open Cavern~
+   This cavern opens into a circular room with a cathedral ceiling.  The rock
+walls are smooth and covered with tapestries at random intervals.  Some bear
+scenes of battles, castles and another on the far east wall bears the likeness
+of Grand Duke Kalithorn himself!  A gently cascading waterfall is the source of
+the rushing noise that echoes through the other caverns.  It gently pours from
+the southern wall and the small pool reaches the midpoint of this room.    
+~
+86 a 0
+D3
+~
+~
+0 0 8652
+E
+waterfall~
+   Pouring gently from a few feet above the rough stone floor this waterfall
+splashes down and pools outward to the midpoint of this room.    
+~
+E
+face handsome tapestry~
+   This lovingly kept tapestry bears the handsome face of Grand Duke Kalithorn.
+His strong features and deep green eyes peer out, keeping watch over his Keep.
+In the bottom corner of the panel the letters E-M-I-L-Y is divinely embrodiered
+in siver flax.    
+~
+E
+castle tapestry~
+   Generously woven into this tapestry is the finest of threads.  This scene is
+of the taking of Demoria Castle.    
+~
+E
+old tapestry~
+   A masterpiece!  This tapestry depicts the famous battle of Ondor.    
+~
+E
+tapestry~
+   The tapestries hang at random intervals around the circular room.  The
+tapestry nearest depicts knights in battle.    
+~
+S
+#8656
+Balcony~
+   This second floor balcony looks out over the ornamental gardens of Kalithorn
+Keep.  Gardeners once scurried about weeding and tending to these once
+beautiful gardens, now they lay in an overgrown yet multi-colored mass.  Trees
+extend for miles in either direction and the dirt road that leads to the main
+gate is barely visible.  The wrought iron railing prevents its occupants from
+falling forward with it delicate scroll work and rusty strength.  The glass
+doors lead back into the master bedroom.    
+~
+86 a 0
+D0
+   These glass panels have been painstakingly etched with swirled patterns.  
+Half of the panels have been smashes beyond recognition and others are
+scratched and shattered.    
+~
+shattered glass door~
+1 0 8657
+S
+#8657
+Master Bedroom~
+   The hardwood floors of the hallway give way to thick, deep red carpeting.  
+An enormous king sized bed stands in the center of this huge master bedroom.  
+The bed curtains are the same deep red and have been tied off at the four
+posts.  The bed clothes are dusty and rumpled.  The walls are covered with
+ornamental tapestries that have faded over time and the red striped wallpaper
+is bubbled in spots and is peeling from the walls between them.  A medium sized
+closet stands open to the north and a pair of etched glass doors lead out to a
+balcony.    
+~
+86 a 0
+D0
+   A medium sized closet lays in this direction.    
+~
+~
+0 0 8658
+D2
+   The painstakingly stched glass paneled doors were once beautiful.  Now a few
+panels are shattered and the others are scratched beyond repair.    
+~
+shattered glass door~
+1 0 8656
+D3
+   These huge paneled doors must be at least four handlengths wide.  The panels
+depict scenes from various battles in history.  The silver handles are
+tarnished, but not too worn.    
+~
+paneled door ~
+1 0 8647
+E
+tapestries tapestry~
+   Most of the tapestries have faded beyond recognition but one singular
+tapestry nearest to the main doors proudly displays the Kalithorn coat of arm.
+  
+~
+E
+etched glass doors ~
+   The balcony doors are covered with eteched glass panels.  Some have been
+broken and others are scratched beyond repair.    
+~
+S
+#8658
+Bedroom Closet~
+   Cobwebbed and moth infested this closet once held the beautiful and numerous
+dresses of Lady Kalithorn.  Hangers dangle on the somewhat empty racks and
+rat-chewed shoes lay in haphazard piles along the floor.  Curiously, though,
+the row of boxes on the uppermost shelf seem untouched.  The master bedroom is
+to the south.    
+~
+86 a 0
+D2
+   The master bedroom lays in this direction.    
+~
+~
+0 0 8657
+S
+#8659
+A Dirt Road~
+   The path winds gently around fallen trees and brush.  To the north it begins
+to ascend up a hill.  The wind feels colder and the forest is quieter.  A
+disturbing silence fills this part of the woods.    
+~
+86 0 0
+D0
+~
+~
+0 0 8601
+D2
+~
+~
+0 0 8660
+E
+smoke~
+   Charcoal grey smoke rises straight and true from some chimney set deep into
+the heart of the Keep.    
+~
+S
+#8660
+A Dirt Road~
+   The woods around you consists mostly of pine and small fir.  Small animals
+can be heard, but not seen, scurrying away as you intrude upon their home.  
+The path is beginning to fade and recede back into the forest.    
+~
+86 0 0
+D0
+~
+~
+0 0 8659
+E
+smoke~
+   Charcoal grey smoke rises straight and true from some chimney set deep into
+the heart of the Keep.    
+~
+S
+#8699
+Western Wing~
+   The floorboards creak and groan dangerously underfoot.  The splintering of
+wood and the muffled sqeaks of rats and other unsavory creatures can be heard
+to the west.  Unfortunetly, the walls have caved in to the north and south.  
+To the west the floor slopes sharply downward into the darkness.    
+~
+86 ac 0
+D1
+~
+~
+0 0 8607
+S
+#0
+
+#RESETS
+M 0 8609 2 8640 	(the stone guardian)
+D 0 8640 0 1 	(Deeper Within the Caverns)
+M 0 8609 2 8641 	(the stone guardian)
+G 1 8610 2 -1 	(a spidery key)
+D 0 8641 2 1 	(Caverns)
+M 0 8607 5 8609 	(a bat)
+D 0 8609 2 1 	(Dim Flight of Stairs)
+M 0 8610 1 8653 	(Grand Duke Kalithorn)
+E 1 8611 1 17 	(a picture of emily)
+M 0 8609 2 8653 	(the stone guardian)
+O 0 8619 1 8653 	(a desk)
+P 1 8620 100 8619 	(a piece of jade)
+M 0 8608 2 8639 	(a mouse)
+M 0 8607 2 8639 	(a bat)
+M 0 8609 10 8639 	(the stone guardian)
+M 0 8609 10 8621 	(the stone guardian)
+M 0 8601 2 8631 	(a rat)
+M 0 8602 2 8631 	(a moth)
+M 0 8609 10 8631 	(the stone guardian)
+M 0 8601 10 8606 	(a rat)
+M 0 8607 5 8605 	(a bat)
+M 0 8603 10 8605 	(a rat)
+O 0 8617 1 8623 	(a rock formation)
+P 1 8616 1 8617 	(a rock-shaped key)
+M 0 8615 5 8623 	(a young bandit)
+M 0 8614 1 8626 	(the bandit leader)
+E 1 8615 2 16 	(a long black whip)
+G 1 8618 2 -1 	(a journal of the bandit)
+M 0 8615 5 8626 	(a young bandit)
+D 0 8625 4 1 	(Underground)
+M 0 8603 10 8634 	(a rat)
+D 0 8604 1 1 	(The Foyer)
+D 0 8604 2 1 	(The Foyer)
+D 0 8624 1 1 	(Butler's Pantry)
+D 0 8624 3 1 	(Butler's Pantry)
+D 0 8603 0 1 	(Before the Keep)
+M 0 8605 2 8657 	(a bandit)
+E 1 8603 3 16 	(a small dagger)
+M 0 8613 5 8657 	(a dirty bandit)
+E 1 8613 10 10 	(a pair of dirty bracers)
+M 0 8611 10 8656 	(a wandering bandit)
+E 1 8612 10 17 	(a rusty short sword)
+M 0 8609 20 8652 	(the stone guardian)
+M 0 8609 2 8651 	(the stone guardian)
+M 0 8608 2 8651 	(a mouse)
+M 0 8609 2 8650 	(the stone guardian)
+M 0 8608 2 8650 	(a mouse)
+M 0 8607 5 8620 	(a bat)
+M 0 8607 5 8610 	(a bat)
+M 0 8607 2 8607 	(a bat)
+D 0 8608 0 2 	(Alcove)
+O 0 8601 1 8608 	(ceramic swan)
+P 1 8602 1 8601 	(a small key)
+M 0 8606 2 8658 	(a female bandit)
+M 0 8601 5 8658 	(a rat)
+M 0 8604 3 8648 	(a small rat)
+M 0 8603 2 8646 	(a rat)
+M 0 8602 2 8616 	(a moth)
+D 0 8647 1 1 	(Eastern Wing)
+D 0 8614 3 1 	(The Grand Room)
+S
+
+
+#SHOPS
+
+CircleMUD v3.0 Shop File~
+0
+
+
+#$

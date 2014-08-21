@@ -1,0 +1,28 @@
+////script for AREA Circus
+//
+//#18700
+//Matrissa~
+//0 g 100
+//~
+//if (%actor.vnum% == -1)
+//   if (%direction% == north)
+//      say Welcome, %actor.name% come enjoy yourself in our wonderful circus.
+//   else
+//      say Leaving so soon %actor.name%? Hope you enjoyed your visit. 
+//   end
+//end
+//~
+//#18701
+//croc~
+//0 g 50
+//~
+//if (%actor.vnum% == -1)
+//say What do you think you are looking at punk?
+//end
+//~
+//#18702
+//Kablooey~
+//0 g 100
+//~
+//say Hi there, %actor.name% pull my finger!
+//~

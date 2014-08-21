@@ -1,0 +1,17 @@
+////script for AREA Camelot II
+//
+//#1600
+//Castle Radidan Portal~
+//2 c 100
+//enter~
+//if ("%arg%" == "portal")
+//   wsend %actor% You step through the mysterious portal.
+//   wechoaround %actor.name% %actor.name% steps through the mysterious portal.
+//   wteleport %actor% 3191
+//   wforce %actor% look
+//   wechoaround %actor.name% %actor.name% enters through the portal.
+//end
+//if ("%arg%" != "portal")
+//   wsend %actor% enter what?!
+//end
+//~
